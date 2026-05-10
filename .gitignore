@@ -1,0 +1,7 @@
+.DS_store
+.venv/
+.venv311/
+__pycache__/
+.generated_audio/
+*.cpu.opt.onnx
+*.cpu.opt.onnx.ok
