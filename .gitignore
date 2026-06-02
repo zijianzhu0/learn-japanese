@@ -1,7 +1,8 @@
-.DS_store
+.DS_Store
 .venv/
 .venv311/
 __pycache__/
 .generated_audio/
+models/
 *.cpu.opt.onnx
 *.cpu.opt.onnx.ok
