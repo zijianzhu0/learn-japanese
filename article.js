@@ -927,6 +927,48 @@ function waitForNextPaint() {
     });
 }
 
+function isRecordingPreviewMode() {
+    return new URLSearchParams(window.location.search).has('recording-preview');
+}
+
+async function fitRecordingPageText() {
+    const container = document.querySelector('.container');
+    if (!container) {
+        return;
+    }
+
+    document.body.style.removeProperty('--recording-title-size');
+    document.body.style.removeProperty('--recording-body-size');
+    document.body.style.removeProperty('--recording-body-line-height');
+    await waitForNextPaint();
+
+    const pageWidth = container.clientWidth || window.innerWidth;
+    let bodySize = Math.max(22, Math.min(58, pageWidth * 0.035));
+    let titleSize = bodySize * 1.32;
+    let lineHeight = 1.68;
+
+    const applySizes = () => {
+        document.body.style.setProperty('--recording-title-size', `${titleSize}px`);
+        document.body.style.setProperty('--recording-body-size', `${bodySize}px`);
+        document.body.style.setProperty('--recording-body-line-height', String(lineHeight));
+    };
+
+    applySizes();
+    await waitForNextPaint();
+
+    while (container.scrollHeight > container.clientHeight && bodySize > 12) {
+        bodySize -= 1;
+        titleSize = bodySize * 1.32;
+        if (bodySize < 18) {
+            lineHeight = 1.48;
+        } else if (bodySize < 22) {
+            lineHeight = 1.56;
+        }
+        applySizes();
+        await waitForNextPaint();
+    }
+}
+
 async function renderVideo() {
     const status = document.getElementById('copy-status');
     const renderButton = document.getElementById('render-video');
@@ -1003,6 +1045,9 @@ async function renderVideo() {
             activeMediaRecorder = null;
             recordingInProgress = false;
             document.body.classList.remove('recording-mode');
+            document.body.style.removeProperty('--recording-title-size');
+            document.body.style.removeProperty('--recording-body-size');
+            document.body.style.removeProperty('--recording-body-line-height');
             renderButton.textContent = 'Render Video';
             status.textContent = 'Video rendered and downloaded.';
         };
@@ -1010,6 +1055,7 @@ async function renderVideo() {
         recordingInProgress = true;
         document.body.classList.add('recording-mode');
         stopCurrentPlayback();
+        await fitRecordingPageText();
         await waitForNextPaint();
         activeMediaRecorder.start();
 
@@ -1031,6 +1077,9 @@ async function renderVideo() {
         activeMediaRecorder = null;
         recordingInProgress = false;
         document.body.classList.remove('recording-mode');
+        document.body.style.removeProperty('--recording-title-size');
+        document.body.style.removeProperty('--recording-body-size');
+        document.body.style.removeProperty('--recording-body-line-height');
         renderButton.textContent = 'Render Video';
         status.textContent = 'Video recording was cancelled or blocked.';
     }
@@ -1061,3 +1110,7 @@ decorateReadingContent();
 buildReadingUnits();
 buildSentenceMeta();
 populateBrowserVoiceOptions();
+if (isRecordingPreviewMode()) {
+    document.body.classList.add('recording-mode');
+    fitRecordingPageText();
+}
