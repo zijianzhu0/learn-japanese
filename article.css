@@ -363,8 +363,8 @@ body {
 }
 
 body.recording-mode {
-    --recording-page-width: min(100vw, calc(100vh * 1206 / 2622));
-    --recording-page-height: min(100vh, calc(100vw * 2622 / 1206));
+    --recording-page-width: min(100vw, calc(100vh * 16 / 9));
+    --recording-page-height: min(100vh, calc(100vw * 9 / 16));
     --recording-title-size: 44px;
     --recording-body-size: 33px;
     --recording-body-line-height: 1.68;
@@ -389,6 +389,7 @@ body.recording-mode .vocabulary-box {
 }
 body.recording-mode .article-shell {
     display: grid;
+    grid-template-columns: 1fr;
     place-items: center;
     width: 100vw;
     height: 100vh;

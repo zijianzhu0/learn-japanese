@@ -68,11 +68,11 @@ docker compose down
 
 ## Video Rendering
 
-`Render Video` records the current browser tab with sentence highlighting. During recording, the page switches to a fixed phone-page composition: navigation, toolbar controls, status text, translations, source notes, and vocabulary UI are hidden, and the Japanese article is fit onto one portrait page without scrolling.
+`Render Video` records the current browser tab with sentence highlighting. During recording, the page switches to a fixed 16:9 one-page composition: navigation, toolbar controls, status text, translations, source notes, and vocabulary UI are hidden, and the Japanese article is fit onto one page without scrolling.
 
 `Render Video` uses the selected `Voice Source`. With `Docker VOICEVOX` selected, video rendering prepares Docker TTS sentence audio first and uses it for narration. With `Browser Voice` selected, rendering uses browser speech playback.
 
-The recording page uses a `1206 x 2622` portrait aspect ratio and scales to the captured tab. Browser tab capture still controls the final video file dimensions, but the captured content is a centered one-page phone layout instead of a scrolling reading page.
+The recording page uses a centered `16:9` aspect ratio and scales to the captured tab. Browser tab capture still controls the final video file dimensions, but the captured content is a centered one-page layout instead of a scrolling reading page.
 
 To preview the recording layout without opening the capture prompt, add `?recording-preview=1` to any article URL.
 
