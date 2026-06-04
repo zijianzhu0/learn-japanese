@@ -1,4 +1,6 @@
 const recordingDownloadName = document.body.dataset.recordingDownloadName || 'article.webm';
+const localTtsSpeaker = 3;
+const silentAudioDataUrl = 'data:audio/wav;base64,UklGRigAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQQAAAAAgICA';
 const articleNavigation = [
     {
         "month": "May 2026",
@@ -199,6 +201,10 @@ let availableBrowserVoices = [];
 let recordingInProgress = false;
 let activeMediaRecorder = null;
 let activeRecordingStream = null;
+let localTtsPlaybackActive = false;
+let localTtsPlaybackRun = 0;
+let activeTtsAudioUrl = null;
+let localTtsAudioUnlocked = false;
 
 function extractRubyBaseText(element) {
     const clone = element.cloneNode(true);
@@ -453,6 +459,224 @@ function findUnitIndexById(unitId) {
     return -1;
 }
 
+function insertLocalTtsButton() {
+    const toolbar = document.querySelector('.article-toolbar');
+    const renderButton = document.getElementById('render-video');
+    if (!toolbar || !renderButton || document.getElementById('play-local-tts')) {
+        return;
+    }
+
+    const button = document.createElement('button');
+    button.className = 'local-tts-button';
+    button.type = 'button';
+    button.id = 'play-local-tts';
+    button.textContent = 'Docker TTS';
+    toolbar.insertBefore(button, renderButton);
+}
+
+function revokeActiveTtsAudioUrl() {
+    if (!activeTtsAudioUrl) {
+        return;
+    }
+
+    URL.revokeObjectURL(activeTtsAudioUrl);
+    activeTtsAudioUrl = null;
+}
+
+async function unlockLocalTtsAudio() {
+    const audioPlayer = document.getElementById('tts-player');
+    if (!audioPlayer || localTtsAudioUnlocked) {
+        return true;
+    }
+
+    const previousSrc = audioPlayer.getAttribute('src');
+    const previousMuted = audioPlayer.muted;
+    let unlocked = false;
+
+    try {
+        audioPlayer.muted = true;
+        audioPlayer.src = silentAudioDataUrl;
+        audioPlayer.load();
+        await audioPlayer.play();
+        audioPlayer.pause();
+        localTtsAudioUnlocked = true;
+        unlocked = true;
+    } catch (error) {
+        // Callers can show a clearer page-level message than the browser's play() error.
+    } finally {
+        audioPlayer.muted = previousMuted;
+        if (previousSrc) {
+            audioPlayer.src = previousSrc;
+        } else {
+            audioPlayer.removeAttribute('src');
+        }
+        audioPlayer.load();
+    }
+
+    return unlocked;
+}
+
+function getSentenceFirstUnitIndex(sentence) {
+    const firstUnitId = sentence.unitIds[0];
+    return findUnitIndexById(firstUnitId);
+}
+
+async function isLocalTtsAvailable() {
+    try {
+        const response = await fetch('/api/tts/voicevox/status', { cache: 'no-store' });
+        return response.ok;
+    } catch (error) {
+        return false;
+    }
+}
+
+async function fetchLocalTtsAudio(text) {
+    const response = await fetch('/api/tts/voicevox', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            text,
+            speaker: localTtsSpeaker
+        })
+    });
+
+    if (!response.ok) {
+        let errorMessage = `Docker TTS request failed with HTTP ${response.status}.`;
+        try {
+            const payload = await response.json();
+            if (payload.error) {
+                errorMessage = payload.error;
+            }
+        } catch (error) {
+            // Keep the HTTP status fallback if the response is not JSON.
+        }
+
+        throw new Error(errorMessage);
+    }
+
+    return response.blob();
+}
+
+async function buildLocalTtsAudioQueue(status) {
+    const audioBlobs = [];
+    for (let index = 0; index < sentenceMeta.length; index += 1) {
+        status.textContent = `Generating Docker TTS sentence ${index + 1}/${sentenceMeta.length}...`;
+        audioBlobs.push(await fetchLocalTtsAudio(sentenceMeta[index].text));
+    }
+
+    return audioBlobs;
+}
+
+function playLocalTtsAudioBlob(audioBlob, sentence, sentenceIndex, runId) {
+    const audioPlayer = document.getElementById('tts-player');
+    const status = document.getElementById('copy-status');
+
+    return new Promise((resolve, reject) => {
+        const cleanup = () => {
+            audioPlayer.onended = null;
+            audioPlayer.onerror = null;
+        };
+
+        audioPlayer.onended = () => {
+            cleanup();
+            clearHighlight();
+            resolve();
+        };
+        audioPlayer.onerror = () => {
+            cleanup();
+            clearHighlight();
+            reject(new Error('Docker TTS audio playback failed.'));
+        };
+
+        revokeActiveTtsAudioUrl();
+        activeTtsAudioUrl = URL.createObjectURL(audioBlob);
+        audioPlayer.src = activeTtsAudioUrl;
+        highlightUnit(getSentenceFirstUnitIndex(sentence));
+        status.textContent = `Playing Docker TTS sentence ${sentenceIndex + 1}/${sentenceMeta.length}.`;
+
+        audioPlayer.play().catch((error) => {
+            cleanup();
+            clearHighlight();
+            reject(error);
+        });
+    }).then(() => {
+        if (runId !== localTtsPlaybackRun) {
+            throw new Error('Docker TTS playback was stopped.');
+        }
+    });
+}
+
+async function playLocalTtsQueue({ audioBlobs = null, updateButton = true } = {}) {
+    const status = document.getElementById('copy-status');
+    const localTtsButton = document.getElementById('play-local-tts');
+    const runId = localTtsPlaybackRun + 1;
+
+    stopCurrentPlayback();
+    localTtsPlaybackRun = runId;
+    localTtsPlaybackActive = true;
+    if (updateButton && localTtsButton) {
+        localTtsButton.textContent = 'Stop Docker TTS';
+    }
+
+    try {
+        for (let index = 0; index < sentenceMeta.length; index += 1) {
+            if (!localTtsPlaybackActive || runId !== localTtsPlaybackRun) {
+                throw new Error('Docker TTS playback was stopped.');
+            }
+
+            const sentence = sentenceMeta[index];
+            const audioBlob = audioBlobs
+                ? audioBlobs[index]
+                : await fetchLocalTtsAudio(sentence.text);
+            await playLocalTtsAudioBlob(audioBlob, sentence, index, runId);
+        }
+
+        status.textContent = 'Finished Docker TTS reading.';
+    } finally {
+        if (runId === localTtsPlaybackRun) {
+            localTtsPlaybackActive = false;
+            clearHighlight();
+            revokeActiveTtsAudioUrl();
+            if (updateButton && localTtsButton) {
+                localTtsButton.textContent = 'Docker TTS';
+            }
+        }
+    }
+}
+
+async function playLocalTtsArticle() {
+    const status = document.getElementById('copy-status');
+
+    if (localTtsPlaybackActive) {
+        stopCurrentPlayback();
+        status.textContent = 'Docker TTS stopped.';
+        return;
+    }
+
+    try {
+        status.textContent = 'Preparing Docker TTS...';
+        await playLocalTtsQueue();
+    } catch (error) {
+        if (!String(error.message).includes('stopped')) {
+            status.textContent = error.message;
+        }
+    }
+}
+
+async function handleLocalTtsButtonClick() {
+    const status = document.getElementById('copy-status');
+    if (!localTtsPlaybackActive) {
+        const audioReady = await unlockLocalTtsAudio();
+        if (!audioReady) {
+            status.textContent = 'Browser blocked Docker TTS audio startup. Click Docker TTS again directly in the page.';
+            return;
+        }
+    }
+    await playLocalTtsArticle();
+}
+
 async function copyJapaneseArticle() {
     const status = document.getElementById('copy-status');
     const articleText = buildJapaneseArticleText();
@@ -473,11 +697,23 @@ function stopCurrentPlayback() {
         window.speechSynthesis.cancel();
         browserUtterance = null;
     }
-    audioPlayer.pause();
-    audioPlayer.currentTime = 0;
+    localTtsPlaybackActive = false;
+    localTtsPlaybackRun += 1;
+    revokeActiveTtsAudioUrl();
+    if (audioPlayer) {
+        audioPlayer.pause();
+        audioPlayer.removeAttribute('src');
+        audioPlayer.load();
+    }
     clearHighlight();
     speaking = false;
-    speakButton.textContent = 'Read Aloud';
+    if (speakButton) {
+        speakButton.textContent = 'Read Aloud';
+    }
+    const localTtsButton = document.getElementById('play-local-tts');
+    if (localTtsButton) {
+        localTtsButton.textContent = 'Docker TTS';
+    }
 }
 
 function speakWithBrowserSentenceQueue(onComplete = null) {
@@ -592,9 +828,28 @@ async function renderVideo() {
         return;
     }
 
+    const useLocalTts = await isLocalTtsAvailable();
+    let localTtsAudioBlobs = null;
+    if (useLocalTts) {
+        try {
+            localTtsAudioBlobs = await buildLocalTtsAudioQueue(status);
+        } catch (error) {
+            status.textContent = error.message;
+            return;
+        }
+    }
+
+    const stopRecorder = () => {
+        if (activeMediaRecorder && activeMediaRecorder.state !== 'inactive') {
+            activeMediaRecorder.stop();
+        }
+    };
+
     try {
         renderButton.textContent = 'Recording...';
-        status.textContent = 'Share the current tab and enable audio to record the highlighted reading.';
+        status.textContent = useLocalTts
+            ? 'Share the current tab and enable audio to record Docker TTS narration.'
+            : 'Share the current tab and enable audio to record the highlighted reading.';
         activeRecordingStream = await navigator.mediaDevices.getDisplayMedia({
             video: { frameRate: 30 },
             audio: true,
@@ -638,11 +893,16 @@ async function renderVideo() {
         document.body.classList.add('recording-mode');
         stopCurrentPlayback();
 
-        speakWithBrowserSentenceQueue(() => {
-            if (activeMediaRecorder && activeMediaRecorder.state !== 'inactive') {
-                activeMediaRecorder.stop();
-            }
-        });
+        if (useLocalTts) {
+            playLocalTtsQueue({ audioBlobs: localTtsAudioBlobs, updateButton: false })
+                .then(stopRecorder)
+                .catch((error) => {
+                    status.textContent = error.message;
+                    stopRecorder();
+                });
+        } else {
+            speakWithBrowserSentenceQueue(stopRecorder);
+        }
     } catch (error) {
         if (activeRecordingStream) {
             activeRecordingStream.getTracks().forEach((track) => track.stop());
@@ -656,11 +916,18 @@ async function renderVideo() {
     }
 }
 
+async function handleRenderVideoClick() {
+    await unlockLocalTtsAudio();
+    await renderVideo();
+}
+
 renderTopNavigation();
 renderArticleNavigation();
+insertLocalTtsButton();
 document.getElementById('copy-japanese-article')?.addEventListener('click', copyJapaneseArticle);
 document.getElementById('speak-japanese-article')?.addEventListener('click', speakJapaneseArticle);
-document.getElementById('render-video')?.addEventListener('click', renderVideo);
+document.getElementById('render-video')?.addEventListener('click', handleRenderVideoClick);
+document.getElementById('play-local-tts')?.addEventListener('click', handleLocalTtsButtonClick);
 if ('speechSynthesis' in window) {
     window.speechSynthesis.addEventListener('voiceschanged', populateBrowserVoiceOptions);
 }
