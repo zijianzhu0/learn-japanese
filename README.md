@@ -33,7 +33,7 @@ http://127.0.0.1:8765/index.html
 
 ## Browser Voice Playback
 
-Article pages keep the browser-voice flow available through `Read Aloud`.
+Article pages add a `Voice Source` dropdown to the toolbar. Choose `Browser Voice`, then use `Read Aloud` to play the article with the selected browser voice.
 
 The preferred browser voice is `Google 日本語` when the browser exposes it. If it is not available, the page falls back to another Japanese voice from the dropdown.
 
@@ -51,12 +51,14 @@ Then start the site server if it is not already running:
 python3 local_tts_server.py
 ```
 
-Article pages dynamically add a `Docker TTS` button. That path generates sentence-level WAV audio through the local server:
+Article pages add `Docker VOICEVOX` to the `Voice Source` dropdown. When selected, the toolbar shows a `Docker Voice` dropdown populated from VOICEVOX speakers and styles.
+
+The Docker path generates sentence-level WAV audio through the local server:
 
 - `GET /api/tts/voicevox/status`
 - `POST /api/tts/voicevox`
 
-The default speaker is VOICEVOX speaker `3`.
+The default speaker is VOICEVOX speaker `3`. Once VOICEVOX is reachable, `Read Aloud` and `Render Video` use the selected Docker speaker.
 
 Stop VOICEVOX when done:
 
@@ -68,7 +70,7 @@ docker compose down
 
 `Render Video` records the current browser tab with sentence highlighting.
 
-When VOICEVOX is running, video rendering prepares Docker TTS sentence audio first and uses it for narration. If VOICEVOX is unavailable, rendering falls back to browser speech playback.
+`Render Video` uses the selected `Voice Source`. With `Docker VOICEVOX` selected, video rendering prepares Docker TTS sentence audio first and uses it for narration. With `Browser Voice` selected, rendering uses browser speech playback.
 
 When the browser prompts for capture permissions:
 
@@ -104,8 +106,8 @@ Manual page checks:
 - desktop article navigation renders
 - mobile hamburger navigation renders
 - `Copy Japanese Article` excludes furigana text
-- `Read Aloud` highlights one sentence at a time
-- `Docker TTS` plays sentence audio when VOICEVOX is running
+- `Voice Source` switches between browser and Docker voice controls
+- `Read Aloud` highlights one sentence at a time with the selected source
 - `Render Video` hides the toolbar during recording and downloads a `.webm`
 
 ## Known Limitation

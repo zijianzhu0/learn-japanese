@@ -63,23 +63,6 @@ body.recording-mode .article-toolbar {
     cursor: pointer;
     transition: background-color 0.2s ease;
 }
-.local-tts-button {
-    border: none;
-    border-radius: 999px;
-    padding: 10px 14px;
-    font-size: 0.95rem;
-    font-weight: 600;
-    color: #fff;
-    background-color: #5b5f97;
-    cursor: pointer;
-    transition: background-color 0.2s ease;
-}
-.local-tts-button:hover {
-    background-color: #474b7c;
-}
-.local-tts-button:active {
-    background-color: #373a63;
-}
 .speak-button {
     border: none;
     border-radius: 999px;
