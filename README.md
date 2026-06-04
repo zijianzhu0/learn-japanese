@@ -1,0 +1,113 @@
+# Learn Japanese Reading Pages
+
+A small local Japanese reading site with article pages, furigana, browser speech playback, sentence highlighting, copy-to-clipboard, and browser-based recording.
+
+## Architecture
+
+- `index.html` is the reading archive and article index.
+- `2026-*.html` files are individual article pages.
+- `article-template.html` is the reusable article page template.
+- `article.css` contains shared article, toolbar, navigation, highlighting, and recording styles.
+- `article.js` contains shared article behavior:
+  - top and article navigation generation
+  - furigana-safe text extraction
+  - sentence splitting and highlighting
+  - copy-to-clipboard
+  - browser `speechSynthesis` playback
+  - Docker VOICEVOX TTS playback
+  - tab recording flow for video export
+- `local_tts_server.py` serves the static site on `127.0.0.1:8765` and proxies local VOICEVOX requests.
+- `docker-compose.yml` starts the local VOICEVOX engine on `127.0.0.1:50021`.
+
+## Run The Site
+
+```bash
+python3 local_tts_server.py
+```
+
+Open:
+
+```text
+http://127.0.0.1:8765/index.html
+```
+
+## Browser Voice Playback
+
+Article pages keep the browser-voice flow available through `Read Aloud`.
+
+The preferred browser voice is `Google 日本語` when the browser exposes it. If it is not available, the page falls back to another Japanese voice from the dropdown.
+
+## Docker VOICEVOX TTS
+
+Start VOICEVOX:
+
+```bash
+docker compose up -d voicevox
+```
+
+Then start the site server if it is not already running:
+
+```bash
+python3 local_tts_server.py
+```
+
+Article pages dynamically add a `Docker TTS` button. That path generates sentence-level WAV audio through the local server:
+
+- `GET /api/tts/voicevox/status`
+- `POST /api/tts/voicevox`
+
+The default speaker is VOICEVOX speaker `3`.
+
+Stop VOICEVOX when done:
+
+```bash
+docker compose down
+```
+
+## Video Rendering
+
+`Render Video` records the current browser tab with sentence highlighting.
+
+When VOICEVOX is running, video rendering prepares Docker TTS sentence audio first and uses it for narration. If VOICEVOX is unavailable, rendering falls back to browser speech playback.
+
+When the browser prompts for capture permissions:
+
+- share the current tab
+- enable tab audio if the browser offers it
+
+## Verification
+
+Basic checks:
+
+```bash
+node --check article.js
+python3 -m py_compile local_tts_server.py
+docker compose config
+```
+
+VOICEVOX proxy smoke test:
+
+```bash
+curl -s -i http://127.0.0.1:8765/api/tts/voicevox/status
+curl -s -f \
+  -H 'Content-Type: application/json' \
+  -X POST \
+  --data '{"text":"今日はテストです。","speaker":3}' \
+  http://127.0.0.1:8765/api/tts/voicevox \
+  -o /tmp/learn-japanese-voicevox-test.wav
+```
+
+Manual page checks:
+
+- archive page loads without console errors
+- article page top navigation renders
+- desktop article navigation renders
+- mobile hamburger navigation renders
+- `Copy Japanese Article` excludes furigana text
+- `Read Aloud` highlights one sentence at a time
+- `Docker TTS` plays sentence audio when VOICEVOX is running
+- `Render Video` hides the toolbar during recording and downloads a `.webm`
+
+## Known Limitation
+
+Browser `speechSynthesis` audio is not reliably capturable as tab audio. The Docker VOICEVOX path exists to test file-backed narration for more reliable video export audio.
