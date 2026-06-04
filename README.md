@@ -68,9 +68,11 @@ docker compose down
 
 ## Video Rendering
 
-`Render Video` records the current browser tab with sentence highlighting.
+`Render Video` records the current browser tab with sentence highlighting. During recording, the page switches to a mobile portrait text-only layout: navigation, toolbar controls, status text, translations, source notes, and vocabulary UI are hidden.
 
 `Render Video` uses the selected `Voice Source`. With `Docker VOICEVOX` selected, video rendering prepares Docker TTS sentence audio first and uses it for narration. With `Browser Voice` selected, rendering uses browser speech playback.
+
+For a vertical mobile export, size the browser capture tab to a portrait viewport such as `1206 x 2622` before starting `Render Video`. The recording CSS is optimized for that 6-inch-screen style layout, but browser tab capture controls the final pixel dimensions.
 
 When the browser prompts for capture permissions:
 
@@ -108,7 +110,7 @@ Manual page checks:
 - `Copy Japanese Article` excludes furigana text
 - `Voice Source` switches between browser and Docker voice controls
 - `Read Aloud` highlights one sentence at a time with the selected source
-- `Render Video` hides the toolbar during recording and downloads a `.webm`
+- `Render Video` switches to text-only recording mode and downloads a `.webm`
 
 ## Known Limitation
 

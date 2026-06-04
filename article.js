@@ -919,6 +919,14 @@ function chooseRecorderMimeType() {
     return candidates.find((type) => MediaRecorder.isTypeSupported(type)) || '';
 }
 
+function waitForNextPaint() {
+    return new Promise((resolve) => {
+        requestAnimationFrame(() => {
+            requestAnimationFrame(resolve);
+        });
+    });
+}
+
 async function renderVideo() {
     const status = document.getElementById('copy-status');
     const renderButton = document.getElementById('render-video');
@@ -999,10 +1007,11 @@ async function renderVideo() {
             status.textContent = 'Video rendered and downloaded.';
         };
 
-        activeMediaRecorder.start();
         recordingInProgress = true;
         document.body.classList.add('recording-mode');
         stopCurrentPlayback();
+        await waitForNextPaint();
+        activeMediaRecorder.start();
 
         if (useLocalTts) {
             playLocalTtsQueue({ audioBlobs: localTtsAudioBlobs, updateButton: false })
