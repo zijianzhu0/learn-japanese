@@ -81,6 +81,7 @@ The generator updates:
 - Docker VOICEVOX playback through the local server:
   - `GET /api/tts/voicevox/status`
   - `POST /api/tts/voicevox`
+- Voice source, browser voice, and Docker speaker preferences persist across refreshes and article pages.
 - Sentence-level highlighting during playback.
 - Furigana-safe article copy.
 - Vertical one-page recording layout for `Render Video`.

@@ -1,6 +1,11 @@
 const recordingDownloadName = document.body.dataset.recordingDownloadName || 'article.webm';
 const defaultLocalTtsSpeaker = 3;
 const silentAudioDataUrl = 'data:audio/wav;base64,UklGRigAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQQAAAAAgICA';
+const voicePreferenceKeys = {
+    source: 'learnJapanese.voiceSource',
+    browserVoice: 'learnJapanese.browserVoice',
+    dockerSpeaker: 'learnJapanese.dockerSpeaker'
+};
 const articleNavigation = [
     {
         "month": "May 2026",
@@ -115,6 +120,22 @@ function escapeHtml(value) {
         '"': '&quot;',
         "'": '&#39;'
     }[character]));
+}
+
+function readVoicePreference(key) {
+    try {
+        return window.localStorage.getItem(key);
+    } catch (error) {
+        return null;
+    }
+}
+
+function writeVoicePreference(key, value) {
+    try {
+        window.localStorage.setItem(key, value);
+    } catch (error) {
+        // Private browsing or storage policy restrictions should not block playback.
+    }
 }
 
 function topNavLink(href, label, title, icon) {
@@ -393,6 +414,7 @@ function populateBrowserVoiceOptions() {
     const voices = window.speechSynthesis.getVoices().filter((voice) => voice.lang === 'ja-JP');
     availableBrowserVoices = voices;
 
+    const savedValue = readVoicePreference(voicePreferenceKeys.browserVoice);
     const previousValue = select.value;
     select.innerHTML = '';
 
@@ -417,7 +439,9 @@ function populateBrowserVoiceOptions() {
         select.appendChild(option);
     });
 
-    if ([...select.options].some((option) => option.value === previousValue)) {
+    if (savedValue && [...select.options].some((option) => option.value === savedValue)) {
+        select.value = savedValue;
+    } else if ([...select.options].some((option) => option.value === previousValue)) {
         select.value = previousValue;
     } else if ([...select.options].some((option) => option.value === 'Google 日本語')) {
         select.value = 'Google 日本語';
@@ -512,7 +536,12 @@ function insertVoiceSourceControls() {
         '<option value="browser" selected>Browser Voice</option>',
         '<option value="docker">Docker VOICEVOX</option>'
     ].join('');
+    const savedSource = readVoicePreference(voicePreferenceKeys.source);
+    if (savedSource === 'browser' || savedSource === 'docker') {
+        sourceSelect.value = savedSource;
+    }
     sourceSelect.addEventListener('change', () => {
+        writeVoicePreference(voicePreferenceKeys.source, getSelectedVoiceSource());
         updateVoiceControlVisibility();
         if (getSelectedVoiceSource() === 'docker') {
             populateLocalTtsVoiceOptions();
@@ -529,12 +558,22 @@ function insertVoiceSourceControls() {
     dockerVoice.id = 'docker-voice';
     dockerVoice.setAttribute('aria-label', 'Docker VOICEVOX voice');
     dockerVoice.innerHTML = `<option value="${defaultLocalTtsSpeaker}" selected>VOICEVOX speaker ${defaultLocalTtsSpeaker}</option>`;
+    const savedSpeaker = readVoicePreference(voicePreferenceKeys.dockerSpeaker);
+    if (savedSpeaker) {
+        dockerVoice.value = savedSpeaker;
+    }
+    dockerVoice.addEventListener('change', () => {
+        writeVoicePreference(voicePreferenceKeys.dockerSpeaker, dockerVoice.value);
+    });
 
     toolbar.insertBefore(sourceLabel, browserVoiceLabel);
     toolbar.insertBefore(sourceSelect, browserVoiceLabel);
     toolbar.insertBefore(dockerVoiceLabel, browserVoice.nextSibling);
     toolbar.insertBefore(dockerVoice, dockerVoiceLabel.nextSibling);
     updateVoiceControlVisibility();
+    if (getSelectedVoiceSource() === 'docker') {
+        populateLocalTtsVoiceOptions();
+    }
 }
 
 function revokeActiveTtsAudioUrl() {
@@ -604,6 +643,7 @@ async function populateLocalTtsVoiceOptions() {
 
     try {
         const payload = await fetchLocalTtsStatus();
+        const savedValue = readVoicePreference(voicePreferenceKeys.dockerSpeaker);
         const previousValue = select.value;
         const options = [];
         payload.speakers.forEach((speaker) => {
@@ -623,7 +663,9 @@ async function populateLocalTtsVoiceOptions() {
             select.appendChild(option);
         });
 
-        if ([...select.options].some((option) => option.value === previousValue)) {
+        if (savedValue && [...select.options].some((option) => option.value === savedValue)) {
+            select.value = savedValue;
+        } else if ([...select.options].some((option) => option.value === previousValue)) {
             select.value = previousValue;
         } else if ([...select.options].some((option) => option.value === String(payload.default_speaker))) {
             select.value = String(payload.default_speaker);
@@ -1157,6 +1199,9 @@ async function handleRenderVideoClick() {
 renderTopNavigation();
 renderArticleNavigation();
 insertVoiceSourceControls();
+document.getElementById('browser-voice')?.addEventListener('change', (event) => {
+    writeVoicePreference(voicePreferenceKeys.browserVoice, event.target.value);
+});
 document.getElementById('copy-japanese-article')?.addEventListener('click', copyJapaneseArticle);
 document.getElementById('speak-japanese-article')?.addEventListener('click', speakJapaneseArticle);
 document.getElementById('render-video')?.addEventListener('click', handleRenderVideoClick);

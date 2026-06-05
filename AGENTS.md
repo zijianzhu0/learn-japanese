@@ -46,6 +46,7 @@ Article pages support:
 - copy-to-clipboard without `rt` furigana text
 - browser `speechSynthesis` playback
 - Docker VOICEVOX playback through the local server
+- persisted voice source, browser voice, and Docker speaker preferences
 - sentence-level highlighting
 - icon-only top navigation
 - desktop and mobile article navigation
