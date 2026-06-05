@@ -16,19 +16,32 @@ A small local Japanese reading site with article pages, furigana, browser speech
   - browser `speechSynthesis` playback
   - Docker VOICEVOX TTS playback
   - tab recording flow for video export
-- `local_tts_server.py` serves the static site on `127.0.0.1:8765` and proxies local VOICEVOX requests.
-- `docker-compose.yml` starts the local VOICEVOX engine on `127.0.0.1:50021`.
+- `local_tts_server.py` serves the static site on `127.0.0.1:8765`, proxies VOICEVOX requests, and converts recordings to MP4 with `ffmpeg`.
+- `Dockerfile` packages the site server and MP4 converter with `ffmpeg`.
+- `docker-compose.yml` starts both the web server/converter and the local VOICEVOX engine.
 
 ## Run The Site
 
 ```bash
-python3 local_tts_server.py
+docker compose up --build
 ```
 
 Open:
 
 ```text
 http://127.0.0.1:8765/index.html
+```
+
+To stop everything:
+
+```bash
+docker compose down
+```
+
+Local Python development still works if `ffmpeg` is installed:
+
+```bash
+python3 local_tts_server.py
 ```
 
 ## Browser Voice Playback
@@ -39,16 +52,10 @@ The preferred browser voice is `Google 日本語` when the browser exposes it. I
 
 ## Docker VOICEVOX TTS
 
-Start VOICEVOX:
+Start the full Docker stack:
 
 ```bash
-docker compose up -d voicevox
-```
-
-Then start the site server if it is not already running:
-
-```bash
-python3 local_tts_server.py
+docker compose up --build
 ```
 
 Article pages add `Docker VOICEVOX` to the `Voice Source` dropdown. When selected, the toolbar shows a `Docker Voice` dropdown populated from VOICEVOX speakers and styles.
@@ -60,7 +67,7 @@ The Docker path generates sentence-level WAV audio through the local server:
 
 The default speaker is VOICEVOX speaker `3`. Once VOICEVOX is reachable, `Read Aloud` and `Render Video` use the selected Docker speaker.
 
-Stop VOICEVOX when done:
+Stop the stack when done:
 
 ```bash
 docker compose down

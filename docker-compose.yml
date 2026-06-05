@@ -1,4 +1,13 @@
 services:
+  web:
+    build: .
+    ports:
+      - "127.0.0.1:8765:8765"
+    environment:
+      VOICEVOX_BASE_URL: "http://voicevox:50021"
+    depends_on:
+      - voicevox
+
   voicevox:
     image: voicevox/voicevox_engine:cpu-latest
     ports:

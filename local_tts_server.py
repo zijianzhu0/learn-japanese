@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import shutil
 import subprocess
 import tempfile
@@ -12,10 +13,10 @@ from pathlib import Path
 from urllib import error, parse, request
 
 
-DEFAULT_HOST = "127.0.0.1"
-DEFAULT_PORT = 8765
+DEFAULT_HOST = os.environ.get("HOST", "127.0.0.1")
+DEFAULT_PORT = int(os.environ.get("PORT", "8765"))
 PROJECT_DIR = Path(__file__).resolve().parent
-VOICEVOX_BASE_URL = "http://127.0.0.1:50021"
+VOICEVOX_BASE_URL = os.environ.get("VOICEVOX_BASE_URL", "http://127.0.0.1:50021")
 DEFAULT_VOICEVOX_SPEAKER = 3
 MAX_TTS_TEXT_CHARS = 500
 MAX_VIDEO_UPLOAD_BYTES = 700 * 1024 * 1024
