@@ -1,0 +1,61 @@
+{
+  "id": "2026-05-22-hydrogen-port",
+  "file": "2026-05-22-hydrogen-port.html",
+  "title": "港で水素燃料の実証実験が始まる",
+  "date": "2026年5月22日",
+  "month": "May 2026",
+  "navLabel": "5/22 港で水素燃料",
+  "level": "N3",
+  "downloadFileName": "2026-05-22-hydrogen-port.mp4",
+  "headlineHtml": "<ruby>港<rt>みなと</rt></ruby>で<ruby>水素<rt>すいそ</rt></ruby><ruby>燃料<rt>ねんりょう</rt></ruby>の<ruby>実証実験<rt>じっしょうじっけん</rt></ruby>が<ruby>始<rt>はじ</rt></ruby>まる",
+  "sourceNote": "2026年5月22日の話題をもとにしたN3レベルの学習用ページです。",
+  "paragraphs": [
+    {
+      "html": "<ruby>関西<rt>かんさい</rt></ruby>の<ruby>大<rt>おお</rt></ruby>きな<ruby>港<rt>みなと</rt></ruby>で、<ruby>水素<rt>すいそ</rt></ruby>を<ruby>使<rt>つか</rt></ruby>う<ruby>新<rt>あたら</rt></ruby>しい<ruby>船<rt>ふね</rt></ruby>の<ruby>実証実験<rt>じっしょうじっけん</rt></ruby>が<ruby>始<rt>はじ</rt></ruby>まりました。<ruby>港<rt>みなと</rt></ruby>を<ruby>管理<rt>かんり</rt></ruby>する<ruby>会社<rt>かいしゃ</rt></ruby>は、<ruby>環境<rt>かんきょう</rt></ruby>にやさしい<ruby>輸送<rt>ゆそう</rt></ruby>の<ruby>方法<rt>ほうほう</rt></ruby>を<ruby>増<rt>ふ</rt></ruby>やしたいと<ruby>考<rt>かんが</rt></ruby>えています。",
+      "translation": "A large port in Kansai has started a test of a new ship that uses hydrogen. The port operator wants to expand environmentally friendly transport methods."
+    },
+    {
+      "html": "この<ruby>船<rt>ふね</rt></ruby>は、ふつうの<ruby>燃料<rt>ねんりょう</rt></ruby>よりも<ruby>二酸化炭素<rt>にさんかたんそ</rt></ruby>を<ruby>少<rt>すく</rt></ruby>なくできることが<ruby>期待<rt>きたい</rt></ruby>されています。<ruby>実験<rt>じっけん</rt></ruby>では、<ruby>短<rt>みじか</rt></ruby>い<ruby>距離<rt>きょり</rt></ruby>を<ruby>何度<rt>なんど</rt></ruby>も<ruby>走<rt>はし</rt></ruby>って、<ruby>安全<rt>あんぜん</rt></ruby>や<ruby>使<rt>つか</rt></ruby>いやすさを<ruby>調<rt>しら</rt></ruby>べます。",
+      "translation": "The ship is expected to produce less carbon dioxide than conventional fuel. In the test, it will make repeated short trips so people can check safety and practicality."
+    },
+    {
+      "html": "<ruby>港<rt>みなと</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くには、<ruby>水素<rt>すいそ</rt></ruby>をためる<ruby>設備<rt>せつび</rt></ruby>や、<ruby>船<rt>ふね</rt></ruby>に<ruby>入<rt>い</rt></ruby>れるための<ruby>装置<rt>そうち</rt></ruby>も<ruby>用意<rt>ようい</rt></ruby>されました。<ruby>関係者<rt>かんけいしゃ</rt></ruby>は、<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>貨物船<rt>かもつせん</rt></ruby>や<ruby>作業船<rt>さぎょうせん</rt></ruby>にもこの<ruby>技術<rt>ぎじゅつ</rt></ruby>を<ruby>広<rt>ひろ</rt></ruby>げたいと<ruby>話<rt>はな</rt></ruby>しています。",
+      "translation": "Storage equipment and fueling devices have also been prepared near the port. The people involved say they want to expand this technology to cargo ships and work boats in the future."
+    },
+    {
+      "html": "<ruby>自治体<rt>じちたい</rt></ruby>は、<ruby>脱炭素<rt>だつたんそ</rt></ruby>の<ruby>目標<rt>もくひょう</rt></ruby>を<ruby>進<rt>すす</rt></ruby>めるため、<ruby>企業<rt>きぎょう</rt></ruby>への<ruby>支援<rt>しえん</rt></ruby>も<ruby>続<rt>つづ</rt></ruby>ける<ruby>方針<rt>ほうしん</rt></ruby>です。<ruby>今回<rt>こんかい</rt></ruby>の<ruby>実験<rt>じっけん</rt></ruby>がうまくいけば、ほかの<ruby>港<rt>みなと</rt></ruby>でも<ruby>同<rt>おな</rt></ruby>じような<ruby>取<rt>と</rt></ruby>り<ruby>組<rt>く</rt></ruby>みが<ruby>始<rt>はじ</rt></ruby>まるかもしれません。",
+      "translation": "The local government plans to keep supporting companies to advance decarbonization goals. If this test goes well, similar efforts may begin at other ports too."
+    }
+  ],
+  "vocabularyTitle": "N3 Vocabulary",
+  "vocabulary": [
+    {
+      "term": "実証実験（じっしょうじっけん）",
+      "meaning": "Demonstration test"
+    },
+    {
+      "term": "輸送（ゆそう）",
+      "meaning": "Transportation"
+    },
+    {
+      "term": "設備（せつび）",
+      "meaning": "Equipment / Facility"
+    },
+    {
+      "term": "装置（そうち）",
+      "meaning": "Device / Apparatus"
+    },
+    {
+      "term": "脱炭素（だつたんそ）",
+      "meaning": "Decarbonization"
+    },
+    {
+      "term": "支援（しえん）",
+      "meaning": "Support"
+    },
+    {
+      "term": "貨物船（かもつせん）",
+      "meaning": "Cargo ship"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "2026-05-11-oil-prices-jump",
+  "file": "2026-05-11-oil-prices-jump.html",
+  "title": "原油価格が上がったニュース",
+  "date": "2026年5月11日",
+  "month": "May 2026",
+  "navLabel": "5/11 原油価格",
+  "level": "",
+  "downloadFileName": "2026-05-11-oil-prices-jump.mp4",
+  "headlineHtml": "<ruby>原油価格<rt>げんゆかかく</rt></ruby>が<ruby>上<rt>あ</rt></ruby>がる　アメリカとイランの<ruby>話<rt>はな</rt></ruby>し<ruby>合<rt>あ</rt></ruby>いがまとまらず",
+  "sourceNote": "Reutersの2026年5月11日の報道をもとにした学習用のやさしい日本語版です。",
+  "paragraphs": [
+    {
+      "html": "2026<ruby>年<rt>ねん</rt></ruby>5<ruby>月<rt>がつ</rt></ruby>11<ruby>日<rt>にち</rt></ruby>、<ruby>原油価格<rt>げんゆかかく</rt></ruby>が<ruby>大<rt>おお</rt></ruby>きく<ruby>上<rt>あ</rt></ruby>がりました。",
+      "translation": "On May 11, 2026, crude oil prices rose sharply."
+    },
+    {
+      "html": "ロイターによると、アメリカとイランが<ruby>平和<rt>へいわ</rt></ruby>に<ruby>向<rt>む</rt></ruby>けた<ruby>提案<rt>ていあん</rt></ruby>で<ruby>一致<rt>いっち</rt></ruby>できなかったため、エネルギーの<ruby>供給<rt>きょうきゅう</rt></ruby>が<ruby>不安定<rt>ふあんてい</rt></ruby>になると<ruby>心配<rt>しんぱい</rt></ruby>されています。",
+      "translation": "According to Reuters, there are worries that energy supply could become unstable because the United States and Iran could not agree on a proposal aimed at peace."
+    },
+    {
+      "html": "ロイターの<ruby>記事<rt>きじ</rt></ruby>では、ブレント<ruby>原油<rt>げんゆ</rt></ruby>の<ruby>先物<rt>さきもの</rt></ruby><ruby>価格<rt>かかく</rt></ruby>が3ドル<ruby>以上<rt>いじょう</rt></ruby><ruby>上<rt>あ</rt></ruby>がり、1バレル104.50ドルになったと<ruby>伝<rt>つた</rt></ruby>えています。",
+      "translation": "The Reuters article said that Brent crude futures rose more than 3 dollars to 104.50 dollars per barrel."
+    },
+    {
+      "html": "アメリカのWTIも98.48ドルまで<ruby>上<rt>あ</rt></ruby>がりました。",
+      "translation": "U.S. WTI also rose to 98.48 dollars."
+    },
+    {
+      "html": "とくにホルムズ<ruby>海峡<rt>かいきょう</rt></ruby>の<ruby>状況<rt>じょうきょう</rt></ruby>が<ruby>注目<rt>ちゅうもく</rt></ruby>されています。",
+      "translation": "People are especially watching the situation in the Strait of Hormuz."
+    },
+    {
+      "html": "この<ruby>海峡<rt>かいきょう</rt></ruby>は、<ruby>世界<rt>せかい</rt></ruby>の<ruby>大切<rt>たいせつ</rt></ruby>なエネルギー<ruby>輸送<rt>ゆそう</rt></ruby>ルートの一つです。",
+      "translation": "This strait is one of the world’s important energy shipping routes."
+    },
+    {
+      "html": "ここが<ruby>十分<rt>じゅうぶん</rt></ruby>に<ruby>使<rt>つか</rt></ruby>えないと、<ruby>世界中<rt>せかいじゅう</rt></ruby>に<ruby>石油<rt>せきゆ</rt></ruby>を<ruby>送<rt>おく</rt></ruby>ることがむずかしくなります。",
+      "translation": "If it cannot be used fully, it becomes difficult to send oil around the world."
+    },
+    {
+      "html": "<ruby>原油価格<rt>げんゆかかく</rt></ruby>が<ruby>上<rt>あ</rt></ruby>がると、ガソリンや<ruby>電気<rt>でんき</rt></ruby>、<ruby>物<rt>もの</rt></ruby>を<ruby>運<rt>はこ</rt></ruby>ぶための<ruby>費用<rt>ひよう</rt></ruby>も<ruby>上<rt>あ</rt></ruby>がりやすくなります。",
+      "translation": "When crude oil prices rise, the cost of gasoline, electricity, and transporting goods also tends to rise."
+    },
+    {
+      "html": "そのため、これからの<ruby>国際情勢<rt>こくさいじょうせい</rt></ruby>とエネルギー<ruby>市場<rt>しじょう</rt></ruby>の<ruby>動<rt>うご</rt></ruby>きを<ruby>多<rt>おお</rt></ruby>くの<ruby>人<rt>ひと</rt></ruby>が<ruby>注意<rt>ちゅうい</rt></ruby>して<ruby>見<rt>み</rt></ruby>ています。",
+      "translation": "Because of that, many people are closely watching future international events and movements in the energy market."
+    }
+  ],
+  "vocabularyTitle": "N3 Vocabulary List",
+  "vocabulary": [
+    {
+      "term": "原油価格（げんゆかかく）",
+      "meaning": "Crude oil price"
+    },
+    {
+      "term": "提案（ていあん）",
+      "meaning": "Proposal"
+    },
+    {
+      "term": "一致（いっち）する",
+      "meaning": "To agree"
+    },
+    {
+      "term": "供給（きょうきゅう）",
+      "meaning": "Supply"
+    },
+    {
+      "term": "海峡（かいきょう）",
+      "meaning": "Strait"
+    },
+    {
+      "term": "輸送（ゆそう）",
+      "meaning": "Transport / Shipping"
+    },
+    {
+      "term": "国際情勢（こくさいじょうせい）",
+      "meaning": "International situation"
+    }
+  ]
+}

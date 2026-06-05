@@ -19,18 +19,21 @@ A small local Japanese reading site with article pages, furigana, browser speech
 - `server/local_tts_server.py` serves the static site on `127.0.0.1:8765`, proxies VOICEVOX requests, and converts recordings to MP4 with `ffmpeg`.
 - `Dockerfile` packages the site server and MP4 converter with `ffmpeg`.
 - `docker-compose.yml` starts both the web server/converter and the local VOICEVOX engine.
-- `data/articles.json` is the source of truth for article content, article metadata, furigana HTML, translations, and vocabulary.
-- `scripts/generate_site.py` rebuilds article pages, the archive page, and shared article navigation from `data/articles.json`.
+- `data/articles.json` is the ordered article manifest.
+- `data/articles/*.json` files are the source of truth for article content, article metadata, furigana HTML, translations, and vocabulary.
+- `scripts/generate_site.py` rebuilds article pages, the archive page, and shared article navigation from the article manifest.
 
 ## Add Or Edit Articles
 
-Edit `data/articles.json`, then regenerate the static pages:
+Edit the relevant file in `data/articles/`, then regenerate the static pages:
 
 ```bash
 python3 scripts/generate_site.py
 ```
 
-Each article record includes:
+To add an article, create one article JSON file in `data/articles/` and add its relative path to `data/articles.json` in the desired archive order.
+
+Each article file includes:
 
 - `file`: output HTML file name
 - `title`: plain page/archive title

@@ -1,0 +1,53 @@
+{
+  "id": "2026-05-15-alphabet-yen-bonds",
+  "file": "2026-05-15-alphabet-yen-bonds.html",
+  "title": "グーグルの会社が日本で大きな円の社債を出す",
+  "date": "2026年5月15日",
+  "month": "May 2026",
+  "navLabel": "5/15 グーグルの円社債",
+  "level": "N3",
+  "downloadFileName": "2026-05-15-alphabet-yen-bonds.mp4",
+  "headlineHtml": "グーグルの<ruby>会社<rt>かいしゃ</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>で<ruby>大<rt>おお</rt></ruby>きな<ruby>円<rt>えん</rt></ruby>の<ruby>社債<rt>しゃさい</rt></ruby>を<ruby>出<rt>だ</rt></ruby>す",
+  "sourceNote": "Reutersの2026年5月15日の報道をもとにしたN3レベルの学習用ページです。",
+  "paragraphs": [
+    {
+      "html": "グーグルの<ruby>親会社<rt>おやがいしゃ</rt></ruby>アルファベットは、5<ruby>月<rt>がつ</rt></ruby>15<ruby>日<rt>にち</rt></ruby>、<ruby>日本<rt>にほん</rt></ruby>で5765<ruby>億円<rt>おくえん</rt></ruby>の<ruby>社債<rt>しゃさい</rt></ruby>を<ruby>出<rt>だ</rt></ruby>しました。",
+      "translation": "On May 15, Alphabet, Google’s parent company, issued 576.5 billion yen in bonds in Japan."
+    },
+    {
+      "html": "<ruby>外国<rt>がいこく</rt></ruby>の<ruby>会社<rt>かいしゃ</rt></ruby>が<ruby>円<rt>えん</rt></ruby>でこれほど<ruby>大<rt>おお</rt></ruby>きな<ruby>社債<rt>しゃさい</rt></ruby>を<ruby>出<rt>だ</rt></ruby>すのは、とても<ruby>珍<rt>めずら</rt></ruby>しいことです。",
+      "translation": "It is very unusual for a foreign company to issue such a large yen bond."
+    },
+    {
+      "html": "アルファベットは、AIやデータセンターにたくさんのお<ruby>金<rt>かね</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>なので、いろいろな<ruby>方法<rt>ほうほう</rt></ruby>で<ruby>資金<rt>しきん</rt></ruby>を<ruby>集<rt>あつ</rt></ruby>めています。",
+      "translation": "Alphabet needs a lot of money for AI and data centers, so it is gathering funds in different ways."
+    },
+    {
+      "html": "<ruby>日本<rt>にほん</rt></ruby>の<ruby>投資家<rt>とうしか</rt></ruby>たちの<ruby>関心<rt>かんしん</rt></ruby>も<ruby>高<rt>たか</rt></ruby>く、<ruby>今回<rt>こんかい</rt></ruby>の<ruby>社債<rt>しゃさい</rt></ruby>は<ruby>注目<rt>ちゅうもく</rt></ruby>を<ruby>集<rt>あつ</rt></ruby>めました。",
+      "translation": "Japanese investors were also very interested, and this bond sale attracted attention."
+    }
+  ],
+  "vocabularyTitle": "N3 Vocabulary",
+  "vocabulary": [
+    {
+      "term": "親会社（おやがいしゃ）",
+      "meaning": "Parent company"
+    },
+    {
+      "term": "社債（しゃさい）",
+      "meaning": "Corporate bond"
+    },
+    {
+      "term": "珍しい（めずらしい）",
+      "meaning": "Rare / Unusual"
+    },
+    {
+      "term": "資金（しきん）",
+      "meaning": "Funds"
+    },
+    {
+      "term": "投資家（とうしか）",
+      "meaning": "Investor"
+    }
+  ]
+}

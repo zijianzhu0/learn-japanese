@@ -1,0 +1,61 @@
+{
+  "id": "2026-05-24-station-solar-roof",
+  "file": "2026-05-24-station-solar-roof.html",
+  "title": "駅の屋根に太陽光設備を広げる",
+  "date": "2026年5月24日",
+  "month": "May 2026",
+  "navLabel": "5/24 駅の屋根に太陽光設備",
+  "level": "N3",
+  "downloadFileName": "2026-05-24-station-solar-roof.mp4",
+  "headlineHtml": "<ruby>駅<rt>えき</rt></ruby>の<ruby>屋根<rt>やね</rt></ruby>に<ruby>太陽光設備<rt>たいようこうせつび</rt></ruby>を<ruby>広<rt>ひろ</rt></ruby>げる",
+  "sourceNote": "2026年5月24日の話題をもとにしたN3レベルの学習用ページです。",
+  "paragraphs": [
+    {
+      "html": "<ruby>鉄道会社<rt>てつどうがいしゃ</rt></ruby>が、<ruby>駅<rt>えき</rt></ruby>の<ruby>屋根<rt>やね</rt></ruby>に<ruby>太陽光<rt>たいようこう</rt></ruby>パネルを<ruby>置<rt>お</rt></ruby>く<ruby>計画<rt>けいかく</rt></ruby>を<ruby>広<rt>ひろ</rt></ruby>げています。まずは<ruby>大<rt>おお</rt></ruby>きな<ruby>駅<rt>えき</rt></ruby>から<ruby>始<rt>はじ</rt></ruby>めて、<ruby>発電<rt>はつでん</rt></ruby>した<ruby>電気<rt>でんき</rt></ruby>を<ruby>照明<rt>しょうめい</rt></ruby>や<ruby>案内板<rt>あんないばん</rt></ruby>に<ruby>使<rt>つか</rt></ruby>う<ruby>予定<rt>よてい</rt></ruby>です。",
+      "translation": "A railway company is expanding plans to install solar panels on station roofs. It will start with large stations and use the generated electricity for lighting and information boards."
+    },
+    {
+      "html": "<ruby>会社<rt>かいしゃ</rt></ruby>によると、<ruby>夏<rt>なつ</rt></ruby>の<ruby>暑<rt>あつ</rt></ruby>い<ruby>時期<rt>じき</rt></ruby>には<ruby>冷房<rt>れいぼう</rt></ruby>のためにたくさんの<ruby>電力<rt>でんりょく</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>になります。<ruby>自分<rt>じぶん</rt></ruby>たちで<ruby>作<rt>つく</rt></ruby>った<ruby>電気<rt>でんき</rt></ruby>を<ruby>使<rt>つか</rt></ruby>えば、<ruby>費用<rt>ひよう</rt></ruby>をおさえるだけでなく、<ruby>環境<rt>かんきょう</rt></ruby>への<ruby>負担<rt>ふたん</rt></ruby>も<ruby>減<rt>へ</rt></ruby>らせます。",
+      "translation": "According to the company, a lot of electricity is needed for air conditioning during hot summer periods. Using electricity they generate themselves can reduce both costs and environmental impact."
+    },
+    {
+      "html": "<ruby>一部<rt>いちぶ</rt></ruby>の<ruby>駅<rt>えき</rt></ruby>では、<ruby>災害<rt>さいがい</rt></ruby>のときにスマートフォンを<ruby>充電<rt>じゅうでん</rt></ruby>できる<ruby>場所<rt>ばしょ</rt></ruby>としても<ruby>活用<rt>かつよう</rt></ruby>する<ruby>考<rt>かんが</rt></ruby>えです。ふだんの<ruby>便利<rt>べんり</rt></ruby>さだけでなく、もしものときの<ruby>安心<rt>あんしん</rt></ruby>にもつなげたいとしています。",
+      "translation": "At some stations, the system may also be used as a place where people can charge smartphones during disasters. The goal is to provide not only everyday convenience but also reassurance in emergencies."
+    },
+    {
+      "html": "<ruby>専門家<rt>せんもんか</rt></ruby>は、<ruby>交通<rt>こうつう</rt></ruby>の<ruby>施設<rt>しせつ</rt></ruby>で<ruby>再生可能<rt>さいせいかのう</rt></ruby>エネルギーを<ruby>使<rt>つか</rt></ruby>うことは、<ruby>地域<rt>ちいき</rt></ruby>の<ruby>意識<rt>いしき</rt></ruby>を<ruby>変<rt>か</rt></ruby>えるきっかけにもなるとみています。ほかの<ruby>鉄道会社<rt>てつどうがいしゃ</rt></ruby>にも<ruby>同<rt>おな</rt></ruby>じような<ruby>動<rt>うご</rt></ruby>きが<ruby>広<rt>ひろ</rt></ruby>がるかが<ruby>注目<rt>ちゅうもく</rt></ruby>されています。",
+      "translation": "Experts say using renewable energy at transportation facilities can also change local awareness. Attention is focused on whether similar efforts will spread to other railway companies."
+    }
+  ],
+  "vocabularyTitle": "N3 Vocabulary",
+  "vocabulary": [
+    {
+      "term": "太陽光設備（たいようこうせつび）",
+      "meaning": "Solar power equipment"
+    },
+    {
+      "term": "発電（はつでん）",
+      "meaning": "Power generation"
+    },
+    {
+      "term": "照明（しょうめい）",
+      "meaning": "Lighting"
+    },
+    {
+      "term": "負担（ふたん）",
+      "meaning": "Burden"
+    },
+    {
+      "term": "充電（じゅうでん）",
+      "meaning": "Charging"
+    },
+    {
+      "term": "再生可能（さいせいかのう）",
+      "meaning": "Renewable"
+    },
+    {
+      "term": "注目（ちゅうもく）",
+      "meaning": "Attention"
+    }
+  ]
+}

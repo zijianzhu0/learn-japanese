@@ -1,0 +1,61 @@
+{
+  "id": "2026-05-21-rural-tourism-train",
+  "file": "2026-05-21-rural-tourism-train.html",
+  "title": "地方の観光列車が外国人客を増やす",
+  "date": "2026年5月21日",
+  "month": "May 2026",
+  "navLabel": "5/21 地方の観光列車",
+  "level": "N3",
+  "downloadFileName": "2026-05-21-rural-tourism-train.mp4",
+  "headlineHtml": "<ruby>地方<rt>ちほう</rt></ruby>の<ruby>観光列車<rt>かんこうれっしゃ</rt></ruby>が<ruby>外国人客<rt>がいこくじんきゃく</rt></ruby>を<ruby>増<rt>ふ</rt></ruby>やす",
+  "sourceNote": "2026年5月21日の話題をもとにしたN3レベルの学習用ページです。",
+  "paragraphs": [
+    {
+      "html": "<ruby>東北<rt>とうほく</rt></ruby>のある<ruby>県<rt>けん</rt></ruby>で、<ruby>景色<rt>けしき</rt></ruby>を<ruby>楽<rt>たの</rt></ruby>しめる<ruby>観光列車<rt>かんこうれっしゃ</rt></ruby>の<ruby>人気<rt>にんき</rt></ruby>が<ruby>高<rt>たか</rt></ruby>まっています。とくに、<ruby>最近<rt>さいきん</rt></ruby>は<ruby>外国人<rt>がいこくじん</rt></ruby>の<ruby>旅行者<rt>りょこうしゃ</rt></ruby>が<ruby>多<rt>おお</rt></ruby>く、<ruby>週末<rt>しゅうまつ</rt></ruby>の<ruby>予約<rt>よやく</rt></ruby>が<ruby>取<rt>と</rt></ruby>りにくくなっています。",
+      "translation": "In one prefecture in Tohoku, a sightseeing train that lets passengers enjoy the scenery is becoming more popular. Recently, especially many foreign travelers are using it, making weekend reservations hard to get."
+    },
+    {
+      "html": "<ruby>列車<rt>れっしゃ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>では、<ruby>地元<rt>じもと</rt></ruby>の<ruby>食材<rt>しょくざい</rt></ruby>を<ruby>使<rt>つか</rt></ruby>ったお<ruby>弁当<rt>べんとう</rt></ruby>や、お<ruby>茶<rt>ちゃ</rt></ruby>が<ruby>出<rt>だ</rt></ruby>されます。また、<ruby>案内<rt>あんない</rt></ruby>の<ruby>放送<rt>ほうそう</rt></ruby>は<ruby>英語<rt>えいご</rt></ruby>や<ruby>中国語<rt>ちゅうごくご</rt></ruby>にも<ruby>対応<rt>たいおう</rt></ruby>していて、はじめて<ruby>来<rt>き</rt></ruby>た<ruby>人<rt>ひと</rt></ruby>にもわかりやすいです。",
+      "translation": "On the train, passengers are served boxed meals and tea made with local ingredients. Announcements are also available in English and Chinese, making things easy for first-time visitors."
+    },
+    {
+      "html": "<ruby>駅<rt>えき</rt></ruby>の<ruby>周<rt>まわ</rt></ruby>りでは、<ruby>列車<rt>れっしゃ</rt></ruby>の<ruby>到着<rt>とうちゃく</rt></ruby>にあわせて<ruby>土産店<rt>みやげてん</rt></ruby>やカフェが<ruby>営業<rt>えいぎょう</rt></ruby>を<ruby>広<rt>ひろ</rt></ruby>げています。<ruby>地元<rt>じもと</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は、<ruby>列車<rt>れっしゃ</rt></ruby>のおかげで<ruby>町<rt>まち</rt></ruby>に<ruby>活気<rt>かっき</rt></ruby>が<ruby>戻<rt>もど</rt></ruby>ってきたと<ruby>感<rt>かん</rt></ruby>じています。",
+      "translation": "Around the stations, souvenir shops and cafes are extending business hours to match the train’s arrivals. Local people feel the train is bringing energy back to the town."
+    },
+    {
+      "html": "<ruby>運営会社<rt>うんえいがいしゃ</rt></ruby>は、<ruby>来年<rt>らいねん</rt></ruby>から<ruby>車内<rt>しゃない</rt></ruby>のサービスをさらに<ruby>増<rt>ふ</rt></ruby>やす<ruby>計画<rt>けいかく</rt></ruby>です。<ruby>観光<rt>かんこう</rt></ruby>だけでなく、<ruby>地域<rt>ちいき</rt></ruby>の<ruby>経済<rt>けいざい</rt></ruby>を<ruby>元気<rt>げんき</rt></ruby>にする<ruby>役割<rt>やくわり</rt></ruby>も<ruby>期待<rt>きたい</rt></ruby>されています。",
+      "translation": "The operator plans to expand onboard services from next year. The train is expected not only to support tourism but also to help energize the regional economy."
+    }
+  ],
+  "vocabularyTitle": "N3 Vocabulary",
+  "vocabulary": [
+    {
+      "term": "観光列車（かんこうれっしゃ）",
+      "meaning": "Sightseeing train"
+    },
+    {
+      "term": "旅行者（りょこうしゃ）",
+      "meaning": "Traveler"
+    },
+    {
+      "term": "対応（たいおう）",
+      "meaning": "Support / Accommodation"
+    },
+    {
+      "term": "到着（とうちゃく）",
+      "meaning": "Arrival"
+    },
+    {
+      "term": "活気（かっき）",
+      "meaning": "Liveliness"
+    },
+    {
+      "term": "運営会社（うんえいがいしゃ）",
+      "meaning": "Operating company"
+    },
+    {
+      "term": "役割（やくわり）",
+      "meaning": "Role"
+    }
+  ]
+}

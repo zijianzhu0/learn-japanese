@@ -18,7 +18,14 @@ INDEX_PATH = ROOT / "index.html"
 
 def load_articles() -> list[dict]:
     data = json.loads(ARTICLES_PATH.read_text(encoding="utf-8"))
-    return data["articles"]
+    data_root = ARTICLES_PATH.parent.resolve()
+    articles = []
+    for article_path in data["articles"]:
+        path = (data_root / article_path).resolve()
+        if not path.is_relative_to(data_root):
+            raise ValueError(f"Article path escapes data directory: {article_path}")
+        articles.append(json.loads(path.read_text(encoding="utf-8")))
+    return articles
 
 
 def article_href(article: dict) -> str:

@@ -17,9 +17,11 @@ The current primary artifacts are:
 - [assets/article.js](/Users/zijianzh/repositories/learn-japanese/assets/article.js)
   Shared article behavior, navigation generation, speech playback, VOICEVOX playback, highlighting, and recording.
 - [data/articles.json](/Users/zijianzh/repositories/learn-japanese/data/articles.json)
-  Source of truth for article metadata, content, translations, and vocabulary.
+  Ordered article manifest.
+- [data/articles/](/Users/zijianzh/repositories/learn-japanese/data/articles)
+  Per-article JSON source files for article metadata, content, translations, and vocabulary.
 - [scripts/generate_site.py](/Users/zijianzh/repositories/learn-japanese/scripts/generate_site.py)
-  Regenerates article pages, the archive page, and shared article navigation from article JSON.
+  Regenerates article pages, the archive page, and shared article navigation from the article manifest.
 
 Current pages support:
 

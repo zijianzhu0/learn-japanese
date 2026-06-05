@@ -1,0 +1,61 @@
+{
+  "id": "2026-05-18-drone-disaster-drills",
+  "file": "2026-05-18-drone-disaster-drills.html",
+  "title": "災害訓練でドローン活用が広がる",
+  "date": "2026年5月18日",
+  "month": "May 2026",
+  "navLabel": "5/18 災害訓練でドローン",
+  "level": "N3",
+  "downloadFileName": "2026-05-18-drone-disaster-drills.mp4",
+  "headlineHtml": "<ruby>災害訓練<rt>さいがいくんれん</rt></ruby>でドローン<ruby>活用<rt>かつよう</rt></ruby>が<ruby>広<rt>ひろ</rt></ruby>がる",
+  "sourceNote": "2026年5月18日の話題をもとにしたN3レベルの学習用ページです。",
+  "paragraphs": [
+    {
+      "html": "<ruby>大雨<rt>おおあめ</rt></ruby>や<ruby>地震<rt>じしん</rt></ruby>に<ruby>備<rt>そな</rt></ruby>えるため、いろいろな<ruby>地域<rt>ちいき</rt></ruby>で<ruby>防災訓練<rt>ぼうさいくんれん</rt></ruby>が<ruby>行<rt>おこな</rt></ruby>われました。<ruby>今年<rt>ことし</rt></ruby>は、<ruby>空<rt>そら</rt></ruby>から<ruby>被害<rt>ひがい</rt></ruby>の<ruby>様子<rt>ようす</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>できるドローンを<ruby>使<rt>つか</rt></ruby>う<ruby>場面<rt>ばめん</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えました。",
+      "translation": "To prepare for heavy rain and earthquakes, disaster drills were held in many areas. This year, there were more situations in which drones were used to check damage from the sky."
+    },
+    {
+      "html": "ドローンは、<ruby>道路<rt>どうろ</rt></ruby>が<ruby>通<rt>とお</rt></ruby>れるかどうかや、<ruby>川<rt>かわ</rt></ruby>の<ruby>水<rt>みず</rt></ruby>がどこまで<ruby>来<rt>き</rt></ruby>ているかを、すばやく<ruby>調<rt>しら</rt></ruby>べることができます。<ruby>消防<rt>しょうぼう</rt></ruby>や<ruby>自治体<rt>じちたい</rt></ruby>の<ruby>職員<rt>しょくいん</rt></ruby>は、<ruby>映像<rt>えいぞう</rt></ruby>を<ruby>見<rt>み</rt></ruby>ながら<ruby>避難<rt>ひなん</rt></ruby>の<ruby>判断<rt>はんだん</rt></ruby>をする<ruby>練習<rt>れんしゅう</rt></ruby>をしました。",
+      "translation": "Drones can quickly check whether roads are passable and how far river water has reached. Firefighters and local officials practiced making evacuation decisions while watching the video images."
+    },
+    {
+      "html": "また、ドローンで<ruby>薬<rt>くすり</rt></ruby>や<ruby>水<rt>みず</rt></ruby>を<ruby>運<rt>はこ</rt></ruby>ぶ<ruby>想定<rt>そうてい</rt></ruby>の<ruby>訓練<rt>くんれん</rt></ruby>もありました。<ruby>車<rt>くるま</rt></ruby>が<ruby>入<rt>はい</rt></ruby>れない<ruby>場所<rt>ばしょ</rt></ruby>でも、<ruby>小<rt>ちい</rt></ruby>さな<ruby>荷物<rt>にもつ</rt></ruby>ならすぐに<ruby>届<rt>とど</rt></ruby>けられるので、<ruby>期待<rt>きたい</rt></ruby>が<ruby>高<rt>たか</rt></ruby>まっています。",
+      "translation": "There were also drills assuming drones would carry medicine and water. Expectations are rising because even where cars cannot enter, small supplies can be delivered quickly."
+    },
+    {
+      "html": "<ruby>専門家<rt>せんもんか</rt></ruby>は、<ruby>技術<rt>ぎじゅつ</rt></ruby>だけに<ruby>頼<rt>たよ</rt></ruby>るのではなく、<ruby>住民<rt>じゅうみん</rt></ruby>どうしの<ruby>助<rt>たす</rt></ruby>け<ruby>合<rt>あ</rt></ruby>いも<ruby>大切<rt>たいせつ</rt></ruby>だと<ruby>話<rt>はな</rt></ruby>しています。<ruby>今後<rt>こんご</rt></ruby>は、<ruby>新<rt>あたら</rt></ruby>しい<ruby>道具<rt>どうぐ</rt></ruby>と<ruby>地域<rt>ちいき</rt></ruby>の<ruby>連携<rt>れんけい</rt></ruby>をどう<ruby>強<rt>つよ</rt></ruby>くするかが<ruby>課題<rt>かだい</rt></ruby>になりそうです。",
+      "translation": "Experts say it is important not to rely only on technology, but also on mutual help among residents. Going forward, the challenge will be how to strengthen cooperation between new tools and local communities."
+    }
+  ],
+  "vocabularyTitle": "N3 Vocabulary",
+  "vocabulary": [
+    {
+      "term": "防災訓練（ぼうさいくんれん）",
+      "meaning": "Disaster-prevention drill"
+    },
+    {
+      "term": "被害（ひがい）",
+      "meaning": "Damage"
+    },
+    {
+      "term": "避難（ひなん）",
+      "meaning": "Evacuation"
+    },
+    {
+      "term": "判断（はんだん）",
+      "meaning": "Judgment / Decision"
+    },
+    {
+      "term": "想定（そうてい）",
+      "meaning": "Assumption / Scenario"
+    },
+    {
+      "term": "住民（じゅうみん）",
+      "meaning": "Resident"
+    },
+    {
+      "term": "連携（れんけい）",
+      "meaning": "Coordination"
+    }
+  ]
+}
