@@ -912,11 +912,23 @@ async function speakJapaneseArticle() {
 
 function chooseRecorderMimeType() {
     const candidates = [
+        'video/mp4;codecs=avc1.42E01E,mp4a.40.2',
+        'video/mp4;codecs=h264,aac',
+        'video/mp4',
         'video/webm;codecs=vp9,opus',
         'video/webm;codecs=vp8,opus',
         'video/webm'
     ];
     return candidates.find((type) => MediaRecorder.isTypeSupported(type)) || '';
+}
+
+function recordingExtensionForMimeType(mimeType) {
+    return mimeType.startsWith('video/mp4') ? 'mp4' : 'webm';
+}
+
+function recordingDownloadNameForMimeType(mimeType) {
+    const extension = recordingExtensionForMimeType(mimeType);
+    return recordingDownloadName.replace(/\.[^.]+$/, `.${extension}`);
 }
 
 function waitForNextPaint() {
@@ -1030,13 +1042,14 @@ async function renderVideo() {
         };
 
         activeMediaRecorder.onstop = () => {
+            const outputMimeType = activeMediaRecorder.mimeType || 'video/webm';
             const blob = new Blob(recordedChunks, {
-                type: activeMediaRecorder.mimeType || 'video/webm'
+                type: outputMimeType
             });
             const videoUrl = URL.createObjectURL(blob);
             const downloadLink = document.createElement('a');
             downloadLink.href = videoUrl;
-            downloadLink.download = recordingDownloadName;
+            downloadLink.download = recordingDownloadNameForMimeType(outputMimeType);
             downloadLink.click();
             URL.revokeObjectURL(videoUrl);
 
