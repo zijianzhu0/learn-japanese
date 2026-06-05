@@ -15,6 +15,7 @@ from urllib import error, parse, request
 
 DEFAULT_HOST = os.environ.get("HOST", "127.0.0.1")
 DEFAULT_PORT = int(os.environ.get("PORT", "8765"))
+DEFAULT_PUBLIC_HOST = os.environ.get("PUBLIC_HOST", "127.0.0.1")
 PROJECT_DIR = Path(__file__).resolve().parent.parent
 VOICEVOX_BASE_URL = os.environ.get("VOICEVOX_BASE_URL", "http://127.0.0.1:50021")
 DEFAULT_VOICEVOX_SPEAKER = 3
@@ -244,6 +245,11 @@ class VoicevoxError(Exception):
         self.message = message
 
 
+def public_site_url(host: str, port: int) -> str:
+    public_host = DEFAULT_PUBLIC_HOST if host in {"0.0.0.0", "::"} else host
+    return f"http://{public_host}:{port}/index.html"
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(
         description="Serve static learn-japanese pages for browser-based study and recording."
@@ -253,7 +259,8 @@ def main() -> None:
     args = parser.parse_args()
 
     server = ThreadingHTTPServer((args.host, args.port), LearnJapaneseHandler)
-    print(f"Serving {PROJECT_DIR} at http://{args.host}:{args.port}")
+    print(f"Serving {PROJECT_DIR} on {args.host}:{args.port}", flush=True)
+    print(f"Open {public_site_url(args.host, args.port)}", flush=True)
     try:
         server.serve_forever()
     except KeyboardInterrupt:

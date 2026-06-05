@@ -21,6 +21,8 @@ A local Japanese reading site with furigana, sentence highlighting, browser spee
 docker compose up --build
 ```
 
+The web container logs print the URL to open.
+
 Open:
 
 ```text
