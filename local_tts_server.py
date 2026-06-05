@@ -4,6 +4,9 @@ from __future__ import annotations
 
 import argparse
 import json
+import shutil
+import subprocess
+import tempfile
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib import error, parse, request
@@ -15,6 +18,7 @@ PROJECT_DIR = Path(__file__).resolve().parent
 VOICEVOX_BASE_URL = "http://127.0.0.1:50021"
 DEFAULT_VOICEVOX_SPEAKER = 3
 MAX_TTS_TEXT_CHARS = 500
+MAX_VIDEO_UPLOAD_BYTES = 700 * 1024 * 1024
 
 
 class LearnJapaneseHandler(SimpleHTTPRequestHandler):
@@ -31,6 +35,10 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
     def do_POST(self) -> None:
         if self.path == "/api/tts/voicevox":
             self.handle_voicevox_synthesis()
+            return
+
+        if self.path == "/api/video/convert-mp4":
+            self.handle_mp4_conversion()
             return
 
         self.send_json(404, {"ok": False, "error": "Unknown API endpoint."})
@@ -102,6 +110,69 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(wav_audio)
 
+    def handle_mp4_conversion(self) -> None:
+        if not shutil.which("ffmpeg"):
+            self.send_json(503, {"ok": False, "error": "ffmpeg is not installed or not on PATH."})
+            return
+
+        try:
+            source_video = self.read_binary_body(MAX_VIDEO_UPLOAD_BYTES)
+        except ValueError as exc:
+            self.send_json(413, {"ok": False, "error": str(exc)})
+            return
+
+        if not source_video:
+            self.send_json(400, {"ok": False, "error": "Missing video data."})
+            return
+
+        try:
+            with tempfile.TemporaryDirectory(prefix="learn-japanese-video-") as temp_dir:
+                temp_path = Path(temp_dir)
+                input_path = temp_path / "input.webm"
+                output_path = temp_path / "output.mp4"
+                input_path.write_bytes(source_video)
+
+                subprocess.run(
+                    [
+                        "ffmpeg",
+                        "-y",
+                        "-hide_banner",
+                        "-loglevel",
+                        "error",
+                        "-i",
+                        str(input_path),
+                        "-vf",
+                        "scale=trunc(iw/2)*2:trunc(ih/2)*2",
+                        "-c:v",
+                        "libx264",
+                        "-pix_fmt",
+                        "yuv420p",
+                        "-preset",
+                        "veryfast",
+                        "-movflags",
+                        "+faststart",
+                        "-c:a",
+                        "aac",
+                        "-b:a",
+                        "160k",
+                        str(output_path),
+                    ],
+                    check=True,
+                    capture_output=True,
+                )
+                mp4_video = output_path.read_bytes()
+        except subprocess.CalledProcessError as exc:
+            detail = exc.stderr.decode("utf-8", errors="replace").strip()
+            self.send_json(500, {"ok": False, "error": f"ffmpeg conversion failed: {detail}"})
+            return
+
+        self.send_response(200)
+        self.send_header("Content-Type", "video/mp4")
+        self.send_header("Content-Length", str(len(mp4_video)))
+        self.send_header("Cache-Control", "no-store")
+        self.end_headers()
+        self.wfile.write(mp4_video)
+
     def read_json_body(self) -> dict:
         content_length = int(self.headers.get("Content-Length", "0"))
         raw_body = self.rfile.read(content_length)
@@ -113,6 +184,13 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
             raise TypeError("JSON body must be an object")
 
         return value
+
+    def read_binary_body(self, max_bytes: int) -> bytes:
+        content_length = int(self.headers.get("Content-Length", "0"))
+        if content_length > max_bytes:
+            raise ValueError(f"Video is too large. Limit is {max_bytes // (1024 * 1024)} MB.")
+
+        return self.rfile.read(content_length)
 
     def send_json(self, status: int, payload: dict) -> None:
         body = json.dumps(payload, ensure_ascii=False).encode("utf-8")

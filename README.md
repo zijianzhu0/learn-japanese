@@ -112,7 +112,7 @@ Manual page checks:
 - `Copy Japanese Article` excludes furigana text
 - `Voice Source` switches between browser and Docker voice controls
 - `Read Aloud` highlights one sentence at a time with the selected source
-- `Render Video` switches to text-only recording mode and downloads `.mp4` when the browser supports MP4 recording, otherwise `.webm`
+- `Render Video` switches to text-only recording mode and downloads `.mp4` using browser MP4 recording when available, or local `ffmpeg` conversion from WebM when needed
 
 ## Known Limitation
 

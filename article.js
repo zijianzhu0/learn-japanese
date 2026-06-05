@@ -931,6 +931,32 @@ function recordingDownloadNameForMimeType(mimeType) {
     return recordingDownloadName.replace(/\.[^.]+$/, `.${extension}`);
 }
 
+async function convertRecordingToMp4(videoBlob) {
+    const response = await fetch('/api/video/convert-mp4', {
+        method: 'POST',
+        headers: {
+            'Content-Type': videoBlob.type || 'video/webm'
+        },
+        body: videoBlob
+    });
+
+    if (!response.ok) {
+        let errorMessage = `MP4 conversion failed with HTTP ${response.status}.`;
+        try {
+            const payload = await response.json();
+            if (payload.error) {
+                errorMessage = payload.error;
+            }
+        } catch (error) {
+            // Keep the HTTP status fallback if the response is not JSON.
+        }
+
+        throw new Error(errorMessage);
+    }
+
+    return response.blob();
+}
+
 function waitForNextPaint() {
     return new Promise((resolve) => {
         requestAnimationFrame(() => {
@@ -1041,15 +1067,29 @@ async function renderVideo() {
             }
         };
 
-        activeMediaRecorder.onstop = () => {
+        activeMediaRecorder.onstop = async () => {
             const outputMimeType = activeMediaRecorder.mimeType || 'video/webm';
-            const blob = new Blob(recordedChunks, {
+            let blob = new Blob(recordedChunks, {
                 type: outputMimeType
             });
+            let downloadName = recordingDownloadNameForMimeType(outputMimeType);
+            let conversionFailed = false;
+
+            if (!outputMimeType.startsWith('video/mp4')) {
+                status.textContent = 'Converting recording to MP4...';
+                try {
+                    blob = await convertRecordingToMp4(blob);
+                    downloadName = recordingDownloadNameForMimeType('video/mp4');
+                } catch (error) {
+                    conversionFailed = true;
+                    status.textContent = `${error.message} Downloading WebM instead.`;
+                }
+            }
+
             const videoUrl = URL.createObjectURL(blob);
             const downloadLink = document.createElement('a');
             downloadLink.href = videoUrl;
-            downloadLink.download = recordingDownloadNameForMimeType(outputMimeType);
+            downloadLink.download = downloadName;
             downloadLink.click();
             URL.revokeObjectURL(videoUrl);
 
@@ -1062,7 +1102,11 @@ async function renderVideo() {
             document.body.style.removeProperty('--recording-body-size');
             document.body.style.removeProperty('--recording-body-line-height');
             renderButton.textContent = 'Render Video';
-            status.textContent = 'Video rendered and downloaded.';
+            if (!conversionFailed) {
+                status.textContent = downloadName.endsWith('.mp4')
+                    ? 'MP4 rendered and downloaded.'
+                    : 'Video rendered and downloaded.';
+            }
         };
 
         recordingInProgress = true;
