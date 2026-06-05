@@ -1,58 +1,21 @@
 # Learn Japanese Reading Pages
 
-A small local Japanese reading site with article pages, furigana, browser speech playback, sentence highlighting, copy-to-clipboard, and browser-based recording.
+A local Japanese reading site with furigana, sentence highlighting, browser speech playback, Docker VOICEVOX playback, copy-to-clipboard, and MP4-oriented tab recording.
 
-## Architecture
+## Project Layout
 
-- `index.html` is the reading archive and article index.
-- `2026-*.html` files are individual article pages.
-- `templates/article.html` is the reusable article page template.
-- `assets/article.css` contains shared article, toolbar, navigation, highlighting, and recording styles.
-- `assets/article.js` contains shared article behavior:
-  - top and article navigation generation
-  - furigana-safe text extraction
-  - sentence splitting and highlighting
-  - copy-to-clipboard
-  - browser `speechSynthesis` playback
-  - Docker VOICEVOX TTS playback
-  - tab recording flow for video export
-- `server/local_tts_server.py` serves the static site on `127.0.0.1:8765`, proxies VOICEVOX requests, and converts recordings to MP4 with `ffmpeg`.
-- `Dockerfile` packages the site server and MP4 converter with `ffmpeg`.
-- `docker-compose.yml` starts both the web server/converter and the local VOICEVOX engine.
-- `data/articles.json` is the ordered article manifest.
-- `data/articles/*.json` files are the source of truth for article content, article metadata, furigana HTML, translations, and vocabulary.
-- `scripts/generate_site.py` rebuilds article pages, the archive page, and shared article navigation from the article manifest.
+- `index.html`: generated reading archive and article index.
+- `2026-*.html`: generated article pages kept at the repo root so URLs stay simple.
+- `data/articles.json`: ordered manifest of article JSON files.
+- `data/articles/*.json`: source files for article content, metadata, translations, and vocabulary.
+- `templates/article.html`: article page template.
+- `assets/article.css`: shared article styles.
+- `assets/article.js`: shared article behavior, navigation, playback, highlighting, and recording.
+- `scripts/generate_site.py`: static site generator.
+- `server/local_tts_server.py`: static server, VOICEVOX proxy, and MP4 conversion endpoint.
+- `Dockerfile` and `docker-compose.yml`: Docker web server plus VOICEVOX engine.
 
-## Add Or Edit Articles
-
-Edit the relevant file in `data/articles/`, then regenerate the static pages:
-
-```bash
-python3 scripts/generate_site.py
-```
-
-To add an article, create one article JSON file in `data/articles/` and add its relative path to `data/articles.json` in the desired archive order.
-
-Each article file includes:
-
-- `file`: output HTML file name
-- `title`: plain page/archive title
-- `date`: display date
-- `month`: archive/navigation group
-- `navLabel`: compact sidebar label
-- `level`: optional archive badge such as `N3`
-- `downloadFileName`: default recording download name
-- `headlineHtml`: headline with `ruby` furigana markup
-- `paragraphs`: Japanese paragraph HTML plus optional English translation
-- `vocabulary`: term/meaning pairs
-
-The generator writes:
-
-- `2026-*.html`
-- `index.html`
-- the `articleNavigation` list inside `assets/article.js`
-
-## Run The Site
+## Run
 
 ```bash
 docker compose up --build
@@ -64,73 +27,75 @@ Open:
 http://127.0.0.1:8765/index.html
 ```
 
-To stop everything:
+Stop:
 
 ```bash
 docker compose down
 ```
 
-Local Python development still works if `ffmpeg` is installed:
+Local Python mode also works if `ffmpeg` is installed:
 
 ```bash
 python3 server/local_tts_server.py
 ```
 
-## Browser Voice Playback
+## Article Workflow
 
-Article pages add a `Voice Source` dropdown to the toolbar. Choose `Browser Voice`, then use `Read Aloud` to play the article with the selected browser voice.
-
-The preferred browser voice is `Google 日本語` when the browser exposes it. If it is not available, the page falls back to another Japanese voice from the dropdown.
-
-## Docker VOICEVOX TTS
-
-Start the full Docker stack:
+Edit an existing file in `data/articles/`, then regenerate:
 
 ```bash
-docker compose up --build
+python3 scripts/generate_site.py
 ```
 
-Article pages add `Docker VOICEVOX` to the `Voice Source` dropdown. When selected, the toolbar shows a `Docker Voice` dropdown populated from VOICEVOX speakers and styles.
+To add an article:
 
-The Docker path generates sentence-level WAV audio through the local server:
+1. Create `data/articles/YYYY-MM-DD-slug.json`.
+2. Add `articles/YYYY-MM-DD-slug.json` to `data/articles.json` in display order.
+3. Run `python3 scripts/generate_site.py`.
 
-- `GET /api/tts/voicevox/status`
-- `POST /api/tts/voicevox`
+Each article JSON file includes:
 
-The default speaker is VOICEVOX speaker `3`. Once VOICEVOX is reachable, `Read Aloud` and `Render Video` use the selected Docker speaker.
+- `id`
+- `file`
+- `title`
+- `date`
+- `month`
+- `navLabel`
+- `level`
+- `downloadFileName`
+- `headlineHtml`
+- `sourceNote`
+- `paragraphs`
+- `vocabularyTitle`
+- `vocabulary`
 
-Stop the stack when done:
+The generator updates:
+
+- root `2026-*.html` article pages
+- `index.html`
+- `articleNavigation` in `assets/article.js`
+
+## Features
+
+- Browser voice playback through `speechSynthesis`.
+- Docker VOICEVOX playback through the local server:
+  - `GET /api/tts/voicevox/status`
+  - `POST /api/tts/voicevox`
+- Sentence-level highlighting during playback.
+- Furigana-safe article copy.
+- Vertical one-page recording layout for `Render Video`.
+- MP4 download when browser MP4 recording is available or server-side `ffmpeg` conversion succeeds.
+
+## Verify
 
 ```bash
-docker compose down
-```
-
-## Video Rendering
-
-`Render Video` records the current browser tab with sentence highlighting. During recording, the page switches to a fixed vertical 9:16 one-page composition: navigation, toolbar controls, status text, translations, source notes, and vocabulary UI are hidden, and the Japanese article is fit onto one page without scrolling.
-
-`Render Video` uses the selected `Voice Source`. With `Docker VOICEVOX` selected, video rendering prepares Docker TTS sentence audio first and uses it for narration. With `Browser Voice` selected, rendering uses browser speech playback.
-
-The recording page uses a centered vertical `9:16` aspect ratio and scales to the captured tab. Browser tab capture still controls the final video file dimensions, but the captured content is a centered one-page layout instead of a scrolling reading page.
-
-To preview the recording layout without opening the capture prompt, add `?recording-preview=1` to any article URL.
-
-When the browser prompts for capture permissions:
-
-- share the current tab
-- enable tab audio if the browser offers it
-
-## Verification
-
-Basic checks:
-
-```bash
+python3 scripts/generate_site.py
 node --check assets/article.js
 python3 -m py_compile server/local_tts_server.py scripts/generate_site.py
 docker compose config
 ```
 
-VOICEVOX proxy smoke test:
+Optional VOICEVOX smoke test after `docker compose up --build`:
 
 ```bash
 curl -s -i http://127.0.0.1:8765/api/tts/voicevox/status
@@ -141,18 +106,3 @@ curl -s -f \
   http://127.0.0.1:8765/api/tts/voicevox \
   -o /tmp/learn-japanese-voicevox-test.wav
 ```
-
-Manual page checks:
-
-- archive page loads without console errors
-- article page top navigation renders
-- desktop article navigation renders
-- mobile hamburger navigation renders
-- `Copy Japanese Article` excludes furigana text
-- `Voice Source` switches between browser and Docker voice controls
-- `Read Aloud` highlights one sentence at a time with the selected source
-- `Render Video` switches to text-only recording mode and downloads `.mp4` using browser MP4 recording when available, or local `ffmpeg` conversion from WebM when needed
-
-## Known Limitation
-
-Browser `speechSynthesis` audio is not reliably capturable as tab audio. The Docker VOICEVOX path exists to test file-backed narration for more reliable video export audio.
