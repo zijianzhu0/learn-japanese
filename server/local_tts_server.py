@@ -15,7 +15,7 @@ from urllib import error, parse, request
 
 DEFAULT_HOST = os.environ.get("HOST", "127.0.0.1")
 DEFAULT_PORT = int(os.environ.get("PORT", "8765"))
-PROJECT_DIR = Path(__file__).resolve().parent
+PROJECT_DIR = Path(__file__).resolve().parent.parent
 VOICEVOX_BASE_URL = os.environ.get("VOICEVOX_BASE_URL", "http://127.0.0.1:50021")
 DEFAULT_VOICEVOX_SPEAKER = 3
 MAX_TTS_TEXT_CHARS = 500

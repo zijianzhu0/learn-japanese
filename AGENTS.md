@@ -10,8 +10,16 @@ The current primary artifacts are:
   Blog-style reading archive. Edit this for the index/archive layout and index navigation.
 - Individual `2026-*.html` article pages.
   Edit these for article UI, voice playback, highlighting, and video capture behavior.
-- [article-template.html](/Users/zijianzh/repositories/learn-japanese/article-template.html)
+- [templates/article.html](/Users/zijianzh/repositories/learn-japanese/templates/article.html)
   Reusable article template. Keep this in sync with article-page navigation and behavior.
+- [assets/article.css](/Users/zijianzh/repositories/learn-japanese/assets/article.css)
+  Shared article, toolbar, navigation, highlighting, and recording styles.
+- [assets/article.js](/Users/zijianzh/repositories/learn-japanese/assets/article.js)
+  Shared article behavior, navigation generation, speech playback, VOICEVOX playback, highlighting, and recording.
+- [data/articles.json](/Users/zijianzh/repositories/learn-japanese/data/articles.json)
+  Source of truth for article metadata, content, translations, and vocabulary.
+- [scripts/generate_site.py](/Users/zijianzh/repositories/learn-japanese/scripts/generate_site.py)
+  Regenerates article pages, the archive page, and shared article navigation from article JSON.
 
 Current pages support:
 
@@ -19,9 +27,10 @@ Current pages support:
 - furigana via `ruby`
 - copy-to-clipboard for the article text
 - browser speech playback
+- Docker VOICEVOX playback through the local server
 - sentence highlighting during playback
 - browser voice selection
-- browser-based tab recording flow for video capture
+- browser-based tab recording flow with MP4 conversion
 - icon-only top navigation
 - desktop left article navigation
 - mobile hamburger article navigation
@@ -33,14 +42,14 @@ Important files:
 - [index.html](/Users/zijianzh/repositories/learn-japanese/index.html)
   Blog archive page with article links. Desktop shows left navigation; narrow screens fold article navigation behind a hamburger icon.
 
-- [article-template.html](/Users/zijianzh/repositories/learn-japanese/article-template.html)
+- [templates/article.html](/Users/zijianzh/repositories/learn-japanese/templates/article.html)
   Reusable HTML template for article pages. It includes the same top icon nav and left/mobile article navigation used by current article pages.
 
-- [local_tts_server.py](/Users/zijianzh/repositories/learn-japanese/local_tts_server.py)
-  Very small static HTTP server for serving the repo on `127.0.0.1:8765`.
+- [server/local_tts_server.py](/Users/zijianzh/repositories/learn-japanese/server/local_tts_server.py)
+  Static HTTP server for serving the repo on `127.0.0.1:8765`, proxying VOICEVOX, and converting recordings to MP4.
 
 - `2026-*.html`
-  Individual article pages. Each page is self-contained and includes its own article CSS, navigation CSS, and speech/copy/recording JavaScript.
+  Generated individual article pages. Each page loads shared assets from `assets/`.
 
 Removed cleanup artifacts:
 
@@ -53,14 +62,16 @@ Removed cleanup artifacts:
 
 ## Current Behavior
 
-The current app is browser-voice-only.
+The current app supports browser voices and Docker VOICEVOX.
 
 Important details:
 
 - The previous Piper flow was removed from the page logic.
 - The preferred default browser voice is `Google 日本語` if the browser exposes it.
 - If `Google 日本語` is unavailable, the page falls back to the next available Japanese voice in the dropdown.
-- Sentence highlighting is driven by queueing one sentence per `SpeechSynthesisUtterance`.
+- The `Voice Source` dropdown switches between browser `speechSynthesis` and Docker VOICEVOX.
+- Sentence highlighting is driven by sentence-level playback units.
+- `Render Video` uses a vertical recording mode and downloads MP4 when browser support or server-side conversion is available.
 - Top navigation uses inline SVG icons, not CSS-drawn icons or external icon libraries.
 - Article pages use file links in the left navigation. The current article link is marked with `aria-current="page"`.
 - Mobile article navigation uses a `<details>` hamburger menu and swaps to an X icon when open.
@@ -71,7 +82,7 @@ Start the local server from the repo root:
 
 ```bash
 cd /Users/zijianzh/repositories/learn-japanese
-python3 local_tts_server.py
+python3 server/local_tts_server.py
 ```
 
 Then open:
@@ -142,11 +153,11 @@ Confirm:
 
 - the toolbar disappears during recording
 - sentence highlighting is visible in the captured page
-- a `.webm` download is triggered when recording finishes
+- an `.mp4` download is triggered when browser MP4 recording or local conversion succeeds
 
 Important note:
 
-- the video may still be silent when using browser/system speech voices, because `speechSynthesis` output is often not capturable as tab audio
+- browser voice videos may still be silent because `speechSynthesis` output is often not capturable as tab audio
 
 ## Known Limitations
 
@@ -156,41 +167,24 @@ Live playback works.
 
 Recorded video audio is not reliable with `speechSynthesis` voices such as `Google 日本語`, because that audio is usually not exposed to the page as a capturable media stream.
 
-### File-Backed Export Is Not Implemented
+### MP4 Conversion Requires ffmpeg
 
-Several local export paths were explored earlier:
-
-- shell `say`
-- `NSSpeechSynthesizer`
-- `AVSpeechSynthesizer.write(...)`
-
-Those experiments were removed from the working repo. Reintroduce a file-backed render-only TTS path only if reliable narrated export becomes the goal again.
+Docker installs `ffmpeg`. Local Python development needs `ffmpeg` on `PATH` for server-side MP4 conversion.
 
 ## TODOs
 
 ### High Priority
 
-- Make `Render Video` include reliable narration audio.
-- Decide whether to keep browser speech only, or reintroduce a file-backed render-only TTS path.
+- Continue validating Docker VOICEVOX narration for video export.
 - Verify whether the in-app browser can capture browser speech under any specific share/capture mode.
 
 ### Medium Priority
 
 - Hide or remove the unused `<audio>` player if it is no longer needed.
-- Keep `article-template.html` synchronized with article page navigation.
+- Keep `templates/article.html` synchronized with article page navigation.
 - Consider extracting shared navigation generation if article count grows further.
 
 ### Low Priority
 
 - Add more articles using the template.
-- Add a cleaner page-level recording mode style.
 - Add a small inline status indicator for the selected voice.
-
-## Suggested Next Step
-
-If the goal is “export a narrated highlighted video,” the next concrete engineering move is:
-
-- use browser voices for live reading
-- use a separate file-backed TTS source only for export/render
-
-That split reflects the current technical reality better than trying to force `speechSynthesis` output into a recorded tab audio track.

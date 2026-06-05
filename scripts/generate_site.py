@@ -9,10 +9,10 @@ from html import escape
 from pathlib import Path
 
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent
 ARTICLES_PATH = ROOT / "data" / "articles.json"
-ARTICLE_TEMPLATE_PATH = ROOT / "article-template.html"
-ARTICLE_JS_PATH = ROOT / "article.js"
+ARTICLE_TEMPLATE_PATH = ROOT / "templates" / "article.html"
+ARTICLE_JS_PATH = ROOT / "assets" / "article.js"
 INDEX_PATH = ROOT / "index.html"
 
 
@@ -174,6 +174,7 @@ def render_index_card(article: dict) -> str:
                             </div>
                         </a>
                     </li>"""
+
 
 def write_index(articles: list[dict]) -> None:
     index = INDEX_PATH.read_text(encoding="utf-8")

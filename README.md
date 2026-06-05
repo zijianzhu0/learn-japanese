@@ -6,9 +6,9 @@ A small local Japanese reading site with article pages, furigana, browser speech
 
 - `index.html` is the reading archive and article index.
 - `2026-*.html` files are individual article pages.
-- `article-template.html` is the reusable article page template.
-- `article.css` contains shared article, toolbar, navigation, highlighting, and recording styles.
-- `article.js` contains shared article behavior:
+- `templates/article.html` is the reusable article page template.
+- `assets/article.css` contains shared article, toolbar, navigation, highlighting, and recording styles.
+- `assets/article.js` contains shared article behavior:
   - top and article navigation generation
   - furigana-safe text extraction
   - sentence splitting and highlighting
@@ -16,18 +16,18 @@ A small local Japanese reading site with article pages, furigana, browser speech
   - browser `speechSynthesis` playback
   - Docker VOICEVOX TTS playback
   - tab recording flow for video export
-- `local_tts_server.py` serves the static site on `127.0.0.1:8765`, proxies VOICEVOX requests, and converts recordings to MP4 with `ffmpeg`.
+- `server/local_tts_server.py` serves the static site on `127.0.0.1:8765`, proxies VOICEVOX requests, and converts recordings to MP4 with `ffmpeg`.
 - `Dockerfile` packages the site server and MP4 converter with `ffmpeg`.
 - `docker-compose.yml` starts both the web server/converter and the local VOICEVOX engine.
 - `data/articles.json` is the source of truth for article content, article metadata, furigana HTML, translations, and vocabulary.
-- `generate_site.py` rebuilds article pages, the archive page, and shared article navigation from `data/articles.json`.
+- `scripts/generate_site.py` rebuilds article pages, the archive page, and shared article navigation from `data/articles.json`.
 
 ## Add Or Edit Articles
 
 Edit `data/articles.json`, then regenerate the static pages:
 
 ```bash
-python3 generate_site.py
+python3 scripts/generate_site.py
 ```
 
 Each article record includes:
@@ -47,7 +47,7 @@ The generator writes:
 
 - `2026-*.html`
 - `index.html`
-- the `articleNavigation` list inside `article.js`
+- the `articleNavigation` list inside `assets/article.js`
 
 ## Run The Site
 
@@ -70,7 +70,7 @@ docker compose down
 Local Python development still works if `ffmpeg` is installed:
 
 ```bash
-python3 local_tts_server.py
+python3 server/local_tts_server.py
 ```
 
 ## Browser Voice Playback
@@ -122,8 +122,8 @@ When the browser prompts for capture permissions:
 Basic checks:
 
 ```bash
-node --check article.js
-python3 -m py_compile local_tts_server.py
+node --check assets/article.js
+python3 -m py_compile server/local_tts_server.py scripts/generate_site.py
 docker compose config
 ```
 
