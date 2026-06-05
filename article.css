@@ -363,8 +363,8 @@ body {
 }
 
 body.recording-mode {
-    --recording-page-width: min(100vw, calc(100vh * 16 / 9));
-    --recording-page-height: min(100vh, calc(100vw * 9 / 16));
+    --recording-page-width: min(100vw, calc(100vh * 9 / 16));
+    --recording-page-height: min(100vh, calc(100vw * 16 / 9));
     --recording-title-size: 44px;
     --recording-body-size: 33px;
     --recording-body-line-height: 1.68;
