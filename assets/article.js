@@ -1,12 +1,25 @@
 const recordingDownloadName = document.body.dataset.recordingDownloadName || 'article.webm';
-const defaultLocalTtsSpeaker = 3;
+const defaultLocalTtsSpeaker = 9;
 const silentAudioDataUrl = 'data:audio/wav;base64,UklGRigAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQQAAAAAgICA';
 const voicePreferenceKeys = {
     source: 'learnJapanese.voiceSource',
     browserVoice: 'learnJapanese.browserVoice',
-    dockerSpeaker: 'learnJapanese.dockerSpeaker'
+    dockerSpeaker: 'learnJapanese.dockerSpeaker',
+    sourceDefaultMigrated: 'learnJapanese.voiceSourceDefaultMigrated'
 };
+const previousDefaultLocalTtsSpeaker = 3;
+const defaultVoiceSource = 'docker';
 const articleNavigation = [
+    {
+        "month": "June 2026",
+        "href": "./2026-06-05-tokyo-quake-plan.html",
+        "label": "6/5 首都直下地震の新計画"
+    },
+    {
+        "month": "June 2026",
+        "href": "./2026-06-03-storm-jangmi-disruption.html",
+        "label": "6/3 台風6号で交通に影響"
+    },
     {
         "month": "May 2026",
         "href": "./2026-05-29-library-tablets.html",
@@ -533,12 +546,21 @@ function insertVoiceSourceControls() {
     sourceSelect.id = 'voice-source';
     sourceSelect.setAttribute('aria-label', 'Voice source');
     sourceSelect.innerHTML = [
-        '<option value="browser" selected>Browser Voice</option>',
-        '<option value="docker">Docker VOICEVOX</option>'
+        '<option value="docker" selected>Docker VOICEVOX</option>',
+        '<option value="browser">Browser Voice</option>'
     ].join('');
     const savedSource = readVoicePreference(voicePreferenceKeys.source);
-    if (savedSource === 'browser' || savedSource === 'docker') {
+    const sourceDefaultMigrated = readVoicePreference(voicePreferenceKeys.sourceDefaultMigrated) === '1';
+    if (!sourceDefaultMigrated && savedSource === 'browser') {
+        sourceSelect.value = defaultVoiceSource;
+        writeVoicePreference(voicePreferenceKeys.source, defaultVoiceSource);
+        writeVoicePreference(voicePreferenceKeys.sourceDefaultMigrated, '1');
+    } else if (savedSource === 'browser' || savedSource === 'docker') {
         sourceSelect.value = savedSource;
+    } else {
+        sourceSelect.value = defaultVoiceSource;
+        writeVoicePreference(voicePreferenceKeys.source, defaultVoiceSource);
+        writeVoicePreference(voicePreferenceKeys.sourceDefaultMigrated, '1');
     }
     sourceSelect.addEventListener('change', () => {
         writeVoicePreference(voicePreferenceKeys.source, getSelectedVoiceSource());
@@ -644,6 +666,9 @@ async function populateLocalTtsVoiceOptions() {
     try {
         const payload = await fetchLocalTtsStatus();
         const savedValue = readVoicePreference(voicePreferenceKeys.dockerSpeaker);
+        const preferredValue = savedValue === String(previousDefaultLocalTtsSpeaker)
+            ? String(defaultLocalTtsSpeaker)
+            : savedValue;
         const previousValue = select.value;
         const options = [];
         payload.speakers.forEach((speaker) => {
@@ -663,8 +688,8 @@ async function populateLocalTtsVoiceOptions() {
             select.appendChild(option);
         });
 
-        if (savedValue && [...select.options].some((option) => option.value === savedValue)) {
-            select.value = savedValue;
+        if (preferredValue && [...select.options].some((option) => option.value === preferredValue)) {
+            select.value = preferredValue;
         } else if ([...select.options].some((option) => option.value === previousValue)) {
             select.value = previousValue;
         } else if ([...select.options].some((option) => option.value === String(payload.default_speaker))) {

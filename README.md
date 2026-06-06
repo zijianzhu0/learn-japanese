@@ -43,7 +43,16 @@ python3 server/local_tts_server.py
 
 ## Article Workflow
 
-Edit an existing file in `data/articles/`, then regenerate:
+Before changing article data, run the normal verification commands once so you have a clean baseline:
+
+```bash
+python3 scripts/generate_site.py
+node --check assets/article.js
+python3 -m py_compile server/local_tts_server.py scripts/generate_site.py
+docker compose config
+```
+
+Edit existing article content in `data/articles/`, then regenerate:
 
 ```bash
 python3 scripts/generate_site.py
@@ -54,6 +63,7 @@ To add an article:
 1. Create `data/articles/YYYY-MM-DD-slug.json`.
 2. Add `articles/YYYY-MM-DD-slug.json` to `data/articles.json` in display order.
 3. Run `python3 scripts/generate_site.py`.
+4. Re-run the verification commands from `Verify`.
 
 Each article JSON file includes:
 

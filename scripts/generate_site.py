@@ -209,8 +209,8 @@ def write_index(articles: list[dict]) -> None:
         flags=re.S,
     )
     index = re.sub(
-        r'<span class="article-count">.*?</span>',
-        f'<span class="article-count">{len(articles)} articles</span>',
+        r'<(?P<tag>span|div) class="article-count">.*?</(?P=tag)>',
+        lambda match: f'<{match.group("tag")} class="article-count">{len(articles)} articles</{match.group("tag")}>',
         index,
         count=1,
     )

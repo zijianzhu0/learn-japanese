@@ -5,6 +5,8 @@ services:
       - "127.0.0.1:8765:8765"
     environment:
       VOICEVOX_BASE_URL: "http://voicevox:50021"
+    volumes:
+      - .:/app
     depends_on:
       - voicevox
 
