@@ -27,6 +27,9 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
     def __init__(self, *args, directory: str | None = None, **kwargs):
         super().__init__(*args, directory=str(PROJECT_DIR), **kwargs)
 
+    def log_message(self, format: str, *args) -> None:
+        return
+
     def do_GET(self) -> None:
         if self.path == "/api/tts/voicevox/status":
             self.handle_voicevox_status()
@@ -259,7 +262,6 @@ def main() -> None:
     args = parser.parse_args()
 
     server = ThreadingHTTPServer((args.host, args.port), LearnJapaneseHandler)
-    print(f"Serving {PROJECT_DIR} on {args.host}:{args.port}", flush=True)
     print(f"Open {public_site_url(args.host, args.port)}", flush=True)
     try:
         server.serve_forever()

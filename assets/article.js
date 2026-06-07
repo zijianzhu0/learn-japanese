@@ -318,6 +318,7 @@ let localTtsSpeakersLoaded = false;
 
 function extractRubyBaseText(element) {
     const clone = element.cloneNode(true);
+    clone.querySelectorAll('.sentence-read-button').forEach((node) => node.remove());
     clone.querySelectorAll('rt, rp').forEach((node) => node.remove());
     return clone.textContent.replace(/\s+/g, ' ').trim();
 }
@@ -471,12 +472,43 @@ function buildSentenceMeta() {
             metadata.push({
                 id: sentenceId,
                 text: sentence,
-                unitIds
+                unitIds,
+                blockIndex
             });
         });
     });
 
     sentenceMeta = metadata;
+}
+
+function renderSentencePlaybackButtons() {
+    document.querySelectorAll('.sentence-read-button').forEach((button) => button.remove());
+
+    sentenceMeta.forEach((sentence, sentenceIndex) => {
+        if (sentence.blockIndex === 0 || !sentence.unitIds.length) {
+            return;
+        }
+
+        const firstUnitIndex = findUnitIndexById(sentence.unitIds[0]);
+        const firstUnit = readingUnits[firstUnitIndex];
+        if (!firstUnit?.element?.parentNode) {
+            return;
+        }
+
+        const button = document.createElement('button');
+        button.className = 'sentence-read-button';
+        button.type = 'button';
+        button.dataset.sentenceIndex = String(sentenceIndex);
+        button.dataset.tooltip = 'Read from this sentence';
+        button.setAttribute('aria-label', 'Read from this sentence');
+        button.innerHTML = [
+            '<svg class="sentence-read-svg" viewBox="0 0 24 24" aria-hidden="true">',
+            '<path d="M8 5v14l11-7z"></path>',
+            '</svg>',
+            '<span class="icon-label">Read from this sentence</span>'
+        ].join('');
+        firstUnit.element.parentNode.insertBefore(button, firstUnit.element);
+    });
 }
 
 function clearHighlight() {
@@ -874,10 +906,11 @@ function playLocalTtsAudioBlob(audioBlob, sentence, sentenceIndex, runId) {
     });
 }
 
-async function playLocalTtsQueue({ audioBlobs = null, speaker = getSelectedLocalTtsSpeaker() } = {}) {
+async function playLocalTtsQueue({ audioBlobs = null, speaker = getSelectedLocalTtsSpeaker(), startIndex = 0 } = {}) {
     const status = document.getElementById('copy-status');
     const speakButton = document.getElementById('speak-japanese-article');
     const runId = localTtsPlaybackRun + 1;
+    const firstIndex = Math.max(0, Math.min(startIndex, sentenceMeta.length));
     const loadAudioBlob = (index) => {
         if (audioBlobs) {
             return Promise.resolve(audioBlobs[index]);
@@ -895,8 +928,8 @@ async function playLocalTtsQueue({ audioBlobs = null, speaker = getSelectedLocal
     }
 
     try {
-        let pendingAudioBlob = sentenceMeta.length ? loadAudioBlob(0) : null;
-        for (let index = 0; index < sentenceMeta.length; index += 1) {
+        let pendingAudioBlob = firstIndex < sentenceMeta.length ? loadAudioBlob(firstIndex) : null;
+        for (let index = firstIndex; index < sentenceMeta.length; index += 1) {
             if (!localTtsPlaybackActive || runId !== localTtsPlaybackRun) {
                 throw new Error('Docker TTS playback was stopped.');
             }
@@ -922,7 +955,7 @@ async function playLocalTtsQueue({ audioBlobs = null, speaker = getSelectedLocal
     }
 }
 
-async function playLocalTtsArticle() {
+async function playLocalTtsArticle(startIndex = 0) {
     const status = document.getElementById('copy-status');
 
     if (localTtsPlaybackActive) {
@@ -934,7 +967,7 @@ async function playLocalTtsArticle() {
     try {
         status.textContent = 'Preparing Docker TTS...';
         await populateLocalTtsVoiceOptions();
-        await playLocalTtsQueue();
+        await playLocalTtsQueue({ startIndex });
     } catch (error) {
         if (!String(error.message).includes('stopped')) {
             status.textContent = error.message;
@@ -942,7 +975,7 @@ async function playLocalTtsArticle() {
     }
 }
 
-async function speakWithLocalTts() {
+async function speakWithLocalTts(startIndex = 0) {
     const status = document.getElementById('copy-status');
     if (!localTtsPlaybackActive) {
         const audioReady = await unlockLocalTtsAudio();
@@ -951,7 +984,7 @@ async function speakWithLocalTts() {
             return;
         }
     }
-    await playLocalTtsArticle();
+    await playLocalTtsArticle(startIndex);
 }
 
 async function copyJapaneseArticle() {
@@ -1006,9 +1039,10 @@ function stopCurrentPlayback() {
     }
 }
 
-function speakWithBrowserSentenceQueue(onComplete = null) {
+function speakWithBrowserSentenceQueue(onComplete = null, startIndex = 0) {
     const status = document.getElementById('copy-status');
     const speakButton = document.getElementById('speak-japanese-article');
+    const firstIndex = Math.max(0, Math.min(startIndex, sentenceMeta.length));
 
     if (!('speechSynthesis' in window) || typeof SpeechSynthesisUtterance === 'undefined') {
         status.textContent = 'Browser speech is not supported here.';
@@ -1074,7 +1108,7 @@ function speakWithBrowserSentenceQueue(onComplete = null) {
 
     window.speechSynthesis.cancel();
     clearHighlight();
-    speakSentenceAt(0);
+    speakSentenceAt(firstIndex);
 }
 
 async function speakJapaneseArticle() {
@@ -1095,6 +1129,29 @@ async function speakJapaneseArticle() {
     setToolbarButtonState(speakButton, 'loading');
     status.textContent = 'Preparing browser voice...';
     speakWithBrowserSentenceQueue();
+}
+
+async function speakFromSentence(sentenceIndex) {
+    if (!Number.isInteger(sentenceIndex) || sentenceIndex < 0 || sentenceIndex >= sentenceMeta.length) {
+        return;
+    }
+
+    const status = document.getElementById('copy-status');
+    const speakButton = document.getElementById('speak-japanese-article');
+
+    if (speaking || localTtsPlaybackActive) {
+        stopCurrentPlayback();
+    }
+
+    status.textContent = `Preparing to read from sentence ${sentenceIndex + 1}/${sentenceMeta.length}...`;
+
+    if (getSelectedVoiceSource() === 'docker') {
+        await speakWithLocalTts(sentenceIndex);
+        return;
+    }
+
+    setToolbarButtonState(speakButton, 'loading');
+    speakWithBrowserSentenceQueue(null, sentenceIndex);
 }
 
 function chooseRecorderMimeType() {
@@ -1353,12 +1410,22 @@ document.getElementById('copy-japanese-article')?.addEventListener('click', copy
 document.getElementById('copy-english-translation')?.addEventListener('click', copyEnglishTranslation);
 document.getElementById('speak-japanese-article')?.addEventListener('click', speakJapaneseArticle);
 document.getElementById('render-video')?.addEventListener('click', handleRenderVideoClick);
+document.addEventListener('click', (event) => {
+    const button = event.target.closest('.sentence-read-button');
+    if (!button) {
+        return;
+    }
+
+    event.preventDefault();
+    speakFromSentence(Number(button.dataset.sentenceIndex));
+});
 if ('speechSynthesis' in window) {
     window.speechSynthesis.addEventListener('voiceschanged', populateBrowserVoiceOptions);
 }
 decorateReadingContent();
 buildReadingUnits();
 buildSentenceMeta();
+renderSentencePlaybackButtons();
 populateBrowserVoiceOptions();
 if (isRecordingPreviewMode()) {
     document.body.classList.add('recording-mode');
