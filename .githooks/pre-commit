@@ -1,0 +1,28 @@
+#!/bin/sh
+set -eu
+
+changed="$(git diff --cached --name-only)"
+
+case "$changed" in
+  *data/articles/*|*data/articles.json*|*templates/article.html*|*scripts/generate_site.py*)
+    python3 scripts/generate_site.py
+
+    if ! git diff --quiet -- index.html 2026-*.html assets/article.js; then
+      echo "Generated files changed. Review and stage them, then commit again:"
+      git status --short index.html 2026-*.html assets/article.js
+      exit 1
+    fi
+    ;;
+esac
+
+case "$changed" in
+  *assets/article.js*)
+    node --check assets/article.js
+    ;;
+esac
+
+case "$changed" in
+  *server/local_tts_server.py*|*scripts/generate_site.py*)
+    python3 -m py_compile server/local_tts_server.py scripts/generate_site.py
+    ;;
+esac

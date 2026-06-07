@@ -1,0 +1,14 @@
+#!/bin/sh
+set -eu
+
+python3 scripts/generate_site.py
+
+if ! git diff --quiet -- index.html 2026-*.html assets/article.js; then
+  echo "Generated files changed. Review and commit them before pushing:"
+  git status --short index.html 2026-*.html assets/article.js
+  exit 1
+fi
+
+node --check assets/article.js
+python3 -m py_compile server/local_tts_server.py scripts/generate_site.py
+docker compose config
