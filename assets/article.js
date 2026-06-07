@@ -215,7 +215,7 @@ function renderArticleNavigation() {
     const closeIcon = '<svg class="nav-svg close-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg>';
 
     sidebar.innerHTML = `
-        <h2 class="site-title">Japanese Reading</h2>
+        <h2 class="site-title">jeapanese learning board</h2>
         <p class="site-subtitle">Quick links to every article.</p>
         <nav class="desktop-article-nav">${groupsHtml}
         </nav>
@@ -252,6 +252,13 @@ function buildJapaneseArticleText() {
     const paragraphs = Array.from(document.querySelectorAll('.article-paragraph'))
         .map((paragraph) => extractRubyBaseText(paragraph));
     return [title, ...paragraphs].join('\n\n');
+}
+
+function buildEnglishTranslationText() {
+    return Array.from(document.querySelectorAll('.sentence-translation'))
+        .map((translation) => translation.textContent.replace(/\s+/g, ' ').trim())
+        .filter(Boolean)
+        .join('\n\n');
 }
 
 function splitIntoSentences(text) {
@@ -787,6 +794,14 @@ async function playLocalTtsQueue({ audioBlobs = null, speaker = getSelectedLocal
     const status = document.getElementById('copy-status');
     const speakButton = document.getElementById('speak-japanese-article');
     const runId = localTtsPlaybackRun + 1;
+    const loadAudioBlob = (index) => {
+        if (audioBlobs) {
+            return Promise.resolve(audioBlobs[index]);
+        }
+
+        status.textContent = `Generating Docker TTS sentence ${index + 1}/${sentenceMeta.length}...`;
+        return fetchLocalTtsAudio(sentenceMeta[index].text, speaker);
+    };
 
     stopCurrentPlayback();
     localTtsPlaybackRun = runId;
@@ -796,15 +811,17 @@ async function playLocalTtsQueue({ audioBlobs = null, speaker = getSelectedLocal
     }
 
     try {
+        let pendingAudioBlob = sentenceMeta.length ? loadAudioBlob(0) : null;
         for (let index = 0; index < sentenceMeta.length; index += 1) {
             if (!localTtsPlaybackActive || runId !== localTtsPlaybackRun) {
                 throw new Error('Docker TTS playback was stopped.');
             }
 
             const sentence = sentenceMeta[index];
-            const audioBlob = audioBlobs
-                ? audioBlobs[index]
-                : await fetchLocalTtsAudio(sentence.text, speaker);
+            const audioBlob = await pendingAudioBlob;
+            pendingAudioBlob = index + 1 < sentenceMeta.length
+                ? loadAudioBlob(index + 1)
+                : null;
             await playLocalTtsAudioBlob(audioBlob, sentence, index, runId);
         }
 
@@ -860,6 +877,23 @@ async function copyJapaneseArticle() {
     try {
         await navigator.clipboard.writeText(articleText);
         status.textContent = 'Japanese article copied to clipboard.';
+    } catch (error) {
+        status.textContent = 'Copy failed. Your browser may block clipboard access.';
+    }
+}
+
+async function copyEnglishTranslation() {
+    const status = document.getElementById('copy-status');
+    const translationText = buildEnglishTranslationText();
+
+    if (!translationText) {
+        status.textContent = 'No English translation found on this page.';
+        return;
+    }
+
+    try {
+        await navigator.clipboard.writeText(translationText);
+        status.textContent = 'English translation copied to clipboard.';
     } catch (error) {
         status.textContent = 'Copy failed. Your browser may block clipboard access.';
     }
@@ -1228,6 +1262,7 @@ document.getElementById('browser-voice')?.addEventListener('change', (event) => 
     writeVoicePreference(voicePreferenceKeys.browserVoice, event.target.value);
 });
 document.getElementById('copy-japanese-article')?.addEventListener('click', copyJapaneseArticle);
+document.getElementById('copy-english-translation')?.addEventListener('click', copyEnglishTranslation);
 document.getElementById('speak-japanese-article')?.addEventListener('click', speakJapaneseArticle);
 document.getElementById('render-video')?.addEventListener('click', handleRenderVideoClick);
 if ('speechSynthesis' in window) {

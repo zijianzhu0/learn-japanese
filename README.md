@@ -1,6 +1,6 @@
-# Learn Japanese Reading Pages
+# jeapanese learning board
 
-A local Japanese reading site with furigana, sentence highlighting, browser speech playback, Docker VOICEVOX playback, copy-to-clipboard, and MP4-oriented tab recording.
+A local Japanese learning board with furigana, sentence highlighting, browser speech playback, Docker VOICEVOX playback, copy-to-clipboard, and MP4-oriented tab recording.
 
 ## Project Layout
 
