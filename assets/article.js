@@ -151,6 +151,81 @@ function writeVoicePreference(key, value) {
     }
 }
 
+function setToolbarButtonState(buttonOrId, state = 'default') {
+    const button = typeof buttonOrId === 'string' ? document.getElementById(buttonOrId) : buttonOrId;
+    if (!button) {
+        return;
+    }
+
+    const labelKey = state === 'active'
+        ? 'activeLabel'
+        : state === 'loading'
+            ? 'loadingLabel'
+            : 'defaultLabel';
+    const fallbackLabel = button.getAttribute('aria-label') || '';
+    const label = button.dataset[labelKey] || button.dataset.defaultLabel || fallbackLabel;
+    button.dataset.tooltip = label;
+    button.setAttribute('aria-label', label);
+    button.classList.toggle('is-active', state === 'active');
+    button.classList.toggle('is-loading', state === 'loading');
+
+    const hiddenLabel = button.querySelector('.icon-label');
+    if (hiddenLabel) {
+        hiddenLabel.textContent = label;
+    }
+}
+
+function updateVoiceStatus() {
+    const status = document.getElementById('voice-current-status');
+    if (!status) {
+        return;
+    }
+
+    if (getSelectedVoiceSource() === 'docker') {
+        const dockerVoice = document.getElementById('docker-voice');
+        const speakerName = dockerVoice?.selectedOptions?.[0]?.textContent?.trim() || `VOICEVOX speaker ${getSelectedLocalTtsSpeaker()}`;
+        status.textContent = `Docker VOICEVOX · ${speakerName}`;
+        return;
+    }
+
+    const browserVoice = document.getElementById('browser-voice');
+    const voiceName = browserVoice?.selectedOptions?.[0]?.textContent?.trim() || 'Browser voice';
+    status.textContent = `Browser Voice · ${voiceName}`;
+}
+
+function setupVoiceSettingsMenu() {
+    const toggle = document.getElementById('voice-menu-toggle');
+    const menu = document.getElementById('voice-settings-menu');
+    if (!toggle || !menu) {
+        return;
+    }
+
+    toggle.addEventListener('click', () => {
+        const isOpen = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!isOpen));
+        menu.hidden = isOpen;
+    });
+
+    document.addEventListener('click', (event) => {
+        if (menu.hidden || toggle.contains(event.target) || menu.contains(event.target)) {
+            return;
+        }
+
+        toggle.setAttribute('aria-expanded', 'false');
+        menu.hidden = true;
+    });
+
+    document.addEventListener('keydown', (event) => {
+        if (event.key !== 'Escape' || menu.hidden) {
+            return;
+        }
+
+        toggle.setAttribute('aria-expanded', 'false');
+        menu.hidden = true;
+        toggle.focus();
+    });
+}
+
 function topNavLink(href, label, title, icon) {
     return `<a class="top-nav-link" href="${href}" aria-label="${label}" title="${title}">${icon}<span class="icon-label">${label}</span></a>`;
 }
@@ -428,6 +503,7 @@ function populateBrowserVoiceOptions() {
         option.value = 'auto';
         option.textContent = 'No Japanese Voice';
         select.appendChild(option);
+        updateVoiceStatus();
         return;
     }
 
@@ -449,6 +525,7 @@ function populateBrowserVoiceOptions() {
         option.value = 'auto';
         option.textContent = 'No Japanese Voice';
         select.appendChild(option);
+        updateVoiceStatus();
         return;
     }
 
@@ -468,6 +545,8 @@ function populateBrowserVoiceOptions() {
     } else {
         select.selectedIndex = 0;
     }
+
+    updateVoiceStatus();
 }
 
 function getSelectedBrowserVoice() {
@@ -504,6 +583,8 @@ function updateVoiceControlVisibility() {
         dockerVoice.hidden = !isDocker;
         dockerVoiceLabel.hidden = !isDocker;
     }
+
+    updateVoiceStatus();
 }
 
 function highlightUnit(index) {
@@ -536,10 +617,10 @@ function findUnitIndexById(unitId) {
 }
 
 function insertVoiceSourceControls() {
-    const toolbar = document.querySelector('.article-toolbar');
+    const menu = document.getElementById('voice-settings-menu');
     const browserVoice = document.getElementById('browser-voice');
     const browserVoiceLabel = document.querySelector('label[for="browser-voice"]');
-    if (!toolbar || !browserVoice || !browserVoiceLabel || document.getElementById('voice-source')) {
+    if (!menu || !browserVoice || !browserVoiceLabel || document.getElementById('voice-source')) {
         return;
     }
 
@@ -593,12 +674,13 @@ function insertVoiceSourceControls() {
     }
     dockerVoice.addEventListener('change', () => {
         writeVoicePreference(voicePreferenceKeys.dockerSpeaker, dockerVoice.value);
+        updateVoiceStatus();
     });
 
-    toolbar.insertBefore(sourceLabel, browserVoiceLabel);
-    toolbar.insertBefore(sourceSelect, browserVoiceLabel);
-    toolbar.insertBefore(dockerVoiceLabel, browserVoice.nextSibling);
-    toolbar.insertBefore(dockerVoice, dockerVoiceLabel.nextSibling);
+    menu.insertBefore(sourceLabel, browserVoiceLabel);
+    menu.insertBefore(sourceSelect, browserVoiceLabel);
+    menu.insertBefore(dockerVoiceLabel, browserVoice.nextSibling);
+    menu.insertBefore(dockerVoice, dockerVoiceLabel.nextSibling);
     updateVoiceControlVisibility();
     if (getSelectedVoiceSource() === 'docker') {
         populateLocalTtsVoiceOptions();
@@ -704,8 +786,10 @@ async function populateLocalTtsVoiceOptions() {
         }
 
         localTtsSpeakersLoaded = true;
+        updateVoiceStatus();
     } catch (error) {
         select.innerHTML = `<option value="${defaultLocalTtsSpeaker}">Start Docker VOICEVOX</option>`;
+        updateVoiceStatus();
         if (status && getSelectedVoiceSource() === 'docker') {
             status.textContent = error.message;
         }
@@ -807,7 +891,7 @@ async function playLocalTtsQueue({ audioBlobs = null, speaker = getSelectedLocal
     localTtsPlaybackRun = runId;
     localTtsPlaybackActive = true;
     if (speakButton) {
-        speakButton.textContent = 'Stop Reading';
+        setToolbarButtonState(speakButton, 'active');
     }
 
     try {
@@ -832,7 +916,7 @@ async function playLocalTtsQueue({ audioBlobs = null, speaker = getSelectedLocal
             clearHighlight();
             revokeActiveTtsAudioUrl();
             if (speakButton) {
-                speakButton.textContent = 'Read Aloud';
+                setToolbarButtonState(speakButton);
             }
         }
     }
@@ -918,7 +1002,7 @@ function stopCurrentPlayback() {
     clearHighlight();
     speaking = false;
     if (speakButton) {
-        speakButton.textContent = 'Read Aloud';
+        setToolbarButtonState(speakButton);
     }
 }
 
@@ -928,12 +1012,14 @@ function speakWithBrowserSentenceQueue(onComplete = null) {
 
     if (!('speechSynthesis' in window) || typeof SpeechSynthesisUtterance === 'undefined') {
         status.textContent = 'Browser speech is not supported here.';
+        setToolbarButtonState(speakButton);
         return;
     }
 
     const selectedVoice = getSelectedBrowserVoice();
     if (!selectedVoice) {
         status.textContent = 'No Japanese browser voice is available.';
+        setToolbarButtonState(speakButton);
         return;
     }
 
@@ -941,7 +1027,7 @@ function speakWithBrowserSentenceQueue(onComplete = null) {
         if (sentenceIndex >= sentenceMeta.length) {
             speaking = false;
             browserUtterance = null;
-            speakButton.textContent = 'Read Aloud';
+            setToolbarButtonState(speakButton);
             status.textContent = 'Finished reading article.';
             clearHighlight();
             if (typeof onComplete === 'function') {
@@ -962,7 +1048,7 @@ function speakWithBrowserSentenceQueue(onComplete = null) {
 
         utterance.onstart = () => {
             speaking = true;
-            speakButton.textContent = 'Stop Reading';
+            setToolbarButtonState(speakButton, 'active');
             highlightUnit(firstUnitIndex);
             status.textContent = `Reading sentence ${sentenceIndex + 1}/${sentenceMeta.length} with ${selectedVoice.name}.`;
         };
@@ -978,7 +1064,7 @@ function speakWithBrowserSentenceQueue(onComplete = null) {
         utterance.onerror = () => {
             speaking = false;
             browserUtterance = null;
-            speakButton.textContent = 'Read Aloud';
+            setToolbarButtonState(speakButton);
             status.textContent = 'Read aloud failed in this browser.';
             clearHighlight();
         };
@@ -1006,7 +1092,7 @@ async function speakJapaneseArticle() {
         return;
     }
 
-    speakButton.textContent = 'Preparing Audio...';
+    setToolbarButtonState(speakButton, 'loading');
     status.textContent = 'Preparing browser voice...';
     speakWithBrowserSentenceQueue();
 }
@@ -1146,7 +1232,7 @@ async function renderVideo() {
     };
 
     try {
-        renderButton.textContent = 'Recording...';
+        setToolbarButtonState(renderButton, 'active');
         status.textContent = useLocalTts
             ? 'Share the current tab and enable audio to record Docker TTS narration.'
             : 'Share the current tab and enable audio to record the highlighted reading.';
@@ -1202,7 +1288,7 @@ async function renderVideo() {
             document.body.style.removeProperty('--recording-title-size');
             document.body.style.removeProperty('--recording-body-size');
             document.body.style.removeProperty('--recording-body-line-height');
-            renderButton.textContent = 'Render Video';
+            setToolbarButtonState(renderButton);
             if (!conversionFailed) {
                 status.textContent = downloadName.endsWith('.mp4')
                     ? 'MP4 rendered and downloaded.'
@@ -1238,7 +1324,7 @@ async function renderVideo() {
         document.body.style.removeProperty('--recording-title-size');
         document.body.style.removeProperty('--recording-body-size');
         document.body.style.removeProperty('--recording-body-line-height');
-        renderButton.textContent = 'Render Video';
+        setToolbarButtonState(renderButton);
         status.textContent = 'Video recording was cancelled or blocked.';
     }
 }
@@ -1257,9 +1343,11 @@ async function handleRenderVideoClick() {
 
 renderTopNavigation();
 renderArticleNavigation();
+setupVoiceSettingsMenu();
 insertVoiceSourceControls();
 document.getElementById('browser-voice')?.addEventListener('change', (event) => {
     writeVoicePreference(voicePreferenceKeys.browserVoice, event.target.value);
+    updateVoiceStatus();
 });
 document.getElementById('copy-japanese-article')?.addEventListener('click', copyJapaneseArticle);
 document.getElementById('copy-english-translation')?.addEventListener('click', copyEnglishTranslation);

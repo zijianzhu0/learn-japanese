@@ -15,14 +15,64 @@
 <div class="container">
     <div class="date">{{DATE}}</div>
     <div class="article-toolbar">
-        <label class="toolbar-label" for="browser-voice">Browser Voice</label>
-        <select class="voice-select" id="browser-voice" aria-label="Browser voice">
-            <option value="auto" selected>Google 日本語</option>
-        </select>
-        <button class="video-button" type="button" id="render-video">Render Video</button>
-        <button class="speak-button" type="button" id="speak-japanese-article">Read Aloud</button>
-        <button class="copy-button" type="button" id="copy-japanese-article">Copy Japanese Article</button>
-        <button class="copy-button" type="button" id="copy-english-translation">Copy English Translation</button>
+        <div class="voice-controls">
+            <button class="toolbar-icon-button voice-menu-toggle" type="button" id="voice-menu-toggle" aria-expanded="false" aria-controls="voice-settings-menu" aria-label="Voice settings" data-tooltip="Voice settings">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 10v4"></path>
+                    <path d="M8 7v10"></path>
+                    <path d="M12 4v16"></path>
+                    <path d="M16 7v10"></path>
+                    <path d="M20 10v4"></path>
+                </svg>
+                <span class="icon-label">Voice settings</span>
+            </button>
+            <div class="voice-current-status" id="voice-current-status" aria-live="polite">Docker VOICEVOX</div>
+            <div class="voice-settings-menu" id="voice-settings-menu" hidden>
+                <label class="toolbar-label" for="browser-voice">Browser Voice</label>
+                <select class="voice-select" id="browser-voice" aria-label="Browser voice">
+                    <option value="auto" selected>Google 日本語</option>
+                </select>
+            </div>
+        </div>
+        <div class="article-actions" aria-label="Article actions">
+            <button class="toolbar-icon-button video-button" type="button" id="render-video" aria-label="Render video" data-tooltip="Render video" data-default-label="Render video" data-active-label="Recording">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M5 6h11a2 2 0 0 1 2 2v1l3-2v10l-3-2v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"></path>
+                    <path d="M9 10.5v3l3-1.5z"></path>
+                </svg>
+                <span class="icon-label">Render video</span>
+            </button>
+            <button class="toolbar-icon-button speak-button" type="button" id="speak-japanese-article" aria-label="Read aloud" data-tooltip="Read aloud" data-default-label="Read aloud" data-active-label="Stop reading" data-loading-label="Preparing audio">
+                <svg class="toolbar-svg icon-read" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M5 5h7a3 3 0 0 1 3 3v13a3 3 0 0 0-3-3H5z"></path>
+                    <path d="M15 8a3 3 0 0 1 3-3h1v13h-1a3 3 0 0 0-3 3"></path>
+                    <path d="M8 10h4"></path>
+                    <path d="M8 14h3"></path>
+                </svg>
+                <svg class="toolbar-svg icon-stop" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 8h8v8H8z"></path>
+                </svg>
+                <span class="icon-label">Read aloud</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-japanese-article" aria-label="Copy Japanese article" data-tooltip="Copy Japanese article">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 7h10v13H8z"></path>
+                    <path d="M5 4h10v3"></path>
+                    <path d="M11 11h4"></path>
+                    <path d="M11 15h3"></path>
+                </svg>
+                <span class="icon-label">Copy Japanese article</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-english-translation" aria-label="Copy English translation" data-tooltip="Copy English translation">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 7h10v13H8z"></path>
+                    <path d="M5 4h10v3"></path>
+                    <path d="M10.5 12h5"></path>
+                    <path d="M10.5 16h5"></path>
+                </svg>
+                <span class="icon-label">Copy English translation</span>
+            </button>
+        </div>
     </div>
     <div class="copy-status" id="copy-status" aria-live="polite"></div>
     <audio class="audio-player" id="tts-player" controls hidden preload="none"></audio>
