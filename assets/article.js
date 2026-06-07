@@ -290,7 +290,7 @@ function renderArticleNavigation() {
     const closeIcon = '<svg class="nav-svg close-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg>';
 
     sidebar.innerHTML = `
-        <h2 class="site-title">jeapanese learning board</h2>
+        <h2 class="site-title">Japanese learning board</h2>
         <p class="site-subtitle">Quick links to every article.</p>
         <nav class="desktop-article-nav">${groupsHtml}
         </nav>
