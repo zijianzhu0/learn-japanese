@@ -349,8 +349,8 @@ def write_flashcards_page() -> None:
 
 def main() -> None:
     articles = load_articles()
-    write_articles(articles)
     replace_article_navigation(articles)
+    write_articles(articles)
     write_index(articles)
     write_flashcards_manifest(articles)
     write_flashcards_page()

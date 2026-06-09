@@ -398,6 +398,12 @@ async function playCurrentPronunciation() {
             }
             return;
         }
+    } else {
+        const audioReady = await unlockPronunciationAudio();
+        if (!audioReady) {
+            elements.pronunciationStatus.textContent = 'Browser blocked audio startup. Tap Pronounce again directly in the page.';
+            return;
+        }
     }
 
     elements.pronounce.disabled = true;
