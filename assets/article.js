@@ -349,6 +349,9 @@ let localTtsPlaybackRun = 0;
 let activeTtsAudioUrl = null;
 let localTtsAudioUnlocked = false;
 let localTtsSpeakersLoaded = false;
+let preparedLocalTtsAudioBlobs = null;
+let preparedLocalTtsStartIndex = 0;
+let preparedLocalTtsSpeaker = null;
 
 function extractRubyBaseText(element) {
     const clone = element.cloneNode(true);
@@ -763,6 +766,12 @@ function revokeActiveTtsAudioUrl() {
     activeTtsAudioUrl = null;
 }
 
+function clearPreparedLocalTtsAudio() {
+    preparedLocalTtsAudioBlobs = null;
+    preparedLocalTtsStartIndex = 0;
+    preparedLocalTtsSpeaker = null;
+}
+
 async function unlockLocalTtsAudio() {
     const audioPlayer = document.getElementById('tts-player');
     if (!audioPlayer || localTtsAudioUnlocked) {
@@ -1031,15 +1040,36 @@ async function playLocalTtsArticle(startIndex = 0) {
 async function speakWithLocalTts(startIndex = 0) {
     const status = document.getElementById('copy-status');
     if (!localTtsPlaybackActive) {
-        const wasAudioUnlocked = localTtsAudioUnlocked;
-        const audioReady = await unlockLocalTtsAudio();
-        if (!audioReady) {
-            status.textContent = 'Safari blocked Docker audio. Tap Enable audio directly in the page.';
+        if (usesIosAudioGate()) {
+            const speaker = getSelectedLocalTtsSpeaker();
+            const hasPreparedAudio = preparedLocalTtsAudioBlobs
+                && preparedLocalTtsStartIndex === startIndex
+                && preparedLocalTtsSpeaker === speaker;
+
+            if (!hasPreparedAudio) {
+                try {
+                    status.textContent = 'Preparing Docker TTS for Safari. Tap Read Aloud again when ready...';
+                    await populateLocalTtsVoiceOptions();
+                    preparedLocalTtsSpeaker = getSelectedLocalTtsSpeaker();
+                    preparedLocalTtsStartIndex = startIndex;
+                    preparedLocalTtsAudioBlobs = await buildLocalTtsAudioQueue(status, preparedLocalTtsSpeaker);
+                    status.textContent = 'Docker TTS is ready. Tap Read Aloud again.';
+                } catch (error) {
+                    clearPreparedLocalTtsAudio();
+                    status.textContent = error.message;
+                }
+                return;
+            }
+
+            const audioBlobs = preparedLocalTtsAudioBlobs;
+            clearPreparedLocalTtsAudio();
+            await playLocalTtsQueue({ audioBlobs, speaker, startIndex });
             return;
         }
 
-        if (usesIosAudioGate() && !wasAudioUnlocked) {
-            status.textContent = 'Docker audio enabled. Tap Read Aloud again.';
+        const audioReady = await unlockLocalTtsAudio();
+        if (!audioReady) {
+            status.textContent = 'Safari blocked Docker audio. Tap Enable audio directly in the page.';
             return;
         }
     }

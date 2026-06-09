@@ -16,6 +16,7 @@ let answerRevealed = false;
 let skippedCardId = null;
 let pronunciationAudioUnlocked = false;
 let activePronunciationUrl = null;
+let preparedPronunciation = null;
 
 const elements = {
     levelFilter: document.getElementById('level-filter'),
@@ -305,6 +306,10 @@ function revokeActivePronunciationUrl() {
     activePronunciationUrl = null;
 }
 
+function clearPreparedPronunciation() {
+    preparedPronunciation = null;
+}
+
 async function unlockPronunciationAudio() {
     if (!elements.audio || pronunciationAudioUnlocked) {
         return true;
@@ -370,22 +375,38 @@ async function playCurrentPronunciation() {
         return;
     }
 
-    const wasAudioUnlocked = pronunciationAudioUnlocked;
-    const audioReady = await unlockPronunciationAudio();
-    if (!audioReady) {
-        elements.pronunciationStatus.textContent = 'Safari blocked audio. Tap Pronounce again directly in the page.';
-        return;
-    }
-
-    if (usesIosAudioGate() && !wasAudioUnlocked) {
-        elements.pronunciationStatus.textContent = 'Audio enabled. Tap Pronounce again.';
-        return;
+    if (usesIosAudioGate()) {
+        const preparedMatches = preparedPronunciation?.itemId === currentItem.id
+            && preparedPronunciation?.speaker === selectedDockerSpeaker();
+        if (!preparedMatches) {
+            elements.pronounce.disabled = true;
+            elements.pronunciationStatus.textContent = 'Preparing Docker pronunciation for Safari...';
+            try {
+                preparedPronunciation = {
+                    itemId: currentItem.id,
+                    speaker: selectedDockerSpeaker(),
+                    blob: await fetchPronunciationAudio(currentItem.term)
+                };
+                elements.pronunciationStatus.textContent = 'Pronunciation is ready. Tap Pronounce again.';
+            } catch (error) {
+                clearPreparedPronunciation();
+                elements.pronunciationStatus.textContent = error.message;
+            } finally {
+                elements.pronounce.disabled = false;
+            }
+            return;
+        }
     }
 
     elements.pronounce.disabled = true;
-    elements.pronunciationStatus.textContent = 'Generating Docker pronunciation...';
+    elements.pronunciationStatus.textContent = usesIosAudioGate()
+        ? 'Playing Docker pronunciation...'
+        : 'Generating Docker pronunciation...';
     try {
-        const audioBlob = await fetchPronunciationAudio(currentItem.term);
+        const audioBlob = preparedPronunciation?.itemId === currentItem.id
+            ? preparedPronunciation.blob
+            : await fetchPronunciationAudio(currentItem.term);
+        clearPreparedPronunciation();
         revokeActivePronunciationUrl();
         activePronunciationUrl = URL.createObjectURL(audioBlob);
         elements.audio.src = activePronunciationUrl;
