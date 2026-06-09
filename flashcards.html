@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N5-N3 Flashcards</title>
+    <link rel="stylesheet" href="./assets/flashcards.css">
+</head>
+<body id="top">
+<nav class="top-nav" aria-label="Page navigation">
+    <a class="top-nav-link" href="./index.html" aria-label="Home" title="Home">
+        <svg class="nav-svg" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M3 11.5 12 4l9 7.5"></path>
+            <path d="M6.5 10.5V20h15v-9.5"></path>
+            <path d="M10 20v-5h4v5"></path>
+        </svg>
+        <span class="icon-label">Home</span>
+    </a>
+    <a class="top-nav-link is-current" href="./flashcards.html" aria-label="Flashcards" title="Flashcards" aria-current="page">
+        <svg class="nav-svg" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h9A2.5 2.5 0 0 1 18 6.5v11A2.5 2.5 0 0 1 15.5 20h-9A2.5 2.5 0 0 1 4 17.5z"></path>
+            <path d="M8 8h6"></path>
+            <path d="M8 12h8"></path>
+            <path d="M8 16h4"></path>
+        </svg>
+        <span class="icon-label">Flashcards</span>
+    </a>
+</nav>
+
+<main class="flashcard-shell">
+    <header class="flashcard-header">
+        <p class="eyebrow">N5-N3 Vocabulary</p>
+        <h1>Flashcards</h1>
+        <p class="intro">Study core vocabulary and article vocabulary with local progress tracking.</p>
+    </header>
+
+    <section class="study-layout" aria-label="Flashcard study">
+        <aside class="study-controls" aria-label="Study controls">
+            <div class="control-group">
+                <label class="control-label" for="level-filter">Level</label>
+                <select id="level-filter" class="select-control">
+                    <option value="all">All levels</option>
+                    <option value="N5">N5</option>
+                    <option value="N4">N4</option>
+                    <option value="N3">N3</option>
+                </select>
+            </div>
+
+            <label class="checkbox-control">
+                <input type="checkbox" id="due-only" checked>
+                <span>Due cards only</span>
+            </label>
+
+            <div class="stat-grid" aria-live="polite">
+                <div class="stat-cell">
+                    <span class="stat-value" id="stat-total">0</span>
+                    <span class="stat-label">Cards</span>
+                </div>
+                <div class="stat-cell">
+                    <span class="stat-value" id="stat-due">0</span>
+                    <span class="stat-label">Due</span>
+                </div>
+                <div class="stat-cell">
+                    <span class="stat-value" id="stat-shown">0</span>
+                    <span class="stat-label">Shown</span>
+                </div>
+                <div class="stat-cell">
+                    <span class="stat-value" id="stat-remembered">0</span>
+                    <span class="stat-label">Remembered</span>
+                </div>
+                <div class="stat-cell">
+                    <span class="stat-value" id="stat-forgot">0</span>
+                    <span class="stat-label">Forgot</span>
+                </div>
+                <div class="stat-cell">
+                    <span class="stat-value" id="stat-streak">0%</span>
+                    <span class="stat-label">Recall</span>
+                </div>
+            </div>
+
+            <div class="utility-actions">
+                <button class="secondary-button" type="button" id="export-progress">Export</button>
+                <label class="secondary-button file-button" for="import-progress">Import</label>
+                <input class="file-input" type="file" id="import-progress" accept="application/json">
+                <button class="danger-button" type="button" id="reset-progress">Reset</button>
+            </div>
+        </aside>
+
+        <section class="study-panel" aria-live="polite">
+            <div class="card-meta">
+                <span class="level-pill" id="card-level">N5</span>
+                <span id="card-source">Core vocabulary</span>
+            </div>
+
+            <button class="flashcard" type="button" id="flashcard" aria-label="Reveal card answer">
+                <span class="card-label">Japanese</span>
+                <span class="card-term" id="card-term">Loading...</span>
+                <span class="card-reading" id="card-reading"></span>
+                <span class="card-divider" aria-hidden="true"></span>
+                <span class="card-label answer-label" id="answer-label" hidden>Meaning</span>
+                <span class="card-meaning" id="card-meaning" hidden></span>
+            </button>
+
+            <div class="card-actions">
+                <button class="primary-button" type="button" id="reveal-card">Reveal</button>
+                <button class="answer-button remember-button" type="button" id="remember-card" disabled>Yes, I remember</button>
+                <button class="answer-button forgot-button" type="button" id="forgot-card" disabled>No, I don't remember</button>
+            </div>
+
+            <div class="card-footer">
+                <a id="source-link" href="#" hidden>Open source article</a>
+                <button class="text-button" type="button" id="skip-card">Skip</button>
+            </div>
+
+            <p class="empty-state" id="empty-state" hidden>No cards match the current filters.</p>
+        </section>
+    </section>
+</main>
+
+<script src="./assets/flashcards.js"></script>
+</body>
+</html>

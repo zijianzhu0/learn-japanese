@@ -162,6 +162,26 @@
             outline: none;
         }
 
+        .utility-link {
+            display: block;
+            margin: -6px 0 20px;
+            padding: 9px 10px;
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            color: var(--accent-dark);
+            background: #fff;
+            font-size: 0.92rem;
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        .utility-link:hover,
+        .utility-link:focus {
+            border-color: #95b5ad;
+            background: var(--soft);
+            outline: none;
+        }
+
         .mobile-article-menu {
             display: none;
         }
@@ -436,6 +456,15 @@
         </svg>
         <span class="icon-label">Home</span>
     </a>
+    <a class="top-nav-link" href="./flashcards.html" aria-label="Flashcards" title="Flashcards">
+        <svg class="nav-svg" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h9A2.5 2.5 0 0 1 18 6.5v11A2.5 2.5 0 0 1 15.5 20h-9A2.5 2.5 0 0 1 4 17.5z"></path>
+            <path d="M8 8h6"></path>
+            <path d="M8 12h8"></path>
+            <path d="M8 16h4"></path>
+        </svg>
+        <span class="icon-label">Flashcards</span>
+    </a>
     <a class="top-nav-link" href="./2026-05-29-library-tablets.html" aria-label="Next page" title="Next page">
         <svg class="nav-svg" viewBox="0 0 24 24" aria-hidden="true">
             <path d="m9 18 6-6-6-6"></path>
@@ -455,6 +484,7 @@
     <aside class="sidebar" aria-label="Article navigation">
         <h2 class="site-title">Japanese learning board</h2>
         <p class="site-subtitle">Quick links to every article.</p>
+        <a class="utility-link" href="./flashcards.html">Flashcards</a>
 
         <nav class="desktop-nav">
                 <div class="nav-group">

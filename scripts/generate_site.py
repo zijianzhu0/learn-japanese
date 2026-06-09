@@ -15,6 +15,9 @@ ARTICLES_PATH = ROOT / "data" / "articles.json"
 ARTICLE_TEMPLATE_PATH = ROOT / "templates" / "article.html"
 ARTICLE_JS_PATH = ROOT / "assets" / "article.js"
 INDEX_PATH = ROOT / "index.html"
+VOCABULARY_PATH = ROOT / "data" / "vocabulary" / "core-n5-n3.json"
+FLASHCARDS_PATH = ROOT / "data" / "flashcards.json"
+FLASHCARD_LEVELS = {"N5", "N4", "N3"}
 
 
 def load_articles() -> list[dict]:
@@ -59,6 +62,99 @@ def article_navigation(articles: list[dict]) -> list[dict]:
 def article_navigation_version(articles: list[dict]) -> str:
     nav_json = json.dumps(article_navigation(articles), ensure_ascii=False, sort_keys=True)
     return sha1(nav_json.encode("utf-8")).hexdigest()[:12]
+
+
+def split_vocab_term(term: str) -> tuple[str, str]:
+    match = re.fullmatch(r"(.+?)（(.+?)）(.*)", term.strip())
+    if not match:
+        return term.strip(), ""
+    suffix = match.group(3).strip()
+    return f"{match.group(1).strip()}{suffix}", f"{match.group(2).strip()}{suffix}"
+
+
+def stable_vocab_id(*parts: str) -> str:
+    key = "\u241f".join(parts)
+    return sha1(key.encode("utf-8")).hexdigest()[:14]
+
+
+def article_flashcard_items(articles: list[dict]) -> list[dict]:
+    items = []
+    for article in articles:
+        level = article.get("level", "").upper()
+        if level not in FLASHCARD_LEVELS:
+            continue
+
+        for index, item in enumerate(article.get("vocabulary", []), start=1):
+            term, reading = split_vocab_term(item["term"])
+            item_id = f"article-{stable_vocab_id(article['id'], str(index), term, item['meaning'])}"
+            items.append(
+                {
+                    "id": item_id,
+                    "level": level,
+                    "term": term,
+                    "reading": reading,
+                    "meaning": item["meaning"],
+                    "source": "article",
+                    "sourceId": article["id"],
+                    "sourceTitle": article["title"],
+                    "sourceLabel": article["navLabel"],
+                    "sourceHref": article_href(article),
+                    "tags": ["article-vocab", article["id"]],
+                }
+            )
+    return items
+
+
+def load_core_vocabulary() -> list[dict]:
+    if not VOCABULARY_PATH.exists():
+        return []
+
+    data = json.loads(VOCABULARY_PATH.read_text(encoding="utf-8"))
+    items = []
+    for deck in data.get("decks", []):
+        deck_id = deck["id"]
+        deck_level = deck.get("level", "").upper()
+        for item in deck.get("items", []):
+            level = item.get("level", deck_level).upper()
+            if level not in FLASHCARD_LEVELS:
+                continue
+
+            item_id = f"core-{stable_vocab_id(deck_id, item['id'], item['term'], item['meaning'])}"
+            items.append(
+                {
+                    "id": item_id,
+                    "level": level,
+                    "term": item["term"],
+                    "reading": item.get("reading", ""),
+                    "meaning": item["meaning"],
+                    "source": "core",
+                    "sourceId": deck_id,
+                    "sourceTitle": deck.get("title", deck_id),
+                    "sourceLabel": deck.get("title", deck_id),
+                    "sourceHref": deck.get("sourceUrl", ""),
+                    "tags": item.get("tags", []),
+                }
+            )
+    return items
+
+
+def write_flashcards_manifest(articles: list[dict]) -> None:
+    core_items = load_core_vocabulary()
+    article_items = article_flashcard_items(articles)
+    items = core_items + article_items
+    level_counts = {level: 0 for level in sorted(FLASHCARD_LEVELS)}
+    for item in items:
+        level_counts[item["level"]] += 1
+
+    payload = {
+        "generatedFrom": {
+            "coreVocabulary": str(VOCABULARY_PATH.relative_to(ROOT)),
+            "articleManifest": str(ARTICLES_PATH.relative_to(ROOT)),
+        },
+        "levels": level_counts,
+        "items": items,
+    }
+    FLASHCARDS_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 def replace_article_navigation(articles: list[dict]) -> None:
@@ -230,6 +326,7 @@ def main() -> None:
     write_articles(articles)
     replace_article_navigation(articles)
     write_index(articles)
+    write_flashcards_manifest(articles)
 
 
 if __name__ == "__main__":

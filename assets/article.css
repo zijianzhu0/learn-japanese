@@ -521,6 +521,17 @@ body {
     color: var(--nav-accent);
     outline: none;
 }
+.article-utility-link {
+    margin: -6px 0 20px;
+    border: 1px solid var(--nav-line);
+    background: #fff;
+    color: var(--nav-accent);
+    font-weight: 700;
+}
+.article-utility-link:hover,
+.article-utility-link:focus {
+    border-color: #95b5ad;
+}
 .mobile-article-menu { display: none; }
 .article-main {
     width: min(100%, 860px);
