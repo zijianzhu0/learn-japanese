@@ -1,0 +1,61 @@
+{
+  "id": "2026-06-09-community-bus-trial",
+  "file": "2026-06-09-community-bus-trial.html",
+  "title": "小さな町で予約制バスの実験が始まる",
+  "date": "2026年6月9日",
+  "month": "June 2026",
+  "navLabel": "6/9 予約制バスの実験",
+  "level": "N3",
+  "downloadFileName": "2026-06-09-community-bus-trial.mp4",
+  "headlineHtml": "<ruby>小<rt>ちい</rt></ruby>さな<ruby>町<rt>まち</rt></ruby>で<ruby>予約制<rt>よやくせい</rt></ruby>バスの<ruby>実験<rt>じっけん</rt></ruby>が<ruby>始<rt>はじ</rt></ruby>まる",
+  "sourceNote": "2026年6月9日の地域交通の話題をもとにしたN3レベルの学習用ページです。",
+  "paragraphs": [
+    {
+      "html": "<ruby>山間部<rt>さんかんぶ</rt></ruby>にある<ruby>小<rt>ちい</rt></ruby>さな<ruby>町<rt>まち</rt></ruby>で、<ruby>予約制<rt>よやくせい</rt></ruby>バスの<ruby>実験<rt>じっけん</rt></ruby>が<ruby>始<rt>はじ</rt></ruby>まりました。<ruby>利用<rt>りよう</rt></ruby>したい<ruby>人<rt>ひと</rt></ruby>は、<ruby>前日<rt>ぜんじつ</rt></ruby>までに<ruby>電話<rt>でんわ</rt></ruby>かスマートフォンで<ruby>乗<rt>の</rt></ruby>る<ruby>場所<rt>ばしょ</rt></ruby>と<ruby>時間<rt>じかん</rt></ruby>を<ruby>伝<rt>つた</rt></ruby>えます。",
+      "translation": "In a small town in a mountain area, a trial of reservation-based buses has started. People who want to use the service tell the town their pickup place and time by phone or smartphone by the previous day."
+    },
+    {
+      "html": "<ruby>町<rt>まち</rt></ruby>では、<ruby>人口<rt>じんこう</rt></ruby>が<ruby>減<rt>へ</rt></ruby>り、<ruby>決<rt>き</rt></ruby>まった<ruby>道<rt>みち</rt></ruby>を<ruby>走<rt>はし</rt></ruby>るバスの<ruby>利用者<rt>りようしゃ</rt></ruby>も<ruby>少<rt>すく</rt></ruby>なくなっています。そのため、<ruby>必要<rt>ひつよう</rt></ruby>な<ruby>時<rt>とき</rt></ruby>だけ<ruby>走<rt>はし</rt></ruby>る<ruby>仕組<rt>しく</rt></ruby>みにして、<ruby>運転手<rt>うんてんしゅ</rt></ruby>や<ruby>燃料<rt>ねんりょう</rt></ruby>の<ruby>負担<rt>ふたん</rt></ruby>を<ruby>減<rt>へ</rt></ruby>らしたい<ruby>考<rt>かんが</rt></ruby>えです。",
+      "translation": "In the town, the population is falling, and fewer people use buses that run on fixed routes. The town wants to reduce the burden on drivers and fuel use by running buses only when needed."
+    },
+    {
+      "html": "<ruby>新<rt>あたら</rt></ruby>しいバスは、<ruby>病院<rt>びょういん</rt></ruby>、<ruby>役場<rt>やくば</rt></ruby>、スーパーなどを<ruby>結<rt>むす</rt></ruby>びます。<ruby>高齢者<rt>こうれいしゃ</rt></ruby>からは、<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>や<ruby>通院<rt>つういん</rt></ruby>に<ruby>使<rt>つか</rt></ruby>いやすいという<ruby>声<rt>こえ</rt></ruby>が<ruby>出<rt>で</rt></ruby>ています。",
+      "translation": "The new buses connect places such as the hospital, town office, and supermarket. Older residents say the service is convenient for shopping and hospital visits."
+    },
+    {
+      "html": "<ruby>町<rt>まち</rt></ruby>は3か<ruby>月<rt>げつ</rt></ruby>の<ruby>実験<rt>じっけん</rt></ruby>で、<ruby>利用<rt>りよう</rt></ruby>した<ruby>人数<rt>にんずう</rt></ruby>や<ruby>運行<rt>うんこう</rt></ruby>にかかる<ruby>費用<rt>ひよう</rt></ruby>を<ruby>調<rt>しら</rt></ruby>べます。<ruby>結果<rt>けっか</rt></ruby>がよければ、<ruby>来年<rt>らいねん</rt></ruby>から<ruby>正式<rt>せいしき</rt></ruby>なサービスにする<ruby>予定<rt>よてい</rt></ruby>です。",
+      "translation": "During the three-month trial, the town will study the number of users and the cost of operating the buses. If the results are good, it plans to make the service official next year."
+    }
+  ],
+  "vocabularyTitle": "N3 Vocabulary",
+  "vocabulary": [
+    {
+      "term": "予約制（よやくせい）",
+      "meaning": "Reservation-based"
+    },
+    {
+      "term": "山間部（さんかんぶ）",
+      "meaning": "Mountain area"
+    },
+    {
+      "term": "人口（じんこう）",
+      "meaning": "Population"
+    },
+    {
+      "term": "仕組み（しくみ）",
+      "meaning": "System / Mechanism"
+    },
+    {
+      "term": "負担（ふたん）",
+      "meaning": "Burden"
+    },
+    {
+      "term": "高齢者（こうれいしゃ）",
+      "meaning": "Older person"
+    },
+    {
+      "term": "運行（うんこう）",
+      "meaning": "Operation of vehicles"
+    }
+  ]
+}

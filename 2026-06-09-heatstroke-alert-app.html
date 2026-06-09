@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>熱中症を防ぐための通知アプリが広がる</title>
+    <link rel="stylesheet" href="./assets/article.css">
+</head>
+<body id="top" data-recording-download-name="2026-06-09-heatstroke-alert-app.mp4">
+<nav class="top-nav" aria-label="Page navigation"></nav>
+<div class="article-shell">
+    <aside class="article-sidebar" aria-label="Article navigation"></aside>
+    <main class="article-main">
+
+<div class="container">
+    <div class="date">2026年6月9日</div>
+    <div class="article-toolbar">
+        <div class="voice-controls">
+            <button class="toolbar-icon-button voice-menu-toggle" type="button" id="voice-menu-toggle" aria-expanded="false" aria-controls="voice-settings-menu" aria-label="Voice settings" data-tooltip="Voice settings">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 10v4"></path>
+                    <path d="M8 7v10"></path>
+                    <path d="M12 4v16"></path>
+                    <path d="M16 7v10"></path>
+                    <path d="M20 10v4"></path>
+                </svg>
+                <span class="icon-label">Voice settings</span>
+            </button>
+            <div class="voice-current-status" id="voice-current-status" aria-live="polite">Docker VOICEVOX</div>
+            <div class="voice-settings-menu" id="voice-settings-menu" hidden>
+                <label class="toolbar-label" for="browser-voice">Browser Voice</label>
+                <select class="voice-select" id="browser-voice" aria-label="Browser voice">
+                    <option value="auto" selected>Google 日本語</option>
+                </select>
+            </div>
+        </div>
+        <div class="article-actions" aria-label="Article actions">
+            <button class="toolbar-icon-button video-button" type="button" id="render-video" aria-label="Render video" data-tooltip="Render video" data-default-label="Render video" data-active-label="Recording">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M5 6h11a2 2 0 0 1 2 2v1l3-2v10l-3-2v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"></path>
+                    <path d="M9 10.5v3l3-1.5z"></path>
+                </svg>
+                <span class="icon-label">Render video</span>
+            </button>
+            <button class="toolbar-icon-button speak-button" type="button" id="speak-japanese-article" aria-label="Read aloud" data-tooltip="Read aloud" data-default-label="Read aloud" data-active-label="Stop reading" data-loading-label="Preparing audio">
+                <svg class="toolbar-svg icon-read" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M5 5h7a3 3 0 0 1 3 3v13a3 3 0 0 0-3-3H5z"></path>
+                    <path d="M15 8a3 3 0 0 1 3-3h1v13h-1a3 3 0 0 0-3 3"></path>
+                    <path d="M8 10h4"></path>
+                    <path d="M8 14h3"></path>
+                </svg>
+                <svg class="toolbar-svg icon-stop" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 8h8v8H8z"></path>
+                </svg>
+                <span class="icon-label">Read aloud</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-japanese-article" aria-label="Copy Japanese article" data-tooltip="Copy Japanese article">
+                <span class="copy-language-icon" aria-hidden="true">あ</span>
+                <span class="icon-label">Copy Japanese article</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-english-translation" aria-label="Copy English translation" data-tooltip="Copy English translation">
+                <span class="copy-language-icon" aria-hidden="true">A</span>
+                <span class="icon-label">Copy English translation</span>
+            </button>
+        </div>
+    </div>
+    <div class="copy-status" id="copy-status" aria-live="polite"></div>
+    <audio class="audio-player" id="tts-player" controls hidden preload="none"></audio>
+    <h1><ruby>熱中症<rt>ねっちゅうしょう</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐための<ruby>通知<rt>つうち</rt></ruby>アプリが<ruby>広<rt>ひろ</rt></ruby>がる</h1>
+    <div class="source-note">2026年6月9日の暑さ対策の話題をもとにしたN3レベルの学習用ページです。</div>
+
+    <p class="article-paragraph"><ruby>暑<rt>あつ</rt></ruby>い<ruby>日<rt>ひ</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>える<ruby>中<rt>なか</rt></ruby>、<ruby>熱中症<rt>ねっちゅうしょう</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐための<ruby>通知<rt>つうち</rt></ruby>アプリを<ruby>使<rt>つか</rt></ruby>う<ruby>会社<rt>かいしゃ</rt></ruby>や<ruby>学校<rt>がっこう</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えています。アプリは<ruby>気温<rt>きおん</rt></ruby>や<ruby>湿度<rt>しつど</rt></ruby>を<ruby>見<rt>み</rt></ruby>て、<ruby>危険<rt>きけん</rt></ruby>が<ruby>高<rt>たか</rt></ruby>い<ruby>時<rt>とき</rt></ruby>に<ruby>知<rt>し</rt></ruby>らせます。</p>
+    <div class="sentence-translation">As hot days increase, more companies and schools are using notification apps to prevent heatstroke. The apps check temperature and humidity and send alerts when the danger is high.</div>
+    <p class="article-paragraph"><ruby>通知<rt>つうち</rt></ruby>には、<ruby>水分<rt>すいぶん</rt></ruby>をとること、<ruby>休憩<rt>きゅうけい</rt></ruby>すること、<ruby>外<rt>そと</rt></ruby>での<ruby>活動<rt>かつどう</rt></ruby>を<ruby>短<rt>みじか</rt></ruby>くすることなどが<ruby>書<rt>か</rt></ruby>かれています。<ruby>管理者<rt>かんりしゃ</rt></ruby>は、<ruby>同<rt>おな</rt></ruby>じ<ruby>内容<rt>ないよう</rt></ruby>を<ruby>働<rt>はたら</rt></ruby>く<ruby>人<rt>ひと</rt></ruby>や<ruby>生徒<rt>せいと</rt></ruby>にすぐ<ruby>送<rt>おく</rt></ruby>ることができます。</p>
+    <div class="sentence-translation">The notifications include messages about drinking water, taking breaks, and shortening outdoor activities. Managers can quickly send the same information to workers or students.</div>
+    <p class="article-paragraph"><ruby>建設現場<rt>けんせつげんば</rt></ruby>では、<ruby>作業<rt>さぎょう</rt></ruby>を<ruby>始<rt>はじ</rt></ruby>める<ruby>前<rt>まえ</rt></ruby>にアプリの<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>しています。<ruby>危険<rt>きけん</rt></ruby>な<ruby>時間帯<rt>じかんたい</rt></ruby>には、<ruby>屋外<rt>おくがい</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby>を<ruby>減<rt>へ</rt></ruby>らし、<ruby>日陰<rt>ひかげ</rt></ruby>で<ruby>休<rt>やす</rt></ruby>む<ruby>時間<rt>じかん</rt></ruby>を<ruby>長<rt>なが</rt></ruby>くしています。</p>
+    <div class="sentence-translation">At construction sites, workers check the app&#x27;s information before starting work. During dangerous time periods, they reduce outdoor work and take longer breaks in the shade.</div>
+    <p class="article-paragraph"><ruby>専門家<rt>せんもんか</rt></ruby>は、アプリだけに<ruby>頼<rt>たよ</rt></ruby>らず、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>体調<rt>たいちょう</rt></ruby>にも<ruby>注意<rt>ちゅうい</rt></ruby>してほしいと<ruby>話<rt>はな</rt></ruby>しています。<ruby>頭<rt>あたま</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>い、<ruby>気分<rt>きぶん</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>いなどの<ruby>症状<rt>しょうじょう</rt></ruby>がある<ruby>時<rt>とき</rt></ruby>は、すぐに<ruby>涼<rt>すず</rt></ruby>しい<ruby>場所<rt>ばしょ</rt></ruby>へ<ruby>移動<rt>いどう</rt></ruby>することが<ruby>大切<rt>たいせつ</rt></ruby>です。</p>
+    <div class="sentence-translation">Experts say people should not rely only on apps and should also pay attention to their own physical condition. If symptoms such as a headache or feeling unwell appear, it is important to move to a cool place right away.</div>
+
+    <div class="vocabulary-box">
+        <h2>N3 Vocabulary</h2>
+        <ul>
+            <li><strong>熱中症（ねっちゅうしょう）:</strong> Heatstroke</li>
+            <li><strong>通知（つうち）:</strong> Notification</li>
+            <li><strong>湿度（しつど）:</strong> Humidity</li>
+            <li><strong>水分（すいぶん）:</strong> Water / Fluids</li>
+            <li><strong>管理者（かんりしゃ）:</strong> Manager / Administrator</li>
+            <li><strong>時間帯（じかんたい）:</strong> Time period</li>
+            <li><strong>症状（しょうじょう）:</strong> Symptom</li>
+        </ul>
+    </div>
+</div>
+    </main>
+</div>
+
+<script src="./assets/article.js?v=31041373608b"></script>
+
+</body>
+</html>

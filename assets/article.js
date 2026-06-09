@@ -12,6 +12,16 @@ const defaultVoiceSource = 'docker';
 const articleNavigation = [
     {
         "month": "June 2026",
+        "href": "./2026-06-09-heatstroke-alert-app.html",
+        "label": "6/9 熱中症通知アプリ"
+    },
+    {
+        "month": "June 2026",
+        "href": "./2026-06-09-community-bus-trial.html",
+        "label": "6/9 予約制バスの実験"
+    },
+    {
+        "month": "June 2026",
         "href": "./2026-06-08-tsunami-advisory.html",
         "label": "6/8 太平洋側に津波注意報"
     },
