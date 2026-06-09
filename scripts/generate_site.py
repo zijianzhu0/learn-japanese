@@ -80,6 +80,200 @@ def split_vocab_term(term: str) -> tuple[str, str]:
     return f"{match.group(1).strip()}{suffix}", f"{match.group(2).strip()}{suffix}"
 
 
+KANA_HIRAGANA_OFFSET = ord("ぁ") - ord("ァ")
+
+
+def katakana_to_hiragana(text: str) -> str:
+    converted = []
+    for character in text:
+        code = ord(character)
+        if 0x30A1 <= code <= 0x30F6:
+            converted.append(chr(code + KANA_HIRAGANA_OFFSET))
+        else:
+            converted.append(character)
+    return "".join(converted)
+
+
+ROMAJI_TO_HIRAGANA = {
+    "a": "あ",
+    "i": "い",
+    "u": "う",
+    "e": "え",
+    "o": "お",
+    "ka": "か",
+    "ki": "き",
+    "ku": "く",
+    "ke": "け",
+    "ko": "こ",
+    "sa": "さ",
+    "shi": "し",
+    "su": "す",
+    "se": "せ",
+    "so": "そ",
+    "ta": "た",
+    "chi": "ち",
+    "tsu": "つ",
+    "te": "て",
+    "to": "と",
+    "na": "な",
+    "ni": "に",
+    "nu": "ぬ",
+    "ne": "ね",
+    "no": "の",
+    "ha": "は",
+    "hi": "ひ",
+    "fu": "ふ",
+    "he": "へ",
+    "ho": "ほ",
+    "ma": "ま",
+    "mi": "み",
+    "mu": "む",
+    "me": "め",
+    "mo": "も",
+    "ya": "や",
+    "yu": "ゆ",
+    "yo": "よ",
+    "ra": "ら",
+    "ri": "り",
+    "ru": "る",
+    "re": "れ",
+    "ro": "ろ",
+    "wa": "わ",
+    "wo": "を",
+    "n": "ん",
+    "ga": "が",
+    "gi": "ぎ",
+    "gu": "ぐ",
+    "ge": "げ",
+    "go": "ご",
+    "za": "ざ",
+    "ji": "じ",
+    "zu": "ず",
+    "ze": "ぜ",
+    "zo": "ぞ",
+    "da": "だ",
+    "de": "で",
+    "do": "ど",
+    "ba": "ば",
+    "bi": "び",
+    "bu": "ぶ",
+    "be": "べ",
+    "bo": "ぼ",
+    "pa": "ぱ",
+    "pi": "ぴ",
+    "pu": "ぷ",
+    "pe": "ぺ",
+    "po": "ぽ",
+    "kya": "きゃ",
+    "kyu": "きゅ",
+    "kyo": "きょ",
+    "gya": "ぎゃ",
+    "gyu": "ぎゅ",
+    "gyo": "ぎょ",
+    "sha": "しゃ",
+    "shu": "しゅ",
+    "sho": "しょ",
+    "ja": "じゃ",
+    "ju": "じゅ",
+    "jo": "じょ",
+    "jya": "じゃ",
+    "jyu": "じゅ",
+    "jyo": "じょ",
+    "cha": "ちゃ",
+    "chu": "ちゅ",
+    "cho": "ちょ",
+    "nya": "にゃ",
+    "nyu": "にゅ",
+    "nyo": "にょ",
+    "hya": "ひゃ",
+    "hyu": "ひゅ",
+    "hyo": "ひょ",
+    "bya": "びゃ",
+    "byu": "びゅ",
+    "byo": "びょ",
+    "pya": "ぴゃ",
+    "pyu": "ぴゅ",
+    "pyo": "ぴょ",
+    "mya": "みゃ",
+    "myu": "みゅ",
+    "myo": "みょ",
+    "rya": "りゃ",
+    "ryu": "りゅ",
+    "ryo": "りょ",
+    "fa": "ふぁ",
+    "fi": "ふぃ",
+    "fe": "ふぇ",
+    "fo": "ふぉ",
+    "va": "ゔぁ",
+    "vi": "ゔぃ",
+    "vu": "ゔ",
+    "ve": "ゔぇ",
+    "vo": "ゔぉ",
+    "ti": "てぃ",
+    "tu": "とぅ",
+    "di": "でぃ",
+    "du": "どぅ",
+    "che": "ちぇ",
+    "she": "しぇ",
+    "je": "じぇ",
+}
+
+
+def romaji_to_hiragana(text: str) -> str:
+    converted = []
+    lower = text.lower()
+    index = 0
+
+    while index < len(lower):
+        character = lower[index]
+
+        if character in {"/", " ", "-", "·", "・", "(", ")", "[", "]", ",", "."}:
+            converted.append(text[index])
+            index += 1
+            continue
+
+        if not character.isalpha():
+            converted.append(text[index])
+            index += 1
+            continue
+
+        if index + 1 < len(lower) and lower[index] == lower[index + 1] and lower[index] not in {"a", "i", "u", "e", "o", "n"}:
+            converted.append("っ")
+            index += 1
+            continue
+
+        if character == "n":
+            next_character = lower[index + 1] if index + 1 < len(lower) else ""
+            if next_character in {"", "'", " ", "-", "/", ".", ",", "!", "?", ")", "]"} or next_character not in {"a", "i", "u", "e", "o", "y", "n"}:
+                converted.append("ん")
+                index += 1
+                continue
+
+        matched = False
+        for length in (3, 2, 1):
+            fragment = lower[index:index + length]
+            if fragment in ROMAJI_TO_HIRAGANA:
+                converted.append(ROMAJI_TO_HIRAGANA[fragment])
+                index += length
+                matched = True
+                break
+        if matched:
+            continue
+
+        converted.append(text[index])
+        index += 1
+
+    return "".join(converted)
+
+
+def reading_to_hiragana(reading: str) -> str:
+    if not reading:
+        return ""
+    if re.search(r"[A-Za-z]", reading):
+        return romaji_to_hiragana(reading)
+    return katakana_to_hiragana(reading)
+
+
 def stable_vocab_id(*parts: str) -> str:
     key = "\u241f".join(parts)
     return sha1(key.encode("utf-8")).hexdigest()[:14]
@@ -101,6 +295,7 @@ def article_flashcard_items(articles: list[dict]) -> list[dict]:
                     "level": level,
                     "term": term,
                     "reading": reading,
+                    "readingHiragana": reading_to_hiragana(reading),
                     "meaning": item["meaning"],
                     "source": "article",
                     "sourceId": article["id"],
@@ -134,6 +329,7 @@ def load_core_vocabulary() -> list[dict]:
                     "level": level,
                     "term": item["term"],
                     "reading": item.get("reading", ""),
+                    "readingHiragana": reading_to_hiragana(item.get("reading", "")),
                     "meaning": item["meaning"],
                     "source": "core",
                     "sourceId": deck_id,

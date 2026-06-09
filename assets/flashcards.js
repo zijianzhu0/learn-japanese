@@ -284,7 +284,7 @@ async function showItem(item) {
     elements.cardLevel.textContent = item.level;
     elements.cardSource.textContent = item.sourceLabel || item.sourceTitle || 'Vocabulary';
     elements.cardTerm.textContent = item.term;
-    elements.cardReading.textContent = item.reading || '';
+    elements.cardReading.textContent = item.readingHiragana || item.reading || '';
     elements.cardMeaning.textContent = item.meaning;
 
     if (item.sourceHref) {
