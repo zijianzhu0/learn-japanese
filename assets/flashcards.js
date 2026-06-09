@@ -14,6 +14,7 @@ let currentItem = null;
 let currentCard = null;
 let answerRevealed = false;
 let skippedCardId = null;
+let previousCardId = null;
 let pronunciationAudioUnlocked = false;
 let activePronunciationUrl = null;
 let preparedPronunciation = null;
@@ -188,17 +189,18 @@ function filterItems() {
 
         return !dueOnly || isDue(card, now);
     });
+}
 
-    visibleItems.sort((left, right) => {
-        const leftCard = cardForItem(left);
-        const rightCard = cardForItem(right);
-        const leftDue = leftCard.due_at ? Date.parse(leftCard.due_at) : 0;
-        const rightDue = rightCard.due_at ? Date.parse(rightCard.due_at) : 0;
-        if (leftDue !== rightDue) {
-            return leftDue - rightDue;
-        }
-        return left.term.localeCompare(right.term, 'ja');
-    });
+function randomItem(items) {
+    return items[Math.floor(Math.random() * items.length)];
+}
+
+function pickNextItem() {
+    const excludedCardId = skippedCardId || previousCardId;
+    const candidates = excludedCardId && visibleItems.length > 1
+        ? visibleItems.filter((item) => cardIdForItem(item) !== excludedCardId)
+        : visibleItems;
+    return randomItem(candidates.length ? candidates : visibleItems);
 }
 
 function aggregateStats() {
@@ -443,10 +445,9 @@ async function showNextCard() {
     }
 
     setEmptyState(false);
-    const nextItem = skippedCardId && visibleItems.length > 1
-        ? visibleItems.find((item) => cardIdForItem(item) !== skippedCardId) || visibleItems[0]
-        : visibleItems[0];
+    const nextItem = pickNextItem();
     skippedCardId = null;
+    previousCardId = cardIdForItem(nextItem);
     await showItem(nextItem);
 }
 
