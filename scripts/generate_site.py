@@ -14,9 +14,13 @@ ROOT = Path(__file__).resolve().parent.parent
 ARTICLES_PATH = ROOT / "data" / "articles.json"
 ARTICLE_TEMPLATE_PATH = ROOT / "templates" / "article.html"
 ARTICLE_JS_PATH = ROOT / "assets" / "article.js"
+ARTICLE_CSS_PATH = ROOT / "assets" / "article.css"
 INDEX_PATH = ROOT / "index.html"
 VOCABULARY_PATH = ROOT / "data" / "vocabulary" / "core-n5-n3.json"
 FLASHCARDS_PATH = ROOT / "data" / "flashcards.json"
+FLASHCARDS_HTML_PATH = ROOT / "flashcards.html"
+FLASHCARDS_JS_PATH = ROOT / "assets" / "flashcards.js"
+FLASHCARDS_CSS_PATH = ROOT / "assets" / "flashcards.css"
 FLASHCARD_LEVELS = {"N5", "N4", "N3"}
 
 
@@ -62,6 +66,10 @@ def article_navigation(articles: list[dict]) -> list[dict]:
 def article_navigation_version(articles: list[dict]) -> str:
     nav_json = json.dumps(article_navigation(articles), ensure_ascii=False, sort_keys=True)
     return sha1(nav_json.encode("utf-8")).hexdigest()[:12]
+
+
+def file_version(path: Path) -> str:
+    return sha1(path.read_bytes()).hexdigest()[:12]
 
 
 def split_vocab_term(term: str) -> tuple[str, str]:
@@ -197,6 +205,7 @@ def render_article(article: dict, template: str, asset_version: str) -> str:
         "{{PAGE_TITLE}}": escape(article["title"]),
         "{{DOWNLOAD_FILE_NAME}}": escape(article["downloadFileName"]),
         "{{ARTICLE_JS_VERSION}}": escape(asset_version),
+        "{{ARTICLE_CSS_VERSION}}": escape(file_version(ARTICLE_CSS_PATH)),
         "{{DATE}}": escape(article["date"]),
         "{{HEADLINE_WITH_RUBY}}": article["headlineHtml"],
         "{{SOURCE_NOTE}}": escape(article["sourceNote"]),
@@ -225,7 +234,7 @@ def render_article(article: dict, template: str, asset_version: str) -> str:
 
 def write_articles(articles: list[dict]) -> None:
     template = ARTICLE_TEMPLATE_PATH.read_text(encoding="utf-8")
-    asset_version = article_navigation_version(articles)
+    asset_version = file_version(ARTICLE_JS_PATH)
     for article in articles:
         (ROOT / article["file"]).write_text(render_article(article, template, asset_version), encoding="utf-8")
 
@@ -321,12 +330,30 @@ def write_index(articles: list[dict]) -> None:
     INDEX_PATH.write_text(index, encoding="utf-8")
 
 
+def write_flashcards_page() -> None:
+    html = FLASHCARDS_HTML_PATH.read_text(encoding="utf-8")
+    html = re.sub(
+        r'./assets/flashcards\.css(?:\?v=[^"]*)?',
+        f'./assets/flashcards.css?v={file_version(FLASHCARDS_CSS_PATH)}',
+        html,
+        count=1,
+    )
+    html = re.sub(
+        r'./assets/flashcards\.js(?:\?v=[^"]*)?',
+        f'./assets/flashcards.js?v={file_version(FLASHCARDS_JS_PATH)}',
+        html,
+        count=1,
+    )
+    FLASHCARDS_HTML_PATH.write_text(html, encoding="utf-8")
+
+
 def main() -> None:
     articles = load_articles()
     write_articles(articles)
     replace_article_navigation(articles)
     write_index(articles)
     write_flashcards_manifest(articles)
+    write_flashcards_page()
 
 
 if __name__ == "__main__":
