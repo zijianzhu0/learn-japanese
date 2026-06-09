@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>太平洋側に津波注意報が出される</title>
+    <link rel="stylesheet" href="./assets/article.css">
+</head>
+<body id="top" data-recording-download-name="2026-06-08-tsunami-advisory.mp4">
+<nav class="top-nav" aria-label="Page navigation"></nav>
+<div class="article-shell">
+    <aside class="article-sidebar" aria-label="Article navigation"></aside>
+    <main class="article-main">
+
+<div class="container">
+    <div class="date">2026年6月8日</div>
+    <div class="article-toolbar">
+        <div class="voice-controls">
+            <button class="toolbar-icon-button voice-menu-toggle" type="button" id="voice-menu-toggle" aria-expanded="false" aria-controls="voice-settings-menu" aria-label="Voice settings" data-tooltip="Voice settings">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 10v4"></path>
+                    <path d="M8 7v10"></path>
+                    <path d="M12 4v16"></path>
+                    <path d="M16 7v10"></path>
+                    <path d="M20 10v4"></path>
+                </svg>
+                <span class="icon-label">Voice settings</span>
+            </button>
+            <div class="voice-current-status" id="voice-current-status" aria-live="polite">Docker VOICEVOX</div>
+            <div class="voice-settings-menu" id="voice-settings-menu" hidden>
+                <label class="toolbar-label" for="browser-voice">Browser Voice</label>
+                <select class="voice-select" id="browser-voice" aria-label="Browser voice">
+                    <option value="auto" selected>Google 日本語</option>
+                </select>
+            </div>
+        </div>
+        <div class="article-actions" aria-label="Article actions">
+            <button class="toolbar-icon-button video-button" type="button" id="render-video" aria-label="Render video" data-tooltip="Render video" data-default-label="Render video" data-active-label="Recording">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M5 6h11a2 2 0 0 1 2 2v1l3-2v10l-3-2v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"></path>
+                    <path d="M9 10.5v3l3-1.5z"></path>
+                </svg>
+                <span class="icon-label">Render video</span>
+            </button>
+            <button class="toolbar-icon-button speak-button" type="button" id="speak-japanese-article" aria-label="Read aloud" data-tooltip="Read aloud" data-default-label="Read aloud" data-active-label="Stop reading" data-loading-label="Preparing audio">
+                <svg class="toolbar-svg icon-read" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M5 5h7a3 3 0 0 1 3 3v13a3 3 0 0 0-3-3H5z"></path>
+                    <path d="M15 8a3 3 0 0 1 3-3h1v13h-1a3 3 0 0 0-3 3"></path>
+                    <path d="M8 10h4"></path>
+                    <path d="M8 14h3"></path>
+                </svg>
+                <svg class="toolbar-svg icon-stop" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 8h8v8H8z"></path>
+                </svg>
+                <span class="icon-label">Read aloud</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-japanese-article" aria-label="Copy Japanese article" data-tooltip="Copy Japanese article">
+                <span class="copy-language-icon" aria-hidden="true">あ</span>
+                <span class="icon-label">Copy Japanese article</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-english-translation" aria-label="Copy English translation" data-tooltip="Copy English translation">
+                <span class="copy-language-icon" aria-hidden="true">A</span>
+                <span class="icon-label">Copy English translation</span>
+            </button>
+        </div>
+    </div>
+    <div class="copy-status" id="copy-status" aria-live="polite"></div>
+    <audio class="audio-player" id="tts-player" controls hidden preload="none"></audio>
+    <h1><ruby>太平洋側<rt>たいへいようがわ</rt></ruby>に<ruby>津波注意報<rt>つなみちゅういほう</rt></ruby>が<ruby>出<rt>だ</rt></ruby>される</h1>
+    <div class="source-note">2026年6月8日に報じられた津波注意報をもとにしたN3レベルの学習用ページです。</div>
+
+    <p class="article-paragraph"><ruby>気象庁<rt>きしょうちょう</rt></ruby>は8<ruby>日<rt>か</rt></ruby>、<ruby>日本<rt>にほん</rt></ruby>の<ruby>太平洋側<rt>たいへいようがわ</rt></ruby>の<ruby>広<rt>ひろ</rt></ruby>い<ruby>地域<rt>ちいき</rt></ruby>に<ruby>津波注意報<rt>つなみちゅういほう</rt></ruby>を<ruby>出<rt>だ</rt></ruby>しました。フィリピンのミンダナオ<ruby>島<rt>とう</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くで<ruby>大<rt>おお</rt></ruby>きな<ruby>地震<rt>じしん</rt></ruby>が<ruby>起<rt>お</rt></ruby>きたためです。</p>
+    <div class="sentence-translation">On the 8th, the Japan Meteorological Agency issued a tsunami advisory for a wide area along Japan’s Pacific coast. This was because a major earthquake occurred near Mindanao island in the Philippines.</div>
+    <p class="article-paragraph"><ruby>注意報<rt>ちゅういほう</rt></ruby>は、<ruby>茨城県<rt>いばらきけん</rt></ruby>から<ruby>鹿児島県<rt>かごしまけん</rt></ruby>までの<ruby>海岸<rt>かいがん</rt></ruby>や、<ruby>伊豆諸島<rt>いずしょとう</rt></ruby>、<ruby>小笠原諸島<rt>おがさわらしょとう</rt></ruby>、<ruby>沖縄<rt>おきなわ</rt></ruby>・<ruby>奄美<rt>あまみ</rt></ruby>の<ruby>地域<rt>ちいき</rt></ruby>にも<ruby>出<rt>だ</rt></ruby>されました。<ruby>気象庁<rt>きしょうちょう</rt></ruby>は、<ruby>最大<rt>さいだい</rt></ruby>1メートルの<ruby>津波<rt>つなみ</rt></ruby>が<ruby>来<rt>く</rt></ruby>る<ruby>可能性<rt>かのうせい</rt></ruby>があると<ruby>発表<rt>はっぴょう</rt></ruby>しました。</p>
+    <div class="sentence-translation">The advisory covered coasts from Ibaraki Prefecture to Kagoshima Prefecture, as well as the Izu Islands, Ogasawara Islands, and the Okinawa-Amami region. The agency announced that waves of up to one meter could arrive.</div>
+    <p class="article-paragraph"><ruby>実際<rt>じっさい</rt></ruby>には、<ruby>沖縄県<rt>おきなわけん</rt></ruby>や<ruby>宮崎県<rt>みやざきけん</rt></ruby>などで<ruby>数<rt>すう</rt></ruby>センチから30センチほどの<ruby>波<rt>なみ</rt></ruby>が<ruby>観測<rt>かんそく</rt></ruby>されました。<ruby>注意報<rt>ちゅういほう</rt></ruby>はその<ruby>後<rt>ご</rt></ruby>、<ruby>夕方<rt>ゆうがた</rt></ruby>にすべて<ruby>解除<rt>かいじょ</rt></ruby>されましたが、<ruby>海面<rt>かいめん</rt></ruby>の<ruby>変化<rt>へんか</rt></ruby>が<ruby>続<rt>つづ</rt></ruby>く<ruby>場所<rt>ばしょ</rt></ruby>もあるとされています。</p>
+    <div class="sentence-translation">In reality, waves from several centimeters to about 30 centimeters were observed in places such as Okinawa and Miyazaki prefectures. The advisory was later fully lifted in the evening, but sea level changes may continue in some places.</div>
+    <p class="article-paragraph"><ruby>専門家<rt>せんもんか</rt></ruby>は、<ruby>注意報<rt>ちゅういほう</rt></ruby>が<ruby>出<rt>で</rt></ruby>たときは、<ruby>海<rt>うみ</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くに<ruby>行<rt>い</rt></ruby>かないことが<ruby>大切<rt>たいせつ</rt></ruby>だと<ruby>話<rt>はな</rt></ruby>しています。<ruby>釣<rt>つ</rt></ruby>りや<ruby>海<rt>うみ</rt></ruby>での<ruby>作業<rt>さぎょう</rt></ruby>をする<ruby>人<rt>ひと</rt></ruby>は、<ruby>新<rt>あたら</rt></ruby>しい<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>し、<ruby>安全<rt>あんぜん</rt></ruby>な<ruby>場所<rt>ばしょ</rt></ruby>で<ruby>待<rt>ま</rt></ruby>つようにしましょう。</p>
+    <div class="sentence-translation">Experts say it is important not to go near the sea when an advisory is issued. People who fish or work at sea should check the latest information and wait in a safe place.</div>
+
+    <div class="vocabulary-box">
+        <h2>N3 Vocabulary</h2>
+        <ul>
+            <li><strong>津波注意報（つなみちゅういほう）:</strong> Tsunami advisory</li>
+            <li><strong>太平洋側（たいへいようがわ）:</strong> Pacific side</li>
+            <li><strong>海岸（かいがん）:</strong> Coast</li>
+            <li><strong>可能性（かのうせい）:</strong> Possibility</li>
+            <li><strong>観測（かんそく）:</strong> Observation</li>
+            <li><strong>解除（かいじょ）:</strong> Cancellation / Lifting</li>
+            <li><strong>専門家（せんもんか）:</strong> Expert</li>
+        </ul>
+    </div>
+</div>
+    </main>
+</div>
+
+<script src="./assets/article.js?v=d2d74cf4d524"></script>
+
+</body>
+</html>

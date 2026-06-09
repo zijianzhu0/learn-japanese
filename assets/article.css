@@ -166,6 +166,16 @@ body.recording-mode .article-toolbar {
 .copy-button {
     background-color: #3498db;
 }
+.copy-language-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    font-size: 1.25rem;
+    font-weight: 800;
+    line-height: 1;
+}
 .speak-button {
     background-color: #2c7a7b;
 }

@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import re
+from hashlib import sha1
 from datetime import date
 from html import escape
 from pathlib import Path
@@ -55,6 +56,11 @@ def article_navigation(articles: list[dict]) -> list[dict]:
     ]
 
 
+def article_navigation_version(articles: list[dict]) -> str:
+    nav_json = json.dumps(article_navigation(articles), ensure_ascii=False, sort_keys=True)
+    return sha1(nav_json.encode("utf-8")).hexdigest()[:12]
+
+
 def replace_article_navigation(articles: list[dict]) -> None:
     article_js = ARTICLE_JS_PATH.read_text(encoding="utf-8")
     nav_json = json.dumps(article_navigation(articles), ensure_ascii=False, indent=4)
@@ -90,10 +96,11 @@ def render_paragraphs(article: dict) -> str:
     return "\n".join(blocks)
 
 
-def render_article(article: dict, template: str) -> str:
+def render_article(article: dict, template: str, asset_version: str) -> str:
     replacements = {
         "{{PAGE_TITLE}}": escape(article["title"]),
         "{{DOWNLOAD_FILE_NAME}}": escape(article["downloadFileName"]),
+        "{{ARTICLE_JS_VERSION}}": escape(asset_version),
         "{{DATE}}": escape(article["date"]),
         "{{HEADLINE_WITH_RUBY}}": article["headlineHtml"],
         "{{SOURCE_NOTE}}": escape(article["sourceNote"]),
@@ -122,8 +129,9 @@ def render_article(article: dict, template: str) -> str:
 
 def write_articles(articles: list[dict]) -> None:
     template = ARTICLE_TEMPLATE_PATH.read_text(encoding="utf-8")
+    asset_version = article_navigation_version(articles)
     for article in articles:
-        (ROOT / article["file"]).write_text(render_article(article, template), encoding="utf-8")
+        (ROOT / article["file"]).write_text(render_article(article, template, asset_version), encoding="utf-8")
 
 
 def group_articles(articles: list[dict]) -> list[tuple[str, list[dict]]]:

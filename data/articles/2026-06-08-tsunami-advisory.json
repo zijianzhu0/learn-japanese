@@ -1,0 +1,61 @@
+{
+  "id": "2026-06-08-tsunami-advisory",
+  "file": "2026-06-08-tsunami-advisory.html",
+  "title": "太平洋側に津波注意報が出される",
+  "date": "2026年6月8日",
+  "month": "June 2026",
+  "navLabel": "6/8 太平洋側に津波注意報",
+  "level": "N3",
+  "downloadFileName": "2026-06-08-tsunami-advisory.mp4",
+  "headlineHtml": "<ruby>太平洋側<rt>たいへいようがわ</rt></ruby>に<ruby>津波注意報<rt>つなみちゅういほう</rt></ruby>が<ruby>出<rt>だ</rt></ruby>される",
+  "sourceNote": "2026年6月8日に報じられた津波注意報をもとにしたN3レベルの学習用ページです。",
+  "paragraphs": [
+    {
+      "html": "<ruby>気象庁<rt>きしょうちょう</rt></ruby>は8<ruby>日<rt>か</rt></ruby>、<ruby>日本<rt>にほん</rt></ruby>の<ruby>太平洋側<rt>たいへいようがわ</rt></ruby>の<ruby>広<rt>ひろ</rt></ruby>い<ruby>地域<rt>ちいき</rt></ruby>に<ruby>津波注意報<rt>つなみちゅういほう</rt></ruby>を<ruby>出<rt>だ</rt></ruby>しました。フィリピンのミンダナオ<ruby>島<rt>とう</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くで<ruby>大<rt>おお</rt></ruby>きな<ruby>地震<rt>じしん</rt></ruby>が<ruby>起<rt>お</rt></ruby>きたためです。",
+      "translation": "On the 8th, the Japan Meteorological Agency issued a tsunami advisory for a wide area along Japan’s Pacific coast. This was because a major earthquake occurred near Mindanao island in the Philippines."
+    },
+    {
+      "html": "<ruby>注意報<rt>ちゅういほう</rt></ruby>は、<ruby>茨城県<rt>いばらきけん</rt></ruby>から<ruby>鹿児島県<rt>かごしまけん</rt></ruby>までの<ruby>海岸<rt>かいがん</rt></ruby>や、<ruby>伊豆諸島<rt>いずしょとう</rt></ruby>、<ruby>小笠原諸島<rt>おがさわらしょとう</rt></ruby>、<ruby>沖縄<rt>おきなわ</rt></ruby>・<ruby>奄美<rt>あまみ</rt></ruby>の<ruby>地域<rt>ちいき</rt></ruby>にも<ruby>出<rt>だ</rt></ruby>されました。<ruby>気象庁<rt>きしょうちょう</rt></ruby>は、<ruby>最大<rt>さいだい</rt></ruby>1メートルの<ruby>津波<rt>つなみ</rt></ruby>が<ruby>来<rt>く</rt></ruby>る<ruby>可能性<rt>かのうせい</rt></ruby>があると<ruby>発表<rt>はっぴょう</rt></ruby>しました。",
+      "translation": "The advisory covered coasts from Ibaraki Prefecture to Kagoshima Prefecture, as well as the Izu Islands, Ogasawara Islands, and the Okinawa-Amami region. The agency announced that waves of up to one meter could arrive."
+    },
+    {
+      "html": "<ruby>実際<rt>じっさい</rt></ruby>には、<ruby>沖縄県<rt>おきなわけん</rt></ruby>や<ruby>宮崎県<rt>みやざきけん</rt></ruby>などで<ruby>数<rt>すう</rt></ruby>センチから30センチほどの<ruby>波<rt>なみ</rt></ruby>が<ruby>観測<rt>かんそく</rt></ruby>されました。<ruby>注意報<rt>ちゅういほう</rt></ruby>はその<ruby>後<rt>ご</rt></ruby>、<ruby>夕方<rt>ゆうがた</rt></ruby>にすべて<ruby>解除<rt>かいじょ</rt></ruby>されましたが、<ruby>海面<rt>かいめん</rt></ruby>の<ruby>変化<rt>へんか</rt></ruby>が<ruby>続<rt>つづ</rt></ruby>く<ruby>場所<rt>ばしょ</rt></ruby>もあるとされています。",
+      "translation": "In reality, waves from several centimeters to about 30 centimeters were observed in places such as Okinawa and Miyazaki prefectures. The advisory was later fully lifted in the evening, but sea level changes may continue in some places."
+    },
+    {
+      "html": "<ruby>専門家<rt>せんもんか</rt></ruby>は、<ruby>注意報<rt>ちゅういほう</rt></ruby>が<ruby>出<rt>で</rt></ruby>たときは、<ruby>海<rt>うみ</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くに<ruby>行<rt>い</rt></ruby>かないことが<ruby>大切<rt>たいせつ</rt></ruby>だと<ruby>話<rt>はな</rt></ruby>しています。<ruby>釣<rt>つ</rt></ruby>りや<ruby>海<rt>うみ</rt></ruby>での<ruby>作業<rt>さぎょう</rt></ruby>をする<ruby>人<rt>ひと</rt></ruby>は、<ruby>新<rt>あたら</rt></ruby>しい<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>し、<ruby>安全<rt>あんぜん</rt></ruby>な<ruby>場所<rt>ばしょ</rt></ruby>で<ruby>待<rt>ま</rt></ruby>つようにしましょう。",
+      "translation": "Experts say it is important not to go near the sea when an advisory is issued. People who fish or work at sea should check the latest information and wait in a safe place."
+    }
+  ],
+  "vocabularyTitle": "N3 Vocabulary",
+  "vocabulary": [
+    {
+      "term": "津波注意報（つなみちゅういほう）",
+      "meaning": "Tsunami advisory"
+    },
+    {
+      "term": "太平洋側（たいへいようがわ）",
+      "meaning": "Pacific side"
+    },
+    {
+      "term": "海岸（かいがん）",
+      "meaning": "Coast"
+    },
+    {
+      "term": "可能性（かのうせい）",
+      "meaning": "Possibility"
+    },
+    {
+      "term": "観測（かんそく）",
+      "meaning": "Observation"
+    },
+    {
+      "term": "解除（かいじょ）",
+      "meaning": "Cancellation / Lifting"
+    },
+    {
+      "term": "専門家（せんもんか）",
+      "meaning": "Expert"
+    }
+  ]
+}

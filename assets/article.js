@@ -12,6 +12,11 @@ const defaultVoiceSource = 'docker';
 const articleNavigation = [
     {
         "month": "June 2026",
+        "href": "./2026-06-08-tsunami-advisory.html",
+        "label": "6/8 太平洋側に津波注意報"
+    },
+    {
+        "month": "June 2026",
         "href": "./2026-06-05-tokyo-quake-plan.html",
         "label": "6/5 首都直下地震の新計画"
     },
