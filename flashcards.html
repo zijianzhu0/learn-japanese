@@ -102,6 +102,7 @@
             </button>
 
             <div class="card-actions">
+                <button class="secondary-button pronunciation-button" type="button" id="pronounce-card">Pronounce</button>
                 <button class="primary-button" type="button" id="reveal-card">Reveal</button>
                 <button class="answer-button remember-button" type="button" id="remember-card" disabled>Yes, I remember</button>
                 <button class="answer-button forgot-button" type="button" id="forgot-card" disabled>No, I don't remember</button>
@@ -113,6 +114,8 @@
             </div>
 
             <p class="empty-state" id="empty-state" hidden>No cards match the current filters.</p>
+            <div class="pronunciation-status" id="pronunciation-status" aria-live="polite"></div>
+            <audio id="flashcard-audio" hidden preload="none"></audio>
         </section>
     </section>
 </main>

@@ -2,6 +2,9 @@ const flashcardManifestUrl = './data/flashcards.json';
 const dbName = 'learnJapaneseFlashcards';
 const dbVersion = 1;
 const oneDayMs = 24 * 60 * 60 * 1000;
+const defaultDockerSpeaker = 9;
+const dockerSpeakerPreferenceKey = 'learnJapanese.dockerSpeaker';
+const silentAudioDataUrl = 'data:audio/wav;base64,UklGRigAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQQAAAAAgICA';
 
 let dbPromise = null;
 let manifest = { items: [] };
@@ -11,6 +14,8 @@ let currentItem = null;
 let currentCard = null;
 let answerRevealed = false;
 let skippedCardId = null;
+let pronunciationAudioUnlocked = false;
+let activePronunciationUrl = null;
 
 const elements = {
     levelFilter: document.getElementById('level-filter'),
@@ -34,10 +39,29 @@ const elements = {
     skip: document.getElementById('skip-card'),
     sourceLink: document.getElementById('source-link'),
     emptyState: document.getElementById('empty-state'),
+    pronounce: document.getElementById('pronounce-card'),
+    pronunciationStatus: document.getElementById('pronunciation-status'),
+    audio: document.getElementById('flashcard-audio'),
     exportProgress: document.getElementById('export-progress'),
     importProgress: document.getElementById('import-progress'),
     resetProgress: document.getElementById('reset-progress')
 };
+
+function usesIosAudioGate() {
+    const userAgent = navigator.userAgent || '';
+    const platform = navigator.platform || '';
+    return /iPad|iPhone|iPod/.test(userAgent)
+        || (platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+}
+
+function selectedDockerSpeaker() {
+    try {
+        const value = Number(window.localStorage.getItem(dockerSpeakerPreferenceKey));
+        return Number.isInteger(value) ? value : defaultDockerSpeaker;
+    } catch (error) {
+        return defaultDockerSpeaker;
+    }
+}
 
 function openDatabase() {
     if (dbPromise) {
@@ -241,6 +265,7 @@ function setEmptyState(isEmpty) {
     elements.flashcard.hidden = isEmpty;
     elements.reveal.disabled = isEmpty;
     elements.skip.disabled = isEmpty;
+    elements.pronounce.disabled = isEmpty;
     elements.remember.disabled = true;
     elements.forgotButton.disabled = true;
 }
@@ -267,7 +292,117 @@ async function showItem(item) {
     }
 
     hideAnswer();
+    elements.pronounce.disabled = false;
+    elements.pronunciationStatus.textContent = '';
     updateStats();
+}
+
+function revokeActivePronunciationUrl() {
+    if (!activePronunciationUrl) {
+        return;
+    }
+    URL.revokeObjectURL(activePronunciationUrl);
+    activePronunciationUrl = null;
+}
+
+async function unlockPronunciationAudio() {
+    if (!elements.audio || pronunciationAudioUnlocked) {
+        return true;
+    }
+
+    const previousSrc = elements.audio.getAttribute('src');
+    const previousMuted = elements.audio.muted;
+    let unlocked = false;
+
+    try {
+        elements.audio.muted = true;
+        elements.audio.src = silentAudioDataUrl;
+        elements.audio.load();
+        await elements.audio.play();
+        elements.audio.pause();
+        pronunciationAudioUnlocked = true;
+        unlocked = true;
+    } catch (error) {
+        // The caller will show a concise browser-specific message.
+    } finally {
+        elements.audio.muted = previousMuted;
+        if (previousSrc) {
+            elements.audio.src = previousSrc;
+        } else {
+            elements.audio.removeAttribute('src');
+        }
+        elements.audio.load();
+    }
+
+    return unlocked;
+}
+
+async function fetchPronunciationAudio(text) {
+    const response = await fetch('/api/tts/voicevox', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            text,
+            speaker: selectedDockerSpeaker()
+        })
+    });
+
+    if (!response.ok) {
+        let message = `Docker TTS request failed with HTTP ${response.status}.`;
+        try {
+            const payload = await response.json();
+            if (payload.error) {
+                message = payload.error;
+            }
+        } catch (error) {
+            // Keep the HTTP status fallback.
+        }
+        throw new Error(message);
+    }
+
+    return response.blob();
+}
+
+async function playCurrentPronunciation() {
+    if (!currentItem || !elements.audio) {
+        return;
+    }
+
+    const wasAudioUnlocked = pronunciationAudioUnlocked;
+    const audioReady = await unlockPronunciationAudio();
+    if (!audioReady) {
+        elements.pronunciationStatus.textContent = 'Safari blocked audio. Tap Pronounce again directly in the page.';
+        return;
+    }
+
+    if (usesIosAudioGate() && !wasAudioUnlocked) {
+        elements.pronunciationStatus.textContent = 'Audio enabled. Tap Pronounce again.';
+        return;
+    }
+
+    elements.pronounce.disabled = true;
+    elements.pronunciationStatus.textContent = 'Generating Docker pronunciation...';
+    try {
+        const audioBlob = await fetchPronunciationAudio(currentItem.term);
+        revokeActivePronunciationUrl();
+        activePronunciationUrl = URL.createObjectURL(audioBlob);
+        elements.audio.src = activePronunciationUrl;
+        elements.audio.onended = () => {
+            elements.pronounce.disabled = false;
+            elements.pronunciationStatus.textContent = '';
+        };
+        elements.audio.onerror = () => {
+            elements.pronounce.disabled = false;
+            elements.pronunciationStatus.textContent = 'Docker pronunciation playback failed.';
+        };
+        elements.pronunciationStatus.textContent = `Playing ${currentItem.term}.`;
+        await elements.audio.play();
+    } catch (error) {
+        elements.pronounce.disabled = false;
+        elements.pronunciationStatus.textContent = error.message;
+    }
 }
 
 async function showNextCard() {
@@ -435,6 +570,9 @@ function bindEvents() {
     elements.levelFilter.addEventListener('change', showNextCard);
     elements.dueOnly.addEventListener('change', showNextCard);
     elements.flashcard.addEventListener('click', revealAnswer);
+    elements.pronounce.addEventListener('click', () => {
+        playCurrentPronunciation().catch(showError);
+    });
     elements.reveal.addEventListener('click', revealAnswer);
     elements.remember.addEventListener('click', () => answerCurrentCard('remembered'));
     elements.forgotButton.addEventListener('click', () => answerCurrentCard('forgot'));

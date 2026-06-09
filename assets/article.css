@@ -54,6 +54,26 @@ body.recording-mode .article-toolbar {
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+.audio-enable-button {
+    min-height: 36px;
+    border: 1px solid #b7cbc5;
+    border-radius: 8px;
+    padding: 6px 10px;
+    color: #0f4f49;
+    background: #eef4f1;
+    font-size: 0.86rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.audio-enable-button:hover,
+.audio-enable-button:focus-visible {
+    border-color: #95b5ad;
+    background: #e1eee9;
+    outline: none;
+}
+.audio-enable-button[hidden] {
+    display: none;
+}
 .voice-settings-menu {
     position: absolute;
     top: calc(100% + 8px);

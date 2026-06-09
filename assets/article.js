@@ -208,6 +208,22 @@ function updateVoiceStatus() {
     status.textContent = `Browser Voice · ${voiceName}`;
 }
 
+function usesIosAudioGate() {
+    const userAgent = navigator.userAgent || '';
+    const platform = navigator.platform || '';
+    return /iPad|iPhone|iPod/.test(userAgent)
+        || (platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+}
+
+function updateLocalTtsAudioGate() {
+    const button = document.getElementById('enable-docker-audio');
+    if (!button) {
+        return;
+    }
+
+    button.hidden = getSelectedVoiceSource() !== 'docker' || localTtsAudioUnlocked;
+}
+
 function setupVoiceSettingsMenu() {
     const toggle = document.getElementById('voice-menu-toggle');
     const menu = document.getElementById('voice-settings-menu');
@@ -635,6 +651,7 @@ function updateVoiceControlVisibility() {
     }
 
     updateVoiceStatus();
+    updateLocalTtsAudioGate();
 }
 
 function highlightUnit(index) {
@@ -776,7 +793,25 @@ async function unlockLocalTtsAudio() {
         audioPlayer.load();
     }
 
+    updateLocalTtsAudioGate();
     return unlocked;
+}
+
+async function enableLocalTtsAudio({ statusMessage = 'Docker audio enabled. Tap Read Aloud again.' } = {}) {
+    const status = document.getElementById('copy-status');
+    const unlocked = await unlockLocalTtsAudio();
+    if (unlocked) {
+        if (status) {
+            status.textContent = statusMessage;
+        }
+        return true;
+    }
+
+    if (status) {
+        status.textContent = 'Safari blocked Docker audio. Tap Enable audio directly in the page.';
+    }
+    updateLocalTtsAudioGate();
+    return false;
 }
 
 function getSentenceFirstUnitIndex(sentence) {
@@ -996,9 +1031,15 @@ async function playLocalTtsArticle(startIndex = 0) {
 async function speakWithLocalTts(startIndex = 0) {
     const status = document.getElementById('copy-status');
     if (!localTtsPlaybackActive) {
+        const wasAudioUnlocked = localTtsAudioUnlocked;
         const audioReady = await unlockLocalTtsAudio();
         if (!audioReady) {
-            status.textContent = 'Browser blocked Docker TTS audio startup. Click Read Aloud again directly in the page.';
+            status.textContent = 'Safari blocked Docker audio. Tap Enable audio directly in the page.';
+            return;
+        }
+
+        if (usesIosAudioGate() && !wasAudioUnlocked) {
+            status.textContent = 'Docker audio enabled. Tap Read Aloud again.';
             return;
         }
     }
@@ -1407,9 +1448,15 @@ async function renderVideo() {
 async function handleRenderVideoClick() {
     if (getSelectedVoiceSource() === 'docker') {
         const status = document.getElementById('copy-status');
+        const wasAudioUnlocked = localTtsAudioUnlocked;
         const audioReady = await unlockLocalTtsAudio();
         if (!audioReady) {
-            status.textContent = 'Browser blocked Docker TTS audio startup. Click Render Video again directly in the page.';
+            status.textContent = 'Safari blocked Docker audio. Tap Enable audio directly in the page.';
+            return;
+        }
+
+        if (usesIosAudioGate() && !wasAudioUnlocked) {
+            status.textContent = 'Docker audio enabled. Tap Render Video again.';
             return;
         }
     }
@@ -1426,6 +1473,14 @@ document.getElementById('browser-voice')?.addEventListener('change', (event) => 
 });
 document.getElementById('copy-japanese-article')?.addEventListener('click', copyJapaneseArticle);
 document.getElementById('copy-english-translation')?.addEventListener('click', copyEnglishTranslation);
+document.getElementById('enable-docker-audio')?.addEventListener('click', () => {
+    enableLocalTtsAudio().catch((error) => {
+        const status = document.getElementById('copy-status');
+        if (status) {
+            status.textContent = error.message;
+        }
+    });
+});
 document.getElementById('speak-japanese-article')?.addEventListener('click', speakJapaneseArticle);
 document.getElementById('render-video')?.addEventListener('click', handleRenderVideoClick);
 document.addEventListener('click', (event) => {
