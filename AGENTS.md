@@ -31,6 +31,8 @@ This repo is a local Japanese reading site. Article source data lives in JSON, a
 
 - Edit article content in `data/articles/*.json`, not directly in generated `2026-*.html` files.
 - Keep article ordering in `data/articles.json`.
+- Before starting a substantial change, create a feature branch and make the work there.
+- When a change is complete, or when starting a new feature, start a fresh branch rather than continuing on an old one.
 - After changing article data or `templates/article.html`, run:
 
 ```bash
