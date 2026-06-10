@@ -82,6 +82,8 @@ Local Python mode:
 python3 server/local_tts_server.py
 ```
 
+If `docker compose` is already up with both containers running, you do not need to start the web server again on a different port.
+
 ## Verify
 
 Use these checks after code, data, template, or Docker changes:
