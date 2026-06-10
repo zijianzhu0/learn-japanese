@@ -1,0 +1,61 @@
+{
+  "id": "2026-06-09-bear-school-closures",
+  "file": "2026-06-09-bear-school-closures.html",
+  "title": "クマの出現で学校が休みになった",
+  "date": "2026年6月9日",
+  "month": "June 2026",
+  "navLabel": "6/9 クマで学校休み",
+  "level": "N3",
+  "downloadFileName": "2026-06-09-bear-school-closures.mp4",
+  "headlineHtml": "クマの<ruby>出現<rt>しゅつげん</rt></ruby>で<ruby>学校<rt>がっこう</rt></ruby>が<ruby>休<rt>やす</rt></ruby>みになった",
+  "sourceNote": "2026年6月9日のAP通信のクマ騒ぎの話題をもとにしたN3レベルの学習用ページです。",
+  "paragraphs": [
+    {
+      "html": "<ruby>栃木県<rt>とちぎけん</rt></ruby>の<ruby>宇都宮市<rt>うつのみやし</rt></ruby>で、クマが<ruby>町<rt>まち</rt></ruby>の<ruby>中<rt>なか</rt></ruby>に<ruby>出<rt>で</rt></ruby>たため、<ruby>多<rt>おお</rt></ruby>くの<ruby>人<rt>ひと</rt></ruby>が<ruby>心配<rt>しんぱい</rt></ruby>しました。クマは<ruby>公園<rt>こうえん</rt></ruby>や<ruby>学校<rt>がっこう</rt></ruby>、<ruby>図書館<rt>としょかん</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くでも<ruby>見<rt>み</rt></ruby>つかりました。",
+      "translation": "In Utsunomiya, Tochigi Prefecture, many people became worried after a bear appeared in town. The bear was seen near a park, schools, and a library."
+    },
+    {
+      "html": "<ruby>市<rt>し</rt></ruby>は<ruby>SNS<rt>えすえぬえす</rt></ruby>や<ruby>放送車<rt>ほうそうしゃ</rt></ruby>で<ruby>注意<rt>ちゅうい</rt></ruby>を<ruby>出<rt>だ</rt></ruby>し、<ruby>住民<rt>じゅうみん</rt></ruby>に<ruby>外<rt>そと</rt></ruby>へ<ruby>出<rt>で</rt></ruby>ないよう<ruby>呼<rt>よ</rt></ruby>びかけました。<ruby>安全<rt>あんぜん</rt></ruby>のために、<ruby>市立<rt>しりつ</rt></ruby>の<ruby>学校<rt>がっこう</rt></ruby>は<ruby>二日間<rt>ふつかかん</rt></ruby><ruby>休<rt>やす</rt></ruby>みになりました。",
+      "translation": "The city issued warnings on social media and through announcement vehicles, asking residents not to go outside. For safety, city-run schools were closed for two days."
+    },
+    {
+      "html": "<ruby>大学<rt>だいがく</rt></ruby>でもクマが<ruby>見<rt>み</rt></ruby>つかり、<ruby>授業<rt>じゅぎょう</rt></ruby>が<ruby>中止<rt>ちゅうし</rt></ruby>になりました。<ruby>市<rt>し</rt></ruby>の<ruby>職員<rt>しょくいん</rt></ruby>はドローンを<ruby>使<rt>つか</rt></ruby>ってクマを<ruby>探<rt>さが</rt></ruby>し、<ruby>最後<rt>さいご</rt></ruby>は<ruby>獣医<rt>じゅうい</rt></ruby>が<ruby>麻酔<rt>ますい</rt></ruby>の<ruby>銃<rt>じゅう</rt></ruby>でクマを<ruby>止<rt>と</rt></ruby>めました。",
+      "translation": "The bear was also seen at a university, and classes were canceled there as well. City workers used a drone to search for it, and in the end a veterinarian stopped the bear with a tranquilizer gun."
+    },
+    {
+      "html": "<ruby>最近<rt>さいきん</rt></ruby>の<ruby>日本<rt>にほん</rt></ruby>では、クマが<ruby>人<rt>ひと</rt></ruby>の<ruby>生活<rt>せいかつ</rt></ruby>する<ruby>場所<rt>ばしょ</rt></ruby>に<ruby>入<rt>はい</rt></ruby>る<ruby>問題<rt>もんだい</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えています。<ruby>専門家<rt>せんもんか</rt></ruby>は、クマの<ruby>数<rt>かず</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えたことや、<ruby>地方<rt>ちほう</rt></ruby>で<ruby>人<rt>ひと</rt></ruby>が<ruby>少<rt>すく</rt></ruby>なくなったことが<ruby>原因<rt>げんいん</rt></ruby>の一つだと<ruby>考<rt>かんが</rt></ruby>えています。",
+      "translation": "Recently in Japan, the problem of bears entering places where people live has been increasing. Experts think one reason is that bear numbers have grown while rural populations have shrunk."
+    }
+  ],
+  "vocabularyTitle": "N3 Vocabulary",
+  "vocabulary": [
+    {
+      "term": "出現（しゅつげん）",
+      "meaning": "Appearance / Emergence"
+    },
+    {
+      "term": "住民（じゅうみん）",
+      "meaning": "Resident"
+    },
+    {
+      "term": "市立（しりつ）",
+      "meaning": "City-run / Municipal"
+    },
+    {
+      "term": "授業（じゅぎょう）",
+      "meaning": "Class / Lesson"
+    },
+    {
+      "term": "中止（ちゅうし）",
+      "meaning": "Cancellation"
+    },
+    {
+      "term": "獣医（じゅうい）",
+      "meaning": "Veterinarian"
+    },
+    {
+      "term": "麻酔（ますい）",
+      "meaning": "Anesthetic / Sedation"
+    }
+  ]
+}

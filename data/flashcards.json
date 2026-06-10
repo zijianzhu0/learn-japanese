@@ -4,7 +4,7 @@
     "articleManifest": "data/articles.json"
   },
   "levels": {
-    "N3": 1833,
+    "N3": 1847,
     "N4": 536,
     "N5": 553
   },
@@ -39378,6 +39378,125 @@
       "tags": []
     },
     {
+      "id": "article-4da3d1acc31cce",
+      "level": "N3",
+      "term": "出現",
+      "reading": "しゅつげん",
+      "readingHiragana": "しゅつげん",
+      "meaning": "Appearance / Emergence",
+      "source": "article",
+      "sourceId": "2026-06-09-bear-school-closures",
+      "sourceTitle": "クマの出現で学校が休みになった",
+      "sourceLabel": "6/9 クマで学校休み",
+      "sourceHref": "./2026-06-09-bear-school-closures.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-09-bear-school-closures"
+      ]
+    },
+    {
+      "id": "article-0feb331cb279d6",
+      "level": "N3",
+      "term": "住民",
+      "reading": "じゅうみん",
+      "readingHiragana": "じゅうみん",
+      "meaning": "Resident",
+      "source": "article",
+      "sourceId": "2026-06-09-bear-school-closures",
+      "sourceTitle": "クマの出現で学校が休みになった",
+      "sourceLabel": "6/9 クマで学校休み",
+      "sourceHref": "./2026-06-09-bear-school-closures.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-09-bear-school-closures"
+      ]
+    },
+    {
+      "id": "article-5519b3b761b29d",
+      "level": "N3",
+      "term": "市立",
+      "reading": "しりつ",
+      "readingHiragana": "しりつ",
+      "meaning": "City-run / Municipal",
+      "source": "article",
+      "sourceId": "2026-06-09-bear-school-closures",
+      "sourceTitle": "クマの出現で学校が休みになった",
+      "sourceLabel": "6/9 クマで学校休み",
+      "sourceHref": "./2026-06-09-bear-school-closures.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-09-bear-school-closures"
+      ]
+    },
+    {
+      "id": "article-be15f125f35052",
+      "level": "N3",
+      "term": "授業",
+      "reading": "じゅぎょう",
+      "readingHiragana": "じゅぎょう",
+      "meaning": "Class / Lesson",
+      "source": "article",
+      "sourceId": "2026-06-09-bear-school-closures",
+      "sourceTitle": "クマの出現で学校が休みになった",
+      "sourceLabel": "6/9 クマで学校休み",
+      "sourceHref": "./2026-06-09-bear-school-closures.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-09-bear-school-closures"
+      ]
+    },
+    {
+      "id": "article-c49574dbda034d",
+      "level": "N3",
+      "term": "中止",
+      "reading": "ちゅうし",
+      "readingHiragana": "ちゅうし",
+      "meaning": "Cancellation",
+      "source": "article",
+      "sourceId": "2026-06-09-bear-school-closures",
+      "sourceTitle": "クマの出現で学校が休みになった",
+      "sourceLabel": "6/9 クマで学校休み",
+      "sourceHref": "./2026-06-09-bear-school-closures.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-09-bear-school-closures"
+      ]
+    },
+    {
+      "id": "article-3939ea13dd0993",
+      "level": "N3",
+      "term": "獣医",
+      "reading": "じゅうい",
+      "readingHiragana": "じゅうい",
+      "meaning": "Veterinarian",
+      "source": "article",
+      "sourceId": "2026-06-09-bear-school-closures",
+      "sourceTitle": "クマの出現で学校が休みになった",
+      "sourceLabel": "6/9 クマで学校休み",
+      "sourceHref": "./2026-06-09-bear-school-closures.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-09-bear-school-closures"
+      ]
+    },
+    {
+      "id": "article-f2427756057bce",
+      "level": "N3",
+      "term": "麻酔",
+      "reading": "ますい",
+      "readingHiragana": "ますい",
+      "meaning": "Anesthetic / Sedation",
+      "source": "article",
+      "sourceId": "2026-06-09-bear-school-closures",
+      "sourceTitle": "クマの出現で学校が休みになった",
+      "sourceLabel": "6/9 クマで学校休み",
+      "sourceHref": "./2026-06-09-bear-school-closures.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-09-bear-school-closures"
+      ]
+    },
+    {
       "id": "article-f7e60d37ba3a33",
       "level": "N3",
       "term": "熱中症",
@@ -41245,6 +41364,125 @@
       "tags": [
         "article-vocab",
         "2026-05-14-ly-kakaku-offer"
+      ]
+    },
+    {
+      "id": "article-2c5ffe648d8cce",
+      "level": "N3",
+      "term": "首相官邸",
+      "reading": "しゅしょうかんてい",
+      "readingHiragana": "しゅしょうかんてい",
+      "meaning": "Prime minister's office",
+      "source": "article",
+      "sourceId": "2026-04-10-deep-purple-pm",
+      "sourceTitle": "首相がディープ・パープルに大よろこび",
+      "sourceLabel": "4/10 首相とDeep Purple",
+      "sourceHref": "./2026-04-10-deep-purple-pm.html",
+      "tags": [
+        "article-vocab",
+        "2026-04-10-deep-purple-pm"
+      ]
+    },
+    {
+      "id": "article-bd236d2f4a3402",
+      "level": "N3",
+      "term": "迎える",
+      "reading": "むかえる",
+      "readingHiragana": "むかえる",
+      "meaning": "To welcome",
+      "source": "article",
+      "sourceId": "2026-04-10-deep-purple-pm",
+      "sourceTitle": "首相がディープ・パープルに大よろこび",
+      "sourceLabel": "4/10 首相とDeep Purple",
+      "sourceHref": "./2026-04-10-deep-purple-pm.html",
+      "tags": [
+        "article-vocab",
+        "2026-04-10-deep-purple-pm"
+      ]
+    },
+    {
+      "id": "article-5d55c454377512",
+      "level": "N3",
+      "term": "贈る",
+      "reading": "おくる",
+      "readingHiragana": "おくる",
+      "meaning": "To give / Present",
+      "source": "article",
+      "sourceId": "2026-04-10-deep-purple-pm",
+      "sourceTitle": "首相がディープ・パープルに大よろこび",
+      "sourceLabel": "4/10 首相とDeep Purple",
+      "sourceHref": "./2026-04-10-deep-purple-pm.html",
+      "tags": [
+        "article-vocab",
+        "2026-04-10-deep-purple-pm"
+      ]
+    },
+    {
+      "id": "article-3f3144f7160766",
+      "level": "N3",
+      "term": "笑顔",
+      "reading": "えがお",
+      "readingHiragana": "えがお",
+      "meaning": "Smile / Smiling face",
+      "source": "article",
+      "sourceId": "2026-04-10-deep-purple-pm",
+      "sourceTitle": "首相がディープ・パープルに大よろこび",
+      "sourceLabel": "4/10 首相とDeep Purple",
+      "sourceHref": "./2026-04-10-deep-purple-pm.html",
+      "tags": [
+        "article-vocab",
+        "2026-04-10-deep-purple-pm"
+      ]
+    },
+    {
+      "id": "article-7ccda56ec26cde",
+      "level": "N3",
+      "term": "意外",
+      "reading": "いがい",
+      "readingHiragana": "いがい",
+      "meaning": "Unexpected / Surprising",
+      "source": "article",
+      "sourceId": "2026-04-10-deep-purple-pm",
+      "sourceTitle": "首相がディープ・パープルに大よろこび",
+      "sourceLabel": "4/10 首相とDeep Purple",
+      "sourceHref": "./2026-04-10-deep-purple-pm.html",
+      "tags": [
+        "article-vocab",
+        "2026-04-10-deep-purple-pm"
+      ]
+    },
+    {
+      "id": "article-3404ffbade0cf9",
+      "level": "N3",
+      "term": "交流",
+      "reading": "こうりゅう",
+      "readingHiragana": "こうりゅう",
+      "meaning": "Exchange / Interaction",
+      "source": "article",
+      "sourceId": "2026-04-10-deep-purple-pm",
+      "sourceTitle": "首相がディープ・パープルに大よろこび",
+      "sourceLabel": "4/10 首相とDeep Purple",
+      "sourceHref": "./2026-04-10-deep-purple-pm.html",
+      "tags": [
+        "article-vocab",
+        "2026-04-10-deep-purple-pm"
+      ]
+    },
+    {
+      "id": "article-56561d36d0d519",
+      "level": "N3",
+      "term": "深める",
+      "reading": "ふかめる",
+      "readingHiragana": "ふかめる",
+      "meaning": "To deepen",
+      "source": "article",
+      "sourceId": "2026-04-10-deep-purple-pm",
+      "sourceTitle": "首相がディープ・パープルに大よろこび",
+      "sourceLabel": "4/10 首相とDeep Purple",
+      "sourceHref": "./2026-04-10-deep-purple-pm.html",
+      "tags": [
+        "article-vocab",
+        "2026-04-10-deep-purple-pm"
       ]
     }
   ]

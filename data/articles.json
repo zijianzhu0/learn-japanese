@@ -1,5 +1,6 @@
 {
   "articles": [
+    "articles/2026-06-09-bear-school-closures.json",
     "articles/2026-06-09-heatstroke-alert-app.json",
     "articles/2026-06-09-community-bus-trial.json",
     "articles/2026-06-08-tsunami-advisory.json",
@@ -22,6 +23,7 @@
     "articles/2026-05-14-ly-kakaku-offer.json",
     "articles/2026-05-11-oil-prices-jump.json",
     "articles/2026-05-01-yen-intervention.json",
-    "articles/2026-04-11-rapidus-funding.json"
+    "articles/2026-04-11-rapidus-funding.json",
+    "articles/2026-04-10-deep-purple-pm.json"
   ]
 }

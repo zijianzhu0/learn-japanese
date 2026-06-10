@@ -12,6 +12,11 @@ const defaultVoiceSource = 'docker';
 const articleNavigation = [
     {
         "month": "June 2026",
+        "href": "./2026-06-09-bear-school-closures.html",
+        "label": "6/9 クマで学校休み"
+    },
+    {
+        "month": "June 2026",
         "href": "./2026-06-09-heatstroke-alert-app.html",
         "label": "6/9 熱中症通知アプリ"
     },
@@ -124,6 +129,11 @@ const articleNavigation = [
         "month": "April 2026",
         "href": "./2026-04-11-rapidus-funding.html",
         "label": "4/11 ラピダス追加支援"
+    },
+    {
+        "month": "April 2026",
+        "href": "./2026-04-10-deep-purple-pm.html",
+        "label": "4/10 首相とDeep Purple"
     }
 ];
 

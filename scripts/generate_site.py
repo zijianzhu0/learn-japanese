@@ -450,7 +450,7 @@ def render_index_nav(groups: list[tuple[str, list[dict]]]) -> str:
         f"""                <div class="nav-group">
                     <h3 class="nav-heading">{escape(month)}</h3>
                     <ul class="nav-list">
-{chr(10).join(f'                        <li><a class="nav-link" href="#{escape(article_slug(article))}">{escape(article["navLabel"])}</a></li>' for article in month_articles)}
+{chr(10).join(f'                        <li><a class="nav-link" href="{article_href(article)}">{escape(article["navLabel"])}</a></li>' for article in month_articles)}
                     </ul>
                 </div>"""
         for month, month_articles in groups

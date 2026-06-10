@@ -38,6 +38,13 @@ python3 scripts/generate_site.py
 - Commit generated changes together with the source data/template change.
 - Keep root article HTML filenames stable unless intentionally changing URLs.
 
+## News Selection
+
+- When adding new articles, prefer recent Japan news with unusual, surprising, or slightly unhinged angles over routine policy or business coverage.
+- Good candidates include strange civic incidents, unexpected public responses, odd official moments, unusual festivals, animal intrusions, novelty technology in daily life, and other stories that feel memorable or off-center while still being factual.
+- Keep the tone of the article itself clear and readable for learners. The story choice can be weird; the writing should stay straightforward.
+- Use primary or high-quality news sources when possible, and keep source notes accurate to the publication date of the original report.
+
 ## Runtime Behavior
 
 Article pages support:
