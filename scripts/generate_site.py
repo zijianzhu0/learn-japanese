@@ -16,6 +16,7 @@ ARTICLE_TEMPLATE_PATH = ROOT / "templates" / "article.html"
 ARTICLE_JS_PATH = ROOT / "assets" / "article.js"
 ARTICLE_CSS_PATH = ROOT / "assets" / "article.css"
 ARTICLE_NAVIGATION_PATH = ROOT / "data" / "article-navigation.json"
+FAVICON_PATH = ROOT / "favicon.svg"
 INDEX_PATH = ROOT / "index.html"
 VOCABULARY_PATH = ROOT / "data" / "vocabulary" / "core-n5-n3.json"
 FLASHCARDS_PATH = ROOT / "data" / "flashcards.json"
@@ -485,6 +486,14 @@ def render_index_card(article: dict) -> str:
 
 def write_index(articles: list[dict]) -> None:
     index = INDEX_PATH.read_text(encoding="utf-8")
+    favicon_link = '<link rel="icon" type="image/svg+xml" href="./favicon.svg">'
+    if favicon_link not in index:
+        index = re.sub(
+            r'(<title>[^<]*</title>)',
+            rf"\1\n    {favicon_link}",
+            index,
+            count=1,
+        )
     groups = group_articles(articles)
     nav_html = render_index_nav(groups)
     index = re.sub(
@@ -519,6 +528,14 @@ def write_index(articles: list[dict]) -> None:
 
 def write_flashcards_page() -> None:
     html = FLASHCARDS_HTML_PATH.read_text(encoding="utf-8")
+    favicon_link = '<link rel="icon" type="image/svg+xml" href="./favicon.svg">'
+    if favicon_link not in html:
+        html = re.sub(
+            r'(<title>[^<]*</title>)',
+            rf"\1\n    {favicon_link}",
+            html,
+            count=1,
+        )
     html = re.sub(
         r'./assets/flashcards\.css(?:\?v=[^"]*)?',
         f'./assets/flashcards.css?v={file_version(FLASHCARDS_CSS_PATH)}',
