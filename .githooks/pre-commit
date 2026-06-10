@@ -7,9 +7,9 @@ case "$changed" in
   *data/articles/*|*data/articles.json*|*templates/article.html*|*scripts/generate_site.py*)
     python3 scripts/generate_site.py
 
-    if ! git diff --quiet -- index.html 2026-*.html assets/article.js; then
+    if ! git diff --quiet -- index.html 2026-*.html data/article-navigation.json data/flashcards.json flashcards.html; then
       echo "Generated files changed. Review and stage them, then commit again:"
-      git status --short index.html 2026-*.html assets/article.js
+      git status --short index.html 2026-*.html data/article-navigation.json data/flashcards.json flashcards.html
       exit 1
     fi
     ;;

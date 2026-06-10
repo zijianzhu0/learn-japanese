@@ -7,6 +7,7 @@ A local Japanese learning board with furigana, sentence highlighting, browser sp
 - `index.html`: generated reading archive and article index.
 - `2026-*.html`: generated article pages kept at the repo root so URLs stay simple.
 - `data/articles.json`: ordered manifest of article JSON files.
+- `data/article-navigation.json`: generated runtime navigation manifest for article pages.
 - `data/articles/*.json`: source files for article content, metadata, translations, and vocabulary.
 - `templates/article.html`: article page template.
 - `assets/article.css`: shared article styles.
@@ -85,7 +86,8 @@ The generator updates:
 
 - root `2026-*.html` article pages
 - `index.html`
-- `articleNavigation` in `assets/article.js`
+- `data/article-navigation.json`
+- `data/flashcards.json`
 
 ## Features
 

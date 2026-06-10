@@ -591,18 +591,26 @@ body {
 }
 
 body.recording-mode {
-    --recording-page-width: min(100vw, calc(100vh * 9 / 16));
-    --recording-page-height: min(100vh, calc(100vw * 16 / 9));
+    --recording-frame-width: 1080px;
+    --recording-frame-height: 1920px;
     --recording-title-size: 44px;
     --recording-body-size: 33px;
     --recording-body-line-height: 1.68;
-    width: 100%;
-    height: 100vh;
     margin: 0;
     padding: 0;
     color: #17202a;
     background: #111827;
     overflow: hidden;
+}
+body.recording-preview {
+    --recording-frame-width: min(100vw, calc(100vh * 9 / 16));
+    --recording-frame-height: min(100vh, calc(100vw * 16 / 9));
+    width: 100%;
+    height: 100vh;
+}
+body.recording-export {
+    width: var(--recording-frame-width);
+    height: var(--recording-frame-height);
 }
 body.recording-mode .top-nav,
 body.recording-mode .article-sidebar,
@@ -618,14 +626,20 @@ body.recording-mode .vocabulary-box {
 body.recording-mode .article-shell {
     display: grid;
     grid-template-columns: 1fr;
+    min-height: 0;
+}
+body.recording-preview .article-shell {
     place-items: center;
     width: 100vw;
     height: 100vh;
-    min-height: 0;
+}
+body.recording-export .article-shell {
+    width: var(--recording-frame-width);
+    height: var(--recording-frame-height);
 }
 body.recording-mode .article-main {
-    width: var(--recording-page-width);
-    height: var(--recording-page-height);
+    width: 100%;
+    height: 100%;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -637,7 +651,7 @@ body.recording-mode .container {
     justify-content: center;
     width: 100%;
     height: 100%;
-    padding: calc(var(--recording-page-height) * 0.043) calc(var(--recording-page-width) * 0.065);
+    padding: calc(var(--recording-frame-height) * 0.043) calc(var(--recording-frame-width) * 0.065);
     border-radius: 0;
     box-shadow: none;
     background: #fffdf8;

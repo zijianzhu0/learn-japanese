@@ -7,16 +7,27 @@ import json
 import os
 import shutil
 import subprocess
+import sys
 import tempfile
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib import error, parse, request
 
+PROJECT_DIR = Path(__file__).resolve().parent.parent
+if str(PROJECT_DIR) not in sys.path:
+    sys.path.insert(0, str(PROJECT_DIR))
+
+from scripts.render_video import (
+    DEFAULT_VOICEVOX_TIMEOUT,
+    RenderOptions,
+    find_article,
+    render_article_video,
+)
+
 
 DEFAULT_HOST = os.environ.get("HOST", "127.0.0.1")
 DEFAULT_PORT = int(os.environ.get("PORT", "8765"))
 DEFAULT_PUBLIC_HOST = os.environ.get("PUBLIC_HOST", "127.0.0.1")
-PROJECT_DIR = Path(__file__).resolve().parent.parent
 VOICEVOX_BASE_URL = os.environ.get("VOICEVOX_BASE_URL", "http://127.0.0.1:50021")
 DEFAULT_VOICEVOX_SPEAKER = 9
 MAX_TTS_TEXT_CHARS = 500
@@ -44,6 +55,10 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
 
         if self.path == "/api/video/convert-mp4":
             self.handle_mp4_conversion()
+            return
+
+        if self.path == "/api/video/render":
+            self.handle_video_render()
             return
 
         self.send_json(404, {"ok": False, "error": "Unknown API endpoint."})
@@ -174,6 +189,51 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
         self.send_response(200)
         self.send_header("Content-Type", "video/mp4")
         self.send_header("Content-Length", str(len(mp4_video)))
+        self.send_header("Cache-Control", "no-store")
+        self.end_headers()
+        self.wfile.write(mp4_video)
+
+    def handle_video_render(self) -> None:
+        try:
+            payload = self.read_json_body()
+            article_id = str(payload.get("article_id", "")).strip()
+            speaker_value = payload.get("speaker")
+            speaker = int(speaker_value) if speaker_value is not None else DEFAULT_VOICEVOX_SPEAKER
+        except (ValueError, TypeError, json.JSONDecodeError) as exc:
+            self.send_json(400, {"ok": False, "error": f"Invalid JSON request: {exc}"})
+            return
+
+        if not article_id:
+            self.send_json(400, {"ok": False, "error": "Missing article_id."})
+            return
+
+        try:
+            article = find_article(article_id)
+        except ValueError as exc:
+            self.send_json(404, {"ok": False, "error": str(exc)})
+            return
+
+        options = RenderOptions(article_id=article["id"], speaker=speaker)
+
+        try:
+            with tempfile.TemporaryDirectory(prefix="learn-japanese-render-") as temp_dir:
+                output_path = Path(temp_dir) / article["downloadFileName"]
+                render_article_video(article, output_path, options, DEFAULT_VOICEVOX_TIMEOUT)
+                mp4_video = output_path.read_bytes()
+        except SystemExit as exc:
+            message = str(exc)
+            status = 503 if "VOICEVOX" in message or "Chromium" in message or "ffmpeg" in message else 500
+            self.send_json(status, {"ok": False, "error": message})
+            return
+        except subprocess.CalledProcessError as exc:
+            detail = exc.stderr.decode("utf-8", errors="replace").strip() if exc.stderr else str(exc)
+            self.send_json(500, {"ok": False, "error": f"Video render failed: {detail}"})
+            return
+
+        self.send_response(200)
+        self.send_header("Content-Type", "video/mp4")
+        self.send_header("Content-Length", str(len(mp4_video)))
+        self.send_header("Content-Disposition", f'attachment; filename="{article["downloadFileName"]}"')
         self.send_header("Cache-Control", "no-store")
         self.end_headers()
         self.wfile.write(mp4_video)

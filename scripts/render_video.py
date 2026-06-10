@@ -29,6 +29,16 @@ FRAME_HEIGHT = 1920
 FRAME_RATE = 30
 MIN_SEGMENT_SECONDS = 0.8
 TRAILING_SILENCE_SECONDS = 0.25
+DEFAULT_VOICEVOX_TIMEOUT = 90
+
+
+@dataclass(frozen=True)
+class RenderOptions:
+    article_id: str
+    speaker: int = DEFAULT_SPEAKER
+    frame_width: int = FRAME_WIDTH
+    frame_height: int = FRAME_HEIGHT
+    frame_rate: int = FRAME_RATE
 
 
 @dataclass
@@ -122,7 +132,7 @@ def find_article(article_ref: str) -> dict:
         }
         if article_ref in candidates or normalized in candidates:
             return article
-    raise SystemExit(f"Article not found: {article_ref}")
+    raise ValueError(f"Article not found: {article_ref}")
 
 
 def highlighted(html: str, active: bool) -> str:
@@ -231,7 +241,7 @@ def wav_duration(path: Path) -> float:
     return frames / float(rate)
 
 
-def render_html(article: dict, segment: Segment) -> str:
+def render_html(article: dict, segment: Segment, options: RenderOptions) -> str:
     css = ARTICLE_CSS.read_text(encoding="utf-8")
     paragraphs = "\n".join(
         f'        <p class="article-paragraph">{paragraph_html}</p>'
@@ -243,11 +253,19 @@ def render_html(article: dict, segment: Segment) -> str:
     <meta charset="UTF-8">
     <style>{css}</style>
     <style>
-        html, body {{ width: {FRAME_WIDTH}px; height: {FRAME_HEIGHT}px; }}
-        body {{ max-width: none; font-family: "Noto Sans CJK JP", "Noto Sans JP", sans-serif; }}
+        html, body {{
+            width: {options.frame_width}px;
+            height: {options.frame_height}px;
+        }}
+        body {{
+            --recording-frame-width: {options.frame_width}px;
+            --recording-frame-height: {options.frame_height}px;
+            max-width: none;
+            font-family: "Noto Sans CJK JP", "Noto Sans JP", sans-serif;
+        }}
     </style>
 </head>
-<body class="recording-mode">
+<body class="recording-mode recording-export">
 <div class="article-shell">
     <main class="article-main">
         <div class="container">
@@ -259,11 +277,15 @@ def render_html(article: dict, segment: Segment) -> str:
 </div>
 <script>
 function fitRecordingPageText() {{
+    const frame = document.querySelector('.article-main');
     const container = document.querySelector('.container');
+    if (!frame || !container) {{
+        return;
+    }}
     document.body.style.removeProperty('--recording-title-size');
     document.body.style.removeProperty('--recording-body-size');
     document.body.style.removeProperty('--recording-body-line-height');
-    const pageWidth = container.clientWidth || window.innerWidth;
+    const pageWidth = frame.clientWidth || container.clientWidth;
     let bodySize = Math.max(22, Math.min(58, pageWidth * 0.035));
     let titleSize = bodySize * 1.32;
     let lineHeight = 1.68;
@@ -310,14 +332,14 @@ def chromium_command() -> str:
     raise SystemExit("Chromium is required for CLI video rendering.")
 
 
-def render_screenshot(chromium: str, html_path: Path, output_path: Path) -> None:
+def render_screenshot(chromium: str, html_path: Path, output_path: Path, options: RenderOptions) -> None:
     run(
         [
             chromium,
             "--headless=new",
             "--no-sandbox",
             "--disable-gpu",
-            f"--window-size={FRAME_WIDTH},{FRAME_HEIGHT}",
+            f"--window-size={options.frame_width},{options.frame_height}",
             "--virtual-time-budget=1000",
             f"--screenshot={output_path}",
             html_path.as_uri(),
@@ -325,8 +347,14 @@ def render_screenshot(chromium: str, html_path: Path, output_path: Path) -> None
     )
 
 
-def render_segment_video(image_path: Path, audio_path: Path, duration: float, output_path: Path) -> None:
-    rounded_duration = max(MIN_SEGMENT_SECONDS, math.ceil(duration * FRAME_RATE) / FRAME_RATE)
+def render_segment_video(
+    image_path: Path,
+    audio_path: Path,
+    duration: float,
+    output_path: Path,
+    options: RenderOptions,
+) -> None:
+    rounded_duration = max(MIN_SEGMENT_SECONDS, math.ceil(duration * options.frame_rate) / options.frame_rate)
     run(
         [
             "ffmpeg",
@@ -337,7 +365,7 @@ def render_segment_video(image_path: Path, audio_path: Path, duration: float, ou
             "-loop",
             "1",
             "-framerate",
-            str(FRAME_RATE),
+            str(options.frame_rate),
             "-i",
             str(image_path),
             "-i",
@@ -387,7 +415,12 @@ def concatenate_segments(segment_paths: list[Path], concat_path: Path, output_pa
     )
 
 
-def render_video(article: dict, output_path: Path, speaker: int, voicevox_timeout: float) -> None:
+def render_article_video(
+    article: dict,
+    output_path: Path,
+    options: RenderOptions,
+    voicevox_timeout: float = DEFAULT_VOICEVOX_TIMEOUT,
+) -> None:
     if not shutil.which("ffmpeg"):
         raise SystemExit("ffmpeg is required for CLI video rendering.")
 
@@ -406,13 +439,18 @@ def render_video(article: dict, output_path: Path, speaker: int, voicevox_timeou
             audio_path = temp_path / f"{index:03d}-{segment.key}.wav"
             video_path = temp_path / f"{index:03d}-{segment.key}.mp4"
 
-            html_path.write_text(render_html(article, segment), encoding="utf-8")
-            audio_path.write_bytes(synthesize_sentence(segment.text, speaker))
-            render_screenshot(chromium, html_path, image_path)
-            render_segment_video(image_path, audio_path, wav_duration(audio_path), video_path)
+            html_path.write_text(render_html(article, segment, options), encoding="utf-8")
+            audio_path.write_bytes(synthesize_sentence(segment.text, options.speaker))
+            render_screenshot(chromium, html_path, image_path, options)
+            render_segment_video(image_path, audio_path, wav_duration(audio_path), video_path, options)
             segment_paths.append(video_path)
 
         concatenate_segments(segment_paths, temp_path / "segments.txt", output_path)
+
+
+def render_video(article: dict, output_path: Path, speaker: int, voicevox_timeout: float) -> None:
+    options = RenderOptions(article_id=article["id"], speaker=speaker)
+    render_article_video(article, output_path, options, voicevox_timeout)
 
 
 def main() -> None:
@@ -422,15 +460,19 @@ def main() -> None:
     parser.add_argument("article", help="Article id, slug, or generated HTML filename.")
     parser.add_argument("-o", "--output", help="Output MP4 path. Defaults to the article downloadFileName.")
     parser.add_argument("--speaker", type=int, default=DEFAULT_SPEAKER)
-    parser.add_argument("--voicevox-timeout", type=float, default=90)
+    parser.add_argument("--voicevox-timeout", type=float, default=DEFAULT_VOICEVOX_TIMEOUT)
     args = parser.parse_args()
 
-    article = find_article(args.article)
+    try:
+        article = find_article(args.article)
+    except ValueError as exc:
+        raise SystemExit(str(exc)) from exc
     output_path = Path(args.output or article["downloadFileName"])
     if not output_path.is_absolute():
         output_path = ROOT / output_path
 
-    render_video(article, output_path, args.speaker, args.voicevox_timeout)
+    options = RenderOptions(article_id=article["id"], speaker=args.speaker)
+    render_article_video(article, output_path, options, args.voicevox_timeout)
     print(f"Rendered {output_path}", flush=True)
 
 

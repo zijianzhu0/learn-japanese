@@ -1,4 +1,5 @@
-const recordingDownloadName = document.body.dataset.recordingDownloadName || 'article.webm';
+const articleId = document.body.dataset.articleId || '';
+const recordingDownloadName = document.body.dataset.recordingDownloadName || 'article.mp4';
 const defaultLocalTtsSpeaker = 9;
 const silentAudioDataUrl = 'data:audio/wav;base64,UklGRigAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQQAAAAAgICA';
 const voicePreferenceKeys = {
@@ -9,133 +10,8 @@ const voicePreferenceKeys = {
 };
 const previousDefaultLocalTtsSpeaker = 3;
 const defaultVoiceSource = 'docker';
-const articleNavigation = [
-    {
-        "month": "June 2026",
-        "href": "./2026-06-09-bear-school-closures.html",
-        "label": "6/9 クマで学校休み"
-    },
-    {
-        "month": "June 2026",
-        "href": "./2026-06-09-heatstroke-alert-app.html",
-        "label": "6/9 熱中症通知アプリ"
-    },
-    {
-        "month": "June 2026",
-        "href": "./2026-06-09-community-bus-trial.html",
-        "label": "6/9 予約制バスの実験"
-    },
-    {
-        "month": "June 2026",
-        "href": "./2026-06-08-tsunami-advisory.html",
-        "label": "6/8 太平洋側に津波注意報"
-    },
-    {
-        "month": "June 2026",
-        "href": "./2026-06-05-tokyo-quake-plan.html",
-        "label": "6/5 首都直下地震の新計画"
-    },
-    {
-        "month": "June 2026",
-        "href": "./2026-06-03-storm-jangmi-disruption.html",
-        "label": "6/3 台風6号で交通に影響"
-    },
-    {
-        "month": "May 2026",
-        "href": "./2026-05-29-library-tablets.html",
-        "label": "5/29 図書館で多言語タブレット"
-    },
-    {
-        "month": "May 2026",
-        "href": "./2026-05-28-cashless-ferry.html",
-        "label": "5/28 離島フェリーでキャッシュレス化"
-    },
-    {
-        "month": "May 2026",
-        "href": "./2026-05-27-shared-greenhouse.html",
-        "label": "5/27 共同温室で若い農家"
-    },
-    {
-        "month": "May 2026",
-        "href": "./2026-05-26-city-cooling-mist.html",
-        "label": "5/26 駅前広場でミスト設備"
-    },
-    {
-        "month": "May 2026",
-        "href": "./2026-05-25-seaweed-export-growth.html",
-        "label": "5/25 日本ののり輸出"
-    },
-    {
-        "month": "May 2026",
-        "href": "./2026-05-24-station-solar-roof.html",
-        "label": "5/24 駅の屋根に太陽光設備"
-    },
-    {
-        "month": "May 2026",
-        "href": "./2026-05-23-hotel-robots-support.html",
-        "label": "5/23 ホテルで案内ロボット"
-    },
-    {
-        "month": "May 2026",
-        "href": "./2026-05-22-hydrogen-port.html",
-        "label": "5/22 港で水素燃料"
-    },
-    {
-        "month": "May 2026",
-        "href": "./2026-05-21-rural-tourism-train.html",
-        "label": "5/21 地方の観光列車"
-    },
-    {
-        "month": "May 2026",
-        "href": "./2026-05-20-rice-price-support.html",
-        "label": "5/20 米の値上がり対策"
-    },
-    {
-        "month": "May 2026",
-        "href": "./2026-05-19-school-ai-guidelines.html",
-        "label": "5/19 学校でAIルール"
-    },
-    {
-        "month": "May 2026",
-        "href": "./2026-05-18-drone-disaster-drills.html",
-        "label": "5/18 災害訓練でドローン"
-    },
-    {
-        "month": "May 2026",
-        "href": "./2026-05-15-japan-us-alliance.html",
-        "label": "5/15 日米同盟"
-    },
-    {
-        "month": "May 2026",
-        "href": "./2026-05-15-alphabet-yen-bonds.html",
-        "label": "5/15 グーグルの円社債"
-    },
-    {
-        "month": "May 2026",
-        "href": "./2026-05-14-ly-kakaku-offer.html",
-        "label": "5/14 価格.com買収資金"
-    },
-    {
-        "month": "May 2026",
-        "href": "./2026-05-11-oil-prices-jump.html",
-        "label": "5/11 原油価格"
-    },
-    {
-        "month": "May 2026",
-        "href": "./2026-05-01-yen-intervention.html",
-        "label": "5/1 円安と市場介入"
-    },
-    {
-        "month": "April 2026",
-        "href": "./2026-04-11-rapidus-funding.html",
-        "label": "4/11 ラピダス追加支援"
-    },
-    {
-        "month": "April 2026",
-        "href": "./2026-04-10-deep-purple-pm.html",
-        "label": "4/10 首相とDeep Purple"
-    }
-];
+const articleNavigationUrl = './data/article-navigation.json';
+let articleNavigation = [];
 
 function currentArticleFile() {
     return decodeURIComponent(window.location.pathname.split('/').pop() || '');
@@ -148,6 +24,27 @@ function normalizeArticleHref(href) {
 function getCurrentArticleIndex() {
     const currentFile = currentArticleFile();
     return articleNavigation.findIndex((article) => normalizeArticleHref(article.href) === currentFile);
+}
+
+function isValidArticleNavigationItem(item) {
+    return item
+        && typeof item.month === 'string'
+        && typeof item.href === 'string'
+        && typeof item.label === 'string';
+}
+
+async function loadArticleNavigation() {
+    const response = await fetch(articleNavigationUrl, { cache: 'no-cache' });
+    if (!response.ok) {
+        throw new Error(`Article navigation failed to load with HTTP ${response.status}.`);
+    }
+
+    const payload = await response.json();
+    if (!Array.isArray(payload) || !payload.every(isValidArticleNavigationItem)) {
+        throw new Error('Article navigation manifest is invalid.');
+    }
+
+    articleNavigation = payload;
 }
 
 function escapeHtml(value) {
@@ -277,22 +174,28 @@ function renderTopNavigation() {
         return;
     }
 
-    const currentIndex = getCurrentArticleIndex();
-    const nextArticle = currentIndex >= 0
-        ? articleNavigation[(currentIndex + 1) % articleNavigation.length]
-        : articleNavigation[0];
-    const lastArticle = articleNavigation[articleNavigation.length - 1];
     const homeIcon = '<svg class="nav-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11.5 12 4l9 7.5"></path><path d="M6.5 10.5V20h15v-9.5"></path><path d="M10 20v-5h4v5"></path></svg>';
     const flashcardsIcon = '<svg class="nav-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h9A2.5 2.5 0 0 1 18 6.5v11A2.5 2.5 0 0 1 15.5 20h-9A2.5 2.5 0 0 1 4 17.5z"></path><path d="M8 8h6"></path><path d="M8 12h8"></path><path d="M8 16h4"></path></svg>';
     const nextIcon = '<svg class="nav-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg>';
     const lastIcon = '<svg class="nav-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="m7 18 6-6-6-6"></path><path d="M17 6v12"></path></svg>';
-
-    topNav.innerHTML = [
+    const links = [
         topNavLink('./index.html', 'Home', 'Home', homeIcon),
-        topNavLink('./flashcards.html', 'Flashcards', 'Flashcards', flashcardsIcon),
-        topNavLink(nextArticle.href, 'Next Page', 'Next page', nextIcon),
-        topNavLink(lastArticle.href, 'Last Page', 'Last page', lastIcon)
-    ].join('');
+        topNavLink('./flashcards.html', 'Flashcards', 'Flashcards', flashcardsIcon)
+    ];
+
+    if (articleNavigation.length > 0) {
+        const currentIndex = getCurrentArticleIndex();
+        const nextArticle = currentIndex >= 0
+            ? articleNavigation[(currentIndex + 1) % articleNavigation.length]
+            : articleNavigation[0];
+        const lastArticle = articleNavigation[articleNavigation.length - 1];
+        links.push(
+            topNavLink(nextArticle.href, 'Next Page', 'Next page', nextIcon),
+            topNavLink(lastArticle.href, 'Last Page', 'Last page', lastIcon)
+        );
+    }
+
+    topNav.innerHTML = links.join('');
 }
 
 function articleNavigationGroupsHtml(currentFile) {
@@ -327,10 +230,11 @@ function renderArticleNavigation() {
         return;
     }
 
-    const currentFile = currentArticleFile();
-    const groupsHtml = articleNavigationGroupsHtml(currentFile);
     const menuIcon = '<svg class="nav-svg menu-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16"></path><path d="M4 12h16"></path><path d="M4 18h16"></path></svg>';
     const closeIcon = '<svg class="nav-svg close-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg>';
+    const groupsHtml = articleNavigation.length > 0
+        ? articleNavigationGroupsHtml(currentArticleFile())
+        : '<p class="site-subtitle">Article navigation is unavailable.</p>';
 
     sidebar.innerHTML = `
         <h2 class="site-title">Japanese learning board</h2>
@@ -345,6 +249,17 @@ function renderArticleNavigation() {
         </details>`;
 }
 
+async function initializeArticleNavigation() {
+    try {
+        await loadArticleNavigation();
+    } catch (error) {
+        console.error(error);
+    } finally {
+        renderTopNavigation();
+        renderArticleNavigation();
+    }
+}
+
 let speaking = false;
 let readingUnits = [];
 let currentUnitIndex = -1;
@@ -352,8 +267,6 @@ let browserUtterance = null;
 let sentenceMeta = [];
 let availableBrowserVoices = [];
 let recordingInProgress = false;
-let activeMediaRecorder = null;
-let activeRecordingStream = null;
 let localTtsPlaybackActive = false;
 let localTtsPlaybackRun = 0;
 let activeTtsAudioUrl = null;
@@ -1253,38 +1166,20 @@ async function speakFromSentence(sentenceIndex) {
     speakWithBrowserSentenceQueue(null, sentenceIndex);
 }
 
-function chooseRecorderMimeType() {
-    const candidates = [
-        'video/mp4;codecs=avc1.42E01E,mp4a.40.2',
-        'video/mp4;codecs=h264,aac',
-        'video/mp4',
-        'video/webm;codecs=vp9,opus',
-        'video/webm;codecs=vp8,opus',
-        'video/webm'
-    ];
-    return candidates.find((type) => MediaRecorder.isTypeSupported(type)) || '';
-}
-
-function recordingExtensionForMimeType(mimeType) {
-    return mimeType.startsWith('video/mp4') ? 'mp4' : 'webm';
-}
-
-function recordingDownloadNameForMimeType(mimeType) {
-    const extension = recordingExtensionForMimeType(mimeType);
-    return recordingDownloadName.replace(/\.[^.]+$/, `.${extension}`);
-}
-
-async function convertRecordingToMp4(videoBlob) {
-    const response = await fetch('/api/video/convert-mp4', {
+async function fetchRenderedVideo(speaker) {
+    const response = await fetch('/api/video/render', {
         method: 'POST',
         headers: {
-            'Content-Type': videoBlob.type || 'video/webm'
+            'Content-Type': 'application/json'
         },
-        body: videoBlob
+        body: JSON.stringify({
+            article_id: articleId || currentArticleFile(),
+            speaker
+        })
     });
 
     if (!response.ok) {
-        let errorMessage = `MP4 conversion failed with HTTP ${response.status}.`;
+        let errorMessage = `Video render failed with HTTP ${response.status}.`;
         try {
             const payload = await response.json();
             if (payload.error) {
@@ -1297,7 +1192,20 @@ async function convertRecordingToMp4(videoBlob) {
         throw new Error(errorMessage);
     }
 
-    return response.blob();
+    const contentDisposition = response.headers.get('Content-Disposition') || '';
+    const utf8Match = contentDisposition.match(/filename\*=UTF-8''([^;]+)/i);
+    if (utf8Match) {
+        return {
+            blob: await response.blob(),
+            downloadName: decodeURIComponent(utf8Match[1])
+        };
+    }
+
+    const filenameMatch = contentDisposition.match(/filename="([^"]+)"/i);
+    return {
+        blob: await response.blob(),
+        downloadName: filenameMatch?.[1] || recordingDownloadName
+    };
 }
 
 function waitForNextPaint() {
@@ -1313,8 +1221,9 @@ function isRecordingPreviewMode() {
 }
 
 async function fitRecordingPageText() {
+    const frame = document.querySelector('.article-main');
     const container = document.querySelector('.container');
-    if (!container) {
+    if (!frame || !container) {
         return;
     }
 
@@ -1323,7 +1232,7 @@ async function fitRecordingPageText() {
     document.body.style.removeProperty('--recording-body-line-height');
     await waitForNextPaint();
 
-    const pageWidth = container.clientWidth || window.innerWidth;
+    const pageWidth = frame.clientWidth || container.clientWidth;
     let bodySize = Math.max(22, Math.min(58, pageWidth * 0.035));
     let titleSize = bodySize * 1.32;
     let lineHeight = 1.68;
@@ -1350,161 +1259,62 @@ async function fitRecordingPageText() {
     }
 }
 
+function clearRecordingMode() {
+    document.body.classList.remove('recording-mode', 'recording-preview');
+    document.body.style.removeProperty('--recording-title-size');
+    document.body.style.removeProperty('--recording-body-size');
+    document.body.style.removeProperty('--recording-body-line-height');
+}
+
 async function renderVideo() {
     const status = document.getElementById('copy-status');
     const renderButton = document.getElementById('render-video');
 
     if (recordingInProgress) {
-        status.textContent = 'Video recording is already in progress.';
+        status.textContent = 'Video rendering is already in progress.';
         return;
     }
 
-    if (!navigator.mediaDevices || typeof navigator.mediaDevices.getDisplayMedia !== 'function') {
-        status.textContent = 'This browser cannot record the current tab.';
+    if (!(articleId || currentArticleFile())) {
+        status.textContent = 'This page is missing its article identifier.';
         return;
     }
-
-    if (typeof MediaRecorder === 'undefined') {
-        status.textContent = 'MediaRecorder is not available in this browser.';
-        return;
-    }
-
-    const useLocalTts = getSelectedVoiceSource() === 'docker';
-    let localTtsAudioBlobs = null;
-    if (useLocalTts) {
-        try {
-            await populateLocalTtsVoiceOptions();
-            localTtsAudioBlobs = await buildLocalTtsAudioQueue(status);
-        } catch (error) {
-            status.textContent = error.message;
-            return;
-        }
-    }
-
-    const stopRecorder = () => {
-        if (activeMediaRecorder && activeMediaRecorder.state !== 'inactive') {
-            activeMediaRecorder.stop();
-        }
-    };
 
     try {
+        await populateLocalTtsVoiceOptions();
+        const speaker = getSelectedLocalTtsSpeaker();
         setToolbarButtonState(renderButton, 'active');
-        status.textContent = useLocalTts
-            ? 'Share the current tab and enable audio to record Docker TTS narration.'
-            : 'Share the current tab and enable audio to record the highlighted reading.';
-        activeRecordingStream = await navigator.mediaDevices.getDisplayMedia({
-            video: { frameRate: 30 },
-            audio: true,
-            preferCurrentTab: true
-        });
-
-        const mimeType = chooseRecorderMimeType();
-        const recordedChunks = [];
-        activeMediaRecorder = mimeType
-            ? new MediaRecorder(activeRecordingStream, { mimeType })
-            : new MediaRecorder(activeRecordingStream);
-
-        activeMediaRecorder.ondataavailable = (event) => {
-            if (event.data && event.data.size > 0) {
-                recordedChunks.push(event.data);
-            }
-        };
-
-        activeMediaRecorder.onstop = async () => {
-            const outputMimeType = activeMediaRecorder.mimeType || 'video/webm';
-            let blob = new Blob(recordedChunks, {
-                type: outputMimeType
-            });
-            let downloadName = recordingDownloadNameForMimeType(outputMimeType);
-            let conversionFailed = false;
-
-            if (!outputMimeType.startsWith('video/mp4')) {
-                status.textContent = 'Converting recording to MP4...';
-                try {
-                    blob = await convertRecordingToMp4(blob);
-                    downloadName = recordingDownloadNameForMimeType('video/mp4');
-                } catch (error) {
-                    conversionFailed = true;
-                    status.textContent = `${error.message} Downloading WebM instead.`;
-                }
-            }
-
-            const videoUrl = URL.createObjectURL(blob);
-            const downloadLink = document.createElement('a');
-            downloadLink.href = videoUrl;
-            downloadLink.download = downloadName;
-            downloadLink.click();
-            URL.revokeObjectURL(videoUrl);
-
-            activeRecordingStream.getTracks().forEach((track) => track.stop());
-            activeRecordingStream = null;
-            activeMediaRecorder = null;
-            recordingInProgress = false;
-            document.body.classList.remove('recording-mode');
-            document.body.style.removeProperty('--recording-title-size');
-            document.body.style.removeProperty('--recording-body-size');
-            document.body.style.removeProperty('--recording-body-line-height');
-            setToolbarButtonState(renderButton);
-            if (!conversionFailed) {
-                status.textContent = downloadName.endsWith('.mp4')
-                    ? 'MP4 rendered and downloaded.'
-                    : 'Video rendered and downloaded.';
-            }
-        };
-
         recordingInProgress = true;
-        document.body.classList.add('recording-mode');
         stopCurrentPlayback();
+        document.body.classList.add('recording-mode', 'recording-preview');
         await fitRecordingPageText();
         await waitForNextPaint();
-        activeMediaRecorder.start();
+        status.textContent = 'Preparing Docker VOICEVOX narration...';
+        await waitForNextPaint();
+        status.textContent = 'Rendering 1080x1920 MP4...';
 
-        if (useLocalTts) {
-            playLocalTtsQueue({ audioBlobs: localTtsAudioBlobs, updateButton: false })
-                .then(stopRecorder)
-                .catch((error) => {
-                    status.textContent = error.message;
-                    stopRecorder();
-                });
-        } else {
-            speakWithBrowserSentenceQueue(stopRecorder);
-        }
+        const { blob, downloadName } = await fetchRenderedVideo(speaker);
+        const videoUrl = URL.createObjectURL(blob);
+        const downloadLink = document.createElement('a');
+        downloadLink.href = videoUrl;
+        downloadLink.download = downloadName;
+        downloadLink.click();
+        URL.revokeObjectURL(videoUrl);
+        status.textContent = 'MP4 rendered and downloaded.';
     } catch (error) {
-        if (activeRecordingStream) {
-            activeRecordingStream.getTracks().forEach((track) => track.stop());
-            activeRecordingStream = null;
-        }
-        activeMediaRecorder = null;
+        status.textContent = error?.message || 'Video rendering failed.';
+    } finally {
         recordingInProgress = false;
-        document.body.classList.remove('recording-mode');
-        document.body.style.removeProperty('--recording-title-size');
-        document.body.style.removeProperty('--recording-body-size');
-        document.body.style.removeProperty('--recording-body-line-height');
+        clearRecordingMode();
         setToolbarButtonState(renderButton);
-        status.textContent = 'Video recording was cancelled or blocked.';
     }
 }
 
 async function handleRenderVideoClick() {
-    if (getSelectedVoiceSource() === 'docker') {
-        const status = document.getElementById('copy-status');
-        const wasAudioUnlocked = localTtsAudioUnlocked;
-        const audioReady = await unlockLocalTtsAudio();
-        if (!audioReady) {
-            status.textContent = 'Safari blocked Docker audio. Tap Enable audio directly in the page.';
-            return;
-        }
-
-        if (usesIosAudioGate() && !wasAudioUnlocked) {
-            status.textContent = 'Docker audio enabled. Tap Render Video again.';
-            return;
-        }
-    }
     await renderVideo();
 }
 
-renderTopNavigation();
-renderArticleNavigation();
+initializeArticleNavigation();
 setupVoiceSettingsMenu();
 insertVoiceSourceControls();
 document.getElementById('browser-voice')?.addEventListener('change', (event) => {
@@ -1541,6 +1351,6 @@ buildSentenceMeta();
 renderSentencePlaybackButtons();
 populateBrowserVoiceOptions();
 if (isRecordingPreviewMode()) {
-    document.body.classList.add('recording-mode');
+    document.body.classList.add('recording-mode', 'recording-preview');
     fitRecordingPageText();
 }

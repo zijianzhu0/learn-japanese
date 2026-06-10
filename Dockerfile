@@ -16,4 +16,4 @@ ENV PORT=8765
 
 EXPOSE 8765
 
-CMD ["python", "server/local_tts_server.py"]
+CMD ["python", "-m", "server.local_tts_server"]

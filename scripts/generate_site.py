@@ -15,6 +15,7 @@ ARTICLES_PATH = ROOT / "data" / "articles.json"
 ARTICLE_TEMPLATE_PATH = ROOT / "templates" / "article.html"
 ARTICLE_JS_PATH = ROOT / "assets" / "article.js"
 ARTICLE_CSS_PATH = ROOT / "assets" / "article.css"
+ARTICLE_NAVIGATION_PATH = ROOT / "data" / "article-navigation.json"
 INDEX_PATH = ROOT / "index.html"
 VOCABULARY_PATH = ROOT / "data" / "vocabulary" / "core-n5-n3.json"
 FLASHCARDS_PATH = ROOT / "data" / "flashcards.json"
@@ -61,11 +62,6 @@ def article_navigation(articles: list[dict]) -> list[dict]:
         }
         for article in articles
     ]
-
-
-def article_navigation_version(articles: list[dict]) -> str:
-    nav_json = json.dumps(article_navigation(articles), ensure_ascii=False, sort_keys=True)
-    return sha1(nav_json.encode("utf-8")).hexdigest()[:12]
 
 
 def file_version(path: Path) -> str:
@@ -361,17 +357,11 @@ def write_flashcards_manifest(articles: list[dict]) -> None:
     FLASHCARDS_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
-def replace_article_navigation(articles: list[dict]) -> None:
-    article_js = ARTICLE_JS_PATH.read_text(encoding="utf-8")
-    nav_json = json.dumps(article_navigation(articles), ensure_ascii=False, indent=4)
-    updated = re.sub(
-        r"const articleNavigation = \[.*?\];",
-        f"const articleNavigation = {nav_json};",
-        article_js,
-        count=1,
-        flags=re.S,
+def write_article_navigation_manifest(articles: list[dict]) -> None:
+    ARTICLE_NAVIGATION_PATH.write_text(
+        json.dumps(article_navigation(articles), ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
     )
-    ARTICLE_JS_PATH.write_text(updated, encoding="utf-8")
 
 
 def render_vocabulary(article: dict) -> str:
@@ -399,6 +389,7 @@ def render_paragraphs(article: dict) -> str:
 def render_article(article: dict, template: str, asset_version: str) -> str:
     replacements = {
         "{{PAGE_TITLE}}": escape(article["title"]),
+        "{{ARTICLE_ID}}": escape(article["id"]),
         "{{DOWNLOAD_FILE_NAME}}": escape(article["downloadFileName"]),
         "{{ARTICLE_JS_VERSION}}": escape(asset_version),
         "{{ARTICLE_CSS_VERSION}}": escape(file_version(ARTICLE_CSS_PATH)),
@@ -545,7 +536,7 @@ def write_flashcards_page() -> None:
 
 def main() -> None:
     articles = load_articles()
-    replace_article_navigation(articles)
+    write_article_navigation_manifest(articles)
     write_articles(articles)
     write_index(articles)
     write_flashcards_manifest(articles)

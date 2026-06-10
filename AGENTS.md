@@ -12,6 +12,8 @@ This repo is a local Japanese reading site. Article source data lives in JSON, a
   Generated article pages kept at the repo root for stable URLs.
 - [data/articles.json](/Users/zijianzh/repositories/learn-japanese/data/articles.json)
   Ordered manifest of article JSON files.
+- [data/article-navigation.json](/Users/zijianzh/repositories/learn-japanese/data/article-navigation.json)
+  Generated runtime navigation manifest for article pages.
 - [data/articles/](/Users/zijianzh/repositories/learn-japanese/data/articles)
   Per-article JSON source files.
 - [templates/article.html](/Users/zijianzh/repositories/learn-japanese/templates/article.html)
@@ -21,7 +23,7 @@ This repo is a local Japanese reading site. Article source data lives in JSON, a
 - [assets/article.js](/Users/zijianzh/repositories/learn-japanese/assets/article.js)
   Shared navigation, playback, highlighting, copy, and recording behavior.
 - [scripts/generate_site.py](/Users/zijianzh/repositories/learn-japanese/scripts/generate_site.py)
-  Regenerates the static pages and article navigation.
+  Regenerates the static pages, flashcards manifest, and article navigation manifest.
 - [server/local_tts_server.py](/Users/zijianzh/repositories/learn-japanese/server/local_tts_server.py)
   Static HTTP server, VOICEVOX proxy, and MP4 conversion endpoint.
 
