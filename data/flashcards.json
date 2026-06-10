@@ -4,7 +4,7 @@
     "articleManifest": "data/articles.json"
   },
   "levels": {
-    "N3": 1847,
+    "N3": 1854,
     "N4": 536,
     "N5": 553
   },
@@ -39376,6 +39376,125 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": []
+    },
+    {
+      "id": "article-38cbbb51d2065b",
+      "level": "N3",
+      "term": "捕獲",
+      "reading": "ほかく",
+      "readingHiragana": "ほかく",
+      "meaning": "Capture / Capture and hold",
+      "source": "article",
+      "sourceId": "2026-06-10-bear-capture-drone",
+      "sourceTitle": "学校を休みにしたクマがついに捕まった",
+      "sourceLabel": "6/10 クマがついに捕獲",
+      "sourceHref": "./2026-06-10-bear-capture-drone.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-10-bear-capture-drone"
+      ]
+    },
+    {
+      "id": "article-7bb582e6359f3c",
+      "level": "N3",
+      "term": "麻酔",
+      "reading": "ますい",
+      "readingHiragana": "ますい",
+      "meaning": "Anesthetic / Sedation",
+      "source": "article",
+      "sourceId": "2026-06-10-bear-capture-drone",
+      "sourceTitle": "学校を休みにしたクマがついに捕まった",
+      "sourceLabel": "6/10 クマがついに捕獲",
+      "sourceHref": "./2026-06-10-bear-capture-drone.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-10-bear-capture-drone"
+      ]
+    },
+    {
+      "id": "article-0cf155552153e3",
+      "level": "N3",
+      "term": "追跡",
+      "reading": "ついせき",
+      "readingHiragana": "ついせき",
+      "meaning": "Tracking / Pursuit",
+      "source": "article",
+      "sourceId": "2026-06-10-bear-capture-drone",
+      "sourceTitle": "学校を休みにしたクマがついに捕まった",
+      "sourceLabel": "6/10 クマがついに捕獲",
+      "sourceHref": "./2026-06-10-bear-capture-drone.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-10-bear-capture-drone"
+      ]
+    },
+    {
+      "id": "article-b9d9f68143af1b",
+      "level": "N3",
+      "term": "休校",
+      "reading": "きゅうこう",
+      "readingHiragana": "きゅうこう",
+      "meaning": "School closure",
+      "source": "article",
+      "sourceId": "2026-06-10-bear-capture-drone",
+      "sourceTitle": "学校を休みにしたクマがついに捕まった",
+      "sourceLabel": "6/10 クマがついに捕獲",
+      "sourceHref": "./2026-06-10-bear-capture-drone.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-10-bear-capture-drone"
+      ]
+    },
+    {
+      "id": "article-fd31bcbe29f501",
+      "level": "N3",
+      "term": "私有地",
+      "reading": "しゆうち",
+      "readingHiragana": "しゆうち",
+      "meaning": "Private property",
+      "source": "article",
+      "sourceId": "2026-06-10-bear-capture-drone",
+      "sourceTitle": "学校を休みにしたクマがついに捕まった",
+      "sourceLabel": "6/10 クマがついに捕獲",
+      "sourceHref": "./2026-06-10-bear-capture-drone.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-10-bear-capture-drone"
+      ]
+    },
+    {
+      "id": "article-b5ba8ab63139d5",
+      "level": "N3",
+      "term": "注意喚起",
+      "reading": "ちゅういかんき",
+      "readingHiragana": "ちゅういかんき",
+      "meaning": "Warning / Alert",
+      "source": "article",
+      "sourceId": "2026-06-10-bear-capture-drone",
+      "sourceTitle": "学校を休みにしたクマがついに捕まった",
+      "sourceLabel": "6/10 クマがついに捕獲",
+      "sourceHref": "./2026-06-10-bear-capture-drone.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-10-bear-capture-drone"
+      ]
+    },
+    {
+      "id": "article-82d56101c6bd77",
+      "level": "N3",
+      "term": "侵入",
+      "reading": "しんにゅう",
+      "readingHiragana": "しんにゅう",
+      "meaning": "Intrusion / Entry",
+      "source": "article",
+      "sourceId": "2026-06-10-bear-capture-drone",
+      "sourceTitle": "学校を休みにしたクマがついに捕まった",
+      "sourceLabel": "6/10 クマがついに捕獲",
+      "sourceHref": "./2026-06-10-bear-capture-drone.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-10-bear-capture-drone"
+      ]
     },
     {
       "id": "article-4da3d1acc31cce",

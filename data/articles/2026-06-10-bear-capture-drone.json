@@ -1,0 +1,61 @@
+{
+  "id": "2026-06-10-bear-capture-drone",
+  "file": "2026-06-10-bear-capture-drone.html",
+  "title": "学校を休みにしたクマがついに捕まった",
+  "date": "2026年6月10日",
+  "month": "June 2026",
+  "navLabel": "6/10 クマがついに捕獲",
+  "level": "N3",
+  "downloadFileName": "2026-06-10-bear-capture-drone.mp4",
+  "headlineHtml": "<ruby>学校<rt>がっこう</rt></ruby>を<ruby>休<rt>やす</rt></ruby>みにしたクマがついに<ruby>捕<rt>つか</rt></ruby>まった",
+  "sourceNote": "2026年6月9日のAP通信のクマ捕獲記事をもとにしたN3レベルの学習用ページです。",
+  "paragraphs": [
+    {
+      "html": "<ruby>栃木県<rt>とちぎけん</rt></ruby>の<ruby>宇都宮市<rt>うつのみやし</rt></ruby>では、クマが<ruby>公園<rt>こうえん</rt></ruby>や<ruby>学校<rt>がっこう</rt></ruby>、<ruby>図書館<rt>としょかん</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くに<ruby>出<rt>で</rt></ruby>て、<ruby>多<rt>おお</rt></ruby>くの<ruby>人<rt>ひと</rt></ruby>を<ruby>怖<rt>こわ</rt></ruby>がらせました。<ruby>市<rt>し</rt></ruby>は<ruby>安全<rt>あんぜん</rt></ruby>のため、<ruby>市立<rt>しりつ</rt></ruby>の<ruby>学校<rt>がっこう</rt></ruby>を<ruby>二日間<rt>ふつかかん</rt></ruby><ruby>休校<rt>きゅうこう</rt></ruby>にしました。",
+      "translation": "In Utsunomiya, Tochigi Prefecture, a bear appeared near parks, schools, and a library, frightening many people. For safety, the city closed municipal schools for two days."
+    },
+    {
+      "html": "<ruby>市<rt>し</rt></ruby>はSNSや<ruby>放送車<rt>ほうそうしゃ</rt></ruby>で<ruby>注意<rt>ちゅうい</rt></ruby>を<ruby>呼<rt>よ</rt></ruby>びかけ、<ruby>住民<rt>じゅうみん</rt></ruby>に<ruby>外<rt>そと</rt></ruby>へ<ruby>出<rt>で</rt></ruby>ないよう<ruby>伝<rt>つた</rt></ruby>えました。<ruby>夜<rt>よる</rt></ruby>にゴミを<ruby>出<rt>だ</rt></ruby>さないことや、<ruby>窓<rt>まど</rt></ruby>と<ruby>扉<rt>とびら</rt></ruby>をしっかり<ruby>閉<rt>し</rt></ruby>めることも<ruby>大切<rt>たいせつ</rt></ruby>だと<ruby>案内<rt>あんない</rt></ruby>しました。",
+      "translation": "The city warned residents through social media and announcement vehicles and told them not to go outside. It also advised people not to put out garbage at night and to keep windows and doors tightly closed."
+    },
+    {
+      "html": "<ruby>後<rt>あと</rt></ruby>に<ruby>大学<rt>だいがく</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くでクマが<ruby>見<rt>み</rt></ruby>つかると、<ruby>市<rt>し</rt></ruby>の<ruby>職員<rt>しょくいん</rt></ruby>はドローンで<ruby>場所<rt>ばしょ</rt></ruby>を<ruby>追跡<rt>ついせき</rt></ruby>しました。<ruby>最後<rt>さいご</rt></ruby>は<ruby>獣医<rt>じゅうい</rt></ruby>が<ruby>麻酔<rt>ますい</rt></ruby>の<ruby>銃<rt>じゅう</rt></ruby>を<ruby>使<rt>つか</rt></ruby>って<ruby>捕獲<rt>ほかく</rt></ruby>し、けがをした<ruby>人<rt>ひと</rt></ruby>はいませんでした。",
+      "translation": "When the bear was later found near a university, city workers used a drone to track it. In the end, a veterinarian captured it with a tranquilizer gun, and nobody was injured."
+    },
+    {
+      "html": "<ruby>日本<rt>にほん</rt></ruby>では、クマが<ruby>人<rt>ひと</rt></ruby>の<ruby>生活<rt>せいかつ</rt></ruby>する<ruby>場所<rt>ばしょ</rt></ruby>に<ruby>入<rt>はい</rt></ruby>る<ruby>問題<rt>もんだい</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えています。<ruby>地方<rt>ちほう</rt></ruby>で<ruby>人<rt>ひと</rt></ruby>が<ruby>少<rt>すく</rt></ruby>なくなり、クマも<ruby>多<rt>おお</rt></ruby>くなったため、<ruby>注意喚起<rt>ちゅういかんき</rt></ruby>や<ruby>対策<rt>たいさく</rt></ruby>をすぐに<ruby>出<rt>だ</rt></ruby>す<ruby>必要<rt>ひつよう</rt></ruby>があります。",
+      "translation": "In Japan, the problem of bears entering places where people live is increasing. Because rural populations are shrinking and bear numbers are growing, cities need to issue warnings and take action quickly."
+    }
+  ],
+  "vocabularyTitle": "N3 Vocabulary",
+  "vocabulary": [
+    {
+      "term": "捕獲（ほかく）",
+      "meaning": "Capture / Capture and hold"
+    },
+    {
+      "term": "麻酔（ますい）",
+      "meaning": "Anesthetic / Sedation"
+    },
+    {
+      "term": "追跡（ついせき）",
+      "meaning": "Tracking / Pursuit"
+    },
+    {
+      "term": "休校（きゅうこう）",
+      "meaning": "School closure"
+    },
+    {
+      "term": "私有地（しゆうち）",
+      "meaning": "Private property"
+    },
+    {
+      "term": "注意喚起（ちゅういかんき）",
+      "meaning": "Warning / Alert"
+    },
+    {
+      "term": "侵入（しんにゅう）",
+      "meaning": "Intrusion / Entry"
+    }
+  ]
+}
