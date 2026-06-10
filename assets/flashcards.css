@@ -353,6 +353,18 @@ button:disabled {
     text-transform: uppercase;
 }
 
+.form-pill {
+    justify-self: start;
+    margin-top: 12px;
+    padding: 3px 9px;
+    border: 1px solid #c8ded8;
+    border-radius: 999px;
+    color: var(--accent-dark);
+    background: var(--soft);
+    font-size: 0.82rem;
+    font-weight: 800;
+}
+
 .card-term {
     margin-top: 12px;
     color: var(--accent-dark);
@@ -367,6 +379,13 @@ button:disabled {
     margin-top: 8px;
     color: #52606d;
     font-size: clamp(1.1rem, 4vw, 1.6rem);
+}
+
+.base-verb {
+    margin-top: 8px;
+    color: var(--muted);
+    font-size: 0.95rem;
+    font-weight: 700;
 }
 
 .card-divider {

@@ -24,6 +24,69 @@ FLASHCARDS_HTML_PATH = ROOT / "flashcards.html"
 FLASHCARDS_JS_PATH = ROOT / "assets" / "flashcards.js"
 FLASHCARDS_CSS_PATH = ROOT / "assets" / "flashcards.css"
 FLASHCARD_LEVELS = {"N5", "N4", "N3"}
+VERB_FORM_SPECS = (
+    ("dictionary", "Dictionary", "Dictionary form"),
+    ("polite", "Polite", "Polite form"),
+    ("past", "Past", "Plain past form"),
+    ("negative", "Negative", "Plain negative form"),
+    ("te", "Te-form", "Te-form"),
+    ("potential", "Potential", "Potential form"),
+)
+GODAN_A_ROW = {
+    "う": "わ",
+    "く": "か",
+    "ぐ": "が",
+    "す": "さ",
+    "つ": "た",
+    "ぬ": "な",
+    "ぶ": "ば",
+    "む": "ま",
+    "る": "ら",
+}
+GODAN_I_ROW = {
+    "う": "い",
+    "く": "き",
+    "ぐ": "ぎ",
+    "す": "し",
+    "つ": "ち",
+    "ぬ": "に",
+    "ぶ": "び",
+    "む": "み",
+    "る": "り",
+}
+GODAN_E_ROW = {
+    "う": "え",
+    "く": "け",
+    "ぐ": "げ",
+    "す": "せ",
+    "つ": "て",
+    "ぬ": "ね",
+    "ぶ": "べ",
+    "む": "め",
+    "る": "れ",
+}
+GODAN_TE_ENDINGS = {
+    "う": "って",
+    "つ": "って",
+    "る": "って",
+    "む": "んで",
+    "ぶ": "んで",
+    "ぬ": "んで",
+    "く": "いて",
+    "ぐ": "いで",
+    "す": "して",
+}
+GODAN_PAST_ENDINGS = {
+    "う": "った",
+    "つ": "った",
+    "る": "った",
+    "む": "んだ",
+    "ぶ": "んだ",
+    "ぬ": "んだ",
+    "く": "いた",
+    "ぐ": "いだ",
+    "す": "した",
+}
 
 
 def load_articles() -> list[dict]:
@@ -276,6 +339,149 @@ def stable_vocab_id(*parts: str) -> str:
     return sha1(key.encode("utf-8")).hexdigest()[:14]
 
 
+def term_surface(term: str) -> str:
+    return term.split("/")[0].strip()
+
+
+def verb_stem(value: str) -> str:
+    return value[:-1]
+
+
+def final_kana(value: str) -> str:
+    if not value:
+        raise ValueError("Verb term is empty.")
+    return value[-1]
+
+
+def godan_conjugation(value: str, form_id: str) -> str:
+    ending = final_kana(value)
+    stem = verb_stem(value)
+    if ending not in GODAN_I_ROW:
+        raise ValueError(f"Unsupported godan ending: {value}")
+    if form_id == "dictionary":
+        return value
+    if form_id == "polite":
+        return f"{stem}{GODAN_I_ROW[ending]}ます"
+    if form_id == "past":
+        if value == "行く":
+            return "行った"
+        if value == "いく":
+            return "いった"
+        return f"{stem}{GODAN_PAST_ENDINGS[ending]}"
+    if form_id == "negative":
+        return f"{stem}{GODAN_A_ROW[ending]}ない"
+    if form_id == "te":
+        if value == "行く":
+            return "行って"
+        if value == "いく":
+            return "いって"
+        return f"{stem}{GODAN_TE_ENDINGS[ending]}"
+    if form_id == "potential":
+        return f"{stem}{GODAN_E_ROW[ending]}る"
+    raise ValueError(f"Unsupported verb form: {form_id}")
+
+
+def ichidan_conjugation(value: str, form_id: str) -> str:
+    stem = verb_stem(value)
+    forms = {
+        "dictionary": value,
+        "polite": f"{stem}ます",
+        "past": f"{stem}た",
+        "negative": f"{stem}ない",
+        "te": f"{stem}て",
+        "potential": f"{stem}られる",
+    }
+    return forms[form_id]
+
+
+def suru_conjugation(value: str, form_id: str) -> str:
+    stem = value[:-2]
+    if form_id == "potential" and value != "する":
+        return ""
+    forms = {
+        "dictionary": value,
+        "polite": f"{stem}します",
+        "past": f"{stem}した",
+        "negative": f"{stem}しない",
+        "te": f"{stem}して",
+        "potential": f"{stem}できる",
+    }
+    return forms[form_id]
+
+
+def kuru_conjugation(value: str, form_id: str) -> str:
+    if value == "くる":
+        forms = {
+            "dictionary": value,
+            "polite": "きます",
+            "past": "きた",
+            "negative": "こない",
+            "te": "きて",
+            "potential": "こられる",
+        }
+        return forms[form_id]
+
+    forms = {
+        "dictionary": value,
+        "polite": "来ます",
+        "past": "来た",
+        "negative": "来ない",
+        "te": "来て",
+        "potential": "来られる",
+    }
+    return forms[form_id]
+
+
+def conjugate_verb(value: str, verb_class: str, form_id: str) -> str:
+    if verb_class == "godan":
+        return godan_conjugation(value, form_id)
+    if verb_class == "ichidan":
+        return ichidan_conjugation(value, form_id)
+    if verb_class == "suru":
+        return suru_conjugation(value, form_id)
+    if verb_class == "kuru":
+        return kuru_conjugation(value, form_id)
+    raise ValueError(f"Unsupported verb class: {verb_class}")
+
+
+def verb_form_items(item: dict, base_item: dict) -> list[dict]:
+    if item.get("partOfSpeech") != "verb":
+        return []
+
+    verb_class = item.get("verbClass")
+    if verb_class not in {"godan", "ichidan", "suru", "kuru"}:
+        raise ValueError(f"Missing or unsupported verbClass for {item['term']}: {verb_class}")
+
+    base_term = term_surface(base_item["term"])
+    base_reading = term_surface(base_item.get("readingHiragana") or base_item.get("reading") or "")
+    forms = []
+    for form_id, form_label, form_description in VERB_FORM_SPECS:
+        if form_id == "dictionary":
+            continue
+        form_term = conjugate_verb(base_term, verb_class, form_id)
+        if not form_term:
+            continue
+        form_reading = conjugate_verb(base_reading, verb_class, form_id) if base_reading else ""
+        forms.append(
+            {
+                **base_item,
+                "id": f"{base_item['id']}-verb-{form_id}",
+                "term": form_term,
+                "reading": "",
+                "readingHiragana": form_reading,
+                "meaning": f"{form_description} of {base_term}: {base_item['meaning']}",
+                "cardKind": "verb-form",
+                "baseTerm": base_term,
+                "baseReading": base_reading,
+                "baseMeaning": base_item["meaning"],
+                "verbClass": verb_class,
+                "verbForm": form_id,
+                "verbFormLabel": form_label,
+            }
+        )
+    return forms
+
+
 def article_flashcard_items(articles: list[dict]) -> list[dict]:
     items = []
     for article in articles:
@@ -286,22 +492,26 @@ def article_flashcard_items(articles: list[dict]) -> list[dict]:
         for index, item in enumerate(article.get("vocabulary", []), start=1):
             term, reading = split_vocab_term(item["term"])
             item_id = f"article-{stable_vocab_id(article['id'], str(index), term, item['meaning'])}"
-            items.append(
-                {
-                    "id": item_id,
-                    "level": level,
-                    "term": term,
-                    "reading": reading,
-                    "readingHiragana": reading_to_hiragana(reading),
-                    "meaning": item["meaning"],
-                    "source": "article",
-                    "sourceId": article["id"],
-                    "sourceTitle": article["title"],
-                    "sourceLabel": article["navLabel"],
-                    "sourceHref": article_href(article),
-                    "tags": ["article-vocab", article["id"]],
-                }
-            )
+            base_item = {
+                "id": item_id,
+                "level": level,
+                "term": term,
+                "reading": reading,
+                "readingHiragana": reading_to_hiragana(reading),
+                "meaning": item["meaning"],
+                "source": "article",
+                "sourceId": article["id"],
+                "sourceTitle": article["title"],
+                "sourceLabel": article["navLabel"],
+                "sourceHref": article_href(article),
+                "tags": ["article-vocab", article["id"]],
+            }
+            if item.get("partOfSpeech"):
+                base_item["partOfSpeech"] = item["partOfSpeech"]
+            if item.get("verbClass"):
+                base_item["verbClass"] = item["verbClass"]
+            items.append(base_item)
+            items.extend(verb_form_items(item, base_item))
     return items
 
 
@@ -320,22 +530,26 @@ def load_core_vocabulary() -> list[dict]:
                 continue
 
             item_id = f"core-{stable_vocab_id(deck_id, item['id'], item['term'], item['meaning'])}"
-            items.append(
-                {
-                    "id": item_id,
-                    "level": level,
-                    "term": item["term"],
-                    "reading": item.get("reading", ""),
-                    "readingHiragana": reading_to_hiragana(item.get("reading", "")),
-                    "meaning": item["meaning"],
-                    "source": "core",
-                    "sourceId": deck_id,
-                    "sourceTitle": deck.get("title", deck_id),
-                    "sourceLabel": deck.get("title", deck_id),
-                    "sourceHref": deck.get("sourceUrl", ""),
-                    "tags": item.get("tags", []),
-                }
-            )
+            base_item = {
+                "id": item_id,
+                "level": level,
+                "term": item["term"],
+                "reading": item.get("reading", ""),
+                "readingHiragana": reading_to_hiragana(item.get("reading", "")),
+                "meaning": item["meaning"],
+                "source": "core",
+                "sourceId": deck_id,
+                "sourceTitle": deck.get("title", deck_id),
+                "sourceLabel": deck.get("title", deck_id),
+                "sourceHref": deck.get("sourceUrl", ""),
+                "tags": item.get("tags", []),
+            }
+            if item.get("partOfSpeech"):
+                base_item["partOfSpeech"] = item["partOfSpeech"]
+            if item.get("verbClass"):
+                base_item["verbClass"] = item["verbClass"]
+            items.append(base_item)
+            items.extend(verb_form_items(item, base_item))
     return items
 
 

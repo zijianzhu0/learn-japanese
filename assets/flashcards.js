@@ -30,8 +30,10 @@ const elements = {
     streak: document.getElementById('stat-streak'),
     cardLevel: document.getElementById('card-level'),
     cardSource: document.getElementById('card-source'),
+    cardForm: document.getElementById('card-form'),
     cardTerm: document.getElementById('card-term'),
     cardReading: document.getElementById('card-reading'),
+    cardBaseVerb: document.getElementById('card-base-verb'),
     cardMeaning: document.getElementById('card-meaning'),
     answerLabel: document.getElementById('answer-label'),
     flashcard: document.getElementById('flashcard'),
@@ -286,6 +288,17 @@ async function showItem(item) {
     elements.cardTerm.textContent = item.term;
     elements.cardReading.textContent = item.readingHiragana || item.reading || '';
     elements.cardMeaning.textContent = item.meaning;
+    if (item.cardKind === 'verb-form') {
+        elements.cardForm.textContent = item.verbFormLabel || 'Verb form';
+        elements.cardForm.hidden = false;
+        elements.cardBaseVerb.textContent = `Base: ${item.baseTerm} (${item.baseReading || item.baseMeaning || 'verb'})`;
+        elements.cardBaseVerb.hidden = false;
+    } else {
+        elements.cardForm.hidden = true;
+        elements.cardForm.textContent = '';
+        elements.cardBaseVerb.hidden = true;
+        elements.cardBaseVerb.textContent = '';
+    }
 
     if (item.sourceHref) {
         elements.sourceLink.href = item.sourceHref;
@@ -447,6 +460,10 @@ async function showNextCard() {
         elements.cardTerm.textContent = 'No cards';
         elements.cardReading.textContent = '';
         elements.cardMeaning.textContent = '';
+        elements.cardForm.hidden = true;
+        elements.cardForm.textContent = '';
+        elements.cardBaseVerb.hidden = true;
+        elements.cardBaseVerb.textContent = '';
         return;
     }
 

@@ -98,6 +98,7 @@ The generator updates:
 - Voice source, browser voice, and Docker speaker preferences persist across refreshes and article pages.
 - Sentence-level highlighting during playback.
 - Furigana-safe article copy.
+- Flashcards include separate generated review cards for common verb forms.
 - Vertical one-page recording layout for `Render Video`.
 - MP4 download when browser MP4 recording is available or server-side `ffmpeg` conversion succeeds.
 

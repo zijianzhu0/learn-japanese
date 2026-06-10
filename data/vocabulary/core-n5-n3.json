@@ -11,7 +11,9 @@
           "term": "浴びる",
           "reading": "abiru",
           "meaning": "to take a shower",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "abunai",
@@ -25,7 +27,9 @@
           "term": "あげる",
           "reading": "ageru",
           "meaning": "to give",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "aka-akai",
@@ -46,7 +50,9 @@
           "term": "開ける",
           "reading": "akeru",
           "meaning": "to open",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "aki",
@@ -60,7 +66,9 @@
           "term": "開く",
           "reading": "aku",
           "meaning": "to open",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "amai",
@@ -109,21 +117,27 @@
           "term": "洗う",
           "reading": "arau",
           "meaning": "to wash",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "aru",
           "term": "有る",
           "reading": "aru",
           "meaning": "to be, to exist",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "aruku",
           "term": "歩く",
           "reading": "aruku",
           "meaning": "to walk",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "asa",
@@ -165,7 +179,9 @@
           "term": "遊ぶ",
           "reading": "asobu",
           "meaning": "to play",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "asoko",
@@ -228,7 +244,9 @@
           "term": "会う",
           "reading": "au",
           "meaning": "to meet",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "bangohan",
@@ -312,7 +330,9 @@
           "term": "違う",
           "reading": "chigau",
           "meaning": "to differ (from)",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "chiisai",
@@ -410,7 +430,9 @@
           "term": "出す",
           "reading": "dasu",
           "meaning": "to take out",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "deguchi",
@@ -424,7 +446,9 @@
           "term": "出かける",
           "reading": "dekakeru",
           "meaning": "to go out",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "denki",
@@ -452,7 +476,9 @@
           "term": "出る",
           "reading": "deru",
           "meaning": "to leave, to exit",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "dochira",
@@ -564,7 +590,9 @@
           "term": "吹く",
           "reading": "fuku",
           "meaning": "to blow (wind)",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "futari",
@@ -585,7 +613,9 @@
           "term": "降る",
           "reading": "furu",
           "meaning": "to fall (rain)",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "furui",
@@ -739,7 +769,9 @@
           "term": "入る",
           "reading": "hairu",
           "meaning": "to enter, to go into",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "haizara",
@@ -767,7 +799,9 @@
           "term": "始まる",
           "reading": "hajimaru",
           "meaning": "to begin, to start",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "hako",
@@ -809,14 +843,18 @@
           "term": "話す",
           "reading": "hanasu",
           "meaning": "to talk, to speak",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "hareru",
           "term": "晴れる",
           "reading": "hareru",
           "meaning": "to clear up",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "haru",
@@ -830,7 +868,9 @@
           "term": "貼る",
           "reading": "haru",
           "meaning": "to stick, to paste",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "hashi",
@@ -851,7 +891,9 @@
           "term": "走る",
           "reading": "hashiru",
           "meaning": "to run",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "hatachi",
@@ -865,7 +907,9 @@
           "term": "働く",
           "reading": "hataraku",
           "meaning": "to work",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "hatsuka",
@@ -949,14 +993,18 @@
           "term": "弾く",
           "reading": "hiku",
           "meaning": "to play (piano, guitar)",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "hiku-2",
           "term": "引く",
           "reading": "hiku",
           "meaning": "to pull, to draw",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "hikui",
@@ -1110,7 +1158,9 @@
           "term": "行く",
           "reading": "iku",
           "meaning": "to go",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "ikura",
@@ -1159,7 +1209,9 @@
           "term": "入れる",
           "reading": "ireru",
           "meaning": "to put in, to let in",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "iriguchi",
@@ -1187,7 +1239,9 @@
           "term": "要る",
           "reading": "iru",
           "meaning": "to need, to want",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "isha",
@@ -1250,7 +1304,9 @@
           "term": "言う",
           "reading": "iu",
           "meaning": "to say, to utter",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "iya",
@@ -1341,14 +1397,18 @@
           "term": "帰る",
           "reading": "kaeru",
           "meaning": "to return, to come home",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kaesu",
           "term": "返す",
           "reading": "kaesu",
           "meaning": "to return (something)",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kagi",
@@ -1383,7 +1443,9 @@
           "term": "書く",
           "reading": "kaku",
           "meaning": "to write, to compose",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kami",
@@ -1418,7 +1480,9 @@
           "term": "借りる",
           "reading": "kariru",
           "meaning": "to borrow",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "karui",
@@ -1439,7 +1503,9 @@
           "term": "貸す",
           "reading": "kasu",
           "meaning": "to lend, to loan",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kata",
@@ -1460,7 +1526,9 @@
           "term": "買う",
           "reading": "kau",
           "meaning": "to buy, to purchase",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kawaii",
@@ -1530,7 +1598,9 @@
           "term": "消す",
           "reading": "kesu",
           "meaning": "to erase, to delete",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "ki",
@@ -1544,7 +1614,9 @@
           "term": "消える",
           "reading": "kieru",
           "meaning": "to go out, to vanish",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "kiiroi",
@@ -1586,14 +1658,18 @@
           "term": "切る",
           "reading": "kiru",
           "meaning": "to cut",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kiru-2",
           "term": "着る",
           "reading": "kiru",
           "meaning": "to wear, to put on",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "kissaten",
@@ -1656,7 +1732,9 @@
           "term": "困る",
           "reading": "komaru",
           "meaning": "to be troubled, to be worried",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "konban",
@@ -1705,7 +1783,9 @@
           "term": "答える",
           "reading": "kotaeru",
           "meaning": "to answer, to reply",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "kotoba",
@@ -1733,7 +1813,9 @@
           "term": "聞く",
           "reading": "kiku",
           "meaning": "to hear, to listen",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kirei",
@@ -1817,7 +1899,9 @@
           "term": "来る",
           "reading": "kuru",
           "meaning": "to come",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "kuru"
         },
         {
           "id": "kuruma",
@@ -1922,7 +2006,9 @@
           "term": "曲がる",
           "reading": "magaru",
           "meaning": "to bend, to curve",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "man",
@@ -1950,7 +2036,9 @@
           "term": "待つ",
           "reading": "matsu",
           "meaning": "to wait, to look forward to",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "mazui",
@@ -1992,7 +2080,9 @@
           "term": "磨く",
           "reading": "migaku",
           "meaning": "to polish, to shine",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "migi",
@@ -2034,7 +2124,9 @@
           "term": "見る",
           "reading": "miru",
           "meaning": "to see, to look, to watch",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "mise",
@@ -2048,7 +2140,9 @@
           "term": "見せる",
           "reading": "miseru",
           "meaning": "to show, to display",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "mizu",
@@ -2076,7 +2170,9 @@
           "term": "持つ",
           "reading": "motsu",
           "meaning": "to hold (in one’s hands)",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "mokuyoubi",
@@ -2132,14 +2228,18 @@
           "term": "鳴く",
           "reading": "naku",
           "meaning": "to sing (bird)",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "nakusu",
           "term": "無くす",
           "reading": "nakusu",
           "meaning": "to lose something",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "namae",
@@ -2167,28 +2267,36 @@
           "term": "並ぶ",
           "reading": "narabu",
           "meaning": "to stand in a line",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "naraberu",
           "term": "並べる",
           "reading": "naraberu",
           "meaning": "to line up",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "narau",
           "term": "習う",
           "reading": "narau",
           "meaning": "to be taught, to learn (from a teacher)",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "naru",
           "term": "なる",
           "reading": "naru",
           "meaning": "to become",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "natsu",
@@ -2209,7 +2317,9 @@
           "term": "寝る",
           "reading": "neru",
           "meaning": "to go to bed",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "ni",
@@ -2265,7 +2375,9 @@
           "term": "登る",
           "reading": "noboru",
           "meaning": "to ascend, to go up",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "nomimono",
@@ -2279,21 +2391,27 @@
           "term": "飲む",
           "reading": "nomu",
           "meaning": "to drink, to gulp",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "noru",
           "term": "乗る",
           "reading": "noru",
           "meaning": "to get on (train, plane, bus, ship)",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "nugu",
           "term": "脱ぐ",
           "reading": "nugu",
           "meaning": "to take off (clothes, shoes)",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "obasan",
@@ -2321,7 +2439,9 @@
           "term": "覚える",
           "reading": "oboeru",
           "meaning": "to memorize, to remember",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "ocha",
@@ -2370,14 +2490,18 @@
           "term": "起きる",
           "reading": "okiru",
           "meaning": "to get up, to rise",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "oku",
           "term": "置く",
           "reading": "oku",
           "meaning": "to put, to place",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "okusan",
@@ -2482,7 +2606,9 @@
           "term": "降りる",
           "reading": "oriru",
           "meaning": "to descend, to get off",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "osara",
@@ -2496,7 +2622,9 @@
           "term": "教える",
           "reading": "oshieru",
           "meaning": "to teach, to instruct",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "osoi",
@@ -2510,7 +2638,9 @@
           "term": "押す",
           "reading": "osu",
           "meaning": "to push, to press",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "otearai",
@@ -2573,14 +2703,18 @@
           "term": "終わる",
           "reading": "owaru",
           "meaning": "to finish, to end",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "oyogu",
           "term": "泳ぐ",
           "reading": "oyogu",
           "meaning": "to swim",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "raigetsu",
@@ -2699,7 +2833,9 @@
           "term": "咲く",
           "reading": "saku",
           "meaning": "to bloom",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "sakubun",
@@ -2846,21 +2982,27 @@
           "term": "閉まる",
           "reading": "shimaru",
           "meaning": "to be shut, to close",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "shimeru",
           "term": "閉める",
           "reading": "shimeru",
           "meaning": "to close, to shut",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "shimeru-2",
           "term": "締める",
           "reading": "shimeru",
           "meaning": "to tie, to fasten",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "shinbun",
@@ -2874,7 +3016,9 @@
           "term": "死ぬ",
           "reading": "shinu",
           "meaning": "to die, to pass away",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "shio",
@@ -2895,7 +3039,9 @@
           "term": "知る",
           "reading": "shiru",
           "meaning": "to be aware of, to know",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "shita",
@@ -3007,28 +3153,36 @@
           "term": "住む",
           "reading": "sumu",
           "meaning": "to live, to reside",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "suru",
           "term": "する",
           "reading": "suru",
           "meaning": "to do",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "suru"
         },
         {
           "id": "suu",
           "term": "吸う",
           "reading": "suu",
           "meaning": "to smoke, to breathe in",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "suwaru",
           "term": "座る",
           "reading": "suwaru",
           "meaning": "to sit",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "suzushii",
@@ -3056,7 +3210,9 @@
           "term": "食べる",
           "reading": "taberu",
           "meaning": "to eat",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "tabun",
@@ -3126,7 +3282,9 @@
           "term": "頼む",
           "reading": "tanomu",
           "meaning": "to request, to beg, to ask",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "tatemono",
@@ -3140,7 +3298,9 @@
           "term": "立つ",
           "reading": "tatsu",
           "meaning": "to stand, to rise",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "te",
@@ -3175,7 +3335,9 @@
           "term": "飛ぶ",
           "reading": "tobu",
           "meaning": "to fly",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "tomodachi",
@@ -3189,7 +3351,9 @@
           "term": "止まる",
           "reading": "tomaru",
           "meaning": "to stop (moving)",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "tonari",
@@ -3217,7 +3381,9 @@
           "term": "取る",
           "reading": "toru",
           "meaning": "to take, to pick up",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "toshi",
@@ -3266,7 +3432,9 @@
           "term": "撮る",
           "reading": "toru",
           "meaning": "to take (a photo), to record (a video)",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "totemo",
@@ -3280,7 +3448,9 @@
           "term": "疲れる",
           "reading": "tsukareru",
           "meaning": "to get tired",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "tsugi",
@@ -3294,7 +3464,9 @@
           "term": "使う",
           "reading": "tsukau",
           "meaning": "to use, to make use of",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "tsuitachi",
@@ -3308,7 +3480,9 @@
           "term": "着く",
           "reading": "tsuku",
           "meaning": "to arrive at, to reach",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "tsukue",
@@ -3322,7 +3496,9 @@
           "term": "作る",
           "reading": "tsukuru",
           "meaning": "to make, to produce",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "tsumaranai",
@@ -3343,7 +3519,9 @@
           "term": "勤める",
           "reading": "tsutomeru",
           "meaning": "to work (for), to be employed (at)",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "tsuyoi",
@@ -3364,7 +3542,9 @@
           "term": "生まれる",
           "reading": "umareru",
           "meaning": "to be born",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "umi",
@@ -3378,7 +3558,9 @@
           "term": "売る",
           "reading": "uru",
           "meaning": "to sell",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "urusai",
@@ -3413,7 +3595,9 @@
           "term": "歌う",
           "reading": "utau",
           "meaning": "to sing",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "uwagi",
@@ -3434,7 +3618,9 @@
           "term": "分かる",
           "reading": "wakaru",
           "meaning": "to understand, to comprehend",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "warui",
@@ -3448,7 +3634,9 @@
           "term": "忘れる",
           "reading": "wasureru",
           "meaning": "to forget",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "watashi",
@@ -3462,14 +3650,18 @@
           "term": "渡る",
           "reading": "wataru",
           "meaning": "to cross over",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "watasu",
           "term": "渡す",
           "reading": "watasu",
           "meaning": "to hand over, to hand in",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "yama",
@@ -3483,7 +3675,9 @@
           "term": "やる",
           "reading": "yaru",
           "meaning": "to do",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "yasai",
@@ -3511,14 +3705,18 @@
           "term": "休む",
           "reading": "yasumu",
           "meaning": "to be absent, to take a day off",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "yobu",
           "term": "呼ぶ",
           "reading": "yobu",
           "meaning": "to call out, to call",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "yokka",
@@ -3539,7 +3737,9 @@
           "term": "読む",
           "reading": "yomu",
           "meaning": "to read",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "yoru",
@@ -3890,7 +4090,9 @@
           "term": "上がる",
           "reading": "agaru",
           "meaning": "to rise, to ascend",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "aisatsu",
@@ -3967,28 +4169,36 @@
           "term": "集る",
           "reading": "atsumaru",
           "meaning": "to gather, to collect, to assemble",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "atsumeru",
           "term": "集める",
           "reading": "atsumeru",
           "meaning": "to collect, to assemble, to gather",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "au",
           "term": "合う",
           "reading": "au",
           "meaning": "to fit, to match, to suit",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "ayamaru",
           "term": "謝る",
           "reading": "ayamaru",
           "meaning": "to apologize",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "bai",
@@ -4247,7 +4457,9 @@
           "term": "選ぶ",
           "reading": "erabu",
           "meaning": "to choose, to select",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "fuben",
@@ -4261,7 +4473,9 @@
           "term": "増える",
           "reading": "fueru",
           "meaning": "to increase, to multiply",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "fukai",
@@ -4289,7 +4503,9 @@
           "term": "踏む",
           "reading": "fumu",
           "meaning": "to step on, to tread on",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "fune",
@@ -4310,7 +4526,9 @@
           "term": "太る",
           "reading": "futoru",
           "meaning": "to grow fat",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "futsuu",
@@ -4324,7 +4542,9 @@
           "term": "頑張る",
           "reading": "ganbaru",
           "meaning": "to hang on, to do one’s best",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "genin",
@@ -4366,7 +4586,9 @@
           "term": "ご覧になる",
           "reading": "goran ni naru",
           "meaning": "to see, to look, to watch",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "gozonji",
@@ -4422,7 +4644,9 @@
           "term": "始める",
           "reading": "hajimeru",
           "meaning": "to start, to begin",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "hakkiri",
@@ -4436,7 +4660,9 @@
           "term": "運ぶ",
           "reading": "hakobu",
           "meaning": "to carry, to transport",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "hanami",
@@ -4457,7 +4683,9 @@
           "term": "払う",
           "reading": "harau",
           "meaning": "to pay",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "hatsuon",
@@ -4506,7 +4734,9 @@
           "term": "冷える",
           "reading": "hieru",
           "meaning": "to grow cold",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "hige",
@@ -4534,7 +4764,9 @@
           "term": "光る",
           "reading": "hikaru",
           "meaning": "to shine, to glitter",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "hikidashi",
@@ -4548,14 +4780,18 @@
           "term": "引き出す",
           "reading": "hikidasu",
           "meaning": "to pull out, to take out",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "hikkosu",
           "term": "引っ越す",
           "reading": "hikkosu",
           "meaning": "to move (house)",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "hikoujou",
@@ -4569,7 +4805,9 @@
           "term": "開く",
           "reading": "hiraku",
           "meaning": "to open, to undo",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "hiruma",
@@ -4583,7 +4821,9 @@
           "term": "拾う",
           "reading": "hirou",
           "meaning": "to pick up",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "hiruyasumi",
@@ -4604,7 +4844,9 @@
           "term": "褒める",
           "reading": "homeru",
           "meaning": "to praise, to admire",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "honyaku",
@@ -4653,7 +4895,9 @@
           "term": "苛める",
           "reading": "ijimeru",
           "meaning": "to bully, to torment",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "ijou",
@@ -4681,7 +4925,9 @@
           "term": "生きる",
           "reading": "ikiru",
           "meaning": "to live, to exist",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "inai",
@@ -4702,7 +4948,9 @@
           "term": "祈る",
           "reading": "inoru",
           "meaning": "to pray, to wish",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "ippai",
@@ -4730,7 +4978,9 @@
           "term": "急ぐ",
           "reading": "isogu",
           "meaning": "to hurry, to rush",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "ito",
@@ -4863,7 +5113,9 @@
           "term": "変える",
           "reading": "kaeru",
           "meaning": "to change, to alter",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "kagaku",
@@ -4926,7 +5178,9 @@
           "term": "掛ける",
           "reading": "kakeru",
           "meaning": "to hang, to hoist, to raise",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "kakkou",
@@ -4940,7 +5194,9 @@
           "term": "構う",
           "reading": "kamau",
           "meaning": "to mind, to care about",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kami",
@@ -4954,7 +5210,9 @@
           "term": "噛む",
           "reading": "kamu",
           "meaning": "to bite, to chew, to gnaw",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kanai",
@@ -4989,7 +5247,9 @@
           "term": "考える",
           "reading": "kangaeru",
           "meaning": "to think about",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "kankei",
@@ -5052,21 +5312,27 @@
           "term": "片付ける",
           "reading": "katazukeru",
           "meaning": "to tidy up, to put in order",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "katsu",
           "term": "勝つ",
           "reading": "katsu",
           "meaning": "to win, to gain victory",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kawaku",
           "term": "乾く",
           "reading": "kawaku",
           "meaning": "to get dry",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kawari",
@@ -5080,21 +5346,27 @@
           "term": "変わる",
           "reading": "kawaru",
           "meaning": "to change, to be transformed",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kayou",
           "term": "通う",
           "reading": "kayou",
           "meaning": "to go back and forth between",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kazaru",
           "term": "飾る",
           "reading": "kazaru",
           "meaning": "to decorate, to ornament",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "ke",
@@ -5220,21 +5492,27 @@
           "term": "聞こえる",
           "reading": "kikoeru",
           "meaning": "to be heard, to be audible",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "kimaru",
           "term": "決る",
           "reading": "kimaru",
           "meaning": "to be decided, to be settled",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kimeru",
           "term": "決める",
           "reading": "kimeru",
           "meaning": "to decide, to choose",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "kimi",
@@ -5325,7 +5603,9 @@
           "term": "込む",
           "reading": "komu",
           "meaning": "to be crowded, to be packed",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kondo",
@@ -5465,14 +5745,18 @@
           "term": "壊れる",
           "reading": "kowareru",
           "meaning": "to be broken",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "kowasu",
           "term": "壊す",
           "reading": "kowasu",
           "meaning": "to break, to destroy",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kubi",
@@ -5493,14 +5777,18 @@
           "term": "比べる",
           "reading": "kuraberu",
           "meaning": "to compare",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "kureru",
           "term": "暮れる",
           "reading": "kureru",
           "meaning": "to get dark, to grow dark",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "kusa",
@@ -5584,14 +5872,18 @@
           "term": "間違える",
           "reading": "machigaeru",
           "meaning": "to make a mistake",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "mairu",
           "term": "参る",
           "reading": "mairu",
           "meaning": "to go, to come (humble)",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "majime",
@@ -5605,7 +5897,9 @@
           "term": "負ける",
           "reading": "makeru",
           "meaning": "to lose, to be defeated",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "manga",
@@ -5619,7 +5913,9 @@
           "term": "間に合う",
           "reading": "maniau",
           "meaning": "to be in time for",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "mannaka",
@@ -5647,7 +5943,9 @@
           "term": "回る",
           "reading": "mawaru",
           "meaning": "to turn, to revolve",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "mazu",
@@ -5661,7 +5959,9 @@
           "term": "召し上がる",
           "reading": "meshiagaru",
           "meaning": "to eat, to drink",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "mezurashii",
@@ -5675,7 +5975,9 @@
           "term": "見える",
           "reading": "mieru",
           "meaning": "to be seen, to be in sight",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "minato",
@@ -5689,14 +5991,18 @@
           "term": "見つかる",
           "reading": "mitsukaru",
           "meaning": "to be found",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "mitsukeru",
           "term": "見つける",
           "reading": "mitsukeru",
           "meaning": "to discover, to find",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "mizuumi",
@@ -5717,7 +6023,9 @@
           "term": "戻る",
           "reading": "modoru",
           "meaning": "to return, to go back",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "mori",
@@ -5738,14 +6046,18 @@
           "term": "申し上げる",
           "reading": "moushiageru",
           "meaning": "to say, to tell (humble)",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "mousu",
           "term": "申す",
           "reading": "mousu",
           "meaning": "to say, to be called (humble)",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "mousugu",
@@ -5759,14 +6071,18 @@
           "term": "迎える",
           "reading": "mukaeru",
           "meaning": "to go out to meet",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "mukau",
           "term": "向かう",
           "reading": "mukau",
           "meaning": "to face, to go towards",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "mukashi",
@@ -5808,7 +6124,9 @@
           "term": "投げる",
           "reading": "nageru",
           "meaning": "to throw, to cast away",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "nakanaka",
@@ -5822,56 +6140,72 @@
           "term": "泣く",
           "reading": "naku",
           "meaning": "to cry, to weep",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "nakunaru",
           "term": "無くなる",
           "reading": "nakunaru",
           "meaning": "to be lost, to be missing",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "nakunaru-2",
           "term": "亡くなる",
           "reading": "nakunaru",
           "meaning": "to die",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "naoru",
           "term": "治る",
           "reading": "naoru",
           "meaning": "to be cured",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "naoru-2",
           "term": "直る",
           "reading": "naoru",
           "meaning": "to get mended",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "naosu",
           "term": "直す",
           "reading": "naosu",
           "meaning": "to fix, to repair",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "nareru",
           "term": "慣れる",
           "reading": "nareru",
           "meaning": "to get used to",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "naru",
           "term": "鳴る",
           "reading": "naru",
           "meaning": "to sound, to ring",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "naru-hodo",
@@ -5906,7 +6240,9 @@
           "term": "眠る",
           "reading": "nemuru",
           "meaning": "to sleep",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "nesshin",
@@ -5934,7 +6270,9 @@
           "term": "逃げる",
           "reading": "nigeru",
           "meaning": "to escape, to run away",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "nikaidate",
@@ -5969,7 +6307,9 @@
           "term": "似る",
           "reading": "niru",
           "meaning": "to resemble, to look like",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "nodo",
@@ -5983,14 +6323,18 @@
           "term": "残る",
           "reading": "nokoru",
           "meaning": "to remain, to be left",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "norikaeru",
           "term": "乗り換える",
           "reading": "norikaeru",
           "meaning": "to transfer (trains), to change (bus, train)",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "norimono",
@@ -6004,21 +6348,27 @@
           "term": "濡れる",
           "reading": "nureru",
           "meaning": "to get wet",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "nuru",
           "term": "塗る",
           "reading": "nuru",
           "meaning": "to paint, to plaster",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "nusumu",
           "term": "盗む",
           "reading": "nusumu",
           "meaning": "to steal",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "nyuugaku",
@@ -6039,7 +6389,9 @@
           "term": "落ちる",
           "reading": "ochiru",
           "meaning": "to fall down, to drop",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "odori",
@@ -6053,14 +6405,18 @@
           "term": "驚く",
           "reading": "odoroku",
           "meaning": "to be surprised, to be astonished",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "odoru",
           "term": "踊る",
           "reading": "odoru",
           "meaning": "to dance",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "oiwai",
@@ -6088,21 +6444,27 @@
           "term": "行う",
           "reading": "okonau",
           "meaning": "to perform, to do",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "okoru",
           "term": "怒る",
           "reading": "okoru",
           "meaning": "to get angry, to get mad",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "okosu",
           "term": "起こす",
           "reading": "okosu",
           "meaning": "to raise, to wake, to cause",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "oku",
@@ -6130,14 +6492,18 @@
           "term": "遅れる",
           "reading": "okureru",
           "meaning": "to be late, to be delayed",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "okuru",
           "term": "送る",
           "reading": "okuru",
           "meaning": "to send, to dispatch",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "omatsuri",
@@ -6172,7 +6538,9 @@
           "term": "思い出す",
           "reading": "omoidasu",
           "meaning": "to recall, to remember",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "omote",
@@ -6186,7 +6554,9 @@
           "term": "思う",
           "reading": "omou",
           "meaning": "to think, to consider",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "orei",
@@ -6200,14 +6570,18 @@
           "term": "折れる",
           "reading": "oreru",
           "meaning": "to break, to be broken",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "oru",
           "term": "折る",
           "reading": "oru",
           "meaning": "to break, to fracture",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "oshiire",
@@ -6221,7 +6595,9 @@
           "term": "仰る",
           "reading": "ossharu",
           "meaning": "to say, to speak",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "otaku",
@@ -6242,7 +6618,9 @@
           "term": "落とす",
           "reading": "otosu",
           "meaning": "to drop, to let fall",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "otto",
@@ -6333,21 +6711,27 @@
           "term": "下がる",
           "reading": "sagaru",
           "meaning": "to come down, to get lower",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "sagasu",
           "term": "探す",
           "reading": "sagasu",
           "meaning": "to search, to look for",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "sageru",
           "term": "下げる",
           "reading": "sageru",
           "meaning": "to hang, to lower",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "saigo",
@@ -6424,21 +6808,27 @@
           "term": "差し上げる",
           "reading": "sashiageru",
           "meaning": "to give, to offer",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "sawagu",
           "term": "騒ぐ",
           "reading": "sawagu",
           "meaning": "to make noise, to rustle",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "sawaru",
           "term": "触る",
           "reading": "sawaru",
           "meaning": "to touch, to feel",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "seiji",
@@ -6564,7 +6954,9 @@
           "term": "叱る",
           "reading": "shikaru",
           "meaning": "to scold",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "shikata",
@@ -6634,14 +7026,18 @@
           "term": "調べる",
           "reading": "shiraberu",
           "meaning": "to examine, to investigate",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "shiraseru",
           "term": "知らせる",
           "reading": "shiraseru",
           "meaning": "to notify, to advise, to inform",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "shitagi",
@@ -6760,7 +7156,9 @@
           "term": "育てる",
           "reading": "sodateru",
           "meaning": "to raise, to rear, to bring up",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "sofu",
@@ -6830,7 +7228,9 @@
           "term": "滑る",
           "reading": "suberu",
           "meaning": "to glide, to slide",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "suidou",
@@ -6844,7 +7244,9 @@
           "term": "過ぎる",
           "reading": "sugiru",
           "meaning": "to pass through, to pass by",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "sugoi",
@@ -6872,7 +7274,9 @@
           "term": "空く",
           "reading": "suku",
           "meaning": "to become empty",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "sumi",
@@ -6886,7 +7290,9 @@
           "term": "済む",
           "reading": "sumu",
           "meaning": "to finish, to end",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "suna",
@@ -6900,14 +7306,18 @@
           "term": "進む",
           "reading": "susumu",
           "meaning": "to advance, to go forward",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "suteru",
           "term": "捨てる",
           "reading": "suteru",
           "meaning": "to throw away, to cast away",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "suugaku",
@@ -6963,21 +7373,27 @@
           "term": "楽む",
           "reading": "tanoshimu",
           "meaning": "to enjoy (oneself)",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "taoreru",
           "term": "倒れる",
           "reading": "taoreru",
           "meaning": "to fall, to collapse",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "tariru",
           "term": "足りる",
           "reading": "tariru",
           "meaning": "to be sufficient, to be enough",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "tashika",
@@ -6991,7 +7407,9 @@
           "term": "足す",
           "reading": "tasu",
           "meaning": "to add, to top up",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "tasuu",
@@ -7012,28 +7430,36 @@
           "term": "立てる",
           "reading": "tateru",
           "meaning": "to stand up",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "tateru-2",
           "term": "建てる",
           "reading": "tateru",
           "meaning": "to build, to construct",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "tazuneru",
           "term": "訪ねる",
           "reading": "tazuneru",
           "meaning": "to visit, to call on",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "tazuneru-2",
           "term": "尋ねる",
           "reading": "tazuneru",
           "meaning": "to ask, to enquire",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "tebukuro",
@@ -7103,14 +7529,18 @@
           "term": "手伝う",
           "reading": "tetsudau",
           "meaning": "to help, to assist, to aid",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "todokeru",
           "term": "届ける",
           "reading": "todokeru",
           "meaning": "to deliver, to send",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "tokoya",
@@ -7145,7 +7575,9 @@
           "term": "泊まる",
           "reading": "tomaru",
           "meaning": "to stay at (e.g. hotel)",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "tooku",
@@ -7159,14 +7591,18 @@
           "term": "通る",
           "reading": "tooru",
           "meaning": "to go by, to go past",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "torikaeru",
           "term": "取り替える",
           "reading": "torikaeru",
           "meaning": "to exchange, to replace",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "toutou",
@@ -7187,7 +7623,9 @@
           "term": "捕まえる",
           "reading": "tsukamaeru",
           "meaning": "to catch, to arrest",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "tsuki",
@@ -7201,7 +7639,9 @@
           "term": "付く",
           "reading": "tsuku",
           "meaning": "to be attached, to adhere",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "tsuma",
@@ -7215,42 +7655,54 @@
           "term": "連れる",
           "reading": "tsureru",
           "meaning": "to lead, to take (a person)",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "tsuru",
           "term": "釣る",
           "reading": "tsuru",
           "meaning": "to fish, to lure in",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "tsutaeru",
           "term": "伝える",
           "reading": "tsutaeru",
           "meaning": "to convey, to report",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "tsutsumu",
           "term": "包む",
           "reading": "tsutsumu",
           "meaning": "to wrap up, to tuck in",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "tsuzukeru",
           "term": "続ける",
           "reading": "tsuzukeru",
           "meaning": "to continue, to keep up",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "tsuzuku",
           "term": "続く",
           "reading": "tsuzuku",
           "meaning": "to continue, to last, to go on",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "ude",
@@ -7264,21 +7716,27 @@
           "term": "植える",
           "reading": "ueru",
           "meaning": "to plant, to grow, to raise",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "ugoku",
           "term": "動く",
           "reading": "ugoku",
           "meaning": "to move, to stir, to shift",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "ukeru",
           "term": "受ける",
           "reading": "ukeru",
           "meaning": "to receive, to get",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "uketsuke",
@@ -7348,7 +7806,9 @@
           "term": "打つ",
           "reading": "utsu",
           "meaning": "to hit, to strike, to knock",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "utsukushii",
@@ -7362,28 +7822,36 @@
           "term": "移る",
           "reading": "utsuru",
           "meaning": "to move (house), to transfer (department)",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "utsusu",
           "term": "写す",
           "reading": "utsusu",
           "meaning": "to transcribe, to duplicate",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "wakareru",
           "term": "別れる",
           "reading": "wakareru",
           "meaning": "to part, to separate",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "wakasu",
           "term": "沸かす",
           "reading": "wakasu",
           "meaning": "to boil, to heat",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "wake",
@@ -7397,21 +7865,27 @@
           "term": "沸く",
           "reading": "waku",
           "meaning": "to grow hot, to boil",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "warau",
           "term": "笑う",
           "reading": "warau",
           "meaning": "to laugh",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "wareru",
           "term": "割れる",
           "reading": "wareru",
           "meaning": "to break, to be smashed",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "wariai",
@@ -7439,21 +7913,27 @@
           "term": "焼ける",
           "reading": "yakeru",
           "meaning": "to be roasted",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "yaku",
           "term": "焼く",
           "reading": "yaku",
           "meaning": "to burn, to roast, to bake",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "yaku-ni-tatsu",
           "term": "役に立つ",
           "reading": "yaku ni tatsu",
           "meaning": "to be helpful, to be useful",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "yakusoku",
@@ -7467,14 +7947,18 @@
           "term": "止める",
           "reading": "yameru",
           "meaning": "to stop",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "yamu",
           "term": "止む",
           "reading": "yamu",
           "meaning": "to cease, to stop",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "yasashii",
@@ -7488,7 +7972,9 @@
           "term": "痩せる",
           "reading": "yaseru",
           "meaning": "to become thin, to slim",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "yatto",
@@ -7516,21 +8002,27 @@
           "term": "汚れる",
           "reading": "yogoreru",
           "meaning": "to get dirty",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "yorokobu",
           "term": "喜ぶ",
           "reading": "yorokobu",
           "meaning": "to be delighted",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "yoru",
           "term": "寄る",
           "reading": "yoru",
           "meaning": "to approach, to drop by",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "yoshuu",
@@ -7607,7 +8099,9 @@
           "term": "揺れる",
           "reading": "yureru",
           "meaning": "to shake, to sway",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "yushutsu",
@@ -7685,7 +8179,9 @@
           "term": "愛する",
           "reading": "aisuru",
           "meaning": "to love",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "suru"
         },
         {
           "id": "aite",
@@ -7713,7 +8209,9 @@
           "term": "明ける",
           "reading": "akeru",
           "meaning": "to dawn, to end (of a period, season)",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "aki",
@@ -7741,14 +8239,18 @@
           "term": "諦める",
           "reading": "akirameru",
           "meaning": "to give up, to abandon",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "akiru",
           "term": "飽きる",
           "reading": "akiru",
           "meaning": "to get tired of",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "akuma",
@@ -7769,14 +8271,18 @@
           "term": "余る",
           "reading": "amaru",
           "meaning": "to remain, to be left over",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "amu",
           "term": "編む",
           "reading": "amu",
           "meaning": "to knit, to braid",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "an",
@@ -7839,14 +8345,18 @@
           "term": "現れる",
           "reading": "arawareru",
           "meaning": "to appear, to come in sight",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "arawasu",
           "term": "表す",
           "reading": "arawasu",
           "meaning": "to represent, to show, to display",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "arayuru",
@@ -7867,7 +8377,9 @@
           "term": "与える",
           "reading": "ataeru",
           "meaning": "to give, to bestow",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "atai",
@@ -7888,14 +8400,18 @@
           "term": "当たる",
           "reading": "ataru",
           "meaning": "to be hit, to strike",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "atatameru",
           "term": "温める",
           "reading": "atatameru",
           "meaning": "to warm, to heat",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "ato",
@@ -7909,7 +8425,9 @@
           "term": "扱う",
           "reading": "atsukau",
           "meaning": "to deal with, to treat",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "atsumari",
@@ -7923,7 +8441,9 @@
           "term": "慌てる",
           "reading": "awateru",
           "meaning": "to panic, to rush",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "ayamari",
@@ -7951,14 +8471,18 @@
           "term": "合わせる",
           "reading": "awaseru",
           "meaning": "to match, to join together",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "azukeru",
           "term": "預ける",
           "reading": "azukeru",
           "meaning": "to give into custody",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "ba",
@@ -8007,7 +8531,9 @@
           "term": "罰する",
           "reading": "bassuru",
           "meaning": "to punish, to penalize",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "suru"
         },
         {
           "id": "bengoshi",
@@ -8203,7 +8729,9 @@
           "term": "打つかる",
           "reading": "butsukaru",
           "meaning": "to strike against, to collide with",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "butsuri",
@@ -8567,7 +9095,9 @@
           "term": "黙る",
           "reading": "damaru",
           "meaning": "to be silent",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "dan",
@@ -8623,7 +9153,9 @@
           "term": "出会う",
           "reading": "deau",
           "meaning": "to meet (by chance)",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "dekigoto",
@@ -8833,7 +9365,9 @@
           "term": "描く",
           "reading": "egaku",
           "meaning": "to draw, to paint",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "egao",
@@ -8938,7 +9472,9 @@
           "term": "得る",
           "reading": "eru",
           "meaning": "to get, to gain, to acquire",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "esa",
@@ -9036,7 +9572,9 @@
           "term": "含む",
           "reading": "fukumu",
           "meaning": "to contain, to comprise",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "fukuro",
@@ -9078,7 +9616,9 @@
           "term": "触れる",
           "reading": "fureru",
           "meaning": "to touch, to feel",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "furi",
@@ -9092,21 +9632,27 @@
           "term": "振る",
           "reading": "furu",
           "meaning": "to wave, to shake",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "furueru",
           "term": "震える",
           "reading": "furueru",
           "meaning": "to shiver, to shake",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "fusegu",
           "term": "防ぐ",
           "reading": "fusegu",
           "meaning": "to defend, to protect",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "fusei",
@@ -9582,7 +10128,9 @@
           "term": "省く",
           "reading": "habuku",
           "meaning": "to omit, to leave out",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "hada",
@@ -9610,7 +10158,9 @@
           "term": "生える",
           "reading": "haeru",
           "meaning": "to grow, to spring up",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "hageshii",
@@ -9638,7 +10188,9 @@
           "term": "掃く",
           "reading": "haku",
           "meaning": "to sweep, to brush",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "hamigaki",
@@ -9687,7 +10239,9 @@
           "term": "計る",
           "reading": "hakaru",
           "meaning": "to measure, to weigh",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "hakase",
@@ -9715,14 +10269,18 @@
           "term": "履く",
           "reading": "haku",
           "meaning": "to wear, to put on",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "haku-3",
           "term": "吐く",
           "reading": "haku",
           "meaning": "to vomit, to throw up",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "hakubutsukan",
@@ -9750,35 +10308,45 @@
           "term": "離れる",
           "reading": "hanareru",
           "meaning": "to be separated",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "hanashiau",
           "term": "話し合う",
           "reading": "hanashiau",
           "meaning": "to discuss",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "hanashikakeru",
           "term": "話しかける",
           "reading": "hanashikakeru",
           "meaning": "to start a conversation",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "hanasu",
           "term": "離す",
           "reading": "hanasu",
           "meaning": "to separate, to part",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "hanasu-2",
           "term": "放す",
           "reading": "hanasu",
           "meaning": "to release, to let go",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "hanataba",
@@ -9974,7 +10542,9 @@
           "term": "外す",
           "reading": "hazusu",
           "meaning": "to undo, to remove",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "hei",
@@ -10037,14 +10607,18 @@
           "term": "減らす",
           "reading": "herasu",
           "meaning": "to abate, to decrease",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "heru",
           "term": "減る",
           "reading": "heru",
           "meaning": "to decrease, to diminish",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "hi",
@@ -10058,7 +10632,9 @@
           "term": "冷える",
           "reading": "hieru",
           "meaning": "to grow cold, to get chilly",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "higai",
@@ -10107,7 +10683,9 @@
           "term": "引き受ける",
           "reading": "hikiukeru",
           "meaning": "to undertake, to accept",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "hikou",
@@ -10121,7 +10699,9 @@
           "term": "轢く",
           "reading": "hiku",
           "meaning": "to run over (with a vehicle)",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "himitsu",
@@ -10142,14 +10722,18 @@
           "term": "引っ張る",
           "reading": "hipparu",
           "meaning": "to pull, to draw",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "hirogaru",
           "term": "広がる",
           "reading": "hirogaru",
           "meaning": "to spread out, to extend",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "hirune",
@@ -10254,14 +10838,18 @@
           "term": "吠える",
           "reading": "hoeru",
           "meaning": "to bark, to howl",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "hohoemu",
           "term": "微笑む",
           "reading": "hohoemu",
           "meaning": "to smile",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "hokori",
@@ -10338,7 +10926,9 @@
           "term": "掘る",
           "reading": "horu",
           "meaning": "to dig, to excavate",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "hoshou",
@@ -10352,7 +10942,9 @@
           "term": "干す",
           "reading": "hosu",
           "meaning": "to dry, to drink up",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "item-ほっと",
@@ -10555,7 +11147,9 @@
           "term": "抱く",
           "reading": "idaku",
           "meaning": "to embrace",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "idou",
@@ -10849,14 +11443,18 @@
           "term": "痛む",
           "reading": "itamu",
           "meaning": "to hurt",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "itaru",
           "term": "至る",
           "reading": "itaru",
           "meaning": "to arrive at, to reach",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "itazura",
@@ -10905,14 +11503,18 @@
           "term": "祝う",
           "reading": "iwau",
           "meaning": "to congratulate, to celebrate",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "iyagaru",
           "term": "嫌がる",
           "reading": "iyagaru",
           "meaning": "to hate, to dislike",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "izen",
@@ -11402,7 +12004,9 @@
           "term": "被る",
           "reading": "kaburu",
           "meaning": "to put on (one’s head)",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kachi",
@@ -11423,7 +12027,9 @@
           "term": "替える",
           "reading": "kaeru",
           "meaning": "to replace, to exchange",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "kai",
@@ -11563,7 +12169,9 @@
           "term": "輝く",
           "reading": "kagayaku",
           "meaning": "to shine, to glitter",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kage",
@@ -11591,7 +12199,9 @@
           "term": "限る",
           "reading": "kagiru",
           "meaning": "to restrict, to limit",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kago",
@@ -11619,7 +12229,9 @@
           "term": "抱える",
           "reading": "kakaeru",
           "meaning": "to hold in the arms",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "kakaku",
@@ -11633,28 +12245,36 @@
           "term": "かかる",
           "reading": "",
           "meaning": "to suffer from",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kakawaru",
           "term": "関わる",
           "reading": "kakawaru",
           "meaning": "to be concerned with, to have to do with",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kakeru",
           "term": "欠ける",
           "reading": "kakeru",
           "meaning": "to be lacking",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "kakinaosu",
           "term": "書き直す",
           "reading": "kakinaosu",
           "meaning": "to write out, to rewrite",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kakki",
@@ -11675,7 +12295,9 @@
           "term": "囲む",
           "reading": "kakomu",
           "meaning": "to surround, to encircle",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kakuchi",
@@ -11717,14 +12339,18 @@
           "term": "隠れる",
           "reading": "kakureru",
           "meaning": "to hide, to be hidden",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "kakusu",
           "term": "隠す",
           "reading": "kakusu",
           "meaning": "to hide, to conceal",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "gaman",
@@ -11738,7 +12364,9 @@
           "term": "構う",
           "reading": "kamau",
           "meaning": "to mind, to care about",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kami",
@@ -11822,7 +12450,9 @@
           "term": "悲しむ",
           "reading": "kanashimu",
           "meaning": "to be sad, to mourn for",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kandou",
@@ -11871,7 +12501,9 @@
           "term": "感じる",
           "reading": "kanjiru",
           "meaning": "to feel, to sense",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "kanjou",
@@ -11997,14 +12629,18 @@
           "term": "枯れる",
           "reading": "kareru",
           "meaning": "to wither (of a plant)",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "karu",
           "term": "刈る",
           "reading": "karu",
           "meaning": "to cut (hair), to mow (grass)",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kasai",
@@ -12018,14 +12654,18 @@
           "term": "重ねる",
           "reading": "kasaneru",
           "meaning": "to pile up, to heap up",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "kasegu",
           "term": "稼ぐ",
           "reading": "kasegu",
           "meaning": "to earn income",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kansei",
@@ -12088,7 +12728,9 @@
           "term": "関する",
           "reading": "kansuru",
           "meaning": "to concern, to be related",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "suru"
         },
         {
           "id": "kantoku",
@@ -12137,7 +12779,9 @@
           "term": "固まる",
           "reading": "katamaru",
           "meaning": "to harden, to solidify",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "katana",
@@ -12151,14 +12795,18 @@
           "term": "語り合う",
           "reading": "katariau",
           "meaning": "to talk together",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kataru",
           "term": "語る",
           "reading": "kataru",
           "meaning": "to talk about",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "katei",
@@ -12193,7 +12841,9 @@
           "term": "飼う",
           "reading": "kau",
           "meaning": "to keep (a pet)",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kawa",
@@ -12249,7 +12899,9 @@
           "term": "数える",
           "reading": "kazoeru",
           "meaning": "to count",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "kazu",
@@ -12536,7 +13188,9 @@
           "term": "気に入る",
           "reading": "ki ni iru",
           "meaning": "to be pleased with",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "ki-no-doku",
@@ -12662,7 +13316,9 @@
           "term": "効く",
           "reading": "kiku",
           "meaning": "to be effective",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kimari",
@@ -12725,14 +13381,18 @@
           "term": "気になる",
           "reading": "ki ni naru",
           "meaning": "to bother one, to worry about",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "ki-ni-suru",
           "term": "気にする",
           "reading": "ki ni suru",
           "meaning": "to mind, to care about",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "suru"
         },
         {
           "id": "kinko",
@@ -12837,7 +13497,9 @@
           "term": "切れる",
           "reading": "kireru",
           "meaning": "to break, to snap",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "kiroku",
@@ -12893,7 +13555,9 @@
           "term": "嫌う",
           "reading": "kirau",
           "meaning": "to hate, to dislike",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kizu",
@@ -12914,21 +13578,27 @@
           "term": "気付く",
           "reading": "kizuku",
           "meaning": "to notice, to realize",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "item-こぼす",
           "term": "こぼす",
           "reading": "",
           "meaning": "to spill, to drop, to shed",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "koeru",
           "term": "越える",
           "reading": "koeru",
           "meaning": "to cross over",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "koi",
@@ -13089,7 +13759,9 @@
           "term": "好む",
           "reading": "konomu",
           "meaning": "to like, to prefer",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "konran",
@@ -13124,21 +13796,27 @@
           "term": "凍る",
           "reading": "kooru",
           "meaning": "to freeze",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "korobu",
           "term": "転ぶ",
           "reading": "korobu",
           "meaning": "to fall down",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "korosu",
           "term": "殺す",
           "reading": "korosu",
           "meaning": "to kill",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "koshi",
@@ -13159,14 +13837,18 @@
           "term": "異なる",
           "reading": "kotonaru",
           "meaning": "to differ, to vary",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kotowaru",
           "term": "断る",
           "reading": "kotowaru",
           "meaning": "to refuse, to reject",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kotowaza",
@@ -13383,7 +14065,9 @@
           "term": "配る",
           "reading": "kubaru",
           "meaning": "to distribute, to hand out",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kubetsu",
@@ -13418,7 +14102,9 @@
           "term": "組み立てる",
           "reading": "kumitateru",
           "meaning": "to assemble, to set up",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "kumori",
@@ -13432,14 +14118,18 @@
           "term": "曇る",
           "reading": "kumoru",
           "meaning": "to get cloudy",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kumu",
           "term": "組む",
           "reading": "kumu",
           "meaning": "to link, to put together",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kunren",
@@ -13467,7 +14157,9 @@
           "term": "暮らす",
           "reading": "kurasu",
           "meaning": "to live",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kure",
@@ -13481,7 +14173,9 @@
           "term": "繰り返す",
           "reading": "kurikaesu",
           "meaning": "to repeat",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kurou",
@@ -13502,14 +14196,18 @@
           "term": "苦しむ",
           "reading": "kurushimu",
           "meaning": "to suffer",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kuruu",
           "term": "狂う",
           "reading": "kuruu",
           "meaning": "to go mad",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kusai",
@@ -13530,7 +14228,9 @@
           "term": "腐る",
           "reading": "kusaru",
           "meaning": "to rot, to go bad",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kuse",
@@ -13558,7 +14258,9 @@
           "term": "加える",
           "reading": "kuwaeru",
           "meaning": "to add, to sum up",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "kuwashii",
@@ -13572,7 +14274,9 @@
           "term": "加わる",
           "reading": "kuwawaru",
           "meaning": "to be added to",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "ku",
@@ -13586,7 +14290,9 @@
           "term": "食う",
           "reading": "kuu",
           "meaning": "to eat",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "kuyashii",
@@ -13803,7 +14509,9 @@
           "term": "間違う",
           "reading": "machigau",
           "meaning": "to make a mistake",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "madoguchi",
@@ -13831,7 +14539,9 @@
           "term": "任せる",
           "reading": "makaseru",
           "meaning": "to entrust, to leave to",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "make",
@@ -13859,14 +14569,18 @@
           "term": "守る",
           "reading": "mamoru",
           "meaning": "to protect, to guard",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "manabu",
           "term": "学ぶ",
           "reading": "manabu",
           "meaning": "to study, to learn",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "mane",
@@ -13880,7 +14594,9 @@
           "term": "招く",
           "reading": "maneku",
           "meaning": "to invite, to ask",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "manichi",
@@ -13929,7 +14645,9 @@
           "term": "増す",
           "reading": "masu",
           "meaning": "to increase, to grow",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "mawari",
@@ -13943,14 +14661,18 @@
           "term": "回す",
           "reading": "mawasu",
           "meaning": "to turn, to rotate",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "mayou",
           "term": "迷う",
           "reading": "mayou",
           "meaning": "to lose one’s way",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "mazu",
@@ -13964,7 +14686,9 @@
           "term": "混ぜる",
           "reading": "mazeru",
           "meaning": "to mix, to stir",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "mazushii",
@@ -13978,7 +14702,9 @@
           "term": "命じる",
           "reading": "meijiru",
           "meaning": "to order, to command",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "meikaku",
@@ -14076,14 +14802,18 @@
           "term": "身につける",
           "reading": "mi ni tsukeru",
           "meaning": "to learn; to acquire knowledge",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "michiru",
           "term": "満ちる",
           "reading": "michiru",
           "meaning": "to be full",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "midjika",
@@ -14132,7 +14862,9 @@
           "term": "見送る",
           "reading": "miokuru",
           "meaning": "to see someone off",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "mirai",
@@ -14153,14 +14885,18 @@
           "term": "認める",
           "reading": "mitomeru",
           "meaning": "to accept, to admit",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "mitsumeru",
           "term": "見つめる",
           "reading": "mitsumeru",
           "meaning": "to stare at, to gaze at",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "miyage",
@@ -14181,7 +14917,9 @@
           "term": "持上げる",
           "reading": "mochiageru",
           "meaning": "to elevate, to raise",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "mochihakobi",
@@ -14195,7 +14933,9 @@
           "term": "用いる",
           "reading": "mochiiru",
           "meaning": "to use, to make use of",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "mochimono",
@@ -14209,14 +14949,18 @@
           "term": "戻す",
           "reading": "modosu",
           "meaning": "to put back, to give back",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "moeru",
           "term": "燃える",
           "reading": "moeru",
           "meaning": "to burn, to get fired up",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "moji",
@@ -14293,7 +15037,9 @@
           "term": "求める",
           "reading": "motomeru",
           "meaning": "to want, to wish for",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "mottomo",
@@ -14328,7 +15074,9 @@
           "term": "申し込む",
           "reading": "moushikomu",
           "meaning": "to apply for",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "moushiwake",
@@ -14377,21 +15125,27 @@
           "term": "向ける",
           "reading": "mukeru",
           "meaning": "to turn toward, to point",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "muku",
           "term": "向く",
           "reading": "muku",
           "meaning": "to face, to turn toward",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "muku-2",
           "term": "剥く",
           "reading": "muku",
           "meaning": "to peel, to skin",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "mune",
@@ -14426,7 +15180,9 @@
           "term": "結ぶ",
           "reading": "musubu",
           "meaning": "to tie, to bind",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "myou",
@@ -14454,7 +15210,9 @@
           "term": "撫でる",
           "reading": "naderu",
           "meaning": "to stroke, to caress",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "nagaiki",
@@ -14475,7 +15233,9 @@
           "term": "眺める",
           "reading": "nagameru",
           "meaning": "to view, to gaze at",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "nagare",
@@ -14489,21 +15249,27 @@
           "term": "流れる",
           "reading": "nagareru",
           "meaning": "to stream, to flow",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "nagasu",
           "term": "流す",
           "reading": "nagasu",
           "meaning": "to drain, to shed",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "nagusameru",
           "term": "慰める",
           "reading": "nagusameru",
           "meaning": "to comfort, to console",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "naisho",
@@ -14566,7 +15332,9 @@
           "term": "怠ける",
           "reading": "namakeru",
           "meaning": "to be idle",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "nami",
@@ -14622,7 +15390,9 @@
           "term": "悩む",
           "reading": "nayamu",
           "meaning": "to be worried",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "nazo",
@@ -14664,7 +15434,9 @@
           "term": "願う",
           "reading": "negau",
           "meaning": "to desire, to wish",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "nendai",
@@ -14713,7 +15485,9 @@
           "term": "似合う",
           "reading": "niau",
           "meaning": "to suit, to match",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "nichijou",
@@ -14755,7 +15529,9 @@
           "term": "握る",
           "reading": "nigiru",
           "meaning": "to grip, to grasp",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "nihon",
@@ -14818,21 +15594,27 @@
           "term": "伸ばす",
           "reading": "nobasu",
           "meaning": "to grow long",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "noberu",
           "term": "述べる",
           "reading": "noberu",
           "meaning": "to state, to express",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "nobiru",
           "term": "伸びる",
           "reading": "nobiru",
           "meaning": "to stretch, to extend",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "noki",
@@ -14853,7 +15635,9 @@
           "term": "残す",
           "reading": "nokosu",
           "meaning": "to leave (behind)",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "nonbiri",
@@ -14867,7 +15651,9 @@
           "term": "乗せる",
           "reading": "noseru",
           "meaning": "to place on",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "nou",
@@ -14909,7 +15695,9 @@
           "term": "除く",
           "reading": "nozoku",
           "meaning": "to exclude, to except",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "nozomi",
@@ -14923,21 +15711,27 @@
           "term": "望む",
           "reading": "nozomu",
           "meaning": "to desire, to wish for",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "nukeru",
           "term": "抜ける",
           "reading": "nukeru",
           "meaning": "to come out, to fall out",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "nuku",
           "term": "抜く",
           "reading": "nuku",
           "meaning": "to extract, to omit",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "nuno",
@@ -14986,7 +15780,9 @@
           "term": "溺れる",
           "reading": "oboreru",
           "meaning": "to drown",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "obi",
@@ -15000,7 +15796,9 @@
           "term": "落ち着く",
           "reading": "ochitsuku",
           "meaning": "to calm down, to compose oneself",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "odayaka",
@@ -15014,7 +15812,9 @@
           "term": "終える",
           "reading": "oeru",
           "meaning": "to finish",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "oi",
@@ -15049,7 +15849,9 @@
           "term": "起こる",
           "reading": "okoru",
           "meaning": "to occur, to happen",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "oku",
@@ -15063,7 +15865,9 @@
           "term": "贈る",
           "reading": "okuru",
           "meaning": "to give (as a gift)",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "omo-ni",
@@ -15133,7 +15937,9 @@
           "term": "追い付く",
           "reading": "oitsuku",
           "meaning": "to catch up with",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "ooame",
@@ -15161,7 +15967,9 @@
           "term": "覆う",
           "reading": "oou",
           "meaning": "to cover, to conceal",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "ooya",
@@ -15182,21 +15990,27 @@
           "term": "下す",
           "reading": "orosu",
           "meaning": "to lower, to drop",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "orosu-2",
           "term": "降ろす",
           "reading": "orosu",
           "meaning": "to take down, to unload",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "osameru",
           "term": "収める",
           "reading": "osameru",
           "meaning": "to dedicate, to supply",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "osanai",
@@ -15210,7 +16024,9 @@
           "term": "抑える",
           "reading": "osaeru",
           "meaning": "to restrain, to control",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "osen",
@@ -15245,7 +16061,9 @@
           "term": "劣る",
           "reading": "otoru",
           "meaning": "to be inferior to",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "osoraku",
@@ -15259,7 +16077,9 @@
           "term": "恐れる",
           "reading": "osoreru",
           "meaning": "to fear, to be afraid of",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "osoroshii",
@@ -15287,7 +16107,9 @@
           "term": "追う",
           "reading": "ou",
           "meaning": "to chase, to run after",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "oubo",
@@ -15336,7 +16158,9 @@
           "term": "応じる",
           "reading": "oujiru",
           "meaning": "to respond, to comply",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "ouyou",
@@ -15357,7 +16181,9 @@
           "term": "及ぼす",
           "reading": "oyobosu",
           "meaning": "to exert, to cause",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "oyogi",
@@ -15525,7 +16351,9 @@
           "term": "論じる",
           "reading": "ronjiru",
           "meaning": "to argue, to debate",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "ronsou",
@@ -15693,7 +16521,9 @@
           "term": "逆らう",
           "reading": "sakarau",
           "meaning": "to go against, to oppose",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "sakari",
@@ -15707,14 +16537,18 @@
           "term": "叫ぶ",
           "reading": "sakebu",
           "meaning": "to shout, to cry",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "sakeru",
           "term": "避ける",
           "reading": "sakeru",
           "meaning": "to avoid, to ward off",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "sakka",
@@ -15756,14 +16590,18 @@
           "term": "覚ます",
           "reading": "samasu",
           "meaning": "to awaken",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "sameru",
           "term": "覚める",
           "reading": "sameru",
           "meaning": "to wake up",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "samazama",
@@ -15819,7 +16657,9 @@
           "term": "去る",
           "reading": "saru",
           "meaning": "to leave, to go away",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "saru-2",
@@ -15833,21 +16673,27 @@
           "term": "支える",
           "reading": "sasaeru",
           "meaning": "to support, to prop",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "sasou",
           "term": "誘う",
           "reading": "sasou",
           "meaning": "to invite, to call for",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "sasu",
           "term": "指す",
           "reading": "sasu",
           "meaning": "to point, to indicate",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "item-さっそく",
@@ -16162,7 +17008,9 @@
           "term": "責める",
           "reading": "semeru",
           "meaning": "to blame, to condemn",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "senden",
@@ -16246,7 +17094,9 @@
           "term": "喋る",
           "reading": "shaberu",
           "meaning": "to talk, to chat",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "shadou",
@@ -16302,7 +17152,9 @@
           "term": "縛る",
           "reading": "shibaru",
           "meaning": "to tie, to bind, to fasten",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "shibashiba",
@@ -16372,7 +17224,9 @@
           "term": "支払う",
           "reading": "shiharau",
           "meaning": "to pay",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "shihatsu",
@@ -16442,7 +17296,9 @@
           "term": "仕舞う",
           "reading": "shimau",
           "meaning": "to finish, to stop",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "shimekiri",
@@ -16456,21 +17312,27 @@
           "term": "占める",
           "reading": "shimeru",
           "meaning": "to occupy, to hold",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "shimeru-2",
           "term": "締める",
           "reading": "shimeru",
           "meaning": "to tie, to fasten, to tighten",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "shimesu",
           "term": "示す",
           "reading": "shimesu",
           "meaning": "to show, to indicate",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "shimo",
@@ -16519,7 +17381,9 @@
           "term": "信じる",
           "reading": "shinjiru",
           "meaning": "to believe, to trust",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "shinkansen",
@@ -16680,7 +17544,9 @@
           "term": "知り合う",
           "reading": "shiriau",
           "meaning": "to get to know (someone)",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "shiro",
@@ -16743,7 +17609,9 @@
           "term": "従う",
           "reading": "shitagau",
           "meaning": "to abide (by the rules)",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "shitashii",
@@ -16834,7 +17702,9 @@
           "term": "沈む",
           "reading": "shizumu",
           "meaning": "to sink, to go under",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "shokki",
@@ -17037,7 +17907,9 @@
           "term": "生じる",
           "reading": "shoujiru",
           "meaning": "to produce, to yield",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "shoujo",
@@ -17324,7 +18196,9 @@
           "term": "育つ",
           "reading": "sodatsu",
           "meaning": "to be raised",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "sode",
@@ -17380,7 +18254,9 @@
           "term": "備える",
           "reading": "sonaeru",
           "meaning": "to furnish, to provide for",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "sonchou",
@@ -17422,7 +18298,9 @@
           "term": "注ぐ",
           "reading": "sosogu",
           "meaning": "to pour into, to fill",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "soshiki",
@@ -17541,14 +18419,18 @@
           "term": "過ごす",
           "reading": "sugosu",
           "meaning": "to pass (time)",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "sugureru",
           "term": "優れる",
           "reading": "sugureru",
           "meaning": "to surpass, to excel",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "suijun",
@@ -17576,14 +18458,18 @@
           "term": "救う",
           "reading": "sukuu",
           "meaning": "to rescue from",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "sumaseru",
           "term": "済ませる",
           "reading": "sumaseru",
           "meaning": "to finish",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "surudoi",
@@ -17597,14 +18483,18 @@
           "term": "進める",
           "reading": "susumeru",
           "meaning": "to advance, to promote",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "susumeru-2",
           "term": "勧める",
           "reading": "susumeru",
           "meaning": "to recommend",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "suteki",
@@ -17660,7 +18550,9 @@
           "term": "立上る",
           "reading": "tachiagaru",
           "meaning": "to stand up",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "tada",
@@ -17821,7 +18713,9 @@
           "term": "対する",
           "reading": "tai suru",
           "meaning": "to face (each other)",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "suru"
         },
         {
           "id": "taitei",
@@ -17863,7 +18757,9 @@
           "term": "貯まる",
           "reading": "tamaru",
           "meaning": "to be saved up (of money)",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "tamatama",
@@ -17877,7 +18773,9 @@
           "term": "貯める",
           "reading": "tameru",
           "meaning": "to save up (money)",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "tameshi",
@@ -17891,7 +18789,9 @@
           "term": "試す",
           "reading": "tamesu",
           "meaning": "to try out, to test",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "tane",
@@ -17968,7 +18868,9 @@
           "term": "楽しむ",
           "reading": "tanoshimu",
           "meaning": "to enjoy (oneself)",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "tantou",
@@ -17982,14 +18884,18 @@
           "term": "倒す",
           "reading": "taosu",
           "meaning": "to bring down",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "tashikameru",
           "term": "確かめる",
           "reading": "tashikameru",
           "meaning": "to ascertain, to check",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "tashou",
@@ -18003,14 +18909,18 @@
           "term": "達する",
           "reading": "tassuru",
           "meaning": "to reach, to get to",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "suru"
         },
         {
           "id": "tasukeru",
           "term": "助ける",
           "reading": "tasukeru",
           "meaning": "to save, to rescue",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "tatakai",
@@ -18024,14 +18934,18 @@
           "term": "戦う",
           "reading": "tatakau",
           "meaning": "to fight, to struggle",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "tataku",
           "term": "叩く",
           "reading": "tataku",
           "meaning": "to strike, to beat",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "tate",
@@ -18045,14 +18959,18 @@
           "term": "立て直す",
           "reading": "tatenaosu",
           "meaning": "to restore, to revive",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "tatsu",
           "term": "経つ",
           "reading": "tatsu",
           "meaning": "to pass, to lapse",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "tayori",
@@ -18066,7 +18984,9 @@
           "term": "頼る",
           "reading": "tayoru",
           "meaning": "to rely on",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "teian",
@@ -18150,7 +19070,9 @@
           "term": "適する",
           "reading": "teki suru",
           "meaning": "to fit, to suit",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "suru"
         },
         {
           "id": "tekido",
@@ -18255,7 +19177,9 @@
           "term": "飛ばす",
           "reading": "tobasu",
           "meaning": "to fly, to skip over",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "tochi",
@@ -18269,7 +19193,9 @@
           "term": "届く",
           "reading": "todoku",
           "meaning": "to reach, to be delivered",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "toho",
@@ -18290,7 +19216,9 @@
           "term": "閉じる",
           "reading": "tojiru",
           "meaning": "to close (book, eyes)",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "tokai",
@@ -18304,7 +19232,9 @@
           "term": "解ける",
           "reading": "tokeru",
           "meaning": "to be solved, to loosen",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "toki",
@@ -18318,7 +19248,9 @@
           "term": "解く",
           "reading": "toku",
           "meaning": "to untie, to solve",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "tokuchou",
@@ -18339,7 +19271,9 @@
           "term": "留める",
           "reading": "tomaru",
           "meaning": "to stop, to turn off",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "tomo",
@@ -18374,14 +19308,18 @@
           "term": "通り過ぎる",
           "reading": "toorisugiru",
           "meaning": "to pass through",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "toosu",
           "term": "通す",
           "reading": "toosu",
           "meaning": "to force through, to let pass",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "tora",
@@ -18395,14 +19333,18 @@
           "term": "取れる",
           "reading": "toreru",
           "meaning": "to come off, to be removed",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "toriageru",
           "term": "取上げる",
           "reading": "toriageru",
           "meaning": "to take up, to pick up",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "toshi",
@@ -18528,14 +19470,18 @@
           "term": "捕まる",
           "reading": "tsukamaru",
           "meaning": "to be caught",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "tsukamu",
           "term": "掴む",
           "reading": "tsukamu",
           "meaning": "to seize, to catch",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "tsukare",
@@ -18556,21 +19502,27 @@
           "term": "付き合う",
           "reading": "tsukiau",
           "meaning": "to associate with, to go out with",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "tsuku",
           "term": "就く",
           "reading": "tsuku",
           "meaning": "to take (seat, position)",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "tsumeru",
           "term": "詰める",
           "reading": "tsumeru",
           "meaning": "to stuff into, to jam",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "tsumi",
@@ -18584,14 +19536,18 @@
           "term": "積もる",
           "reading": "tsumoru",
           "meaning": "to pile up, to accumulate",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "tsunagu",
           "term": "繋ぐ",
           "reading": "tsunagu",
           "meaning": "to connect, to link together",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "tsune-ni",
@@ -18633,7 +19589,9 @@
           "term": "伝わる",
           "reading": "tsutawaru",
           "meaning": "to be transmitted",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "tsutome",
@@ -18668,7 +19626,9 @@
           "term": "通じる",
           "reading": "tsuujiru",
           "meaning": "to lead to, to be understood",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "tsuuka",
@@ -18724,7 +19684,9 @@
           "term": "奪う",
           "reading": "ubau",
           "meaning": "to snatch away",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "uchuu",
@@ -18738,21 +19700,27 @@
           "term": "動かす",
           "reading": "ugokasu",
           "meaning": "to move, to shift",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "ukagau",
           "term": "伺う",
           "reading": "ukagau",
           "meaning": "to ask, to inquire",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "uketoru",
           "term": "受け取る",
           "reading": "uketoru",
           "meaning": "to receive, to get",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "item-うっかり",
@@ -18766,7 +19734,9 @@
           "term": "浮く",
           "reading": "uku",
           "meaning": "to float",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "uma",
@@ -18794,14 +19764,18 @@
           "term": "埋める",
           "reading": "umeru",
           "meaning": "to bury, to fill up",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "item-生む",
           "term": "生む",
           "reading": "",
           "meaning": "to give birth, to produce",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "un",
@@ -18815,7 +19789,9 @@
           "term": "唸る",
           "reading": "unaru",
           "meaning": "to groan, to moan",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "undoukai",
@@ -18843,21 +19819,27 @@
           "term": "裏切る",
           "reading": "uragiru",
           "meaning": "to betray",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "ureru",
           "term": "売れる",
           "reading": "ureru",
           "meaning": "to sell well",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "urikireru",
           "term": "売り切れる",
           "reading": "urikireru",
           "meaning": "to be sold out",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "usagi",
@@ -18878,35 +19860,45 @@
           "term": "失う",
           "reading": "ushinau",
           "meaning": "to lose",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "utagau",
           "term": "疑う",
           "reading": "utagau",
           "meaning": "to doubt, to distrust",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "utsu",
           "term": "撃つ",
           "reading": "utsu",
           "meaning": "to shoot, to attack",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "utsusu",
           "term": "移す",
           "reading": "utsusu",
           "meaning": "to transfer, to move",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "uttaeru",
           "term": "訴える",
           "reading": "uttaeru",
           "meaning": "to appeal, to sue",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "uwasa",
@@ -18962,7 +19954,9 @@
           "term": "分ける",
           "reading": "wakeru",
           "meaning": "to divide",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "waki",
@@ -19011,7 +20005,9 @@
           "term": "割る",
           "reading": "waru",
           "meaning": "to divide, to cut",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "warukuchi",
@@ -19032,7 +20028,9 @@
           "term": "破る",
           "reading": "yaburu",
           "meaning": "to tear, to break",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "yachin",
@@ -19088,7 +20086,9 @@
           "term": "役立つ",
           "reading": "yakudatsu",
           "meaning": "to be useful, to be helpful",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "yakuwari",
@@ -19116,7 +20116,9 @@
           "term": "辞める",
           "reading": "yameru",
           "meaning": "to retire, to resign",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
         },
         {
           "id": "yane",
@@ -19130,14 +20132,18 @@
           "term": "やり直す",
           "reading": "yarinaosu",
           "meaning": "to do over again, to redo",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "yatou",
           "term": "雇う",
           "reading": "yatou",
           "meaning": "to employ, to hire",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "yoake",
@@ -19186,7 +20192,9 @@
           "term": "横切る",
           "reading": "yokogiru",
           "meaning": "to cross, to traverse",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "yoko",
@@ -19277,14 +20285,18 @@
           "term": "止す",
           "reading": "yosu",
           "meaning": "to cease, to desist",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "you",
           "term": "酔う",
           "reading": "you",
           "meaning": "to get drunk",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "youi",
@@ -19410,7 +20422,9 @@
           "term": "許す",
           "reading": "yurusu",
           "meaning": "to permit, to allow",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "yutaka",
@@ -19522,7 +20536,9 @@
           "term": "譲る",
           "reading": "yuzuru",
           "meaning": "to hand over, to surrender",
-          "tags": []
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         },
         {
           "id": "yaya",
