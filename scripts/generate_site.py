@@ -32,6 +32,8 @@ VERB_FORM_SPECS = (
     ("te", "Te-form", "Te-form"),
     ("potential", "Potential", "Potential form"),
 )
+EXAMPLE_SENTENCE_COUNT = 5
+DEFAULT_COMBO_WORDS = ("朝", "学校", "友だち", "駅", "家")
 GODAN_A_ROW = {
     "う": "わ",
     "く": "か",
@@ -343,6 +345,330 @@ def term_surface(term: str) -> str:
     return term.split("/")[0].strip()
 
 
+def combo_words_for_items(items: list[dict], current_index: int) -> list[str]:
+    words = []
+    for offset in range(1, len(items) + 1):
+        for candidate_index in (current_index + offset, current_index - offset):
+            if 0 <= candidate_index < len(items):
+                candidate = items[candidate_index]
+                word = term_surface(str(candidate.get("term", "")))
+                if candidate.get("partOfSpeech") == "verb" or word.endswith("い"):
+                    continue
+                if word and word not in words:
+                    words.append(word)
+            if len(words) >= EXAMPLE_SENTENCE_COUNT:
+                return words
+    return words
+
+
+def padded_combo_words(combo_words: list[str] | None) -> list[str]:
+    words = []
+    for word in list(combo_words or []) + list(DEFAULT_COMBO_WORDS):
+        if word and word not in words:
+            words.append(word)
+        if len(words) == EXAMPLE_SENTENCE_COUNT:
+            return words
+    return words
+
+
+def english_gloss(item: dict, term: str) -> str:
+    meaning = str(item.get("baseMeaning") or item.get("meaning") or term)
+    gloss = meaning.split(";")[0].split(",")[0].split(":")[0].split("/")[0].strip()
+    if len(gloss) > 1 and gloss[0].isupper() and gloss[1].islower():
+        return f"{gloss[0].lower()}{gloss[1:]}"
+    return gloss
+
+
+def english_verb_action(item: dict, term: str) -> str:
+    gloss = english_gloss(item, term)
+    return gloss[3:] if gloss.lower().startswith("to ") else gloss
+
+
+def selected_example_templates(term: str, category: str, templates: list[tuple[str, str]]) -> list[tuple[str, str]]:
+    if len(templates) < EXAMPLE_SENTENCE_COUNT:
+        raise ValueError(f"Need at least {EXAMPLE_SENTENCE_COUNT} templates for {category}.")
+
+    ranked = sorted(
+        templates,
+        key=lambda template: sha1(f"{category}:{term}:{template[0]}".encode("utf-8")).hexdigest(),
+    )
+    return ranked[:EXAMPLE_SENTENCE_COUNT]
+
+
+def render_example_templates(
+    term: str,
+    category: str,
+    templates: list[tuple[str, str]],
+    context: dict[str, str],
+) -> list[dict]:
+    context = {"term": term, **context}
+    return [
+        {"ja": ja.format(**context), "en": en.format(**context)}
+        for ja, en in selected_example_templates(term, category, templates)
+    ]
+
+
+VERB_EXAMPLE_TEMPLATES = {
+    "dictionary": [
+        ("明日は早く起きて{term}つもりです。", "Tomorrow I plan to get up early and {action}."),
+        ("一人で{term}ことがあります。", "Sometimes I {action} by myself."),
+        ("家に帰ってから{term}予定です。", "I plan to {action} after I get home."),
+        ("疲れていても、今日は少しだけ{term}ようにします。", "Even if I am tired, I will try to {action} a little today."),
+        ("予定について話したあとで{term}ことにしました。", "After talking about plans, I decided to {action}."),
+        ("朝のうちに{term}ようにしています。", "I try to {action} during the morning."),
+        ("先生に言われる前に{term}ようにしています。", "I try to {action} before the teacher tells me."),
+        ("週末だけはゆっくり{term}時間があります。", "Only on weekends do I have time to {action}."),
+        ("出かける前に{term}必要があります。", "I need to {action} before going out."),
+        ("友だちを待つ間に{term}ことにしました。", "I decided to {action} while waiting for my friend."),
+        ("忘れないように、先に{term}つもりです。", "So I do not forget, I plan to {action} first."),
+        ("できれば今日中に{term}つもりです。", "If possible, I plan to {action} sometime today."),
+        ("急がずに{term}ほうがいいです。", "It is better to {action} without rushing."),
+    ],
+    "polite": [
+        ("毎朝、いつもより早く{term}。", "Every morning, I {action} earlier than usual."),
+        ("家に帰ってから、すぐ{term}。", "After I get home, I {action} right away."),
+        ("予定の話をしたあとで{term}。", "After talking about plans, I {action}."),
+        ("今日は少しだけ{term}。", "Today, I {action} just a little."),
+        ("寝る前に、ゆっくり{term}。", "Before bed, I {action} slowly."),
+        ("先生の前では、できるだけ丁寧に{term}。", "In front of the teacher, I {action} as politely as I can."),
+        ("駅に着いたら、まず{term}。", "When I arrive at the station, I {action} first."),
+        ("用事が終わったら{term}。", "After my errand is finished, I {action}."),
+        ("友だちが来る前に{term}。", "Before my friend comes, I {action}."),
+        ("今日は早めに準備して{term}。", "Today I get ready early and {action}."),
+        ("みんなの前では静かに{term}。", "In front of everyone, I {action} quietly."),
+        ("時間があれば、もう一度{term}。", "If there is time, I {action} one more time."),
+    ],
+    "past": [
+        ("昨日は疲れていたけれど、ちゃんと{term}。", "Yesterday I was tired, but I still {action} properly."),
+        ("友だちと話したあとで{term}。", "After talking with a friend, I {action}."),
+        ("予定を確認してから{term}。", "After checking my plans, I {action}."),
+        ("急いでいたので、早めに{term}。", "Because I was in a hurry, I {action} early."),
+        ("夜、家に帰ってから{term}。", "At night, I got home and then {action}."),
+        ("先生に聞く前に、自分で{term}。", "Before asking the teacher, I {action} by myself."),
+        ("休憩のあとで少しだけ{term}。", "After a break, I {action} just a little."),
+        ("電車を待っている間に{term}。", "While waiting for the train, I {action}."),
+        ("思ったより早く{term}。", "I {action} earlier than I expected."),
+        ("友だちに頼まれて{term}。", "A friend asked me, so I {action}."),
+        ("朝ごはんの前に{term}。", "Before breakfast, I {action}."),
+        ("次の予定を考えながら{term}。", "While thinking about the next plan, I {action}."),
+    ],
+    "negative": [
+        ("今日は時間がないので{term}。", "I do not {action} today because I have no time."),
+        ("疲れている時は、無理に{term}。", "When I am tired, I do not force myself to {action}."),
+        ("準備が終わるまで{term}。", "I do not {action} until preparation is finished."),
+        ("雨の日は、あまり{term}。", "On rainy days, I do not {action} much."),
+        ("予定が変わった日は、すぐには{term}。", "When my plans change, I do not {action} right away."),
+        ("先生が来るまでは{term}。", "I do not {action} until the teacher comes."),
+        ("予定を確認するまでは{term}。", "I do not {action} until I check my plans."),
+        ("今日は気分が乗らないので{term}。", "I do not {action} today because I am not in the mood."),
+        ("急いでいる時ほど{term}ようにしています。", "The more rushed I am, the more I try not to {action}."),
+        ("友だちがいる前では{term}。", "I do not {action} in front of my friend."),
+        ("夜遅くには{term}ことにしています。", "I make it a rule not to {action} late at night."),
+        ("必要なものが見つかるまで{term}。", "I do not {action} until the thing I need is found."),
+    ],
+    "te": [
+        ("少し休んでから、もう一度{term}ください。", "Please rest a little, then {action} again."),
+        ("予定を確認してから{term}ください。", "Please check the plan, then {action}."),
+        ("友だちにも聞いて、いっしょに{term}みましょう。", "Ask a friend too, and let's try to {action} together."),
+        ("先に準備をしてから{term}ください。", "Please get ready first, then {action}."),
+        ("急がないで、ゆっくり{term}ください。", "Please do not hurry; {action} slowly."),
+        ("少し待って、そこで{term}ください。", "Please wait a little, and {action} there."),
+        ("分からなかったら、もう一度{term}みてください。", "If you do not understand, please try to {action} again."),
+        ("先生に見せる前に{term}ください。", "Please {action} before showing it to the teacher."),
+        ("音を聞いてから{term}みましょう。", "Listen to the sound, then let's try to {action}."),
+        ("今日は短く{term}ください。", "Please {action} briefly today."),
+        ("順番を忘れないで{term}ください。", "Please do not forget the order; {action}."),
+        ("最後まであきらめないで{term}ください。", "Please do not give up; {action} until the end."),
+    ],
+    "potential": [
+        ("時間があれば、一人でも{term}。", "If there is time, I can {action} even by myself."),
+        ("練習すれば、もっと上手に{term}ようになります。", "If I practice, I will be able to {action} better."),
+        ("少し休んだあとなら、たぶん{term}。", "After resting a little, I can probably {action}."),
+        ("友だちと一緒なら、安心して{term}。", "If I am with a friend, I can {action} without worry."),
+        ("予定が終われば、すぐ{term}。", "Once my plans are finished, I can {action} right away."),
+        ("この場所なら静かに{term}。", "In this place, I can {action} quietly."),
+        ("準備ができれば、もっと楽に{term}。", "If I am prepared, I can {action} more easily."),
+        ("先生に教えてもらえば{term}ようになります。", "If the teacher shows me, I will be able to {action}."),
+        ("今日は元気だから、まだ{term}。", "Because I feel energetic today, I can still {action}."),
+        ("道が分かれば、一人でも{term}。", "If I know the way, I can {action} alone."),
+        ("休憩のあとなら落ち着いて{term}。", "After a break, I can {action} calmly."),
+        ("もう少し時間があれば最後まで{term}。", "With a little more time, I can {action} to the end."),
+    ],
+}
+
+
+ADJECTIVE_EXAMPLE_TEMPLATES = {
+    "danger": [
+        ("この道は少し{term}です。", "This road is a little {gloss}."),
+        ("その場所は夜になると{term}です。", "That place becomes {gloss} at night."),
+        ("一人で行くのは{term}です。", "Going alone is {gloss}."),
+        ("この計画は思ったより{term}です。", "This plan is more {gloss} than I expected."),
+        ("川の近くで遊ぶのは{term}です。", "Playing near the river is {gloss}."),
+        ("雨の日の駅前は少し{term}です。", "The area in front of the station is a little {gloss} on rainy days."),
+        ("急いで渡ると{term}です。", "Crossing in a hurry is {gloss}."),
+        ("先生はその道が{term}だと言いました。", "The teacher said that road is {gloss}."),
+        ("子どもだけで使うには{term}です。", "It is {gloss} for children to use alone."),
+        ("暗くなる前に帰らないと{term}です。", "It is {gloss} if we do not go home before it gets dark."),
+    ],
+    "bright": [
+        ("朝の部屋はとても{term}です。", "The room in the morning is very {gloss}."),
+        ("今日の空は思ったより{term}です。", "Today's sky is brighter than I expected."),
+        ("友だちは{term}服を選びました。", "My friend chose {gloss} clothes."),
+        ("駅の前の道は夜でも{term}です。", "The road in front of the station is {gloss} even at night."),
+        ("妹の表情はいつも{term}です。", "My younger sister's expression is always {gloss}."),
+        ("新しい教室は前より{term}です。", "The new classroom is more {gloss} than before."),
+        ("この写真は色が{term}です。", "The colors in this photo are {gloss}."),
+        ("窓を開けると部屋が{term}なりました。", "When I opened the window, the room became {gloss}."),
+        ("店の看板がとても{term}です。", "The shop sign is very {gloss}."),
+        ("朝の声が{term}感じでした。", "The morning voice had a {gloss} feeling."),
+    ],
+    "cold": [
+        ("朝の水はとても{term}です。", "The morning water is very {gloss}."),
+        ("この部屋は思ったより{term}です。", "This room is more {gloss} than I expected."),
+        ("今日は風が{term}です。", "The wind is {gloss} today."),
+        ("外に出ると、手が{term}です。", "When I go outside, my hands are {gloss}."),
+        ("冷蔵庫の中の飲み物はまだ{term}です。", "The drink in the fridge is still {gloss}."),
+        ("駅で待っている間、足が{term}なりました。", "While waiting at the station, my feet became {gloss}."),
+        ("雨のあとで空気が{term}です。", "After the rain, the air is {gloss}."),
+        ("このお茶はもう{term}です。", "This tea is already {gloss}."),
+        ("夜の廊下は少し{term}です。", "The hallway at night is a little {gloss}."),
+        ("山の上は夏でも{term}です。", "On top of the mountain, it is {gloss} even in summer."),
+    ],
+    "hot": [
+        ("このスープはとても{term}です。", "This soup is very {gloss}."),
+        ("今日は外が思ったより{term}です。", "Outside is more {gloss} than I expected today."),
+        ("部屋の中はまだ{term}です。", "The room is still {gloss}."),
+        ("駅まで歩くと体が{term}です。", "When I walk to the station, my body feels {gloss}."),
+        ("このお茶は少し{term}です。", "This tea is a little {gloss}."),
+        ("昼の電車はとても{term}です。", "The train at noon is very {gloss}."),
+        ("窓を閉めるとすぐ{term}なります。", "When I close the window, it quickly becomes {gloss}."),
+        ("今日は風がなくて{term}です。", "There is no wind today, so it is {gloss}."),
+        ("鍋のふたを開けたら{term}空気が出ました。", "{gloss} air came out when I opened the pot lid."),
+        ("走ったあとで顔が{term}です。", "After running, my face feels {gloss}."),
+    ],
+    "general": [
+        ("この場所は少し{term}です。", "This place is a little {gloss}."),
+        ("今日の天気は思ったより{term}です。", "Today's weather is more {gloss} than I expected."),
+        ("友だちは{term}物を選びました。", "My friend chose something {gloss}."),
+        ("この話はとても{term}です。", "This story is very {gloss}."),
+        ("朝の町はまだ{term}です。", "The town in the morning is still {gloss}."),
+        ("この店の雰囲気は{term}です。", "The atmosphere of this shop is {gloss}."),
+        ("先生の説明は少し{term}感じがしました。", "The teacher's explanation felt a little {gloss}."),
+        ("旅行の前日は気持ちが{term}です。", "The day before a trip, my feelings are {gloss}."),
+        ("友だちの部屋はいつも{term}です。", "My friend's room is always {gloss}."),
+        ("この映画は最後まで{term}です。", "This movie is {gloss} until the end."),
+    ],
+}
+
+
+NOUN_EXAMPLE_TEMPLATES = [
+    ("ニュースで{term}を見ました。", "I saw {gloss} in the news."),
+    ("先生が{term}について説明しました。", "The teacher explained {gloss}."),
+    ("学校で{term}と{combo1}をノートに書きました。", "At school, I wrote {gloss} and {combo1} in my notebook."),
+    ("友だちは{term}より{combo2}を先に覚えました。", "My friend remembered {combo2} before {gloss}."),
+    ("{combo3}の話を聞いて、{term}を思い出しました。", "After hearing about {combo3}, I remembered {gloss}."),
+    ("朝の電車で{term}についての記事を読みました。", "On the morning train, I read an article about {gloss}."),
+    ("駅の近くで{term}を探しました。", "I looked for {gloss} near the station."),
+    ("友だちに{term}の意味を聞かれました。", "A friend asked me the meaning of {gloss}."),
+    ("{combo1}と{term}を比べると、違いが分かります。", "When I compare {combo1} and {gloss}, I can see the difference."),
+    ("机の上に{term}のメモを置きました。", "I put a note about {gloss} on the desk."),
+    ("昨日の会話で{term}が何度も出ました。", "{gloss} came up many times in yesterday's conversation."),
+    ("{combo2}を調べていたら、{term}も見つかりました。", "While looking up {combo2}, I also found {gloss}."),
+    ("家族に{term}のニュースを話しました。", "I told my family the news about {gloss}."),
+    ("この文章では{term}が大事な言葉です。", "In this passage, {gloss} is an important word."),
+    ("{term}を聞いて、すぐ{combo3}を連想しました。", "When I heard {gloss}, I immediately associated it with {combo3}."),
+]
+
+
+def fallback_example_sentences(
+    item: dict,
+    term: str,
+    combo_words: list[str] | None = None,
+    verb_form: str | None = None,
+) -> list[dict]:
+    term = term_surface(term)
+    combo1, combo2, combo3, combo4, combo5 = padded_combo_words(combo_words)
+    part_of_speech = item.get("partOfSpeech")
+    gloss = english_gloss(item, term)
+    action = english_verb_action(item, term)
+
+    if part_of_speech == "verb" or verb_form:
+        form_key = verb_form or "dictionary"
+        return render_example_templates(
+            term,
+            f"verb-{form_key}",
+            VERB_EXAMPLE_TEMPLATES[form_key],
+            {
+                "action": action,
+                "combo1": combo1,
+                "combo2": combo2,
+                "combo3": combo3,
+                "combo4": combo4,
+                "combo5": combo5,
+            },
+        )
+
+    if term.endswith("い"):
+        lower_gloss = gloss.lower()
+        if "dangerous" in lower_gloss or "risky" in lower_gloss:
+            adjective_key = "danger"
+        elif "bright" in lower_gloss or "colorful" in lower_gloss:
+            adjective_key = "bright"
+        elif "cold" in lower_gloss or "cool" in lower_gloss:
+            adjective_key = "cold"
+        elif "hot" in lower_gloss or "warm" in lower_gloss:
+            adjective_key = "hot"
+        else:
+            adjective_key = "general"
+        return render_example_templates(
+            term,
+            f"adjective-{adjective_key}",
+            ADJECTIVE_EXAMPLE_TEMPLATES[adjective_key],
+            {"gloss": gloss},
+        )
+
+    return render_example_templates(
+        term,
+        "noun",
+        NOUN_EXAMPLE_TEMPLATES,
+        {
+            "gloss": gloss,
+            "combo1": combo1,
+            "combo2": combo2,
+            "combo3": combo3,
+            "combo4": combo4,
+            "combo5": combo5,
+        },
+    )
+
+
+def normalize_example_sentences(
+    item: dict,
+    term: str,
+    combo_words: list[str] | None = None,
+    verb_form: str | None = None,
+) -> list[dict]:
+    examples = item.get("exampleSentences")
+    if examples is None:
+        return fallback_example_sentences(item, term, combo_words, verb_form)
+
+    if len(examples) != EXAMPLE_SENTENCE_COUNT:
+        raise ValueError(
+            f"Expected {EXAMPLE_SENTENCE_COUNT} exampleSentences for {term}, got {len(examples)}"
+        )
+
+    normalized = []
+    for index, example in enumerate(examples, start=1):
+        if not isinstance(example, dict):
+            raise ValueError(f"Example sentence {index} for {term} must be an object.")
+        ja = str(example.get("ja", "")).strip()
+        en = str(example.get("en", "")).strip()
+        if not ja or not en:
+            raise ValueError(f"Example sentence {index} for {term} needs ja and en.")
+        normalized.append({"ja": ja, "en": en})
+    return normalized
+
+
 def verb_stem(value: str) -> str:
     return value[:-1]
 
@@ -444,7 +770,7 @@ def conjugate_verb(value: str, verb_class: str, form_id: str) -> str:
     raise ValueError(f"Unsupported verb class: {verb_class}")
 
 
-def verb_form_items(item: dict, base_item: dict) -> list[dict]:
+def verb_form_items(item: dict, base_item: dict, combo_words: list[str] | None = None) -> list[dict]:
     if item.get("partOfSpeech") != "verb":
         return []
 
@@ -470,6 +796,7 @@ def verb_form_items(item: dict, base_item: dict) -> list[dict]:
                 "reading": "",
                 "readingHiragana": form_reading,
                 "meaning": f"{form_description} of {base_term}: {base_item['meaning']}",
+                "exampleSentences": normalize_example_sentences(item, form_term, combo_words, form_id),
                 "cardKind": "verb-form",
                 "baseTerm": base_term,
                 "baseReading": base_reading,
@@ -489,8 +816,10 @@ def article_flashcard_items(articles: list[dict]) -> list[dict]:
         if level not in FLASHCARD_LEVELS:
             continue
 
-        for index, item in enumerate(article.get("vocabulary", []), start=1):
+        vocabulary = article.get("vocabulary", [])
+        for index, item in enumerate(vocabulary, start=1):
             term, reading = split_vocab_term(item["term"])
+            combo_words = combo_words_for_items(vocabulary, index - 1)
             item_id = f"article-{stable_vocab_id(article['id'], str(index), term, item['meaning'])}"
             base_item = {
                 "id": item_id,
@@ -505,13 +834,14 @@ def article_flashcard_items(articles: list[dict]) -> list[dict]:
                 "sourceLabel": article["navLabel"],
                 "sourceHref": article_href(article),
                 "tags": ["article-vocab", article["id"]],
+                "exampleSentences": normalize_example_sentences(item, term, combo_words),
             }
             if item.get("partOfSpeech"):
                 base_item["partOfSpeech"] = item["partOfSpeech"]
             if item.get("verbClass"):
                 base_item["verbClass"] = item["verbClass"]
             items.append(base_item)
-            items.extend(verb_form_items(item, base_item))
+            items.extend(verb_form_items(item, base_item, combo_words))
     return items
 
 
@@ -524,11 +854,13 @@ def load_core_vocabulary() -> list[dict]:
     for deck in data.get("decks", []):
         deck_id = deck["id"]
         deck_level = deck.get("level", "").upper()
-        for item in deck.get("items", []):
+        deck_items = deck.get("items", [])
+        for index, item in enumerate(deck_items):
             level = item.get("level", deck_level).upper()
             if level not in FLASHCARD_LEVELS:
                 continue
 
+            combo_words = combo_words_for_items(deck_items, index)
             item_id = f"core-{stable_vocab_id(deck_id, item['id'], item['term'], item['meaning'])}"
             base_item = {
                 "id": item_id,
@@ -543,13 +875,14 @@ def load_core_vocabulary() -> list[dict]:
                 "sourceLabel": deck.get("title", deck_id),
                 "sourceHref": deck.get("sourceUrl", ""),
                 "tags": item.get("tags", []),
+                "exampleSentences": normalize_example_sentences(item, item["term"], combo_words),
             }
             if item.get("partOfSpeech"):
                 base_item["partOfSpeech"] = item["partOfSpeech"]
             if item.get("verbClass"):
                 base_item["verbClass"] = item["verbClass"]
             items.append(base_item)
-            items.extend(verb_form_items(item, base_item))
+            items.extend(verb_form_items(item, base_item, combo_words))
     return items
 
 

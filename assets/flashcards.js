@@ -34,6 +34,10 @@ const elements = {
     cardTerm: document.getElementById('card-term'),
     cardReading: document.getElementById('card-reading'),
     cardBaseVerb: document.getElementById('card-base-verb'),
+    cardExample: document.getElementById('card-example'),
+    cardExampleJa: document.getElementById('card-example-ja'),
+    cardExampleEn: document.getElementById('card-example-en'),
+    cardExampleCount: document.getElementById('card-example-count'),
     cardMeaning: document.getElementById('card-meaning'),
     answerLabel: document.getElementById('answer-label'),
     flashcard: document.getElementById('flashcard'),
@@ -43,7 +47,8 @@ const elements = {
     skip: document.getElementById('skip-card'),
     sourceLink: document.getElementById('source-link'),
     emptyState: document.getElementById('empty-state'),
-    pronounce: document.getElementById('pronounce-card'),
+    pronounceWord: document.getElementById('pronounce-word'),
+    pronounceExample: document.getElementById('pronounce-example'),
     pronunciationStatus: document.getElementById('pronunciation-status'),
     audio: document.getElementById('flashcard-audio'),
     exportProgress: document.getElementById('export-progress'),
@@ -157,6 +162,7 @@ function defaultCardForItem(item) {
         due_at: null,
         interval_days: 0,
         ease_factor: 2.5,
+        next_example_index: 0,
         state: 'new',
         suspended: false
     };
@@ -164,6 +170,43 @@ function defaultCardForItem(item) {
 
 function cardForItem(item) {
     return progressByCardId.get(cardIdForItem(item)) || defaultCardForItem(item);
+}
+
+function exampleSentencesForItem(item) {
+    return Array.isArray(item.exampleSentences)
+        ? item.exampleSentences.filter((example) => example?.ja && example?.en)
+        : [];
+}
+
+function exampleIndexForCard(card, exampleCount) {
+    if (!exampleCount) {
+        return 0;
+    }
+    const index = Number(card.next_example_index || 0);
+    return Number.isInteger(index) && index >= 0 ? index % exampleCount : 0;
+}
+
+function renderExampleSentence(item, card) {
+    const examples = exampleSentencesForItem(item);
+    if (!examples.length) {
+        elements.cardExample.hidden = true;
+        elements.cardExampleJa.textContent = '';
+        elements.cardExampleEn.textContent = '';
+        elements.cardExampleCount.textContent = '';
+        return card;
+    }
+
+    const index = exampleIndexForCard(card, examples.length);
+    const example = examples[index];
+    elements.cardExample.hidden = false;
+    elements.cardExampleJa.textContent = example.ja;
+    elements.cardExampleEn.textContent = example.en;
+    elements.cardExampleCount.textContent = `${index + 1}/${examples.length}`;
+
+    return {
+        ...card,
+        next_example_index: (index + 1) % examples.length
+    };
 }
 
 function isDue(card, now = Date.now()) {
@@ -270,7 +313,8 @@ function setEmptyState(isEmpty) {
     elements.flashcard.hidden = isEmpty;
     elements.reveal.disabled = isEmpty;
     elements.skip.disabled = isEmpty;
-    elements.pronounce.disabled = isEmpty;
+    elements.pronounceWord.disabled = isEmpty;
+    elements.pronounceExample.disabled = isEmpty;
     elements.remember.disabled = true;
     elements.forgotButton.disabled = true;
 }
@@ -278,6 +322,7 @@ function setEmptyState(isEmpty) {
 async function showItem(item) {
     currentItem = item;
     currentCard = { ...cardForItem(item) };
+    currentCard = renderExampleSentence(item, currentCard);
     currentCard.shown_count = (currentCard.shown_count || 0) + 1;
     currentCard.last_shown_at = new Date().toISOString();
     progressByCardId.set(currentCard.card_id, currentCard);
@@ -308,7 +353,8 @@ async function showItem(item) {
     }
 
     hideAnswer();
-    elements.pronounce.disabled = false;
+    elements.pronounceWord.disabled = false;
+    elements.pronounceExample.disabled = elements.cardExample.hidden;
     elements.pronunciationStatus.textContent = '';
     updateStats();
 }
@@ -385,29 +431,34 @@ async function fetchPronunciationAudio(text) {
     return response.blob();
 }
 
-async function playCurrentPronunciation() {
-    if (!currentItem || !elements.audio) {
+function setPronunciationButtonsDisabled(disabled) {
+    elements.pronounceWord.disabled = disabled || !currentItem;
+    elements.pronounceExample.disabled = disabled || !currentItem || elements.cardExample.hidden;
+}
+
+async function playPronunciation(text, label, key) {
+    if (!currentItem || !elements.audio || !text) {
         return;
     }
 
     if (usesIosAudioGate()) {
-        const preparedMatches = preparedPronunciation?.itemId === currentItem.id
+        const preparedMatches = preparedPronunciation?.key === key
             && preparedPronunciation?.speaker === selectedDockerSpeaker();
         if (!preparedMatches) {
-            elements.pronounce.disabled = true;
-            elements.pronunciationStatus.textContent = 'Preparing Docker pronunciation for Safari...';
+            setPronunciationButtonsDisabled(true);
+            elements.pronunciationStatus.textContent = `Preparing ${label} pronunciation for Safari...`;
             try {
                 preparedPronunciation = {
-                    itemId: currentItem.id,
+                    key,
                     speaker: selectedDockerSpeaker(),
-                    blob: await fetchPronunciationAudio(currentItem.term)
+                    blob: await fetchPronunciationAudio(text)
                 };
-                elements.pronunciationStatus.textContent = 'Pronunciation is ready. Tap Pronounce again.';
+                elements.pronunciationStatus.textContent = `${label} pronunciation is ready. Tap the speaker again.`;
             } catch (error) {
                 clearPreparedPronunciation();
                 elements.pronunciationStatus.textContent = error.message;
             } finally {
-                elements.pronounce.disabled = false;
+                setPronunciationButtonsDisabled(false);
             }
             return;
         }
@@ -419,32 +470,44 @@ async function playCurrentPronunciation() {
         }
     }
 
-    elements.pronounce.disabled = true;
+    setPronunciationButtonsDisabled(true);
     elements.pronunciationStatus.textContent = usesIosAudioGate()
-        ? 'Playing Docker pronunciation...'
-        : 'Generating Docker pronunciation...';
+        ? `Playing ${label} pronunciation...`
+        : `Generating ${label} pronunciation...`;
     try {
-        const audioBlob = preparedPronunciation?.itemId === currentItem.id
+        const audioBlob = preparedPronunciation?.key === key
             ? preparedPronunciation.blob
-            : await fetchPronunciationAudio(currentItem.term);
+            : await fetchPronunciationAudio(text);
         clearPreparedPronunciation();
         revokeActivePronunciationUrl();
         activePronunciationUrl = URL.createObjectURL(audioBlob);
         elements.audio.src = activePronunciationUrl;
         elements.audio.onended = () => {
-            elements.pronounce.disabled = false;
+            setPronunciationButtonsDisabled(false);
             elements.pronunciationStatus.textContent = '';
         };
         elements.audio.onerror = () => {
-            elements.pronounce.disabled = false;
+            setPronunciationButtonsDisabled(false);
             elements.pronunciationStatus.textContent = 'Docker pronunciation playback failed.';
         };
-        elements.pronunciationStatus.textContent = `Playing ${currentItem.term}.`;
+        elements.pronunciationStatus.textContent = `Playing ${label}.`;
         await elements.audio.play();
     } catch (error) {
-        elements.pronounce.disabled = false;
+        setPronunciationButtonsDisabled(false);
         elements.pronunciationStatus.textContent = error.message;
     }
+}
+
+async function playCurrentWordPronunciation() {
+    await playPronunciation(currentItem?.term, 'word', `${currentItem?.id}:word`);
+}
+
+async function playCurrentExamplePronunciation() {
+    await playPronunciation(
+        elements.cardExampleJa.textContent,
+        'example',
+        `${currentItem?.id}:example:${elements.cardExampleJa.textContent}`
+    );
 }
 
 async function showNextCard() {
@@ -464,6 +527,12 @@ async function showNextCard() {
         elements.cardForm.textContent = '';
         elements.cardBaseVerb.hidden = true;
         elements.cardBaseVerb.textContent = '';
+        elements.cardExample.hidden = true;
+        elements.cardExampleJa.textContent = '';
+        elements.cardExampleEn.textContent = '';
+        elements.cardExampleCount.textContent = '';
+        elements.pronounceWord.disabled = true;
+        elements.pronounceExample.disabled = true;
         return;
     }
 
@@ -561,7 +630,7 @@ async function exportProgress() {
         getAllRecords('reviews')
     ]);
     const payload = {
-        schemaVersion: 1,
+        schemaVersion: 2,
         exportedAt: new Date().toISOString(),
         cards,
         reviews
@@ -615,8 +684,19 @@ function bindEvents() {
     elements.levelFilter.addEventListener('change', showNextCard);
     elements.dueOnly.addEventListener('change', showNextCard);
     elements.flashcard.addEventListener('click', revealAnswer);
-    elements.pronounce.addEventListener('click', () => {
-        playCurrentPronunciation().catch(showError);
+    elements.flashcard.addEventListener('keydown', (event) => {
+        if ((event.key === 'Enter' || event.key === ' ') && !answerRevealed) {
+            event.preventDefault();
+            revealAnswer();
+        }
+    });
+    elements.pronounceWord.addEventListener('click', (event) => {
+        event.stopPropagation();
+        playCurrentWordPronunciation().catch(showError);
+    });
+    elements.pronounceExample.addEventListener('click', (event) => {
+        event.stopPropagation();
+        playCurrentExamplePronunciation().catch(showError);
     });
     elements.reveal.addEventListener('click', revealAnswer);
     elements.remember.addEventListener('click', () => answerCurrentCard('remembered'));
@@ -636,6 +716,9 @@ function bindEvents() {
 
     document.addEventListener('keydown', (event) => {
         if (!currentItem) {
+            return;
+        }
+        if (event.target.closest?.('button, input, select, textarea, a')) {
             return;
         }
         if (event.key === ' ' && !answerRevealed) {

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>N5-N3 Flashcards</title>
     <link rel="icon" type="image/svg+xml" href="./favicon.svg">
-    <link rel="stylesheet" href="./assets/flashcards.css?v=7ddd2c048217">
+    <link rel="stylesheet" href="./assets/flashcards.css?v=1ad95cc51741">
 </head>
 <body id="top">
 <nav class="top-nav" aria-label="Page navigation">
@@ -93,19 +93,44 @@
                 <span id="card-source">Core vocabulary</span>
             </div>
 
-            <button class="flashcard" type="button" id="flashcard" aria-label="Reveal card answer">
+            <div class="flashcard" id="flashcard" role="button" tabindex="0" aria-label="Reveal card answer">
                 <span class="card-label">Japanese</span>
                 <span class="form-pill" id="card-form" hidden></span>
-                <span class="card-term" id="card-term">Loading...</span>
+                <span class="term-line">
+                    <span class="card-term" id="card-term">Loading...</span>
+                    <button class="icon-button speaker-button" type="button" id="pronounce-word" aria-label="Pronounce word" title="Pronounce word">
+                        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                            <path d="M4 9v6h4l5 4V5L8 9H4z"></path>
+                            <path d="M16 8.5a5 5 0 0 1 0 7"></path>
+                            <path d="M18.5 6a8 8 0 0 1 0 12"></path>
+                        </svg>
+                    </button>
+                </span>
                 <span class="card-reading" id="card-reading"></span>
                 <span class="base-verb" id="card-base-verb" hidden></span>
+                <span class="example-box" id="card-example" hidden>
+                    <span class="example-meta">
+                        <span>Example</span>
+                        <span class="example-tools">
+                            <span id="card-example-count"></span>
+                            <button class="icon-button speaker-button small-speaker-button" type="button" id="pronounce-example" aria-label="Pronounce example sentence" title="Pronounce example sentence">
+                                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                                    <path d="M4 9v6h4l5 4V5L8 9H4z"></path>
+                                    <path d="M16 8.5a5 5 0 0 1 0 7"></path>
+                                    <path d="M18.5 6a8 8 0 0 1 0 12"></path>
+                                </svg>
+                            </button>
+                        </span>
+                    </span>
+                    <span class="example-ja" id="card-example-ja"></span>
+                    <span class="example-en" id="card-example-en"></span>
+                </span>
                 <span class="card-divider" aria-hidden="true"></span>
                 <span class="card-label answer-label" id="answer-label" hidden>Meaning</span>
                 <span class="card-meaning" id="card-meaning" hidden></span>
-            </button>
+            </div>
 
             <div class="card-actions">
-                <button class="secondary-button pronunciation-button" type="button" id="pronounce-card">Pronounce</button>
                 <button class="primary-button" type="button" id="reveal-card">Reveal</button>
                 <button class="answer-button remember-button" type="button" id="remember-card" disabled>Yes, I remember</button>
                 <button class="answer-button forgot-button" type="button" id="forgot-card" disabled>No, I don't remember</button>
@@ -123,6 +148,6 @@
     </section>
 </main>
 
-<script src="./assets/flashcards.js?v=de9854cde82e"></script>
+<script src="./assets/flashcards.js?v=a2f3438b1179"></script>
 </body>
 </html>

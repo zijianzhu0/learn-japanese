@@ -99,6 +99,7 @@ The generator updates:
 - Sentence-level highlighting during playback.
 - Furigana-safe article copy.
 - Flashcards include separate generated review cards for common verb forms.
+- Flashcards cycle through five generated or source-provided example sentences per card, with the next example index stored in progress.
 - Vertical one-page recording layout for `Render Video`.
 - MP4 download when browser MP4 recording is available or server-side `ffmpeg` conversion succeeds.
 

@@ -335,6 +335,7 @@ button:disabled {
 }
 
 .flashcard:focus-visible,
+.icon-button:focus-visible,
 .primary-button:focus-visible,
 .answer-button:focus-visible,
 .secondary-button:focus-visible,
@@ -353,6 +354,13 @@ button:disabled {
     text-transform: uppercase;
 }
 
+.term-line {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 12px;
+}
+
 .form-pill {
     justify-self: start;
     margin-top: 12px;
@@ -366,12 +374,55 @@ button:disabled {
 }
 
 .card-term {
-    margin-top: 12px;
+    min-width: 0;
     color: var(--accent-dark);
     font-size: clamp(2.2rem, 9vw, 5.2rem);
     font-weight: 800;
     line-height: 1.12;
     overflow-wrap: anywhere;
+}
+
+.icon-button {
+    display: inline-grid;
+    flex: 0 0 auto;
+    place-items: center;
+    width: 42px;
+    height: 42px;
+    border: 1px solid #bfd8d1;
+    border-radius: 999px;
+    color: var(--accent-dark);
+    background: #ffffff;
+    cursor: pointer;
+}
+
+.icon-button:hover:not(:disabled) {
+    border-color: var(--accent);
+    background: #eef7f3;
+}
+
+.icon-button:disabled {
+    cursor: not-allowed;
+    opacity: 0.55;
+}
+
+.icon-button svg {
+    width: 21px;
+    height: 21px;
+    fill: none;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2;
+}
+
+.small-speaker-button {
+    width: 32px;
+    height: 32px;
+}
+
+.small-speaker-button svg {
+    width: 18px;
+    height: 18px;
 }
 
 .card-reading {
@@ -386,6 +437,52 @@ button:disabled {
     color: var(--muted);
     font-size: 0.95rem;
     font-weight: 700;
+}
+
+.example-box {
+    display: grid;
+    gap: 7px;
+    width: 100%;
+    min-height: 104px;
+    margin-top: 18px;
+    padding: 13px 15px;
+    border: 1px solid #d7e5df;
+    border-left: 4px solid var(--accent);
+    border-radius: 8px;
+    background: var(--soft);
+}
+
+.example-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    color: var(--warm);
+    font-size: 0.74rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.example-tools {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.example-ja {
+    color: #273444;
+    font-size: clamp(1rem, 3vw, 1.18rem);
+    font-weight: 800;
+    line-height: 1.45;
+    overflow-wrap: anywhere;
+}
+
+.example-en {
+    color: #52606d;
+    font-size: 0.94rem;
+    font-weight: 700;
+    line-height: 1.4;
 }
 
 .card-divider {
@@ -489,6 +586,10 @@ button:disabled {
 
     .card-actions {
         display: grid;
+    }
+
+    .term-line {
+        align-items: flex-start;
     }
 
     .primary-button,
