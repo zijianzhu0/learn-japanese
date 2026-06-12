@@ -13,6 +13,7 @@ A local Japanese learning board with furigana, sentence highlighting, browser sp
 - `assets/article.css`: shared article styles.
 - `assets/article.js`: shared article behavior, navigation, playback, highlighting, and recording.
 - `scripts/generate_site.py`: static site generator.
+- `scripts/render_video_url.py`: CLI renderer that writes an MP4 under `videos/` and prints a JSON download URL.
 - `server/local_tts_server.py`: static server, VOICEVOX proxy, and MP4 conversion endpoint.
 - `Dockerfile` and `docker-compose.yml`: Docker web server plus VOICEVOX engine.
 
@@ -49,7 +50,7 @@ Before changing article data, run the normal verification commands once so you h
 ```bash
 python3 scripts/generate_site.py
 node --check assets/article.js
-python3 -m py_compile server/local_tts_server.py scripts/generate_site.py
+python3 -m py_compile server/local_tts_server.py scripts/generate_site.py scripts/render_video.py scripts/render_video_url.py
 docker compose config
 ```
 
@@ -95,6 +96,9 @@ The generator updates:
 - Docker VOICEVOX playback through the local server:
   - `GET /api/tts/voicevox/status`
   - `POST /api/tts/voicevox`
+- Video rendering through the local server:
+  - `POST /api/video/render` streams an MP4 response.
+  - `POST /api/video/render-url` writes the MP4 to `videos/` and returns JSON with `download_url`.
 - Voice source, browser voice, and Docker speaker preferences persist across refreshes and article pages.
 - Sentence-level highlighting during playback.
 - Furigana-safe article copy.
@@ -103,12 +107,20 @@ The generator updates:
 - Vertical one-page recording layout for `Render Video`.
 - MP4 download when browser MP4 recording is available or server-side `ffmpeg` conversion succeeds.
 
+Render a video from the command line and print a JSON download URL:
+
+```bash
+python3 scripts/render_video_url.py 2026-06-10-bear-capture-drone --pretty
+```
+
+Use `PUBLIC_BASE_URL` or `--base-url` if the static server is exposed somewhere other than `http://127.0.0.1:8765`.
+
 ## Verify
 
 ```bash
 python3 scripts/generate_site.py
 node --check assets/article.js
-python3 -m py_compile server/local_tts_server.py scripts/generate_site.py
+python3 -m py_compile server/local_tts_server.py scripts/generate_site.py scripts/render_video.py scripts/render_video_url.py
 docker compose config
 ```
 

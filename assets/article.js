@@ -1166,8 +1166,8 @@ async function speakFromSentence(sentenceIndex) {
     speakWithBrowserSentenceQueue(null, sentenceIndex);
 }
 
-async function fetchRenderedVideo(speaker) {
-    const response = await fetch('/api/video/render', {
+async function fetchRenderedVideoUrl(speaker) {
+    const response = await fetch('/api/video/render-url', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -1192,19 +1192,14 @@ async function fetchRenderedVideo(speaker) {
         throw new Error(errorMessage);
     }
 
-    const contentDisposition = response.headers.get('Content-Disposition') || '';
-    const utf8Match = contentDisposition.match(/filename\*=UTF-8''([^;]+)/i);
-    if (utf8Match) {
-        return {
-            blob: await response.blob(),
-            downloadName: decodeURIComponent(utf8Match[1])
-        };
+    const payload = await response.json();
+    if (!payload.download_url) {
+        throw new Error('Video render response did not include a download URL.');
     }
 
-    const filenameMatch = contentDisposition.match(/filename="([^"]+)"/i);
     return {
-        blob: await response.blob(),
-        downloadName: filenameMatch?.[1] || recordingDownloadName
+        downloadUrl: payload.download_url,
+        downloadName: payload.filename || recordingDownloadName
     };
 }
 
@@ -1293,13 +1288,11 @@ async function renderVideo() {
         await waitForNextPaint();
         status.textContent = 'Rendering 1080x1920 MP4...';
 
-        const { blob, downloadName } = await fetchRenderedVideo(speaker);
-        const videoUrl = URL.createObjectURL(blob);
+        const { downloadUrl, downloadName } = await fetchRenderedVideoUrl(speaker);
         const downloadLink = document.createElement('a');
-        downloadLink.href = videoUrl;
+        downloadLink.href = downloadUrl;
         downloadLink.download = downloadName;
         downloadLink.click();
-        URL.revokeObjectURL(videoUrl);
         status.textContent = 'MP4 rendered and downloaded.';
     } catch (error) {
         status.textContent = error?.message || 'Video rendering failed.';

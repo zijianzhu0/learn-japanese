@@ -32,6 +32,7 @@ VOICEVOX_BASE_URL = os.environ.get("VOICEVOX_BASE_URL", "http://127.0.0.1:50021"
 DEFAULT_VOICEVOX_SPEAKER = 9
 MAX_TTS_TEXT_CHARS = 500
 MAX_VIDEO_UPLOAD_BYTES = 700 * 1024 * 1024
+VIDEO_OUTPUT_DIR = PROJECT_DIR / "videos"
 
 
 class LearnJapaneseHandler(SimpleHTTPRequestHandler):
@@ -59,6 +60,10 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
 
         if self.path == "/api/video/render":
             self.handle_video_render()
+            return
+
+        if self.path == "/api/video/render-url":
+            self.handle_video_render_url()
             return
 
         self.send_json(404, {"ok": False, "error": "Unknown API endpoint."})
@@ -195,39 +200,13 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
 
     def handle_video_render(self) -> None:
         try:
-            payload = self.read_json_body()
-            article_id = str(payload.get("article_id", "")).strip()
-            speaker_value = payload.get("speaker")
-            speaker = int(speaker_value) if speaker_value is not None else DEFAULT_VOICEVOX_SPEAKER
-        except (ValueError, TypeError, json.JSONDecodeError) as exc:
-            self.send_json(400, {"ok": False, "error": f"Invalid JSON request: {exc}"})
-            return
-
-        if not article_id:
-            self.send_json(400, {"ok": False, "error": "Missing article_id."})
-            return
-
-        try:
-            article = find_article(article_id)
-        except ValueError as exc:
-            self.send_json(404, {"ok": False, "error": str(exc)})
-            return
-
-        options = RenderOptions(article_id=article["id"], speaker=speaker)
-
-        try:
-            with tempfile.TemporaryDirectory(prefix="learn-japanese-render-") as temp_dir:
-                output_path = Path(temp_dir) / article["downloadFileName"]
-                render_article_video(article, output_path, options, DEFAULT_VOICEVOX_TIMEOUT)
+            article, output_path, temp_dir = self.render_video_to_temp_file()
+            try:
                 mp4_video = output_path.read_bytes()
-        except SystemExit as exc:
-            message = str(exc)
-            status = 503 if "VOICEVOX" in message or "Chromium" in message or "ffmpeg" in message else 500
-            self.send_json(status, {"ok": False, "error": message})
-            return
-        except subprocess.CalledProcessError as exc:
-            detail = exc.stderr.decode("utf-8", errors="replace").strip() if exc.stderr else str(exc)
-            self.send_json(500, {"ok": False, "error": f"Video render failed: {detail}"})
+            finally:
+                temp_dir.cleanup()
+        except VideoRenderRequestError as exc:
+            self.send_json(exc.status, {"ok": False, "error": exc.message})
             return
 
         self.send_response(200)
@@ -237,6 +216,76 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
         self.send_header("Cache-Control", "no-store")
         self.end_headers()
         self.wfile.write(mp4_video)
+
+    def handle_video_render_url(self) -> None:
+        try:
+            article, temp_output_path, temp_dir = self.render_video_to_temp_file()
+            VIDEO_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+            output_path = VIDEO_OUTPUT_DIR / article["downloadFileName"]
+            try:
+                temp_output_path.replace(output_path)
+                version = str(output_path.stat().st_mtime_ns)
+            finally:
+                temp_dir.cleanup()
+        except VideoRenderRequestError as exc:
+            self.send_json(exc.status, {"ok": False, "error": exc.message})
+            return
+
+        self.send_json(
+            200,
+            {
+                "ok": True,
+                "article_id": article["id"],
+                "filename": article["downloadFileName"],
+                "download_url": self.build_download_url(article["downloadFileName"], version),
+            },
+        )
+
+    def render_video_to_temp_file(self) -> tuple[dict, Path, tempfile.TemporaryDirectory]:
+        try:
+            payload = self.read_json_body()
+            article_id = str(payload.get("article_id", "")).strip()
+            speaker_value = payload.get("speaker")
+            speaker = int(speaker_value) if speaker_value is not None else DEFAULT_VOICEVOX_SPEAKER
+        except (ValueError, TypeError, json.JSONDecodeError) as exc:
+            raise VideoRenderRequestError(400, f"Invalid JSON request: {exc}") from exc
+
+        if not article_id:
+            raise VideoRenderRequestError(400, "Missing article_id.")
+
+        try:
+            article = find_article(article_id)
+        except ValueError as exc:
+            raise VideoRenderRequestError(404, str(exc)) from exc
+
+        options = RenderOptions(article_id=article["id"], speaker=speaker)
+
+        temp_dir = None
+        try:
+            temp_dir = tempfile.TemporaryDirectory(prefix="learn-japanese-render-")
+            temp_path = Path(temp_dir.name)
+            output_path = temp_path / article["downloadFileName"]
+            render_article_video(article, output_path, options, DEFAULT_VOICEVOX_TIMEOUT)
+            return article, output_path, temp_dir
+        except SystemExit as exc:
+            if temp_dir:
+                temp_dir.cleanup()
+            message = str(exc)
+            status = 503 if "VOICEVOX" in message or "Chromium" in message or "ffmpeg" in message else 500
+            raise VideoRenderRequestError(status, message) from exc
+        except subprocess.CalledProcessError as exc:
+            if temp_dir:
+                temp_dir.cleanup()
+            detail = exc.stderr.decode("utf-8", errors="replace").strip() if exc.stderr else str(exc)
+            raise VideoRenderRequestError(500, f"Video render failed: {detail}") from exc
+
+    def build_download_url(self, filename: str, version: str | None = None) -> str:
+        host = self.headers.get("Host") or f"{DEFAULT_PUBLIC_HOST}:{DEFAULT_PORT}"
+        proto = self.headers.get("X-Forwarded-Proto", "http").split(",", 1)[0].strip() or "http"
+        url = f"{proto}://{host}/videos/{parse.quote(filename)}"
+        if version:
+            url = f"{url}?v={parse.quote(version)}"
+        return url
 
     def read_json_body(self) -> dict:
         content_length = int(self.headers.get("Content-Length", "0"))
@@ -302,6 +351,13 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
 
 
 class VoicevoxError(Exception):
+    def __init__(self, status: int, message: str):
+        super().__init__(message)
+        self.status = status
+        self.message = message
+
+
+class VideoRenderRequestError(Exception):
     def __init__(self, status: int, message: str):
         super().__init__(message)
         self.status = status
