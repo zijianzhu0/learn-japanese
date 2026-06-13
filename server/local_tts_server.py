@@ -223,7 +223,7 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
             VIDEO_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
             output_path = VIDEO_OUTPUT_DIR / article["downloadFileName"]
             try:
-                temp_output_path.replace(output_path)
+                shutil.move(str(temp_output_path), str(output_path))
                 version = str(output_path.stat().st_mtime_ns)
             finally:
                 temp_dir.cleanup()

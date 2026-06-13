@@ -3,6 +3,7 @@
 .venv311/
 __pycache__/
 .generated_audio/
+videos/
 models/
 *.cpu.opt.onnx
 *.cpu.opt.onnx.ok
