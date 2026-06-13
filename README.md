@@ -5,6 +5,7 @@ A local Japanese learning board with furigana, sentence highlighting, browser sp
 ## Project Layout
 
 - `index.html`: generated reading archive and article index.
+- `ig-videos.html`: vocabulary video generator for five-word Instagram-style vertical MP4s.
 - `2026-*.html`: generated article pages kept at the repo root so URLs stay simple.
 - `data/articles.json`: ordered manifest of article JSON files.
 - `data/article-navigation.json`: generated runtime navigation manifest for article pages.
@@ -12,6 +13,7 @@ A local Japanese learning board with furigana, sentence highlighting, browser sp
 - `templates/article.html`: article page template.
 - `assets/article.css`: shared article styles.
 - `assets/article.js`: shared article behavior, navigation, playback, highlighting, and recording.
+- `assets/ig-videos.css` and `assets/ig-videos.js`: vocabulary video generator styles and behavior.
 - `scripts/generate_site.py`: static site generator.
 - `scripts/render_video_url.py`: CLI renderer that writes an MP4 under `videos/` and prints a JSON download URL.
 - `server/local_tts_server.py`: static server, VOICEVOX proxy, and MP4 conversion endpoint.
@@ -99,11 +101,13 @@ The generator updates:
 - Video rendering through the local server:
   - `POST /api/video/render` streams an MP4 response.
   - `POST /api/video/render-url` writes the MP4 to `videos/` and returns JSON with `download_url`.
+  - `POST /api/video/render-vocab-url` writes a five-word vocabulary MP4 to `videos/` and returns JSON with `download_url`.
 - Voice source, browser voice, and Docker speaker preferences persist across refreshes and article pages.
 - Sentence-level highlighting during playback.
 - Furigana-safe article copy.
 - Flashcards include separate generated review cards for common verb forms.
 - Flashcards cycle through five generated or source-provided example sentences per card, with the next example index stored in progress.
+- IG vocabulary videos render five vocabulary cards per 9:16 MP4 with furigana, English meaning, JLPT level, Japanese TTS, and active-word highlighting.
 - Vertical one-page recording layout for `Render Video`.
 - MP4 download when browser MP4 recording is available or server-side `ffmpeg` conversion succeeds.
 

@@ -23,6 +23,9 @@ FLASHCARDS_PATH = ROOT / "data" / "flashcards.json"
 FLASHCARDS_HTML_PATH = ROOT / "flashcards.html"
 FLASHCARDS_JS_PATH = ROOT / "assets" / "flashcards.js"
 FLASHCARDS_CSS_PATH = ROOT / "assets" / "flashcards.css"
+IG_VIDEOS_HTML_PATH = ROOT / "ig-videos.html"
+IG_VIDEOS_JS_PATH = ROOT / "assets" / "ig-videos.js"
+IG_VIDEOS_CSS_PATH = ROOT / "assets" / "ig-videos.css"
 FLASHCARD_LEVELS = {"N5", "N4", "N3"}
 VERB_FORM_SPECS = (
     ("dictionary", "Dictionary", "Dictionary form"),
@@ -1098,6 +1101,31 @@ def write_flashcards_page() -> None:
     FLASHCARDS_HTML_PATH.write_text(html, encoding="utf-8")
 
 
+def write_ig_videos_page() -> None:
+    html = IG_VIDEOS_HTML_PATH.read_text(encoding="utf-8")
+    favicon_link = '<link rel="icon" type="image/svg+xml" href="./favicon.svg">'
+    if favicon_link not in html:
+        html = re.sub(
+            r'(<title>[^<]*</title>)',
+            rf"\1\n    {favicon_link}",
+            html,
+            count=1,
+        )
+    html = re.sub(
+        r'./assets/ig-videos\.css(?:\?v=[^"]*)?',
+        f'./assets/ig-videos.css?v={file_version(IG_VIDEOS_CSS_PATH)}',
+        html,
+        count=1,
+    )
+    html = re.sub(
+        r'./assets/ig-videos\.js(?:\?v=[^"]*)?',
+        f'./assets/ig-videos.js?v={file_version(IG_VIDEOS_JS_PATH)}',
+        html,
+        count=1,
+    )
+    IG_VIDEOS_HTML_PATH.write_text(html, encoding="utf-8")
+
+
 def main() -> None:
     articles = load_articles()
     write_article_navigation_manifest(articles)
@@ -1105,6 +1133,7 @@ def main() -> None:
     write_index(articles)
     write_flashcards_manifest(articles)
     write_flashcards_page()
+    write_ig_videos_page()
 
 
 if __name__ == "__main__":

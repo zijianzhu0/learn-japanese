@@ -13,6 +13,7 @@ import tempfile
 import time
 import wave
 from dataclasses import dataclass
+from hashlib import sha1
 from html import escape
 from html.parser import HTMLParser
 from pathlib import Path
@@ -21,7 +22,9 @@ from urllib import error, parse, request
 
 ROOT = Path(__file__).resolve().parent.parent
 ARTICLES_MANIFEST = ROOT / "data" / "articles.json"
+FLASHCARDS_MANIFEST = ROOT / "data" / "flashcards.json"
 ARTICLE_CSS = ROOT / "assets" / "article.css"
+IG_VIDEOS_CSS = ROOT / "assets" / "ig-videos.css"
 VOICEVOX_BASE_URL = os.environ.get("VOICEVOX_BASE_URL", "http://127.0.0.1:50021")
 DEFAULT_SPEAKER = int(os.environ.get("VOICEVOX_SPEAKER", "9"))
 FRAME_WIDTH = 1080
@@ -47,6 +50,13 @@ class Segment:
     text: str
     title_html: str
     paragraph_htmls: list[str]
+
+
+@dataclass
+class VocabSegment:
+    key: str
+    text: str
+    active_index: int
 
 
 class BaseTextParser(HTMLParser):
@@ -135,6 +145,28 @@ def find_article(article_ref: str) -> dict:
     raise ValueError(f"Article not found: {article_ref}")
 
 
+def load_flashcard_items() -> list[dict]:
+    manifest = json.loads(FLASHCARDS_MANIFEST.read_text(encoding="utf-8"))
+    return list(manifest.get("items", []))
+
+
+def find_vocab_items(item_ids: list[str]) -> list[dict]:
+    items_by_id = {item["id"]: item for item in load_flashcard_items()}
+    selected = []
+    missing = []
+    for item_id in item_ids:
+        item = items_by_id.get(item_id)
+        if item:
+            selected.append(item)
+        else:
+            missing.append(item_id)
+    if missing:
+        raise ValueError(f"Vocabulary item not found: {', '.join(missing)}")
+    if len(selected) != 5:
+        raise ValueError("Vocabulary videos require exactly five items.")
+    return selected
+
+
 def highlighted(html: str, active: bool) -> str:
     class_name = "reading-unit is-speaking" if active else "reading-unit"
     return f'<span class="{class_name}">{html}</span>'
@@ -175,6 +207,37 @@ def build_segments(article: dict) -> list[Segment]:
                 )
             )
     return segments
+
+
+def vocab_term(item: dict) -> str:
+    return str(item.get("term", "")).split("/")[0].strip()
+
+
+def vocab_reading(item: dict) -> str:
+    return str(item.get("readingHiragana") or item.get("reading") or "").split("/")[0].strip()
+
+
+def vocab_meaning(item: dict) -> str:
+    return str(item.get("meaning") or "").split(";")[0].strip()
+
+
+def vocab_ruby_html(item: dict) -> str:
+    term = vocab_term(item)
+    reading = vocab_reading(item)
+    if not reading or reading == term:
+        return escape(term)
+    return f"<ruby>{escape(term)}<rt>{escape(reading)}</rt></ruby>"
+
+
+def build_vocab_segments(items: list[dict]) -> list[VocabSegment]:
+    return [
+        VocabSegment(
+            key=f"word-{index + 1}",
+            text=vocab_term(item),
+            active_index=index,
+        )
+        for index, item in enumerate(items)
+    ]
 
 
 def voicevox_request(
@@ -313,6 +376,118 @@ window.addEventListener('load', fitRecordingPageText);
 """
 
 
+def render_vocab_html(items: list[dict], segment: VocabSegment, options: RenderOptions) -> str:
+    css = IG_VIDEOS_CSS.read_text(encoding="utf-8")
+    levels = sorted({str(item.get("level", "")) for item in items if item.get("level")})
+    level_label = "Mixed JLPT" if len(levels) != 1 else levels[0]
+    words_html = "\n".join(
+        f"""                    <li class="word-card{' is-speaking' if index == segment.active_index else ''}">
+                        <span class="word-index">{index + 1}</span>
+                        <span class="word-main">
+                            <span class="word-term">{vocab_ruby_html(item)}</span>
+                            <span class="word-meaning">{escape(vocab_meaning(item))}</span>
+                        </span>
+                        <span class="level-pill">{escape(str(item.get("level", "")))}</span>
+                    </li>"""
+        for index, item in enumerate(items)
+    )
+    return f"""<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <style>{css}</style>
+    <style>
+        html, body {{
+            width: {options.frame_width}px;
+            height: {options.frame_height}px;
+            margin: 0;
+            background: #121820;
+        }}
+        body {{
+            display: block;
+            overflow: hidden;
+        }}
+        .top-nav,
+        .control-panel {{
+            display: none;
+        }}
+        .video-workspace {{
+            display: block;
+            width: {options.frame_width}px;
+            margin: 0;
+        }}
+        .preview-column {{
+            display: block;
+        }}
+        .phone-frame {{
+            width: {options.frame_width}px;
+            height: {options.frame_height}px;
+            padding: 0;
+            border-radius: 0;
+            box-shadow: none;
+            background: #121820;
+        }}
+        .ig-stage {{
+            width: {options.frame_width}px;
+            height: {options.frame_height}px;
+            border-radius: 0;
+        }}
+        .stage-kicker,
+        .stage-meta,
+        .stage-footer {{
+            font-size: 34px;
+        }}
+        .stage-header h1 {{
+            font-size: 76px;
+        }}
+        .word-card {{
+            gap: 28px;
+            padding: 26px 30px;
+            border-radius: 18px;
+        }}
+        .word-index {{
+            width: 72px;
+            height: 72px;
+            font-size: 28px;
+        }}
+        .word-term {{
+            font-size: 68px;
+        }}
+        .word-meaning {{
+            font-size: 32px;
+        }}
+        .level-pill {{
+            padding: 10px 16px;
+            font-size: 26px;
+        }}
+    </style>
+</head>
+<body>
+<main class="video-workspace">
+    <section class="preview-column" aria-label="IG video preview">
+        <div class="phone-frame">
+            <article class="ig-stage">
+                <header class="stage-header">
+                    <span class="stage-kicker">日本語 Vocabulary</span>
+                    <h1>{escape(level_label)} · 5 words</h1>
+                    <span class="stage-meta">9:16 · 1080x1920</span>
+                </header>
+                <ol class="word-list">
+{words_html}
+                </ol>
+                <footer class="stage-footer">
+                    <span>Read. Listen. Repeat.</span>
+                    <span>{segment.active_index + 1}/5</span>
+                </footer>
+            </article>
+        </div>
+    </section>
+</main>
+</body>
+</html>
+"""
+
+
 def run(command: list[str]) -> None:
     subprocess.run(command, check=True)
 
@@ -446,6 +621,44 @@ def render_article_video(
             segment_paths.append(video_path)
 
         concatenate_segments(segment_paths, temp_path / "segments.txt", output_path)
+
+
+def render_vocab_video(
+    items: list[dict],
+    output_path: Path,
+    options: RenderOptions,
+    voicevox_timeout: float = DEFAULT_VOICEVOX_TIMEOUT,
+) -> None:
+    if not shutil.which("ffmpeg"):
+        raise SystemExit("ffmpeg is required for CLI video rendering.")
+
+    wait_for_voicevox(voicevox_timeout)
+    segments = build_vocab_segments(items)
+    chromium = chromium_command()
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    with tempfile.TemporaryDirectory(prefix="learn-japanese-vocab-render-") as temp_dir:
+        temp_path = Path(temp_dir)
+        segment_paths = []
+        for index, segment in enumerate(segments, start=1):
+            print(f"[{index}/{len(segments)}] {segment.text}", flush=True)
+            html_path = temp_path / f"{index:03d}-{segment.key}.html"
+            image_path = temp_path / f"{index:03d}-{segment.key}.png"
+            audio_path = temp_path / f"{index:03d}-{segment.key}.wav"
+            video_path = temp_path / f"{index:03d}-{segment.key}.mp4"
+
+            html_path.write_text(render_vocab_html(items, segment, options), encoding="utf-8")
+            audio_path.write_bytes(synthesize_sentence(segment.text, options.speaker))
+            render_screenshot(chromium, html_path, image_path, options)
+            render_segment_video(image_path, audio_path, wav_duration(audio_path), video_path, options)
+            segment_paths.append(video_path)
+
+        concatenate_segments(segment_paths, temp_path / "segments.txt", output_path)
+
+
+def vocab_video_filename(item_ids: list[str]) -> str:
+    digest = sha1("\n".join(item_ids).encode("utf-8")).hexdigest()[:10]
+    return f"ig-vocabulary-{digest}.mp4"
 
 
 def render_video(article: dict, output_path: Path, speaker: int, voicevox_timeout: float) -> None:

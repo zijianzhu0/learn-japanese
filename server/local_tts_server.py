@@ -21,7 +21,10 @@ from scripts.render_video import (
     DEFAULT_VOICEVOX_TIMEOUT,
     RenderOptions,
     find_article,
+    find_vocab_items,
     render_article_video,
+    render_vocab_video,
+    vocab_video_filename,
 )
 
 
@@ -64,6 +67,10 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
 
         if self.path == "/api/video/render-url":
             self.handle_video_render_url()
+            return
+
+        if self.path == "/api/video/render-vocab-url":
+            self.handle_vocab_video_render_url()
             return
 
         self.send_json(404, {"ok": False, "error": "Unknown API endpoint."})
@@ -240,6 +247,59 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
                 "download_url": self.build_download_url(article["downloadFileName"], version),
             },
         )
+
+    def handle_vocab_video_render_url(self) -> None:
+        try:
+            items, item_ids, speaker = self.parse_vocab_video_request()
+            VIDEO_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+            filename = vocab_video_filename(item_ids)
+            output_path = VIDEO_OUTPUT_DIR / filename
+            temp_dir = tempfile.TemporaryDirectory(prefix="learn-japanese-vocab-render-")
+            temp_output_path = Path(temp_dir.name) / filename
+            try:
+                options = RenderOptions(article_id="ig-vocabulary", speaker=speaker)
+                render_vocab_video(items, temp_output_path, options, DEFAULT_VOICEVOX_TIMEOUT)
+                shutil.move(str(temp_output_path), str(output_path))
+                version = str(output_path.stat().st_mtime_ns)
+            finally:
+                temp_dir.cleanup()
+        except VideoRenderRequestError as exc:
+            self.send_json(exc.status, {"ok": False, "error": exc.message})
+            return
+        except SystemExit as exc:
+            self.send_json(500, {"ok": False, "error": str(exc)})
+            return
+
+        self.send_json(
+            200,
+            {
+                "ok": True,
+                "filename": filename,
+                "download_url": self.build_download_url(filename, version),
+            },
+        )
+
+    def parse_vocab_video_request(self) -> tuple[list[dict], list[str], int]:
+        try:
+            payload = self.read_json_body()
+            item_ids = payload.get("item_ids", [])
+            speaker_value = payload.get("speaker")
+            speaker = int(speaker_value) if speaker_value is not None else DEFAULT_VOICEVOX_SPEAKER
+        except (ValueError, TypeError, json.JSONDecodeError) as exc:
+            raise VideoRenderRequestError(400, f"Invalid JSON request: {exc}") from exc
+
+        if not isinstance(item_ids, list) or not all(isinstance(item_id, str) for item_id in item_ids):
+            raise VideoRenderRequestError(400, "item_ids must be an array of strings.")
+
+        if len(item_ids) != 5:
+            raise VideoRenderRequestError(400, "Exactly five vocabulary item IDs are required.")
+
+        try:
+            items = find_vocab_items(item_ids)
+        except ValueError as exc:
+            raise VideoRenderRequestError(404, str(exc)) from exc
+
+        return items, item_ids, speaker
 
     def render_video_to_temp_file(self) -> tuple[dict, Path, tempfile.TemporaryDirectory]:
         try:
