@@ -49,6 +49,56 @@
           "label": "目覚まし時計が中に隠れていたから"
         }
       ]
+    },
+    {
+      "id": "cat-cafe-boss",
+      "title": "猫カフェの店長",
+      "kicker": "日本語読解クイズ",
+      "level": "N5",
+      "question": "本当の店長はだれでしたか？",
+      "footerLeft": "全文はコメントへ",
+      "footerRight": "A-Dで答えてね",
+      "answerId": "c",
+      "passage": [
+        {
+          "jp": "駅の近くに、新しい猫カフェができました。",
+          "en": "A new cat cafe opened near the station."
+        },
+        {
+          "jp": "入口には「店長は奥にいます」と書いてありました。",
+          "en": "At the entrance, a sign said, \"The manager is in the back.\""
+        },
+        {
+          "jp": "私は奥の部屋へ行きましたが、人はいませんでした。",
+          "en": "I went to the back room, but there was no person there."
+        },
+        {
+          "jp": "大きな白い猫が机の上に座っていました。",
+          "en": "A big white cat was sitting on the desk."
+        },
+        {
+          "jp": "猫の首には「店長です。魚は少なめでお願いします」と書いた札がありました。",
+          "en": "On the cat's collar was a tag saying, \"I am the manager. Please go easy on the fish.\""
+        }
+      ],
+      "options": [
+        {
+          "id": "a",
+          "label": "駅の人"
+        },
+        {
+          "id": "b",
+          "label": "奥の部屋の店員"
+        },
+        {
+          "id": "c",
+          "label": "大きな白い猫"
+        },
+        {
+          "id": "d",
+          "label": "魚を持ったお客さん"
+        }
+      ]
     }
   ]
 }
