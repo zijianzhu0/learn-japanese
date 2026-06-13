@@ -99,6 +99,56 @@
           "label": "魚を持ったお客さん"
         }
       ]
+    },
+    {
+      "id": "library-umbrella-reservation",
+      "title": "図書館の予約席",
+      "kicker": "日本語読解クイズ",
+      "level": "N3",
+      "question": "予約されていたものは何でしたか？",
+      "footerLeft": "全文はコメントへ",
+      "footerRight": "A-Dで答えてね",
+      "answerId": "b",
+      "passage": [
+        {
+          "jp": "雨の日、私は図書館で勉強しようと思いました。",
+          "en": "On a rainy day, I decided to study at the library."
+        },
+        {
+          "jp": "窓のそばの席には、「予約済み」と書かれた紙が置いてありました。",
+          "en": "On the seat by the window, there was a paper that said, \"Reserved.\""
+        },
+        {
+          "jp": "でも、閉館までその席に座る人は一人も来ませんでした。",
+          "en": "But until closing time, no one came to sit in that seat."
+        },
+        {
+          "jp": "帰る前、職員がその紙を取り、席の下から一本の傘を出しました。",
+          "en": "Before I left, a staff member took the paper and pulled an umbrella from under the seat."
+        },
+        {
+          "jp": "紙の裏には、「乾くまで席を借ります。傘より」と書いてありました。",
+          "en": "On the back of the paper, it said, \"I will borrow the seat until I dry. From, the umbrella.\""
+        }
+      ],
+      "options": [
+        {
+          "id": "a",
+          "label": "窓のそばの席"
+        },
+        {
+          "id": "b",
+          "label": "席の下にあった傘"
+        },
+        {
+          "id": "c",
+          "label": "図書館の職員"
+        },
+        {
+          "id": "d",
+          "label": "閉館後の勉強時間"
+        }
+      ]
     }
   ]
 }
