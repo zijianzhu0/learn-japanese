@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Story Quiz Videos</title>
     <link rel="icon" type="image/svg+xml" href="./favicon.svg">
-    <link rel="stylesheet" href="./assets/ig-videos.css?v=f87bcc4134f6">
+    <link rel="stylesheet" href="./assets/ig-videos.css?v=3acbad5ca1f9">
 </head>
 <body>
 <nav class="top-nav" aria-label="Page navigation">
@@ -42,8 +42,18 @@
             <span>Story</span>
             <select id="quiz-select"></select>
         </label>
+        <label class="control-field">
+            <span>Voice</span>
+            <select id="docker-voice">
+                <option value="9">VOICEVOX speaker 9</option>
+            </select>
+        </label>
 
         <div class="button-row">
+            <button class="primary-button" type="button" id="read-story">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"></path></svg>
+                <span>Read Story</span>
+            </button>
             <button class="primary-button" type="button" id="copy-comment">
                 <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
                 <span>Copy Comment Text</span>
@@ -86,6 +96,7 @@
     </section>
 </main>
 
-<script src="./assets/ig-videos.js?v=0b8fafc170a5"></script>
+<audio id="tts-player" hidden preload="none"></audio>
+<script src="./assets/ig-videos.js?v=fca10e5b8d2e"></script>
 </body>
 </html>

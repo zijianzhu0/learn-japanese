@@ -108,7 +108,7 @@ The generator updates:
 - Furigana-safe article copy.
 - Flashcards include separate generated review cards for common verb forms.
 - Flashcards cycle through five generated or source-provided example sentences per card, with the next example index stored in progress.
-- Story quiz videos render a 9:16 multiple-choice prompt with four answers while keeping the full JP/EN passage available for comment copying.
+- Story quiz videos render a 9:16 multiple-choice prompt with four answers and Japanese TTS narration while keeping the full JP/EN passage available for comment copying.
 - Vertical one-page recording layout for `Render Video`.
 - MP4 download when browser MP4 recording is available or server-side `ffmpeg` conversion succeeds.
 

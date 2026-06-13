@@ -548,6 +548,48 @@ def render_still_video(image_path: Path, duration: float, output_path: Path, opt
     )
 
 
+def render_still_video_with_audio(
+    image_path: Path,
+    audio_path: Path,
+    duration: float,
+    output_path: Path,
+    options: RenderOptions,
+) -> None:
+    run(
+        [
+            "ffmpeg",
+            "-y",
+            "-hide_banner",
+            "-loglevel",
+            "error",
+            "-loop",
+            "1",
+            "-framerate",
+            str(options.frame_rate),
+            "-i",
+            str(image_path),
+            "-i",
+            str(audio_path),
+            "-t",
+            f"{duration:.3f}",
+            "-c:v",
+            "libx264",
+            "-pix_fmt",
+            "yuv420p",
+            "-preset",
+            "veryfast",
+            "-c:a",
+            "aac",
+            "-b:a",
+            "160k",
+            "-shortest",
+            "-movflags",
+            "+faststart",
+            str(output_path),
+        ]
+    )
+
+
 def concatenate_segments(segment_paths: list[Path], concat_path: Path, output_path: Path) -> None:
     concat_path.write_text(
         "\n".join(f"file '{path.as_posix()}'" for path in segment_paths),
@@ -612,6 +654,7 @@ def render_quiz_video(quiz: dict, output_path: Path, options: RenderOptions) -> 
     if not shutil.which("ffmpeg"):
         raise SystemExit("ffmpeg is required for CLI video rendering.")
 
+    wait_for_voicevox(DEFAULT_VOICEVOX_TIMEOUT)
     chromium = chromium_command()
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -619,9 +662,18 @@ def render_quiz_video(quiz: dict, output_path: Path, options: RenderOptions) -> 
         temp_path = Path(temp_dir)
         html_path = temp_path / "quiz.html"
         image_path = temp_path / "quiz.png"
+        audio_path = temp_path / "story.wav"
+        story_text = "\n".join(str(line.get("jp", "")) for line in quiz.get("passage", []) if line.get("jp"))
         html_path.write_text(render_quiz_html(quiz, options), encoding="utf-8")
+        audio_path.write_bytes(synthesize_sentence(story_text, options.speaker))
         render_screenshot(chromium, html_path, image_path, options)
-        render_still_video(image_path, 8.0, output_path, options)
+        render_still_video_with_audio(
+            image_path,
+            audio_path,
+            wav_duration(audio_path),
+            output_path,
+            options,
+        )
 
 
 def quiz_video_filename(quiz_id: str) -> str:

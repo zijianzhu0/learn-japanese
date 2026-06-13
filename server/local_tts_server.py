@@ -250,14 +250,14 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
 
     def handle_quiz_video_render_url(self) -> None:
         try:
-            quiz = self.parse_quiz_video_request()
+            quiz, speaker = self.parse_quiz_video_request()
             VIDEO_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
             filename = quiz_video_filename(quiz["id"])
             output_path = VIDEO_OUTPUT_DIR / filename
             temp_dir = tempfile.TemporaryDirectory(prefix="learn-japanese-quiz-render-")
             temp_output_path = Path(temp_dir.name) / filename
             try:
-                options = RenderOptions(article_id=quiz["id"])
+                options = RenderOptions(article_id=quiz["id"], speaker=speaker)
                 render_quiz_video(quiz, temp_output_path, options)
                 shutil.move(str(temp_output_path), str(output_path))
                 version = str(output_path.stat().st_mtime_ns)
@@ -284,10 +284,12 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
             },
         )
 
-    def parse_quiz_video_request(self) -> dict:
+    def parse_quiz_video_request(self) -> tuple[dict, int]:
         try:
             payload = self.read_json_body()
             quiz_id = str(payload.get("quiz_id", "")).strip()
+            speaker_value = payload.get("speaker")
+            speaker = int(speaker_value) if speaker_value is not None else DEFAULT_VOICEVOX_SPEAKER
         except (ValueError, TypeError, json.JSONDecodeError) as exc:
             raise VideoRenderRequestError(400, f"Invalid JSON request: {exc}") from exc
 
@@ -295,7 +297,7 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
             raise VideoRenderRequestError(400, "Missing quiz_id.")
 
         try:
-            return find_video_quiz(quiz_id)
+            return find_video_quiz(quiz_id), speaker
         except ValueError as exc:
             raise VideoRenderRequestError(404, str(exc)) from exc
 

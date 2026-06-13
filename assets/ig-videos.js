@@ -1,10 +1,17 @@
 const quizManifestUrl = './data/video-quizzes.json';
+const defaultDockerSpeaker = 9;
+const dockerSpeakerPreferenceKey = 'learnJapanese.dockerSpeaker';
 
 let quizzes = [];
 let currentQuiz = null;
+let activeAudioUrl = null;
+let playbackRun = 0;
+let playbackActive = false;
 
 const elements = {
     quizSelect: document.getElementById('quiz-select'),
+    dockerVoice: document.getElementById('docker-voice'),
+    readStory: document.getElementById('read-story'),
     copyComment: document.getElementById('copy-comment'),
     renderVideo: document.getElementById('render-video'),
     status: document.getElementById('status-line'),
@@ -16,7 +23,8 @@ const elements = {
     question: document.getElementById('quiz-question'),
     optionList: document.getElementById('option-list'),
     footerLeft: document.getElementById('stage-footer-left'),
-    footerRight: document.getElementById('stage-footer-right')
+    footerRight: document.getElementById('stage-footer-right'),
+    audio: document.getElementById('tts-player')
 };
 
 function escapeHtml(value) {
@@ -43,7 +51,30 @@ function correctOption(quiz) {
     return quiz.options.find((option) => option.id === quiz.answerId);
 }
 
+function selectedSpeaker() {
+    const value = Number(elements.dockerVoice?.value);
+    return Number.isInteger(value) ? value : defaultDockerSpeaker;
+}
+
+function savedSpeaker() {
+    try {
+        const value = Number(window.localStorage.getItem(dockerSpeakerPreferenceKey));
+        return Number.isInteger(value) ? value : defaultDockerSpeaker;
+    } catch (error) {
+        return defaultDockerSpeaker;
+    }
+}
+
+function saveSpeaker() {
+    try {
+        window.localStorage.setItem(dockerSpeakerPreferenceKey, String(selectedSpeaker()));
+    } catch (error) {
+        // Storage restrictions should not block playback.
+    }
+}
+
 function renderQuiz(quiz) {
+    stopPlayback();
     currentQuiz = quiz;
     const correct = correctOption(quiz);
 
@@ -62,6 +93,133 @@ function renderQuiz(quiz) {
         </li>
     `).join('');
     elements.status.textContent = 'Ready.';
+}
+
+async function fetchLocalTtsStatus() {
+    const response = await fetch('/api/tts/voicevox/status', { cache: 'no-store' });
+    const payload = await response.json();
+    if (!response.ok) {
+        throw new Error(payload.error || `VOICEVOX status failed with HTTP ${response.status}.`);
+    }
+    return payload;
+}
+
+async function populateVoiceOptions() {
+    try {
+        const payload = await fetchLocalTtsStatus();
+        const preferred = String(savedSpeaker());
+        elements.dockerVoice.innerHTML = '';
+        payload.speakers.forEach((speaker) => {
+            speaker.styles.forEach((style) => {
+                const option = document.createElement('option');
+                option.value = String(style.id);
+                option.textContent = `${speaker.name} - ${style.name}`;
+                elements.dockerVoice.appendChild(option);
+            });
+        });
+        if ([...elements.dockerVoice.options].some((option) => option.value === preferred)) {
+            elements.dockerVoice.value = preferred;
+        } else {
+            elements.dockerVoice.value = String(payload.default_speaker);
+        }
+    } catch (error) {
+        elements.status.textContent = error.message;
+    }
+}
+
+async function fetchLocalTtsAudio(text) {
+    const response = await fetch('/api/tts/voicevox', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ text, speaker: selectedSpeaker() })
+    });
+    if (!response.ok) {
+        let errorMessage = `VOICEVOX TTS failed with HTTP ${response.status}.`;
+        try {
+            const payload = await response.json();
+            errorMessage = payload.error || errorMessage;
+        } catch (error) {
+            // Keep HTTP fallback.
+        }
+        throw new Error(errorMessage);
+    }
+    return response.blob();
+}
+
+function revokeActiveAudioUrl() {
+    if (activeAudioUrl) {
+        URL.revokeObjectURL(activeAudioUrl);
+        activeAudioUrl = null;
+    }
+}
+
+function stopPlayback() {
+    playbackActive = false;
+    playbackRun += 1;
+    revokeActiveAudioUrl();
+    if (elements.audio) {
+        elements.audio.pause();
+        elements.audio.removeAttribute('src');
+        elements.audio.load();
+    }
+    elements.readStory.querySelector('span').textContent = 'Read Story';
+}
+
+function playAudioBlob(blob, runId) {
+    return new Promise((resolve, reject) => {
+        elements.audio.onended = resolve;
+        elements.audio.onerror = () => reject(new Error('Audio playback failed.'));
+        revokeActiveAudioUrl();
+        activeAudioUrl = URL.createObjectURL(blob);
+        elements.audio.src = activeAudioUrl;
+        elements.audio.play().catch(reject);
+    }).then(() => {
+        if (runId !== playbackRun) {
+            throw new Error('Playback stopped.');
+        }
+    });
+}
+
+async function readStory() {
+    if (!currentQuiz) {
+        return;
+    }
+
+    if (playbackActive) {
+        stopPlayback();
+        elements.status.textContent = 'Reading stopped.';
+        return;
+    }
+
+    const lines = currentQuiz.passage.map((line) => line.jp);
+    playbackActive = true;
+    const runId = playbackRun + 1;
+    playbackRun = runId;
+    elements.readStory.querySelector('span').textContent = 'Stop';
+    saveSpeaker();
+
+    try {
+        for (let index = 0; index < lines.length; index += 1) {
+            if (!playbackActive || runId !== playbackRun) {
+                throw new Error('Playback stopped.');
+            }
+            elements.status.textContent = `Generating Japanese TTS ${index + 1}/${lines.length}...`;
+            const blob = await fetchLocalTtsAudio(lines[index]);
+            elements.status.textContent = `Reading story ${index + 1}/${lines.length}.`;
+            await playAudioBlob(blob, runId);
+        }
+        elements.status.textContent = 'Finished reading story.';
+    } catch (error) {
+        if (!String(error.message).includes('stopped')) {
+            elements.status.textContent = error.message;
+        }
+    } finally {
+        if (runId === playbackRun) {
+            playbackActive = false;
+            revokeActiveAudioUrl();
+            elements.readStory.querySelector('span').textContent = 'Read Story';
+        }
+    }
 }
 
 async function copyCommentText() {
@@ -84,12 +242,17 @@ async function renderVideo() {
     }
 
     try {
+        stopPlayback();
+        saveSpeaker();
         elements.renderVideo.disabled = true;
-        elements.status.textContent = 'Rendering 1080x1920 quiz MP4...';
+        elements.status.textContent = 'Rendering 1080x1920 quiz MP4 with Japanese TTS...';
         const response = await fetch('/api/video/render-quiz-url', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ quiz_id: currentQuiz.id })
+            body: JSON.stringify({
+                quiz_id: currentQuiz.id,
+                speaker: selectedSpeaker()
+            })
         });
         if (!response.ok) {
             let errorMessage = `Video render failed with HTTP ${response.status}.`;
@@ -140,9 +303,12 @@ elements.quizSelect.addEventListener('change', () => {
         renderQuiz(quiz);
     }
 });
+elements.dockerVoice.addEventListener('change', saveSpeaker);
+elements.readStory.addEventListener('click', readStory);
 elements.copyComment.addEventListener('click', copyCommentText);
 elements.renderVideo.addEventListener('click', renderVideo);
 
+populateVoiceOptions();
 loadQuizzes().catch((error) => {
     elements.status.textContent = error.message;
 });
