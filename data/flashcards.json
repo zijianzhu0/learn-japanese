@@ -4,7 +4,7 @@
     "articleManifest": "data/articles.json"
   },
   "levels": {
-    "N3": 3152,
+    "N3": 3160,
     "N4": 1271,
     "N5": 1053
   },
@@ -213706,6 +213706,318 @@
         {
           "ja": "図の話を聞いて、頭痛を思い出しました。",
           "en": "After hearing about 図, I remembered headache."
+        }
+      ]
+    },
+    {
+      "id": "article-01aa4fa7c32601",
+      "level": "N3",
+      "term": "上場",
+      "reading": "じょうじょう",
+      "readingHiragana": "じょうじょう",
+      "meaning": "Stock market listing",
+      "source": "article",
+      "sourceId": "2026-06-13-spacex-greenshoe",
+      "sourceTitle": "スペースXのIPOで注目されたグリーンシュー",
+      "sourceLabel": "6/13 SpaceXのグリーンシュー",
+      "sourceHref": "./2026-06-13-spacex-greenshoe.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-13-spacex-greenshoe"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "友だちは上場より投資家（とうしか）を先に覚えました。",
+          "en": "My friend remembered 投資家（とうしか） before stock market listing."
+        },
+        {
+          "ja": "家族に上場のニュースを話しました。",
+          "en": "I told my family the news about stock market listing."
+        },
+        {
+          "ja": "学校で上場と株式市場（かぶしきしじょう）をノートに書きました。",
+          "en": "At school, I wrote stock market listing and 株式市場（かぶしきしじょう） in my notebook."
+        },
+        {
+          "ja": "ニュースで上場を見ました。",
+          "en": "I saw stock market listing in the news."
+        },
+        {
+          "ja": "証券会社（しょうけんがいしゃ）の話を聞いて、上場を思い出しました。",
+          "en": "After hearing about 証券会社（しょうけんがいしゃ）, I remembered stock market listing."
+        }
+      ]
+    },
+    {
+      "id": "article-1c01abd954fb51",
+      "level": "N3",
+      "term": "株式市場",
+      "reading": "かぶしきしじょう",
+      "readingHiragana": "かぶしきしじょう",
+      "meaning": "Stock market",
+      "source": "article",
+      "sourceId": "2026-06-13-spacex-greenshoe",
+      "sourceTitle": "スペースXのIPOで注目されたグリーンシュー",
+      "sourceLabel": "6/13 SpaceXのグリーンシュー",
+      "sourceHref": "./2026-06-13-spacex-greenshoe.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-13-spacex-greenshoe"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "友だちは株式市場より上場（じょうじょう）を先に覚えました。",
+          "en": "My friend remembered 上場（じょうじょう） before stock market."
+        },
+        {
+          "ja": "朝の電車で株式市場についての記事を読みました。",
+          "en": "On the morning train, I read an article about stock market."
+        },
+        {
+          "ja": "証券会社（しょうけんがいしゃ）の話を聞いて、株式市場を思い出しました。",
+          "en": "After hearing about 証券会社（しょうけんがいしゃ）, I remembered stock market."
+        },
+        {
+          "ja": "机の上に株式市場のメモを置きました。",
+          "en": "I put a note about stock market on the desk."
+        },
+        {
+          "ja": "学校で株式市場と投資家（とうしか）をノートに書きました。",
+          "en": "At school, I wrote stock market and 投資家（とうしか） in my notebook."
+        }
+      ]
+    },
+    {
+      "id": "article-97f3ca9211cbad",
+      "level": "N3",
+      "term": "投資家",
+      "reading": "とうしか",
+      "readingHiragana": "とうしか",
+      "meaning": "Investor",
+      "source": "article",
+      "sourceId": "2026-06-13-spacex-greenshoe",
+      "sourceTitle": "スペースXのIPOで注目されたグリーンシュー",
+      "sourceLabel": "6/13 SpaceXのグリーンシュー",
+      "sourceHref": "./2026-06-13-spacex-greenshoe.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-13-spacex-greenshoe"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "ニュースで投資家を見ました。",
+          "en": "I saw investor in the news."
+        },
+        {
+          "ja": "朝の電車で投資家についての記事を読みました。",
+          "en": "On the morning train, I read an article about investor."
+        },
+        {
+          "ja": "昨日の会話で投資家が何度も出ました。",
+          "en": "investor came up many times in yesterday's conversation."
+        },
+        {
+          "ja": "友だちに投資家の意味を聞かれました。",
+          "en": "A friend asked me the meaning of investor."
+        },
+        {
+          "ja": "友だちは投資家より株式市場（かぶしきしじょう）を先に覚えました。",
+          "en": "My friend remembered 株式市場（かぶしきしじょう） before investor."
+        }
+      ]
+    },
+    {
+      "id": "article-e5eb01327d3994",
+      "level": "N3",
+      "term": "証券会社",
+      "reading": "しょうけんがいしゃ",
+      "readingHiragana": "しょうけんがいしゃ",
+      "meaning": "Securities company / brokerage",
+      "source": "article",
+      "sourceId": "2026-06-13-spacex-greenshoe",
+      "sourceTitle": "スペースXのIPOで注目されたグリーンシュー",
+      "sourceLabel": "6/13 SpaceXのグリーンシュー",
+      "sourceHref": "./2026-06-13-spacex-greenshoe.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-13-spacex-greenshoe"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "家族に証券会社のニュースを話しました。",
+          "en": "I told my family the news about securities company."
+        },
+        {
+          "ja": "駅の近くで証券会社を探しました。",
+          "en": "I looked for securities company near the station."
+        },
+        {
+          "ja": "買い戻す（かいもどす）と証券会社を比べると、違いが分かります。",
+          "en": "When I compare 買い戻す（かいもどす） and securities company, I can see the difference."
+        },
+        {
+          "ja": "証券会社を聞いて、すぐ追加（ついか）を連想しました。",
+          "en": "When I heard securities company, I immediately associated it with 追加（ついか）."
+        },
+        {
+          "ja": "ニュースで証券会社を見ました。",
+          "en": "I saw securities company in the news."
+        }
+      ]
+    },
+    {
+      "id": "article-cd42f25e8c77b6",
+      "level": "N3",
+      "term": "買い戻す",
+      "reading": "かいもどす",
+      "readingHiragana": "かいもどす",
+      "meaning": "To buy back",
+      "source": "article",
+      "sourceId": "2026-06-13-spacex-greenshoe",
+      "sourceTitle": "スペースXのIPOで注目されたグリーンシュー",
+      "sourceLabel": "6/13 SpaceXのグリーンシュー",
+      "sourceHref": "./2026-06-13-spacex-greenshoe.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-13-spacex-greenshoe"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "値動き（ねうごき）の話を聞いて、買い戻すを思い出しました。",
+          "en": "After hearing about 値動き（ねうごき）, I remembered to buy back."
+        },
+        {
+          "ja": "ニュースで買い戻すを見ました。",
+          "en": "I saw to buy back in the news."
+        },
+        {
+          "ja": "昨日の会話で買い戻すが何度も出ました。",
+          "en": "to buy back came up many times in yesterday's conversation."
+        },
+        {
+          "ja": "朝の電車で買い戻すについての記事を読みました。",
+          "en": "On the morning train, I read an article about to buy back."
+        },
+        {
+          "ja": "友だちに買い戻すの意味を聞かれました。",
+          "en": "A friend asked me the meaning of to buy back."
+        }
+      ]
+    },
+    {
+      "id": "article-d906c876493dda",
+      "level": "N3",
+      "term": "追加",
+      "reading": "ついか",
+      "readingHiragana": "ついか",
+      "meaning": "Addition / Additional",
+      "source": "article",
+      "sourceId": "2026-06-13-spacex-greenshoe",
+      "sourceTitle": "スペースXのIPOで注目されたグリーンシュー",
+      "sourceLabel": "6/13 SpaceXのグリーンシュー",
+      "sourceHref": "./2026-06-13-spacex-greenshoe.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-13-spacex-greenshoe"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "追加を聞いて、すぐ安定（あんてい）を連想しました。",
+          "en": "When I heard addition, I immediately associated it with 安定（あんてい）."
+        },
+        {
+          "ja": "友だちに追加の意味を聞かれました。",
+          "en": "A friend asked me the meaning of addition."
+        },
+        {
+          "ja": "値動き（ねうごき）と追加を比べると、違いが分かります。",
+          "en": "When I compare 値動き（ねうごき） and addition, I can see the difference."
+        },
+        {
+          "ja": "友だちは追加より買い戻す（かいもどす）を先に覚えました。",
+          "en": "My friend remembered 買い戻す（かいもどす） before addition."
+        },
+        {
+          "ja": "ニュースで追加を見ました。",
+          "en": "I saw addition in the news."
+        }
+      ]
+    },
+    {
+      "id": "article-5c38569226717e",
+      "level": "N3",
+      "term": "値動き",
+      "reading": "ねうごき",
+      "readingHiragana": "ねうごき",
+      "meaning": "Price movement",
+      "source": "article",
+      "sourceId": "2026-06-13-spacex-greenshoe",
+      "sourceTitle": "スペースXのIPOで注目されたグリーンシュー",
+      "sourceLabel": "6/13 SpaceXのグリーンシュー",
+      "sourceHref": "./2026-06-13-spacex-greenshoe.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-13-spacex-greenshoe"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "追加（ついか）を調べていたら、値動きも見つかりました。",
+          "en": "While looking up 追加（ついか）, I also found price movement."
+        },
+        {
+          "ja": "家族に値動きのニュースを話しました。",
+          "en": "I told my family the news about price movement."
+        },
+        {
+          "ja": "机の上に値動きのメモを置きました。",
+          "en": "I put a note about price movement on the desk."
+        },
+        {
+          "ja": "先生が値動きについて説明しました。",
+          "en": "The teacher explained price movement."
+        },
+        {
+          "ja": "駅の近くで値動きを探しました。",
+          "en": "I looked for price movement near the station."
+        }
+      ]
+    },
+    {
+      "id": "article-98b17d7e346692",
+      "level": "N3",
+      "term": "安定",
+      "reading": "あんてい",
+      "readingHiragana": "あんてい",
+      "meaning": "Stability",
+      "source": "article",
+      "sourceId": "2026-06-13-spacex-greenshoe",
+      "sourceTitle": "スペースXのIPOで注目されたグリーンシュー",
+      "sourceLabel": "6/13 SpaceXのグリーンシュー",
+      "sourceHref": "./2026-06-13-spacex-greenshoe.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-13-spacex-greenshoe"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "昨日の会話で安定が何度も出ました。",
+          "en": "stability came up many times in yesterday's conversation."
+        },
+        {
+          "ja": "学校で安定と値動き（ねうごき）をノートに書きました。",
+          "en": "At school, I wrote stability and 値動き（ねうごき） in my notebook."
+        },
+        {
+          "ja": "朝の電車で安定についての記事を読みました。",
+          "en": "On the morning train, I read an article about stability."
+        },
+        {
+          "ja": "追加（ついか）を調べていたら、安定も見つかりました。",
+          "en": "While looking up 追加（ついか）, I also found stability."
+        },
+        {
+          "ja": "先生が安定について説明しました。",
+          "en": "The teacher explained stability."
         }
       ]
     },
