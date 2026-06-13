@@ -2,12 +2,12 @@
   "quizzes": [
     {
       "id": "station-bento-twist",
-      "title": "Station Bento Mystery",
-      "kicker": "Japanese Reading Quiz",
+      "title": "駅弁ミステリー",
+      "kicker": "日本語読解クイズ",
       "level": "N4",
-      "question": "Why did the station master say the bento was \"late\"?",
-      "footerLeft": "Full passage in comments",
-      "footerRight": "Choose A-D",
+      "question": "駅長は、なぜ弁当が「遅刻した」と言いましたか？",
+      "footerLeft": "全文はコメントへ",
+      "footerRight": "A-Dで答えてね",
       "answerId": "d",
       "passage": [
         {
@@ -34,19 +34,19 @@
       "options": [
         {
           "id": "a",
-          "label": "Because the train arrived at nine"
+          "label": "電車が九時に着いたから"
         },
         {
           "id": "b",
-          "label": "Because the owner missed breakfast"
+          "label": "持ち主が朝ごはんに遅れたから"
         },
         {
           "id": "c",
-          "label": "Because the station master forgot it"
+          "label": "駅長が弁当を忘れたから"
         },
         {
           "id": "d",
-          "label": "Because an alarm clock was hidden inside"
+          "label": "目覚まし時計が中に隠れていたから"
         }
       ]
     }

@@ -337,7 +337,7 @@ def render_quiz_html(quiz: dict, options: RenderOptions) -> str:
         for index, option in enumerate(quiz.get("options", []))
     )
     level = str(quiz.get("level", ""))
-    meta = f"{level} · Multiple choice" if level else "Multiple choice"
+    meta = f"{level} · 選択問題" if level else "選択問題"
     return f"""<!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -432,7 +432,7 @@ def render_quiz_html(quiz: dict, options: RenderOptions) -> str:
 {option_html}
                 </ol>
                 <footer class="stage-footer">
-                    <span>{escape(str(quiz.get("footerLeft", "Full passage in comments")))}</span>
+                    <span>{escape(str(quiz.get("footerLeft", "全文はコメントへ")))}</span>
                     <span>{escape(str(quiz.get("footerRight", "Choose A-D")))}</span>
                 </footer>
             </article>

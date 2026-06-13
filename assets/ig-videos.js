@@ -80,11 +80,11 @@ function renderQuiz(quiz) {
 
     elements.kicker.textContent = quiz.kicker;
     elements.title.textContent = quiz.title;
-    elements.meta.textContent = quiz.level ? `${quiz.level} · Multiple choice` : 'Multiple choice';
+    elements.meta.textContent = quiz.level ? `${quiz.level} · 選択問題` : '選択問題';
     elements.question.textContent = quiz.question;
-    elements.footerLeft.textContent = quiz.footerLeft || 'Read the passage in comments';
+    elements.footerLeft.textContent = quiz.footerLeft || '全文はコメントへ';
     elements.footerRight.textContent = quiz.footerRight || 'A-D';
-    elements.answerLabel.textContent = correct ? `Answer: ${correct.label}` : '';
+    elements.answerLabel.textContent = correct ? `答え: ${correct.label}` : '';
     elements.commentText.value = buildCommentText(quiz);
     elements.optionList.innerHTML = quiz.options.map((option, index) => `
         <li class="option-card">
