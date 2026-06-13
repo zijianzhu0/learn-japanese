@@ -1,0 +1,54 @@
+{
+  "quizzes": [
+    {
+      "id": "station-bento-twist",
+      "title": "Station Bento Mystery",
+      "kicker": "Japanese Reading Quiz",
+      "level": "N4",
+      "question": "Why did the station master say the bento was \"late\"?",
+      "footerLeft": "Full passage in comments",
+      "footerRight": "Choose A-D",
+      "answerId": "d",
+      "passage": [
+        {
+          "jp": "小さな駅で、駅長は毎朝、忘れ物を調べます。",
+          "en": "At a small station, the station master checks lost items every morning."
+        },
+        {
+          "jp": "ある日、ベンチの下に温かい弁当がありました。",
+          "en": "One day, there was a warm bento under a bench."
+        },
+        {
+          "jp": "名前はなく、ふたに「九時に起こして」と書いてありました。",
+          "en": "There was no name, but the lid said, \"Wake me at nine.\""
+        },
+        {
+          "jp": "駅長が九時にふたを開けると、小さな目覚まし時計が鳴りました。",
+          "en": "When the station master opened it at nine, a tiny alarm clock rang."
+        },
+        {
+          "jp": "その下には、冷たいおにぎりと「遅刻したのは弁当です」というメモがありました。",
+          "en": "Under it were cold rice balls and a note saying, \"The one that was late was the bento.\""
+        }
+      ],
+      "options": [
+        {
+          "id": "a",
+          "label": "Because the train arrived at nine"
+        },
+        {
+          "id": "b",
+          "label": "Because the owner missed breakfast"
+        },
+        {
+          "id": "c",
+          "label": "Because the station master forgot it"
+        },
+        {
+          "id": "d",
+          "label": "Because an alarm clock was hidden inside"
+        }
+      ]
+    }
+  ]
+}

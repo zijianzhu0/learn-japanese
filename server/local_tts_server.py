@@ -21,10 +21,10 @@ from scripts.render_video import (
     DEFAULT_VOICEVOX_TIMEOUT,
     RenderOptions,
     find_article,
-    find_vocab_items,
+    find_video_quiz,
+    quiz_video_filename,
     render_article_video,
-    render_vocab_video,
-    vocab_video_filename,
+    render_quiz_video,
 )
 
 
@@ -69,8 +69,8 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
             self.handle_video_render_url()
             return
 
-        if self.path == "/api/video/render-vocab-url":
-            self.handle_vocab_video_render_url()
+        if self.path == "/api/video/render-quiz-url":
+            self.handle_quiz_video_render_url()
             return
 
         self.send_json(404, {"ok": False, "error": "Unknown API endpoint."})
@@ -248,17 +248,17 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
             },
         )
 
-    def handle_vocab_video_render_url(self) -> None:
+    def handle_quiz_video_render_url(self) -> None:
         try:
-            items, item_ids, speaker = self.parse_vocab_video_request()
+            quiz = self.parse_quiz_video_request()
             VIDEO_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-            filename = vocab_video_filename(item_ids)
+            filename = quiz_video_filename(quiz["id"])
             output_path = VIDEO_OUTPUT_DIR / filename
-            temp_dir = tempfile.TemporaryDirectory(prefix="learn-japanese-vocab-render-")
+            temp_dir = tempfile.TemporaryDirectory(prefix="learn-japanese-quiz-render-")
             temp_output_path = Path(temp_dir.name) / filename
             try:
-                options = RenderOptions(article_id="ig-vocabulary", speaker=speaker)
-                render_vocab_video(items, temp_output_path, options, DEFAULT_VOICEVOX_TIMEOUT)
+                options = RenderOptions(article_id=quiz["id"])
+                render_quiz_video(quiz, temp_output_path, options)
                 shutil.move(str(temp_output_path), str(output_path))
                 version = str(output_path.stat().st_mtime_ns)
             finally:
@@ -269,37 +269,35 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
         except SystemExit as exc:
             self.send_json(500, {"ok": False, "error": str(exc)})
             return
+        except subprocess.CalledProcessError as exc:
+            detail = exc.stderr.decode("utf-8", errors="replace").strip() if exc.stderr else str(exc)
+            self.send_json(500, {"ok": False, "error": f"Quiz video render failed: {detail}"})
+            return
 
         self.send_json(
             200,
             {
                 "ok": True,
+                "quiz_id": quiz["id"],
                 "filename": filename,
                 "download_url": self.build_download_url(filename, version),
             },
         )
 
-    def parse_vocab_video_request(self) -> tuple[list[dict], list[str], int]:
+    def parse_quiz_video_request(self) -> dict:
         try:
             payload = self.read_json_body()
-            item_ids = payload.get("item_ids", [])
-            speaker_value = payload.get("speaker")
-            speaker = int(speaker_value) if speaker_value is not None else DEFAULT_VOICEVOX_SPEAKER
+            quiz_id = str(payload.get("quiz_id", "")).strip()
         except (ValueError, TypeError, json.JSONDecodeError) as exc:
             raise VideoRenderRequestError(400, f"Invalid JSON request: {exc}") from exc
 
-        if not isinstance(item_ids, list) or not all(isinstance(item_id, str) for item_id in item_ids):
-            raise VideoRenderRequestError(400, "item_ids must be an array of strings.")
-
-        if len(item_ids) != 5:
-            raise VideoRenderRequestError(400, "Exactly five vocabulary item IDs are required.")
+        if not quiz_id:
+            raise VideoRenderRequestError(400, "Missing quiz_id.")
 
         try:
-            items = find_vocab_items(item_ids)
+            return find_video_quiz(quiz_id)
         except ValueError as exc:
             raise VideoRenderRequestError(404, str(exc)) from exc
-
-        return items, item_ids, speaker
 
     def render_video_to_temp_file(self) -> tuple[dict, Path, tempfile.TemporaryDirectory]:
         try:

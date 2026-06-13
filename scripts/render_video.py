@@ -13,7 +13,6 @@ import tempfile
 import time
 import wave
 from dataclasses import dataclass
-from hashlib import sha1
 from html import escape
 from html.parser import HTMLParser
 from pathlib import Path
@@ -22,7 +21,7 @@ from urllib import error, parse, request
 
 ROOT = Path(__file__).resolve().parent.parent
 ARTICLES_MANIFEST = ROOT / "data" / "articles.json"
-FLASHCARDS_MANIFEST = ROOT / "data" / "flashcards.json"
+VIDEO_QUIZZES_MANIFEST = ROOT / "data" / "video-quizzes.json"
 ARTICLE_CSS = ROOT / "assets" / "article.css"
 IG_VIDEOS_CSS = ROOT / "assets" / "ig-videos.css"
 VOICEVOX_BASE_URL = os.environ.get("VOICEVOX_BASE_URL", "http://127.0.0.1:50021")
@@ -50,13 +49,6 @@ class Segment:
     text: str
     title_html: str
     paragraph_htmls: list[str]
-
-
-@dataclass
-class VocabSegment:
-    key: str
-    text: str
-    active_index: int
 
 
 class BaseTextParser(HTMLParser):
@@ -145,26 +137,16 @@ def find_article(article_ref: str) -> dict:
     raise ValueError(f"Article not found: {article_ref}")
 
 
-def load_flashcard_items() -> list[dict]:
-    manifest = json.loads(FLASHCARDS_MANIFEST.read_text(encoding="utf-8"))
-    return list(manifest.get("items", []))
+def load_video_quizzes() -> list[dict]:
+    manifest = json.loads(VIDEO_QUIZZES_MANIFEST.read_text(encoding="utf-8"))
+    return list(manifest.get("quizzes", []))
 
 
-def find_vocab_items(item_ids: list[str]) -> list[dict]:
-    items_by_id = {item["id"]: item for item in load_flashcard_items()}
-    selected = []
-    missing = []
-    for item_id in item_ids:
-        item = items_by_id.get(item_id)
-        if item:
-            selected.append(item)
-        else:
-            missing.append(item_id)
-    if missing:
-        raise ValueError(f"Vocabulary item not found: {', '.join(missing)}")
-    if len(selected) != 5:
-        raise ValueError("Vocabulary videos require exactly five items.")
-    return selected
+def find_video_quiz(quiz_id: str) -> dict:
+    for quiz in load_video_quizzes():
+        if quiz.get("id") == quiz_id:
+            return quiz
+    raise ValueError(f"Quiz not found: {quiz_id}")
 
 
 def highlighted(html: str, active: bool) -> str:
@@ -207,37 +189,6 @@ def build_segments(article: dict) -> list[Segment]:
                 )
             )
     return segments
-
-
-def vocab_term(item: dict) -> str:
-    return str(item.get("term", "")).split("/")[0].strip()
-
-
-def vocab_reading(item: dict) -> str:
-    return str(item.get("readingHiragana") or item.get("reading") or "").split("/")[0].strip()
-
-
-def vocab_meaning(item: dict) -> str:
-    return str(item.get("meaning") or "").split(";")[0].strip()
-
-
-def vocab_ruby_html(item: dict) -> str:
-    term = vocab_term(item)
-    reading = vocab_reading(item)
-    if not reading or reading == term:
-        return escape(term)
-    return f"<ruby>{escape(term)}<rt>{escape(reading)}</rt></ruby>"
-
-
-def build_vocab_segments(items: list[dict]) -> list[VocabSegment]:
-    return [
-        VocabSegment(
-            key=f"word-{index + 1}",
-            text=vocab_term(item),
-            active_index=index,
-        )
-        for index, item in enumerate(items)
-    ]
 
 
 def voicevox_request(
@@ -376,21 +327,17 @@ window.addEventListener('load', fitRecordingPageText);
 """
 
 
-def render_vocab_html(items: list[dict], segment: VocabSegment, options: RenderOptions) -> str:
+def render_quiz_html(quiz: dict, options: RenderOptions) -> str:
     css = IG_VIDEOS_CSS.read_text(encoding="utf-8")
-    levels = sorted({str(item.get("level", "")) for item in items if item.get("level")})
-    level_label = "Mixed JLPT" if len(levels) != 1 else levels[0]
-    words_html = "\n".join(
-        f"""                    <li class="word-card{' is-speaking' if index == segment.active_index else ''}">
-                        <span class="word-index">{index + 1}</span>
-                        <span class="word-main">
-                            <span class="word-term">{vocab_ruby_html(item)}</span>
-                            <span class="word-meaning">{escape(vocab_meaning(item))}</span>
-                        </span>
-                        <span class="level-pill">{escape(str(item.get("level", "")))}</span>
+    option_html = "\n".join(
+        f"""                    <li class="option-card">
+                        <span class="option-letter">{chr(65 + index)}</span>
+                        <span class="option-text">{escape(str(option.get("label", "")))}</span>
                     </li>"""
-        for index, item in enumerate(items)
+        for index, option in enumerate(quiz.get("options", []))
     )
+    level = str(quiz.get("level", ""))
+    meta = f"{level} · Multiple choice" if level else "Multiple choice"
     return f"""<!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -411,7 +358,7 @@ def render_vocab_html(items: list[dict], segment: VocabSegment, options: RenderO
         .control-panel {{
             display: none;
         }}
-        .video-workspace {{
+        .quiz-workspace {{
             display: block;
             width: {options.frame_width}px;
             margin: 0;
@@ -427,7 +374,7 @@ def render_vocab_html(items: list[dict], segment: VocabSegment, options: RenderO
             box-shadow: none;
             background: #121820;
         }}
-        .ig-stage {{
+        .quiz-stage {{
             width: {options.frame_width}px;
             height: {options.frame_height}px;
             border-radius: 0;
@@ -438,46 +385,55 @@ def render_vocab_html(items: list[dict], segment: VocabSegment, options: RenderO
             font-size: 34px;
         }}
         .stage-header h1 {{
-            font-size: 76px;
+            font-size: 72px;
         }}
-        .word-card {{
-            gap: 28px;
-            padding: 26px 30px;
+        .question-block {{
+            min-height: 280px;
+            margin: 42px 0;
+            padding: 34px 38px;
             border-radius: 18px;
         }}
-        .word-index {{
-            width: 72px;
-            height: 72px;
-            font-size: 28px;
+        .question-block p {{
+            font-size: 52px;
         }}
-        .word-term {{
-            font-size: 68px;
+        .option-list {{
+            gap: 28px;
+            margin-bottom: 42px;
         }}
-        .word-meaning {{
-            font-size: 32px;
+        .option-card {{
+            gap: 28px;
+            padding: 30px 34px;
+            border-radius: 18px;
         }}
-        .level-pill {{
-            padding: 10px 16px;
-            font-size: 26px;
+        .option-letter {{
+            width: 76px;
+            height: 76px;
+            font-size: 30px;
+        }}
+        .option-text {{
+            font-size: 44px;
         }}
     </style>
 </head>
 <body>
-<main class="video-workspace">
-    <section class="preview-column" aria-label="IG video preview">
+<main class="quiz-workspace">
+    <section class="preview-column" aria-label="Quiz video preview">
         <div class="phone-frame">
-            <article class="ig-stage">
+            <article class="quiz-stage">
                 <header class="stage-header">
-                    <span class="stage-kicker">日本語 Vocabulary</span>
-                    <h1>{escape(level_label)} · 5 words</h1>
-                    <span class="stage-meta">9:16 · 1080x1920</span>
+                    <span class="stage-kicker">{escape(str(quiz.get("kicker", "Japanese Reading Quiz")))}</span>
+                    <h1>{escape(str(quiz.get("title", "")))}</h1>
+                    <span class="stage-meta">{escape(meta)}</span>
                 </header>
-                <ol class="word-list">
-{words_html}
+                <section class="question-block">
+                    <p>{escape(str(quiz.get("question", "")))}</p>
+                </section>
+                <ol class="option-list">
+{option_html}
                 </ol>
                 <footer class="stage-footer">
-                    <span>Read. Listen. Repeat.</span>
-                    <span>{segment.active_index + 1}/5</span>
+                    <span>{escape(str(quiz.get("footerLeft", "Full passage in comments")))}</span>
+                    <span>{escape(str(quiz.get("footerRight", "Choose A-D")))}</span>
                 </footer>
             </article>
         </div>
@@ -563,6 +519,35 @@ def render_segment_video(
     )
 
 
+def render_still_video(image_path: Path, duration: float, output_path: Path, options: RenderOptions) -> None:
+    run(
+        [
+            "ffmpeg",
+            "-y",
+            "-hide_banner",
+            "-loglevel",
+            "error",
+            "-loop",
+            "1",
+            "-framerate",
+            str(options.frame_rate),
+            "-i",
+            str(image_path),
+            "-t",
+            f"{duration:.3f}",
+            "-c:v",
+            "libx264",
+            "-pix_fmt",
+            "yuv420p",
+            "-preset",
+            "veryfast",
+            "-movflags",
+            "+faststart",
+            str(output_path),
+        ]
+    )
+
+
 def concatenate_segments(segment_paths: list[Path], concat_path: Path, output_path: Path) -> None:
     concat_path.write_text(
         "\n".join(f"file '{path.as_posix()}'" for path in segment_paths),
@@ -623,42 +608,25 @@ def render_article_video(
         concatenate_segments(segment_paths, temp_path / "segments.txt", output_path)
 
 
-def render_vocab_video(
-    items: list[dict],
-    output_path: Path,
-    options: RenderOptions,
-    voicevox_timeout: float = DEFAULT_VOICEVOX_TIMEOUT,
-) -> None:
+def render_quiz_video(quiz: dict, output_path: Path, options: RenderOptions) -> None:
     if not shutil.which("ffmpeg"):
         raise SystemExit("ffmpeg is required for CLI video rendering.")
 
-    wait_for_voicevox(voicevox_timeout)
-    segments = build_vocab_segments(items)
     chromium = chromium_command()
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
-    with tempfile.TemporaryDirectory(prefix="learn-japanese-vocab-render-") as temp_dir:
+    with tempfile.TemporaryDirectory(prefix="learn-japanese-quiz-render-") as temp_dir:
         temp_path = Path(temp_dir)
-        segment_paths = []
-        for index, segment in enumerate(segments, start=1):
-            print(f"[{index}/{len(segments)}] {segment.text}", flush=True)
-            html_path = temp_path / f"{index:03d}-{segment.key}.html"
-            image_path = temp_path / f"{index:03d}-{segment.key}.png"
-            audio_path = temp_path / f"{index:03d}-{segment.key}.wav"
-            video_path = temp_path / f"{index:03d}-{segment.key}.mp4"
-
-            html_path.write_text(render_vocab_html(items, segment, options), encoding="utf-8")
-            audio_path.write_bytes(synthesize_sentence(segment.text, options.speaker))
-            render_screenshot(chromium, html_path, image_path, options)
-            render_segment_video(image_path, audio_path, wav_duration(audio_path), video_path, options)
-            segment_paths.append(video_path)
-
-        concatenate_segments(segment_paths, temp_path / "segments.txt", output_path)
+        html_path = temp_path / "quiz.html"
+        image_path = temp_path / "quiz.png"
+        html_path.write_text(render_quiz_html(quiz, options), encoding="utf-8")
+        render_screenshot(chromium, html_path, image_path, options)
+        render_still_video(image_path, 8.0, output_path, options)
 
 
-def vocab_video_filename(item_ids: list[str]) -> str:
-    digest = sha1("\n".join(item_ids).encode("utf-8")).hexdigest()[:10]
-    return f"ig-vocabulary-{digest}.mp4"
+def quiz_video_filename(quiz_id: str) -> str:
+    slug = re.sub(r"[^a-zA-Z0-9_-]+", "-", quiz_id).strip("-") or "story-quiz"
+    return f"story-quiz-{slug}.mp4"
 
 
 def render_video(article: dict, output_path: Path, speaker: int, voicevox_timeout: float) -> None:

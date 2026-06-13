@@ -176,13 +176,13 @@ function renderTopNavigation() {
 
     const homeIcon = '<svg class="nav-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11.5 12 4l9 7.5"></path><path d="M6.5 10.5V20h15v-9.5"></path><path d="M10 20v-5h4v5"></path></svg>';
     const flashcardsIcon = '<svg class="nav-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h9A2.5 2.5 0 0 1 18 6.5v11A2.5 2.5 0 0 1 15.5 20h-9A2.5 2.5 0 0 1 4 17.5z"></path><path d="M8 8h6"></path><path d="M8 12h8"></path><path d="M8 16h4"></path></svg>';
-    const videoIcon = '<svg class="nav-svg" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2"></rect><path d="M9 7h6"></path><path d="M9 11h6"></path><path d="M9 15h4"></path></svg>';
+    const videoIcon = '<svg class="nav-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 9a3 3 0 1 1 5.4 1.8c-.8.6-1.4 1.1-1.4 2.2"></path><path d="M12 17h.01"></path><rect x="4" y="3" width="16" height="18" rx="2"></rect></svg>';
     const nextIcon = '<svg class="nav-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg>';
     const lastIcon = '<svg class="nav-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="m7 18 6-6-6-6"></path><path d="M17 6v12"></path></svg>';
     const links = [
         topNavLink('./index.html', 'Home', 'Home', homeIcon),
         topNavLink('./flashcards.html', 'Flashcards', 'Flashcards', flashcardsIcon),
-        topNavLink('./ig-videos.html', 'IG Videos', 'IG videos', videoIcon)
+        topNavLink('./ig-videos.html', 'Quiz Videos', 'Quiz videos', videoIcon)
     ];
 
     if (articleNavigation.length > 0) {
@@ -242,7 +242,7 @@ function renderArticleNavigation() {
         <h2 class="site-title">Japanese learning board</h2>
         <p class="site-subtitle">Quick links to every article.</p>
         <a class="article-nav-link article-utility-link" href="./flashcards.html">Flashcards</a>
-        <a class="article-nav-link article-utility-link" href="./ig-videos.html">IG Videos</a>
+        <a class="article-nav-link article-utility-link" href="./ig-videos.html">Quiz Videos</a>
         <nav class="desktop-article-nav">${groupsHtml}
         </nav>
         <details class="mobile-article-menu">

@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IG Vocabulary Videos</title>
+    <title>Story Quiz Videos</title>
     <link rel="icon" type="image/svg+xml" href="./favicon.svg">
-    <link rel="stylesheet" href="./assets/ig-videos.css?v=e4d8695903d7">
+    <link rel="stylesheet" href="./assets/ig-videos.css?v=f87bcc4134f6">
 </head>
 <body>
 <nav class="top-nav" aria-label="Page navigation">
@@ -26,90 +26,66 @@
         </svg>
         <span class="icon-label">Flashcards</span>
     </a>
-    <a class="top-nav-link is-current" href="./ig-videos.html" aria-label="IG Videos" title="IG videos" aria-current="page">
+    <a class="top-nav-link is-current" href="./ig-videos.html" aria-label="Quiz Videos" title="Quiz videos" aria-current="page">
         <svg class="nav-svg" viewBox="0 0 24 24" aria-hidden="true">
-            <rect x="5" y="3" width="14" height="18" rx="2"></rect>
-            <path d="M9 7h6"></path>
-            <path d="M9 11h6"></path>
-            <path d="M9 15h4"></path>
+            <path d="M9 9a3 3 0 1 1 5.4 1.8c-.8.6-1.4 1.1-1.4 2.2"></path>
+            <path d="M12 17h.01"></path>
+            <rect x="4" y="3" width="16" height="18" rx="2"></rect>
         </svg>
-        <span class="icon-label">IG Videos</span>
+        <span class="icon-label">Quiz Videos</span>
     </a>
 </nav>
 
-<main class="video-workspace">
-    <section class="control-panel" aria-label="Video controls">
-        <div class="control-row">
-            <label class="control-field">
-                <span>Level</span>
-                <select id="level-filter">
-                    <option value="all">All</option>
-                    <option value="N5">N5</option>
-                    <option value="N4">N4</option>
-                    <option value="N3">N3</option>
-                </select>
-            </label>
-            <label class="control-field">
-                <span>Source</span>
-                <select id="source-filter">
-                    <option value="all">All</option>
-                    <option value="core">Core</option>
-                    <option value="article">Articles</option>
-                </select>
-            </label>
-            <label class="control-field">
-                <span>Voice</span>
-                <select id="docker-voice">
-                    <option value="9">VOICEVOX speaker 9</option>
-                </select>
-            </label>
-        </div>
+<main class="quiz-workspace">
+    <section class="control-panel" aria-label="Quiz video controls">
+        <label class="control-field">
+            <span>Story</span>
+            <select id="quiz-select"></select>
+        </label>
 
         <div class="button-row">
-            <button class="icon-text-button" type="button" id="previous-set">
-                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"></path></svg>
-                <span>Previous</span>
-            </button>
-            <button class="icon-text-button" type="button" id="shuffle-set">
-                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m16 3 4 4-4 4"></path><path d="M20 7h-6a4 4 0 0 0-4 4v2"></path><path d="m8 21-4-4 4-4"></path><path d="M4 17h6a4 4 0 0 0 4-4v-2"></path></svg>
-                <span>Shuffle</span>
-            </button>
-            <button class="icon-text-button" type="button" id="next-set">
-                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg>
-                <span>Next</span>
-            </button>
-            <button class="primary-button" type="button" id="read-set">
-                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"></path></svg>
-                <span>Read</span>
+            <button class="primary-button" type="button" id="copy-comment">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                <span>Copy Comment Text</span>
             </button>
             <button class="render-button" type="button" id="render-video">
                 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12"></path><path d="m7 10 5 5 5-5"></path><path d="M5 21h14"></path></svg>
-                <span>MP4</span>
+                <span>Render MP4</span>
             </button>
         </div>
 
-        <div class="status-line" id="status-line" aria-live="polite">Loading vocabulary...</div>
+        <div class="status-line" id="status-line" aria-live="polite">Loading quiz...</div>
+
+        <section class="comment-panel" aria-label="Comment text">
+            <div class="panel-heading">
+                <h2>Comment Text</h2>
+                <span id="answer-label"></span>
+            </div>
+            <textarea id="comment-text" readonly spellcheck="false"></textarea>
+        </section>
     </section>
 
-    <section class="preview-column" aria-label="IG video preview">
+    <section class="preview-column" aria-label="Quiz video preview">
         <div class="phone-frame">
-            <article class="ig-stage" id="ig-stage">
+            <article class="quiz-stage" id="quiz-stage">
                 <header class="stage-header">
-                    <span class="stage-kicker">日本語 Vocabulary</span>
-                    <h1 id="stage-title">5 words</h1>
-                    <span class="stage-meta" id="stage-meta">9:16 · 1080x1920</span>
+                    <span class="stage-kicker" id="stage-kicker">Japanese Reading Quiz</span>
+                    <h1 id="stage-title">What happened?</h1>
+                    <span class="stage-meta" id="stage-meta">Choose one answer</span>
                 </header>
-                <ol class="word-list" id="word-list"></ol>
+                <section class="question-block">
+                    <p id="quiz-question"></p>
+                </section>
+                <ol class="option-list" id="option-list"></ol>
                 <footer class="stage-footer">
-                    <span>Read. Listen. Repeat.</span>
-                    <span id="set-counter">Set 1</span>
+                    <span id="stage-footer-left">Read the passage in comments</span>
+                    <span id="stage-footer-right">A-D</span>
                 </footer>
             </article>
         </div>
     </section>
 </main>
 
-<audio id="tts-player" hidden preload="none"></audio>
-<script src="./assets/ig-videos.js?v=431888ee91c8"></script>
+<script src="./assets/ig-videos.js?v=0b8fafc170a5"></script>
 </body>
 </html>
