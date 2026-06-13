@@ -378,6 +378,7 @@ def render_quiz_html(quiz: dict, options: RenderOptions) -> str:
             width: {options.frame_width}px;
             height: {options.frame_height}px;
             border-radius: 0;
+            padding: 170px 110px 145px;
         }}
         .stage-kicker,
         .stage-meta,
@@ -385,24 +386,24 @@ def render_quiz_html(quiz: dict, options: RenderOptions) -> str:
             font-size: 34px;
         }}
         .stage-header h1 {{
-            font-size: 72px;
+            font-size: 68px;
         }}
         .question-block {{
-            min-height: 280px;
-            margin: 42px 0;
-            padding: 34px 38px;
+            min-height: 250px;
+            margin: 34px 0;
+            padding: 30px 34px;
             border-radius: 18px;
         }}
         .question-block p {{
-            font-size: 52px;
+            font-size: 48px;
         }}
         .option-list {{
-            gap: 28px;
-            margin-bottom: 42px;
+            gap: 24px;
+            margin-bottom: 34px;
         }}
         .option-card {{
-            gap: 28px;
-            padding: 30px 34px;
+            gap: 24px;
+            padding: 26px 30px;
             border-radius: 18px;
         }}
         .option-letter {{
@@ -411,7 +412,7 @@ def render_quiz_html(quiz: dict, options: RenderOptions) -> str:
             font-size: 30px;
         }}
         .option-text {{
-            font-size: 44px;
+            font-size: 40px;
         }}
     </style>
 </head>

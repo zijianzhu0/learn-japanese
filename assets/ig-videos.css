@@ -232,7 +232,7 @@ textarea {
     height: 100%;
     overflow: hidden;
     border-radius: 20px;
-    padding: 7.4% 6.5% 5.8%;
+    padding: 9.2% 8.6% 7.8%;
     color: #17212b;
     background: #fbfaf7;
 }
@@ -265,7 +265,7 @@ textarea {
     display: grid;
     align-items: center;
     min-height: 104px;
-    margin: 14px 0;
+    margin: 13px 0;
     padding: 14px 16px;
     border: 2px solid #d7e1dd;
     border-radius: 8px;
@@ -283,9 +283,9 @@ textarea {
 .option-list {
     display: grid;
     grid-template-rows: repeat(4, minmax(0, 1fr));
-    gap: 12px;
+    gap: 10px;
     min-height: 0;
-    margin: 0 0 16px;
+    margin: 0 0 14px;
     padding: 0;
     list-style: none;
 }
@@ -296,7 +296,7 @@ textarea {
     gap: 12px;
     align-items: center;
     min-width: 0;
-    padding: 14px;
+    padding: 12px;
     border: 2px solid #dde5e0;
     border-radius: 8px;
     background: var(--option);
