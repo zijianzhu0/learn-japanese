@@ -4,7 +4,7 @@
     "articleManifest": "data/articles.json"
   },
   "levels": {
-    "N3": 3160,
+    "N3": 3168,
     "N4": 1271,
     "N5": 1053
   },
@@ -213706,6 +213706,318 @@
         {
           "ja": "友だちと頭痛について話しました。",
           "en": "I talked with a friend about headache."
+        }
+      ]
+    },
+    {
+      "id": "article-b3a6a7c4f3dfd6",
+      "level": "N3",
+      "term": "引き分け",
+      "reading": "ひきわけ",
+      "readingHiragana": "ひきわけ",
+      "meaning": "Draw / Tie",
+      "source": "article",
+      "sourceId": "2026-06-14-brazil-morocco-draw",
+      "sourceTitle": "ブラジルとモロッコがワールドカップで引き分けた",
+      "sourceLabel": "6/14 ブラジル対モロッコ",
+      "sourceHref": "./2026-06-14-brazil-morocco-draw.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-14-brazil-morocco-draw"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "この話は引き分けとよく関係しています。",
+          "en": "This story is closely related to draw."
+        },
+        {
+          "ja": "旅行の前に引き分けを確認しました。",
+          "en": "I checked draw before the trip."
+        },
+        {
+          "ja": "この本には引き分けの説明があります。",
+          "en": "This book has an explanation of draw."
+        },
+        {
+          "ja": "授業で引き分けを初めて知りました。",
+          "en": "I learned about draw for the first time in class."
+        },
+        {
+          "ja": "友だちと引き分けについて話しました。",
+          "en": "I talked with a friend about draw."
+        }
+      ]
+    },
+    {
+      "id": "article-36600253a7d086",
+      "level": "N3",
+      "term": "試合",
+      "reading": "しあい",
+      "readingHiragana": "しあい",
+      "meaning": "Match / Game",
+      "source": "article",
+      "sourceId": "2026-06-14-brazil-morocco-draw",
+      "sourceTitle": "ブラジルとモロッコがワールドカップで引き分けた",
+      "sourceLabel": "6/14 ブラジル対モロッコ",
+      "sourceHref": "./2026-06-14-brazil-morocco-draw.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-14-brazil-morocco-draw"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "この本には試合の説明があります。",
+          "en": "This book has an explanation of match."
+        },
+        {
+          "ja": "友だちと試合について話しました。",
+          "en": "I talked with a friend about match."
+        },
+        {
+          "ja": "ニュースで試合の話を読みました。",
+          "en": "I read a story about match in the news."
+        },
+        {
+          "ja": "旅行の前に試合を確認しました。",
+          "en": "I checked match before the trip."
+        },
+        {
+          "ja": "最近、試合の話題が多いです。",
+          "en": "There has been a lot of talk about match lately."
+        }
+      ]
+    },
+    {
+      "id": "article-325275ef8aaf03",
+      "level": "N3",
+      "term": "優勝",
+      "reading": "ゆうしょう",
+      "readingHiragana": "ゆうしょう",
+      "meaning": "Championship / Tournament victory",
+      "source": "article",
+      "sourceId": "2026-06-14-brazil-morocco-draw",
+      "sourceTitle": "ブラジルとモロッコがワールドカップで引き分けた",
+      "sourceLabel": "6/14 ブラジル対モロッコ",
+      "sourceHref": "./2026-06-14-brazil-morocco-draw.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-14-brazil-morocco-draw"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "この本には優勝の説明があります。",
+          "en": "This book has an explanation of championship."
+        },
+        {
+          "ja": "授業で優勝を初めて知りました。",
+          "en": "I learned about championship for the first time in class."
+        },
+        {
+          "ja": "この話は優勝とよく関係しています。",
+          "en": "This story is closely related to championship."
+        },
+        {
+          "ja": "友だちと優勝について話しました。",
+          "en": "I talked with a friend about championship."
+        },
+        {
+          "ja": "最近、優勝の話題が多いです。",
+          "en": "There has been a lot of talk about championship lately."
+        }
+      ]
+    },
+    {
+      "id": "article-75b4c517ee7d5f",
+      "level": "N3",
+      "term": "前半",
+      "reading": "ぜんはん",
+      "readingHiragana": "ぜんはん",
+      "meaning": "First half",
+      "source": "article",
+      "sourceId": "2026-06-14-brazil-morocco-draw",
+      "sourceTitle": "ブラジルとモロッコがワールドカップで引き分けた",
+      "sourceLabel": "6/14 ブラジル対モロッコ",
+      "sourceHref": "./2026-06-14-brazil-morocco-draw.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-14-brazil-morocco-draw"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "最近、前半の話題が多いです。",
+          "en": "There has been a lot of talk about first half lately."
+        },
+        {
+          "ja": "ニュースで前半の話を読みました。",
+          "en": "I read a story about first half in the news."
+        },
+        {
+          "ja": "朝のニュースで前半の話を聞きました。",
+          "en": "I heard a story about first half in the morning news."
+        },
+        {
+          "ja": "今日の会話で前半が何度も出ました。",
+          "en": "first half came up many times in today's conversation."
+        },
+        {
+          "ja": "この話は前半とよく関係しています。",
+          "en": "This story is closely related to first half."
+        }
+      ]
+    },
+    {
+      "id": "article-26b84492e1c534",
+      "level": "N3",
+      "term": "攻撃",
+      "reading": "こうげき",
+      "readingHiragana": "こうげき",
+      "meaning": "Attack / Offense",
+      "source": "article",
+      "sourceId": "2026-06-14-brazil-morocco-draw",
+      "sourceTitle": "ブラジルとモロッコがワールドカップで引き分けた",
+      "sourceLabel": "6/14 ブラジル対モロッコ",
+      "sourceHref": "./2026-06-14-brazil-morocco-draw.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-14-brazil-morocco-draw"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "友だちに攻撃について聞かれました。",
+          "en": "A friend asked me about attack."
+        },
+        {
+          "ja": "この話は攻撃とよく関係しています。",
+          "en": "This story is closely related to attack."
+        },
+        {
+          "ja": "朝のニュースで攻撃の話を聞きました。",
+          "en": "I heard a story about attack in the morning news."
+        },
+        {
+          "ja": "授業で攻撃を初めて知りました。",
+          "en": "I learned about attack for the first time in class."
+        },
+        {
+          "ja": "家で攻撃について少し考えました。",
+          "en": "At home, I thought a little about attack."
+        }
+      ]
+    },
+    {
+      "id": "article-9db237e6b7c778",
+      "level": "N3",
+      "term": "先制する",
+      "reading": "せんせいする",
+      "readingHiragana": "せんせいする",
+      "meaning": "To score first / Take the lead",
+      "source": "article",
+      "sourceId": "2026-06-14-brazil-morocco-draw",
+      "sourceTitle": "ブラジルとモロッコがワールドカップで引き分けた",
+      "sourceLabel": "6/14 ブラジル対モロッコ",
+      "sourceHref": "./2026-06-14-brazil-morocco-draw.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-14-brazil-morocco-draw"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "朝のニュースで先制するの話を聞きました。",
+          "en": "I heard a story about to score first in the morning news."
+        },
+        {
+          "ja": "友だちと先制するについて話しました。",
+          "en": "I talked with a friend about to score first."
+        },
+        {
+          "ja": "この本には先制するの説明があります。",
+          "en": "This book has an explanation of to score first."
+        },
+        {
+          "ja": "最近、先制するの話題が多いです。",
+          "en": "There has been a lot of talk about to score first lately."
+        },
+        {
+          "ja": "旅行の前に先制するを確認しました。",
+          "en": "I checked to score first before the trip."
+        }
+      ]
+    },
+    {
+      "id": "article-c9f48760953c59",
+      "level": "N3",
+      "term": "守備",
+      "reading": "しゅび",
+      "readingHiragana": "しゅび",
+      "meaning": "Defense",
+      "source": "article",
+      "sourceId": "2026-06-14-brazil-morocco-draw",
+      "sourceTitle": "ブラジルとモロッコがワールドカップで引き分けた",
+      "sourceLabel": "6/14 ブラジル対モロッコ",
+      "sourceHref": "./2026-06-14-brazil-morocco-draw.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-14-brazil-morocco-draw"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "最近、守備の話題が多いです。",
+          "en": "There has been a lot of talk about defense lately."
+        },
+        {
+          "ja": "この本には守備の説明があります。",
+          "en": "This book has an explanation of defense."
+        },
+        {
+          "ja": "今日の会話で守備が何度も出ました。",
+          "en": "defense came up many times in today's conversation."
+        },
+        {
+          "ja": "友だちに守備について聞かれました。",
+          "en": "A friend asked me about defense."
+        },
+        {
+          "ja": "友だちと守備について話しました。",
+          "en": "I talked with a friend about defense."
+        }
+      ]
+    },
+    {
+      "id": "article-2c173472a0120c",
+      "level": "N3",
+      "term": "監督",
+      "reading": "かんとく",
+      "readingHiragana": "かんとく",
+      "meaning": "Coach / Manager",
+      "source": "article",
+      "sourceId": "2026-06-14-brazil-morocco-draw",
+      "sourceTitle": "ブラジルとモロッコがワールドカップで引き分けた",
+      "sourceLabel": "6/14 ブラジル対モロッコ",
+      "sourceHref": "./2026-06-14-brazil-morocco-draw.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-14-brazil-morocco-draw"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "最近、監督の話題が多いです。",
+          "en": "There has been a lot of talk about coach lately."
+        },
+        {
+          "ja": "家で監督について少し考えました。",
+          "en": "At home, I thought a little about coach."
+        },
+        {
+          "ja": "友だちと監督について話しました。",
+          "en": "I talked with a friend about coach."
+        },
+        {
+          "ja": "朝のニュースで監督の話を聞きました。",
+          "en": "I heard a story about coach in the morning news."
+        },
+        {
+          "ja": "この本には監督の説明があります。",
+          "en": "This book has an explanation of coach."
         }
       ]
     },
