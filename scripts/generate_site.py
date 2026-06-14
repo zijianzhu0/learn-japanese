@@ -6,7 +6,7 @@ import json
 import re
 from hashlib import sha1
 from datetime import date
-from html import escape
+from html import escape, unescape
 from pathlib import Path
 
 
@@ -348,6 +348,93 @@ def term_surface(term: str) -> str:
     return term.split("/")[0].strip()
 
 
+def strip_ruby_html(html: str) -> str:
+    without_rt = re.sub(r"<rt\b[^>]*>.*?</rt>", "", html, flags=re.DOTALL)
+    without_tags = re.sub(r"<[^>]+>", "", without_rt)
+    return unescape(without_tags)
+
+
+def split_sentences(text: str) -> list[str]:
+    return [
+        sentence.strip()
+        for sentence in re.findall(r"[^。！？!?.]+[。！？!?.]?", text)
+        if sentence.strip()
+    ]
+
+
+def article_sentence_examples(articles: list[dict]) -> list[dict]:
+    examples = []
+    for article in articles:
+        paragraphs = article.get("paragraphs", [])
+        for paragraph_index, paragraph in enumerate(paragraphs):
+            ja_sentences = split_sentences(strip_ruby_html(str(paragraph.get("html", ""))))
+            en_sentences = split_sentences(str(paragraph.get("translation", "")))
+            for sentence_index, ja in enumerate(ja_sentences):
+                if not ja:
+                    continue
+                en = (
+                    en_sentences[sentence_index]
+                    if sentence_index < len(en_sentences) and len(en_sentences) == len(ja_sentences)
+                    else str(paragraph.get("translation", "")).strip()
+                )
+                if not en:
+                    continue
+                examples.append(
+                    {
+                        "ja": ja,
+                        "en": en,
+                        "sourceId": article["id"],
+                        "sourceTitle": article["title"],
+                        "sourceLabel": article["navLabel"],
+                        "sourceHref": article_href(article),
+                        "paragraphIndex": paragraph_index,
+                        "sentenceIndex": sentence_index,
+                    }
+                )
+    return examples
+
+
+def search_terms_for_item(item: dict, term: str, verb_form: str | None = None) -> list[str]:
+    terms = [term_surface(term)]
+    if item.get("baseTerm"):
+        terms.append(term_surface(str(item["baseTerm"])))
+    if verb_form and item.get("term"):
+        terms.append(term_surface(str(item["term"])))
+    if terms[0].endswith("する") and len(terms[0]) > 2:
+        terms.append(terms[0][:-2])
+    if item.get("readingHiragana"):
+        terms.append(term_surface(str(item["readingHiragana"])))
+    if item.get("baseReading"):
+        terms.append(term_surface(str(item["baseReading"])))
+
+    unique_terms = []
+    for candidate in terms:
+        candidate = candidate.strip()
+        if candidate and candidate not in unique_terms:
+            unique_terms.append(candidate)
+    return unique_terms
+
+
+def article_sourced_example_sentences(
+    article_examples: list[dict],
+    item: dict,
+    term: str,
+    verb_form: str | None = None,
+) -> list[dict]:
+    search_terms = search_terms_for_item(item, term, verb_form)
+    matches = []
+    seen_sentences = set()
+    for search_term in search_terms:
+        for example in article_examples:
+            if search_term not in example["ja"] or example["ja"] in seen_sentences:
+                continue
+            seen_sentences.add(example["ja"])
+            matches.append(example)
+            if len(matches) == EXAMPLE_SENTENCE_COUNT:
+                return [{"ja": match["ja"], "en": match["en"]} for match in matches]
+    return [{"ja": match["ja"], "en": match["en"]} for match in matches]
+
+
 def combo_words_for_items(items: list[dict], current_index: int) -> list[str]:
     words = []
     for offset in range(1, len(items) + 1):
@@ -653,78 +740,15 @@ NOUN_EXAMPLE_TEMPLATES = [
 ]
 
 
-def fallback_example_sentences(
-    item: dict,
-    term: str,
-    combo_words: list[str] | None = None,
-    verb_form: str | None = None,
-) -> list[dict]:
-    term = term_surface(term)
-    combo1, combo2, combo3, combo4, combo5 = padded_combo_words(combo_words)
-    part_of_speech = item.get("partOfSpeech")
-    gloss = english_gloss(item, term)
-
-    if part_of_speech == "verb" or verb_form:
-        form_key = verb_form or "dictionary"
-        phrase, english_phrase = natural_verb_phrase(item, term)
-        return render_example_templates(
-            term,
-            f"verb-{form_key}",
-            VERB_EXAMPLE_TEMPLATES[form_key],
-            {
-                "phrase": phrase,
-                "english_phrase": english_phrase,
-                "combo1": combo1,
-                "combo2": combo2,
-                "combo3": combo3,
-                "combo4": combo4,
-                "combo5": combo5,
-            },
-        )
-
-    if term.endswith("い"):
-        lower_gloss = gloss.lower()
-        if "dangerous" in lower_gloss or "risky" in lower_gloss:
-            adjective_key = "danger"
-        elif "bright" in lower_gloss or "colorful" in lower_gloss:
-            adjective_key = "bright"
-        elif "cold" in lower_gloss or "cool" in lower_gloss:
-            adjective_key = "cold"
-        elif "hot" in lower_gloss or "warm" in lower_gloss:
-            adjective_key = "hot"
-        else:
-            adjective_key = "general"
-        return render_example_templates(
-            term,
-            f"adjective-{adjective_key}",
-            ADJECTIVE_EXAMPLE_TEMPLATES[adjective_key],
-            {"gloss": gloss},
-        )
-
-    return render_example_templates(
-        term,
-        "noun",
-        NOUN_EXAMPLE_TEMPLATES,
-        {
-            "gloss": gloss,
-            "combo1": combo1,
-            "combo2": combo2,
-            "combo3": combo3,
-            "combo4": combo4,
-            "combo5": combo5,
-        },
-    )
-
-
 def normalize_example_sentences(
     item: dict,
     term: str,
-    combo_words: list[str] | None = None,
+    article_examples: list[dict],
     verb_form: str | None = None,
 ) -> list[dict]:
     examples = item.get("exampleSentences")
     if examples is None:
-        return fallback_example_sentences(item, term, combo_words, verb_form)
+        return article_sourced_example_sentences(article_examples, item, term, verb_form)
 
     if len(examples) != EXAMPLE_SENTENCE_COUNT:
         raise ValueError(
@@ -844,7 +868,11 @@ def conjugate_verb(value: str, verb_class: str, form_id: str) -> str:
     raise ValueError(f"Unsupported verb class: {verb_class}")
 
 
-def verb_form_items(item: dict, base_item: dict, combo_words: list[str] | None = None) -> list[dict]:
+def verb_form_items(
+    item: dict,
+    base_item: dict,
+    article_examples: list[dict],
+) -> list[dict]:
     if item.get("partOfSpeech") != "verb":
         return []
 
@@ -870,7 +898,7 @@ def verb_form_items(item: dict, base_item: dict, combo_words: list[str] | None =
                 "reading": "",
                 "readingHiragana": form_reading,
                 "meaning": f"{form_description} of {base_term}: {base_item['meaning']}",
-                "exampleSentences": normalize_example_sentences(item, form_term, combo_words, form_id),
+                "exampleSentences": normalize_example_sentences(item, form_term, article_examples, form_id),
                 "cardKind": "verb-form",
                 "baseTerm": base_term,
                 "baseReading": base_reading,
@@ -883,7 +911,7 @@ def verb_form_items(item: dict, base_item: dict, combo_words: list[str] | None =
     return forms
 
 
-def article_flashcard_items(articles: list[dict]) -> list[dict]:
+def article_flashcard_items(articles: list[dict], article_examples: list[dict]) -> list[dict]:
     items = []
     for article in articles:
         level = article.get("level", "").upper()
@@ -893,7 +921,6 @@ def article_flashcard_items(articles: list[dict]) -> list[dict]:
         vocabulary = article.get("vocabulary", [])
         for index, item in enumerate(vocabulary, start=1):
             term, reading = split_vocab_term(item["term"])
-            combo_words = combo_words_for_items(vocabulary, index - 1)
             item_id = f"article-{stable_vocab_id(article['id'], str(index), term, item['meaning'])}"
             base_item = {
                 "id": item_id,
@@ -908,18 +935,18 @@ def article_flashcard_items(articles: list[dict]) -> list[dict]:
                 "sourceLabel": article["navLabel"],
                 "sourceHref": article_href(article),
                 "tags": ["article-vocab", article["id"]],
-                "exampleSentences": normalize_example_sentences(item, term, combo_words),
+                "exampleSentences": normalize_example_sentences(item, term, article_examples),
             }
             if item.get("partOfSpeech"):
                 base_item["partOfSpeech"] = item["partOfSpeech"]
             if item.get("verbClass"):
                 base_item["verbClass"] = item["verbClass"]
             items.append(base_item)
-            items.extend(verb_form_items(item, base_item, combo_words))
+            items.extend(verb_form_items(item, base_item, article_examples))
     return items
 
 
-def load_core_vocabulary() -> list[dict]:
+def load_core_vocabulary(article_examples: list[dict]) -> list[dict]:
     if not VOCABULARY_PATH.exists():
         return []
 
@@ -934,7 +961,6 @@ def load_core_vocabulary() -> list[dict]:
             if level not in FLASHCARD_LEVELS:
                 continue
 
-            combo_words = combo_words_for_items(deck_items, index)
             item_id = f"core-{stable_vocab_id(deck_id, item['id'], item['term'], item['meaning'])}"
             base_item = {
                 "id": item_id,
@@ -949,20 +975,21 @@ def load_core_vocabulary() -> list[dict]:
                 "sourceLabel": deck.get("title", deck_id),
                 "sourceHref": deck.get("sourceUrl", ""),
                 "tags": item.get("tags", []),
-                "exampleSentences": normalize_example_sentences(item, item["term"], combo_words),
+                "exampleSentences": normalize_example_sentences(item, item["term"], article_examples),
             }
             if item.get("partOfSpeech"):
                 base_item["partOfSpeech"] = item["partOfSpeech"]
             if item.get("verbClass"):
                 base_item["verbClass"] = item["verbClass"]
             items.append(base_item)
-            items.extend(verb_form_items(item, base_item, combo_words))
+            items.extend(verb_form_items(item, base_item, article_examples))
     return items
 
 
 def write_flashcards_manifest(articles: list[dict]) -> None:
-    core_items = load_core_vocabulary()
-    article_items = article_flashcard_items(articles)
+    article_examples = article_sentence_examples(articles)
+    core_items = load_core_vocabulary(article_examples)
+    article_items = article_flashcard_items(articles, article_examples)
     items = core_items + article_items
     level_counts = {level: 0 for level in sorted(FLASHCARD_LEVELS)}
     for item in items:

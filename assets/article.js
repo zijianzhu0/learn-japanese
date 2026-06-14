@@ -283,7 +283,11 @@ function extractRubyBaseText(element) {
     const clone = element.cloneNode(true);
     clone.querySelectorAll('.sentence-read-button').forEach((node) => node.remove());
     clone.querySelectorAll('rt, rp').forEach((node) => node.remove());
-    return clone.textContent.replace(/\s+/g, ' ').trim();
+    return normalizeCopiedText(clone.textContent);
+}
+
+function normalizeCopiedText(text) {
+    return String(text || '').replace(/\s+/g, ' ').trim();
 }
 
 function buildJapaneseArticleText() {
@@ -295,9 +299,28 @@ function buildJapaneseArticleText() {
 
 function buildEnglishTranslationText() {
     return Array.from(document.querySelectorAll('.sentence-translation'))
-        .map((translation) => translation.textContent.replace(/\s+/g, ' ').trim())
+        .map((translation) => normalizeCopiedText(translation.textContent))
         .filter(Boolean)
         .join('\n\n');
+}
+
+function buildBilingualArticleText() {
+    const title = extractRubyBaseText(document.querySelector('h1'));
+    const blocks = title ? [title] : [];
+
+    document.querySelectorAll('.article-paragraph').forEach((paragraph) => {
+        const japaneseText = extractRubyBaseText(paragraph);
+        const translation = paragraph.nextElementSibling?.classList.contains('sentence-translation')
+            ? normalizeCopiedText(paragraph.nextElementSibling.textContent)
+            : '';
+        const pair = [japaneseText, translation].filter(Boolean).join('\n');
+
+        if (pair) {
+            blocks.push(pair);
+        }
+    });
+
+    return blocks.join('\n\n');
 }
 
 function splitIntoSentences(text) {
@@ -1031,6 +1054,18 @@ async function copyEnglishTranslation() {
     }
 }
 
+async function copyBilingualArticle() {
+    const status = document.getElementById('copy-status');
+    const articleText = buildBilingualArticleText();
+
+    try {
+        await navigator.clipboard.writeText(articleText);
+        status.textContent = 'Japanese and English article copied to clipboard.';
+    } catch (error) {
+        status.textContent = 'Copy failed. Your browser may block clipboard access.';
+    }
+}
+
 function stopCurrentPlayback() {
     const speakButton = document.getElementById('speak-japanese-article');
     const audioPlayer = document.getElementById('tts-player');
@@ -1319,6 +1354,7 @@ document.getElementById('browser-voice')?.addEventListener('change', (event) => 
 });
 document.getElementById('copy-japanese-article')?.addEventListener('click', copyJapaneseArticle);
 document.getElementById('copy-english-translation')?.addEventListener('click', copyEnglishTranslation);
+document.getElementById('copy-bilingual-article')?.addEventListener('click', copyBilingualArticle);
 document.getElementById('enable-docker-audio')?.addEventListener('click', () => {
     enableLocalTtsAudio().catch((error) => {
         const status = document.getElementById('copy-status');
