@@ -4,7 +4,7 @@
     "articleManifest": "data/articles.json"
   },
   "levels": {
-    "N3": 3176,
+    "N3": 3184,
     "N4": 1271,
     "N5": 1053
   },
@@ -1410,24 +1410,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "最後の第5戦は94対90の接戦でした。",
+          "en": "The final Game 5 was a close 94-90 game."
+        },
+        {
+          "ja": "試合後、ブランソンはファイナルMVPにも選ばれました。",
+          "en": "After the game, Brunson was also chosen as Finals MVP."
+        },
+        {
+          "ja": "そのため、ニューヨークの街では、試合の後に大きな歓声が上がりました。",
+          "en": "Because of that, loud cheers rose in New York after the game."
+        },
+        {
           "ja": "後半はブラジルが少し形を直しましたが、モロッコの守備も強かったです。",
           "en": "In the second half Brazil improved their shape a little, but Morocco’s defense was also strong."
         },
         {
           "ja": "試合後、ブラジルのアンチェロッティ監督は、チームはもっと良くならなければならないと話しました。",
           "en": "After the match, Brazil coach Ancelotti said the team must improve."
-        },
-        {
-          "ja": "もし上場後に株価が下がれば、証券会社は市場で株を買い戻します。",
-          "en": "If the share price falls after listing, the securities firms buy shares back in the market."
-        },
-        {
-          "ja": "スペースXのように注目度が高い会社では、上場直後の値動きが激しくなりやすいです。",
-          "en": "For a highly watched company like SpaceX, price movements just after listing can easily become intense."
-        },
-        {
-          "ja": "後に大学の近くでクマが見つかると、市の職員はドローンで場所を追跡しました。",
-          "en": "When the bear was later found near a university, city workers used a drone to track it."
         }
       ]
     },
@@ -1994,6 +1994,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "マディソン・スクエア・ガーデンの近くには、たくさんの人が集まりました。",
+          "en": "Many people gathered near Madison Square Garden."
+        },
+        {
           "ja": "栃木県の宇都宮市では、クマが公園や学校、図書館の近くに出て、多くの人を怖がらせました。",
           "en": "In Utsunomiya, Tochigi Prefecture, a bear appeared near parks, schools, and a library, frightening many people."
         },
@@ -2008,10 +2012,6 @@
         {
           "ja": "フィリピンのミンダナオ島の近くで大きな地震が起きたためです。",
           "en": "This was because a major earthquake occurred near Mindanao island in the Philippines."
-        },
-        {
-          "ja": "専門家は、注意報が出たときは、海の近くに行かないことが大切だと話しています。",
-          "en": "Experts say it is important not to go near the sea when an advisory is issued."
         }
       ]
     },
@@ -4300,7 +4300,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "車のクラクションや花火の音も聞こえました。",
+          "en": "Car horns and fireworks could also be heard."
+        }
+      ]
     },
     {
       "id": "core-b5b078bd4efd50",
@@ -5376,6 +5381,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "車のクラクションや花火の音も聞こえました。",
+          "en": "Car horns and fireworks could also be heard."
+        },
+        {
           "ja": "火災が広がりやすい地域では、古い住宅の耐震化や、避難しやすい道路の整備も急ぐ必要があります。",
           "en": "In areas where fires can spread easily, there is also a need to speed up earthquake-resistant housing improvements and roads that make evacuation easier."
         }
@@ -5794,6 +5803,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "マディソン・スクエア・ガーデンの近くには、たくさんの人が集まりました。",
+          "en": "Many people gathered near Madison Square Garden."
+        },
+        {
           "ja": "争点の一つは、国の人口を2050年まで1000万人までに抑える提案でした。",
           "en": "One issue was a proposal to keep the country's population at no more than 10 million by 2050."
         },
@@ -5808,10 +5821,6 @@
         {
           "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
-        },
-        {
-          "ja": "医療、金融、技術などの分野では、外国から来た働く人が重要です。",
-          "en": "In fields such as healthcare, finance, and technology, workers from other countries are important."
         }
       ]
     },
@@ -5973,6 +5982,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
+          "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
+        },
+        {
           "ja": "争点の一つは、国の人口を2050年まで1000万人までに抑える提案でした。",
           "en": "One issue was a proposal to keep the country's population at no more than 10 million by 2050."
         },
@@ -5987,10 +6000,6 @@
         {
           "ja": "自動車メーカーの一部は、従業員の安全や部品輸送への影響を考慮して、工場の操業を一時停止しました。",
           "en": "Some automakers temporarily stopped factory operations after considering worker safety and impacts on parts transport."
-        },
-        {
-          "ja": "一方で、通信が不安定な海上では、機械が使えない場合もあります。",
-          "en": "At the same time, onboard machines may not work when communications are unstable at sea."
         }
       ]
     },
@@ -6292,6 +6301,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "長い間苦しんだチームとファンにとって、今年の優勝は特別な出来事になりました。",
+          "en": "For a team and fan base that struggled for a long time, this year's title became a special event."
+        },
+        {
           "ja": "今回の結果は、移民への不安と、EUとの結びつきを守りたい考えが、スイス社会でぶつかっていることを示しました。",
           "en": "\" The result showed that anxiety about immigration and the wish to protect ties with the EU are clashing in Swiss society."
         },
@@ -6306,10 +6319,6 @@
         {
           "ja": "今後は、タブレットの内容をもっと増やし、地域の情報も紹介したいとしています。",
           "en": "Going forward, libraries want to add more content to the tablets and introduce local information as well."
-        },
-        {
-          "ja": "今回の実験がうまくいけば、ほかの港でも同じような取り組みが始まるかもしれません。",
-          "en": "If this test goes well, similar efforts may begin at other ports too."
         }
       ]
     },
@@ -8130,6 +8139,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
+          "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
+        },
+        {
           "ja": "地方で人が少なくなり、クマも多くなったため、注意喚起や対策をすぐに出す必要があります。",
           "en": "Because rural populations are shrinking and bear numbers are growing, cities need to issue warnings and take action quickly."
         },
@@ -8144,10 +8157,6 @@
         {
           "ja": "政府は、首都直下地震が起きた場合の被害を今後10年で大幅に減らすため、防災計画を改定する方針です。",
           "en": "The government plans to revise its disaster-prevention plan to sharply reduce damage from a possible inland earthquake beneath the Tokyo area over the next decade."
-        },
-        {
-          "ja": "本の探し方や貸し出しの手続きを、画面を見ながら説明できるようになりました。",
-          "en": "People can now see on-screen explanations of how to find books and complete borrowing procedures."
         }
       ]
     },
@@ -9259,6 +9268,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そのため、ニューヨークの街では、試合の後に大きな歓声が上がりました。",
+          "en": "Because of that, loud cheers rose in New York after the game."
+        },
+        {
+          "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
+          "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
+        },
+        {
           "ja": "高齢者からは、買い物や通院に使いやすいという声が出ています。",
           "en": "Older residents say the service is convenient for shopping and hospital visits."
         },
@@ -9269,10 +9286,6 @@
         {
           "ja": "市民からは、外で待つ時間が楽になるという声が出ています。",
           "en": "Citizens say the systems make waiting outside easier."
-        },
-        {
-          "ja": "消費者からは、毎日食べるものなので、少しの値上がりでも大きいという声が出ています。",
-          "en": "Consumers say that even small price increases matter because rice is eaten every day."
         }
       ]
     },
@@ -9708,6 +9721,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "長い間苦しんだチームとファンにとって、今年の優勝は特別な出来事になりました。",
+          "en": "For a team and fan base that struggled for a long time, this year's title became a special event."
+        },
         {
           "ja": "今回の引き分けで、今年も強い相手になりそうだと感じさせました。",
           "en": "This draw made people feel that Morocco may again be a strong opponent this year."
@@ -10290,6 +10307,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "車のクラクションや花火の音も聞こえました。",
+          "en": "Car horns and fireworks could also be heard."
+        },
+        {
           "ja": "市はSNSや放送車で注意を呼びかけ、住民に外へ出ないよう伝えました。",
           "en": "The city warned residents through social media and announcement vehicles and told them not to go outside."
         },
@@ -10304,10 +10325,6 @@
         {
           "ja": "東北のある県で、景色を楽しめる観光列車の人気が高まっています。",
           "en": "In one prefecture in Tohoku, a sightseeing train that lets passengers enjoy the scenery is becoming more popular."
-        },
-        {
-          "ja": "列車の中では、地元の食材を使ったお弁当や、お茶が出されます。",
-          "en": "On the train, passengers are served boxed meals and tea made with local ingredients."
         }
       ]
     },
@@ -10915,6 +10932,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "ニックスのファンは長い間、優勝を待っていました。",
+          "en": "Knicks fans had waited a long time for a championship."
+        },
         {
           "ja": "釣りや海での作業をする人は、新しい情報を確認し、安全な場所で待つようにしましょう。",
           "en": "People who fish or work at sea should check the latest information and wait in a safe place."
@@ -12002,6 +12023,14 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "ニックスのファンは長い間、優勝を待っていました。",
+          "en": "Knicks fans had waited a long time for a championship."
+        },
+        {
+          "ja": "長い間苦しんだチームとファンにとって、今年の優勝は特別な出来事になりました。",
+          "en": "For a team and fan base that struggled for a long time, this year's title became a special event."
+        },
         {
           "ja": "首相は長い間このバンドのファンだったと話しています。",
           "en": "She said she has been a fan of the band for a long time."
@@ -17640,24 +17669,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "スイスで2026年6月14日、国民投票が行われました。",
-          "en": "On June 14, 2026, Switzerland held a national referendum."
+          "ja": "アメリカのプロバスケットボール、NBAで、ニューヨーク・ニックスが2026年の王者になりました。",
+          "en": "In the NBA, America's professional basketball league, the New York Knicks became the 2026 champions."
         },
         {
-          "ja": "争点の一つは、国の人口を2050年まで1000万人までに抑える提案でした。",
-          "en": "One issue was a proposal to keep the country's population at no more than 10 million by 2050."
+          "ja": "ニックスはファイナルでサンアントニオ・スパーズに4勝1敗で勝ち、1973年以来の優勝を決めました。",
+          "en": "The Knicks beat the San Antonio Spurs 4-1 in the Finals and won their first championship since 1973."
         },
         {
-          "ja": "初めの結果では、多くの有権者がこの案に反対しました。",
-          "en": "Early results showed that many voters opposed the plan."
+          "ja": "最後の第5戦は94対90の接戦でした。",
+          "en": "The final Game 5 was a close 94-90 game."
         },
         {
-          "ja": "スイスの人口は現在およそ910万人で、2002年から大きく増えました。",
-          "en": "The proposal was promoted by the right-wing Swiss People's Party. Switzerland's population is now about 9.1 million and has grown greatly since 2002. Supporters said the burden on housing, transportation, and public services was becoming heavy."
+          "ja": "ガードのジェイレン・ブランソンは45点を取り、大きな場面でチームを助けました。",
+          "en": "Guard Jalen Brunson scored 45 points and helped the team in big moments."
         },
         {
-          "ja": "支持者は、住宅や交通、公共サービスへの負担が重くなっていると訴えました。",
-          "en": "The proposal was promoted by the right-wing Swiss People's Party. Switzerland's population is now about 9.1 million and has grown greatly since 2002. Supporters said the burden on housing, transportation, and public services was becoming heavy."
+          "ja": "試合後、ブランソンはファイナルMVPにも選ばれました。",
+          "en": "After the game, Brunson was also chosen as Finals MVP."
         }
       ],
       "partOfSpeech": "verb",
@@ -19320,24 +19349,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "アメリカのプロバスケットボール、NBAで、ニューヨーク・ニックスが2026年の王者になりました。",
+          "en": "In the NBA, America's professional basketball league, the New York Knicks became the 2026 champions."
+        },
+        {
+          "ja": "ニックスはファイナルでサンアントニオ・スパーズに4勝1敗で勝ち、1973年以来の優勝を決めました。",
+          "en": "The Knicks beat the San Antonio Spurs 4-1 in the Finals and won their first championship since 1973."
+        },
+        {
+          "ja": "長い間苦しんだチームとファンにとって、今年の優勝は特別な出来事になりました。",
+          "en": "For a team and fan base that struggled for a long time, this year's title became a special event."
+        },
+        {
           "ja": "スイスで2026年6月14日、国民投票が行われました。",
           "en": "On June 14, 2026, Switzerland held a national referendum."
         },
         {
           "ja": "争点の一つは、国の人口を2050年まで1000万人までに抑える提案でした。",
           "en": "One issue was a proposal to keep the country's population at no more than 10 million by 2050."
-        },
-        {
-          "ja": "スイスの人口は現在およそ910万人で、2002年から大きく増えました。",
-          "en": "The proposal was promoted by the right-wing Swiss People's Party. Switzerland's population is now about 9.1 million and has grown greatly since 2002. Supporters said the burden on housing, transportation, and public services was becoming heavy."
-        },
-        {
-          "ja": "2026年6月14日、FIFAワールドカップのグループCで、ブラジルとモロッコが1対1で引き分けました。",
-          "en": "On June 14, 2026, Brazil and Morocco drew 1-1 in Group C of the FIFA World Cup."
-        },
-        {
-          "ja": "モロッコは2022年の大会でベスト4まで進んだチームです。",
-          "en": "Morocco reached the semifinals in the 2022 tournament."
         }
       ]
     },
@@ -20678,6 +20707,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そのため、ニューヨークの街では、試合の後に大きな歓声が上がりました。",
+          "en": "Because of that, loud cheers rose in New York after the game."
+        },
+        {
           "ja": "アメリカの宇宙企業スペースXは、6月12日に株式市場に上場しました。",
           "en": "The American space company SpaceX listed on the stock market on June 12."
         },
@@ -20692,10 +20725,6 @@
         {
           "ja": "スペースXのように注目度が高い会社では、上場直後の値動きが激しくなりやすいです。",
           "en": "For a highly watched company like SpaceX, price movements just after listing can easily become intense."
-        },
-        {
-          "ja": "一方で、通信が不安定な海上では、機械が使えない場合もあります。",
-          "en": "At the same time, onboard machines may not work when communications are unstable at sea."
         }
       ]
     },
@@ -22722,6 +22751,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "アメリカのプロバスケットボール、NBAで、ニューヨーク・ニックスが2026年の王者になりました。",
+          "en": "In the NBA, America's professional basketball league, the New York Knicks became the 2026 champions."
+        },
+        {
           "ja": "山間部にある小さな町で、予約制バスの実験が始まりました。",
           "en": "In a small town in a mountain area, a trial of reservation-based buses has started."
         },
@@ -24311,6 +24344,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "長い間苦しんだチームとファンにとって、今年の優勝は特別な出来事になりました。",
+          "en": "For a team and fan base that struggled for a long time, this year's title became a special event."
+        },
         {
           "ja": "ホテルの職員は、簡単な質問をロボットにまかせることで、別の仕事に時間を使いやすくなったと話しています。",
           "en": "Hotel staff say that by leaving simple questions to robots, they can spend more time on other work."
@@ -31041,7 +31078,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
+          "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
+        }
+      ]
     },
     {
       "id": "core-cbbf6cfc10785a",
@@ -32241,6 +32283,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "長い間苦しんだチームとファンにとって、今年の優勝は特別な出来事になりました。",
+          "en": "For a team and fan base that struggled for a long time, this year's title became a special event."
+        },
+        {
           "ja": "危険な時間帯には、屋外の仕事を減らし、日陰で休む時間を長くしています。",
           "en": "During dangerous time periods, they reduce outdoor work and take longer breaks in the shade."
         },
@@ -32255,10 +32301,6 @@
         {
           "ja": "一方で、教員からは、採点や教材づくりにAIを活用すれば、仕事の負担を減らせるという期待もあります。",
           "en": "At the same time, teachers expect that using AI for grading and creating teaching materials could reduce their workload."
-        },
-        {
-          "ja": "ロイターの記事では、ブレント原油の先物価格が3ドル以上上がり、1バレル104.",
-          "en": "The Reuters article said that Brent crude futures rose more than 3 dollars to 104."
         }
       ]
     },
@@ -40054,6 +40096,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "車のクラクションや花火の音も聞こえました。",
+          "en": "Car horns and fireworks could also be heard."
+        },
+        {
           "ja": "対応する言語は英語、中国語、韓国語などで、音声でも案内できます。",
           "en": "The supported languages include English, Chinese, and Korean, and audio guidance is also available."
         },
@@ -40880,6 +40926,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "最後の第5戦は94対90の接戦でした。",
+          "en": "The final Game 5 was a close 94-90 game."
+        },
         {
           "ja": "最後は獣医が麻酔の銃を使って捕獲し、けがをした人はいませんでした。",
           "en": "In the end, a veterinarian captured it with a tranquilizer gun, and nobody was injured."
@@ -41787,6 +41837,14 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "試合後、ブランソンはファイナルMVPにも選ばれました。",
+          "en": "After the game, Brunson was also chosen as Finals MVP."
+        },
+        {
+          "ja": "そのため、ニューヨークの街では、試合の後に大きな歓声が上がりました。",
+          "en": "Because of that, loud cheers rose in New York after the game."
+        },
         {
           "ja": "試合はニューヨーク・ニュージャージーの大きな会場で行われました。",
           "en": "The match was played at a large venue in New York/New Jersey."
@@ -45162,6 +45220,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ガードのジェイレン・ブランソンは45点を取り、大きな場面でチームを助けました。",
+          "en": "Guard Jalen Brunson scored 45 points and helped the team in big moments."
+        },
+        {
           "ja": "争点の一つは、国の人口を2050年まで1000万人までに抑える提案でした。",
           "en": "One issue was a proposal to keep the country's population at no more than 10 million by 2050."
         },
@@ -45553,7 +45615,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "長い間苦しんだチームとファンにとって、今年の優勝は特別な出来事になりました。",
+          "en": "For a team and fan base that struggled for a long time, this year's title became a special event."
+        }
+      ]
     },
     {
       "id": "core-d5123199d5cfa7",
@@ -50423,6 +50490,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ニューヨークでは、優勝パレードも予定されています。",
+          "en": "A championship parade is also planned in New York."
+        },
+        {
           "ja": "グリーンシューがあると、証券会社は予定より多く、ふつうは最大15パーセント多く株を売ることができます。",
           "en": "With a greenshoe option, the securities firms can sell more shares than planned, usually up to 15 percent more."
         },
@@ -50437,10 +50508,6 @@
         {
           "ja": "こどもの本や日本語学習の資料への案内にも活用する予定です。",
           "en": "They also plan to use them to guide people to children’s books and Japanese-learning materials."
-        },
-        {
-          "ja": "温室の中では、温度や水の管理を自動でできるようにする予定です。",
-          "en": "Inside the greenhouse, temperature and water management will be automated."
         }
       ]
     },
@@ -52873,7 +52940,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "マディソン・スクエア・ガーデンの近くには、たくさんの人が集まりました。",
+          "en": "Many people gathered near Madison Square Garden."
+        }
+      ]
     },
     {
       "id": "core-c9a4981f13d23a",
@@ -53361,6 +53433,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ガードのジェイレン・ブランソンは45点を取り、大きな場面でチームを助けました。",
+          "en": "Guard Jalen Brunson scored 45 points and helped the team in big moments."
+        },
+        {
           "ja": "試合はニューヨーク・ニュージャージーの大きな会場で行われました。",
           "en": "The match was played at a large venue in New York/New Jersey."
         },
@@ -53375,10 +53451,6 @@
         {
           "ja": "スペースXのように注目度が高い会社では、上場直後の値動きが激しくなりやすいです。",
           "en": "For a highly watched company like SpaceX, price movements just after listing can easily become intense."
-        },
-        {
-          "ja": "グリーンシューは、投資家の熱気と市場の不安の間で、値段を落ち着かせるための道具だと考えるとわかりやすいです。",
-          "en": "It is easiest to think of a greenshoe as a tool for calming the price between investor excitement and market anxiety."
         }
       ]
     },
@@ -53441,6 +53513,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "ガードのジェイレン・ブランソンは45点を取り、大きな場面でチームを助けました。",
+          "en": "Guard Jalen Brunson scored 45 points and helped the team in big moments."
+        },
         {
           "ja": "今年は、空から被害の様子を確認できるドローンを使う場面が増えました。",
           "en": "This year, there were more situations in which drones were used to check damage from the sky."
@@ -55459,7 +55535,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "長い間苦しんだチームとファンにとって、今年の優勝は特別な出来事になりました。",
+          "en": "For a team and fan base that struggled for a long time, this year's title became a special event."
+        }
+      ]
     },
     {
       "id": "core-f734c681acaf84",
@@ -59681,7 +59762,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "車のクラクションや花火の音も聞こえました。",
+          "en": "Car horns and fireworks could also be heard."
+        }
+      ]
     },
     {
       "id": "core-39504281d97790",
@@ -62139,6 +62225,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
+          "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
+        },
+        {
           "ja": "ほかの鉄道会社にも同じような動きが広がるかが注目されています。",
           "en": "Attention is focused on whether similar efforts will spread to other railway companies."
         }
@@ -62160,6 +62250,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
+          "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
+        },
         {
           "ja": "ほかの鉄道会社にも同じような動きが広がるかが注目されています。",
           "en": "Attention is focused on whether similar efforts will spread to other railway companies."
@@ -62189,6 +62283,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
+          "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
+        },
+        {
           "ja": "ほかの鉄道会社にも同じような動きが広がるかが注目されています。",
           "en": "Attention is focused on whether similar efforts will spread to other railway companies."
         }
@@ -62216,6 +62314,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
+          "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
+        },
         {
           "ja": "ほかの鉄道会社にも同じような動きが広がるかが注目されています。",
           "en": "Attention is focused on whether similar efforts will spread to other railway companies."
@@ -62253,6 +62355,10 @@
           "en": "As the number of travelers increases, more hotels are using guide robots."
         },
         {
+          "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
+          "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
+        },
+        {
           "ja": "ほかの鉄道会社にも同じような動きが広がるかが注目されています。",
           "en": "Attention is focused on whether similar efforts will spread to other railway companies."
         }
@@ -62280,6 +62386,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
+          "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
+        },
         {
           "ja": "ほかの鉄道会社にも同じような動きが広がるかが注目されています。",
           "en": "Attention is focused on whether similar efforts will spread to other railway companies."
@@ -63264,6 +63374,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
+          "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
+        },
+        {
           "ja": "地方で人が少なくなり、クマも多くなったため、注意喚起や対策をすぐに出す必要があります。",
           "en": "Because rural populations are shrinking and bear numbers are growing, cities need to issue warnings and take action quickly."
         },
@@ -63278,10 +63392,6 @@
         {
           "ja": "政府は、首都直下地震が起きた場合の被害を今後10年で大幅に減らすため、防災計画を改定する方針です。",
           "en": "The government plans to revise its disaster-prevention plan to sharply reduce damage from a possible inland earthquake beneath the Tokyo area over the next decade."
-        },
-        {
-          "ja": "本の探し方や貸し出しの手続きを、画面を見ながら説明できるようになりました。",
-          "en": "People can now see on-screen explanations of how to find books and complete borrowing procedures."
         }
       ]
     },
@@ -63681,6 +63791,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
+          "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
+        },
         {
           "ja": "自動車メーカーの一部は、従業員の安全や部品輸送への影響を考慮して、工場の操業を一時停止しました。",
           "en": "Some automakers temporarily stopped factory operations after considering worker safety and impacts on parts transport."
@@ -64311,6 +64425,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
+          "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
+        },
+        {
           "ja": "一方で、通信が不安定な海上では、機械が使えない場合もあります。",
           "en": "At the same time, onboard machines may not work when communications are unstable at sea."
         },
@@ -64325,10 +64443,6 @@
         {
           "ja": "一方で、細かい相談や、急なトラブルには、やはり人の対応が必要です。",
           "en": "At the same time, detailed requests and sudden trouble still require human support."
-        },
-        {
-          "ja": "一方で、教員からは、採点や教材づくりにAIを活用すれば、仕事の負担を減らせるという期待もあります。",
-          "en": "At the same time, teachers expect that using AI for grading and creating teaching materials could reduce their workload."
         }
       ]
     },
@@ -64345,7 +64459,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "ニックスはファイナルでサンアントニオ・スパーズに4勝1敗で勝ち、1973年以来の優勝を決めました。",
+          "en": "The Knicks beat the San Antonio Spurs 4-1 in the Finals and won their first championship since 1973."
+        }
+      ]
     },
     {
       "id": "core-56ee66b7bffd75",
@@ -66583,7 +66702,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "ニックスはファイナルでサンアントニオ・スパーズに4勝1敗で勝ち、1973年以来の優勝を決めました。",
+          "en": "The Knicks beat the San Antonio Spurs 4-1 in the Finals and won their first championship since 1973."
+        }
+      ]
     },
     {
       "id": "core-378f6b2ce8dd38",
@@ -68949,6 +69073,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そのため、ニューヨークの街では、試合の後に大きな歓声が上がりました。",
+          "en": "Because of that, loud cheers rose in New York after the game."
+        },
+        {
           "ja": "アメリカの宇宙企業スペースXは、6月12日に株式市場に上場しました。",
           "en": "The American space company SpaceX listed on the stock market on June 12."
         },
@@ -68963,10 +69091,6 @@
         {
           "ja": "スペースXのように注目度が高い会社では、上場直後の値動きが激しくなりやすいです。",
           "en": "For a highly watched company like SpaceX, price movements just after listing can easily become intense."
-        },
-        {
-          "ja": "一方で、通信が不安定な海上では、機械が使えない場合もあります。",
-          "en": "At the same time, onboard machines may not work when communications are unstable at sea."
         }
       ]
     },
@@ -74951,6 +75075,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
+          "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
+        },
+        {
           "ja": "人口や機能が集中する首都圏では、交通や物流の混乱も深刻になるとみられています。",
           "en": "In the Tokyo metropolitan area, where people and key functions are concentrated, disruption to transport and logistics is also expected to be severe."
         }
@@ -77226,7 +77354,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "長い間苦しんだチームとファンにとって、今年の優勝は特別な出来事になりました。",
+          "en": "For a team and fan base that struggled for a long time, this year's title became a special event."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "godan",
       "cardKind": "verb-form",
@@ -80269,6 +80402,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ガードのジェイレン・ブランソンは45点を取り、大きな場面でチームを助けました。",
+          "en": "Guard Jalen Brunson scored 45 points and helped the team in big moments."
+        },
+        {
           "ja": "注意報はその後、夕方にすべて解除されましたが、海面の変化が続く場所もあるとされています。",
           "en": "The advisory was later fully lifted in the evening, but sea level changes may continue in some places."
         },
@@ -81935,6 +82072,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "アメリカのプロバスケットボール、NBAで、ニューヨーク・ニックスが2026年の王者になりました。",
+          "en": "In the NBA, America's professional basketball league, the New York Knicks became the 2026 champions."
+        },
+        {
           "ja": "初めの結果では、多くの有権者がこの案に反対しました。",
           "en": "Early results showed that many voters opposed the plan."
         },
@@ -81949,10 +82090,6 @@
         {
           "ja": "町では、人口が減り、決まった道を走るバスの利用者も少なくなっています。",
           "en": "In the town, the population is falling, and fewer people use buses that run on fixed routes."
-        },
-        {
-          "ja": "高齢者からは、買い物や通院に使いやすいという声が出ています。",
-          "en": "Older residents say the service is convenient for shopping and hospital visits."
         }
       ]
     },
@@ -89165,7 +89302,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "アメリカのプロバスケットボール、NBAで、ニューヨーク・ニックスが2026年の王者になりました。",
+          "en": "In the NBA, America's professional basketball league, the New York Knicks became the 2026 champions."
+        }
+      ]
     },
     {
       "id": "core-ca9345cd618ddd",
@@ -99445,6 +99587,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "最後の第5戦は94対90の接戦でした。",
+          "en": "The final Game 5 was a close 94-90 game."
+        },
+        {
+          "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
+          "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
+        },
+        {
           "ja": "初めの結果では、多くの有権者がこの案に反対しました。",
           "en": "Early results showed that many voters opposed the plan."
         },
@@ -99455,14 +99605,6 @@
         {
           "ja": "政府や議会、経済団体も反対しました。",
           "en": "The government, parliament, and business groups also opposed the proposal."
-        },
-        {
-          "ja": "2026年6月14日、FIFAワールドカップのグループCで、ブラジルとモロッコが1対1で引き分けました。",
-          "en": "On June 14, 2026, Brazil and Morocco drew 1-1 in Group C of the FIFA World Cup."
-        },
-        {
-          "ja": "地方で人が少なくなり、クマも多くなったため、注意喚起や対策をすぐに出す必要があります。",
-          "en": "Because rural populations are shrinking and bear numbers are growing, cities need to issue warnings and take action quickly."
         }
       ],
       "partOfSpeech": "verb",
@@ -109611,7 +109753,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
+          "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
+        }
+      ]
     },
     {
       "id": "core-fb0bda4a0066d4",
@@ -110534,6 +110681,22 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ニックスはファイナルでサンアントニオ・スパーズに4勝1敗で勝ち、1973年以来の優勝を決めました。",
+          "en": "The Knicks beat the San Antonio Spurs 4-1 in the Finals and won their first championship since 1973."
+        },
+        {
+          "ja": "ニックスのファンは長い間、優勝を待っていました。",
+          "en": "Knicks fans had waited a long time for a championship."
+        },
+        {
+          "ja": "ニューヨークでは、優勝パレードも予定されています。",
+          "en": "A championship parade is also planned in New York."
+        },
+        {
+          "ja": "長い間苦しんだチームとファンにとって、今年の優勝は特別な出来事になりました。",
+          "en": "For a team and fan base that struggled for a long time, this year's title became a special event."
+        },
+        {
           "ja": "ブラジルは優勝経験が多い強いチームですが、前半はモロッコの速い攻撃に苦しみました。",
           "en": "Brazil are a strong team with many World Cup titles, but in the first half they struggled against Morocco’s quick attacks."
         }
@@ -111141,6 +111304,230 @@
       "exampleSentences": []
     },
     {
+      "id": "article-04a4e3534eac0e",
+      "level": "N3",
+      "term": "王者",
+      "reading": "おうじゃ",
+      "readingHiragana": "おうじゃ",
+      "meaning": "Champion",
+      "source": "article",
+      "sourceId": "2026-06-15-knicks-championship",
+      "sourceTitle": "ニューヨーク・ニックスが53年ぶりに優勝した",
+      "sourceLabel": "6/15 ニックス優勝",
+      "sourceHref": "./2026-06-15-knicks-championship.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-15-knicks-championship"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "アメリカのプロバスケットボール、NBAで、ニューヨーク・ニックスが2026年の王者になりました。",
+          "en": "In the NBA, America's professional basketball league, the New York Knicks became the 2026 champions."
+        }
+      ]
+    },
+    {
+      "id": "article-36e78c6b990b39",
+      "level": "N3",
+      "term": "優勝",
+      "reading": "ゆうしょう",
+      "readingHiragana": "ゆうしょう",
+      "meaning": "Championship / Tournament victory",
+      "source": "article",
+      "sourceId": "2026-06-15-knicks-championship",
+      "sourceTitle": "ニューヨーク・ニックスが53年ぶりに優勝した",
+      "sourceLabel": "6/15 ニックス優勝",
+      "sourceHref": "./2026-06-15-knicks-championship.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-15-knicks-championship"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "ニックスはファイナルでサンアントニオ・スパーズに4勝1敗で勝ち、1973年以来の優勝を決めました。",
+          "en": "The Knicks beat the San Antonio Spurs 4-1 in the Finals and won their first championship since 1973."
+        },
+        {
+          "ja": "ニックスのファンは長い間、優勝を待っていました。",
+          "en": "Knicks fans had waited a long time for a championship."
+        },
+        {
+          "ja": "ニューヨークでは、優勝パレードも予定されています。",
+          "en": "A championship parade is also planned in New York."
+        },
+        {
+          "ja": "長い間苦しんだチームとファンにとって、今年の優勝は特別な出来事になりました。",
+          "en": "For a team and fan base that struggled for a long time, this year's title became a special event."
+        },
+        {
+          "ja": "ブラジルは優勝経験が多い強いチームですが、前半はモロッコの速い攻撃に苦しみました。",
+          "en": "Brazil are a strong team with many World Cup titles, but in the first half they struggled against Morocco’s quick attacks."
+        }
+      ]
+    },
+    {
+      "id": "article-c8bf529efa50f0",
+      "level": "N3",
+      "term": "接戦",
+      "reading": "せっせん",
+      "readingHiragana": "せっせん",
+      "meaning": "Close game / Tight contest",
+      "source": "article",
+      "sourceId": "2026-06-15-knicks-championship",
+      "sourceTitle": "ニューヨーク・ニックスが53年ぶりに優勝した",
+      "sourceLabel": "6/15 ニックス優勝",
+      "sourceHref": "./2026-06-15-knicks-championship.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-15-knicks-championship"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "最後の第5戦は94対90の接戦でした。",
+          "en": "The final Game 5 was a close 94-90 game."
+        }
+      ]
+    },
+    {
+      "id": "article-aeede7ec922d0e",
+      "level": "N3",
+      "term": "場面",
+      "reading": "ばめん",
+      "readingHiragana": "ばめん",
+      "meaning": "Scene / Moment",
+      "source": "article",
+      "sourceId": "2026-06-15-knicks-championship",
+      "sourceTitle": "ニューヨーク・ニックスが53年ぶりに優勝した",
+      "sourceLabel": "6/15 ニックス優勝",
+      "sourceHref": "./2026-06-15-knicks-championship.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-15-knicks-championship"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "ガードのジェイレン・ブランソンは45点を取り、大きな場面でチームを助けました。",
+          "en": "Guard Jalen Brunson scored 45 points and helped the team in big moments."
+        },
+        {
+          "ja": "今年は、空から被害の様子を確認できるドローンを使う場面が増えました。",
+          "en": "This year, there were more situations in which drones were used to check damage from the sky."
+        }
+      ]
+    },
+    {
+      "id": "article-cbd82c67867692",
+      "level": "N3",
+      "term": "歓声",
+      "reading": "かんせい",
+      "readingHiragana": "かんせい",
+      "meaning": "Cheer / Shout of joy",
+      "source": "article",
+      "sourceId": "2026-06-15-knicks-championship",
+      "sourceTitle": "ニューヨーク・ニックスが53年ぶりに優勝した",
+      "sourceLabel": "6/15 ニックス優勝",
+      "sourceHref": "./2026-06-15-knicks-championship.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-15-knicks-championship"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "そのため、ニューヨークの街では、試合の後に大きな歓声が上がりました。",
+          "en": "Because of that, loud cheers rose in New York after the game."
+        }
+      ]
+    },
+    {
+      "id": "article-ab5154ec347ddc",
+      "level": "N3",
+      "term": "花火",
+      "reading": "はなび",
+      "readingHiragana": "はなび",
+      "meaning": "Fireworks",
+      "source": "article",
+      "sourceId": "2026-06-15-knicks-championship",
+      "sourceTitle": "ニューヨーク・ニックスが53年ぶりに優勝した",
+      "sourceLabel": "6/15 ニックス優勝",
+      "sourceHref": "./2026-06-15-knicks-championship.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-15-knicks-championship"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "車のクラクションや花火の音も聞こえました。",
+          "en": "Car horns and fireworks could also be heard."
+        }
+      ]
+    },
+    {
+      "id": "article-d6876ce424aac6",
+      "level": "N3",
+      "term": "混乱",
+      "reading": "こんらん",
+      "readingHiragana": "こんらん",
+      "meaning": "Disorder / Confusion",
+      "source": "article",
+      "sourceId": "2026-06-15-knicks-championship",
+      "sourceTitle": "ニューヨーク・ニックスが53年ぶりに優勝した",
+      "sourceLabel": "6/15 ニックス優勝",
+      "sourceHref": "./2026-06-15-knicks-championship.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-15-knicks-championship"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
+          "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
+        },
+        {
+          "ja": "人口や機能が集中する首都圏では、交通や物流の混乱も深刻になるとみられています。",
+          "en": "In the Tokyo metropolitan area, where people and key functions are concentrated, disruption to transport and logistics is also expected to be severe."
+        }
+      ]
+    },
+    {
+      "id": "article-ff841b4e3df19b",
+      "level": "N3",
+      "term": "対応する",
+      "reading": "たいおうする",
+      "readingHiragana": "たいおうする",
+      "meaning": "To respond / Deal with",
+      "source": "article",
+      "sourceId": "2026-06-15-knicks-championship",
+      "sourceTitle": "ニューヨーク・ニックスが53年ぶりに優勝した",
+      "sourceLabel": "6/15 ニックス優勝",
+      "sourceHref": "./2026-06-15-knicks-championship.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-15-knicks-championship"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "対応する言語は英語、中国語、韓国語などで、音声でも案内できます。",
+          "en": "The supported languages include English, Chinese, and Korean, and audio guidance is also available."
+        },
+        {
+          "ja": "ロイターは、日本政府が円安に対応するため、市場で円を買ったとみられると伝えました。",
+          "en": "Reuters reported that the Japanese government was believed to have bought yen in the market to respond to the weak yen."
+        },
+        {
+          "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
+          "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
+        },
+        {
+          "ja": "そのため、現金の対応も残しながら、少しずつ切り替える方針です。",
+          "en": "For that reason, cash support will remain while the system is changed gradually."
+        },
+        {
+          "ja": "英語や中国語など、いくつかの言語に対応できるのが特長です。",
+          "en": "A key feature is that the robots can handle several languages such as English and Chinese."
+        }
+      ]
+    },
+    {
       "id": "article-aa16300515874d",
       "level": "N3",
       "term": "有権者",
@@ -111404,6 +111791,14 @@
       ],
       "exampleSentences": [
         {
+          "ja": "試合後、ブランソンはファイナルMVPにも選ばれました。",
+          "en": "After the game, Brunson was also chosen as Finals MVP."
+        },
+        {
+          "ja": "そのため、ニューヨークの街では、試合の後に大きな歓声が上がりました。",
+          "en": "Because of that, loud cheers rose in New York after the game."
+        },
+        {
           "ja": "試合はニューヨーク・ニュージャージーの大きな会場で行われました。",
           "en": "The match was played at a large venue in New York/New Jersey."
         },
@@ -111430,6 +111825,22 @@
         "2026-06-14-brazil-morocco-draw"
       ],
       "exampleSentences": [
+        {
+          "ja": "ニックスはファイナルでサンアントニオ・スパーズに4勝1敗で勝ち、1973年以来の優勝を決めました。",
+          "en": "The Knicks beat the San Antonio Spurs 4-1 in the Finals and won their first championship since 1973."
+        },
+        {
+          "ja": "ニックスのファンは長い間、優勝を待っていました。",
+          "en": "Knicks fans had waited a long time for a championship."
+        },
+        {
+          "ja": "ニューヨークでは、優勝パレードも予定されています。",
+          "en": "A championship parade is also planned in New York."
+        },
+        {
+          "ja": "長い間苦しんだチームとファンにとって、今年の優勝は特別な出来事になりました。",
+          "en": "For a team and fan base that struggled for a long time, this year's title became a special event."
+        },
         {
           "ja": "ブラジルは優勝経験が多い強いチームですが、前半はモロッコの速い攻撃に苦しみました。",
           "en": "Brazil are a strong team with many World Cup titles, but in the first half they struggled against Morocco’s quick attacks."
@@ -113869,6 +114280,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
+          "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
+        },
+        {
           "ja": "対応する言語は英語、中国語、韓国語などで、音声でも案内できます。",
           "en": "The supported languages include English, Chinese, and Korean, and audio guidance is also available."
         },
@@ -113883,10 +114298,6 @@
         {
           "ja": "一方で、細かい相談や、急なトラブルには、やはり人の対応が必要です。",
           "en": "At the same time, detailed requests and sudden trouble still require human support."
-        },
-        {
-          "ja": "また、案内の放送は英語や中国語にも対応していて、はじめて来た人にもわかりやすいです。",
-          "en": "Announcements are also available in English and Chinese, making things easy for first-time visitors."
         }
       ]
     },
@@ -114259,6 +114670,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
+          "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
+        },
+        {
           "ja": "対応する言語は英語、中国語、韓国語などで、音声でも案内できます。",
           "en": "The supported languages include English, Chinese, and Korean, and audio guidance is also available."
         },
@@ -114273,10 +114688,6 @@
         {
           "ja": "一方で、細かい相談や、急なトラブルには、やはり人の対応が必要です。",
           "en": "At the same time, detailed requests and sudden trouble still require human support."
-        },
-        {
-          "ja": "また、案内の放送は英語や中国語にも対応していて、はじめて来た人にもわかりやすいです。",
-          "en": "Announcements are also available in English and Chinese, making things easy for first-time visitors."
         }
       ]
     },
