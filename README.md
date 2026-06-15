@@ -53,7 +53,7 @@ Before changing article data, run the normal verification commands once so you h
 ```bash
 python3 scripts/generate_site.py
 node --check assets/article.js
-python3 -m py_compile server/local_tts_server.py scripts/generate_site.py scripts/render_video.py scripts/render_video_url.py
+python3 -m py_compile server/local_tts_server.py scripts/generate_site.py scripts/render_video.py scripts/render_video_url.py scripts/voicevox_cache.py scripts/generate_audio_cache.py
 docker compose config
 ```
 
@@ -99,6 +99,8 @@ The generator updates:
 - Docker VOICEVOX playback through the local server:
   - `GET /api/tts/voicevox/status`
   - `POST /api/tts/voicevox`
+  - `POST /api/tts/voicevox/cache-status`
+  - Generated WAV files are cached under `.generated_audio/voicevox/` by speaker and content hash.
 - Video rendering through the local server:
   - `POST /api/video/render` streams an MP4 response.
   - `POST /api/video/render-url` writes the MP4 to `videos/` and returns JSON with `download_url`.
@@ -116,6 +118,19 @@ Render a video from the command line and print a JSON download URL:
 
 ```bash
 python3 scripts/render_video_url.py 2026-06-10-bear-capture-drone --pretty
+```
+
+Pre-generate cached VOICEVOX audio for all article sentences and flashcard terms/examples:
+
+```bash
+python3 scripts/generate_audio_cache.py
+```
+
+Limit generation to one area when needed:
+
+```bash
+python3 scripts/generate_audio_cache.py --articles
+python3 scripts/generate_audio_cache.py --flashcards
 ```
 
 Use `PUBLIC_BASE_URL` or `--base-url` if the static server is exposed somewhere other than `http://127.0.0.1:8765`.

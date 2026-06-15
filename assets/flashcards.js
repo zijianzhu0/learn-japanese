@@ -18,6 +18,8 @@ let previousCardId = null;
 let pronunciationAudioUnlocked = false;
 let activePronunciationUrl = null;
 let preparedPronunciation = null;
+let pronunciationCacheState = 'unknown';
+let pronunciationCacheStatusRun = 0;
 
 const elements = {
     levelFilter: document.getElementById('level-filter'),
@@ -55,6 +57,90 @@ const elements = {
     importProgress: document.getElementById('import-progress'),
     resetProgress: document.getElementById('reset-progress')
 };
+
+function normalizeAudioCacheState(value) {
+    if (value === 'hit' || value === 'miss') {
+        return value;
+    }
+    return 'unknown';
+}
+
+function audioCacheLabel(cacheState = pronunciationCacheState) {
+    const normalized = normalizeAudioCacheState(cacheState);
+    if (normalized === 'hit') {
+        return 'Audio cache: hit';
+    }
+    if (normalized === 'miss') {
+        return 'Audio cache: miss';
+    }
+    return 'Audio cache: unknown';
+}
+
+function flashcardAudioTexts() {
+    const texts = [];
+    if (currentItem?.term) {
+        texts.push({ label: 'word', text: currentItem.term });
+    }
+    const exampleText = elements.cardExampleJa?.textContent?.trim();
+    if (exampleText && !elements.cardExample.hidden) {
+        texts.push({ label: 'example', text: exampleText });
+    }
+    return texts;
+}
+
+async function fetchPronunciationCacheStatus(texts) {
+    const response = await fetch('/api/tts/voicevox/cache-status', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            texts: texts.map((item) => item.text),
+            speaker: selectedDockerSpeaker()
+        })
+    });
+
+    if (!response.ok) {
+        let message = `Audio cache status failed with HTTP ${response.status}.`;
+        try {
+            const payload = await response.json();
+            if (payload.error) {
+                message = payload.error;
+            }
+        } catch (error) {
+            // Keep the HTTP status fallback.
+        }
+        throw new Error(message);
+    }
+
+    return response.json();
+}
+
+async function refreshPronunciationCacheStatus() {
+    const texts = flashcardAudioTexts();
+    const runId = pronunciationCacheStatusRun + 1;
+    pronunciationCacheStatusRun = runId;
+    if (!texts.length) {
+        elements.pronunciationStatus.textContent = 'Audio cache: no pronunciation targets.';
+        return;
+    }
+    elements.pronunciationStatus.textContent = 'Audio cache: checking...';
+    try {
+        const payload = await fetchPronunciationCacheStatus(texts);
+        if (runId !== pronunciationCacheStatusRun) {
+            return;
+        }
+        const statusByLabel = texts.map((item, index) => {
+            const result = payload.results?.[index];
+            return `${item.label} ${result?.cached ? 'cached' : 'not cached'}`;
+        });
+        elements.pronunciationStatus.textContent = `Audio cache: ${statusByLabel.join(', ')}.`;
+    } catch (error) {
+        if (runId === pronunciationCacheStatusRun) {
+            elements.pronunciationStatus.textContent = error.message;
+        }
+    }
+}
 
 function usesIosAudioGate() {
     const userAgent = navigator.userAgent || '';
@@ -355,7 +441,9 @@ async function showItem(item) {
     hideAnswer();
     elements.pronounceWord.disabled = false;
     elements.pronounceExample.disabled = elements.cardExample.hidden;
-    elements.pronunciationStatus.textContent = '';
+    pronunciationCacheState = 'unknown';
+    elements.pronunciationStatus.textContent = 'Audio cache: checking...';
+    refreshPronunciationCacheStatus();
     updateStats();
 }
 
@@ -428,7 +516,9 @@ async function fetchPronunciationAudio(text) {
         throw new Error(message);
     }
 
-    return response.blob();
+    pronunciationCacheState = normalizeAudioCacheState(response.headers.get('X-Audio-Cache'));
+    const blob = await response.blob();
+    return { blob, cacheState: pronunciationCacheState };
 }
 
 function setPronunciationButtonsDisabled(disabled) {
@@ -451,9 +541,9 @@ async function playPronunciation(text, label, key) {
                 preparedPronunciation = {
                     key,
                     speaker: selectedDockerSpeaker(),
-                    blob: await fetchPronunciationAudio(text)
+                    audio: await fetchPronunciationAudio(text)
                 };
-                elements.pronunciationStatus.textContent = `${label} pronunciation is ready. Tap the speaker again.`;
+                elements.pronunciationStatus.textContent = `${label} pronunciation is ready. Tap the speaker again. ${audioCacheLabel(preparedPronunciation.audio.cacheState)}.`;
             } catch (error) {
                 clearPreparedPronunciation();
                 elements.pronunciationStatus.textContent = error.message;
@@ -475,12 +565,13 @@ async function playPronunciation(text, label, key) {
         ? `Playing ${label} pronunciation...`
         : `Generating ${label} pronunciation...`;
     try {
-        const audioBlob = preparedPronunciation?.key === key
-            ? preparedPronunciation.blob
+        const audio = preparedPronunciation?.key === key
+            ? preparedPronunciation.audio
             : await fetchPronunciationAudio(text);
+        pronunciationCacheState = normalizeAudioCacheState(audio?.cacheState);
         clearPreparedPronunciation();
         revokeActivePronunciationUrl();
-        activePronunciationUrl = URL.createObjectURL(audioBlob);
+        activePronunciationUrl = URL.createObjectURL(audio.blob);
         elements.audio.src = activePronunciationUrl;
         elements.audio.onended = () => {
             setPronunciationButtonsDisabled(false);
@@ -490,7 +581,7 @@ async function playPronunciation(text, label, key) {
             setPronunciationButtonsDisabled(false);
             elements.pronunciationStatus.textContent = 'Docker pronunciation playback failed.';
         };
-        elements.pronunciationStatus.textContent = `Playing ${label}.`;
+        elements.pronunciationStatus.textContent = `Playing ${label}. ${audioCacheLabel()}.`;
         await elements.audio.play();
     } catch (error) {
         setPronunciationButtonsDisabled(false);

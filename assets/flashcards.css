@@ -518,6 +518,13 @@ button:disabled {
     min-height: 42px;
 }
 
+.pronunciation-status {
+    min-height: 1.35em;
+    color: #2d6a4f;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
 .card-footer a {
     color: var(--accent-dark);
     font-size: 0.94rem;
@@ -531,12 +538,6 @@ button:disabled {
     border-radius: 8px;
     color: var(--muted);
     background: var(--soft);
-}
-
-.pronunciation-status {
-    min-height: 1.35em;
-    color: #52606d;
-    font-size: 0.9rem;
 }
 
 @media (max-width: 860px) {

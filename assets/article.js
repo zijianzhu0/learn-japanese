@@ -278,6 +278,97 @@ let localTtsSpeakersLoaded = false;
 let preparedLocalTtsAudioBlobs = null;
 let preparedLocalTtsStartIndex = 0;
 let preparedLocalTtsSpeaker = null;
+let localTtsCacheStats = { hit: 0, miss: 0, unknown: 0 };
+let articleAudioCacheStatusRun = 0;
+
+function resetLocalTtsCacheStats() {
+    localTtsCacheStats = { hit: 0, miss: 0, unknown: 0 };
+}
+
+function normalizeAudioCacheState(value) {
+    if (value === 'hit' || value === 'miss') {
+        return value;
+    }
+    return 'unknown';
+}
+
+function updateLocalTtsCacheStats(cacheState) {
+    const normalized = normalizeAudioCacheState(cacheState);
+    localTtsCacheStats[normalized] += 1;
+    return normalized;
+}
+
+function articleAudioCacheSummary() {
+    const parts = [];
+    if (localTtsCacheStats.hit) {
+        parts.push(`${localTtsCacheStats.hit} cached`);
+    }
+    if (localTtsCacheStats.miss) {
+        parts.push(`${localTtsCacheStats.miss} generated`);
+    }
+    if (localTtsCacheStats.unknown) {
+        parts.push(`${localTtsCacheStats.unknown} unknown`);
+    }
+    return parts.length ? `Audio cache: ${parts.join(', ')}.` : 'Audio cache: unknown.';
+}
+
+function articleAudioCacheAvailabilityText(cached, total) {
+    if (!total) {
+        return 'Audio cache: no article audio targets.';
+    }
+    const missing = Math.max(0, total - cached);
+    return `Audio cache: ${cached}/${total} cached, ${missing} not cached.`;
+}
+
+async function fetchLocalTtsCacheStatus(texts, speaker = getSelectedLocalTtsSpeaker()) {
+    const response = await fetch('/api/tts/voicevox/cache-status', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            texts,
+            speaker
+        })
+    });
+
+    if (!response.ok) {
+        let errorMessage = `Audio cache status failed with HTTP ${response.status}.`;
+        try {
+            const payload = await response.json();
+            if (payload.error) {
+                errorMessage = payload.error;
+            }
+        } catch (error) {
+            // Keep the HTTP status fallback if the response is not JSON.
+        }
+        throw new Error(errorMessage);
+    }
+
+    return response.json();
+}
+
+async function refreshArticleAudioCacheStatus() {
+    if (!sentenceMeta.length || getSelectedVoiceSource() !== 'docker') {
+        return;
+    }
+    const runId = articleAudioCacheStatusRun + 1;
+    articleAudioCacheStatusRun = runId;
+    const status = document.getElementById('copy-status');
+    try {
+        const payload = await fetchLocalTtsCacheStatus(
+            sentenceMeta.map((sentence) => sentence.text),
+            getSelectedLocalTtsSpeaker()
+        );
+        if (runId === articleAudioCacheStatusRun && status && !speaking && !localTtsPlaybackActive) {
+            status.textContent = articleAudioCacheAvailabilityText(payload.cached || 0, sentenceMeta.length);
+        }
+    } catch (error) {
+        if (runId === articleAudioCacheStatusRun && status && !speaking && !localTtsPlaybackActive) {
+            status.textContent = error.message;
+        }
+    }
+}
 
 function extractRubyBaseText(element) {
     const clone = element.cloneNode(true);
@@ -830,6 +921,7 @@ async function populateLocalTtsVoiceOptions() {
 
         localTtsSpeakersLoaded = true;
         updateVoiceStatus();
+        refreshArticleAudioCacheStatus();
     } catch (error) {
         select.innerHTML = `<option value="${defaultLocalTtsSpeaker}">Start Docker VOICEVOX</option>`;
         updateVoiceStatus();
@@ -865,14 +957,19 @@ async function fetchLocalTtsAudio(text, speaker = getSelectedLocalTtsSpeaker()) 
         throw new Error(errorMessage);
     }
 
-    return response.blob();
+    const cacheState = updateLocalTtsCacheStats(response.headers.get('X-Audio-Cache'));
+    const blob = await response.blob();
+    return { blob, cacheState };
 }
 
 async function buildLocalTtsAudioQueue(status, speaker = getSelectedLocalTtsSpeaker()) {
     const audioBlobs = [];
+    resetLocalTtsCacheStats();
     for (let index = 0; index < sentenceMeta.length; index += 1) {
         status.textContent = `Generating Docker TTS sentence ${index + 1}/${sentenceMeta.length}...`;
-        audioBlobs.push(await fetchLocalTtsAudio(sentenceMeta[index].text, speaker));
+        const audio = await fetchLocalTtsAudio(sentenceMeta[index].text, speaker);
+        status.textContent = `Prepared sentence ${index + 1}/${sentenceMeta.length}. ${articleAudioCacheSummary()}`;
+        audioBlobs.push(audio);
     }
 
     return audioBlobs;
@@ -900,10 +997,17 @@ function playLocalTtsAudioBlob(audioBlob, sentence, sentenceIndex, runId) {
         };
 
         revokeActiveTtsAudioUrl();
-        activeTtsAudioUrl = URL.createObjectURL(audioBlob);
+        const blob = audioBlob?.blob || audioBlob;
+        const cacheState = normalizeAudioCacheState(audioBlob?.cacheState);
+        activeTtsAudioUrl = URL.createObjectURL(blob);
         audioPlayer.src = activeTtsAudioUrl;
         highlightUnit(getSentenceFirstUnitIndex(sentence));
-        status.textContent = `Playing Docker TTS sentence ${sentenceIndex + 1}/${sentenceMeta.length}.`;
+        const cacheLabel = cacheState === 'hit'
+            ? 'cached'
+            : cacheState === 'miss'
+                ? 'generated'
+                : 'cache unknown';
+        status.textContent = `Playing Docker TTS sentence ${sentenceIndex + 1}/${sentenceMeta.length} (${cacheLabel}). ${articleAudioCacheSummary()}`;
 
         audioPlayer.play().catch((error) => {
             cleanup();
@@ -932,6 +1036,9 @@ async function playLocalTtsQueue({ audioBlobs = null, speaker = getSelectedLocal
     };
 
     stopCurrentPlayback();
+    if (!audioBlobs) {
+        resetLocalTtsCacheStats();
+    }
     localTtsPlaybackRun = runId;
     localTtsPlaybackActive = true;
     if (speakButton) {
@@ -947,13 +1054,14 @@ async function playLocalTtsQueue({ audioBlobs = null, speaker = getSelectedLocal
 
             const sentence = sentenceMeta[index];
             const audioBlob = await pendingAudioBlob;
+            status.textContent = `Prepared sentence ${index + 1}/${sentenceMeta.length}. ${articleAudioCacheSummary()}`;
             pendingAudioBlob = index + 1 < sentenceMeta.length
                 ? loadAudioBlob(index + 1)
                 : null;
             await playLocalTtsAudioBlob(audioBlob, sentence, index, runId);
         }
 
-        status.textContent = 'Finished Docker TTS reading.';
+        status.textContent = `Finished Docker TTS reading. ${articleAudioCacheSummary()}`;
     } finally {
         if (runId === localTtsPlaybackRun) {
             localTtsPlaybackActive = false;
@@ -1352,6 +1460,7 @@ document.getElementById('browser-voice')?.addEventListener('change', (event) => 
     writeVoicePreference(voicePreferenceKeys.browserVoice, event.target.value);
     updateVoiceStatus();
 });
+document.getElementById('docker-voice')?.addEventListener('change', refreshArticleAudioCacheStatus);
 document.getElementById('copy-japanese-article')?.addEventListener('click', copyJapaneseArticle);
 document.getElementById('copy-english-translation')?.addEventListener('click', copyEnglishTranslation);
 document.getElementById('copy-bilingual-article')?.addEventListener('click', copyBilingualArticle);
@@ -1382,6 +1491,7 @@ buildReadingUnits();
 buildSentenceMeta();
 renderSentencePlaybackButtons();
 populateBrowserVoiceOptions();
+refreshArticleAudioCacheStatus();
 if (isRecordingPreviewMode()) {
     document.body.classList.add('recording-mode', 'recording-preview');
     fitRecordingPageText();

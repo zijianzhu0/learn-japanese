@@ -9,6 +9,7 @@ import os
 import re
 import shutil
 import subprocess
+import sys
 import tempfile
 import time
 import wave
@@ -16,15 +17,25 @@ from dataclasses import dataclass
 from html import escape
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib import error, parse, request
-
+from urllib import error
 
 ROOT = Path(__file__).resolve().parent.parent
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+from scripts.voicevox_cache import (
+    DEFAULT_VOICEVOX_BASE_URL,
+    VoicevoxRequestError,
+    cached_voicevox_wav,
+    voicevox_request,
+)
+
+
 ARTICLES_MANIFEST = ROOT / "data" / "articles.json"
 VIDEO_QUIZZES_MANIFEST = ROOT / "data" / "video-quizzes.json"
 ARTICLE_CSS = ROOT / "assets" / "article.css"
 IG_VIDEOS_CSS = ROOT / "assets" / "ig-videos.css"
-VOICEVOX_BASE_URL = os.environ.get("VOICEVOX_BASE_URL", "http://127.0.0.1:50021")
+VOICEVOX_BASE_URL = DEFAULT_VOICEVOX_BASE_URL
 DEFAULT_SPEAKER = int(os.environ.get("VOICEVOX_SPEAKER", "9"))
 FRAME_WIDTH = 1080
 FRAME_HEIGHT = 1920
@@ -191,61 +202,28 @@ def build_segments(article: dict) -> list[Segment]:
     return segments
 
 
-def voicevox_request(
-    method: str,
-    endpoint: str,
-    *,
-    query: dict | None = None,
-    body: bytes | None = None,
-    content_type: str | None = None,
-    expect_json: bool = True,
-):
-    query_string = f"?{parse.urlencode(query)}" if query else ""
-    headers = {}
-    if content_type:
-        headers["Content-Type"] = content_type
-    api_request = request.Request(
-        f"{VOICEVOX_BASE_URL}{endpoint}{query_string}",
-        data=body,
-        headers=headers,
-        method=method,
-    )
-    with request.urlopen(api_request, timeout=60) as response:
-        response_body = response.read()
-    if not expect_json:
-        return response_body
-    return json.loads(response_body.decode("utf-8"))
-
-
 def wait_for_voicevox(timeout: float) -> None:
     deadline = time.monotonic() + timeout
     last_error = ""
     while time.monotonic() < deadline:
         try:
-            voicevox_request("GET", "/speakers")
+            voicevox_request("GET", "/speakers", base_url=VOICEVOX_BASE_URL, timeout=60)
             return
-        except (error.URLError, TimeoutError, json.JSONDecodeError) as exc:
+        except (VoicevoxRequestError, error.URLError, TimeoutError, json.JSONDecodeError) as exc:
             last_error = str(exc)
             time.sleep(1)
     raise SystemExit(f"VOICEVOX is not reachable at {VOICEVOX_BASE_URL}: {last_error}")
 
 
 def synthesize_sentence(text: str, speaker: int) -> bytes:
-    audio_query = voicevox_request(
-        "POST",
-        "/audio_query",
-        query={"text": text, "speaker": speaker},
-        body=b"",
+    wav_audio, _, _ = cached_voicevox_wav(
+        text,
+        speaker,
+        base_url=VOICEVOX_BASE_URL,
+        trailing_silence=TRAILING_SILENCE_SECONDS,
+        timeout=60,
     )
-    audio_query["postPhonemeLength"] = TRAILING_SILENCE_SECONDS
-    return voicevox_request(
-        "POST",
-        "/synthesis",
-        query={"speaker": speaker},
-        body=json.dumps(audio_query).encode("utf-8"),
-        content_type="application/json",
-        expect_json=False,
-    )
+    return wav_audio
 
 
 def wav_duration(path: Path) -> float:

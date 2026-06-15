@@ -11,7 +11,7 @@ import sys
 import tempfile
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
-from urllib import error, parse, request
+from urllib import parse
 
 PROJECT_DIR = Path(__file__).resolve().parent.parent
 if str(PROJECT_DIR) not in sys.path:
@@ -25,6 +25,12 @@ from scripts.render_video import (
     quiz_video_filename,
     render_article_video,
     render_quiz_video,
+)
+from scripts.voicevox_cache import (
+    VoicevoxRequestError,
+    cache_path,
+    cached_voicevox_wav,
+    voicevox_request,
 )
 
 
@@ -57,6 +63,10 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
             self.handle_voicevox_synthesis()
             return
 
+        if self.path == "/api/tts/voicevox/cache-status":
+            self.handle_voicevox_cache_status()
+            return
+
         if self.path == "/api/video/convert-mp4":
             self.handle_mp4_conversion()
             return
@@ -77,8 +87,8 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
 
     def handle_voicevox_status(self) -> None:
         try:
-            speakers = self.voicevox_request("GET", "/speakers")
-        except VoicevoxError as exc:
+            speakers = voicevox_request("GET", "/speakers", base_url=VOICEVOX_BASE_URL)
+        except VoicevoxRequestError as exc:
             self.send_json(exc.status, {"ok": False, "error": exc.message})
             return
 
@@ -117,30 +127,80 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
             return
 
         try:
-            audio_query = self.voicevox_request(
-                "POST",
-                "/audio_query",
-                query={"text": text, "speaker": speaker},
-                body=b"",
+            wav_audio, cache_hit, cache_file = cached_voicevox_wav(
+                text,
+                speaker,
+                base_url=VOICEVOX_BASE_URL,
             )
-            wav_audio = self.voicevox_request(
-                "POST",
-                "/synthesis",
-                query={"speaker": speaker},
-                body=json.dumps(audio_query).encode("utf-8"),
-                content_type="application/json",
-                expect_json=False,
-            )
-        except VoicevoxError as exc:
+        except VoicevoxRequestError as exc:
             self.send_json(exc.status, {"ok": False, "error": exc.message})
             return
 
         self.send_response(200)
         self.send_header("Content-Type", "audio/wav")
         self.send_header("Content-Length", str(len(wav_audio)))
-        self.send_header("Cache-Control", "no-store")
+        self.send_header("Cache-Control", "public, max-age=31536000, immutable")
+        self.send_header("X-Audio-Cache", "hit" if cache_hit else "miss")
+        self.send_header("X-Audio-Cache-Key", cache_file.stem)
         self.end_headers()
         self.wfile.write(wav_audio)
+
+    def handle_voicevox_cache_status(self) -> None:
+        try:
+            payload = self.read_json_body()
+            raw_texts = payload.get("texts")
+            if raw_texts is None:
+                raw_texts = [payload.get("text", "")]
+            if not isinstance(raw_texts, list):
+                raise TypeError("texts must be an array")
+            speaker = int(payload.get("speaker", DEFAULT_VOICEVOX_SPEAKER))
+            texts = [str(text).strip() for text in raw_texts]
+        except (ValueError, TypeError, json.JSONDecodeError) as exc:
+            self.send_json(400, {"ok": False, "error": f"Invalid JSON request: {exc}"})
+            return
+
+        if len(texts) > 100:
+            self.send_json(413, {"ok": False, "error": "Too many texts. Limit is 100."})
+            return
+
+        results = []
+        cached_count = 0
+        for index, text in enumerate(texts):
+            if not text:
+                results.append({"index": index, "cached": False, "cache": "missing", "key": ""})
+                continue
+            if len(text) > MAX_TTS_TEXT_CHARS:
+                self.send_json(
+                    413,
+                    {
+                        "ok": False,
+                        "error": f"Text is too long. Limit is {MAX_TTS_TEXT_CHARS} characters.",
+                    },
+                )
+                return
+            path = cache_path(text, speaker)
+            cached = path.exists()
+            if cached:
+                cached_count += 1
+            results.append(
+                {
+                    "index": index,
+                    "cached": cached,
+                    "cache": "hit" if cached else "miss",
+                    "key": path.stem,
+                }
+            )
+
+        self.send_json(
+            200,
+            {
+                "ok": True,
+                "speaker": speaker,
+                "cached": cached_count,
+                "missing": len(results) - cached_count,
+                "results": results,
+            },
+        )
 
     def handle_mp4_conversion(self) -> None:
         if not shutil.which("ffmpeg"):
@@ -374,48 +434,6 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
         self.send_header("Cache-Control", "no-store")
         self.end_headers()
         self.wfile.write(body)
-
-    def voicevox_request(
-        self,
-        method: str,
-        endpoint: str,
-        *,
-        query: dict | None = None,
-        body: bytes | None = None,
-        content_type: str | None = None,
-        expect_json: bool = True,
-    ):
-        query_string = f"?{parse.urlencode(query)}" if query else ""
-        url = f"{VOICEVOX_BASE_URL}{endpoint}{query_string}"
-        headers = {}
-        if content_type:
-            headers["Content-Type"] = content_type
-
-        api_request = request.Request(url, data=body, headers=headers, method=method)
-        try:
-            with request.urlopen(api_request, timeout=30) as response:
-                response_body = response.read()
-        except error.HTTPError as exc:
-            detail = exc.read().decode("utf-8", errors="replace")
-            raise VoicevoxError(exc.code, f"VOICEVOX returned {exc.code}: {detail}") from exc
-        except error.URLError as exc:
-            raise VoicevoxError(
-                503,
-                f"VOICEVOX is not reachable at {VOICEVOX_BASE_URL}. Start it with docker compose up voicevox.",
-            ) from exc
-
-        if not expect_json:
-            return response_body
-
-        return json.loads(response_body.decode("utf-8"))
-
-
-class VoicevoxError(Exception):
-    def __init__(self, status: int, message: str):
-        super().__init__(message)
-        self.status = status
-        self.message = message
-
 
 class VideoRenderRequestError(Exception):
     def __init__(self, status: int, message: str):
