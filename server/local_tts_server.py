@@ -9,6 +9,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import threading
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib import parse
@@ -42,6 +43,8 @@ DEFAULT_VOICEVOX_SPEAKER = 9
 MAX_TTS_TEXT_CHARS = 500
 MAX_VIDEO_UPLOAD_BYTES = 700 * 1024 * 1024
 VIDEO_OUTPUT_DIR = PROJECT_DIR / "videos"
+FLASHCARD_PROGRESS_PATH = PROJECT_DIR / "data" / "flashcard-progress.json"
+FLASHCARD_PROGRESS_LOCK = threading.Lock()
 
 
 class LearnJapaneseHandler(SimpleHTTPRequestHandler):
@@ -52,34 +55,44 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
         return
 
     def do_GET(self) -> None:
-        if self.path == "/api/tts/voicevox/status":
+        request_path = parse.urlsplit(self.path).path
+        if request_path == "/api/tts/voicevox/status":
             self.handle_voicevox_status()
+            return
+
+        if request_path == "/api/flashcards/progress":
+            self.handle_flashcard_progress_get()
             return
 
         super().do_GET()
 
     def do_POST(self) -> None:
-        if self.path == "/api/tts/voicevox":
+        request_path = parse.urlsplit(self.path).path
+        if request_path == "/api/tts/voicevox":
             self.handle_voicevox_synthesis()
             return
 
-        if self.path == "/api/tts/voicevox/cache-status":
+        if request_path == "/api/tts/voicevox/cache-status":
             self.handle_voicevox_cache_status()
             return
 
-        if self.path == "/api/video/convert-mp4":
+        if request_path == "/api/flashcards/progress":
+            self.handle_flashcard_progress_update()
+            return
+
+        if request_path == "/api/video/convert-mp4":
             self.handle_mp4_conversion()
             return
 
-        if self.path == "/api/video/render":
+        if request_path == "/api/video/render":
             self.handle_video_render()
             return
 
-        if self.path == "/api/video/render-url":
+        if request_path == "/api/video/render-url":
             self.handle_video_render_url()
             return
 
-        if self.path == "/api/video/render-quiz-url":
+        if request_path == "/api/video/render-quiz-url":
             self.handle_quiz_video_render_url()
             return
 
@@ -201,6 +214,129 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
                 "results": results,
             },
         )
+
+    def handle_flashcard_progress_get(self) -> None:
+        try:
+            with FLASHCARD_PROGRESS_LOCK:
+                progress = self.read_flashcard_progress()
+        except (json.JSONDecodeError, ValueError) as exc:
+            self.send_json(500, {"ok": False, "error": f"Progress could not be loaded: {exc}"})
+            return
+        self.send_json(200, {"ok": True, **progress})
+
+    def handle_flashcard_progress_update(self) -> None:
+        try:
+            payload = self.read_json_body()
+            operation = str(payload.get("operation", "")).strip()
+        except (TypeError, json.JSONDecodeError) as exc:
+            self.send_json(400, {"ok": False, "error": f"Invalid JSON request: {exc}"})
+            return
+
+        try:
+            with FLASHCARD_PROGRESS_LOCK:
+                progress = self.read_flashcard_progress()
+                if operation == "put":
+                    store = self.progress_store_name(payload)
+                    record = self.progress_record(payload)
+                    progress[store] = self.upsert_progress_record(store, progress[store], record)
+                elif operation == "add":
+                    store = self.progress_store_name(payload)
+                    record = self.progress_record(payload)
+                    progress[store] = self.upsert_progress_record(store, progress[store], record)
+                elif operation == "clear":
+                    store = self.progress_store_name(payload)
+                    progress[store] = []
+                elif operation == "replace":
+                    progress["cards"] = self.progress_record_list(payload.get("cards", []))
+                    progress["reviews"] = self.progress_record_list(payload.get("reviews", []))
+                elif operation == "reset":
+                    progress["cards"] = []
+                    progress["reviews"] = []
+                else:
+                    raise ValueError("Unsupported progress operation.")
+
+                self.write_flashcard_progress(progress)
+        except (TypeError, ValueError, json.JSONDecodeError) as exc:
+            self.send_json(400, {"ok": False, "error": str(exc)})
+            return
+
+        self.send_json(200, {"ok": True, **progress})
+
+    def read_flashcard_progress(self) -> dict:
+        if not FLASHCARD_PROGRESS_PATH.exists():
+            return {"schemaVersion": 2, "cards": [], "reviews": []}
+
+        payload = json.loads(FLASHCARD_PROGRESS_PATH.read_text(encoding="utf-8"))
+        if not isinstance(payload, dict):
+            raise ValueError("Progress file must contain a JSON object.")
+
+        cards = self.progress_record_list(payload.get("cards", []))
+        reviews = self.progress_record_list(payload.get("reviews", []))
+        return {"schemaVersion": 2, "cards": cards, "reviews": reviews}
+
+    def write_flashcard_progress(self, progress: dict) -> None:
+        FLASHCARD_PROGRESS_PATH.parent.mkdir(parents=True, exist_ok=True)
+        temp_path = FLASHCARD_PROGRESS_PATH.with_suffix(".json.tmp")
+        temp_path.write_text(
+            json.dumps(progress, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        temp_path.replace(FLASHCARD_PROGRESS_PATH)
+
+    def progress_store_name(self, payload: dict) -> str:
+        store = str(payload.get("store", "")).strip()
+        if store not in {"cards", "reviews"}:
+            raise ValueError("Progress store must be cards or reviews.")
+        return store
+
+    def progress_record(self, payload: dict) -> dict:
+        record = payload.get("record")
+        if not isinstance(record, dict):
+            raise ValueError("Progress record must be an object.")
+        return record
+
+    def progress_record_list(self, value: object) -> list[dict]:
+        if not isinstance(value, list):
+            raise ValueError("Progress records must be an array.")
+        if not all(isinstance(item, dict) for item in value):
+            raise ValueError("Each progress record must be an object.")
+        return value
+
+    def upsert_progress_record(self, store: str, records: list[dict], record: dict) -> list[dict]:
+        key = "card_id" if store == "cards" else "id"
+        record_id = str(record.get(key, "")).strip()
+        if not record_id:
+            raise ValueError(f"Progress record is missing {key}.")
+
+        updated = False
+        next_records = []
+        for existing in records:
+            if str(existing.get(key, "")).strip() == record_id:
+                next_records.append(
+                    self.merge_card_progress(existing, record) if store == "cards" else record
+                )
+                updated = True
+            else:
+                next_records.append(existing)
+        if not updated:
+            next_records.append(record)
+        return next_records
+
+    def merge_card_progress(self, existing: dict, incoming: dict) -> dict:
+        merged = {**existing, **incoming}
+        for key in ("shown_count", "remembered_count", "forgot_count"):
+            merged[key] = max(int(existing.get(key) or 0), int(incoming.get(key) or 0))
+
+        for key in ("last_shown_at", "last_answered_at"):
+            merged[key] = max(str(existing.get(key) or ""), str(incoming.get(key) or "")) or None
+
+        existing_answered = str(existing.get("last_answered_at") or "")
+        incoming_answered = str(incoming.get("last_answered_at") or "")
+        schedule_source = incoming if incoming_answered >= existing_answered else existing
+        for key in ("due_at", "interval_days", "ease_factor", "state"):
+            merged[key] = schedule_source.get(key)
+
+        return merged
 
     def handle_mp4_conversion(self) -> None:
         if not shutil.which("ffmpeg"):

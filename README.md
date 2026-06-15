@@ -101,6 +101,11 @@ The generator updates:
   - `POST /api/tts/voicevox`
   - `POST /api/tts/voicevox/cache-status`
   - Generated WAV files are cached under `.generated_audio/voicevox/` by speaker and content hash.
+- Flashcard progress through the local server:
+  - `GET /api/flashcards/progress`
+  - `POST /api/flashcards/progress`
+  - Progress is stored in `data/flashcard-progress.json`, which is ignored by git.
+  - If server progress is empty, the flashcards page migrates older browser-only progress to the server once.
 - Video rendering through the local server:
   - `POST /api/video/render` streams an MP4 response.
   - `POST /api/video/render-url` writes the MP4 to `videos/` and returns JSON with `download_url`.
@@ -108,7 +113,7 @@ The generator updates:
 - Voice source, browser voice, and Docker speaker preferences persist across refreshes and article pages.
 - Sentence-level highlighting during playback.
 - Furigana-safe article copy.
-- Flashcards include separate generated review cards for common verb forms.
+- Flashcards show common verb forms next to the base vocabulary.
 - Flashcards cycle through five generated or source-provided example sentences per card, with the next example index stored in progress.
 - Story quiz videos render a 9:16 multiple-choice prompt with four answers and Japanese TTS narration while keeping the full JP/EN passage available for comment copying.
 - Vertical one-page recording layout for `Render Video`.

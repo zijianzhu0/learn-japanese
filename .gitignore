@@ -9,6 +9,7 @@ node_modules/
 dist/
 build/
 .generated_audio/
+data/flashcard-progress.json
 videos/
 models/
 *.log

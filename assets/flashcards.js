@@ -1,12 +1,11 @@
 const flashcardManifestUrl = './data/flashcards.json';
-const dbName = 'learnJapaneseFlashcards';
-const dbVersion = 1;
+const flashcardProgressUrl = '/api/flashcards/progress';
+const legacyDbName = 'learnJapaneseFlashcards';
 const oneDayMs = 24 * 60 * 60 * 1000;
 const defaultDockerSpeaker = 9;
 const dockerSpeakerPreferenceKey = 'learnJapanese.dockerSpeaker';
 const silentAudioDataUrl = 'data:audio/wav;base64,UklGRigAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQQAAAAAgICA';
 
-let dbPromise = null;
 let manifest = { items: [] };
 let progressByCardId = new Map();
 let visibleItems = [];
@@ -20,6 +19,7 @@ let activePronunciationUrl = null;
 let preparedPronunciation = null;
 let pronunciationCacheState = 'unknown';
 let pronunciationCacheStatusRun = 0;
+let progressServerAvailable = true;
 
 const elements = {
     levelFilter: document.getElementById('level-filter'),
@@ -160,76 +160,102 @@ function selectedDockerSpeaker() {
     }
 }
 
-function openDatabase() {
-    if (dbPromise) {
-        return dbPromise;
+async function fetchProgress() {
+    const response = await fetch(flashcardProgressUrl, { cache: 'no-store' });
+    if (!response.ok) {
+        progressServerAvailable = false;
+        return { cards: [], reviews: [] };
     }
 
-    dbPromise = new Promise((resolve, reject) => {
-        const request = indexedDB.open(dbName, dbVersion);
-
-        request.onupgradeneeded = () => {
-            const db = request.result;
-            if (!db.objectStoreNames.contains('cards')) {
-                const cards = db.createObjectStore('cards', { keyPath: 'card_id' });
-                cards.createIndex('due_at', 'due_at');
-                cards.createIndex('level', 'level');
-            }
-            if (!db.objectStoreNames.contains('reviews')) {
-                const reviews = db.createObjectStore('reviews', { keyPath: 'id' });
-                reviews.createIndex('card_id', 'card_id');
-                reviews.createIndex('answered_at', 'answered_at');
-            }
-        };
-
-        request.onsuccess = () => resolve(request.result);
-        request.onerror = () => reject(request.error);
-    });
-
-    return dbPromise;
+    progressServerAvailable = true;
+    const payload = await response.json();
+    return {
+        cards: Array.isArray(payload.cards) ? payload.cards : [],
+        reviews: Array.isArray(payload.reviews) ? payload.reviews : []
+    };
 }
 
-function requestToPromise(request) {
-    return new Promise((resolve, reject) => {
-        request.onsuccess = () => resolve(request.result);
-        request.onerror = () => reject(request.error);
+async function updateProgress(operation, payload = {}) {
+    if (!progressServerAvailable) {
+        updateProgressStorageStatus();
+        return { ok: false, cards: [], reviews: [] };
+    }
+
+    const response = await fetch(flashcardProgressUrl, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ operation, ...payload })
     });
+
+    if (!response.ok) {
+        progressServerAvailable = false;
+        updateProgressStorageStatus();
+        return { ok: false, cards: [], reviews: [] };
+    }
+
+    progressServerAvailable = true;
+    return response.json();
 }
 
 async function getAllRecords(storeName) {
-    const db = await openDatabase();
-    const transaction = db.transaction(storeName, 'readonly');
-    return requestToPromise(transaction.objectStore(storeName).getAll());
+    const progress = await fetchProgress();
+    return progress[storeName] || [];
+}
+
+function legacyRequestToPromise(request) {
+    return new Promise((resolve, reject) => {
+        request.onsuccess = () => resolve(request.result);
+        request.onerror = () => reject(request.error);
+    });
+}
+
+async function legacyDatabaseExists() {
+    if (!indexedDB.databases) {
+        return true;
+    }
+
+    const databases = await indexedDB.databases();
+    return databases.some((database) => database.name === legacyDbName);
+}
+
+async function loadLegacyBrowserProgress() {
+    if (!('indexedDB' in window) || !(await legacyDatabaseExists())) {
+        return { cards: [], reviews: [] };
+    }
+
+    const db = await legacyRequestToPromise(indexedDB.open(legacyDbName));
+    try {
+        const stores = Array.from(db.objectStoreNames || []);
+        const readStore = async (storeName) => {
+            if (!stores.includes(storeName)) {
+                return [];
+            }
+            const transaction = db.transaction(storeName, 'readonly');
+            return legacyRequestToPromise(transaction.objectStore(storeName).getAll());
+        };
+        const [cards, reviews] = await Promise.all([readStore('cards'), readStore('reviews')]);
+        return { cards, reviews };
+    } finally {
+        db.close();
+    }
 }
 
 async function putRecord(storeName, value) {
-    const db = await openDatabase();
-    const transaction = db.transaction(storeName, 'readwrite');
-    transaction.objectStore(storeName).put(value);
-    return new Promise((resolve, reject) => {
-        transaction.oncomplete = resolve;
-        transaction.onerror = () => reject(transaction.error);
-    });
+    return updateProgress('put', { store: storeName, record: value });
 }
 
 async function addRecord(storeName, value) {
-    const db = await openDatabase();
-    const transaction = db.transaction(storeName, 'readwrite');
-    transaction.objectStore(storeName).add(value);
-    return new Promise((resolve, reject) => {
-        transaction.oncomplete = resolve;
-        transaction.onerror = () => reject(transaction.error);
-    });
+    return updateProgress('add', { store: storeName, record: value });
 }
 
-async function clearStore(storeName) {
-    const db = await openDatabase();
-    const transaction = db.transaction(storeName, 'readwrite');
-    transaction.objectStore(storeName).clear();
-    return new Promise((resolve, reject) => {
-        transaction.oncomplete = resolve;
-        transaction.onerror = () => reject(transaction.error);
-    });
+async function replaceProgress(cards, reviews) {
+    return updateProgress('replace', { cards, reviews });
+}
+
+async function resetStoredProgress() {
+    return updateProgress('reset');
 }
 
 function cardIdForItem(item) {
@@ -299,12 +325,17 @@ function updateProgressStorageStatus() {
         return;
     }
 
+    if (!progressServerAvailable) {
+        elements.progressStorageStatus.textContent = 'Server progress endpoint unavailable. Restart the local server to save progress.';
+        return;
+    }
+
     const savedCount = progressByCardId.size;
     const visibleCount = manifest.items.filter((item) => progressByCardId.has(cardIdForItem(item))).length;
     const olderCount = Math.max(0, savedCount - visibleCount);
     elements.progressStorageStatus.textContent = olderCount
-        ? `Progress is stored in this browser with ${visibleCount} active cards and ${olderCount} older records.`
-        : `Progress is stored in this browser with ${visibleCount} saved cards.`;
+        ? `Progress is stored on the local server with ${visibleCount} active cards and ${olderCount} older records.`
+        : `Progress is stored on the local server with ${visibleCount} saved cards.`;
 }
 
 function exampleSentencesForItem(item) {
@@ -750,7 +781,17 @@ async function answerCurrentCard(answer) {
 }
 
 async function loadProgress() {
-    const cards = await getAllRecords('cards');
+    const progress = await fetchProgress();
+    let cards = progress.cards;
+    let reviews = progress.reviews;
+    if (!cards.length && !reviews.length) {
+        const legacyProgress = await loadLegacyBrowserProgress();
+        if (legacyProgress.cards.length || legacyProgress.reviews.length) {
+            await replaceProgress(legacyProgress.cards, legacyProgress.reviews);
+            cards = legacyProgress.cards;
+            reviews = legacyProgress.reviews;
+        }
+    }
     progressByCardId = new Map(cards.map((card) => [card.card_id, card]));
     updateProgressStorageStatus();
 }
@@ -797,27 +838,19 @@ async function importProgress(file) {
     const cards = Array.isArray(payload.cards) ? payload.cards : [];
     const reviews = Array.isArray(payload.reviews) ? payload.reviews : [];
 
-    await clearStore('cards');
-    await clearStore('reviews');
-    for (const card of cards) {
-        await putRecord('cards', card);
-    }
-    for (const review of reviews) {
-        await addRecord('reviews', review);
-    }
+    await replaceProgress(cards, reviews);
     await loadProgress();
     await showNextCard();
     updateProgressStorageStatus();
 }
 
 async function resetProgress() {
-    const confirmed = window.confirm('Reset all flashcard progress on this browser?');
+    const confirmed = window.confirm('Reset all flashcard progress on the local server?');
     if (!confirmed) {
         return;
     }
 
-    await clearStore('cards');
-    await clearStore('reviews');
+    await resetStoredProgress();
     progressByCardId = new Map();
     await showNextCard();
     updateProgressStorageStatus();
