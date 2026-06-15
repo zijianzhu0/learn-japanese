@@ -1,0 +1,69 @@
+{
+  "id": "2026-06-15-coogee-shark-attack",
+  "file": "2026-06-15-coogee-shark-attack.html",
+  "title": "シドニーの海岸でサメにかまれた女性を救助した",
+  "date": "2026年6月15日",
+  "month": "June 2026",
+  "navLabel": "6/15 サメ被害",
+  "level": "N3",
+  "downloadFileName": "2026-06-15-coogee-shark-attack.mp4",
+  "headlineHtml": "シドニーの<ruby>海岸<rt>かいがん</rt></ruby>でサメにかまれた<ruby>女性<rt>じょせい</rt></ruby>を<ruby>救助<rt>きゅうじょ</rt></ruby>した",
+  "sourceNote": "2026年6月15日のGuardianによる、オーストラリア・シドニーのクージー・ビーチで起きたサメ被害の報道をもとにしたN3レベルの学習用ページです。",
+  "paragraphs": [
+    {
+      "html": "オーストラリアのシドニーにあるクージー・ビーチで、35<ruby>歳<rt>さい</rt></ruby>の<ruby>女性<rt>じょせい</rt></ruby>がサメにかまれました。<ruby>女性<rt>じょせい</rt></ruby>は<ruby>土曜日<rt>どようび</rt></ruby>の<ruby>朝<rt>あさ</rt></ruby>、<ruby>岸<rt>きし</rt></ruby>に<ruby>近<rt>ちか</rt></ruby>い<ruby>場所<rt>ばしょ</rt></ruby>で<ruby>泳<rt>およ</rt></ruby>いでいました。",
+      "translation": "At Coogee Beach in Sydney, Australia, a 35-year-old woman was bitten by a shark. She was swimming near the shore on Saturday morning."
+    },
+    {
+      "html": "<ruby>報道<rt>ほうどう</rt></ruby>によると、サメは3.5メートルほどのホホジロザメとみられています。<ruby>女性<rt>じょせい</rt></ruby>は<ruby>大<rt>おお</rt></ruby>けがをして、ヘリコプターで<ruby>病院<rt>びょういん</rt></ruby>へ<ruby>運<rt>はこ</rt></ruby>ばれました。<ruby>今<rt>いま</rt></ruby>も<ruby>重<rt>おも</rt></ruby>い<ruby>状態<rt>じょうたい</rt></ruby>だと<ruby>伝<rt>つた</rt></ruby>えられています。",
+      "translation": "According to reports, the shark is believed to have been a great white about 3.5 meters long. The woman was seriously injured and was taken to a hospital by helicopter. She is still reported to be in serious condition."
+    },
+    {
+      "html": "<ruby>近<rt>ちか</rt></ruby>くにいた24<ruby>歳<rt>さい</rt></ruby>のライフセーバーが、<ruby>海<rt>うみ</rt></ruby>へ<ruby>入<rt>はい</rt></ruby>って<ruby>女性<rt>じょせい</rt></ruby>をボードに<ruby>乗<rt>の</rt></ruby>せました。その<ruby>後<rt>あと</rt></ruby>、<ruby>救急隊<rt>きゅうきゅうたい</rt></ruby>や<ruby>医師<rt>いし</rt></ruby>たちが<ruby>浜辺<rt>はまべ</rt></ruby>で<ruby>手当<rt>てあ</rt></ruby>てをしました。",
+      "translation": "A 24-year-old lifesaver nearby entered the water and put the woman on a board. After that, emergency workers and doctors treated her on the beach."
+    },
+    {
+      "html": "<ruby>女性<rt>じょせい</rt></ruby>の<ruby>家族<rt>かぞく</rt></ruby>は、<ruby>医療費<rt>いりょうひ</rt></ruby>などを<ruby>支<rt>ささ</rt></ruby>えるために<ruby>寄付<rt>きふ</rt></ruby>を<ruby>集<rt>あつ</rt></ruby>めています。<ruby>家族<rt>かぞく</rt></ruby>は、<ruby>救助<rt>きゅうじょ</rt></ruby>した<ruby>人<rt>ひと</rt></ruby>たちや<ruby>病院<rt>びょういん</rt></ruby>のスタッフに<ruby>深<rt>ふか</rt></ruby>く<ruby>感謝<rt>かんしゃ</rt></ruby>していると<ruby>話<rt>はな</rt></ruby>しました。",
+      "translation": "The woman's family is collecting donations to help with medical costs and other needs. The family said they are deeply grateful to the people who rescued her and to the hospital staff."
+    },
+    {
+      "html": "この<ruby>事故<rt>じこ</rt></ruby>の<ruby>後<rt>あと</rt></ruby>、<ruby>安全対策<rt>あんぜんたいさく</rt></ruby>について<ruby>議論<rt>ぎろん</rt></ruby>が<ruby>起<rt>お</rt></ruby>きました。ニューサウスウェールズ<ruby>州<rt>しゅう</rt></ruby>は、サメを<ruby>減<rt>へ</rt></ruby>らす<ruby>方法<rt>ほうほう</rt></ruby>ではなく、AIドローンで<ruby>海<rt>うみ</rt></ruby>を<ruby>見守<rt>みまも</rt></ruby>る<ruby>対策<rt>たいさく</rt></ruby>を<ruby>進<rt>すす</rt></ruby>めるとしています。",
+      "translation": "After the incident, a debate began about safety measures. New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
+    }
+  ],
+  "vocabularyTitle": "N3 Vocabulary",
+  "vocabulary": [
+    {
+      "term": "海岸（かいがん）",
+      "meaning": "Coast / Beach"
+    },
+    {
+      "term": "救助（きゅうじょ）する",
+      "meaning": "To rescue"
+    },
+    {
+      "term": "報道（ほうどう）",
+      "meaning": "News report / Reporting"
+    },
+    {
+      "term": "重い状態（おもいじょうたい）",
+      "meaning": "Serious condition"
+    },
+    {
+      "term": "救急隊（きゅうきゅうたい）",
+      "meaning": "Emergency team"
+    },
+    {
+      "term": "手当て（てあて）",
+      "meaning": "Medical treatment / First aid"
+    },
+    {
+      "term": "寄付（きふ）",
+      "meaning": "Donation"
+    },
+    {
+      "term": "安全対策（あんぜんたいさく）",
+      "meaning": "Safety measures"
+    }
+  ]
+}

@@ -4,7 +4,7 @@
     "articleManifest": "data/articles.json"
   },
   "levels": {
-    "N3": 3184,
+    "N3": 3192,
     "N4": 1271,
     "N5": 1053
   },
@@ -1110,7 +1110,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "女性は土曜日の朝、岸に近い場所で泳いでいました。",
+          "en": "She was swimming near the shore on Saturday morning."
+        }
+      ]
     },
     {
       "id": "core-9596831de794d7",
@@ -1410,6 +1415,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "その後、救急隊や医師たちが浜辺で手当てをしました。",
+          "en": "After that, emergency workers and doctors treated her on the beach."
+        },
+        {
+          "ja": "この事故の後、安全対策について議論が起きました。",
+          "en": "After the incident, a debate began about safety measures."
+        },
+        {
           "ja": "最後の第5戦は94対90の接戦でした。",
           "en": "The final Game 5 was a close 94-90 game."
         },
@@ -1420,14 +1433,6 @@
         {
           "ja": "そのため、ニューヨークの街では、試合の後に大きな歓声が上がりました。",
           "en": "Because of that, loud cheers rose in New York after the game."
-        },
-        {
-          "ja": "後半はブラジルが少し形を直しましたが、モロッコの守備も強かったです。",
-          "en": "In the second half Brazil improved their shape a little, but Morocco’s defense was also strong."
-        },
-        {
-          "ja": "試合後、ブラジルのアンチェロッティ監督は、チームはもっと良くならなければならないと話しました。",
-          "en": "After the match, Brazil coach Ancelotti said the team must improve."
         }
       ]
     },
@@ -1728,6 +1733,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "女性は大けがをして、ヘリコプターで病院へ運ばれました。",
+          "en": "The woman was seriously injured and was taken to a hospital by helicopter."
+        },
+        {
+          "ja": "家族は、救助した人たちや病院のスタッフに深く感謝していると話しました。",
+          "en": "The family said they are deeply grateful to the people who rescued her and to the hospital staff."
+        },
+        {
           "ja": "新しいバスは、病院、役場、スーパーなどを結びます。",
           "en": "The new buses connect places such as the hospital, town office, and supermarket."
         }
@@ -1970,6 +1983,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "女性は土曜日の朝、岸に近い場所で泳いでいました。",
+          "en": "She was swimming near the shore on Saturday morning."
+        },
+        {
           "ja": "この日は、1ドル160円に近い水準まで円が弱くなっていました。",
           "en": "That day, the yen had weakened to a level close to 160 yen per dollar."
         },
@@ -1994,6 +2011,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "近くにいた24歳のライフセーバーが、海へ入って女性をボードに乗せました。",
+          "en": "A 24-year-old lifesaver nearby entered the water and put the woman on a board."
+        },
+        {
           "ja": "マディソン・スクエア・ガーデンの近くには、たくさんの人が集まりました。",
           "en": "Many people gathered near Madison Square Garden."
         },
@@ -2008,10 +2029,6 @@
         {
           "ja": "クマは公園や学校、図書館の近くでも見つかりました。",
           "en": "The bear was seen near a park, schools, and a library."
-        },
-        {
-          "ja": "フィリピンのミンダナオ島の近くで大きな地震が起きたためです。",
-          "en": "This was because a major earthquake occurred near Mindanao island in the Philippines."
         }
       ]
     },
@@ -3001,7 +3018,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "女性は土曜日の朝、岸に近い場所で泳いでいました。",
+          "en": "She was swimming near the shore on Saturday morning."
+        }
+      ]
     },
     {
       "id": "core-a05e478cbdf4ff",
@@ -3971,6 +3993,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "近くにいた24歳のライフセーバーが、海へ入って女性をボードに乗せました。",
+          "en": "A 24-year-old lifesaver nearby entered the water and put the woman on a board."
+        },
+        {
           "ja": "日本では、クマが人の生活する場所に入る問題が増えています。",
           "en": "In Japan, the problem of bears entering places where people live is increasing."
         },
@@ -4337,6 +4363,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "家族は、救助した人たちや病院のスタッフに深く感謝していると話しました。",
+          "en": "The family said they are deeply grateful to the people who rescued her and to the hospital staff."
+        },
+        {
           "ja": "試合後、ブラジルのアンチェロッティ監督は、チームはもっと良くならなければならないと話しました。",
           "en": "After the match, Brazil coach Ancelotti said the team must improve."
         },
@@ -4351,10 +4381,6 @@
         {
           "ja": "利用したい人は、前日までに電話かスマートフォンで乗る場所と時間を伝えます。",
           "en": "People who want to use the service tell the town their pickup place and time by phone or smartphone by the previous day."
-        },
-        {
-          "ja": "専門家は、注意報が出たときは、海の近くに行かないことが大切だと話しています。",
-          "en": "Experts say it is important not to go near the sea when an advisory is issued."
         }
       ]
     },
@@ -5298,7 +5324,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "その後、救急隊や医師たちが浜辺で手当てをしました。",
+          "en": "After that, emergency workers and doctors treated her on the beach."
+        }
+      ]
     },
     {
       "id": "core-b35bd6bad465a7",
@@ -5345,6 +5376,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "女性は土曜日の朝、岸に近い場所で泳いでいました。",
+          "en": "She was swimming near the shore on Saturday morning."
+        },
+        {
           "ja": "スイスで2026年6月14日、国民投票が行われました。",
           "en": "On June 14, 2026, Switzerland held a national referendum."
         },
@@ -5359,10 +5394,6 @@
         {
           "ja": "市は安全のため、市立の学校を二日間休校にしました。",
           "en": "For safety, the city closed municipal schools for two days."
-        },
-        {
-          "ja": "日本では、クマが人の生活する場所に入る問題が増えています。",
-          "en": "In Japan, the problem of bears entering places where people live is increasing."
         }
       ]
     },
@@ -5803,6 +5834,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "家族は、救助した人たちや病院のスタッフに深く感謝していると話しました。",
+          "en": "The family said they are deeply grateful to the people who rescued her and to the hospital staff."
+        },
+        {
           "ja": "マディソン・スクエア・ガーデンの近くには、たくさんの人が集まりました。",
           "en": "Many people gathered near Madison Square Garden."
         },
@@ -5816,10 +5851,6 @@
         },
         {
           "ja": "案が通れば、人口が950万人に近づいたとき、政府は移民や難民、家族の呼び寄せを厳しく制限することになります。",
-          "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
-        },
-        {
-          "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
         }
       ]
@@ -6048,6 +6079,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "女性の家族は、医療費などを支えるために寄付を集めています。",
+          "en": "The woman's family is collecting donations to help with medical costs and other needs."
+        },
+        {
+          "ja": "家族は、救助した人たちや病院のスタッフに深く感謝していると話しました。",
+          "en": "The family said they are deeply grateful to the people who rescued her and to the hospital staff."
+        },
+        {
           "ja": "案が通れば、人口が950万人に近づいたとき、政府は移民や難民、家族の呼び寄せを厳しく制限することになります。",
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
         },
@@ -6058,14 +6097,6 @@
         {
           "ja": "IPOでは、証券会社が会社の株を投資家に売ります。",
           "en": "In an IPO, securities firms sell a company’s shares to investors."
-        },
-        {
-          "ja": "グリーンシューは、投資家の熱気と市場の不安の間で、値段を落ち着かせるための道具だと考えるとわかりやすいです。",
-          "en": "It is easiest to think of a greenshoe as a tool for calming the price between investor excitement and market anxiety."
-        },
-        {
-          "ja": "専門家は、クマの数が増えたことや、地方で人が少なくなったことが原因の一つだと考えています。",
-          "en": "Experts think one reason is that bear numbers have grown while rural populations have shrunk."
         }
       ]
     },
@@ -6301,6 +6332,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "今も重い状態だと伝えられています。",
+          "en": "She is still reported to be in serious condition."
+        },
+        {
           "ja": "長い間苦しんだチームとファンにとって、今年の優勝は特別な出来事になりました。",
           "en": "For a team and fan base that struggled for a long time, this year's title became a special event."
         },
@@ -6315,10 +6350,6 @@
         {
           "ja": "政府は、首都直下地震が起きた場合の被害を今後10年で大幅に減らすため、防災計画を改定する方針です。",
           "en": "The government plans to revise its disaster-prevention plan to sharply reduce damage from a possible inland earthquake beneath the Tokyo area over the next decade."
-        },
-        {
-          "ja": "今後は、タブレットの内容をもっと増やし、地域の情報も紹介したいとしています。",
-          "en": "Going forward, libraries want to add more content to the tablets and introduce local information as well."
         }
       ]
     },
@@ -8139,6 +8170,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
+          "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
+        },
+        {
           "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
           "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
         },
@@ -8153,10 +8188,6 @@
         {
           "ja": "注意報はその後、夕方にすべて解除されましたが、海面の変化が続く場所もあるとされています。",
           "en": "The advisory was later fully lifted in the evening, but sea level changes may continue in some places."
-        },
-        {
-          "ja": "政府は、首都直下地震が起きた場合の被害を今後10年で大幅に減らすため、防災計画を改定する方針です。",
-          "en": "The government plans to revise its disaster-prevention plan to sharply reduce damage from a possible inland earthquake beneath the Tokyo area over the next decade."
         }
       ]
     },
@@ -8407,6 +8438,14 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "女性の家族は、医療費などを支えるために寄付を集めています。",
+          "en": "The woman's family is collecting donations to help with medical costs and other needs."
+        },
+        {
+          "ja": "家族は、救助した人たちや病院のスタッフに深く感謝していると話しました。",
+          "en": "The family said they are deeply grateful to the people who rescued her and to the hospital staff."
+        },
         {
           "ja": "案が通れば、人口が950万人に近づいたとき、政府は移民や難民、家族の呼び寄せを厳しく制限することになります。",
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
@@ -11067,6 +11106,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "報道によると、サメは3.",
+          "en": "According to reports, the shark is believed to have been a great white about 3."
+        },
+        {
           "ja": "グリーンシューは、投資家の熱気と市場の不安の間で、値段を落ち着かせるための道具だと考えるとわかりやすいです。",
           "en": "It is easiest to think of a greenshoe as a tool for calming the price between investor excitement and market anxiety."
         },
@@ -11081,10 +11124,6 @@
         {
           "ja": "一方で、水道代や管理の手間がかかるため、時間や場所を決めて使うことが検討されています。",
           "en": "At the same time, because water costs and maintenance take effort, officials are considering limiting the times and places where the systems are used."
-        },
-        {
-          "ja": "鉄道会社が、駅の屋根に太陽光パネルを置く計画を広げています。",
-          "en": "A railway company is expanding plans to install solar panels on station roofs."
         }
       ]
     },
@@ -14595,7 +14634,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "今も重い状態だと伝えられています。",
+          "en": "She is still reported to be in serious condition."
+        }
+      ]
     },
     {
       "id": "core-fb81b88feebd43",
@@ -14664,7 +14708,28 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "オーストラリアのシドニーにあるクージー・ビーチで、35歳の女性がサメにかまれました。",
+          "en": "At Coogee Beach in Sydney, Australia, a 35-year-old woman was bitten by a shark."
+        },
+        {
+          "ja": "女性は土曜日の朝、岸に近い場所で泳いでいました。",
+          "en": "She was swimming near the shore on Saturday morning."
+        },
+        {
+          "ja": "女性は大けがをして、ヘリコプターで病院へ運ばれました。",
+          "en": "The woman was seriously injured and was taken to a hospital by helicopter."
+        },
+        {
+          "ja": "近くにいた24歳のライフセーバーが、海へ入って女性をボードに乗せました。",
+          "en": "A 24-year-old lifesaver nearby entered the water and put the woman on a board."
+        },
+        {
+          "ja": "女性の家族は、医療費などを支えるために寄付を集めています。",
+          "en": "The woman's family is collecting donations to help with medical costs and other needs."
+        }
+      ]
     },
     {
       "id": "core-90d5ff7fe1d94b",
@@ -15583,7 +15648,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "女性は土曜日の朝、岸に近い場所で泳いでいました。",
+          "en": "She was swimming near the shore on Saturday morning."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "godan",
       "cardKind": "verb-form",
@@ -15817,7 +15887,16 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "オーストラリアのシドニーにあるクージー・ビーチで、35歳の女性がサメにかまれました。",
+          "en": "At Coogee Beach in Sydney, Australia, a 35-year-old woman was bitten by a shark."
+        },
+        {
+          "ja": "近くにいた24歳のライフセーバーが、海へ入って女性をボードに乗せました。",
+          "en": "A 24-year-old lifesaver nearby entered the water and put the woman on a board."
+        }
+      ]
     },
     {
       "id": "core-5f45e5b654b1cd",
@@ -17669,24 +17748,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "アメリカのプロバスケットボール、NBAで、ニューヨーク・ニックスが2026年の王者になりました。",
-          "en": "In the NBA, America's professional basketball league, the New York Knicks became the 2026 champions."
+          "ja": "オーストラリアのシドニーにあるクージー・ビーチで、35歳の女性がサメにかまれました。",
+          "en": "At Coogee Beach in Sydney, Australia, a 35-year-old woman was bitten by a shark."
         },
         {
-          "ja": "ニックスはファイナルでサンアントニオ・スパーズに4勝1敗で勝ち、1973年以来の優勝を決めました。",
-          "en": "The Knicks beat the San Antonio Spurs 4-1 in the Finals and won their first championship since 1973."
+          "ja": "女性は土曜日の朝、岸に近い場所で泳いでいました。",
+          "en": "She was swimming near the shore on Saturday morning."
         },
         {
-          "ja": "最後の第5戦は94対90の接戦でした。",
-          "en": "The final Game 5 was a close 94-90 game."
+          "ja": "女性は大けがをして、ヘリコプターで病院へ運ばれました。",
+          "en": "The woman was seriously injured and was taken to a hospital by helicopter."
         },
         {
-          "ja": "ガードのジェイレン・ブランソンは45点を取り、大きな場面でチームを助けました。",
-          "en": "Guard Jalen Brunson scored 45 points and helped the team in big moments."
+          "ja": "近くにいた24歳のライフセーバーが、海へ入って女性をボードに乗せました。",
+          "en": "A 24-year-old lifesaver nearby entered the water and put the woman on a board."
         },
         {
-          "ja": "試合後、ブランソンはファイナルMVPにも選ばれました。",
-          "en": "After the game, Brunson was also chosen as Finals MVP."
+          "ja": "その後、救急隊や医師たちが浜辺で手当てをしました。",
+          "en": "After that, emergency workers and doctors treated her on the beach."
         }
       ],
       "partOfSpeech": "verb",
@@ -17757,24 +17836,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "女性は大けがをして、ヘリコプターで病院へ運ばれました。",
+          "en": "The woman was seriously injured and was taken to a hospital by helicopter."
+        },
+        {
+          "ja": "家族は、救助した人たちや病院のスタッフに深く感謝していると話しました。",
+          "en": "The family said they are deeply grateful to the people who rescued her and to the hospital staff."
+        },
+        {
+          "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
+          "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
+        },
+        {
           "ja": "建設現場では、作業を始める前にアプリの情報を確認しています。",
           "en": "At construction sites, workers check the app's information before starting work."
         },
         {
           "ja": "危険な時間帯には、屋外の仕事を減らし、日陰で休む時間を長くしています。",
           "en": "During dangerous time periods, they reduce outdoor work and take longer breaks in the shade."
-        },
-        {
-          "ja": "専門家は、アプリだけに頼らず、自分の体調にも注意してほしいと話しています。",
-          "en": "Experts say people should not rely only on apps and should also pay attention to their own physical condition."
-        },
-        {
-          "ja": "そのため、必要な時だけ走る仕組みにして、運転手や燃料の負担を減らしたい考えです。",
-          "en": "The town wants to reduce the burden on drivers and fuel use by running buses only when needed."
-        },
-        {
-          "ja": "専門家は、注意報が出たときは、海の近くに行かないことが大切だと話しています。",
-          "en": "Experts say it is important not to go near the sea when an advisory is issued."
         }
       ],
       "partOfSpeech": "verb",
@@ -18812,6 +18891,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "その後、救急隊や医師たちが浜辺で手当てをしました。",
+          "en": "After that, emergency workers and doctors treated her on the beach."
+        },
+        {
           "ja": "今回の引き分けで、今年も強い相手になりそうだと感じさせました。",
           "en": "This draw made people feel that Morocco may again be a strong opponent this year."
         },
@@ -18826,10 +18909,6 @@
         {
           "ja": "地域では、フェリーが生活に欠かせない交通手段になっています。",
           "en": "In these regions, ferries are an essential means of transportation."
-        },
-        {
-          "ja": "一方で、水道代や管理の手間がかかるため、時間や場所を決めて使うことが検討されています。",
-          "en": "At the same time, because water costs and maintenance take effort, officials are considering limiting the times and places where the systems are used."
         }
       ]
     },
@@ -19451,6 +19530,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "女性は土曜日の朝、岸に近い場所で泳いでいました。",
+          "en": "She was swimming near the shore on Saturday morning."
+        },
+        {
           "ja": "後に大学の近くでクマが見つかると、市の職員はドローンで場所を追跡しました。",
           "en": "When the bear was later found near a university, city workers used a drone to track it."
         },
@@ -19465,10 +19548,6 @@
         {
           "ja": "頭が痛い、気分が悪いなどの症状がある時は、すぐに涼しい場所へ移動することが大切です。",
           "en": "If symptoms such as a headache or feeling unwell appear, it is important to move to a cool place right away."
-        },
-        {
-          "ja": "利用したい人は、前日までに電話かスマートフォンで乗る場所と時間を伝えます。",
-          "en": "People who want to use the service tell the town their pickup place and time by phone or smartphone by the previous day."
         }
       ]
     },
@@ -20875,6 +20954,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "近くにいた24歳のライフセーバーが、海へ入って女性をボードに乗せました。",
+          "en": "A 24-year-old lifesaver nearby entered the water and put the woman on a board."
+        },
+        {
+          "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
+          "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
+        },
+        {
           "ja": "注意報は、茨城県から鹿児島県までの海岸や、伊豆諸島、小笠原諸島、沖縄・奄美の地域にも出されました。",
           "en": "The advisory covered coasts from Ibaraki Prefecture to Kagoshima Prefecture, as well as the Izu Islands, Ogasawara Islands, and the Okinawa-Amami region."
         },
@@ -20885,14 +20972,6 @@
         {
           "ja": "専門家は、注意報が出たときは、海の近くに行かないことが大切だと話しています。",
           "en": "Experts say it is important not to go near the sea when an advisory is issued."
-        },
-        {
-          "ja": "釣りや海での作業をする人は、新しい情報を確認し、安全な場所で待つようにしましょう。",
-          "en": "People who fish or work at sea should check the latest information and wait in a safe place."
-        },
-        {
-          "ja": "一方で、通信が不安定な海上では、機械が使えない場合もあります。",
-          "en": "At the same time, onboard machines may not work when communications are unstable at sea."
         }
       ]
     },
@@ -23635,6 +23714,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "この事故の後、安全対策について議論が起きました。",
+          "en": "After the incident, a debate began about safety measures."
+        },
+        {
           "ja": "市は安全のため、市立の学校を二日間休校にしました。",
           "en": "For safety, the city closed municipal schools for two days."
         },
@@ -23649,10 +23732,6 @@
         {
           "ja": "自動車メーカーの一部は、従業員の安全や部品輸送への影響を考慮して、工場の操業を一時停止しました。",
           "en": "Some automakers temporarily stopped factory operations after considering worker safety and impacts on parts transport."
-        },
-        {
-          "ja": "便利さと安全の両方を考えながら、サービスを改善していくことが大切だとみられています。",
-          "en": "It is seen as important to improve services while considering both convenience and safety."
         }
       ]
     },
@@ -23933,6 +24012,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "女性の家族は、医療費などを支えるために寄付を集めています。",
+          "en": "The woman's family is collecting donations to help with medical costs and other needs."
+        },
         {
           "ja": "アルファベットは、AIやデータセンターにたくさんのお金が必要なので、いろいろな方法で資金を集めています。",
           "en": "Alphabet needs a lot of money for AI and data centers, so it is gathering funds in different ways."
@@ -24309,6 +24392,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "女性は土曜日の朝、岸に近い場所で泳いでいました。",
+          "en": "She was swimming near the shore on Saturday morning."
+        },
+        {
           "ja": "後に大学の近くでクマが見つかると、市の職員はドローンで場所を追跡しました。",
           "en": "When the bear was later found near a university, city workers used a drone to track it."
         },
@@ -24323,10 +24410,6 @@
         {
           "ja": "頭が痛い、気分が悪いなどの症状がある時は、すぐに涼しい場所へ移動することが大切です。",
           "en": "If symptoms such as a headache or feeling unwell appear, it is important to move to a cool place right away."
-        },
-        {
-          "ja": "利用したい人は、前日までに電話かスマートフォンで乗る場所と時間を伝えます。",
-          "en": "People who want to use the service tell the town their pickup place and time by phone or smartphone by the previous day."
         }
       ]
     },
@@ -28761,7 +28844,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "この事故の後、安全対策について議論が起きました。",
+          "en": "After the incident, a debate began about safety measures."
+        }
+      ]
     },
     {
       "id": "core-3b91fde87dcb46",
@@ -28905,7 +28993,28 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "オーストラリアのシドニーにあるクージー・ビーチで、35歳の女性がサメにかまれました。",
+          "en": "At Coogee Beach in Sydney, Australia, a 35-year-old woman was bitten by a shark."
+        },
+        {
+          "ja": "女性は土曜日の朝、岸に近い場所で泳いでいました。",
+          "en": "She was swimming near the shore on Saturday morning."
+        },
+        {
+          "ja": "女性は大けがをして、ヘリコプターで病院へ運ばれました。",
+          "en": "The woman was seriously injured and was taken to a hospital by helicopter."
+        },
+        {
+          "ja": "近くにいた24歳のライフセーバーが、海へ入って女性をボードに乗せました。",
+          "en": "A 24-year-old lifesaver nearby entered the water and put the woman on a board."
+        },
+        {
+          "ja": "女性の家族は、医療費などを支えるために寄付を集めています。",
+          "en": "The woman's family is collecting donations to help with medical costs and other needs."
+        }
+      ]
     },
     {
       "id": "core-a2c8d0b3e93a1a",
@@ -32283,6 +32392,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "この事故の後、安全対策について議論が起きました。",
+          "en": "After the incident, a debate began about safety measures."
+        },
+        {
           "ja": "長い間苦しんだチームとファンにとって、今年の優勝は特別な出来事になりました。",
           "en": "For a team and fan base that struggled for a long time, this year's title became a special event."
         },
@@ -32297,10 +32410,6 @@
         {
           "ja": "ホテルの職員は、簡単な質問をロボットにまかせることで、別の仕事に時間を使いやすくなったと話しています。",
           "en": "Hotel staff say that by leaving simple questions to robots, they can spend more time on other work."
-        },
-        {
-          "ja": "一方で、教員からは、採点や教材づくりにAIを活用すれば、仕事の負担を減らせるという期待もあります。",
-          "en": "At the same time, teachers expect that using AI for grading and creating teaching materials could reduce their workload."
         }
       ]
     },
@@ -33256,6 +33365,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "その後、救急隊や医師たちが浜辺で手当てをしました。",
+          "en": "After that, emergency workers and doctors treated her on the beach."
+        },
         {
           "ja": "火災が広がりやすい地域では、古い住宅の耐震化や、避難しやすい道路の整備も急ぐ必要があります。",
           "en": "In areas where fires can spread easily, there is also a need to speed up earthquake-resistant housing improvements and roads that make evacuation easier."
@@ -43801,6 +43914,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
+          "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
+        },
+        {
           "ja": "観光地のホテルでは、これから夏休みの忙しい時期を前に、さらに導入を進める計画です。",
           "en": "Hotels in tourist areas plan to increase adoption further before the busy summer vacation season."
         },
@@ -53433,6 +53550,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "女性は土曜日の朝、岸に近い場所で泳いでいました。",
+          "en": "She was swimming near the shore on Saturday morning."
+        },
+        {
           "ja": "ガードのジェイレン・ブランソンは45点を取り、大きな場面でチームを助けました。",
           "en": "Guard Jalen Brunson scored 45 points and helped the team in big moments."
         },
@@ -53447,10 +53568,6 @@
         {
           "ja": "もし上場後に株価が下がれば、証券会社は市場で株を買い戻します。",
           "en": "If the share price falls after listing, the securities firms buy shares back in the market."
-        },
-        {
-          "ja": "スペースXのように注目度が高い会社では、上場直後の値動きが激しくなりやすいです。",
-          "en": "For a highly watched company like SpaceX, price movements just after listing can easily become intense."
         }
       ]
     },
@@ -58377,7 +58494,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "この事故の後、安全対策について議論が起きました。",
+          "en": "After the incident, a debate began about safety measures."
+        }
+      ]
     },
     {
       "id": "core-367fd702ee1da9",
@@ -61206,6 +61328,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
+          "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
+        },
+        {
           "ja": "政府は、首都直下地震が起きた場合の被害を今後10年で大幅に減らすため、防災計画を改定する方針です。",
           "en": "The government plans to revise its disaster-prevention plan to sharply reduce damage from a possible inland earthquake beneath the Tokyo area over the next decade."
         }
@@ -61227,6 +61353,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
+          "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
+        },
         {
           "ja": "政府は、首都直下地震が起きた場合の被害を今後10年で大幅に減らすため、防災計画を改定する方針です。",
           "en": "The government plans to revise its disaster-prevention plan to sharply reduce damage from a possible inland earthquake beneath the Tokyo area over the next decade."
@@ -61260,6 +61390,10 @@
           "en": "The town wants to reduce the burden on drivers and fuel use by running buses only when needed."
         },
         {
+          "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
+          "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
+        },
+        {
           "ja": "政府は、首都直下地震が起きた場合の被害を今後10年で大幅に減らすため、防災計画を改定する方針です。",
           "en": "The government plans to revise its disaster-prevention plan to sharply reduce damage from a possible inland earthquake beneath the Tokyo area over the next decade."
         }
@@ -61288,6 +61422,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
+          "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
+        },
+        {
           "ja": "政府は、首都直下地震が起きた場合の被害を今後10年で大幅に減らすため、防災計画を改定する方針です。",
           "en": "The government plans to revise its disaster-prevention plan to sharply reduce damage from a possible inland earthquake beneath the Tokyo area over the next decade."
         }
@@ -61315,6 +61453,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
+          "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
+        },
         {
           "ja": "政府は、首都直下地震が起きた場合の被害を今後10年で大幅に減らすため、防災計画を改定する方針です。",
           "en": "The government plans to revise its disaster-prevention plan to sharply reduce damage from a possible inland earthquake beneath the Tokyo area over the next decade."
@@ -61346,6 +61488,10 @@
         {
           "ja": "一方で、教員からは、採点や教材づくりにAIを活用すれば、仕事の負担を減らせるという期待もあります。",
           "en": "At the same time, teachers expect that using AI for grading and creating teaching materials could reduce their workload."
+        },
+        {
+          "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
+          "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
         },
         {
           "ja": "政府は、首都直下地震が起きた場合の被害を今後10年で大幅に減らすため、防災計画を改定する方針です。",
@@ -61513,6 +61659,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "女性の家族は、医療費などを支えるために寄付を集めています。",
+          "en": "The woman's family is collecting donations to help with medical costs and other needs."
+        },
+        {
           "ja": "町は3か月の実験で、利用した人数や運行にかかる費用を調べます。",
           "en": "During the three-month trial, the town will study the number of users and the cost of operating the buses."
         },
@@ -61527,10 +61677,6 @@
         {
           "ja": "消費者からは、毎日食べるものなので、少しの値上がりでも大きいという声が出ています。",
           "en": "Consumers say that even small price increases matter because rice is eaten every day."
-        },
-        {
-          "ja": "そのため、たくさんの利用者データや消費者の動きが集まっているとみられています。",
-          "en": "Because of that, it is seen as a place where a large amount of user data and consumer behavior information is gathered."
         }
       ]
     },
@@ -63374,6 +63520,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
+          "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
+        },
+        {
           "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
           "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
         },
@@ -63388,10 +63538,6 @@
         {
           "ja": "注意報はその後、夕方にすべて解除されましたが、海面の変化が続く場所もあるとされています。",
           "en": "The advisory was later fully lifted in the evening, but sea level changes may continue in some places."
-        },
-        {
-          "ja": "政府は、首都直下地震が起きた場合の被害を今後10年で大幅に減らすため、防災計画を改定する方針です。",
-          "en": "The government plans to revise its disaster-prevention plan to sharply reduce damage from a possible inland earthquake beneath the Tokyo area over the next decade."
         }
       ]
     },
@@ -63409,6 +63555,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
+          "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
+        },
         {
           "ja": "安定して出荷するために、新しい設備や管理方法の導入が進められています。",
           "en": "New equipment and management methods are being introduced to maintain stable shipments."
@@ -63467,6 +63617,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
+          "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
+        },
         {
           "ja": "安定して出荷するために、新しい設備や管理方法の導入が進められています。",
           "en": "New equipment and management methods are being introduced to maintain stable shipments."
@@ -64526,6 +64680,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "女性の家族は、医療費などを支えるために寄付を集めています。",
+          "en": "The woman's family is collecting donations to help with medical costs and other needs."
+        },
+        {
           "ja": "医療、金融、技術などの分野では、外国から来た働く人が重要です。",
           "en": "In fields such as healthcare, finance, and technology, workers from other countries are important."
         }
@@ -64544,7 +64702,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "その後、救急隊や医師たちが浜辺で手当てをしました。",
+          "en": "After that, emergency workers and doctors treated her on the beach."
+        }
+      ]
     },
     {
       "id": "core-7956368178f1af",
@@ -66213,7 +66376,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "今も重い状態だと伝えられています。",
+          "en": "She is still reported to be in serious condition."
+        }
+      ]
     },
     {
       "id": "core-b6a29136ceebf5",
@@ -69877,7 +70045,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "家族は、救助した人たちや病院のスタッフに深く感謝していると話しました。",
+          "en": "The family said they are deeply grateful to the people who rescued her and to the hospital staff."
+        }
+      ]
     },
     {
       "id": "core-5f471fe12e4f8f",
@@ -72701,7 +72874,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "女性の家族は、医療費などを支えるために寄付を集めています。",
+          "en": "The woman's family is collecting donations to help with medical costs and other needs."
+        }
+      ]
     },
     {
       "id": "core-a5e5235eae8d4c",
@@ -73863,6 +74041,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "女性は土曜日の朝、岸に近い場所で泳いでいました。",
+          "en": "She was swimming near the shore on Saturday morning."
+        },
         {
           "ja": "注意報は、茨城県から鹿児島県までの海岸や、伊豆諸島、小笠原諸島、沖縄・奄美の地域にも出されました。",
           "en": "The advisory covered coasts from Ibaraki Prefecture to Kagoshima Prefecture, as well as the Izu Islands, Ogasawara Islands, and the Okinawa-Amami region."
@@ -78587,7 +78769,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "家族は、救助した人たちや病院のスタッフに深く感謝していると話しました。",
+          "en": "The family said they are deeply grateful to the people who rescued her and to the hospital staff."
+        }
+      ]
     },
     {
       "id": "core-ee66efc589358a",
@@ -79073,6 +79260,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
+          "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
+        },
+        {
           "ja": "地域の農業を守るための新しい仕組みとして注目されています。",
           "en": "It is attracting attention as a new system for protecting local agriculture."
         },
@@ -79102,6 +79293,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
+          "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
+        },
         {
           "ja": "地域の農業を守るための新しい仕組みとして注目されています。",
           "en": "It is attracting attention as a new system for protecting local agriculture."
@@ -79139,6 +79334,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
+          "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
+        },
+        {
           "ja": "地域の農業を守るための新しい仕組みとして注目されています。",
           "en": "It is attracting attention as a new system for protecting local agriculture."
         },
@@ -79174,6 +79373,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
+          "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
+        },
         {
           "ja": "地域の農業を守るための新しい仕組みとして注目されています。",
           "en": "It is attracting attention as a new system for protecting local agriculture."
@@ -79211,6 +79414,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
+          "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
+        },
+        {
           "ja": "地域の農業を守るための新しい仕組みとして注目されています。",
           "en": "It is attracting attention as a new system for protecting local agriculture."
         },
@@ -79246,6 +79453,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
+          "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
+        },
         {
           "ja": "地域の農業を守るための新しい仕組みとして注目されています。",
           "en": "It is attracting attention as a new system for protecting local agriculture."
@@ -91643,6 +91854,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "女性の家族は、医療費などを支えるために寄付を集めています。",
+          "en": "The woman's family is collecting donations to help with medical costs and other needs."
+        },
+        {
           "ja": "たくさん買うことで、株価を支える力になります。",
           "en": "Buying many shares can help support the price."
         },
@@ -91668,6 +91883,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "女性の家族は、医療費などを支えるために寄付を集めています。",
+          "en": "The woman's family is collecting donations to help with medical costs and other needs."
+        },
         {
           "ja": "たくさん買うことで、株価を支える力になります。",
           "en": "Buying many shares can help support the price."
@@ -91701,6 +91920,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "女性の家族は、医療費などを支えるために寄付を集めています。",
+          "en": "The woman's family is collecting donations to help with medical costs and other needs."
+        },
+        {
           "ja": "たくさん買うことで、株価を支える力になります。",
           "en": "Buying many shares can help support the price."
         },
@@ -91732,6 +91955,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "女性の家族は、医療費などを支えるために寄付を集めています。",
+          "en": "The woman's family is collecting donations to help with medical costs and other needs."
+        },
         {
           "ja": "たくさん買うことで、株価を支える力になります。",
           "en": "Buying many shares can help support the price."
@@ -91765,6 +91992,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "女性の家族は、医療費などを支えるために寄付を集めています。",
+          "en": "The woman's family is collecting donations to help with medical costs and other needs."
+        },
+        {
           "ja": "たくさん買うことで、株価を支える力になります。",
           "en": "Buying many shares can help support the price."
         },
@@ -91796,6 +92027,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "女性の家族は、医療費などを支えるために寄付を集めています。",
+          "en": "The woman's family is collecting donations to help with medical costs and other needs."
+        },
         {
           "ja": "たくさん買うことで、株価を支える力になります。",
           "en": "Buying many shares can help support the price."
@@ -92218,20 +92453,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
-          "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
+          "ja": "オーストラリアのシドニーにあるクージー・ビーチで、35歳の女性がサメにかまれました。",
+          "en": "At Coogee Beach in Sydney, Australia, a 35-year-old woman was bitten by a shark."
         },
         {
-          "ja": "気象庁は、最大1メートルの津波が来る可能性があると発表しました。",
-          "en": "The agency announced that waves of up to one meter could arrive."
+          "ja": "女性は土曜日の朝、岸に近い場所で泳いでいました。",
+          "en": "She was swimming near the shore on Saturday morning."
         },
         {
-          "ja": "昨年の被害想定では、最悪の場合、およそ1万8000人が亡くなり、約40万棟の建物が壊れたり焼けたりする可能性が示されました。",
-          "en": "Last year's damage estimate showed that in the worst case about 18,000 people could die and around 400,000 buildings could collapse or burn."
+          "ja": "女性は大けがをして、ヘリコプターで病院へ運ばれました。",
+          "en": "The woman was seriously injured and was taken to a hospital by helicopter."
         },
         {
-          "ja": "専門家は、短期間の支援だけでなく、長期的な生産性の向上も必要だと話しています。",
-          "en": "Experts say that not only short-term support but also long-term productivity improvements are necessary."
+          "ja": "近くにいた24歳のライフセーバーが、海へ入って女性をボードに乗せました。",
+          "en": "A 24-year-old lifesaver nearby entered the water and put the woman on a board."
+        },
+        {
+          "ja": "女性の家族は、医療費などを支えるために寄付を集めています。",
+          "en": "The woman's family is collecting donations to help with medical costs and other needs."
         }
       ]
     },
@@ -98642,6 +98881,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
+          "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
+        },
+        {
           "ja": "観光地のホテルでは、これから夏休みの忙しい時期を前に、さらに導入を進める計画です。",
           "en": "Hotels in tourist areas plan to increase adoption further before the busy summer vacation season."
         },
@@ -98674,6 +98917,10 @@
         {
           "ja": "新しい計画では、揺れを感知すると自動的に電気を止める感震ブレーカーの普及を進めます。",
           "en": "The new plan will promote seismic circuit breakers that automatically shut off electricity when they detect shaking."
+        },
+        {
+          "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
+          "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
         },
         {
           "ja": "観光地のホテルでは、これから夏休みの忙しい時期を前に、さらに導入を進める計画です。",
@@ -98716,6 +98963,10 @@
           "en": "The proposal was promoted by the right-wing Swiss People's Party. Switzerland's population is now about 9.1 million and has grown greatly since 2002. Supporters said the burden on housing, transportation, and public services was becoming heavy."
         },
         {
+          "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
+          "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
+        },
+        {
           "ja": "観光地のホテルでは、これから夏休みの忙しい時期を前に、さらに導入を進める計画です。",
           "en": "Hotels in tourist areas plan to increase adoption further before the busy summer vacation season."
         },
@@ -98751,6 +99002,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
+          "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
+        },
         {
           "ja": "観光地のホテルでは、これから夏休みの忙しい時期を前に、さらに導入を進める計画です。",
           "en": "Hotels in tourist areas plan to increase adoption further before the busy summer vacation season."
@@ -98792,6 +99047,10 @@
           "en": "A local government is moving forward with a plan to build a large greenhouse that everyone can share in order to increase the number of young farmers."
         },
         {
+          "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
+          "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
+        },
+        {
           "ja": "観光地のホテルでは、これから夏休みの忙しい時期を前に、さらに導入を進める計画です。",
           "en": "Hotels in tourist areas plan to increase adoption further before the busy summer vacation season."
         },
@@ -98827,6 +99086,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
+          "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
+        },
         {
           "ja": "観光地のホテルでは、これから夏休みの忙しい時期を前に、さらに導入を進める計画です。",
           "en": "Hotels in tourist areas plan to increase adoption further before the busy summer vacation season."
@@ -99587,6 +99850,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "この事故の後、安全対策について議論が起きました。",
+          "en": "After the incident, a debate began about safety measures."
+        },
+        {
+          "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
+          "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
+        },
+        {
           "ja": "最後の第5戦は94対90の接戦でした。",
           "en": "The final Game 5 was a close 94-90 game."
         },
@@ -99597,14 +99868,6 @@
         {
           "ja": "初めの結果では、多くの有権者がこの案に反対しました。",
           "en": "Early results showed that many voters opposed the plan."
-        },
-        {
-          "ja": "反対派は、この案がスイスの経済に悪い影響を与えると主張しました。",
-          "en": "Opponents argued that the plan would hurt Switzerland's economy."
-        },
-        {
-          "ja": "政府や議会、経済団体も反対しました。",
-          "en": "The government, parliament, and business groups also opposed the proposal."
         }
       ],
       "partOfSpeech": "verb",
@@ -104124,6 +104387,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "女性は土曜日の朝、岸に近い場所で泳いでいました。",
+          "en": "She was swimming near the shore on Saturday morning."
+        },
+        {
           "ja": "気象庁は、台風が通過した後も地盤が緩んでいる場所では土砂災害に警戒するよう求めています。",
           "en": "The Meteorological Agency is asking people to remain alert for landslides in places where the ground has loosened even after the typhoon passes."
         },
@@ -106708,6 +106975,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "女性は大けがをして、ヘリコプターで病院へ運ばれました。",
+          "en": "The woman was seriously injured and was taken to a hospital by helicopter."
+        },
+        {
           "ja": "そのため、必要な時だけ走る仕組みにして、運転手や燃料の負担を減らしたい考えです。",
           "en": "The town wants to reduce the burden on drivers and fuel use by running buses only when needed."
         },
@@ -106722,10 +106993,6 @@
         {
           "ja": "交通機関を利用する際は、運行状況を確認し、無理な移動を避けることが大切です。",
           "en": "When using transportation, it is important to check service status and avoid unnecessary travel."
-        },
-        {
-          "ja": "運営会社は、観光客が便利になるだけでなく、会計の時間が短くなると説明しています。",
-          "en": "The operator explains that this not only makes things more convenient for tourists but also shortens checkout time."
         }
       ]
     },
@@ -111302,6 +111569,190 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": []
+    },
+    {
+      "id": "article-b501dd577f20e9",
+      "level": "N3",
+      "term": "海岸",
+      "reading": "かいがん",
+      "readingHiragana": "かいがん",
+      "meaning": "Coast / Beach",
+      "source": "article",
+      "sourceId": "2026-06-15-coogee-shark-attack",
+      "sourceTitle": "シドニーの海岸でサメにかまれた女性を救助した",
+      "sourceLabel": "6/15 サメ被害",
+      "sourceHref": "./2026-06-15-coogee-shark-attack.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-15-coogee-shark-attack"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "注意報は、茨城県から鹿児島県までの海岸や、伊豆諸島、小笠原諸島、沖縄・奄美の地域にも出されました。",
+          "en": "The advisory covered coasts from Ibaraki Prefecture to Kagoshima Prefecture, as well as the Izu Islands, Ogasawara Islands, and the Okinawa-Amami region."
+        }
+      ]
+    },
+    {
+      "id": "article-6c0a4f4f657c64",
+      "level": "N3",
+      "term": "救助する",
+      "reading": "きゅうじょする",
+      "readingHiragana": "きゅうじょする",
+      "meaning": "To rescue",
+      "source": "article",
+      "sourceId": "2026-06-15-coogee-shark-attack",
+      "sourceTitle": "シドニーの海岸でサメにかまれた女性を救助した",
+      "sourceLabel": "6/15 サメ被害",
+      "sourceHref": "./2026-06-15-coogee-shark-attack.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-15-coogee-shark-attack"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "家族は、救助した人たちや病院のスタッフに深く感謝していると話しました。",
+          "en": "The family said they are deeply grateful to the people who rescued her and to the hospital staff."
+        }
+      ]
+    },
+    {
+      "id": "article-4b8dbe67795fdb",
+      "level": "N3",
+      "term": "報道",
+      "reading": "ほうどう",
+      "readingHiragana": "ほうどう",
+      "meaning": "News report / Reporting",
+      "source": "article",
+      "sourceId": "2026-06-15-coogee-shark-attack",
+      "sourceTitle": "シドニーの海岸でサメにかまれた女性を救助した",
+      "sourceLabel": "6/15 サメ被害",
+      "sourceHref": "./2026-06-15-coogee-shark-attack.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-15-coogee-shark-attack"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "報道によると、サメは3.",
+          "en": "According to reports, the shark is believed to have been a great white about 3."
+        }
+      ]
+    },
+    {
+      "id": "article-1609c3f08ae2fc",
+      "level": "N3",
+      "term": "重い状態",
+      "reading": "おもいじょうたい",
+      "readingHiragana": "おもいじょうたい",
+      "meaning": "Serious condition",
+      "source": "article",
+      "sourceId": "2026-06-15-coogee-shark-attack",
+      "sourceTitle": "シドニーの海岸でサメにかまれた女性を救助した",
+      "sourceLabel": "6/15 サメ被害",
+      "sourceHref": "./2026-06-15-coogee-shark-attack.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-15-coogee-shark-attack"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "今も重い状態だと伝えられています。",
+          "en": "She is still reported to be in serious condition."
+        }
+      ]
+    },
+    {
+      "id": "article-e373a236e39188",
+      "level": "N3",
+      "term": "救急隊",
+      "reading": "きゅうきゅうたい",
+      "readingHiragana": "きゅうきゅうたい",
+      "meaning": "Emergency team",
+      "source": "article",
+      "sourceId": "2026-06-15-coogee-shark-attack",
+      "sourceTitle": "シドニーの海岸でサメにかまれた女性を救助した",
+      "sourceLabel": "6/15 サメ被害",
+      "sourceHref": "./2026-06-15-coogee-shark-attack.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-15-coogee-shark-attack"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "その後、救急隊や医師たちが浜辺で手当てをしました。",
+          "en": "After that, emergency workers and doctors treated her on the beach."
+        }
+      ]
+    },
+    {
+      "id": "article-5ac3c954c6297a",
+      "level": "N3",
+      "term": "手当て",
+      "reading": "てあて",
+      "readingHiragana": "てあて",
+      "meaning": "Medical treatment / First aid",
+      "source": "article",
+      "sourceId": "2026-06-15-coogee-shark-attack",
+      "sourceTitle": "シドニーの海岸でサメにかまれた女性を救助した",
+      "sourceLabel": "6/15 サメ被害",
+      "sourceHref": "./2026-06-15-coogee-shark-attack.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-15-coogee-shark-attack"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "その後、救急隊や医師たちが浜辺で手当てをしました。",
+          "en": "After that, emergency workers and doctors treated her on the beach."
+        }
+      ]
+    },
+    {
+      "id": "article-1b13201070de15",
+      "level": "N3",
+      "term": "寄付",
+      "reading": "きふ",
+      "readingHiragana": "きふ",
+      "meaning": "Donation",
+      "source": "article",
+      "sourceId": "2026-06-15-coogee-shark-attack",
+      "sourceTitle": "シドニーの海岸でサメにかまれた女性を救助した",
+      "sourceLabel": "6/15 サメ被害",
+      "sourceHref": "./2026-06-15-coogee-shark-attack.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-15-coogee-shark-attack"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "女性の家族は、医療費などを支えるために寄付を集めています。",
+          "en": "The woman's family is collecting donations to help with medical costs and other needs."
+        }
+      ]
+    },
+    {
+      "id": "article-4c52f8b03a3257",
+      "level": "N3",
+      "term": "安全対策",
+      "reading": "あんぜんたいさく",
+      "readingHiragana": "あんぜんたいさく",
+      "meaning": "Safety measures",
+      "source": "article",
+      "sourceId": "2026-06-15-coogee-shark-attack",
+      "sourceTitle": "シドニーの海岸でサメにかまれた女性を救助した",
+      "sourceLabel": "6/15 サメ被害",
+      "sourceHref": "./2026-06-15-coogee-shark-attack.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-15-coogee-shark-attack"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "この事故の後、安全対策について議論が起きました。",
+          "en": "After the incident, a debate began about safety measures."
+        }
+      ]
     },
     {
       "id": "article-04a4e3534eac0e",
