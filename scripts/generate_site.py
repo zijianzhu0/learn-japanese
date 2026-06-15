@@ -892,20 +892,13 @@ def verb_form_items(
         form_reading = conjugate_verb(base_reading, verb_class, form_id) if base_reading else ""
         forms.append(
             {
-                **base_item,
-                "id": f"{base_item['id']}-verb-{form_id}",
+                "form": form_id,
+                "label": form_label,
+                "description": form_description,
                 "term": form_term,
-                "reading": "",
                 "readingHiragana": form_reading,
                 "meaning": f"{form_description} of {base_term}: {base_item['meaning']}",
                 "exampleSentences": normalize_example_sentences(item, form_term, article_examples, form_id),
-                "cardKind": "verb-form",
-                "baseTerm": base_term,
-                "baseReading": base_reading,
-                "baseMeaning": base_item["meaning"],
-                "verbClass": verb_class,
-                "verbForm": form_id,
-                "verbFormLabel": form_label,
             }
         )
     return forms
@@ -941,8 +934,10 @@ def article_flashcard_items(articles: list[dict], article_examples: list[dict]) 
                 base_item["partOfSpeech"] = item["partOfSpeech"]
             if item.get("verbClass"):
                 base_item["verbClass"] = item["verbClass"]
+            verb_forms = verb_form_items(item, base_item, article_examples)
+            if verb_forms:
+                base_item["verbForms"] = verb_forms
             items.append(base_item)
-            items.extend(verb_form_items(item, base_item, article_examples))
     return items
 
 
@@ -981,8 +976,10 @@ def load_core_vocabulary(article_examples: list[dict]) -> list[dict]:
                 base_item["partOfSpeech"] = item["partOfSpeech"]
             if item.get("verbClass"):
                 base_item["verbClass"] = item["verbClass"]
+            verb_forms = verb_form_items(item, base_item, article_examples)
+            if verb_forms:
+                base_item["verbForms"] = verb_forms
             items.append(base_item)
-            items.extend(verb_form_items(item, base_item, article_examples))
     return items
 
 
