@@ -270,6 +270,8 @@ let browserUtterance = null;
 let sentenceMeta = [];
 let availableBrowserVoices = [];
 let recordingInProgress = false;
+let videoProgressTimer = 0;
+let videoProgressPercent = 0;
 let localTtsPlaybackActive = false;
 let localTtsPlaybackRun = 0;
 let activeTtsAudioUrl = null;
@@ -1361,6 +1363,94 @@ function isRecordingPreviewMode() {
     return new URLSearchParams(window.location.search).has('recording-preview');
 }
 
+function ensureVideoRenderProgress() {
+    let progress = document.getElementById('video-render-progress');
+    if (progress) {
+        return progress;
+    }
+
+    progress = document.createElement('div');
+    progress.className = 'video-render-progress';
+    progress.id = 'video-render-progress';
+    progress.hidden = true;
+    progress.innerHTML = `
+        <div class="video-render-progress-header">
+            <span class="video-render-progress-title">Rendering video</span>
+            <span class="video-render-progress-percent" id="video-render-progress-percent">0%</span>
+        </div>
+        <div class="video-render-progress-track" role="progressbar" aria-label="Video render progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+            <div class="video-render-progress-bar" id="video-render-progress-bar"></div>
+        </div>
+        <div class="video-render-progress-message" id="video-render-progress-message" aria-live="polite">Preparing render...</div>`;
+
+    const status = document.getElementById('copy-status');
+    if (status) {
+        status.insertAdjacentElement('afterend', progress);
+    } else {
+        document.querySelector('.container')?.prepend(progress);
+    }
+
+    return progress;
+}
+
+function setVideoRenderProgress(percent, message) {
+    const progress = ensureVideoRenderProgress();
+    const normalizedPercent = Math.max(0, Math.min(100, Math.round(percent)));
+    const track = progress.querySelector('.video-render-progress-track');
+    const bar = document.getElementById('video-render-progress-bar');
+    const percentLabel = document.getElementById('video-render-progress-percent');
+    const messageLabel = document.getElementById('video-render-progress-message');
+
+    progress.hidden = false;
+    videoProgressPercent = normalizedPercent;
+    track?.setAttribute('aria-valuenow', String(normalizedPercent));
+    if (bar) {
+        bar.style.width = `${normalizedPercent}%`;
+    }
+    if (percentLabel) {
+        percentLabel.textContent = `${normalizedPercent}%`;
+    }
+    if (messageLabel && message) {
+        messageLabel.textContent = message;
+    }
+}
+
+function startVideoRenderProgress(message) {
+    window.clearInterval(videoProgressTimer);
+    let percent = 8;
+    const progress = ensureVideoRenderProgress();
+    progress.classList.remove('is-complete', 'is-error');
+    setVideoRenderProgress(percent, message);
+    videoProgressTimer = window.setInterval(() => {
+        percent = Math.min(92, percent + Math.max(1, Math.round((92 - percent) * 0.08)));
+        setVideoRenderProgress(percent);
+    }, 900);
+}
+
+function completeVideoRenderProgress(message) {
+    window.clearInterval(videoProgressTimer);
+    videoProgressTimer = 0;
+    ensureVideoRenderProgress().classList.add('is-complete');
+    setVideoRenderProgress(100, message);
+}
+
+function failVideoRenderProgress(message) {
+    window.clearInterval(videoProgressTimer);
+    videoProgressTimer = 0;
+    ensureVideoRenderProgress().classList.add('is-error');
+    setVideoRenderProgress(Math.max(18, videoProgressPercent), message);
+}
+
+function hideVideoRenderProgress() {
+    const progress = document.getElementById('video-render-progress');
+    window.clearInterval(videoProgressTimer);
+    videoProgressTimer = 0;
+    if (progress) {
+        progress.classList.remove('is-complete', 'is-error');
+        progress.hidden = true;
+    }
+}
+
 async function fitRecordingPageText() {
     const frame = document.querySelector('.article-main');
     const container = document.querySelector('.container');
@@ -1427,11 +1517,10 @@ async function renderVideo() {
         setToolbarButtonState(renderButton, 'active');
         recordingInProgress = true;
         stopCurrentPlayback();
-        document.body.classList.add('recording-mode', 'recording-preview');
-        await fitRecordingPageText();
-        await waitForNextPaint();
+        startVideoRenderProgress('Preparing Docker VOICEVOX narration...');
         status.textContent = 'Preparing Docker VOICEVOX narration...';
         await waitForNextPaint();
+        setVideoRenderProgress(18, 'Rendering 1080x1920 MP4...');
         status.textContent = 'Rendering 1080x1920 MP4...';
 
         const { downloadUrl, downloadName } = await fetchRenderedVideoUrl(speaker);
@@ -1439,13 +1528,19 @@ async function renderVideo() {
         downloadLink.href = downloadUrl;
         downloadLink.download = downloadName;
         downloadLink.click();
+        completeVideoRenderProgress('MP4 rendered and downloaded.');
         status.textContent = 'MP4 rendered and downloaded.';
     } catch (error) {
+        failVideoRenderProgress(error?.message || 'Video rendering failed.');
         status.textContent = error?.message || 'Video rendering failed.';
     } finally {
         recordingInProgress = false;
-        clearRecordingMode();
         setToolbarButtonState(renderButton);
+        window.setTimeout(() => {
+            if (!recordingInProgress) {
+                hideVideoRenderProgress();
+            }
+        }, 2600);
     }
 }
 
