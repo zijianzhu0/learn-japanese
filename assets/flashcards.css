@@ -222,6 +222,13 @@ h1 {
     gap: 8px;
 }
 
+.progress-storage-status {
+    margin: 12px 0 0;
+    color: var(--muted);
+    font-size: 0.84rem;
+    line-height: 1.45;
+}
+
 .primary-button,
 .secondary-button,
 .danger-button,
@@ -371,6 +378,48 @@ button:disabled {
     background: var(--soft);
     font-size: 0.82rem;
     font-weight: 800;
+}
+
+.verb-form-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.verb-form-list[hidden] {
+    display: none;
+}
+
+.verb-form-chip {
+    display: inline-grid;
+    grid-template-columns: auto 1fr;
+    gap: 2px 8px;
+    align-items: baseline;
+    min-width: min(100%, 148px);
+    padding: 7px 9px;
+    border: 1px solid #d8e7e2;
+    border-radius: 8px;
+    background: #f7fbf8;
+}
+
+.verb-form-chip-label {
+    color: var(--warm);
+    font-size: 0.72rem;
+    font-weight: 800;
+}
+
+.verb-form-chip-term {
+    color: var(--accent-dark);
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.verb-form-chip-reading {
+    grid-column: 2;
+    color: var(--muted);
+    font-size: 0.78rem;
+    line-height: 1.25;
 }
 
 .card-term {
