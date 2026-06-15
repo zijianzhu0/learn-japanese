@@ -712,13 +712,33 @@ body.recording-mode .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
     width: 100%;
     height: 100%;
-    padding: calc(var(--recording-frame-height) * 0.043) calc(var(--recording-frame-width) * 0.065);
+    padding: calc(var(--recording-frame-height) * 0.043) calc(var(--recording-frame-width) * 0.065) calc(var(--recording-frame-height) * 0.082);
     border-radius: 0;
     box-shadow: none;
     background: #fffdf8;
     overflow: hidden;
+}
+.recording-footer {
+    display: none;
+}
+body.recording-mode .recording-footer {
+    position: absolute;
+    right: calc(var(--recording-frame-width) * 0.065);
+    bottom: calc(var(--recording-frame-height) * 0.034);
+    left: calc(var(--recording-frame-width) * 0.065);
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 24px;
+    color: #4b5563;
+    font-size: calc(var(--recording-body-size) * 0.56);
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1.2;
+    text-transform: uppercase;
 }
 body.recording-mode h1 {
     margin: 0 0 0.8em;
