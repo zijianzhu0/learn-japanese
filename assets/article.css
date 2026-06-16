@@ -401,6 +401,45 @@ p {
     font-size: 0.88rem;
     color: #64748b;
 }
+.article-version-selector {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: -4px 0 18px;
+}
+.article-version-label {
+    color: #64748b;
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+.article-version-link {
+    display: inline-flex;
+    align-items: center;
+    min-height: 34px;
+    padding: 5px 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    color: #31515d;
+    background: #fff;
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-decoration: none;
+}
+.article-version-link:hover,
+.article-version-link:focus-visible {
+    border-color: #95b5ad;
+    background: #eef4f1;
+    outline: none;
+}
+.article-version-link.is-current {
+    border-color: #3498db;
+    color: #fff;
+    background: #3498db;
+}
 .vocabulary-box {
     margin-top: 30px;
     padding: 16px;

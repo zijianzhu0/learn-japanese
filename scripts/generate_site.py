@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import re
+from copy import deepcopy
 from hashlib import sha1
 from datetime import date
 from html import escape, unescape
@@ -102,8 +103,70 @@ def load_articles() -> list[dict]:
         path = (data_root / article_path).resolve()
         if not path.is_relative_to(data_root):
             raise ValueError(f"Article path escapes data directory: {article_path}")
-        articles.append(json.loads(path.read_text(encoding="utf-8")))
+        articles.extend(expand_article_versions(json.loads(path.read_text(encoding="utf-8"))))
     return articles
+
+
+def article_version_label(article: dict) -> str:
+    return article.get("versionLabel") or article.get("level") or "Original"
+
+
+def variant_slug(label: str) -> str:
+    slug = re.sub(r"[^a-z0-9]+", "-", label.lower()).strip("-")
+    return slug or "version"
+
+
+def variant_file(base_file: str, label: str) -> str:
+    path = Path(base_file)
+    return f"{path.stem}-{variant_slug(label)}{path.suffix}"
+
+
+def variant_id(base_id: str, label: str) -> str:
+    return f"{base_id}-{variant_slug(label)}"
+
+
+def variant_download_file_name(base_download_file_name: str, label: str) -> str:
+    path = Path(base_download_file_name)
+    return f"{path.stem}-{variant_slug(label)}{path.suffix}"
+
+
+def expand_article_versions(article: dict) -> list[dict]:
+    version_specs = article.get("versions", [])
+    base = deepcopy(article)
+    base.pop("versions", None)
+    base["canonicalId"] = article.get("canonicalId", article["id"])
+    base["versionLabel"] = article_version_label(base)
+
+    versions = [base]
+    for spec in version_specs:
+        version = deepcopy(base)
+        version.update(deepcopy(spec))
+        version["canonicalId"] = base["canonicalId"]
+        version["versionLabel"] = article_version_label(version)
+        if "id" not in spec:
+            version["id"] = variant_id(base["id"], version["versionLabel"])
+        if "file" not in spec:
+            version["file"] = variant_file(base["file"], version["versionLabel"])
+        if "downloadFileName" not in spec:
+            version["downloadFileName"] = variant_download_file_name(base["downloadFileName"], version["versionLabel"])
+        if "navLabel" not in spec:
+            version["navLabel"] = f"{base['navLabel']} {version['versionLabel']}"
+        versions.append(version)
+
+    variant_links = [
+        {
+            "href": article_href(version),
+            "label": article_version_label(version),
+            "level": version.get("level", ""),
+        }
+        for version in versions
+    ]
+    for version in versions:
+        version["articleVersions"] = [
+            link | {"current": link["href"] == article_href(version)}
+            for link in variant_links
+        ]
+    return versions
 
 
 def article_href(article: dict) -> str:
@@ -365,6 +428,8 @@ def split_sentences(text: str) -> list[str]:
 def article_sentence_examples(articles: list[dict]) -> list[dict]:
     examples = []
     for article in articles:
+        if article.get("canonicalId") != article["id"]:
+            continue
         paragraphs = article.get("paragraphs", [])
         for paragraph_index, paragraph in enumerate(paragraphs):
             ja_sentences = split_sentences(strip_ruby_html(str(paragraph.get("html", ""))))
@@ -1032,6 +1097,23 @@ def render_paragraphs(article: dict) -> str:
     return "\n".join(blocks)
 
 
+def render_article_version_selector(article: dict) -> str:
+    versions = article.get("articleVersions", [])
+    if len(versions) < 2:
+        return ""
+    links = []
+    for version in versions:
+        class_name = "article-version-link is-current" if version["current"] else "article-version-link"
+        aria_current = ' aria-current="page"' if version["current"] else ""
+        links.append(
+            f'        <a class="{class_name}" href="{escape(version["href"])}"{aria_current}>{escape(version["label"])}</a>'
+        )
+    return f"""    <nav class="article-version-selector" aria-label="Article versions">
+        <span class="article-version-label">Level</span>
+{chr(10).join(links)}
+    </nav>"""
+
+
 def render_article(article: dict, template: str, asset_version: str) -> str:
     replacements = {
         "{{PAGE_TITLE}}": escape(article["title"]),
@@ -1042,6 +1124,7 @@ def render_article(article: dict, template: str, asset_version: str) -> str:
         "{{DATE}}": escape(article["date"]),
         "{{HEADLINE_WITH_RUBY}}": article["headlineHtml"],
         "{{SOURCE_NOTE}}": escape(article["sourceNote"]),
+        "{{ARTICLE_VERSION_SELECTOR}}": render_article_version_selector(article),
         '    <p class="article-paragraph">{{PARAGRAPH_1_WITH_RUBY}}</p>\n'
         '    <p class="article-paragraph">{{PARAGRAPH_2_WITH_RUBY}}</p>\n'
         '    <p class="article-paragraph">{{PARAGRAPH_3_WITH_RUBY}}</p>\n'
