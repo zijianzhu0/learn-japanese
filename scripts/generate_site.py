@@ -1244,7 +1244,8 @@ def write_index(articles: list[dict]) -> None:
             index,
             count=1,
         )
-    groups = group_articles(primary_articles(articles))
+    index_articles = primary_articles(articles)
+    groups = group_articles(index_articles)
     nav_html = render_index_nav(groups)
     index = re.sub(
         r'(<nav class="desktop-nav">).*?(</nav>)',
@@ -1269,7 +1270,7 @@ def write_index(articles: list[dict]) -> None:
     )
     index = re.sub(
         r'<(?P<tag>span|div) class="article-count">.*?</(?P=tag)>',
-        lambda match: f'<{match.group("tag")} class="article-count">{len(articles)} articles</{match.group("tag")}>',
+        lambda match: f'<{match.group("tag")} class="article-count">{len(index_articles)} articles</{match.group("tag")}>',
         index,
         count=1,
     )
