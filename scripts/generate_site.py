@@ -1200,13 +1200,20 @@ def render_index_sections(groups: list[tuple[str, list[dict]]]) -> str:
 
 
 def render_index_card(article: dict) -> str:
-    level = f'<span class="level">{escape(article["level"])}</span>' if article.get("level") else ""
+    levels = []
+    for version in article.get("articleVersions", []):
+        level = version.get("level")
+        if level and level not in levels:
+            levels.append(level)
+    if not levels and article.get("level"):
+        levels.append(article["level"])
+    level_tags = "".join(f'<span class="level">{escape(level)}</span>' for level in levels)
     return f"""                    <li class="post-card" id="{escape(article_slug(article))}">
                         <a class="post-link" href="{article_href(article)}">
                             <div class="post-date">{escape(article["date"])}<span>{escape(article_weekday(article))}</span></div>
                             <div>
                                 <h3 class="post-title">{escape(article["title"])}</h3>
-                                <div class="post-meta">{level}<span class="filename">{escape(article["file"])}</span></div>
+                                <div class="post-meta">{level_tags}<span class="filename">{escape(article["file"])}</span></div>
                             </div>
                         </a>
                     </li>"""
