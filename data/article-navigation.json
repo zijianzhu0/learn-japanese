@@ -7,12 +7,11 @@
   {
     "month": "June 2026",
     "href": "./2026-06-15-knicks-championship.html",
-    "label": "6/15 ニックス優勝"
-  },
-  {
-    "month": "June 2026",
-    "href": "./2026-06-15-knicks-championship-n2.html",
-    "label": "6/15 ニックス優勝 N2"
+    "label": "6/15 ニックス優勝",
+    "variantHrefs": [
+      "./2026-06-15-knicks-championship.html",
+      "./2026-06-15-knicks-championship-n2.html"
+    ]
   },
   {
     "month": "June 2026",

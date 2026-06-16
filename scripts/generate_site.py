@@ -185,15 +185,30 @@ def article_weekday(article: dict) -> str:
     return date.fromisoformat(article_iso_date(article)).strftime("%A")
 
 
-def article_navigation(articles: list[dict]) -> list[dict]:
+def primary_articles(articles: list[dict]) -> list[dict]:
     return [
-        {
+        article
+        for article in articles
+        if article.get("canonicalId", article["id"]) == article["id"]
+    ]
+
+
+def article_navigation(articles: list[dict]) -> list[dict]:
+    items = []
+    for article in primary_articles(articles):
+        item = {
             "month": article["month"],
             "href": article_href(article),
             "label": article["navLabel"],
         }
-        for article in articles
-    ]
+        variant_hrefs = [
+            version["href"]
+            for version in article.get("articleVersions", [])
+        ]
+        if len(variant_hrefs) > 1:
+            item["variantHrefs"] = variant_hrefs
+        items.append(item)
+    return items
 
 
 def file_version(path: Path) -> str:
@@ -1229,7 +1244,7 @@ def write_index(articles: list[dict]) -> None:
             index,
             count=1,
         )
-    groups = group_articles(articles)
+    groups = group_articles(primary_articles(articles))
     nav_html = render_index_nav(groups)
     index = re.sub(
         r'(<nav class="desktop-nav">).*?(</nav>)',

@@ -21,16 +21,27 @@ function normalizeArticleHref(href) {
     return href.replace(/^\.\//, '');
 }
 
+function articleNavigationHrefs(article) {
+    return [
+        article.href,
+        ...(Array.isArray(article.variantHrefs) ? article.variantHrefs : [])
+    ].map(normalizeArticleHref);
+}
+
 function getCurrentArticleIndex() {
     const currentFile = currentArticleFile();
-    return articleNavigation.findIndex((article) => normalizeArticleHref(article.href) === currentFile);
+    return articleNavigation.findIndex((article) => articleNavigationHrefs(article).includes(currentFile));
 }
 
 function isValidArticleNavigationItem(item) {
     return item
         && typeof item.month === 'string'
         && typeof item.href === 'string'
-        && typeof item.label === 'string';
+        && typeof item.label === 'string'
+        && (
+            item.variantHrefs === undefined
+            || (Array.isArray(item.variantHrefs) && item.variantHrefs.every((href) => typeof href === 'string'))
+        );
 }
 
 async function loadArticleNavigation() {
@@ -217,7 +228,7 @@ function articleNavigationGroupsHtml(currentFile) {
                     <h3 class="article-nav-heading">${escapeHtml(group.month)}</h3>
                     <ul class="article-nav-list">
 ${group.articles.map((article) => {
-        const isCurrent = normalizeArticleHref(article.href) === currentFile;
+        const isCurrent = articleNavigationHrefs(article).includes(currentFile);
         const className = isCurrent ? 'article-nav-link is-current' : 'article-nav-link';
         const ariaCurrent = isCurrent ? ' aria-current="page"' : '';
         return `                        <li><a class="${className}" href="${article.href}"${ariaCurrent}>${escapeHtml(article.label)}</a></li>`;
