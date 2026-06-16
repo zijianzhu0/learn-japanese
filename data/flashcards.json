@@ -4,7 +4,7 @@
     "articleManifest": "data/articles.json"
   },
   "levels": {
-    "N3": 1894,
+    "N3": 1902,
     "N4": 536,
     "N5": 553
   },
@@ -279,7 +279,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
+          "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "godan",
       "verbForms": [
@@ -290,7 +295,12 @@
           "term": "開きます",
           "readingHiragana": "あきます",
           "meaning": "Polite form of 開く: to open",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
+              "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
+            }
+          ]
         },
         {
           "form": "past",
@@ -299,7 +309,12 @@
           "term": "開いた",
           "readingHiragana": "あいた",
           "meaning": "Plain past form of 開く: to open",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
+              "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -308,7 +323,12 @@
           "term": "開かない",
           "readingHiragana": "あかない",
           "meaning": "Plain negative form of 開く: to open",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
+              "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
+            }
+          ]
         },
         {
           "form": "te",
@@ -317,7 +337,12 @@
           "term": "開いて",
           "readingHiragana": "あいて",
           "meaning": "Te-form of 開く: to open",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
+              "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -326,7 +351,12 @@
           "term": "開ける",
           "readingHiragana": "あける",
           "meaning": "Potential form of 開く: to open",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
+              "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
+            }
+          ]
         }
       ]
     },
@@ -2040,6 +2070,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そのため、各国の政府や企業は、この合意が実行されるかどうかを注意して見ています。",
+          "en": "For that reason, governments and companies are watching carefully to see whether the agreement will be carried out."
+        },
+        {
+          "ja": "中東の緊張が下がるかどうかは、これからの交渉にかかっています。",
+          "en": "Whether tensions in the Middle East will decrease depends on the negotiations from here."
+        },
+        {
           "ja": "全国の学校で、生成AIを授業や宿題にどう使うかを決める動きが強まっています。",
           "en": "Schools across Japan are moving to decide how generative AI should be used in classes and homework."
         },
@@ -2050,14 +2088,6 @@
         {
           "ja": "専門家は、技術だけに頼るのではなく、住民どうしの助け合いも大切だと話しています。",
           "en": "Experts say it is important not to rely only on technology, but also on mutual help among residents."
-        },
-        {
-          "ja": "今後は、新しい道具と地域の連携をどう強くするかが課題になりそうです。",
-          "en": "Going forward, the challenge will be how to strengthen cooperation between new tools and local communities."
-        },
-        {
-          "ja": "会談では、東アジアの安全保障や、地域の平和をどう守るかについて意見を交わしました。",
-          "en": "In the meeting, they exchanged views on security in East Asia and how to protect regional peace."
         }
       ]
     },
@@ -3207,24 +3237,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "アメリカとイランは、戦争を終わらせるための一時的な合意について話し合っています。",
+          "en": "The United States and Iran are discussing a temporary agreement to end the war."
+        },
+        {
+          "ja": "しかし、イランはイスラエルがレバノン南部から軍を引くことも必要だと話しました。",
+          "en": "However, Iran said that Israel must also withdraw its forces from southern Lebanon."
+        },
+        {
+          "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
+          "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
+        },
+        {
           "ja": "家族は、救助した人たちや病院のスタッフに深く感謝していると話しました。",
           "en": "The family said they are deeply grateful to the people who rescued her and to the hospital staff."
         },
         {
           "ja": "試合後、ブラジルのアンチェロッティ監督は、チームはもっと良くならなければならないと話しました。",
           "en": "After the match, Brazil coach Ancelotti said the team must improve."
-        },
-        {
-          "ja": "このIPOで話題になった言葉の一つが、グリーンシュー・オプションです。",
-          "en": "One term that became a topic in this IPO was the greenshoe option."
-        },
-        {
-          "ja": "専門家は、アプリだけに頼らず、自分の体調にも注意してほしいと話しています。",
-          "en": "Experts say people should not rely only on apps and should also pay attention to their own physical condition."
-        },
-        {
-          "ja": "利用したい人は、前日までに電話かスマートフォンで乗る場所と時間を伝えます。",
-          "en": "People who want to use the service tell the town their pickup place and time by phone or smartphone by the previous day."
         }
       ]
     },
@@ -3880,6 +3910,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
+          "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
+        },
+        {
+          "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
+          "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
+        },
+        {
           "ja": "女性は土曜日の朝、岸に近い場所で泳いでいました。",
           "en": "She was swimming near the shore on Saturday morning."
         },
@@ -3890,14 +3928,6 @@
         {
           "ja": "2026年6月14日、FIFAワールドカップのグループCで、ブラジルとモロッコが1対1で引き分けました。",
           "en": "On June 14, 2026, Brazil and Morocco drew 1-1 in Group C of the FIFA World Cup."
-        },
-        {
-          "ja": "アメリカの宇宙企業スペースXは、6月12日に株式市場に上場しました。",
-          "en": "The American space company SpaceX listed on the stock market on June 12."
-        },
-        {
-          "ja": "市は安全のため、市立の学校を二日間休校にしました。",
-          "en": "For safety, the city closed municipal schools for two days."
         }
       ]
     },
@@ -3954,6 +3984,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "中東の緊張が下がるかどうかは、これからの交渉にかかっています。",
+          "en": "Whether tensions in the Middle East will decrease depends on the negotiations from here."
+        },
         {
           "ja": "東北のある県で、景色を楽しめる観光列車の人気が高まっています。",
           "en": "In one prefecture in Tohoku, a sightseeing train that lets passengers enjoy the scenery is becoming more popular."
@@ -4041,7 +4075,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "しかし、イランはイスラエルがレバノン南部から軍を引くことも必要だと話しました。",
+          "en": "However, Iran said that Israel must also withdraw its forces from southern Lebanon."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "godan",
       "verbForms": [
@@ -4052,7 +4091,12 @@
           "term": "引きます",
           "readingHiragana": "ひきます",
           "meaning": "Polite form of 引く: to pull, to draw",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "しかし、イランはイスラエルがレバノン南部から軍を引くことも必要だと話しました。",
+              "en": "However, Iran said that Israel must also withdraw its forces from southern Lebanon."
+            }
+          ]
         },
         {
           "form": "past",
@@ -4061,7 +4105,12 @@
           "term": "引いた",
           "readingHiragana": "ひいた",
           "meaning": "Plain past form of 引く: to pull, to draw",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "しかし、イランはイスラエルがレバノン南部から軍を引くことも必要だと話しました。",
+              "en": "However, Iran said that Israel must also withdraw its forces from southern Lebanon."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -4070,7 +4119,12 @@
           "term": "引かない",
           "readingHiragana": "ひかない",
           "meaning": "Plain negative form of 引く: to pull, to draw",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "しかし、イランはイスラエルがレバノン南部から軍を引くことも必要だと話しました。",
+              "en": "However, Iran said that Israel must also withdraw its forces from southern Lebanon."
+            }
+          ]
         },
         {
           "form": "te",
@@ -4079,7 +4133,12 @@
           "term": "引いて",
           "readingHiragana": "ひいて",
           "meaning": "Te-form of 引く: to pull, to draw",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "しかし、イランはイスラエルがレバノン南部から軍を引くことも必要だと話しました。",
+              "en": "However, Iran said that Israel must also withdraw its forces from southern Lebanon."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -4088,7 +4147,12 @@
           "term": "引ける",
           "readingHiragana": "ひける",
           "meaning": "Potential form of 引く: to pull, to draw",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "しかし、イランはイスラエルがレバノン南部から軍を引くことも必要だと話しました。",
+              "en": "However, Iran said that Israel must also withdraw its forces from southern Lebanon."
+            }
+          ]
         }
       ]
     },
@@ -4285,6 +4349,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そのため、停戦案が本当に進むかはまだわかりません。",
+          "en": "Because of that, it is still unclear whether the ceasefire plan will really move forward."
+        },
+        {
           "ja": "日本では、クマが人の生活する場所に入る問題が増えています。",
           "en": "In Japan, the problem of bears entering places where people live is increasing."
         },
@@ -4299,10 +4367,6 @@
         {
           "ja": "台風6号は3日、強い風と激しい雨を伴って日本列島を進みました。",
           "en": "On the 3rd, Typhoon No. 6 moved across Japan with strong winds and heavy rain. Power outages, flooding, and fallen trees were reported in many places, and local governments urged residents to evacuate early."
-        },
-        {
-          "ja": "本の探し方や貸し出しの手続きを、画面を見ながら説明できるようになりました。",
-          "en": "People can now see on-screen explanations of how to find books and complete borrowing procedures."
         }
       ]
     },
@@ -4334,7 +4398,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "そのため、停戦案が本当に進むかはまだわかりません。",
+          "en": "Because of that, it is still unclear whether the ceasefire plan will really move forward."
+        }
+      ]
     },
     {
       "id": "core-8553703ac592f3",
@@ -4381,6 +4450,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "アメリカとイランは、戦争を終わらせるための一時的な合意について話し合っています。",
+          "en": "The United States and Iran are discussing a temporary agreement to end the war."
+        },
+        {
+          "ja": "アメリカは制裁を一部緩める可能性がありますが、詳しい内容はまだはっきりしていません。",
+          "en": "The United States may ease some sanctions, but the details are still not clear."
+        },
+        {
           "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
           "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
         },
@@ -4391,14 +4468,6 @@
         {
           "ja": "このIPOで話題になった言葉の一つが、グリーンシュー・オプションです。",
           "en": "One term that became a topic in this IPO was the greenshoe option."
-        },
-        {
-          "ja": "専門家は、クマの数が増えたことや、地方で人が少なくなったことが原因の一つだと考えています。",
-          "en": "Experts think one reason is that bear numbers have grown while rural populations have shrunk."
-        },
-        {
-          "ja": "自動車メーカーの一部は、従業員の安全や部品輸送への影響を考慮して、工場の操業を一時停止しました。",
-          "en": "Some automakers temporarily stopped factory operations after considering worker safety and impacts on parts transport."
         }
       ]
     },
@@ -4790,6 +4859,10 @@
           "readingHiragana": "いれて",
           "meaning": "Te-form of 入れる: to put in, to let in",
           "exampleSentences": [
+            {
+              "ja": "イスラエルはこの条件を受け入れていません。",
+              "en": "Israel has not accepted this condition."
+            },
             {
               "ja": "必要なときだけ自動で動く仕組みを入れる例もあります。",
               "en": "Some examples include systems that run automatically only when needed."
@@ -7294,6 +7367,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そのため、各国の政府や企業は、この合意が実行されるかどうかを注意して見ています。",
+          "en": "For that reason, governments and companies are watching carefully to see whether the agreement will be carried out."
+        },
+        {
+          "ja": "ただ、イスラエルやイラン、アメリカの国内には強い反対もあります。",
+          "en": "However, there is also strong opposition in Israel, Iran, and the United States."
+        },
+        {
           "ja": "スイスで2026年6月14日、国民投票が行われました。",
           "en": "On June 14, 2026, Switzerland held a national referendum."
         },
@@ -7304,14 +7385,6 @@
         {
           "ja": "この提案は、右派のスイス国民党が進めたものです。",
           "en": "The proposal was promoted by the right-wing Swiss People's Party. Switzerland's population is now about 9.1 million and has grown greatly since 2002. Supporters said the burden on housing, transportation, and public services was becoming heavy."
-        },
-        {
-          "ja": "医療、金融、技術などの分野では、外国から来た働く人が重要です。",
-          "en": "In fields such as healthcare, finance, and technology, workers from other countries are important."
-        },
-        {
-          "ja": "スイスはEU加盟国ではありませんが、EUとの関係はとても深いです。",
-          "en": "Switzerland is not an EU member, but its relationship with the EU is very deep."
         }
       ]
     },
@@ -7615,7 +7688,16 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "そのため、停戦案が本当に進むかはまだわかりません。",
+          "en": "Because of that, it is still unclear whether the ceasefire plan will really move forward."
+        },
+        {
+          "ja": "アメリカは制裁を一部緩める可能性がありますが、詳しい内容はまだはっきりしていません。",
+          "en": "The United States may ease some sanctions, but the details are still not clear."
+        }
+      ]
     },
     {
       "id": "core-07789c526d715d",
@@ -8114,6 +8196,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
+          "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
+        },
+        {
           "ja": "報道によると、サメは3.",
           "en": "According to reports, the shark is believed to have been a great white about 3."
         },
@@ -8128,10 +8214,6 @@
         {
           "ja": "火災が広がりやすい地域では、古い住宅の耐震化や、避難しやすい道路の整備も急ぐ必要があります。",
           "en": "In areas where fires can spread easily, there is also a need to speed up earthquake-resistant housing improvements and roads that make evacuation easier."
-        },
-        {
-          "ja": "一方で、水道代や管理の手間がかかるため、時間や場所を決めて使うことが検討されています。",
-          "en": "At the same time, because water costs and maintenance take effort, officials are considering limiting the times and places where the systems are used."
         }
       ]
     },
@@ -8295,7 +8377,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "しかし、イランはイスラエルがレバノン南部から軍を引くことも必要だと話しました。",
+          "en": "However, Iran said that Israel must also withdraw its forces from southern Lebanon."
+        }
+      ]
     },
     {
       "id": "core-ec75d88668fc34",
@@ -8384,6 +8471,10 @@
           "readingHiragana": "みて",
           "meaning": "Te-form of 見る: to see, to look, to watch",
           "exampleSentences": [
+            {
+              "ja": "そのため、各国の政府や企業は、この合意が実行されるかどうかを注意して見ています。",
+              "en": "For that reason, governments and companies are watching carefully to see whether the agreement will be carried out."
+            },
             {
               "ja": "アプリは気温や湿度を見て、危険が高い時に知らせます。",
               "en": "The apps check temperature and humidity and send alerts when the danger is high."
@@ -8827,6 +8918,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "中東の緊張が下がるかどうかは、これからの交渉にかかっています。",
+          "en": "Whether tensions in the Middle East will decrease depends on the negotiations from here."
+        },
+        {
           "ja": "モロッコは中盤でボールをよく動かし、ブラジルに簡単な時間を与えませんでした。",
           "en": "Morocco moved the ball well in midfield and did not give Brazil easy moments."
         },
@@ -8841,10 +8936,6 @@
         {
           "ja": "大学でもクマが見つかり、授業が中止になりました。",
           "en": "The bear was also seen at a university, and classes were canceled there as well."
-        },
-        {
-          "ja": "暑い日が増える中、熱中症を防ぐための通知アプリを使う会社や学校が増えています。",
-          "en": "As hot days increase, more companies and schools are using notification apps to prevent heatstroke."
         }
       ]
     },
@@ -12220,6 +12311,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "中東の緊張が下がるかどうかは、これからの交渉にかかっています。",
+          "en": "Whether tensions in the Middle East will decrease depends on the negotiations from here."
+        },
+        {
           "ja": "もし上場後に株価が下がれば、証券会社は市場で株を買い戻します。",
           "en": "If the share price falls after listing, the securities firms buy shares back in the market."
         },
@@ -12234,10 +12329,6 @@
         {
           "ja": "5円くらいまで下がり、円は短い時間で強くなりました。",
           "en": "5 yen, and the yen became stronger in a short time."
-        },
-        {
-          "ja": "投資家の中には、円がもっと下がると考えていた人も多く、急な変化におどろきました。",
-          "en": "Many investors had thought the yen would fall further, so they were surprised by the sudden change."
         }
       ]
     },
@@ -12401,6 +12492,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "G7の首脳たちは、この外交の動きを支持すると述べました。",
+          "en": "G7 leaders said they support this diplomatic move."
+        },
+        {
           "ja": "医療、金融、技術などの分野では、外国から来た働く人が重要です。",
           "en": "In fields such as healthcare, finance, and technology, workers from other countries are important."
         },
@@ -12415,10 +12510,6 @@
         {
           "ja": "通知には、水分をとること、休憩すること、外での活動を短くすることなどが書かれています。",
           "en": "The notifications include messages about drinking water, taking breaks, and shortening outdoor activities."
-        },
-        {
-          "ja": "危険な時間帯には、屋外の仕事を減らし、日陰で休む時間を長くしています。",
-          "en": "During dangerous time periods, they reduce outdoor work and take longer breaks in the shade."
         }
       ]
     },
@@ -12634,6 +12725,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "G7の首脳たちは、この外交の動きを支持すると述べました。",
+          "en": "G7 leaders said they support this diplomatic move."
+        },
+        {
           "ja": "案が通れば、人口が950万人に近づいたとき、政府は移民や難民、家族の呼び寄せを厳しく制限することになります。",
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
         },
@@ -12648,10 +12743,6 @@
         {
           "ja": "最近の日本では、クマが人の生活する場所に入る問題が増えています。",
           "en": "Recently in Japan, the problem of bears entering places where people live has been increasing."
-        },
-        {
-          "ja": "通知には、水分をとること、休憩すること、外での活動を短くすることなどが書かれています。",
-          "en": "The notifications include messages about drinking water, taking breaks, and shortening outdoor activities."
         }
       ],
       "partOfSpeech": "verb",
@@ -12696,6 +12787,14 @@
           "meaning": "Plain past form of する: to do",
           "exampleSentences": [
             {
+              "ja": "しかし、イランはイスラエルがレバノン南部から軍を引くことも必要だと話しました。",
+              "en": "However, Iran said that Israel must also withdraw its forces from southern Lebanon."
+            },
+            {
+              "ja": "G7の首脳たちは、この外交の動きを支持すると述べました。",
+              "en": "G7 leaders said they support this diplomatic move."
+            },
+            {
               "ja": "オーストラリアのシドニーにあるクージー・ビーチで、35歳の女性がサメにかまれました。",
               "en": "At Coogee Beach in Sydney, Australia, a 35-year-old woman was bitten by a shark."
             },
@@ -12706,14 +12805,6 @@
             {
               "ja": "女性は大けがをして、ヘリコプターで病院へ運ばれました。",
               "en": "The woman was seriously injured and was taken to a hospital by helicopter."
-            },
-            {
-              "ja": "近くにいた24歳のライフセーバーが、海へ入って女性をボードに乗せました。",
-              "en": "A 24-year-old lifesaver nearby entered the water and put the woman on a board."
-            },
-            {
-              "ja": "その後、救急隊や医師たちが浜辺で手当てをしました。",
-              "en": "After that, emergency workers and doctors treated her on the beach."
             }
           ]
         },
@@ -12730,6 +12821,10 @@
               "en": "While its convenience is recognized, it is considered important not to weaken students’ ability to think for themselves."
             },
             {
+              "ja": "G7の首脳たちは、この外交の動きを支持すると述べました。",
+              "en": "G7 leaders said they support this diplomatic move."
+            },
+            {
               "ja": "案が通れば、人口が950万人に近づいたとき、政府は移民や難民、家族の呼び寄せを厳しく制限することになります。",
               "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
             },
@@ -12740,10 +12835,6 @@
             {
               "ja": "日本では、クマが人の生活する場所に入る問題が増えています。",
               "en": "In Japan, the problem of bears entering places where people live is increasing."
-            },
-            {
-              "ja": "最近の日本では、クマが人の生活する場所に入る問題が増えています。",
-              "en": "Recently in Japan, the problem of bears entering places where people live has been increasing."
             }
           ]
         },
@@ -12756,6 +12847,14 @@
           "meaning": "Te-form of する: to do",
           "exampleSentences": [
             {
+              "ja": "そのため、各国の政府や企業は、この合意が実行されるかどうかを注意して見ています。",
+              "en": "For that reason, governments and companies are watching carefully to see whether the agreement will be carried out."
+            },
+            {
+              "ja": "アメリカは制裁を一部緩める可能性がありますが、詳しい内容はまだはっきりしていません。",
+              "en": "The United States may ease some sanctions, but the details are still not clear."
+            },
+            {
               "ja": "女性は大けがをして、ヘリコプターで病院へ運ばれました。",
               "en": "The woman was seriously injured and was taken to a hospital by helicopter."
             },
@@ -12766,14 +12865,6 @@
             {
               "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
               "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
-            },
-            {
-              "ja": "建設現場では、作業を始める前にアプリの情報を確認しています。",
-              "en": "At construction sites, workers check the app's information before starting work."
-            },
-            {
-              "ja": "危険な時間帯には、屋外の仕事を減らし、日陰で休む時間を長くしています。",
-              "en": "During dangerous time periods, they reduce outdoor work and take longer breaks in the shade."
             }
           ]
         },
@@ -13886,6 +13977,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ホルムズ海峡は、世界の石油や貿易にとってとても重要な場所です。",
+          "en": "The Strait of Hormuz is very important for the world's oil and trade."
+        },
+        {
           "ja": "女性は土曜日の朝、岸に近い場所で泳いでいました。",
           "en": "She was swimming near the shore on Saturday morning."
         },
@@ -13900,10 +13995,6 @@
         {
           "ja": "最近の日本では、クマが人の生活する場所に入る問題が増えています。",
           "en": "Recently in Japan, the problem of bears entering places where people live has been increasing."
-        },
-        {
-          "ja": "頭が痛い、気分が悪いなどの症状がある時は、すぐに涼しい場所へ移動することが大切です。",
-          "en": "If symptoms such as a headache or feeling unwell appear, it is important to move to a cool place right away."
         }
       ]
     },
@@ -14001,6 +14092,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ホルムズ海峡は、世界の石油や貿易にとってとても重要な場所です。",
+          "en": "The Strait of Hormuz is very important for the world's oil and trade."
+        },
+        {
           "ja": "スイスはEU加盟国ではありませんが、EUとの関係はとても深いです。",
           "en": "Switzerland is not an EU member, but its relationship with the EU is very deep."
         },
@@ -14015,10 +14110,6 @@
         {
           "ja": "comをとても重視していることが、よりはっきり伝わりました。",
           "en": "com."
-        },
-        {
-          "ja": "ラピダスは、2ナノメートルというとても細かい次世代のロジック半導体を作ろうとしています。",
-          "en": "Rapidus is trying to make next-generation 2-nanometer logic semiconductors, which are extremely advanced."
         }
       ]
     },
@@ -14702,6 +14793,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ただ、イスラエルやイラン、アメリカの国内には強い反対もあります。",
+          "en": "However, there is also strong opposition in Israel, Iran, and the United States."
+        },
+        {
           "ja": "ブラジルは優勝経験が多い強いチームですが、前半はモロッコの速い攻撃に苦しみました。",
           "en": "Brazil are a strong team with many World Cup titles, but in the first half they struggled against Morocco’s quick attacks."
         },
@@ -14834,6 +14929,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
+          "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
+        },
+        {
+          "ja": "ホルムズ海峡は、世界の石油や貿易にとってとても重要な場所です。",
+          "en": "The Strait of Hormuz is very important for the world's oil and trade."
+        },
+        {
           "ja": "近くにいた24歳のライフセーバーが、海へ入って女性をボードに乗せました。",
           "en": "A 24-year-old lifesaver nearby entered the water and put the woman on a board."
         },
@@ -14844,14 +14947,6 @@
         {
           "ja": "注意報は、茨城県から鹿児島県までの海岸や、伊豆諸島、小笠原諸島、沖縄・奄美の地域にも出されました。",
           "en": "The advisory covered coasts from Ibaraki Prefecture to Kagoshima Prefecture, as well as the Izu Islands, Ogasawara Islands, and the Okinawa-Amami region."
-        },
-        {
-          "ja": "注意報はその後、夕方にすべて解除されましたが、海面の変化が続く場所もあるとされています。",
-          "en": "The advisory was later fully lifted in the evening, but sea level changes may continue in some places."
-        },
-        {
-          "ja": "専門家は、注意報が出たときは、海の近くに行かないことが大切だと話しています。",
-          "en": "Experts say it is important not to go near the sea when an advisory is issued."
         }
       ]
     },
@@ -17064,6 +17159,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
+          "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
+        },
+        {
           "ja": "半導体やエネルギーのような重要な分野で、お互いに助け合うことが、これからさらに必要になるとみられています。",
           "en": "In important fields like semiconductors and energy, mutual support is expected to become even more necessary."
         }
@@ -17080,6 +17179,10 @@
           "meaning": "Polite form of 合う: to fit, to match, to suit",
           "exampleSentences": [
             {
+              "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
+              "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
+            },
+            {
               "ja": "半導体やエネルギーのような重要な分野で、お互いに助け合うことが、これからさらに必要になるとみられています。",
               "en": "In important fields like semiconductors and energy, mutual support is expected to become even more necessary."
             }
@@ -17093,6 +17196,10 @@
           "readingHiragana": "あった",
           "meaning": "Plain past form of 合う: to fit, to match, to suit",
           "exampleSentences": [
+            {
+              "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
+              "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
+            },
             {
               "ja": "半導体やエネルギーのような重要な分野で、お互いに助け合うことが、これからさらに必要になるとみられています。",
               "en": "In important fields like semiconductors and energy, mutual support is expected to become even more necessary."
@@ -17108,6 +17215,10 @@
           "meaning": "Plain negative form of 合う: to fit, to match, to suit",
           "exampleSentences": [
             {
+              "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
+              "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
+            },
+            {
               "ja": "半導体やエネルギーのような重要な分野で、お互いに助け合うことが、これからさらに必要になるとみられています。",
               "en": "In important fields like semiconductors and energy, mutual support is expected to become even more necessary."
             }
@@ -17122,6 +17233,14 @@
           "meaning": "Te-form of 合う: to fit, to match, to suit",
           "exampleSentences": [
             {
+              "ja": "アメリカとイランは、戦争を終わらせるための一時的な合意について話し合っています。",
+              "en": "The United States and Iran are discussing a temporary agreement to end the war."
+            },
+            {
+              "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
+              "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
+            },
+            {
               "ja": "半導体やエネルギーのような重要な分野で、お互いに助け合うことが、これからさらに必要になるとみられています。",
               "en": "In important fields like semiconductors and energy, mutual support is expected to become even more necessary."
             }
@@ -17135,6 +17254,10 @@
           "readingHiragana": "あえる",
           "meaning": "Potential form of 合う: to fit, to match, to suit",
           "exampleSentences": [
+            {
+              "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
+              "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
+            },
             {
               "ja": "半導体やエネルギーのような重要な分野で、お互いに助け合うことが、これからさらに必要になるとみられています。",
               "en": "In important fields like semiconductors and energy, mutual support is expected to become even more necessary."
@@ -17252,6 +17375,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ホルムズ海峡は、世界の石油や貿易にとってとても重要な場所です。",
+          "en": "The Strait of Hormuz is very important for the world's oil and trade."
+        },
+        {
           "ja": "女性は土曜日の朝、岸に近い場所で泳いでいました。",
           "en": "She was swimming near the shore on Saturday morning."
         },
@@ -17266,10 +17393,6 @@
         {
           "ja": "最近の日本では、クマが人の生活する場所に入る問題が増えています。",
           "en": "Recently in Japan, the problem of bears entering places where people live has been increasing."
-        },
-        {
-          "ja": "頭が痛い、気分が悪いなどの症状がある時は、すぐに涼しい場所へ移動することが大切です。",
-          "en": "If symptoms such as a headache or feeling unwell appear, it is important to move to a cool place right away."
         }
       ]
     },
@@ -17355,7 +17478,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "ホルムズ海峡は、世界の石油や貿易にとってとても重要な場所です。",
+          "en": "The Strait of Hormuz is very important for the world's oil and trade."
+        }
+      ]
     },
     {
       "id": "core-9b533772ee37ed",
@@ -17537,6 +17665,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そのため、各国の政府や企業は、この合意が実行されるかどうかを注意して見ています。",
+          "en": "For that reason, governments and companies are watching carefully to see whether the agreement will be carried out."
+        },
+        {
           "ja": "市はSNSや放送車で注意を呼びかけ、住民に外へ出ないよう伝えました。",
           "en": "The city warned residents through social media and announcement vehicles and told them not to go outside."
         },
@@ -17551,10 +17683,6 @@
         {
           "ja": "専門家は、アプリだけに頼らず、自分の体調にも注意してほしいと話しています。",
           "en": "Experts say people should not rely only on apps and should also pay attention to their own physical condition."
-        },
-        {
-          "ja": "気象庁は8日、日本の太平洋側の広い地域に津波注意報を出しました。",
-          "en": "On the 8th, the Japan Meteorological Agency issued a tsunami advisory for a wide area along Japan’s Pacific coast."
         }
       ]
     },
@@ -18815,6 +18943,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "アメリカは制裁を一部緩める可能性がありますが、詳しい内容はまだはっきりしていません。",
+          "en": "The United States may ease some sanctions, but the details are still not clear."
+        },
+        {
           "ja": "comをとても重視していることが、よりはっきり伝わりました。",
           "en": "com."
         }
@@ -18967,6 +19099,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "ただ、イスラエルやイラン、アメリカの国内には強い反対もあります。",
+          "en": "However, there is also strong opposition in Israel, Iran, and the United States."
+        },
         {
           "ja": "初めの結果では、多くの有権者がこの案に反対しました。",
           "en": "Early results showed that many voters opposed the plan."
@@ -19526,7 +19662,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
+          "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "godan",
       "verbForms": [
@@ -19537,7 +19678,12 @@
           "term": "開きます",
           "readingHiragana": "ひらきます",
           "meaning": "Polite form of 開く: to open, to undo",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
+              "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
+            }
+          ]
         },
         {
           "form": "past",
@@ -19546,7 +19692,12 @@
           "term": "開いた",
           "readingHiragana": "ひらいた",
           "meaning": "Plain past form of 開く: to open, to undo",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
+              "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -19555,7 +19706,12 @@
           "term": "開かない",
           "readingHiragana": "ひらかない",
           "meaning": "Plain negative form of 開く: to open, to undo",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
+              "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
+            }
+          ]
         },
         {
           "form": "te",
@@ -19564,7 +19720,12 @@
           "term": "開いて",
           "readingHiragana": "ひらいて",
           "meaning": "Te-form of 開く: to open, to undo",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
+              "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -19573,7 +19734,12 @@
           "term": "開ける",
           "readingHiragana": "ひらける",
           "meaning": "Potential form of 開く: to open, to undo",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
+              "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
+            }
+          ]
         }
       ]
     },
@@ -20151,6 +20317,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "ホルムズ海峡は、世界の石油や貿易にとってとても重要な場所です。",
+          "en": "The Strait of Hormuz is very important for the world's oil and trade."
+        },
         {
           "ja": "ここが十分に使えないと、世界中に石油を送ることがむずかしくなります。",
           "en": "If it cannot be used fully, it becomes difficult to send oil around the world."
@@ -22578,6 +22748,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ただ、イスラエルやイラン、アメリカの国内には強い反対もあります。",
+          "en": "However, there is also strong opposition in Israel, Iran, and the United States."
+        },
+        {
           "ja": "航空会社は国内線と国際線を含む多くの便を欠航にし、新幹線や在来線にも遅れや運休が出ました。",
           "en": "Airlines canceled many domestic and international flights, and bullet trains and local rail services also saw delays and suspensions."
         },
@@ -22806,6 +22980,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "中東の緊張が下がるかどうかは、これからの交渉にかかっています。",
+          "en": "Whether tensions in the Middle East will decrease depends on the negotiations from here."
+        },
+        {
           "ja": "これから本格的な夏に向けて、どこまで効果があるかが注目されています。",
           "en": "As full summer approaches, people are watching closely to see how effective they will be."
         },
@@ -22820,10 +22998,6 @@
         {
           "ja": "半導体やエネルギーのような重要な分野で、お互いに助け合うことが、これからさらに必要になるとみられています。",
           "en": "In important fields like semiconductors and energy, mutual support is expected to become even more necessary."
-        },
-        {
-          "ja": "両国は、安全保障や地域の安定のために、これからも緊密に連携していく方針です。",
-          "en": "The two countries plan to keep working closely together for security and regional stability."
         }
       ]
     },
@@ -23237,6 +23411,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "G7の首脳たちは、この外交の動きを支持すると述べました。",
+          "en": "G7 leaders said they support this diplomatic move."
+        },
+        {
           "ja": "政府は、首都直下地震が起きた場合の被害を今後10年で大幅に減らすため、防災計画を改定する方針です。",
           "en": "The government plans to revise its disaster-prevention plan to sharply reduce damage from a possible inland earthquake beneath the Tokyo area over the next decade."
         },
@@ -23251,10 +23429,6 @@
         {
           "ja": "高市首相によると、トランプ大統領は中国を訪問したあとでも、日本との関係を重視する姿勢を示しました。",
           "en": "According to Takaichi, President Trump showed that he still places importance on ties with Japan even after visiting China. The message was that the U.S.-Japan alliance will not change even while the U.S. talks with other countries."
-        },
-        {
-          "ja": "日本の高市首相が、イギリスのロックバンド、ディープ・パープルを首相官邸で迎えました。",
-          "en": "Japan's Prime Minister Sanae Takaichi welcomed the British rock band Deep Purple at the prime minister's office."
         }
       ]
     },
@@ -27732,6 +27906,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "中東の緊張が下がるかどうかは、これからの交渉にかかっています。",
+          "en": "Whether tensions in the Middle East will decrease depends on the negotiations from here."
+        },
+        {
           "ja": "投資家の中には、円がもっと下がると考えていた人も多く、急な変化におどろきました。",
           "en": "Many investors had thought the yen would fall further, so they were surprised by the sudden change."
         }
@@ -27748,6 +27926,10 @@
           "meaning": "Polite form of 下がる: to come down, to get lower",
           "exampleSentences": [
             {
+              "ja": "中東の緊張が下がるかどうかは、これからの交渉にかかっています。",
+              "en": "Whether tensions in the Middle East will decrease depends on the negotiations from here."
+            },
+            {
               "ja": "投資家の中には、円がもっと下がると考えていた人も多く、急な変化におどろきました。",
               "en": "Many investors had thought the yen would fall further, so they were surprised by the sudden change."
             }
@@ -27761,6 +27943,10 @@
           "readingHiragana": "さがった",
           "meaning": "Plain past form of 下がる: to come down, to get lower",
           "exampleSentences": [
+            {
+              "ja": "中東の緊張が下がるかどうかは、これからの交渉にかかっています。",
+              "en": "Whether tensions in the Middle East will decrease depends on the negotiations from here."
+            },
             {
               "ja": "投資家の中には、円がもっと下がると考えていた人も多く、急な変化におどろきました。",
               "en": "Many investors had thought the yen would fall further, so they were surprised by the sudden change."
@@ -27776,6 +27962,10 @@
           "meaning": "Plain negative form of 下がる: to come down, to get lower",
           "exampleSentences": [
             {
+              "ja": "中東の緊張が下がるかどうかは、これからの交渉にかかっています。",
+              "en": "Whether tensions in the Middle East will decrease depends on the negotiations from here."
+            },
+            {
               "ja": "投資家の中には、円がもっと下がると考えていた人も多く、急な変化におどろきました。",
               "en": "Many investors had thought the yen would fall further, so they were surprised by the sudden change."
             }
@@ -27790,6 +27980,10 @@
           "meaning": "Te-form of 下がる: to come down, to get lower",
           "exampleSentences": [
             {
+              "ja": "中東の緊張が下がるかどうかは、これからの交渉にかかっています。",
+              "en": "Whether tensions in the Middle East will decrease depends on the negotiations from here."
+            },
+            {
               "ja": "投資家の中には、円がもっと下がると考えていた人も多く、急な変化におどろきました。",
               "en": "Many investors had thought the yen would fall further, so they were surprised by the sudden change."
             }
@@ -27803,6 +27997,10 @@
           "readingHiragana": "さがれる",
           "meaning": "Potential form of 下がる: to come down, to get lower",
           "exampleSentences": [
+            {
+              "ja": "中東の緊張が下がるかどうかは、これからの交渉にかかっています。",
+              "en": "Whether tensions in the Middle East will decrease depends on the negotiations from here."
+            },
             {
               "ja": "投資家の中には、円がもっと下がると考えていた人も多く、急な変化におどろきました。",
               "en": "Many investors had thought the yen would fall further, so they were surprised by the sudden change."
@@ -28456,6 +28654,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ホルムズ海峡は、世界の石油や貿易にとってとても重要な場所です。",
+          "en": "The Strait of Hormuz is very important for the world's oil and trade."
+        },
+        {
           "ja": "初めの取引では株価が大きく上がり、世界中の投資家が注目しました。",
           "en": "Its share price rose sharply in early trading, drawing attention from investors around the world."
         },
@@ -28556,7 +28758,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "アメリカとイランは、戦争を終わらせるための一時的な合意について話し合っています。",
+          "en": "The United States and Iran are discussing a temporary agreement to end the war."
+        }
+      ]
     },
     {
       "id": "core-c40243fead8c79",
@@ -29994,7 +30201,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "そのため、停戦案が本当に進むかはまだわかりません。",
+          "en": "Because of that, it is still unclear whether the ceasefire plan will really move forward."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "godan",
       "verbForms": [
@@ -30005,7 +30217,12 @@
           "term": "進みます",
           "readingHiragana": "すすみます",
           "meaning": "Polite form of 進む: to advance, to go forward",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "そのため、停戦案が本当に進むかはまだわかりません。",
+              "en": "Because of that, it is still unclear whether the ceasefire plan will really move forward."
+            }
+          ]
         },
         {
           "form": "past",
@@ -30018,6 +30235,10 @@
             {
               "ja": "モロッコは2022年の大会でベスト4まで進んだチームです。",
               "en": "Morocco reached the semifinals in the 2022 tournament."
+            },
+            {
+              "ja": "そのため、停戦案が本当に進むかはまだわかりません。",
+              "en": "Because of that, it is still unclear whether the ceasefire plan will really move forward."
             }
           ]
         },
@@ -30028,7 +30249,12 @@
           "term": "進まない",
           "readingHiragana": "すすまない",
           "meaning": "Plain negative form of 進む: to advance, to go forward",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "そのため、停戦案が本当に進むかはまだわかりません。",
+              "en": "Because of that, it is still unclear whether the ceasefire plan will really move forward."
+            }
+          ]
         },
         {
           "form": "te",
@@ -30037,7 +30263,12 @@
           "term": "進んで",
           "readingHiragana": "すすんで",
           "meaning": "Te-form of 進む: to advance, to go forward",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "そのため、停戦案が本当に進むかはまだわかりません。",
+              "en": "Because of that, it is still unclear whether the ceasefire plan will really move forward."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -30062,6 +30293,10 @@
             {
               "ja": "このお金は、研究や開発をもっと早く進めるために使われます。",
               "en": "This money will be used to speed up research and development."
+            },
+            {
+              "ja": "そのため、停戦案が本当に進むかはまだわかりません。",
+              "en": "Because of that, it is still unclear whether the ceasefire plan will really move forward."
             }
           ]
         }
@@ -34192,6 +34427,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ホルムズ海峡は、世界の石油や貿易にとってとても重要な場所です。",
+          "en": "The Strait of Hormuz is very important for the world's oil and trade."
+        },
+        {
           "ja": "2026年5月11日、原油価格が大きく上がりました。",
           "en": "On May 11, 2026, crude oil prices rose sharply."
         },
@@ -34784,24 +35023,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
+          "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
+        },
+        {
+          "ja": "そのため、停戦案が本当に進むかはまだわかりません。",
+          "en": "Because of that, it is still unclear whether the ceasefire plan will really move forward."
+        },
+        {
+          "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
+          "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
+        },
+        {
           "ja": "争点の一つは、国の人口を2050年まで1000万人までに抑える提案でした。",
           "en": "One issue was a proposal to keep the country's population at no more than 10 million by 2050."
         },
         {
           "ja": "初めの結果では、多くの有権者がこの案に反対しました。",
           "en": "Early results showed that many voters opposed the plan."
-        },
-        {
-          "ja": "この提案は、右派のスイス国民党が進めたものです。",
-          "en": "The proposal was promoted by the right-wing Swiss People's Party. Switzerland's population is now about 9.1 million and has grown greatly since 2002. Supporters said the burden on housing, transportation, and public services was becoming heavy."
-        },
-        {
-          "ja": "案が通れば、人口が950万人に近づいたとき、政府は移民や難民、家族の呼び寄せを厳しく制限することになります。",
-          "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
-        },
-        {
-          "ja": "反対派は、この案がスイスの経済に悪い影響を与えると主張しました。",
-          "en": "Opponents argued that the plan would hurt Switzerland's economy."
         }
       ]
     },
@@ -35748,6 +35987,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ホルムズ海峡は、世界の石油や貿易にとってとても重要な場所です。",
+          "en": "The Strait of Hormuz is very important for the world's oil and trade."
+        },
+        {
           "ja": "女性は土曜日の朝、岸に近い場所で泳いでいました。",
           "en": "She was swimming near the shore on Saturday morning."
         },
@@ -35762,10 +36005,6 @@
         {
           "ja": "アメリカの宇宙企業スペースXは、6月12日に株式市場に上場しました。",
           "en": "The American space company SpaceX listed on the stock market on June 12."
-        },
-        {
-          "ja": "もし上場後に株価が下がれば、証券会社は市場で株を買い戻します。",
-          "en": "If the share price falls after listing, the securities firms buy shares back in the market."
         }
       ]
     },
@@ -37920,6 +38159,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そのため、各国の政府や企業は、この合意が実行されるかどうかを注意して見ています。",
+          "en": "For that reason, governments and companies are watching carefully to see whether the agreement will be carried out."
+        },
+        {
+          "ja": "中東の緊張が下がるかどうかは、これからの交渉にかかっています。",
+          "en": "Whether tensions in the Middle East will decrease depends on the negotiations from here."
+        },
+        {
           "ja": "ドローンは、道路が通れるかどうかや、川の水がどこまで来ているかを、すばやく調べることができます。",
           "en": "Drones can quickly check whether roads are passable and how far river water has reached."
         }
@@ -39373,6 +39620,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "G7の首脳たちは、この外交の動きを支持すると述べました。",
+          "en": "G7 leaders said they support this diplomatic move."
+        },
+        {
           "ja": "政府は、トップどうしが同じ考えを示したことで、今後の外交や政策が進めやすくなると期待しています。",
           "en": "The government expects that showing agreement at the top level will make future diplomacy and policy coordination easier."
         }
@@ -40154,7 +40405,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "しかし、イランはイスラエルがレバノン南部から軍を引くことも必要だと話しました。",
+          "en": "However, Iran said that Israel must also withdraw its forces from southern Lebanon."
+        }
+      ]
     },
     {
       "id": "core-ffe3bda231e556",
@@ -41024,7 +41280,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
+          "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "godan",
       "verbForms": [
@@ -41035,7 +41296,12 @@
           "term": "話し合います",
           "readingHiragana": "はなしあいます",
           "meaning": "Polite form of 話し合う: to discuss",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
+              "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
+            }
+          ]
         },
         {
           "form": "past",
@@ -41044,7 +41310,12 @@
           "term": "話し合った",
           "readingHiragana": "はなしあった",
           "meaning": "Plain past form of 話し合う: to discuss",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
+              "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -41053,7 +41324,12 @@
           "term": "話し合わない",
           "readingHiragana": "はなしあわない",
           "meaning": "Plain negative form of 話し合う: to discuss",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
+              "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
+            }
+          ]
         },
         {
           "form": "te",
@@ -41062,7 +41338,16 @@
           "term": "話し合って",
           "readingHiragana": "はなしあって",
           "meaning": "Te-form of 話し合う: to discuss",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "アメリカとイランは、戦争を終わらせるための一時的な合意について話し合っています。",
+              "en": "The United States and Iran are discussing a temporary agreement to end the war."
+            },
+            {
+              "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
+              "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -41071,7 +41356,12 @@
           "term": "話し合える",
           "readingHiragana": "はなしあえる",
           "meaning": "Potential form of 話し合う: to discuss",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
+              "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
+            }
+          ]
         }
       ]
     },
@@ -43846,6 +44136,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "アメリカは制裁を一部緩める可能性がありますが、詳しい内容はまだはっきりしていません。",
+          "en": "The United States may ease some sanctions, but the details are still not clear."
+        },
+        {
           "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
           "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
         },
@@ -43888,6 +44182,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "アメリカとイランは、戦争を終わらせるための一時的な合意について話し合っています。",
+          "en": "The United States and Iran are discussing a temporary agreement to end the war."
+        },
         {
           "ja": "自動車メーカーの一部は、従業員の安全や部品輸送への影響を考慮して、工場の操業を一時停止しました。",
           "en": "Some automakers temporarily stopped factory operations after considering worker safety and impacts on parts transport."
@@ -45281,7 +45579,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "そのため、各国の政府や企業は、この合意が実行されるかどうかを注意して見ています。",
+          "en": "For that reason, governments and companies are watching carefully to see whether the agreement will be carried out."
+        }
+      ]
     },
     {
       "id": "core-063d38332e98a0",
@@ -45825,6 +46128,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "イスラエルはこの条件を受け入れていません。",
+          "en": "Israel has not accepted this condition."
+        },
+        {
           "ja": "買収を成功させるために、より強い条件を出したとみられています。",
           "en": "It is seen as a move to present stronger terms and improve their chances of completing the acquisition."
         }
@@ -46213,6 +46520,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ホルムズ海峡は、世界の石油や貿易にとってとても重要な場所です。",
+          "en": "The Strait of Hormuz is very important for the world's oil and trade."
+        },
+        {
           "ja": "医療、金融、技術などの分野では、外国から来た働く人が重要です。",
           "en": "In fields such as healthcare, finance, and technology, workers from other countries are important."
         },
@@ -46227,10 +46538,6 @@
         {
           "ja": "5月15日、高市首相は、アメリカのトランプ大統領と会談し、日本とアメリカの同盟がとても重要だとあらためて確認したと話しました。",
           "en": "On May 15, Prime Minister Takaichi said she met with U.S. President Trump and reconfirmed that the Japan-U.S. alliance is very important."
-        },
-        {
-          "ja": "両国は、難しい国際情勢の中で、協力を弱めないことが重要だと考えています。",
-          "en": "Both sides believe it is important not to weaken cooperation amid difficult international conditions."
         }
       ]
     },
@@ -47258,6 +47565,10 @@
           "readingHiragana": "",
           "meaning": "Te-form of かかる: to suffer from",
           "exampleSentences": [
+            {
+              "ja": "中東の緊張が下がるかどうかは、これからの交渉にかかっています。",
+              "en": "Whether tensions in the Middle East will decrease depends on the negotiations from here."
+            },
             {
               "ja": "町は3か月の実験で、利用した人数や運行にかかる費用を調べます。",
               "en": "During the three-month trial, the town will study the number of users and the cost of operating the buses."
@@ -48525,6 +48836,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "アメリカは制裁を一部緩める可能性がありますが、詳しい内容はまだはっきりしていません。",
+          "en": "The United States may ease some sanctions, but the details are still not clear."
+        },
+        {
           "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
         },
@@ -49538,6 +49853,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "G7の首脳たちは、この外交の動きを支持すると述べました。",
+          "en": "G7 leaders said they support this diplomatic move."
+        },
+        {
           "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
         },
@@ -49552,10 +49871,6 @@
         {
           "ja": "通知には、水分をとること、休憩すること、外での活動を短くすることなどが書かれています。",
           "en": "The notifications include messages about drinking water, taking breaks, and shortening outdoor activities."
-        },
-        {
-          "ja": "頭が痛い、気分が悪いなどの症状がある時は、すぐに涼しい場所へ移動することが大切です。",
-          "en": "If symptoms such as a headache or feeling unwell appear, it is important to move to a cool place right away."
         }
       ]
     },
@@ -50732,6 +51047,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そのため、各国の政府や企業は、この合意が実行されるかどうかを注意して見ています。",
+          "en": "For that reason, governments and companies are watching carefully to see whether the agreement will be carried out."
+        },
+        {
           "ja": "アメリカの宇宙企業スペースXは、6月12日に株式市場に上場しました。",
           "en": "The American space company SpaceX listed on the stock market on June 12."
         },
@@ -51028,7 +51347,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "中東の緊張が下がるかどうかは、これからの交渉にかかっています。",
+          "en": "Whether tensions in the Middle East will decrease depends on the negotiations from here."
+        }
+      ]
     },
     {
       "id": "core-24acf0eb4fda21",
@@ -54292,7 +54616,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "アメリカは制裁を一部緩める可能性がありますが、詳しい内容はまだはっきりしていません。",
+          "en": "The United States may ease some sanctions, but the details are still not clear."
+        }
+      ]
     },
     {
       "id": "core-0fef78a7b87a08",
@@ -56137,6 +56466,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そのため、各国の政府や企業は、この合意が実行されるかどうかを注意して見ています。",
+          "en": "For that reason, governments and companies are watching carefully to see whether the agreement will be carried out."
+        },
+        {
           "ja": "山間部にある小さな町で、予約制バスの実験が始まりました。",
           "en": "In a small town in a mountain area, a trial of reservation-based buses has started."
         },
@@ -56151,10 +56484,6 @@
         {
           "ja": "関西の大きな港で、水素を使う新しい船の実証実験が始まりました。",
           "en": "A large port in Kansai has started a test of a new ship that uses hydrogen."
-        },
-        {
-          "ja": "実験では、短い距離を何度も走って、安全や使いやすさを調べます。",
-          "en": "In the test, it will make repeated short trips so people can check safety and practicality."
         }
       ]
     },
@@ -58233,6 +58562,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "アメリカは制裁を一部緩める可能性がありますが、詳しい内容はまだはっきりしていません。",
+          "en": "The United States may ease some sanctions, but the details are still not clear."
+        },
+        {
           "ja": "管理者は、同じ内容を働く人や生徒にすぐ送ることができます。",
           "en": "Managers can quickly send the same information to workers or students."
         },
@@ -59655,6 +59988,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "アメリカは制裁を一部緩める可能性がありますが、詳しい内容はまだはっきりしていません。",
+          "en": "The United States may ease some sanctions, but the details are still not clear."
+        },
+        {
           "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
         },
@@ -59669,10 +60006,6 @@
         {
           "ja": "人口や機能が集中する首都圏では、交通や物流の混乱も深刻になるとみられています。",
           "en": "In the Tokyo metropolitan area, where people and key functions are concentrated, disruption to transport and logistics is also expected to be severe."
-        },
-        {
-          "ja": "専門家は、交通の施設で再生可能エネルギーを使うことは、地域の意識を変えるきっかけにもなるとみています。",
-          "en": "Experts say using renewable energy at transportation facilities can also change local awareness."
         }
       ]
     },
@@ -61750,7 +62083,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "アメリカとイランは、戦争を終わらせるための一時的な合意について話し合っています。",
+          "en": "The United States and Iran are discussing a temporary agreement to end the war."
+        }
+      ]
     },
     {
       "id": "core-e47d1427145c51",
@@ -63745,6 +64083,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "アメリカは制裁を一部緩める可能性がありますが、詳しい内容はまだはっきりしていません。",
+          "en": "The United States may ease some sanctions, but the details are still not clear."
+        },
+        {
           "ja": "オーストラリアのシドニーにあるクージー・ビーチで、35歳の女性がサメにかまれました。",
           "en": "At Coogee Beach in Sydney, Australia, a 35-year-old woman was bitten by a shark."
         },
@@ -63759,10 +64101,6 @@
         {
           "ja": "近くにいた24歳のライフセーバーが、海へ入って女性をボードに乗せました。",
           "en": "A 24-year-old lifesaver nearby entered the water and put the woman on a board."
-        },
-        {
-          "ja": "女性の家族は、医療費などを支えるために寄付を集めています。",
-          "en": "The woman's family is collecting donations to help with medical costs and other needs."
         }
       ]
     },
@@ -63881,6 +64219,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そのため、各国の政府や企業は、この合意が実行されるかどうかを注意して見ています。",
+          "en": "For that reason, governments and companies are watching carefully to see whether the agreement will be carried out."
+        },
+        {
           "ja": "案が通れば、人口が950万人に近づいたとき、政府は移民や難民、家族の呼び寄せを厳しく制限することになります。",
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
         },
@@ -63895,10 +64237,6 @@
         {
           "ja": "米の値段が上がっているため、政府は新しい対策を発表しました。",
           "en": "Because rice prices are rising, the government announced new measures."
-        },
-        {
-          "ja": "政府は、今後の価格の動きを見ながら、さらに対応を考える方針です。",
-          "en": "The government plans to consider further action while watching future price movements."
         }
       ]
     },
@@ -64339,6 +64677,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "ホルムズ海峡は、世界の石油や貿易にとってとても重要な場所です。",
+          "en": "The Strait of Hormuz is very important for the world's oil and trade."
+        },
         {
           "ja": "ここが十分に使えないと、世界中に石油を送ることがむずかしくなります。",
           "en": "If it cannot be used fully, it becomes difficult to send oil around the world."
@@ -69578,6 +69920,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ただ、イスラエルやイラン、アメリカの国内には強い反対もあります。",
+          "en": "However, there is also strong opposition in Israel, Iran, and the United States."
+        },
+        {
           "ja": "この事故の後、安全対策について議論が起きました。",
           "en": "After the incident, a debate began about safety measures."
         },
@@ -69592,10 +69938,6 @@
         {
           "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
           "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
-        },
-        {
-          "ja": "初めの結果では、多くの有権者がこの案に反対しました。",
-          "en": "Early results showed that many voters opposed the plan."
         }
       ],
       "partOfSpeech": "verb",
@@ -71672,6 +72014,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "アメリカとイランは、戦争を終わらせるための一時的な合意について話し合っています。",
+          "en": "The United States and Iran are discussing a temporary agreement to end the war."
+        },
+        {
           "ja": "モロッコは中盤でボールをよく動かし、ブラジルに簡単な時間を与えませんでした。",
           "en": "Morocco moved the ball well in midfield and did not give Brazil easy moments."
         },
@@ -71686,10 +72032,6 @@
         {
           "ja": "頭が痛い、気分が悪いなどの症状がある時は、すぐに涼しい場所へ移動することが大切です。",
           "en": "If symptoms such as a headache or feeling unwell appear, it is important to move to a cool place right away."
-        },
-        {
-          "ja": "利用したい人は、前日までに電話かスマートフォンで乗る場所と時間を伝えます。",
-          "en": "People who want to use the service tell the town their pickup place and time by phone or smartphone by the previous day."
         }
       ]
     },
@@ -77125,6 +77467,214 @@
       "exampleSentences": []
     },
     {
+      "id": "article-899c3fe1dea2b1",
+      "level": "N3",
+      "term": "停戦案",
+      "reading": "ていせんあん",
+      "readingHiragana": "ていせんあん",
+      "meaning": "Ceasefire proposal",
+      "source": "article",
+      "sourceId": "2026-06-16-us-iran-peace-deal",
+      "sourceTitle": "アメリカとイランの停戦案に新しい問題が出た",
+      "sourceLabel": "6/16 米イラン停戦案",
+      "sourceHref": "./2026-06-16-us-iran-peace-deal.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-16-us-iran-peace-deal"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "そのため、停戦案が本当に進むかはまだわかりません。",
+          "en": "Because of that, it is still unclear whether the ceasefire plan will really move forward."
+        }
+      ]
+    },
+    {
+      "id": "article-7bd9b35878a6db",
+      "level": "N3",
+      "term": "一時的",
+      "reading": "いちじてき",
+      "readingHiragana": "いちじてき",
+      "meaning": "Temporary",
+      "source": "article",
+      "sourceId": "2026-06-16-us-iran-peace-deal",
+      "sourceTitle": "アメリカとイランの停戦案に新しい問題が出た",
+      "sourceLabel": "6/16 米イラン停戦案",
+      "sourceHref": "./2026-06-16-us-iran-peace-deal.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-16-us-iran-peace-deal"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "アメリカとイランは、戦争を終わらせるための一時的な合意について話し合っています。",
+          "en": "The United States and Iran are discussing a temporary agreement to end the war."
+        }
+      ]
+    },
+    {
+      "id": "article-759dcf14bc51e3",
+      "level": "N3",
+      "term": "合意",
+      "reading": "ごうい",
+      "readingHiragana": "ごうい",
+      "meaning": "Agreement",
+      "source": "article",
+      "sourceId": "2026-06-16-us-iran-peace-deal",
+      "sourceTitle": "アメリカとイランの停戦案に新しい問題が出た",
+      "sourceLabel": "6/16 米イラン停戦案",
+      "sourceHref": "./2026-06-16-us-iran-peace-deal.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-16-us-iran-peace-deal"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "アメリカとイランは、戦争を終わらせるための一時的な合意について話し合っています。",
+          "en": "The United States and Iran are discussing a temporary agreement to end the war."
+        },
+        {
+          "ja": "そのため、各国の政府や企業は、この合意が実行されるかどうかを注意して見ています。",
+          "en": "For that reason, governments and companies are watching carefully to see whether the agreement will be carried out."
+        },
+        {
+          "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
+          "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
+        }
+      ]
+    },
+    {
+      "id": "article-94f8391404d486",
+      "level": "N3",
+      "term": "海峡",
+      "reading": "かいきょう",
+      "readingHiragana": "かいきょう",
+      "meaning": "Strait",
+      "source": "article",
+      "sourceId": "2026-06-16-us-iran-peace-deal",
+      "sourceTitle": "アメリカとイランの停戦案に新しい問題が出た",
+      "sourceLabel": "6/16 米イラン停戦案",
+      "sourceHref": "./2026-06-16-us-iran-peace-deal.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-16-us-iran-peace-deal"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
+          "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
+        },
+        {
+          "ja": "ホルムズ海峡は、世界の石油や貿易にとってとても重要な場所です。",
+          "en": "The Strait of Hormuz is very important for the world's oil and trade."
+        },
+        {
+          "ja": "とくにホルムズ海峡の状況が注目されています。",
+          "en": "People are especially watching the situation in the Strait of Hormuz."
+        },
+        {
+          "ja": "この海峡は、世界の大切なエネルギー輸送ルートの一つです。",
+          "en": "This strait is one of the world’s important energy shipping routes."
+        }
+      ]
+    },
+    {
+      "id": "article-c06f8476e44b03",
+      "level": "N3",
+      "term": "貿易",
+      "reading": "ぼうえき",
+      "readingHiragana": "ぼうえき",
+      "meaning": "Trade",
+      "source": "article",
+      "sourceId": "2026-06-16-us-iran-peace-deal",
+      "sourceTitle": "アメリカとイランの停戦案に新しい問題が出た",
+      "sourceLabel": "6/16 米イラン停戦案",
+      "sourceHref": "./2026-06-16-us-iran-peace-deal.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-16-us-iran-peace-deal"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "ホルムズ海峡は、世界の石油や貿易にとってとても重要な場所です。",
+          "en": "The Strait of Hormuz is very important for the world's oil and trade."
+        }
+      ]
+    },
+    {
+      "id": "article-241b962de43be8",
+      "level": "N3",
+      "term": "条件",
+      "reading": "じょうけん",
+      "readingHiragana": "じょうけん",
+      "meaning": "Condition",
+      "source": "article",
+      "sourceId": "2026-06-16-us-iran-peace-deal",
+      "sourceTitle": "アメリカとイランの停戦案に新しい問題が出た",
+      "sourceLabel": "6/16 米イラン停戦案",
+      "sourceHref": "./2026-06-16-us-iran-peace-deal.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-16-us-iran-peace-deal"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "イスラエルはこの条件を受け入れていません。",
+          "en": "Israel has not accepted this condition."
+        },
+        {
+          "ja": "買収を成功させるために、より強い条件を出したとみられています。",
+          "en": "It is seen as a move to present stronger terms and improve their chances of completing the acquisition."
+        }
+      ]
+    },
+    {
+      "id": "article-182549d893b46f",
+      "level": "N3",
+      "term": "制裁",
+      "reading": "せいさい",
+      "readingHiragana": "せいさい",
+      "meaning": "Sanctions",
+      "source": "article",
+      "sourceId": "2026-06-16-us-iran-peace-deal",
+      "sourceTitle": "アメリカとイランの停戦案に新しい問題が出た",
+      "sourceLabel": "6/16 米イラン停戦案",
+      "sourceHref": "./2026-06-16-us-iran-peace-deal.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-16-us-iran-peace-deal"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "アメリカは制裁を一部緩める可能性がありますが、詳しい内容はまだはっきりしていません。",
+          "en": "The United States may ease some sanctions, but the details are still not clear."
+        }
+      ]
+    },
+    {
+      "id": "article-702eec783e4894",
+      "level": "N3",
+      "term": "交渉",
+      "reading": "こうしょう",
+      "readingHiragana": "こうしょう",
+      "meaning": "Negotiation",
+      "source": "article",
+      "sourceId": "2026-06-16-us-iran-peace-deal",
+      "sourceTitle": "アメリカとイランの停戦案に新しい問題が出た",
+      "sourceLabel": "6/16 米イラン停戦案",
+      "sourceHref": "./2026-06-16-us-iran-peace-deal.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-16-us-iran-peace-deal"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "中東の緊張が下がるかどうかは、これからの交渉にかかっています。",
+          "en": "Whether tensions in the Middle East will decrease depends on the negotiations from here."
+        }
+      ]
+    },
+    {
       "id": "article-b501dd577f20e9",
       "level": "N3",
       "term": "海岸",
@@ -77187,6 +77737,10 @@
         "2026-06-15-coogee-shark-attack"
       ],
       "exampleSentences": [
+        {
+          "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
+          "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
+        },
         {
           "ja": "報道によると、サメは3.",
           "en": "According to reports, the shark is believed to have been a great white about 3."
@@ -78998,6 +79552,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "アメリカは制裁を一部緩める可能性がありますが、詳しい内容はまだはっきりしていません。",
+          "en": "The United States may ease some sanctions, but the details are still not clear."
+        },
+        {
           "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
         },
@@ -79232,6 +79790,10 @@
         "2026-05-29-library-tablets"
       ],
       "exampleSentences": [
+        {
+          "ja": "アメリカは制裁を一部緩める可能性がありますが、詳しい内容はまだはっきりしていません。",
+          "en": "The United States may ease some sanctions, but the details are still not clear."
+        },
         {
           "ja": "管理者は、同じ内容を働く人や生徒にすぐ送ることができます。",
           "en": "Managers can quickly send the same information to workers or students."
@@ -81421,24 +81983,24 @@
       ],
       "exampleSentences": [
         {
+          "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
+          "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
+        },
+        {
+          "ja": "そのため、停戦案が本当に進むかはまだわかりません。",
+          "en": "Because of that, it is still unclear whether the ceasefire plan will really move forward."
+        },
+        {
+          "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
+          "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
+        },
+        {
           "ja": "争点の一つは、国の人口を2050年まで1000万人までに抑える提案でした。",
           "en": "One issue was a proposal to keep the country's population at no more than 10 million by 2050."
         },
         {
           "ja": "初めの結果では、多くの有権者がこの案に反対しました。",
           "en": "Early results showed that many voters opposed the plan."
-        },
-        {
-          "ja": "この提案は、右派のスイス国民党が進めたものです。",
-          "en": "The proposal was promoted by the right-wing Swiss People's Party. Switzerland's population is now about 9.1 million and has grown greatly since 2002. Supporters said the burden on housing, transportation, and public services was becoming heavy."
-        },
-        {
-          "ja": "案が通れば、人口が950万人に近づいたとき、政府は移民や難民、家族の呼び寄せを厳しく制限することになります。",
-          "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
-        },
-        {
-          "ja": "反対派は、この案がスイスの経済に悪い影響を与えると主張しました。",
-          "en": "Opponents argued that the plan would hurt Switzerland's economy."
         }
       ]
     },
