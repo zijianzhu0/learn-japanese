@@ -4,7 +4,7 @@
     "articleManifest": "data/articles.json"
   },
   "levels": {
-    "N3": 1902,
+    "N3": 1910,
     "N4": 536,
     "N5": 553
   },
@@ -3742,6 +3742,10 @@
           "meaning": "Te-form of 働く: to work",
           "exampleSentences": [
             {
+              "ja": "もともとの予定は2年間でしたが、20年以上たった今も科学のために働いています。",
+              "en": "Its mission was originally planned for two years, but more than 20 years later, it is still working for science."
+            },
+            {
               "ja": "医療、金融、技術などの分野では、外国から来た働く人が重要です。",
               "en": "In fields such as healthcare, finance, and technology, workers from other countries are important."
             },
@@ -3910,6 +3914,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "リンクは6月27日に打ち上げられる予定で、3本のロボットアームでスウィフトをつかみ、より高く安全な軌道へ運びます。",
+          "en": "Link is scheduled to launch on June 27, grab Swift with three robotic arms, and move it to a higher, safer orbit."
+        },
+        {
           "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
           "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
         },
@@ -3924,10 +3932,6 @@
         {
           "ja": "スイスで2026年6月14日、国民投票が行われました。",
           "en": "On June 14, 2026, Switzerland held a national referendum."
-        },
-        {
-          "ja": "2026年6月14日、FIFAワールドカップのグループCで、ブラジルとモロッコが1対1で引き分けました。",
-          "en": "On June 14, 2026, Brazil and Morocco drew 1-1 in Group C of the FIFA World Cup."
         }
       ]
     },
@@ -4349,6 +4353,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "リンクは6月27日に打ち上げられる予定で、3本のロボットアームでスウィフトをつかみ、より高く安全な軌道へ運びます。",
+          "en": "Link is scheduled to launch on June 27, grab Swift with three robotic arms, and move it to a higher, safer orbit."
+        },
+        {
           "ja": "そのため、停戦案が本当に進むかはまだわかりません。",
           "en": "Because of that, it is still unclear whether the ceasefire plan will really move forward."
         },
@@ -4363,10 +4371,6 @@
         {
           "ja": "気象庁は8日、日本の太平洋側の広い地域に津波注意報を出しました。",
           "en": "On the 8th, the Japan Meteorological Agency issued a tsunami advisory for a wide area along Japan’s Pacific coast."
-        },
-        {
-          "ja": "台風6号は3日、強い風と激しい雨を伴って日本列島を進みました。",
-          "en": "On the 3rd, Typhoon No. 6 moved across Japan with strong winds and heavy rain. Power outages, flooding, and fallen trees were reported in many places, and local governments urged residents to evacuate early."
         }
       ]
     },
@@ -4701,6 +4705,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "もともとの予定は2年間でしたが、20年以上たった今も科学のために働いています。",
+          "en": "Its mission was originally planned for two years, but more than 20 years later, it is still working for science."
+        },
+        {
           "ja": "今も重い状態だと伝えられています。",
           "en": "She is still reported to be in serious condition."
         },
@@ -4715,10 +4723,6 @@
         {
           "ja": "今回の引き分けで、今年も強い相手になりそうだと感じさせました。",
           "en": "This draw made people feel that Morocco may again be a strong opponent this year."
-        },
-        {
-          "ja": "政府は、首都直下地震が起きた場合の被害を今後10年で大幅に減らすため、防災計画を改定する方針です。",
-          "en": "The government plans to revise its disaster-prevention plan to sharply reduce damage from a possible inland earthquake beneath the Tokyo area over the next decade."
         }
       ]
     },
@@ -5250,6 +5254,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "しかし、スウィフトには自分で軌道を上げるためのエンジンがありません。",
+          "en": "However, Swift has no engine for raising its own orbit."
+        },
+        {
           "ja": "専門家は、アプリだけに頼らず、自分の体調にも注意してほしいと話しています。",
           "en": "Experts say people should not rely only on apps and should also pay attention to their own physical condition."
         },
@@ -5626,6 +5634,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そこでNASAは、アメリカの会社カタリスト・スペースが作った「リンク」という宇宙船を送ります。",
+          "en": "NASA will therefore send a spacecraft called Link, built by the American company Katalyst Space."
+        },
+        {
           "ja": "IPOでは、証券会社が会社の株を投資家に売ります。",
           "en": "In an IPO, securities firms sell a company’s shares to investors."
         },
@@ -5640,10 +5652,6 @@
         {
           "ja": "もし株価が高いままなら、会社から追加の株を買って約束を満たします。",
           "en": "If the share price stays high, they buy additional shares from the company to meet their commitment."
-        },
-        {
-          "ja": "スペースXのように注目度が高い会社では、上場直後の値動きが激しくなりやすいです。",
-          "en": "For a highly watched company like SpaceX, price movements just after listing can easily become intense."
         }
       ]
     },
@@ -8196,24 +8204,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
+          "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
+        },
+        {
+          "ja": "しかし、スウィフトには自分で軌道を上げるためのエンジンがありません。",
+          "en": "However, Swift has no engine for raising its own orbit."
+        },
+        {
+          "ja": "リンクは6月27日に打ち上げられる予定で、3本のロボットアームでスウィフトをつかみ、より高く安全な軌道へ運びます。",
+          "en": "Link is scheduled to launch on June 27, grab Swift with three robotic arms, and move it to a higher, safer orbit."
+        },
+        {
           "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
           "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
         },
         {
           "ja": "報道によると、サメは3.",
           "en": "According to reports, the shark is believed to have been a great white about 3."
-        },
-        {
-          "ja": "グリーンシューは、投資家の熱気と市場の不安の間で、値段を落ち着かせるための道具だと考えるとわかりやすいです。",
-          "en": "It is easiest to think of a greenshoe as a tool for calming the price between investor excitement and market anxiety."
-        },
-        {
-          "ja": "町では、人口が減り、決まった道を走るバスの利用者も少なくなっています。",
-          "en": "In the town, the population is falling, and fewer people use buses that run on fixed routes."
-        },
-        {
-          "ja": "火災が広がりやすい地域では、古い住宅の耐震化や、避難しやすい道路の整備も急ぐ必要があります。",
-          "en": "In areas where fires can spread easily, there is also a need to speed up earthquake-resistant housing improvements and roads that make evacuation easier."
         }
       ]
     },
@@ -12311,6 +12319,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "太陽の活動が強くなり、地球の大気が広がったため、予想より強い抵抗を受けて高度が下がりました。",
+          "en": "Stronger solar activity expanded Earth's atmosphere, so the telescope experienced more drag than expected and lost altitude."
+        },
+        {
           "ja": "中東の緊張が下がるかどうかは、これからの交渉にかかっています。",
           "en": "Whether tensions in the Middle East will decrease depends on the negotiations from here."
         },
@@ -12325,10 +12337,6 @@
         {
           "ja": "死者数や全壊・焼失する建物の数を、想定より半分以下に抑えることを目標にします。",
           "en": "Its goal is to cut the expected deaths and destroyed or burned buildings to less than half of the estimate."
-        },
-        {
-          "ja": "5円くらいまで下がり、円は短い時間で強くなりました。",
-          "en": "5 yen, and the yen became stronger in a short time."
         }
       ]
     },
@@ -12605,6 +12613,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
+          "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
+        },
+        {
           "ja": "ブラジルにとっては、少し危ない始まりでした。",
           "en": "For Brazil, it was a slightly dangerous start."
         },
@@ -12619,10 +12631,6 @@
         {
           "ja": "細かい水を空気に出して、少しでも涼しくすることが目的です。",
           "en": "The goal is to spray fine water into the air and make the area a little cooler."
-        },
-        {
-          "ja": "消費者からは、毎日食べるものなので、少しの値上がりでも大きいという声が出ています。",
-          "en": "Consumers say that even small price increases matter because rice is eaten every day."
         }
       ]
     },
@@ -12787,24 +12795,24 @@
           "meaning": "Plain past form of する: to do",
           "exampleSentences": [
             {
+              "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
+              "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
+            },
+            {
+              "ja": "もともとの予定は2年間でしたが、20年以上たった今も科学のために働いています。",
+              "en": "Its mission was originally planned for two years, but more than 20 years later, it is still working for science."
+            },
+            {
+              "ja": "太陽の活動が強くなり、地球の大気が広がったため、予想より強い抵抗を受けて高度が下がりました。",
+              "en": "Stronger solar activity expanded Earth's atmosphere, so the telescope experienced more drag than expected and lost altitude."
+            },
+            {
               "ja": "しかし、イランはイスラエルがレバノン南部から軍を引くことも必要だと話しました。",
               "en": "However, Iran said that Israel must also withdraw its forces from southern Lebanon."
             },
             {
               "ja": "G7の首脳たちは、この外交の動きを支持すると述べました。",
               "en": "G7 leaders said they support this diplomatic move."
-            },
-            {
-              "ja": "オーストラリアのシドニーにあるクージー・ビーチで、35歳の女性がサメにかまれました。",
-              "en": "At Coogee Beach in Sydney, Australia, a 35-year-old woman was bitten by a shark."
-            },
-            {
-              "ja": "女性は土曜日の朝、岸に近い場所で泳いでいました。",
-              "en": "She was swimming near the shore on Saturday morning."
-            },
-            {
-              "ja": "女性は大けがをして、ヘリコプターで病院へ運ばれました。",
-              "en": "The woman was seriously injured and was taken to a hospital by helicopter."
             }
           ]
         },
@@ -12847,6 +12855,14 @@
           "meaning": "Te-form of する: to do",
           "exampleSentences": [
             {
+              "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
+              "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
+            },
+            {
+              "ja": "そのため、接近してつかむ作業には大きな危険があります。",
+              "en": "Approaching and grabbing it therefore carries major risks."
+            },
+            {
               "ja": "そのため、各国の政府や企業は、この合意が実行されるかどうかを注意して見ています。",
               "en": "For that reason, governments and companies are watching carefully to see whether the agreement will be carried out."
             },
@@ -12857,14 +12873,6 @@
             {
               "ja": "女性は大けがをして、ヘリコプターで病院へ運ばれました。",
               "en": "The woman was seriously injured and was taken to a hospital by helicopter."
-            },
-            {
-              "ja": "家族は、救助した人たちや病院のスタッフに深く感謝していると話しました。",
-              "en": "The family said they are deeply grateful to the people who rescued her and to the hospital staff."
-            },
-            {
-              "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
-              "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
             }
           ]
         },
@@ -13875,24 +13883,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "このままでは、2026年内に大気圏へ入り、燃えてしまう可能性があります。",
+          "en": "If nothing changes, it may enter the atmosphere and burn up by the end of 2026."
+        },
+        {
+          "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
+          "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
+        },
+        {
+          "ja": "もともとの予定は2年間でしたが、20年以上たった今も科学のために働いています。",
+          "en": "Its mission was originally planned for two years, but more than 20 years later, it is still working for science."
+        },
+        {
+          "ja": "それでも成功すれば、スウィフトはさらに5年以上観測を続けられる可能性があります。",
+          "en": "Even so, if the mission succeeds, Swift may be able to continue observing for at least five more years."
+        },
+        {
           "ja": "アメリカのプロバスケットボール、NBAで、ニューヨーク・ニックスが2026年の王者になりました。",
           "en": "In the NBA, America's professional basketball league, the New York Knicks became the 2026 champions."
-        },
-        {
-          "ja": "ニックスはファイナルでサンアントニオ・スパーズに4勝1敗で勝ち、1973年以来の優勝を決めました。",
-          "en": "The Knicks beat the San Antonio Spurs 4-1 in the Finals and won their first championship since 1973."
-        },
-        {
-          "ja": "長い間苦しんだチームとファンにとって、今年の優勝は特別な出来事になりました。",
-          "en": "For a team and fan base that struggled for a long time, this year's title became a special event."
-        },
-        {
-          "ja": "スイスで2026年6月14日、国民投票が行われました。",
-          "en": "On June 14, 2026, Switzerland held a national referendum."
-        },
-        {
-          "ja": "争点の一つは、国の人口を2050年まで1000万人までに抑える提案でした。",
-          "en": "One issue was a proposal to keep the country's population at no more than 10 million by 2050."
         }
       ]
     },
@@ -14571,6 +14579,10 @@
           "meaning": "Plain past form of 作る: to make, to produce",
           "exampleSentences": [
             {
+              "ja": "そこでNASAは、アメリカの会社カタリスト・スペースが作った「リンク」という宇宙船を送ります。",
+              "en": "NASA will therefore send a spacecraft called Link, built by the American company Katalyst Space."
+            },
+            {
               "ja": "自分たちで作った電気を使えば、費用をおさえるだけでなく、環境への負担も減らせます。",
               "en": "Using electricity they generate themselves can reduce both costs and environmental impact."
             },
@@ -14585,10 +14597,6 @@
             {
               "ja": "一方で、海水温の変化や人手不足のため、のりを作る現場では苦労もあります。",
               "en": "At the same time, producers face difficulties because of changes in seawater temperature and labor shortages."
-            },
-            {
-              "ja": "ある高校では、AIを使って文章の案を作ることは認めていますが、そのまま提出することは禁止しています。",
-              "en": "At one high school, students are allowed to use AI to draft writing, but submitting it as-is is prohibited."
             }
           ]
         },
@@ -14793,6 +14801,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
+          "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
+        },
+        {
+          "ja": "太陽の活動が強くなり、地球の大気が広がったため、予想より強い抵抗を受けて高度が下がりました。",
+          "en": "Stronger solar activity expanded Earth's atmosphere, so the telescope experienced more drag than expected and lost altitude."
+        },
+        {
           "ja": "ただ、イスラエルやイラン、アメリカの国内には強い反対もあります。",
           "en": "However, there is also strong opposition in Israel, Iran, and the United States."
         },
@@ -14803,14 +14819,6 @@
         {
           "ja": "今回の引き分けで、今年も強い相手になりそうだと感じさせました。",
           "en": "This draw made people feel that Morocco may again be a strong opponent this year."
-        },
-        {
-          "ja": "台風6号は3日、強い風と激しい雨を伴って日本列島を進みました。",
-          "en": "On the 3rd, Typhoon No. 6 moved across Japan with strong winds and heavy rain. Power outages, flooding, and fallen trees were reported in many places, and local governments urged residents to evacuate early."
-        },
-        {
-          "ja": "買収を成功させるために、より強い条件を出したとみられています。",
-          "en": "It is seen as a move to present stronger terms and improve their chances of completing the acquisition."
         }
       ]
     },
@@ -14829,24 +14837,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "そのため、ニューヨークの街では、試合の後に大きな歓声が上がりました。",
-          "en": "Because of that, loud cheers rose in New York after the game."
+          "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
+          "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
         },
         {
-          "ja": "アメリカの宇宙企業スペースXは、6月12日に株式市場に上場しました。",
-          "en": "The American space company SpaceX listed on the stock market on June 12."
+          "ja": "もともとの予定は2年間でしたが、20年以上たった今も科学のために働いています。",
+          "en": "Its mission was originally planned for two years, but more than 20 years later, it is still working for science."
         },
         {
-          "ja": "初めの取引では株価が大きく上がり、世界中の投資家が注目しました。",
-          "en": "Its share price rose sharply in early trading, drawing attention from investors around the world."
+          "ja": "しかし、スウィフトには自分で軌道を上げるためのエンジンがありません。",
+          "en": "However, Swift has no engine for raising its own orbit."
         },
         {
-          "ja": "もし上場後に株価が下がれば、証券会社は市場で株を買い戻します。",
-          "en": "If the share price falls after listing, the securities firms buy shares back in the market."
+          "ja": "リンクは6月27日に打ち上げられる予定で、3本のロボットアームでスウィフトをつかみ、より高く安全な軌道へ運びます。",
+          "en": "Link is scheduled to launch on June 27, grab Swift with three robotic arms, and move it to a higher, safer orbit."
         },
         {
-          "ja": "スペースXのように注目度が高い会社では、上場直後の値動きが激しくなりやすいです。",
-          "en": "For a highly watched company like SpaceX, price movements just after listing can easily become intense."
+          "ja": "それでも成功すれば、スウィフトはさらに5年以上観測を続けられる可能性があります。",
+          "en": "Even so, if the mission succeeds, Swift may be able to continue observing for at least five more years."
         }
       ]
     },
@@ -16941,6 +16949,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "リンクは6月27日に打ち上げられる予定で、3本のロボットアームでスウィフトをつかみ、より高く安全な軌道へ運びます。",
+          "en": "Link is scheduled to launch on June 27, grab Swift with three robotic arms, and move it to a higher, safer orbit."
+        },
+        {
           "ja": "この事故の後、安全対策について議論が起きました。",
           "en": "After the incident, a debate began about safety measures."
         },
@@ -16955,10 +16967,6 @@
         {
           "ja": "釣りや海での作業をする人は、新しい情報を確認し、安全な場所で待つようにしましょう。",
           "en": "People who fish or work at sea should check the latest information and wait in a safe place."
-        },
-        {
-          "ja": "自動車メーカーの一部は、従業員の安全や部品輸送への影響を考慮して、工場の操業を一時停止しました。",
-          "en": "Some automakers temporarily stopped factory operations after considering worker safety and impacts on parts transport."
         }
       ]
     },
@@ -18332,6 +18340,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そこでNASAは、アメリカの会社カタリスト・スペースが作った「リンク」という宇宙船を送ります。",
+          "en": "NASA will therefore send a spacecraft called Link, built by the American company Katalyst Space."
+        },
+        {
           "ja": "切符の売り場だけでなく、船内の売店でもカードやスマートフォンで払えるようになりました。",
           "en": "Not only ticket counters but also onboard shops now accept cards and smartphones."
         },
@@ -18346,10 +18358,6 @@
         {
           "ja": "港の近くには、水素をためる設備や、船に入れるための装置も用意されました。",
           "en": "Storage equipment and fueling devices have also been prepared near the port."
-        },
-        {
-          "ja": "関係者は、将来は貨物船や作業船にもこの技術を広げたいと話しています。",
-          "en": "The people involved say they want to expand this technology to cargo ships and work boats in the future."
         }
       ]
     },
@@ -18987,6 +18995,10 @@
           "meaning": "Polite form of 運ぶ: to carry, to transport",
           "exampleSentences": [
             {
+              "ja": "リンクは6月27日に打ち上げられる予定で、3本のロボットアームでスウィフトをつかみ、より高く安全な軌道へ運びます。",
+              "en": "Link is scheduled to launch on June 27, grab Swift with three robotic arms, and move it to a higher, safer orbit."
+            },
+            {
               "ja": "また、ドローンで薬や水を運ぶ想定の訓練もありました。",
               "en": "There were also drills assuming drones would carry medicine and water."
             },
@@ -19389,7 +19401,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
+          "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
+        }
+      ]
     },
     {
       "id": "core-9e8cae08dfda50",
@@ -20084,6 +20101,14 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "もともとの予定は2年間でしたが、20年以上たった今も科学のために働いています。",
+          "en": "Its mission was originally planned for two years, but more than 20 years later, it is still working for science."
+        },
+        {
+          "ja": "それでも成功すれば、スウィフトはさらに5年以上観測を続けられる可能性があります。",
+          "en": "Even so, if the mission succeeds, Swift may be able to continue observing for at least five more years."
+        },
         {
           "ja": "ロイターの記事では、ブレント原油の先物価格が3ドル以上上がり、1バレル104.",
           "en": "The Reuters article said that Brent crude futures rose more than 3 dollars to 104."
@@ -20890,6 +20915,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "もともとの予定は2年間でしたが、20年以上たった今も科学のために働いています。",
+          "en": "Its mission was originally planned for two years, but more than 20 years later, it is still working for science."
+        },
+        {
           "ja": "文部科学省は、学校ごとの状況にあわせて柔軟に運用できる指針を示したい考えです。",
           "en": "The education ministry wants to present guidelines that schools can apply flexibly according to their situations."
         }
@@ -20908,7 +20937,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
+          "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
+        }
+      ]
     },
     {
       "id": "core-96aa8c29c78f5d",
@@ -21397,6 +21431,10 @@
           "meaning": "Te-form of 考える: to think about",
           "exampleSentences": [
             {
+              "ja": "リンクはわずか9か月で開発され、スウィフトは修理されることを考えて作られていません。",
+              "en": "Link was developed in only nine months, and Swift was not designed to be serviced."
+            },
+            {
               "ja": "専門家は、クマの数が増えたことや、地方で人が少なくなったことが原因の一つだと考えています。",
               "en": "Experts think one reason is that bear numbers have grown while rural populations have shrunk."
             },
@@ -21411,10 +21449,6 @@
             {
               "ja": "両国は、難しい国際情勢の中で、協力を弱めないことが重要だと考えています。",
               "en": "Both sides believe it is important not to weaken cooperation amid difficult international conditions."
-            },
-            {
-              "ja": "comのデータやサービスが大切だと考えています。",
-              "en": "LY believes Kakaku.com’s data and services are important in the AI era. It appears to want Kakaku.com in its group so it can use AI more in search, recommendation functions, and advertising."
             }
           ]
         },
@@ -22271,6 +22305,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "このままでは、2026年内に大気圏へ入り、燃えてしまう可能性があります。",
+          "en": "If nothing changes, it may enter the atmosphere and burn up by the end of 2026."
+        },
+        {
+          "ja": "太陽の活動が強くなり、地球の大気が広がったため、予想より強い抵抗を受けて高度が下がりました。",
+          "en": "Stronger solar activity expanded Earth's atmosphere, so the telescope experienced more drag than expected and lost altitude."
+        },
+        {
           "ja": "グリーンシューは、投資家の熱気と市場の不安の間で、値段を落ち着かせるための道具だと考えるとわかりやすいです。",
           "en": "It is easiest to think of a greenshoe as a tool for calming the price between investor excitement and market anxiety."
         },
@@ -22281,14 +22323,6 @@
         {
           "ja": "頭が痛い、気分が悪いなどの症状がある時は、すぐに涼しい場所へ移動することが大切です。",
           "en": "If symptoms such as a headache or feeling unwell appear, it is important to move to a cool place right away."
-        },
-        {
-          "ja": "気象庁は8日、日本の太平洋側の広い地域に津波注意報を出しました。",
-          "en": "On the 8th, the Japan Meteorological Agency issued a tsunami advisory for a wide area along Japan’s Pacific coast."
-        },
-        {
-          "ja": "気象庁は、最大1メートルの津波が来る可能性があると発表しました。",
-          "en": "The agency announced that waves of up to one meter could arrive."
         }
       ]
     },
@@ -22356,6 +22390,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "そのため、接近してつかむ作業には大きな危険があります。",
+          "en": "Approaching and grabbing it therefore carries major risks."
+        },
         {
           "ja": "アプリは気温や湿度を見て、危険が高い時に知らせます。",
           "en": "The apps check temperature and humidity and send alerts when the danger is high."
@@ -24115,6 +24153,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
+          "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
+        },
+        {
           "ja": "駅の周りでは、列車の到着にあわせて土産店やカフェが営業を広げています。",
           "en": "Around the stations, souvenir shops and cafes are extending business hours to match the train’s arrivals."
         }
@@ -24133,7 +24175,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
+          "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "godan",
       "verbForms": [
@@ -24144,7 +24191,12 @@
           "term": "回ります",
           "readingHiragana": "まわります",
           "meaning": "Polite form of 回る: to turn, to revolve",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
+              "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
+            }
+          ]
         },
         {
           "form": "past",
@@ -24153,7 +24205,12 @@
           "term": "回った",
           "readingHiragana": "まわった",
           "meaning": "Plain past form of 回る: to turn, to revolve",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
+              "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -24162,7 +24219,12 @@
           "term": "回らない",
           "readingHiragana": "まわらない",
           "meaning": "Plain negative form of 回る: to turn, to revolve",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
+              "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
+            }
+          ]
         },
         {
           "form": "te",
@@ -24171,7 +24233,12 @@
           "term": "回って",
           "readingHiragana": "まわって",
           "meaning": "Te-form of 回る: to turn, to revolve",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
+              "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -24180,7 +24247,12 @@
           "term": "回れる",
           "readingHiragana": "まわれる",
           "meaning": "Potential form of 回る: to turn, to revolve",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
+              "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
+            }
+          ]
         }
       ]
     },
@@ -26486,7 +26558,12 @@
           "term": "落ちて",
           "readingHiragana": "おちて",
           "meaning": "Te-form of 落ちる: to fall down, to drop",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
+              "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -27043,6 +27120,10 @@
           "readingHiragana": "おくります",
           "meaning": "Polite form of 送る: to send, to dispatch",
           "exampleSentences": [
+            {
+              "ja": "そこでNASAは、アメリカの会社カタリスト・スペースが作った「リンク」という宇宙船を送ります。",
+              "en": "NASA will therefore send a spacecraft called Link, built by the American company Katalyst Space."
+            },
             {
               "ja": "管理者は、同じ内容を働く人や生徒にすぐ送ることができます。",
               "en": "Managers can quickly send the same information to workers or students."
@@ -29735,7 +29816,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "それでも成功すれば、スウィフトはさらに5年以上観測を続けられる可能性があります。",
+          "en": "Even so, if the mission succeeds, Swift may be able to continue observing for at least five more years."
+        }
+      ]
     },
     {
       "id": "core-1ed33e5f4f5407",
@@ -31705,6 +31791,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "リンクは6月27日に打ち上げられる予定で、3本のロボットアームでスウィフトをつかみ、より高く安全な軌道へ運びます。",
+          "en": "Link is scheduled to launch on June 27, grab Swift with three robotic arms, and move it to a higher, safer orbit."
+        },
+        {
+          "ja": "リンクはわずか9か月で開発され、スウィフトは修理されることを考えて作られていません。",
+          "en": "Link was developed in only nine months, and Swift was not designed to be serviced."
+        },
+        {
           "ja": "スイスで2026年6月14日、国民投票が行われました。",
           "en": "On June 14, 2026, Switzerland held a national referendum."
         },
@@ -31715,14 +31809,6 @@
         {
           "ja": "アメリカの宇宙企業スペースXは、6月12日に株式市場に上場しました。",
           "en": "The American space company SpaceX listed on the stock market on June 12."
-        },
-        {
-          "ja": "町は3か月の実験で、利用した人数や運行にかかる費用を調べます。",
-          "en": "During the three-month trial, the town will study the number of users and the cost of operating the buses."
-        },
-        {
-          "ja": "5月15日、高市首相は、アメリカのトランプ大統領と会談し、日本とアメリカの同盟がとても重要だとあらためて確認したと話しました。",
-          "en": "On May 15, Prime Minister Takaichi said she met with U.S. President Trump and reconfirmed that the Japan-U.S. alliance is very important."
         }
       ]
     },
@@ -32226,6 +32312,10 @@
           "meaning": "Potential form of 続ける: to continue, to keep up",
           "exampleSentences": [
             {
+              "ja": "それでも成功すれば、スウィフトはさらに5年以上観測を続けられる可能性があります。",
+              "en": "Even so, if the mission succeeds, Swift may be able to continue observing for at least five more years."
+            },
+            {
               "ja": "企業には、災害後も重要な業務を続けるための事業継続計画を作ることが求められます。",
               "en": "Companies will be asked to prepare business continuity plans so they can keep important operations running after a disaster."
             },
@@ -32604,6 +32694,10 @@
           "readingHiragana": "うけて",
           "meaning": "Te-form of 受ける: to receive, to get",
           "exampleSentences": [
+            {
+              "ja": "太陽の活動が強くなり、地球の大気が広がったため、予想より強い抵抗を受けて高度が下がりました。",
+              "en": "Stronger solar activity expanded Earth's atmosphere, so the telescope experienced more drag than expected and lost altitude."
+            },
             {
               "ja": "2月には、民間の会社からも1600億円くらいの投資を受けています。",
               "en": "In February, it also received about 160 billion yen in investment from private companies."
@@ -34114,6 +34208,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "もともとの予定は2年間でしたが、20年以上たった今も科学のために働いています。",
+          "en": "Its mission was originally planned for two years, but more than 20 years later, it is still working for science."
+        },
+        {
+          "ja": "リンクは6月27日に打ち上げられる予定で、3本のロボットアームでスウィフトをつかみ、より高く安全な軌道へ運びます。",
+          "en": "Link is scheduled to launch on June 27, grab Swift with three robotic arms, and move it to a higher, safer orbit."
+        },
+        {
           "ja": "ニューヨークでは、優勝パレードも予定されています。",
           "en": "A championship parade is also planned in New York."
         },
@@ -34124,14 +34226,6 @@
         {
           "ja": "結果がよければ、来年から正式なサービスにする予定です。",
           "en": "If the results are good, it plans to make the service official next year."
-        },
-        {
-          "ja": "通勤や出張の予定を変更する人が多く、駅や空港では最新情報を確認する姿が目立ちました。",
-          "en": "Many people changed commuting or business-trip plans, while stations and airports were filled with travelers checking the latest information."
-        },
-        {
-          "ja": "こどもの本や日本語学習の資料への案内にも活用する予定です。",
-          "en": "They also plan to use them to guide people to children’s books and Japanese-learning materials."
         }
       ]
     },
@@ -36051,7 +36145,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
+          "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
+        }
+      ]
     },
     {
       "id": "core-dad6744906651c",
@@ -36465,6 +36564,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "しかし、スウィフトには自分で軌道を上げるためのエンジンがありません。",
+          "en": "However, Swift has no engine for raising its own orbit."
+        },
+        {
           "ja": "医療、金融、技術などの分野では、外国から来た働く人が重要です。",
           "en": "In fields such as healthcare, finance, and technology, workers from other countries are important."
         },
@@ -36479,10 +36582,6 @@
         {
           "ja": "通知には、水分をとること、休憩すること、外での活動を短くすることなどが書かれています。",
           "en": "The notifications include messages about drinking water, taking breaks, and shortening outdoor activities."
-        },
-        {
-          "ja": "専門家は、アプリだけに頼らず、自分の体調にも注意してほしいと話しています。",
-          "en": "Experts say people should not rely only on apps and should also pay attention to their own physical condition."
         }
       ]
     },
@@ -37005,7 +37104,16 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
+          "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
+        },
+        {
+          "ja": "太陽の活動が強くなり、地球の大気が広がったため、予想より強い抵抗を受けて高度が下がりました。",
+          "en": "Stronger solar activity expanded Earth's atmosphere, so the telescope experienced more drag than expected and lost altitude."
+        }
+      ]
     },
     {
       "id": "core-440cabc26a032e",
@@ -37943,6 +38051,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "太陽の活動が強くなり、地球の大気が広がったため、予想より強い抵抗を受けて高度が下がりました。",
+          "en": "Stronger solar activity expanded Earth's atmosphere, so the telescope experienced more drag than expected and lost altitude."
+        },
+        {
           "ja": "ヴィニシウスは狭い角度からシュートを決め、ブラジルの応援席を安心させました。",
           "en": "Vinicius scored from a tight angle, calming the Brazil supporters."
         },
@@ -37957,10 +38069,6 @@
         {
           "ja": "アプリは気温や湿度を見て、危険が高い時に知らせます。",
           "en": "The apps check temperature and humidity and send alerts when the danger is high."
-        },
-        {
-          "ja": "温室の中では、温度や水の管理を自動でできるようにする予定です。",
-          "en": "Inside the greenhouse, temperature and water management will be automated."
         }
       ]
     },
@@ -39734,6 +39842,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "もともとの予定は2年間でしたが、20年以上たった今も科学のために働いています。",
+          "en": "Its mission was originally planned for two years, but more than 20 years later, it is still working for science."
+        },
+        {
           "ja": "栃木県の宇都宮市では、クマが公園や学校、図書館の近くに出て、多くの人を怖がらせました。",
           "en": "In Utsunomiya, Tochigi Prefecture, a bear appeared near parks, schools, and a library, frightening many people."
         },
@@ -39748,10 +39860,6 @@
         {
           "ja": "クマは公園や学校、図書館の近くでも見つかりました。",
           "en": "The bear was seen near a park, schools, and a library."
-        },
-        {
-          "ja": "安全のために、市立の学校は二日間休みになりました。",
-          "en": "For safety, city-run schools were closed for two days."
         }
       ]
     },
@@ -42632,7 +42740,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
+          "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
+        }
+      ]
     },
     {
       "id": "core-6a62c298fec0fd",
@@ -42938,6 +43051,10 @@
           "readingHiragana": "ひろがった",
           "meaning": "Plain past form of 広がる: to spread out, to extend",
           "exampleSentences": [
+            {
+              "ja": "太陽の活動が強くなり、地球の大気が広がったため、予想より強い抵抗を受けて高度が下がりました。",
+              "en": "Stronger solar activity expanded Earth's atmosphere, so the telescope experienced more drag than expected and lost altitude."
+            },
             {
               "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
               "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
@@ -46805,6 +46922,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そこでNASAは、アメリカの会社カタリスト・スペースが作った「リンク」という宇宙船を送ります。",
+          "en": "NASA will therefore send a spacecraft called Link, built by the American company Katalyst Space."
+        },
+        {
           "ja": "政府や議会、経済団体も反対しました。",
           "en": "The government, parliament, and business groups also opposed the proposal."
         },
@@ -46819,10 +46940,6 @@
         {
           "ja": "モロッコは2022年の大会でベスト4まで進んだチームです。",
           "en": "Morocco reached the semifinals in the 2022 tournament."
-        },
-        {
-          "ja": "IPOでは、証券会社が会社の株を投資家に売ります。",
-          "en": "In an IPO, securities firms sell a company’s shares to investors."
         }
       ]
     },
@@ -46841,6 +46958,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
+          "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
+        },
+        {
           "ja": "今回の結果は、移民への不安と、EUとの結びつきを守りたい考えが、スイス社会でぶつかっていることを示しました。",
           "en": "\" The result showed that anxiety about immigration and the wish to protect ties with the EU are clashing in Swiss society."
         },
@@ -46855,10 +46976,6 @@
         {
           "ja": "今回の実験がうまくいけば、ほかの港でも同じような取り組みが始まるかもしれません。",
           "en": "If this test goes well, similar efforts may begin at other ports too."
-        },
-        {
-          "ja": "今回の対策では、肥料や燃料の費用が高くなった地域に、より多くの補助金を出します。",
-          "en": "Under the new plan, areas where fertilizer and fuel costs have become high will receive more subsidies."
         }
       ]
     },
@@ -48228,24 +48345,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "そのため、ニューヨークの街では、試合の後に大きな歓声が上がりました。",
-          "en": "Because of that, loud cheers rose in New York after the game."
+          "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
+          "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
         },
         {
-          "ja": "アメリカの宇宙企業スペースXは、6月12日に株式市場に上場しました。",
-          "en": "The American space company SpaceX listed on the stock market on June 12."
+          "ja": "もともとの予定は2年間でしたが、20年以上たった今も科学のために働いています。",
+          "en": "Its mission was originally planned for two years, but more than 20 years later, it is still working for science."
         },
         {
-          "ja": "初めの取引では株価が大きく上がり、世界中の投資家が注目しました。",
-          "en": "Its share price rose sharply in early trading, drawing attention from investors around the world."
+          "ja": "しかし、スウィフトには自分で軌道を上げるためのエンジンがありません。",
+          "en": "However, Swift has no engine for raising its own orbit."
         },
         {
-          "ja": "もし上場後に株価が下がれば、証券会社は市場で株を買い戻します。",
-          "en": "If the share price falls after listing, the securities firms buy shares back in the market."
+          "ja": "リンクは6月27日に打ち上げられる予定で、3本のロボットアームでスウィフトをつかみ、より高く安全な軌道へ運びます。",
+          "en": "Link is scheduled to launch on June 27, grab Swift with three robotic arms, and move it to a higher, safer orbit."
         },
         {
-          "ja": "スペースXのように注目度が高い会社では、上場直後の値動きが激しくなりやすいです。",
-          "en": "For a highly watched company like SpaceX, price movements just after listing can easily become intense."
+          "ja": "それでも成功すれば、スウィフトはさらに5年以上観測を続けられる可能性があります。",
+          "en": "Even so, if the mission succeeds, Swift may be able to continue observing for at least five more years."
         }
       ]
     },
@@ -48499,6 +48616,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "リンクはわずか9か月で開発され、スウィフトは修理されることを考えて作られていません。",
+          "en": "Link was developed in only nine months, and Swift was not designed to be serviced."
+        },
+        {
           "ja": "今回の結果は、移民への不安と、EUとの結びつきを守りたい考えが、スイス社会でぶつかっていることを示しました。",
           "en": "\" The result showed that anxiety about immigration and the wish to protect ties with the EU are clashing in Swiss society."
         },
@@ -48513,10 +48634,6 @@
         {
           "ja": "そのため、必要な時だけ走る仕組みにして、運転手や燃料の負担を減らしたい考えです。",
           "en": "The town wants to reduce the burden on drivers and fuel use by running buses only when needed."
-        },
-        {
-          "ja": "図書館では、観光客だけでなく、地域で生活する外国人にも役立つと考えています。",
-          "en": "Libraries believe the tablets will help not only tourists but also foreign residents in the community."
         }
       ]
     },
@@ -48836,6 +48953,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "このままでは、2026年内に大気圏へ入り、燃えてしまう可能性があります。",
+          "en": "If nothing changes, it may enter the atmosphere and burn up by the end of 2026."
+        },
+        {
+          "ja": "それでも成功すれば、スウィフトはさらに5年以上観測を続けられる可能性があります。",
+          "en": "Even so, if the mission succeeds, Swift may be able to continue observing for at least five more years."
+        },
+        {
           "ja": "アメリカは制裁を一部緩める可能性がありますが、詳しい内容はまだはっきりしていません。",
           "en": "The United States may ease some sanctions, but the details are still not clear."
         },
@@ -48846,14 +48971,6 @@
         {
           "ja": "気象庁は、最大1メートルの津波が来る可能性があると発表しました。",
           "en": "The agency announced that waves of up to one meter could arrive."
-        },
-        {
-          "ja": "昨年の被害想定では、最悪の場合、およそ1万8000人が亡くなり、約40万棟の建物が壊れたり焼けたりする可能性が示されました。",
-          "en": "Last year's damage estimate showed that in the worst case about 18,000 people could die and around 400,000 buildings could collapse or burn."
-        },
-        {
-          "ja": "専門家は、交通の施設で再生可能エネルギーを使うことは、地域の意識を変えるきっかけにもなるとみています。",
-          "en": "Experts say using renewable energy at transportation facilities can also change local awareness."
         }
       ]
     },
@@ -49853,6 +49970,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "太陽の活動が強くなり、地球の大気が広がったため、予想より強い抵抗を受けて高度が下がりました。",
+          "en": "Stronger solar activity expanded Earth's atmosphere, so the telescope experienced more drag than expected and lost altitude."
+        },
+        {
           "ja": "G7の首脳たちは、この外交の動きを支持すると述べました。",
           "en": "G7 leaders said they support this diplomatic move."
         },
@@ -49867,10 +49988,6 @@
         {
           "ja": "スペースXのように注目度が高い会社では、上場直後の値動きが激しくなりやすいです。",
           "en": "For a highly watched company like SpaceX, price movements just after listing can easily become intense."
-        },
-        {
-          "ja": "通知には、水分をとること、休憩すること、外での活動を短くすることなどが書かれています。",
-          "en": "The notifications include messages about drinking water, taking breaks, and shortening outdoor activities."
         }
       ]
     },
@@ -57266,7 +57383,12 @@
           "term": "燃えて",
           "readingHiragana": "もえて",
           "meaning": "Te-form of 燃える: to burn, to get fired up",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "このままでは、2026年内に大気圏へ入り、燃えてしまう可能性があります。",
+              "en": "If nothing changes, it may enter the atmosphere and burn up by the end of 2026."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -59181,7 +59303,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "もともとの予定は2年間でしたが、20年以上たった今も科学のために働いています。",
+          "en": "Its mission was originally planned for two years, but more than 20 years later, it is still working for science."
+        }
+      ]
     },
     {
       "id": "core-bb79d2de637493",
@@ -59988,6 +60115,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "このままでは、2026年内に大気圏へ入り、燃えてしまう可能性があります。",
+          "en": "If nothing changes, it may enter the atmosphere and burn up by the end of 2026."
+        },
+        {
+          "ja": "それでも成功すれば、スウィフトはさらに5年以上観測を続けられる可能性があります。",
+          "en": "Even so, if the mission succeeds, Swift may be able to continue observing for at least five more years."
+        },
+        {
           "ja": "アメリカは制裁を一部緩める可能性がありますが、詳しい内容はまだはっきりしていません。",
           "en": "The United States may ease some sanctions, but the details are still not clear."
         },
@@ -59998,14 +60133,6 @@
         {
           "ja": "気象庁は、最大1メートルの津波が来る可能性があると発表しました。",
           "en": "The agency announced that waves of up to one meter could arrive."
-        },
-        {
-          "ja": "昨年の被害想定では、最悪の場合、およそ1万8000人が亡くなり、約40万棟の建物が壊れたり焼けたりする可能性が示されました。",
-          "en": "Last year's damage estimate showed that in the worst case about 18,000 people could die and around 400,000 buildings could collapse or burn."
-        },
-        {
-          "ja": "人口や機能が集中する首都圏では、交通や物流の混乱も深刻になるとみられています。",
-          "en": "In the Tokyo metropolitan area, where people and key functions are concentrated, disruption to transport and logistics is also expected to be severe."
         }
       ]
     },
@@ -60766,7 +60893,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
+          "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "godan",
       "verbForms": [
@@ -60777,7 +60909,12 @@
           "term": "起こります",
           "readingHiragana": "おこります",
           "meaning": "Polite form of 起こる: to occur, to happen",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
+              "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
+            }
+          ]
         },
         {
           "form": "past",
@@ -60786,7 +60923,12 @@
           "term": "起こった",
           "readingHiragana": "おこった",
           "meaning": "Plain past form of 起こる: to occur, to happen",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
+              "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -60795,7 +60937,12 @@
           "term": "起こらない",
           "readingHiragana": "おこらない",
           "meaning": "Plain negative form of 起こる: to occur, to happen",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
+              "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
+            }
+          ]
         },
         {
           "form": "te",
@@ -60804,7 +60951,12 @@
           "term": "起こって",
           "readingHiragana": "おこって",
           "meaning": "Te-form of 起こる: to occur, to happen",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
+              "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -60813,7 +60965,12 @@
           "term": "起これる",
           "readingHiragana": "おこれる",
           "meaning": "Potential form of 起こる: to occur, to happen",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
+              "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
+            }
+          ]
         }
       ]
     },
@@ -62849,6 +63006,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そのため、接近してつかむ作業には大きな危険があります。",
+          "en": "Approaching and grabbing it therefore carries major risks."
+        },
+        {
           "ja": "建設現場では、作業を始める前にアプリの情報を確認しています。",
           "en": "At construction sites, workers check the app's information before starting work."
         },
@@ -64083,6 +64244,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "このままでは、2026年内に大気圏へ入り、燃えてしまう可能性があります。",
+          "en": "If nothing changes, it may enter the atmosphere and burn up by the end of 2026."
+        },
+        {
+          "ja": "それでも成功すれば、スウィフトはさらに5年以上観測を続けられる可能性があります。",
+          "en": "Even so, if the mission succeeds, Swift may be able to continue observing for at least five more years."
+        },
+        {
           "ja": "アメリカは制裁を一部緩める可能性がありますが、詳しい内容はまだはっきりしていません。",
           "en": "The United States may ease some sanctions, but the details are still not clear."
         },
@@ -64093,14 +64262,6 @@
         {
           "ja": "女性は土曜日の朝、岸に近い場所で泳いでいました。",
           "en": "She was swimming near the shore on Saturday morning."
-        },
-        {
-          "ja": "女性は大けがをして、ヘリコプターで病院へ運ばれました。",
-          "en": "The woman was seriously injured and was taken to a hospital by helicopter."
-        },
-        {
-          "ja": "近くにいた24歳のライフセーバーが、海へ入って女性をボードに乗せました。",
-          "en": "A 24-year-old lifesaver nearby entered the water and put the woman on a board."
         }
       ]
     },
@@ -64424,6 +64585,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "それでも成功すれば、スウィフトはさらに5年以上観測を続けられる可能性があります。",
+          "en": "Even so, if the mission succeeds, Swift may be able to continue observing for at least five more years."
+        },
         {
           "ja": "買収を成功させるために、より強い条件を出したとみられています。",
           "en": "It is seen as a move to present stronger terms and improve their chances of completing the acquisition."
@@ -68096,7 +68261,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "リンクはわずか9か月で開発され、スウィフトは修理されることを考えて作られていません。",
+          "en": "Link was developed in only nine months, and Swift was not designed to be serviced."
+        }
+      ]
     },
     {
       "id": "core-d31c0f68c11219",
@@ -69738,7 +69908,16 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "このままでは、2026年内に大気圏へ入り、燃えてしまう可能性があります。",
+          "en": "If nothing changes, it may enter the atmosphere and burn up by the end of 2026."
+        },
+        {
+          "ja": "太陽の活動が強くなり、地球の大気が広がったため、予想より強い抵抗を受けて高度が下がりました。",
+          "en": "Stronger solar activity expanded Earth's atmosphere, so the telescope experienced more drag than expected and lost altitude."
+        }
+      ]
     },
     {
       "id": "core-b944aa994617d0",
@@ -70010,6 +70189,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "太陽の活動が強くなり、地球の大気が広がったため、予想より強い抵抗を受けて高度が下がりました。",
+          "en": "Stronger solar activity expanded Earth's atmosphere, so the telescope experienced more drag than expected and lost altitude."
+        },
         {
           "ja": "鉄道会社が、駅の屋根に太陽光パネルを置く計画を広げています。",
           "en": "A railway company is expanding plans to install solar panels on station roofs."
@@ -71293,7 +71476,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "太陽の活動が強くなり、地球の大気が広がったため、予想より強い抵抗を受けて高度が下がりました。",
+          "en": "Stronger solar activity expanded Earth's atmosphere, so the telescope experienced more drag than expected and lost altitude."
+        }
+      ]
     },
     {
       "id": "core-1ff4610cf63036",
@@ -73348,7 +73536,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
+          "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
+        }
+      ]
     },
     {
       "id": "core-e9feaa68bf6c61",
@@ -73830,6 +74023,18 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
+          "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
+        },
+        {
+          "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
+          "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
+        },
+        {
+          "ja": "そこでNASAは、アメリカの会社カタリスト・スペースが作った「リンク」という宇宙船を送ります。",
+          "en": "NASA will therefore send a spacecraft called Link, built by the American company Katalyst Space."
+        },
+        {
           "ja": "アメリカの宇宙企業スペースXは、6月12日に株式市場に上場しました。",
           "en": "The American space company SpaceX listed on the stock market on June 12."
         }
@@ -74299,6 +74504,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "リンクは6月27日に打ち上げられる予定で、3本のロボットアームでスウィフトをつかみ、より高く安全な軌道へ運びます。",
+          "en": "Link is scheduled to launch on June 27, grab Swift with three robotic arms, and move it to a higher, safer orbit."
+        },
+        {
           "ja": "女性は大けがをして、ヘリコプターで病院へ運ばれました。",
           "en": "The woman was seriously injured and was taken to a hospital by helicopter."
         },
@@ -74313,10 +74522,6 @@
         {
           "ja": "航空会社は国内線と国際線を含む多くの便を欠航にし、新幹線や在来線にも遅れや運休が出ました。",
           "en": "Airlines canceled many domestic and international flights, and bullet trains and local rail services also saw delays and suspensions."
-        },
-        {
-          "ja": "交通機関を利用する際は、運行状況を確認し、無理な移動を避けることが大切です。",
-          "en": "When using transportation, it is important to check service status and avoid unnecessary travel."
         }
       ]
     },
@@ -76238,7 +76443,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "太陽の活動が強くなり、地球の大気が広がったため、予想より強い抵抗を受けて高度が下がりました。",
+          "en": "Stronger solar activity expanded Earth's atmosphere, so the telescope experienced more drag than expected and lost altitude."
+        }
+      ]
     },
     {
       "id": "core-b20fa30d3a1b47",
@@ -77465,6 +77675,218 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": []
+    },
+    {
+      "id": "article-671efac4fde0b5",
+      "level": "N3",
+      "term": "宇宙望遠鏡",
+      "reading": "うちゅうぼうえんきょう",
+      "readingHiragana": "うちゅうぼうえんきょう",
+      "meaning": "Space telescope",
+      "source": "article",
+      "sourceId": "2026-06-19-swift-telescope-rescue",
+      "sourceTitle": "落ちてくる宇宙望遠鏡をロボットで救う",
+      "sourceLabel": "6/19 宇宙望遠鏡を救出",
+      "sourceHref": "./2026-06-19-swift-telescope-rescue.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-19-swift-telescope-rescue"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
+          "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
+        }
+      ]
+    },
+    {
+      "id": "article-59352a298d0e68",
+      "level": "N3",
+      "term": "軌道",
+      "reading": "きどう",
+      "readingHiragana": "きどう",
+      "meaning": "Orbit",
+      "source": "article",
+      "sourceId": "2026-06-19-swift-telescope-rescue",
+      "sourceTitle": "落ちてくる宇宙望遠鏡をロボットで救う",
+      "sourceLabel": "6/19 宇宙望遠鏡を救出",
+      "sourceHref": "./2026-06-19-swift-telescope-rescue.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-19-swift-telescope-rescue"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
+          "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
+        },
+        {
+          "ja": "しかし、スウィフトには自分で軌道を上げるためのエンジンがありません。",
+          "en": "However, Swift has no engine for raising its own orbit."
+        },
+        {
+          "ja": "リンクは6月27日に打ち上げられる予定で、3本のロボットアームでスウィフトをつかみ、より高く安全な軌道へ運びます。",
+          "en": "Link is scheduled to launch on June 27, grab Swift with three robotic arms, and move it to a higher, safer orbit."
+        }
+      ]
+    },
+    {
+      "id": "article-f8da95d8a7c760",
+      "level": "N3",
+      "term": "大気圏",
+      "reading": "たいきけん",
+      "readingHiragana": "たいきけん",
+      "meaning": "Atmosphere / Atmospheric region",
+      "source": "article",
+      "sourceId": "2026-06-19-swift-telescope-rescue",
+      "sourceTitle": "落ちてくる宇宙望遠鏡をロボットで救う",
+      "sourceLabel": "6/19 宇宙望遠鏡を救出",
+      "sourceHref": "./2026-06-19-swift-telescope-rescue.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-19-swift-telescope-rescue"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "このままでは、2026年内に大気圏へ入り、燃えてしまう可能性があります。",
+          "en": "If nothing changes, it may enter the atmosphere and burn up by the end of 2026."
+        }
+      ]
+    },
+    {
+      "id": "article-96ea68ea5c6931",
+      "level": "N3",
+      "term": "観測",
+      "reading": "かんそく",
+      "readingHiragana": "かんそく",
+      "meaning": "Observation",
+      "source": "article",
+      "sourceId": "2026-06-19-swift-telescope-rescue",
+      "sourceTitle": "落ちてくる宇宙望遠鏡をロボットで救う",
+      "sourceLabel": "6/19 宇宙望遠鏡を救出",
+      "sourceHref": "./2026-06-19-swift-telescope-rescue.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-19-swift-telescope-rescue"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
+          "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
+        },
+        {
+          "ja": "それでも成功すれば、スウィフトはさらに5年以上観測を続けられる可能性があります。",
+          "en": "Even so, if the mission succeeds, Swift may be able to continue observing for at least five more years."
+        },
+        {
+          "ja": "実際には、沖縄県や宮崎県などで数センチから30センチほどの波が観測されました。",
+          "en": "In reality, waves from several centimeters to about 30 centimeters were observed in places such as Okinawa and Miyazaki prefectures."
+        }
+      ]
+    },
+    {
+      "id": "article-f194e563534282",
+      "level": "N3",
+      "term": "抵抗",
+      "reading": "ていこう",
+      "readingHiragana": "ていこう",
+      "meaning": "Resistance / Drag",
+      "source": "article",
+      "sourceId": "2026-06-19-swift-telescope-rescue",
+      "sourceTitle": "落ちてくる宇宙望遠鏡をロボットで救う",
+      "sourceLabel": "6/19 宇宙望遠鏡を救出",
+      "sourceHref": "./2026-06-19-swift-telescope-rescue.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-19-swift-telescope-rescue"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "太陽の活動が強くなり、地球の大気が広がったため、予想より強い抵抗を受けて高度が下がりました。",
+          "en": "Stronger solar activity expanded Earth's atmosphere, so the telescope experienced more drag than expected and lost altitude."
+        }
+      ]
+    },
+    {
+      "id": "article-3d2693b2c93df1",
+      "level": "N3",
+      "term": "高度",
+      "reading": "こうど",
+      "readingHiragana": "こうど",
+      "meaning": "Altitude",
+      "source": "article",
+      "sourceId": "2026-06-19-swift-telescope-rescue",
+      "sourceTitle": "落ちてくる宇宙望遠鏡をロボットで救う",
+      "sourceLabel": "6/19 宇宙望遠鏡を救出",
+      "sourceHref": "./2026-06-19-swift-telescope-rescue.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-19-swift-telescope-rescue"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "太陽の活動が強くなり、地球の大気が広がったため、予想より強い抵抗を受けて高度が下がりました。",
+          "en": "Stronger solar activity expanded Earth's atmosphere, so the telescope experienced more drag than expected and lost altitude."
+        }
+      ]
+    },
+    {
+      "id": "article-e82b3293c2e850",
+      "level": "N3",
+      "term": "接近",
+      "reading": "せっきん",
+      "readingHiragana": "せっきん",
+      "meaning": "Approach / Drawing near",
+      "source": "article",
+      "sourceId": "2026-06-19-swift-telescope-rescue",
+      "sourceTitle": "落ちてくる宇宙望遠鏡をロボットで救う",
+      "sourceLabel": "6/19 宇宙望遠鏡を救出",
+      "sourceHref": "./2026-06-19-swift-telescope-rescue.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-19-swift-telescope-rescue"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "そのため、接近してつかむ作業には大きな危険があります。",
+          "en": "Approaching and grabbing it therefore carries major risks."
+        }
+      ]
+    },
+    {
+      "id": "article-72dd90dd13d5be",
+      "level": "N3",
+      "term": "開発",
+      "reading": "かいはつ",
+      "readingHiragana": "かいはつ",
+      "meaning": "Development",
+      "source": "article",
+      "sourceId": "2026-06-19-swift-telescope-rescue",
+      "sourceTitle": "落ちてくる宇宙望遠鏡をロボットで救う",
+      "sourceLabel": "6/19 宇宙望遠鏡を救出",
+      "sourceHref": "./2026-06-19-swift-telescope-rescue.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-19-swift-telescope-rescue"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "リンクはわずか9か月で開発され、スウィフトは修理されることを考えて作られていません。",
+          "en": "Link was developed in only nine months, and Swift was not designed to be serviced."
+        },
+        {
+          "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
+          "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
+        },
+        {
+          "ja": "このお金は、研究や開発をもっと早く進めるために使われます。",
+          "en": "This money will be used to speed up research and development."
+        },
+        {
+          "ja": "今回の追加支援で、ラピダスへの研究開発支援は全部で2兆3540億円になりました。",
+          "en": "With this additional support, total research and development support for Rapidus reached 2.354 trillion yen."
+        }
+      ]
     },
     {
       "id": "article-899c3fe1dea2b1",
@@ -79552,6 +79974,14 @@
       ],
       "exampleSentences": [
         {
+          "ja": "このままでは、2026年内に大気圏へ入り、燃えてしまう可能性があります。",
+          "en": "If nothing changes, it may enter the atmosphere and burn up by the end of 2026."
+        },
+        {
+          "ja": "それでも成功すれば、スウィフトはさらに5年以上観測を続けられる可能性があります。",
+          "en": "Even so, if the mission succeeds, Swift may be able to continue observing for at least five more years."
+        },
+        {
           "ja": "アメリカは制裁を一部緩める可能性がありますが、詳しい内容はまだはっきりしていません。",
           "en": "The United States may ease some sanctions, but the details are still not clear."
         },
@@ -79562,10 +79992,6 @@
         {
           "ja": "気象庁は、最大1メートルの津波が来る可能性があると発表しました。",
           "en": "The agency announced that waves of up to one meter could arrive."
-        },
-        {
-          "ja": "昨年の被害想定では、最悪の場合、およそ1万8000人が亡くなり、約40万棟の建物が壊れたり焼けたりする可能性が示されました。",
-          "en": "Last year's damage estimate showed that in the worst case about 18,000 people could die and around 400,000 buildings could collapse or burn."
         }
       ]
     },
@@ -79586,6 +80012,14 @@
         "2026-06-08-tsunami-advisory"
       ],
       "exampleSentences": [
+        {
+          "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
+          "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
+        },
+        {
+          "ja": "それでも成功すれば、スウィフトはさらに5年以上観測を続けられる可能性があります。",
+          "en": "Even so, if the mission succeeds, Swift may be able to continue observing for at least five more years."
+        },
         {
           "ja": "実際には、沖縄県や宮崎県などで数センチから30センチほどの波が観測されました。",
           "en": "In reality, waves from several centimeters to about 30 centimeters were observed in places such as Okinawa and Miyazaki prefectures."

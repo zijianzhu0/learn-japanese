@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>落ちてくる宇宙望遠鏡をロボットで救う</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <link rel="stylesheet" href="./assets/article.css?v=5bbef88afeb1">
+</head>
+<body id="top" data-article-id="2026-06-19-swift-telescope-rescue" data-recording-download-name="2026-06-19-swift-telescope-rescue.mp4">
+<nav class="top-nav" aria-label="Page navigation"></nav>
+<div class="article-shell">
+    <aside class="article-sidebar" aria-label="Article navigation"></aside>
+    <main class="article-main">
+
+<div class="container">
+    <div class="date">2026年6月19日</div>
+    <div class="article-toolbar">
+        <div class="voice-controls">
+            <button class="toolbar-icon-button voice-menu-toggle" type="button" id="voice-menu-toggle" aria-expanded="false" aria-controls="voice-settings-menu" aria-label="Voice settings" data-tooltip="Voice settings">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 10v4"></path>
+                    <path d="M8 7v10"></path>
+                    <path d="M12 4v16"></path>
+                    <path d="M16 7v10"></path>
+                    <path d="M20 10v4"></path>
+                </svg>
+                <span class="icon-label">Voice settings</span>
+            </button>
+            <div class="voice-current-status" id="voice-current-status" aria-live="polite">Docker VOICEVOX</div>
+            <button class="audio-enable-button" type="button" id="enable-docker-audio" hidden>Enable audio</button>
+            <div class="voice-settings-menu" id="voice-settings-menu" hidden>
+                <label class="toolbar-label" for="browser-voice">Browser Voice</label>
+                <select class="voice-select" id="browser-voice" aria-label="Browser voice">
+                    <option value="auto" selected>Google 日本語</option>
+                </select>
+            </div>
+        </div>
+        <div class="article-actions" aria-label="Article actions">
+            <button class="toolbar-icon-button video-button" type="button" id="render-video" aria-label="Render video" data-tooltip="Render video" data-default-label="Render video" data-active-label="Recording">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M5 6h11a2 2 0 0 1 2 2v1l3-2v10l-3-2v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"></path>
+                    <path d="M9 10.5v3l3-1.5z"></path>
+                </svg>
+                <span class="icon-label">Render video</span>
+            </button>
+            <button class="toolbar-icon-button speak-button" type="button" id="speak-japanese-article" aria-label="Read aloud" data-tooltip="Read aloud" data-default-label="Read aloud" data-active-label="Stop reading" data-loading-label="Preparing audio">
+                <svg class="toolbar-svg icon-read" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 10v4h4l5 4V6L8 10z"></path>
+                    <path d="M16 9c1.8 1.8 1.8 4.2 0 6"></path>
+                    <path d="M18.5 6.5c3.3 3.3 3.3 7.7 0 11"></path>
+                </svg>
+                <svg class="toolbar-svg icon-stop" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 8h8v8H8z"></path>
+                </svg>
+                <span class="icon-label">Read aloud</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-japanese-article" aria-label="Copy Japanese article" data-tooltip="Copy Japanese article">
+                <span class="copy-language-icon" aria-hidden="true">あ</span>
+                <span class="icon-label">Copy Japanese article</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-english-translation" aria-label="Copy English translation" data-tooltip="Copy English translation">
+                <span class="copy-language-icon" aria-hidden="true">A</span>
+                <span class="icon-label">Copy English translation</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-bilingual-article" aria-label="Copy Japanese and English article" data-tooltip="Copy Japanese and English article">
+                <span class="copy-language-icon copy-language-icon-wide" aria-hidden="true">あ/A</span>
+                <span class="icon-label">Copy Japanese and English article</span>
+            </button>
+        </div>
+    </div>
+    <div class="copy-status" id="copy-status" aria-live="polite"></div>
+    <audio class="audio-player" id="tts-player" controls hidden preload="none"></audio>
+    <h1><ruby>落<rt>お</rt></ruby>ちてくる<ruby>宇宙望遠鏡<rt>うちゅうぼうえんきょう</rt></ruby>をロボットで<ruby>救<rt>すく</rt></ruby>う</h1>
+    <div class="source-note">2026年6月19日のSpace.comによるNASAのスウィフト救出計画の報道をもとにしたN3レベルの学習用ページです。</div>
+
+
+    <p class="article-paragraph">NASAの<ruby>宇宙望遠鏡<rt>うちゅうぼうえんきょう</rt></ruby>「スウィフト」は、<ruby>地球<rt>ちきゅう</rt></ruby>の<ruby>周<rt>まわ</rt></ruby>りを<ruby>回<rt>まわ</rt></ruby>る<ruby>軌道<rt>きどう</rt></ruby>から<ruby>少<rt>すこ</rt></ruby>しずつ<ruby>落<rt>お</rt></ruby>ちています。このままでは、2026<ruby>年内<rt>ねんない</rt></ruby>に<ruby>大気圏<rt>たいきけん</rt></ruby>へ<ruby>入<rt>はい</rt></ruby>り、<ruby>燃<rt>も</rt></ruby>えてしまう<ruby>可能性<rt>かのうせい</rt></ruby>があります。</p>
+    <div class="sentence-translation">NASA&#x27;s Swift space telescope is gradually falling from its orbit around Earth. If nothing changes, it may enter the atmosphere and burn up by the end of 2026.</div>
+    <p class="article-paragraph">スウィフトは2004<ruby>年<rt>ねん</rt></ruby>に<ruby>打<rt>う</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>げられ、<ruby>宇宙<rt>うちゅう</rt></ruby>で<ruby>起<rt>お</rt></ruby>こる<ruby>非常<rt>ひじょう</rt></ruby>に<ruby>強<rt>つよ</rt></ruby>い<ruby>爆発<rt>ばくはつ</rt></ruby>を<ruby>観測<rt>かんそく</rt></ruby>してきました。もともとの<ruby>予定<rt>よてい</rt></ruby>は2<ruby>年間<rt>ねんかん</rt></ruby>でしたが、20<ruby>年以上<rt>ねんいじょう</rt></ruby>たった<ruby>今<rt>いま</rt></ruby>も<ruby>科学<rt>かがく</rt></ruby>のために<ruby>働<rt>はたら</rt></ruby>いています。</p>
+    <div class="sentence-translation">Swift was launched in 2004 and has observed extremely powerful explosions in space. Its mission was originally planned for two years, but more than 20 years later, it is still working for science.</div>
+    <p class="article-paragraph">しかし、スウィフトには<ruby>自分<rt>じぶん</rt></ruby>で<ruby>軌道<rt>きどう</rt></ruby>を<ruby>上<rt>あ</rt></ruby>げるためのエンジンがありません。<ruby>太陽<rt>たいよう</rt></ruby>の<ruby>活動<rt>かつどう</rt></ruby>が<ruby>強<rt>つよ</rt></ruby>くなり、<ruby>地球<rt>ちきゅう</rt></ruby>の<ruby>大気<rt>たいき</rt></ruby>が<ruby>広<rt>ひろ</rt></ruby>がったため、<ruby>予想<rt>よそう</rt></ruby>より<ruby>強<rt>つよ</rt></ruby>い<ruby>抵抗<rt>ていこう</rt></ruby>を<ruby>受<rt>う</rt></ruby>けて<ruby>高度<rt>こうど</rt></ruby>が<ruby>下<rt>さ</rt></ruby>がりました。</p>
+    <div class="sentence-translation">However, Swift has no engine for raising its own orbit. Stronger solar activity expanded Earth&#x27;s atmosphere, so the telescope experienced more drag than expected and lost altitude.</div>
+    <p class="article-paragraph">そこでNASAは、アメリカの<ruby>会社<rt>かいしゃ</rt></ruby>カタリスト・スペースが<ruby>作<rt>つく</rt></ruby>った「リンク」という<ruby>宇宙船<rt>うちゅうせん</rt></ruby>を<ruby>送<rt>おく</rt></ruby>ります。リンクは6<ruby>月<rt>がつ</rt></ruby>27<ruby>日<rt>にち</rt></ruby>に<ruby>打<rt>う</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>げられる<ruby>予定<rt>よてい</rt></ruby>で、3<ruby>本<rt>ぼん</rt></ruby>のロボットアームでスウィフトをつかみ、より<ruby>高<rt>たか</rt></ruby>く<ruby>安全<rt>あんぜん</rt></ruby>な<ruby>軌道<rt>きどう</rt></ruby>へ<ruby>運<rt>はこ</rt></ruby>びます。</p>
+    <div class="sentence-translation">NASA will therefore send a spacecraft called Link, built by the American company Katalyst Space. Link is scheduled to launch on June 27, grab Swift with three robotic arms, and move it to a higher, safer orbit.</div>
+    <p class="article-paragraph">リンクはわずか9か<ruby>月<rt>げつ</rt></ruby>で<ruby>開発<rt>かいはつ</rt></ruby>され、スウィフトは<ruby>修理<rt>しゅうり</rt></ruby>されることを<ruby>考<rt>かんが</rt></ruby>えて<ruby>作<rt>つく</rt></ruby>られていません。そのため、<ruby>接近<rt>せっきん</rt></ruby>してつかむ<ruby>作業<rt>さぎょう</rt></ruby>には<ruby>大<rt>おお</rt></ruby>きな<ruby>危険<rt>きけん</rt></ruby>があります。それでも<ruby>成功<rt>せいこう</rt></ruby>すれば、スウィフトはさらに5<ruby>年以上<rt>ねんいじょう</rt></ruby><ruby>観測<rt>かんそく</rt></ruby>を<ruby>続<rt>つづ</rt></ruby>けられる<ruby>可能性<rt>かのうせい</rt></ruby>があります。</p>
+    <div class="sentence-translation">Link was developed in only nine months, and Swift was not designed to be serviced. Approaching and grabbing it therefore carries major risks. Even so, if the mission succeeds, Swift may be able to continue observing for at least five more years.</div>
+    <div class="recording-footer" aria-hidden="true">
+        <span>英訳はコメント欄にあります</span>
+        <span>2026年6月19日</span>
+    </div>
+
+    <div class="vocabulary-box">
+        <h2>N3 Vocabulary</h2>
+        <ul>
+            <li><strong>宇宙望遠鏡（うちゅうぼうえんきょう）:</strong> Space telescope</li>
+            <li><strong>軌道（きどう）:</strong> Orbit</li>
+            <li><strong>大気圏（たいきけん）:</strong> Atmosphere / Atmospheric region</li>
+            <li><strong>観測（かんそく）:</strong> Observation</li>
+            <li><strong>抵抗（ていこう）:</strong> Resistance / Drag</li>
+            <li><strong>高度（こうど）:</strong> Altitude</li>
+            <li><strong>接近（せっきん）:</strong> Approach / Drawing near</li>
+            <li><strong>開発（かいはつ）:</strong> Development</li>
+        </ul>
+    </div>
+</div>
+    </main>
+</div>
+
+<script src="./assets/article.js?v=a5099945112c"></script>
+
+</body>
+</html>
