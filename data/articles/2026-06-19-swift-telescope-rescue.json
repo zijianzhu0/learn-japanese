@@ -1,0 +1,69 @@
+{
+  "id": "2026-06-19-swift-telescope-rescue",
+  "file": "2026-06-19-swift-telescope-rescue.html",
+  "title": "落ちてくる宇宙望遠鏡をロボットで救う",
+  "date": "2026年6月19日",
+  "month": "June 2026",
+  "navLabel": "6/19 宇宙望遠鏡を救出",
+  "level": "N3",
+  "downloadFileName": "2026-06-19-swift-telescope-rescue.mp4",
+  "headlineHtml": "<ruby>落<rt>お</rt></ruby>ちてくる<ruby>宇宙望遠鏡<rt>うちゅうぼうえんきょう</rt></ruby>をロボットで<ruby>救<rt>すく</rt></ruby>う",
+  "sourceNote": "2026年6月19日のSpace.comによるNASAのスウィフト救出計画の報道をもとにしたN3レベルの学習用ページです。",
+  "paragraphs": [
+    {
+      "html": "NASAの<ruby>宇宙望遠鏡<rt>うちゅうぼうえんきょう</rt></ruby>「スウィフト」は、<ruby>地球<rt>ちきゅう</rt></ruby>の<ruby>周<rt>まわ</rt></ruby>りを<ruby>回<rt>まわ</rt></ruby>る<ruby>軌道<rt>きどう</rt></ruby>から<ruby>少<rt>すこ</rt></ruby>しずつ<ruby>落<rt>お</rt></ruby>ちています。このままでは、2026<ruby>年内<rt>ねんない</rt></ruby>に<ruby>大気圏<rt>たいきけん</rt></ruby>へ<ruby>入<rt>はい</rt></ruby>り、<ruby>燃<rt>も</rt></ruby>えてしまう<ruby>可能性<rt>かのうせい</rt></ruby>があります。",
+      "translation": "NASA's Swift space telescope is gradually falling from its orbit around Earth. If nothing changes, it may enter the atmosphere and burn up by the end of 2026."
+    },
+    {
+      "html": "スウィフトは2004<ruby>年<rt>ねん</rt></ruby>に<ruby>打<rt>う</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>げられ、<ruby>宇宙<rt>うちゅう</rt></ruby>で<ruby>起<rt>お</rt></ruby>こる<ruby>非常<rt>ひじょう</rt></ruby>に<ruby>強<rt>つよ</rt></ruby>い<ruby>爆発<rt>ばくはつ</rt></ruby>を<ruby>観測<rt>かんそく</rt></ruby>してきました。もともとの<ruby>予定<rt>よてい</rt></ruby>は2<ruby>年間<rt>ねんかん</rt></ruby>でしたが、20<ruby>年以上<rt>ねんいじょう</rt></ruby>たった<ruby>今<rt>いま</rt></ruby>も<ruby>科学<rt>かがく</rt></ruby>のために<ruby>働<rt>はたら</rt></ruby>いています。",
+      "translation": "Swift was launched in 2004 and has observed extremely powerful explosions in space. Its mission was originally planned for two years, but more than 20 years later, it is still working for science."
+    },
+    {
+      "html": "しかし、スウィフトには<ruby>自分<rt>じぶん</rt></ruby>で<ruby>軌道<rt>きどう</rt></ruby>を<ruby>上<rt>あ</rt></ruby>げるためのエンジンがありません。<ruby>太陽<rt>たいよう</rt></ruby>の<ruby>活動<rt>かつどう</rt></ruby>が<ruby>強<rt>つよ</rt></ruby>くなり、<ruby>地球<rt>ちきゅう</rt></ruby>の<ruby>大気<rt>たいき</rt></ruby>が<ruby>広<rt>ひろ</rt></ruby>がったため、<ruby>予想<rt>よそう</rt></ruby>より<ruby>強<rt>つよ</rt></ruby>い<ruby>抵抗<rt>ていこう</rt></ruby>を<ruby>受<rt>う</rt></ruby>けて<ruby>高度<rt>こうど</rt></ruby>が<ruby>下<rt>さ</rt></ruby>がりました。",
+      "translation": "However, Swift has no engine for raising its own orbit. Stronger solar activity expanded Earth's atmosphere, so the telescope experienced more drag than expected and lost altitude."
+    },
+    {
+      "html": "そこでNASAは、アメリカの<ruby>会社<rt>かいしゃ</rt></ruby>カタリスト・スペースが<ruby>作<rt>つく</rt></ruby>った「リンク」という<ruby>宇宙船<rt>うちゅうせん</rt></ruby>を<ruby>送<rt>おく</rt></ruby>ります。リンクは6<ruby>月<rt>がつ</rt></ruby>27<ruby>日<rt>にち</rt></ruby>に<ruby>打<rt>う</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>げられる<ruby>予定<rt>よてい</rt></ruby>で、3<ruby>本<rt>ぼん</rt></ruby>のロボットアームでスウィフトをつかみ、より<ruby>高<rt>たか</rt></ruby>く<ruby>安全<rt>あんぜん</rt></ruby>な<ruby>軌道<rt>きどう</rt></ruby>へ<ruby>運<rt>はこ</rt></ruby>びます。",
+      "translation": "NASA will therefore send a spacecraft called Link, built by the American company Katalyst Space. Link is scheduled to launch on June 27, grab Swift with three robotic arms, and move it to a higher, safer orbit."
+    },
+    {
+      "html": "リンクはわずか9か<ruby>月<rt>げつ</rt></ruby>で<ruby>開発<rt>かいはつ</rt></ruby>され、スウィフトは<ruby>修理<rt>しゅうり</rt></ruby>されることを<ruby>考<rt>かんが</rt></ruby>えて<ruby>作<rt>つく</rt></ruby>られていません。そのため、<ruby>接近<rt>せっきん</rt></ruby>してつかむ<ruby>作業<rt>さぎょう</rt></ruby>には<ruby>大<rt>おお</rt></ruby>きな<ruby>危険<rt>きけん</rt></ruby>があります。それでも<ruby>成功<rt>せいこう</rt></ruby>すれば、スウィフトはさらに5<ruby>年以上<rt>ねんいじょう</rt></ruby><ruby>観測<rt>かんそく</rt></ruby>を<ruby>続<rt>つづ</rt></ruby>けられる<ruby>可能性<rt>かのうせい</rt></ruby>があります。",
+      "translation": "Link was developed in only nine months, and Swift was not designed to be serviced. Approaching and grabbing it therefore carries major risks. Even so, if the mission succeeds, Swift may be able to continue observing for at least five more years."
+    }
+  ],
+  "vocabularyTitle": "N3 Vocabulary",
+  "vocabulary": [
+    {
+      "term": "宇宙望遠鏡（うちゅうぼうえんきょう）",
+      "meaning": "Space telescope"
+    },
+    {
+      "term": "軌道（きどう）",
+      "meaning": "Orbit"
+    },
+    {
+      "term": "大気圏（たいきけん）",
+      "meaning": "Atmosphere / Atmospheric region"
+    },
+    {
+      "term": "観測（かんそく）",
+      "meaning": "Observation"
+    },
+    {
+      "term": "抵抗（ていこう）",
+      "meaning": "Resistance / Drag"
+    },
+    {
+      "term": "高度（こうど）",
+      "meaning": "Altitude"
+    },
+    {
+      "term": "接近（せっきん）",
+      "meaning": "Approach / Drawing near"
+    },
+    {
+      "term": "開発（かいはつ）",
+      "meaning": "Development"
+    }
+  ]
+}

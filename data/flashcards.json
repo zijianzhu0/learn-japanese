@@ -4,7 +4,7 @@
     "articleManifest": "data/articles.json"
   },
   "levels": {
-    "N3": 1894,
+    "N3": 1918,
     "N4": 536,
     "N5": 553
   },
@@ -279,7 +279,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
+          "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "godan",
       "verbForms": [
@@ -290,7 +295,12 @@
           "term": "開きます",
           "readingHiragana": "あきます",
           "meaning": "Polite form of 開く: to open",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
+              "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
+            }
+          ]
         },
         {
           "form": "past",
@@ -299,7 +309,12 @@
           "term": "開いた",
           "readingHiragana": "あいた",
           "meaning": "Plain past form of 開く: to open",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
+              "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -308,7 +323,12 @@
           "term": "開かない",
           "readingHiragana": "あかない",
           "meaning": "Plain negative form of 開く: to open",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
+              "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
+            }
+          ]
         },
         {
           "form": "te",
@@ -317,7 +337,12 @@
           "term": "開いて",
           "readingHiragana": "あいて",
           "meaning": "Te-form of 開く: to open",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
+              "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -326,7 +351,12 @@
           "term": "開ける",
           "readingHiragana": "あける",
           "meaning": "Potential form of 開く: to open",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
+              "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
+            }
+          ]
         }
       ]
     },
@@ -590,7 +620,12 @@
           "term": "歩いた",
           "readingHiragana": "あるいた",
           "meaning": "Plain past form of 歩く: to walk",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "そして、2本の線路を横断し、下り線まで歩いたことが確認されました。",
+              "en": "The person then crossed two tracks and walked to the outbound track."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -800,6 +835,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "車両の先頭部分が壊れた可能性があり、JR東海が調べています。",
+          "en": "The front of the train may have been damaged, and JR Central is investigating."
+        },
+        {
           "ja": "頭が痛い、気分が悪いなどの症状がある時は、すぐに涼しい場所へ移動することが大切です。",
           "en": "If symptoms such as a headache or feeling unwell appear, it is important to move to a cool place right away."
         }
@@ -871,6 +910,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
+          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
+        },
+        {
+          "ja": "運転は約3時間後の午後8時48分に再開しました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
+        {
           "ja": "その後、救急隊や医師たちが浜辺で手当てをしました。",
           "en": "After that, emergency workers and doctors treated her on the beach."
         },
@@ -881,14 +928,6 @@
         {
           "ja": "最後の第5戦は94対90の接戦でした。",
           "en": "The final Game 5 was a close 94-90 game."
-        },
-        {
-          "ja": "試合後、ブランソンはファイナルMVPにも選ばれました。",
-          "en": "After the game, Brunson was also chosen as Finals MVP."
-        },
-        {
-          "ja": "そのため、ニューヨークの街では、試合の後に大きな歓声が上がりました。",
-          "en": "Because of that, loud cheers rose in New York after the game."
         }
       ]
     },
@@ -2040,6 +2079,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そのため、各国の政府や企業は、この合意が実行されるかどうかを注意して見ています。",
+          "en": "For that reason, governments and companies are watching carefully to see whether the agreement will be carried out."
+        },
+        {
+          "ja": "中東の緊張が下がるかどうかは、これからの交渉にかかっています。",
+          "en": "Whether tensions in the Middle East will decrease depends on the negotiations from here."
+        },
+        {
           "ja": "全国の学校で、生成AIを授業や宿題にどう使うかを決める動きが強まっています。",
           "en": "Schools across Japan are moving to decide how generative AI should be used in classes and homework."
         },
@@ -2050,14 +2097,6 @@
         {
           "ja": "専門家は、技術だけに頼るのではなく、住民どうしの助け合いも大切だと話しています。",
           "en": "Experts say it is important not to rely only on technology, but also on mutual help among residents."
-        },
-        {
-          "ja": "今後は、新しい道具と地域の連携をどう強くするかが課題になりそうです。",
-          "en": "Going forward, the challenge will be how to strengthen cooperation between new tools and local communities."
-        },
-        {
-          "ja": "会談では、東アジアの安全保障や、地域の平和をどう守るかについて意見を交わしました。",
-          "en": "In the meeting, they exchanged views on security in East Asia and how to protect regional peace."
         }
       ]
     },
@@ -2229,24 +2268,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "通勤や出張の予定を変更する人が多く、駅や空港では最新情報を確認する姿が目立ちました。",
-          "en": "Many people changed commuting or business-trip plans, while stations and airports were filled with travelers checking the latest information."
+          "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
+          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
         },
         {
-          "ja": "暑い日が早く増えているため、いくつかの都市で駅前広場のミスト設備を増やす計画が始まりました。",
-          "en": "Because hot days are coming earlier, some cities have begun plans to increase mist systems in station plazas."
+          "ja": "この列車は浜松駅を通過しているところでした。",
+          "en": "It was passing through Hamamatsu Station."
         },
         {
-          "ja": "鉄道会社が、駅の屋根に太陽光パネルを置く計画を広げています。",
-          "en": "A railway company is expanding plans to install solar panels on station roofs."
+          "ja": "浜松駅にはホームドアがありませんでした。",
+          "en": "Hamamatsu Station did not have platform doors."
         },
         {
-          "ja": "まずは大きな駅から始めて、発電した電気を照明や案内板に使う予定です。",
-          "en": "It will start with large stations and use the generated electricity for lighting and information boards."
+          "ja": "JR東海によると、東海道新幹線の17駅のうち、ホームドアがあるのは東京、名古屋、新大阪など7駅です。",
+          "en": "According to JR Central, seven of the 17 Tokaido Shinkansen stations—including Tokyo, Nagoya, and Shin-Osaka—have platform doors."
         },
         {
-          "ja": "一部の駅では、災害のときにスマートフォンを充電できる場所としても活用する考えです。",
-          "en": "At some stations, the system may also be used as a place where people can charge smartphones during disasters."
+          "ja": "ほかの駅でも設置を進めています。",
+          "en": "Installation is progressing at other stations."
         }
       ]
     },
@@ -2744,7 +2783,16 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
+          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
+        },
+        {
+          "ja": "運転は約3時間後の午後8時48分に再開しました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        }
+      ]
     },
     {
       "id": "core-dde9a8915c683e",
@@ -2888,6 +2936,10 @@
           "readingHiragana": "はいった",
           "meaning": "Plain past form of 入る: to enter, to go into",
           "exampleSentences": [
+            {
+              "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
+              "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
+            },
             {
               "ja": "日本では、クマが人の生活する場所に入る問題が増えています。",
               "en": "In Japan, the problem of bears entering places where people live is increasing."
@@ -3207,24 +3259,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "アメリカとイランは、戦争を終わらせるための一時的な合意について話し合っています。",
+          "en": "The United States and Iran are discussing a temporary agreement to end the war."
+        },
+        {
+          "ja": "しかし、イランはイスラエルがレバノン南部から軍を引くことも必要だと話しました。",
+          "en": "However, Iran said that Israel must also withdraw its forces from southern Lebanon."
+        },
+        {
+          "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
+          "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
+        },
+        {
           "ja": "家族は、救助した人たちや病院のスタッフに深く感謝していると話しました。",
           "en": "The family said they are deeply grateful to the people who rescued her and to the hospital staff."
         },
         {
           "ja": "試合後、ブラジルのアンチェロッティ監督は、チームはもっと良くならなければならないと話しました。",
           "en": "After the match, Brazil coach Ancelotti said the team must improve."
-        },
-        {
-          "ja": "このIPOで話題になった言葉の一つが、グリーンシュー・オプションです。",
-          "en": "One term that became a topic in this IPO was the greenshoe option."
-        },
-        {
-          "ja": "専門家は、アプリだけに頼らず、自分の体調にも注意してほしいと話しています。",
-          "en": "Experts say people should not rely only on apps and should also pay attention to their own physical condition."
-        },
-        {
-          "ja": "利用したい人は、前日までに電話かスマートフォンで乗る場所と時間を伝えます。",
-          "en": "People who want to use the service tell the town their pickup place and time by phone or smartphone by the previous day."
         }
       ]
     },
@@ -3712,6 +3764,10 @@
           "meaning": "Te-form of 働く: to work",
           "exampleSentences": [
             {
+              "ja": "もともとの予定は2年間でしたが、20年以上たった今も科学のために働いています。",
+              "en": "Its mission was originally planned for two years, but more than 20 years later, it is still working for science."
+            },
+            {
               "ja": "医療、金融、技術などの分野では、外国から来た働く人が重要です。",
               "en": "In fields such as healthcare, finance, and technology, workers from other countries are important."
             },
@@ -3880,24 +3936,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
+          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
+        },
+        {
+          "ja": "リンクは6月27日に打ち上げられる予定で、3本のロボットアームでスウィフトをつかみ、より高く安全な軌道へ運びます。",
+          "en": "Link is scheduled to launch on June 27, grab Swift with three robotic arms, and move it to a higher, safer orbit."
+        },
+        {
+          "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
+          "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
+        },
+        {
+          "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
+          "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
+        },
+        {
           "ja": "女性は土曜日の朝、岸に近い場所で泳いでいました。",
           "en": "She was swimming near the shore on Saturday morning."
-        },
-        {
-          "ja": "スイスで2026年6月14日、国民投票が行われました。",
-          "en": "On June 14, 2026, Switzerland held a national referendum."
-        },
-        {
-          "ja": "2026年6月14日、FIFAワールドカップのグループCで、ブラジルとモロッコが1対1で引き分けました。",
-          "en": "On June 14, 2026, Brazil and Morocco drew 1-1 in Group C of the FIFA World Cup."
-        },
-        {
-          "ja": "アメリカの宇宙企業スペースXは、6月12日に株式市場に上場しました。",
-          "en": "The American space company SpaceX listed on the stock market on June 12."
-        },
-        {
-          "ja": "市は安全のため、市立の学校を二日間休校にしました。",
-          "en": "For safety, the city closed municipal schools for two days."
         }
       ]
     },
@@ -3955,12 +4011,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "東北のある県で、景色を楽しめる観光列車の人気が高まっています。",
-          "en": "In one prefecture in Tohoku, a sightseeing train that lets passengers enjoy the scenery is becoming more popular."
+          "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
+          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
         },
         {
-          "ja": "会談では、東アジアの安全保障や、地域の平和をどう守るかについて意見を交わしました。",
-          "en": "In the meeting, they exchanged views on security in East Asia and how to protect regional peace."
+          "ja": "事故にあったのは、東京発博多行きの「のぞみ49号」です。",
+          "en": "The train involved was Nozomi 49, traveling from Tokyo to Hakata."
+        },
+        {
+          "ja": "車両の先頭部分が壊れた可能性があり、JR東海が調べています。",
+          "en": "The front of the train may have been damaged, and JR Central is investigating."
+        },
+        {
+          "ja": "この事故で、東海道新幹線は東京と新大阪の間の全線で運転を見合わせました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
+        {
+          "ja": "JR東海によると、東海道新幹線の17駅のうち、ホームドアがあるのは東京、名古屋、新大阪など7駅です。",
+          "en": "According to JR Central, seven of the 17 Tokaido Shinkansen stations—including Tokyo, Nagoya, and Shin-Osaka—have platform doors."
         }
       ]
     },
@@ -4041,7 +4109,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "しかし、イランはイスラエルがレバノン南部から軍を引くことも必要だと話しました。",
+          "en": "However, Iran said that Israel must also withdraw its forces from southern Lebanon."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "godan",
       "verbForms": [
@@ -4052,7 +4125,12 @@
           "term": "引きます",
           "readingHiragana": "ひきます",
           "meaning": "Polite form of 引く: to pull, to draw",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "しかし、イランはイスラエルがレバノン南部から軍を引くことも必要だと話しました。",
+              "en": "However, Iran said that Israel must also withdraw its forces from southern Lebanon."
+            }
+          ]
         },
         {
           "form": "past",
@@ -4061,7 +4139,12 @@
           "term": "引いた",
           "readingHiragana": "ひいた",
           "meaning": "Plain past form of 引く: to pull, to draw",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "しかし、イランはイスラエルがレバノン南部から軍を引くことも必要だと話しました。",
+              "en": "However, Iran said that Israel must also withdraw its forces from southern Lebanon."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -4070,7 +4153,12 @@
           "term": "引かない",
           "readingHiragana": "ひかない",
           "meaning": "Plain negative form of 引く: to pull, to draw",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "しかし、イランはイスラエルがレバノン南部から軍を引くことも必要だと話しました。",
+              "en": "However, Iran said that Israel must also withdraw its forces from southern Lebanon."
+            }
+          ]
         },
         {
           "form": "te",
@@ -4079,7 +4167,12 @@
           "term": "引いて",
           "readingHiragana": "ひいて",
           "meaning": "Te-form of 引く: to pull, to draw",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "しかし、イランはイスラエルがレバノン南部から軍を引くことも必要だと話しました。",
+              "en": "However, Iran said that Israel must also withdraw its forces from southern Lebanon."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -4088,7 +4181,12 @@
           "term": "引ける",
           "readingHiragana": "ひける",
           "meaning": "Potential form of 引く: to pull, to draw",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "しかし、イランはイスラエルがレバノン南部から軍を引くことも必要だと話しました。",
+              "en": "However, Iran said that Israel must also withdraw its forces from southern Lebanon."
+            }
+          ]
         }
       ]
     },
@@ -4202,24 +4300,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
+          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
+        },
+        {
+          "ja": "警察は、その人の死亡を確認しました。",
+          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
+        },
+        {
+          "ja": "防犯カメラなどによると、その人は上りホームの柵の切れ目から線路に降りました。",
+          "en": "According to security-camera footage and other evidence, the person went down to the tracks through a gap in the fence on the inbound platform."
+        },
+        {
           "ja": "家族は、救助した人たちや病院のスタッフに深く感謝していると話しました。",
           "en": "The family said they are deeply grateful to the people who rescued her and to the hospital staff."
         },
         {
           "ja": "マディソン・スクエア・ガーデンの近くには、たくさんの人が集まりました。",
           "en": "Many people gathered near Madison Square Garden."
-        },
-        {
-          "ja": "争点の一つは、国の人口を2050年まで1000万人までに抑える提案でした。",
-          "en": "One issue was a proposal to keep the country's population at no more than 10 million by 2050."
-        },
-        {
-          "ja": "スイスの人口は現在およそ910万人で、2002年から大きく増えました。",
-          "en": "The proposal was promoted by the right-wing Swiss People's Party. Switzerland's population is now about 9.1 million and has grown greatly since 2002. Supporters said the burden on housing, transportation, and public services was becoming heavy."
-        },
-        {
-          "ja": "案が通れば、人口が950万人に近づいたとき、政府は移民や難民、家族の呼び寄せを厳しく制限することになります。",
-          "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
         }
       ]
     },
@@ -4285,24 +4383,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そして、2本の線路を横断し、下り線まで歩いたことが確認されました。",
+          "en": "The person then crossed two tracks and walked to the outbound track."
+        },
+        {
+          "ja": "リンクは6月27日に打ち上げられる予定で、3本のロボットアームでスウィフトをつかみ、より高く安全な軌道へ運びます。",
+          "en": "Link is scheduled to launch on June 27, grab Swift with three robotic arms, and move it to a higher, safer orbit."
+        },
+        {
+          "ja": "そのため、停戦案が本当に進むかはまだわかりません。",
+          "en": "Because of that, it is still unclear whether the ceasefire plan will really move forward."
+        },
+        {
           "ja": "日本では、クマが人の生活する場所に入る問題が増えています。",
           "en": "In Japan, the problem of bears entering places where people live is increasing."
         },
         {
           "ja": "最近の日本では、クマが人の生活する場所に入る問題が増えています。",
           "en": "Recently in Japan, the problem of bears entering places where people live has been increasing."
-        },
-        {
-          "ja": "気象庁は8日、日本の太平洋側の広い地域に津波注意報を出しました。",
-          "en": "On the 8th, the Japan Meteorological Agency issued a tsunami advisory for a wide area along Japan’s Pacific coast."
-        },
-        {
-          "ja": "台風6号は3日、強い風と激しい雨を伴って日本列島を進みました。",
-          "en": "On the 3rd, Typhoon No. 6 moved across Japan with strong winds and heavy rain. Power outages, flooding, and fallen trees were reported in many places, and local governments urged residents to evacuate early."
-        },
-        {
-          "ja": "本の探し方や貸し出しの手続きを、画面を見ながら説明できるようになりました。",
-          "en": "People can now see on-screen explanations of how to find books and complete borrowing procedures."
         }
       ]
     },
@@ -4334,7 +4432,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "そのため、停戦案が本当に進むかはまだわかりません。",
+          "en": "Because of that, it is still unclear whether the ceasefire plan will really move forward."
+        }
+      ]
     },
     {
       "id": "core-8553703ac592f3",
@@ -4381,6 +4484,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "アメリカとイランは、戦争を終わらせるための一時的な合意について話し合っています。",
+          "en": "The United States and Iran are discussing a temporary agreement to end the war."
+        },
+        {
+          "ja": "アメリカは制裁を一部緩める可能性がありますが、詳しい内容はまだはっきりしていません。",
+          "en": "The United States may ease some sanctions, but the details are still not clear."
+        },
+        {
           "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
           "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
         },
@@ -4391,14 +4502,6 @@
         {
           "ja": "このIPOで話題になった言葉の一つが、グリーンシュー・オプションです。",
           "en": "One term that became a topic in this IPO was the greenshoe option."
-        },
-        {
-          "ja": "専門家は、クマの数が増えたことや、地方で人が少なくなったことが原因の一つだと考えています。",
-          "en": "Experts think one reason is that bear numbers have grown while rural populations have shrunk."
-        },
-        {
-          "ja": "自動車メーカーの一部は、従業員の安全や部品輸送への影響を考慮して、工場の操業を一時停止しました。",
-          "en": "Some automakers temporarily stopped factory operations after considering worker safety and impacts on parts transport."
         }
       ]
     },
@@ -4632,6 +4735,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "もともとの予定は2年間でしたが、20年以上たった今も科学のために働いています。",
+          "en": "Its mission was originally planned for two years, but more than 20 years later, it is still working for science."
+        },
+        {
           "ja": "今も重い状態だと伝えられています。",
           "en": "She is still reported to be in serious condition."
         },
@@ -4646,10 +4753,6 @@
         {
           "ja": "今回の引き分けで、今年も強い相手になりそうだと感じさせました。",
           "en": "This draw made people feel that Morocco may again be a strong opponent this year."
-        },
-        {
-          "ja": "政府は、首都直下地震が起きた場合の被害を今後10年で大幅に減らすため、防災計画を改定する方針です。",
-          "en": "The government plans to revise its disaster-prevention plan to sharply reduce damage from a possible inland earthquake beneath the Tokyo area over the next decade."
         }
       ]
     },
@@ -4790,6 +4893,10 @@
           "readingHiragana": "いれて",
           "meaning": "Te-form of 入れる: to put in, to let in",
           "exampleSentences": [
+            {
+              "ja": "イスラエルはこの条件を受け入れていません。",
+              "en": "Israel has not accepted this condition."
+            },
             {
               "ja": "必要なときだけ自動で動く仕組みを入れる例もあります。",
               "en": "Some examples include systems that run automatically only when needed."
@@ -5177,6 +5284,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "しかし、スウィフトには自分で軌道を上げるためのエンジンがありません。",
+          "en": "However, Swift has no engine for raising its own orbit."
+        },
+        {
           "ja": "専門家は、アプリだけに頼らず、自分の体調にも注意してほしいと話しています。",
           "en": "Experts say people should not rely only on apps and should also pay attention to their own physical condition."
         },
@@ -5225,6 +5336,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "運転は約3時間後の午後8時48分に再開しました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
+        {
           "ja": "モロッコは中盤でボールをよく動かし、ブラジルに簡単な時間を与えませんでした。",
           "en": "Morocco moved the ball well in midfield and did not give Brazil easy moments."
         },
@@ -5239,10 +5354,6 @@
         {
           "ja": "職員は、短い時間で必要な情報を伝えやすくなったと話しています。",
           "en": "Staff say it has become easier to provide needed information in a short time."
-        },
-        {
-          "ja": "運営会社は、観光客が便利になるだけでなく、会計の時間が短くなると説明しています。",
-          "en": "The operator explains that this not only makes things more convenient for tourists but also shortens checkout time."
         }
       ]
     },
@@ -5553,6 +5664,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そこでNASAは、アメリカの会社カタリスト・スペースが作った「リンク」という宇宙船を送ります。",
+          "en": "NASA will therefore send a spacecraft called Link, built by the American company Katalyst Space."
+        },
+        {
           "ja": "IPOでは、証券会社が会社の株を投資家に売ります。",
           "en": "In an IPO, securities firms sell a company’s shares to investors."
         },
@@ -5567,10 +5682,6 @@
         {
           "ja": "もし株価が高いままなら、会社から追加の株を買って約束を満たします。",
           "en": "If the share price stays high, they buy additional shares from the company to meet their commitment."
-        },
-        {
-          "ja": "スペースXのように注目度が高い会社では、上場直後の値動きが激しくなりやすいです。",
-          "en": "For a highly watched company like SpaceX, price movements just after listing can easily become intense."
         }
       ]
     },
@@ -7294,6 +7405,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そのため、各国の政府や企業は、この合意が実行されるかどうかを注意して見ています。",
+          "en": "For that reason, governments and companies are watching carefully to see whether the agreement will be carried out."
+        },
+        {
+          "ja": "ただ、イスラエルやイラン、アメリカの国内には強い反対もあります。",
+          "en": "However, there is also strong opposition in Israel, Iran, and the United States."
+        },
+        {
           "ja": "スイスで2026年6月14日、国民投票が行われました。",
           "en": "On June 14, 2026, Switzerland held a national referendum."
         },
@@ -7304,14 +7423,6 @@
         {
           "ja": "この提案は、右派のスイス国民党が進めたものです。",
           "en": "The proposal was promoted by the right-wing Swiss People's Party. Switzerland's population is now about 9.1 million and has grown greatly since 2002. Supporters said the burden on housing, transportation, and public services was becoming heavy."
-        },
-        {
-          "ja": "医療、金融、技術などの分野では、外国から来た働く人が重要です。",
-          "en": "In fields such as healthcare, finance, and technology, workers from other countries are important."
-        },
-        {
-          "ja": "スイスはEU加盟国ではありませんが、EUとの関係はとても深いです。",
-          "en": "Switzerland is not an EU member, but its relationship with the EU is very deep."
         }
       ]
     },
@@ -7490,6 +7601,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "この列車は浜松駅を通過しているところでした。",
+          "en": "It was passing through Hamamatsu Station."
+        },
+        {
+          "ja": "車両の先頭部分が壊れた可能性があり、JR東海が調べています。",
+          "en": "The front of the train may have been damaged, and JR Central is investigating."
+        },
+        {
           "ja": "車のクラクションや花火の音も聞こえました。",
           "en": "Car horns and fireworks could also be heard."
         },
@@ -7500,14 +7619,6 @@
         {
           "ja": "市はSNSや放送車で注意を出し、住民に外へ出ないよう呼びかけました。",
           "en": "The city issued warnings on social media and through announcement vehicles, asking residents not to go outside."
-        },
-        {
-          "ja": "自動車メーカーの一部は、従業員の安全や部品輸送への影響を考慮して、工場の操業を一時停止しました。",
-          "en": "Some automakers temporarily stopped factory operations after considering worker safety and impacts on parts transport."
-        },
-        {
-          "ja": "東北のある県で、景色を楽しめる観光列車の人気が高まっています。",
-          "en": "In one prefecture in Tohoku, a sightseeing train that lets passengers enjoy the scenery is becoming more popular."
         }
       ]
     },
@@ -7615,7 +7726,16 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "そのため、停戦案が本当に進むかはまだわかりません。",
+          "en": "Because of that, it is still unclear whether the ceasefire plan will really move forward."
+        },
+        {
+          "ja": "アメリカは制裁を一部緩める可能性がありますが、詳しい内容はまだはっきりしていません。",
+          "en": "The United States may ease some sanctions, but the details are still not clear."
+        }
+      ]
     },
     {
       "id": "core-07789c526d715d",
@@ -8063,6 +8183,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "防犯カメラなどによると、その人は上りホームの柵の切れ目から線路に降りました。",
+          "en": "According to security-camera footage and other evidence, the person went down to the tracks through a gap in the fence on the inbound platform."
+        },
+        {
           "ja": "初めの取引では株価が大きく上がり、世界中の投資家が注目しました。",
           "en": "Its share price rose sharply in early trading, drawing attention from investors around the world."
         },
@@ -8077,10 +8201,6 @@
         {
           "ja": "通勤や出張の予定を変更する人が多く、駅や空港では最新情報を確認する姿が目立ちました。",
           "en": "Many people changed commuting or business-trip plans, while stations and airports were filled with travelers checking the latest information."
-        },
-        {
-          "ja": "誰でも使いやすい図書館を目指す取り組みとして注目されています。",
-          "en": "The effort is drawing attention as a way to make libraries easier for everyone to use."
         }
       ]
     },
@@ -8114,24 +8234,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "報道によると、サメは3.",
-          "en": "According to reports, the shark is believed to have been a great white about 3."
+          "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
+          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
         },
         {
-          "ja": "グリーンシューは、投資家の熱気と市場の不安の間で、値段を落ち着かせるための道具だと考えるとわかりやすいです。",
-          "en": "It is easiest to think of a greenshoe as a tool for calming the price between investor excitement and market anxiety."
+          "ja": "この事故で、東海道新幹線は東京と新大阪の間の全線で運転を見合わせました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
         },
         {
-          "ja": "町では、人口が減り、決まった道を走るバスの利用者も少なくなっています。",
-          "en": "In the town, the population is falling, and fewer people use buses that run on fixed routes."
+          "ja": "JR東海によると、東海道新幹線の17駅のうち、ホームドアがあるのは東京、名古屋、新大阪など7駅です。",
+          "en": "According to JR Central, seven of the 17 Tokaido Shinkansen stations—including Tokyo, Nagoya, and Shin-Osaka—have platform doors."
         },
         {
-          "ja": "火災が広がりやすい地域では、古い住宅の耐震化や、避難しやすい道路の整備も急ぐ必要があります。",
-          "en": "In areas where fires can spread easily, there is also a need to speed up earthquake-resistant housing improvements and roads that make evacuation easier."
+          "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
+          "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
         },
         {
-          "ja": "一方で、水道代や管理の手間がかかるため、時間や場所を決めて使うことが検討されています。",
-          "en": "At the same time, because water costs and maintenance take effort, officials are considering limiting the times and places where the systems are used."
+          "ja": "しかし、スウィフトには自分で軌道を上げるためのエンジンがありません。",
+          "en": "However, Swift has no engine for raising its own orbit."
         }
       ]
     },
@@ -8295,7 +8415,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "しかし、イランはイスラエルがレバノン南部から軍を引くことも必要だと話しました。",
+          "en": "However, Iran said that Israel must also withdraw its forces from southern Lebanon."
+        }
+      ]
     },
     {
       "id": "core-ec75d88668fc34",
@@ -8384,6 +8509,10 @@
           "readingHiragana": "みて",
           "meaning": "Te-form of 見る: to see, to look, to watch",
           "exampleSentences": [
+            {
+              "ja": "そのため、各国の政府や企業は、この合意が実行されるかどうかを注意して見ています。",
+              "en": "For that reason, governments and companies are watching carefully to see whether the agreement will be carried out."
+            },
             {
               "ja": "アプリは気温や湿度を見て、危険が高い時に知らせます。",
               "en": "The apps check temperature and humidity and send alerts when the danger is high."
@@ -8827,6 +8956,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "中東の緊張が下がるかどうかは、これからの交渉にかかっています。",
+          "en": "Whether tensions in the Middle East will decrease depends on the negotiations from here."
+        },
+        {
           "ja": "モロッコは中盤でボールをよく動かし、ブラジルに簡単な時間を与えませんでした。",
           "en": "Morocco moved the ball well in midfield and did not give Brazil easy moments."
         },
@@ -8841,10 +8974,6 @@
         {
           "ja": "大学でもクマが見つかり、授業が中止になりました。",
           "en": "The bear was also seen at a university, and classes were canceled there as well."
-        },
-        {
-          "ja": "暑い日が増える中、熱中症を防ぐための通知アプリを使う会社や学校が増えています。",
-          "en": "As hot days increase, more companies and schools are using notification apps to prevent heatstroke."
         }
       ]
     },
@@ -11402,6 +11531,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "車両の先頭部分が壊れた可能性があり、JR東海が調べています。",
+          "en": "The front of the train may have been damaged, and JR Central is investigating."
+        },
+        {
           "ja": "モロッコはイスマエル・サイバリのゴールで先制しました。",
           "en": "Morocco took the lead through a goal by Ismael Saibari."
         },
@@ -12220,24 +12353,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そして、2本の線路を横断し、下り線まで歩いたことが確認されました。",
+          "en": "The person then crossed two tracks and walked to the outbound track."
+        },
+        {
+          "ja": "太陽の活動が強くなり、地球の大気が広がったため、予想より強い抵抗を受けて高度が下がりました。",
+          "en": "Stronger solar activity expanded Earth's atmosphere, so the telescope experienced more drag than expected and lost altitude."
+        },
+        {
+          "ja": "中東の緊張が下がるかどうかは、これからの交渉にかかっています。",
+          "en": "Whether tensions in the Middle East will decrease depends on the negotiations from here."
+        },
+        {
           "ja": "もし上場後に株価が下がれば、証券会社は市場で株を買い戻します。",
           "en": "If the share price falls after listing, the securities firms buy shares back in the market."
         },
         {
           "ja": "政府は、首都直下地震が起きた場合の被害を今後10年で大幅に減らすため、防災計画を改定する方針です。",
           "en": "The government plans to revise its disaster-prevention plan to sharply reduce damage from a possible inland earthquake beneath the Tokyo area over the next decade."
-        },
-        {
-          "ja": "死者数や全壊・焼失する建物の数を、想定より半分以下に抑えることを目標にします。",
-          "en": "Its goal is to cut the expected deaths and destroyed or burned buildings to less than half of the estimate."
-        },
-        {
-          "ja": "5円くらいまで下がり、円は短い時間で強くなりました。",
-          "en": "5 yen, and the yen became stronger in a short time."
-        },
-        {
-          "ja": "投資家の中には、円がもっと下がると考えていた人も多く、急な変化におどろきました。",
-          "en": "Many investors had thought the yen would fall further, so they were surprised by the sudden change."
         }
       ]
     },
@@ -12401,6 +12534,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "G7の首脳たちは、この外交の動きを支持すると述べました。",
+          "en": "G7 leaders said they support this diplomatic move."
+        },
+        {
           "ja": "医療、金融、技術などの分野では、外国から来た働く人が重要です。",
           "en": "In fields such as healthcare, finance, and technology, workers from other countries are important."
         },
@@ -12415,10 +12552,6 @@
         {
           "ja": "通知には、水分をとること、休憩すること、外での活動を短くすることなどが書かれています。",
           "en": "The notifications include messages about drinking water, taking breaks, and shortening outdoor activities."
-        },
-        {
-          "ja": "危険な時間帯には、屋外の仕事を減らし、日陰で休む時間を長くしています。",
-          "en": "During dangerous time periods, they reduce outdoor work and take longer breaks in the shade."
         }
       ]
     },
@@ -12514,6 +12647,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
+          "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
+        },
+        {
           "ja": "ブラジルにとっては、少し危ない始まりでした。",
           "en": "For Brazil, it was a slightly dangerous start."
         },
@@ -12528,10 +12665,6 @@
         {
           "ja": "細かい水を空気に出して、少しでも涼しくすることが目的です。",
           "en": "The goal is to spray fine water into the air and make the area a little cooler."
-        },
-        {
-          "ja": "消費者からは、毎日食べるものなので、少しの値上がりでも大きいという声が出ています。",
-          "en": "Consumers say that even small price increases matter because rice is eaten every day."
         }
       ]
     },
@@ -12634,6 +12767,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "G7の首脳たちは、この外交の動きを支持すると述べました。",
+          "en": "G7 leaders said they support this diplomatic move."
+        },
+        {
           "ja": "案が通れば、人口が950万人に近づいたとき、政府は移民や難民、家族の呼び寄せを厳しく制限することになります。",
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
         },
@@ -12648,10 +12785,6 @@
         {
           "ja": "最近の日本では、クマが人の生活する場所に入る問題が増えています。",
           "en": "Recently in Japan, the problem of bears entering places where people live has been increasing."
-        },
-        {
-          "ja": "通知には、水分をとること、休憩すること、外での活動を短くすることなどが書かれています。",
-          "en": "The notifications include messages about drinking water, taking breaks, and shortening outdoor activities."
         }
       ],
       "partOfSpeech": "verb",
@@ -12696,24 +12829,24 @@
           "meaning": "Plain past form of する: to do",
           "exampleSentences": [
             {
-              "ja": "オーストラリアのシドニーにあるクージー・ビーチで、35歳の女性がサメにかまれました。",
-              "en": "At Coogee Beach in Sydney, Australia, a 35-year-old woman was bitten by a shark."
+              "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
+              "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
             },
             {
-              "ja": "女性は土曜日の朝、岸に近い場所で泳いでいました。",
-              "en": "She was swimming near the shore on Saturday morning."
+              "ja": "警察は、その人の死亡を確認しました。",
+              "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
             },
             {
-              "ja": "女性は大けがをして、ヘリコプターで病院へ運ばれました。",
-              "en": "The woman was seriously injured and was taken to a hospital by helicopter."
+              "ja": "この列車は浜松駅を通過しているところでした。",
+              "en": "It was passing through Hamamatsu Station."
             },
             {
-              "ja": "近くにいた24歳のライフセーバーが、海へ入って女性をボードに乗せました。",
-              "en": "A 24-year-old lifesaver nearby entered the water and put the woman on a board."
+              "ja": "防犯カメラなどによると、その人は上りホームの柵の切れ目から線路に降りました。",
+              "en": "According to security-camera footage and other evidence, the person went down to the tracks through a gap in the fence on the inbound platform."
             },
             {
-              "ja": "その後、救急隊や医師たちが浜辺で手当てをしました。",
-              "en": "After that, emergency workers and doctors treated her on the beach."
+              "ja": "そして、2本の線路を横断し、下り線まで歩いたことが確認されました。",
+              "en": "The person then crossed two tracks and walked to the outbound track."
             }
           ]
         },
@@ -12730,6 +12863,10 @@
               "en": "While its convenience is recognized, it is considered important not to weaken students’ ability to think for themselves."
             },
             {
+              "ja": "G7の首脳たちは、この外交の動きを支持すると述べました。",
+              "en": "G7 leaders said they support this diplomatic move."
+            },
+            {
               "ja": "案が通れば、人口が950万人に近づいたとき、政府は移民や難民、家族の呼び寄せを厳しく制限することになります。",
               "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
             },
@@ -12740,10 +12877,6 @@
             {
               "ja": "日本では、クマが人の生活する場所に入る問題が増えています。",
               "en": "In Japan, the problem of bears entering places where people live is increasing."
-            },
-            {
-              "ja": "最近の日本では、クマが人の生活する場所に入る問題が増えています。",
-              "en": "Recently in Japan, the problem of bears entering places where people live has been increasing."
             }
           ]
         },
@@ -12756,24 +12889,24 @@
           "meaning": "Te-form of する: to do",
           "exampleSentences": [
             {
-              "ja": "女性は大けがをして、ヘリコプターで病院へ運ばれました。",
-              "en": "The woman was seriously injured and was taken to a hospital by helicopter."
+              "ja": "この列車は浜松駅を通過しているところでした。",
+              "en": "It was passing through Hamamatsu Station."
             },
             {
-              "ja": "家族は、救助した人たちや病院のスタッフに深く感謝していると話しました。",
-              "en": "The family said they are deeply grateful to the people who rescued her and to the hospital staff."
+              "ja": "そして、2本の線路を横断し、下り線まで歩いたことが確認されました。",
+              "en": "The person then crossed two tracks and walked to the outbound track."
             },
             {
-              "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
-              "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
+              "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
+              "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
             },
             {
-              "ja": "建設現場では、作業を始める前にアプリの情報を確認しています。",
-              "en": "At construction sites, workers check the app's information before starting work."
+              "ja": "そのため、接近してつかむ作業には大きな危険があります。",
+              "en": "Approaching and grabbing it therefore carries major risks."
             },
             {
-              "ja": "危険な時間帯には、屋外の仕事を減らし、日陰で休む時間を長くしています。",
-              "en": "During dangerous time periods, they reduce outdoor work and take longer breaks in the shade."
+              "ja": "そのため、各国の政府や企業は、この合意が実行されるかどうかを注意して見ています。",
+              "en": "For that reason, governments and companies are watching carefully to see whether the agreement will be carried out."
             }
           ]
         },
@@ -13784,24 +13917,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "このままでは、2026年内に大気圏へ入り、燃えてしまう可能性があります。",
+          "en": "If nothing changes, it may enter the atmosphere and burn up by the end of 2026."
+        },
+        {
+          "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
+          "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
+        },
+        {
+          "ja": "もともとの予定は2年間でしたが、20年以上たった今も科学のために働いています。",
+          "en": "Its mission was originally planned for two years, but more than 20 years later, it is still working for science."
+        },
+        {
+          "ja": "それでも成功すれば、スウィフトはさらに5年以上観測を続けられる可能性があります。",
+          "en": "Even so, if the mission succeeds, Swift may be able to continue observing for at least five more years."
+        },
+        {
           "ja": "アメリカのプロバスケットボール、NBAで、ニューヨーク・ニックスが2026年の王者になりました。",
           "en": "In the NBA, America's professional basketball league, the New York Knicks became the 2026 champions."
-        },
-        {
-          "ja": "ニックスはファイナルでサンアントニオ・スパーズに4勝1敗で勝ち、1973年以来の優勝を決めました。",
-          "en": "The Knicks beat the San Antonio Spurs 4-1 in the Finals and won their first championship since 1973."
-        },
-        {
-          "ja": "長い間苦しんだチームとファンにとって、今年の優勝は特別な出来事になりました。",
-          "en": "For a team and fan base that struggled for a long time, this year's title became a special event."
-        },
-        {
-          "ja": "スイスで2026年6月14日、国民投票が行われました。",
-          "en": "On June 14, 2026, Switzerland held a national referendum."
-        },
-        {
-          "ja": "争点の一つは、国の人口を2050年まで1000万人までに抑える提案でした。",
-          "en": "One issue was a proposal to keep the country's population at no more than 10 million by 2050."
         }
       ]
     },
@@ -13886,6 +14019,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ホルムズ海峡は、世界の石油や貿易にとってとても重要な場所です。",
+          "en": "The Strait of Hormuz is very important for the world's oil and trade."
+        },
+        {
           "ja": "女性は土曜日の朝、岸に近い場所で泳いでいました。",
           "en": "She was swimming near the shore on Saturday morning."
         },
@@ -13900,10 +14037,6 @@
         {
           "ja": "最近の日本では、クマが人の生活する場所に入る問題が増えています。",
           "en": "Recently in Japan, the problem of bears entering places where people live has been increasing."
-        },
-        {
-          "ja": "頭が痛い、気分が悪いなどの症状がある時は、すぐに涼しい場所へ移動することが大切です。",
-          "en": "If symptoms such as a headache or feeling unwell appear, it is important to move to a cool place right away."
         }
       ]
     },
@@ -14001,6 +14134,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ホルムズ海峡は、世界の石油や貿易にとってとても重要な場所です。",
+          "en": "The Strait of Hormuz is very important for the world's oil and trade."
+        },
+        {
           "ja": "スイスはEU加盟国ではありませんが、EUとの関係はとても深いです。",
           "en": "Switzerland is not an EU member, but its relationship with the EU is very deep."
         },
@@ -14015,10 +14152,6 @@
         {
           "ja": "comをとても重視していることが、よりはっきり伝わりました。",
           "en": "com."
-        },
-        {
-          "ja": "ラピダスは、2ナノメートルというとても細かい次世代のロジック半導体を作ろうとしています。",
-          "en": "Rapidus is trying to make next-generation 2-nanometer logic semiconductors, which are extremely advanced."
         }
       ]
     },
@@ -14480,6 +14613,10 @@
           "meaning": "Plain past form of 作る: to make, to produce",
           "exampleSentences": [
             {
+              "ja": "そこでNASAは、アメリカの会社カタリスト・スペースが作った「リンク」という宇宙船を送ります。",
+              "en": "NASA will therefore send a spacecraft called Link, built by the American company Katalyst Space."
+            },
+            {
               "ja": "自分たちで作った電気を使えば、費用をおさえるだけでなく、環境への負担も減らせます。",
               "en": "Using electricity they generate themselves can reduce both costs and environmental impact."
             },
@@ -14494,10 +14631,6 @@
             {
               "ja": "一方で、海水温の変化や人手不足のため、のりを作る現場では苦労もあります。",
               "en": "At the same time, producers face difficulties because of changes in seawater temperature and labor shortages."
-            },
-            {
-              "ja": "ある高校では、AIを使って文章の案を作ることは認めていますが、そのまま提出することは禁止しています。",
-              "en": "At one high school, students are allowed to use AI to draft writing, but submitting it as-is is prohibited."
             }
           ]
         },
@@ -14702,20 +14835,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
+          "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
+        },
+        {
+          "ja": "太陽の活動が強くなり、地球の大気が広がったため、予想より強い抵抗を受けて高度が下がりました。",
+          "en": "Stronger solar activity expanded Earth's atmosphere, so the telescope experienced more drag than expected and lost altitude."
+        },
+        {
+          "ja": "ただ、イスラエルやイラン、アメリカの国内には強い反対もあります。",
+          "en": "However, there is also strong opposition in Israel, Iran, and the United States."
+        },
+        {
           "ja": "ブラジルは優勝経験が多い強いチームですが、前半はモロッコの速い攻撃に苦しみました。",
           "en": "Brazil are a strong team with many World Cup titles, but in the first half they struggled against Morocco’s quick attacks."
         },
         {
           "ja": "今回の引き分けで、今年も強い相手になりそうだと感じさせました。",
           "en": "This draw made people feel that Morocco may again be a strong opponent this year."
-        },
-        {
-          "ja": "台風6号は3日、強い風と激しい雨を伴って日本列島を進みました。",
-          "en": "On the 3rd, Typhoon No. 6 moved across Japan with strong winds and heavy rain. Power outages, flooding, and fallen trees were reported in many places, and local governments urged residents to evacuate early."
-        },
-        {
-          "ja": "買収を成功させるために、より強い条件を出したとみられています。",
-          "en": "It is seen as a move to present stronger terms and improve their chances of completing the acquisition."
         }
       ]
     },
@@ -14734,24 +14871,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "そのため、ニューヨークの街では、試合の後に大きな歓声が上がりました。",
-          "en": "Because of that, loud cheers rose in New York after the game."
+          "ja": "防犯カメラなどによると、その人は上りホームの柵の切れ目から線路に降りました。",
+          "en": "According to security-camera footage and other evidence, the person went down to the tracks through a gap in the fence on the inbound platform."
         },
         {
-          "ja": "アメリカの宇宙企業スペースXは、6月12日に株式市場に上場しました。",
-          "en": "The American space company SpaceX listed on the stock market on June 12."
+          "ja": "山陽新幹線の上り線にも影響が広がりました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
         },
         {
-          "ja": "初めの取引では株価が大きく上がり、世界中の投資家が注目しました。",
-          "en": "Its share price rose sharply in early trading, drawing attention from investors around the world."
+          "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
+          "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
         },
         {
-          "ja": "もし上場後に株価が下がれば、証券会社は市場で株を買い戻します。",
-          "en": "If the share price falls after listing, the securities firms buy shares back in the market."
+          "ja": "もともとの予定は2年間でしたが、20年以上たった今も科学のために働いています。",
+          "en": "Its mission was originally planned for two years, but more than 20 years later, it is still working for science."
         },
         {
-          "ja": "スペースXのように注目度が高い会社では、上場直後の値動きが激しくなりやすいです。",
-          "en": "For a highly watched company like SpaceX, price movements just after listing can easily become intense."
+          "ja": "しかし、スウィフトには自分で軌道を上げるためのエンジンがありません。",
+          "en": "However, Swift has no engine for raising its own orbit."
         }
       ]
     },
@@ -14834,24 +14971,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "近くにいた24歳のライフセーバーが、海へ入って女性をボードに乗せました。",
-          "en": "A 24-year-old lifesaver nearby entered the water and put the woman on a board."
+          "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
+          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
         },
         {
-          "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
-          "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
+          "ja": "車両の先頭部分が壊れた可能性があり、JR東海が調べています。",
+          "en": "The front of the train may have been damaged, and JR Central is investigating."
         },
         {
-          "ja": "注意報は、茨城県から鹿児島県までの海岸や、伊豆諸島、小笠原諸島、沖縄・奄美の地域にも出されました。",
-          "en": "The advisory covered coasts from Ibaraki Prefecture to Kagoshima Prefecture, as well as the Izu Islands, Ogasawara Islands, and the Okinawa-Amami region."
+          "ja": "この事故で、東海道新幹線は東京と新大阪の間の全線で運転を見合わせました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
         },
         {
-          "ja": "注意報はその後、夕方にすべて解除されましたが、海面の変化が続く場所もあるとされています。",
-          "en": "The advisory was later fully lifted in the evening, but sea level changes may continue in some places."
+          "ja": "JR東海によると、東海道新幹線の17駅のうち、ホームドアがあるのは東京、名古屋、新大阪など7駅です。",
+          "en": "According to JR Central, seven of the 17 Tokaido Shinkansen stations—including Tokyo, Nagoya, and Shin-Osaka—have platform doors."
         },
         {
-          "ja": "専門家は、注意報が出たときは、海の近くに行かないことが大切だと話しています。",
-          "en": "Experts say it is important not to go near the sea when an advisory is issued."
+          "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
+          "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
         }
       ]
     },
@@ -15446,6 +15583,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "山陽新幹線の上り線にも影響が広がりました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
+        {
           "ja": "山間部にある小さな町で、予約制バスの実験が始まりました。",
           "en": "In a small town in a mountain area, a trial of reservation-based buses has started."
         }
@@ -15769,7 +15910,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "そして、2本の線路を横断し、下り線まで歩いたことが確認されました。",
+          "en": "The person then crossed two tracks and walked to the outbound track."
+        }
+      ]
     },
     {
       "id": "core-d37016037b7173",
@@ -16090,7 +16236,20 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "浜松駅にはホームドアがありませんでした。",
+          "en": "Hamamatsu Station did not have platform doors."
+        },
+        {
+          "ja": "JR東海によると、東海道新幹線の17駅のうち、ホームドアがあるのは東京、名古屋、新大阪など7駅です。",
+          "en": "According to JR Central, seven of the 17 Tokaido Shinkansen stations—including Tokyo, Nagoya, and Shin-Osaka—have platform doors."
+        },
+        {
+          "ja": "ホームドアがない駅では、安全のために職員がホームを見回っています。",
+          "en": "At stations without platform doors, staff patrol the platforms for safety."
+        }
+      ]
     },
     {
       "id": "core-94bded8abd287f",
@@ -16193,7 +16352,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "防犯カメラなどによると、その人は上りホームの柵の切れ目から線路に降りました。",
+          "en": "According to security-camera footage and other evidence, the person went down to the tracks through a gap in the fence on the inbound platform."
+        }
+      ]
     },
     {
       "id": "core-f1fbfdbb13a333",
@@ -16846,6 +17010,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ホームドアがない駅では、安全のために職員がホームを見回っています。",
+          "en": "At stations without platform doors, staff patrol the platforms for safety."
+        },
+        {
+          "ja": "リンクは6月27日に打ち上げられる予定で、3本のロボットアームでスウィフトをつかみ、より高く安全な軌道へ運びます。",
+          "en": "Link is scheduled to launch on June 27, grab Swift with three robotic arms, and move it to a higher, safer orbit."
+        },
+        {
           "ja": "この事故の後、安全対策について議論が起きました。",
           "en": "After the incident, a debate began about safety measures."
         },
@@ -16856,14 +17028,6 @@
         {
           "ja": "安全のために、市立の学校は二日間休みになりました。",
           "en": "For safety, city-run schools were closed for two days."
-        },
-        {
-          "ja": "釣りや海での作業をする人は、新しい情報を確認し、安全な場所で待つようにしましょう。",
-          "en": "People who fish or work at sea should check the latest information and wait in a safe place."
-        },
-        {
-          "ja": "自動車メーカーの一部は、従業員の安全や部品輸送への影響を考慮して、工場の操業を一時停止しました。",
-          "en": "Some automakers temporarily stopped factory operations after considering worker safety and impacts on parts transport."
         }
       ]
     },
@@ -17064,6 +17228,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
+          "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
+        },
+        {
           "ja": "半導体やエネルギーのような重要な分野で、お互いに助け合うことが、これからさらに必要になるとみられています。",
           "en": "In important fields like semiconductors and energy, mutual support is expected to become even more necessary."
         }
@@ -17080,6 +17248,10 @@
           "meaning": "Polite form of 合う: to fit, to match, to suit",
           "exampleSentences": [
             {
+              "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
+              "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
+            },
+            {
               "ja": "半導体やエネルギーのような重要な分野で、お互いに助け合うことが、これからさらに必要になるとみられています。",
               "en": "In important fields like semiconductors and energy, mutual support is expected to become even more necessary."
             }
@@ -17093,6 +17265,10 @@
           "readingHiragana": "あった",
           "meaning": "Plain past form of 合う: to fit, to match, to suit",
           "exampleSentences": [
+            {
+              "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
+              "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
+            },
             {
               "ja": "半導体やエネルギーのような重要な分野で、お互いに助け合うことが、これからさらに必要になるとみられています。",
               "en": "In important fields like semiconductors and energy, mutual support is expected to become even more necessary."
@@ -17108,6 +17284,10 @@
           "meaning": "Plain negative form of 合う: to fit, to match, to suit",
           "exampleSentences": [
             {
+              "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
+              "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
+            },
+            {
               "ja": "半導体やエネルギーのような重要な分野で、お互いに助け合うことが、これからさらに必要になるとみられています。",
               "en": "In important fields like semiconductors and energy, mutual support is expected to become even more necessary."
             }
@@ -17122,6 +17302,14 @@
           "meaning": "Te-form of 合う: to fit, to match, to suit",
           "exampleSentences": [
             {
+              "ja": "アメリカとイランは、戦争を終わらせるための一時的な合意について話し合っています。",
+              "en": "The United States and Iran are discussing a temporary agreement to end the war."
+            },
+            {
+              "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
+              "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
+            },
+            {
               "ja": "半導体やエネルギーのような重要な分野で、お互いに助け合うことが、これからさらに必要になるとみられています。",
               "en": "In important fields like semiconductors and energy, mutual support is expected to become even more necessary."
             }
@@ -17135,6 +17323,10 @@
           "readingHiragana": "あえる",
           "meaning": "Potential form of 合う: to fit, to match, to suit",
           "exampleSentences": [
+            {
+              "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
+              "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
+            },
             {
               "ja": "半導体やエネルギーのような重要な分野で、お互いに助け合うことが、これからさらに必要になるとみられています。",
               "en": "In important fields like semiconductors and energy, mutual support is expected to become even more necessary."
@@ -17252,6 +17444,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ホルムズ海峡は、世界の石油や貿易にとってとても重要な場所です。",
+          "en": "The Strait of Hormuz is very important for the world's oil and trade."
+        },
+        {
           "ja": "女性は土曜日の朝、岸に近い場所で泳いでいました。",
           "en": "She was swimming near the shore on Saturday morning."
         },
@@ -17266,10 +17462,6 @@
         {
           "ja": "最近の日本では、クマが人の生活する場所に入る問題が増えています。",
           "en": "Recently in Japan, the problem of bears entering places where people live has been increasing."
-        },
-        {
-          "ja": "頭が痛い、気分が悪いなどの症状がある時は、すぐに涼しい場所へ移動することが大切です。",
-          "en": "If symptoms such as a headache or feeling unwell appear, it is important to move to a cool place right away."
         }
       ]
     },
@@ -17355,7 +17547,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "ホルムズ海峡は、世界の石油や貿易にとってとても重要な場所です。",
+          "en": "The Strait of Hormuz is very important for the world's oil and trade."
+        }
+      ]
     },
     {
       "id": "core-9b533772ee37ed",
@@ -17537,6 +17734,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そのため、各国の政府や企業は、この合意が実行されるかどうかを注意して見ています。",
+          "en": "For that reason, governments and companies are watching carefully to see whether the agreement will be carried out."
+        },
+        {
           "ja": "市はSNSや放送車で注意を呼びかけ、住民に外へ出ないよう伝えました。",
           "en": "The city warned residents through social media and announcement vehicles and told them not to go outside."
         },
@@ -17551,10 +17752,6 @@
         {
           "ja": "専門家は、アプリだけに頼らず、自分の体調にも注意してほしいと話しています。",
           "en": "Experts say people should not rely only on apps and should also pay attention to their own physical condition."
-        },
-        {
-          "ja": "気象庁は8日、日本の太平洋側の広い地域に津波注意報を出しました。",
-          "en": "On the 8th, the Japan Meteorological Agency issued a tsunami advisory for a wide area along Japan’s Pacific coast."
         }
       ]
     },
@@ -18204,6 +18401,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そこでNASAは、アメリカの会社カタリスト・スペースが作った「リンク」という宇宙船を送ります。",
+          "en": "NASA will therefore send a spacecraft called Link, built by the American company Katalyst Space."
+        },
+        {
           "ja": "切符の売り場だけでなく、船内の売店でもカードやスマートフォンで払えるようになりました。",
           "en": "Not only ticket counters but also onboard shops now accept cards and smartphones."
         },
@@ -18218,10 +18419,6 @@
         {
           "ja": "港の近くには、水素をためる設備や、船に入れるための装置も用意されました。",
           "en": "Storage equipment and fueling devices have also been prepared near the port."
-        },
-        {
-          "ja": "関係者は、将来は貨物船や作業船にもこの技術を広げたいと話しています。",
-          "en": "The people involved say they want to expand this technology to cargo ships and work boats in the future."
         }
       ]
     },
@@ -18815,6 +19012,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "アメリカは制裁を一部緩める可能性がありますが、詳しい内容はまだはっきりしていません。",
+          "en": "The United States may ease some sanctions, but the details are still not clear."
+        },
+        {
           "ja": "comをとても重視していることが、よりはっきり伝わりました。",
           "en": "com."
         }
@@ -18854,6 +19055,10 @@
           "readingHiragana": "はこびます",
           "meaning": "Polite form of 運ぶ: to carry, to transport",
           "exampleSentences": [
+            {
+              "ja": "リンクは6月27日に打ち上げられる予定で、3本のロボットアームでスウィフトをつかみ、より高く安全な軌道へ運びます。",
+              "en": "Link is scheduled to launch on June 27, grab Swift with three robotic arms, and move it to a higher, safer orbit."
+            },
             {
               "ja": "また、ドローンで薬や水を運ぶ想定の訓練もありました。",
               "en": "There were also drills assuming drones would carry medicine and water."
@@ -18967,6 +19172,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "ただ、イスラエルやイラン、アメリカの国内には強い反対もあります。",
+          "en": "However, there is also strong opposition in Israel, Iran, and the United States."
+        },
         {
           "ja": "初めの結果では、多くの有権者がこの案に反対しました。",
           "en": "Early results showed that many voters opposed the plan."
@@ -19253,7 +19462,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
+          "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
+        }
+      ]
     },
     {
       "id": "core-9e8cae08dfda50",
@@ -19526,7 +19740,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
+          "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "godan",
       "verbForms": [
@@ -19537,7 +19756,12 @@
           "term": "開きます",
           "readingHiragana": "ひらきます",
           "meaning": "Polite form of 開く: to open, to undo",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
+              "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
+            }
+          ]
         },
         {
           "form": "past",
@@ -19546,7 +19770,12 @@
           "term": "開いた",
           "readingHiragana": "ひらいた",
           "meaning": "Plain past form of 開く: to open, to undo",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
+              "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -19555,7 +19784,12 @@
           "term": "開かない",
           "readingHiragana": "ひらかない",
           "meaning": "Plain negative form of 開く: to open, to undo",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
+              "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
+            }
+          ]
         },
         {
           "form": "te",
@@ -19564,7 +19798,12 @@
           "term": "開いて",
           "readingHiragana": "ひらいて",
           "meaning": "Te-form of 開く: to open, to undo",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
+              "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -19573,7 +19812,12 @@
           "term": "開ける",
           "readingHiragana": "ひらける",
           "meaning": "Potential form of 開く: to open, to undo",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
+              "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
+            }
+          ]
         }
       ]
     },
@@ -19919,6 +20163,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "もともとの予定は2年間でしたが、20年以上たった今も科学のために働いています。",
+          "en": "Its mission was originally planned for two years, but more than 20 years later, it is still working for science."
+        },
+        {
+          "ja": "それでも成功すれば、スウィフトはさらに5年以上観測を続けられる可能性があります。",
+          "en": "Even so, if the mission succeeds, Swift may be able to continue observing for at least five more years."
+        },
+        {
           "ja": "ロイターの記事では、ブレント原油の先物価格が3ドル以上上がり、1バレル104.",
           "en": "The Reuters article said that Brent crude futures rose more than 3 dollars to 104."
         }
@@ -20152,6 +20404,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ホルムズ海峡は、世界の石油や貿易にとってとても重要な場所です。",
+          "en": "The Strait of Hormuz is very important for the world's oil and trade."
+        },
+        {
           "ja": "ここが十分に使えないと、世界中に石油を送ることがむずかしくなります。",
           "en": "If it cannot be used fully, it becomes difficult to send oil around the world."
         }
@@ -20345,6 +20601,14 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "事故にあったのは、東京発博多行きの「のぞみ49号」です。",
+          "en": "The train involved was Nozomi 49, traveling from Tokyo to Hakata."
+        },
+        {
+          "ja": "この事故で、東海道新幹線は東京と新大阪の間の全線で運転を見合わせました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
         {
           "ja": "この事故の後、安全対策について議論が起きました。",
           "en": "After the incident, a debate began about safety measures."
@@ -20720,6 +20984,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "もともとの予定は2年間でしたが、20年以上たった今も科学のために働いています。",
+          "en": "Its mission was originally planned for two years, but more than 20 years later, it is still working for science."
+        },
+        {
           "ja": "文部科学省は、学校ごとの状況にあわせて柔軟に運用できる指針を示したい考えです。",
           "en": "The education ministry wants to present guidelines that schools can apply flexibly according to their situations."
         }
@@ -20738,7 +21006,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
+          "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
+        }
+      ]
     },
     {
       "id": "core-96aa8c29c78f5d",
@@ -21227,6 +21500,10 @@
           "meaning": "Te-form of 考える: to think about",
           "exampleSentences": [
             {
+              "ja": "リンクはわずか9か月で開発され、スウィフトは修理されることを考えて作られていません。",
+              "en": "Link was developed in only nine months, and Swift was not designed to be serviced."
+            },
+            {
               "ja": "専門家は、クマの数が増えたことや、地方で人が少なくなったことが原因の一つだと考えています。",
               "en": "Experts think one reason is that bear numbers have grown while rural populations have shrunk."
             },
@@ -21241,10 +21518,6 @@
             {
               "ja": "両国は、難しい国際情勢の中で、協力を弱めないことが重要だと考えています。",
               "en": "Both sides believe it is important not to weaken cooperation amid difficult international conditions."
-            },
-            {
-              "ja": "comのデータやサービスが大切だと考えています。",
-              "en": "LY believes Kakaku.com’s data and services are important in the AI era. It appears to want Kakaku.com in its group so it can use AI more in search, recommendation functions, and advertising."
             }
           ]
         },
@@ -21941,6 +22214,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "警察は、その人の死亡を確認しました。",
+          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
+        },
+        {
           "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
           "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
         }
@@ -22101,6 +22378,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "このままでは、2026年内に大気圏へ入り、燃えてしまう可能性があります。",
+          "en": "If nothing changes, it may enter the atmosphere and burn up by the end of 2026."
+        },
+        {
+          "ja": "太陽の活動が強くなり、地球の大気が広がったため、予想より強い抵抗を受けて高度が下がりました。",
+          "en": "Stronger solar activity expanded Earth's atmosphere, so the telescope experienced more drag than expected and lost altitude."
+        },
+        {
           "ja": "グリーンシューは、投資家の熱気と市場の不安の間で、値段を落ち着かせるための道具だと考えるとわかりやすいです。",
           "en": "It is easiest to think of a greenshoe as a tool for calming the price between investor excitement and market anxiety."
         },
@@ -22111,14 +22396,6 @@
         {
           "ja": "頭が痛い、気分が悪いなどの症状がある時は、すぐに涼しい場所へ移動することが大切です。",
           "en": "If symptoms such as a headache or feeling unwell appear, it is important to move to a cool place right away."
-        },
-        {
-          "ja": "気象庁は8日、日本の太平洋側の広い地域に津波注意報を出しました。",
-          "en": "On the 8th, the Japan Meteorological Agency issued a tsunami advisory for a wide area along Japan’s Pacific coast."
-        },
-        {
-          "ja": "気象庁は、最大1メートルの津波が来る可能性があると発表しました。",
-          "en": "The agency announced that waves of up to one meter could arrive."
         }
       ]
     },
@@ -22186,6 +22463,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "そのため、接近してつかむ作業には大きな危険があります。",
+          "en": "Approaching and grabbing it therefore carries major risks."
+        },
         {
           "ja": "アプリは気温や湿度を見て、危険が高い時に知らせます。",
           "en": "The apps check temperature and humidity and send alerts when the danger is high."
@@ -22578,6 +22859,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ただ、イスラエルやイラン、アメリカの国内には強い反対もあります。",
+          "en": "However, there is also strong opposition in Israel, Iran, and the United States."
+        },
+        {
           "ja": "航空会社は国内線と国際線を含む多くの便を欠航にし、新幹線や在来線にも遅れや運休が出ました。",
           "en": "Airlines canceled many domestic and international flights, and bullet trains and local rail services also saw delays and suspensions."
         },
@@ -22806,6 +23091,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "中東の緊張が下がるかどうかは、これからの交渉にかかっています。",
+          "en": "Whether tensions in the Middle East will decrease depends on the negotiations from here."
+        },
+        {
           "ja": "これから本格的な夏に向けて、どこまで効果があるかが注目されています。",
           "en": "As full summer approaches, people are watching closely to see how effective they will be."
         },
@@ -22820,10 +23109,6 @@
         {
           "ja": "半導体やエネルギーのような重要な分野で、お互いに助け合うことが、これからさらに必要になるとみられています。",
           "en": "In important fields like semiconductors and energy, mutual support is expected to become even more necessary."
-        },
-        {
-          "ja": "両国は、安全保障や地域の安定のために、これからも緊密に連携していく方針です。",
-          "en": "The two countries plan to keep working closely together for security and regional stability."
         }
       ]
     },
@@ -22872,6 +23157,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "事故にあったのは、東京発博多行きの「のぞみ49号」です。",
+          "en": "The train involved was Nozomi 49, traveling from Tokyo to Hakata."
+        },
+        {
+          "ja": "この事故で、東海道新幹線は東京と新大阪の間の全線で運転を見合わせました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
+        {
           "ja": "この事故の後、安全対策について議論が起きました。",
           "en": "After the incident, a debate began about safety measures."
         },
@@ -22882,14 +23175,6 @@
         {
           "ja": "危険な時間帯には、屋外の仕事を減らし、日陰で休む時間を長くしています。",
           "en": "During dangerous time periods, they reduce outdoor work and take longer breaks in the shade."
-        },
-        {
-          "ja": "企業には、災害後も重要な業務を続けるための事業継続計画を作ることが求められます。",
-          "en": "Companies will be asked to prepare business continuity plans so they can keep important operations running after a disaster."
-        },
-        {
-          "ja": "ホテルの職員は、簡単な質問をロボットにまかせることで、別の仕事に時間を使いやすくなったと話しています。",
-          "en": "Hotel staff say that by leaving simple questions to robots, they can spend more time on other work."
         }
       ]
     },
@@ -23124,6 +23409,10 @@
           "meaning": "Plain past form of 壊れる: to be broken",
           "exampleSentences": [
             {
+              "ja": "車両の先頭部分が壊れた可能性があり、JR東海が調べています。",
+              "en": "The front of the train may have been damaged, and JR Central is investigating."
+            },
+            {
               "ja": "昨年の被害想定では、最悪の場合、およそ1万8000人が亡くなり、約40万棟の建物が壊れたり焼けたりする可能性が示されました。",
               "en": "Last year's damage estimate showed that in the worst case about 18,000 people could die and around 400,000 buildings could collapse or burn."
             }
@@ -23237,6 +23526,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "G7の首脳たちは、この外交の動きを支持すると述べました。",
+          "en": "G7 leaders said they support this diplomatic move."
+        },
+        {
           "ja": "政府は、首都直下地震が起きた場合の被害を今後10年で大幅に減らすため、防災計画を改定する方針です。",
           "en": "The government plans to revise its disaster-prevention plan to sharply reduce damage from a possible inland earthquake beneath the Tokyo area over the next decade."
         },
@@ -23251,10 +23544,6 @@
         {
           "ja": "高市首相によると、トランプ大統領は中国を訪問したあとでも、日本との関係を重視する姿勢を示しました。",
           "en": "According to Takaichi, President Trump showed that he still places importance on ties with Japan even after visiting China. The message was that the U.S.-Japan alliance will not change even while the U.S. talks with other countries."
-        },
-        {
-          "ja": "日本の高市首相が、イギリスのロックバンド、ディープ・パープルを首相官邸で迎えました。",
-          "en": "Japan's Prime Minister Sanae Takaichi welcomed the British rock band Deep Purple at the prime minister's office."
         }
       ]
     },
@@ -23941,6 +24230,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
+          "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
+        },
+        {
           "ja": "駅の周りでは、列車の到着にあわせて土産店やカフェが営業を広げています。",
           "en": "Around the stations, souvenir shops and cafes are extending business hours to match the train’s arrivals."
         }
@@ -23959,7 +24252,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
+          "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "godan",
       "verbForms": [
@@ -23970,7 +24268,12 @@
           "term": "回ります",
           "readingHiragana": "まわります",
           "meaning": "Polite form of 回る: to turn, to revolve",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
+              "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
+            }
+          ]
         },
         {
           "form": "past",
@@ -23979,7 +24282,12 @@
           "term": "回った",
           "readingHiragana": "まわった",
           "meaning": "Plain past form of 回る: to turn, to revolve",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
+              "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -23988,7 +24296,12 @@
           "term": "回らない",
           "readingHiragana": "まわらない",
           "meaning": "Plain negative form of 回る: to turn, to revolve",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
+              "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
+            }
+          ]
         },
         {
           "form": "te",
@@ -23997,7 +24310,16 @@
           "term": "回って",
           "readingHiragana": "まわって",
           "meaning": "Te-form of 回る: to turn, to revolve",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "ホームドアがない駅では、安全のために職員がホームを見回っています。",
+              "en": "At stations without platform doors, staff patrol the platforms for safety."
+            },
+            {
+              "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
+              "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -24006,7 +24328,12 @@
           "term": "回れる",
           "readingHiragana": "まわれる",
           "meaning": "Potential form of 回る: to turn, to revolve",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
+              "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
+            }
+          ]
         }
       ]
     },
@@ -26312,7 +26639,12 @@
           "term": "落ちて",
           "readingHiragana": "おちて",
           "meaning": "Te-form of 落ちる: to fall down, to drop",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
+              "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -26869,6 +27201,10 @@
           "readingHiragana": "おくります",
           "meaning": "Polite form of 送る: to send, to dispatch",
           "exampleSentences": [
+            {
+              "ja": "そこでNASAは、アメリカの会社カタリスト・スペースが作った「リンク」という宇宙船を送ります。",
+              "en": "NASA will therefore send a spacecraft called Link, built by the American company Katalyst Space."
+            },
             {
               "ja": "管理者は、同じ内容を働く人や生徒にすぐ送ることができます。",
               "en": "Managers can quickly send the same information to workers or students."
@@ -27732,6 +28068,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "中東の緊張が下がるかどうかは、これからの交渉にかかっています。",
+          "en": "Whether tensions in the Middle East will decrease depends on the negotiations from here."
+        },
+        {
           "ja": "投資家の中には、円がもっと下がると考えていた人も多く、急な変化におどろきました。",
           "en": "Many investors had thought the yen would fall further, so they were surprised by the sudden change."
         }
@@ -27748,6 +28088,10 @@
           "meaning": "Polite form of 下がる: to come down, to get lower",
           "exampleSentences": [
             {
+              "ja": "中東の緊張が下がるかどうかは、これからの交渉にかかっています。",
+              "en": "Whether tensions in the Middle East will decrease depends on the negotiations from here."
+            },
+            {
               "ja": "投資家の中には、円がもっと下がると考えていた人も多く、急な変化におどろきました。",
               "en": "Many investors had thought the yen would fall further, so they were surprised by the sudden change."
             }
@@ -27761,6 +28105,10 @@
           "readingHiragana": "さがった",
           "meaning": "Plain past form of 下がる: to come down, to get lower",
           "exampleSentences": [
+            {
+              "ja": "中東の緊張が下がるかどうかは、これからの交渉にかかっています。",
+              "en": "Whether tensions in the Middle East will decrease depends on the negotiations from here."
+            },
             {
               "ja": "投資家の中には、円がもっと下がると考えていた人も多く、急な変化におどろきました。",
               "en": "Many investors had thought the yen would fall further, so they were surprised by the sudden change."
@@ -27776,6 +28124,10 @@
           "meaning": "Plain negative form of 下がる: to come down, to get lower",
           "exampleSentences": [
             {
+              "ja": "中東の緊張が下がるかどうかは、これからの交渉にかかっています。",
+              "en": "Whether tensions in the Middle East will decrease depends on the negotiations from here."
+            },
+            {
               "ja": "投資家の中には、円がもっと下がると考えていた人も多く、急な変化におどろきました。",
               "en": "Many investors had thought the yen would fall further, so they were surprised by the sudden change."
             }
@@ -27790,6 +28142,10 @@
           "meaning": "Te-form of 下がる: to come down, to get lower",
           "exampleSentences": [
             {
+              "ja": "中東の緊張が下がるかどうかは、これからの交渉にかかっています。",
+              "en": "Whether tensions in the Middle East will decrease depends on the negotiations from here."
+            },
+            {
               "ja": "投資家の中には、円がもっと下がると考えていた人も多く、急な変化におどろきました。",
               "en": "Many investors had thought the yen would fall further, so they were surprised by the sudden change."
             }
@@ -27803,6 +28159,10 @@
           "readingHiragana": "さがれる",
           "meaning": "Potential form of 下がる: to come down, to get lower",
           "exampleSentences": [
+            {
+              "ja": "中東の緊張が下がるかどうかは、これからの交渉にかかっています。",
+              "en": "Whether tensions in the Middle East will decrease depends on the negotiations from here."
+            },
             {
               "ja": "投資家の中には、円がもっと下がると考えていた人も多く、急な変化におどろきました。",
               "en": "Many investors had thought the yen would fall further, so they were surprised by the sudden change."
@@ -28456,6 +28816,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ホルムズ海峡は、世界の石油や貿易にとってとても重要な場所です。",
+          "en": "The Strait of Hormuz is very important for the world's oil and trade."
+        },
+        {
           "ja": "初めの取引では株価が大きく上がり、世界中の投資家が注目しました。",
           "en": "Its share price rose sharply in early trading, drawing attention from investors around the world."
         },
@@ -28508,8 +28872,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "航空会社は国内線と国際線を含む多くの便を欠航にし、新幹線や在来線にも遅れや運休が出ました。",
-          "en": "Airlines canceled many domestic and international flights, and bullet trains and local rail services also saw delays and suspensions."
+          "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
+          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
+        },
+        {
+          "ja": "防犯カメラなどによると、その人は上りホームの柵の切れ目から線路に降りました。",
+          "en": "According to security-camera footage and other evidence, the person went down to the tracks through a gap in the fence on the inbound platform."
+        },
+        {
+          "ja": "そして、2本の線路を横断し、下り線まで歩いたことが確認されました。",
+          "en": "The person then crossed two tracks and walked to the outbound track."
+        },
+        {
+          "ja": "この事故で、東海道新幹線は東京と新大阪の間の全線で運転を見合わせました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
+        {
+          "ja": "山陽新幹線の上り線にも影響が広がりました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
         }
       ]
     },
@@ -28556,7 +28936,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "アメリカとイランは、戦争を終わらせるための一時的な合意について話し合っています。",
+          "en": "The United States and Iran are discussing a temporary agreement to end the war."
+        }
+      ]
     },
     {
       "id": "core-c40243fead8c79",
@@ -29060,6 +29445,10 @@
           "meaning": "Te-form of 調べる: to examine, to investigate",
           "exampleSentences": [
             {
+              "ja": "車両の先頭部分が壊れた可能性があり、JR東海が調べています。",
+              "en": "The front of the train may have been damaged, and JR Central is investigating."
+            },
+            {
               "ja": "ドローンは、道路が通れるかどうかや、川の水がどこまで来ているかを、すばやく調べることができます。",
               "en": "Drones can quickly check whether roads are passable and how far river water has reached."
             },
@@ -29528,7 +29917,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "それでも成功すれば、スウィフトはさらに5年以上観測を続けられる可能性があります。",
+          "en": "Even so, if the mission succeeds, Swift may be able to continue observing for at least five more years."
+        }
+      ]
     },
     {
       "id": "core-1ed33e5f4f5407",
@@ -29994,7 +30388,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "そのため、停戦案が本当に進むかはまだわかりません。",
+          "en": "Because of that, it is still unclear whether the ceasefire plan will really move forward."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "godan",
       "verbForms": [
@@ -30005,7 +30404,12 @@
           "term": "進みます",
           "readingHiragana": "すすみます",
           "meaning": "Polite form of 進む: to advance, to go forward",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "そのため、停戦案が本当に進むかはまだわかりません。",
+              "en": "Because of that, it is still unclear whether the ceasefire plan will really move forward."
+            }
+          ]
         },
         {
           "form": "past",
@@ -30018,6 +30422,10 @@
             {
               "ja": "モロッコは2022年の大会でベスト4まで進んだチームです。",
               "en": "Morocco reached the semifinals in the 2022 tournament."
+            },
+            {
+              "ja": "そのため、停戦案が本当に進むかはまだわかりません。",
+              "en": "Because of that, it is still unclear whether the ceasefire plan will really move forward."
             }
           ]
         },
@@ -30028,7 +30436,12 @@
           "term": "進まない",
           "readingHiragana": "すすまない",
           "meaning": "Plain negative form of 進む: to advance, to go forward",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "そのため、停戦案が本当に進むかはまだわかりません。",
+              "en": "Because of that, it is still unclear whether the ceasefire plan will really move forward."
+            }
+          ]
         },
         {
           "form": "te",
@@ -30037,7 +30450,12 @@
           "term": "進んで",
           "readingHiragana": "すすんで",
           "meaning": "Te-form of 進む: to advance, to go forward",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "そのため、停戦案が本当に進むかはまだわかりません。",
+              "en": "Because of that, it is still unclear whether the ceasefire plan will really move forward."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -30062,6 +30480,10 @@
             {
               "ja": "このお金は、研究や開発をもっと早く進めるために使われます。",
               "en": "This money will be used to speed up research and development."
+            },
+            {
+              "ja": "そのため、停戦案が本当に進むかはまだわかりません。",
+              "en": "Because of that, it is still unclear whether the ceasefire plan will really move forward."
             }
           ]
         }
@@ -31470,24 +31892,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
+          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
+        },
+        {
+          "ja": "リンクは6月27日に打ち上げられる予定で、3本のロボットアームでスウィフトをつかみ、より高く安全な軌道へ運びます。",
+          "en": "Link is scheduled to launch on June 27, grab Swift with three robotic arms, and move it to a higher, safer orbit."
+        },
+        {
+          "ja": "リンクはわずか9か月で開発され、スウィフトは修理されることを考えて作られていません。",
+          "en": "Link was developed in only nine months, and Swift was not designed to be serviced."
+        },
+        {
           "ja": "スイスで2026年6月14日、国民投票が行われました。",
           "en": "On June 14, 2026, Switzerland held a national referendum."
         },
         {
           "ja": "2026年6月14日、FIFAワールドカップのグループCで、ブラジルとモロッコが1対1で引き分けました。",
           "en": "On June 14, 2026, Brazil and Morocco drew 1-1 in Group C of the FIFA World Cup."
-        },
-        {
-          "ja": "アメリカの宇宙企業スペースXは、6月12日に株式市場に上場しました。",
-          "en": "The American space company SpaceX listed on the stock market on June 12."
-        },
-        {
-          "ja": "町は3か月の実験で、利用した人数や運行にかかる費用を調べます。",
-          "en": "During the three-month trial, the town will study the number of users and the cost of operating the buses."
-        },
-        {
-          "ja": "5月15日、高市首相は、アメリカのトランプ大統領と会談し、日本とアメリカの同盟がとても重要だとあらためて確認したと話しました。",
-          "en": "On May 15, Prime Minister Takaichi said she met with U.S. President Trump and reconfirmed that the Japan-U.S. alliance is very important."
         }
       ]
     },
@@ -31991,6 +32413,10 @@
           "meaning": "Potential form of 続ける: to continue, to keep up",
           "exampleSentences": [
             {
+              "ja": "それでも成功すれば、スウィフトはさらに5年以上観測を続けられる可能性があります。",
+              "en": "Even so, if the mission succeeds, Swift may be able to continue observing for at least five more years."
+            },
+            {
               "ja": "企業には、災害後も重要な業務を続けるための事業継続計画を作ることが求められます。",
               "en": "Companies will be asked to prepare business continuity plans so they can keep important operations running after a disaster."
             },
@@ -32370,6 +32796,10 @@
           "meaning": "Te-form of 受ける: to receive, to get",
           "exampleSentences": [
             {
+              "ja": "太陽の活動が強くなり、地球の大気が広がったため、予想より強い抵抗を受けて高度が下がりました。",
+              "en": "Stronger solar activity expanded Earth's atmosphere, so the telescope experienced more drag than expected and lost altitude."
+            },
+            {
               "ja": "2月には、民間の会社からも1600億円くらいの投資を受けています。",
               "en": "In February, it also received about 160 billion yen in investment from private companies."
             }
@@ -32445,6 +32875,14 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "この事故で、東海道新幹線は東京と新大阪の間の全線で運転を見合わせました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
+        {
+          "ja": "運転は約3時間後の午後8時48分に再開しました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
         {
           "ja": "そのため、必要な時だけ走る仕組みにして、運転手や燃料の負担を減らしたい考えです。",
           "en": "The town wants to reduce the burden on drivers and fuel use by running buses only when needed."
@@ -33879,6 +34317,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "もともとの予定は2年間でしたが、20年以上たった今も科学のために働いています。",
+          "en": "Its mission was originally planned for two years, but more than 20 years later, it is still working for science."
+        },
+        {
+          "ja": "リンクは6月27日に打ち上げられる予定で、3本のロボットアームでスウィフトをつかみ、より高く安全な軌道へ運びます。",
+          "en": "Link is scheduled to launch on June 27, grab Swift with three robotic arms, and move it to a higher, safer orbit."
+        },
+        {
           "ja": "ニューヨークでは、優勝パレードも予定されています。",
           "en": "A championship parade is also planned in New York."
         },
@@ -33889,14 +34335,6 @@
         {
           "ja": "結果がよければ、来年から正式なサービスにする予定です。",
           "en": "If the results are good, it plans to make the service official next year."
-        },
-        {
-          "ja": "通勤や出張の予定を変更する人が多く、駅や空港では最新情報を確認する姿が目立ちました。",
-          "en": "Many people changed commuting or business-trip plans, while stations and airports were filled with travelers checking the latest information."
-        },
-        {
-          "ja": "こどもの本や日本語学習の資料への案内にも活用する予定です。",
-          "en": "They also plan to use them to guide people to children’s books and Japanese-learning materials."
         }
       ]
     },
@@ -34191,6 +34629,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "ホルムズ海峡は、世界の石油や貿易にとってとても重要な場所です。",
+          "en": "The Strait of Hormuz is very important for the world's oil and trade."
+        },
         {
           "ja": "2026年5月11日、原油価格が大きく上がりました。",
           "en": "On May 11, 2026, crude oil prices rose sharply."
@@ -34784,24 +35226,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
+          "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
+        },
+        {
+          "ja": "そのため、停戦案が本当に進むかはまだわかりません。",
+          "en": "Because of that, it is still unclear whether the ceasefire plan will really move forward."
+        },
+        {
+          "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
+          "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
+        },
+        {
           "ja": "争点の一つは、国の人口を2050年まで1000万人までに抑える提案でした。",
           "en": "One issue was a proposal to keep the country's population at no more than 10 million by 2050."
         },
         {
           "ja": "初めの結果では、多くの有権者がこの案に反対しました。",
           "en": "Early results showed that many voters opposed the plan."
-        },
-        {
-          "ja": "この提案は、右派のスイス国民党が進めたものです。",
-          "en": "The proposal was promoted by the right-wing Swiss People's Party. Switzerland's population is now about 9.1 million and has grown greatly since 2002. Supporters said the burden on housing, transportation, and public services was becoming heavy."
-        },
-        {
-          "ja": "案が通れば、人口が950万人に近づいたとき、政府は移民や難民、家族の呼び寄せを厳しく制限することになります。",
-          "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
-        },
-        {
-          "ja": "反対派は、この案がスイスの経済に悪い影響を与えると主張しました。",
-          "en": "Opponents argued that the plan would hurt Switzerland's economy."
         }
       ]
     },
@@ -35748,6 +36190,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ホルムズ海峡は、世界の石油や貿易にとってとても重要な場所です。",
+          "en": "The Strait of Hormuz is very important for the world's oil and trade."
+        },
+        {
           "ja": "女性は土曜日の朝、岸に近い場所で泳いでいました。",
           "en": "She was swimming near the shore on Saturday morning."
         },
@@ -35762,10 +36208,6 @@
         {
           "ja": "アメリカの宇宙企業スペースXは、6月12日に株式市場に上場しました。",
           "en": "The American space company SpaceX listed on the stock market on June 12."
-        },
-        {
-          "ja": "もし上場後に株価が下がれば、証券会社は市場で株を買い戻します。",
-          "en": "If the share price falls after listing, the securities firms buy shares back in the market."
         }
       ]
     },
@@ -35812,7 +36254,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
+          "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
+        }
+      ]
     },
     {
       "id": "core-dad6744906651c",
@@ -36107,7 +36554,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "車両の先頭部分が壊れた可能性があり、JR東海が調べています。",
+          "en": "The front of the train may have been damaged, and JR Central is investigating."
+        }
+      ]
     },
     {
       "id": "core-b27b3113f87497",
@@ -36226,24 +36678,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
+          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
+        },
+        {
+          "ja": "車両の先頭部分が壊れた可能性があり、JR東海が調べています。",
+          "en": "The front of the train may have been damaged, and JR Central is investigating."
+        },
+        {
+          "ja": "運転は約3時間後の午後8時48分に再開しました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
+        {
+          "ja": "しかし、スウィフトには自分で軌道を上げるためのエンジンがありません。",
+          "en": "However, Swift has no engine for raising its own orbit."
+        },
+        {
           "ja": "医療、金融、技術などの分野では、外国から来た働く人が重要です。",
           "en": "In fields such as healthcare, finance, and technology, workers from other countries are important."
-        },
-        {
-          "ja": "2026年6月14日、FIFAワールドカップのグループCで、ブラジルとモロッコが1対1で引き分けました。",
-          "en": "On June 14, 2026, Brazil and Morocco drew 1-1 in Group C of the FIFA World Cup."
-        },
-        {
-          "ja": "今回の引き分けで、今年も強い相手になりそうだと感じさせました。",
-          "en": "This draw made people feel that Morocco may again be a strong opponent this year."
-        },
-        {
-          "ja": "通知には、水分をとること、休憩すること、外での活動を短くすることなどが書かれています。",
-          "en": "The notifications include messages about drinking water, taking breaks, and shortening outdoor activities."
-        },
-        {
-          "ja": "専門家は、アプリだけに頼らず、自分の体調にも注意してほしいと話しています。",
-          "en": "Experts say people should not rely only on apps and should also pay attention to their own physical condition."
         }
       ]
     },
@@ -36766,7 +37218,16 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
+          "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
+        },
+        {
+          "ja": "太陽の活動が強くなり、地球の大気が広がったため、予想より強い抵抗を受けて高度が下がりました。",
+          "en": "Stronger solar activity expanded Earth's atmosphere, so the telescope experienced more drag than expected and lost altitude."
+        }
+      ]
     },
     {
       "id": "core-440cabc26a032e",
@@ -37704,6 +38165,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "太陽の活動が強くなり、地球の大気が広がったため、予想より強い抵抗を受けて高度が下がりました。",
+          "en": "Stronger solar activity expanded Earth's atmosphere, so the telescope experienced more drag than expected and lost altitude."
+        },
+        {
           "ja": "ヴィニシウスは狭い角度からシュートを決め、ブラジルの応援席を安心させました。",
           "en": "Vinicius scored from a tight angle, calming the Brazil supporters."
         },
@@ -37718,10 +38183,6 @@
         {
           "ja": "アプリは気温や湿度を見て、危険が高い時に知らせます。",
           "en": "The apps check temperature and humidity and send alerts when the danger is high."
-        },
-        {
-          "ja": "温室の中では、温度や水の管理を自動でできるようにする予定です。",
-          "en": "Inside the greenhouse, temperature and water management will be automated."
         }
       ]
     },
@@ -37919,6 +38380,14 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "そのため、各国の政府や企業は、この合意が実行されるかどうかを注意して見ています。",
+          "en": "For that reason, governments and companies are watching carefully to see whether the agreement will be carried out."
+        },
+        {
+          "ja": "中東の緊張が下がるかどうかは、これからの交渉にかかっています。",
+          "en": "Whether tensions in the Middle East will decrease depends on the negotiations from here."
+        },
         {
           "ja": "ドローンは、道路が通れるかどうかや、川の水がどこまで来ているかを、すばやく調べることができます。",
           "en": "Drones can quickly check whether roads are passable and how far river water has reached."
@@ -38187,6 +38656,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "山陽新幹線の上り線にも影響が広がりました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
         {
           "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
@@ -39373,6 +39846,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "G7の首脳たちは、この外交の動きを支持すると述べました。",
+          "en": "G7 leaders said they support this diplomatic move."
+        },
+        {
           "ja": "政府は、トップどうしが同じ考えを示したことで、今後の外交や政策が進めやすくなると期待しています。",
           "en": "The government expects that showing agreement at the top level will make future diplomacy and policy coordination easier."
         }
@@ -39483,6 +39960,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "もともとの予定は2年間でしたが、20年以上たった今も科学のために働いています。",
+          "en": "Its mission was originally planned for two years, but more than 20 years later, it is still working for science."
+        },
+        {
           "ja": "栃木県の宇都宮市では、クマが公園や学校、図書館の近くに出て、多くの人を怖がらせました。",
           "en": "In Utsunomiya, Tochigi Prefecture, a bear appeared near parks, schools, and a library, frightening many people."
         },
@@ -39497,10 +39978,6 @@
         {
           "ja": "クマは公園や学校、図書館の近くでも見つかりました。",
           "en": "The bear was seen near a park, schools, and a library."
-        },
-        {
-          "ja": "安全のために、市立の学校は二日間休みになりました。",
-          "en": "For safety, city-run schools were closed for two days."
         }
       ]
     },
@@ -40154,7 +40631,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "しかし、イランはイスラエルがレバノン南部から軍を引くことも必要だと話しました。",
+          "en": "However, Iran said that Israel must also withdraw its forces from southern Lebanon."
+        }
+      ]
     },
     {
       "id": "core-ffe3bda231e556",
@@ -41024,7 +41506,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
+          "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "godan",
       "verbForms": [
@@ -41035,7 +41522,12 @@
           "term": "話し合います",
           "readingHiragana": "はなしあいます",
           "meaning": "Polite form of 話し合う: to discuss",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
+              "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
+            }
+          ]
         },
         {
           "form": "past",
@@ -41044,7 +41536,12 @@
           "term": "話し合った",
           "readingHiragana": "はなしあった",
           "meaning": "Plain past form of 話し合う: to discuss",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
+              "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -41053,7 +41550,12 @@
           "term": "話し合わない",
           "readingHiragana": "はなしあわない",
           "meaning": "Plain negative form of 話し合う: to discuss",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
+              "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
+            }
+          ]
         },
         {
           "form": "te",
@@ -41062,7 +41564,16 @@
           "term": "話し合って",
           "readingHiragana": "はなしあって",
           "meaning": "Te-form of 話し合う: to discuss",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "アメリカとイランは、戦争を終わらせるための一時的な合意について話し合っています。",
+              "en": "The United States and Iran are discussing a temporary agreement to end the war."
+            },
+            {
+              "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
+              "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -41071,7 +41582,12 @@
           "term": "話し合える",
           "readingHiragana": "はなしあえる",
           "meaning": "Potential form of 話し合う: to discuss",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
+              "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
+            }
+          ]
         }
       ]
     },
@@ -42342,7 +42858,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
+          "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
+        }
+      ]
     },
     {
       "id": "core-6a62c298fec0fd",
@@ -42648,6 +43169,10 @@
           "readingHiragana": "ひろがった",
           "meaning": "Plain past form of 広がる: to spread out, to extend",
           "exampleSentences": [
+            {
+              "ja": "太陽の活動が強くなり、地球の大気が広がったため、予想より強い抵抗を受けて高度が下がりました。",
+              "en": "Stronger solar activity expanded Earth's atmosphere, so the telescope experienced more drag than expected and lost altitude."
+            },
             {
               "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
               "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
@@ -43846,6 +44371,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "アメリカは制裁を一部緩める可能性がありますが、詳しい内容はまだはっきりしていません。",
+          "en": "The United States may ease some sanctions, but the details are still not clear."
+        },
+        {
           "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
           "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
         },
@@ -43888,6 +44417,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "アメリカとイランは、戦争を終わらせるための一時的な合意について話し合っています。",
+          "en": "The United States and Iran are discussing a temporary agreement to end the war."
+        },
         {
           "ja": "自動車メーカーの一部は、従業員の安全や部品輸送への影響を考慮して、工場の操業を一時停止しました。",
           "en": "Some automakers temporarily stopped factory operations after considering worker safety and impacts on parts transport."
@@ -45281,7 +45814,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "そのため、各国の政府や企業は、この合意が実行されるかどうかを注意して見ています。",
+          "en": "For that reason, governments and companies are watching carefully to see whether the agreement will be carried out."
+        }
+      ]
     },
     {
       "id": "core-063d38332e98a0",
@@ -45825,6 +46363,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "イスラエルはこの条件を受け入れていません。",
+          "en": "Israel has not accepted this condition."
+        },
+        {
           "ja": "買収を成功させるために、より強い条件を出したとみられています。",
           "en": "It is seen as a move to present stronger terms and improve their chances of completing the acquisition."
         }
@@ -46213,6 +46755,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ホルムズ海峡は、世界の石油や貿易にとってとても重要な場所です。",
+          "en": "The Strait of Hormuz is very important for the world's oil and trade."
+        },
+        {
           "ja": "医療、金融、技術などの分野では、外国から来た働く人が重要です。",
           "en": "In fields such as healthcare, finance, and technology, workers from other countries are important."
         },
@@ -46227,10 +46773,6 @@
         {
           "ja": "5月15日、高市首相は、アメリカのトランプ大統領と会談し、日本とアメリカの同盟がとても重要だとあらためて確認したと話しました。",
           "en": "On May 15, Prime Minister Takaichi said she met with U.S. President Trump and reconfirmed that the Japan-U.S. alliance is very important."
-        },
-        {
-          "ja": "両国は、難しい国際情勢の中で、協力を弱めないことが重要だと考えています。",
-          "en": "Both sides believe it is important not to weaken cooperation amid difficult international conditions."
         }
       ]
     },
@@ -46498,6 +47040,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そこでNASAは、アメリカの会社カタリスト・スペースが作った「リンク」という宇宙船を送ります。",
+          "en": "NASA will therefore send a spacecraft called Link, built by the American company Katalyst Space."
+        },
+        {
           "ja": "政府や議会、経済団体も反対しました。",
           "en": "The government, parliament, and business groups also opposed the proposal."
         },
@@ -46512,10 +47058,6 @@
         {
           "ja": "モロッコは2022年の大会でベスト4まで進んだチームです。",
           "en": "Morocco reached the semifinals in the 2022 tournament."
-        },
-        {
-          "ja": "IPOでは、証券会社が会社の株を投資家に売ります。",
-          "en": "In an IPO, securities firms sell a company’s shares to investors."
         }
       ]
     },
@@ -46534,6 +47076,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ホームドアがない駅では、安全のために職員がホームを見回っています。",
+          "en": "At stations without platform doors, staff patrol the platforms for safety."
+        },
+        {
+          "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
+          "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
+        },
+        {
           "ja": "今回の結果は、移民への不安と、EUとの結びつきを守りたい考えが、スイス社会でぶつかっていることを示しました。",
           "en": "\" The result showed that anxiety about immigration and the wish to protect ties with the EU are clashing in Swiss society."
         },
@@ -46544,14 +47094,6 @@
         {
           "ja": "天候が回復した地域から、順次再開する動きも見られました。",
           "en": "In areas where the weather improved, operations began to restart gradually."
-        },
-        {
-          "ja": "今回の実験がうまくいけば、ほかの港でも同じような取り組みが始まるかもしれません。",
-          "en": "If this test goes well, similar efforts may begin at other ports too."
-        },
-        {
-          "ja": "今回の対策では、肥料や燃料の費用が高くなった地域に、より多くの補助金を出します。",
-          "en": "Under the new plan, areas where fertilizer and fuel costs have become high will receive more subsidies."
         }
       ]
     },
@@ -46909,6 +47451,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "山陽新幹線の上り線にも影響が広がりました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
+        {
           "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
         },
@@ -47258,6 +47804,10 @@
           "readingHiragana": "",
           "meaning": "Te-form of かかる: to suffer from",
           "exampleSentences": [
+            {
+              "ja": "中東の緊張が下がるかどうかは、これからの交渉にかかっています。",
+              "en": "Whether tensions in the Middle East will decrease depends on the negotiations from here."
+            },
             {
               "ja": "町は3か月の実験で、利用した人数や運行にかかる費用を調べます。",
               "en": "During the three-month trial, the town will study the number of users and the cost of operating the buses."
@@ -47659,6 +48209,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "警察は、その人の死亡を確認しました。",
+          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
+        },
+        {
+          "ja": "そして、2本の線路を横断し、下り線まで歩いたことが確認されました。",
+          "en": "The person then crossed two tracks and walked to the outbound track."
+        },
+        {
           "ja": "建設現場では、作業を始める前にアプリの情報を確認しています。",
           "en": "At construction sites, workers check the app's information before starting work."
         },
@@ -47669,14 +48227,6 @@
         {
           "ja": "家庭でも、家具を固定し、少なくとも3日分の食料を備蓄するなど、日常の備えを改めて確認することが重要です。",
           "en": "Households also need to review everyday preparedness, such as securing furniture and storing at least three days of food."
-        },
-        {
-          "ja": "通勤や出張の予定を変更する人が多く、駅や空港では最新情報を確認する姿が目立ちました。",
-          "en": "Many people changed commuting or business-trip plans, while stations and airports were filled with travelers checking the latest information."
-        },
-        {
-          "ja": "交通機関を利用する際は、運行状況を確認し、無理な移動を避けることが大切です。",
-          "en": "When using transportation, it is important to check service status and avoid unnecessary travel."
         }
       ]
     },
@@ -47917,24 +48467,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "そのため、ニューヨークの街では、試合の後に大きな歓声が上がりました。",
-          "en": "Because of that, loud cheers rose in New York after the game."
+          "ja": "防犯カメラなどによると、その人は上りホームの柵の切れ目から線路に降りました。",
+          "en": "According to security-camera footage and other evidence, the person went down to the tracks through a gap in the fence on the inbound platform."
         },
         {
-          "ja": "アメリカの宇宙企業スペースXは、6月12日に株式市場に上場しました。",
-          "en": "The American space company SpaceX listed on the stock market on June 12."
+          "ja": "山陽新幹線の上り線にも影響が広がりました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
         },
         {
-          "ja": "初めの取引では株価が大きく上がり、世界中の投資家が注目しました。",
-          "en": "Its share price rose sharply in early trading, drawing attention from investors around the world."
+          "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
+          "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
         },
         {
-          "ja": "もし上場後に株価が下がれば、証券会社は市場で株を買い戻します。",
-          "en": "If the share price falls after listing, the securities firms buy shares back in the market."
+          "ja": "もともとの予定は2年間でしたが、20年以上たった今も科学のために働いています。",
+          "en": "Its mission was originally planned for two years, but more than 20 years later, it is still working for science."
         },
         {
-          "ja": "スペースXのように注目度が高い会社では、上場直後の値動きが激しくなりやすいです。",
-          "en": "For a highly watched company like SpaceX, price movements just after listing can easily become intense."
+          "ja": "しかし、スウィフトには自分で軌道を上げるためのエンジンがありません。",
+          "en": "However, Swift has no engine for raising its own orbit."
         }
       ]
     },
@@ -48188,6 +48738,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "リンクはわずか9か月で開発され、スウィフトは修理されることを考えて作られていません。",
+          "en": "Link was developed in only nine months, and Swift was not designed to be serviced."
+        },
+        {
           "ja": "今回の結果は、移民への不安と、EUとの結びつきを守りたい考えが、スイス社会でぶつかっていることを示しました。",
           "en": "\" The result showed that anxiety about immigration and the wish to protect ties with the EU are clashing in Swiss society."
         },
@@ -48202,10 +48756,6 @@
         {
           "ja": "そのため、必要な時だけ走る仕組みにして、運転手や燃料の負担を減らしたい考えです。",
           "en": "The town wants to reduce the burden on drivers and fuel use by running buses only when needed."
-        },
-        {
-          "ja": "図書館では、観光客だけでなく、地域で生活する外国人にも役立つと考えています。",
-          "en": "Libraries believe the tablets will help not only tourists but also foreign residents in the community."
         }
       ]
     },
@@ -48525,20 +49075,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "車両の先頭部分が壊れた可能性があり、JR東海が調べています。",
+          "en": "The front of the train may have been damaged, and JR Central is investigating."
+        },
+        {
+          "ja": "このままでは、2026年内に大気圏へ入り、燃えてしまう可能性があります。",
+          "en": "If nothing changes, it may enter the atmosphere and burn up by the end of 2026."
+        },
+        {
+          "ja": "それでも成功すれば、スウィフトはさらに5年以上観測を続けられる可能性があります。",
+          "en": "Even so, if the mission succeeds, Swift may be able to continue observing for at least five more years."
+        },
+        {
+          "ja": "アメリカは制裁を一部緩める可能性がありますが、詳しい内容はまだはっきりしていません。",
+          "en": "The United States may ease some sanctions, but the details are still not clear."
+        },
+        {
           "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
-        },
-        {
-          "ja": "気象庁は、最大1メートルの津波が来る可能性があると発表しました。",
-          "en": "The agency announced that waves of up to one meter could arrive."
-        },
-        {
-          "ja": "昨年の被害想定では、最悪の場合、およそ1万8000人が亡くなり、約40万棟の建物が壊れたり焼けたりする可能性が示されました。",
-          "en": "Last year's damage estimate showed that in the worst case about 18,000 people could die and around 400,000 buildings could collapse or burn."
-        },
-        {
-          "ja": "専門家は、交通の施設で再生可能エネルギーを使うことは、地域の意識を変えるきっかけにもなるとみています。",
-          "en": "Experts say using renewable energy at transportation facilities can also change local awareness."
         }
       ]
     },
@@ -49538,6 +50092,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "太陽の活動が強くなり、地球の大気が広がったため、予想より強い抵抗を受けて高度が下がりました。",
+          "en": "Stronger solar activity expanded Earth's atmosphere, so the telescope experienced more drag than expected and lost altitude."
+        },
+        {
+          "ja": "G7の首脳たちは、この外交の動きを支持すると述べました。",
+          "en": "G7 leaders said they support this diplomatic move."
+        },
+        {
           "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
         },
@@ -49548,14 +50110,6 @@
         {
           "ja": "スペースXのように注目度が高い会社では、上場直後の値動きが激しくなりやすいです。",
           "en": "For a highly watched company like SpaceX, price movements just after listing can easily become intense."
-        },
-        {
-          "ja": "通知には、水分をとること、休憩すること、外での活動を短くすることなどが書かれています。",
-          "en": "The notifications include messages about drinking water, taking breaks, and shortening outdoor activities."
-        },
-        {
-          "ja": "頭が痛い、気分が悪いなどの症状がある時は、すぐに涼しい場所へ移動することが大切です。",
-          "en": "If symptoms such as a headache or feeling unwell appear, it is important to move to a cool place right away."
         }
       ]
     },
@@ -50172,6 +50726,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
+          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
+        },
+        {
           "ja": "栃木県の宇都宮市では、クマが公園や学校、図書館の近くに出て、多くの人を怖がらせました。",
           "en": "In Utsunomiya, Tochigi Prefecture, a bear appeared near parks, schools, and a library, frightening many people."
         },
@@ -50186,10 +50744,6 @@
         {
           "ja": "実際には、沖縄県や宮崎県などで数センチから30センチほどの波が観測されました。",
           "en": "In reality, waves from several centimeters to about 30 centimeters were observed in places such as Okinawa and Miyazaki prefectures."
-        },
-        {
-          "ja": "東北のある県で、景色を楽しめる観光列車の人気が高まっています。",
-          "en": "In one prefecture in Tohoku, a sightseeing train that lets passengers enjoy the scenery is becoming more popular."
         }
       ]
     },
@@ -50732,6 +51286,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そのため、各国の政府や企業は、この合意が実行されるかどうかを注意して見ています。",
+          "en": "For that reason, governments and companies are watching carefully to see whether the agreement will be carried out."
+        },
+        {
           "ja": "アメリカの宇宙企業スペースXは、6月12日に株式市場に上場しました。",
           "en": "The American space company SpaceX listed on the stock market on June 12."
         },
@@ -51028,7 +51586,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "中東の緊張が下がるかどうかは、これからの交渉にかかっています。",
+          "en": "Whether tensions in the Middle East will decrease depends on the negotiations from here."
+        }
+      ]
     },
     {
       "id": "core-24acf0eb4fda21",
@@ -51479,7 +52042,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "防犯カメラなどによると、その人は上りホームの柵の切れ目から線路に降りました。",
+          "en": "According to security-camera footage and other evidence, the person went down to the tracks through a gap in the fence on the inbound platform."
+        }
+      ]
     },
     {
       "id": "core-9e14664c0bd767",
@@ -54292,7 +54860,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "アメリカは制裁を一部緩める可能性がありますが、詳しい内容はまだはっきりしていません。",
+          "en": "The United States may ease some sanctions, but the details are still not clear."
+        }
+      ]
     },
     {
       "id": "core-0fef78a7b87a08",
@@ -56137,6 +56710,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そのため、各国の政府や企業は、この合意が実行されるかどうかを注意して見ています。",
+          "en": "For that reason, governments and companies are watching carefully to see whether the agreement will be carried out."
+        },
+        {
           "ja": "山間部にある小さな町で、予約制バスの実験が始まりました。",
           "en": "In a small town in a mountain area, a trial of reservation-based buses has started."
         },
@@ -56151,10 +56728,6 @@
         {
           "ja": "関西の大きな港で、水素を使う新しい船の実証実験が始まりました。",
           "en": "A large port in Kansai has started a test of a new ship that uses hydrogen."
-        },
-        {
-          "ja": "実験では、短い距離を何度も走って、安全や使いやすさを調べます。",
-          "en": "In the test, it will make repeated short trips so people can check safety and practicality."
         }
       ]
     },
@@ -56937,7 +57510,12 @@
           "term": "燃えて",
           "readingHiragana": "もえて",
           "meaning": "Te-form of 燃える: to burn, to get fired up",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "このままでは、2026年内に大気圏へ入り、燃えてしまう可能性があります。",
+              "en": "If nothing changes, it may enter the atmosphere and burn up by the end of 2026."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -57805,6 +58383,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "JR東海によると、東海道新幹線の17駅のうち、ホームドアがあるのは東京、名古屋、新大阪など7駅です。",
+          "en": "According to JR Central, seven of the 17 Tokaido Shinkansen stations—including Tokyo, Nagoya, and Shin-Osaka—have platform doors."
+        },
+        {
           "ja": "名前は緑の靴のようですが、環境の制度ではありません。",
           "en": "The name sounds like a green shoe, but it is not an environmental policy."
         },
@@ -58232,6 +58814,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "アメリカは制裁を一部緩める可能性がありますが、詳しい内容はまだはっきりしていません。",
+          "en": "The United States may ease some sanctions, but the details are still not clear."
+        },
         {
           "ja": "管理者は、同じ内容を働く人や生徒にすぐ送ることができます。",
           "en": "Managers can quickly send the same information to workers or students."
@@ -58848,7 +59434,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "もともとの予定は2年間でしたが、20年以上たった今も科学のために働いています。",
+          "en": "Its mission was originally planned for two years, but more than 20 years later, it is still working for science."
+        }
+      ]
     },
     {
       "id": "core-bb79d2de637493",
@@ -59655,24 +60246,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "車両の先頭部分が壊れた可能性があり、JR東海が調べています。",
+          "en": "The front of the train may have been damaged, and JR Central is investigating."
+        },
+        {
+          "ja": "このままでは、2026年内に大気圏へ入り、燃えてしまう可能性があります。",
+          "en": "If nothing changes, it may enter the atmosphere and burn up by the end of 2026."
+        },
+        {
+          "ja": "それでも成功すれば、スウィフトはさらに5年以上観測を続けられる可能性があります。",
+          "en": "Even so, if the mission succeeds, Swift may be able to continue observing for at least five more years."
+        },
+        {
+          "ja": "アメリカは制裁を一部緩める可能性がありますが、詳しい内容はまだはっきりしていません。",
+          "en": "The United States may ease some sanctions, but the details are still not clear."
+        },
+        {
           "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
-        },
-        {
-          "ja": "気象庁は、最大1メートルの津波が来る可能性があると発表しました。",
-          "en": "The agency announced that waves of up to one meter could arrive."
-        },
-        {
-          "ja": "昨年の被害想定では、最悪の場合、およそ1万8000人が亡くなり、約40万棟の建物が壊れたり焼けたりする可能性が示されました。",
-          "en": "Last year's damage estimate showed that in the worst case about 18,000 people could die and around 400,000 buildings could collapse or burn."
-        },
-        {
-          "ja": "人口や機能が集中する首都圏では、交通や物流の混乱も深刻になるとみられています。",
-          "en": "In the Tokyo metropolitan area, where people and key functions are concentrated, disruption to transport and logistics is also expected to be severe."
-        },
-        {
-          "ja": "専門家は、交通の施設で再生可能エネルギーを使うことは、地域の意識を変えるきっかけにもなるとみています。",
-          "en": "Experts say using renewable energy at transportation facilities can also change local awareness."
         }
       ]
     },
@@ -60433,7 +61024,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
+          "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "godan",
       "verbForms": [
@@ -60444,7 +61040,12 @@
           "term": "起こります",
           "readingHiragana": "おこります",
           "meaning": "Polite form of 起こる: to occur, to happen",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
+              "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
+            }
+          ]
         },
         {
           "form": "past",
@@ -60453,7 +61054,12 @@
           "term": "起こった",
           "readingHiragana": "おこった",
           "meaning": "Plain past form of 起こる: to occur, to happen",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
+              "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -60462,7 +61068,12 @@
           "term": "起こらない",
           "readingHiragana": "おこらない",
           "meaning": "Plain negative form of 起こる: to occur, to happen",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
+              "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
+            }
+          ]
         },
         {
           "form": "te",
@@ -60471,7 +61082,12 @@
           "term": "起こって",
           "readingHiragana": "おこって",
           "meaning": "Te-form of 起こる: to occur, to happen",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
+              "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -60480,7 +61096,12 @@
           "term": "起これる",
           "readingHiragana": "おこれる",
           "meaning": "Potential form of 起こる: to occur, to happen",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
+              "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
+            }
+          ]
         }
       ]
     },
@@ -61641,7 +62262,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "そして、2本の線路を横断し、下り線まで歩いたことが確認されました。",
+          "en": "The person then crossed two tracks and walked to the outbound track."
+        }
+      ]
     },
     {
       "id": "core-18171596cd4d1f",
@@ -61750,7 +62376,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "アメリカとイランは、戦争を終わらせるための一時的な合意について話し合っています。",
+          "en": "The United States and Iran are discussing a temporary agreement to end the war."
+        }
+      ]
     },
     {
       "id": "core-e47d1427145c51",
@@ -62038,6 +62669,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "この列車は浜松駅を通過しているところでした。",
+          "en": "It was passing through Hamamatsu Station."
+        },
+        {
           "ja": "東北のある県で、景色を楽しめる観光列車の人気が高まっています。",
           "en": "In one prefecture in Tohoku, a sightseeing train that lets passengers enjoy the scenery is becoming more popular."
         },
@@ -62070,6 +62705,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "この列車は浜松駅を通過しているところでした。",
+          "en": "It was passing through Hamamatsu Station."
+        },
+        {
           "ja": "台風6号は3日、強い風と激しい雨を伴って日本列島を進みました。",
           "en": "On the 3rd, Typhoon No. 6 moved across Japan with strong winds and heavy rain. Power outages, flooding, and fallen trees were reported in many places, and local governments urged residents to evacuate early."
         },
@@ -62084,10 +62723,6 @@
         {
           "ja": "駅の周りでは、列車の到着にあわせて土産店やカフェが営業を広げています。",
           "en": "Around the stations, souvenir shops and cafes are extending business hours to match the train’s arrivals."
-        },
-        {
-          "ja": "地元の人は、列車のおかげで町に活気が戻ってきたと感じています。",
-          "en": "Local people feel the train is bringing energy back to the town."
         }
       ]
     },
@@ -62510,6 +63145,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "そのため、接近してつかむ作業には大きな危険があります。",
+          "en": "Approaching and grabbing it therefore carries major risks."
+        },
         {
           "ja": "建設現場では、作業を始める前にアプリの情報を確認しています。",
           "en": "At construction sites, workers check the app's information before starting work."
@@ -63745,24 +64384,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "車両の先頭部分が壊れた可能性があり、JR東海が調べています。",
+          "en": "The front of the train may have been damaged, and JR Central is investigating."
+        },
+        {
+          "ja": "このままでは、2026年内に大気圏へ入り、燃えてしまう可能性があります。",
+          "en": "If nothing changes, it may enter the atmosphere and burn up by the end of 2026."
+        },
+        {
+          "ja": "それでも成功すれば、スウィフトはさらに5年以上観測を続けられる可能性があります。",
+          "en": "Even so, if the mission succeeds, Swift may be able to continue observing for at least five more years."
+        },
+        {
+          "ja": "アメリカは制裁を一部緩める可能性がありますが、詳しい内容はまだはっきりしていません。",
+          "en": "The United States may ease some sanctions, but the details are still not clear."
+        },
+        {
           "ja": "オーストラリアのシドニーにあるクージー・ビーチで、35歳の女性がサメにかまれました。",
           "en": "At Coogee Beach in Sydney, Australia, a 35-year-old woman was bitten by a shark."
-        },
-        {
-          "ja": "女性は土曜日の朝、岸に近い場所で泳いでいました。",
-          "en": "She was swimming near the shore on Saturday morning."
-        },
-        {
-          "ja": "女性は大けがをして、ヘリコプターで病院へ運ばれました。",
-          "en": "The woman was seriously injured and was taken to a hospital by helicopter."
-        },
-        {
-          "ja": "近くにいた24歳のライフセーバーが、海へ入って女性をボードに乗せました。",
-          "en": "A 24-year-old lifesaver nearby entered the water and put the woman on a board."
-        },
-        {
-          "ja": "女性の家族は、医療費などを支えるために寄付を集めています。",
-          "en": "The woman's family is collecting donations to help with medical costs and other needs."
         }
       ]
     },
@@ -63881,6 +64520,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そのため、各国の政府や企業は、この合意が実行されるかどうかを注意して見ています。",
+          "en": "For that reason, governments and companies are watching carefully to see whether the agreement will be carried out."
+        },
+        {
           "ja": "案が通れば、人口が950万人に近づいたとき、政府は移民や難民、家族の呼び寄せを厳しく制限することになります。",
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
         },
@@ -63895,10 +64538,6 @@
         {
           "ja": "米の値段が上がっているため、政府は新しい対策を発表しました。",
           "en": "Because rice prices are rising, the government announced new measures."
-        },
-        {
-          "ja": "政府は、今後の価格の動きを見ながら、さらに対応を考える方針です。",
-          "en": "The government plans to consider further action while watching future price movements."
         }
       ]
     },
@@ -64086,6 +64725,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "それでも成功すれば、スウィフトはさらに5年以上観測を続けられる可能性があります。",
+          "en": "Even so, if the mission succeeds, Swift may be able to continue observing for at least five more years."
+        },
         {
           "ja": "買収を成功させるために、より強い条件を出したとみられています。",
           "en": "It is seen as a move to present stronger terms and improve their chances of completing the acquisition."
@@ -64339,6 +64982,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "ホルムズ海峡は、世界の石油や貿易にとってとても重要な場所です。",
+          "en": "The Strait of Hormuz is very important for the world's oil and trade."
+        },
         {
           "ja": "ここが十分に使えないと、世界中に石油を送ることがむずかしくなります。",
           "en": "If it cannot be used fully, it becomes difficult to send oil around the world."
@@ -64956,7 +65603,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "警察は、その人の死亡を確認しました。",
+          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
+        }
+      ]
     },
     {
       "id": "core-904e61ddc53173",
@@ -65745,6 +66397,22 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
+          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
+        },
+        {
+          "ja": "この事故で、東海道新幹線は東京と新大阪の間の全線で運転を見合わせました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
+        {
+          "ja": "山陽新幹線の上り線にも影響が広がりました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
+        {
+          "ja": "JR東海によると、東海道新幹線の17駅のうち、ホームドアがあるのは東京、名古屋、新大阪など7駅です。",
+          "en": "According to JR Central, seven of the 17 Tokaido Shinkansen stations—including Tokyo, Nagoya, and Shin-Osaka—have platform doors."
+        },
         {
           "ja": "航空会社は国内線と国際線を含む多くの便を欠航にし、新幹線や在来線にも遅れや運休が出ました。",
           "en": "Airlines canceled many domestic and international flights, and bullet trains and local rail services also saw delays and suspensions."
@@ -66631,6 +67299,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ホームドアがない駅では、安全のために職員がホームを見回っています。",
+          "en": "At stations without platform doors, staff patrol the platforms for safety."
+        },
+        {
           "ja": "後に大学の近くでクマが見つかると、市の職員はドローンで場所を追跡しました。",
           "en": "When the bear was later found near a university, city workers used a drone to track it."
         },
@@ -66645,10 +67317,6 @@
         {
           "ja": "ホテルの職員は、簡単な質問をロボットにまかせることで、別の仕事に時間を使いやすくなったと話しています。",
           "en": "Hotel staff say that by leaving simple questions to robots, they can spend more time on other work."
-        },
-        {
-          "ja": "そのため、ロボットだけに頼るのではなく、職員と協力して使うことが大切だと考えられています。",
-          "en": "For that reason, people think it is important to use robots together with staff rather than relying only on robots."
         }
       ]
     },
@@ -67294,7 +67962,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
+          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
+        }
+      ]
     },
     {
       "id": "core-140b10cb33023e",
@@ -67754,7 +68427,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "リンクはわずか9か月で開発され、スウィフトは修理されることを考えて作られていません。",
+          "en": "Link was developed in only nine months, and Swift was not designed to be serviced."
+        }
+      ]
     },
     {
       "id": "core-d31c0f68c11219",
@@ -68927,6 +69605,10 @@
           "meaning": "Te-form of 進める: to advance, to promote",
           "exampleSentences": [
             {
+              "ja": "ほかの駅でも設置を進めています。",
+              "en": "Installation is progressing at other stations."
+            },
+            {
               "ja": "地方の自治体が、若い農家を増やすために、みんなで使える大きな温室を作る計画を進めています。",
               "en": "A local government is moving forward with a plan to build a large greenhouse that everyone can share in order to increase the number of young farmers."
             },
@@ -68941,10 +69623,6 @@
             {
               "ja": "自治体は、脱炭素の目標を進めるため、企業への支援も続ける方針です。",
               "en": "The local government plans to keep supporting companies to advance decarbonization goals."
-            },
-            {
-              "ja": "このお金は、研究や開発をもっと早く進めるために使われます。",
-              "en": "This money will be used to speed up research and development."
             }
           ]
         },
@@ -69396,7 +70074,16 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "このままでは、2026年内に大気圏へ入り、燃えてしまう可能性があります。",
+          "en": "If nothing changes, it may enter the atmosphere and burn up by the end of 2026."
+        },
+        {
+          "ja": "太陽の活動が強くなり、地球の大気が広がったため、予想より強い抵抗を受けて高度が下がりました。",
+          "en": "Stronger solar activity expanded Earth's atmosphere, so the telescope experienced more drag than expected and lost altitude."
+        }
+      ]
     },
     {
       "id": "core-b944aa994617d0",
@@ -69578,6 +70265,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ただ、イスラエルやイラン、アメリカの国内には強い反対もあります。",
+          "en": "However, there is also strong opposition in Israel, Iran, and the United States."
+        },
+        {
           "ja": "この事故の後、安全対策について議論が起きました。",
           "en": "After the incident, a debate began about safety measures."
         },
@@ -69592,10 +70283,6 @@
         {
           "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
           "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
-        },
-        {
-          "ja": "初めの結果では、多くの有権者がこの案に反対しました。",
-          "en": "Early results showed that many voters opposed the plan."
         }
       ],
       "partOfSpeech": "verb",
@@ -69668,6 +70355,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "太陽の活動が強くなり、地球の大気が広がったため、予想より強い抵抗を受けて高度が下がりました。",
+          "en": "Stronger solar activity expanded Earth's atmosphere, so the telescope experienced more drag than expected and lost altitude."
+        },
         {
           "ja": "鉄道会社が、駅の屋根に太陽光パネルを置く計画を広げています。",
           "en": "A railway company is expanding plans to install solar panels on station roofs."
@@ -70951,7 +71642,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "太陽の活動が強くなり、地球の大気が広がったため、予想より強い抵抗を受けて高度が下がりました。",
+          "en": "Stronger solar activity expanded Earth's atmosphere, so the telescope experienced more drag than expected and lost altitude."
+        }
+      ]
     },
     {
       "id": "core-1ff4610cf63036",
@@ -71672,24 +72368,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
+          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
+        },
+        {
+          "ja": "運転は約3時間後の午後8時48分に再開しました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
+        {
+          "ja": "アメリカとイランは、戦争を終わらせるための一時的な合意について話し合っています。",
+          "en": "The United States and Iran are discussing a temporary agreement to end the war."
+        },
+        {
           "ja": "モロッコは中盤でボールをよく動かし、ブラジルに簡単な時間を与えませんでした。",
           "en": "Morocco moved the ball well in midfield and did not give Brazil easy moments."
         },
         {
           "ja": "アプリは気温や湿度を見て、危険が高い時に知らせます。",
           "en": "The apps check temperature and humidity and send alerts when the danger is high."
-        },
-        {
-          "ja": "危険な時間帯には、屋外の仕事を減らし、日陰で休む時間を長くしています。",
-          "en": "During dangerous time periods, they reduce outdoor work and take longer breaks in the shade."
-        },
-        {
-          "ja": "頭が痛い、気分が悪いなどの症状がある時は、すぐに涼しい場所へ移動することが大切です。",
-          "en": "If symptoms such as a headache or feeling unwell appear, it is important to move to a cool place right away."
-        },
-        {
-          "ja": "利用したい人は、前日までに電話かスマートフォンで乗る場所と時間を伝えます。",
-          "en": "People who want to use the service tell the town their pickup place and time by phone or smartphone by the previous day."
         }
       ]
     },
@@ -73006,7 +73702,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
+          "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
+        }
+      ]
     },
     {
       "id": "core-e9feaa68bf6c61",
@@ -73295,6 +73996,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "この列車は浜松駅を通過しているところでした。",
+          "en": "It was passing through Hamamatsu Station."
+        },
+        {
           "ja": "気象庁は、台風が通過した後も地盤が緩んでいる場所では土砂災害に警戒するよう求めています。",
           "en": "The Meteorological Agency is asking people to remain alert for landslides in places where the ground has loosened even after the typhoon passes."
         }
@@ -73487,6 +74192,18 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
+          "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
+        },
+        {
+          "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
+          "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
+        },
+        {
+          "ja": "そこでNASAは、アメリカの会社カタリスト・スペースが作った「リンク」という宇宙船を送ります。",
+          "en": "NASA will therefore send a spacecraft called Link, built by the American company Katalyst Space."
+        },
         {
           "ja": "アメリカの宇宙企業スペースXは、6月12日に株式市場に上場しました。",
           "en": "The American space company SpaceX listed on the stock market on June 12."
@@ -73957,24 +74674,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "この事故で、東海道新幹線は東京と新大阪の間の全線で運転を見合わせました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
+        {
+          "ja": "運転は約3時間後の午後8時48分に再開しました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
+        {
+          "ja": "リンクは6月27日に打ち上げられる予定で、3本のロボットアームでスウィフトをつかみ、より高く安全な軌道へ運びます。",
+          "en": "Link is scheduled to launch on June 27, grab Swift with three robotic arms, and move it to a higher, safer orbit."
+        },
+        {
           "ja": "女性は大けがをして、ヘリコプターで病院へ運ばれました。",
           "en": "The woman was seriously injured and was taken to a hospital by helicopter."
         },
         {
           "ja": "そのため、必要な時だけ走る仕組みにして、運転手や燃料の負担を減らしたい考えです。",
           "en": "The town wants to reduce the burden on drivers and fuel use by running buses only when needed."
-        },
-        {
-          "ja": "町は3か月の実験で、利用した人数や運行にかかる費用を調べます。",
-          "en": "During the three-month trial, the town will study the number of users and the cost of operating the buses."
-        },
-        {
-          "ja": "航空会社は国内線と国際線を含む多くの便を欠航にし、新幹線や在来線にも遅れや運休が出ました。",
-          "en": "Airlines canceled many domestic and international flights, and bullet trains and local rail services also saw delays and suspensions."
-        },
-        {
-          "ja": "交通機関を利用する際は、運行状況を確認し、無理な移動を避けることが大切です。",
-          "en": "When using transportation, it is important to check service status and avoid unnecessary travel."
         }
       ]
     },
@@ -75192,6 +75909,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "運転は約3時間後の午後8時48分に再開しました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
+        {
           "ja": "もし株価が高いままなら、会社から追加の株を買って約束を満たします。",
           "en": "If the share price stays high, they buy additional shares from the company to meet their commitment."
         },
@@ -75206,10 +75927,6 @@
         {
           "ja": "とくに、最近は外国人の旅行者が多く、週末の予約が取りにくくなっています。",
           "en": "Recently, especially many foreign travelers are using it, making weekend reservations hard to get."
-        },
-        {
-          "ja": "新しい提案では、会社の価値は約40億ドルになり、ライバルの案より高くなりました。",
-          "en": "In the new proposal, the company’s value becomes about 4 billion dollars, which is higher than the rival offer."
         }
       ]
     },
@@ -75741,7 +76458,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "そして、2本の線路を横断し、下り線まで歩いたことが確認されました。",
+          "en": "The person then crossed two tracks and walked to the outbound track."
+        }
+      ]
     },
     {
       "id": "core-5fc0e6d7f767b9",
@@ -75896,7 +76618,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "太陽の活動が強くなり、地球の大気が広がったため、予想より強い抵抗を受けて高度が下がりました。",
+          "en": "Stronger solar activity expanded Earth's atmosphere, so the telescope experienced more drag than expected and lost altitude."
+        }
+      ]
     },
     {
       "id": "core-b20fa30d3a1b47",
@@ -76289,7 +77016,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "事故にあったのは、東京発博多行きの「のぞみ49号」です。",
+          "en": "The train involved was Nozomi 49, traveling from Tokyo to Hakata."
+        }
+      ]
     },
     {
       "id": "core-a9c9e18461b4b0",
@@ -77125,6 +77857,604 @@
       "exampleSentences": []
     },
     {
+      "id": "article-b0eaf00d54f4f8",
+      "level": "N3",
+      "term": "死亡事故",
+      "reading": "しぼうじこ",
+      "readingHiragana": "しぼうじこ",
+      "meaning": "Fatal accident",
+      "source": "article",
+      "sourceId": "2026-06-20-hamamatsu-shinkansen-accident",
+      "sourceTitle": "浜松駅で新幹線の死亡事故",
+      "sourceLabel": "6/20 浜松駅の新幹線事故",
+      "sourceHref": "./2026-06-20-hamamatsu-shinkansen-accident.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-20-hamamatsu-shinkansen-accident"
+      ],
+      "exampleSentences": []
+    },
+    {
+      "id": "article-61cec8162a0269",
+      "level": "N3",
+      "term": "衝突",
+      "reading": "しょうとつ",
+      "readingHiragana": "しょうとつ",
+      "meaning": "Collision / Impact",
+      "source": "article",
+      "sourceId": "2026-06-20-hamamatsu-shinkansen-accident",
+      "sourceTitle": "浜松駅で新幹線の死亡事故",
+      "sourceLabel": "6/20 浜松駅の新幹線事故",
+      "sourceHref": "./2026-06-20-hamamatsu-shinkansen-accident.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-20-hamamatsu-shinkansen-accident"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
+          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
+        }
+      ]
+    },
+    {
+      "id": "article-9552c9e363e0d1",
+      "level": "N3",
+      "term": "通過",
+      "reading": "つうか",
+      "readingHiragana": "つうか",
+      "meaning": "Passing through",
+      "source": "article",
+      "sourceId": "2026-06-20-hamamatsu-shinkansen-accident",
+      "sourceTitle": "浜松駅で新幹線の死亡事故",
+      "sourceLabel": "6/20 浜松駅の新幹線事故",
+      "sourceHref": "./2026-06-20-hamamatsu-shinkansen-accident.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-20-hamamatsu-shinkansen-accident"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "この列車は浜松駅を通過しているところでした。",
+          "en": "It was passing through Hamamatsu Station."
+        },
+        {
+          "ja": "気象庁は、台風が通過した後も地盤が緩んでいる場所では土砂災害に警戒するよう求めています。",
+          "en": "The Meteorological Agency is asking people to remain alert for landslides in places where the ground has loosened even after the typhoon passes."
+        }
+      ]
+    },
+    {
+      "id": "article-3abda4d66b8fd8",
+      "level": "N3",
+      "term": "先頭部分",
+      "reading": "せんとうぶぶん",
+      "readingHiragana": "せんとうぶぶん",
+      "meaning": "Front section",
+      "source": "article",
+      "sourceId": "2026-06-20-hamamatsu-shinkansen-accident",
+      "sourceTitle": "浜松駅で新幹線の死亡事故",
+      "sourceLabel": "6/20 浜松駅の新幹線事故",
+      "sourceHref": "./2026-06-20-hamamatsu-shinkansen-accident.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-20-hamamatsu-shinkansen-accident"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "車両の先頭部分が壊れた可能性があり、JR東海が調べています。",
+          "en": "The front of the train may have been damaged, and JR Central is investigating."
+        }
+      ]
+    },
+    {
+      "id": "article-101a6e29837b9c",
+      "level": "N3",
+      "term": "防犯カメラ",
+      "reading": "ぼうはんカメラ",
+      "readingHiragana": "ぼうはんかめら",
+      "meaning": "Security camera",
+      "source": "article",
+      "sourceId": "2026-06-20-hamamatsu-shinkansen-accident",
+      "sourceTitle": "浜松駅で新幹線の死亡事故",
+      "sourceLabel": "6/20 浜松駅の新幹線事故",
+      "sourceHref": "./2026-06-20-hamamatsu-shinkansen-accident.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-20-hamamatsu-shinkansen-accident"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "防犯カメラなどによると、その人は上りホームの柵の切れ目から線路に降りました。",
+          "en": "According to security-camera footage and other evidence, the person went down to the tracks through a gap in the fence on the inbound platform."
+        }
+      ]
+    },
+    {
+      "id": "article-4a6969610950bf",
+      "level": "N3",
+      "term": "横断",
+      "reading": "おうだん",
+      "readingHiragana": "おうだん",
+      "meaning": "Crossing",
+      "source": "article",
+      "sourceId": "2026-06-20-hamamatsu-shinkansen-accident",
+      "sourceTitle": "浜松駅で新幹線の死亡事故",
+      "sourceLabel": "6/20 浜松駅の新幹線事故",
+      "sourceHref": "./2026-06-20-hamamatsu-shinkansen-accident.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-20-hamamatsu-shinkansen-accident"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "そして、2本の線路を横断し、下り線まで歩いたことが確認されました。",
+          "en": "The person then crossed two tracks and walked to the outbound track."
+        }
+      ]
+    },
+    {
+      "id": "article-969c4a110cb757",
+      "level": "N3",
+      "term": "運転を見合わせる",
+      "reading": "うんてんをみあわせる",
+      "readingHiragana": "うんてんをみあわせる",
+      "meaning": "To suspend operations",
+      "source": "article",
+      "sourceId": "2026-06-20-hamamatsu-shinkansen-accident",
+      "sourceTitle": "浜松駅で新幹線の死亡事故",
+      "sourceLabel": "6/20 浜松駅の新幹線事故",
+      "sourceHref": "./2026-06-20-hamamatsu-shinkansen-accident.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-20-hamamatsu-shinkansen-accident"
+      ],
+      "exampleSentences": []
+    },
+    {
+      "id": "article-97d5dc4311f004",
+      "level": "N3",
+      "term": "設置",
+      "reading": "せっち",
+      "readingHiragana": "せっち",
+      "meaning": "Installation",
+      "source": "article",
+      "sourceId": "2026-06-20-hamamatsu-shinkansen-accident",
+      "sourceTitle": "浜松駅で新幹線の死亡事故",
+      "sourceLabel": "6/20 浜松駅の新幹線事故",
+      "sourceHref": "./2026-06-20-hamamatsu-shinkansen-accident.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-20-hamamatsu-shinkansen-accident"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "ほかの駅でも設置を進めています。",
+          "en": "Installation is progressing at other stations."
+        }
+      ]
+    },
+    {
+      "id": "article-671efac4fde0b5",
+      "level": "N3",
+      "term": "宇宙望遠鏡",
+      "reading": "うちゅうぼうえんきょう",
+      "readingHiragana": "うちゅうぼうえんきょう",
+      "meaning": "Space telescope",
+      "source": "article",
+      "sourceId": "2026-06-19-swift-telescope-rescue",
+      "sourceTitle": "落ちてくる宇宙望遠鏡をロボットで救う",
+      "sourceLabel": "6/19 宇宙望遠鏡を救出",
+      "sourceHref": "./2026-06-19-swift-telescope-rescue.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-19-swift-telescope-rescue"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
+          "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
+        }
+      ]
+    },
+    {
+      "id": "article-59352a298d0e68",
+      "level": "N3",
+      "term": "軌道",
+      "reading": "きどう",
+      "readingHiragana": "きどう",
+      "meaning": "Orbit",
+      "source": "article",
+      "sourceId": "2026-06-19-swift-telescope-rescue",
+      "sourceTitle": "落ちてくる宇宙望遠鏡をロボットで救う",
+      "sourceLabel": "6/19 宇宙望遠鏡を救出",
+      "sourceHref": "./2026-06-19-swift-telescope-rescue.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-19-swift-telescope-rescue"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
+          "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
+        },
+        {
+          "ja": "しかし、スウィフトには自分で軌道を上げるためのエンジンがありません。",
+          "en": "However, Swift has no engine for raising its own orbit."
+        },
+        {
+          "ja": "リンクは6月27日に打ち上げられる予定で、3本のロボットアームでスウィフトをつかみ、より高く安全な軌道へ運びます。",
+          "en": "Link is scheduled to launch on June 27, grab Swift with three robotic arms, and move it to a higher, safer orbit."
+        }
+      ]
+    },
+    {
+      "id": "article-f8da95d8a7c760",
+      "level": "N3",
+      "term": "大気圏",
+      "reading": "たいきけん",
+      "readingHiragana": "たいきけん",
+      "meaning": "Atmosphere / Atmospheric region",
+      "source": "article",
+      "sourceId": "2026-06-19-swift-telescope-rescue",
+      "sourceTitle": "落ちてくる宇宙望遠鏡をロボットで救う",
+      "sourceLabel": "6/19 宇宙望遠鏡を救出",
+      "sourceHref": "./2026-06-19-swift-telescope-rescue.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-19-swift-telescope-rescue"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "このままでは、2026年内に大気圏へ入り、燃えてしまう可能性があります。",
+          "en": "If nothing changes, it may enter the atmosphere and burn up by the end of 2026."
+        }
+      ]
+    },
+    {
+      "id": "article-96ea68ea5c6931",
+      "level": "N3",
+      "term": "観測",
+      "reading": "かんそく",
+      "readingHiragana": "かんそく",
+      "meaning": "Observation",
+      "source": "article",
+      "sourceId": "2026-06-19-swift-telescope-rescue",
+      "sourceTitle": "落ちてくる宇宙望遠鏡をロボットで救う",
+      "sourceLabel": "6/19 宇宙望遠鏡を救出",
+      "sourceHref": "./2026-06-19-swift-telescope-rescue.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-19-swift-telescope-rescue"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
+          "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
+        },
+        {
+          "ja": "それでも成功すれば、スウィフトはさらに5年以上観測を続けられる可能性があります。",
+          "en": "Even so, if the mission succeeds, Swift may be able to continue observing for at least five more years."
+        },
+        {
+          "ja": "実際には、沖縄県や宮崎県などで数センチから30センチほどの波が観測されました。",
+          "en": "In reality, waves from several centimeters to about 30 centimeters were observed in places such as Okinawa and Miyazaki prefectures."
+        }
+      ]
+    },
+    {
+      "id": "article-f194e563534282",
+      "level": "N3",
+      "term": "抵抗",
+      "reading": "ていこう",
+      "readingHiragana": "ていこう",
+      "meaning": "Resistance / Drag",
+      "source": "article",
+      "sourceId": "2026-06-19-swift-telescope-rescue",
+      "sourceTitle": "落ちてくる宇宙望遠鏡をロボットで救う",
+      "sourceLabel": "6/19 宇宙望遠鏡を救出",
+      "sourceHref": "./2026-06-19-swift-telescope-rescue.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-19-swift-telescope-rescue"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "太陽の活動が強くなり、地球の大気が広がったため、予想より強い抵抗を受けて高度が下がりました。",
+          "en": "Stronger solar activity expanded Earth's atmosphere, so the telescope experienced more drag than expected and lost altitude."
+        }
+      ]
+    },
+    {
+      "id": "article-3d2693b2c93df1",
+      "level": "N3",
+      "term": "高度",
+      "reading": "こうど",
+      "readingHiragana": "こうど",
+      "meaning": "Altitude",
+      "source": "article",
+      "sourceId": "2026-06-19-swift-telescope-rescue",
+      "sourceTitle": "落ちてくる宇宙望遠鏡をロボットで救う",
+      "sourceLabel": "6/19 宇宙望遠鏡を救出",
+      "sourceHref": "./2026-06-19-swift-telescope-rescue.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-19-swift-telescope-rescue"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "太陽の活動が強くなり、地球の大気が広がったため、予想より強い抵抗を受けて高度が下がりました。",
+          "en": "Stronger solar activity expanded Earth's atmosphere, so the telescope experienced more drag than expected and lost altitude."
+        }
+      ]
+    },
+    {
+      "id": "article-e82b3293c2e850",
+      "level": "N3",
+      "term": "接近",
+      "reading": "せっきん",
+      "readingHiragana": "せっきん",
+      "meaning": "Approach / Drawing near",
+      "source": "article",
+      "sourceId": "2026-06-19-swift-telescope-rescue",
+      "sourceTitle": "落ちてくる宇宙望遠鏡をロボットで救う",
+      "sourceLabel": "6/19 宇宙望遠鏡を救出",
+      "sourceHref": "./2026-06-19-swift-telescope-rescue.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-19-swift-telescope-rescue"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "そのため、接近してつかむ作業には大きな危険があります。",
+          "en": "Approaching and grabbing it therefore carries major risks."
+        }
+      ]
+    },
+    {
+      "id": "article-72dd90dd13d5be",
+      "level": "N3",
+      "term": "開発",
+      "reading": "かいはつ",
+      "readingHiragana": "かいはつ",
+      "meaning": "Development",
+      "source": "article",
+      "sourceId": "2026-06-19-swift-telescope-rescue",
+      "sourceTitle": "落ちてくる宇宙望遠鏡をロボットで救う",
+      "sourceLabel": "6/19 宇宙望遠鏡を救出",
+      "sourceHref": "./2026-06-19-swift-telescope-rescue.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-19-swift-telescope-rescue"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "リンクはわずか9か月で開発され、スウィフトは修理されることを考えて作られていません。",
+          "en": "Link was developed in only nine months, and Swift was not designed to be serviced."
+        },
+        {
+          "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
+          "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
+        },
+        {
+          "ja": "このお金は、研究や開発をもっと早く進めるために使われます。",
+          "en": "This money will be used to speed up research and development."
+        },
+        {
+          "ja": "今回の追加支援で、ラピダスへの研究開発支援は全部で2兆3540億円になりました。",
+          "en": "With this additional support, total research and development support for Rapidus reached 2.354 trillion yen."
+        }
+      ]
+    },
+    {
+      "id": "article-899c3fe1dea2b1",
+      "level": "N3",
+      "term": "停戦案",
+      "reading": "ていせんあん",
+      "readingHiragana": "ていせんあん",
+      "meaning": "Ceasefire proposal",
+      "source": "article",
+      "sourceId": "2026-06-16-us-iran-peace-deal",
+      "sourceTitle": "アメリカとイランの停戦案に新しい問題が出た",
+      "sourceLabel": "6/16 米イラン停戦案",
+      "sourceHref": "./2026-06-16-us-iran-peace-deal.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-16-us-iran-peace-deal"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "そのため、停戦案が本当に進むかはまだわかりません。",
+          "en": "Because of that, it is still unclear whether the ceasefire plan will really move forward."
+        }
+      ]
+    },
+    {
+      "id": "article-7bd9b35878a6db",
+      "level": "N3",
+      "term": "一時的",
+      "reading": "いちじてき",
+      "readingHiragana": "いちじてき",
+      "meaning": "Temporary",
+      "source": "article",
+      "sourceId": "2026-06-16-us-iran-peace-deal",
+      "sourceTitle": "アメリカとイランの停戦案に新しい問題が出た",
+      "sourceLabel": "6/16 米イラン停戦案",
+      "sourceHref": "./2026-06-16-us-iran-peace-deal.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-16-us-iran-peace-deal"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "アメリカとイランは、戦争を終わらせるための一時的な合意について話し合っています。",
+          "en": "The United States and Iran are discussing a temporary agreement to end the war."
+        }
+      ]
+    },
+    {
+      "id": "article-759dcf14bc51e3",
+      "level": "N3",
+      "term": "合意",
+      "reading": "ごうい",
+      "readingHiragana": "ごうい",
+      "meaning": "Agreement",
+      "source": "article",
+      "sourceId": "2026-06-16-us-iran-peace-deal",
+      "sourceTitle": "アメリカとイランの停戦案に新しい問題が出た",
+      "sourceLabel": "6/16 米イラン停戦案",
+      "sourceHref": "./2026-06-16-us-iran-peace-deal.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-16-us-iran-peace-deal"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "アメリカとイランは、戦争を終わらせるための一時的な合意について話し合っています。",
+          "en": "The United States and Iran are discussing a temporary agreement to end the war."
+        },
+        {
+          "ja": "そのため、各国の政府や企業は、この合意が実行されるかどうかを注意して見ています。",
+          "en": "For that reason, governments and companies are watching carefully to see whether the agreement will be carried out."
+        },
+        {
+          "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
+          "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
+        }
+      ]
+    },
+    {
+      "id": "article-94f8391404d486",
+      "level": "N3",
+      "term": "海峡",
+      "reading": "かいきょう",
+      "readingHiragana": "かいきょう",
+      "meaning": "Strait",
+      "source": "article",
+      "sourceId": "2026-06-16-us-iran-peace-deal",
+      "sourceTitle": "アメリカとイランの停戦案に新しい問題が出た",
+      "sourceLabel": "6/16 米イラン停戦案",
+      "sourceHref": "./2026-06-16-us-iran-peace-deal.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-16-us-iran-peace-deal"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
+          "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
+        },
+        {
+          "ja": "ホルムズ海峡は、世界の石油や貿易にとってとても重要な場所です。",
+          "en": "The Strait of Hormuz is very important for the world's oil and trade."
+        },
+        {
+          "ja": "とくにホルムズ海峡の状況が注目されています。",
+          "en": "People are especially watching the situation in the Strait of Hormuz."
+        },
+        {
+          "ja": "この海峡は、世界の大切なエネルギー輸送ルートの一つです。",
+          "en": "This strait is one of the world’s important energy shipping routes."
+        }
+      ]
+    },
+    {
+      "id": "article-c06f8476e44b03",
+      "level": "N3",
+      "term": "貿易",
+      "reading": "ぼうえき",
+      "readingHiragana": "ぼうえき",
+      "meaning": "Trade",
+      "source": "article",
+      "sourceId": "2026-06-16-us-iran-peace-deal",
+      "sourceTitle": "アメリカとイランの停戦案に新しい問題が出た",
+      "sourceLabel": "6/16 米イラン停戦案",
+      "sourceHref": "./2026-06-16-us-iran-peace-deal.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-16-us-iran-peace-deal"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "ホルムズ海峡は、世界の石油や貿易にとってとても重要な場所です。",
+          "en": "The Strait of Hormuz is very important for the world's oil and trade."
+        }
+      ]
+    },
+    {
+      "id": "article-241b962de43be8",
+      "level": "N3",
+      "term": "条件",
+      "reading": "じょうけん",
+      "readingHiragana": "じょうけん",
+      "meaning": "Condition",
+      "source": "article",
+      "sourceId": "2026-06-16-us-iran-peace-deal",
+      "sourceTitle": "アメリカとイランの停戦案に新しい問題が出た",
+      "sourceLabel": "6/16 米イラン停戦案",
+      "sourceHref": "./2026-06-16-us-iran-peace-deal.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-16-us-iran-peace-deal"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "イスラエルはこの条件を受け入れていません。",
+          "en": "Israel has not accepted this condition."
+        },
+        {
+          "ja": "買収を成功させるために、より強い条件を出したとみられています。",
+          "en": "It is seen as a move to present stronger terms and improve their chances of completing the acquisition."
+        }
+      ]
+    },
+    {
+      "id": "article-182549d893b46f",
+      "level": "N3",
+      "term": "制裁",
+      "reading": "せいさい",
+      "readingHiragana": "せいさい",
+      "meaning": "Sanctions",
+      "source": "article",
+      "sourceId": "2026-06-16-us-iran-peace-deal",
+      "sourceTitle": "アメリカとイランの停戦案に新しい問題が出た",
+      "sourceLabel": "6/16 米イラン停戦案",
+      "sourceHref": "./2026-06-16-us-iran-peace-deal.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-16-us-iran-peace-deal"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "アメリカは制裁を一部緩める可能性がありますが、詳しい内容はまだはっきりしていません。",
+          "en": "The United States may ease some sanctions, but the details are still not clear."
+        }
+      ]
+    },
+    {
+      "id": "article-702eec783e4894",
+      "level": "N3",
+      "term": "交渉",
+      "reading": "こうしょう",
+      "readingHiragana": "こうしょう",
+      "meaning": "Negotiation",
+      "source": "article",
+      "sourceId": "2026-06-16-us-iran-peace-deal",
+      "sourceTitle": "アメリカとイランの停戦案に新しい問題が出た",
+      "sourceLabel": "6/16 米イラン停戦案",
+      "sourceHref": "./2026-06-16-us-iran-peace-deal.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-16-us-iran-peace-deal"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "中東の緊張が下がるかどうかは、これからの交渉にかかっています。",
+          "en": "Whether tensions in the Middle East will decrease depends on the negotiations from here."
+        }
+      ]
+    },
+    {
       "id": "article-b501dd577f20e9",
       "level": "N3",
       "term": "海岸",
@@ -77187,6 +78517,10 @@
         "2026-06-15-coogee-shark-attack"
       ],
       "exampleSentences": [
+        {
+          "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
+          "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
+        },
         {
           "ja": "報道によると、サメは3.",
           "en": "According to reports, the shark is believed to have been a great white about 3."
@@ -77733,6 +79067,10 @@
         "2026-06-14-swiss-population-cap"
       ],
       "exampleSentences": [
+        {
+          "ja": "山陽新幹線の上り線にも影響が広がりました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
         {
           "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
@@ -78998,16 +80336,24 @@
       ],
       "exampleSentences": [
         {
+          "ja": "車両の先頭部分が壊れた可能性があり、JR東海が調べています。",
+          "en": "The front of the train may have been damaged, and JR Central is investigating."
+        },
+        {
+          "ja": "このままでは、2026年内に大気圏へ入り、燃えてしまう可能性があります。",
+          "en": "If nothing changes, it may enter the atmosphere and burn up by the end of 2026."
+        },
+        {
+          "ja": "それでも成功すれば、スウィフトはさらに5年以上観測を続けられる可能性があります。",
+          "en": "Even so, if the mission succeeds, Swift may be able to continue observing for at least five more years."
+        },
+        {
+          "ja": "アメリカは制裁を一部緩める可能性がありますが、詳しい内容はまだはっきりしていません。",
+          "en": "The United States may ease some sanctions, but the details are still not clear."
+        },
+        {
           "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
-        },
-        {
-          "ja": "気象庁は、最大1メートルの津波が来る可能性があると発表しました。",
-          "en": "The agency announced that waves of up to one meter could arrive."
-        },
-        {
-          "ja": "昨年の被害想定では、最悪の場合、およそ1万8000人が亡くなり、約40万棟の建物が壊れたり焼けたりする可能性が示されました。",
-          "en": "Last year's damage estimate showed that in the worst case about 18,000 people could die and around 400,000 buildings could collapse or burn."
         }
       ]
     },
@@ -79028,6 +80374,14 @@
         "2026-06-08-tsunami-advisory"
       ],
       "exampleSentences": [
+        {
+          "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
+          "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
+        },
+        {
+          "ja": "それでも成功すれば、スウィフトはさらに5年以上観測を続けられる可能性があります。",
+          "en": "Even so, if the mission succeeds, Swift may be able to continue observing for at least five more years."
+        },
         {
           "ja": "実際には、沖縄県や宮崎県などで数センチから30センチほどの波が観測されました。",
           "en": "In reality, waves from several centimeters to about 30 centimeters were observed in places such as Okinawa and Miyazaki prefectures."
@@ -79232,6 +80586,10 @@
         "2026-05-29-library-tablets"
       ],
       "exampleSentences": [
+        {
+          "ja": "アメリカは制裁を一部緩める可能性がありますが、詳しい内容はまだはっきりしていません。",
+          "en": "The United States may ease some sanctions, but the details are still not clear."
+        },
         {
           "ja": "管理者は、同じ内容を働く人や生徒にすぐ送ることができます。",
           "en": "Managers can quickly send the same information to workers or students."
@@ -81421,24 +82779,24 @@
       ],
       "exampleSentences": [
         {
+          "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
+          "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
+        },
+        {
+          "ja": "そのため、停戦案が本当に進むかはまだわかりません。",
+          "en": "Because of that, it is still unclear whether the ceasefire plan will really move forward."
+        },
+        {
+          "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
+          "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
+        },
+        {
           "ja": "争点の一つは、国の人口を2050年まで1000万人までに抑える提案でした。",
           "en": "One issue was a proposal to keep the country's population at no more than 10 million by 2050."
         },
         {
           "ja": "初めの結果では、多くの有権者がこの案に反対しました。",
           "en": "Early results showed that many voters opposed the plan."
-        },
-        {
-          "ja": "この提案は、右派のスイス国民党が進めたものです。",
-          "en": "The proposal was promoted by the right-wing Swiss People's Party. Switzerland's population is now about 9.1 million and has grown greatly since 2002. Supporters said the burden on housing, transportation, and public services was becoming heavy."
-        },
-        {
-          "ja": "案が通れば、人口が950万人に近づいたとき、政府は移民や難民、家族の呼び寄せを厳しく制限することになります。",
-          "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
-        },
-        {
-          "ja": "反対派は、この案がスイスの経済に悪い影響を与えると主張しました。",
-          "en": "Opponents argued that the plan would hurt Switzerland's economy."
         }
       ]
     },
