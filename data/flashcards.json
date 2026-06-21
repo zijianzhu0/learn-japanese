@@ -4,7 +4,7 @@
     "articleManifest": "data/articles.json"
   },
   "levels": {
-    "N3": 1910,
+    "N3": 1918,
     "N4": 536,
     "N5": 553
   },
@@ -620,7 +620,12 @@
           "term": "歩いた",
           "readingHiragana": "あるいた",
           "meaning": "Plain past form of 歩く: to walk",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "そして、2本の線路を横断し、下り線まで歩いたことが確認されました。",
+              "en": "The person then crossed two tracks and walked to the outbound track."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -830,6 +835,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "車両の先頭部分が壊れた可能性があり、JR東海が調べています。",
+          "en": "The front of the train may have been damaged, and JR Central is investigating."
+        },
+        {
           "ja": "頭が痛い、気分が悪いなどの症状がある時は、すぐに涼しい場所へ移動することが大切です。",
           "en": "If symptoms such as a headache or feeling unwell appear, it is important to move to a cool place right away."
         }
@@ -901,6 +910,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
+          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
+        },
+        {
+          "ja": "運転は約3時間後の午後8時48分に再開しました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
+        {
           "ja": "その後、救急隊や医師たちが浜辺で手当てをしました。",
           "en": "After that, emergency workers and doctors treated her on the beach."
         },
@@ -911,14 +928,6 @@
         {
           "ja": "最後の第5戦は94対90の接戦でした。",
           "en": "The final Game 5 was a close 94-90 game."
-        },
-        {
-          "ja": "試合後、ブランソンはファイナルMVPにも選ばれました。",
-          "en": "After the game, Brunson was also chosen as Finals MVP."
-        },
-        {
-          "ja": "そのため、ニューヨークの街では、試合の後に大きな歓声が上がりました。",
-          "en": "Because of that, loud cheers rose in New York after the game."
         }
       ]
     },
@@ -2259,24 +2268,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "通勤や出張の予定を変更する人が多く、駅や空港では最新情報を確認する姿が目立ちました。",
-          "en": "Many people changed commuting or business-trip plans, while stations and airports were filled with travelers checking the latest information."
+          "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
+          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
         },
         {
-          "ja": "暑い日が早く増えているため、いくつかの都市で駅前広場のミスト設備を増やす計画が始まりました。",
-          "en": "Because hot days are coming earlier, some cities have begun plans to increase mist systems in station plazas."
+          "ja": "この列車は浜松駅を通過しているところでした。",
+          "en": "It was passing through Hamamatsu Station."
         },
         {
-          "ja": "鉄道会社が、駅の屋根に太陽光パネルを置く計画を広げています。",
-          "en": "A railway company is expanding plans to install solar panels on station roofs."
+          "ja": "浜松駅にはホームドアがありませんでした。",
+          "en": "Hamamatsu Station did not have platform doors."
         },
         {
-          "ja": "まずは大きな駅から始めて、発電した電気を照明や案内板に使う予定です。",
-          "en": "It will start with large stations and use the generated electricity for lighting and information boards."
+          "ja": "JR東海によると、東海道新幹線の17駅のうち、ホームドアがあるのは東京、名古屋、新大阪など7駅です。",
+          "en": "According to JR Central, seven of the 17 Tokaido Shinkansen stations—including Tokyo, Nagoya, and Shin-Osaka—have platform doors."
         },
         {
-          "ja": "一部の駅では、災害のときにスマートフォンを充電できる場所としても活用する考えです。",
-          "en": "At some stations, the system may also be used as a place where people can charge smartphones during disasters."
+          "ja": "ほかの駅でも設置を進めています。",
+          "en": "Installation is progressing at other stations."
         }
       ]
     },
@@ -2774,7 +2783,16 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
+          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
+        },
+        {
+          "ja": "運転は約3時間後の午後8時48分に再開しました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        }
+      ]
     },
     {
       "id": "core-dde9a8915c683e",
@@ -2918,6 +2936,10 @@
           "readingHiragana": "はいった",
           "meaning": "Plain past form of 入る: to enter, to go into",
           "exampleSentences": [
+            {
+              "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
+              "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
+            },
             {
               "ja": "日本では、クマが人の生活する場所に入る問題が増えています。",
               "en": "In Japan, the problem of bears entering places where people live is increasing."
@@ -3914,6 +3936,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
+          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
+        },
+        {
           "ja": "リンクは6月27日に打ち上げられる予定で、3本のロボットアームでスウィフトをつかみ、より高く安全な軌道へ運びます。",
           "en": "Link is scheduled to launch on June 27, grab Swift with three robotic arms, and move it to a higher, safer orbit."
         },
@@ -3928,10 +3954,6 @@
         {
           "ja": "女性は土曜日の朝、岸に近い場所で泳いでいました。",
           "en": "She was swimming near the shore on Saturday morning."
-        },
-        {
-          "ja": "スイスで2026年6月14日、国民投票が行われました。",
-          "en": "On June 14, 2026, Switzerland held a national referendum."
         }
       ]
     },
@@ -3989,16 +4011,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "中東の緊張が下がるかどうかは、これからの交渉にかかっています。",
-          "en": "Whether tensions in the Middle East will decrease depends on the negotiations from here."
+          "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
+          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
         },
         {
-          "ja": "東北のある県で、景色を楽しめる観光列車の人気が高まっています。",
-          "en": "In one prefecture in Tohoku, a sightseeing train that lets passengers enjoy the scenery is becoming more popular."
+          "ja": "事故にあったのは、東京発博多行きの「のぞみ49号」です。",
+          "en": "The train involved was Nozomi 49, traveling from Tokyo to Hakata."
         },
         {
-          "ja": "会談では、東アジアの安全保障や、地域の平和をどう守るかについて意見を交わしました。",
-          "en": "In the meeting, they exchanged views on security in East Asia and how to protect regional peace."
+          "ja": "車両の先頭部分が壊れた可能性があり、JR東海が調べています。",
+          "en": "The front of the train may have been damaged, and JR Central is investigating."
+        },
+        {
+          "ja": "この事故で、東海道新幹線は東京と新大阪の間の全線で運転を見合わせました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
+        {
+          "ja": "JR東海によると、東海道新幹線の17駅のうち、ホームドアがあるのは東京、名古屋、新大阪など7駅です。",
+          "en": "According to JR Central, seven of the 17 Tokaido Shinkansen stations—including Tokyo, Nagoya, and Shin-Osaka—have platform doors."
         }
       ]
     },
@@ -4270,24 +4300,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
+          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
+        },
+        {
+          "ja": "警察は、その人の死亡を確認しました。",
+          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
+        },
+        {
+          "ja": "防犯カメラなどによると、その人は上りホームの柵の切れ目から線路に降りました。",
+          "en": "According to security-camera footage and other evidence, the person went down to the tracks through a gap in the fence on the inbound platform."
+        },
+        {
           "ja": "家族は、救助した人たちや病院のスタッフに深く感謝していると話しました。",
           "en": "The family said they are deeply grateful to the people who rescued her and to the hospital staff."
         },
         {
           "ja": "マディソン・スクエア・ガーデンの近くには、たくさんの人が集まりました。",
           "en": "Many people gathered near Madison Square Garden."
-        },
-        {
-          "ja": "争点の一つは、国の人口を2050年まで1000万人までに抑える提案でした。",
-          "en": "One issue was a proposal to keep the country's population at no more than 10 million by 2050."
-        },
-        {
-          "ja": "スイスの人口は現在およそ910万人で、2002年から大きく増えました。",
-          "en": "The proposal was promoted by the right-wing Swiss People's Party. Switzerland's population is now about 9.1 million and has grown greatly since 2002. Supporters said the burden on housing, transportation, and public services was becoming heavy."
-        },
-        {
-          "ja": "案が通れば、人口が950万人に近づいたとき、政府は移民や難民、家族の呼び寄せを厳しく制限することになります。",
-          "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
         }
       ]
     },
@@ -4353,6 +4383,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そして、2本の線路を横断し、下り線まで歩いたことが確認されました。",
+          "en": "The person then crossed two tracks and walked to the outbound track."
+        },
+        {
           "ja": "リンクは6月27日に打ち上げられる予定で、3本のロボットアームでスウィフトをつかみ、より高く安全な軌道へ運びます。",
           "en": "Link is scheduled to launch on June 27, grab Swift with three robotic arms, and move it to a higher, safer orbit."
         },
@@ -4367,10 +4401,6 @@
         {
           "ja": "最近の日本では、クマが人の生活する場所に入る問題が増えています。",
           "en": "Recently in Japan, the problem of bears entering places where people live has been increasing."
-        },
-        {
-          "ja": "気象庁は8日、日本の太平洋側の広い地域に津波注意報を出しました。",
-          "en": "On the 8th, the Japan Meteorological Agency issued a tsunami advisory for a wide area along Japan’s Pacific coast."
         }
       ]
     },
@@ -5306,6 +5336,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "運転は約3時間後の午後8時48分に再開しました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
+        {
           "ja": "モロッコは中盤でボールをよく動かし、ブラジルに簡単な時間を与えませんでした。",
           "en": "Morocco moved the ball well in midfield and did not give Brazil easy moments."
         },
@@ -5320,10 +5354,6 @@
         {
           "ja": "職員は、短い時間で必要な情報を伝えやすくなったと話しています。",
           "en": "Staff say it has become easier to provide needed information in a short time."
-        },
-        {
-          "ja": "運営会社は、観光客が便利になるだけでなく、会計の時間が短くなると説明しています。",
-          "en": "The operator explains that this not only makes things more convenient for tourists but also shortens checkout time."
         }
       ]
     },
@@ -7571,6 +7601,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "この列車は浜松駅を通過しているところでした。",
+          "en": "It was passing through Hamamatsu Station."
+        },
+        {
+          "ja": "車両の先頭部分が壊れた可能性があり、JR東海が調べています。",
+          "en": "The front of the train may have been damaged, and JR Central is investigating."
+        },
+        {
           "ja": "車のクラクションや花火の音も聞こえました。",
           "en": "Car horns and fireworks could also be heard."
         },
@@ -7581,14 +7619,6 @@
         {
           "ja": "市はSNSや放送車で注意を出し、住民に外へ出ないよう呼びかけました。",
           "en": "The city issued warnings on social media and through announcement vehicles, asking residents not to go outside."
-        },
-        {
-          "ja": "自動車メーカーの一部は、従業員の安全や部品輸送への影響を考慮して、工場の操業を一時停止しました。",
-          "en": "Some automakers temporarily stopped factory operations after considering worker safety and impacts on parts transport."
-        },
-        {
-          "ja": "東北のある県で、景色を楽しめる観光列車の人気が高まっています。",
-          "en": "In one prefecture in Tohoku, a sightseeing train that lets passengers enjoy the scenery is becoming more popular."
         }
       ]
     },
@@ -8153,6 +8183,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "防犯カメラなどによると、その人は上りホームの柵の切れ目から線路に降りました。",
+          "en": "According to security-camera footage and other evidence, the person went down to the tracks through a gap in the fence on the inbound platform."
+        },
+        {
           "ja": "初めの取引では株価が大きく上がり、世界中の投資家が注目しました。",
           "en": "Its share price rose sharply in early trading, drawing attention from investors around the world."
         },
@@ -8167,10 +8201,6 @@
         {
           "ja": "通勤や出張の予定を変更する人が多く、駅や空港では最新情報を確認する姿が目立ちました。",
           "en": "Many people changed commuting or business-trip plans, while stations and airports were filled with travelers checking the latest information."
-        },
-        {
-          "ja": "誰でも使いやすい図書館を目指す取り組みとして注目されています。",
-          "en": "The effort is drawing attention as a way to make libraries easier for everyone to use."
         }
       ]
     },
@@ -8204,24 +8234,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
+          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
+        },
+        {
+          "ja": "この事故で、東海道新幹線は東京と新大阪の間の全線で運転を見合わせました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
+        {
+          "ja": "JR東海によると、東海道新幹線の17駅のうち、ホームドアがあるのは東京、名古屋、新大阪など7駅です。",
+          "en": "According to JR Central, seven of the 17 Tokaido Shinkansen stations—including Tokyo, Nagoya, and Shin-Osaka—have platform doors."
+        },
+        {
           "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
           "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
         },
         {
           "ja": "しかし、スウィフトには自分で軌道を上げるためのエンジンがありません。",
           "en": "However, Swift has no engine for raising its own orbit."
-        },
-        {
-          "ja": "リンクは6月27日に打ち上げられる予定で、3本のロボットアームでスウィフトをつかみ、より高く安全な軌道へ運びます。",
-          "en": "Link is scheduled to launch on June 27, grab Swift with three robotic arms, and move it to a higher, safer orbit."
-        },
-        {
-          "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
-          "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
-        },
-        {
-          "ja": "報道によると、サメは3.",
-          "en": "According to reports, the shark is believed to have been a great white about 3."
         }
       ]
     },
@@ -11501,6 +11531,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "車両の先頭部分が壊れた可能性があり、JR東海が調べています。",
+          "en": "The front of the train may have been damaged, and JR Central is investigating."
+        },
+        {
           "ja": "モロッコはイスマエル・サイバリのゴールで先制しました。",
           "en": "Morocco took the lead through a goal by Ismael Saibari."
         },
@@ -12319,6 +12353,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そして、2本の線路を横断し、下り線まで歩いたことが確認されました。",
+          "en": "The person then crossed two tracks and walked to the outbound track."
+        },
+        {
           "ja": "太陽の活動が強くなり、地球の大気が広がったため、予想より強い抵抗を受けて高度が下がりました。",
           "en": "Stronger solar activity expanded Earth's atmosphere, so the telescope experienced more drag than expected and lost altitude."
         },
@@ -12333,10 +12371,6 @@
         {
           "ja": "政府は、首都直下地震が起きた場合の被害を今後10年で大幅に減らすため、防災計画を改定する方針です。",
           "en": "The government plans to revise its disaster-prevention plan to sharply reduce damage from a possible inland earthquake beneath the Tokyo area over the next decade."
-        },
-        {
-          "ja": "死者数や全壊・焼失する建物の数を、想定より半分以下に抑えることを目標にします。",
-          "en": "Its goal is to cut the expected deaths and destroyed or burned buildings to less than half of the estimate."
         }
       ]
     },
@@ -12795,24 +12829,24 @@
           "meaning": "Plain past form of する: to do",
           "exampleSentences": [
             {
-              "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
-              "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
+              "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
+              "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
             },
             {
-              "ja": "もともとの予定は2年間でしたが、20年以上たった今も科学のために働いています。",
-              "en": "Its mission was originally planned for two years, but more than 20 years later, it is still working for science."
+              "ja": "警察は、その人の死亡を確認しました。",
+              "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
             },
             {
-              "ja": "太陽の活動が強くなり、地球の大気が広がったため、予想より強い抵抗を受けて高度が下がりました。",
-              "en": "Stronger solar activity expanded Earth's atmosphere, so the telescope experienced more drag than expected and lost altitude."
+              "ja": "この列車は浜松駅を通過しているところでした。",
+              "en": "It was passing through Hamamatsu Station."
             },
             {
-              "ja": "しかし、イランはイスラエルがレバノン南部から軍を引くことも必要だと話しました。",
-              "en": "However, Iran said that Israel must also withdraw its forces from southern Lebanon."
+              "ja": "防犯カメラなどによると、その人は上りホームの柵の切れ目から線路に降りました。",
+              "en": "According to security-camera footage and other evidence, the person went down to the tracks through a gap in the fence on the inbound platform."
             },
             {
-              "ja": "G7の首脳たちは、この外交の動きを支持すると述べました。",
-              "en": "G7 leaders said they support this diplomatic move."
+              "ja": "そして、2本の線路を横断し、下り線まで歩いたことが確認されました。",
+              "en": "The person then crossed two tracks and walked to the outbound track."
             }
           ]
         },
@@ -12855,6 +12889,14 @@
           "meaning": "Te-form of する: to do",
           "exampleSentences": [
             {
+              "ja": "この列車は浜松駅を通過しているところでした。",
+              "en": "It was passing through Hamamatsu Station."
+            },
+            {
+              "ja": "そして、2本の線路を横断し、下り線まで歩いたことが確認されました。",
+              "en": "The person then crossed two tracks and walked to the outbound track."
+            },
+            {
               "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
               "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
             },
@@ -12865,14 +12907,6 @@
             {
               "ja": "そのため、各国の政府や企業は、この合意が実行されるかどうかを注意して見ています。",
               "en": "For that reason, governments and companies are watching carefully to see whether the agreement will be carried out."
-            },
-            {
-              "ja": "アメリカは制裁を一部緩める可能性がありますが、詳しい内容はまだはっきりしていません。",
-              "en": "The United States may ease some sanctions, but the details are still not clear."
-            },
-            {
-              "ja": "女性は大けがをして、ヘリコプターで病院へ運ばれました。",
-              "en": "The woman was seriously injured and was taken to a hospital by helicopter."
             }
           ]
         },
@@ -14837,6 +14871,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "防犯カメラなどによると、その人は上りホームの柵の切れ目から線路に降りました。",
+          "en": "According to security-camera footage and other evidence, the person went down to the tracks through a gap in the fence on the inbound platform."
+        },
+        {
+          "ja": "山陽新幹線の上り線にも影響が広がりました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
+        {
           "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
           "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
         },
@@ -14847,14 +14889,6 @@
         {
           "ja": "しかし、スウィフトには自分で軌道を上げるためのエンジンがありません。",
           "en": "However, Swift has no engine for raising its own orbit."
-        },
-        {
-          "ja": "リンクは6月27日に打ち上げられる予定で、3本のロボットアームでスウィフトをつかみ、より高く安全な軌道へ運びます。",
-          "en": "Link is scheduled to launch on June 27, grab Swift with three robotic arms, and move it to a higher, safer orbit."
-        },
-        {
-          "ja": "それでも成功すれば、スウィフトはさらに5年以上観測を続けられる可能性があります。",
-          "en": "Even so, if the mission succeeds, Swift may be able to continue observing for at least five more years."
         }
       ]
     },
@@ -14937,24 +14971,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
+          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
+        },
+        {
+          "ja": "車両の先頭部分が壊れた可能性があり、JR東海が調べています。",
+          "en": "The front of the train may have been damaged, and JR Central is investigating."
+        },
+        {
+          "ja": "この事故で、東海道新幹線は東京と新大阪の間の全線で運転を見合わせました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
+        {
+          "ja": "JR東海によると、東海道新幹線の17駅のうち、ホームドアがあるのは東京、名古屋、新大阪など7駅です。",
+          "en": "According to JR Central, seven of the 17 Tokaido Shinkansen stations—including Tokyo, Nagoya, and Shin-Osaka—have platform doors."
+        },
+        {
           "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
           "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
-        },
-        {
-          "ja": "ホルムズ海峡は、世界の石油や貿易にとってとても重要な場所です。",
-          "en": "The Strait of Hormuz is very important for the world's oil and trade."
-        },
-        {
-          "ja": "近くにいた24歳のライフセーバーが、海へ入って女性をボードに乗せました。",
-          "en": "A 24-year-old lifesaver nearby entered the water and put the woman on a board."
-        },
-        {
-          "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
-          "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
-        },
-        {
-          "ja": "注意報は、茨城県から鹿児島県までの海岸や、伊豆諸島、小笠原諸島、沖縄・奄美の地域にも出されました。",
-          "en": "The advisory covered coasts from Ibaraki Prefecture to Kagoshima Prefecture, as well as the Izu Islands, Ogasawara Islands, and the Okinawa-Amami region."
         }
       ]
     },
@@ -15549,6 +15583,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "山陽新幹線の上り線にも影響が広がりました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
+        {
           "ja": "山間部にある小さな町で、予約制バスの実験が始まりました。",
           "en": "In a small town in a mountain area, a trial of reservation-based buses has started."
         }
@@ -15872,7 +15910,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "そして、2本の線路を横断し、下り線まで歩いたことが確認されました。",
+          "en": "The person then crossed two tracks and walked to the outbound track."
+        }
+      ]
     },
     {
       "id": "core-d37016037b7173",
@@ -16193,7 +16236,20 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "浜松駅にはホームドアがありませんでした。",
+          "en": "Hamamatsu Station did not have platform doors."
+        },
+        {
+          "ja": "JR東海によると、東海道新幹線の17駅のうち、ホームドアがあるのは東京、名古屋、新大阪など7駅です。",
+          "en": "According to JR Central, seven of the 17 Tokaido Shinkansen stations—including Tokyo, Nagoya, and Shin-Osaka—have platform doors."
+        },
+        {
+          "ja": "ホームドアがない駅では、安全のために職員がホームを見回っています。",
+          "en": "At stations without platform doors, staff patrol the platforms for safety."
+        }
+      ]
     },
     {
       "id": "core-94bded8abd287f",
@@ -16296,7 +16352,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "防犯カメラなどによると、その人は上りホームの柵の切れ目から線路に降りました。",
+          "en": "According to security-camera footage and other evidence, the person went down to the tracks through a gap in the fence on the inbound platform."
+        }
+      ]
     },
     {
       "id": "core-f1fbfdbb13a333",
@@ -16949,6 +17010,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ホームドアがない駅では、安全のために職員がホームを見回っています。",
+          "en": "At stations without platform doors, staff patrol the platforms for safety."
+        },
+        {
           "ja": "リンクは6月27日に打ち上げられる予定で、3本のロボットアームでスウィフトをつかみ、より高く安全な軌道へ運びます。",
           "en": "Link is scheduled to launch on June 27, grab Swift with three robotic arms, and move it to a higher, safer orbit."
         },
@@ -16963,10 +17028,6 @@
         {
           "ja": "安全のために、市立の学校は二日間休みになりました。",
           "en": "For safety, city-run schools were closed for two days."
-        },
-        {
-          "ja": "釣りや海での作業をする人は、新しい情報を確認し、安全な場所で待つようにしましょう。",
-          "en": "People who fish or work at sea should check the latest information and wait in a safe place."
         }
       ]
     },
@@ -20541,6 +20602,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "事故にあったのは、東京発博多行きの「のぞみ49号」です。",
+          "en": "The train involved was Nozomi 49, traveling from Tokyo to Hakata."
+        },
+        {
+          "ja": "この事故で、東海道新幹線は東京と新大阪の間の全線で運転を見合わせました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
+        {
           "ja": "この事故の後、安全対策について議論が起きました。",
           "en": "After the incident, a debate began about safety measures."
         }
@@ -22145,6 +22214,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "警察は、その人の死亡を確認しました。",
+          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
+        },
+        {
           "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
           "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
         }
@@ -23084,6 +23157,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "事故にあったのは、東京発博多行きの「のぞみ49号」です。",
+          "en": "The train involved was Nozomi 49, traveling from Tokyo to Hakata."
+        },
+        {
+          "ja": "この事故で、東海道新幹線は東京と新大阪の間の全線で運転を見合わせました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
+        {
           "ja": "この事故の後、安全対策について議論が起きました。",
           "en": "After the incident, a debate began about safety measures."
         },
@@ -23094,14 +23175,6 @@
         {
           "ja": "危険な時間帯には、屋外の仕事を減らし、日陰で休む時間を長くしています。",
           "en": "During dangerous time periods, they reduce outdoor work and take longer breaks in the shade."
-        },
-        {
-          "ja": "企業には、災害後も重要な業務を続けるための事業継続計画を作ることが求められます。",
-          "en": "Companies will be asked to prepare business continuity plans so they can keep important operations running after a disaster."
-        },
-        {
-          "ja": "ホテルの職員は、簡単な質問をロボットにまかせることで、別の仕事に時間を使いやすくなったと話しています。",
-          "en": "Hotel staff say that by leaving simple questions to robots, they can spend more time on other work."
         }
       ]
     },
@@ -23335,6 +23408,10 @@
           "readingHiragana": "こわれた",
           "meaning": "Plain past form of 壊れる: to be broken",
           "exampleSentences": [
+            {
+              "ja": "車両の先頭部分が壊れた可能性があり、JR東海が調べています。",
+              "en": "The front of the train may have been damaged, and JR Central is investigating."
+            },
             {
               "ja": "昨年の被害想定では、最悪の場合、およそ1万8000人が亡くなり、約40万棟の建物が壊れたり焼けたりする可能性が示されました。",
               "en": "Last year's damage estimate showed that in the worst case about 18,000 people could die and around 400,000 buildings could collapse or burn."
@@ -24234,6 +24311,10 @@
           "readingHiragana": "まわって",
           "meaning": "Te-form of 回る: to turn, to revolve",
           "exampleSentences": [
+            {
+              "ja": "ホームドアがない駅では、安全のために職員がホームを見回っています。",
+              "en": "At stations without platform doors, staff patrol the platforms for safety."
+            },
             {
               "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
               "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
@@ -28791,8 +28872,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "航空会社は国内線と国際線を含む多くの便を欠航にし、新幹線や在来線にも遅れや運休が出ました。",
-          "en": "Airlines canceled many domestic and international flights, and bullet trains and local rail services also saw delays and suspensions."
+          "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
+          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
+        },
+        {
+          "ja": "防犯カメラなどによると、その人は上りホームの柵の切れ目から線路に降りました。",
+          "en": "According to security-camera footage and other evidence, the person went down to the tracks through a gap in the fence on the inbound platform."
+        },
+        {
+          "ja": "そして、2本の線路を横断し、下り線まで歩いたことが確認されました。",
+          "en": "The person then crossed two tracks and walked to the outbound track."
+        },
+        {
+          "ja": "この事故で、東海道新幹線は東京と新大阪の間の全線で運転を見合わせました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
+        {
+          "ja": "山陽新幹線の上り線にも影響が広がりました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
         }
       ]
     },
@@ -29347,6 +29444,10 @@
           "readingHiragana": "しらべて",
           "meaning": "Te-form of 調べる: to examine, to investigate",
           "exampleSentences": [
+            {
+              "ja": "車両の先頭部分が壊れた可能性があり、JR東海が調べています。",
+              "en": "The front of the train may have been damaged, and JR Central is investigating."
+            },
             {
               "ja": "ドローンは、道路が通れるかどうかや、川の水がどこまで来ているかを、すばやく調べることができます。",
               "en": "Drones can quickly check whether roads are passable and how far river water has reached."
@@ -31791,6 +31892,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
+          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
+        },
+        {
           "ja": "リンクは6月27日に打ち上げられる予定で、3本のロボットアームでスウィフトをつかみ、より高く安全な軌道へ運びます。",
           "en": "Link is scheduled to launch on June 27, grab Swift with three robotic arms, and move it to a higher, safer orbit."
         },
@@ -31805,10 +31910,6 @@
         {
           "ja": "2026年6月14日、FIFAワールドカップのグループCで、ブラジルとモロッコが1対1で引き分けました。",
           "en": "On June 14, 2026, Brazil and Morocco drew 1-1 in Group C of the FIFA World Cup."
-        },
-        {
-          "ja": "アメリカの宇宙企業スペースXは、6月12日に株式市場に上場しました。",
-          "en": "The American space company SpaceX listed on the stock market on June 12."
         }
       ]
     },
@@ -32774,6 +32875,14 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "この事故で、東海道新幹線は東京と新大阪の間の全線で運転を見合わせました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
+        {
+          "ja": "運転は約3時間後の午後8時48分に再開しました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
         {
           "ja": "そのため、必要な時だけ走る仕組みにして、運転手や燃料の負担を減らしたい考えです。",
           "en": "The town wants to reduce the burden on drivers and fuel use by running buses only when needed."
@@ -36445,7 +36554,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "車両の先頭部分が壊れた可能性があり、JR東海が調べています。",
+          "en": "The front of the train may have been damaged, and JR Central is investigating."
+        }
+      ]
     },
     {
       "id": "core-b27b3113f87497",
@@ -36564,24 +36678,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
+          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
+        },
+        {
+          "ja": "車両の先頭部分が壊れた可能性があり、JR東海が調べています。",
+          "en": "The front of the train may have been damaged, and JR Central is investigating."
+        },
+        {
+          "ja": "運転は約3時間後の午後8時48分に再開しました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
+        {
           "ja": "しかし、スウィフトには自分で軌道を上げるためのエンジンがありません。",
           "en": "However, Swift has no engine for raising its own orbit."
         },
         {
           "ja": "医療、金融、技術などの分野では、外国から来た働く人が重要です。",
           "en": "In fields such as healthcare, finance, and technology, workers from other countries are important."
-        },
-        {
-          "ja": "2026年6月14日、FIFAワールドカップのグループCで、ブラジルとモロッコが1対1で引き分けました。",
-          "en": "On June 14, 2026, Brazil and Morocco drew 1-1 in Group C of the FIFA World Cup."
-        },
-        {
-          "ja": "今回の引き分けで、今年も強い相手になりそうだと感じさせました。",
-          "en": "This draw made people feel that Morocco may again be a strong opponent this year."
-        },
-        {
-          "ja": "通知には、水分をとること、休憩すること、外での活動を短くすることなどが書かれています。",
-          "en": "The notifications include messages about drinking water, taking breaks, and shortening outdoor activities."
         }
       ]
     },
@@ -38542,6 +38656,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "山陽新幹線の上り線にも影響が広がりました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
         {
           "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
@@ -46958,6 +47076,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ホームドアがない駅では、安全のために職員がホームを見回っています。",
+          "en": "At stations without platform doors, staff patrol the platforms for safety."
+        },
+        {
           "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
           "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
         },
@@ -46972,10 +47094,6 @@
         {
           "ja": "天候が回復した地域から、順次再開する動きも見られました。",
           "en": "In areas where the weather improved, operations began to restart gradually."
-        },
-        {
-          "ja": "今回の実験がうまくいけば、ほかの港でも同じような取り組みが始まるかもしれません。",
-          "en": "If this test goes well, similar efforts may begin at other ports too."
         }
       ]
     },
@@ -47332,6 +47450,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "山陽新幹線の上り線にも影響が広がりました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
         {
           "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
@@ -48087,6 +48209,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "警察は、その人の死亡を確認しました。",
+          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
+        },
+        {
+          "ja": "そして、2本の線路を横断し、下り線まで歩いたことが確認されました。",
+          "en": "The person then crossed two tracks and walked to the outbound track."
+        },
+        {
           "ja": "建設現場では、作業を始める前にアプリの情報を確認しています。",
           "en": "At construction sites, workers check the app's information before starting work."
         },
@@ -48097,14 +48227,6 @@
         {
           "ja": "家庭でも、家具を固定し、少なくとも3日分の食料を備蓄するなど、日常の備えを改めて確認することが重要です。",
           "en": "Households also need to review everyday preparedness, such as securing furniture and storing at least three days of food."
-        },
-        {
-          "ja": "通勤や出張の予定を変更する人が多く、駅や空港では最新情報を確認する姿が目立ちました。",
-          "en": "Many people changed commuting or business-trip plans, while stations and airports were filled with travelers checking the latest information."
-        },
-        {
-          "ja": "交通機関を利用する際は、運行状況を確認し、無理な移動を避けることが大切です。",
-          "en": "When using transportation, it is important to check service status and avoid unnecessary travel."
         }
       ]
     },
@@ -48345,6 +48467,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "防犯カメラなどによると、その人は上りホームの柵の切れ目から線路に降りました。",
+          "en": "According to security-camera footage and other evidence, the person went down to the tracks through a gap in the fence on the inbound platform."
+        },
+        {
+          "ja": "山陽新幹線の上り線にも影響が広がりました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
+        {
           "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
           "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
         },
@@ -48355,14 +48485,6 @@
         {
           "ja": "しかし、スウィフトには自分で軌道を上げるためのエンジンがありません。",
           "en": "However, Swift has no engine for raising its own orbit."
-        },
-        {
-          "ja": "リンクは6月27日に打ち上げられる予定で、3本のロボットアームでスウィフトをつかみ、より高く安全な軌道へ運びます。",
-          "en": "Link is scheduled to launch on June 27, grab Swift with three robotic arms, and move it to a higher, safer orbit."
-        },
-        {
-          "ja": "それでも成功すれば、スウィフトはさらに5年以上観測を続けられる可能性があります。",
-          "en": "Even so, if the mission succeeds, Swift may be able to continue observing for at least five more years."
         }
       ]
     },
@@ -48953,6 +49075,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "車両の先頭部分が壊れた可能性があり、JR東海が調べています。",
+          "en": "The front of the train may have been damaged, and JR Central is investigating."
+        },
+        {
           "ja": "このままでは、2026年内に大気圏へ入り、燃えてしまう可能性があります。",
           "en": "If nothing changes, it may enter the atmosphere and burn up by the end of 2026."
         },
@@ -48967,10 +49093,6 @@
         {
           "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
-        },
-        {
-          "ja": "気象庁は、最大1メートルの津波が来る可能性があると発表しました。",
-          "en": "The agency announced that waves of up to one meter could arrive."
         }
       ]
     },
@@ -50604,6 +50726,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
+          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
+        },
+        {
           "ja": "栃木県の宇都宮市では、クマが公園や学校、図書館の近くに出て、多くの人を怖がらせました。",
           "en": "In Utsunomiya, Tochigi Prefecture, a bear appeared near parks, schools, and a library, frightening many people."
         },
@@ -50618,10 +50744,6 @@
         {
           "ja": "実際には、沖縄県や宮崎県などで数センチから30センチほどの波が観測されました。",
           "en": "In reality, waves from several centimeters to about 30 centimeters were observed in places such as Okinawa and Miyazaki prefectures."
-        },
-        {
-          "ja": "東北のある県で、景色を楽しめる観光列車の人気が高まっています。",
-          "en": "In one prefecture in Tohoku, a sightseeing train that lets passengers enjoy the scenery is becoming more popular."
         }
       ]
     },
@@ -51920,7 +52042,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "防犯カメラなどによると、その人は上りホームの柵の切れ目から線路に降りました。",
+          "en": "According to security-camera footage and other evidence, the person went down to the tracks through a gap in the fence on the inbound platform."
+        }
+      ]
     },
     {
       "id": "core-9e14664c0bd767",
@@ -58256,6 +58383,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "JR東海によると、東海道新幹線の17駅のうち、ホームドアがあるのは東京、名古屋、新大阪など7駅です。",
+          "en": "According to JR Central, seven of the 17 Tokaido Shinkansen stations—including Tokyo, Nagoya, and Shin-Osaka—have platform doors."
+        },
+        {
           "ja": "名前は緑の靴のようですが、環境の制度ではありません。",
           "en": "The name sounds like a green shoe, but it is not an environmental policy."
         },
@@ -60115,6 +60246,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "車両の先頭部分が壊れた可能性があり、JR東海が調べています。",
+          "en": "The front of the train may have been damaged, and JR Central is investigating."
+        },
+        {
           "ja": "このままでは、2026年内に大気圏へ入り、燃えてしまう可能性があります。",
           "en": "If nothing changes, it may enter the atmosphere and burn up by the end of 2026."
         },
@@ -60129,10 +60264,6 @@
         {
           "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
-        },
-        {
-          "ja": "気象庁は、最大1メートルの津波が来る可能性があると発表しました。",
-          "en": "The agency announced that waves of up to one meter could arrive."
         }
       ]
     },
@@ -62131,7 +62262,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "そして、2本の線路を横断し、下り線まで歩いたことが確認されました。",
+          "en": "The person then crossed two tracks and walked to the outbound track."
+        }
+      ]
     },
     {
       "id": "core-18171596cd4d1f",
@@ -62533,6 +62669,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "この列車は浜松駅を通過しているところでした。",
+          "en": "It was passing through Hamamatsu Station."
+        },
+        {
           "ja": "東北のある県で、景色を楽しめる観光列車の人気が高まっています。",
           "en": "In one prefecture in Tohoku, a sightseeing train that lets passengers enjoy the scenery is becoming more popular."
         },
@@ -62565,6 +62705,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "この列車は浜松駅を通過しているところでした。",
+          "en": "It was passing through Hamamatsu Station."
+        },
+        {
           "ja": "台風6号は3日、強い風と激しい雨を伴って日本列島を進みました。",
           "en": "On the 3rd, Typhoon No. 6 moved across Japan with strong winds and heavy rain. Power outages, flooding, and fallen trees were reported in many places, and local governments urged residents to evacuate early."
         },
@@ -62579,10 +62723,6 @@
         {
           "ja": "駅の周りでは、列車の到着にあわせて土産店やカフェが営業を広げています。",
           "en": "Around the stations, souvenir shops and cafes are extending business hours to match the train’s arrivals."
-        },
-        {
-          "ja": "地元の人は、列車のおかげで町に活気が戻ってきたと感じています。",
-          "en": "Local people feel the train is bringing energy back to the town."
         }
       ]
     },
@@ -64244,6 +64384,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "車両の先頭部分が壊れた可能性があり、JR東海が調べています。",
+          "en": "The front of the train may have been damaged, and JR Central is investigating."
+        },
+        {
           "ja": "このままでは、2026年内に大気圏へ入り、燃えてしまう可能性があります。",
           "en": "If nothing changes, it may enter the atmosphere and burn up by the end of 2026."
         },
@@ -64258,10 +64402,6 @@
         {
           "ja": "オーストラリアのシドニーにあるクージー・ビーチで、35歳の女性がサメにかまれました。",
           "en": "At Coogee Beach in Sydney, Australia, a 35-year-old woman was bitten by a shark."
-        },
-        {
-          "ja": "女性は土曜日の朝、岸に近い場所で泳いでいました。",
-          "en": "She was swimming near the shore on Saturday morning."
         }
       ]
     },
@@ -65463,7 +65603,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "警察は、その人の死亡を確認しました。",
+          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
+        }
+      ]
     },
     {
       "id": "core-904e61ddc53173",
@@ -66252,6 +66397,22 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
+          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
+        },
+        {
+          "ja": "この事故で、東海道新幹線は東京と新大阪の間の全線で運転を見合わせました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
+        {
+          "ja": "山陽新幹線の上り線にも影響が広がりました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
+        {
+          "ja": "JR東海によると、東海道新幹線の17駅のうち、ホームドアがあるのは東京、名古屋、新大阪など7駅です。",
+          "en": "According to JR Central, seven of the 17 Tokaido Shinkansen stations—including Tokyo, Nagoya, and Shin-Osaka—have platform doors."
+        },
         {
           "ja": "航空会社は国内線と国際線を含む多くの便を欠航にし、新幹線や在来線にも遅れや運休が出ました。",
           "en": "Airlines canceled many domestic and international flights, and bullet trains and local rail services also saw delays and suspensions."
@@ -67138,6 +67299,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ホームドアがない駅では、安全のために職員がホームを見回っています。",
+          "en": "At stations without platform doors, staff patrol the platforms for safety."
+        },
+        {
           "ja": "後に大学の近くでクマが見つかると、市の職員はドローンで場所を追跡しました。",
           "en": "When the bear was later found near a university, city workers used a drone to track it."
         },
@@ -67152,10 +67317,6 @@
         {
           "ja": "ホテルの職員は、簡単な質問をロボットにまかせることで、別の仕事に時間を使いやすくなったと話しています。",
           "en": "Hotel staff say that by leaving simple questions to robots, they can spend more time on other work."
-        },
-        {
-          "ja": "そのため、ロボットだけに頼るのではなく、職員と協力して使うことが大切だと考えられています。",
-          "en": "For that reason, people think it is important to use robots together with staff rather than relying only on robots."
         }
       ]
     },
@@ -67801,7 +67962,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
+          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
+        }
+      ]
     },
     {
       "id": "core-140b10cb33023e",
@@ -69439,6 +69605,10 @@
           "meaning": "Te-form of 進める: to advance, to promote",
           "exampleSentences": [
             {
+              "ja": "ほかの駅でも設置を進めています。",
+              "en": "Installation is progressing at other stations."
+            },
+            {
               "ja": "地方の自治体が、若い農家を増やすために、みんなで使える大きな温室を作る計画を進めています。",
               "en": "A local government is moving forward with a plan to build a large greenhouse that everyone can share in order to increase the number of young farmers."
             },
@@ -69453,10 +69623,6 @@
             {
               "ja": "自治体は、脱炭素の目標を進めるため、企業への支援も続ける方針です。",
               "en": "The local government plans to keep supporting companies to advance decarbonization goals."
-            },
-            {
-              "ja": "このお金は、研究や開発をもっと早く進めるために使われます。",
-              "en": "This money will be used to speed up research and development."
             }
           ]
         },
@@ -72202,6 +72368,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
+          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
+        },
+        {
+          "ja": "運転は約3時間後の午後8時48分に再開しました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
+        {
           "ja": "アメリカとイランは、戦争を終わらせるための一時的な合意について話し合っています。",
           "en": "The United States and Iran are discussing a temporary agreement to end the war."
         },
@@ -72212,14 +72386,6 @@
         {
           "ja": "アプリは気温や湿度を見て、危険が高い時に知らせます。",
           "en": "The apps check temperature and humidity and send alerts when the danger is high."
-        },
-        {
-          "ja": "危険な時間帯には、屋外の仕事を減らし、日陰で休む時間を長くしています。",
-          "en": "During dangerous time periods, they reduce outdoor work and take longer breaks in the shade."
-        },
-        {
-          "ja": "頭が痛い、気分が悪いなどの症状がある時は、すぐに涼しい場所へ移動することが大切です。",
-          "en": "If symptoms such as a headache or feeling unwell appear, it is important to move to a cool place right away."
         }
       ]
     },
@@ -73830,6 +73996,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "この列車は浜松駅を通過しているところでした。",
+          "en": "It was passing through Hamamatsu Station."
+        },
+        {
           "ja": "気象庁は、台風が通過した後も地盤が緩んでいる場所では土砂災害に警戒するよう求めています。",
           "en": "The Meteorological Agency is asking people to remain alert for landslides in places where the ground has loosened even after the typhoon passes."
         }
@@ -74504,6 +74674,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "この事故で、東海道新幹線は東京と新大阪の間の全線で運転を見合わせました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
+        {
+          "ja": "運転は約3時間後の午後8時48分に再開しました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
+        {
           "ja": "リンクは6月27日に打ち上げられる予定で、3本のロボットアームでスウィフトをつかみ、より高く安全な軌道へ運びます。",
           "en": "Link is scheduled to launch on June 27, grab Swift with three robotic arms, and move it to a higher, safer orbit."
         },
@@ -74514,14 +74692,6 @@
         {
           "ja": "そのため、必要な時だけ走る仕組みにして、運転手や燃料の負担を減らしたい考えです。",
           "en": "The town wants to reduce the burden on drivers and fuel use by running buses only when needed."
-        },
-        {
-          "ja": "町は3か月の実験で、利用した人数や運行にかかる費用を調べます。",
-          "en": "During the three-month trial, the town will study the number of users and the cost of operating the buses."
-        },
-        {
-          "ja": "航空会社は国内線と国際線を含む多くの便を欠航にし、新幹線や在来線にも遅れや運休が出ました。",
-          "en": "Airlines canceled many domestic and international flights, and bullet trains and local rail services also saw delays and suspensions."
         }
       ]
     },
@@ -75739,6 +75909,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "運転は約3時間後の午後8時48分に再開しました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
+        {
           "ja": "もし株価が高いままなら、会社から追加の株を買って約束を満たします。",
           "en": "If the share price stays high, they buy additional shares from the company to meet their commitment."
         },
@@ -75753,10 +75927,6 @@
         {
           "ja": "とくに、最近は外国人の旅行者が多く、週末の予約が取りにくくなっています。",
           "en": "Recently, especially many foreign travelers are using it, making weekend reservations hard to get."
-        },
-        {
-          "ja": "新しい提案では、会社の価値は約40億ドルになり、ライバルの案より高くなりました。",
-          "en": "In the new proposal, the company’s value becomes about 4 billion dollars, which is higher than the rival offer."
         }
       ]
     },
@@ -76288,7 +76458,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "そして、2本の線路を横断し、下り線まで歩いたことが確認されました。",
+          "en": "The person then crossed two tracks and walked to the outbound track."
+        }
+      ]
     },
     {
       "id": "core-5fc0e6d7f767b9",
@@ -76841,7 +77016,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "事故にあったのは、東京発博多行きの「のぞみ49号」です。",
+          "en": "The train involved was Nozomi 49, traveling from Tokyo to Hakata."
+        }
+      ]
     },
     {
       "id": "core-a9c9e18461b4b0",
@@ -77675,6 +77855,184 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": []
+    },
+    {
+      "id": "article-b0eaf00d54f4f8",
+      "level": "N3",
+      "term": "死亡事故",
+      "reading": "しぼうじこ",
+      "readingHiragana": "しぼうじこ",
+      "meaning": "Fatal accident",
+      "source": "article",
+      "sourceId": "2026-06-20-hamamatsu-shinkansen-accident",
+      "sourceTitle": "浜松駅で新幹線の死亡事故",
+      "sourceLabel": "6/20 浜松駅の新幹線事故",
+      "sourceHref": "./2026-06-20-hamamatsu-shinkansen-accident.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-20-hamamatsu-shinkansen-accident"
+      ],
+      "exampleSentences": []
+    },
+    {
+      "id": "article-61cec8162a0269",
+      "level": "N3",
+      "term": "衝突",
+      "reading": "しょうとつ",
+      "readingHiragana": "しょうとつ",
+      "meaning": "Collision / Impact",
+      "source": "article",
+      "sourceId": "2026-06-20-hamamatsu-shinkansen-accident",
+      "sourceTitle": "浜松駅で新幹線の死亡事故",
+      "sourceLabel": "6/20 浜松駅の新幹線事故",
+      "sourceHref": "./2026-06-20-hamamatsu-shinkansen-accident.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-20-hamamatsu-shinkansen-accident"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
+          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
+        }
+      ]
+    },
+    {
+      "id": "article-9552c9e363e0d1",
+      "level": "N3",
+      "term": "通過",
+      "reading": "つうか",
+      "readingHiragana": "つうか",
+      "meaning": "Passing through",
+      "source": "article",
+      "sourceId": "2026-06-20-hamamatsu-shinkansen-accident",
+      "sourceTitle": "浜松駅で新幹線の死亡事故",
+      "sourceLabel": "6/20 浜松駅の新幹線事故",
+      "sourceHref": "./2026-06-20-hamamatsu-shinkansen-accident.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-20-hamamatsu-shinkansen-accident"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "この列車は浜松駅を通過しているところでした。",
+          "en": "It was passing through Hamamatsu Station."
+        },
+        {
+          "ja": "気象庁は、台風が通過した後も地盤が緩んでいる場所では土砂災害に警戒するよう求めています。",
+          "en": "The Meteorological Agency is asking people to remain alert for landslides in places where the ground has loosened even after the typhoon passes."
+        }
+      ]
+    },
+    {
+      "id": "article-3abda4d66b8fd8",
+      "level": "N3",
+      "term": "先頭部分",
+      "reading": "せんとうぶぶん",
+      "readingHiragana": "せんとうぶぶん",
+      "meaning": "Front section",
+      "source": "article",
+      "sourceId": "2026-06-20-hamamatsu-shinkansen-accident",
+      "sourceTitle": "浜松駅で新幹線の死亡事故",
+      "sourceLabel": "6/20 浜松駅の新幹線事故",
+      "sourceHref": "./2026-06-20-hamamatsu-shinkansen-accident.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-20-hamamatsu-shinkansen-accident"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "車両の先頭部分が壊れた可能性があり、JR東海が調べています。",
+          "en": "The front of the train may have been damaged, and JR Central is investigating."
+        }
+      ]
+    },
+    {
+      "id": "article-101a6e29837b9c",
+      "level": "N3",
+      "term": "防犯カメラ",
+      "reading": "ぼうはんカメラ",
+      "readingHiragana": "ぼうはんかめら",
+      "meaning": "Security camera",
+      "source": "article",
+      "sourceId": "2026-06-20-hamamatsu-shinkansen-accident",
+      "sourceTitle": "浜松駅で新幹線の死亡事故",
+      "sourceLabel": "6/20 浜松駅の新幹線事故",
+      "sourceHref": "./2026-06-20-hamamatsu-shinkansen-accident.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-20-hamamatsu-shinkansen-accident"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "防犯カメラなどによると、その人は上りホームの柵の切れ目から線路に降りました。",
+          "en": "According to security-camera footage and other evidence, the person went down to the tracks through a gap in the fence on the inbound platform."
+        }
+      ]
+    },
+    {
+      "id": "article-4a6969610950bf",
+      "level": "N3",
+      "term": "横断",
+      "reading": "おうだん",
+      "readingHiragana": "おうだん",
+      "meaning": "Crossing",
+      "source": "article",
+      "sourceId": "2026-06-20-hamamatsu-shinkansen-accident",
+      "sourceTitle": "浜松駅で新幹線の死亡事故",
+      "sourceLabel": "6/20 浜松駅の新幹線事故",
+      "sourceHref": "./2026-06-20-hamamatsu-shinkansen-accident.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-20-hamamatsu-shinkansen-accident"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "そして、2本の線路を横断し、下り線まで歩いたことが確認されました。",
+          "en": "The person then crossed two tracks and walked to the outbound track."
+        }
+      ]
+    },
+    {
+      "id": "article-969c4a110cb757",
+      "level": "N3",
+      "term": "運転を見合わせる",
+      "reading": "うんてんをみあわせる",
+      "readingHiragana": "うんてんをみあわせる",
+      "meaning": "To suspend operations",
+      "source": "article",
+      "sourceId": "2026-06-20-hamamatsu-shinkansen-accident",
+      "sourceTitle": "浜松駅で新幹線の死亡事故",
+      "sourceLabel": "6/20 浜松駅の新幹線事故",
+      "sourceHref": "./2026-06-20-hamamatsu-shinkansen-accident.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-20-hamamatsu-shinkansen-accident"
+      ],
+      "exampleSentences": []
+    },
+    {
+      "id": "article-97d5dc4311f004",
+      "level": "N3",
+      "term": "設置",
+      "reading": "せっち",
+      "readingHiragana": "せっち",
+      "meaning": "Installation",
+      "source": "article",
+      "sourceId": "2026-06-20-hamamatsu-shinkansen-accident",
+      "sourceTitle": "浜松駅で新幹線の死亡事故",
+      "sourceLabel": "6/20 浜松駅の新幹線事故",
+      "sourceHref": "./2026-06-20-hamamatsu-shinkansen-accident.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-20-hamamatsu-shinkansen-accident"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "ほかの駅でも設置を進めています。",
+          "en": "Installation is progressing at other stations."
+        }
+      ]
     },
     {
       "id": "article-671efac4fde0b5",
@@ -78709,6 +79067,10 @@
         "2026-06-14-swiss-population-cap"
       ],
       "exampleSentences": [
+        {
+          "ja": "山陽新幹線の上り線にも影響が広がりました。",
+          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
+        },
         {
           "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
@@ -79974,6 +80336,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "車両の先頭部分が壊れた可能性があり、JR東海が調べています。",
+          "en": "The front of the train may have been damaged, and JR Central is investigating."
+        },
+        {
           "ja": "このままでは、2026年内に大気圏へ入り、燃えてしまう可能性があります。",
           "en": "If nothing changes, it may enter the atmosphere and burn up by the end of 2026."
         },
@@ -79988,10 +80354,6 @@
         {
           "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
-        },
-        {
-          "ja": "気象庁は、最大1メートルの津波が来る可能性があると発表しました。",
-          "en": "The agency announced that waves of up to one meter could arrive."
         }
       ]
     },
