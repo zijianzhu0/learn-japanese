@@ -1,0 +1,69 @@
+{
+  "id": "2026-06-25-urban-pulse-satellites",
+  "file": "2026-06-25-urban-pulse-satellites.html",
+  "title": "衛星が見つけた都市の「脈」",
+  "date": "2026年6月25日",
+  "month": "June 2026",
+  "navLabel": "6/25 衛星が見た都市の脈",
+  "level": "N3",
+  "downloadFileName": "2026-06-25-urban-pulse-satellites.mp4",
+  "headlineHtml": "<ruby>衛星<rt>えいせい</rt></ruby>が<ruby>見<rt>み</rt></ruby>つけた<ruby>都市<rt>とし</rt></ruby>の「<ruby>脈<rt>みゃく</rt></ruby>」",
+  "sourceNote": "2026年6月14日にarXivで公開されたUrbanWell: Benchmarking Multimodal Large Language Models for Spatio-Temporal Urban Wellbeing AnalyticsをもとにしたN3レベルの学習用ページです。",
+  "paragraphs": [
+    {
+      "html": "<ruby>研究者<rt>けんきゅうしゃ</rt></ruby>たちは、<ruby>衛星画像<rt>えいせいがぞう</rt></ruby>と<ruby>街<rt>まち</rt></ruby>の<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>使<rt>つか</rt></ruby>って、<ruby>都市<rt>とし</rt></ruby>の<ruby>変化<rt>へんか</rt></ruby>を<ruby>細<rt>こま</rt></ruby>かく<ruby>調<rt>しら</rt></ruby>べる<ruby>新<rt>あたら</rt></ruby>しいデータセットを<ruby>発表<rt>はっぴょう</rt></ruby>しました。<ruby>名前<rt>なまえ</rt></ruby>は「アーバンウェル」です。まるで<ruby>都市<rt>とし</rt></ruby>の「<ruby>脈<rt>みゃく</rt></ruby>」を<ruby>読<rt>よ</rt></ruby>むような<ruby>研究<rt>けんきゅう</rt></ruby>です。",
+      "translation": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
+    },
+    {
+      "html": "このデータセットには、<ruby>世界<rt>せかい</rt></ruby>の38の<ruby>都市<rt>とし</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby>が<ruby>入<rt>はい</rt></ruby>っています。<ruby>二酸化炭素<rt>にさんかたんそ</rt></ruby>、<ruby>二酸化窒素<rt>にさんかちっそ</rt></ruby>、<ruby>細<rt>こま</rt></ruby>かい<ruby>粒子<rt>りゅうし</rt></ruby>の<ruby>汚染<rt>おせん</rt></ruby>、<ruby>緑<rt>みどり</rt></ruby>の<ruby>多<rt>おお</rt></ruby>さなどを<ruby>同<rt>おな</rt></ruby>じ<ruby>場所<rt>ばしょ</rt></ruby>ごとに<ruby>比<rt>くら</rt></ruby>べられます。",
+      "translation": "The dataset includes information from 38 cities around the world. It can compare carbon dioxide, nitrogen dioxide, fine-particle pollution, the amount of greenery, and other data for the same kinds of locations."
+    },
+    {
+      "html": "<ruby>研究<rt>けんきゅう</rt></ruby>チームは、<ruby>環境<rt>かんきょう</rt></ruby>だけでなく、スーパーやレストランまでの<ruby>距離<rt>きょり</rt></ruby>、<ruby>道路<rt>どうろ</rt></ruby>の<ruby>多<rt>おお</rt></ruby>さ、<ruby>土地<rt>とち</rt></ruby>の<ruby>使<rt>つか</rt></ruby>い<ruby>方<rt>かた</rt></ruby>も<ruby>集<rt>あつ</rt></ruby>めました。<ruby>人<rt>ひと</rt></ruby>が<ruby>集<rt>あつ</rt></ruby>まる<ruby>力<rt>ちから</rt></ruby>や、<ruby>経済活動<rt>けいざいかつどう</rt></ruby>の<ruby>種類<rt>しゅるい</rt></ruby>も<ruby>調<rt>しら</rt></ruby>べています。",
+      "translation": "The research team collected not only environmental data, but also distances to supermarkets and restaurants, road density, and land use. It also studies a city's ability to attract people and the variety of its economic activity."
+    },
+    {
+      "html": "この<ruby>情報<rt>じょうほう</rt></ruby>は、AIが<ruby>都市<rt>とし</rt></ruby>の<ruby>今<rt>いま</rt></ruby>と<ruby>未来<rt>みらい</rt></ruby>を<ruby>考<rt>かんが</rt></ruby>える<ruby>力<rt>ちから</rt></ruby>を<ruby>試<rt>ため</rt></ruby>すために<ruby>作<rt>つく</rt></ruby>られました。AIは、<ruby>昔<rt>むかし</rt></ruby>からの<ruby>記録<rt>きろく</rt></ruby>を<ruby>見<rt>み</rt></ruby>て、<ruby>空気<rt>くうき</rt></ruby>の<ruby>汚<rt>よご</rt></ruby>れや<ruby>街<rt>まち</rt></ruby>の<ruby>元気<rt>げんき</rt></ruby>さがどう<ruby>変<rt>か</rt></ruby>わるかを<ruby>予測<rt>よそく</rt></ruby>します。",
+      "translation": "The information was made to test how well AI can think about the present and future of cities. AI looks at past records and predicts how air pollution and urban vitality may change."
+    },
+    {
+      "html": "<ruby>研究者<rt>けんきゅうしゃ</rt></ruby>たちは、15<ruby>種類<rt>しゅるい</rt></ruby>の<ruby>最新<rt>さいしん</rt></ruby>AIを<ruby>試<rt>ため</rt></ruby>しました。AIは<ruby>写真<rt>しゃしん</rt></ruby>から<ruby>大切<rt>たいせつ</rt></ruby>な<ruby>手<rt>て</rt></ruby>がかりを<ruby>見<rt>み</rt></ruby>つけられましたが、<ruby>結果<rt>けっか</rt></ruby>は<ruby>項目<rt>こうもく</rt></ruby>によって<ruby>大<rt>おお</rt></ruby>きく<ruby>違<rt>ちが</rt></ruby>いました。<ruby>都市<rt>とし</rt></ruby>の<ruby>脈<rt>みゃく</rt></ruby>を<ruby>正<rt>ただ</rt></ruby>しく<ruby>読<rt>よ</rt></ruby>むには、まだ<ruby>多<rt>おお</rt></ruby>くの<ruby>研究<rt>けんきゅう</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>です。",
+      "translation": "The researchers tested 15 kinds of advanced AI. The AI could find important clues in images, but the results differed greatly depending on the item. More research is still needed to read a city's pulse accurately."
+    }
+  ],
+  "vocabularyTitle": "N3 Vocabulary",
+  "vocabulary": [
+    {
+      "term": "衛星画像（えいせいがぞう）",
+      "meaning": "Satellite image"
+    },
+    {
+      "term": "都市（とし）",
+      "meaning": "City / Urban area"
+    },
+    {
+      "term": "脈（みゃく）",
+      "meaning": "Pulse"
+    },
+    {
+      "term": "研究者（けんきゅうしゃ）",
+      "meaning": "Researcher / Scientist"
+    },
+    {
+      "term": "二酸化炭素（にさんかたんそ）",
+      "meaning": "Carbon dioxide"
+    },
+    {
+      "term": "汚染（おせん）",
+      "meaning": "Pollution"
+    },
+    {
+      "term": "経済活動（けいざいかつどう）",
+      "meaning": "Economic activity"
+    },
+    {
+      "term": "予測（よそく）",
+      "meaning": "Prediction / Forecast"
+    }
+  ]
+}

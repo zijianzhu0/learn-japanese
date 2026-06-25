@@ -4,7 +4,7 @@
     "articleManifest": "data/articles.json"
   },
   "levels": {
-    "N3": 1918,
+    "N3": 1926,
     "N4": 536,
     "N5": 553
   },
@@ -874,6 +874,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
+          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
+        },
+        {
           "ja": "新しい株の値段を安定させるための金融のしくみです。",
           "en": "It is a financial mechanism for stabilizing the price of new shares."
         },
@@ -888,10 +892,6 @@
         {
           "ja": "新しい計画では、揺れを感知すると自動的に電気を止める感震ブレーカーの普及を進めます。",
           "en": "The new plan will promote seismic circuit breakers that automatically shut off electricity when they detect shaking."
-        },
-        {
-          "ja": "地域の農業を守るための新しい仕組みとして注目されています。",
-          "en": "It is attracting attention as a new system for protecting local agriculture."
         }
       ]
     },
@@ -2079,6 +2079,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "AIは、昔からの記録を見て、空気の汚れや街の元気さがどう変わるかを予測します。",
+          "en": "AI looks at past records and predicts how air pollution and urban vitality may change."
+        },
+        {
           "ja": "そのため、各国の政府や企業は、この合意が実行されるかどうかを注意して見ています。",
           "en": "For that reason, governments and companies are watching carefully to see whether the agreement will be carried out."
         },
@@ -2093,10 +2097,6 @@
         {
           "ja": "ドローンは、道路が通れるかどうかや、川の水がどこまで来ているかを、すばやく調べることができます。",
           "en": "Drones can quickly check whether roads are passable and how far river water has reached."
-        },
-        {
-          "ja": "専門家は、技術だけに頼るのではなく、住民どうしの助け合いも大切だと話しています。",
-          "en": "Experts say it is important not to rely only on technology, but also on mutual help among residents."
         }
       ]
     },
@@ -2671,6 +2671,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "AIは、昔からの記録を見て、空気の汚れや街の元気さがどう変わるかを予測します。",
+          "en": "AI looks at past records and predicts how air pollution and urban vitality may change."
+        },
+        {
           "ja": "観光だけでなく、地域の経済を元気にする役割も期待されています。",
           "en": "The train is expected not only to support tourism but also to help energize the regional economy."
         },
@@ -2976,6 +2980,10 @@
           "readingHiragana": "はいって",
           "meaning": "Te-form of 入る: to enter, to go into",
           "exampleSentences": [
+            {
+              "ja": "このデータセットには、世界の38の都市の情報が入っています。",
+              "en": "The dataset includes information from 38 cities around the world."
+            },
             {
               "ja": "近くにいた24歳のライフセーバーが、海へ入って女性をボードに乗せました。",
               "en": "A 24-year-old lifesaver nearby entered the water and put the woman on a board."
@@ -4300,6 +4308,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "人が集まる力や、経済活動の種類も調べています。",
+          "en": "It also studies a city's ability to attract people and the variety of its economic activity."
+        },
+        {
           "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
           "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
         },
@@ -4314,10 +4326,6 @@
         {
           "ja": "家族は、救助した人たちや病院のスタッフに深く感謝していると話しました。",
           "en": "The family said they are deeply grateful to the people who rescued her and to the hospital staff."
-        },
-        {
-          "ja": "マディソン・スクエア・ガーデンの近くには、たくさんの人が集まりました。",
-          "en": "Many people gathered near Madison Square Garden."
         }
       ]
     },
@@ -4735,6 +4743,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
+          "en": "The information was made to test how well AI can think about the present and future of cities."
+        },
+        {
           "ja": "もともとの予定は2年間でしたが、20年以上たった今も科学のために働いています。",
           "en": "Its mission was originally planned for two years, but more than 20 years later, it is still working for science."
         },
@@ -4749,10 +4761,6 @@
         {
           "ja": "今回の結果は、移民への不安と、EUとの結びつきを守りたい考えが、スイス社会でぶつかっていることを示しました。",
           "en": "\" The result showed that anxiety about immigration and the wish to protect ties with the EU are clashing in Swiss society."
-        },
-        {
-          "ja": "今回の引き分けで、今年も強い相手になりそうだと感じさせました。",
-          "en": "This draw made people feel that Morocco may again be a strong opponent this year."
         }
       ]
     },
@@ -6037,6 +6045,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "研究チームは、環境だけでなく、スーパーやレストランまでの距離、道路の多さ、土地の使い方も集めました。",
+          "en": "The research team collected not only environmental data, but also distances to supermarkets and restaurants, road density, and land use."
+        },
+        {
           "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
           "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
         },
@@ -6051,10 +6063,6 @@
         {
           "ja": "専門家は、クマの数が増えたことや、地方で人が少なくなったことが原因の一つだと考えています。",
           "en": "Experts think one reason is that bear numbers have grown while rural populations have shrunk."
-        },
-        {
-          "ja": "注意報はその後、夕方にすべて解除されましたが、海面の変化が続く場所もあるとされています。",
-          "en": "The advisory was later fully lifted in the evening, but sea level changes may continue in some places."
         }
       ]
     },
@@ -7728,6 +7736,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "都市の脈を正しく読むには、まだ多くの研究が必要です。",
+          "en": "More research is still needed to read a city's pulse accurately."
+        },
+        {
           "ja": "そのため、停戦案が本当に進むかはまだわかりません。",
           "en": "Because of that, it is still unclear whether the ceasefire plan will really move forward."
         },
@@ -7752,6 +7764,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "名前は「アーバンウェル」です。",
+          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
+        },
+        {
           "ja": "ブラジルは優勝経験が多い強いチームですが、前半はモロッコの速い攻撃に苦しみました。",
           "en": "Brazil are a strong team with many World Cup titles, but in the first half they struggled against Morocco’s quick attacks."
         },
@@ -7766,10 +7782,6 @@
         {
           "ja": "利用したい人は、前日までに電話かスマートフォンで乗る場所と時間を伝えます。",
           "en": "People who want to use the service tell the town their pickup place and time by phone or smartphone by the previous day."
-        },
-        {
-          "ja": "暑い日が早く増えているため、いくつかの都市で駅前広場のミスト設備を増やす計画が始まりました。",
-          "en": "Because hot days are coming earlier, some cities have begun plans to increase mist systems in station plazas."
         }
       ]
     },
@@ -8183,6 +8195,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "AIは写真から大切な手がかりを見つけられましたが、結果は項目によって大きく違いました。",
+          "en": "The AI could find important clues in images, but the results differed greatly depending on the item."
+        },
+        {
           "ja": "防犯カメラなどによると、その人は上りホームの柵の切れ目から線路に降りました。",
           "en": "According to security-camera footage and other evidence, the person went down to the tracks through a gap in the fence on the inbound platform."
         },
@@ -8197,10 +8213,6 @@
         {
           "ja": "死者数や全壊・焼失する建物の数を、想定より半分以下に抑えることを目標にします。",
           "en": "Its goal is to cut the expected deaths and destroyed or burned buildings to less than half of the estimate."
-        },
-        {
-          "ja": "通勤や出張の予定を変更する人が多く、駅や空港では最新情報を確認する姿が目立ちました。",
-          "en": "Many people changed commuting or business-trip plans, while stations and airports were filled with travelers checking the latest information."
         }
       ]
     },
@@ -8234,6 +8246,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "研究チームは、環境だけでなく、スーパーやレストランまでの距離、道路の多さ、土地の使い方も集めました。",
+          "en": "The research team collected not only environmental data, but also distances to supermarkets and restaurants, road density, and land use."
+        },
+        {
           "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
           "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
         },
@@ -8248,10 +8264,6 @@
         {
           "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
           "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
-        },
-        {
-          "ja": "しかし、スウィフトには自分で軌道を上げるためのエンジンがありません。",
-          "en": "However, Swift has no engine for raising its own orbit."
         }
       ]
     },
@@ -8269,6 +8281,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "二酸化炭素、二酸化窒素、細かい粒子の汚染、緑の多さなどを同じ場所ごとに比べられます。",
+          "en": "It can compare carbon dioxide, nitrogen dioxide, fine-particle pollution, the amount of greenery, and other data for the same kinds of locations."
+        },
         {
           "ja": "名前は緑の靴のようですが、環境の制度ではありません。",
           "en": "The name sounds like a green shoe, but it is not an environmental policy."
@@ -8509,6 +8525,10 @@
           "readingHiragana": "みて",
           "meaning": "Te-form of 見る: to see, to look, to watch",
           "exampleSentences": [
+            {
+              "ja": "AIは、昔からの記録を見て、空気の汚れや街の元気さがどう変わるかを予測します。",
+              "en": "AI looks at past records and predicts how air pollution and urban vitality may change."
+            },
             {
               "ja": "そのため、各国の政府や企業は、この合意が実行されるかどうかを注意して見ています。",
               "en": "For that reason, governments and companies are watching carefully to see whether the agreement will be carried out."
@@ -9120,6 +9140,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "名前は「アーバンウェル」です。",
+          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
+        },
+        {
           "ja": "名前は緑の靴のようですが、環境の制度ではありません。",
           "en": "The name sounds like a green shoe, but it is not an environmental policy."
         },
@@ -9667,6 +9691,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "二酸化炭素、二酸化窒素、細かい粒子の汚染、緑の多さなどを同じ場所ごとに比べられます。",
+          "en": "It can compare carbon dioxide, nitrogen dioxide, fine-particle pollution, the amount of greenery, and other data for the same kinds of locations."
+        },
         {
           "ja": "市は安全のため、市立の学校を二日間休校にしました。",
           "en": "For safety, the city closed municipal schools for two days."
@@ -10658,6 +10686,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "二酸化炭素、二酸化窒素、細かい粒子の汚染、緑の多さなどを同じ場所ごとに比べられます。",
+          "en": "It can compare carbon dioxide, nitrogen dioxide, fine-particle pollution, the amount of greenery, and other data for the same kinds of locations."
+        },
         {
           "ja": "管理者は、同じ内容を働く人や生徒にすぐ送ることができます。",
           "en": "Managers can quickly send the same information to workers or students."
@@ -11909,7 +11941,16 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
+          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
+        },
+        {
+          "ja": "AIは写真から大切な手がかりを見つけられましたが、結果は項目によって大きく違いました。",
+          "en": "The AI could find important clues in images, but the results differed greatly depending on the item."
+        }
+      ]
     },
     {
       "id": "core-01b3c04299173d",
@@ -12498,6 +12539,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "AIは、昔からの記録を見て、空気の汚れや街の元気さがどう変わるかを予測します。",
+          "en": "AI looks at past records and predicts how air pollution and urban vitality may change."
+        },
+        {
           "ja": "航空会社は国内線と国際線を含む多くの便を欠航にし、新幹線や在来線にも遅れや運休が出ました。",
           "en": "Airlines canceled many domestic and international flights, and bullet trains and local rail services also saw delays and suspensions."
         },
@@ -12512,10 +12557,6 @@
         {
           "ja": "通勤や通学で使う人が多い場所では、とくに休める空間が必要だと考えられています。",
           "en": "In places used by many commuters and students, it is thought that rest spaces are especially necessary."
-        },
-        {
-          "ja": "今年は、空から被害の様子を確認できるドローンを使う場面が増えました。",
-          "en": "This year, there were more situations in which drones were used to check damage from the sky."
         }
       ]
     },
@@ -12799,6 +12840,10 @@
           "meaning": "Polite form of する: to do",
           "exampleSentences": [
             {
+              "ja": "AIは、昔からの記録を見て、空気の汚れや街の元気さがどう変わるかを予測します。",
+              "en": "AI looks at past records and predicts how air pollution and urban vitality may change."
+            },
+            {
               "ja": "もし上場後に株価が下がれば、証券会社は市場で株を買い戻します。",
               "en": "If the share price falls after listing, the securities firms buy shares back in the market."
             },
@@ -12813,10 +12858,6 @@
             {
               "ja": "ロボットは、フロントの近くで館内の説明をしたり、近くの店を紹介したりします。",
               "en": "These robots explain hotel facilities near the front desk and introduce nearby shops."
-            },
-            {
-              "ja": "今回の対策では、肥料や燃料の費用が高くなった地域に、より多くの補助金を出します。",
-              "en": "Under the new plan, areas where fertilizer and fuel costs have become high will receive more subsidies."
             }
           ]
         },
@@ -12829,24 +12870,24 @@
           "meaning": "Plain past form of する: to do",
           "exampleSentences": [
             {
-              "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
-              "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
+              "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
+              "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
             },
             {
-              "ja": "警察は、その人の死亡を確認しました。",
-              "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
+              "ja": "研究チームは、環境だけでなく、スーパーやレストランまでの距離、道路の多さ、土地の使い方も集めました。",
+              "en": "The research team collected not only environmental data, but also distances to supermarkets and restaurants, road density, and land use."
             },
             {
-              "ja": "この列車は浜松駅を通過しているところでした。",
-              "en": "It was passing through Hamamatsu Station."
+              "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
+              "en": "The information was made to test how well AI can think about the present and future of cities."
             },
             {
-              "ja": "防犯カメラなどによると、その人は上りホームの柵の切れ目から線路に降りました。",
-              "en": "According to security-camera footage and other evidence, the person went down to the tracks through a gap in the fence on the inbound platform."
+              "ja": "研究者たちは、15種類の最新AIを試しました。",
+              "en": "The researchers tested 15 kinds of advanced AI."
             },
             {
-              "ja": "そして、2本の線路を横断し、下り線まで歩いたことが確認されました。",
-              "en": "The person then crossed two tracks and walked to the outbound track."
+              "ja": "AIは写真から大切な手がかりを見つけられましたが、結果は項目によって大きく違いました。",
+              "en": "The AI could find important clues in images, but the results differed greatly depending on the item."
             }
           ]
         },
@@ -13259,6 +13300,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "AIは写真から大切な手がかりを見つけられましたが、結果は項目によって大きく違いました。",
+          "en": "The AI could find important clues in images, but the results differed greatly depending on the item."
+        },
+        {
           "ja": "夜にゴミを出さないことや、窓と扉をしっかり閉めることも大切だと案内しました。",
           "en": "It also advised people not to put out garbage at night and to keep windows and doors tightly closed."
         },
@@ -13273,10 +13318,6 @@
         {
           "ja": "交通機関を利用する際は、運行状況を確認し、無理な移動を避けることが大切です。",
           "en": "When using transportation, it is important to check service status and avoid unnecessary travel."
-        },
-        {
-          "ja": "便利さと安全の両方を考えながら、サービスを改善していくことが大切だとみられています。",
-          "en": "It is seen as important to improve services while considering both convenience and safety."
         }
       ]
     },
@@ -13584,6 +13625,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "AIは写真から大切な手がかりを見つけられましたが、結果は項目によって大きく違いました。",
+          "en": "The AI could find important clues in images, but the results differed greatly depending on the item."
+        },
+        {
           "ja": "その後、救急隊や医師たちが浜辺で手当てをしました。",
           "en": "After that, emergency workers and doctors treated her on the beach."
         },
@@ -13598,10 +13643,6 @@
         {
           "ja": "本の探し方や貸し出しの手続きを、画面を見ながら説明できるようになりました。",
           "en": "People can now see on-screen explanations of how to find books and complete borrowing procedures."
-        },
-        {
-          "ja": "地域では、フェリーが生活に欠かせない交通手段になっています。",
-          "en": "In these regions, ferries are an essential means of transportation."
         }
       ]
     },
@@ -14019,6 +14060,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "二酸化炭素、二酸化窒素、細かい粒子の汚染、緑の多さなどを同じ場所ごとに比べられます。",
+          "en": "It can compare carbon dioxide, nitrogen dioxide, fine-particle pollution, the amount of greenery, and other data for the same kinds of locations."
+        },
+        {
           "ja": "ホルムズ海峡は、世界の石油や貿易にとってとても重要な場所です。",
           "en": "The Strait of Hormuz is very important for the world's oil and trade."
         },
@@ -14033,10 +14078,6 @@
         {
           "ja": "日本では、クマが人の生活する場所に入る問題が増えています。",
           "en": "In Japan, the problem of bears entering places where people live is increasing."
-        },
-        {
-          "ja": "最近の日本では、クマが人の生活する場所に入る問題が増えています。",
-          "en": "Recently in Japan, the problem of bears entering places where people live has been increasing."
         }
       ]
     },
@@ -14384,6 +14425,10 @@
           "meaning": "Te-form of 使う: to use, to make use of",
           "exampleSentences": [
             {
+              "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
+              "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
+            },
+            {
               "ja": "最後は獣医が麻酔の銃を使って捕獲し、けがをした人はいませんでした。",
               "en": "In the end, a veterinarian captured it with a tranquilizer gun, and nobody was injured."
             },
@@ -14398,10 +14443,6 @@
             {
               "ja": "暑い日が増える中、熱中症を防ぐための通知アプリを使う会社や学校が増えています。",
               "en": "As hot days increase, more companies and schools are using notification apps to prevent heatstroke."
-            },
-            {
-              "ja": "通勤や通学で使う人が多い場所では、とくに休める空間が必要だと考えられています。",
-              "en": "In places used by many commuters and students, it is thought that rest spaces are especially necessary."
             }
           ]
         },
@@ -15930,7 +15971,16 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "まるで都市の「脈」を読むような研究です。",
+          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
+        },
+        {
+          "ja": "都市の脈を正しく読むには、まだ多くの研究が必要です。",
+          "en": "More research is still needed to read a city's pulse accurately."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "godan",
       "verbForms": [
@@ -15941,7 +15991,16 @@
           "term": "読みます",
           "readingHiragana": "よみます",
           "meaning": "Polite form of 読む: to read",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "まるで都市の「脈」を読むような研究です。",
+              "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
+            },
+            {
+              "ja": "都市の脈を正しく読むには、まだ多くの研究が必要です。",
+              "en": "More research is still needed to read a city's pulse accurately."
+            }
+          ]
         },
         {
           "form": "past",
@@ -15950,7 +16009,16 @@
           "term": "読んだ",
           "readingHiragana": "よんだ",
           "meaning": "Plain past form of 読む: to read",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "まるで都市の「脈」を読むような研究です。",
+              "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
+            },
+            {
+              "ja": "都市の脈を正しく読むには、まだ多くの研究が必要です。",
+              "en": "More research is still needed to read a city's pulse accurately."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -15959,7 +16027,16 @@
           "term": "読まない",
           "readingHiragana": "よまない",
           "meaning": "Plain negative form of 読む: to read",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "まるで都市の「脈」を読むような研究です。",
+              "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
+            },
+            {
+              "ja": "都市の脈を正しく読むには、まだ多くの研究が必要です。",
+              "en": "More research is still needed to read a city's pulse accurately."
+            }
+          ]
         },
         {
           "form": "te",
@@ -15968,7 +16045,16 @@
           "term": "読んで",
           "readingHiragana": "よんで",
           "meaning": "Te-form of 読む: to read",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "まるで都市の「脈」を読むような研究です。",
+              "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
+            },
+            {
+              "ja": "都市の脈を正しく読むには、まだ多くの研究が必要です。",
+              "en": "More research is still needed to read a city's pulse accurately."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -15977,7 +16063,16 @@
           "term": "読める",
           "readingHiragana": "よめる",
           "meaning": "Potential form of 読む: to read",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "まるで都市の「脈」を読むような研究です。",
+              "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
+            },
+            {
+              "ja": "都市の脈を正しく読むには、まだ多くの研究が必要です。",
+              "en": "More research is still needed to read a city's pulse accurately."
+            }
+          ]
         }
       ]
     },
@@ -17444,6 +17539,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "二酸化炭素、二酸化窒素、細かい粒子の汚染、緑の多さなどを同じ場所ごとに比べられます。",
+          "en": "It can compare carbon dioxide, nitrogen dioxide, fine-particle pollution, the amount of greenery, and other data for the same kinds of locations."
+        },
+        {
           "ja": "ホルムズ海峡は、世界の石油や貿易にとってとても重要な場所です。",
           "en": "The Strait of Hormuz is very important for the world's oil and trade."
         },
@@ -17458,10 +17557,6 @@
         {
           "ja": "日本では、クマが人の生活する場所に入る問題が増えています。",
           "en": "In Japan, the problem of bears entering places where people live is increasing."
-        },
-        {
-          "ja": "最近の日本では、クマが人の生活する場所に入る問題が増えています。",
-          "en": "Recently in Japan, the problem of bears entering places where people live has been increasing."
         }
       ]
     },
@@ -17668,6 +17763,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "人が集まる力や、経済活動の種類も調べています。",
+          "en": "It also studies a city's ability to attract people and the variety of its economic activity."
+        },
+        {
+          "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
+          "en": "The information was made to test how well AI can think about the present and future of cities."
+        },
+        {
           "ja": "たくさん買うことで、株価を支える力になります。",
           "en": "Buying many shares can help support the price."
         },
@@ -17678,14 +17781,6 @@
         {
           "ja": "会社によると、夏の暑い時期には冷房のためにたくさんの電力が必要になります。",
           "en": "According to the company, a lot of electricity is needed for air conditioning during hot summer periods."
-        },
-        {
-          "ja": "そのため、ロボットだけに頼るのではなく、職員と協力して使うことが大切だと考えられています。",
-          "en": "For that reason, people think it is important to use robots together with staff rather than relying only on robots."
-        },
-        {
-          "ja": "便利さを認めながらも、考える力を弱くしないことが大切だとされています。",
-          "en": "While its convenience is recognized, it is considered important not to weaken students’ ability to think for themselves."
         }
       ]
     },
@@ -19319,6 +19414,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
+          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
+        },
+        {
+          "ja": "AIは、昔からの記録を見て、空気の汚れや街の元気さがどう変わるかを予測します。",
+          "en": "AI looks at past records and predicts how air pollution and urban vitality may change."
+        },
+        {
           "ja": "注意報はその後、夕方にすべて解除されましたが、海面の変化が続く場所もあるとされています。",
           "en": "The advisory was later fully lifted in the evening, but sea level changes may continue in some places."
         },
@@ -19329,14 +19432,6 @@
         {
           "ja": "一方で、海水温の変化や人手不足のため、のりを作る現場では苦労もあります。",
           "en": "At the same time, producers face difficulties because of changes in seawater temperature and labor shortages."
-        },
-        {
-          "ja": "専門家は、交通の施設で再生可能エネルギーを使うことは、地域の意識を変えるきっかけにもなるとみています。",
-          "en": "Experts say using renewable energy at transportation facilities can also change local awareness."
-        },
-        {
-          "ja": "スーパーでは、安い商品を探す人が増え、売り場の変化も目立っています。",
-          "en": "More shoppers are looking for cheaper products, and changes in store shelves are becoming noticeable."
         }
       ]
     },
@@ -20022,7 +20117,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
+          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
+        }
+      ]
     },
     {
       "id": "core-75665202ae3292",
@@ -21410,6 +21510,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
+          "en": "The information was made to test how well AI can think about the present and future of cities."
+        },
+        {
           "ja": "グリーンシューは、投資家の熱気と市場の不安の間で、値段を落ち着かせるための道具だと考えるとわかりやすいです。",
           "en": "It is easiest to think of a greenshoe as a tool for calming the price between investor excitement and market anxiety."
         },
@@ -21434,6 +21538,10 @@
           "meaning": "Polite form of 考える: to think about",
           "exampleSentences": [
             {
+              "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
+              "en": "The information was made to test how well AI can think about the present and future of cities."
+            },
+            {
               "ja": "グリーンシューは、投資家の熱気と市場の不安の間で、値段を落ち着かせるための道具だと考えるとわかりやすいです。",
               "en": "It is easiest to think of a greenshoe as a tool for calming the price between investor excitement and market anxiety."
             },
@@ -21456,6 +21564,10 @@
           "meaning": "Plain past form of 考える: to think about",
           "exampleSentences": [
             {
+              "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
+              "en": "The information was made to test how well AI can think about the present and future of cities."
+            },
+            {
               "ja": "グリーンシューは、投資家の熱気と市場の不安の間で、値段を落ち着かせるための道具だと考えるとわかりやすいです。",
               "en": "It is easiest to think of a greenshoe as a tool for calming the price between investor excitement and market anxiety."
             },
@@ -21477,6 +21589,10 @@
           "readingHiragana": "かんがえない",
           "meaning": "Plain negative form of 考える: to think about",
           "exampleSentences": [
+            {
+              "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
+              "en": "The information was made to test how well AI can think about the present and future of cities."
+            },
             {
               "ja": "グリーンシューは、投資家の熱気と市場の不安の間で、値段を落ち着かせるための道具だと考えるとわかりやすいです。",
               "en": "It is easiest to think of a greenshoe as a tool for calming the price between investor excitement and market anxiety."
@@ -21529,6 +21645,10 @@
           "readingHiragana": "かんがえられる",
           "meaning": "Potential form of 考える: to think about",
           "exampleSentences": [
+            {
+              "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
+              "en": "The information was made to test how well AI can think about the present and future of cities."
+            },
             {
               "ja": "グリーンシューは、投資家の熱気と市場の不安の間で、値段を落ち着かせるための道具だと考えるとわかりやすいです。",
               "en": "It is easiest to think of a greenshoe as a tool for calming the price between investor excitement and market anxiety."
@@ -21925,7 +22045,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "AIは、昔からの記録を見て、空気の汚れや街の元気さがどう変わるかを予測します。",
+          "en": "AI looks at past records and predicts how air pollution and urban vitality may change."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "godan",
       "verbForms": [
@@ -21936,7 +22061,12 @@
           "term": "変わります",
           "readingHiragana": "かわります",
           "meaning": "Polite form of 変わる: to change, to be transformed",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "AIは、昔からの記録を見て、空気の汚れや街の元気さがどう変わるかを予測します。",
+              "en": "AI looks at past records and predicts how air pollution and urban vitality may change."
+            }
+          ]
         },
         {
           "form": "past",
@@ -21945,7 +22075,12 @@
           "term": "変わった",
           "readingHiragana": "かわった",
           "meaning": "Plain past form of 変わる: to change, to be transformed",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "AIは、昔からの記録を見て、空気の汚れや街の元気さがどう変わるかを予測します。",
+              "en": "AI looks at past records and predicts how air pollution and urban vitality may change."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -21958,6 +22093,10 @@
             {
               "ja": "これは、アメリカがほかの国と対話しても、日本との同盟が変わらないというメッセージです。",
               "en": "According to Takaichi, President Trump showed that he still places importance on ties with Japan even after visiting China. The message was that the U.S.-Japan alliance will not change even while the U.S. talks with other countries."
+            },
+            {
+              "ja": "AIは、昔からの記録を見て、空気の汚れや街の元気さがどう変わるかを予測します。",
+              "en": "AI looks at past records and predicts how air pollution and urban vitality may change."
             }
           ]
         },
@@ -21968,7 +22107,12 @@
           "term": "変わって",
           "readingHiragana": "かわって",
           "meaning": "Te-form of 変わる: to change, to be transformed",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "AIは、昔からの記録を見て、空気の汚れや街の元気さがどう変わるかを予測します。",
+              "en": "AI looks at past records and predicts how air pollution and urban vitality may change."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -21977,7 +22121,12 @@
           "term": "変われる",
           "readingHiragana": "かわれる",
           "meaning": "Potential form of 変わる: to change, to be transformed",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "AIは、昔からの記録を見て、空気の汚れや街の元気さがどう変わるかを予測します。",
+              "en": "AI looks at past records and predicts how air pollution and urban vitality may change."
+            }
+          ]
         }
       ]
     },
@@ -22238,6 +22387,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "人が集まる力や、経済活動の種類も調べています。",
+          "en": "It also studies a city's ability to attract people and the variety of its economic activity."
+        },
+        {
           "ja": "反対派は、この案がスイスの経済に悪い影響を与えると主張しました。",
           "en": "Opponents argued that the plan would hurt Switzerland's economy."
         },
@@ -22252,10 +22405,6 @@
         {
           "ja": "また、防衛だけでなく、経済や技術の分野でも協力を深めることが話題になりました。",
           "en": "They also discussed deepening cooperation not only in defense but also in the economy and technology."
-        },
-        {
-          "ja": "日本の経済産業省は、半導体会社のラピダスに新しく6315億円の支援をすると発表しました。",
-          "en": "Japan’s Ministry of Economy, Trade and Industry announced new support of 631.5 billion yen for the semiconductor company Rapidus."
         }
       ]
     },
@@ -22304,12 +22453,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "このお金は、研究や開発をもっと早く進めるために使われます。",
-          "en": "This money will be used to speed up research and development."
+          "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
+          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
         },
         {
-          "ja": "今回の追加支援で、ラピダスへの研究開発支援は全部で2兆3540億円になりました。",
-          "en": "With this additional support, total research and development support for Rapidus reached 2.354 trillion yen."
+          "ja": "まるで都市の「脈」を読むような研究です。",
+          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
+        },
+        {
+          "ja": "研究チームは、環境だけでなく、スーパーやレストランまでの距離、道路の多さ、土地の使い方も集めました。",
+          "en": "The research team collected not only environmental data, but also distances to supermarkets and restaurants, road density, and land use."
+        },
+        {
+          "ja": "研究者たちは、15種類の最新AIを試しました。",
+          "en": "The researchers tested 15 kinds of advanced AI."
+        },
+        {
+          "ja": "都市の脈を正しく読むには、まだ多くの研究が必要です。",
+          "en": "More research is still needed to read a city's pulse accurately."
         }
       ]
     },
@@ -22378,6 +22539,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "AIは、昔からの記録を見て、空気の汚れや街の元気さがどう変わるかを予測します。",
+          "en": "AI looks at past records and predicts how air pollution and urban vitality may change."
+        },
+        {
           "ja": "このままでは、2026年内に大気圏へ入り、燃えてしまう可能性があります。",
           "en": "If nothing changes, it may enter the atmosphere and burn up by the end of 2026."
         },
@@ -22392,10 +22557,6 @@
         {
           "ja": "アプリは気温や湿度を見て、危険が高い時に知らせます。",
           "en": "The apps check temperature and humidity and send alerts when the danger is high."
-        },
-        {
-          "ja": "頭が痛い、気分が悪いなどの症状がある時は、すぐに涼しい場所へ移動することが大切です。",
-          "en": "If symptoms such as a headache or feeling unwell appear, it is important to move to a cool place right away."
         }
       ]
     },
@@ -22914,6 +23075,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "二酸化炭素、二酸化窒素、細かい粒子の汚染、緑の多さなどを同じ場所ごとに比べられます。",
+          "en": "It can compare carbon dioxide, nitrogen dioxide, fine-particle pollution, the amount of greenery, and other data for the same kinds of locations."
+        },
         {
           "ja": "細かい水を空気に出して、少しでも涼しくすることが目的です。",
           "en": "The goal is to spray fine water into the air and make the area a little cooler."
@@ -23719,6 +23884,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "AIは、昔からの記録を見て、空気の汚れや街の元気さがどう変わるかを予測します。",
+          "en": "AI looks at past records and predicts how air pollution and urban vitality may change."
+        },
         {
           "ja": "細かい水を空気に出して、少しでも涼しくすることが目的です。",
           "en": "The goal is to spray fine water into the air and make the area a little cooler."
@@ -25159,7 +25328,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "AIは、昔からの記録を見て、空気の汚れや街の元気さがどう変わるかを予測します。",
+          "en": "AI looks at past records and predicts how air pollution and urban vitality may change."
+        }
+      ]
     },
     {
       "id": "core-b40786999e40d1",
@@ -27428,6 +27602,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
+          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
+        },
+        {
           "ja": "気象庁は、最大1メートルの津波が来る可能性があると発表しました。",
           "en": "The agency announced that waves of up to one meter could arrive."
         },
@@ -28816,6 +28994,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "このデータセットには、世界の38の都市の情報が入っています。",
+          "en": "The dataset includes information from 38 cities around the world."
+        },
+        {
           "ja": "ホルムズ海峡は、世界の石油や貿易にとってとても重要な場所です。",
           "en": "The Strait of Hormuz is very important for the world's oil and trade."
         },
@@ -28830,10 +29012,6 @@
         {
           "ja": "ここが十分に使えないと、世界中に石油を送ることがむずかしくなります。",
           "en": "If it cannot be used fully, it becomes difficult to send oil around the world."
-        },
-        {
-          "ja": "世界で半導体の大切さが高くなる中、安定した供給につなげたいからです。",
-          "en": "That is because, as semiconductors become more important around the world, Japan wants to secure a stable supply."
         }
       ]
     },
@@ -29040,24 +29218,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "アメリカの宇宙企業スペースXは、6月12日に株式市場に上場しました。",
-          "en": "The American space company SpaceX listed on the stock market on June 12."
+          "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
+          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
         },
         {
-          "ja": "もし上場後に株価が下がれば、証券会社は市場で株を買い戻します。",
-          "en": "If the share price falls after listing, the securities firms buy shares back in the market."
+          "ja": "まるで都市の「脈」を読むような研究です。",
+          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
         },
         {
-          "ja": "グリーンシューは、投資家の熱気と市場の不安の間で、値段を落ち着かせるための道具だと考えるとわかりやすいです。",
-          "en": "It is easiest to think of a greenshoe as a tool for calming the price between investor excitement and market anxiety."
+          "ja": "このデータセットには、世界の38の都市の情報が入っています。",
+          "en": "The dataset includes information from 38 cities around the world."
         },
         {
-          "ja": "栃木県の宇都宮市では、クマが公園や学校、図書館の近くに出て、多くの人を怖がらせました。",
-          "en": "In Utsunomiya, Tochigi Prefecture, a bear appeared near parks, schools, and a library, frightening many people."
+          "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
+          "en": "The information was made to test how well AI can think about the present and future of cities."
         },
         {
-          "ja": "市は安全のため、市立の学校を二日間休校にしました。",
-          "en": "For safety, the city closed municipal schools for two days."
+          "ja": "都市の脈を正しく読むには、まだ多くの研究が必要です。",
+          "en": "More research is still needed to read a city's pulse accurately."
         }
       ]
     },
@@ -29363,6 +29541,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
+          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
+        },
+        {
           "ja": "ドローンは、道路が通れるかどうかや、川の水がどこまで来ているかを、すばやく調べることができます。",
           "en": "Drones can quickly check whether roads are passable and how far river water has reached."
         },
@@ -29391,6 +29573,10 @@
               "en": "In the test, it will make repeated short trips so people can check safety and practicality."
             },
             {
+              "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
+              "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
+            },
+            {
               "ja": "ドローンは、道路が通れるかどうかや、川の水がどこまで来ているかを、すばやく調べることができます。",
               "en": "Drones can quickly check whether roads are passable and how far river water has reached."
             },
@@ -29408,6 +29594,10 @@
           "readingHiragana": "しらべた",
           "meaning": "Plain past form of 調べる: to examine, to investigate",
           "exampleSentences": [
+            {
+              "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
+              "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
+            },
             {
               "ja": "ドローンは、道路が通れるかどうかや、川の水がどこまで来ているかを、すばやく調べることができます。",
               "en": "Drones can quickly check whether roads are passable and how far river water has reached."
@@ -29427,6 +29617,10 @@
           "meaning": "Plain negative form of 調べる: to examine, to investigate",
           "exampleSentences": [
             {
+              "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
+              "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
+            },
+            {
               "ja": "ドローンは、道路が通れるかどうかや、川の水がどこまで来ているかを、すばやく調べることができます。",
               "en": "Drones can quickly check whether roads are passable and how far river water has reached."
             },
@@ -29445,8 +29639,16 @@
           "meaning": "Te-form of 調べる: to examine, to investigate",
           "exampleSentences": [
             {
+              "ja": "人が集まる力や、経済活動の種類も調べています。",
+              "en": "It also studies a city's ability to attract people and the variety of its economic activity."
+            },
+            {
               "ja": "車両の先頭部分が壊れた可能性があり、JR東海が調べています。",
               "en": "The front of the train may have been damaged, and JR Central is investigating."
+            },
+            {
+              "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
+              "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
             },
             {
               "ja": "ドローンは、道路が通れるかどうかや、川の水がどこまで来ているかを、すばやく調べることができます。",
@@ -29466,6 +29668,10 @@
           "readingHiragana": "しらべられる",
           "meaning": "Potential form of 調べる: to examine, to investigate",
           "exampleSentences": [
+            {
+              "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
+              "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
+            },
             {
               "ja": "ドローンは、道路が通れるかどうかや、川の水がどこまで来ているかを、すばやく調べることができます。",
               "en": "Drones can quickly check whether roads are passable and how far river water has reached."
@@ -36190,6 +36396,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "二酸化炭素、二酸化窒素、細かい粒子の汚染、緑の多さなどを同じ場所ごとに比べられます。",
+          "en": "It can compare carbon dioxide, nitrogen dioxide, fine-particle pollution, the amount of greenery, and other data for the same kinds of locations."
+        },
+        {
           "ja": "ホルムズ海峡は、世界の石油や貿易にとってとても重要な場所です。",
           "en": "The Strait of Hormuz is very important for the world's oil and trade."
         },
@@ -36204,10 +36414,6 @@
         {
           "ja": "試合はニューヨーク・ニュージャージーの大きな会場で行われました。",
           "en": "The match was played at a large venue in New York/New Jersey."
-        },
-        {
-          "ja": "アメリカの宇宙企業スペースXは、6月12日に株式市場に上場しました。",
-          "en": "The American space company SpaceX listed on the stock market on June 12."
         }
       ]
     },
@@ -37004,7 +37210,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "AIは写真から大切な手がかりを見つけられましたが、結果は項目によって大きく違いました。",
+          "en": "The AI could find important clues in images, but the results differed greatly depending on the item."
+        }
+      ]
     },
     {
       "id": "core-03875b085cfc18",
@@ -38424,6 +38635,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "研究チームは、環境だけでなく、スーパーやレストランまでの距離、道路の多さ、土地の使い方も集めました。",
+          "en": "The research team collected not only environmental data, but also distances to supermarkets and restaurants, road density, and land use."
+        },
+        {
           "ja": "火災が広がりやすい地域では、古い住宅の耐震化や、避難しやすい道路の整備も急ぐ必要があります。",
           "en": "In areas where fires can spread easily, there is also a need to speed up earthquake-resistant housing improvements and roads that make evacuation easier."
         },
@@ -38706,7 +38921,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
+          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
+        }
+      ]
     },
     {
       "id": "core-69723a0e32310d",
@@ -41962,6 +42182,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
+          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
+        },
+        {
           "ja": "気象庁は、最大1メートルの津波が来る可能性があると発表しました。",
           "en": "The agency announced that waves of up to one meter could arrive."
         },
@@ -42424,6 +42648,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
+          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
+        },
         {
           "ja": "注意報はその後、夕方にすべて解除されましたが、海面の変化が続く場所もあるとされています。",
           "en": "The advisory was later fully lifted in the evening, but sea level changes may continue in some places."
@@ -43945,6 +44173,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "研究チームは、環境だけでなく、スーパーやレストランまでの距離、道路の多さ、土地の使い方も集めました。",
+          "en": "The research team collected not only environmental data, but also distances to supermarkets and restaurants, road density, and land use."
+        },
+        {
           "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
           "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
         },
@@ -43959,10 +44191,6 @@
         {
           "ja": "専門家は、クマの数が増えたことや、地方で人が少なくなったことが原因の一つだと考えています。",
           "en": "Experts think one reason is that bear numbers have grown while rural populations have shrunk."
-        },
-        {
-          "ja": "注意報はその後、夕方にすべて解除されましたが、海面の変化が続く場所もあるとされています。",
-          "en": "The advisory was later fully lifted in the evening, but sea level changes may continue in some places."
         }
       ]
     },
@@ -44172,6 +44400,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
+          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
+        },
         {
           "ja": "気象庁は、最大1メートルの津波が来る可能性があると発表しました。",
           "en": "The agency announced that waves of up to one meter could arrive."
@@ -46327,6 +46559,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "このデータセットには、世界の38の都市の情報が入っています。",
+          "en": "The dataset includes information from 38 cities around the world."
+        },
+        {
+          "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
+          "en": "The information was made to test how well AI can think about the present and future of cities."
+        },
+        {
           "ja": "建設現場では、作業を始める前にアプリの情報を確認しています。",
           "en": "At construction sites, workers check the app's information before starting work."
         },
@@ -46337,14 +46577,6 @@
         {
           "ja": "通勤や出張の予定を変更する人が多く、駅や空港では最新情報を確認する姿が目立ちました。",
           "en": "Many people changed commuting or business-trip plans, while stations and airports were filled with travelers checking the latest information."
-        },
-        {
-          "ja": "職員は、短い時間で必要な情報を伝えやすくなったと話しています。",
-          "en": "Staff say it has become easier to provide needed information in a short time."
-        },
-        {
-          "ja": "今後は、タブレットの内容をもっと増やし、地域の情報も紹介したいとしています。",
-          "en": "Going forward, libraries want to add more content to the tablets and introduce local information as well."
         }
       ]
     },
@@ -48738,6 +48970,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
+          "en": "The information was made to test how well AI can think about the present and future of cities."
+        },
+        {
           "ja": "リンクはわずか9か月で開発され、スウィフトは修理されることを考えて作られていません。",
           "en": "Link was developed in only nine months, and Swift was not designed to be serviced."
         },
@@ -48752,10 +48988,6 @@
         {
           "ja": "専門家は、クマの数が増えたことや、地方で人が少なくなったことが原因の一つだと考えています。",
           "en": "Experts think one reason is that bear numbers have grown while rural populations have shrunk."
-        },
-        {
-          "ja": "そのため、必要な時だけ走る仕組みにして、運転手や燃料の負担を減らしたい考えです。",
-          "en": "The town wants to reduce the burden on drivers and fuel use by running buses only when needed."
         }
       ]
     },
@@ -49047,6 +49279,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "研究チームは、環境だけでなく、スーパーやレストランまでの距離、道路の多さ、土地の使い方も集めました。",
+          "en": "The research team collected not only environmental data, but also distances to supermarkets and restaurants, road density, and land use."
+        },
+        {
           "ja": "名前は緑の靴のようですが、環境の制度ではありません。",
           "en": "The name sounds like a green shoe, but it is not an environmental policy."
         },
@@ -49206,6 +49442,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "AIは、昔からの記録を見て、空気の汚れや街の元気さがどう変わるかを予測します。",
+          "en": "AI looks at past records and predicts how air pollution and urban vitality may change."
+        },
+        {
           "ja": "航空会社は国内線と国際線を含む多くの便を欠航にし、新幹線や在来線にも遅れや運休が出ました。",
           "en": "Airlines canceled many domestic and international flights, and bullet trains and local rail services also saw delays and suspensions."
         },
@@ -49220,10 +49460,6 @@
         {
           "ja": "通勤や通学で使う人が多い場所では、とくに休める空間が必要だと考えられています。",
           "en": "In places used by many commuters and students, it is thought that rest spaces are especially necessary."
-        },
-        {
-          "ja": "今年は、空から被害の様子を確認できるドローンを使う場面が増えました。",
-          "en": "This year, there were more situations in which drones were used to check damage from the sky."
         }
       ]
     },
@@ -50092,6 +50328,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "人が集まる力や、経済活動の種類も調べています。",
+          "en": "It also studies a city's ability to attract people and the variety of its economic activity."
+        },
+        {
           "ja": "太陽の活動が強くなり、地球の大気が広がったため、予想より強い抵抗を受けて高度が下がりました。",
           "en": "Stronger solar activity expanded Earth's atmosphere, so the telescope experienced more drag than expected and lost altitude."
         },
@@ -50106,10 +50346,6 @@
         {
           "ja": "モロッコは中盤でボールをよく動かし、ブラジルに簡単な時間を与えませんでした。",
           "en": "Morocco moved the ball well in midfield and did not give Brazil easy moments."
-        },
-        {
-          "ja": "スペースXのように注目度が高い会社では、上場直後の値動きが激しくなりやすいです。",
-          "en": "For a highly watched company like SpaceX, price movements just after listing can easily become intense."
         }
       ]
     },
@@ -50625,6 +50861,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "AIは写真から大切な手がかりを見つけられましたが、結果は項目によって大きく違いました。",
+          "en": "The AI could find important clues in images, but the results differed greatly depending on the item."
+        },
+        {
           "ja": "初めの結果では、多くの有権者がこの案に反対しました。",
           "en": "Early results showed that many voters opposed the plan."
         },
@@ -50825,7 +51065,16 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
+          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
+        },
+        {
+          "ja": "研究者たちは、15種類の最新AIを試しました。",
+          "en": "The researchers tested 15 kinds of advanced AI."
+        }
+      ]
     },
     {
       "id": "core-f2c4e31928f706",
@@ -52126,7 +52375,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "AIは、昔からの記録を見て、空気の汚れや街の元気さがどう変わるかを予測します。",
+          "en": "AI looks at past records and predicts how air pollution and urban vitality may change."
+        }
+      ]
     },
     {
       "id": "core-18356334d703b9",
@@ -55085,6 +55339,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "研究チームは、環境だけでなく、スーパーやレストランまでの距離、道路の多さ、土地の使い方も集めました。",
+          "en": "The research team collected not only environmental data, but also distances to supermarkets and restaurants, road density, and land use."
+        },
+        {
           "ja": "実験では、短い距離を何度も走って、安全や使いやすさを調べます。",
           "en": "In the test, it will make repeated short trips so people can check safety and practicality."
         }
@@ -57026,7 +57284,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
+          "en": "The information was made to test how well AI can think about the present and future of cities."
+        }
+      ]
     },
     {
       "id": "core-07efa5050fbf35",
@@ -57211,24 +57474,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "栃木県の宇都宮市では、クマが公園や学校、図書館の近くに出て、多くの人を怖がらせました。",
-          "en": "In Utsunomiya, Tochigi Prefecture, a bear appeared near parks, schools, and a library, frightening many people."
+          "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
+          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
         },
         {
-          "ja": "栃木県の宇都宮市で、クマが町の中に出たため、多くの人が心配しました。",
-          "en": "In Utsunomiya, Tochigi Prefecture, many people became worried after a bear appeared in town."
+          "ja": "まるで都市の「脈」を読むような研究です。",
+          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
         },
         {
-          "ja": "政府は、首都直下地震が起きた場合の被害を今後10年で大幅に減らすため、防災計画を改定する方針です。",
-          "en": "The government plans to revise its disaster-prevention plan to sharply reduce damage from a possible inland earthquake beneath the Tokyo area over the next decade."
+          "ja": "このデータセットには、世界の38の都市の情報が入っています。",
+          "en": "The dataset includes information from 38 cities around the world."
         },
         {
-          "ja": "人口や機能が集中する首都圏では、交通や物流の混乱も深刻になるとみられています。",
-          "en": "In the Tokyo metropolitan area, where people and key functions are concentrated, disruption to transport and logistics is also expected to be severe."
+          "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
+          "en": "The information was made to test how well AI can think about the present and future of cities."
         },
         {
-          "ja": "暑い日が早く増えているため、いくつかの都市で駅前広場のミスト設備を増やす計画が始まりました。",
-          "en": "Because hot days are coming earlier, some cities have begun plans to increase mist systems in station plazas."
+          "ja": "都市の脈を正しく読むには、まだ多くの研究が必要です。",
+          "en": "More research is still needed to read a city's pulse accurately."
         }
       ]
     },
@@ -57621,6 +57884,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
+          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
+        },
+        {
+          "ja": "研究者たちは、15種類の最新AIを試しました。",
+          "en": "The researchers tested 15 kinds of advanced AI."
+        },
+        {
           "ja": "アメリカのプロバスケットボール、NBAで、ニューヨーク・ニックスが2026年の王者になりました。",
           "en": "In the NBA, America's professional basketball league, the New York Knicks became the 2026 champions."
         },
@@ -57631,14 +57902,6 @@
         {
           "ja": "支持者は、住宅や交通、公共サービスへの負担が重くなっていると訴えました。",
           "en": "The proposal was promoted by the right-wing Swiss People's Party. Switzerland's population is now about 9.1 million and has grown greatly since 2002. Supporters said the burden on housing, transportation, and public services was becoming heavy."
-        },
-        {
-          "ja": "管理者は、同じ内容を働く人や生徒にすぐ送ることができます。",
-          "en": "Managers can quickly send the same information to workers or students."
-        },
-        {
-          "ja": "町では、人口が減り、決まった道を走るバスの利用者も少なくなっています。",
-          "en": "In the town, the population is falling, and fewer people use buses that run on fixed routes."
         }
       ]
     },
@@ -57716,6 +57979,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "AIは、昔からの記録を見て、空気の汚れや街の元気さがどう変わるかを予測します。",
+          "en": "AI looks at past records and predicts how air pollution and urban vitality may change."
+        },
         {
           "ja": "列車の中では、地元の食材を使ったお弁当や、お茶が出されます。",
           "en": "On the train, passengers are served boxed meals and tea made with local ingredients."
@@ -58382,6 +58649,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "名前は「アーバンウェル」です。",
+          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
+        },
         {
           "ja": "JR東海によると、東海道新幹線の17駅のうち、ホームドアがあるのは東京、名古屋、新大阪など7駅です。",
           "en": "According to JR Central, seven of the 17 Tokaido Shinkansen stations—including Tokyo, Nagoya, and Shin-Osaka—have platform doors."
@@ -61870,7 +62141,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "二酸化炭素、二酸化窒素、細かい粒子の汚染、緑の多さなどを同じ場所ごとに比べられます。",
+          "en": "It can compare carbon dioxide, nitrogen dioxide, fine-particle pollution, the amount of greenery, and other data for the same kinds of locations."
+        }
+      ]
     },
     {
       "id": "core-de088af51e7a3b",
@@ -63313,6 +63589,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "研究チームは、環境だけでなく、スーパーやレストランまでの距離、道路の多さ、土地の使い方も集めました。",
+          "en": "The research team collected not only environmental data, but also distances to supermarkets and restaurants, road density, and land use."
+        },
+        {
           "ja": "名前は緑の靴のようですが、環境の制度ではありません。",
           "en": "The name sounds like a green shoe, but it is not an environmental policy."
         },
@@ -64363,6 +64643,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "都市の脈を正しく読むには、まだ多くの研究が必要です。",
+          "en": "More research is still needed to read a city's pulse accurately."
+        },
         {
           "ja": "結果がよければ、来年から正式なサービスにする予定です。",
           "en": "If the results are good, it plans to make the service official next year."
@@ -68132,7 +68416,16 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "人が集まる力や、経済活動の種類も調べています。",
+          "en": "It also studies a city's ability to attract people and the variety of its economic activity."
+        },
+        {
+          "ja": "研究者たちは、15種類の最新AIを試しました。",
+          "en": "The researchers tested 15 kinds of advanced AI."
+        }
+      ]
     },
     {
       "id": "core-11000fe06bad6a",
@@ -70566,7 +70859,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "研究者たちは、15種類の最新AIを試しました。",
+          "en": "The researchers tested 15 kinds of advanced AI."
+        }
+      ]
     },
     {
       "id": "core-d2ebd921728e38",
@@ -70581,7 +70879,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
+          "en": "The information was made to test how well AI can think about the present and future of cities."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "godan",
       "verbForms": [
@@ -70592,7 +70895,12 @@
           "term": "試します",
           "readingHiragana": "ためします",
           "meaning": "Polite form of 試す: to try out, to test",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
+              "en": "The information was made to test how well AI can think about the present and future of cities."
+            }
+          ]
         },
         {
           "form": "past",
@@ -70601,7 +70909,12 @@
           "term": "試した",
           "readingHiragana": "ためした",
           "meaning": "Plain past form of 試す: to try out, to test",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
+              "en": "The information was made to test how well AI can think about the present and future of cities."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -70610,7 +70923,12 @@
           "term": "試さない",
           "readingHiragana": "ためさない",
           "meaning": "Plain negative form of 試す: to try out, to test",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
+              "en": "The information was made to test how well AI can think about the present and future of cities."
+            }
+          ]
         },
         {
           "form": "te",
@@ -70619,7 +70937,12 @@
           "term": "試して",
           "readingHiragana": "ためして",
           "meaning": "Te-form of 試す: to try out, to test",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
+              "en": "The information was made to test how well AI can think about the present and future of cities."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -70628,7 +70951,12 @@
           "term": "試せる",
           "readingHiragana": "ためせる",
           "meaning": "Potential form of 試す: to try out, to test",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
+              "en": "The information was made to test how well AI can think about the present and future of cities."
+            }
+          ]
         }
       ]
     },
@@ -70645,7 +70973,16 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "人が集まる力や、経済活動の種類も調べています。",
+          "en": "It also studies a city's ability to attract people and the variety of its economic activity."
+        },
+        {
+          "ja": "研究者たちは、15種類の最新AIを試しました。",
+          "en": "The researchers tested 15 kinds of advanced AI."
+        }
+      ]
     },
     {
       "id": "core-1397f4f5529992",
@@ -72114,7 +72451,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "研究チームは、環境だけでなく、スーパーやレストランまでの距離、道路の多さ、土地の使い方も集めました。",
+          "en": "The research team collected not only environmental data, but also distances to supermarkets and restaurants, road density, and land use."
+        }
+      ]
     },
     {
       "id": "core-cba33d9be91480",
@@ -72898,8 +73240,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "暑い日が早く増えているため、いくつかの都市で駅前広場のミスト設備を増やす計画が始まりました。",
-          "en": "Because hot days are coming earlier, some cities have begun plans to increase mist systems in station plazas."
+          "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
+          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
+        },
+        {
+          "ja": "まるで都市の「脈」を読むような研究です。",
+          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
+        },
+        {
+          "ja": "このデータセットには、世界の38の都市の情報が入っています。",
+          "en": "The dataset includes information from 38 cities around the world."
+        },
+        {
+          "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
+          "en": "The information was made to test how well AI can think about the present and future of cities."
+        },
+        {
+          "ja": "都市の脈を正しく読むには、まだ多くの研究が必要です。",
+          "en": "More research is still needed to read a city's pulse accurately."
         }
       ]
     },
@@ -73152,6 +73510,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "研究チームは、環境だけでなく、スーパーやレストランまでの距離、道路の多さ、土地の使い方も集めました。",
+          "en": "The research team collected not only environmental data, but also distances to supermarkets and restaurants, road density, and land use."
+        },
         {
           "ja": "女性は土曜日の朝、岸に近い場所で泳いでいました。",
           "en": "She was swimming near the shore on Saturday morning."
@@ -76349,7 +76711,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "AIは、昔からの記録を見て、空気の汚れや街の元気さがどう変わるかを予測します。",
+          "en": "AI looks at past records and predicts how air pollution and urban vitality may change."
+        }
+      ]
     },
     {
       "id": "core-4f45c4264b4b62",
@@ -76603,7 +76970,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "AIは、昔からの記録を見て、空気の汚れや街の元気さがどう変わるかを予測します。",
+          "en": "AI looks at past records and predicts how air pollution and urban vitality may change."
+        }
+      ]
     },
     {
       "id": "core-faa1823fa91244",
@@ -77855,6 +78227,218 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": []
+    },
+    {
+      "id": "article-d91b3a04ca8e99",
+      "level": "N3",
+      "term": "衛星画像",
+      "reading": "えいせいがぞう",
+      "readingHiragana": "えいせいがぞう",
+      "meaning": "Satellite image",
+      "source": "article",
+      "sourceId": "2026-06-25-urban-pulse-satellites",
+      "sourceTitle": "衛星が見つけた都市の「脈」",
+      "sourceLabel": "6/25 衛星が見た都市の脈",
+      "sourceHref": "./2026-06-25-urban-pulse-satellites.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-25-urban-pulse-satellites"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
+          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
+        }
+      ]
+    },
+    {
+      "id": "article-5679d0b054315b",
+      "level": "N3",
+      "term": "都市",
+      "reading": "とし",
+      "readingHiragana": "とし",
+      "meaning": "City / Urban area",
+      "source": "article",
+      "sourceId": "2026-06-25-urban-pulse-satellites",
+      "sourceTitle": "衛星が見つけた都市の「脈」",
+      "sourceLabel": "6/25 衛星が見た都市の脈",
+      "sourceHref": "./2026-06-25-urban-pulse-satellites.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-25-urban-pulse-satellites"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
+          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
+        },
+        {
+          "ja": "まるで都市の「脈」を読むような研究です。",
+          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
+        },
+        {
+          "ja": "このデータセットには、世界の38の都市の情報が入っています。",
+          "en": "The dataset includes information from 38 cities around the world."
+        },
+        {
+          "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
+          "en": "The information was made to test how well AI can think about the present and future of cities."
+        },
+        {
+          "ja": "都市の脈を正しく読むには、まだ多くの研究が必要です。",
+          "en": "More research is still needed to read a city's pulse accurately."
+        }
+      ]
+    },
+    {
+      "id": "article-cb3fa78e261ae5",
+      "level": "N3",
+      "term": "脈",
+      "reading": "みゃく",
+      "readingHiragana": "みゃく",
+      "meaning": "Pulse",
+      "source": "article",
+      "sourceId": "2026-06-25-urban-pulse-satellites",
+      "sourceTitle": "衛星が見つけた都市の「脈」",
+      "sourceLabel": "6/25 衛星が見た都市の脈",
+      "sourceHref": "./2026-06-25-urban-pulse-satellites.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-25-urban-pulse-satellites"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "まるで都市の「脈」を読むような研究です。",
+          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
+        },
+        {
+          "ja": "都市の脈を正しく読むには、まだ多くの研究が必要です。",
+          "en": "More research is still needed to read a city's pulse accurately."
+        }
+      ]
+    },
+    {
+      "id": "article-da053662edb59a",
+      "level": "N3",
+      "term": "研究者",
+      "reading": "けんきゅうしゃ",
+      "readingHiragana": "けんきゅうしゃ",
+      "meaning": "Researcher / Scientist",
+      "source": "article",
+      "sourceId": "2026-06-25-urban-pulse-satellites",
+      "sourceTitle": "衛星が見つけた都市の「脈」",
+      "sourceLabel": "6/25 衛星が見た都市の脈",
+      "sourceHref": "./2026-06-25-urban-pulse-satellites.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-25-urban-pulse-satellites"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
+          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
+        },
+        {
+          "ja": "研究者たちは、15種類の最新AIを試しました。",
+          "en": "The researchers tested 15 kinds of advanced AI."
+        }
+      ]
+    },
+    {
+      "id": "article-b6387d8791557f",
+      "level": "N3",
+      "term": "二酸化炭素",
+      "reading": "にさんかたんそ",
+      "readingHiragana": "にさんかたんそ",
+      "meaning": "Carbon dioxide",
+      "source": "article",
+      "sourceId": "2026-06-25-urban-pulse-satellites",
+      "sourceTitle": "衛星が見つけた都市の「脈」",
+      "sourceLabel": "6/25 衛星が見た都市の脈",
+      "sourceHref": "./2026-06-25-urban-pulse-satellites.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-25-urban-pulse-satellites"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "二酸化炭素、二酸化窒素、細かい粒子の汚染、緑の多さなどを同じ場所ごとに比べられます。",
+          "en": "It can compare carbon dioxide, nitrogen dioxide, fine-particle pollution, the amount of greenery, and other data for the same kinds of locations."
+        },
+        {
+          "ja": "この船は、ふつうの燃料よりも二酸化炭素を少なくできることが期待されています。",
+          "en": "The ship is expected to produce less carbon dioxide than conventional fuel."
+        }
+      ]
+    },
+    {
+      "id": "article-b4d7cd00095efc",
+      "level": "N3",
+      "term": "汚染",
+      "reading": "おせん",
+      "readingHiragana": "おせん",
+      "meaning": "Pollution",
+      "source": "article",
+      "sourceId": "2026-06-25-urban-pulse-satellites",
+      "sourceTitle": "衛星が見つけた都市の「脈」",
+      "sourceLabel": "6/25 衛星が見た都市の脈",
+      "sourceHref": "./2026-06-25-urban-pulse-satellites.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-25-urban-pulse-satellites"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "二酸化炭素、二酸化窒素、細かい粒子の汚染、緑の多さなどを同じ場所ごとに比べられます。",
+          "en": "It can compare carbon dioxide, nitrogen dioxide, fine-particle pollution, the amount of greenery, and other data for the same kinds of locations."
+        }
+      ]
+    },
+    {
+      "id": "article-c68c402eeedd43",
+      "level": "N3",
+      "term": "経済活動",
+      "reading": "けいざいかつどう",
+      "readingHiragana": "けいざいかつどう",
+      "meaning": "Economic activity",
+      "source": "article",
+      "sourceId": "2026-06-25-urban-pulse-satellites",
+      "sourceTitle": "衛星が見つけた都市の「脈」",
+      "sourceLabel": "6/25 衛星が見た都市の脈",
+      "sourceHref": "./2026-06-25-urban-pulse-satellites.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-25-urban-pulse-satellites"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "人が集まる力や、経済活動の種類も調べています。",
+          "en": "It also studies a city's ability to attract people and the variety of its economic activity."
+        }
+      ]
+    },
+    {
+      "id": "article-db4eac98a8f3f5",
+      "level": "N3",
+      "term": "予測",
+      "reading": "よそく",
+      "readingHiragana": "よそく",
+      "meaning": "Prediction / Forecast",
+      "source": "article",
+      "sourceId": "2026-06-25-urban-pulse-satellites",
+      "sourceTitle": "衛星が見つけた都市の「脈」",
+      "sourceLabel": "6/25 衛星が見た都市の脈",
+      "sourceHref": "./2026-06-25-urban-pulse-satellites.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-25-urban-pulse-satellites"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "AIは、昔からの記録を見て、空気の汚れや街の元気さがどう変わるかを予測します。",
+          "en": "AI looks at past records and predicts how air pollution and urban vitality may change."
+        }
+      ]
     },
     {
       "id": "article-b0eaf00d54f4f8",

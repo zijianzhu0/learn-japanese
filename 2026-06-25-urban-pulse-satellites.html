@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>衛星が見つけた都市の「脈」</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <link rel="stylesheet" href="./assets/article.css?v=5bbef88afeb1">
+</head>
+<body id="top" data-article-id="2026-06-25-urban-pulse-satellites" data-recording-download-name="2026-06-25-urban-pulse-satellites.mp4">
+<nav class="top-nav" aria-label="Page navigation"></nav>
+<div class="article-shell">
+    <aside class="article-sidebar" aria-label="Article navigation"></aside>
+    <main class="article-main">
+
+<div class="container">
+    <div class="date">2026年6月25日</div>
+    <div class="article-toolbar">
+        <div class="voice-controls">
+            <button class="toolbar-icon-button voice-menu-toggle" type="button" id="voice-menu-toggle" aria-expanded="false" aria-controls="voice-settings-menu" aria-label="Voice settings" data-tooltip="Voice settings">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 10v4"></path>
+                    <path d="M8 7v10"></path>
+                    <path d="M12 4v16"></path>
+                    <path d="M16 7v10"></path>
+                    <path d="M20 10v4"></path>
+                </svg>
+                <span class="icon-label">Voice settings</span>
+            </button>
+            <div class="voice-current-status" id="voice-current-status" aria-live="polite">Docker VOICEVOX</div>
+            <button class="audio-enable-button" type="button" id="enable-docker-audio" hidden>Enable audio</button>
+            <div class="voice-settings-menu" id="voice-settings-menu" hidden>
+                <label class="toolbar-label" for="browser-voice">Browser Voice</label>
+                <select class="voice-select" id="browser-voice" aria-label="Browser voice">
+                    <option value="auto" selected>Google 日本語</option>
+                </select>
+            </div>
+        </div>
+        <div class="article-actions" aria-label="Article actions">
+            <button class="toolbar-icon-button video-button" type="button" id="render-video" aria-label="Render video" data-tooltip="Render video" data-default-label="Render video" data-active-label="Recording">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M5 6h11a2 2 0 0 1 2 2v1l3-2v10l-3-2v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"></path>
+                    <path d="M9 10.5v3l3-1.5z"></path>
+                </svg>
+                <span class="icon-label">Render video</span>
+            </button>
+            <button class="toolbar-icon-button speak-button" type="button" id="speak-japanese-article" aria-label="Read aloud" data-tooltip="Read aloud" data-default-label="Read aloud" data-active-label="Stop reading" data-loading-label="Preparing audio">
+                <svg class="toolbar-svg icon-read" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 10v4h4l5 4V6L8 10z"></path>
+                    <path d="M16 9c1.8 1.8 1.8 4.2 0 6"></path>
+                    <path d="M18.5 6.5c3.3 3.3 3.3 7.7 0 11"></path>
+                </svg>
+                <svg class="toolbar-svg icon-stop" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 8h8v8H8z"></path>
+                </svg>
+                <span class="icon-label">Read aloud</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-japanese-article" aria-label="Copy Japanese article" data-tooltip="Copy Japanese article">
+                <span class="copy-language-icon" aria-hidden="true">あ</span>
+                <span class="icon-label">Copy Japanese article</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-english-translation" aria-label="Copy English translation" data-tooltip="Copy English translation">
+                <span class="copy-language-icon" aria-hidden="true">A</span>
+                <span class="icon-label">Copy English translation</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-bilingual-article" aria-label="Copy Japanese and English article" data-tooltip="Copy Japanese and English article">
+                <span class="copy-language-icon copy-language-icon-wide" aria-hidden="true">あ/A</span>
+                <span class="icon-label">Copy Japanese and English article</span>
+            </button>
+        </div>
+    </div>
+    <div class="copy-status" id="copy-status" aria-live="polite"></div>
+    <audio class="audio-player" id="tts-player" controls hidden preload="none"></audio>
+    <h1><ruby>衛星<rt>えいせい</rt></ruby>が<ruby>見<rt>み</rt></ruby>つけた<ruby>都市<rt>とし</rt></ruby>の「<ruby>脈<rt>みゃく</rt></ruby>」</h1>
+    <div class="source-note">2026年6月14日にarXivで公開されたUrbanWell: Benchmarking Multimodal Large Language Models for Spatio-Temporal Urban Wellbeing AnalyticsをもとにしたN3レベルの学習用ページです。</div>
+
+
+    <p class="article-paragraph"><ruby>研究者<rt>けんきゅうしゃ</rt></ruby>たちは、<ruby>衛星画像<rt>えいせいがぞう</rt></ruby>と<ruby>街<rt>まち</rt></ruby>の<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>使<rt>つか</rt></ruby>って、<ruby>都市<rt>とし</rt></ruby>の<ruby>変化<rt>へんか</rt></ruby>を<ruby>細<rt>こま</rt></ruby>かく<ruby>調<rt>しら</rt></ruby>べる<ruby>新<rt>あたら</rt></ruby>しいデータセットを<ruby>発表<rt>はっぴょう</rt></ruby>しました。<ruby>名前<rt>なまえ</rt></ruby>は「アーバンウェル」です。まるで<ruby>都市<rt>とし</rt></ruby>の「<ruby>脈<rt>みゃく</rt></ruby>」を<ruby>読<rt>よ</rt></ruby>むような<ruby>研究<rt>けんきゅう</rt></ruby>です。</p>
+    <div class="sentence-translation">Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city&#x27;s &quot;pulse.&quot;</div>
+    <p class="article-paragraph">このデータセットには、<ruby>世界<rt>せかい</rt></ruby>の38の<ruby>都市<rt>とし</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby>が<ruby>入<rt>はい</rt></ruby>っています。<ruby>二酸化炭素<rt>にさんかたんそ</rt></ruby>、<ruby>二酸化窒素<rt>にさんかちっそ</rt></ruby>、<ruby>細<rt>こま</rt></ruby>かい<ruby>粒子<rt>りゅうし</rt></ruby>の<ruby>汚染<rt>おせん</rt></ruby>、<ruby>緑<rt>みどり</rt></ruby>の<ruby>多<rt>おお</rt></ruby>さなどを<ruby>同<rt>おな</rt></ruby>じ<ruby>場所<rt>ばしょ</rt></ruby>ごとに<ruby>比<rt>くら</rt></ruby>べられます。</p>
+    <div class="sentence-translation">The dataset includes information from 38 cities around the world. It can compare carbon dioxide, nitrogen dioxide, fine-particle pollution, the amount of greenery, and other data for the same kinds of locations.</div>
+    <p class="article-paragraph"><ruby>研究<rt>けんきゅう</rt></ruby>チームは、<ruby>環境<rt>かんきょう</rt></ruby>だけでなく、スーパーやレストランまでの<ruby>距離<rt>きょり</rt></ruby>、<ruby>道路<rt>どうろ</rt></ruby>の<ruby>多<rt>おお</rt></ruby>さ、<ruby>土地<rt>とち</rt></ruby>の<ruby>使<rt>つか</rt></ruby>い<ruby>方<rt>かた</rt></ruby>も<ruby>集<rt>あつ</rt></ruby>めました。<ruby>人<rt>ひと</rt></ruby>が<ruby>集<rt>あつ</rt></ruby>まる<ruby>力<rt>ちから</rt></ruby>や、<ruby>経済活動<rt>けいざいかつどう</rt></ruby>の<ruby>種類<rt>しゅるい</rt></ruby>も<ruby>調<rt>しら</rt></ruby>べています。</p>
+    <div class="sentence-translation">The research team collected not only environmental data, but also distances to supermarkets and restaurants, road density, and land use. It also studies a city&#x27;s ability to attract people and the variety of its economic activity.</div>
+    <p class="article-paragraph">この<ruby>情報<rt>じょうほう</rt></ruby>は、AIが<ruby>都市<rt>とし</rt></ruby>の<ruby>今<rt>いま</rt></ruby>と<ruby>未来<rt>みらい</rt></ruby>を<ruby>考<rt>かんが</rt></ruby>える<ruby>力<rt>ちから</rt></ruby>を<ruby>試<rt>ため</rt></ruby>すために<ruby>作<rt>つく</rt></ruby>られました。AIは、<ruby>昔<rt>むかし</rt></ruby>からの<ruby>記録<rt>きろく</rt></ruby>を<ruby>見<rt>み</rt></ruby>て、<ruby>空気<rt>くうき</rt></ruby>の<ruby>汚<rt>よご</rt></ruby>れや<ruby>街<rt>まち</rt></ruby>の<ruby>元気<rt>げんき</rt></ruby>さがどう<ruby>変<rt>か</rt></ruby>わるかを<ruby>予測<rt>よそく</rt></ruby>します。</p>
+    <div class="sentence-translation">The information was made to test how well AI can think about the present and future of cities. AI looks at past records and predicts how air pollution and urban vitality may change.</div>
+    <p class="article-paragraph"><ruby>研究者<rt>けんきゅうしゃ</rt></ruby>たちは、15<ruby>種類<rt>しゅるい</rt></ruby>の<ruby>最新<rt>さいしん</rt></ruby>AIを<ruby>試<rt>ため</rt></ruby>しました。AIは<ruby>写真<rt>しゃしん</rt></ruby>から<ruby>大切<rt>たいせつ</rt></ruby>な<ruby>手<rt>て</rt></ruby>がかりを<ruby>見<rt>み</rt></ruby>つけられましたが、<ruby>結果<rt>けっか</rt></ruby>は<ruby>項目<rt>こうもく</rt></ruby>によって<ruby>大<rt>おお</rt></ruby>きく<ruby>違<rt>ちが</rt></ruby>いました。<ruby>都市<rt>とし</rt></ruby>の<ruby>脈<rt>みゃく</rt></ruby>を<ruby>正<rt>ただ</rt></ruby>しく<ruby>読<rt>よ</rt></ruby>むには、まだ<ruby>多<rt>おお</rt></ruby>くの<ruby>研究<rt>けんきゅう</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>です。</p>
+    <div class="sentence-translation">The researchers tested 15 kinds of advanced AI. The AI could find important clues in images, but the results differed greatly depending on the item. More research is still needed to read a city&#x27;s pulse accurately.</div>
+    <div class="recording-footer" aria-hidden="true">
+        <span>英訳はコメント欄にあります</span>
+        <span>2026年6月25日</span>
+    </div>
+
+    <div class="vocabulary-box">
+        <h2>N3 Vocabulary</h2>
+        <ul>
+            <li><strong>衛星画像（えいせいがぞう）:</strong> Satellite image</li>
+            <li><strong>都市（とし）:</strong> City / Urban area</li>
+            <li><strong>脈（みゃく）:</strong> Pulse</li>
+            <li><strong>研究者（けんきゅうしゃ）:</strong> Researcher / Scientist</li>
+            <li><strong>二酸化炭素（にさんかたんそ）:</strong> Carbon dioxide</li>
+            <li><strong>汚染（おせん）:</strong> Pollution</li>
+            <li><strong>経済活動（けいざいかつどう）:</strong> Economic activity</li>
+            <li><strong>予測（よそく）:</strong> Prediction / Forecast</li>
+        </ul>
+    </div>
+</div>
+    </main>
+</div>
+
+<script src="./assets/article.js?v=a5099945112c"></script>
+
+</body>
+</html>
