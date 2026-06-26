@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日本の近くで台風7号と8号が動く</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <link rel="stylesheet" href="./assets/article.css?v=93cf5769ed14">
+</head>
+<body id="top" data-article-id="2026-06-26-double-typhoon-watch" data-recording-download-name="2026-06-26-double-typhoon-watch.mp4">
+<nav class="top-nav" aria-label="Page navigation"></nav>
+<div class="article-shell">
+    <aside class="article-sidebar" aria-label="Article navigation"></aside>
+    <main class="article-main">
+
+<div class="container">
+    <div class="date">2026年6月26日</div>
+    <div class="article-toolbar">
+        <div class="voice-controls">
+            <button class="toolbar-icon-button voice-menu-toggle" type="button" id="voice-menu-toggle" aria-expanded="false" aria-controls="voice-settings-menu" aria-label="Voice settings" data-tooltip="Voice settings">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 10v4"></path>
+                    <path d="M8 7v10"></path>
+                    <path d="M12 4v16"></path>
+                    <path d="M16 7v10"></path>
+                    <path d="M20 10v4"></path>
+                </svg>
+                <span class="icon-label">Voice settings</span>
+            </button>
+            <div class="voice-current-status" id="voice-current-status" aria-live="polite">Docker VOICEVOX</div>
+            <button class="audio-enable-button" type="button" id="enable-docker-audio" hidden>Enable audio</button>
+            <div class="voice-settings-menu" id="voice-settings-menu" hidden>
+                <label class="toolbar-label" for="browser-voice">Browser Voice</label>
+                <select class="voice-select" id="browser-voice" aria-label="Browser voice">
+                    <option value="auto" selected>Google 日本語</option>
+                </select>
+            </div>
+        </div>
+        <div class="article-actions" aria-label="Article actions">
+            <button class="toolbar-icon-button video-button" type="button" id="render-video" aria-label="Render video" data-tooltip="Render video" data-default-label="Render video" data-active-label="Recording">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M5 6h11a2 2 0 0 1 2 2v1l3-2v10l-3-2v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"></path>
+                    <path d="M9 10.5v3l3-1.5z"></path>
+                </svg>
+                <span class="icon-label">Render video</span>
+            </button>
+            <button class="toolbar-icon-button cover-button" type="button" id="download-cover" aria-label="Download video cover" data-tooltip="Download cover" data-default-label="Download cover" data-active-label="Rendering cover">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                    <circle cx="8.5" cy="10" r="1.5"></circle>
+                    <path d="m21 15-5-5L5 19"></path>
+                </svg>
+                <span class="icon-label">Download cover</span>
+            </button>
+            <button class="toolbar-icon-button speak-button" type="button" id="speak-japanese-article" aria-label="Read aloud" data-tooltip="Read aloud" data-default-label="Read aloud" data-active-label="Stop reading" data-loading-label="Preparing audio">
+                <svg class="toolbar-svg icon-read" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 10v4h4l5 4V6L8 10z"></path>
+                    <path d="M16 9c1.8 1.8 1.8 4.2 0 6"></path>
+                    <path d="M18.5 6.5c3.3 3.3 3.3 7.7 0 11"></path>
+                </svg>
+                <svg class="toolbar-svg icon-stop" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 8h8v8H8z"></path>
+                </svg>
+                <span class="icon-label">Read aloud</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-japanese-article" aria-label="Copy Japanese article" data-tooltip="Copy Japanese article">
+                <span class="copy-language-icon" aria-hidden="true">あ</span>
+                <span class="icon-label">Copy Japanese article</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-english-translation" aria-label="Copy English translation" data-tooltip="Copy English translation">
+                <span class="copy-language-icon" aria-hidden="true">A</span>
+                <span class="icon-label">Copy English translation</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-bilingual-article" aria-label="Copy Japanese and English article" data-tooltip="Copy Japanese and English article">
+                <span class="copy-language-icon copy-language-icon-wide" aria-hidden="true">あ/A</span>
+                <span class="icon-label">Copy Japanese and English article</span>
+            </button>
+        </div>
+    </div>
+    <div class="copy-status" id="copy-status" aria-live="polite"></div>
+    <audio class="audio-player" id="tts-player" controls hidden preload="none"></audio>
+    <h1><ruby>日本<rt>にほん</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くで<ruby>台風<rt>たいふう</rt></ruby>7<ruby>号<rt>ごう</rt></ruby>と8<ruby>号<rt>ごう</rt></ruby>が<ruby>動<rt>うご</rt></ruby>く</h1>
+    <div class="source-note">2026年6月26日21時45分から21時50分に発表された気象庁の台風情報をもとにしたN3レベルの学習用ページです。</div>
+
+
+    <p class="article-paragraph"><ruby>気象庁<rt>きしょうちょう</rt></ruby>は6<ruby>月<rt>がつ</rt></ruby>26<ruby>日<rt>にち</rt></ruby>の<ruby>夜<rt>よる</rt></ruby>、<ruby>台風<rt>たいふう</rt></ruby>7<ruby>号<rt>ごう</rt></ruby>「メーカラー」と<ruby>台風<rt>たいふう</rt></ruby>8<ruby>号<rt>ごう</rt></ruby>「ヒーゴス」の<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>出<rt>だ</rt></ruby>しました。<ruby>二<rt>ふた</rt></ruby>つの<ruby>台風<rt>たいふう</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>の<ruby>南<rt>みなみ</rt></ruby>の<ruby>海<rt>うみ</rt></ruby>で<ruby>同時<rt>どうじ</rt></ruby>に<ruby>動<rt>うご</rt></ruby>いています。</p>
+    <div class="sentence-translation">On the night of June 26, the Japan Meteorological Agency released information on Typhoon No. 7, Mekkhala, and Typhoon No. 8, Higos. The two typhoons are moving at the same time over the sea south of Japan.</div>
+    <p class="article-paragraph"><ruby>台風<rt>たいふう</rt></ruby>7<ruby>号<rt>ごう</rt></ruby>は21<ruby>時<rt>じ</rt></ruby>の<ruby>時点<rt>じてん</rt></ruby>で、<ruby>奄美<rt>あまみ</rt></ruby>や<ruby>沖縄<rt>おきなわ</rt></ruby>に<ruby>近<rt>ちか</rt></ruby>い<ruby>東<rt>ひがし</rt></ruby>の<ruby>海上<rt>かいじょう</rt></ruby>にありました。<ruby>予報<rt>よほう</rt></ruby>では、27<ruby>日<rt>にち</rt></ruby>の<ruby>夜<rt>よる</rt></ruby>には<ruby>関東<rt>かんとう</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くまで<ruby>進<rt>すす</rt></ruby>む<ruby>可能性<rt>かのうせい</rt></ruby>があります。</p>
+    <div class="sentence-translation">As of 9 p.m., Typhoon No. 7 was over waters east of areas near Amami and Okinawa. The forecast says it may move close to the Kanto region by the night of June 27.</div>
+    <p class="article-paragraph"><ruby>台風<rt>たいふう</rt></ruby>8<ruby>号<rt>ごう</rt></ruby>は、<ruby>日本<rt>にほん</rt></ruby>の<ruby>南<rt>みなみ</rt></ruby>の<ruby>海上<rt>かいじょう</rt></ruby>を<ruby>北東<rt>ほくとう</rt></ruby>へ<ruby>速<rt>はや</rt></ruby>く<ruby>進<rt>すす</rt></ruby>んでいます。<ruby>気象庁<rt>きしょうちょう</rt></ruby>の<ruby>進路<rt>しんろ</rt></ruby><ruby>予報<rt>よほう</rt></ruby>では、27<ruby>日<rt>にち</rt></ruby>には<ruby>本州<rt>ほんしゅう</rt></ruby>の<ruby>東<rt>ひがし</rt></ruby>へ<ruby>離<rt>はな</rt></ruby>れていく<ruby>見込<rt>みこ</rt></ruby>みです。</p>
+    <div class="sentence-translation">Typhoon No. 8 is moving quickly northeast over the sea south of Japan. According to the JMA track forecast, it is expected to move away to the east of Honshu on June 27.</div>
+    <p class="article-paragraph"><ruby>二<rt>ふた</rt></ruby>つの<ruby>台風<rt>たいふう</rt></ruby>は、<ruby>上陸<rt>じょうりく</rt></ruby>するかどうかだけでなく、<ruby>海<rt>うみ</rt></ruby>の<ruby>波<rt>なみ</rt></ruby>や<ruby>強<rt>つよ</rt></ruby>い<ruby>雨<rt>あめ</rt></ruby>にも<ruby>注意<rt>ちゅうい</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>です。<ruby>中心<rt>ちゅうしん</rt></ruby>が<ruby>遠<rt>とお</rt></ruby>くても、<ruby>湿<rt>しめ</rt></ruby>った<ruby>空気<rt>くうき</rt></ruby>が<ruby>流<rt>なが</rt></ruby>れ<ruby>込<rt>こ</rt></ruby>むと、<ruby>雨雲<rt>あまぐも</rt></ruby>が<ruby>発達<rt>はったつ</rt></ruby>することがあります。</p>
+    <div class="sentence-translation">With the two typhoons, people need to watch not only whether they make landfall, but also ocean waves and heavy rain. Even when a storm center is far away, moist air can flow in and help rain clouds develop.</div>
+    <p class="article-paragraph"><ruby>週末<rt>しゅうまつ</rt></ruby>に<ruby>海<rt>うみ</rt></ruby>へ<ruby>行<rt>い</rt></ruby>く<ruby>予定<rt>よてい</rt></ruby>がある<ruby>人<rt>ひと</rt></ruby>や、<ruby>飛行機<rt>ひこうき</rt></ruby>や<ruby>船<rt>ふね</rt></ruby>を<ruby>使<rt>つか</rt></ruby>う<ruby>人<rt>ひと</rt></ruby>は、<ruby>新<rt>あたら</rt></ruby>しい<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>したほうがよさそうです。<ruby>台風<rt>たいふう</rt></ruby>の<ruby>進路<rt>しんろ</rt></ruby>は、<ruby>数時間<rt>すうじかん</rt></ruby>で<ruby>変<rt>か</rt></ruby>わることがあります。</p>
+    <div class="sentence-translation">People planning to go to the sea over the weekend, or to use planes or boats, should check the latest information. A typhoon&#x27;s path can change within a few hours.</div>
+    <div class="recording-footer" aria-hidden="true">
+        <span>英訳はコメント欄にあります</span>
+        <span>2026年6月26日</span>
+    </div>
+
+    <div class="vocabulary-box">
+        <h2>N3 Vocabulary</h2>
+        <ul>
+            <li><strong>気象庁（きしょうちょう）:</strong> Japan Meteorological Agency</li>
+            <li><strong>台風（たいふう）:</strong> Typhoon</li>
+            <li><strong>同時（どうじ）:</strong> At the same time</li>
+            <li><strong>海上（かいじょう）:</strong> At sea / Over the sea</li>
+            <li><strong>進路（しんろ）:</strong> Course / Track</li>
+            <li><strong>上陸（じょうりく）:</strong> Landfall</li>
+            <li><strong>雨雲（あまぐも）:</strong> Rain clouds</li>
+            <li><strong>確認する（かくにんする）:</strong> To check / Confirm</li>
+        </ul>
+    </div>
+</div>
+    </main>
+</div>
+
+<script src="./assets/article.js?v=c253c6109e64"></script>
+
+</body>
+</html>
