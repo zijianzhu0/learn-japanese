@@ -14,6 +14,7 @@ const elements = {
     readStory: document.getElementById('read-story'),
     copyComment: document.getElementById('copy-comment'),
     renderVideo: document.getElementById('render-video'),
+    downloadCover: document.getElementById('download-cover'),
     status: document.getElementById('status-line'),
     commentText: document.getElementById('comment-text'),
     answerLabel: document.getElementById('answer-label'),
@@ -265,15 +266,74 @@ async function renderVideo() {
             throw new Error(errorMessage);
         }
         const payload = await response.json();
-        const downloadLink = document.createElement('a');
-        downloadLink.href = payload.download_url;
-        downloadLink.download = payload.filename || 'story-quiz-video.mp4';
-        downloadLink.click();
+        downloadGeneratedFile(payload.download_url, payload.filename || 'story-quiz-video.mp4');
         elements.status.textContent = 'MP4 rendered and downloaded.';
     } catch (error) {
         elements.status.textContent = error.message;
     } finally {
         elements.renderVideo.disabled = false;
+    }
+}
+
+function downloadGeneratedFile(url, filename) {
+    if (!url) {
+        return;
+    }
+
+    const downloadLink = document.createElement('a');
+    downloadLink.href = url;
+    if (filename) {
+        downloadLink.download = filename;
+    }
+    downloadLink.click();
+}
+
+function filenameFromContentDisposition(headerValue, fallback) {
+    const match = String(headerValue || '').match(/filename="([^"]+)"/i);
+    return match?.[1] || fallback;
+}
+
+async function downloadCoverPhoto() {
+    if (!currentQuiz) {
+        return;
+    }
+
+    let objectUrl = '';
+    try {
+        elements.downloadCover.disabled = true;
+        elements.status.textContent = 'Rendering cover photo...';
+        const response = await fetch('/api/video/render-quiz-cover', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                quiz_id: currentQuiz.id
+            })
+        });
+        if (!response.ok) {
+            let errorMessage = `Cover render failed with HTTP ${response.status}.`;
+            try {
+                const payload = await response.json();
+                errorMessage = payload.error || errorMessage;
+            } catch (error) {
+                // Keep HTTP fallback.
+            }
+            throw new Error(errorMessage);
+        }
+        const blob = await response.blob();
+        objectUrl = URL.createObjectURL(blob);
+        const filename = filenameFromContentDisposition(
+            response.headers.get('Content-Disposition'),
+            'story-quiz-cover.png'
+        );
+        downloadGeneratedFile(objectUrl, filename);
+        elements.status.textContent = 'Cover photo rendered and downloaded.';
+    } catch (error) {
+        elements.status.textContent = error.message;
+    } finally {
+        elements.downloadCover.disabled = false;
+        if (objectUrl) {
+            window.setTimeout(() => URL.revokeObjectURL(objectUrl), 1000);
+        }
     }
 }
 
@@ -307,6 +367,7 @@ elements.dockerVoice.addEventListener('change', saveSpeaker);
 elements.readStory.addEventListener('click', readStory);
 elements.copyComment.addEventListener('click', copyCommentText);
 elements.renderVideo.addEventListener('click', renderVideo);
+elements.downloadCover.addEventListener('click', downloadCoverPhoto);
 
 populateVoiceOptions();
 loadQuizzes().catch((error) => {

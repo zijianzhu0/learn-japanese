@@ -24,8 +24,11 @@ from scripts.render_video import (
     find_article,
     find_video_quiz,
     quiz_video_filename,
+    render_article_cover,
     render_article_video,
+    render_quiz_cover,
     render_quiz_video,
+    video_cover_filename,
 )
 from scripts.voicevox_cache import (
     VoicevoxRequestError,
@@ -92,8 +95,16 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
             self.handle_video_render_url()
             return
 
+        if request_path == "/api/video/render-cover":
+            self.handle_video_cover_render()
+            return
+
         if request_path == "/api/video/render-quiz-url":
             self.handle_quiz_video_render_url()
+            return
+
+        if request_path == "/api/video/render-quiz-cover":
+            self.handle_quiz_video_cover_render()
             return
 
         self.send_json(404, {"ok": False, "error": "Unknown API endpoint."})
@@ -444,6 +455,26 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
             },
         )
 
+    def handle_video_cover_render(self) -> None:
+        try:
+            article, cover_path, temp_dir = self.render_article_cover_to_temp_file()
+            try:
+                cover_image = cover_path.read_bytes()
+            finally:
+                temp_dir.cleanup()
+        except VideoRenderRequestError as exc:
+            self.send_json(exc.status, {"ok": False, "error": exc.message})
+            return
+
+        filename = video_cover_filename(article["downloadFileName"])
+        self.send_response(200)
+        self.send_header("Content-Type", "image/png")
+        self.send_header("Content-Length", str(len(cover_image)))
+        self.send_header("Content-Disposition", f'attachment; filename="{filename}"')
+        self.send_header("Cache-Control", "no-store")
+        self.end_headers()
+        self.wfile.write(cover_image)
+
     def handle_quiz_video_render_url(self) -> None:
         try:
             quiz, speaker = self.parse_quiz_video_request()
@@ -479,6 +510,37 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
                 "download_url": self.build_download_url(filename, version),
             },
         )
+
+    def handle_quiz_video_cover_render(self) -> None:
+        try:
+            quiz, _speaker = self.parse_quiz_video_request()
+            temp_dir = tempfile.TemporaryDirectory(prefix="learn-japanese-quiz-cover-")
+            filename = video_cover_filename(quiz_video_filename(quiz["id"]))
+            cover_path = Path(temp_dir.name) / filename
+            try:
+                options = RenderOptions(article_id=quiz["id"])
+                render_quiz_cover(quiz, cover_path, options)
+                cover_image = cover_path.read_bytes()
+            finally:
+                temp_dir.cleanup()
+        except VideoRenderRequestError as exc:
+            self.send_json(exc.status, {"ok": False, "error": exc.message})
+            return
+        except SystemExit as exc:
+            self.send_json(500, {"ok": False, "error": str(exc)})
+            return
+        except subprocess.CalledProcessError as exc:
+            detail = exc.stderr.decode("utf-8", errors="replace").strip() if exc.stderr else str(exc)
+            self.send_json(500, {"ok": False, "error": f"Quiz cover render failed: {detail}"})
+            return
+
+        self.send_response(200)
+        self.send_header("Content-Type", "image/png")
+        self.send_header("Content-Length", str(len(cover_image)))
+        self.send_header("Content-Disposition", f'attachment; filename="{filename}"')
+        self.send_header("Cache-Control", "no-store")
+        self.end_headers()
+        self.wfile.write(cover_image)
 
     def parse_quiz_video_request(self) -> tuple[dict, int]:
         try:
@@ -534,6 +596,39 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
                 temp_dir.cleanup()
             detail = exc.stderr.decode("utf-8", errors="replace").strip() if exc.stderr else str(exc)
             raise VideoRenderRequestError(500, f"Video render failed: {detail}") from exc
+
+    def render_article_cover_to_temp_file(self) -> tuple[dict, Path, tempfile.TemporaryDirectory]:
+        try:
+            payload = self.read_json_body()
+            article_id = str(payload.get("article_id", "")).strip()
+        except (ValueError, TypeError, json.JSONDecodeError) as exc:
+            raise VideoRenderRequestError(400, f"Invalid JSON request: {exc}") from exc
+
+        if not article_id:
+            raise VideoRenderRequestError(400, "Missing article_id.")
+
+        try:
+            article = find_article(article_id)
+        except ValueError as exc:
+            raise VideoRenderRequestError(404, str(exc)) from exc
+
+        temp_dir = None
+        try:
+            temp_dir = tempfile.TemporaryDirectory(prefix="learn-japanese-cover-")
+            cover_path = Path(temp_dir.name) / video_cover_filename(article["downloadFileName"])
+            render_article_cover(article, cover_path, RenderOptions(article_id=article["id"]))
+            return article, cover_path, temp_dir
+        except SystemExit as exc:
+            if temp_dir:
+                temp_dir.cleanup()
+            message = str(exc)
+            status = 503 if "Chromium" in message else 500
+            raise VideoRenderRequestError(status, message) from exc
+        except subprocess.CalledProcessError as exc:
+            if temp_dir:
+                temp_dir.cleanup()
+            detail = exc.stderr.decode("utf-8", errors="replace").strip() if exc.stderr else str(exc)
+            raise VideoRenderRequestError(500, f"Cover render failed: {detail}") from exc
 
     def build_download_url(self, filename: str, version: str | None = None) -> str:
         host = self.headers.get("Host") or f"{DEFAULT_PUBLIC_HOST}:{DEFAULT_PORT}"

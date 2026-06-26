@@ -427,6 +427,109 @@ def render_quiz_html(quiz: dict, options: RenderOptions) -> str:
 """
 
 
+def render_article_cover_html(article: dict, options: RenderOptions) -> str:
+    title_translation = str(article.get("titleTranslation", "")).strip()
+    translation_html = (
+        f'        <p class="cover-translation">{escape(title_translation)}</p>'
+        if title_translation
+        else ""
+    )
+    return f"""<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        * {{
+            box-sizing: border-box;
+        }}
+        html,
+        body {{
+            width: {options.frame_width}px;
+            height: {options.frame_height}px;
+            margin: 0;
+        }}
+        body {{
+            display: grid;
+            place-items: center;
+            padding: 96px;
+            color: #333;
+            background: #f9f9f9;
+            font-family: "Noto Sans CJK JP", "Noto Sans JP", "Helvetica Neue", Arial, sans-serif;
+        }}
+        .cover-card {{
+            display: grid;
+            gap: 42px;
+            width: 100%;
+            max-width: 860px;
+            padding: 72px;
+            border-radius: 12px;
+            background: #fff;
+            box-shadow: 0 2px 18px rgba(0, 0, 0, 0.12);
+        }}
+        h1 {{
+            margin: 0;
+            padding-bottom: 28px;
+            border-bottom: 6px solid #3498db;
+            color: #2c3e50;
+            font-size: 86px;
+            font-weight: 900;
+            line-height: 1.34;
+            letter-spacing: 0;
+        }}
+        rt {{
+            font-size: 0.34em;
+            font-weight: 700;
+        }}
+        .cover-divider {{
+            display: none;
+        }}
+        .cover-translation {{
+            margin: 0;
+            color: #475569;
+            font-size: var(--cover-translation-size, 46px);
+            font-weight: 700;
+            line-height: 1.38;
+            letter-spacing: 0;
+        }}
+        h1 {{
+            font-size: var(--cover-title-size, 86px);
+        }}
+    </style>
+</head>
+<body>
+    <main class="cover-card">
+        <h1>{article["headlineHtml"]}</h1>
+        <div class="cover-divider" aria-hidden="true"></div>
+{translation_html}
+    </main>
+<script>
+function fitCoverText() {{
+    const card = document.querySelector('.cover-card');
+    const title = document.querySelector('h1');
+    const translation = document.querySelector('.cover-translation');
+    if (!card || !title) {{
+        return;
+    }}
+    let titleSize = 86;
+    let translationSize = 48;
+    const applySizes = () => {{
+        document.body.style.setProperty('--cover-title-size', `${{titleSize}}px`);
+        document.body.style.setProperty('--cover-translation-size', `${{translationSize}}px`);
+    }};
+    applySizes();
+    while ((card.scrollHeight > card.clientHeight || title.scrollWidth > title.clientWidth || (translation && translation.scrollWidth > translation.clientWidth)) && titleSize > 48) {{
+        titleSize -= 2;
+        translationSize = Math.max(30, translationSize - 1);
+        applySizes();
+    }}
+}}
+window.addEventListener('load', fitCoverText);
+</script>
+</body>
+</html>
+"""
+
+
 def run(command: list[str]) -> None:
     subprocess.run(command, check=True)
 
@@ -459,6 +562,10 @@ def render_screenshot(chromium: str, html_path: Path, output_path: Path, options
             html_path.as_uri(),
         ]
     )
+
+
+def video_cover_filename(video_filename: str) -> str:
+    return f"{Path(video_filename).stem}-cover.png"
 
 
 def render_segment_video(
@@ -605,6 +712,7 @@ def render_article_video(
     output_path: Path,
     options: RenderOptions,
     voicevox_timeout: float = DEFAULT_VOICEVOX_TIMEOUT,
+    cover_path: Path | None = None,
 ) -> None:
     if not shutil.which("ffmpeg"):
         raise SystemExit("ffmpeg is required for CLI video rendering.")
@@ -627,13 +735,26 @@ def render_article_video(
             html_path.write_text(render_html(article, segment, options), encoding="utf-8")
             audio_path.write_bytes(synthesize_sentence(segment.text, options.speaker))
             render_screenshot(chromium, html_path, image_path, options)
+            if index == 1 and cover_path:
+                cover_path.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copyfile(image_path, cover_path)
             render_segment_video(image_path, audio_path, wav_duration(audio_path), video_path, options)
             segment_paths.append(video_path)
 
         concatenate_segments(segment_paths, temp_path / "segments.txt", output_path)
 
 
-def render_quiz_video(quiz: dict, output_path: Path, options: RenderOptions) -> None:
+def render_article_cover(article: dict, output_path: Path, options: RenderOptions) -> None:
+    chromium = chromium_command()
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    with tempfile.TemporaryDirectory(prefix="learn-japanese-cover-") as temp_dir:
+        html_path = Path(temp_dir) / "cover.html"
+        html_path.write_text(render_article_cover_html(article, options), encoding="utf-8")
+        render_screenshot(chromium, html_path, output_path, options)
+
+
+def render_quiz_video(quiz: dict, output_path: Path, options: RenderOptions, cover_path: Path | None = None) -> None:
     if not shutil.which("ffmpeg"):
         raise SystemExit("ffmpeg is required for CLI video rendering.")
 
@@ -650,6 +771,9 @@ def render_quiz_video(quiz: dict, output_path: Path, options: RenderOptions) -> 
         html_path.write_text(render_quiz_html(quiz, options), encoding="utf-8")
         audio_path.write_bytes(synthesize_sentence(story_text, options.speaker))
         render_screenshot(chromium, html_path, image_path, options)
+        if cover_path:
+            cover_path.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copyfile(image_path, cover_path)
         render_still_video_with_audio(
             image_path,
             audio_path,
@@ -657,6 +781,16 @@ def render_quiz_video(quiz: dict, output_path: Path, options: RenderOptions) -> 
             output_path,
             options,
         )
+
+
+def render_quiz_cover(quiz: dict, output_path: Path, options: RenderOptions) -> None:
+    chromium = chromium_command()
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    with tempfile.TemporaryDirectory(prefix="learn-japanese-quiz-cover-") as temp_dir:
+        html_path = Path(temp_dir) / "quiz-cover.html"
+        html_path.write_text(render_quiz_html(quiz, options), encoding="utf-8")
+        render_screenshot(chromium, html_path, output_path, options)
 
 
 def quiz_video_filename(quiz_id: str) -> str:

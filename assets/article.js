@@ -281,6 +281,7 @@ let browserUtterance = null;
 let sentenceMeta = [];
 let availableBrowserVoices = [];
 let recordingInProgress = false;
+let coverDownloadInProgress = false;
 let videoProgressTimer = 0;
 let videoProgressPercent = 0;
 let localTtsPlaybackActive = false;
@@ -1362,6 +1363,57 @@ async function fetchRenderedVideoUrl(speaker) {
     };
 }
 
+function downloadGeneratedFile(url, filename) {
+    if (!url) {
+        return;
+    }
+
+    const downloadLink = document.createElement('a');
+    downloadLink.href = url;
+    if (filename) {
+        downloadLink.download = filename;
+    }
+    downloadLink.click();
+}
+
+function filenameFromContentDisposition(headerValue, fallback) {
+    const match = String(headerValue || '').match(/filename="([^"]+)"/i);
+    return match?.[1] || fallback;
+}
+
+async function fetchRenderedCoverPhoto() {
+    const response = await fetch('/api/video/render-cover', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            article_id: articleId || currentArticleFile()
+        })
+    });
+
+    if (!response.ok) {
+        let errorMessage = `Cover render failed with HTTP ${response.status}.`;
+        try {
+            const payload = await response.json();
+            if (payload.error) {
+                errorMessage = payload.error;
+            }
+        } catch (error) {
+            // Keep the HTTP status fallback if the response is not JSON.
+        }
+
+        throw new Error(errorMessage);
+    }
+
+    const blob = await response.blob();
+    const fallbackName = recordingDownloadName.replace(/\.mp4$/i, '-cover.png');
+    return {
+        objectUrl: URL.createObjectURL(blob),
+        filename: filenameFromContentDisposition(response.headers.get('Content-Disposition'), fallbackName)
+    };
+}
+
 function waitForNextPaint() {
     return new Promise((resolve) => {
         requestAnimationFrame(() => {
@@ -1535,10 +1587,7 @@ async function renderVideo() {
         status.textContent = 'Rendering 1080x1920 MP4...';
 
         const { downloadUrl, downloadName } = await fetchRenderedVideoUrl(speaker);
-        const downloadLink = document.createElement('a');
-        downloadLink.href = downloadUrl;
-        downloadLink.download = downloadName;
-        downloadLink.click();
+        downloadGeneratedFile(downloadUrl, downloadName);
         completeVideoRenderProgress('MP4 rendered and downloaded.');
         status.textContent = 'MP4 rendered and downloaded.';
     } catch (error) {
@@ -1557,6 +1606,44 @@ async function renderVideo() {
 
 async function handleRenderVideoClick() {
     await renderVideo();
+}
+
+async function downloadCoverPhoto() {
+    const status = document.getElementById('copy-status');
+    const coverButton = document.getElementById('download-cover');
+
+    if (coverDownloadInProgress) {
+        status.textContent = 'Cover rendering is already in progress.';
+        return;
+    }
+
+    if (!(articleId || currentArticleFile())) {
+        status.textContent = 'This page is missing its article identifier.';
+        return;
+    }
+
+    let objectUrl = '';
+    try {
+        coverDownloadInProgress = true;
+        setToolbarButtonState(coverButton, 'active');
+        status.textContent = 'Rendering cover photo...';
+        const cover = await fetchRenderedCoverPhoto();
+        objectUrl = cover.objectUrl;
+        downloadGeneratedFile(cover.objectUrl, cover.filename);
+        status.textContent = 'Cover photo rendered and downloaded.';
+    } catch (error) {
+        status.textContent = error?.message || 'Cover rendering failed.';
+    } finally {
+        coverDownloadInProgress = false;
+        setToolbarButtonState(coverButton);
+        if (objectUrl) {
+            window.setTimeout(() => URL.revokeObjectURL(objectUrl), 1000);
+        }
+    }
+}
+
+async function handleDownloadCoverClick() {
+    await downloadCoverPhoto();
 }
 
 initializeArticleNavigation();
@@ -1580,6 +1667,7 @@ document.getElementById('enable-docker-audio')?.addEventListener('click', () => 
 });
 document.getElementById('speak-japanese-article')?.addEventListener('click', speakJapaneseArticle);
 document.getElementById('render-video')?.addEventListener('click', handleRenderVideoClick);
+document.getElementById('download-cover')?.addEventListener('click', handleDownloadCoverClick);
 document.addEventListener('click', (event) => {
     const button = event.target.closest('.sentence-read-button');
     if (!button) {

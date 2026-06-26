@@ -232,6 +232,15 @@ body.recording-mode .article-toolbar {
 .video-button:active {
     background-color: #78350f;
 }
+.cover-button {
+    background-color: #4f46e5;
+}
+.cover-button:hover {
+    background-color: #4338ca;
+}
+.cover-button:active {
+    background-color: #3730a3;
+}
 .copy-button:hover {
     background-color: #2d86c1;
 }
