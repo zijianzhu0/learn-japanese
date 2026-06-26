@@ -4,7 +4,7 @@
     "articleManifest": "data/articles.json"
   },
   "levels": {
-    "N3": 1934,
+    "N3": 1942,
     "N4": 536,
     "N5": 553
   },
@@ -170,7 +170,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "スイスのバーゼルでは38度近くまで上がり、オランダでは初めて暑さに関する赤い警報が出されました。",
+          "en": "In Basel, Switzerland, temperatures rose close to 38 degrees Celsius, and the Netherlands issued its first red alert for heat."
+        }
+      ]
     },
     {
       "id": "core-5d9e00fba5859a",
@@ -1160,6 +1165,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "病院や介護施設では、高齢者の体調に特に注意しています。",
+          "en": "Hospitals and care homes are paying special attention to the health of older people."
+        },
+        {
           "ja": "女性は大けがをして、ヘリコプターで病院へ運ばれました。",
           "en": "The woman was seriously injured and was taken to a hospital by helicopter."
         },
@@ -1374,6 +1383,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "スイスのバーゼルでは38度近くまで上がり、オランダでは初めて暑さに関する赤い警報が出されました。",
+          "en": "In Basel, Switzerland, temperatures rose close to 38 degrees Celsius, and the Netherlands issued its first red alert for heat."
+        },
+        {
           "ja": "震源は、カリブ海沿いのモロンという町の近くでした。",
           "en": "The epicenter was near the town of Moron on the Caribbean coast, about 160 kilometers west of the capital, Caracas. The shaking was felt across a wide area in the north, and buildings collapsed in Caracas and La Guaira."
         },
@@ -1388,10 +1401,6 @@
         {
           "ja": "栃木県の宇都宮市では、クマが公園や学校、図書館の近くに出て、多くの人を怖がらせました。",
           "en": "In Utsunomiya, Tochigi Prefecture, a bear appeared near parks, schools, and a library, frightening many people."
-        },
-        {
-          "ja": "後に大学の近くでクマが見つかると、市の職員はドローンで場所を追跡しました。",
-          "en": "When the bear was later found near a university, city workers used a drone to track it."
         }
       ]
     },
@@ -1408,7 +1417,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
+          "en": "In London, people using the Underground and buses were also advised to drink water."
+        }
+      ]
     },
     {
       "id": "core-6af6bb9dfe12ab",
@@ -2555,6 +2569,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "フランスの一部では学校が休みになり、屋外の活動を避けるよう呼びかけられました。",
+          "en": "In parts of France, schools were closed, and people were urged to avoid outdoor activities."
+        },
+        {
           "ja": "栃木県の宇都宮市では、クマが公園や学校、図書館の近くに出て、多くの人を怖がらせました。",
           "en": "In Utsunomiya, Tochigi Prefecture, a bear appeared near parks, schools, and a library, frightening many people."
         },
@@ -2569,10 +2587,6 @@
         {
           "ja": "安全のために、市立の学校は二日間休みになりました。",
           "en": "For safety, city-run schools were closed for two days."
-        },
-        {
-          "ja": "暑い日が増える中、熱中症を防ぐための通知アプリを使う会社や学校が増えています。",
-          "en": "As hot days increase, more companies and schools are using notification apps to prevent heatstroke."
         }
       ]
     },
@@ -3090,7 +3104,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "スイスのバーゼルでは38度近くまで上がり、オランダでは初めて暑さに関する赤い警報が出されました。",
+          "en": "In Basel, Switzerland, temperatures rose close to 38 degrees Celsius, and the Netherlands issued its first red alert for heat."
+        }
+      ]
     },
     {
       "id": "core-52590cd97e2c0e",
@@ -4316,6 +4335,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
+          "en": "In London, people using the Underground and buses were also advised to drink water."
+        },
+        {
           "ja": "AP通信は、少なくとも188人が死亡し、約1500人がけがをしたと伝えています。",
           "en": "The Associated Press reported that at least 188 people had died and about 1,500 were injured."
         },
@@ -4329,10 +4352,6 @@
         },
         {
           "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
-          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
-        },
-        {
-          "ja": "警察は、その人の死亡を確認しました。",
           "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
         }
       ]
@@ -4504,6 +4523,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "フランスの一部では学校が休みになり、屋外の活動を避けるよう呼びかけられました。",
+          "en": "In parts of France, schools were closed, and people were urged to avoid outdoor activities."
+        },
+        {
           "ja": "一つ目の地震が別の断層に力を加え、二つ目を引き起こした可能性があります。",
           "en": "The first quake may have added stress to another fault and triggered the second one."
         },
@@ -4518,10 +4541,6 @@
         {
           "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
           "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
-        },
-        {
-          "ja": "争点の一つは、国の人口を2050年まで1000万人までに抑える提案でした。",
-          "en": "One issue was a proposal to keep the country's population at no more than 10 million by 2050."
         }
       ]
     },
@@ -4570,6 +4589,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "専門家は、気候変動によって、このような強い熱波が起きやすくなっていると説明しています。",
+          "en": "Experts explain that climate change is making intense heatwaves like this more likely."
+        },
+        {
           "ja": "専門家は、このような地震を「ダブレット」と呼びます。",
           "en": "Experts call this kind of event a \"doublet."
         },
@@ -4584,10 +4607,6 @@
         {
           "ja": "案が通れば、人口が950万人に近づいたとき、政府は移民や難民、家族の呼び寄せを厳しく制限することになります。",
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
-        },
-        {
-          "ja": "初めの取引では株価が大きく上がり、世界中の投資家が注目しました。",
-          "en": "Its share price rose sharply in early trading, drawing attention from investors around the world."
         }
       ]
     },
@@ -5848,6 +5867,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "病院や介護施設では、高齢者の体調に特に注意しています。",
+          "en": "Hospitals and care homes are paying special attention to the health of older people."
+        },
+        {
           "ja": "政府や議会、経済団体も反対しました。",
           "en": "The government, parliament, and business groups also opposed the proposal."
         },
@@ -5862,10 +5885,6 @@
         {
           "ja": "地方の自治体が、若い農家を増やすために、みんなで使える大きな温室を作る計画を進めています。",
           "en": "A local government is moving forward with a plan to build a large greenhouse that everyone can share in order to increase the number of young farmers."
-        },
-        {
-          "ja": "生産者の団体によると、小さく切ったのりや、味をつけた商品がとくに売れています。",
-          "en": "According to producer groups, especially popular items are small-cut seaweed and seasoned products."
         }
       ]
     },
@@ -7437,6 +7456,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "暑さは観光や交通だけでなく、農業や電力にも影響を与えるため、各国は対策を急いでいます。",
+          "en": "Because the heat affects not only tourism and transportation but also agriculture and electricity, countries are rushing to respond."
+        },
+        {
           "ja": "そのため、各国の政府や企業は、この合意が実行されるかどうかを注意して見ています。",
           "en": "For that reason, governments and companies are watching carefully to see whether the agreement will be carried out."
         },
@@ -7451,10 +7474,6 @@
         {
           "ja": "争点の一つは、国の人口を2050年まで1000万人までに抑える提案でした。",
           "en": "One issue was a proposal to keep the country's population at no more than 10 million by 2050."
-        },
-        {
-          "ja": "この提案は、右派のスイス国民党が進めたものです。",
-          "en": "The proposal was promoted by the right-wing Swiss People's Party. Switzerland's population is now about 9.1 million and has grown greatly since 2002. Supporters said the burden on housing, transportation, and public services was becoming heavy."
         }
       ]
     },
@@ -7724,6 +7743,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "フランス、イギリス、スイス、オランダなどで気温が大きく上がり、多くの町で6月としては異例の暑さになりました。",
+          "en": "Temperatures rose sharply in countries such as France, the United Kingdom, Switzerland, and the Netherlands, bringing unusual June heat to many towns and cities."
+        },
+        {
           "ja": "震源は、カリブ海沿いのモロンという町の近くでした。",
           "en": "The epicenter was near the town of Moron on the Caribbean coast, about 160 kilometers west of the capital, Caracas. The shaking was felt across a wide area in the north, and buildings collapsed in Caracas and La Guaira."
         },
@@ -7738,10 +7761,6 @@
         {
           "ja": "町では、人口が減り、決まった道を走るバスの利用者も少なくなっています。",
           "en": "In the town, the population is falling, and fewer people use buses that run on fixed routes."
-        },
-        {
-          "ja": "町は3か月の実験で、利用した人数や運行にかかる費用を調べます。",
-          "en": "During the three-month trial, the town will study the number of users and the cost of operating the buses."
         }
       ]
     },
@@ -8465,6 +8484,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "フランス南西部のピソスでは、気温が43.",
+          "en": "In Pissos in southwestern France, the temperature was reported to have reached 43."
+        },
+        {
           "ja": "ベネズエラの北側では、カリブプレートと南アメリカプレートが横にずれています。",
           "en": "North of Venezuela, the Caribbean Plate and the South American Plate slide sideways past each other."
         },
@@ -8714,6 +8737,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
+          "en": "In London, people using the Underground and buses were also advised to drink water."
+        },
+        {
           "ja": "通知には、水分をとること、休憩すること、外での活動を短くすることなどが書かれています。",
           "en": "The notifications include messages about drinking water, taking breaks, and shortening outdoor activities."
         },
@@ -8728,10 +8755,6 @@
         {
           "ja": "細かい水を空気に出して、少しでも涼しくすることが目的です。",
           "en": "The goal is to spray fine water into the air and make the area a little cooler."
-        },
-        {
-          "ja": "一方で、水道代や管理の手間がかかるため、時間や場所を決めて使うことが検討されています。",
-          "en": "At the same time, because water costs and maintenance take effort, officials are considering limiting the times and places where the systems are used."
         }
       ]
     },
@@ -8750,6 +8773,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "専門家は、気候変動によって、このような強い熱波が起きやすくなっていると説明しています。",
+          "en": "Experts explain that climate change is making intense heatwaves like this more likely."
+        },
+        {
           "ja": "専門家は、このような地震を「ダブレット」と呼びます。",
           "en": "Experts call this kind of event a \"doublet."
         },
@@ -8764,10 +8791,6 @@
         {
           "ja": "専門家は、注意報が出たときは、海の近くに行かないことが大切だと話しています。",
           "en": "Experts say it is important not to go near the sea when an advisory is issued."
-        },
-        {
-          "ja": "専門家は、交通の施設で再生可能エネルギーを使うことは、地域の意識を変えるきっかけにもなるとみています。",
-          "en": "Experts say using renewable energy at transportation facilities can also change local awareness."
         }
       ]
     },
@@ -9553,6 +9576,10 @@
           "meaning": "Te-form of なる: to become",
           "exampleSentences": [
             {
+              "ja": "専門家は、気候変動によって、このような強い熱波が起きやすくなっていると説明しています。",
+              "en": "Experts explain that climate change is making intense heatwaves like this more likely."
+            },
+            {
               "ja": "支持者は、住宅や交通、公共サービスへの負担が重くなっていると訴えました。",
               "en": "The proposal was promoted by the right-wing Swiss People's Party. Switzerland's population is now about 9.1 million and has grown greatly since 2002. Supporters said the burden on housing, transportation, and public services was becoming heavy."
             },
@@ -9567,10 +9594,6 @@
             {
               "ja": "地域では、高齢化が進み、農業を続ける人が減っていることが課題になっています。",
               "en": "In the region, aging is progressing and the number of people continuing farming is decreasing."
-            },
-            {
-              "ja": "アジアやヨーロッパで日本食の人気が続いていて、すしだけでなく、家庭でのりを使う人も多くなっています。",
-              "en": "Japanese food remains popular in Asia and Europe, and more people are using seaweed at home, not only for sushi."
             }
           ]
         },
@@ -9828,6 +9851,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "フランス南西部のピソスでは、気温が43.",
+          "en": "In Pissos in southwestern France, the temperature was reported to have reached 43."
+        },
         {
           "ja": "首都カラカスから西へ約160キロの場所です。",
           "en": "The epicenter was near the town of Moron on the Caribbean coast, about 160 kilometers west of the capital, Caracas. The shaking was felt across a wide area in the north, and buildings collapsed in Caracas and La Guaira."
@@ -12467,6 +12494,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
+          "en": "In London, people using the Underground and buses were also advised to drink water."
+        },
+        {
           "ja": "そして、2本の線路を横断し、下り線まで歩いたことが確認されました。",
           "en": "The person then crossed two tracks and walked to the outbound track."
         },
@@ -12481,10 +12512,6 @@
         {
           "ja": "もし上場後に株価が下がれば、証券会社は市場で株を買い戻します。",
           "en": "If the share price falls after listing, the securities firms buy shares back in the market."
-        },
-        {
-          "ja": "政府は、首都直下地震が起きた場合の被害を今後10年で大幅に減らすため、防災計画を改定する方針です。",
-          "en": "The government plans to revise its disaster-prevention plan to sharply reduce damage from a possible inland earthquake beneath the Tokyo area over the next decade."
         }
       ]
     },
@@ -12652,6 +12679,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "フランスの一部では学校が休みになり、屋外の活動を避けるよう呼びかけられました。",
+          "en": "In parts of France, schools were closed, and people were urged to avoid outdoor activities."
+        },
+        {
           "ja": "G7の首脳たちは、この外交の動きを支持すると述べました。",
           "en": "G7 leaders said they support this diplomatic move."
         },
@@ -12666,10 +12697,6 @@
         {
           "ja": "市はSNSや放送車で注意を出し、住民に外へ出ないよう呼びかけました。",
           "en": "The city issued warnings on social media and through announcement vehicles, asking residents not to go outside."
-        },
-        {
-          "ja": "通知には、水分をとること、休憩すること、外での活動を短くすることなどが書かれています。",
-          "en": "The notifications include messages about drinking water, taking breaks, and shortening outdoor activities."
         }
       ]
     },
@@ -12885,6 +12912,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "スイスのバーゼルでは38度近くまで上がり、オランダでは初めて暑さに関する赤い警報が出されました。",
+          "en": "In Basel, Switzerland, temperatures rose close to 38 degrees Celsius, and the Netherlands issued its first red alert for heat."
+        },
+        {
           "ja": "G7の首脳たちは、この外交の動きを支持すると述べました。",
           "en": "G7 leaders said they support this diplomatic move."
         },
@@ -12899,10 +12930,6 @@
         {
           "ja": "日本では、クマが人の生活する場所に入る問題が増えています。",
           "en": "In Japan, the problem of bears entering places where people live is increasing."
-        },
-        {
-          "ja": "最近の日本では、クマが人の生活する場所に入る問題が増えています。",
-          "en": "Recently in Japan, the problem of bears entering places where people live has been increasing."
         }
       ],
       "partOfSpeech": "verb",
@@ -12947,24 +12974,24 @@
           "meaning": "Plain past form of する: to do",
           "exampleSentences": [
             {
-              "ja": "6月24日の夕方、ベネズエラ北部で大きな地震が二つ続けて起きました。",
-              "en": "On the evening of June 24, two major earthquakes struck northern Venezuela in quick succession."
+              "ja": "フランス、イギリス、スイス、オランダなどで気温が大きく上がり、多くの町で6月としては異例の暑さになりました。",
+              "en": "Temperatures rose sharply in countries such as France, the United Kingdom, Switzerland, and the Netherlands, bringing unusual June heat to many towns and cities."
             },
             {
-              "ja": "最初の地震はマグニチュード7・2で、その39秒後にマグニチュード7・5の地震が起きました。",
-              "en": "The first was magnitude seven point two, and 39 seconds later a magnitude seven point five quake occurred."
+              "ja": "8度まで上がったと報じられました。",
+              "en": "8 degrees Celsius."
             },
             {
-              "ja": "震源は、カリブ海沿いのモロンという町の近くでした。",
-              "en": "The epicenter was near the town of Moron on the Caribbean coast, about 160 kilometers west of the capital, Caracas. The shaking was felt across a wide area in the north, and buildings collapsed in Caracas and La Guaira."
+              "ja": "フランスの一部では学校が休みになり、屋外の活動を避けるよう呼びかけられました。",
+              "en": "In parts of France, schools were closed, and people were urged to avoid outdoor activities."
             },
             {
-              "ja": "揺れは北部の広い地域で感じられ、カラカスやラグアイラで建物が倒れました。",
-              "en": "The epicenter was near the town of Moron on the Caribbean coast, about 160 kilometers west of the capital, Caracas. The shaking was felt across a wide area in the north, and buildings collapsed in Caracas and La Guaira."
+              "ja": "イギリスでは、サマセットで36度を超える暑さが観測され、6月の最高気温の記録を更新しました。",
+              "en": "In the United Kingdom, temperatures above 36 degrees Celsius were observed in Somerset, setting a new June temperature record."
             },
             {
-              "ja": "政府は非常事態を宣言しました。",
-              "en": "The government declared a state of emergency."
+              "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
+              "en": "In London, people using the Underground and buses were also advised to drink water."
             }
           ]
         },
@@ -12981,6 +13008,10 @@
               "en": "While its convenience is recognized, it is considered important not to weaken students’ ability to think for themselves."
             },
             {
+              "ja": "スイスのバーゼルでは38度近くまで上がり、オランダでは初めて暑さに関する赤い警報が出されました。",
+              "en": "In Basel, Switzerland, temperatures rose close to 38 degrees Celsius, and the Netherlands issued its first red alert for heat."
+            },
+            {
               "ja": "G7の首脳たちは、この外交の動きを支持すると述べました。",
               "en": "G7 leaders said they support this diplomatic move."
             },
@@ -12991,10 +13022,6 @@
             {
               "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
               "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
-            },
-            {
-              "ja": "日本では、クマが人の生活する場所に入る問題が増えています。",
-              "en": "In Japan, the problem of bears entering places where people live is increasing."
             }
           ]
         },
@@ -13007,24 +13034,24 @@
           "meaning": "Te-form of する: to do",
           "exampleSentences": [
             {
+              "ja": "フランス、イギリス、スイス、オランダなどで気温が大きく上がり、多くの町で6月としては異例の暑さになりました。",
+              "en": "Temperatures rose sharply in countries such as France, the United Kingdom, Switzerland, and the Netherlands, bringing unusual June heat to many towns and cities."
+            },
+            {
+              "ja": "病院や介護施設では、高齢者の体調に特に注意しています。",
+              "en": "Hospitals and care homes are paying special attention to the health of older people."
+            },
+            {
+              "ja": "専門家は、気候変動によって、このような強い熱波が起きやすくなっていると説明しています。",
+              "en": "Experts explain that climate change is making intense heatwaves like this more likely."
+            },
+            {
               "ja": "まだ行方が分からない人も多く、救助隊ががれきの中を探しています。",
               "en": "Many people were still missing, and rescue teams were searching through rubble."
             },
             {
               "ja": "この列車は浜松駅を通過しているところでした。",
               "en": "It was passing through Hamamatsu Station."
-            },
-            {
-              "ja": "そして、2本の線路を横断し、下り線まで歩いたことが確認されました。",
-              "en": "The person then crossed two tracks and walked to the outbound track."
-            },
-            {
-              "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
-              "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
-            },
-            {
-              "ja": "そのため、接近してつかむ作業には大きな危険があります。",
-              "en": "Approaching and grabbing it therefore carries major risks."
             }
           ]
         },
@@ -13977,7 +14004,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
+          "en": "In London, people using the Underground and buses were also advised to drink water."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "godan",
       "verbForms": [
@@ -13988,7 +14020,12 @@
           "term": "取ります",
           "readingHiragana": "とります",
           "meaning": "Polite form of 取る: to take, to pick up",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
+              "en": "In London, people using the Underground and buses were also advised to drink water."
+            }
+          ]
         },
         {
           "form": "past",
@@ -13997,7 +14034,12 @@
           "term": "取った",
           "readingHiragana": "とった",
           "meaning": "Plain past form of 取る: to take, to pick up",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
+              "en": "In London, people using the Underground and buses were also advised to drink water."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -14006,7 +14048,12 @@
           "term": "取らない",
           "readingHiragana": "とらない",
           "meaning": "Plain negative form of 取る: to take, to pick up",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
+              "en": "In London, people using the Underground and buses were also advised to drink water."
+            }
+          ]
         },
         {
           "form": "te",
@@ -14015,7 +14062,12 @@
           "term": "取って",
           "readingHiragana": "とって",
           "meaning": "Te-form of 取る: to take, to pick up",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
+              "en": "In London, people using the Underground and buses were also advised to drink water."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -14024,7 +14076,12 @@
           "term": "取れる",
           "readingHiragana": "とれる",
           "meaning": "Potential form of 取る: to take, to pick up",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
+              "en": "In London, people using the Underground and buses were also advised to drink water."
+            }
+          ]
         }
       ]
     },
@@ -14388,6 +14445,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
+          "en": "In London, people using the Underground and buses were also advised to drink water."
+        },
+        {
           "ja": "暑い日が増える中、熱中症を防ぐための通知アプリを使う会社や学校が増えています。",
           "en": "As hot days increase, more companies and schools are using notification apps to prevent heatstroke."
         },
@@ -14402,10 +14463,6 @@
         {
           "ja": "アジアやヨーロッパで日本食の人気が続いていて、すしだけでなく、家庭でのりを使う人も多くなっています。",
           "en": "Japanese food remains popular in Asia and Europe, and more people are using seaweed at home, not only for sushi."
-        },
-        {
-          "ja": "まずは大きな駅から始めて、発電した電気を照明や案内板に使う予定です。",
-          "en": "It will start with large stations and use the generated electricity for lighting and information boards."
         }
       ],
       "partOfSpeech": "verb",
@@ -14419,6 +14476,10 @@
           "readingHiragana": "つかいます",
           "meaning": "Polite form of 使う: to use, to make use of",
           "exampleSentences": [
+            {
+              "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
+              "en": "In London, people using the Underground and buses were also advised to drink water."
+            },
             {
               "ja": "暑い日が増える中、熱中症を防ぐための通知アプリを使う会社や学校が増えています。",
               "en": "As hot days increase, more companies and schools are using notification apps to prevent heatstroke."
@@ -14434,10 +14495,6 @@
             {
               "ja": "アジアやヨーロッパで日本食の人気が続いていて、すしだけでなく、家庭でのりを使う人も多くなっています。",
               "en": "Japanese food remains popular in Asia and Europe, and more people are using seaweed at home, not only for sushi."
-            },
-            {
-              "ja": "まずは大きな駅から始めて、発電した電気を照明や案内板に使う予定です。",
-              "en": "It will start with large stations and use the generated electricity for lighting and information boards."
             }
           ]
         },
@@ -14454,6 +14511,10 @@
               "en": "On the train, passengers are served boxed meals and tea made with local ingredients."
             },
             {
+              "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
+              "en": "In London, people using the Underground and buses were also advised to drink water."
+            },
+            {
               "ja": "暑い日が増える中、熱中症を防ぐための通知アプリを使う会社や学校が増えています。",
               "en": "As hot days increase, more companies and schools are using notification apps to prevent heatstroke."
             },
@@ -14464,10 +14525,6 @@
             {
               "ja": "一方で、水道代や管理の手間がかかるため、時間や場所を決めて使うことが検討されています。",
               "en": "At the same time, because water costs and maintenance take effort, officials are considering limiting the times and places where the systems are used."
-            },
-            {
-              "ja": "アジアやヨーロッパで日本食の人気が続いていて、すしだけでなく、家庭でのりを使う人も多くなっています。",
-              "en": "Japanese food remains popular in Asia and Europe, and more people are using seaweed at home, not only for sushi."
             }
           ]
         },
@@ -14484,6 +14541,10 @@
               "en": "Cashless payments are increasing on ferries heading to remote islands."
             },
             {
+              "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
+              "en": "In London, people using the Underground and buses were also advised to drink water."
+            },
+            {
               "ja": "暑い日が増える中、熱中症を防ぐための通知アプリを使う会社や学校が増えています。",
               "en": "As hot days increase, more companies and schools are using notification apps to prevent heatstroke."
             },
@@ -14494,10 +14555,6 @@
             {
               "ja": "一方で、水道代や管理の手間がかかるため、時間や場所を決めて使うことが検討されています。",
               "en": "At the same time, because water costs and maintenance take effort, officials are considering limiting the times and places where the systems are used."
-            },
-            {
-              "ja": "アジアやヨーロッパで日本食の人気が続いていて、すしだけでなく、家庭でのりを使う人も多くなっています。",
-              "en": "Japanese food remains popular in Asia and Europe, and more people are using seaweed at home, not only for sushi."
             }
           ]
         },
@@ -14526,8 +14583,8 @@
               "en": "At one high school, students are allowed to use AI to draft writing, but submitting it as-is is prohibited."
             },
             {
-              "ja": "暑い日が増える中、熱中症を防ぐための通知アプリを使う会社や学校が増えています。",
-              "en": "As hot days increase, more companies and schools are using notification apps to prevent heatstroke."
+              "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
+              "en": "In London, people using the Underground and buses were also advised to drink water."
             }
           ]
         },
@@ -14548,16 +14605,16 @@
               "en": "Clear displays and explanations will also be needed so guests can use the system with confidence."
             },
             {
+              "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
+              "en": "In London, people using the Underground and buses were also advised to drink water."
+            },
+            {
               "ja": "暑い日が増える中、熱中症を防ぐための通知アプリを使う会社や学校が増えています。",
               "en": "As hot days increase, more companies and schools are using notification apps to prevent heatstroke."
             },
             {
               "ja": "通勤や通学で使う人が多い場所では、とくに休める空間が必要だと考えられています。",
               "en": "In places used by many commuters and students, it is thought that rest spaces are especially necessary."
-            },
-            {
-              "ja": "一方で、水道代や管理の手間がかかるため、時間や場所を決めて使うことが検討されています。",
-              "en": "At the same time, because water costs and maintenance take effort, officials are considering limiting the times and places where the systems are used."
             }
           ]
         }
@@ -14961,6 +15018,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "専門家は、気候変動によって、このような強い熱波が起きやすくなっていると説明しています。",
+          "en": "Experts explain that climate change is making intense heatwaves like this more likely."
+        },
+        {
           "ja": "この動きは浅い地震を起こしやすく、地上の建物に強い被害を出すことがあります。",
           "en": "This movement can cause shallow earthquakes, which can heavily damage buildings on the surface."
         },
@@ -14975,10 +15036,6 @@
         {
           "ja": "ただ、イスラエルやイラン、アメリカの国内には強い反対もあります。",
           "en": "However, there is also strong opposition in Israel, Iran, and the United States."
-        },
-        {
-          "ja": "ブラジルは優勝経験が多い強いチームですが、前半はモロッコの速い攻撃に苦しみました。",
-          "en": "Brazil are a strong team with many World Cup titles, but in the first half they struggled against Morocco’s quick attacks."
         }
       ]
     },
@@ -14997,24 +15054,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "フランス、イギリス、スイス、オランダなどで気温が大きく上がり、多くの町で6月としては異例の暑さになりました。",
+          "en": "Temperatures rose sharply in countries such as France, the United Kingdom, Switzerland, and the Netherlands, bringing unusual June heat to many towns and cities."
+        },
+        {
+          "ja": "8度まで上がったと報じられました。",
+          "en": "8 degrees Celsius."
+        },
+        {
+          "ja": "スイスのバーゼルでは38度近くまで上がり、オランダでは初めて暑さに関する赤い警報が出されました。",
+          "en": "In Basel, Switzerland, temperatures rose close to 38 degrees Celsius, and the Netherlands issued its first red alert for heat."
+        },
+        {
           "ja": "この動きは浅い地震を起こしやすく、地上の建物に強い被害を出すことがあります。",
           "en": "This movement can cause shallow earthquakes, which can heavily damage buildings on the surface."
         },
         {
           "ja": "防犯カメラなどによると、その人は上りホームの柵の切れ目から線路に降りました。",
           "en": "According to security-camera footage and other evidence, the person went down to the tracks through a gap in the fence on the inbound platform."
-        },
-        {
-          "ja": "山陽新幹線の上り線にも影響が広がりました。",
-          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
-        },
-        {
-          "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
-          "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
-        },
-        {
-          "ja": "もともとの予定は2年間でしたが、20年以上たった今も科学のために働いています。",
-          "en": "Its mission was originally planned for two years, but more than 20 years later, it is still working for science."
         }
       ]
     },
@@ -15842,6 +15899,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "フランスの一部では学校が休みになり、屋外の活動を避けるよう呼びかけられました。",
+          "en": "In parts of France, schools were closed, and people were urged to avoid outdoor activities."
+        },
+        {
           "ja": "安全のために、市立の学校は二日間休みになりました。",
           "en": "For safety, city-run schools were closed for two days."
         },
@@ -16369,6 +16430,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
+          "en": "In London, people using the Underground and buses were also advised to drink water."
+        },
         {
           "ja": "アメリカのプロバスケットボール、NBAで、ニューヨーク・ニックスが2026年の王者になりました。",
           "en": "In the NBA, America's professional basketball league, the New York Knicks became the 2026 champions."
@@ -17008,6 +17073,10 @@
           "meaning": "Plain past form of 上がる: to rise, to ascend",
           "exampleSentences": [
             {
+              "ja": "8度まで上がったと報じられました。",
+              "en": "8 degrees Celsius."
+            },
+            {
               "ja": "買収の金額が上がったことで、これからほかの会社の動きや、価格.",
               "en": "Now that the buyout amount has gone up, attention is turning to the moves of other companies and to Kakaku."
             },
@@ -17145,6 +17214,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
+          "en": "In London, people using the Underground and buses were also advised to drink water."
+        },
+        {
           "ja": "夜にゴミを出さないことや、窓と扉をしっかり閉めることも大切だと案内しました。",
           "en": "It also advised people not to put out garbage at night and to keep windows and doors tightly closed."
         },
@@ -17159,10 +17232,6 @@
         {
           "ja": "まずは大きな駅から始めて、発電した電気を照明や案内板に使う予定です。",
           "en": "It will start with large stations and use the generated electricity for lighting and information boards."
-        },
-        {
-          "ja": "旅行者が増える中、多くのホテルで案内ロボットを使う動きが広がっています。",
-          "en": "As the number of travelers increases, more hotels are using guide robots."
         }
       ]
     },
@@ -17876,6 +17945,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "暑さは観光や交通だけでなく、農業や電力にも影響を与えるため、各国は対策を急いでいます。",
+          "en": "Because the heat affects not only tourism and transportation but also agriculture and electricity, countries are rushing to respond."
+        },
+        {
           "ja": "一つ目の地震が別の断層に力を加え、二つ目を引き起こした可能性があります。",
           "en": "The first quake may have added stress to another fault and triggered the second one."
         },
@@ -17890,10 +17963,6 @@
         {
           "ja": "たくさん買うことで、株価を支える力になります。",
           "en": "Buying many shares can help support the price."
-        },
-        {
-          "ja": "関係者は、この温室をきっかけに、販売や出荷も協力してできるようにしたいと話しています。",
-          "en": "The people involved say they also want to use the greenhouse as a starting point for cooperative selling and shipping."
         }
       ]
     },
@@ -17942,6 +18011,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "病院や介護施設では、高齢者の体調に特に注意しています。",
+          "en": "Hospitals and care homes are paying special attention to the health of older people."
+        },
+        {
           "ja": "そのため、各国の政府や企業は、この合意が実行されるかどうかを注意して見ています。",
           "en": "For that reason, governments and companies are watching carefully to see whether the agreement will be carried out."
         },
@@ -17956,10 +18029,6 @@
         {
           "ja": "市はSNSや放送車で注意を出し、住民に外へ出ないよう呼びかけました。",
           "en": "The city issued warnings on social media and through announcement vehicles, asking residents not to go outside."
-        },
-        {
-          "ja": "専門家は、アプリだけに頼らず、自分の体調にも注意してほしいと話しています。",
-          "en": "Experts say people should not rely only on apps and should also pay attention to their own physical condition."
         }
       ]
     },
@@ -19527,6 +19596,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "専門家は、気候変動によって、このような強い熱波が起きやすくなっていると説明しています。",
+          "en": "Experts explain that climate change is making intense heatwaves like this more likely."
+        },
+        {
           "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
           "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
         },
@@ -19541,10 +19614,6 @@
         {
           "ja": "通勤や出張の予定を変更する人が多く、駅や空港では最新情報を確認する姿が目立ちました。",
           "en": "Many people changed commuting or business-trip plans, while stations and airports were filled with travelers checking the latest information."
-        },
-        {
-          "ja": "一方で、海水温の変化や人手不足のため、のりを作る現場では苦労もあります。",
-          "en": "At the same time, producers face difficulties because of changes in seawater temperature and labor shortages."
         }
       ]
     },
@@ -19692,6 +19761,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "暑さは観光や交通だけでなく、農業や電力にも影響を与えるため、各国は対策を急いでいます。",
+          "en": "Because the heat affects not only tourism and transportation but also agriculture and electricity, countries are rushing to respond."
+        },
+        {
           "ja": "図書館では、観光客だけでなく、地域で生活する外国人にも役立つと考えています。",
           "en": "Libraries believe the tablets will help not only tourists but also foreign residents in the community."
         },
@@ -19706,10 +19779,6 @@
         {
           "ja": "観光地のホテルでは、これから夏休みの忙しい時期を前に、さらに導入を進める計画です。",
           "en": "Hotels in tourist areas plan to increase adoption further before the busy summer vacation season."
-        },
-        {
-          "ja": "東北のある県で、景色を楽しめる観光列車の人気が高まっています。",
-          "en": "In one prefecture in Tohoku, a sightseeing train that lets passengers enjoy the scenery is becoming more popular."
         }
       ]
     },
@@ -20713,6 +20782,10 @@
           "readingHiragana": "いそいで",
           "meaning": "Te-form of 急ぐ: to hurry, to rush",
           "exampleSentences": [
+            {
+              "ja": "暑さは観光や交通だけでなく、農業や電力にも影響を与えるため、各国は対策を急いでいます。",
+              "en": "Because the heat affects not only tourism and transportation but also agriculture and electricity, countries are rushing to respond."
+            },
             {
               "ja": "火災が広がりやすい地域では、古い住宅の耐震化や、避難しやすい道路の整備も急ぐ必要があります。",
               "en": "In areas where fires can spread easily, there is also a need to speed up earthquake-resistant housing improvements and roads that make evacuation easier."
@@ -22660,24 +22733,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "フランス、イギリス、スイス、オランダなどで気温が大きく上がり、多くの町で6月としては異例の暑さになりました。",
+          "en": "Temperatures rose sharply in countries such as France, the United Kingdom, Switzerland, and the Netherlands, bringing unusual June heat to many towns and cities."
+        },
+        {
+          "ja": "フランス南西部のピソスでは、気温が43.",
+          "en": "In Pissos in southwestern France, the temperature was reported to have reached 43."
+        },
+        {
+          "ja": "イギリスでは、サマセットで36度を超える暑さが観測され、6月の最高気温の記録を更新しました。",
+          "en": "In the United Kingdom, temperatures above 36 degrees Celsius were observed in Somerset, setting a new June temperature record."
+        },
+        {
+          "ja": "専門家は、気候変動によって、このような強い熱波が起きやすくなっていると説明しています。",
+          "en": "Experts explain that climate change is making intense heatwaves like this more likely."
+        },
+        {
           "ja": "AIは、昔からの記録を見て、空気の汚れや街の元気さがどう変わるかを予測します。",
           "en": "AI looks at past records and predicts how air pollution and urban vitality may change."
-        },
-        {
-          "ja": "このままでは、2026年内に大気圏へ入り、燃えてしまう可能性があります。",
-          "en": "If nothing changes, it may enter the atmosphere and burn up by the end of 2026."
-        },
-        {
-          "ja": "太陽の活動が強くなり、地球の大気が広がったため、予想より強い抵抗を受けて高度が下がりました。",
-          "en": "Stronger solar activity expanded Earth's atmosphere, so the telescope experienced more drag than expected and lost altitude."
-        },
-        {
-          "ja": "グリーンシューは、投資家の熱気と市場の不安の間で、値段を落ち着かせるための道具だと考えるとわかりやすいです。",
-          "en": "It is easiest to think of a greenshoe as a tool for calming the price between investor excitement and market anxiety."
-        },
-        {
-          "ja": "アプリは気温や湿度を見て、危険が高い時に知らせます。",
-          "en": "The apps check temperature and humidity and send alerts when the danger is high."
         }
       ]
     },
@@ -23639,6 +23712,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "暑さは観光や交通だけでなく、農業や電力にも影響を与えるため、各国は対策を急いでいます。",
+          "en": "Because the heat affects not only tourism and transportation but also agriculture and electricity, countries are rushing to respond."
+        },
+        {
           "ja": "支持者は、住宅や交通、公共サービスへの負担が重くなっていると訴えました。",
           "en": "The proposal was promoted by the right-wing Swiss People's Party. Switzerland's population is now about 9.1 million and has grown greatly since 2002. Supporters said the burden on housing, transportation, and public services was becoming heavy."
         },
@@ -23653,10 +23730,6 @@
         {
           "ja": "地域では、フェリーが生活に欠かせない交通手段になっています。",
           "en": "In these regions, ferries are an essential means of transportation."
-        },
-        {
-          "ja": "専門家は、交通の施設で再生可能エネルギーを使うことは、地域の意識を変えるきっかけにもなるとみています。",
-          "en": "Experts say using renewable energy at transportation facilities can also change local awareness."
         }
       ]
     },
@@ -24153,6 +24226,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "暑さは観光や交通だけでなく、農業や電力にも影響を与えるため、各国は対策を急いでいます。",
+          "en": "Because the heat affects not only tourism and transportation but also agriculture and electricity, countries are rushing to respond."
+        },
+        {
           "ja": "その後、救急隊や医師たちが浜辺で手当てをしました。",
           "en": "After that, emergency workers and doctors treated her on the beach."
         },
@@ -24167,10 +24244,6 @@
         {
           "ja": "2026年4月30日、外国為替市場で円の値段が急に上がりました。",
           "en": "On April 30, 2026, the value of the yen rose suddenly in the foreign exchange market."
-        },
-        {
-          "ja": "投資家の中には、円がもっと下がると考えていた人も多く、急な変化におどろきました。",
-          "en": "Many investors had thought the yen would fall further, so they were surprised by the sudden change."
         }
       ]
     },
@@ -26286,6 +26359,14 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "ヨーロッパの各地で、記録的な熱波が続いています。",
+          "en": "A record heatwave is continuing across parts of Europe."
+        },
+        {
+          "ja": "専門家は、気候変動によって、このような強い熱波が起きやすくなっていると説明しています。",
+          "en": "Experts explain that climate change is making intense heatwaves like this more likely."
+        },
         {
           "ja": "グリーンシューは、投資家の熱気と市場の不安の間で、値段を落ち着かせるための道具だと考えるとわかりやすいです。",
           "en": "It is easiest to think of a greenshoe as a tool for calming the price between investor excitement and market anxiety."
@@ -29271,6 +29352,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "専門家は、気候変動によって、このような強い熱波が起きやすくなっていると説明しています。",
+          "en": "Experts explain that climate change is making intense heatwaves like this more likely."
+        },
+        {
           "ja": "本の探し方や貸し出しの手続きを、画面を見ながら説明できるようになりました。",
           "en": "People can now see on-screen explanations of how to find books and complete borrowing procedures."
         },
@@ -31899,7 +31984,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "病院や介護施設では、高齢者の体調に特に注意しています。",
+          "en": "Hospitals and care homes are paying special attention to the health of older people."
+        }
+      ]
     },
     {
       "id": "core-84cb62639e4ce0",
@@ -32237,6 +32327,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "フランス、イギリス、スイス、オランダなどで気温が大きく上がり、多くの町で6月としては異例の暑さになりました。",
+          "en": "Temperatures rose sharply in countries such as France, the United Kingdom, Switzerland, and the Netherlands, bringing unusual June heat to many towns and cities."
+        },
+        {
+          "ja": "イギリスでは、サマセットで36度を超える暑さが観測され、6月の最高気温の記録を更新しました。",
+          "en": "In the United Kingdom, temperatures above 36 degrees Celsius were observed in Somerset, setting a new June temperature record."
+        },
+        {
           "ja": "6月24日の夕方、ベネズエラ北部で大きな地震が二つ続けて起きました。",
           "en": "On the evening of June 24, two major earthquakes struck northern Venezuela in quick succession."
         },
@@ -32247,14 +32345,6 @@
         {
           "ja": "リンクは6月27日に打ち上げられる予定で、3本のロボットアームでスウィフトをつかみ、より高く安全な軌道へ運びます。",
           "en": "Link is scheduled to launch on June 27, grab Swift with three robotic arms, and move it to a higher, safer orbit."
-        },
-        {
-          "ja": "リンクはわずか9か月で開発され、スウィフトは修理されることを考えて作られていません。",
-          "en": "Link was developed in only nine months, and Swift was not designed to be serviced."
-        },
-        {
-          "ja": "スイスで2026年6月14日、国民投票が行われました。",
-          "en": "On June 14, 2026, Switzerland held a national referendum."
         }
       ]
     },
@@ -32873,6 +32963,10 @@
           "readingHiragana": "つずいて",
           "meaning": "Te-form of 続く: to continue, to last, to go on",
           "exampleSentences": [
+            {
+              "ja": "ヨーロッパの各地で、記録的な熱波が続いています。",
+              "en": "A record heatwave is continuing across parts of Europe."
+            },
             {
               "ja": "余震の心配も続いています。",
               "en": "Concern about aftershocks continues."
@@ -35583,6 +35677,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
+          "en": "In London, people using the Underground and buses were also advised to drink water."
+        },
+        {
           "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
           "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
         },
@@ -35597,10 +35695,6 @@
         {
           "ja": "争点の一つは、国の人口を2050年まで1000万人までに抑える提案でした。",
           "en": "One issue was a proposal to keep the country's population at no more than 10 million by 2050."
-        },
-        {
-          "ja": "初めの結果では、多くの有権者がこの案に反対しました。",
-          "en": "Early results showed that many voters opposed the plan."
         }
       ]
     },
@@ -35903,6 +35997,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "暑さは観光や交通だけでなく、農業や電力にも影響を与えるため、各国は対策を急いでいます。",
+          "en": "Because the heat affects not only tourism and transportation but also agriculture and electricity, countries are rushing to respond."
+        },
+        {
           "ja": "反対派は、この案がスイスの経済に悪い影響を与えると主張しました。",
           "en": "Opponents argued that the plan would hurt Switzerland's economy."
         }
@@ -35919,6 +36017,10 @@
           "meaning": "Polite form of 与える: to give, to bestow",
           "exampleSentences": [
             {
+              "ja": "暑さは観光や交通だけでなく、農業や電力にも影響を与えるため、各国は対策を急いでいます。",
+              "en": "Because the heat affects not only tourism and transportation but also agriculture and electricity, countries are rushing to respond."
+            },
+            {
               "ja": "反対派は、この案がスイスの経済に悪い影響を与えると主張しました。",
               "en": "Opponents argued that the plan would hurt Switzerland's economy."
             }
@@ -35932,6 +36034,10 @@
           "readingHiragana": "あたえた",
           "meaning": "Plain past form of 与える: to give, to bestow",
           "exampleSentences": [
+            {
+              "ja": "暑さは観光や交通だけでなく、農業や電力にも影響を与えるため、各国は対策を急いでいます。",
+              "en": "Because the heat affects not only tourism and transportation but also agriculture and electricity, countries are rushing to respond."
+            },
             {
               "ja": "反対派は、この案がスイスの経済に悪い影響を与えると主張しました。",
               "en": "Opponents argued that the plan would hurt Switzerland's economy."
@@ -35947,6 +36053,10 @@
           "meaning": "Plain negative form of 与える: to give, to bestow",
           "exampleSentences": [
             {
+              "ja": "暑さは観光や交通だけでなく、農業や電力にも影響を与えるため、各国は対策を急いでいます。",
+              "en": "Because the heat affects not only tourism and transportation but also agriculture and electricity, countries are rushing to respond."
+            },
+            {
               "ja": "反対派は、この案がスイスの経済に悪い影響を与えると主張しました。",
               "en": "Opponents argued that the plan would hurt Switzerland's economy."
             }
@@ -35961,6 +36071,10 @@
           "meaning": "Te-form of 与える: to give, to bestow",
           "exampleSentences": [
             {
+              "ja": "暑さは観光や交通だけでなく、農業や電力にも影響を与えるため、各国は対策を急いでいます。",
+              "en": "Because the heat affects not only tourism and transportation but also agriculture and electricity, countries are rushing to respond."
+            },
+            {
               "ja": "反対派は、この案がスイスの経済に悪い影響を与えると主張しました。",
               "en": "Opponents argued that the plan would hurt Switzerland's economy."
             }
@@ -35974,6 +36088,10 @@
           "readingHiragana": "あたえられる",
           "meaning": "Potential form of 与える: to give, to bestow",
           "exampleSentences": [
+            {
+              "ja": "暑さは観光や交通だけでなく、農業や電力にも影響を与えるため、各国は対策を急いでいます。",
+              "en": "Because the heat affects not only tourism and transportation but also agriculture and electricity, countries are rushing to respond."
+            },
             {
               "ja": "反対派は、この案がスイスの経済に悪い影響を与えると主張しました。",
               "en": "Opponents argued that the plan would hurt Switzerland's economy."
@@ -37035,6 +37153,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
+          "en": "In London, people using the Underground and buses were also advised to drink water."
+        },
+        {
           "ja": "まだ行方が分からない人も多く、救助隊ががれきの中を探しています。",
           "en": "Many people were still missing, and rescue teams were searching through rubble."
         },
@@ -37049,10 +37171,6 @@
         {
           "ja": "運転は約3時間後の午後8時48分に再開しました。",
           "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
-        },
-        {
-          "ja": "しかし、スウィフトには自分で軌道を上げるためのエンジンがありません。",
-          "en": "However, Swift has no engine for raising its own orbit."
         }
       ]
     },
@@ -37495,7 +37613,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
+          "en": "In London, people using the Underground and buses were also advised to drink water."
+        }
+      ]
     },
     {
       "id": "core-c2d1e093c6e1ee",
@@ -38532,24 +38655,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "8度まで上がったと報じられました。",
+          "en": "8 degrees Celsius."
+        },
+        {
+          "ja": "イギリスでは、サマセットで36度を超える暑さが観測され、6月の最高気温の記録を更新しました。",
+          "en": "In the United Kingdom, temperatures above 36 degrees Celsius were observed in Somerset, setting a new June temperature record."
+        },
+        {
+          "ja": "スイスのバーゼルでは38度近くまで上がり、オランダでは初めて暑さに関する赤い警報が出されました。",
+          "en": "In Basel, Switzerland, temperatures rose close to 38 degrees Celsius, and the Netherlands issued its first red alert for heat."
+        },
+        {
           "ja": "太陽の活動が強くなり、地球の大気が広がったため、予想より強い抵抗を受けて高度が下がりました。",
           "en": "Stronger solar activity expanded Earth's atmosphere, so the telescope experienced more drag than expected and lost altitude."
         },
         {
           "ja": "ヴィニシウスは狭い角度からシュートを決め、ブラジルの応援席を安心させました。",
           "en": "Vinicius scored from a tight angle, calming the Brazil supporters."
-        },
-        {
-          "ja": "名前は緑の靴のようですが、環境の制度ではありません。",
-          "en": "The name sounds like a green shoe, but it is not an environmental policy."
-        },
-        {
-          "ja": "スペースXのように注目度が高い会社では、上場直後の値動きが激しくなりやすいです。",
-          "en": "For a highly watched company like SpaceX, price movements just after listing can easily become intense."
-        },
-        {
-          "ja": "アプリは気温や湿度を見て、危険が高い時に知らせます。",
-          "en": "The apps check temperature and humidity and send alerts when the danger is high."
         }
       ]
     },
@@ -39028,6 +39151,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "暑さは観光や交通だけでなく、農業や電力にも影響を与えるため、各国は対策を急いでいます。",
+          "en": "Because the heat affects not only tourism and transportation but also agriculture and electricity, countries are rushing to respond."
+        },
+        {
           "ja": "山陽新幹線の上り線にも影響が広がりました。",
           "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
         },
@@ -39042,10 +39169,6 @@
         {
           "ja": "製造業にも影響が広がりました。",
           "en": "The manufacturing sector was also affected."
-        },
-        {
-          "ja": "自動車メーカーの一部は、従業員の安全や部品輸送への影響を考慮して、工場の操業を一時停止しました。",
-          "en": "Some automakers temporarily stopped factory operations after considering worker safety and impacts on parts transport."
         }
       ]
     },
@@ -40336,6 +40459,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "フランスの一部では学校が休みになり、屋外の活動を避けるよう呼びかけられました。",
+          "en": "In parts of France, schools were closed, and people were urged to avoid outdoor activities."
+        },
+        {
           "ja": "もともとの予定は2年間でしたが、20年以上たった今も科学のために働いています。",
           "en": "Its mission was originally planned for two years, but more than 20 years later, it is still working for science."
         },
@@ -40350,10 +40477,6 @@
         {
           "ja": "後に大学の近くでクマが見つかると、市の職員はドローンで場所を追跡しました。",
           "en": "When the bear was later found near a university, city workers used a drone to track it."
-        },
-        {
-          "ja": "クマは公園や学校、図書館の近くでも見つかりました。",
-          "en": "The bear was seen near a park, schools, and a library."
         }
       ]
     },
@@ -44767,6 +44890,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "フランスの一部では学校が休みになり、屋外の活動を避けるよう呼びかけられました。",
+          "en": "In parts of France, schools were closed, and people were urged to avoid outdoor activities."
+        },
+        {
           "ja": "アメリカは制裁を一部緩める可能性がありますが、詳しい内容はまだはっきりしていません。",
           "en": "The United States may ease some sanctions, but the details are still not clear."
         },
@@ -47852,6 +47979,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "暑さは観光や交通だけでなく、農業や電力にも影響を与えるため、各国は対策を急いでいます。",
+          "en": "Because the heat affects not only tourism and transportation but also agriculture and electricity, countries are rushing to respond."
+        },
+        {
           "ja": "山陽新幹線の上り線にも影響が広がりました。",
           "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
         },
@@ -47866,10 +47997,6 @@
         {
           "ja": "製造業にも影響が広がりました。",
           "en": "The manufacturing sector was also affected."
-        },
-        {
-          "ja": "自動車メーカーの一部は、従業員の安全や部品輸送への影響を考慮して、工場の操業を一時停止しました。",
-          "en": "Some automakers temporarily stopped factory operations after considering worker safety and impacts on parts transport."
         }
       ]
     },
@@ -48545,6 +48672,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ヨーロッパの各地で、記録的な熱波が続いています。",
+          "en": "A record heatwave is continuing across parts of Europe."
+        },
+        {
           "ja": "各地で停電や浸水、倒木の報告が相次ぎ、自治体は早めの避難を呼びかけました。",
           "en": "On the 3rd, Typhoon No. 6 moved across Japan with strong winds and heavy rain. Power outages, flooding, and fallen trees were reported in many places, and local governments urged residents to evacuate early."
         }
@@ -48868,24 +48999,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "フランス、イギリス、スイス、オランダなどで気温が大きく上がり、多くの町で6月としては異例の暑さになりました。",
+          "en": "Temperatures rose sharply in countries such as France, the United Kingdom, Switzerland, and the Netherlands, bringing unusual June heat to many towns and cities."
+        },
+        {
+          "ja": "8度まで上がったと報じられました。",
+          "en": "8 degrees Celsius."
+        },
+        {
+          "ja": "スイスのバーゼルでは38度近くまで上がり、オランダでは初めて暑さに関する赤い警報が出されました。",
+          "en": "In Basel, Switzerland, temperatures rose close to 38 degrees Celsius, and the Netherlands issued its first red alert for heat."
+        },
+        {
           "ja": "この動きは浅い地震を起こしやすく、地上の建物に強い被害を出すことがあります。",
           "en": "This movement can cause shallow earthquakes, which can heavily damage buildings on the surface."
         },
         {
           "ja": "防犯カメラなどによると、その人は上りホームの柵の切れ目から線路に降りました。",
           "en": "According to security-camera footage and other evidence, the person went down to the tracks through a gap in the fence on the inbound platform."
-        },
-        {
-          "ja": "山陽新幹線の上り線にも影響が広がりました。",
-          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
-        },
-        {
-          "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
-          "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
-        },
-        {
-          "ja": "もともとの予定は2年間でしたが、20年以上たった今も科学のために働いています。",
-          "en": "Its mission was originally planned for two years, but more than 20 years later, it is still working for science."
         }
       ]
     },
@@ -49377,6 +49508,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "暑さは観光や交通だけでなく、農業や電力にも影響を与えるため、各国は対策を急いでいます。",
+          "en": "Because the heat affects not only tourism and transportation but also agriculture and electricity, countries are rushing to respond."
+        },
+        {
           "ja": "図書館では、観光客だけでなく、地域で生活する外国人にも役立つと考えています。",
           "en": "Libraries believe the tablets will help not only tourists but also foreign residents in the community."
         },
@@ -49391,10 +49526,6 @@
         {
           "ja": "東北のある県で、景色を楽しめる観光列車の人気が高まっています。",
           "en": "In one prefecture in Tohoku, a sightseeing train that lets passengers enjoy the scenery is becoming more popular."
-        },
-        {
-          "ja": "観光だけでなく、地域の経済を元気にする役割も期待されています。",
-          "en": "The train is expected not only to support tourism but also to help energize the regional economy."
         }
       ]
     },
@@ -50088,6 +50219,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "スイスのバーゼルでは38度近くまで上がり、オランダでは初めて暑さに関する赤い警報が出されました。",
+          "en": "In Basel, Switzerland, temperatures rose close to 38 degrees Celsius, and the Netherlands issued its first red alert for heat."
+        },
+        {
           "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
         },
@@ -50102,10 +50237,6 @@
         {
           "ja": "関係者は、この温室をきっかけに、販売や出荷も協力してできるようにしたいと話しています。",
           "en": "The people involved say they also want to use the greenhouse as a starting point for cooperative selling and shipping."
-        },
-        {
-          "ja": "関係者は、品質を守りながら輸出を広げたいと話しています。",
-          "en": "People involved say they want to expand exports while protecting quality."
         }
       ],
       "partOfSpeech": "verb",
@@ -50119,6 +50250,10 @@
           "readingHiragana": "かんします",
           "meaning": "Polite form of 関する: to concern, to be related",
           "exampleSentences": [
+            {
+              "ja": "スイスのバーゼルでは38度近くまで上がり、オランダでは初めて暑さに関する赤い警報が出されました。",
+              "en": "In Basel, Switzerland, temperatures rose close to 38 degrees Celsius, and the Netherlands issued its first red alert for heat."
+            },
             {
               "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
               "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
@@ -50134,6 +50269,10 @@
           "meaning": "Plain past form of 関する: to concern, to be related",
           "exampleSentences": [
             {
+              "ja": "スイスのバーゼルでは38度近くまで上がり、オランダでは初めて暑さに関する赤い警報が出されました。",
+              "en": "In Basel, Switzerland, temperatures rose close to 38 degrees Celsius, and the Netherlands issued its first red alert for heat."
+            },
+            {
               "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
               "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
             }
@@ -50148,6 +50287,10 @@
           "meaning": "Plain negative form of 関する: to concern, to be related",
           "exampleSentences": [
             {
+              "ja": "スイスのバーゼルでは38度近くまで上がり、オランダでは初めて暑さに関する赤い警報が出されました。",
+              "en": "In Basel, Switzerland, temperatures rose close to 38 degrees Celsius, and the Netherlands issued its first red alert for heat."
+            },
+            {
               "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
               "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
             }
@@ -50161,6 +50304,10 @@
           "readingHiragana": "かんして",
           "meaning": "Te-form of 関する: to concern, to be related",
           "exampleSentences": [
+            {
+              "ja": "スイスのバーゼルでは38度近くまで上がり、オランダでは初めて暑さに関する赤い警報が出されました。",
+              "en": "In Basel, Switzerland, temperatures rose close to 38 degrees Celsius, and the Netherlands issued its first red alert for heat."
+            },
             {
               "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
               "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
@@ -50501,6 +50648,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "フランスの一部では学校が休みになり、屋外の活動を避けるよう呼びかけられました。",
+          "en": "In parts of France, schools were closed, and people were urged to avoid outdoor activities."
+        },
+        {
+          "ja": "専門家は、気候変動によって、このような強い熱波が起きやすくなっていると説明しています。",
+          "en": "Experts explain that climate change is making intense heatwaves like this more likely."
+        },
+        {
           "ja": "この動きは浅い地震を起こしやすく、地上の建物に強い被害を出すことがあります。",
           "en": "This movement can cause shallow earthquakes, which can heavily damage buildings on the surface."
         },
@@ -50511,14 +50666,6 @@
         {
           "ja": "太陽の活動が強くなり、地球の大気が広がったため、予想より強い抵抗を受けて高度が下がりました。",
           "en": "Stronger solar activity expanded Earth's atmosphere, so the telescope experienced more drag than expected and lost altitude."
-        },
-        {
-          "ja": "G7の首脳たちは、この外交の動きを支持すると述べました。",
-          "en": "G7 leaders said they support this diplomatic move."
-        },
-        {
-          "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
-          "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
         }
       ]
     },
@@ -51863,7 +52010,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "専門家は、気候変動によって、このような強い熱波が起きやすくなっていると説明しています。",
+          "en": "Experts explain that climate change is making intense heatwaves like this more likely."
+        }
+      ]
     },
     {
       "id": "core-0d0ec58fa1b076",
@@ -52431,6 +52583,18 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "フランス、イギリス、スイス、オランダなどで気温が大きく上がり、多くの町で6月としては異例の暑さになりました。",
+          "en": "Temperatures rose sharply in countries such as France, the United Kingdom, Switzerland, and the Netherlands, bringing unusual June heat to many towns and cities."
+        },
+        {
+          "ja": "フランス南西部のピソスでは、気温が43.",
+          "en": "In Pissos in southwestern France, the temperature was reported to have reached 43."
+        },
+        {
+          "ja": "イギリスでは、サマセットで36度を超える暑さが観測され、6月の最高気温の記録を更新しました。",
+          "en": "In the United Kingdom, temperatures above 36 degrees Celsius were observed in Somerset, setting a new June temperature record."
+        },
+        {
           "ja": "アプリは気温や湿度を見て、危険が高い時に知らせます。",
           "en": "The apps check temperature and humidity and send alerts when the danger is high."
         }
@@ -52549,6 +52713,14 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "ヨーロッパの各地で、記録的な熱波が続いています。",
+          "en": "A record heatwave is continuing across parts of Europe."
+        },
+        {
+          "ja": "イギリスでは、サマセットで36度を超える暑さが観測され、6月の最高気温の記録を更新しました。",
+          "en": "In the United Kingdom, temperatures above 36 degrees Celsius were observed in Somerset, setting a new June temperature record."
+        },
         {
           "ja": "AIは、昔からの記録を見て、空気の汚れや街の元気さがどう変わるかを予測します。",
           "en": "AI looks at past records and predicts how air pollution and urban vitality may change."
@@ -58061,6 +58233,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "病院や介護施設では、高齢者の体調に特に注意しています。",
+          "en": "Hospitals and care homes are paying special attention to the health of older people."
+        },
+        {
           "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
           "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
         },
@@ -58075,10 +58251,6 @@
         {
           "ja": "初めの結果では、多くの有権者がこの案に反対しました。",
           "en": "Early results showed that many voters opposed the plan."
-        },
-        {
-          "ja": "支持者は、住宅や交通、公共サービスへの負担が重くなっていると訴えました。",
-          "en": "The proposal was promoted by the right-wing Swiss People's Party. Switzerland's population is now about 9.1 million and has grown greatly since 2002. Supporters said the burden on housing, transportation, and public services was becoming heavy."
         }
       ]
     },
@@ -59476,6 +59648,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ヨーロッパの各地で、記録的な熱波が続いています。",
+          "en": "A record heatwave is continuing across parts of Europe."
+        },
+        {
+          "ja": "専門家は、気候変動によって、このような強い熱波が起きやすくなっていると説明しています。",
+          "en": "Experts explain that climate change is making intense heatwaves like this more likely."
+        },
+        {
           "ja": "気象庁は8日、日本の太平洋側の広い地域に津波注意報を出しました。",
           "en": "On the 8th, the Japan Meteorological Agency issued a tsunami advisory for a wide area along Japan’s Pacific coast."
         },
@@ -60729,6 +60909,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "暑さは観光や交通だけでなく、農業や電力にも影響を与えるため、各国は対策を急いでいます。",
+          "en": "Because the heat affects not only tourism and transportation but also agriculture and electricity, countries are rushing to respond."
+        },
         {
           "ja": "地域では、高齢化が進み、農業を続ける人が減っていることが課題になっています。",
           "en": "In the region, aging is progressing and the number of people continuing farming is decreasing."
@@ -63007,6 +63191,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "フランス、イギリス、スイス、オランダなどで気温が大きく上がり、多くの町で6月としては異例の暑さになりました。",
+          "en": "Temperatures rose sharply in countries such as France, the United Kingdom, Switzerland, and the Netherlands, bringing unusual June heat to many towns and cities."
+        },
+        {
           "ja": "必要なときだけ自動で動く仕組みを入れる例もあります。",
           "en": "Some examples include systems that run automatically only when needed."
         }
@@ -63689,7 +63877,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "イギリスでは、サマセットで36度を超える暑さが観測され、6月の最高気温の記録を更新しました。",
+          "en": "In the United Kingdom, temperatures above 36 degrees Celsius were observed in Somerset, setting a new June temperature record."
+        }
+      ]
     },
     {
       "id": "core-f1f767910f4f5c",
@@ -63941,6 +64134,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "フランスの一部では学校が休みになり、屋外の活動を避けるよう呼びかけられました。",
+          "en": "In parts of France, schools were closed, and people were urged to avoid outdoor activities."
+        },
+        {
           "ja": "交通機関を利用する際は、運行状況を確認し、無理な移動を避けることが大切です。",
           "en": "When using transportation, it is important to check service status and avoid unnecessary travel."
         },
@@ -63961,6 +64158,10 @@
           "meaning": "Polite form of 避ける: to avoid, to ward off",
           "exampleSentences": [
             {
+              "ja": "フランスの一部では学校が休みになり、屋外の活動を避けるよう呼びかけられました。",
+              "en": "In parts of France, schools were closed, and people were urged to avoid outdoor activities."
+            },
+            {
               "ja": "交通機関を利用する際は、運行状況を確認し、無理な移動を避けることが大切です。",
               "en": "When using transportation, it is important to check service status and avoid unnecessary travel."
             },
@@ -63978,6 +64179,10 @@
           "readingHiragana": "さけた",
           "meaning": "Plain past form of 避ける: to avoid, to ward off",
           "exampleSentences": [
+            {
+              "ja": "フランスの一部では学校が休みになり、屋外の活動を避けるよう呼びかけられました。",
+              "en": "In parts of France, schools were closed, and people were urged to avoid outdoor activities."
+            },
             {
               "ja": "交通機関を利用する際は、運行状況を確認し、無理な移動を避けることが大切です。",
               "en": "When using transportation, it is important to check service status and avoid unnecessary travel."
@@ -63997,6 +64202,10 @@
           "meaning": "Plain negative form of 避ける: to avoid, to ward off",
           "exampleSentences": [
             {
+              "ja": "フランスの一部では学校が休みになり、屋外の活動を避けるよう呼びかけられました。",
+              "en": "In parts of France, schools were closed, and people were urged to avoid outdoor activities."
+            },
+            {
               "ja": "交通機関を利用する際は、運行状況を確認し、無理な移動を避けることが大切です。",
               "en": "When using transportation, it is important to check service status and avoid unnecessary travel."
             },
@@ -64015,6 +64224,10 @@
           "meaning": "Te-form of 避ける: to avoid, to ward off",
           "exampleSentences": [
             {
+              "ja": "フランスの一部では学校が休みになり、屋外の活動を避けるよう呼びかけられました。",
+              "en": "In parts of France, schools were closed, and people were urged to avoid outdoor activities."
+            },
+            {
               "ja": "交通機関を利用する際は、運行状況を確認し、無理な移動を避けることが大切です。",
               "en": "When using transportation, it is important to check service status and avoid unnecessary travel."
             },
@@ -64032,6 +64245,10 @@
           "readingHiragana": "さけられる",
           "meaning": "Potential form of 避ける: to avoid, to ward off",
           "exampleSentences": [
+            {
+              "ja": "フランスの一部では学校が休みになり、屋外の活動を避けるよう呼びかけられました。",
+              "en": "In parts of France, schools were closed, and people were urged to avoid outdoor activities."
+            },
             {
               "ja": "交通機関を利用する際は、運行状況を確認し、無理な移動を避けることが大切です。",
               "en": "When using transportation, it is important to check service status and avoid unnecessary travel."
@@ -65622,6 +65839,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "専門家は、気候変動によって、このような強い熱波が起きやすくなっていると説明しています。",
+          "en": "Experts explain that climate change is making intense heatwaves like this more likely."
+        },
+        {
           "ja": "専門家は、このような地震を「ダブレット」と呼びます。",
           "en": "Experts call this kind of event a \"doublet."
         },
@@ -65636,10 +65857,6 @@
         {
           "ja": "専門家は、注意報が出たときは、海の近くに行かないことが大切だと話しています。",
           "en": "Experts say it is important not to go near the sea when an advisory is issued."
-        },
-        {
-          "ja": "専門家は、交通の施設で再生可能エネルギーを使うことは、地域の意識を変えるきっかけにもなるとみています。",
-          "en": "Experts say using renewable energy at transportation facilities can also change local awareness."
         }
       ]
     },
@@ -65658,6 +65875,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "専門家は、気候変動によって、このような強い熱波が起きやすくなっていると説明しています。",
+          "en": "Experts explain that climate change is making intense heatwaves like this more likely."
+        },
+        {
           "ja": "専門家は、このような地震を「ダブレット」と呼びます。",
           "en": "Experts call this kind of event a \"doublet."
         },
@@ -65672,10 +65893,6 @@
         {
           "ja": "専門家は、注意報が出たときは、海の近くに行かないことが大切だと話しています。",
           "en": "Experts say it is important not to go near the sea when an advisory is issued."
-        },
-        {
-          "ja": "専門家は、交通の施設で再生可能エネルギーを使うことは、地域の意識を変えるきっかけにもなるとみています。",
-          "en": "Experts say using renewable energy at transportation facilities can also change local awareness."
         }
       ]
     },
@@ -65723,6 +65940,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "専門家は、気候変動によって、このような強い熱波が起きやすくなっていると説明しています。",
+          "en": "Experts explain that climate change is making intense heatwaves like this more likely."
+        },
         {
           "ja": "本の探し方や貸し出しの手続きを、画面を見ながら説明できるようになりました。",
           "en": "People can now see on-screen explanations of how to find books and complete borrowing procedures."
@@ -70743,6 +70964,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "暑さは観光や交通だけでなく、農業や電力にも影響を与えるため、各国は対策を急いでいます。",
+          "en": "Because the heat affects not only tourism and transportation but also agriculture and electricity, countries are rushing to respond."
+        },
+        {
           "ja": "ただ、イスラエルやイラン、アメリカの国内には強い反対もあります。",
           "en": "However, there is also strong opposition in Israel, Iran, and the United States."
         },
@@ -70757,10 +70982,6 @@
         {
           "ja": "最後の第5戦は94対90の接戦でした。",
           "en": "The final Game 5 was a close 94-90 game."
-        },
-        {
-          "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
-          "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
         }
       ],
       "partOfSpeech": "verb",
@@ -72480,6 +72701,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
+          "en": "In London, people using the Underground and buses were also advised to drink water."
+        },
         {
           "ja": "鉄道会社が、駅の屋根に太陽光パネルを置く計画を広げています。",
           "en": "A railway company is expanding plans to install solar panels on station roofs."
@@ -78426,6 +78651,222 @@
       "exampleSentences": []
     },
     {
+      "id": "article-f23a96954fb3c5",
+      "level": "N3",
+      "term": "記録的",
+      "reading": "きろくてき",
+      "readingHiragana": "きろくてき",
+      "meaning": "Record-setting",
+      "source": "article",
+      "sourceId": "2026-06-26-europe-record-heatwave",
+      "sourceTitle": "ヨーロッパを襲う記録的な熱波",
+      "sourceLabel": "6/26 欧州の記録的熱波",
+      "sourceHref": "./2026-06-26-europe-record-heatwave.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-26-europe-record-heatwave"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "ヨーロッパの各地で、記録的な熱波が続いています。",
+          "en": "A record heatwave is continuing across parts of Europe."
+        }
+      ]
+    },
+    {
+      "id": "article-296c2b7a3e1fa7",
+      "level": "N3",
+      "term": "熱波",
+      "reading": "ねっぱ",
+      "readingHiragana": "ねっぱ",
+      "meaning": "Heatwave",
+      "source": "article",
+      "sourceId": "2026-06-26-europe-record-heatwave",
+      "sourceTitle": "ヨーロッパを襲う記録的な熱波",
+      "sourceLabel": "6/26 欧州の記録的熱波",
+      "sourceHref": "./2026-06-26-europe-record-heatwave.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-26-europe-record-heatwave"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "ヨーロッパの各地で、記録的な熱波が続いています。",
+          "en": "A record heatwave is continuing across parts of Europe."
+        },
+        {
+          "ja": "専門家は、気候変動によって、このような強い熱波が起きやすくなっていると説明しています。",
+          "en": "Experts explain that climate change is making intense heatwaves like this more likely."
+        }
+      ]
+    },
+    {
+      "id": "article-73b48d2e434410",
+      "level": "N3",
+      "term": "異例",
+      "reading": "いれい",
+      "readingHiragana": "いれい",
+      "meaning": "Unusual / Exceptional",
+      "source": "article",
+      "sourceId": "2026-06-26-europe-record-heatwave",
+      "sourceTitle": "ヨーロッパを襲う記録的な熱波",
+      "sourceLabel": "6/26 欧州の記録的熱波",
+      "sourceHref": "./2026-06-26-europe-record-heatwave.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-26-europe-record-heatwave"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "フランス、イギリス、スイス、オランダなどで気温が大きく上がり、多くの町で6月としては異例の暑さになりました。",
+          "en": "Temperatures rose sharply in countries such as France, the United Kingdom, Switzerland, and the Netherlands, bringing unusual June heat to many towns and cities."
+        }
+      ]
+    },
+    {
+      "id": "article-cc851306032a8a",
+      "level": "N3",
+      "term": "観測する",
+      "reading": "かんそくする",
+      "readingHiragana": "かんそくする",
+      "meaning": "To observe / Measure",
+      "source": "article",
+      "sourceId": "2026-06-26-europe-record-heatwave",
+      "sourceTitle": "ヨーロッパを襲う記録的な熱波",
+      "sourceLabel": "6/26 欧州の記録的熱波",
+      "sourceHref": "./2026-06-26-europe-record-heatwave.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-26-europe-record-heatwave"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "イギリスでは、サマセットで36度を超える暑さが観測され、6月の最高気温の記録を更新しました。",
+          "en": "In the United Kingdom, temperatures above 36 degrees Celsius were observed in Somerset, setting a new June temperature record."
+        },
+        {
+          "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
+          "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
+        },
+        {
+          "ja": "それでも成功すれば、スウィフトはさらに5年以上観測を続けられる可能性があります。",
+          "en": "Even so, if the mission succeeds, Swift may be able to continue observing for at least five more years."
+        },
+        {
+          "ja": "実際には、沖縄県や宮崎県などで数センチから30センチほどの波が観測されました。",
+          "en": "In reality, waves from several centimeters to about 30 centimeters were observed in places such as Okinawa and Miyazaki prefectures."
+        }
+      ]
+    },
+    {
+      "id": "article-9321436117d81b",
+      "level": "N3",
+      "term": "更新する",
+      "reading": "こうしんする",
+      "readingHiragana": "こうしんする",
+      "meaning": "To update / Break a record",
+      "source": "article",
+      "sourceId": "2026-06-26-europe-record-heatwave",
+      "sourceTitle": "ヨーロッパを襲う記録的な熱波",
+      "sourceLabel": "6/26 欧州の記録的熱波",
+      "sourceHref": "./2026-06-26-europe-record-heatwave.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-26-europe-record-heatwave"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "イギリスでは、サマセットで36度を超える暑さが観測され、6月の最高気温の記録を更新しました。",
+          "en": "In the United Kingdom, temperatures above 36 degrees Celsius were observed in Somerset, setting a new June temperature record."
+        }
+      ]
+    },
+    {
+      "id": "article-6d5d040ee844bb",
+      "level": "N3",
+      "term": "警報",
+      "reading": "けいほう",
+      "readingHiragana": "けいほう",
+      "meaning": "Warning / Alert",
+      "source": "article",
+      "sourceId": "2026-06-26-europe-record-heatwave",
+      "sourceTitle": "ヨーロッパを襲う記録的な熱波",
+      "sourceLabel": "6/26 欧州の記録的熱波",
+      "sourceHref": "./2026-06-26-europe-record-heatwave.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-26-europe-record-heatwave"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "スイスのバーゼルでは38度近くまで上がり、オランダでは初めて暑さに関する赤い警報が出されました。",
+          "en": "In Basel, Switzerland, temperatures rose close to 38 degrees Celsius, and the Netherlands issued its first red alert for heat."
+        }
+      ]
+    },
+    {
+      "id": "article-8be28f38912def",
+      "level": "N3",
+      "term": "気候変動",
+      "reading": "きこうへんどう",
+      "readingHiragana": "きこうへんどう",
+      "meaning": "Climate change",
+      "source": "article",
+      "sourceId": "2026-06-26-europe-record-heatwave",
+      "sourceTitle": "ヨーロッパを襲う記録的な熱波",
+      "sourceLabel": "6/26 欧州の記録的熱波",
+      "sourceHref": "./2026-06-26-europe-record-heatwave.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-26-europe-record-heatwave"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "専門家は、気候変動によって、このような強い熱波が起きやすくなっていると説明しています。",
+          "en": "Experts explain that climate change is making intense heatwaves like this more likely."
+        }
+      ]
+    },
+    {
+      "id": "article-956d9d271c9fc2",
+      "level": "N3",
+      "term": "対策",
+      "reading": "たいさく",
+      "readingHiragana": "たいさく",
+      "meaning": "Countermeasures",
+      "source": "article",
+      "sourceId": "2026-06-26-europe-record-heatwave",
+      "sourceTitle": "ヨーロッパを襲う記録的な熱波",
+      "sourceLabel": "6/26 欧州の記録的熱波",
+      "sourceHref": "./2026-06-26-europe-record-heatwave.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-26-europe-record-heatwave"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "暑さは観光や交通だけでなく、農業や電力にも影響を与えるため、各国は対策を急いでいます。",
+          "en": "Because the heat affects not only tourism and transportation but also agriculture and electricity, countries are rushing to respond."
+        },
+        {
+          "ja": "この事故の後、安全対策について議論が起きました。",
+          "en": "After the incident, a debate began about safety measures."
+        },
+        {
+          "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
+          "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
+        },
+        {
+          "ja": "地方で人が少なくなり、クマも多くなったため、注意喚起や対策をすぐに出す必要があります。",
+          "en": "Because rural populations are shrinking and bear numbers are growing, cities need to issue warnings and take action quickly."
+        },
+        {
+          "ja": "米の値段が上がっているため、政府は新しい対策を発表しました。",
+          "en": "Because rice prices are rising, the government announced new measures."
+        }
+      ]
+    },
+    {
       "id": "article-65e9fc3852bd44",
       "level": "N3",
       "term": "大地震",
@@ -79083,6 +79524,10 @@
         "2026-06-19-swift-telescope-rescue"
       ],
       "exampleSentences": [
+        {
+          "ja": "イギリスでは、サマセットで36度を超える暑さが観測され、6月の最高気温の記録を更新しました。",
+          "en": "In the United Kingdom, temperatures above 36 degrees Celsius were observed in Somerset, setting a new June temperature record."
+        },
         {
           "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
           "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
@@ -80027,6 +80472,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "暑さは観光や交通だけでなく、農業や電力にも影響を与えるため、各国は対策を急いでいます。",
+          "en": "Because the heat affects not only tourism and transportation but also agriculture and electricity, countries are rushing to respond."
+        },
+        {
           "ja": "山陽新幹線の上り線にも影響が広がりました。",
           "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
         },
@@ -80041,10 +80490,6 @@
         {
           "ja": "製造業にも影響が広がりました。",
           "en": "The manufacturing sector was also affected."
-        },
-        {
-          "ja": "自動車メーカーの一部は、従業員の安全や部品輸送への影響を考慮して、工場の操業を一時停止しました。",
-          "en": "Some automakers temporarily stopped factory operations after considering worker safety and impacts on parts transport."
         }
       ]
     },
@@ -80925,6 +81370,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
+          "en": "In London, people using the Underground and buses were also advised to drink water."
+        },
+        {
           "ja": "通知には、水分をとること、休憩すること、外での活動を短くすることなどが書かれています。",
           "en": "The notifications include messages about drinking water, taking breaks, and shortening outdoor activities."
         }
@@ -81176,6 +81625,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "病院や介護施設では、高齢者の体調に特に注意しています。",
+          "en": "Hospitals and care homes are paying special attention to the health of older people."
+        },
+        {
           "ja": "高齢者からは、買い物や通院に使いやすいという声が出ています。",
           "en": "Older residents say the service is convenient for shopping and hospital visits."
         }
@@ -81334,6 +81787,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "イギリスでは、サマセットで36度を超える暑さが観測され、6月の最高気温の記録を更新しました。",
+          "en": "In the United Kingdom, temperatures above 36 degrees Celsius were observed in Somerset, setting a new June temperature record."
+        },
+        {
           "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
           "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
         },
@@ -81388,6 +81845,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "専門家は、気候変動によって、このような強い熱波が起きやすくなっていると説明しています。",
+          "en": "Experts explain that climate change is making intense heatwaves like this more likely."
+        },
+        {
           "ja": "専門家は、このような地震を「ダブレット」と呼びます。",
           "en": "Experts call this kind of event a \"doublet."
         },
@@ -81402,10 +81863,6 @@
         {
           "ja": "専門家は、注意報が出たときは、海の近くに行かないことが大切だと話しています。",
           "en": "Experts say it is important not to go near the sea when an advisory is issued."
-        },
-        {
-          "ja": "専門家は、交通の施設で再生可能エネルギーを使うことは、地域の意識を変えるきっかけにもなるとみています。",
-          "en": "Experts say using renewable energy at transportation facilities can also change local awareness."
         }
       ]
     },
@@ -82544,6 +83001,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
+          "en": "In London, people using the Underground and buses were also advised to drink water."
+        },
+        {
           "ja": "夜にゴミを出さないことや、窓と扉をしっかり閉めることも大切だと案内しました。",
           "en": "It also advised people not to put out garbage at night and to keep windows and doors tightly closed."
         },
@@ -82558,10 +83019,6 @@
         {
           "ja": "まずは大きな駅から始めて、発電した電気を照明や案内板に使う予定です。",
           "en": "It will start with large stations and use the generated electricity for lighting and information boards."
-        },
-        {
-          "ja": "旅行者が増える中、多くのホテルで案内ロボットを使う動きが広がっています。",
-          "en": "As the number of travelers increases, more hotels are using guide robots."
         }
       ]
     },
@@ -83746,6 +84203,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
+          "en": "In London, people using the Underground and buses were also advised to drink water."
+        },
+        {
           "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
           "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
         },
@@ -83760,10 +84221,6 @@
         {
           "ja": "争点の一つは、国の人口を2050年まで1000万人までに抑える提案でした。",
           "en": "One issue was a proposal to keep the country's population at no more than 10 million by 2050."
-        },
-        {
-          "ja": "初めの結果では、多くの有権者がこの案に反対しました。",
-          "en": "Early results showed that many voters opposed the plan."
         }
       ]
     },
