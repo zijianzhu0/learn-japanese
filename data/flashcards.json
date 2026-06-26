@@ -4,7 +4,7 @@
     "articleManifest": "data/articles.json"
   },
   "levels": {
-    "N3": 1926,
+    "N3": 1934,
     "N4": 536,
     "N5": 553
   },
@@ -910,6 +910,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "最初の地震はマグニチュード7・2で、その39秒後にマグニチュード7・5の地震が起きました。",
+          "en": "The first was magnitude seven point two, and 39 seconds later a magnitude seven point five quake occurred."
+        },
+        {
           "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
           "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
         },
@@ -924,10 +928,6 @@
         {
           "ja": "この事故の後、安全対策について議論が起きました。",
           "en": "After the incident, a debate began about safety measures."
-        },
-        {
-          "ja": "最後の第5戦は94対90の接戦でした。",
-          "en": "The final Game 5 was a close 94-90 game."
         }
       ]
     },
@@ -1342,6 +1342,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "同じくらいの強さの地震が、近い場所で短い時間に起きることです。",
+          "en": "\" It means earthquakes of similar strength happen close together in place and time."
+        },
+        {
           "ja": "女性は土曜日の朝、岸に近い場所で泳いでいました。",
           "en": "She was swimming near the shore on Saturday morning."
         },
@@ -1370,6 +1374,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "震源は、カリブ海沿いのモロンという町の近くでした。",
+          "en": "The epicenter was near the town of Moron on the Caribbean coast, about 160 kilometers west of the capital, Caracas. The shaking was felt across a wide area in the north, and buildings collapsed in Caracas and La Guaira."
+        },
+        {
           "ja": "近くにいた24歳のライフセーバーが、海へ入って女性をボードに乗せました。",
           "en": "A 24-year-old lifesaver nearby entered the water and put the woman on a board."
         },
@@ -1384,10 +1392,6 @@
         {
           "ja": "後に大学の近くでクマが見つかると、市の職員はドローンで場所を追跡しました。",
           "en": "When the bear was later found near a university, city workers used a drone to track it."
-        },
-        {
-          "ja": "クマは公園や学校、図書館の近くでも見つかりました。",
-          "en": "The bear was seen near a park, schools, and a library."
         }
       ]
     },
@@ -1574,6 +1578,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "この動きは浅い地震を起こしやすく、地上の建物に強い被害を出すことがあります。",
+          "en": "This movement can cause shallow earthquakes, which can heavily damage buildings on the surface."
+        },
+        {
           "ja": "地方で人が少なくなり、クマも多くなったため、注意喚起や対策をすぐに出す必要があります。",
           "en": "Because rural populations are shrinking and bear numbers are growing, cities need to issue warnings and take action quickly."
         },
@@ -1588,10 +1596,6 @@
         {
           "ja": "外国の会社が円でこれほど大きな社債を出すのは、とても珍しいことです。",
           "en": "It is very unusual for a foreign company to issue such a large yen bond."
-        },
-        {
-          "ja": "comを買うために出すお金を前より多くしました。",
-          "en": "com."
         }
       ],
       "partOfSpeech": "verb",
@@ -1610,6 +1614,10 @@
               "en": "Under the new plan, areas where fertilizer and fuel costs have become high will receive more subsidies."
             },
             {
+              "ja": "この動きは浅い地震を起こしやすく、地上の建物に強い被害を出すことがあります。",
+              "en": "This movement can cause shallow earthquakes, which can heavily damage buildings on the surface."
+            },
+            {
               "ja": "地方で人が少なくなり、クマも多くなったため、注意喚起や対策をすぐに出す必要があります。",
               "en": "Because rural populations are shrinking and bear numbers are growing, cities need to issue warnings and take action quickly."
             },
@@ -1620,10 +1628,6 @@
             {
               "ja": "ある高校では、AIを使って文章の案を作ることは認めていますが、そのまま提出することは禁止しています。",
               "en": "At one high school, students are allowed to use AI to draft writing, but submitting it as-is is prohibited."
-            },
-            {
-              "ja": "外国の会社が円でこれほど大きな社債を出すのは、とても珍しいことです。",
-              "en": "It is very unusual for a foreign company to issue such a large yen bond."
             }
           ]
         },
@@ -1640,6 +1644,10 @@
               "en": "It is seen as a move to present stronger terms and improve their chances of completing the acquisition."
             },
             {
+              "ja": "この動きは浅い地震を起こしやすく、地上の建物に強い被害を出すことがあります。",
+              "en": "This movement can cause shallow earthquakes, which can heavily damage buildings on the surface."
+            },
+            {
               "ja": "地方で人が少なくなり、クマも多くなったため、注意喚起や対策をすぐに出す必要があります。",
               "en": "Because rural populations are shrinking and bear numbers are growing, cities need to issue warnings and take action quickly."
             },
@@ -1650,10 +1658,6 @@
             {
               "ja": "ある高校では、AIを使って文章の案を作ることは認めていますが、そのまま提出することは禁止しています。",
               "en": "At one high school, students are allowed to use AI to draft writing, but submitting it as-is is prohibited."
-            },
-            {
-              "ja": "外国の会社が円でこれほど大きな社債を出すのは、とても珍しいことです。",
-              "en": "It is very unusual for a foreign company to issue such a large yen bond."
             }
           ]
         },
@@ -1670,6 +1674,10 @@
               "en": "It also advised people not to put out garbage at night and to keep windows and doors tightly closed."
             },
             {
+              "ja": "この動きは浅い地震を起こしやすく、地上の建物に強い被害を出すことがあります。",
+              "en": "This movement can cause shallow earthquakes, which can heavily damage buildings on the surface."
+            },
+            {
               "ja": "地方で人が少なくなり、クマも多くなったため、注意喚起や対策をすぐに出す必要があります。",
               "en": "Because rural populations are shrinking and bear numbers are growing, cities need to issue warnings and take action quickly."
             },
@@ -1680,10 +1688,6 @@
             {
               "ja": "ある高校では、AIを使って文章の案を作ることは認めていますが、そのまま提出することは禁止しています。",
               "en": "At one high school, students are allowed to use AI to draft writing, but submitting it as-is is prohibited."
-            },
-            {
-              "ja": "外国の会社が円でこれほど大きな社債を出すのは、とても珍しいことです。",
-              "en": "It is very unusual for a foreign company to issue such a large yen bond."
             }
           ]
         },
@@ -1700,6 +1704,10 @@
               "en": "The goal is to spray fine water into the air and make the area a little cooler."
             },
             {
+              "ja": "この動きは浅い地震を起こしやすく、地上の建物に強い被害を出すことがあります。",
+              "en": "This movement can cause shallow earthquakes, which can heavily damage buildings on the surface."
+            },
+            {
               "ja": "地方で人が少なくなり、クマも多くなったため、注意喚起や対策をすぐに出す必要があります。",
               "en": "Because rural populations are shrinking and bear numbers are growing, cities need to issue warnings and take action quickly."
             },
@@ -1710,10 +1718,6 @@
             {
               "ja": "ある高校では、AIを使って文章の案を作ることは認めていますが、そのまま提出することは禁止しています。",
               "en": "At one high school, students are allowed to use AI to draft writing, but submitting it as-is is prohibited."
-            },
-            {
-              "ja": "外国の会社が円でこれほど大きな社債を出すのは、とても珍しいことです。",
-              "en": "It is very unusual for a foreign company to issue such a large yen bond."
             }
           ]
         },
@@ -1726,6 +1730,10 @@
           "meaning": "Potential form of 出す: to take out",
           "exampleSentences": [
             {
+              "ja": "この動きは浅い地震を起こしやすく、地上の建物に強い被害を出すことがあります。",
+              "en": "This movement can cause shallow earthquakes, which can heavily damage buildings on the surface."
+            },
+            {
               "ja": "地方で人が少なくなり、クマも多くなったため、注意喚起や対策をすぐに出す必要があります。",
               "en": "Because rural populations are shrinking and bear numbers are growing, cities need to issue warnings and take action quickly."
             },
@@ -1740,10 +1748,6 @@
             {
               "ja": "外国の会社が円でこれほど大きな社債を出すのは、とても珍しいことです。",
               "en": "It is very unusual for a foreign company to issue such a large yen bond."
-            },
-            {
-              "ja": "comを買うために出すお金を前より多くしました。",
-              "en": "com."
             }
           ]
         }
@@ -3944,6 +3948,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "6月24日の夕方、ベネズエラ北部で大きな地震が二つ続けて起きました。",
+          "en": "On the evening of June 24, two major earthquakes struck northern Venezuela in quick succession."
+        },
+        {
           "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
           "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
         },
@@ -3958,10 +3966,6 @@
         {
           "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
           "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
-        },
-        {
-          "ja": "女性は土曜日の朝、岸に近い場所で泳いでいました。",
-          "en": "She was swimming near the shore on Saturday morning."
         }
       ]
     },
@@ -4258,6 +4262,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "揺れは北部の広い地域で感じられ、カラカスやラグアイラで建物が倒れました。",
+          "en": "The epicenter was near the town of Moron on the Caribbean coast, about 160 kilometers west of the capital, Caracas. The shaking was felt across a wide area in the north, and buildings collapsed in Caracas and La Guaira."
+        },
+        {
           "ja": "気象庁は8日、日本の太平洋側の広い地域に津波注意報を出しました。",
           "en": "On the 8th, the Japan Meteorological Agency issued a tsunami advisory for a wide area along Japan’s Pacific coast."
         }
@@ -4308,6 +4316,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "AP通信は、少なくとも188人が死亡し、約1500人がけがをしたと伝えています。",
+          "en": "The Associated Press reported that at least 188 people had died and about 1,500 were injured."
+        },
+        {
+          "ja": "まだ行方が分からない人も多く、救助隊ががれきの中を探しています。",
+          "en": "Many people were still missing, and rescue teams were searching through rubble."
+        },
+        {
           "ja": "人が集まる力や、経済活動の種類も調べています。",
           "en": "It also studies a city's ability to attract people and the variety of its economic activity."
         },
@@ -4318,14 +4334,6 @@
         {
           "ja": "警察は、その人の死亡を確認しました。",
           "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
-        },
-        {
-          "ja": "防犯カメラなどによると、その人は上りホームの柵の切れ目から線路に降りました。",
-          "en": "According to security-camera footage and other evidence, the person went down to the tracks through a gap in the fence on the inbound platform."
-        },
-        {
-          "ja": "家族は、救助した人たちや病院のスタッフに深く感謝していると話しました。",
-          "en": "The family said they are deeply grateful to the people who rescued her and to the hospital staff."
         }
       ]
     },
@@ -4358,6 +4366,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "一つ目の地震が別の断層に力を加え、二つ目を引き起こした可能性があります。",
+          "en": "The first quake may have added stress to another fault and triggered the second one."
+        },
         {
           "ja": "争点の一つは、国の人口を2050年まで1000万人までに抑える提案でした。",
           "en": "One issue was a proposal to keep the country's population at no more than 10 million by 2050."
@@ -4492,6 +4504,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "一つ目の地震が別の断層に力を加え、二つ目を引き起こした可能性があります。",
+          "en": "The first quake may have added stress to another fault and triggered the second one."
+        },
+        {
           "ja": "アメリカとイランは、戦争を終わらせるための一時的な合意について話し合っています。",
           "en": "The United States and Iran are discussing a temporary agreement to end the war."
         },
@@ -4506,10 +4522,6 @@
         {
           "ja": "争点の一つは、国の人口を2050年まで1000万人までに抑える提案でした。",
           "en": "One issue was a proposal to keep the country's population at no more than 10 million by 2050."
-        },
-        {
-          "ja": "このIPOで話題になった言葉の一つが、グリーンシュー・オプションです。",
-          "en": "One term that became a topic in this IPO was the greenshoe option."
         }
       ]
     },
@@ -4558,6 +4570,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "専門家は、このような地震を「ダブレット」と呼びます。",
+          "en": "Experts call this kind of event a \"doublet."
+        },
+        {
           "ja": "女性の家族は、医療費などを支えるために寄付を集めています。",
           "en": "The woman's family is collecting donations to help with medical costs and other needs."
         },
@@ -4572,10 +4588,6 @@
         {
           "ja": "初めの取引では株価が大きく上がり、世界中の投資家が注目しました。",
           "en": "Its share price rose sharply in early trading, drawing attention from investors around the world."
-        },
-        {
-          "ja": "IPOでは、証券会社が会社の株を投資家に売ります。",
-          "en": "In an IPO, securities firms sell a company’s shares to investors."
         }
       ]
     },
@@ -5344,6 +5356,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "同じくらいの強さの地震が、近い場所で短い時間に起きることです。",
+          "en": "\" It means earthquakes of similar strength happen close together in place and time."
+        },
+        {
           "ja": "運転は約3時間後の午後8時48分に再開しました。",
           "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
         },
@@ -5358,10 +5374,6 @@
         {
           "ja": "利用したい人は、前日までに電話かスマートフォンで乗る場所と時間を伝えます。",
           "en": "People who want to use the service tell the town their pickup place and time by phone or smartphone by the previous day."
-        },
-        {
-          "ja": "職員は、短い時間で必要な情報を伝えやすくなったと話しています。",
-          "en": "Staff say it has become easier to provide needed information in a short time."
         }
       ]
     },
@@ -6045,6 +6057,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "6月24日の夕方、ベネズエラ北部で大きな地震が二つ続けて起きました。",
+          "en": "On the evening of June 24, two major earthquakes struck northern Venezuela in quick succession."
+        },
+        {
+          "ja": "まだ行方が分からない人も多く、救助隊ががれきの中を探しています。",
+          "en": "Many people were still missing, and rescue teams were searching through rubble."
+        },
+        {
           "ja": "研究チームは、環境だけでなく、スーパーやレストランまでの距離、道路の多さ、土地の使い方も集めました。",
           "en": "The research team collected not only environmental data, but also distances to supermarkets and restaurants, road density, and land use."
         },
@@ -6055,14 +6075,6 @@
         {
           "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
           "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
-        },
-        {
-          "ja": "地方で人が少なくなり、クマも多くなったため、注意喚起や対策をすぐに出す必要があります。",
-          "en": "Because rural populations are shrinking and bear numbers are growing, cities need to issue warnings and take action quickly."
-        },
-        {
-          "ja": "専門家は、クマの数が増えたことや、地方で人が少なくなったことが原因の一つだと考えています。",
-          "en": "Experts think one reason is that bear numbers have grown while rural populations have shrunk."
         }
       ]
     },
@@ -6776,6 +6788,18 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "6月24日の夕方、ベネズエラ北部で大きな地震が二つ続けて起きました。",
+          "en": "On the evening of June 24, two major earthquakes struck northern Venezuela in quick succession."
+        },
+        {
+          "ja": "揺れは北部の広い地域で感じられ、カラカスやラグアイラで建物が倒れました。",
+          "en": "The epicenter was near the town of Moron on the Caribbean coast, about 160 kilometers west of the capital, Caracas. The shaking was felt across a wide area in the north, and buildings collapsed in Caracas and La Guaira."
+        },
+        {
+          "ja": "ベネズエラの北側では、カリブプレートと南アメリカプレートが横にずれています。",
+          "en": "North of Venezuela, the Caribbean Plate and the South American Plate slide sideways past each other."
+        },
         {
           "ja": "東北のある県で、景色を楽しめる観光列車の人気が高まっています。",
           "en": "In one prefecture in Tohoku, a sightseeing train that lets passengers enjoy the scenery is becoming more popular."
@@ -7700,6 +7724,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "震源は、カリブ海沿いのモロンという町の近くでした。",
+          "en": "The epicenter was near the town of Moron on the Caribbean coast, about 160 kilometers west of the capital, Caracas. The shaking was felt across a wide area in the north, and buildings collapsed in Caracas and La Guaira."
+        },
+        {
           "ja": "栃木県の宇都宮市で、クマが町の中に出たため、多くの人が心配しました。",
           "en": "In Utsunomiya, Tochigi Prefecture, many people became worried after a bear appeared in town."
         },
@@ -7714,10 +7742,6 @@
         {
           "ja": "町は3か月の実験で、利用した人数や運行にかかる費用を調べます。",
           "en": "During the three-month trial, the town will study the number of users and the cost of operating the buses."
-        },
-        {
-          "ja": "地元の人は、列車のおかげで町に活気が戻ってきたと感じています。",
-          "en": "Local people feel the train is bringing energy back to the town."
         }
       ]
     },
@@ -7735,6 +7759,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "まだ行方が分からない人も多く、救助隊ががれきの中を探しています。",
+          "en": "Many people were still missing, and rescue teams were searching through rubble."
+        },
         {
           "ja": "都市の脈を正しく読むには、まだ多くの研究が必要です。",
           "en": "More research is still needed to read a city's pulse accurately."
@@ -8195,6 +8223,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "一つ目の地震が別の断層に力を加え、二つ目を引き起こした可能性があります。",
+          "en": "The first quake may have added stress to another fault and triggered the second one."
+        },
+        {
           "ja": "AIは写真から大切な手がかりを見つけられましたが、結果は項目によって大きく違いました。",
           "en": "The AI could find important clues in images, but the results differed greatly depending on the item."
         },
@@ -8209,10 +8241,6 @@
         {
           "ja": "スペースXのように注目度が高い会社では、上場直後の値動きが激しくなりやすいです。",
           "en": "For a highly watched company like SpaceX, price movements just after listing can easily become intense."
-        },
-        {
-          "ja": "死者数や全壊・焼失する建物の数を、想定より半分以下に抑えることを目標にします。",
-          "en": "Its goal is to cut the expected deaths and destroyed or burned buildings to less than half of the estimate."
         }
       ]
     },
@@ -8390,6 +8418,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "同じくらいの強さの地震が、近い場所で短い時間に起きることです。",
+          "en": "\" It means earthquakes of similar strength happen close together in place and time."
+        },
+        {
           "ja": "職員は、短い時間で必要な情報を伝えやすくなったと話しています。",
           "en": "Staff say it has become easier to provide needed information in a short time."
         },
@@ -8432,6 +8464,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "ベネズエラの北側では、カリブプレートと南アメリカプレートが横にずれています。",
+          "en": "North of Venezuela, the Caribbean Plate and the South American Plate slide sideways past each other."
+        },
         {
           "ja": "しかし、イランはイスラエルがレバノン南部から軍を引くことも必要だと話しました。",
           "en": "However, Iran said that Israel must also withdraw its forces from southern Lebanon."
@@ -8714,6 +8750,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "専門家は、このような地震を「ダブレット」と呼びます。",
+          "en": "Experts call this kind of event a \"doublet."
+        },
+        {
           "ja": "専門家は、クマの数が増えたことや、地方で人が少なくなったことが原因の一つだと考えています。",
           "en": "Experts think one reason is that bear numbers have grown while rural populations have shrunk."
         },
@@ -8728,10 +8768,6 @@
         {
           "ja": "専門家は、交通の施設で再生可能エネルギーを使うことは、地域の意識を変えるきっかけにもなるとみています。",
           "en": "Experts say using renewable energy at transportation facilities can also change local awareness."
-        },
-        {
-          "ja": "専門家は、短期間の支援だけでなく、長期的な生産性の向上も必要だと話しています。",
-          "en": "Experts say that not only short-term support but also long-term productivity improvements are necessary."
         }
       ]
     },
@@ -8976,6 +9012,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "まだ行方が分からない人も多く、救助隊ががれきの中を探しています。",
+          "en": "Many people were still missing, and rescue teams were searching through rubble."
+        },
+        {
           "ja": "中東の緊張が下がるかどうかは、これからの交渉にかかっています。",
           "en": "Whether tensions in the Middle East will decrease depends on the negotiations from here."
         },
@@ -8990,10 +9030,6 @@
         {
           "ja": "栃木県の宇都宮市で、クマが町の中に出たため、多くの人が心配しました。",
           "en": "In Utsunomiya, Tochigi Prefecture, many people became worried after a bear appeared in town."
-        },
-        {
-          "ja": "大学でもクマが見つかり、授業が中止になりました。",
-          "en": "The bear was also seen at a university, and classes were canceled there as well."
         }
       ]
     },
@@ -9692,6 +9728,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "6月24日の夕方、ベネズエラ北部で大きな地震が二つ続けて起きました。",
+          "en": "On the evening of June 24, two major earthquakes struck northern Venezuela in quick succession."
+        },
+        {
+          "ja": "一つ目の地震が別の断層に力を加え、二つ目を引き起こした可能性があります。",
+          "en": "The first quake may have added stress to another fault and triggered the second one."
+        },
+        {
           "ja": "二酸化炭素、二酸化窒素、細かい粒子の汚染、緑の多さなどを同じ場所ごとに比べられます。",
           "en": "It can compare carbon dioxide, nitrogen dioxide, fine-particle pollution, the amount of greenery, and other data for the same kinds of locations."
         },
@@ -9702,10 +9746,6 @@
         {
           "ja": "安全のために、市立の学校は二日間休みになりました。",
           "en": "For safety, city-run schools were closed for two days."
-        },
-        {
-          "ja": "この船は、ふつうの燃料よりも二酸化炭素を少なくできることが期待されています。",
-          "en": "The ship is expected to produce less carbon dioxide than conventional fuel."
         }
       ]
     },
@@ -9788,6 +9828,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "首都カラカスから西へ約160キロの場所です。",
+          "en": "The epicenter was near the town of Moron on the Caribbean coast, about 160 kilometers west of the capital, Caracas. The shaking was felt across a wide area in the north, and buildings collapsed in Caracas and La Guaira."
+        },
         {
           "ja": "関西の大きな港で、水素を使う新しい船の実証実験が始まりました。",
           "en": "A large port in Kansai has started a test of a new ship that uses hydrogen."
@@ -10354,7 +10398,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "同じくらいの強さの地震が、近い場所で短い時間に起きることです。",
+          "en": "\" It means earthquakes of similar strength happen close together in place and time."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "ichidan",
       "verbForms": [
@@ -10365,7 +10414,12 @@
           "term": "起きます",
           "readingHiragana": "おきます",
           "meaning": "Polite form of 起きる: to get up, to rise",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "同じくらいの強さの地震が、近い場所で短い時間に起きることです。",
+              "en": "\" It means earthquakes of similar strength happen close together in place and time."
+            }
+          ]
         },
         {
           "form": "past",
@@ -10382,6 +10436,10 @@
             {
               "ja": "政府は、首都直下地震が起きた場合の被害を今後10年で大幅に減らすため、防災計画を改定する方針です。",
               "en": "The government plans to revise its disaster-prevention plan to sharply reduce damage from a possible inland earthquake beneath the Tokyo area over the next decade."
+            },
+            {
+              "ja": "同じくらいの強さの地震が、近い場所で短い時間に起きることです。",
+              "en": "\" It means earthquakes of similar strength happen close together in place and time."
             }
           ]
         },
@@ -10392,7 +10450,12 @@
           "term": "起きない",
           "readingHiragana": "おきない",
           "meaning": "Plain negative form of 起きる: to get up, to rise",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "同じくらいの強さの地震が、近い場所で短い時間に起きることです。",
+              "en": "\" It means earthquakes of similar strength happen close together in place and time."
+            }
+          ]
         },
         {
           "form": "te",
@@ -10401,7 +10464,12 @@
           "term": "起きて",
           "readingHiragana": "おきて",
           "meaning": "Te-form of 起きる: to get up, to rise",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "同じくらいの強さの地震が、近い場所で短い時間に起きることです。",
+              "en": "\" It means earthquakes of similar strength happen close together in place and time."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -10410,7 +10478,12 @@
           "term": "起きられる",
           "readingHiragana": "おきられる",
           "meaning": "Potential form of 起きる: to get up, to rise",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "同じくらいの強さの地震が、近い場所で短い時間に起きることです。",
+              "en": "\" It means earthquakes of similar strength happen close together in place and time."
+            }
+          ]
         }
       ]
     },
@@ -10687,6 +10760,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "同じくらいの強さの地震が、近い場所で短い時間に起きることです。",
+          "en": "\" It means earthquakes of similar strength happen close together in place and time."
+        },
+        {
           "ja": "二酸化炭素、二酸化窒素、細かい粒子の汚染、緑の多さなどを同じ場所ごとに比べられます。",
           "en": "It can compare carbon dioxide, nitrogen dioxide, fine-particle pollution, the amount of greenery, and other data for the same kinds of locations."
         },
@@ -10701,10 +10778,6 @@
         {
           "ja": "今回の実験がうまくいけば、ほかの港でも同じような取り組みが始まるかもしれません。",
           "en": "If this test goes well, similar efforts may begin at other ports too."
-        },
-        {
-          "ja": "政府は、トップどうしが同じ考えを示したことで、今後の外交や政策が進めやすくなると期待しています。",
-          "en": "The government expects that showing agreement at the top level will make future diplomacy and policy coordination easier."
         }
       ]
     },
@@ -12515,6 +12588,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ベネズエラの北側では、カリブプレートと南アメリカプレートが横にずれています。",
+          "en": "North of Venezuela, the Caribbean Plate and the South American Plate slide sideways past each other."
+        },
+        {
           "ja": "気象庁は8日、日本の太平洋側の広い地域に津波注意報を出しました。",
           "en": "On the 8th, the Japan Meteorological Agency issued a tsunami advisory for a wide area along Japan’s Pacific coast."
         },
@@ -12870,24 +12947,24 @@
           "meaning": "Plain past form of する: to do",
           "exampleSentences": [
             {
-              "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
-              "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
+              "ja": "6月24日の夕方、ベネズエラ北部で大きな地震が二つ続けて起きました。",
+              "en": "On the evening of June 24, two major earthquakes struck northern Venezuela in quick succession."
             },
             {
-              "ja": "研究チームは、環境だけでなく、スーパーやレストランまでの距離、道路の多さ、土地の使い方も集めました。",
-              "en": "The research team collected not only environmental data, but also distances to supermarkets and restaurants, road density, and land use."
+              "ja": "最初の地震はマグニチュード7・2で、その39秒後にマグニチュード7・5の地震が起きました。",
+              "en": "The first was magnitude seven point two, and 39 seconds later a magnitude seven point five quake occurred."
             },
             {
-              "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
-              "en": "The information was made to test how well AI can think about the present and future of cities."
+              "ja": "震源は、カリブ海沿いのモロンという町の近くでした。",
+              "en": "The epicenter was near the town of Moron on the Caribbean coast, about 160 kilometers west of the capital, Caracas. The shaking was felt across a wide area in the north, and buildings collapsed in Caracas and La Guaira."
             },
             {
-              "ja": "研究者たちは、15種類の最新AIを試しました。",
-              "en": "The researchers tested 15 kinds of advanced AI."
+              "ja": "揺れは北部の広い地域で感じられ、カラカスやラグアイラで建物が倒れました。",
+              "en": "The epicenter was near the town of Moron on the Caribbean coast, about 160 kilometers west of the capital, Caracas. The shaking was felt across a wide area in the north, and buildings collapsed in Caracas and La Guaira."
             },
             {
-              "ja": "AIは写真から大切な手がかりを見つけられましたが、結果は項目によって大きく違いました。",
-              "en": "The AI could find important clues in images, but the results differed greatly depending on the item."
+              "ja": "政府は非常事態を宣言しました。",
+              "en": "The government declared a state of emergency."
             }
           ]
         },
@@ -12930,6 +13007,10 @@
           "meaning": "Te-form of する: to do",
           "exampleSentences": [
             {
+              "ja": "まだ行方が分からない人も多く、救助隊ががれきの中を探しています。",
+              "en": "Many people were still missing, and rescue teams were searching through rubble."
+            },
+            {
               "ja": "この列車は浜松駅を通過しているところでした。",
               "en": "It was passing through Hamamatsu Station."
             },
@@ -12944,10 +13025,6 @@
             {
               "ja": "そのため、接近してつかむ作業には大きな危険があります。",
               "en": "Approaching and grabbing it therefore carries major risks."
-            },
-            {
-              "ja": "そのため、各国の政府や企業は、この合意が実行されるかどうかを注意して見ています。",
-              "en": "For that reason, governments and companies are watching carefully to see whether the agreement will be carried out."
             }
           ]
         },
@@ -13502,6 +13579,14 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "揺れは北部の広い地域で感じられ、カラカスやラグアイラで建物が倒れました。",
+          "en": "The epicenter was near the town of Moron on the Caribbean coast, about 160 kilometers west of the capital, Caracas. The shaking was felt across a wide area in the north, and buildings collapsed in Caracas and La Guaira."
+        },
+        {
+          "ja": "この動きは浅い地震を起こしやすく、地上の建物に強い被害を出すことがあります。",
+          "en": "This movement can cause shallow earthquakes, which can heavily damage buildings on the surface."
+        },
         {
           "ja": "死者数や全壊・焼失する建物の数を、想定より半分以下に抑えることを目標にします。",
           "en": "Its goal is to cut the expected deaths and destroyed or burned buildings to less than half of the estimate."
@@ -14060,6 +14145,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "首都カラカスから西へ約160キロの場所です。",
+          "en": "The epicenter was near the town of Moron on the Caribbean coast, about 160 kilometers west of the capital, Caracas. The shaking was felt across a wide area in the north, and buildings collapsed in Caracas and La Guaira."
+        },
+        {
+          "ja": "同じくらいの強さの地震が、近い場所で短い時間に起きることです。",
+          "en": "\" It means earthquakes of similar strength happen close together in place and time."
+        },
+        {
           "ja": "二酸化炭素、二酸化窒素、細かい粒子の汚染、緑の多さなどを同じ場所ごとに比べられます。",
           "en": "It can compare carbon dioxide, nitrogen dioxide, fine-particle pollution, the amount of greenery, and other data for the same kinds of locations."
         },
@@ -14070,14 +14163,6 @@
         {
           "ja": "女性は土曜日の朝、岸に近い場所で泳いでいました。",
           "en": "She was swimming near the shore on Saturday morning."
-        },
-        {
-          "ja": "後に大学の近くでクマが見つかると、市の職員はドローンで場所を追跡しました。",
-          "en": "When the bear was later found near a university, city workers used a drone to track it."
-        },
-        {
-          "ja": "日本では、クマが人の生活する場所に入る問題が増えています。",
-          "en": "In Japan, the problem of bears entering places where people live is increasing."
         }
       ]
     },
@@ -14876,6 +14961,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "この動きは浅い地震を起こしやすく、地上の建物に強い被害を出すことがあります。",
+          "en": "This movement can cause shallow earthquakes, which can heavily damage buildings on the surface."
+        },
+        {
           "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
           "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
         },
@@ -14890,10 +14979,6 @@
         {
           "ja": "ブラジルは優勝経験が多い強いチームですが、前半はモロッコの速い攻撃に苦しみました。",
           "en": "Brazil are a strong team with many World Cup titles, but in the first half they struggled against Morocco’s quick attacks."
-        },
-        {
-          "ja": "今回の引き分けで、今年も強い相手になりそうだと感じさせました。",
-          "en": "This draw made people feel that Morocco may again be a strong opponent this year."
         }
       ]
     },
@@ -14912,6 +14997,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "この動きは浅い地震を起こしやすく、地上の建物に強い被害を出すことがあります。",
+          "en": "This movement can cause shallow earthquakes, which can heavily damage buildings on the surface."
+        },
+        {
           "ja": "防犯カメラなどによると、その人は上りホームの柵の切れ目から線路に降りました。",
           "en": "According to security-camera footage and other evidence, the person went down to the tracks through a gap in the fence on the inbound platform."
         },
@@ -14926,10 +15015,6 @@
         {
           "ja": "もともとの予定は2年間でしたが、20年以上たった今も科学のために働いています。",
           "en": "Its mission was originally planned for two years, but more than 20 years later, it is still working for science."
-        },
-        {
-          "ja": "しかし、スウィフトには自分で軌道を上げるためのエンジンがありません。",
-          "en": "However, Swift has no engine for raising its own orbit."
         }
       ]
     },
@@ -15012,6 +15097,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "震源は、カリブ海沿いのモロンという町の近くでした。",
+          "en": "The epicenter was near the town of Moron on the Caribbean coast, about 160 kilometers west of the capital, Caracas. The shaking was felt across a wide area in the north, and buildings collapsed in Caracas and La Guaira."
+        },
+        {
           "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
           "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
         },
@@ -15026,10 +15115,6 @@
         {
           "ja": "JR東海によると、東海道新幹線の17駅のうち、ホームドアがあるのは東京、名古屋、新大阪など7駅です。",
           "en": "According to JR Central, seven of the 17 Tokaido Shinkansen stations—including Tokyo, Nagoya, and Shin-Osaka—have platform doors."
-        },
-        {
-          "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
-          "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
         }
       ]
     },
@@ -15356,7 +15441,12 @@
           "term": "分からない",
           "readingHiragana": "わからない",
           "meaning": "Plain negative form of 分かる: to understand, to comprehend",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "まだ行方が分からない人も多く、救助隊ががれきの中を探しています。",
+              "en": "Many people were still missing, and rescue teams were searching through rubble."
+            }
+          ]
         },
         {
           "form": "te",
@@ -15883,7 +15973,12 @@
           "term": "呼びます",
           "readingHiragana": "よびます",
           "meaning": "Polite form of 呼ぶ: to call out, to call",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "専門家は、このような地震を「ダブレット」と呼びます。",
+              "en": "Experts call this kind of event a \"doublet."
+            }
+          ]
         },
         {
           "form": "past",
@@ -15952,6 +16047,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "ベネズエラの北側では、カリブプレートと南アメリカプレートが横にずれています。",
+          "en": "North of Venezuela, the Caribbean Plate and the South American Plate slide sideways past each other."
+        },
         {
           "ja": "そして、2本の線路を横断し、下り線まで歩いたことが確認されました。",
           "en": "The person then crossed two tracks and walked to the outbound track."
@@ -16467,7 +16566,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "首都カラカスから西へ約160キロの場所です。",
+          "en": "The epicenter was near the town of Moron on the Caribbean coast, about 160 kilometers west of the capital, Caracas. The shaking was felt across a wide area in the north, and buildings collapsed in Caracas and La Guaira."
+        }
+      ]
     },
     {
       "id": "core-be86730ab382fb",
@@ -17139,7 +17243,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "この動きは浅い地震を起こしやすく、地上の建物に強い被害を出すことがあります。",
+          "en": "This movement can cause shallow earthquakes, which can heavily damage buildings on the surface."
+        }
+      ]
     },
     {
       "id": "core-eee158af06db02",
@@ -17539,6 +17648,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "首都カラカスから西へ約160キロの場所です。",
+          "en": "The epicenter was near the town of Moron on the Caribbean coast, about 160 kilometers west of the capital, Caracas. The shaking was felt across a wide area in the north, and buildings collapsed in Caracas and La Guaira."
+        },
+        {
+          "ja": "同じくらいの強さの地震が、近い場所で短い時間に起きることです。",
+          "en": "\" It means earthquakes of similar strength happen close together in place and time."
+        },
+        {
           "ja": "二酸化炭素、二酸化窒素、細かい粒子の汚染、緑の多さなどを同じ場所ごとに比べられます。",
           "en": "It can compare carbon dioxide, nitrogen dioxide, fine-particle pollution, the amount of greenery, and other data for the same kinds of locations."
         },
@@ -17549,14 +17666,6 @@
         {
           "ja": "女性は土曜日の朝、岸に近い場所で泳いでいました。",
           "en": "She was swimming near the shore on Saturday morning."
-        },
-        {
-          "ja": "後に大学の近くでクマが見つかると、市の職員はドローンで場所を追跡しました。",
-          "en": "When the bear was later found near a university, city workers used a drone to track it."
-        },
-        {
-          "ja": "日本では、クマが人の生活する場所に入る問題が増えています。",
-          "en": "In Japan, the problem of bears entering places where people live is increasing."
         }
       ]
     },
@@ -17574,6 +17683,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "一つ目の地震が別の断層に力を加え、二つ目を引き起こした可能性があります。",
+          "en": "The first quake may have added stress to another fault and triggered the second one."
+        },
         {
           "ja": "長い間苦しんだチームとファンにとって、今年の優勝は特別な出来事になりました。",
           "en": "For a team and fan base that struggled for a long time, this year's title became a special event."
@@ -17763,6 +17876,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "一つ目の地震が別の断層に力を加え、二つ目を引き起こした可能性があります。",
+          "en": "The first quake may have added stress to another fault and triggered the second one."
+        },
+        {
           "ja": "人が集まる力や、経済活動の種類も調べています。",
           "en": "It also studies a city's ability to attract people and the variety of its economic activity."
         },
@@ -17777,10 +17894,6 @@
         {
           "ja": "関係者は、この温室をきっかけに、販売や出荷も協力してできるようにしたいと話しています。",
           "en": "The people involved say they also want to use the greenhouse as a starting point for cooperative selling and shipping."
-        },
-        {
-          "ja": "会社によると、夏の暑い時期には冷房のためにたくさんの電力が必要になります。",
-          "en": "According to the company, a lot of electricity is needed for air conditioning during hot summer periods."
         }
       ]
     },
@@ -20796,16 +20909,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "フィリピンのミンダナオ島の近くで大きな地震が起きたためです。",
-          "en": "This was because a major earthquake occurred near Mindanao island in the Philippines."
+          "ja": "6月24日の夕方、ベネズエラ北部で大きな地震が二つ続けて起きました。",
+          "en": "On the evening of June 24, two major earthquakes struck northern Venezuela in quick succession."
         },
         {
-          "ja": "政府は、首都直下地震が起きた場合の被害を今後10年で大幅に減らすため、防災計画を改定する方針です。",
-          "en": "The government plans to revise its disaster-prevention plan to sharply reduce damage from a possible inland earthquake beneath the Tokyo area over the next decade."
+          "ja": "最初の地震はマグニチュード7・2で、その39秒後にマグニチュード7・5の地震が起きました。",
+          "en": "The first was magnitude seven point two, and 39 seconds later a magnitude seven point five quake occurred."
         },
         {
-          "ja": "大雨や地震に備えるため、いろいろな地域で防災訓練が行われました。",
-          "en": "To prepare for heavy rain and earthquakes, disaster drills were held in many areas."
+          "ja": "専門家は、このような地震を「ダブレット」と呼びます。",
+          "en": "Experts call this kind of event a \"doublet."
+        },
+        {
+          "ja": "同じくらいの強さの地震が、近い場所で短い時間に起きることです。",
+          "en": "\" It means earthquakes of similar strength happen close together in place and time."
+        },
+        {
+          "ja": "一つ目の地震が別の断層に力を加え、二つ目を引き起こした可能性があります。",
+          "en": "The first quake may have added stress to another fault and triggered the second one."
         }
       ]
     },
@@ -22984,6 +23105,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "余震の心配も続いています。",
+          "en": "Concern about aftershocks continues."
+        },
+        {
           "ja": "ヴィニシウスは狭い角度からシュートを決め、ブラジルの応援席を安心させました。",
           "en": "Vinicius scored from a tight angle, calming the Brazil supporters."
         },
@@ -22998,10 +23123,6 @@
         {
           "ja": "利用者が安心して使えるように、わかりやすい表示や説明も必要になりそうです。",
           "en": "Clear displays and explanations will also be needed so guests can use the system with confidence."
-        },
-        {
-          "ja": "日本の投資家たちの関心も高く、今回の社債は注目を集めました。",
-          "en": "Japanese investors were also very interested, and this bond sale attracted attention."
         }
       ]
     },
@@ -23322,6 +23443,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "政府は非常事態を宣言しました。",
+          "en": "The government declared a state of emergency."
+        },
+        {
           "ja": "事故にあったのは、東京発博多行きの「のぞみ49号」です。",
           "en": "The train involved was Nozomi 49, traveling from Tokyo to Hakata."
         },
@@ -23336,10 +23461,6 @@
         {
           "ja": "長い間苦しんだチームとファンにとって、今年の優勝は特別な出来事になりました。",
           "en": "For a team and fan base that struggled for a long time, this year's title became a special event."
-        },
-        {
-          "ja": "危険な時間帯には、屋外の仕事を減らし、日陰で休む時間を長くしています。",
-          "en": "During dangerous time periods, they reduce outdoor work and take longer breaks in the shade."
         }
       ]
     },
@@ -23691,6 +23812,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "首都カラカスから西へ約160キロの場所です。",
+          "en": "The epicenter was near the town of Moron on the Caribbean coast, about 160 kilometers west of the capital, Caracas. The shaking was felt across a wide area in the north, and buildings collapsed in Caracas and La Guaira."
+        },
+        {
           "ja": "G7の首脳たちは、この外交の動きを支持すると述べました。",
           "en": "G7 leaders said they support this diplomatic move."
         },
@@ -23705,10 +23830,6 @@
         {
           "ja": "5月15日、高市首相は、アメリカのトランプ大統領と会談し、日本とアメリカの同盟がとても重要だとあらためて確認したと話しました。",
           "en": "On May 15, Prime Minister Takaichi said she met with U.S. President Trump and reconfirmed that the Japan-U.S. alliance is very important."
-        },
-        {
-          "ja": "高市首相によると、トランプ大統領は中国を訪問したあとでも、日本との関係を重視する姿勢を示しました。",
-          "en": "According to Takaichi, President Trump showed that he still places importance on ties with Japan even after visiting China. The message was that the U.S.-Japan alliance will not change even while the U.S. talks with other countries."
         }
       ]
     },
@@ -27180,7 +27301,12 @@
           "term": "起こした",
           "readingHiragana": "おこした",
           "meaning": "Plain past form of 起こす: to raise, to wake, to cause",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "一つ目の地震が別の断層に力を加え、二つ目を引き起こした可能性があります。",
+              "en": "The first quake may have added stress to another fault and triggered the second one."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -28422,6 +28548,10 @@
           "meaning": "Te-form of 探す: to search, to look for",
           "exampleSentences": [
             {
+              "ja": "まだ行方が分からない人も多く、救助隊ががれきの中を探しています。",
+              "en": "Many people were still missing, and rescue teams were searching through rubble."
+            },
+            {
               "ja": "スーパーでは、安い商品を探す人が増え、売り場の変化も目立っています。",
               "en": "More shoppers are looking for cheaper products, and changes in store shelves are becoming noticeable."
             }
@@ -28576,7 +28706,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "最初の地震はマグニチュード7・2で、その39秒後にマグニチュード7・5の地震が起きました。",
+          "en": "The first was magnitude seven point two, and 39 seconds later a magnitude seven point five quake occurred."
+        }
+      ]
     },
     {
       "id": "core-c22d06e5be2d59",
@@ -29501,6 +29636,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "余震の心配も続いています。",
+          "en": "Concern about aftershocks continues."
+        },
         {
           "ja": "栃木県の宇都宮市で、クマが町の中に出たため、多くの人が心配しました。",
           "en": "In Utsunomiya, Tochigi Prefecture, many people became worried after a bear appeared in town."
@@ -32098,6 +32237,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "6月24日の夕方、ベネズエラ北部で大きな地震が二つ続けて起きました。",
+          "en": "On the evening of June 24, two major earthquakes struck northern Venezuela in quick succession."
+        },
+        {
           "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
           "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
         },
@@ -32112,10 +32255,6 @@
         {
           "ja": "スイスで2026年6月14日、国民投票が行われました。",
           "en": "On June 14, 2026, Switzerland held a national referendum."
-        },
-        {
-          "ja": "2026年6月14日、FIFAワールドカップのグループCで、ブラジルとモロッコが1対1で引き分けました。",
-          "en": "On June 14, 2026, Brazil and Morocco drew 1-1 in Group C of the FIFA World Cup."
         }
       ]
     },
@@ -32403,6 +32542,10 @@
           "meaning": "Te-form of 伝える: to convey, to report",
           "exampleSentences": [
             {
+              "ja": "AP通信は、少なくとも188人が死亡し、約1500人がけがをしたと伝えています。",
+              "en": "The Associated Press reported that at least 188 people had died and about 1,500 were injured."
+            },
+            {
               "ja": "50ドルになったと伝えています。",
               "en": "50 dollars per barrel."
             },
@@ -32597,6 +32740,10 @@
           "meaning": "Te-form of 続ける: to continue, to keep up",
           "exampleSentences": [
             {
+              "ja": "6月24日の夕方、ベネズエラ北部で大きな地震が二つ続けて起きました。",
+              "en": "On the evening of June 24, two major earthquakes struck northern Venezuela in quick succession."
+            },
+            {
               "ja": "企業には、災害後も重要な業務を続けるための事業継続計画を作ることが求められます。",
               "en": "Companies will be asked to prepare business continuity plans so they can keep important operations running after a disaster."
             },
@@ -32726,6 +32873,10 @@
           "readingHiragana": "つずいて",
           "meaning": "Te-form of 続く: to continue, to last, to go on",
           "exampleSentences": [
+            {
+              "ja": "余震の心配も続いています。",
+              "en": "Concern about aftershocks continues."
+            },
             {
               "ja": "アジアやヨーロッパで日本食の人気が続いていて、すしだけでなく、家庭でのりを使う人も多くなっています。",
               "en": "Japanese food remains popular in Asia and Europe, and more people are using seaweed at home, not only for sushi."
@@ -36396,6 +36547,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "首都カラカスから西へ約160キロの場所です。",
+          "en": "The epicenter was near the town of Moron on the Caribbean coast, about 160 kilometers west of the capital, Caracas. The shaking was felt across a wide area in the north, and buildings collapsed in Caracas and La Guaira."
+        },
+        {
+          "ja": "同じくらいの強さの地震が、近い場所で短い時間に起きることです。",
+          "en": "\" It means earthquakes of similar strength happen close together in place and time."
+        },
+        {
           "ja": "二酸化炭素、二酸化窒素、細かい粒子の汚染、緑の多さなどを同じ場所ごとに比べられます。",
           "en": "It can compare carbon dioxide, nitrogen dioxide, fine-particle pollution, the amount of greenery, and other data for the same kinds of locations."
         },
@@ -36406,14 +36565,6 @@
         {
           "ja": "女性は土曜日の朝、岸に近い場所で泳いでいました。",
           "en": "She was swimming near the shore on Saturday morning."
-        },
-        {
-          "ja": "ガードのジェイレン・ブランソンは45点を取り、大きな場面でチームを助けました。",
-          "en": "Guard Jalen Brunson scored 45 points and helped the team in big moments."
-        },
-        {
-          "ja": "試合はニューヨーク・ニュージャージーの大きな会場で行われました。",
-          "en": "The match was played at a large venue in New York/New Jersey."
         }
       ]
     },
@@ -36884,6 +37035,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "まだ行方が分からない人も多く、救助隊ががれきの中を探しています。",
+          "en": "Many people were still missing, and rescue teams were searching through rubble."
+        },
+        {
           "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
           "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
         },
@@ -36898,10 +37053,6 @@
         {
           "ja": "しかし、スウィフトには自分で軌道を上げるためのエンジンがありません。",
           "en": "However, Swift has no engine for raising its own orbit."
-        },
-        {
-          "ja": "医療、金融、技術などの分野では、外国から来た働く人が重要です。",
-          "en": "In fields such as healthcare, finance, and technology, workers from other countries are important."
         }
       ]
     },
@@ -37150,7 +37301,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "最初の地震はマグニチュード7・2で、その39秒後にマグニチュード7・5の地震が起きました。",
+          "en": "The first was magnitude seven point two, and 39 seconds later a magnitude seven point five quake occurred."
+        }
+      ]
     },
     {
       "id": "core-87da860c0a2543",
@@ -37290,6 +37446,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "揺れは北部の広い地域で感じられ、カラカスやラグアイラで建物が倒れました。",
+          "en": "The epicenter was near the town of Moron on the Caribbean coast, about 160 kilometers west of the capital, Caracas. The shaking was felt across a wide area in the north, and buildings collapsed in Caracas and La Guaira."
+        },
+        {
           "ja": "気象庁は8日、日本の太平洋側の広い地域に津波注意報を出しました。",
           "en": "On the 8th, the Japan Meteorological Agency issued a tsunami advisory for a wide area along Japan’s Pacific coast."
         },
@@ -37304,10 +37464,6 @@
         {
           "ja": "天候が回復した地域から、順次再開する動きも見られました。",
           "en": "In areas where the weather improved, operations began to restart gradually."
-        },
-        {
-          "ja": "図書館では、観光客だけでなく、地域で生活する外国人にも役立つと考えています。",
-          "en": "Libraries believe the tablets will help not only tourists but also foreign residents in the community."
         }
       ]
     },
@@ -40000,6 +40156,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "この動きは浅い地震を起こしやすく、地上の建物に強い被害を出すことがあります。",
+          "en": "This movement can cause shallow earthquakes, which can heavily damage buildings on the surface."
+        },
+        {
           "ja": "政府は、首都直下地震が起きた場合の被害を今後10年で大幅に減らすため、防災計画を改定する方針です。",
           "en": "The government plans to revise its disaster-prevention plan to sharply reduce damage from a possible inland earthquake beneath the Tokyo area over the next decade."
         },
@@ -40014,10 +40174,6 @@
         {
           "ja": "気象庁は、台風が通過した後も地盤が緩んでいる場所では土砂災害に警戒するよう求めています。",
           "en": "The Meteorological Agency is asking people to remain alert for landslides in places where the ground has loosened even after the typhoon passes."
-        },
-        {
-          "ja": "一部の駅では、災害のときにスマートフォンを充電できる場所としても活用する考えです。",
-          "en": "At some stations, the system may also be used as a place where people can charge smartphones during disasters."
         }
       ]
     },
@@ -43015,6 +43171,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "この動きは浅い地震を起こしやすく、地上の建物に強い被害を出すことがあります。",
+          "en": "This movement can cause shallow earthquakes, which can heavily damage buildings on the surface."
+        },
+        {
           "ja": "政府は、首都直下地震が起きた場合の被害を今後10年で大幅に減らすため、防災計画を改定する方針です。",
           "en": "The government plans to revise its disaster-prevention plan to sharply reduce damage from a possible inland earthquake beneath the Tokyo area over the next decade."
         },
@@ -43087,6 +43247,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "政府は非常事態を宣言しました。",
+          "en": "The government declared a state of emergency."
+        },
         {
           "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
           "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
@@ -44173,6 +44337,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "6月24日の夕方、ベネズエラ北部で大きな地震が二つ続けて起きました。",
+          "en": "On the evening of June 24, two major earthquakes struck northern Venezuela in quick succession."
+        },
+        {
+          "ja": "まだ行方が分からない人も多く、救助隊ががれきの中を探しています。",
+          "en": "Many people were still missing, and rescue teams were searching through rubble."
+        },
+        {
           "ja": "研究チームは、環境だけでなく、スーパーやレストランまでの距離、道路の多さ、土地の使い方も集めました。",
           "en": "The research team collected not only environmental data, but also distances to supermarkets and restaurants, road density, and land use."
         },
@@ -44183,14 +44355,6 @@
         {
           "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
           "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
-        },
-        {
-          "ja": "地方で人が少なくなり、クマも多くなったため、注意喚起や対策をすぐに出す必要があります。",
-          "en": "Because rural populations are shrinking and bear numbers are growing, cities need to issue warnings and take action quickly."
-        },
-        {
-          "ja": "専門家は、クマの数が増えたことや、地方で人が少なくなったことが原因の一つだと考えています。",
-          "en": "Experts think one reason is that bear numbers have grown while rural populations have shrunk."
         }
       ]
     },
@@ -46347,7 +46511,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "政府は非常事態を宣言しました。",
+          "en": "The government declared a state of emergency."
+        }
+      ]
     },
     {
       "id": "core-3d2600bde08636",
@@ -48699,6 +48868,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "この動きは浅い地震を起こしやすく、地上の建物に強い被害を出すことがあります。",
+          "en": "This movement can cause shallow earthquakes, which can heavily damage buildings on the surface."
+        },
+        {
           "ja": "防犯カメラなどによると、その人は上りホームの柵の切れ目から線路に降りました。",
           "en": "According to security-camera footage and other evidence, the person went down to the tracks through a gap in the fence on the inbound platform."
         },
@@ -48713,10 +48886,6 @@
         {
           "ja": "もともとの予定は2年間でしたが、20年以上たった今も科学のために働いています。",
           "en": "Its mission was originally planned for two years, but more than 20 years later, it is still working for science."
-        },
-        {
-          "ja": "しかし、スウィフトには自分で軌道を上げるためのエンジンがありません。",
-          "en": "However, Swift has no engine for raising its own orbit."
         }
       ]
     },
@@ -49051,6 +49220,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "揺れは北部の広い地域で感じられ、カラカスやラグアイラで建物が倒れました。",
+          "en": "The epicenter was near the town of Moron on the Caribbean coast, about 160 kilometers west of the capital, Caracas. The shaking was felt across a wide area in the north, and buildings collapsed in Caracas and La Guaira."
+        },
+        {
           "ja": "今回の引き分けで、今年も強い相手になりそうだと感じさせました。",
           "en": "This draw made people feel that Morocco may again be a strong opponent this year."
         },
@@ -49311,6 +49484,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "一つ目の地震が別の断層に力を加え、二つ目を引き起こした可能性があります。",
+          "en": "The first quake may have added stress to another fault and triggered the second one."
+        },
+        {
           "ja": "車両の先頭部分が壊れた可能性があり、JR東海が調べています。",
           "en": "The front of the train may have been damaged, and JR Central is investigating."
         },
@@ -49325,10 +49502,6 @@
         {
           "ja": "アメリカは制裁を一部緩める可能性がありますが、詳しい内容はまだはっきりしていません。",
           "en": "The United States may ease some sanctions, but the details are still not clear."
-        },
-        {
-          "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
-          "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
         }
       ]
     },
@@ -50328,6 +50501,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "この動きは浅い地震を起こしやすく、地上の建物に強い被害を出すことがあります。",
+          "en": "This movement can cause shallow earthquakes, which can heavily damage buildings on the surface."
+        },
+        {
           "ja": "人が集まる力や、経済活動の種類も調べています。",
           "en": "It also studies a city's ability to attract people and the variety of its economic activity."
         },
@@ -50342,10 +50519,6 @@
         {
           "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
-        },
-        {
-          "ja": "モロッコは中盤でボールをよく動かし、ブラジルに簡単な時間を与えませんでした。",
-          "en": "Morocco moved the ball well in midfield and did not give Brazil easy moments."
         }
       ]
     },
@@ -55654,6 +55827,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "まだ行方が分からない人も多く、救助隊ががれきの中を探しています。",
+          "en": "Many people were still missing, and rescue teams were searching through rubble."
+        },
+        {
           "ja": "家族は、救助した人たちや病院のスタッフに深く感謝していると話しました。",
           "en": "The family said they are deeply grateful to the people who rescued her and to the hospital staff."
         }
@@ -57474,6 +57651,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "首都カラカスから西へ約160キロの場所です。",
+          "en": "The epicenter was near the town of Moron on the Caribbean coast, about 160 kilometers west of the capital, Caracas. The shaking was felt across a wide area in the north, and buildings collapsed in Caracas and La Guaira."
+        },
+        {
           "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
           "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
         },
@@ -57488,10 +57669,6 @@
         {
           "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
           "en": "The information was made to test how well AI can think about the present and future of cities."
-        },
-        {
-          "ja": "都市の脈を正しく読むには、まだ多くの研究が必要です。",
-          "en": "More research is still needed to read a city's pulse accurately."
         }
       ]
     },
@@ -60517,6 +60694,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "一つ目の地震が別の断層に力を加え、二つ目を引き起こした可能性があります。",
+          "en": "The first quake may have added stress to another fault and triggered the second one."
+        },
+        {
           "ja": "車両の先頭部分が壊れた可能性があり、JR東海が調べています。",
           "en": "The front of the train may have been damaged, and JR Central is investigating."
         },
@@ -60531,10 +60712,6 @@
         {
           "ja": "アメリカは制裁を一部緩める可能性がありますが、詳しい内容はまだはっきりしていません。",
           "en": "The United States may ease some sanctions, but the details are still not clear."
-        },
-        {
-          "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
-          "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
         }
       ]
     },
@@ -64668,6 +64845,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "一つ目の地震が別の断層に力を加え、二つ目を引き起こした可能性があります。",
+          "en": "The first quake may have added stress to another fault and triggered the second one."
+        },
+        {
           "ja": "車両の先頭部分が壊れた可能性があり、JR東海が調べています。",
           "en": "The front of the train may have been damaged, and JR Central is investigating."
         },
@@ -64682,10 +64863,6 @@
         {
           "ja": "アメリカは制裁を一部緩める可能性がありますが、詳しい内容はまだはっきりしていません。",
           "en": "The United States may ease some sanctions, but the details are still not clear."
-        },
-        {
-          "ja": "オーストラリアのシドニーにあるクージー・ビーチで、35歳の女性がサメにかまれました。",
-          "en": "At Coogee Beach in Sydney, Australia, a 35-year-old woman was bitten by a shark."
         }
       ]
     },
@@ -64804,6 +64981,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "政府は非常事態を宣言しました。",
+          "en": "The government declared a state of emergency."
+        },
+        {
           "ja": "そのため、各国の政府や企業は、この合意が実行されるかどうかを注意して見ています。",
           "en": "For that reason, governments and companies are watching carefully to see whether the agreement will be carried out."
         },
@@ -64818,10 +64999,6 @@
         {
           "ja": "政府は、首都直下地震が起きた場合の被害を今後10年で大幅に減らすため、防災計画を改定する方針です。",
           "en": "The government plans to revise its disaster-prevention plan to sharply reduce damage from a possible inland earthquake beneath the Tokyo area over the next decade."
-        },
-        {
-          "ja": "米の値段が上がっているため、政府は新しい対策を発表しました。",
-          "en": "Because rice prices are rising, the government announced new measures."
         }
       ]
     },
@@ -65445,6 +65622,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "専門家は、このような地震を「ダブレット」と呼びます。",
+          "en": "Experts call this kind of event a \"doublet."
+        },
+        {
           "ja": "専門家は、クマの数が増えたことや、地方で人が少なくなったことが原因の一つだと考えています。",
           "en": "Experts think one reason is that bear numbers have grown while rural populations have shrunk."
         },
@@ -65459,10 +65640,6 @@
         {
           "ja": "専門家は、交通の施設で再生可能エネルギーを使うことは、地域の意識を変えるきっかけにもなるとみています。",
           "en": "Experts say using renewable energy at transportation facilities can also change local awareness."
-        },
-        {
-          "ja": "専門家は、短期間の支援だけでなく、長期的な生産性の向上も必要だと話しています。",
-          "en": "Experts say that not only short-term support but also long-term productivity improvements are necessary."
         }
       ]
     },
@@ -65481,6 +65658,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "専門家は、このような地震を「ダブレット」と呼びます。",
+          "en": "Experts call this kind of event a \"doublet."
+        },
+        {
           "ja": "専門家は、クマの数が増えたことや、地方で人が少なくなったことが原因の一つだと考えています。",
           "en": "Experts think one reason is that bear numbers have grown while rural populations have shrunk."
         },
@@ -65495,10 +65676,6 @@
         {
           "ja": "専門家は、交通の施設で再生可能エネルギーを使うことは、地域の意識を変えるきっかけにもなるとみています。",
           "en": "Experts say using renewable energy at transportation facilities can also change local awareness."
-        },
-        {
-          "ja": "専門家は、短期間の支援だけでなく、長期的な生産性の向上も必要だと話しています。",
-          "en": "Experts say that not only short-term support but also long-term productivity improvements are necessary."
         }
       ]
     },
@@ -65888,6 +66065,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "AP通信は、少なくとも188人が死亡し、約1500人がけがをしたと伝えています。",
+          "en": "The Associated Press reported that at least 188 people had died and about 1,500 were injured."
+        },
         {
           "ja": "警察は、その人の死亡を確認しました。",
           "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
@@ -68477,6 +68658,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "首都カラカスから西へ約160キロの場所です。",
+          "en": "The epicenter was near the town of Moron on the Caribbean coast, about 160 kilometers west of the capital, Caracas. The shaking was felt across a wide area in the north, and buildings collapsed in Caracas and La Guaira."
+        },
         {
           "ja": "政府は、首都直下地震が起きた場合の被害を今後10年で大幅に減らすため、防災計画を改定する方針です。",
           "en": "The government plans to revise its disaster-prevention plan to sharply reduce damage from a possible inland earthquake beneath the Tokyo area over the next decade."
@@ -72710,6 +72895,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "同じくらいの強さの地震が、近い場所で短い時間に起きることです。",
+          "en": "\" It means earthquakes of similar strength happen close together in place and time."
+        },
+        {
           "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
           "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
         },
@@ -72724,10 +72913,6 @@
         {
           "ja": "モロッコは中盤でボールをよく動かし、ブラジルに簡単な時間を与えませんでした。",
           "en": "Morocco moved the ball well in midfield and did not give Brazil easy moments."
-        },
-        {
-          "ja": "アプリは気温や湿度を見て、危険が高い時に知らせます。",
-          "en": "The apps check temperature and humidity and send alerts when the danger is high."
         }
       ]
     },
@@ -74420,6 +74605,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "AP通信は、少なくとも188人が死亡し、約1500人がけがをしたと伝えています。",
+          "en": "The Associated Press reported that at least 188 people had died and about 1,500 were injured."
+        },
         {
           "ja": "一方で、通信が不安定な海上では、機械が使えない場合もあります。",
           "en": "At the same time, onboard machines may not work when communications are unstable at sea."
@@ -76271,6 +76460,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "首都カラカスから西へ約160キロの場所です。",
+          "en": "The epicenter was near the town of Moron on the Caribbean coast, about 160 kilometers west of the capital, Caracas. The shaking was felt across a wide area in the north, and buildings collapsed in Caracas and La Guaira."
+        },
+        {
+          "ja": "AP通信は、少なくとも188人が死亡し、約1500人がけがをしたと伝えています。",
+          "en": "The Associated Press reported that at least 188 people had died and about 1,500 were injured."
+        },
+        {
           "ja": "運転は約3時間後の午後8時48分に再開しました。",
           "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
         },
@@ -76281,14 +76478,6 @@
         {
           "ja": "山間部にある小さな町で、予約制バスの実験が始まりました。",
           "en": "In a small town in a mountain area, a trial of reservation-based buses has started."
-        },
-        {
-          "ja": "昨年の被害想定では、最悪の場合、およそ1万8000人が亡くなり、約40万棟の建物が壊れたり焼けたりする可能性が示されました。",
-          "en": "Last year's damage estimate showed that in the worst case about 18,000 people could die and around 400,000 buildings could collapse or burn."
-        },
-        {
-          "ja": "とくに、最近は外国人の旅行者が多く、週末の予約が取りにくくなっています。",
-          "en": "Recently, especially many foreign travelers are using it, making weekend reservations hard to get."
         }
       ]
     },
@@ -76826,6 +77015,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "ベネズエラの北側では、カリブプレートと南アメリカプレートが横にずれています。",
+          "en": "North of Venezuela, the Caribbean Plate and the South American Plate slide sideways past each other."
+        },
         {
           "ja": "そして、2本の線路を横断し、下り線まで歩いたことが確認されました。",
           "en": "The person then crossed two tracks and walked to the outbound track."
@@ -77534,6 +77727,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "6月24日の夕方、ベネズエラ北部で大きな地震が二つ続けて起きました。",
+          "en": "On the evening of June 24, two major earthquakes struck northern Venezuela in quick succession."
+        },
+        {
           "ja": "注意報はその後、夕方にすべて解除されましたが、海面の変化が続く場所もあるとされています。",
           "en": "The advisory was later fully lifted in the evening, but sea level changes may continue in some places."
         }
@@ -78227,6 +78424,180 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": []
+    },
+    {
+      "id": "article-65e9fc3852bd44",
+      "level": "N3",
+      "term": "大地震",
+      "reading": "おおじしん",
+      "readingHiragana": "おおじしん",
+      "meaning": "Major earthquake",
+      "source": "article",
+      "sourceId": "2026-06-26-venezuela-doublet-earthquake",
+      "sourceTitle": "ベネズエラを襲った二つの大地震",
+      "sourceLabel": "6/26 ベネズエラの連続地震",
+      "sourceHref": "./2026-06-26-venezuela-doublet-earthquake.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-26-venezuela-doublet-earthquake"
+      ],
+      "exampleSentences": []
+    },
+    {
+      "id": "article-9942b1cce4a272",
+      "level": "N3",
+      "term": "震源",
+      "reading": "しんげん",
+      "readingHiragana": "しんげん",
+      "meaning": "Epicenter / Hypocenter",
+      "source": "article",
+      "sourceId": "2026-06-26-venezuela-doublet-earthquake",
+      "sourceTitle": "ベネズエラを襲った二つの大地震",
+      "sourceLabel": "6/26 ベネズエラの連続地震",
+      "sourceHref": "./2026-06-26-venezuela-doublet-earthquake.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-26-venezuela-doublet-earthquake"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "震源は、カリブ海沿いのモロンという町の近くでした。",
+          "en": "The epicenter was near the town of Moron on the Caribbean coast, about 160 kilometers west of the capital, Caracas. The shaking was felt across a wide area in the north, and buildings collapsed in Caracas and La Guaira."
+        }
+      ]
+    },
+    {
+      "id": "article-5b5d8ed7c8f925",
+      "level": "N3",
+      "term": "非常事態",
+      "reading": "ひじょうじたい",
+      "readingHiragana": "ひじょうじたい",
+      "meaning": "State of emergency",
+      "source": "article",
+      "sourceId": "2026-06-26-venezuela-doublet-earthquake",
+      "sourceTitle": "ベネズエラを襲った二つの大地震",
+      "sourceLabel": "6/26 ベネズエラの連続地震",
+      "sourceHref": "./2026-06-26-venezuela-doublet-earthquake.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-26-venezuela-doublet-earthquake"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "政府は非常事態を宣言しました。",
+          "en": "The government declared a state of emergency."
+        }
+      ]
+    },
+    {
+      "id": "article-59ef2de0108b4a",
+      "level": "N3",
+      "term": "行方が分からない",
+      "reading": "ゆくえがわからない",
+      "readingHiragana": "ゆくえがわからない",
+      "meaning": "Missing / Whereabouts unknown",
+      "source": "article",
+      "sourceId": "2026-06-26-venezuela-doublet-earthquake",
+      "sourceTitle": "ベネズエラを襲った二つの大地震",
+      "sourceLabel": "6/26 ベネズエラの連続地震",
+      "sourceHref": "./2026-06-26-venezuela-doublet-earthquake.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-26-venezuela-doublet-earthquake"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "まだ行方が分からない人も多く、救助隊ががれきの中を探しています。",
+          "en": "Many people were still missing, and rescue teams were searching through rubble."
+        }
+      ]
+    },
+    {
+      "id": "article-d59cd1b2e75b26",
+      "level": "N3",
+      "term": "救助隊",
+      "reading": "きゅうじょたい",
+      "readingHiragana": "きゅうじょたい",
+      "meaning": "Rescue team",
+      "source": "article",
+      "sourceId": "2026-06-26-venezuela-doublet-earthquake",
+      "sourceTitle": "ベネズエラを襲った二つの大地震",
+      "sourceLabel": "6/26 ベネズエラの連続地震",
+      "sourceHref": "./2026-06-26-venezuela-doublet-earthquake.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-26-venezuela-doublet-earthquake"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "まだ行方が分からない人も多く、救助隊ががれきの中を探しています。",
+          "en": "Many people were still missing, and rescue teams were searching through rubble."
+        }
+      ]
+    },
+    {
+      "id": "article-76ba45368a652f",
+      "level": "N3",
+      "term": "断層",
+      "reading": "だんそう",
+      "readingHiragana": "だんそう",
+      "meaning": "Fault",
+      "source": "article",
+      "sourceId": "2026-06-26-venezuela-doublet-earthquake",
+      "sourceTitle": "ベネズエラを襲った二つの大地震",
+      "sourceLabel": "6/26 ベネズエラの連続地震",
+      "sourceHref": "./2026-06-26-venezuela-doublet-earthquake.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-26-venezuela-doublet-earthquake"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "一つ目の地震が別の断層に力を加え、二つ目を引き起こした可能性があります。",
+          "en": "The first quake may have added stress to another fault and triggered the second one."
+        }
+      ]
+    },
+    {
+      "id": "article-f8fa252e7fedb6",
+      "level": "N3",
+      "term": "引き起こす",
+      "reading": "ひきおこす",
+      "readingHiragana": "ひきおこす",
+      "meaning": "To cause / To trigger",
+      "source": "article",
+      "sourceId": "2026-06-26-venezuela-doublet-earthquake",
+      "sourceTitle": "ベネズエラを襲った二つの大地震",
+      "sourceLabel": "6/26 ベネズエラの連続地震",
+      "sourceHref": "./2026-06-26-venezuela-doublet-earthquake.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-26-venezuela-doublet-earthquake"
+      ],
+      "exampleSentences": []
+    },
+    {
+      "id": "article-f2e0fa3b9fd37e",
+      "level": "N3",
+      "term": "余震",
+      "reading": "よしん",
+      "readingHiragana": "よしん",
+      "meaning": "Aftershock",
+      "source": "article",
+      "sourceId": "2026-06-26-venezuela-doublet-earthquake",
+      "sourceTitle": "ベネズエラを襲った二つの大地震",
+      "sourceLabel": "6/26 ベネズエラの連続地震",
+      "sourceHref": "./2026-06-26-venezuela-doublet-earthquake.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-26-venezuela-doublet-earthquake"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "余震の心配も続いています。",
+          "en": "Concern about aftershocks continues."
+        }
+      ]
     },
     {
       "id": "article-d91b3a04ca8e99",
@@ -79078,6 +79449,10 @@
         "2026-06-15-coogee-shark-attack"
       ],
       "exampleSentences": [
+        {
+          "ja": "まだ行方が分からない人も多く、救助隊ががれきの中を探しています。",
+          "en": "Many people were still missing, and rescue teams were searching through rubble."
+        },
         {
           "ja": "家族は、救助した人たちや病院のスタッフに深く感謝していると話しました。",
           "en": "The family said they are deeply grateful to the people who rescued her and to the hospital staff."
@@ -80920,6 +81295,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "一つ目の地震が別の断層に力を加え、二つ目を引き起こした可能性があります。",
+          "en": "The first quake may have added stress to another fault and triggered the second one."
+        },
+        {
           "ja": "車両の先頭部分が壊れた可能性があり、JR東海が調べています。",
           "en": "The front of the train may have been damaged, and JR Central is investigating."
         },
@@ -80934,10 +81313,6 @@
         {
           "ja": "アメリカは制裁を一部緩める可能性がありますが、詳しい内容はまだはっきりしていません。",
           "en": "The United States may ease some sanctions, but the details are still not clear."
-        },
-        {
-          "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
-          "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
         }
       ]
     },
@@ -81013,6 +81388,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "専門家は、このような地震を「ダブレット」と呼びます。",
+          "en": "Experts call this kind of event a \"doublet."
+        },
+        {
           "ja": "専門家は、クマの数が増えたことや、地方で人が少なくなったことが原因の一つだと考えています。",
           "en": "Experts think one reason is that bear numbers have grown while rural populations have shrunk."
         },
@@ -81027,10 +81406,6 @@
         {
           "ja": "専門家は、交通の施設で再生可能エネルギーを使うことは、地域の意識を変えるきっかけにもなるとみています。",
           "en": "Experts say using renewable energy at transportation facilities can also change local awareness."
-        },
-        {
-          "ja": "専門家は、短期間の支援だけでなく、長期的な生産性の向上も必要だと話しています。",
-          "en": "Experts say that not only short-term support but also long-term productivity improvements are necessary."
         }
       ]
     },
@@ -81313,6 +81688,10 @@
         "2026-05-28-cashless-ferry"
       ],
       "exampleSentences": [
+        {
+          "ja": "AP通信は、少なくとも188人が死亡し、約1500人がけがをしたと伝えています。",
+          "en": "The Associated Press reported that at least 188 people had died and about 1,500 were injured."
+        },
         {
           "ja": "一方で、通信が不安定な海上では、機械が使えない場合もあります。",
           "en": "At the same time, onboard machines may not work when communications are unstable at sea."
@@ -82987,6 +83366,10 @@
         "2026-05-18-drone-disaster-drills"
       ],
       "exampleSentences": [
+        {
+          "ja": "この動きは浅い地震を起こしやすく、地上の建物に強い被害を出すことがあります。",
+          "en": "This movement can cause shallow earthquakes, which can heavily damage buildings on the surface."
+        },
         {
           "ja": "政府は、首都直下地震が起きた場合の被害を今後10年で大幅に減らすため、防災計画を改定する方針です。",
           "en": "The government plans to revise its disaster-prevention plan to sharply reduce damage from a possible inland earthquake beneath the Tokyo area over the next decade."
