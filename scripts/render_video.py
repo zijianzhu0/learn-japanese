@@ -428,7 +428,9 @@ def render_quiz_html(quiz: dict, options: RenderOptions) -> str:
 
 
 def render_article_cover_html(article: dict, options: RenderOptions) -> str:
+    cover_kicker = "Japanese News Reading Exercise"
     title_translation = str(article.get("titleTranslation", "")).strip()
+    kicker_html = f'        <p class="cover-kicker">{escape(cover_kicker)}</p>'
     translation_html = (
         f'        <p class="cover-translation">{escape(title_translation)}</p>'
         if title_translation
@@ -466,6 +468,14 @@ def render_article_cover_html(article: dict, options: RenderOptions) -> str:
             background: #fff;
             box-shadow: 0 2px 18px rgba(0, 0, 0, 0.12);
         }}
+        .cover-kicker {{
+            margin: 0;
+            color: #0f766e;
+            font-size: 26px;
+            font-weight: 800;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }}
         h1 {{
             margin: 0;
             padding-bottom: 28px;
@@ -498,6 +508,7 @@ def render_article_cover_html(article: dict, options: RenderOptions) -> str:
 </head>
 <body>
     <main class="cover-card">
+{kicker_html}
         <h1>{article["headlineHtml"]}</h1>
         <div class="cover-divider" aria-hidden="true"></div>
 {translation_html}
