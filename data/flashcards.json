@@ -4,7 +4,7 @@
     "articleManifest": "data/articles.json"
   },
   "levels": {
-    "N3": 1950,
+    "N3": 1958,
     "N4": 536,
     "N5": 553
   },
@@ -1395,6 +1395,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "一方、日本は、台湾の近くで大きな問題が起きれば、日本の安全にも関係すると見ています。",
+          "en": "Japan, on the other hand, thinks that if a major problem happens near Taiwan, it would also affect Japan's safety."
+        },
+        {
           "ja": "スイスのバーゼルでは38度近くまで上がり、オランダでは初めて暑さに関する赤い警報が出されました。",
           "en": "In Basel, Switzerland, temperatures rose close to 38 degrees Celsius, and the Netherlands issued its first red alert for heat."
         },
@@ -1409,10 +1413,6 @@
         {
           "ja": "近くにいた24歳のライフセーバーが、海へ入って女性をボードに乗せました。",
           "en": "A 24-year-old lifesaver nearby entered the water and put the woman on a board."
-        },
-        {
-          "ja": "マディソン・スクエア・ガーデンの近くには、たくさんの人が集まりました。",
-          "en": "Many people gathered near Madison Square Garden."
         }
       ]
     },
@@ -3979,24 +3979,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "気象庁は6月26日の夜、台風7号「メーカラー」と台風8号「ヒーゴス」の情報を出しました。",
-          "en": "On the night of June 26, the Japan Meteorological Agency released information on Typhoon No. 7, Mekkhala, and Typhoon No. 8, Higos. The two typhoons are moving at the same time over the sea south of Japan."
+          "ja": "日本と中国の関係は、経済では深くつながっています。",
+          "en": "Japan and China are deeply connected through the economy."
         },
         {
-          "ja": "二つの台風が日本の南の海で同時に動いています。",
-          "en": "On the night of June 26, the Japan Meteorological Agency released information on Typhoon No. 7, Mekkhala, and Typhoon No. 8, Higos. The two typhoons are moving at the same time over the sea south of Japan."
+          "ja": "一方、日本は、台湾の近くで大きな問題が起きれば、日本の安全にも関係すると見ています。",
+          "en": "Japan, on the other hand, thinks that if a major problem happens near Taiwan, it would also affect Japan's safety."
         },
         {
-          "ja": "予報では、27日の夜には関東の近くまで進む可能性があります。",
-          "en": "As of 9 p.m., Typhoon No. 7 was over waters east of areas near Amami and Okinawa. The forecast says it may move close to the Kanto region by the night of June 27."
+          "ja": "そのため、日本は南西の島々で防衛を強めています。",
+          "en": "For that reason, Japan is strengthening its defense in the southwestern islands."
         },
         {
-          "ja": "台風8号は、日本の南の海上を北東へ速く進んでいます。",
-          "en": "Typhoon No. 8 is moving quickly northeast over the sea south of Japan. According to the JMA track forecast, it is expected to move away to the east of Honshu on June 27."
+          "ja": "日本は長い間、アメリカの大切な同盟国でした。",
+          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
         },
         {
-          "ja": "気象庁の進路予報では、27日には本州の東へ離れていく見込みです。",
-          "en": "Typhoon No. 8 is moving quickly northeast over the sea south of Japan. According to the JMA track forecast, it is expected to move away to the east of Honshu on June 27."
+          "ja": "しかし、もしアメリカと中国の関係が少しよくなると、日本は不安になります。",
+          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
         }
       ]
     },
@@ -4352,6 +4352,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "また、人と人の交流も弱くなっています。",
+          "en": "People-to-people exchange is also weakening."
+        },
+        {
           "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
           "en": "In London, people using the Underground and buses were also advised to drink water."
         },
@@ -4366,10 +4370,6 @@
         {
           "ja": "まだ行方が分からない人も多く、救助隊ががれきの中を探しています。",
           "en": "Many people were still missing, and rescue teams were searching through rubble."
-        },
-        {
-          "ja": "人が集まる力や、経済活動の種類も調べています。",
-          "en": "It also studies a city's ability to attract people and the variety of its economic activity."
         }
       ]
     },
@@ -4403,6 +4403,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "大きな理由の一つは、台湾の問題です。",
+          "en": "One major reason is the Taiwan issue."
+        },
+        {
+          "ja": "もう一つの理由は、アメリカの存在です。",
+          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
+        },
+        {
           "ja": "一つ目の地震が別の断層に力を加え、二つ目を引き起こした可能性があります。",
           "en": "The first quake may have added stress to another fault and triggered the second one."
         },
@@ -4413,14 +4421,6 @@
         {
           "ja": "このIPOで話題になった言葉の一つが、グリーンシュー・オプションです。",
           "en": "One term that became a topic in this IPO was the greenshoe option."
-        },
-        {
-          "ja": "専門家は、クマの数が増えたことや、地方で人が少なくなったことが原因の一つだと考えています。",
-          "en": "Experts think one reason is that bear numbers have grown while rural populations have shrunk."
-        },
-        {
-          "ja": "この海峡は、世界の大切なエネルギー輸送ルートの一つです。",
-          "en": "This strait is one of the world’s important energy shipping routes."
         }
       ]
     },
@@ -4439,24 +4439,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "二つの台風が日本の南の海で同時に動いています。",
-          "en": "On the night of June 26, the Japan Meteorological Agency released information on Typhoon No. 7, Mekkhala, and Typhoon No. 8, Higos. The two typhoons are moving at the same time over the sea south of Japan."
+          "ja": "日本と中国の関係は、経済では深くつながっています。",
+          "en": "Japan and China are deeply connected through the economy."
         },
         {
-          "ja": "台風8号は、日本の南の海上を北東へ速く進んでいます。",
-          "en": "Typhoon No. 8 is moving quickly northeast over the sea south of Japan. According to the JMA track forecast, it is expected to move away to the east of Honshu on June 27."
+          "ja": "一方、日本は、台湾の近くで大きな問題が起きれば、日本の安全にも関係すると見ています。",
+          "en": "Japan, on the other hand, thinks that if a major problem happens near Taiwan, it would also affect Japan's safety."
         },
         {
-          "ja": "気象庁の進路予報では、27日には本州の東へ離れていく見込みです。",
-          "en": "Typhoon No. 8 is moving quickly northeast over the sea south of Japan. According to the JMA track forecast, it is expected to move away to the east of Honshu on June 27."
+          "ja": "そのため、日本は南西の島々で防衛を強めています。",
+          "en": "For that reason, Japan is strengthening its defense in the southwestern islands."
         },
         {
-          "ja": "そして、2本の線路を横断し、下り線まで歩いたことが確認されました。",
-          "en": "The person then crossed two tracks and walked to the outbound track."
+          "ja": "日本は長い間、アメリカの大切な同盟国でした。",
+          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
         },
         {
-          "ja": "リンクは6月27日に打ち上げられる予定で、3本のロボットアームでスウィフトをつかみ、より高く安全な軌道へ運びます。",
-          "en": "Link is scheduled to launch on June 27, grab Swift with three robotic arms, and move it to a higher, safer orbit."
+          "ja": "しかし、もしアメリカと中国の関係が少しよくなると、日本は不安になります。",
+          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
         }
       ]
     },
@@ -4489,6 +4489,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "日本は「アメリカは本当に日本を守ってくれるのか」と考えるからです。",
+          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
+        },
         {
           "ja": "そのため、停戦案が本当に進むかはまだわかりません。",
           "en": "Because of that, it is still unclear whether the ceasefire plan will really move forward."
@@ -4540,24 +4544,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "大きな理由の一つは、台湾の問題です。",
+          "en": "One major reason is the Taiwan issue."
+        },
+        {
+          "ja": "中国は台湾を自分の一部だと考えています。",
+          "en": "China considers Taiwan part of its own territory."
+        },
+        {
+          "ja": "一方、日本は、台湾の近くで大きな問題が起きれば、日本の安全にも関係すると見ています。",
+          "en": "Japan, on the other hand, thinks that if a major problem happens near Taiwan, it would also affect Japan's safety."
+        },
+        {
+          "ja": "もう一つの理由は、アメリカの存在です。",
+          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
+        },
+        {
           "ja": "フランスの一部では学校が休みになり、屋外の活動を避けるよう呼びかけられました。",
           "en": "In parts of France, schools were closed, and people were urged to avoid outdoor activities."
-        },
-        {
-          "ja": "一つ目の地震が別の断層に力を加え、二つ目を引き起こした可能性があります。",
-          "en": "The first quake may have added stress to another fault and triggered the second one."
-        },
-        {
-          "ja": "アメリカとイランは、戦争を終わらせるための一時的な合意について話し合っています。",
-          "en": "The United States and Iran are discussing a temporary agreement to end the war."
-        },
-        {
-          "ja": "アメリカは制裁を一部緩める可能性がありますが、詳しい内容はまだはっきりしていません。",
-          "en": "The United States may ease some sanctions, but the details are still not clear."
-        },
-        {
-          "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
-          "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
         }
       ]
     },
@@ -5369,6 +5373,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "中国は台湾を自分の一部だと考えています。",
+          "en": "China considers Taiwan part of its own territory."
+        },
+        {
           "ja": "しかし、スウィフトには自分で軌道を上げるためのエンジンがありません。",
           "en": "However, Swift has no engine for raising its own orbit."
         },
@@ -5749,6 +5757,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "これは日本の会社にとって大きなリスクです。",
+          "en": "This is a major risk for Japanese companies."
+        },
+        {
           "ja": "そこでNASAは、アメリカの会社カタリスト・スペースが作った「リンク」という宇宙船を送ります。",
           "en": "NASA will therefore send a spacecraft called Link, built by the American company Katalyst Space."
         },
@@ -5763,10 +5775,6 @@
         {
           "ja": "もし上場後に株価が下がれば、証券会社は市場で株を買い戻します。",
           "en": "If the share price falls after listing, the securities firms buy shares back in the market."
-        },
-        {
-          "ja": "もし株価が高いままなら、会社から追加の株を買って約束を満たします。",
-          "en": "If the share price stays high, they buy additional shares from the company to meet their commitment."
         }
       ]
     },
@@ -6122,6 +6130,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "一方、日本は、台湾の近くで大きな問題が起きれば、日本の安全にも関係すると見ています。",
+          "en": "Japan, on the other hand, thinks that if a major problem happens near Taiwan, it would also affect Japan's safety."
+        },
+        {
           "ja": "6月24日の夕方、ベネズエラ北部で大きな地震が二つ続けて起きました。",
           "en": "On the evening of June 24, two major earthquakes struck northern Venezuela in quick succession."
         },
@@ -6136,10 +6148,6 @@
         {
           "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
           "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
-        },
-        {
-          "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
-          "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
         }
       ]
     },
@@ -7518,24 +7526,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "暑さは観光や交通だけでなく、農業や電力にも影響を与えるため、各国は対策を急いでいます。",
-          "en": "Because the heat affects not only tourism and transportation but also agriculture and electricity, countries are rushing to respond."
+          "ja": "日本と中国の関係は、経済では深くつながっています。",
+          "en": "Japan and China are deeply connected through the economy."
         },
         {
-          "ja": "そのため、各国の政府や企業は、この合意が実行されるかどうかを注意して見ています。",
-          "en": "For that reason, governments and companies are watching carefully to see whether the agreement will be carried out."
+          "ja": "中国は台湾を自分の一部だと考えています。",
+          "en": "China considers Taiwan part of its own territory."
         },
         {
-          "ja": "ただ、イスラエルやイラン、アメリカの国内には強い反対もあります。",
-          "en": "However, there is also strong opposition in Israel, Iran, and the United States."
+          "ja": "日本は長い間、アメリカの大切な同盟国でした。",
+          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
         },
         {
-          "ja": "スイスで2026年6月14日、国民投票が行われました。",
-          "en": "On June 14, 2026, Switzerland held a national referendum."
+          "ja": "しかし、もしアメリカと中国の関係が少しよくなると、日本は不安になります。",
+          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
         },
         {
-          "ja": "争点の一つは、国の人口を2050年まで1000万人までに抑える提案でした。",
-          "en": "One issue was a proposal to keep the country's population at no more than 10 million by 2050."
+          "ja": "日本と中国は貿易で互いに必要な国です。",
+          "en": "Japan and China need each other in trade."
         }
       ]
     },
@@ -8139,6 +8147,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "また、人と人の交流も弱くなっています。",
+          "en": "People-to-people exchange is also weakening."
+        },
+        {
           "ja": "また、案内の放送は英語や中国語にも対応していて、はじめて来た人にもわかりやすいです。",
           "en": "Announcements are also available in English and Chinese, making things easy for first-time visitors."
         },
@@ -8546,6 +8558,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そのため、日本は南西の島々で防衛を強めています。",
+          "en": "For that reason, Japan is strengthening its defense in the southwestern islands."
+        },
+        {
           "ja": "フランス南西部のピソスでは、気温が43.",
           "en": "In Pissos in southwestern France, the temperature was reported to have reached 43."
         },
@@ -8560,10 +8576,6 @@
         {
           "ja": "ベネズエラの北側では、カリブプレートと南アメリカプレートが横にずれています。",
           "en": "North of Venezuela, the Caribbean Plate and the South American Plate slide sideways past each other."
-        },
-        {
-          "ja": "しかし、イランはイスラエルがレバノン南部から軍を引くことも必要だと話しました。",
-          "en": "However, Iran said that Israel must also withdraw its forces from southern Lebanon."
         }
       ]
     },
@@ -8655,6 +8667,10 @@
           "meaning": "Te-form of 見る: to see, to look, to watch",
           "exampleSentences": [
             {
+              "ja": "一方、日本は、台湾の近くで大きな問題が起きれば、日本の安全にも関係すると見ています。",
+              "en": "Japan, on the other hand, thinks that if a major problem happens near Taiwan, it would also affect Japan's safety."
+            },
+            {
               "ja": "AIは、昔からの記録を見て、空気の汚れや街の元気さがどう変わるかを予測します。",
               "en": "AI looks at past records and predicts how air pollution and urban vitality may change."
             },
@@ -8669,10 +8685,6 @@
             {
               "ja": "そのため、これからの国際情勢とエネルギー市場の動きを多くの人が注意して見ています。",
               "en": "Because of that, many people are closely watching future international events and movements in the energy market."
-            },
-            {
-              "ja": "そのため、これからも日本が為替市場の動きを注意して見ると考えられています。",
-              "en": "Because of that, Japan is expected to keep watching movements in the foreign exchange market carefully."
             }
           ]
         },
@@ -8879,12 +8891,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "日本では、クマが人の生活する場所に入る問題が増えています。",
-          "en": "In Japan, the problem of bears entering places where people live is increasing."
+          "ja": "しかし、政治や安全保障の問題では、なかなか意見が合いません。",
+          "en": "However, in politics and security, it is hard for the two countries to agree."
         },
         {
-          "ja": "最近の日本では、クマが人の生活する場所に入る問題が増えています。",
-          "en": "Recently in Japan, the problem of bears entering places where people live has been increasing."
+          "ja": "大きな理由の一つは、台湾の問題です。",
+          "en": "One major reason is the Taiwan issue."
+        },
+        {
+          "ja": "一方、日本は、台湾の近くで大きな問題が起きれば、日本の安全にも関係すると見ています。",
+          "en": "Japan, on the other hand, thinks that if a major problem happens near Taiwan, it would also affect Japan's safety."
+        },
+        {
+          "ja": "さらに、経済の問題もあります。",
+          "en": "There are also economic issues."
+        },
+        {
+          "ja": "日本では、クマが人の生活する場所に入る問題が増えています。",
+          "en": "In Japan, the problem of bears entering places where people live is increasing."
         }
       ]
     },
@@ -9077,6 +9101,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "日本は長い間、アメリカの大切な同盟国でした。",
+          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
+        },
+        {
           "ja": "ニックスのファンは長い間、優勝を待っていました。",
           "en": "Knicks fans had waited a long time for a championship."
         },
@@ -9105,24 +9133,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "中心が遠くても、湿った空気が流れ込むと、雨雲が発達することがあります。",
-          "en": "Even when a storm center is far away, moist air can flow in and help rain clouds develop."
+          "ja": "日本と中国の関係は、経済では深くつながっています。",
+          "en": "Japan and China are deeply connected through the economy."
         },
         {
-          "ja": "まだ行方が分からない人も多く、救助隊ががれきの中を探しています。",
-          "en": "Many people were still missing, and rescue teams were searching through rubble."
+          "ja": "中国は台湾を自分の一部だと考えています。",
+          "en": "China considers Taiwan part of its own territory."
         },
         {
-          "ja": "中東の緊張が下がるかどうかは、これからの交渉にかかっています。",
-          "en": "Whether tensions in the Middle East will decrease depends on the negotiations from here."
+          "ja": "しかし、もしアメリカと中国の関係が少しよくなると、日本は不安になります。",
+          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
         },
         {
-          "ja": "モロッコは中盤でボールをよく動かし、ブラジルに簡単な時間を与えませんでした。",
-          "en": "Morocco moved the ball well in midfield and did not give Brazil easy moments."
+          "ja": "日本と中国は貿易で互いに必要な国です。",
+          "en": "Japan and China need each other in trade."
         },
         {
-          "ja": "初めの取引では株価が大きく上がり、世界中の投資家が注目しました。",
-          "en": "Its share price rose sharply in early trading, drawing attention from investors around the world."
+          "ja": "しかし、中国がレアアースなどの大切な材料の輸出を制限することがあります。",
+          "en": "But China sometimes restricts exports of important materials such as rare earths."
         }
       ]
     },
@@ -9524,6 +9552,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "しかし、もしアメリカと中国の関係が少しよくなると、日本は不安になります。",
+          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
+        },
+        {
+          "ja": "旅行、留学、ビジネスの交流が少なくなると、お互いの国へのイメージも悪くなりやすいです。",
+          "en": "When travel, study abroad, and business exchange decrease, people tend to get a worse image of the other country."
+        },
+        {
           "ja": "人口や機能が集中する首都圏では、交通や物流の混乱も深刻になるとみられています。",
           "en": "In the Tokyo metropolitan area, where people and key functions are concentrated, disruption to transport and logistics is also expected to be severe."
         },
@@ -9534,14 +9570,6 @@
         {
           "ja": "これにより、経験が少ない人でも、安定して野菜を育てやすくなると期待されています。",
           "en": "Because of this, even people with little experience are expected to find it easier to grow vegetables steadily."
-        },
-        {
-          "ja": "市民からは、外で待つ時間が楽になるという声が出ています。",
-          "en": "Citizens say the systems make waiting outside easier."
-        },
-        {
-          "ja": "専門家は、交通の施設で再生可能エネルギーを使うことは、地域の意識を変えるきっかけにもなるとみています。",
-          "en": "Experts say using renewable energy at transportation facilities can also change local awareness."
         }
       ],
       "partOfSpeech": "verb",
@@ -9555,6 +9583,10 @@
           "readingHiragana": "なります",
           "meaning": "Polite form of なる: to become",
           "exampleSentences": [
+            {
+              "ja": "しかし、もしアメリカと中国の関係が少しよくなると、日本は不安になります。",
+              "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
+            },
             {
               "ja": "案が通れば、人口が950万人に近づいたとき、政府は移民や難民、家族の呼び寄せを厳しく制限することになります。",
               "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
@@ -9570,10 +9602,6 @@
             {
               "ja": "ここが十分に使えないと、世界中に石油を送ることがむずかしくなります。",
               "en": "If it cannot be used fully, it becomes difficult to send oil around the world."
-            },
-            {
-              "ja": "原油価格が上がると、ガソリンや電気、物を運ぶための費用も上がりやすくなります。",
-              "en": "When crude oil prices rise, the cost of gasoline, electricity, and transporting goods also tends to rise."
             }
           ]
         },
@@ -9620,20 +9648,20 @@
               "en": "After the match, Brazil coach Ancelotti said the team must improve."
             },
             {
+              "ja": "しかし、もしアメリカと中国の関係が少しよくなると、日本は不安になります。",
+              "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
+            },
+            {
+              "ja": "旅行、留学、ビジネスの交流が少なくなると、お互いの国へのイメージも悪くなりやすいです。",
+              "en": "When travel, study abroad, and business exchange decrease, people tend to get a worse image of the other country."
+            },
+            {
               "ja": "人口や機能が集中する首都圏では、交通や物流の混乱も深刻になるとみられています。",
               "en": "In the Tokyo metropolitan area, where people and key functions are concentrated, disruption to transport and logistics is also expected to be severe."
             },
             {
               "ja": "運営会社は、観光客が便利になるだけでなく、会計の時間が短くなると説明しています。",
               "en": "The operator explains that this not only makes things more convenient for tourists but also shortens checkout time."
-            },
-            {
-              "ja": "これにより、経験が少ない人でも、安定して野菜を育てやすくなると期待されています。",
-              "en": "Because of this, even people with little experience are expected to find it easier to grow vegetables steadily."
-            },
-            {
-              "ja": "市民からは、外で待つ時間が楽になるという声が出ています。",
-              "en": "Citizens say the systems make waiting outside easier."
             }
           ]
         },
@@ -9645,6 +9673,10 @@
           "readingHiragana": "なって",
           "meaning": "Te-form of なる: to become",
           "exampleSentences": [
+            {
+              "ja": "また、人と人の交流も弱くなっています。",
+              "en": "People-to-people exchange is also weakening."
+            },
             {
               "ja": "専門家は、気候変動によって、このような強い熱波が起きやすくなっていると説明しています。",
               "en": "Experts explain that climate change is making intense heatwaves like this more likely."
@@ -9660,10 +9692,6 @@
             {
               "ja": "地域では、フェリーが生活に欠かせない交通手段になっています。",
               "en": "In these regions, ferries are an essential means of transportation."
-            },
-            {
-              "ja": "地域では、高齢化が進み、農業を続ける人が減っていることが課題になっています。",
-              "en": "In the region, aging is progressing and the number of people continuing farming is decreasing."
             }
           ]
         },
@@ -9676,6 +9704,14 @@
           "meaning": "Potential form of なる: to become",
           "exampleSentences": [
             {
+              "ja": "しかし、もしアメリカと中国の関係が少しよくなると、日本は不安になります。",
+              "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
+            },
+            {
+              "ja": "旅行、留学、ビジネスの交流が少なくなると、お互いの国へのイメージも悪くなりやすいです。",
+              "en": "When travel, study abroad, and business exchange decrease, people tend to get a worse image of the other country."
+            },
+            {
               "ja": "人口や機能が集中する首都圏では、交通や物流の混乱も深刻になるとみられています。",
               "en": "In the Tokyo metropolitan area, where people and key functions are concentrated, disruption to transport and logistics is also expected to be severe."
             },
@@ -9686,14 +9722,6 @@
             {
               "ja": "これにより、経験が少ない人でも、安定して野菜を育てやすくなると期待されています。",
               "en": "Because of this, even people with little experience are expected to find it easier to grow vegetables steadily."
-            },
-            {
-              "ja": "市民からは、外で待つ時間が楽になるという声が出ています。",
-              "en": "Citizens say the systems make waiting outside easier."
-            },
-            {
-              "ja": "専門家は、交通の施設で再生可能エネルギーを使うことは、地域の意識を変えるきっかけにもなるとみています。",
-              "en": "Experts say using renewable energy at transportation facilities can also change local awareness."
             }
           ]
         }
@@ -9921,6 +9949,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "そのため、日本は南西の島々で防衛を強めています。",
+          "en": "For that reason, Japan is strengthening its defense in the southwestern islands."
+        },
         {
           "ja": "フランス南西部のピソスでは、気温が43.",
           "en": "In Pissos in southwestern France, the temperature was reported to have reached 43."
@@ -10938,6 +10970,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "つまり、日本と中国には協力したい理由もありますが、信じにくい理由も多いのです。",
+          "en": "In other words, Japan and China have reasons to cooperate, but they also have many reasons to distrust each other."
+        },
+        {
           "ja": "ブラジルは優勝経験が多い強いチームですが、前半はモロッコの速い攻撃に苦しみました。",
           "en": "Brazil are a strong team with many World Cup titles, but in the first half they struggled against Morocco’s quick attacks."
         },
@@ -11594,6 +11630,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "旅行、留学、ビジネスの交流が少なくなると、お互いの国へのイメージも悪くなりやすいです。",
+          "en": "When travel, study abroad, and business exchange decrease, people tend to get a worse image of the other country."
+        },
         {
           "ja": "旅行者が増える中、多くのホテルで案内ロボットを使う動きが広がっています。",
           "en": "As the number of travelers increases, more hotels are using guide robots."
@@ -12862,6 +12902,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "しかし、もしアメリカと中国の関係が少しよくなると、日本は不安になります。",
+          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
+        },
+        {
           "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
           "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
         },
@@ -12876,10 +12920,6 @@
         {
           "ja": "そのため、現金の対応も残しながら、少しずつ切り替える方針です。",
           "en": "For that reason, cash support will remain while the system is changed gradually."
-        },
-        {
-          "ja": "細かい水を空気に出して、少しでも涼しくすることが目的です。",
-          "en": "The goal is to spray fine water into the air and make the area a little cooler."
         }
       ]
     },
@@ -12982,6 +13022,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "一方、日本は、台湾の近くで大きな問題が起きれば、日本の安全にも関係すると見ています。",
+          "en": "Japan, on the other hand, thinks that if a major problem happens near Taiwan, it would also affect Japan's safety."
+        },
+        {
+          "ja": "しかし、中国がレアアースなどの大切な材料の輸出を制限することがあります。",
+          "en": "But China sometimes restricts exports of important materials such as rare earths."
+        },
+        {
           "ja": "スイスのバーゼルでは38度近くまで上がり、オランダでは初めて暑さに関する赤い警報が出されました。",
           "en": "In Basel, Switzerland, temperatures rose close to 38 degrees Celsius, and the Netherlands issued its first red alert for heat."
         },
@@ -12992,14 +13040,6 @@
         {
           "ja": "中心が遠くても、湿った空気が流れ込むと、雨雲が発達することがあります。",
           "en": "Even when a storm center is far away, moist air can flow in and help rain clouds develop."
-        },
-        {
-          "ja": "G7の首脳たちは、この外交の動きを支持すると述べました。",
-          "en": "G7 leaders said they support this diplomatic move."
-        },
-        {
-          "ja": "案が通れば、人口が950万人に近づいたとき、政府は移民や難民、家族の呼び寄せを厳しく制限することになります。",
-          "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
         }
       ],
       "partOfSpeech": "verb",
@@ -13044,6 +13084,14 @@
           "meaning": "Plain past form of する: to do",
           "exampleSentences": [
             {
+              "ja": "日本は長い間、アメリカの大切な同盟国でした。",
+              "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
+            },
+            {
+              "ja": "つまり、日本と中国には協力したい理由もありますが、信じにくい理由も多いのです。",
+              "en": "In other words, Japan and China have reasons to cooperate, but they also have many reasons to distrust each other."
+            },
+            {
               "ja": "フランス、イギリス、スイス、オランダなどで気温が大きく上がり、多くの町で6月としては異例の暑さになりました。",
               "en": "Temperatures rose sharply in countries such as France, the United Kingdom, Switzerland, and the Netherlands, bringing unusual June heat to many towns and cities."
             },
@@ -13054,14 +13102,6 @@
             {
               "ja": "フランスの一部では学校が休みになり、屋外の活動を避けるよう呼びかけられました。",
               "en": "In parts of France, schools were closed, and people were urged to avoid outdoor activities."
-            },
-            {
-              "ja": "イギリスでは、サマセットで36度を超える暑さが観測され、6月の最高気温の記録を更新しました。",
-              "en": "In the United Kingdom, temperatures above 36 degrees Celsius were observed in Somerset, setting a new June temperature record."
-            },
-            {
-              "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
-              "en": "In London, people using the Underground and buses were also advised to drink water."
             }
           ]
         },
@@ -13078,20 +13118,20 @@
               "en": "While its convenience is recognized, it is considered important not to weaken students’ ability to think for themselves."
             },
             {
+              "ja": "一方、日本は、台湾の近くで大きな問題が起きれば、日本の安全にも関係すると見ています。",
+              "en": "Japan, on the other hand, thinks that if a major problem happens near Taiwan, it would also affect Japan's safety."
+            },
+            {
+              "ja": "しかし、中国がレアアースなどの大切な材料の輸出を制限することがあります。",
+              "en": "But China sometimes restricts exports of important materials such as rare earths."
+            },
+            {
               "ja": "スイスのバーゼルでは38度近くまで上がり、オランダでは初めて暑さに関する赤い警報が出されました。",
               "en": "In Basel, Switzerland, temperatures rose close to 38 degrees Celsius, and the Netherlands issued its first red alert for heat."
             },
             {
               "ja": "二つの台風は、上陸するかどうかだけでなく、海の波や強い雨にも注意が必要です。",
               "en": "With the two typhoons, people need to watch not only whether they make landfall, but also ocean waves and heavy rain."
-            },
-            {
-              "ja": "中心が遠くても、湿った空気が流れ込むと、雨雲が発達することがあります。",
-              "en": "Even when a storm center is far away, moist air can flow in and help rain clouds develop."
-            },
-            {
-              "ja": "G7の首脳たちは、この外交の動きを支持すると述べました。",
-              "en": "G7 leaders said they support this diplomatic move."
             }
           ]
         },
@@ -13474,6 +13514,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "日本は長い間、アメリカの大切な同盟国でした。",
+          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
+        },
+        {
+          "ja": "しかし、中国がレアアースなどの大切な材料の輸出を制限することがあります。",
+          "en": "But China sometimes restricts exports of important materials such as rare earths."
+        },
+        {
           "ja": "AIは写真から大切な手がかりを見つけられましたが、結果は項目によって大きく違いました。",
           "en": "The AI could find important clues in images, but the results differed greatly depending on the item."
         },
@@ -13484,14 +13532,6 @@
         {
           "ja": "頭が痛い、気分が悪いなどの症状がある時は、すぐに涼しい場所へ移動することが大切です。",
           "en": "If symptoms such as a headache or feeling unwell appear, it is important to move to a cool place right away."
-        },
-        {
-          "ja": "専門家は、注意報が出たときは、海の近くに行かないことが大切だと話しています。",
-          "en": "Experts say it is important not to go near the sea when an advisory is issued."
-        },
-        {
-          "ja": "交通機関を利用する際は、運行状況を確認し、無理な移動を避けることが大切です。",
-          "en": "When using transportation, it is important to check service status and avoid unnecessary travel."
         }
       ]
     },
@@ -17356,6 +17396,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "しかし、政治や安全保障の問題では、なかなか意見が合いません。",
+          "en": "However, in politics and security, it is hard for the two countries to agree."
+        },
+        {
+          "ja": "一方、日本は、台湾の近くで大きな問題が起きれば、日本の安全にも関係すると見ています。",
+          "en": "Japan, on the other hand, thinks that if a major problem happens near Taiwan, it would also affect Japan's safety."
+        },
+        {
           "ja": "ホームドアがない駅では、安全のために職員がホームを見回っています。",
           "en": "At stations without platform doors, staff patrol the platforms for safety."
         },
@@ -17366,14 +17414,6 @@
         {
           "ja": "この事故の後、安全対策について議論が起きました。",
           "en": "After the incident, a debate began about safety measures."
-        },
-        {
-          "ja": "市は安全のため、市立の学校を二日間休校にしました。",
-          "en": "For safety, the city closed municipal schools for two days."
-        },
-        {
-          "ja": "安全のために、市立の学校は二日間休みになりました。",
-          "en": "For safety, city-run schools were closed for two days."
         }
       ]
     },
@@ -17904,6 +17944,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "日本と中国は貿易で互いに必要な国です。",
+          "en": "Japan and China need each other in trade."
+        },
+        {
           "ja": "ホルムズ海峡は、世界の石油や貿易にとってとても重要な場所です。",
           "en": "The Strait of Hormuz is very important for the world's oil and trade."
         }
@@ -18023,6 +18067,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "つまり、日本と中国には協力したい理由もありますが、信じにくい理由も多いのです。",
+          "en": "In other words, Japan and China have reasons to cooperate, but they also have many reasons to distrust each other."
+        },
+        {
           "ja": "暑さは観光や交通だけでなく、農業や電力にも影響を与えるため、各国は対策を急いでいます。",
           "en": "Because the heat affects not only tourism and transportation but also agriculture and electricity, countries are rushing to respond."
         },
@@ -18037,10 +18085,6 @@
         {
           "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
           "en": "The information was made to test how well AI can think about the present and future of cities."
-        },
-        {
-          "ja": "たくさん買うことで、株価を支える力になります。",
-          "en": "Buying many shares can help support the price."
         }
       ]
     },
@@ -20571,6 +20615,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "しかし、政治や安全保障の問題では、なかなか意見が合いません。",
+          "en": "However, in politics and security, it is hard for the two countries to agree."
+        },
+        {
           "ja": "会談では、東アジアの安全保障や、地域の平和をどう守るかについて意見を交わしました。",
           "en": "In the meeting, they exchanged views on security in East Asia and how to protect regional peace."
         }
@@ -21782,6 +21830,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "日本は「アメリカは本当に日本を守ってくれるのか」と考えるからです。",
+          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
+        },
+        {
           "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
           "en": "The information was made to test how well AI can think about the present and future of cities."
         },
@@ -21810,6 +21862,10 @@
           "meaning": "Polite form of 考える: to think about",
           "exampleSentences": [
             {
+              "ja": "日本は「アメリカは本当に日本を守ってくれるのか」と考えるからです。",
+              "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
+            },
+            {
               "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
               "en": "The information was made to test how well AI can think about the present and future of cities."
             },
@@ -21835,6 +21891,10 @@
           "readingHiragana": "かんがえた",
           "meaning": "Plain past form of 考える: to think about",
           "exampleSentences": [
+            {
+              "ja": "日本は「アメリカは本当に日本を守ってくれるのか」と考えるからです。",
+              "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
+            },
             {
               "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
               "en": "The information was made to test how well AI can think about the present and future of cities."
@@ -21862,6 +21922,10 @@
           "meaning": "Plain negative form of 考える: to think about",
           "exampleSentences": [
             {
+              "ja": "日本は「アメリカは本当に日本を守ってくれるのか」と考えるからです。",
+              "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
+            },
+            {
               "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
               "en": "The information was made to test how well AI can think about the present and future of cities."
             },
@@ -21888,6 +21952,10 @@
           "meaning": "Te-form of 考える: to think about",
           "exampleSentences": [
             {
+              "ja": "中国は台湾を自分の一部だと考えています。",
+              "en": "China considers Taiwan part of its own territory."
+            },
+            {
               "ja": "リンクはわずか9か月で開発され、スウィフトは修理されることを考えて作られていません。",
               "en": "Link was developed in only nine months, and Swift was not designed to be serviced."
             },
@@ -21902,10 +21970,6 @@
             {
               "ja": "港を管理する会社は、環境にやさしい輸送の方法を増やしたいと考えています。",
               "en": "The port operator wants to expand environmentally friendly transport methods."
-            },
-            {
-              "ja": "両国は、難しい国際情勢の中で、協力を弱めないことが重要だと考えています。",
-              "en": "Both sides believe it is important not to weaken cooperation amid difficult international conditions."
             }
           ]
         },
@@ -21917,6 +21981,10 @@
           "readingHiragana": "かんがえられる",
           "meaning": "Potential form of 考える: to think about",
           "exampleSentences": [
+            {
+              "ja": "日本は「アメリカは本当に日本を守ってくれるのか」と考えるからです。",
+              "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
+            },
             {
               "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
               "en": "The information was made to test how well AI can think about the present and future of cities."
@@ -21952,24 +22020,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "日本と中国の関係は、経済では深くつながっています。",
+          "en": "Japan and China are deeply connected through the economy."
+        },
+        {
+          "ja": "一方、日本は、台湾の近くで大きな問題が起きれば、日本の安全にも関係すると見ています。",
+          "en": "Japan, on the other hand, thinks that if a major problem happens near Taiwan, it would also affect Japan's safety."
+        },
+        {
+          "ja": "しかし、もしアメリカと中国の関係が少しよくなると、日本は不安になります。",
+          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
+        },
+        {
           "ja": "スイスはEU加盟国ではありませんが、EUとの関係はとても深いです。",
           "en": "Switzerland is not an EU member, but its relationship with the EU is very deep."
         },
         {
           "ja": "関係者は、この温室をきっかけに、販売や出荷も協力してできるようにしたいと話しています。",
           "en": "The people involved say they also want to use the greenhouse as a starting point for cooperative selling and shipping."
-        },
-        {
-          "ja": "関係者は、品質を守りながら輸出を広げたいと話しています。",
-          "en": "People involved say they want to expand exports while protecting quality."
-        },
-        {
-          "ja": "関係者は、将来は貨物船や作業船にもこの技術を広げたいと話しています。",
-          "en": "The people involved say they want to expand this technology to cargo ships and work boats in the future."
-        },
-        {
-          "ja": "高市首相によると、トランプ大統領は中国を訪問したあとでも、日本との関係を重視する姿勢を示しました。",
-          "en": "According to Takaichi, President Trump showed that he still places importance on ties with Japan even after visiting China. The message was that the U.S.-Japan alliance will not change even while the U.S. talks with other countries."
         }
       ]
     },
@@ -22683,6 +22751,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "日本と中国の関係は、経済では深くつながっています。",
+          "en": "Japan and China are deeply connected through the economy."
+        },
+        {
+          "ja": "さらに、経済の問題もあります。",
+          "en": "There are also economic issues."
+        },
+        {
           "ja": "人が集まる力や、経済活動の種類も調べています。",
           "en": "It also studies a city's ability to attract people and the variety of its economic activity."
         },
@@ -22693,14 +22769,6 @@
         {
           "ja": "政府や議会、経済団体も反対しました。",
           "en": "The government, parliament, and business groups also opposed the proposal."
-        },
-        {
-          "ja": "観光だけでなく、地域の経済を元気にする役割も期待されています。",
-          "en": "The train is expected not only to support tourism but also to help energize the regional economy."
-        },
-        {
-          "ja": "また、防衛だけでなく、経済や技術の分野でも協力を深めることが話題になりました。",
-          "en": "They also discussed deepening cooperation not only in defense but also in the economy and technology."
         }
       ]
     },
@@ -25331,6 +25399,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "しかし、もしアメリカと中国の関係が少しよくなると、日本は不安になります。",
+          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
+        },
         {
           "ja": "もし上場後に株価が下がれば、証券会社は市場で株を買い戻します。",
           "en": "If the share price falls after listing, the securities firms buy shares back in the market."
@@ -28512,7 +28584,20 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "大きな理由の一つは、台湾の問題です。",
+          "en": "One major reason is the Taiwan issue."
+        },
+        {
+          "ja": "もう一つの理由は、アメリカの存在です。",
+          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
+        },
+        {
+          "ja": "つまり、日本と中国には協力したい理由もありますが、信じにくい理由も多いのです。",
+          "en": "In other words, Japan and China have reasons to cooperate, but they also have many reasons to distrust each other."
+        }
+      ]
     },
     {
       "id": "core-c3b8f7f2051981",
@@ -29252,6 +29337,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "しかし、政治や安全保障の問題では、なかなか意見が合いません。",
+          "en": "However, in politics and security, it is hard for the two countries to agree."
+        },
+        {
           "ja": "政治の場所に有名なロックバンドが来るのは少し意外ですが、文化や音楽を通して国どうしの交流を深めたいという考えもあります。",
           "en": "It is a little surprising for a famous rock band to visit a political office, but there is also an idea of deepening ties between countries through culture and music."
         }
@@ -29775,6 +29864,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "そのため、日本は南西の島々で防衛を強めています。",
+          "en": "For that reason, Japan is strengthening its defense in the southwestern islands."
+        },
         {
           "ja": "フィリピンのミンダナオ島の近くで大きな地震が起きたためです。",
           "en": "This was because a major earthquake occurred near Mindanao island in the Philippines."
@@ -35194,6 +35287,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "しかし、中国がレアアースなどの大切な材料の輸出を制限することがあります。",
+          "en": "But China sometimes restricts exports of important materials such as rare earths."
+        },
+        {
           "ja": "関係者は、品質を守りながら輸出を広げたいと話しています。",
           "en": "People involved say they want to expand exports while protecting quality."
         }
@@ -37331,6 +37428,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "中国は台湾を自分の一部だと考えています。",
+          "en": "China considers Taiwan part of its own territory."
+        },
+        {
           "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
           "en": "In London, people using the Underground and buses were also advised to drink water."
         },
@@ -37345,10 +37446,6 @@
         {
           "ja": "車両の先頭部分が壊れた可能性があり、JR東海が調べています。",
           "en": "The front of the train may have been damaged, and JR Central is investigating."
-        },
-        {
-          "ja": "運転は約3時間後の午後8時48分に再開しました。",
-          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
         }
       ]
     },
@@ -39634,6 +39731,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "しかし、もしアメリカと中国の関係が少しよくなると、日本は不安になります。",
+          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
+        },
+        {
           "ja": "今回の結果は、移民への不安と、EUとの結びつきを守りたい考えが、スイス社会でぶつかっていることを示しました。",
           "en": "\" The result showed that anxiety about immigration and the wish to protect ties with the EU are clashing in Swiss society."
         },
@@ -40651,6 +40752,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "旅行、留学、ビジネスの交流が少なくなると、お互いの国へのイメージも悪くなりやすいです。",
+          "en": "When travel, study abroad, and business exchange decrease, people tend to get a worse image of the other country."
+        },
+        {
           "ja": "フランスの一部では学校が休みになり、屋外の活動を避けるよう呼びかけられました。",
           "en": "In parts of France, schools were closed, and people were urged to avoid outdoor activities."
         },
@@ -40665,10 +40770,6 @@
         {
           "ja": "市は安全のため、市立の学校を二日間休校にしました。",
           "en": "For safety, the city closed municipal schools for two days."
-        },
-        {
-          "ja": "後に大学の近くでクマが見つかると、市の職員はドローンで場所を追跡しました。",
-          "en": "When the bear was later found near a university, city workers used a drone to track it."
         }
       ]
     },
@@ -44667,6 +44768,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "一方、日本は、台湾の近くで大きな問題が起きれば、日本の安全にも関係すると見ています。",
+          "en": "Japan, on the other hand, thinks that if a major problem happens near Taiwan, it would also affect Japan's safety."
+        },
+        {
           "ja": "6月24日の夕方、ベネズエラ北部で大きな地震が二つ続けて起きました。",
           "en": "On the evening of June 24, two major earthquakes struck northern Venezuela in quick succession."
         },
@@ -44681,10 +44786,6 @@
         {
           "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
           "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
-        },
-        {
-          "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
-          "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
         }
       ]
     },
@@ -45097,6 +45198,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "中国は台湾を自分の一部だと考えています。",
+          "en": "China considers Taiwan part of its own territory."
+        },
+        {
           "ja": "フランスの一部では学校が休みになり、屋外の活動を避けるよう呼びかけられました。",
           "en": "In parts of France, schools were closed, and people were urged to avoid outdoor activities."
         },
@@ -45111,10 +45216,6 @@
         {
           "ja": "自動車メーカーの一部は、従業員の安全や部品輸送への影響を考慮して、工場の操業を一時停止しました。",
           "en": "Some automakers temporarily stopped factory operations after considering worker safety and impacts on parts transport."
-        },
-        {
-          "ja": "一部の駅では、災害のときにスマートフォンを充電できる場所としても活用する考えです。",
-          "en": "At some stations, the system may also be used as a place where people can charge smartphones during disasters."
         }
       ]
     },
@@ -45674,6 +45775,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "一方、日本は、台湾の近くで大きな問題が起きれば、日本の安全にも関係すると見ています。",
+          "en": "Japan, on the other hand, thinks that if a major problem happens near Taiwan, it would also affect Japan's safety."
+        },
+        {
           "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
           "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
         },
@@ -45688,10 +45793,6 @@
         {
           "ja": "一方で、海水温の変化や人手不足のため、のりを作る現場では苦労もあります。",
           "en": "At the same time, producers face difficulties because of changes in seawater temperature and labor shortages."
-        },
-        {
-          "ja": "一方で、細かい相談や、急なトラブルには、やはり人の対応が必要です。",
-          "en": "At the same time, detailed requests and sudden trouble still require human support."
         }
       ]
     },
@@ -47775,6 +47876,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "これは日本の会社にとって大きなリスクです。",
+          "en": "This is a major risk for Japanese companies."
+        },
+        {
           "ja": "そこでNASAは、アメリカの会社カタリスト・スペースが作った「リンク」という宇宙船を送ります。",
           "en": "NASA will therefore send a spacecraft called Link, built by the American company Katalyst Space."
         },
@@ -47789,10 +47894,6 @@
         {
           "ja": "試合はニューヨーク・ニュージャージーの大きな会場で行われました。",
           "en": "The match was played at a large venue in New York/New Jersey."
-        },
-        {
-          "ja": "モロッコは2022年の大会でベスト4まで進んだチームです。",
-          "en": "Morocco reached the semifinals in the 2022 tournament."
         }
       ]
     },
@@ -49477,6 +49578,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "中国は台湾を自分の一部だと考えています。",
+          "en": "China considers Taiwan part of its own territory."
+        },
+        {
+          "ja": "日本は「アメリカは本当に日本を守ってくれるのか」と考えるからです。",
+          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
+        },
+        {
           "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
           "en": "The information was made to test how well AI can think about the present and future of cities."
         },
@@ -49487,14 +49596,6 @@
         {
           "ja": "今回の結果は、移民への不安と、EUとの結びつきを守りたい考えが、スイス社会でぶつかっていることを示しました。",
           "en": "\" The result showed that anxiety about immigration and the wish to protect ties with the EU are clashing in Swiss society."
-        },
-        {
-          "ja": "グリーンシューは、投資家の熱気と市場の不安の間で、値段を落ち着かせるための道具だと考えるとわかりやすいです。",
-          "en": "It is easiest to think of a greenshoe as a tool for calming the price between investor excitement and market anxiety."
-        },
-        {
-          "ja": "専門家は、クマの数が増えたことや、地方で人が少なくなったことが原因の一つだと考えています。",
-          "en": "Experts think one reason is that bear numbers have grown while rural populations have shrunk."
         }
       ]
     },
@@ -50434,16 +50535,16 @@
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
         },
         {
-          "ja": "予報では、27日の夜には関東の近くまで進む可能性があります。",
-          "en": "As of 9 p.m., Typhoon No. 7 was over waters east of areas near Amami and Okinawa. The forecast says it may move close to the Kanto region by the night of June 27."
+          "ja": "日本と中国の関係は、経済では深くつながっています。",
+          "en": "Japan and China are deeply connected through the economy."
         },
         {
-          "ja": "スイスはEU加盟国ではありませんが、EUとの関係はとても深いです。",
-          "en": "Switzerland is not an EU member, but its relationship with the EU is very deep."
+          "ja": "一方、日本は、台湾の近くで大きな問題が起きれば、日本の安全にも関係すると見ています。",
+          "en": "Japan, on the other hand, thinks that if a major problem happens near Taiwan, it would also affect Japan's safety."
         },
         {
-          "ja": "交通機関を利用する際は、運行状況を確認し、無理な移動を避けることが大切です。",
-          "en": "When using transportation, it is important to check service status and avoid unnecessary travel."
+          "ja": "しかし、もしアメリカと中国の関係が少しよくなると、日本は不安になります。",
+          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
         }
       ],
       "partOfSpeech": "verb",
@@ -54612,6 +54713,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "また、人と人の交流も弱くなっています。",
+          "en": "People-to-people exchange is also weakening."
+        },
+        {
+          "ja": "旅行、留学、ビジネスの交流が少なくなると、お互いの国へのイメージも悪くなりやすいです。",
+          "en": "When travel, study abroad, and business exchange decrease, people tend to get a worse image of the other country."
+        },
+        {
           "ja": "政治の場所に有名なロックバンドが来るのは少し意外ですが、文化や音楽を通して国どうしの交流を深めたいという考えもあります。",
           "en": "It is a little surprising for a famous rock band to visit a political office, but there is also an idea of deepening ties between countries through culture and music."
         }
@@ -56053,6 +56162,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "つまり、日本と中国には協力したい理由もありますが、信じにくい理由も多いのです。",
+          "en": "In other words, Japan and China have reasons to cooperate, but they also have many reasons to distrust each other."
+        },
+        {
           "ja": "関係者は、この温室をきっかけに、販売や出荷も協力してできるようにしたいと話しています。",
           "en": "The people involved say they also want to use the greenhouse as a starting point for cooperative selling and shipping."
         },
@@ -56672,6 +56785,10 @@
           "readingHiragana": "まもって",
           "meaning": "Te-form of 守る: to protect, to guard",
           "exampleSentences": [
+            {
+              "ja": "日本は「アメリカは本当に日本を守ってくれるのか」と考えるからです。",
+              "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
+            },
             {
               "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
               "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
@@ -60556,24 +60673,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "二つの台風が日本の南の海で同時に動いています。",
-          "en": "On the night of June 26, the Japan Meteorological Agency released information on Typhoon No. 7, Mekkhala, and Typhoon No. 8, Higos. The two typhoons are moving at the same time over the sea south of Japan."
+          "ja": "日本と中国の関係は、経済では深くつながっています。",
+          "en": "Japan and China are deeply connected through the economy."
         },
         {
-          "ja": "台風8号は、日本の南の海上を北東へ速く進んでいます。",
-          "en": "Typhoon No. 8 is moving quickly northeast over the sea south of Japan. According to the JMA track forecast, it is expected to move away to the east of Honshu on June 27."
+          "ja": "一方、日本は、台湾の近くで大きな問題が起きれば、日本の安全にも関係すると見ています。",
+          "en": "Japan, on the other hand, thinks that if a major problem happens near Taiwan, it would also affect Japan's safety."
         },
         {
-          "ja": "日本では、クマが人の生活する場所に入る問題が増えています。",
-          "en": "In Japan, the problem of bears entering places where people live is increasing."
+          "ja": "そのため、日本は南西の島々で防衛を強めています。",
+          "en": "For that reason, Japan is strengthening its defense in the southwestern islands."
         },
         {
-          "ja": "最近の日本では、クマが人の生活する場所に入る問題が増えています。",
-          "en": "Recently in Japan, the problem of bears entering places where people live has been increasing."
+          "ja": "日本は長い間、アメリカの大切な同盟国でした。",
+          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
         },
         {
-          "ja": "気象庁は8日、日本の太平洋側の広い地域に津波注意報を出しました。",
-          "en": "On the 8th, the Japan Meteorological Agency issued a tsunami advisory for a wide area along Japan’s Pacific coast."
+          "ja": "しかし、もしアメリカと中国の関係が少しよくなると、日本は不安になります。",
+          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
         }
       ]
     },
@@ -62955,6 +63072,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "旅行、留学、ビジネスの交流が少なくなると、お互いの国へのイメージも悪くなりやすいです。",
+          "en": "When travel, study abroad, and business exchange decrease, people tend to get a worse image of the other country."
+        },
+        {
           "ja": "半導体やエネルギーのような重要な分野で、お互いに助け合うことが、これからさらに必要になるとみられています。",
           "en": "In important fields like semiconductors and energy, mutual support is expected to become even more necessary."
         }
@@ -63933,7 +64054,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "旅行、留学、ビジネスの交流が少なくなると、お互いの国へのイメージも悪くなりやすいです。",
+          "en": "When travel, study abroad, and business exchange decrease, people tend to get a worse image of the other country."
+        }
+      ]
     },
     {
       "id": "core-01460eff0ac823",
@@ -65471,6 +65597,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "しかし、中国がレアアースなどの大切な材料の輸出を制限することがあります。",
+          "en": "But China sometimes restricts exports of important materials such as rare earths."
+        },
         {
           "ja": "案が通れば、人口が950万人に近づいたとき、政府は移民や難民、家族の呼び寄せを厳しく制限することになります。",
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
@@ -69741,7 +69871,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "もう一つの理由は、アメリカの存在です。",
+          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
+        }
+      ]
     },
     {
       "id": "core-4631564d8231d3",
@@ -70713,6 +70848,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "旅行、留学、ビジネスの交流が少なくなると、お互いの国へのイメージも悪くなりやすいです。",
+          "en": "When travel, study abroad, and business exchange decrease, people tend to get a worse image of the other country."
+        },
+        {
           "ja": "旅行者が増える中、多くのホテルで案内ロボットを使う動きが広がっています。",
           "en": "As the number of travelers increases, more hotels are using guide robots."
         },
@@ -70875,6 +71014,14 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "日本と中国は貿易で互いに必要な国です。",
+          "en": "Japan and China need each other in trade."
+        },
+        {
+          "ja": "旅行、留学、ビジネスの交流が少なくなると、お互いの国へのイメージも悪くなりやすいです。",
+          "en": "When travel, study abroad, and business exchange decrease, people tend to get a worse image of the other country."
+        },
         {
           "ja": "半導体やエネルギーのような重要な分野で、お互いに助け合うことが、これからさらに必要になるとみられています。",
           "en": "In important fields like semiconductors and energy, mutual support is expected to become even more necessary."
@@ -76593,7 +76740,20 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "大きな理由の一つは、台湾の問題です。",
+          "en": "One major reason is the Taiwan issue."
+        },
+        {
+          "ja": "中国は台湾を自分の一部だと考えています。",
+          "en": "China considers Taiwan part of its own territory."
+        },
+        {
+          "ja": "一方、日本は、台湾の近くで大きな問題が起きれば、日本の安全にも関係すると見ています。",
+          "en": "Japan, on the other hand, thinks that if a major problem happens near Taiwan, it would also affect Japan's safety."
+        }
+      ]
     },
     {
       "id": "core-a727c907681a34",
@@ -78504,7 +78664,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "しかし、中国がレアアースなどの大切な材料の輸出を制限することがあります。",
+          "en": "But China sometimes restricts exports of important materials such as rare earths."
+        }
+      ]
     },
     {
       "id": "core-2c587b0eb37a72",
@@ -78921,6 +79086,241 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
+      "exampleSentences": []
+    },
+    {
+      "id": "article-87d6a0e8eb0468",
+      "level": "N3",
+      "term": "関係",
+      "reading": "かんけい",
+      "readingHiragana": "かんけい",
+      "meaning": "Relationship",
+      "source": "article",
+      "sourceId": "2026-06-28-japan-china-relations",
+      "sourceTitle": "日本と中国の関係は、なぜよくならないのか",
+      "sourceLabel": "6/28 日中関係",
+      "sourceHref": "./2026-06-28-japan-china-relations.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-28-japan-china-relations"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "日本と中国の関係は、経済では深くつながっています。",
+          "en": "Japan and China are deeply connected through the economy."
+        },
+        {
+          "ja": "一方、日本は、台湾の近くで大きな問題が起きれば、日本の安全にも関係すると見ています。",
+          "en": "Japan, on the other hand, thinks that if a major problem happens near Taiwan, it would also affect Japan's safety."
+        },
+        {
+          "ja": "しかし、もしアメリカと中国の関係が少しよくなると、日本は不安になります。",
+          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
+        },
+        {
+          "ja": "スイスはEU加盟国ではありませんが、EUとの関係はとても深いです。",
+          "en": "Switzerland is not an EU member, but its relationship with the EU is very deep."
+        },
+        {
+          "ja": "関係者は、この温室をきっかけに、販売や出荷も協力してできるようにしたいと話しています。",
+          "en": "The people involved say they also want to use the greenhouse as a starting point for cooperative selling and shipping."
+        }
+      ]
+    },
+    {
+      "id": "article-ec51ef158be164",
+      "level": "N3",
+      "term": "安全保障",
+      "reading": "あんぜんほしょう",
+      "readingHiragana": "あんぜんほしょう",
+      "meaning": "Security",
+      "source": "article",
+      "sourceId": "2026-06-28-japan-china-relations",
+      "sourceTitle": "日本と中国の関係は、なぜよくならないのか",
+      "sourceLabel": "6/28 日中関係",
+      "sourceHref": "./2026-06-28-japan-china-relations.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-28-japan-china-relations"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "しかし、政治や安全保障の問題では、なかなか意見が合いません。",
+          "en": "However, in politics and security, it is hard for the two countries to agree."
+        },
+        {
+          "ja": "会談では、東アジアの安全保障や、地域の平和をどう守るかについて意見を交わしました。",
+          "en": "In the meeting, they exchanged views on security in East Asia and how to protect regional peace."
+        },
+        {
+          "ja": "両国は、安全保障や地域の安定のために、これからも緊密に連携していく方針です。",
+          "en": "The two countries plan to keep working closely together for security and regional stability."
+        }
+      ]
+    },
+    {
+      "id": "article-06fc36708a5889",
+      "level": "N3",
+      "term": "同盟国",
+      "reading": "どうめいこく",
+      "readingHiragana": "どうめいこく",
+      "meaning": "Allied country",
+      "source": "article",
+      "sourceId": "2026-06-28-japan-china-relations",
+      "sourceTitle": "日本と中国の関係は、なぜよくならないのか",
+      "sourceLabel": "6/28 日中関係",
+      "sourceHref": "./2026-06-28-japan-china-relations.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-28-japan-china-relations"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "日本は長い間、アメリカの大切な同盟国でした。",
+          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
+        }
+      ]
+    },
+    {
+      "id": "article-f69a8d323cad61",
+      "level": "N3",
+      "term": "輸出",
+      "reading": "ゆしゅつ",
+      "readingHiragana": "ゆしゅつ",
+      "meaning": "Export",
+      "source": "article",
+      "sourceId": "2026-06-28-japan-china-relations",
+      "sourceTitle": "日本と中国の関係は、なぜよくならないのか",
+      "sourceLabel": "6/28 日中関係",
+      "sourceHref": "./2026-06-28-japan-china-relations.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-28-japan-china-relations"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "しかし、中国がレアアースなどの大切な材料の輸出を制限することがあります。",
+          "en": "But China sometimes restricts exports of important materials such as rare earths."
+        },
+        {
+          "ja": "関係者は、品質を守りながら輸出を広げたいと話しています。",
+          "en": "People involved say they want to expand exports while protecting quality."
+        }
+      ]
+    },
+    {
+      "id": "article-4afc46a2faa837",
+      "level": "N3",
+      "term": "制限する",
+      "reading": "せいげんする",
+      "readingHiragana": "せいげんする",
+      "meaning": "To restrict",
+      "source": "article",
+      "sourceId": "2026-06-28-japan-china-relations",
+      "sourceTitle": "日本と中国の関係は、なぜよくならないのか",
+      "sourceLabel": "6/28 日中関係",
+      "sourceHref": "./2026-06-28-japan-china-relations.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-28-japan-china-relations"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "しかし、中国がレアアースなどの大切な材料の輸出を制限することがあります。",
+          "en": "But China sometimes restricts exports of important materials such as rare earths."
+        },
+        {
+          "ja": "案が通れば、人口が950万人に近づいたとき、政府は移民や難民、家族の呼び寄せを厳しく制限することになります。",
+          "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
+        }
+      ]
+    },
+    {
+      "id": "article-e1e8c5b7b2adb4",
+      "level": "N3",
+      "term": "交流",
+      "reading": "こうりゅう",
+      "readingHiragana": "こうりゅう",
+      "meaning": "Exchange / Interaction",
+      "source": "article",
+      "sourceId": "2026-06-28-japan-china-relations",
+      "sourceTitle": "日本と中国の関係は、なぜよくならないのか",
+      "sourceLabel": "6/28 日中関係",
+      "sourceHref": "./2026-06-28-japan-china-relations.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-28-japan-china-relations"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "また、人と人の交流も弱くなっています。",
+          "en": "People-to-people exchange is also weakening."
+        },
+        {
+          "ja": "旅行、留学、ビジネスの交流が少なくなると、お互いの国へのイメージも悪くなりやすいです。",
+          "en": "When travel, study abroad, and business exchange decrease, people tend to get a worse image of the other country."
+        },
+        {
+          "ja": "政治の場所に有名なロックバンドが来るのは少し意外ですが、文化や音楽を通して国どうしの交流を深めたいという考えもあります。",
+          "en": "It is a little surprising for a famous rock band to visit a political office, but there is also an idea of deepening ties between countries through culture and music."
+        }
+      ]
+    },
+    {
+      "id": "article-829ffccea98202",
+      "level": "N3",
+      "term": "協力",
+      "reading": "きょうりょく",
+      "readingHiragana": "きょうりょく",
+      "meaning": "Cooperation",
+      "source": "article",
+      "sourceId": "2026-06-28-japan-china-relations",
+      "sourceTitle": "日本と中国の関係は、なぜよくならないのか",
+      "sourceLabel": "6/28 日中関係",
+      "sourceHref": "./2026-06-28-japan-china-relations.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-28-japan-china-relations"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "つまり、日本と中国には協力したい理由もありますが、信じにくい理由も多いのです。",
+          "en": "In other words, Japan and China have reasons to cooperate, but they also have many reasons to distrust each other."
+        },
+        {
+          "ja": "関係者は、この温室をきっかけに、販売や出荷も協力してできるようにしたいと話しています。",
+          "en": "The people involved say they also want to use the greenhouse as a starting point for cooperative selling and shipping."
+        },
+        {
+          "ja": "そのため、ロボットだけに頼るのではなく、職員と協力して使うことが大切だと考えられています。",
+          "en": "For that reason, people think it is important to use robots together with staff rather than relying only on robots."
+        },
+        {
+          "ja": "両国は、難しい国際情勢の中で、協力を弱めないことが重要だと考えています。",
+          "en": "Both sides believe it is important not to weaken cooperation amid difficult international conditions."
+        },
+        {
+          "ja": "また、防衛だけでなく、経済や技術の分野でも協力を深めることが話題になりました。",
+          "en": "They also discussed deepening cooperation not only in defense but also in the economy and technology."
+        }
+      ]
+    },
+    {
+      "id": "article-1165a1ba15e401",
+      "level": "N3",
+      "term": "信じる",
+      "reading": "しんじる",
+      "readingHiragana": "しんじる",
+      "meaning": "To trust / Believe",
+      "source": "article",
+      "sourceId": "2026-06-28-japan-china-relations",
+      "sourceTitle": "日本と中国の関係は、なぜよくならないのか",
+      "sourceLabel": "6/28 日中関係",
+      "sourceHref": "./2026-06-28-japan-china-relations.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-28-japan-china-relations"
+      ],
       "exampleSentences": []
     },
     {
@@ -80293,6 +80693,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "日本と中国は貿易で互いに必要な国です。",
+          "en": "Japan and China need each other in trade."
+        },
+        {
           "ja": "ホルムズ海峡は、世界の石油や貿易にとってとても重要な場所です。",
           "en": "The Strait of Hormuz is very important for the world's oil and trade."
         }
@@ -80942,6 +81346,10 @@
         "2026-06-14-swiss-population-cap"
       ],
       "exampleSentences": [
+        {
+          "ja": "しかし、中国がレアアースなどの大切な材料の輸出を制限することがあります。",
+          "en": "But China sometimes restricts exports of important materials such as rare earths."
+        },
         {
           "ja": "案が通れば、人口が950万人に近づいたとき、政府は移民や難民、家族の呼び寄せを厳しく制限することになります。",
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
@@ -83161,6 +83569,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "しかし、中国がレアアースなどの大切な材料の輸出を制限することがあります。",
+          "en": "But China sometimes restricts exports of important materials such as rare earths."
+        },
+        {
           "ja": "関係者は、品質を守りながら輸出を広げたいと話しています。",
           "en": "People involved say they want to expand exports while protecting quality."
         }
@@ -83641,6 +84053,10 @@
         "2026-05-23-hotel-robots-support"
       ],
       "exampleSentences": [
+        {
+          "ja": "つまり、日本と中国には協力したい理由もありますが、信じにくい理由も多いのです。",
+          "en": "In other words, Japan and China have reasons to cooperate, but they also have many reasons to distrust each other."
+        },
         {
           "ja": "関係者は、この温室をきっかけに、販売や出荷も協力してできるようにしたいと話しています。",
           "en": "The people involved say they also want to use the greenhouse as a starting point for cooperative selling and shipping."
@@ -84975,6 +85391,14 @@
         "2026-04-10-deep-purple-pm"
       ],
       "exampleSentences": [
+        {
+          "ja": "また、人と人の交流も弱くなっています。",
+          "en": "People-to-people exchange is also weakening."
+        },
+        {
+          "ja": "旅行、留学、ビジネスの交流が少なくなると、お互いの国へのイメージも悪くなりやすいです。",
+          "en": "When travel, study abroad, and business exchange decrease, people tend to get a worse image of the other country."
+        },
         {
           "ja": "政治の場所に有名なロックバンドが来るのは少し意外ですが、文化や音楽を通して国どうしの交流を深めたいという考えもあります。",
           "en": "It is a little surprising for a famous rock band to visit a political office, but there is also an idea of deepening ties between countries through culture and music."
