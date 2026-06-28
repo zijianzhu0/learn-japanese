@@ -43,6 +43,7 @@ FRAME_RATE = 30
 MIN_SEGMENT_SECONDS = 0.8
 TRAILING_SILENCE_SECONDS = 0.25
 DEFAULT_VOICEVOX_TIMEOUT = 90
+EXPORT_AUDIO_FILTER = "loudnorm=I=-16:TP=-1.5:LRA=11"
 
 
 @dataclass(frozen=True)
@@ -610,6 +611,8 @@ def render_segment_video(
             "yuv420p",
             "-preset",
             "veryfast",
+            "-af",
+            EXPORT_AUDIO_FILTER,
             "-c:a",
             "aac",
             "-b:a",
@@ -679,6 +682,8 @@ def render_still_video_with_audio(
             "yuv420p",
             "-preset",
             "veryfast",
+            "-af",
+            EXPORT_AUDIO_FILTER,
             "-c:a",
             "aac",
             "-b:a",

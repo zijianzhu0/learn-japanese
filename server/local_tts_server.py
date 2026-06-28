@@ -20,6 +20,7 @@ if str(PROJECT_DIR) not in sys.path:
 
 from scripts.render_video import (
     DEFAULT_VOICEVOX_TIMEOUT,
+    EXPORT_AUDIO_FILTER,
     RenderOptions,
     find_article,
     find_video_quiz,
@@ -390,6 +391,8 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
                         "veryfast",
                         "-movflags",
                         "+faststart",
+                        "-af",
+                        EXPORT_AUDIO_FILTER,
                         "-c:a",
                         "aac",
                         "-b:a",
