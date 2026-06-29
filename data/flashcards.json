@@ -4,7 +4,7 @@
     "articleManifest": "data/articles.json"
   },
   "levels": {
-    "N3": 1958,
+    "N3": 1965,
     "N4": 536,
     "N5": 553
   },
@@ -848,6 +848,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "乗り換えのたびに地図を開かなくても、頭の中で道を組みたてられるようになります。",
+          "en": "Even without opening a map for each transfer, you can start building the route in your head."
+        },
+        {
           "ja": "車両の先頭部分が壊れた可能性があり、JR東海が調べています。",
           "en": "The front of the train may have been damaged, and JR Central is investigating."
         },
@@ -1395,6 +1399,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "知らない駅に行くときも、近くにある駅との関係から予想できます。",
+          "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
+        },
+        {
           "ja": "一方、日本は、台湾の近くで大きな問題が起きれば、日本の安全にも関係すると見ています。",
           "en": "Japan, on the other hand, thinks that if a major problem happens near Taiwan, it would also affect Japan's safety."
         },
@@ -1409,10 +1417,6 @@
         {
           "ja": "震源は、カリブ海沿いのモロンという町の近くでした。",
           "en": "The epicenter was near the town of Moron on the Caribbean coast, about 160 kilometers west of the capital, Caracas. The shaking was felt across a wide area in the north, and buildings collapsed in Caracas and La Guaira."
-        },
-        {
-          "ja": "近くにいた24歳のライフセーバーが、海へ入って女性をボードに乗せました。",
-          "en": "A 24-year-old lifesaver nearby entered the water and put the woman on a board."
         }
       ]
     },
@@ -1430,6 +1434,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "東京の地下鉄やJRは複雑ですが、大きな駅の位置を地図の骨組みにすると、少しずつ慣れていきます。",
+          "en": "Tokyo’s subways and JR lines are complicated, but if you treat the positions of major stations as the frame of the map, you gradually get used to it."
+        },
         {
           "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
           "en": "In London, people using the Underground and buses were also advised to drink water."
@@ -1479,7 +1487,20 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
+          "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
+        },
+        {
+          "ja": "乗り換えのたびに地図を開かなくても、頭の中で道を組みたてられるようになります。",
+          "en": "Even without opening a map for each transfer, you can start building the route in your head."
+        },
+        {
+          "ja": "東京の地下鉄やJRは複雑ですが、大きな駅の位置を地図の骨組みにすると、少しずつ慣れていきます。",
+          "en": "Tokyo’s subways and JR lines are complicated, but if you treat the positions of major stations as the frame of the map, you gradually get used to it."
+        }
+      ]
     },
     {
       "id": "core-05c1dd22c4f7f8",
@@ -2109,6 +2130,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
+          "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
+        },
+        {
           "ja": "二つの台風は、上陸するかどうかだけでなく、海の波や強い雨にも注意が必要です。",
           "en": "With the two typhoons, people need to watch not only whether they make landfall, but also ocean waves and heavy rain."
         },
@@ -2123,10 +2148,6 @@
         {
           "ja": "中東の緊張が下がるかどうかは、これからの交渉にかかっています。",
           "en": "Whether tensions in the Middle East will decrease depends on the negotiations from here."
-        },
-        {
-          "ja": "全国の学校で、生成AIを授業や宿題にどう使うかを決める動きが強まっています。",
-          "en": "Schools across Japan are moving to decide how generative AI should be used in classes and homework."
         }
       ]
     },
@@ -2298,24 +2319,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
-          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
+          "ja": "東京の駅は数が多くて、最初は路線図を見ても迷いやすいです。",
+          "en": "Tokyo has so many stations that it is easy to get lost at first, even if you look at a route map."
         },
         {
-          "ja": "この列車は浜松駅を通過しているところでした。",
-          "en": "It was passing through Hamamatsu Station."
+          "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
+          "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
         },
         {
-          "ja": "浜松駅にはホームドアがありませんでした。",
-          "en": "Hamamatsu Station did not have platform doors."
+          "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
+          "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
         },
         {
-          "ja": "JR東海によると、東海道新幹線の17駅のうち、ホームドアがあるのは東京、名古屋、新大阪など7駅です。",
-          "en": "According to JR Central, seven of the 17 Tokaido Shinkansen stations—including Tokyo, Nagoya, and Shin-Osaka—have platform doors."
+          "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
+          "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
         },
         {
-          "ja": "ほかの駅でも設置を進めています。",
-          "en": "Installation is progressing at other stations."
+          "ja": "知らない駅に行くときも、近くにある駅との関係から予想できます。",
+          "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
         }
       ]
     },
@@ -3117,6 +3138,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
+          "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
+        },
         {
           "ja": "スイスのバーゼルでは38度近くまで上がり、オランダでは初めて暑さに関する赤い警報が出されました。",
           "en": "In Basel, Switzerland, temperatures rose close to 38 degrees Celsius, and the Netherlands issued its first red alert for heat."
@@ -4054,24 +4079,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京の駅は数が多くて、最初は路線図を見ても迷いやすいです。",
+          "en": "Tokyo has so many stations that it is easy to get lost at first, even if you look at a route map."
+        },
+        {
+          "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
+          "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
+        },
+        {
+          "ja": "東京の地下鉄やJRは複雑ですが、大きな駅の位置を地図の骨組みにすると、少しずつ慣れていきます。",
+          "en": "Tokyo’s subways and JR lines are complicated, but if you treat the positions of major stations as the frame of the map, you gradually get used to it."
+        },
+        {
           "ja": "台風7号は21時の時点で、奄美や沖縄に近い東の海上にありました。",
           "en": "As of 9 p.m., Typhoon No. 7 was over waters east of areas near Amami and Okinawa. The forecast says it may move close to the Kanto region by the night of June 27."
         },
         {
           "ja": "予報では、27日の夜には関東の近くまで進む可能性があります。",
           "en": "As of 9 p.m., Typhoon No. 7 was over waters east of areas near Amami and Okinawa. The forecast says it may move close to the Kanto region by the night of June 27."
-        },
-        {
-          "ja": "台風8号は、日本の南の海上を北東へ速く進んでいます。",
-          "en": "Typhoon No. 8 is moving quickly northeast over the sea south of Japan. According to the JMA track forecast, it is expected to move away to the east of Honshu on June 27."
-        },
-        {
-          "ja": "気象庁の進路予報では、27日には本州の東へ離れていく見込みです。",
-          "en": "Typhoon No. 8 is moving quickly northeast over the sea south of Japan. According to the JMA track forecast, it is expected to move away to the east of Honshu on June 27."
-        },
-        {
-          "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
-          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
         }
       ]
     },
@@ -4696,6 +4721,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "知らない駅に行くときも、近くにある駅との関係から予想できます。",
+          "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
+        },
+        {
           "ja": "週末に海へ行く予定がある人や、飛行機や船を使う人は、新しい情報を確認したほうがよさそうです。",
           "en": "People planning to go to the sea over the weekend, or to use planes or boats, should check the latest information."
         }
@@ -4712,6 +4741,10 @@
           "meaning": "Polite form of 行く: to go",
           "exampleSentences": [
             {
+              "ja": "知らない駅に行くときも、近くにある駅との関係から予想できます。",
+              "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
+            },
+            {
               "ja": "週末に海へ行く予定がある人や、飛行機や船を使う人は、新しい情報を確認したほうがよさそうです。",
               "en": "People planning to go to the sea over the weekend, or to use planes or boats, should check the latest information."
             }
@@ -4725,6 +4758,10 @@
           "readingHiragana": "いった",
           "meaning": "Plain past form of 行く: to go",
           "exampleSentences": [
+            {
+              "ja": "知らない駅に行くときも、近くにある駅との関係から予想できます。",
+              "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
+            },
             {
               "ja": "週末に海へ行く予定がある人や、飛行機や船を使う人は、新しい情報を確認したほうがよさそうです。",
               "en": "People planning to go to the sea over the weekend, or to use planes or boats, should check the latest information."
@@ -4744,6 +4781,10 @@
               "en": "Experts say it is important not to go near the sea when an advisory is issued."
             },
             {
+              "ja": "知らない駅に行くときも、近くにある駅との関係から予想できます。",
+              "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
+            },
+            {
               "ja": "週末に海へ行く予定がある人や、飛行機や船を使う人は、新しい情報を確認したほうがよさそうです。",
               "en": "People planning to go to the sea over the weekend, or to use planes or boats, should check the latest information."
             }
@@ -4758,6 +4799,10 @@
           "meaning": "Te-form of 行く: to go",
           "exampleSentences": [
             {
+              "ja": "知らない駅に行くときも、近くにある駅との関係から予想できます。",
+              "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
+            },
+            {
               "ja": "週末に海へ行く予定がある人や、飛行機や船を使う人は、新しい情報を確認したほうがよさそうです。",
               "en": "People planning to go to the sea over the weekend, or to use planes or boats, should check the latest information."
             }
@@ -4771,6 +4816,10 @@
           "readingHiragana": "いける",
           "meaning": "Potential form of 行く: to go",
           "exampleSentences": [
+            {
+              "ja": "知らない駅に行くときも、近くにある駅との関係から予想できます。",
+              "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
+            },
             {
               "ja": "週末に海へ行く予定がある人や、飛行機や船を使う人は、新しい情報を確認したほうがよさそうです。",
               "en": "People planning to go to the sea over the weekend, or to use planes or boats, should check the latest information."
@@ -5429,6 +5478,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "この考え方ができると、毎回ルート検索に時間を取られにくくなります。",
+          "en": "Once you can think this way, you do not spend as much time on route searches every time."
+        },
+        {
           "ja": "台風の進路は、数時間で変わることがあります。",
           "en": "A typhoon's path can change within a few hours."
         },
@@ -5443,10 +5496,6 @@
         {
           "ja": "モロッコは中盤でボールをよく動かし、ブラジルに簡単な時間を与えませんでした。",
           "en": "Morocco moved the ball well in midfield and did not give Brazil easy moments."
-        },
-        {
-          "ja": "危険な時間帯には、屋外の仕事を減らし、日陰で休む時間を長くしています。",
-          "en": "During dangerous time periods, they reduce outdoor work and take longer breaks in the shade."
         }
       ]
     },
@@ -5921,6 +5970,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
+          "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
+        },
+        {
+          "ja": "先に全体を見ると、細かい線も覚えやすくなります。",
+          "en": "When you look at the whole picture first, the smaller lines are easier to remember too."
+        },
+        {
           "ja": "病院や介護施設では、高齢者の体調に特に注意しています。",
           "en": "Hospitals and care homes are paying special attention to the health of older people."
         },
@@ -5931,14 +5988,6 @@
         {
           "ja": "専門家は、アプリだけに頼らず、自分の体調にも注意してほしいと話しています。",
           "en": "Experts say people should not rely only on apps and should also pay attention to their own physical condition."
-        },
-        {
-          "ja": "各地で停電や浸水、倒木の報告が相次ぎ、自治体は早めの避難を呼びかけました。",
-          "en": "On the 3rd, Typhoon No. 6 moved across Japan with strong winds and heavy rain. Power outages, flooding, and fallen trees were reported in many places, and local governments urged residents to evacuate early."
-        },
-        {
-          "ja": "地方の自治体が、若い農家を増やすために、みんなで使える大きな温室を作る計画を進めています。",
-          "en": "A local government is moving forward with a plan to build a large greenhouse that everyone can share in order to increase the number of young farmers."
         }
       ]
     },
@@ -6130,24 +6179,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "全部の路線を暗記しなくても、この方向だけでかなり考えやすくなります。",
+          "en": "You do not need to memorize every line; these directions alone make it much easier to think."
+        },
+        {
+          "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
+          "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
+        },
+        {
+          "ja": "この考え方ができると、毎回ルート検索に時間を取られにくくなります。",
+          "en": "Once you can think this way, you do not spend as much time on route searches every time."
+        },
+        {
           "ja": "一方、日本は、台湾の近くで大きな問題が起きれば、日本の安全にも関係すると見ています。",
           "en": "Japan, on the other hand, thinks that if a major problem happens near Taiwan, it would also affect Japan's safety."
         },
         {
           "ja": "6月24日の夕方、ベネズエラ北部で大きな地震が二つ続けて起きました。",
           "en": "On the evening of June 24, two major earthquakes struck northern Venezuela in quick succession."
-        },
-        {
-          "ja": "まだ行方が分からない人も多く、救助隊ががれきの中を探しています。",
-          "en": "Many people were still missing, and rescue teams were searching through rubble."
-        },
-        {
-          "ja": "研究チームは、環境だけでなく、スーパーやレストランまでの距離、道路の多さ、土地の使い方も集めました。",
-          "en": "The research team collected not only environmental data, but also distances to supermarkets and restaurants, road density, and land use."
-        },
-        {
-          "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
-          "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
         }
       ]
     },
@@ -6409,6 +6458,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
+          "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
+        },
         {
           "ja": "ドローンは、道路が通れるかどうかや、川の水がどこまで来ているかを、すばやく調べることができます。",
           "en": "Drones can quickly check whether roads are passable and how far river water has reached."
@@ -6874,6 +6927,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
+          "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
+        },
+        {
           "ja": "台風8号は、日本の南の海上を北東へ速く進んでいます。",
           "en": "Typhoon No. 8 is moving quickly northeast over the sea south of Japan. According to the JMA track forecast, it is expected to move away to the east of Honshu on June 27."
         },
@@ -6888,10 +6945,6 @@
         {
           "ja": "ベネズエラの北側では、カリブプレートと南アメリカプレートが横にずれています。",
           "en": "North of Venezuela, the Caribbean Plate and the South American Plate slide sideways past each other."
-        },
-        {
-          "ja": "東北のある県で、景色を楽しめる観光列車の人気が高まっています。",
-          "en": "In one prefecture in Tohoku, a sightseeing train that lets passengers enjoy the scenery is becoming more popular."
         }
       ]
     },
@@ -8367,6 +8420,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "乗り換えのたびに地図を開かなくても、頭の中で道を組みたてられるようになります。",
+          "en": "Even without opening a map for each transfer, you can start building the route in your head."
+        },
+        {
           "ja": "研究チームは、環境だけでなく、スーパーやレストランまでの距離、道路の多さ、土地の使い方も集めました。",
           "en": "The research team collected not only environmental data, but also distances to supermarkets and restaurants, road density, and land use."
         },
@@ -8381,10 +8438,6 @@
         {
           "ja": "JR東海によると、東海道新幹線の17駅のうち、ホームドアがあるのは東京、名古屋、新大阪など7駅です。",
           "en": "According to JR Central, seven of the 17 Tokaido Shinkansen stations—including Tokyo, Nagoya, and Shin-Osaka—have platform doors."
-        },
-        {
-          "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
-          "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
         }
       ]
     },
@@ -8558,6 +8611,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
+          "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
+        },
+        {
           "ja": "そのため、日本は南西の島々で防衛を強めています。",
           "en": "For that reason, Japan is strengthening its defense in the southwestern islands."
         },
@@ -8572,10 +8629,6 @@
         {
           "ja": "台風8号は、日本の南の海上を北東へ速く進んでいます。",
           "en": "Typhoon No. 8 is moving quickly northeast over the sea south of Japan. According to the JMA track forecast, it is expected to move away to the east of Honshu on June 27."
-        },
-        {
-          "ja": "ベネズエラの北側では、カリブプレートと南アメリカプレートが横にずれています。",
-          "en": "North of Venezuela, the Caribbean Plate and the South American Plate slide sideways past each other."
         }
       ]
     },
@@ -8609,6 +8662,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "先に全体を見ると、細かい線も覚えやすくなります。",
+          "en": "When you look at the whole picture first, the smaller lines are easier to remember too."
+        },
+        {
           "ja": "そのため、これからも日本が為替市場の動きを注意して見ると考えられています。",
           "en": "Because of that, Japan is expected to keep watching movements in the foreign exchange market carefully."
         }
@@ -8625,6 +8682,10 @@
           "meaning": "Polite form of 見る: to see, to look, to watch",
           "exampleSentences": [
             {
+              "ja": "先に全体を見ると、細かい線も覚えやすくなります。",
+              "en": "When you look at the whole picture first, the smaller lines are easier to remember too."
+            },
+            {
               "ja": "そのため、これからも日本が為替市場の動きを注意して見ると考えられています。",
               "en": "Because of that, Japan is expected to keep watching movements in the foreign exchange market carefully."
             }
@@ -8638,6 +8699,14 @@
           "readingHiragana": "みた",
           "meaning": "Plain past form of 見る: to see, to look, to watch",
           "exampleSentences": [
+            {
+              "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
+              "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
+            },
+            {
+              "ja": "先に全体を見ると、細かい線も覚えやすくなります。",
+              "en": "When you look at the whole picture first, the smaller lines are easier to remember too."
+            },
             {
               "ja": "そのため、これからも日本が為替市場の動きを注意して見ると考えられています。",
               "en": "Because of that, Japan is expected to keep watching movements in the foreign exchange market carefully."
@@ -8653,6 +8722,10 @@
           "meaning": "Plain negative form of 見る: to see, to look, to watch",
           "exampleSentences": [
             {
+              "ja": "先に全体を見ると、細かい線も覚えやすくなります。",
+              "en": "When you look at the whole picture first, the smaller lines are easier to remember too."
+            },
+            {
               "ja": "そのため、これからも日本が為替市場の動きを注意して見ると考えられています。",
               "en": "Because of that, Japan is expected to keep watching movements in the foreign exchange market carefully."
             }
@@ -8666,6 +8739,10 @@
           "readingHiragana": "みて",
           "meaning": "Te-form of 見る: to see, to look, to watch",
           "exampleSentences": [
+            {
+              "ja": "東京の駅は数が多くて、最初は路線図を見ても迷いやすいです。",
+              "en": "Tokyo has so many stations that it is easy to get lost at first, even if you look at a route map."
+            },
             {
               "ja": "一方、日本は、台湾の近くで大きな問題が起きれば、日本の安全にも関係すると見ています。",
               "en": "Japan, on the other hand, thinks that if a major problem happens near Taiwan, it would also affect Japan's safety."
@@ -8681,10 +8758,6 @@
             {
               "ja": "アプリは気温や湿度を見て、危険が高い時に知らせます。",
               "en": "The apps check temperature and humidity and send alerts when the danger is high."
-            },
-            {
-              "ja": "そのため、これからの国際情勢とエネルギー市場の動きを多くの人が注意して見ています。",
-              "en": "Because of that, many people are closely watching future international events and movements in the energy market."
             }
           ]
         },
@@ -8696,6 +8769,10 @@
           "readingHiragana": "みられる",
           "meaning": "Potential form of 見る: to see, to look, to watch",
           "exampleSentences": [
+            {
+              "ja": "先に全体を見ると、細かい線も覚えやすくなります。",
+              "en": "When you look at the whole picture first, the smaller lines are easier to remember too."
+            },
             {
               "ja": "そのため、これからも日本が為替市場の動きを注意して見ると考えられています。",
               "en": "Because of that, Japan is expected to keep watching movements in the foreign exchange market carefully."
@@ -8927,6 +9004,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
+          "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
+        },
+        {
           "ja": "LINEヤフーを持つLY社とベイン・キャピタルは、価格.",
           "en": "LY Corp, which owns Line Yahoo, and Bain Capital increased the money they will offer to buy Kakaku."
         }
@@ -8943,6 +9024,10 @@
           "meaning": "Polite form of 持つ: to hold (in one’s hands)",
           "exampleSentences": [
             {
+              "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
+              "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
+            },
+            {
               "ja": "LINEヤフーを持つLY社とベイン・キャピタルは、価格.",
               "en": "LY Corp, which owns Line Yahoo, and Bain Capital increased the money they will offer to buy Kakaku."
             }
@@ -8956,6 +9041,10 @@
           "readingHiragana": "もった",
           "meaning": "Plain past form of 持つ: to hold (in one’s hands)",
           "exampleSentences": [
+            {
+              "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
+              "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
+            },
             {
               "ja": "LINEヤフーを持つLY社とベイン・キャピタルは、価格.",
               "en": "LY Corp, which owns Line Yahoo, and Bain Capital increased the money they will offer to buy Kakaku."
@@ -8971,6 +9060,10 @@
           "meaning": "Plain negative form of 持つ: to hold (in one’s hands)",
           "exampleSentences": [
             {
+              "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
+              "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
+            },
+            {
               "ja": "LINEヤフーを持つLY社とベイン・キャピタルは、価格.",
               "en": "LY Corp, which owns Line Yahoo, and Bain Capital increased the money they will offer to buy Kakaku."
             }
@@ -8985,6 +9078,10 @@
           "meaning": "Te-form of 持つ: to hold (in one’s hands)",
           "exampleSentences": [
             {
+              "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
+              "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
+            },
+            {
               "ja": "LINEヤフーを持つLY社とベイン・キャピタルは、価格.",
               "en": "LY Corp, which owns Line Yahoo, and Bain Capital increased the money they will offer to buy Kakaku."
             }
@@ -8998,6 +9095,10 @@
           "readingHiragana": "もてる",
           "meaning": "Potential form of 持つ: to hold (in one’s hands)",
           "exampleSentences": [
+            {
+              "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
+              "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
+            },
             {
               "ja": "LINEヤフーを持つLY社とベイン・キャピタルは、価格.",
               "en": "LY Corp, which owns Line Yahoo, and Bain Capital increased the money they will offer to buy Kakaku."
@@ -9133,6 +9234,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
+          "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
+        },
+        {
+          "ja": "乗り換えのたびに地図を開かなくても、頭の中で道を組みたてられるようになります。",
+          "en": "Even without opening a map for each transfer, you can start building the route in your head."
+        },
+        {
           "ja": "日本と中国の関係は、経済では深くつながっています。",
           "en": "Japan and China are deeply connected through the economy."
         },
@@ -9143,14 +9252,6 @@
         {
           "ja": "しかし、もしアメリカと中国の関係が少しよくなると、日本は不安になります。",
           "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
-        },
-        {
-          "ja": "日本と中国は貿易で互いに必要な国です。",
-          "en": "Japan and China need each other in trade."
-        },
-        {
-          "ja": "しかし、中国がレアアースなどの大切な材料の輸出を制限することがあります。",
-          "en": "But China sometimes restricts exports of important materials such as rare earths."
         }
       ]
     },
@@ -9584,24 +9685,24 @@
           "meaning": "Polite form of なる: to become",
           "exampleSentences": [
             {
-              "ja": "しかし、もしアメリカと中国の関係が少しよくなると、日本は不安になります。",
-              "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
+              "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
+              "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
             },
             {
-              "ja": "案が通れば、人口が950万人に近づいたとき、政府は移民や難民、家族の呼び寄せを厳しく制限することになります。",
-              "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
+              "ja": "全部の路線を暗記しなくても、この方向だけでかなり考えやすくなります。",
+              "en": "You do not need to memorize every line; these directions alone make it much easier to think."
             },
             {
-              "ja": "たくさん買うことで、株価を支える力になります。",
-              "en": "Buying many shares can help support the price."
+              "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
+              "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
             },
             {
-              "ja": "会社によると、夏の暑い時期には冷房のためにたくさんの電力が必要になります。",
-              "en": "According to the company, a lot of electricity is needed for air conditioning during hot summer periods."
+              "ja": "この考え方ができると、毎回ルート検索に時間を取られにくくなります。",
+              "en": "Once you can think this way, you do not spend as much time on route searches every time."
             },
             {
-              "ja": "ここが十分に使えないと、世界中に石油を送ることがむずかしくなります。",
-              "en": "If it cannot be used fully, it becomes difficult to send oil around the world."
+              "ja": "乗り換えのたびに地図を開かなくても、頭の中で道を組みたてられるようになります。",
+              "en": "Even without opening a map for each transfer, you can start building the route in your head."
             }
           ]
         },
@@ -9949,6 +10050,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
+          "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
+        },
         {
           "ja": "そのため、日本は南西の島々で防衛を強めています。",
           "en": "For that reason, Japan is strengthening its defense in the southwestern islands."
@@ -10355,7 +10460,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
+          "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "ichidan",
       "verbForms": [
@@ -10366,7 +10476,12 @@
           "term": "覚えます",
           "readingHiragana": "おぼえます",
           "meaning": "Polite form of 覚える: to memorize, to remember",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
+              "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
+            }
+          ]
         },
         {
           "form": "past",
@@ -10375,7 +10490,12 @@
           "term": "覚えた",
           "readingHiragana": "おぼえた",
           "meaning": "Plain past form of 覚える: to memorize, to remember",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
+              "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -10384,7 +10504,12 @@
           "term": "覚えない",
           "readingHiragana": "おぼえない",
           "meaning": "Plain negative form of 覚える: to memorize, to remember",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
+              "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
+            }
+          ]
         },
         {
           "form": "te",
@@ -10393,7 +10518,12 @@
           "term": "覚えて",
           "readingHiragana": "おぼえて",
           "meaning": "Te-form of 覚える: to memorize, to remember",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
+              "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -10402,7 +10532,12 @@
           "term": "覚えられる",
           "readingHiragana": "おぼえられる",
           "meaning": "Potential form of 覚える: to memorize, to remember",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
+              "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
+            }
+          ]
         }
       ]
     },
@@ -11773,6 +11908,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
+          "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
+        },
+        {
+          "ja": "先に全体を見ると、細かい線も覚えやすくなります。",
+          "en": "When you look at the whole picture first, the smaller lines are easier to remember too."
+        },
+        {
           "ja": "車両の先頭部分が壊れた可能性があり、JR東海が調べています。",
           "en": "The front of the train may have been damaged, and JR Central is investigating."
         },
@@ -11783,10 +11926,6 @@
         {
           "ja": "ロイターの記事では、ブレント原油の先物価格が3ドル以上上がり、1バレル104.",
           "en": "The Reuters article said that Brent crude futures rose more than 3 dollars to 104."
-        },
-        {
-          "ja": "日本政府は、国内で先端半導体を作る力を強くしたいと考えています。",
-          "en": "The Japanese government wants to strengthen its ability to make advanced semiconductors inside the country."
         }
       ]
     },
@@ -12567,7 +12706,12 @@
           "term": "知らない",
           "readingHiragana": "しらない",
           "meaning": "Plain negative form of 知る: to be aware of, to know",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "知らない駅に行くときも、近くにある駅との関係から予想できます。",
+              "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
+            }
+          ]
         },
         {
           "form": "te",
@@ -12604,6 +12748,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京の地下鉄やJRは複雑ですが、大きな駅の位置を地図の骨組みにすると、少しずつ慣れていきます。",
+          "en": "Tokyo’s subways and JR lines are complicated, but if you treat the positions of major stations as the frame of the map, you gradually get used to it."
+        },
+        {
           "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
           "en": "In London, people using the Underground and buses were also advised to drink water."
         },
@@ -12618,10 +12766,6 @@
         {
           "ja": "中東の緊張が下がるかどうかは、これからの交渉にかかっています。",
           "en": "Whether tensions in the Middle East will decrease depends on the negotiations from here."
-        },
-        {
-          "ja": "もし上場後に株価が下がれば、証券会社は市場で株を買い戻します。",
-          "en": "If the share price falls after listing, the securities firms buy shares back in the market."
         }
       ]
     },
@@ -12902,6 +13046,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
+          "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
+        },
+        {
+          "ja": "東京の地下鉄やJRは複雑ですが、大きな駅の位置を地図の骨組みにすると、少しずつ慣れていきます。",
+          "en": "Tokyo’s subways and JR lines are complicated, but if you treat the positions of major stations as the frame of the map, you gradually get used to it."
+        },
+        {
           "ja": "しかし、もしアメリカと中国の関係が少しよくなると、日本は不安になります。",
           "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
         },
@@ -12912,14 +13064,6 @@
         {
           "ja": "ブラジルにとっては、少し危ない始まりでした。",
           "en": "For Brazil, it was a slightly dangerous start."
-        },
-        {
-          "ja": "後半はブラジルが少し形を直しましたが、モロッコの守備も強かったです。",
-          "en": "In the second half Brazil improved their shape a little, but Morocco’s defense was also strong."
-        },
-        {
-          "ja": "そのため、現金の対応も残しながら、少しずつ切り替える方針です。",
-          "en": "For that reason, cash support will remain while the system is changed gradually."
         }
       ]
     },
@@ -13022,6 +13166,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
+          "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
+        },
+        {
+          "ja": "東京の地下鉄やJRは複雑ですが、大きな駅の位置を地図の骨組みにすると、少しずつ慣れていきます。",
+          "en": "Tokyo’s subways and JR lines are complicated, but if you treat the positions of major stations as the frame of the map, you gradually get used to it."
+        },
+        {
           "ja": "一方、日本は、台湾の近くで大きな問題が起きれば、日本の安全にも関係すると見ています。",
           "en": "Japan, on the other hand, thinks that if a major problem happens near Taiwan, it would also affect Japan's safety."
         },
@@ -13032,14 +13184,6 @@
         {
           "ja": "スイスのバーゼルでは38度近くまで上がり、オランダでは初めて暑さに関する赤い警報が出されました。",
           "en": "In Basel, Switzerland, temperatures rose close to 38 degrees Celsius, and the Netherlands issued its first red alert for heat."
-        },
-        {
-          "ja": "二つの台風は、上陸するかどうかだけでなく、海の波や強い雨にも注意が必要です。",
-          "en": "With the two typhoons, people need to watch not only whether they make landfall, but also ocean waves and heavy rain."
-        },
-        {
-          "ja": "中心が遠くても、湿った空気が流れ込むと、雨雲が発達することがあります。",
-          "en": "Even when a storm center is far away, moist air can flow in and help rain clouds develop."
         }
       ],
       "partOfSpeech": "verb",
@@ -13118,20 +13262,20 @@
               "en": "While its convenience is recognized, it is considered important not to weaken students’ ability to think for themselves."
             },
             {
+              "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
+              "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
+            },
+            {
+              "ja": "東京の地下鉄やJRは複雑ですが、大きな駅の位置を地図の骨組みにすると、少しずつ慣れていきます。",
+              "en": "Tokyo’s subways and JR lines are complicated, but if you treat the positions of major stations as the frame of the map, you gradually get used to it."
+            },
+            {
               "ja": "一方、日本は、台湾の近くで大きな問題が起きれば、日本の安全にも関係すると見ています。",
               "en": "Japan, on the other hand, thinks that if a major problem happens near Taiwan, it would also affect Japan's safety."
             },
             {
               "ja": "しかし、中国がレアアースなどの大切な材料の輸出を制限することがあります。",
               "en": "But China sometimes restricts exports of important materials such as rare earths."
-            },
-            {
-              "ja": "スイスのバーゼルでは38度近くまで上がり、オランダでは初めて暑さに関する赤い警報が出されました。",
-              "en": "In Basel, Switzerland, temperatures rose close to 38 degrees Celsius, and the Netherlands issued its first red alert for heat."
-            },
-            {
-              "ja": "二つの台風は、上陸するかどうかだけでなく、海の波や強い雨にも注意が必要です。",
-              "en": "With the two typhoons, people need to watch not only whether they make landfall, but also ocean waves and heavy rain."
             }
           ]
         },
@@ -13174,6 +13318,10 @@
           "meaning": "Potential form of する: to do",
           "exampleSentences": [
             {
+              "ja": "この考え方ができると、毎回ルート検索に時間を取られにくくなります。",
+              "en": "Once you can think this way, you do not spend as much time on route searches every time."
+            },
+            {
               "ja": "本の探し方や貸し出しの手続きを、画面を見ながら説明できるようになりました。",
               "en": "People can now see on-screen explanations of how to find books and complete borrowing procedures."
             },
@@ -13188,10 +13336,6 @@
             {
               "ja": "関係者は、この温室をきっかけに、販売や出荷も協力してできるようにしたいと話しています。",
               "en": "The people involved say they also want to use the greenhouse as a starting point for cooperative selling and shipping."
-            },
-            {
-              "ja": "一部の駅では、災害のときにスマートフォンを充電できる場所としても活用する考えです。",
-              "en": "At some stations, the system may also be used as a place where people can charge smartphones during disasters."
             }
           ]
         }
@@ -14312,6 +14456,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
+          "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
+        },
+        {
           "ja": "首都カラカスから西へ約160キロの場所です。",
           "en": "The epicenter was near the town of Moron on the Caribbean coast, about 160 kilometers west of the capital, Caracas. The shaking was felt across a wide area in the north, and buildings collapsed in Caracas and La Guaira."
         },
@@ -14326,10 +14474,6 @@
         {
           "ja": "ホルムズ海峡は、世界の石油や貿易にとってとても重要な場所です。",
           "en": "The Strait of Hormuz is very important for the world's oil and trade."
-        },
-        {
-          "ja": "女性は土曜日の朝、岸に近い場所で泳いでいました。",
-          "en": "She was swimming near the shore on Saturday morning."
         }
       ]
     },
@@ -15164,6 +15308,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
+          "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
+        },
+        {
           "ja": "フランス、イギリス、スイス、オランダなどで気温が大きく上がり、多くの町で6月としては異例の暑さになりました。",
           "en": "Temperatures rose sharply in countries such as France, the United Kingdom, Switzerland, and the Netherlands, bringing unusual June heat to many towns and cities."
         },
@@ -15178,10 +15326,6 @@
         {
           "ja": "台風7号は21時の時点で、奄美や沖縄に近い東の海上にありました。",
           "en": "As of 9 p.m., Typhoon No. 7 was over waters east of areas near Amami and Okinawa. The forecast says it may move close to the Kanto region by the night of June 27."
-        },
-        {
-          "ja": "台風8号は、日本の南の海上を北東へ速く進んでいます。",
-          "en": "Typhoon No. 8 is moving quickly northeast over the sea south of Japan. According to the JMA track forecast, it is expected to move away to the east of Honshu on June 27."
         }
       ]
     },
@@ -16514,6 +16658,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "全部の路線を暗記しなくても、この方向だけでかなり考えやすくなります。",
+          "en": "You do not need to memorize every line; these directions alone make it much easier to think."
+        },
+        {
           "ja": "今回の追加支援で、ラピダスへの研究開発支援は全部で2兆3540億円になりました。",
           "en": "With this additional support, total research and development support for Rapidus reached 2.354 trillion yen."
         }
@@ -17835,6 +17983,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
+          "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
+        },
+        {
           "ja": "首都カラカスから西へ約160キロの場所です。",
           "en": "The epicenter was near the town of Moron on the Caribbean coast, about 160 kilometers west of the capital, Caracas. The shaking was felt across a wide area in the north, and buildings collapsed in Caracas and La Guaira."
         },
@@ -17849,10 +18001,6 @@
         {
           "ja": "ホルムズ海峡は、世界の石油や貿易にとってとても重要な場所です。",
           "en": "The Strait of Hormuz is very important for the world's oil and trade."
-        },
-        {
-          "ja": "女性は土曜日の朝、岸に近い場所で泳いでいました。",
-          "en": "She was swimming near the shore on Saturday morning."
         }
       ]
     },
@@ -18719,7 +18867,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "東京の地下鉄やJRは複雑ですが、大きな駅の位置を地図の骨組みにすると、少しずつ慣れていきます。",
+          "en": "Tokyo’s subways and JR lines are complicated, but if you treat the positions of major stations as the frame of the map, you gradually get used to it."
+        }
+      ]
     },
     {
       "id": "core-063c4c9f6fb1ac",
@@ -21830,6 +21983,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
+          "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
+        },
+        {
           "ja": "日本は「アメリカは本当に日本を守ってくれるのか」と考えるからです。",
           "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
         },
@@ -21844,10 +22001,6 @@
         {
           "ja": "政府は、今後の価格の動きを見ながら、さらに対応を考える方針です。",
           "en": "The government plans to consider further action while watching future price movements."
-        },
-        {
-          "ja": "便利さを認めながらも、考える力を弱くしないことが大切だとされています。",
-          "en": "While its convenience is recognized, it is considered important not to weaken students’ ability to think for themselves."
         }
       ],
       "partOfSpeech": "verb",
@@ -21862,6 +22015,10 @@
           "meaning": "Polite form of 考える: to think about",
           "exampleSentences": [
             {
+              "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
+              "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
+            },
+            {
               "ja": "日本は「アメリカは本当に日本を守ってくれるのか」と考えるからです。",
               "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
             },
@@ -21876,10 +22033,6 @@
             {
               "ja": "政府は、今後の価格の動きを見ながら、さらに対応を考える方針です。",
               "en": "The government plans to consider further action while watching future price movements."
-            },
-            {
-              "ja": "便利さを認めながらも、考える力を弱くしないことが大切だとされています。",
-              "en": "While its convenience is recognized, it is considered important not to weaken students’ ability to think for themselves."
             }
           ]
         },
@@ -21892,6 +22045,10 @@
           "meaning": "Plain past form of 考える: to think about",
           "exampleSentences": [
             {
+              "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
+              "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
+            },
+            {
               "ja": "日本は「アメリカは本当に日本を守ってくれるのか」と考えるからです。",
               "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
             },
@@ -21906,10 +22063,6 @@
             {
               "ja": "政府は、今後の価格の動きを見ながら、さらに対応を考える方針です。",
               "en": "The government plans to consider further action while watching future price movements."
-            },
-            {
-              "ja": "便利さを認めながらも、考える力を弱くしないことが大切だとされています。",
-              "en": "While its convenience is recognized, it is considered important not to weaken students’ ability to think for themselves."
             }
           ]
         },
@@ -21922,6 +22075,10 @@
           "meaning": "Plain negative form of 考える: to think about",
           "exampleSentences": [
             {
+              "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
+              "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
+            },
+            {
               "ja": "日本は「アメリカは本当に日本を守ってくれるのか」と考えるからです。",
               "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
             },
@@ -21936,10 +22093,6 @@
             {
               "ja": "政府は、今後の価格の動きを見ながら、さらに対応を考える方針です。",
               "en": "The government plans to consider further action while watching future price movements."
-            },
-            {
-              "ja": "便利さを認めながらも、考える力を弱くしないことが大切だとされています。",
-              "en": "While its convenience is recognized, it is considered important not to weaken students’ ability to think for themselves."
             }
           ]
         },
@@ -21982,6 +22135,10 @@
           "meaning": "Potential form of 考える: to think about",
           "exampleSentences": [
             {
+              "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
+              "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
+            },
+            {
               "ja": "日本は「アメリカは本当に日本を守ってくれるのか」と考えるからです。",
               "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
             },
@@ -21996,10 +22153,6 @@
             {
               "ja": "政府は、今後の価格の動きを見ながら、さらに対応を考える方針です。",
               "en": "The government plans to consider further action while watching future price movements."
-            },
-            {
-              "ja": "便利さを認めながらも、考える力を弱くしないことが大切だとされています。",
-              "en": "While its convenience is recognized, it is considered important not to weaken students’ ability to think for themselves."
             }
           ]
         }
@@ -22020,6 +22173,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
+          "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
+        },
+        {
+          "ja": "知らない駅に行くときも、近くにある駅との関係から予想できます。",
+          "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
+        },
+        {
           "ja": "日本と中国の関係は、経済では深くつながっています。",
           "en": "Japan and China are deeply connected through the economy."
         },
@@ -22030,14 +22191,6 @@
         {
           "ja": "しかし、もしアメリカと中国の関係が少しよくなると、日本は不安になります。",
           "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
-        },
-        {
-          "ja": "スイスはEU加盟国ではありませんが、EUとの関係はとても深いです。",
-          "en": "Switzerland is not an EU member, but its relationship with the EU is very deep."
-        },
-        {
-          "ja": "関係者は、この温室をきっかけに、販売や出荷も協力してできるようにしたいと話しています。",
-          "en": "The people involved say they also want to use the greenhouse as a starting point for cooperative selling and shipping."
         }
       ]
     },
@@ -23348,6 +23501,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
+          "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
+        },
+        {
           "ja": "中心が遠くても、湿った空気が流れ込むと、雨雲が発達することがあります。",
           "en": "Even when a storm center is far away, moist air can flow in and help rain clouds develop."
         },
@@ -23362,10 +23519,6 @@
         {
           "ja": "栃木県の宇都宮市で、クマが町の中に出たため、多くの人が心配しました。",
           "en": "In Utsunomiya, Tochigi Prefecture, many people became worried after a bear appeared in town."
-        },
-        {
-          "ja": "ふだんの便利さだけでなく、もしものときの安心にもつなげたいとしています。",
-          "en": "The goal is to provide not only everyday convenience but also reassurance in emergencies."
         }
       ]
     },
@@ -23439,6 +23592,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "先に全体を見ると、細かい線も覚えやすくなります。",
+          "en": "When you look at the whole picture first, the smaller lines are easier to remember too."
+        },
         {
           "ja": "二酸化炭素、二酸化窒素、細かい粒子の汚染、緑の多さなどを同じ場所ごとに比べられます。",
           "en": "It can compare carbon dioxide, nitrogen dioxide, fine-particle pollution, the amount of greenery, and other data for the same kinds of locations."
@@ -26321,7 +26478,12 @@
           "term": "慣れて",
           "readingHiragana": "なれて",
           "meaning": "Te-form of 慣れる: to get used to",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "東京の地下鉄やJRは複雑ですが、大きな駅の位置を地図の骨組みにすると、少しずつ慣れていきます。",
+              "en": "Tokyo’s subways and JR lines are complicated, but if you treat the positions of major stations as the frame of the map, you gradually get used to it."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -29015,6 +29177,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京の駅は数が多くて、最初は路線図を見ても迷いやすいです。",
+          "en": "Tokyo has so many stations that it is easy to get lost at first, even if you look at a route map."
+        },
+        {
           "ja": "最初の地震はマグニチュード7・2で、その39秒後にマグニチュード7・5の地震が起きました。",
           "en": "The first was magnitude seven point two, and 39 seconds later a magnitude seven point five quake occurred."
         }
@@ -29496,24 +29662,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京の駅は数が多くて、最初は路線図を見ても迷いやすいです。",
+          "en": "Tokyo has so many stations that it is easy to get lost at first, even if you look at a route map."
+        },
+        {
+          "ja": "全部の路線を暗記しなくても、この方向だけでかなり考えやすくなります。",
+          "en": "You do not need to memorize every line; these directions alone make it much easier to think."
+        },
+        {
+          "ja": "先に全体を見ると、細かい線も覚えやすくなります。",
+          "en": "When you look at the whole picture first, the smaller lines are easier to remember too."
+        },
+        {
           "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
           "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
         },
         {
           "ja": "防犯カメラなどによると、その人は上りホームの柵の切れ目から線路に降りました。",
           "en": "According to security-camera footage and other evidence, the person went down to the tracks through a gap in the fence on the inbound platform."
-        },
-        {
-          "ja": "そして、2本の線路を横断し、下り線まで歩いたことが確認されました。",
-          "en": "The person then crossed two tracks and walked to the outbound track."
-        },
-        {
-          "ja": "この事故で、東海道新幹線は東京と新大阪の間の全線で運転を見合わせました。",
-          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
-        },
-        {
-          "ja": "山陽新幹線の上り線にも影響が広がりました。",
-          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
         }
       ]
     },
@@ -30457,7 +30623,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
+          "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
+        }
+      ]
     },
     {
       "id": "core-71d922897869d9",
@@ -36016,7 +36187,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "全部の路線を暗記しなくても、この方向だけでかなり考えやすくなります。",
+          "en": "You do not need to memorize every line; these directions alone make it much easier to think."
+        }
+      ]
     },
     {
       "id": "core-a2acfd5c6e671b",
@@ -36940,6 +37116,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
+          "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
+        },
+        {
           "ja": "首都カラカスから西へ約160キロの場所です。",
           "en": "The epicenter was near the town of Moron on the Caribbean coast, about 160 kilometers west of the capital, Caracas. The shaking was felt across a wide area in the north, and buildings collapsed in Caracas and La Guaira."
         },
@@ -36954,10 +37134,6 @@
         {
           "ja": "ホルムズ海峡は、世界の石油や貿易にとってとても重要な場所です。",
           "en": "The Strait of Hormuz is very important for the world's oil and trade."
-        },
-        {
-          "ja": "女性は土曜日の朝、岸に近い場所で泳いでいました。",
-          "en": "She was swimming near the shore on Saturday morning."
         }
       ]
     },
@@ -37890,6 +38066,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京の地下鉄やJRは複雑ですが、大きな駅の位置を地図の骨組みにすると、少しずつ慣れていきます。",
+          "en": "Tokyo’s subways and JR lines are complicated, but if you treat the positions of major stations as the frame of the map, you gradually get used to it."
+        },
+        {
           "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
           "en": "In London, people using the Underground and buses were also advised to drink water."
         }
@@ -38309,6 +38489,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
+          "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
+        },
         {
           "ja": "中心が遠くても、湿った空気が流れ込むと、雨雲が発達することがあります。",
           "en": "Even when a storm center is far away, moist air can flow in and help rain clouds develop."
@@ -44488,7 +44672,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "東京の地下鉄やJRは複雑ですが、大きな駅の位置を地図の骨組みにすると、少しずつ慣れていきます。",
+          "en": "Tokyo’s subways and JR lines are complicated, but if you treat the positions of major stations as the frame of the map, you gradually get used to it."
+        }
+      ]
     },
     {
       "id": "core-07c3ecd2450813",
@@ -44768,24 +44957,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "全部の路線を暗記しなくても、この方向だけでかなり考えやすくなります。",
+          "en": "You do not need to memorize every line; these directions alone make it much easier to think."
+        },
+        {
+          "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
+          "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
+        },
+        {
+          "ja": "この考え方ができると、毎回ルート検索に時間を取られにくくなります。",
+          "en": "Once you can think this way, you do not spend as much time on route searches every time."
+        },
+        {
           "ja": "一方、日本は、台湾の近くで大きな問題が起きれば、日本の安全にも関係すると見ています。",
           "en": "Japan, on the other hand, thinks that if a major problem happens near Taiwan, it would also affect Japan's safety."
         },
         {
           "ja": "6月24日の夕方、ベネズエラ北部で大きな地震が二つ続けて起きました。",
           "en": "On the evening of June 24, two major earthquakes struck northern Venezuela in quick succession."
-        },
-        {
-          "ja": "まだ行方が分からない人も多く、救助隊ががれきの中を探しています。",
-          "en": "Many people were still missing, and rescue teams were searching through rubble."
-        },
-        {
-          "ja": "研究チームは、環境だけでなく、スーパーやレストランまでの距離、道路の多さ、土地の使い方も集めました。",
-          "en": "The research team collected not only environmental data, but also distances to supermarkets and restaurants, road density, and land use."
-        },
-        {
-          "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
-          "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
         }
       ]
     },
@@ -44916,7 +45105,16 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "全部の路線を暗記しなくても、この方向だけでかなり考えやすくなります。",
+          "en": "You do not need to memorize every line; these directions alone make it much easier to think."
+        },
+        {
+          "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
+          "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
+        }
+      ]
     },
     {
       "id": "core-16ec4bdbdf7e4c",
@@ -45145,7 +45343,16 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
+          "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
+        },
+        {
+          "ja": "東京の地下鉄やJRは複雑ですが、大きな駅の位置を地図の骨組みにすると、少しずつ慣れていきます。",
+          "en": "Tokyo’s subways and JR lines are complicated, but if you treat the positions of major stations as the frame of the map, you gradually get used to it."
+        }
+      ]
     },
     {
       "id": "core-ea7191b7af6f99",
@@ -47912,6 +48119,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "この考え方ができると、毎回ルート検索に時間を取られにくくなります。",
+          "en": "Once you can think this way, you do not spend as much time on route searches every time."
+        },
+        {
           "ja": "ホームドアがない駅では、安全のために職員がホームを見回っています。",
           "en": "At stations without platform doors, staff patrol the platforms for safety."
         },
@@ -47926,10 +48137,6 @@
         {
           "ja": "今回の引き分けで、今年も強い相手になりそうだと感じさせました。",
           "en": "This draw made people feel that Morocco may again be a strong opponent this year."
-        },
-        {
-          "ja": "天候が回復した地域から、順次再開する動きも見られました。",
-          "en": "In areas where the weather improved, operations began to restart gradually."
         }
       ]
     },
@@ -49307,6 +49514,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
+          "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
+        },
+        {
           "ja": "フランス、イギリス、スイス、オランダなどで気温が大きく上がり、多くの町で6月としては異例の暑さになりました。",
           "en": "Temperatures rose sharply in countries such as France, the United Kingdom, Switzerland, and the Netherlands, bringing unusual June heat to many towns and cities."
         },
@@ -49321,10 +49532,6 @@
         {
           "ja": "台風7号は21時の時点で、奄美や沖縄に近い東の海上にありました。",
           "en": "As of 9 p.m., Typhoon No. 7 was over waters east of areas near Amami and Okinawa. The forecast says it may move close to the Kanto region by the night of June 27."
-        },
-        {
-          "ja": "台風8号は、日本の南の海上を北東へ速く進んでいます。",
-          "en": "Typhoon No. 8 is moving quickly northeast over the sea south of Japan. According to the JMA track forecast, it is expected to move away to the east of Honshu on June 27."
         }
       ]
     },
@@ -49578,24 +49785,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "全部の路線を暗記しなくても、この方向だけでかなり考えやすくなります。",
+          "en": "You do not need to memorize every line; these directions alone make it much easier to think."
+        },
+        {
+          "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
+          "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
+        },
+        {
+          "ja": "この考え方ができると、毎回ルート検索に時間を取られにくくなります。",
+          "en": "Once you can think this way, you do not spend as much time on route searches every time."
+        },
+        {
           "ja": "中国は台湾を自分の一部だと考えています。",
           "en": "China considers Taiwan part of its own territory."
         },
         {
           "ja": "日本は「アメリカは本当に日本を守ってくれるのか」と考えるからです。",
           "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
-        },
-        {
-          "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
-          "en": "The information was made to test how well AI can think about the present and future of cities."
-        },
-        {
-          "ja": "リンクはわずか9か月で開発され、スウィフトは修理されることを考えて作られていません。",
-          "en": "Link was developed in only nine months, and Swift was not designed to be serviced."
-        },
-        {
-          "ja": "今回の結果は、移民への不安と、EUとの結びつきを守りたい考えが、スイス社会でぶつかっていることを示しました。",
-          "en": "\" The result showed that anxiety about immigration and the wish to protect ties with the EU are clashing in Swiss society."
         }
       ]
     },
@@ -50535,16 +50742,16 @@
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
         },
         {
+          "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
+          "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
+        },
+        {
+          "ja": "知らない駅に行くときも、近くにある駅との関係から予想できます。",
+          "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
+        },
+        {
           "ja": "日本と中国の関係は、経済では深くつながっています。",
           "en": "Japan and China are deeply connected through the economy."
-        },
-        {
-          "ja": "一方、日本は、台湾の近くで大きな問題が起きれば、日本の安全にも関係すると見ています。",
-          "en": "Japan, on the other hand, thinks that if a major problem happens near Taiwan, it would also affect Japan's safety."
-        },
-        {
-          "ja": "しかし、もしアメリカと中国の関係が少しよくなると、日本は不安になります。",
-          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
         }
       ],
       "partOfSpeech": "verb",
@@ -50956,6 +51163,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
+          "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
+        },
+        {
           "ja": "フランスの一部では学校が休みになり、屋外の活動を避けるよう呼びかけられました。",
           "en": "In parts of France, schools were closed, and people were urged to avoid outdoor activities."
         },
@@ -50970,10 +51181,6 @@
         {
           "ja": "この動きは浅い地震を起こしやすく、地上の建物に強い被害を出すことがあります。",
           "en": "This movement can cause shallow earthquakes, which can heavily damage buildings on the surface."
-        },
-        {
-          "ja": "人が集まる力や、経済活動の種類も調べています。",
-          "en": "It also studies a city's ability to attract people and the variety of its economic activity."
         }
       ]
     },
@@ -51277,6 +51484,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京の駅は数が多くて、最初は路線図を見ても迷いやすいです。",
+          "en": "Tokyo has so many stations that it is easy to get lost at first, even if you look at a route map."
+        },
+        {
           "ja": "台風の進路は、数時間で変わることがあります。",
           "en": "A typhoon's path can change within a few hours."
         },
@@ -51291,10 +51502,6 @@
         {
           "ja": "実際には、沖縄県や宮崎県などで数センチから30センチほどの波が観測されました。",
           "en": "In reality, waves from several centimeters to about 30 centimeters were observed in places such as Okinawa and Miyazaki prefectures."
-        },
-        {
-          "ja": "死者数や全壊・焼失する建物の数を、想定より半分以下に抑えることを目標にします。",
-          "en": "Its goal is to cut the expected deaths and destroyed or burned buildings to less than half of the estimate."
         }
       ]
     },
@@ -54955,6 +55162,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "乗り換えのたびに地図を開かなくても、頭の中で道を組みたてられるようになります。",
+          "en": "Even without opening a map for each transfer, you can start building the route in your head."
+        },
+        {
+          "ja": "東京の地下鉄やJRは複雑ですが、大きな駅の位置を地図の骨組みにすると、少しずつ慣れていきます。",
+          "en": "Tokyo’s subways and JR lines are complicated, but if you treat the positions of major stations as the frame of the map, you gradually get used to it."
+        },
+        {
           "ja": "そのため、必要な時だけ走る仕組みにして、運転手や燃料の負担を減らしたい考えです。",
           "en": "The town wants to reduce the burden on drivers and fuel use by running buses only when needed."
         },
@@ -54965,14 +55180,6 @@
         {
           "ja": "地域の農業を守るための新しい仕組みとして注目されています。",
           "en": "It is attracting attention as a new system for protecting local agriculture."
-        },
-        {
-          "ja": "ベンチや日陰と組み合わせることで、熱中症の予防にもつなげたいとしています。",
-          "en": "By combining the mist with benches and shade, the cities also hope to help prevent heatstroke."
-        },
-        {
-          "ja": "必要なときだけ自動で動く仕組みを入れる例もあります。",
-          "en": "Some examples include systems that run automatically only when needed."
         }
       ]
     },
@@ -55235,7 +55442,16 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
+          "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
+        },
+        {
+          "ja": "東京の地下鉄やJRは複雑ですが、大きな駅の位置を地図の骨組みにすると、少しずつ慣れていきます。",
+          "en": "Tokyo’s subways and JR lines are complicated, but if you treat the positions of major stations as the frame of the map, you gradually get used to it."
+        }
+      ]
     },
     {
       "id": "core-b29b6330816c10",
@@ -59327,6 +59543,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
+          "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
+        },
+        {
           "ja": "名前は「アーバンウェル」です。",
           "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
         },
@@ -59341,10 +59561,6 @@
         {
           "ja": "首相は、ドラマーのイアン・ペイスさんに自分の名前を書いたドラムスティックを贈りました。",
           "en": "The prime minister gave drummer Ian Paice a pair of drumsticks signed with her name."
-        },
-        {
-          "ja": "政治の場所に有名なロックバンドが来るのは少し意外ですが、文化や音楽を通して国どうしの交流を深めたいという考えもあります。",
-          "en": "It is a little surprising for a famous rock band to visit a political office, but there is also an idea of deepening ties between countries through culture and music."
         }
       ]
     },
@@ -60812,6 +61028,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
+          "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
+        },
         {
           "ja": "医療、金融、技術などの分野では、外国から来た働く人が重要です。",
           "en": "In fields such as healthcare, finance, and technology, workers from other countries are important."
@@ -67277,6 +67497,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
+          "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
+        },
+        {
           "ja": "自動車メーカーの一部は、従業員の安全や部品輸送への影響を考慮して、工場の操業を一時停止しました。",
           "en": "Some automakers temporarily stopped factory operations after considering worker safety and impacts on parts transport."
         },
@@ -67291,10 +67515,6 @@
         {
           "ja": "関係者は、品質を守りながら輸出を広げたいと話しています。",
           "en": "People involved say they want to expand exports while protecting quality."
-        },
-        {
-          "ja": "のりは軽くて運びやすいため、これからも日本の食文化を伝える商品として期待されています。",
-          "en": "Because seaweed is light and easy to transport, it is expected to remain an important product for sharing Japanese food culture."
         }
       ]
     },
@@ -73105,6 +73325,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京の地下鉄やJRは複雑ですが、大きな駅の位置を地図の骨組みにすると、少しずつ慣れていきます。",
+          "en": "Tokyo’s subways and JR lines are complicated, but if you treat the positions of major stations as the frame of the map, you gradually get used to it."
+        },
+        {
           "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
           "en": "In London, people using the Underground and buses were also advised to drink water."
         },
@@ -73523,6 +73747,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "この考え方ができると、毎回ルート検索に時間を取られにくくなります。",
+          "en": "Once you can think this way, you do not spend as much time on route searches every time."
+        },
+        {
           "ja": "二つの台風が日本の南の海で同時に動いています。",
           "en": "On the night of June 26, the Japan Meteorological Agency released information on Typhoon No. 7, Mekkhala, and Typhoon No. 8, Higos. The two typhoons are moving at the same time over the sea south of Japan."
         },
@@ -73537,10 +73765,6 @@
         {
           "ja": "同じくらいの強さの地震が、近い場所で短い時間に起きることです。",
           "en": "\" It means earthquakes of similar strength happen close together in place and time."
-        },
-        {
-          "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
-          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
         }
       ]
     },
@@ -77008,6 +77232,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
+          "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
+        },
+        {
           "ja": "全国の学校で、生成AIを授業や宿題にどう使うかを決める動きが強まっています。",
           "en": "Schools across Japan are moving to decide how generative AI should be used in classes and homework."
         }
@@ -77834,6 +78062,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "知らない駅に行くときも、近くにある駅との関係から予想できます。",
+          "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
+        },
         {
           "ja": "太陽の活動が強くなり、地球の大気が広がったため、予想より強い抵抗を受けて高度が下がりました。",
           "en": "Stronger solar activity expanded Earth's atmosphere, so the telescope experienced more drag than expected and lost altitude."
@@ -78924,7 +79156,16 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
+          "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
+        },
+        {
+          "ja": "先に全体を見ると、細かい線も覚えやすくなります。",
+          "en": "When you look at the whole picture first, the smaller lines are easier to remember too."
+        }
+      ]
     },
     {
       "id": "core-0c59f7542f0db4",
@@ -79022,24 +79263,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京の駅は数が多くて、最初は路線図を見ても迷いやすいです。",
+          "en": "Tokyo has so many stations that it is easy to get lost at first, even if you look at a route map."
+        },
+        {
+          "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
+          "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
+        },
+        {
+          "ja": "乗り換えのたびに地図を開かなくても、頭の中で道を組みたてられるようになります。",
+          "en": "Even without opening a map for each transfer, you can start building the route in your head."
+        },
+        {
+          "ja": "東京の地下鉄やJRは複雑ですが、大きな駅の位置を地図の骨組みにすると、少しずつ慣れていきます。",
+          "en": "Tokyo’s subways and JR lines are complicated, but if you treat the positions of major stations as the frame of the map, you gradually get used to it."
+        },
+        {
           "ja": "栃木県の宇都宮市では、クマが公園や学校、図書館の近くに出て、多くの人を怖がらせました。",
           "en": "In Utsunomiya, Tochigi Prefecture, a bear appeared near parks, schools, and a library, frightening many people."
-        },
-        {
-          "ja": "クマは公園や学校、図書館の近くでも見つかりました。",
-          "en": "The bear was seen near a park, schools, and a library."
-        },
-        {
-          "ja": "外国人の利用者が増える中、いくつかの図書館で多言語タブレットを置く動きが広がっています。",
-          "en": "As the number of foreign users increases, some libraries are expanding the use of multilingual tablets."
-        },
-        {
-          "ja": "図書館では、観光客だけでなく、地域で生活する外国人にも役立つと考えています。",
-          "en": "Libraries believe the tablets will help not only tourists but also foreign residents in the community."
-        },
-        {
-          "ja": "誰でも使いやすい図書館を目指す取り組みとして注目されています。",
-          "en": "The effort is drawing attention as a way to make libraries easier for everyone to use."
         }
       ]
     },
@@ -79089,6 +79330,175 @@
       "exampleSentences": []
     },
     {
+      "id": "article-5e42c0608fe6af",
+      "level": "N3",
+      "term": "位置関係",
+      "reading": "いちかんけい",
+      "readingHiragana": "いちかんけい",
+      "meaning": "Relative position",
+      "source": "article",
+      "sourceId": "2026-06-29-tokyo-stations-map",
+      "sourceTitle": "東京の主要駅は、位置関係で覚えるとわかりやすい",
+      "sourceLabel": "6/29 東京の主要駅の位置関係",
+      "sourceHref": "./2026-06-29-tokyo-stations-map.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-29-tokyo-stations-map"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
+          "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
+        }
+      ]
+    },
+    {
+      "id": "article-eb9cc0dcc6dee9",
+      "level": "N3",
+      "term": "路線図",
+      "reading": "ろせんず",
+      "readingHiragana": "ろせんず",
+      "meaning": "Route map",
+      "source": "article",
+      "sourceId": "2026-06-29-tokyo-stations-map",
+      "sourceTitle": "東京の主要駅は、位置関係で覚えるとわかりやすい",
+      "sourceLabel": "6/29 東京の主要駅の位置関係",
+      "sourceHref": "./2026-06-29-tokyo-stations-map.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-29-tokyo-stations-map"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "東京の駅は数が多くて、最初は路線図を見ても迷いやすいです。",
+          "en": "Tokyo has so many stations that it is easy to get lost at first, even if you look at a route map."
+        }
+      ]
+    },
+    {
+      "id": "article-7ed89485864a0f",
+      "level": "N3",
+      "term": "方向",
+      "reading": "ほうこう",
+      "readingHiragana": "ほうこう",
+      "meaning": "Direction",
+      "source": "article",
+      "sourceId": "2026-06-29-tokyo-stations-map",
+      "sourceTitle": "東京の主要駅は、位置関係で覚えるとわかりやすい",
+      "sourceLabel": "6/29 東京の主要駅の位置関係",
+      "sourceHref": "./2026-06-29-tokyo-stations-map.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-29-tokyo-stations-map"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "全部の路線を暗記しなくても、この方向だけでかなり考えやすくなります。",
+          "en": "You do not need to memorize every line; these directions alone make it much easier to think."
+        },
+        {
+          "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
+          "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
+        }
+      ]
+    },
+    {
+      "id": "article-9d2b7d7b8111cf",
+      "level": "N3",
+      "term": "暗記",
+      "reading": "あんき",
+      "readingHiragana": "あんき",
+      "meaning": "Memorization",
+      "source": "article",
+      "sourceId": "2026-06-29-tokyo-stations-map",
+      "sourceTitle": "東京の主要駅は、位置関係で覚えるとわかりやすい",
+      "sourceLabel": "6/29 東京の主要駅の位置関係",
+      "sourceHref": "./2026-06-29-tokyo-stations-map.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-29-tokyo-stations-map"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "全部の路線を暗記しなくても、この方向だけでかなり考えやすくなります。",
+          "en": "You do not need to memorize every line; these directions alone make it much easier to think."
+        }
+      ]
+    },
+    {
+      "id": "article-e32d409a322fd3",
+      "level": "N3",
+      "term": "予想する",
+      "reading": "よそうする",
+      "readingHiragana": "よそうする",
+      "meaning": "To guess / Predict",
+      "source": "article",
+      "sourceId": "2026-06-29-tokyo-stations-map",
+      "sourceTitle": "東京の主要駅は、位置関係で覚えるとわかりやすい",
+      "sourceLabel": "6/29 東京の主要駅の位置関係",
+      "sourceHref": "./2026-06-29-tokyo-stations-map.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-29-tokyo-stations-map"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "知らない駅に行くときも、近くにある駅との関係から予想できます。",
+          "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
+        },
+        {
+          "ja": "太陽の活動が強くなり、地球の大気が広がったため、予想より強い抵抗を受けて高度が下がりました。",
+          "en": "Stronger solar activity expanded Earth's atmosphere, so the telescope experienced more drag than expected and lost altitude."
+        }
+      ]
+    },
+    {
+      "id": "article-0d933b3f231bd4",
+      "level": "N3",
+      "term": "乗り換え",
+      "reading": "のりかえ",
+      "readingHiragana": "のりかえ",
+      "meaning": "Transfer",
+      "source": "article",
+      "sourceId": "2026-06-29-tokyo-stations-map",
+      "sourceTitle": "東京の主要駅は、位置関係で覚えるとわかりやすい",
+      "sourceLabel": "6/29 東京の主要駅の位置関係",
+      "sourceHref": "./2026-06-29-tokyo-stations-map.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-29-tokyo-stations-map"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "乗り換えのたびに地図を開かなくても、頭の中で道を組みたてられるようになります。",
+          "en": "Even without opening a map for each transfer, you can start building the route in your head."
+        }
+      ]
+    },
+    {
+      "id": "article-c558a3cd28b684",
+      "level": "N3",
+      "term": "骨組み",
+      "reading": "ほねぐみ",
+      "readingHiragana": "ほねぐみ",
+      "meaning": "Framework",
+      "source": "article",
+      "sourceId": "2026-06-29-tokyo-stations-map",
+      "sourceTitle": "東京の主要駅は、位置関係で覚えるとわかりやすい",
+      "sourceLabel": "6/29 東京の主要駅の位置関係",
+      "sourceHref": "./2026-06-29-tokyo-stations-map.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-29-tokyo-stations-map"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "東京の地下鉄やJRは複雑ですが、大きな駅の位置を地図の骨組みにすると、少しずつ慣れていきます。",
+          "en": "Tokyo’s subways and JR lines are complicated, but if you treat the positions of major stations as the frame of the map, you gradually get used to it."
+        }
+      ]
+    },
+    {
       "id": "article-87d6a0e8eb0468",
       "level": "N3",
       "term": "関係",
@@ -79106,6 +79516,14 @@
       ],
       "exampleSentences": [
         {
+          "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
+          "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
+        },
+        {
+          "ja": "知らない駅に行くときも、近くにある駅との関係から予想できます。",
+          "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
+        },
+        {
           "ja": "日本と中国の関係は、経済では深くつながっています。",
           "en": "Japan and China are deeply connected through the economy."
         },
@@ -79116,14 +79534,6 @@
         {
           "ja": "しかし、もしアメリカと中国の関係が少しよくなると、日本は不安になります。",
           "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
-        },
-        {
-          "ja": "スイスはEU加盟国ではありませんが、EUとの関係はとても深いです。",
-          "en": "Switzerland is not an EU member, but its relationship with the EU is very deep."
-        },
-        {
-          "ja": "関係者は、この温室をきっかけに、販売や出荷も協力してできるようにしたいと話しています。",
-          "en": "The people involved say they also want to use the greenhouse as a starting point for cooperative selling and shipping."
         }
       ]
     },
