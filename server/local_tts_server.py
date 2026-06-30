@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import os
 import shutil
@@ -436,16 +437,47 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
 
     def handle_video_render_url(self) -> None:
         try:
-            article, temp_output_path, temp_dir = self.render_video_to_temp_file()
             VIDEO_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-            output_path = VIDEO_OUTPUT_DIR / article["downloadFileName"]
+            payload = self.read_json_body()
+            article_id = str(payload.get("article_id", "")).strip()
+            speaker_value = payload.get("speaker")
+            speaker = int(speaker_value) if speaker_value is not None else DEFAULT_VOICEVOX_SPEAKER
+            if not article_id:
+                raise VideoRenderRequestError(400, "Missing article_id.")
             try:
-                shutil.move(str(temp_output_path), str(output_path))
+                article = find_article(article_id)
+            except ValueError as exc:
+                raise VideoRenderRequestError(404, str(exc)) from exc
+
+            output_path = VIDEO_OUTPUT_DIR / article["downloadFileName"]
+            cache_key = self.video_render_cache_key(article, speaker)
+            if self.video_render_cache_matches(output_path, cache_key):
                 version = str(output_path.stat().st_mtime_ns)
-            finally:
-                temp_dir.cleanup()
+            else:
+                temp_dir = tempfile.TemporaryDirectory(prefix="learn-japanese-render-")
+                temp_output_path = Path(temp_dir.name) / article["downloadFileName"]
+                try:
+                    options = RenderOptions(article_id=article["id"], speaker=speaker)
+                    render_article_video(article, temp_output_path, options, DEFAULT_VOICEVOX_TIMEOUT)
+                    shutil.move(str(temp_output_path), str(output_path))
+                    self.write_video_render_cache_key(output_path, cache_key)
+                    version = str(output_path.stat().st_mtime_ns)
+                finally:
+                    temp_dir.cleanup()
         except VideoRenderRequestError as exc:
             self.send_json(exc.status, {"ok": False, "error": exc.message})
+            return
+        except (ValueError, TypeError, json.JSONDecodeError) as exc:
+            self.send_json(400, {"ok": False, "error": f"Invalid JSON request: {exc}"})
+            return
+        except SystemExit as exc:
+            message = str(exc)
+            status = 503 if "VOICEVOX" in message or "Chromium" in message or "ffmpeg" in message else 500
+            self.send_json(status, {"ok": False, "error": message})
+            return
+        except subprocess.CalledProcessError as exc:
+            detail = exc.stderr.decode("utf-8", errors="replace").strip() if exc.stderr else str(exc)
+            self.send_json(500, {"ok": False, "error": f"Video render failed: {detail}"})
             return
 
         self.send_json(
@@ -484,15 +516,20 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
             VIDEO_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
             filename = quiz_video_filename(quiz["id"])
             output_path = VIDEO_OUTPUT_DIR / filename
-            temp_dir = tempfile.TemporaryDirectory(prefix="learn-japanese-quiz-render-")
-            temp_output_path = Path(temp_dir.name) / filename
-            try:
-                options = RenderOptions(article_id=quiz["id"], speaker=speaker)
-                render_quiz_video(quiz, temp_output_path, options)
-                shutil.move(str(temp_output_path), str(output_path))
+            cache_key = self.video_render_cache_key(quiz, speaker)
+            if self.video_render_cache_matches(output_path, cache_key):
                 version = str(output_path.stat().st_mtime_ns)
-            finally:
-                temp_dir.cleanup()
+            else:
+                temp_dir = tempfile.TemporaryDirectory(prefix="learn-japanese-quiz-render-")
+                temp_output_path = Path(temp_dir.name) / filename
+                try:
+                    options = RenderOptions(article_id=quiz["id"], speaker=speaker)
+                    render_quiz_video(quiz, temp_output_path, options)
+                    shutil.move(str(temp_output_path), str(output_path))
+                    self.write_video_render_cache_key(output_path, cache_key)
+                    version = str(output_path.stat().st_mtime_ns)
+                finally:
+                    temp_dir.cleanup()
         except VideoRenderRequestError as exc:
             self.send_json(exc.status, {"ok": False, "error": exc.message})
             return
@@ -640,6 +677,44 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
         if version:
             url = f"{url}?v={parse.quote(version)}"
         return url
+
+    def video_render_cache_metadata_path(self, output_path: Path) -> Path:
+        return output_path.with_suffix(f"{output_path.suffix}.cache.json")
+
+    def video_render_cache_key(self, payload: dict, speaker: int) -> str:
+        encoded = json.dumps(
+            {
+                "version": "video-render-v2",
+                "speaker": speaker,
+                "payload": payload,
+            },
+            ensure_ascii=False,
+            sort_keys=True,
+            separators=(",", ":"),
+        )
+        return hashlib.sha256(encoded.encode("utf-8")).hexdigest()
+
+    def video_render_cache_matches(self, output_path: Path, cache_key: str) -> bool:
+        if not output_path.exists():
+            return False
+
+        metadata_path = self.video_render_cache_metadata_path(output_path)
+        if not metadata_path.exists():
+            return False
+
+        try:
+            payload = json.loads(metadata_path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            return False
+
+        return payload.get("cache_key") == cache_key
+
+    def write_video_render_cache_key(self, output_path: Path, cache_key: str) -> None:
+        metadata_path = self.video_render_cache_metadata_path(output_path)
+        metadata_path.write_text(
+            json.dumps({"cache_key": cache_key}, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
 
     def read_json_body(self) -> dict:
         content_length = int(self.headers.get("Content-Length", "0"))

@@ -216,15 +216,14 @@ def wait_for_voicevox(timeout: float) -> None:
     raise SystemExit(f"VOICEVOX is not reachable at {VOICEVOX_BASE_URL}: {last_error}")
 
 
-def synthesize_sentence(text: str, speaker: int) -> bytes:
-    wav_audio, _, _ = cached_voicevox_wav(
+def cached_sentence_audio_path(text: str, speaker: int) -> Path:
+    _, _, audio_path = cached_voicevox_wav(
         text,
         speaker,
         base_url=VOICEVOX_BASE_URL,
-        trailing_silence=TRAILING_SILENCE_SECONDS,
         timeout=60,
     )
-    return wav_audio
+    return audio_path
 
 
 def wav_duration(path: Path) -> float:
@@ -587,7 +586,8 @@ def render_segment_video(
     output_path: Path,
     options: RenderOptions,
 ) -> None:
-    rounded_duration = max(MIN_SEGMENT_SECONDS, math.ceil(duration * options.frame_rate) / options.frame_rate)
+    target_duration = duration + TRAILING_SILENCE_SECONDS
+    rounded_duration = max(MIN_SEGMENT_SECONDS, math.ceil(target_duration * options.frame_rate) / options.frame_rate)
     run(
         [
             "ffmpeg",
@@ -603,6 +603,8 @@ def render_segment_video(
             str(image_path),
             "-i",
             str(audio_path),
+            "-af",
+            f"apad=pad_dur={TRAILING_SILENCE_SECONDS:.3f},{EXPORT_AUDIO_FILTER}",
             "-t",
             f"{rounded_duration:.3f}",
             "-c:v",
@@ -611,8 +613,6 @@ def render_segment_video(
             "yuv420p",
             "-preset",
             "veryfast",
-            "-af",
-            EXPORT_AUDIO_FILTER,
             "-c:a",
             "aac",
             "-b:a",
@@ -659,6 +659,8 @@ def render_still_video_with_audio(
     output_path: Path,
     options: RenderOptions,
 ) -> None:
+    target_duration = duration + TRAILING_SILENCE_SECONDS
+    rounded_duration = max(MIN_SEGMENT_SECONDS, math.ceil(target_duration * options.frame_rate) / options.frame_rate)
     run(
         [
             "ffmpeg",
@@ -674,16 +676,16 @@ def render_still_video_with_audio(
             str(image_path),
             "-i",
             str(audio_path),
+            "-af",
+            f"apad=pad_dur={TRAILING_SILENCE_SECONDS:.3f},{EXPORT_AUDIO_FILTER}",
             "-t",
-            f"{duration:.3f}",
+            f"{rounded_duration:.3f}",
             "-c:v",
             "libx264",
             "-pix_fmt",
             "yuv420p",
             "-preset",
             "veryfast",
-            "-af",
-            EXPORT_AUDIO_FILTER,
             "-c:a",
             "aac",
             "-b:a",
@@ -745,11 +747,10 @@ def render_article_video(
             print(f"[{index}/{len(segments)}] {segment.text}", flush=True)
             html_path = temp_path / f"{index:03d}-{segment.key}.html"
             image_path = temp_path / f"{index:03d}-{segment.key}.png"
-            audio_path = temp_path / f"{index:03d}-{segment.key}.wav"
             video_path = temp_path / f"{index:03d}-{segment.key}.mp4"
 
             html_path.write_text(render_html(article, segment, options), encoding="utf-8")
-            audio_path.write_bytes(synthesize_sentence(segment.text, options.speaker))
+            audio_path = cached_sentence_audio_path(segment.text, options.speaker)
             render_screenshot(chromium, html_path, image_path, options)
             if index == 1 and cover_path:
                 cover_path.parent.mkdir(parents=True, exist_ok=True)
@@ -782,10 +783,9 @@ def render_quiz_video(quiz: dict, output_path: Path, options: RenderOptions, cov
         temp_path = Path(temp_dir)
         html_path = temp_path / "quiz.html"
         image_path = temp_path / "quiz.png"
-        audio_path = temp_path / "story.wav"
         story_text = "\n".join(str(line.get("jp", "")) for line in quiz.get("passage", []) if line.get("jp"))
         html_path.write_text(render_quiz_html(quiz, options), encoding="utf-8")
-        audio_path.write_bytes(synthesize_sentence(story_text, options.speaker))
+        audio_path = cached_sentence_audio_path(story_text, options.speaker)
         render_screenshot(chromium, html_path, image_path, options)
         if cover_path:
             cover_path.parent.mkdir(parents=True, exist_ok=True)
