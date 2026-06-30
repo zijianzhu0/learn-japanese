@@ -4,7 +4,7 @@
     "articleManifest": "data/articles.json"
   },
   "levels": {
-    "N3": 1965,
+    "N3": 1973,
     "N4": 536,
     "N5": 553
   },
@@ -1129,6 +1129,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "東京モノレールは、羽田空港へ行くための便利な交通機関です。",
+          "en": "Tokyo Monorail is a convenient way to get to Haneda Airport."
+        },
         {
           "ja": "運営会社は、観光客が便利になるだけでなく、会計の時間が短くなると説明しています。",
           "en": "The operator explains that this not only makes things more convenient for tourists but also shortens checkout time."
@@ -2823,7 +2827,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "五輪のために生まれた設備が、長い時間をへても役立ち続けているのはおもしろいことです。",
+          "en": "It is interesting that a facility born for the Olympics has continued to be useful for a long time."
+        }
+      ]
     },
     {
       "id": "core-5c4557d49cbe00",
@@ -3163,6 +3172,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "開業日は1964年9月17日で、オリンピックが始まる10月10日より数週間前でした。",
+          "en": "It opened on September 17, 1964, only a few weeks before the Olympics began on October 10."
+        },
+        {
           "ja": "今回の実験がうまくいけば、ほかの港でも同じような取り組みが始まるかもしれません。",
           "en": "If this test goes well, similar efforts may begin at other ports too."
         }
@@ -3179,6 +3192,10 @@
           "meaning": "Polite form of 始まる: to begin, to start",
           "exampleSentences": [
             {
+              "ja": "開業日は1964年9月17日で、オリンピックが始まる10月10日より数週間前でした。",
+              "en": "It opened on September 17, 1964, only a few weeks before the Olympics began on October 10."
+            },
+            {
               "ja": "今回の実験がうまくいけば、ほかの港でも同じような取り組みが始まるかもしれません。",
               "en": "If this test goes well, similar efforts may begin at other ports too."
             }
@@ -3192,6 +3209,10 @@
           "readingHiragana": "はじまった",
           "meaning": "Plain past form of 始まる: to begin, to start",
           "exampleSentences": [
+            {
+              "ja": "開業日は1964年9月17日で、オリンピックが始まる10月10日より数週間前でした。",
+              "en": "It opened on September 17, 1964, only a few weeks before the Olympics began on October 10."
+            },
             {
               "ja": "今回の実験がうまくいけば、ほかの港でも同じような取り組みが始まるかもしれません。",
               "en": "If this test goes well, similar efforts may begin at other ports too."
@@ -3207,6 +3228,10 @@
           "meaning": "Plain negative form of 始まる: to begin, to start",
           "exampleSentences": [
             {
+              "ja": "開業日は1964年9月17日で、オリンピックが始まる10月10日より数週間前でした。",
+              "en": "It opened on September 17, 1964, only a few weeks before the Olympics began on October 10."
+            },
+            {
               "ja": "今回の実験がうまくいけば、ほかの港でも同じような取り組みが始まるかもしれません。",
               "en": "If this test goes well, similar efforts may begin at other ports too."
             }
@@ -3221,6 +3246,10 @@
           "meaning": "Te-form of 始まる: to begin, to start",
           "exampleSentences": [
             {
+              "ja": "開業日は1964年9月17日で、オリンピックが始まる10月10日より数週間前でした。",
+              "en": "It opened on September 17, 1964, only a few weeks before the Olympics began on October 10."
+            },
+            {
               "ja": "今回の実験がうまくいけば、ほかの港でも同じような取り組みが始まるかもしれません。",
               "en": "If this test goes well, similar efforts may begin at other ports too."
             }
@@ -3234,6 +3263,10 @@
           "readingHiragana": "はじまれる",
           "meaning": "Potential form of 始まる: to begin, to start",
           "exampleSentences": [
+            {
+              "ja": "開業日は1964年9月17日で、オリンピックが始まる10月10日より数週間前でした。",
+              "en": "It opened on September 17, 1964, only a few weeks before the Olympics began on October 10."
+            },
             {
               "ja": "今回の実験がうまくいけば、ほかの港でも同じような取り組みが始まるかもしれません。",
               "en": "If this test goes well, similar efforts may begin at other ports too."
@@ -4004,24 +4037,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "1964年の東京オリンピックに向けて作られた、日本の技術史でも大切な乗り物です。",
+          "en": "It was built for the 1964 Tokyo Olympics, and it is also an important part of Japan's engineering history."
+        },
+        {
+          "ja": "開業日は1964年9月17日で、オリンピックが始まる10月10日より数週間前でした。",
+          "en": "It opened on September 17, 1964, only a few weeks before the Olympics began on October 10."
+        },
+        {
+          "ja": "当時、この路線は日本で最初に営業したモノレールでした。",
+          "en": "At the time, this line was Japan's first commercially operated monorail."
+        },
+        {
+          "ja": "60年以上たった今でも、東京モノレールは毎日動いています。",
+          "en": "Even more than 60 years later, Tokyo Monorail still runs every day."
+        },
+        {
           "ja": "日本と中国の関係は、経済では深くつながっています。",
           "en": "Japan and China are deeply connected through the economy."
-        },
-        {
-          "ja": "一方、日本は、台湾の近くで大きな問題が起きれば、日本の安全にも関係すると見ています。",
-          "en": "Japan, on the other hand, thinks that if a major problem happens near Taiwan, it would also affect Japan's safety."
-        },
-        {
-          "ja": "そのため、日本は南西の島々で防衛を強めています。",
-          "en": "For that reason, Japan is strengthening its defense in the southwestern islands."
-        },
-        {
-          "ja": "日本は長い間、アメリカの大切な同盟国でした。",
-          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
-        },
-        {
-          "ja": "しかし、もしアメリカと中国の関係が少しよくなると、日本は不安になります。",
-          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
         }
       ]
     },
@@ -4079,24 +4112,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "東京の駅は数が多くて、最初は路線図を見ても迷いやすいです。",
-          "en": "Tokyo has so many stations that it is easy to get lost at first, even if you look at a route map."
+          "ja": "東京モノレールは、羽田空港へ行くための便利な交通機関です。",
+          "en": "Tokyo Monorail is a convenient way to get to Haneda Airport."
         },
         {
-          "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
-          "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
+          "ja": "1964年の東京オリンピックに向けて作られた、日本の技術史でも大切な乗り物です。",
+          "en": "It was built for the 1964 Tokyo Olympics, and it is also an important part of Japan's engineering history."
         },
         {
-          "ja": "東京の地下鉄やJRは複雑ですが、大きな駅の位置を地図の骨組みにすると、少しずつ慣れていきます。",
-          "en": "Tokyo’s subways and JR lines are complicated, but if you treat the positions of major stations as the frame of the map, you gradually get used to it."
+          "ja": "このモノレールは、羽田空港と東京の中心部を結ぶために建設されました。",
+          "en": "This monorail was built to connect Haneda Airport with central Tokyo."
         },
         {
-          "ja": "台風7号は21時の時点で、奄美や沖縄に近い東の海上にありました。",
-          "en": "As of 9 p.m., Typhoon No. 7 was over waters east of areas near Amami and Okinawa. The forecast says it may move close to the Kanto region by the night of June 27."
+          "ja": "60年以上たった今でも、東京モノレールは毎日動いています。",
+          "en": "Even more than 60 years later, Tokyo Monorail still runs every day."
         },
         {
-          "ja": "予報では、27日の夜には関東の近くまで進む可能性があります。",
-          "en": "As of 9 p.m., Typhoon No. 7 was over waters east of areas near Amami and Okinawa. The forecast says it may move close to the Kanto region by the night of June 27."
+          "ja": "東京モノレールは、東京の交通を支えるだけでなく、昔の大きなイベントの記憶も今に伝えています。",
+          "en": "Tokyo Monorail not only supports transportation in Tokyo, but also carries the memory of a major event from the past into the present."
         }
       ]
     },
@@ -4377,6 +4410,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
+          "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
+        },
+        {
           "ja": "また、人と人の交流も弱くなっています。",
           "en": "People-to-people exchange is also weakening."
         },
@@ -4391,10 +4428,6 @@
         {
           "ja": "AP通信は、少なくとも188人が死亡し、約1500人がけがをしたと伝えています。",
           "en": "The Associated Press reported that at least 188 people had died and about 1,500 were injured."
-        },
-        {
-          "ja": "まだ行方が分からない人も多く、救助隊ががれきの中を探しています。",
-          "en": "Many people were still missing, and rescue teams were searching through rubble."
         }
       ]
     },
@@ -4464,6 +4497,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "1964年の東京オリンピックに向けて作られた、日本の技術史でも大切な乗り物です。",
+          "en": "It was built for the 1964 Tokyo Olympics, and it is also an important part of Japan's engineering history."
+        },
+        {
+          "ja": "当時、この路線は日本で最初に営業したモノレールでした。",
+          "en": "At the time, this line was Japan's first commercially operated monorail."
+        },
+        {
           "ja": "日本と中国の関係は、経済では深くつながっています。",
           "en": "Japan and China are deeply connected through the economy."
         },
@@ -4474,14 +4515,6 @@
         {
           "ja": "そのため、日本は南西の島々で防衛を強めています。",
           "en": "For that reason, Japan is strengthening its defense in the southwestern islands."
-        },
-        {
-          "ja": "日本は長い間、アメリカの大切な同盟国でした。",
-          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
-        },
-        {
-          "ja": "しかし、もしアメリカと中国の関係が少しよくなると、日本は不安になります。",
-          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
         }
       ]
     },
@@ -4721,6 +4754,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京モノレールは、羽田空港へ行くための便利な交通機関です。",
+          "en": "Tokyo Monorail is a convenient way to get to Haneda Airport."
+        },
+        {
           "ja": "知らない駅に行くときも、近くにある駅との関係から予想できます。",
           "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
         },
@@ -4741,6 +4778,10 @@
           "meaning": "Polite form of 行く: to go",
           "exampleSentences": [
             {
+              "ja": "東京モノレールは、羽田空港へ行くための便利な交通機関です。",
+              "en": "Tokyo Monorail is a convenient way to get to Haneda Airport."
+            },
+            {
               "ja": "知らない駅に行くときも、近くにある駅との関係から予想できます。",
               "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
             },
@@ -4758,6 +4799,10 @@
           "readingHiragana": "いった",
           "meaning": "Plain past form of 行く: to go",
           "exampleSentences": [
+            {
+              "ja": "東京モノレールは、羽田空港へ行くための便利な交通機関です。",
+              "en": "Tokyo Monorail is a convenient way to get to Haneda Airport."
+            },
             {
               "ja": "知らない駅に行くときも、近くにある駅との関係から予想できます。",
               "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
@@ -4781,6 +4826,10 @@
               "en": "Experts say it is important not to go near the sea when an advisory is issued."
             },
             {
+              "ja": "東京モノレールは、羽田空港へ行くための便利な交通機関です。",
+              "en": "Tokyo Monorail is a convenient way to get to Haneda Airport."
+            },
+            {
               "ja": "知らない駅に行くときも、近くにある駅との関係から予想できます。",
               "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
             },
@@ -4799,6 +4848,10 @@
           "meaning": "Te-form of 行く: to go",
           "exampleSentences": [
             {
+              "ja": "東京モノレールは、羽田空港へ行くための便利な交通機関です。",
+              "en": "Tokyo Monorail is a convenient way to get to Haneda Airport."
+            },
+            {
               "ja": "知らない駅に行くときも、近くにある駅との関係から予想できます。",
               "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
             },
@@ -4816,6 +4869,10 @@
           "readingHiragana": "いける",
           "meaning": "Potential form of 行く: to go",
           "exampleSentences": [
+            {
+              "ja": "東京モノレールは、羽田空港へ行くための便利な交通機関です。",
+              "en": "Tokyo Monorail is a convenient way to get to Haneda Airport."
+            },
             {
               "ja": "知らない駅に行くときも、近くにある駅との関係から予想できます。",
               "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
@@ -4873,24 +4930,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "60年以上たった今でも、東京モノレールは毎日動いています。",
+          "en": "Even more than 60 years later, Tokyo Monorail still runs every day."
+        },
+        {
+          "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
+          "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
+        },
+        {
+          "ja": "東京モノレールは、東京の交通を支えるだけでなく、昔の大きなイベントの記憶も今に伝えています。",
+          "en": "Tokyo Monorail not only supports transportation in Tokyo, but also carries the memory of a major event from the past into the present."
+        },
+        {
           "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
           "en": "The information was made to test how well AI can think about the present and future of cities."
         },
         {
           "ja": "もともとの予定は2年間でしたが、20年以上たった今も科学のために働いています。",
           "en": "Its mission was originally planned for two years, but more than 20 years later, it is still working for science."
-        },
-        {
-          "ja": "今も重い状態だと伝えられています。",
-          "en": "She is still reported to be in serious condition."
-        },
-        {
-          "ja": "長い間苦しんだチームとファンにとって、今年の優勝は特別な出来事になりました。",
-          "en": "For a team and fan base that struggled for a long time, this year's title became a special event."
-        },
-        {
-          "ja": "今回の結果は、移民への不安と、EUとの結びつきを守りたい考えが、スイス社会でぶつかっていることを示しました。",
-          "en": "\" The result showed that anxiety about immigration and the wish to protect ties with the EU are clashing in Swiss society."
         }
       ]
     },
@@ -5478,6 +5535,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "五輪のために生まれた設備が、長い時間をへても役立ち続けているのはおもしろいことです。",
+          "en": "It is interesting that a facility born for the Olympics has continued to be useful for a long time."
+        },
+        {
           "ja": "この考え方ができると、毎回ルート検索に時間を取られにくくなります。",
           "en": "Once you can think this way, you do not spend as much time on route searches every time."
         },
@@ -5492,10 +5553,6 @@
         {
           "ja": "運転は約3時間後の午後8時48分に再開しました。",
           "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
-        },
-        {
-          "ja": "モロッコは中盤でボールをよく動かし、ブラジルに簡単な時間を与えませんでした。",
-          "en": "Morocco moved the ball well in midfield and did not give Brazil easy moments."
         }
       ]
     },
@@ -7934,6 +7991,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "開業日は1964年9月17日で、オリンピックが始まる10月10日より数週間前でした。",
+          "en": "It opened on September 17, 1964, only a few weeks before the Olympics began on October 10."
+        },
+        {
           "ja": "名前は「アーバンウェル」です。",
           "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
         },
@@ -7948,10 +8009,6 @@
         {
           "ja": "建設現場では、作業を始める前にアプリの情報を確認しています。",
           "en": "At construction sites, workers check the app's information before starting work."
-        },
-        {
-          "ja": "利用したい人は、前日までに電話かスマートフォンで乗る場所と時間を伝えます。",
-          "en": "People who want to use the service tell the town their pickup place and time by phone or smartphone by the previous day."
         }
       ]
     },
@@ -8014,6 +8071,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "60年以上たった今でも、東京モノレールは毎日動いています。",
+          "en": "Even more than 60 years later, Tokyo Monorail still runs every day."
+        },
         {
           "ja": "消費者からは、毎日食べるものなので、少しの値上がりでも大きいという声が出ています。",
           "en": "Consumers say that even small price increases matter because rice is eaten every day."
@@ -9202,6 +9263,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "五輪のために生まれた設備が、長い時間をへても役立ち続けているのはおもしろいことです。",
+          "en": "It is interesting that a facility born for the Olympics has continued to be useful for a long time."
+        },
+        {
           "ja": "日本は長い間、アメリカの大切な同盟国でした。",
           "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
         },
@@ -9234,6 +9299,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "このモノレールは、羽田空港と東京の中心部を結ぶために建設されました。",
+          "en": "This monorail was built to connect Haneda Airport with central Tokyo."
+        },
+        {
           "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
           "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
         },
@@ -9248,10 +9317,6 @@
         {
           "ja": "中国は台湾を自分の一部だと考えています。",
           "en": "China considers Taiwan part of its own territory."
-        },
-        {
-          "ja": "しかし、もしアメリカと中国の関係が少しよくなると、日本は不安になります。",
-          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
         }
       ]
     },
@@ -11766,6 +11831,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
+          "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
+        },
+        {
           "ja": "旅行、留学、ビジネスの交流が少なくなると、お互いの国へのイメージも悪くなりやすいです。",
           "en": "When travel, study abroad, and business exchange decrease, people tend to get a worse image of the other country."
         },
@@ -12897,24 +12966,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京モノレールは、羽田空港へ行くための便利な交通機関です。",
+          "en": "Tokyo Monorail is a convenient way to get to Haneda Airport."
+        },
+        {
+          "ja": "このモノレールは、羽田空港と東京の中心部を結ぶために建設されました。",
+          "en": "This monorail was built to connect Haneda Airport with central Tokyo."
+        },
+        {
+          "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
+          "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
+        },
+        {
           "ja": "中心が遠くても、湿った空気が流れ込むと、雨雲が発達することがあります。",
           "en": "Even when a storm center is far away, moist air can flow in and help rain clouds develop."
         },
         {
           "ja": "AIは、昔からの記録を見て、空気の汚れや街の元気さがどう変わるかを予測します。",
           "en": "AI looks at past records and predicts how air pollution and urban vitality may change."
-        },
-        {
-          "ja": "航空会社は国内線と国際線を含む多くの便を欠航にし、新幹線や在来線にも遅れや運休が出ました。",
-          "en": "Airlines canceled many domestic and international flights, and bullet trains and local rail services also saw delays and suspensions."
-        },
-        {
-          "ja": "通勤や出張の予定を変更する人が多く、駅や空港では最新情報を確認する姿が目立ちました。",
-          "en": "Many people changed commuting or business-trip plans, while stations and airports were filled with travelers checking the latest information."
-        },
-        {
-          "ja": "細かい水を空気に出して、少しでも涼しくすることが目的です。",
-          "en": "The goal is to spray fine water into the air and make the area a little cooler."
         }
       ]
     },
@@ -13166,6 +13235,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
+          "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
+        },
+        {
           "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
           "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
         },
@@ -13180,10 +13253,6 @@
         {
           "ja": "しかし、中国がレアアースなどの大切な材料の輸出を制限することがあります。",
           "en": "But China sometimes restricts exports of important materials such as rare earths."
-        },
-        {
-          "ja": "スイスのバーゼルでは38度近くまで上がり、オランダでは初めて暑さに関する赤い警報が出されました。",
-          "en": "In Basel, Switzerland, temperatures rose close to 38 degrees Celsius, and the Netherlands issued its first red alert for heat."
         }
       ],
       "partOfSpeech": "verb",
@@ -13228,24 +13297,24 @@
           "meaning": "Plain past form of する: to do",
           "exampleSentences": [
             {
+              "ja": "このモノレールは、羽田空港と東京の中心部を結ぶために建設されました。",
+              "en": "This monorail was built to connect Haneda Airport with central Tokyo."
+            },
+            {
+              "ja": "開業日は1964年9月17日で、オリンピックが始まる10月10日より数週間前でした。",
+              "en": "It opened on September 17, 1964, only a few weeks before the Olympics began on October 10."
+            },
+            {
+              "ja": "当時、この路線は日本で最初に営業したモノレールでした。",
+              "en": "At the time, this line was Japan's first commercially operated monorail."
+            },
+            {
+              "ja": "未来的に見えるシステムでも、実際の公共交通として使えることを示したのです。",
+              "en": "It showed that a futuristic-looking system could also work as real public transportation."
+            },
+            {
               "ja": "日本は長い間、アメリカの大切な同盟国でした。",
               "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
-            },
-            {
-              "ja": "つまり、日本と中国には協力したい理由もありますが、信じにくい理由も多いのです。",
-              "en": "In other words, Japan and China have reasons to cooperate, but they also have many reasons to distrust each other."
-            },
-            {
-              "ja": "フランス、イギリス、スイス、オランダなどで気温が大きく上がり、多くの町で6月としては異例の暑さになりました。",
-              "en": "Temperatures rose sharply in countries such as France, the United Kingdom, Switzerland, and the Netherlands, bringing unusual June heat to many towns and cities."
-            },
-            {
-              "ja": "8度まで上がったと報じられました。",
-              "en": "8 degrees Celsius."
-            },
-            {
-              "ja": "フランスの一部では学校が休みになり、屋外の活動を避けるよう呼びかけられました。",
-              "en": "In parts of France, schools were closed, and people were urged to avoid outdoor activities."
             }
           ]
         },
@@ -13262,6 +13331,10 @@
               "en": "While its convenience is recognized, it is considered important not to weaken students’ ability to think for themselves."
             },
             {
+              "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
+              "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
+            },
+            {
               "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
               "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
             },
@@ -13272,10 +13345,6 @@
             {
               "ja": "一方、日本は、台湾の近くで大きな問題が起きれば、日本の安全にも関係すると見ています。",
               "en": "Japan, on the other hand, thinks that if a major problem happens near Taiwan, it would also affect Japan's safety."
-            },
-            {
-              "ja": "しかし、中国がレアアースなどの大切な材料の輸出を制限することがあります。",
-              "en": "But China sometimes restricts exports of important materials such as rare earths."
             }
           ]
         },
@@ -13288,6 +13357,14 @@
           "meaning": "Te-form of する: to do",
           "exampleSentences": [
             {
+              "ja": "未来的に見えるシステムでも、実際の公共交通として使えることを示したのです。",
+              "en": "It showed that a futuristic-looking system could also work as real public transportation."
+            },
+            {
+              "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
+              "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
+            },
+            {
               "ja": "フランス、イギリス、スイス、オランダなどで気温が大きく上がり、多くの町で6月としては異例の暑さになりました。",
               "en": "Temperatures rose sharply in countries such as France, the United Kingdom, Switzerland, and the Netherlands, bringing unusual June heat to many towns and cities."
             },
@@ -13298,14 +13375,6 @@
             {
               "ja": "専門家は、気候変動によって、このような強い熱波が起きやすくなっていると説明しています。",
               "en": "Experts explain that climate change is making intense heatwaves like this more likely."
-            },
-            {
-              "ja": "まだ行方が分からない人も多く、救助隊ががれきの中を探しています。",
-              "en": "Many people were still missing, and rescue teams were searching through rubble."
-            },
-            {
-              "ja": "この列車は浜松駅を通過しているところでした。",
-              "en": "It was passing through Hamamatsu Station."
             }
           ]
         },
@@ -13658,6 +13727,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "1964年の東京オリンピックに向けて作られた、日本の技術史でも大切な乗り物です。",
+          "en": "It was built for the 1964 Tokyo Olympics, and it is also an important part of Japan's engineering history."
+        },
+        {
           "ja": "日本は長い間、アメリカの大切な同盟国でした。",
           "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
         },
@@ -13672,10 +13745,6 @@
         {
           "ja": "夜にゴミを出さないことや、窓と扉をしっかり閉めることも大切だと案内しました。",
           "en": "It also advised people not to put out garbage at night and to keep windows and doors tightly closed."
-        },
-        {
-          "ja": "頭が痛い、気分が悪いなどの症状がある時は、すぐに涼しい場所へ移動することが大切です。",
-          "en": "If symptoms such as a headache or feeling unwell appear, it is important to move to a cool place right away."
         }
       ]
     },
@@ -14354,24 +14423,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "1964年の東京オリンピックに向けて作られた、日本の技術史でも大切な乗り物です。",
+          "en": "It was built for the 1964 Tokyo Olympics, and it is also an important part of Japan's engineering history."
+        },
+        {
+          "ja": "開業日は1964年9月17日で、オリンピックが始まる10月10日より数週間前でした。",
+          "en": "It opened on September 17, 1964, only a few weeks before the Olympics began on October 10."
+        },
+        {
+          "ja": "60年以上たった今でも、東京モノレールは毎日動いています。",
+          "en": "Even more than 60 years later, Tokyo Monorail still runs every day."
+        },
+        {
           "ja": "このままでは、2026年内に大気圏へ入り、燃えてしまう可能性があります。",
           "en": "If nothing changes, it may enter the atmosphere and burn up by the end of 2026."
         },
         {
           "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
           "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
-        },
-        {
-          "ja": "もともとの予定は2年間でしたが、20年以上たった今も科学のために働いています。",
-          "en": "Its mission was originally planned for two years, but more than 20 years later, it is still working for science."
-        },
-        {
-          "ja": "それでも成功すれば、スウィフトはさらに5年以上観測を続けられる可能性があります。",
-          "en": "Even so, if the mission succeeds, Swift may be able to continue observing for at least five more years."
-        },
-        {
-          "ja": "アメリカのプロバスケットボール、NBAで、ニューヨーク・ニックスが2026年の王者になりました。",
-          "en": "In the NBA, America's professional basketball league, the New York Knicks became the 2026 champions."
         }
       ]
     },
@@ -14851,6 +14920,10 @@
           "meaning": "Potential form of 使う: to use, to make use of",
           "exampleSentences": [
             {
+              "ja": "未来的に見えるシステムでも、実際の公共交通として使えることを示したのです。",
+              "en": "It showed that a futuristic-looking system could also work as real public transportation."
+            },
+            {
               "ja": "地方の自治体が、若い農家を増やすために、みんなで使える大きな温室を作る計画を進めています。",
               "en": "A local government is moving forward with a plan to build a large greenhouse that everyone can share in order to increase the number of young farmers."
             },
@@ -14865,10 +14938,6 @@
             {
               "ja": "週末に海へ行く予定がある人や、飛行機や船を使う人は、新しい情報を確認したほうがよさそうです。",
               "en": "People planning to go to the sea over the weekend, or to use planes or boats, should check the latest information."
-            },
-            {
-              "ja": "暑い日が増える中、熱中症を防ぐための通知アプリを使う会社や学校が増えています。",
-              "en": "As hot days increase, more companies and schools are using notification apps to prevent heatstroke."
             }
           ]
         }
@@ -15308,6 +15377,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "60年以上たった今でも、東京モノレールは毎日動いています。",
+          "en": "Even more than 60 years later, Tokyo Monorail still runs every day."
+        },
+        {
           "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
           "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
         },
@@ -15322,10 +15395,6 @@
         {
           "ja": "スイスのバーゼルでは38度近くまで上がり、オランダでは初めて暑さに関する赤い警報が出されました。",
           "en": "In Basel, Switzerland, temperatures rose close to 38 degrees Celsius, and the Netherlands issued its first red alert for heat."
-        },
-        {
-          "ja": "台風7号は21時の時点で、奄美や沖縄に近い東の海上にありました。",
-          "en": "As of 9 p.m., Typhoon No. 7 was over waters east of areas near Amami and Okinawa. The forecast says it may move close to the Kanto region by the night of June 27."
         }
       ]
     },
@@ -15362,7 +15431,12 @@
           "term": "生まれた",
           "readingHiragana": "うまれた",
           "meaning": "Plain past form of 生まれる: to be born",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "五輪のために生まれた設備が、長い時間をへても役立ち続けているのはおもしろいことです。",
+              "en": "It is interesting that a facility born for the Olympics has continued to be useful for a long time."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -19182,6 +19256,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "1964年の東京オリンピックに向けて作られた、日本の技術史でも大切な乗り物です。",
+          "en": "It was built for the 1964 Tokyo Olympics, and it is also an important part of Japan's engineering history."
+        },
+        {
           "ja": "医療、金融、技術などの分野では、外国から来た働く人が重要です。",
           "en": "In fields such as healthcare, finance, and technology, workers from other countries are important."
         },
@@ -20719,6 +20797,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "60年以上たった今でも、東京モノレールは毎日動いています。",
+          "en": "Even more than 60 years later, Tokyo Monorail still runs every day."
+        },
         {
           "ja": "もともとの予定は2年間でしたが、20年以上たった今も科学のために働いています。",
           "en": "Its mission was originally planned for two years, but more than 20 years later, it is still working for science."
@@ -23501,6 +23583,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "このモノレールは、羽田空港と東京の中心部を結ぶために建設されました。",
+          "en": "This monorail was built to connect Haneda Airport with central Tokyo."
+        },
+        {
           "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
           "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
         },
@@ -23515,10 +23601,6 @@
         {
           "ja": "ヴィニシウスは狭い角度からシュートを決め、ブラジルの応援席を安心させました。",
           "en": "Vinicius scored from a tight angle, calming the Brazil supporters."
-        },
-        {
-          "ja": "栃木県の宇都宮市で、クマが町の中に出たため、多くの人が心配しました。",
-          "en": "In Utsunomiya, Tochigi Prefecture, many people became worried after a bear appeared in town."
         }
       ]
     },
@@ -24069,24 +24151,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京モノレールは、羽田空港へ行くための便利な交通機関です。",
+          "en": "Tokyo Monorail is a convenient way to get to Haneda Airport."
+        },
+        {
+          "ja": "未来的に見えるシステムでも、実際の公共交通として使えることを示したのです。",
+          "en": "It showed that a futuristic-looking system could also work as real public transportation."
+        },
+        {
+          "ja": "東京モノレールは、東京の交通を支えるだけでなく、昔の大きなイベントの記憶も今に伝えています。",
+          "en": "Tokyo Monorail not only supports transportation in Tokyo, but also carries the memory of a major event from the past into the present."
+        },
+        {
           "ja": "暑さは観光や交通だけでなく、農業や電力にも影響を与えるため、各国は対策を急いでいます。",
           "en": "Because the heat affects not only tourism and transportation but also agriculture and electricity, countries are rushing to respond."
         },
         {
           "ja": "支持者は、住宅や交通、公共サービスへの負担が重くなっていると訴えました。",
           "en": "The proposal was promoted by the right-wing Swiss People's Party. Switzerland's population is now about 9.1 million and has grown greatly since 2002. Supporters said the burden on housing, transportation, and public services was becoming heavy."
-        },
-        {
-          "ja": "人口や機能が集中する首都圏では、交通や物流の混乱も深刻になるとみられています。",
-          "en": "In the Tokyo metropolitan area, where people and key functions are concentrated, disruption to transport and logistics is also expected to be severe."
-        },
-        {
-          "ja": "交通機関を利用する際は、運行状況を確認し、無理な移動を避けることが大切です。",
-          "en": "When using transportation, it is important to check service status and avoid unnecessary travel."
-        },
-        {
-          "ja": "地域では、フェリーが生活に欠かせない交通手段になっています。",
-          "en": "In these regions, ferries are an essential means of transportation."
         }
       ]
     },
@@ -24468,6 +24550,18 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "東京モノレールは、羽田空港へ行くための便利な交通機関です。",
+          "en": "Tokyo Monorail is a convenient way to get to Haneda Airport."
+        },
+        {
+          "ja": "このモノレールは、羽田空港と東京の中心部を結ぶために建設されました。",
+          "en": "This monorail was built to connect Haneda Airport with central Tokyo."
+        },
+        {
+          "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
+          "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
+        },
         {
           "ja": "通勤や出張の予定を変更する人が多く、駅や空港では最新情報を確認する姿が目立ちました。",
           "en": "Many people changed commuting or business-trip plans, while stations and airports were filled with travelers checking the latest information."
@@ -25183,7 +25277,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "未来的に見えるシステムでも、実際の公共交通として使えることを示したのです。",
+          "en": "It showed that a futuristic-looking system could also work as real public transportation."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "ichidan",
       "verbForms": [
@@ -25194,7 +25293,12 @@
           "term": "見えます",
           "readingHiragana": "みえます",
           "meaning": "Polite form of 見える: to be seen, to be in sight",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "未来的に見えるシステムでも、実際の公共交通として使えることを示したのです。",
+              "en": "It showed that a futuristic-looking system could also work as real public transportation."
+            }
+          ]
         },
         {
           "form": "past",
@@ -25203,7 +25307,12 @@
           "term": "見えた",
           "readingHiragana": "みえた",
           "meaning": "Plain past form of 見える: to be seen, to be in sight",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "未来的に見えるシステムでも、実際の公共交通として使えることを示したのです。",
+              "en": "It showed that a futuristic-looking system could also work as real public transportation."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -25212,7 +25321,12 @@
           "term": "見えない",
           "readingHiragana": "みえない",
           "meaning": "Plain negative form of 見える: to be seen, to be in sight",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "未来的に見えるシステムでも、実際の公共交通として使えることを示したのです。",
+              "en": "It showed that a futuristic-looking system could also work as real public transportation."
+            }
+          ]
         },
         {
           "form": "te",
@@ -25221,7 +25335,12 @@
           "term": "見えて",
           "readingHiragana": "みえて",
           "meaning": "Te-form of 見える: to be seen, to be in sight",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "未来的に見えるシステムでも、実際の公共交通として使えることを示したのです。",
+              "en": "It showed that a futuristic-looking system could also work as real public transportation."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -25230,7 +25349,12 @@
           "term": "見えられる",
           "readingHiragana": "みえられる",
           "meaning": "Potential form of 見える: to be seen, to be in sight",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "未来的に見えるシステムでも、実際の公共交通として使えることを示したのです。",
+              "en": "It showed that a futuristic-looking system could also work as real public transportation."
+            }
+          ]
         }
       ]
     },
@@ -25249,24 +25373,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京モノレールは、羽田空港へ行くための便利な交通機関です。",
+          "en": "Tokyo Monorail is a convenient way to get to Haneda Airport."
+        },
+        {
+          "ja": "このモノレールは、羽田空港と東京の中心部を結ぶために建設されました。",
+          "en": "This monorail was built to connect Haneda Airport with central Tokyo."
+        },
+        {
+          "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
+          "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
+        },
+        {
           "ja": "通勤や出張の予定を変更する人が多く、駅や空港では最新情報を確認する姿が目立ちました。",
           "en": "Many people changed commuting or business-trip plans, while stations and airports were filled with travelers checking the latest information."
         },
         {
           "ja": "関西の大きな港で、水素を使う新しい船の実証実験が始まりました。",
           "en": "A large port in Kansai has started a test of a new ship that uses hydrogen."
-        },
-        {
-          "ja": "港を管理する会社は、環境にやさしい輸送の方法を増やしたいと考えています。",
-          "en": "The port operator wants to expand environmentally friendly transport methods."
-        },
-        {
-          "ja": "港の近くには、水素をためる設備や、船に入れるための装置も用意されました。",
-          "en": "Storage equipment and fueling devices have also been prepared near the port."
-        },
-        {
-          "ja": "今回の実験がうまくいけば、ほかの港でも同じような取り組みが始まるかもしれません。",
-          "en": "If this test goes well, similar efforts may begin at other ports too."
         }
       ]
     },
@@ -25557,6 +25681,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "五輪のために生まれた設備が、長い時間をへても役立ち続けているのはおもしろいことです。",
+          "en": "It is interesting that a facility born for the Olympics has continued to be useful for a long time."
+        },
+        {
           "ja": "しかし、もしアメリカと中国の関係が少しよくなると、日本は不安になります。",
           "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
         },
@@ -25571,10 +25699,6 @@
         {
           "ja": "ふだんの便利さだけでなく、もしものときの安心にもつなげたいとしています。",
           "en": "The goal is to provide not only everyday convenience but also reassurance in emergencies."
-        },
-        {
-          "ja": "今回の実験がうまくいけば、ほかの港でも同じような取り組みが始まるかもしれません。",
-          "en": "If this test goes well, similar efforts may begin at other ports too."
         }
       ]
     },
@@ -25800,6 +25924,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
+          "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
+        },
+        {
           "ja": "離島へ向かうフェリーで、現金を使わない支払いが増えています。",
           "en": "Cashless payments are increasing on ferries heading to remote islands."
         }
@@ -25816,6 +25944,10 @@
           "meaning": "Polite form of 向かう: to face, to go towards",
           "exampleSentences": [
             {
+              "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
+              "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
+            },
+            {
               "ja": "離島へ向かうフェリーで、現金を使わない支払いが増えています。",
               "en": "Cashless payments are increasing on ferries heading to remote islands."
             }
@@ -25829,6 +25961,10 @@
           "readingHiragana": "むかった",
           "meaning": "Plain past form of 向かう: to face, to go towards",
           "exampleSentences": [
+            {
+              "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
+              "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
+            },
             {
               "ja": "離島へ向かうフェリーで、現金を使わない支払いが増えています。",
               "en": "Cashless payments are increasing on ferries heading to remote islands."
@@ -25844,6 +25980,10 @@
           "meaning": "Plain negative form of 向かう: to face, to go towards",
           "exampleSentences": [
             {
+              "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
+              "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
+            },
+            {
               "ja": "離島へ向かうフェリーで、現金を使わない支払いが増えています。",
               "en": "Cashless payments are increasing on ferries heading to remote islands."
             }
@@ -25858,6 +25998,10 @@
           "meaning": "Te-form of 向かう: to face, to go towards",
           "exampleSentences": [
             {
+              "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
+              "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
+            },
+            {
               "ja": "離島へ向かうフェリーで、現金を使わない支払いが増えています。",
               "en": "Cashless payments are increasing on ferries heading to remote islands."
             }
@@ -25871,6 +26015,10 @@
           "readingHiragana": "むかえる",
           "meaning": "Potential form of 向かう: to face, to go towards",
           "exampleSentences": [
+            {
+              "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
+              "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
+            },
             {
               "ja": "離島へ向かうフェリーで、現金を使わない支払いが増えています。",
               "en": "Cashless payments are increasing on ferries heading to remote islands."
@@ -25893,6 +26041,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "東京モノレールは、東京の交通を支えるだけでなく、昔の大きなイベントの記憶も今に伝えています。",
+          "en": "Tokyo Monorail not only supports transportation in Tokyo, but also carries the memory of a major event from the past into the present."
+        },
         {
           "ja": "AIは、昔からの記録を見て、空気の汚れや街の元気さがどう変わるかを予測します。",
           "en": "AI looks at past records and predicts how air pollution and urban vitality may change."
@@ -27115,7 +27267,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "1964年の東京オリンピックに向けて作られた、日本の技術史でも大切な乗り物です。",
+          "en": "It was built for the 1964 Tokyo Olympics, and it is also an important part of Japan's engineering history."
+        }
+      ]
     },
     {
       "id": "core-f2f93a6322ad62",
@@ -28712,6 +28869,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
+          "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
+        },
+        {
           "ja": "利用したい人は、前日までに電話かスマートフォンで乗る場所と時間を伝えます。",
           "en": "People who want to use the service tell the town their pickup place and time by phone or smartphone by the previous day."
         },
@@ -28726,10 +28887,6 @@
         {
           "ja": "交通機関を利用する際は、運行状況を確認し、無理な移動を避けることが大切です。",
           "en": "When using transportation, it is important to check service status and avoid unnecessary travel."
-        },
-        {
-          "ja": "外国人の利用者が増える中、いくつかの図書館で多言語タブレットを置く動きが広がっています。",
-          "en": "As the number of foreign users increases, some libraries are expanding the use of multilingual tablets."
         }
       ]
     },
@@ -29176,6 +29333,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "当時、この路線は日本で最初に営業したモノレールでした。",
+          "en": "At the time, this line was Japan's first commercially operated monorail."
+        },
         {
           "ja": "東京の駅は数が多くて、最初は路線図を見ても迷いやすいです。",
           "en": "Tokyo has so many stations that it is easy to get lost at first, even if you look at a route map."
@@ -29662,6 +29823,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "当時、この路線は日本で最初に営業したモノレールでした。",
+          "en": "At the time, this line was Japan's first commercially operated monorail."
+        },
+        {
           "ja": "東京の駅は数が多くて、最初は路線図を見ても迷いやすいです。",
           "en": "Tokyo has so many stations that it is easy to get lost at first, even if you look at a route map."
         },
@@ -29676,10 +29841,6 @@
         {
           "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
           "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
-        },
-        {
-          "ja": "防犯カメラなどによると、その人は上りホームの柵の切れ目から線路に降りました。",
-          "en": "According to security-camera footage and other evidence, the person went down to the tracks through a gap in the fence on the inbound platform."
         }
       ]
     },
@@ -32765,6 +32926,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "開業日は1964年9月17日で、オリンピックが始まる10月10日より数週間前でした。",
+          "en": "It opened on September 17, 1964, only a few weeks before the Olympics began on October 10."
+        },
+        {
           "ja": "フランス、イギリス、スイス、オランダなどで気温が大きく上がり、多くの町で6月としては異例の暑さになりました。",
           "en": "Temperatures rose sharply in countries such as France, the United Kingdom, Switzerland, and the Netherlands, bringing unusual June heat to many towns and cities."
         },
@@ -32779,10 +32944,6 @@
         {
           "ja": "6月24日の夕方、ベネズエラ北部で大きな地震が二つ続けて起きました。",
           "en": "On the evening of June 24, two major earthquakes struck northern Venezuela in quick succession."
-        },
-        {
-          "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
-          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
         }
       ]
     },
@@ -33070,6 +33231,10 @@
           "meaning": "Te-form of 伝える: to convey, to report",
           "exampleSentences": [
             {
+              "ja": "東京モノレールは、東京の交通を支えるだけでなく、昔の大きなイベントの記憶も今に伝えています。",
+              "en": "Tokyo Monorail not only supports transportation in Tokyo, but also carries the memory of a major event from the past into the present."
+            },
+            {
               "ja": "AP通信は、少なくとも188人が死亡し、約1500人がけがをしたと伝えています。",
               "en": "The Associated Press reported that at least 188 people had died and about 1,500 were injured."
             },
@@ -33267,6 +33432,10 @@
           "readingHiragana": "つずけて",
           "meaning": "Te-form of 続ける: to continue, to keep up",
           "exampleSentences": [
+            {
+              "ja": "五輪のために生まれた設備が、長い時間をへても役立ち続けているのはおもしろいことです。",
+              "en": "It is interesting that a facility born for the Olympics has continued to be useful for a long time."
+            },
             {
               "ja": "6月24日の夕方、ベネズエラ北部で大きな地震が二つ続けて起きました。",
               "en": "On the evening of June 24, two major earthquakes struck northern Venezuela in quick succession."
@@ -33610,6 +33779,10 @@
           "readingHiragana": "うごいて",
           "meaning": "Te-form of 動く: to move, to stir, to shift",
           "exampleSentences": [
+            {
+              "ja": "60年以上たった今でも、東京モノレールは毎日動いています。",
+              "en": "Even more than 60 years later, Tokyo Monorail still runs every day."
+            },
             {
               "ja": "二つの台風が日本の南の海で同時に動いています。",
               "en": "On the night of June 26, the Japan Meteorological Agency released information on Typhoon No. 7, Mekkhala, and Typhoon No. 8, Higos. The two typhoons are moving at the same time over the sea south of Japan."
@@ -34967,6 +35140,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
+          "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
+        },
+        {
           "ja": "利用したい人は、前日までに電話かスマートフォンで乗る場所と時間を伝えます。",
           "en": "People who want to use the service tell the town their pickup place and time by phone or smartphone by the previous day."
         },
@@ -34981,10 +35158,6 @@
         {
           "ja": "交通機関を利用する際は、運行状況を確認し、無理な移動を避けることが大切です。",
           "en": "When using transportation, it is important to check service status and avoid unnecessary travel."
-        },
-        {
-          "ja": "外国人の利用者が増える中、いくつかの図書館で多言語タブレットを置く動きが広がっています。",
-          "en": "As the number of foreign users increases, some libraries are expanding the use of multilingual tablets."
         }
       ]
     },
@@ -37386,6 +37559,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京モノレールは、羽田空港へ行くための便利な交通機関です。",
+          "en": "Tokyo Monorail is a convenient way to get to Haneda Airport."
+        },
+        {
           "ja": "航空会社は国内線と国際線を含む多くの便を欠航にし、新幹線や在来線にも遅れや運休が出ました。",
           "en": "Airlines canceled many domestic and international flights, and bullet trains and local rail services also saw delays and suspensions."
         },
@@ -37400,10 +37577,6 @@
         {
           "ja": "ふだんの便利さだけでなく、もしものときの安心にもつなげたいとしています。",
           "en": "The goal is to provide not only everyday convenience but also reassurance in emergencies."
-        },
-        {
-          "ja": "便利さを認めながらも、考える力を弱くしないことが大切だとされています。",
-          "en": "While its convenience is recognized, it is considered important not to weaken students’ ability to think for themselves."
         }
       ]
     },
@@ -38490,6 +38663,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "このモノレールは、羽田空港と東京の中心部を結ぶために建設されました。",
+          "en": "This monorail was built to connect Haneda Airport with central Tokyo."
+        },
+        {
           "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
           "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
         },
@@ -39288,7 +39465,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "当時、この路線は日本で最初に営業したモノレールでした。",
+          "en": "At the time, this line was Japan's first commercially operated monorail."
+        }
+      ]
     },
     {
       "id": "core-b4d905c7b1bb46",
@@ -39603,6 +39785,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "当時、この路線は日本で最初に営業したモノレールでした。",
+          "en": "At the time, this line was Japan's first commercially operated monorail."
+        },
         {
           "ja": "駅の周りでは、列車の到着にあわせて土産店やカフェが営業を広げています。",
           "en": "Around the stations, souvenir shops and cafes are extending business hours to match the train’s arrivals."
@@ -42807,7 +42993,16 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "東京モノレールは、羽田空港へ行くための便利な交通機関です。",
+          "en": "Tokyo Monorail is a convenient way to get to Haneda Airport."
+        },
+        {
+          "ja": "このモノレールは、羽田空港と東京の中心部を結ぶために建設されました。",
+          "en": "This monorail was built to connect Haneda Airport with central Tokyo."
+        }
+      ]
     },
     {
       "id": "core-3d7f22dd495f56",
@@ -45800,7 +45995,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "東京モノレールは、東京の交通を支えるだけでなく、昔の大きなイベントの記憶も今に伝えています。",
+          "en": "Tokyo Monorail not only supports transportation in Tokyo, but also carries the memory of a major event from the past into the present."
+        }
+      ]
     },
     {
       "id": "core-f9c158e89fea8f",
@@ -46994,6 +47194,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "五輪のために生まれた設備が、長い時間をへても役立ち続けているのはおもしろいことです。",
+          "en": "It is interesting that a facility born for the Olympics has continued to be useful for a long time."
+        },
+        {
           "ja": "ブラヒム・ディアスのパスからチャンスが生まれ、サイバリが落ち着いて決めました。",
           "en": "A chance came from a pass by Brahim Diaz, and Saibari finished calmly."
         },
@@ -47008,10 +47212,6 @@
         {
           "ja": "管理者は、同じ内容を働く人や生徒にすぐ送ることができます。",
           "en": "Managers can quickly send the same information to workers or students."
-        },
-        {
-          "ja": "図書館では、観光客だけでなく、地域で生活する外国人にも役立つと考えています。",
-          "en": "Libraries believe the tablets will help not only tourists but also foreign residents in the community."
         }
       ]
     },
@@ -47104,6 +47304,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "未来的に見えるシステムでも、実際の公共交通として使えることを示したのです。",
+          "en": "It showed that a futuristic-looking system could also work as real public transportation."
+        },
         {
           "ja": "実際には、沖縄県や宮崎県などで数センチから30センチほどの波が観測されました。",
           "en": "In reality, waves from several centimeters to about 30 centimeters were observed in places such as Okinawa and Miyazaki prefectures."
@@ -47233,7 +47437,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
+          "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
+        }
+      ]
     },
     {
       "id": "core-4b7486c117a60c",
@@ -49514,6 +49723,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "60年以上たった今でも、東京モノレールは毎日動いています。",
+          "en": "Even more than 60 years later, Tokyo Monorail still runs every day."
+        },
+        {
           "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
           "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
         },
@@ -49528,10 +49741,6 @@
         {
           "ja": "スイスのバーゼルでは38度近くまで上がり、オランダでは初めて暑さに関する赤い警報が出されました。",
           "en": "In Basel, Switzerland, temperatures rose close to 38 degrees Celsius, and the Netherlands issued its first red alert for heat."
-        },
-        {
-          "ja": "台風7号は21時の時点で、奄美や沖縄に近い東の海上にありました。",
-          "en": "As of 9 p.m., Typhoon No. 7 was over waters east of areas near Amami and Okinawa. The forecast says it may move close to the Kanto region by the night of June 27."
         }
       ]
     },
@@ -50261,24 +50470,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京モノレールは、羽田空港へ行くための便利な交通機関です。",
+          "en": "Tokyo Monorail is a convenient way to get to Haneda Airport."
+        },
+        {
+          "ja": "このモノレールは、羽田空港と東京の中心部を結ぶために建設されました。",
+          "en": "This monorail was built to connect Haneda Airport with central Tokyo."
+        },
+        {
+          "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
+          "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
+        },
+        {
           "ja": "中心が遠くても、湿った空気が流れ込むと、雨雲が発達することがあります。",
           "en": "Even when a storm center is far away, moist air can flow in and help rain clouds develop."
         },
         {
           "ja": "AIは、昔からの記録を見て、空気の汚れや街の元気さがどう変わるかを予測します。",
           "en": "AI looks at past records and predicts how air pollution and urban vitality may change."
-        },
-        {
-          "ja": "航空会社は国内線と国際線を含む多くの便を欠航にし、新幹線や在来線にも遅れや運休が出ました。",
-          "en": "Airlines canceled many domestic and international flights, and bullet trains and local rail services also saw delays and suspensions."
-        },
-        {
-          "ja": "通勤や出張の予定を変更する人が多く、駅や空港では最新情報を確認する姿が目立ちました。",
-          "en": "Many people changed commuting or business-trip plans, while stations and airports were filled with travelers checking the latest information."
-        },
-        {
-          "ja": "細かい水を空気に出して、少しでも涼しくすることが目的です。",
-          "en": "The goal is to spray fine water into the air and make the area a little cooler."
         }
       ]
     },
@@ -50742,16 +50951,16 @@
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
         },
         {
+          "ja": "東京モノレールは、羽田空港へ行くための便利な交通機関です。",
+          "en": "Tokyo Monorail is a convenient way to get to Haneda Airport."
+        },
+        {
           "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
           "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
         },
         {
           "ja": "知らない駅に行くときも、近くにある駅との関係から予想できます。",
           "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
-        },
-        {
-          "ja": "日本と中国の関係は、経済では深くつながっています。",
-          "en": "Japan and China are deeply connected through the economy."
         }
       ],
       "partOfSpeech": "verb",
@@ -51163,6 +51372,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "60年以上たった今でも、東京モノレールは毎日動いています。",
+          "en": "Even more than 60 years later, Tokyo Monorail still runs every day."
+        },
+        {
           "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
           "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
         },
@@ -51177,10 +51390,6 @@
         {
           "ja": "二つの台風が日本の南の海で同時に動いています。",
           "en": "On the night of June 26, the Japan Meteorological Agency released information on Typhoon No. 7, Mekkhala, and Typhoon No. 8, Higos. The two typhoons are moving at the same time over the sea south of Japan."
-        },
-        {
-          "ja": "この動きは浅い地震を起こしやすく、地上の建物に強い被害を出すことがあります。",
-          "en": "This movement can cause shallow earthquakes, which can heavily damage buildings on the surface."
         }
       ]
     },
@@ -51484,6 +51693,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "開業日は1964年9月17日で、オリンピックが始まる10月10日より数週間前でした。",
+          "en": "It opened on September 17, 1964, only a few weeks before the Olympics began on October 10."
+        },
+        {
           "ja": "東京の駅は数が多くて、最初は路線図を見ても迷いやすいです。",
           "en": "Tokyo has so many stations that it is easy to get lost at first, even if you look at a route map."
         },
@@ -51498,10 +51711,6 @@
         {
           "ja": "町は3か月の実験で、利用した人数や運行にかかる費用を調べます。",
           "en": "During the three-month trial, the town will study the number of users and the cost of operating the buses."
-        },
-        {
-          "ja": "実際には、沖縄県や宮崎県などで数センチから30センチほどの波が観測されました。",
-          "en": "In reality, waves from several centimeters to about 30 centimeters were observed in places such as Okinawa and Miyazaki prefectures."
         }
       ]
     },
@@ -51989,6 +52198,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "このモノレールは、羽田空港と東京の中心部を結ぶために建設されました。",
+          "en": "This monorail was built to connect Haneda Airport with central Tokyo."
+        },
         {
           "ja": "建設現場では、作業を始める前にアプリの情報を確認しています。",
           "en": "At construction sites, workers check the app's information before starting work."
@@ -52495,6 +52708,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "東京モノレールは、羽田空港へ行くための便利な交通機関です。",
+          "en": "Tokyo Monorail is a convenient way to get to Haneda Airport."
+        },
         {
           "ja": "交通機関を利用する際は、運行状況を確認し、無理な移動を避けることが大切です。",
           "en": "When using transportation, it is important to check service status and avoid unnecessary travel."
@@ -53085,7 +53302,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "東京モノレールは、東京の交通を支えるだけでなく、昔の大きなイベントの記憶も今に伝えています。",
+          "en": "Tokyo Monorail not only supports transportation in Tokyo, but also carries the memory of a major event from the past into the present."
+        }
+      ]
     },
     {
       "id": "core-26e8da6cf7c5c7",
@@ -53366,6 +53588,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "未来的に見えるシステムでも、実際の公共交通として使えることを示したのです。",
+          "en": "It showed that a futuristic-looking system could also work as real public transportation."
+        },
+        {
           "ja": "実際には、沖縄県や宮崎県などで数センチから30センチほどの波が観測されました。",
           "en": "In reality, waves from several centimeters to about 30 centimeters were observed in places such as Okinawa and Miyazaki prefectures."
         },
@@ -53380,10 +53606,6 @@
         {
           "ja": "両国は、難しい国際情勢の中で、協力を弱めないことが重要だと考えています。",
           "en": "Both sides believe it is important not to weaken cooperation amid difficult international conditions."
-        },
-        {
-          "ja": "そのため、これからの国際情勢とエネルギー市場の動きを多くの人が注意して見ています。",
-          "en": "Because of that, many people are closely watching future international events and movements in the energy market."
         }
       ]
     },
@@ -54864,6 +55086,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "未来的に見えるシステムでも、実際の公共交通として使えることを示したのです。",
+          "en": "It showed that a futuristic-looking system could also work as real public transportation."
+        },
         {
           "ja": "支持者は、住宅や交通、公共サービスへの負担が重くなっていると訴えました。",
           "en": "The proposal was promoted by the right-wing Swiss People's Party. Switzerland's population is now about 9.1 million and has grown greatly since 2002. Supporters said the burden on housing, transportation, and public services was becoming heavy."
@@ -57861,6 +58087,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "未来的に見えるシステムでも、実際の公共交通として使えることを示したのです。",
+          "en": "It showed that a futuristic-looking system could also work as real public transportation."
+        },
+        {
+          "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
+          "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
+        },
+        {
           "ja": "そのため、各国の政府や企業は、この合意が実行されるかどうかを注意して見ています。",
           "en": "For that reason, governments and companies are watching carefully to see whether the agreement will be carried out."
         },
@@ -57871,14 +58105,6 @@
         {
           "ja": "町は3か月の実験で、利用した人数や運行にかかる費用を調べます。",
           "en": "During the three-month trial, the town will study the number of users and the cost of operating the buses."
-        },
-        {
-          "ja": "実際には、沖縄県や宮崎県などで数センチから30センチほどの波が観測されました。",
-          "en": "In reality, waves from several centimeters to about 30 centimeters were observed in places such as Okinawa and Miyazaki prefectures."
-        },
-        {
-          "ja": "関西の大きな港で、水素を使う新しい船の実証実験が始まりました。",
-          "en": "A large port in Kansai has started a test of a new ship that uses hydrogen."
         }
       ]
     },
@@ -58178,6 +58404,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "未来的に見えるシステムでも、実際の公共交通として使えることを示したのです。",
+          "en": "It showed that a futuristic-looking system could also work as real public transportation."
+        },
         {
           "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
           "en": "The information was made to test how well AI can think about the present and future of cities."
@@ -58777,6 +59007,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
+          "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
+        },
+        {
           "ja": "病院や介護施設では、高齢者の体調に特に注意しています。",
           "en": "Hospitals and care homes are paying special attention to the health of older people."
         },
@@ -58791,10 +59025,6 @@
         {
           "ja": "アメリカのプロバスケットボール、NBAで、ニューヨーク・ニックスが2026年の王者になりました。",
           "en": "In the NBA, America's professional basketball league, the New York Knicks became the 2026 champions."
-        },
-        {
-          "ja": "初めの結果では、多くの有権者がこの案に反対しました。",
-          "en": "Early results showed that many voters opposed the plan."
         }
       ]
     },
@@ -59240,6 +59470,10 @@
           "meaning": "Te-form of 向ける: to turn toward, to point",
           "exampleSentences": [
             {
+              "ja": "1964年の東京オリンピックに向けて作られた、日本の技術史でも大切な乗り物です。",
+              "en": "It was built for the 1964 Tokyo Olympics, and it is also an important part of Japan's engineering history."
+            },
+            {
               "ja": "これから本格的な夏に向けて、どこまで効果があるかが注目されています。",
               "en": "As full summer approaches, people are watching closely to see how effective they will be."
             }
@@ -59457,7 +59691,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "このモノレールは、羽田空港と東京の中心部を結ぶために建設されました。",
+          "en": "This monorail was built to connect Haneda Airport with central Tokyo."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "godan",
       "verbForms": [
@@ -59472,6 +59711,10 @@
             {
               "ja": "新しいバスは、病院、役場、スーパーなどを結びます。",
               "en": "The new buses connect places such as the hospital, town office, and supermarket."
+            },
+            {
+              "ja": "このモノレールは、羽田空港と東京の中心部を結ぶために建設されました。",
+              "en": "This monorail was built to connect Haneda Airport with central Tokyo."
             }
           ]
         },
@@ -59482,7 +59725,12 @@
           "term": "結んだ",
           "readingHiragana": "むすんだ",
           "meaning": "Plain past form of 結ぶ: to tie, to bind",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "このモノレールは、羽田空港と東京の中心部を結ぶために建設されました。",
+              "en": "This monorail was built to connect Haneda Airport with central Tokyo."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -59491,7 +59739,12 @@
           "term": "結ばない",
           "readingHiragana": "むすばない",
           "meaning": "Plain negative form of 結ぶ: to tie, to bind",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "このモノレールは、羽田空港と東京の中心部を結ぶために建設されました。",
+              "en": "This monorail was built to connect Haneda Airport with central Tokyo."
+            }
+          ]
         },
         {
           "form": "te",
@@ -59500,7 +59753,12 @@
           "term": "結んで",
           "readingHiragana": "むすんで",
           "meaning": "Te-form of 結ぶ: to tie, to bind",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "このモノレールは、羽田空港と東京の中心部を結ぶために建設されました。",
+              "en": "This monorail was built to connect Haneda Airport with central Tokyo."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -59509,7 +59767,12 @@
           "term": "結べる",
           "readingHiragana": "むすべる",
           "meaning": "Potential form of 結ぶ: to tie, to bind",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "このモノレールは、羽田空港と東京の中心部を結ぶために建設されました。",
+              "en": "This monorail was built to connect Haneda Airport with central Tokyo."
+            }
+          ]
         }
       ]
     },
@@ -60096,6 +60359,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "五輪のために生まれた設備が、長い時間をへても役立ち続けているのはおもしろいことです。",
+          "en": "It is interesting that a facility born for the Olympics has continued to be useful for a long time."
+        },
+        {
           "ja": "ブラヒム・ディアスのパスからチャンスが生まれ、サイバリが落ち着いて決めました。",
           "en": "A chance came from a pass by Brahim Diaz, and Saibari finished calmly."
         },
@@ -60110,10 +60377,6 @@
         {
           "ja": "管理者は、同じ内容を働く人や生徒にすぐ送ることができます。",
           "en": "Managers can quickly send the same information to workers or students."
-        },
-        {
-          "ja": "図書館では、観光客だけでなく、地域で生活する外国人にも役立つと考えています。",
-          "en": "Libraries believe the tablets will help not only tourists but also foreign residents in the community."
         }
       ]
     },
@@ -60889,6 +61152,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "1964年の東京オリンピックに向けて作られた、日本の技術史でも大切な乗り物です。",
+          "en": "It was built for the 1964 Tokyo Olympics, and it is also an important part of Japan's engineering history."
+        },
+        {
+          "ja": "当時、この路線は日本で最初に営業したモノレールでした。",
+          "en": "At the time, this line was Japan's first commercially operated monorail."
+        },
+        {
           "ja": "日本と中国の関係は、経済では深くつながっています。",
           "en": "Japan and China are deeply connected through the economy."
         },
@@ -60899,14 +61170,6 @@
         {
           "ja": "そのため、日本は南西の島々で防衛を強めています。",
           "en": "For that reason, Japan is strengthening its defense in the southwestern islands."
-        },
-        {
-          "ja": "日本は長い間、アメリカの大切な同盟国でした。",
-          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
-        },
-        {
-          "ja": "しかし、もしアメリカと中国の関係が少しよくなると、日本は不安になります。",
-          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
         }
       ]
     },
@@ -65232,6 +65495,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京モノレールは、東京の交通を支えるだけでなく、昔の大きなイベントの記憶も今に伝えています。",
+          "en": "Tokyo Monorail not only supports transportation in Tokyo, but also carries the memory of a major event from the past into the present."
+        },
+        {
           "ja": "女性の家族は、医療費などを支えるために寄付を集めています。",
           "en": "The woman's family is collecting donations to help with medical costs and other needs."
         },
@@ -65256,6 +65523,10 @@
           "meaning": "Polite form of 支える: to support, to prop",
           "exampleSentences": [
             {
+              "ja": "東京モノレールは、東京の交通を支えるだけでなく、昔の大きなイベントの記憶も今に伝えています。",
+              "en": "Tokyo Monorail not only supports transportation in Tokyo, but also carries the memory of a major event from the past into the present."
+            },
+            {
               "ja": "女性の家族は、医療費などを支えるために寄付を集めています。",
               "en": "The woman's family is collecting donations to help with medical costs and other needs."
             },
@@ -65277,6 +65548,10 @@
           "readingHiragana": "ささえた",
           "meaning": "Plain past form of 支える: to support, to prop",
           "exampleSentences": [
+            {
+              "ja": "東京モノレールは、東京の交通を支えるだけでなく、昔の大きなイベントの記憶も今に伝えています。",
+              "en": "Tokyo Monorail not only supports transportation in Tokyo, but also carries the memory of a major event from the past into the present."
+            },
             {
               "ja": "女性の家族は、医療費などを支えるために寄付を集めています。",
               "en": "The woman's family is collecting donations to help with medical costs and other needs."
@@ -65300,6 +65575,10 @@
           "meaning": "Plain negative form of 支える: to support, to prop",
           "exampleSentences": [
             {
+              "ja": "東京モノレールは、東京の交通を支えるだけでなく、昔の大きなイベントの記憶も今に伝えています。",
+              "en": "Tokyo Monorail not only supports transportation in Tokyo, but also carries the memory of a major event from the past into the present."
+            },
+            {
               "ja": "女性の家族は、医療費などを支えるために寄付を集めています。",
               "en": "The woman's family is collecting donations to help with medical costs and other needs."
             },
@@ -65322,6 +65601,10 @@
           "meaning": "Te-form of 支える: to support, to prop",
           "exampleSentences": [
             {
+              "ja": "東京モノレールは、東京の交通を支えるだけでなく、昔の大きなイベントの記憶も今に伝えています。",
+              "en": "Tokyo Monorail not only supports transportation in Tokyo, but also carries the memory of a major event from the past into the present."
+            },
+            {
               "ja": "女性の家族は、医療費などを支えるために寄付を集めています。",
               "en": "The woman's family is collecting donations to help with medical costs and other needs."
             },
@@ -65343,6 +65626,10 @@
           "readingHiragana": "ささえられる",
           "meaning": "Potential form of 支える: to support, to prop",
           "exampleSentences": [
+            {
+              "ja": "東京モノレールは、東京の交通を支えるだけでなく、昔の大きなイベントの記憶も今に伝えています。",
+              "en": "Tokyo Monorail not only supports transportation in Tokyo, but also carries the memory of a major event from the past into the present."
+            },
             {
               "ja": "女性の家族は、医療費などを支えるために寄付を集めています。",
               "en": "The woman's family is collecting donations to help with medical costs and other needs."
@@ -66550,6 +66837,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "五輪のために生まれた設備が、長い時間をへても役立ち続けているのはおもしろいことです。",
+          "en": "It is interesting that a facility born for the Olympics has continued to be useful for a long time."
+        },
+        {
           "ja": "ひとりでは高くて持てない設備を共同で利用する考えです。",
           "en": "The idea is to share equipment that is too expensive for one person to own alone."
         },
@@ -67428,6 +67719,10 @@
           "readingHiragana": "しめした",
           "meaning": "Plain past form of 示す: to show, to indicate",
           "exampleSentences": [
+            {
+              "ja": "未来的に見えるシステムでも、実際の公共交通として使えることを示したのです。",
+              "en": "It showed that a futuristic-looking system could also work as real public transportation."
+            },
             {
               "ja": "文部科学省は、学校ごとの状況にあわせて柔軟に運用できる指針を示したい考えです。",
               "en": "The education ministry wants to present guidelines that schools can apply flexibly according to their situations."
@@ -69619,7 +69914,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "開業日は1964年9月17日で、オリンピックが始まる10月10日より数週間前でした。",
+          "en": "It opened on September 17, 1964, only a few weeks before the Olympics began on October 10."
+        }
+      ]
     },
     {
       "id": "core-937d78780ba9ac",
@@ -71067,6 +71367,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
+          "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
+        },
         {
           "ja": "旅行、留学、ビジネスの交流が少なくなると、お互いの国へのイメージも悪くなりやすいです。",
           "en": "When travel, study abroad, and business exchange decrease, people tend to get a worse image of the other country."
@@ -73747,6 +74051,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "当時、この路線は日本で最初に営業したモノレールでした。",
+          "en": "At the time, this line was Japan's first commercially operated monorail."
+        },
+        {
+          "ja": "五輪のために生まれた設備が、長い時間をへても役立ち続けているのはおもしろいことです。",
+          "en": "It is interesting that a facility born for the Olympics has continued to be useful for a long time."
+        },
+        {
           "ja": "この考え方ができると、毎回ルート検索に時間を取られにくくなります。",
           "en": "Once you can think this way, you do not spend as much time on route searches every time."
         },
@@ -73757,14 +74069,6 @@
         {
           "ja": "台風7号は21時の時点で、奄美や沖縄に近い東の海上にありました。",
           "en": "As of 9 p.m., Typhoon No. 7 was over waters east of areas near Amami and Okinawa. The forecast says it may move close to the Kanto region by the night of June 27."
-        },
-        {
-          "ja": "台風の進路は、数時間で変わることがあります。",
-          "en": "A typhoon's path can change within a few hours."
-        },
-        {
-          "ja": "同じくらいの強さの地震が、近い場所で短い時間に起きることです。",
-          "en": "\" It means earthquakes of similar strength happen close together in place and time."
         }
       ]
     },
@@ -75419,6 +75723,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
+          "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
+        },
+        {
           "ja": "通勤や出張の予定を変更する人が多く、駅や空港では最新情報を確認する姿が目立ちました。",
           "en": "Many people changed commuting or business-trip plans, while stations and airports were filled with travelers checking the latest information."
         },
@@ -75913,6 +76221,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "五輪のために生まれた設備が、長い時間をへても役立ち続けているのはおもしろいことです。",
+          "en": "It is interesting that a facility born for the Olympics has continued to be useful for a long time."
+        },
         {
           "ja": "ブラヒム・ディアスのパスからチャンスが生まれ、サイバリが落ち着いて決めました。",
           "en": "A chance came from a pass by Brahim Diaz, and Saibari finished calmly."
@@ -76782,7 +77094,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "五輪のために生まれた設備が、長い時間をへても役立ち続けているのはおもしろいことです。",
+          "en": "It is interesting that a facility born for the Olympics has continued to be useful for a long time."
+        }
+      ]
     },
     {
       "id": "core-d91ba2fcd39b2e",
@@ -77300,6 +77617,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "五輪のために生まれた設備が、長い時間をへても役立ち続けているのはおもしろいことです。",
+          "en": "It is interesting that a facility born for the Olympics has continued to be useful for a long time."
+        },
         {
           "ja": "新しいバスは、病院、役場、スーパーなどを結びます。",
           "en": "The new buses connect places such as the hospital, town office, and supermarket."
@@ -79328,6 +79649,201 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": []
+    },
+    {
+      "id": "article-50efa68a20253f",
+      "level": "N3",
+      "term": "交通機関",
+      "reading": "こうつうきかん",
+      "readingHiragana": "こうつうきかん",
+      "meaning": "Means of transportation",
+      "source": "article",
+      "sourceId": "2026-06-30-tokyo-monorail-history",
+      "sourceTitle": "東京モノレールは、東京五輪とともに生まれた",
+      "sourceLabel": "6/30 東京モノレール",
+      "sourceHref": "./2026-06-30-tokyo-monorail-history.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-30-tokyo-monorail-history"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "東京モノレールは、羽田空港へ行くための便利な交通機関です。",
+          "en": "Tokyo Monorail is a convenient way to get to Haneda Airport."
+        },
+        {
+          "ja": "交通機関を利用する際は、運行状況を確認し、無理な移動を避けることが大切です。",
+          "en": "When using transportation, it is important to check service status and avoid unnecessary travel."
+        }
+      ]
+    },
+    {
+      "id": "article-e4b76f192253a8",
+      "level": "N3",
+      "term": "営業",
+      "reading": "えいぎょう",
+      "readingHiragana": "えいぎょう",
+      "meaning": "Commercial operation",
+      "source": "article",
+      "sourceId": "2026-06-30-tokyo-monorail-history",
+      "sourceTitle": "東京モノレールは、東京五輪とともに生まれた",
+      "sourceLabel": "6/30 東京モノレール",
+      "sourceHref": "./2026-06-30-tokyo-monorail-history.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-30-tokyo-monorail-history"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "当時、この路線は日本で最初に営業したモノレールでした。",
+          "en": "At the time, this line was Japan's first commercially operated monorail."
+        },
+        {
+          "ja": "駅の周りでは、列車の到着にあわせて土産店やカフェが営業を広げています。",
+          "en": "Around the stations, souvenir shops and cafes are extending business hours to match the train’s arrivals."
+        }
+      ]
+    },
+    {
+      "id": "article-097c6a77ee714a",
+      "level": "N3",
+      "term": "開業",
+      "reading": "かいぎょう",
+      "readingHiragana": "かいぎょう",
+      "meaning": "Opening / Start of service",
+      "source": "article",
+      "sourceId": "2026-06-30-tokyo-monorail-history",
+      "sourceTitle": "東京モノレールは、東京五輪とともに生まれた",
+      "sourceLabel": "6/30 東京モノレール",
+      "sourceHref": "./2026-06-30-tokyo-monorail-history.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-30-tokyo-monorail-history"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "開業日は1964年9月17日で、オリンピックが始まる10月10日より数週間前でした。",
+          "en": "It opened on September 17, 1964, only a few weeks before the Olympics began on October 10."
+        }
+      ]
+    },
+    {
+      "id": "article-a5755240a56182",
+      "level": "N3",
+      "term": "公共交通",
+      "reading": "こうきょうこうつう",
+      "readingHiragana": "こうきょうこうつう",
+      "meaning": "Public transportation",
+      "source": "article",
+      "sourceId": "2026-06-30-tokyo-monorail-history",
+      "sourceTitle": "東京モノレールは、東京五輪とともに生まれた",
+      "sourceLabel": "6/30 東京モノレール",
+      "sourceHref": "./2026-06-30-tokyo-monorail-history.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-30-tokyo-monorail-history"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "未来的に見えるシステムでも、実際の公共交通として使えることを示したのです。",
+          "en": "It showed that a futuristic-looking system could also work as real public transportation."
+        }
+      ]
+    },
+    {
+      "id": "article-bbf6210862a85b",
+      "level": "N3",
+      "term": "通勤する",
+      "reading": "つうきんする",
+      "readingHiragana": "つうきんする",
+      "meaning": "To commute",
+      "source": "article",
+      "sourceId": "2026-06-30-tokyo-monorail-history",
+      "sourceTitle": "東京モノレールは、東京五輪とともに生まれた",
+      "sourceLabel": "6/30 東京モノレール",
+      "sourceHref": "./2026-06-30-tokyo-monorail-history.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-30-tokyo-monorail-history"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
+          "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
+        },
+        {
+          "ja": "通勤や出張の予定を変更する人が多く、駅や空港では最新情報を確認する姿が目立ちました。",
+          "en": "Many people changed commuting or business-trip plans, while stations and airports were filled with travelers checking the latest information."
+        },
+        {
+          "ja": "通勤や通学で使う人が多い場所では、とくに休める空間が必要だと考えられています。",
+          "en": "In places used by many commuters and students, it is thought that rest spaces are especially necessary."
+        }
+      ]
+    },
+    {
+      "id": "article-1b5e8cba301887",
+      "level": "N3",
+      "term": "実用的",
+      "reading": "じつようてき",
+      "readingHiragana": "じつようてき",
+      "meaning": "Practical",
+      "source": "article",
+      "sourceId": "2026-06-30-tokyo-monorail-history",
+      "sourceTitle": "東京モノレールは、東京五輪とともに生まれた",
+      "sourceLabel": "6/30 東京モノレール",
+      "sourceHref": "./2026-06-30-tokyo-monorail-history.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-30-tokyo-monorail-history"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
+          "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
+        }
+      ]
+    },
+    {
+      "id": "article-5fba810fde9e87",
+      "level": "N3",
+      "term": "遺産",
+      "reading": "いさん",
+      "readingHiragana": "いさん",
+      "meaning": "Legacy",
+      "source": "article",
+      "sourceId": "2026-06-30-tokyo-monorail-history",
+      "sourceTitle": "東京モノレールは、東京五輪とともに生まれた",
+      "sourceLabel": "6/30 東京モノレール",
+      "sourceHref": "./2026-06-30-tokyo-monorail-history.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-30-tokyo-monorail-history"
+      ],
+      "exampleSentences": []
+    },
+    {
+      "id": "article-bb93c91a1b573b",
+      "level": "N3",
+      "term": "結ぶ",
+      "reading": "むすぶ",
+      "readingHiragana": "むすぶ",
+      "meaning": "To connect",
+      "source": "article",
+      "sourceId": "2026-06-30-tokyo-monorail-history",
+      "sourceTitle": "東京モノレールは、東京五輪とともに生まれた",
+      "sourceLabel": "6/30 東京モノレール",
+      "sourceHref": "./2026-06-30-tokyo-monorail-history.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-30-tokyo-monorail-history"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "このモノレールは、羽田空港と東京の中心部を結ぶために建設されました。",
+          "en": "This monorail was built to connect Haneda Airport with central Tokyo."
+        }
+      ]
     },
     {
       "id": "article-5e42c0608fe6af",
@@ -83635,6 +84151,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "五輪のために生まれた設備が、長い時間をへても役立ち続けているのはおもしろいことです。",
+          "en": "It is interesting that a facility born for the Olympics has continued to be useful for a long time."
+        },
+        {
           "ja": "ひとりでは高くて持てない設備を共同で利用する考えです。",
           "en": "The idea is to share equipment that is too expensive for one person to own alone."
         },
@@ -84607,6 +85127,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "五輪のために生まれた設備が、長い時間をへても役立ち続けているのはおもしろいことです。",
+          "en": "It is interesting that a facility born for the Olympics has continued to be useful for a long time."
+        },
+        {
           "ja": "ひとりでは高くて持てない設備を共同で利用する考えです。",
           "en": "The idea is to share equipment that is too expensive for one person to own alone."
         },
@@ -84768,6 +85292,10 @@
         "2026-05-21-rural-tourism-train"
       ],
       "exampleSentences": [
+        {
+          "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
+          "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
+        },
         {
           "ja": "旅行者が増える中、多くのホテルで案内ロボットを使う動きが広がっています。",
           "en": "As the number of travelers increases, more hotels are using guide robots."

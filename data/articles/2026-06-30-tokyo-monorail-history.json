@@ -1,0 +1,70 @@
+{
+  "id": "2026-06-30-tokyo-monorail-history",
+  "file": "2026-06-30-tokyo-monorail-history.html",
+  "title": "東京モノレールは、東京五輪とともに生まれた",
+  "titleTranslation": "Tokyo Monorail Was Born with the Tokyo Olympics",
+  "date": "2026年6月30日",
+  "month": "June 2026",
+  "navLabel": "6/30 東京モノレール",
+  "level": "N3",
+  "downloadFileName": "2026-06-30-tokyo-monorail-history.mp4",
+  "headlineHtml": "東京モノレールは、<ruby>東京五輪<rt>とうきょうごりん</rt></ruby>とともに<ruby>生<rt>う</rt></ruby>まれた",
+  "sourceNote": "ユーザー提供の東京モノレールについての説明文をもとにしたN3レベルの学習用ページです。",
+  "paragraphs": [
+    {
+      "html": "東京モノレールは、<ruby>羽田空港<rt>はねだくうこう</rt></ruby>へ行くための<ruby>便利<rt>べんり</rt></ruby>な<ruby>交通機関<rt>こうつうきかん</rt></ruby>です。でも、それだけではありません。1964年の東京オリンピックに向けて<ruby>作<rt>つく</rt></ruby>られた、日本の<ruby>技術史<rt>ぎじゅつし</rt></ruby>でも<ruby>大切<rt>たいせつ</rt></ruby>な<ruby>乗<rt>の</rt></ruby>り<ruby>物<rt>もの</rt></ruby>です。",
+      "translation": "Tokyo Monorail is a convenient way to get to Haneda Airport. But that is not all. It was built for the 1964 Tokyo Olympics, and it is also an important part of Japan's engineering history."
+    },
+    {
+      "html": "このモノレールは、<ruby>羽田空港<rt>はねだくうこう</rt></ruby>と<ruby>東京<rt>とうきょう</rt></ruby>の<ruby>中心部<rt>ちゅうしんぶ</rt></ruby>を<ruby>結<rt>むす</rt></ruby>ぶために<ruby>建設<rt>けんせつ</rt></ruby>されました。<ruby>開業日<rt>かいぎょうび</rt></ruby>は1964年9月17日で、オリンピックが<ruby>始<rt>はじ</rt></ruby>まる10月10日より<ruby>数週間<rt>すうしゅうかん</rt></ruby>前でした。",
+      "translation": "This monorail was built to connect Haneda Airport with central Tokyo. It opened on September 17, 1964, only a few weeks before the Olympics began on October 10."
+    },
+    {
+      "html": "<ruby>当時<rt>とうじ</rt></ruby>、この<ruby>路線<rt>ろせん</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>最初<rt>さいしょ</rt></ruby>に<ruby>営業<rt>えいぎょう</rt></ruby>したモノレールでした。<ruby>未来的<rt>みらいてき</rt></ruby>に<ruby>見<rt>み</rt></ruby>えるシステムでも、<ruby>実際<rt>じっさい</rt></ruby>の<ruby>公共交通<rt>こうきょうこうつう</rt></ruby>として<ruby>使<rt>つか</rt></ruby>えることを<ruby>示<rt>しめ</rt></ruby>したのです。",
+      "translation": "At the time, this line was Japan's first commercially operated monorail. It showed that a futuristic-looking system could also work as real public transportation."
+    },
+    {
+      "html": "60年以上たった今でも、東京モノレールは<ruby>毎日<rt>まいにち</rt></ruby><ruby>動<rt>うご</rt></ruby>いています。<ruby>空港<rt>くうこう</rt></ruby>へ向かう<ruby>旅行者<rt>りょこうしゃ</rt></ruby>だけでなく、<ruby>通勤<rt>つうきん</rt></ruby>する<ruby>人<rt>ひと</rt></ruby>も<ruby>利用<rt>りよう</rt></ruby>していて、<ruby>今<rt>いま</rt></ruby>も<ruby>実用的<rt>じつようてき</rt></ruby>です。",
+      "translation": "Even more than 60 years later, Tokyo Monorail still runs every day. It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
+    },
+    {
+      "html": "<ruby>五輪<rt>ごりん</rt></ruby>のために<ruby>生<rt>う</rt></ruby>まれた<ruby>設備<rt>せつび</rt></ruby>が、<ruby>長<rt>なが</rt></ruby>い<ruby>時間<rt>じかん</rt></ruby>をへても<ruby>役立<rt>やくだ</rt></ruby>ち<ruby>続<rt>つづ</rt></ruby>けているのはおもしろいことです。東京モノレールは、東京の<ruby>交通<rt>こうつう</rt></ruby>を<ruby>支<rt>ささ</rt></ruby>えるだけでなく、<ruby>昔<rt>むかし</rt></ruby>の<ruby>大<rt>おお</rt></ruby>きなイベントの<ruby>記憶<rt>きおく</rt></ruby>も<ruby>今<rt>いま</rt></ruby>に<ruby>伝<rt>つた</rt></ruby>えています。",
+      "translation": "It is interesting that a facility born for the Olympics has continued to be useful for a long time. Tokyo Monorail not only supports transportation in Tokyo, but also carries the memory of a major event from the past into the present."
+    }
+  ],
+  "vocabularyTitle": "N3 Vocabulary",
+  "vocabulary": [
+    {
+      "term": "交通機関（こうつうきかん）",
+      "meaning": "Means of transportation"
+    },
+    {
+      "term": "営業（えいぎょう）",
+      "meaning": "Commercial operation"
+    },
+    {
+      "term": "開業（かいぎょう）",
+      "meaning": "Opening / Start of service"
+    },
+    {
+      "term": "公共交通（こうきょうこうつう）",
+      "meaning": "Public transportation"
+    },
+    {
+      "term": "通勤（つうきん）する",
+      "meaning": "To commute"
+    },
+    {
+      "term": "実用的（じつようてき）",
+      "meaning": "Practical"
+    },
+    {
+      "term": "遺産（いさん）",
+      "meaning": "Legacy"
+    },
+    {
+      "term": "結ぶ（むすぶ）",
+      "meaning": "To connect"
+    }
+  ]
+}

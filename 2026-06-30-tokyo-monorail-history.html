@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>東京モノレールは、東京五輪とともに生まれた</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <link rel="stylesheet" href="./assets/article.css?v=93cf5769ed14">
+</head>
+<body id="top" data-article-id="2026-06-30-tokyo-monorail-history" data-recording-download-name="2026-06-30-tokyo-monorail-history.mp4">
+<nav class="top-nav" aria-label="Page navigation"></nav>
+<div class="article-shell">
+    <aside class="article-sidebar" aria-label="Article navigation"></aside>
+    <main class="article-main">
+
+<div class="container">
+    <div class="date">2026年6月30日</div>
+    <div class="article-toolbar">
+        <div class="voice-controls">
+            <button class="toolbar-icon-button voice-menu-toggle" type="button" id="voice-menu-toggle" aria-expanded="false" aria-controls="voice-settings-menu" aria-label="Voice settings" data-tooltip="Voice settings">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 10v4"></path>
+                    <path d="M8 7v10"></path>
+                    <path d="M12 4v16"></path>
+                    <path d="M16 7v10"></path>
+                    <path d="M20 10v4"></path>
+                </svg>
+                <span class="icon-label">Voice settings</span>
+            </button>
+            <div class="voice-current-status" id="voice-current-status" aria-live="polite">Docker VOICEVOX</div>
+            <button class="audio-enable-button" type="button" id="enable-docker-audio" hidden>Enable audio</button>
+            <div class="voice-settings-menu" id="voice-settings-menu" hidden>
+                <label class="toolbar-label" for="browser-voice">Browser Voice</label>
+                <select class="voice-select" id="browser-voice" aria-label="Browser voice">
+                    <option value="auto" selected>Google 日本語</option>
+                </select>
+            </div>
+        </div>
+        <div class="article-actions" aria-label="Article actions">
+            <button class="toolbar-icon-button video-button" type="button" id="render-video" aria-label="Render video" data-tooltip="Render video" data-default-label="Render video" data-active-label="Recording">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M5 6h11a2 2 0 0 1 2 2v1l3-2v10l-3-2v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"></path>
+                    <path d="M9 10.5v3l3-1.5z"></path>
+                </svg>
+                <span class="icon-label">Render video</span>
+            </button>
+            <button class="toolbar-icon-button cover-button" type="button" id="download-cover" aria-label="Download video cover" data-tooltip="Download cover" data-default-label="Download cover" data-active-label="Rendering cover">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                    <circle cx="8.5" cy="10" r="1.5"></circle>
+                    <path d="m21 15-5-5L5 19"></path>
+                </svg>
+                <span class="icon-label">Download cover</span>
+            </button>
+            <button class="toolbar-icon-button speak-button" type="button" id="speak-japanese-article" aria-label="Read aloud" data-tooltip="Read aloud" data-default-label="Read aloud" data-active-label="Stop reading" data-loading-label="Preparing audio">
+                <svg class="toolbar-svg icon-read" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 10v4h4l5 4V6L8 10z"></path>
+                    <path d="M16 9c1.8 1.8 1.8 4.2 0 6"></path>
+                    <path d="M18.5 6.5c3.3 3.3 3.3 7.7 0 11"></path>
+                </svg>
+                <svg class="toolbar-svg icon-stop" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 8h8v8H8z"></path>
+                </svg>
+                <span class="icon-label">Read aloud</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-japanese-article" aria-label="Copy Japanese article" data-tooltip="Copy Japanese article">
+                <span class="copy-language-icon" aria-hidden="true">あ</span>
+                <span class="icon-label">Copy Japanese article</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-english-translation" aria-label="Copy English translation" data-tooltip="Copy English translation">
+                <span class="copy-language-icon" aria-hidden="true">A</span>
+                <span class="icon-label">Copy English translation</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-bilingual-article" aria-label="Copy Japanese and English article" data-tooltip="Copy Japanese and English article">
+                <span class="copy-language-icon copy-language-icon-wide" aria-hidden="true">あ/A</span>
+                <span class="icon-label">Copy Japanese and English article</span>
+            </button>
+        </div>
+    </div>
+    <div class="copy-status" id="copy-status" aria-live="polite"></div>
+    <audio class="audio-player" id="tts-player" controls hidden preload="none"></audio>
+    <h1>東京モノレールは、<ruby>東京五輪<rt>とうきょうごりん</rt></ruby>とともに<ruby>生<rt>う</rt></ruby>まれた</h1>
+    <div class="source-note">ユーザー提供の東京モノレールについての説明文をもとにしたN3レベルの学習用ページです。</div>
+
+
+    <p class="article-paragraph">東京モノレールは、<ruby>羽田空港<rt>はねだくうこう</rt></ruby>へ行くための<ruby>便利<rt>べんり</rt></ruby>な<ruby>交通機関<rt>こうつうきかん</rt></ruby>です。でも、それだけではありません。1964年の東京オリンピックに向けて<ruby>作<rt>つく</rt></ruby>られた、日本の<ruby>技術史<rt>ぎじゅつし</rt></ruby>でも<ruby>大切<rt>たいせつ</rt></ruby>な<ruby>乗<rt>の</rt></ruby>り<ruby>物<rt>もの</rt></ruby>です。</p>
+    <div class="sentence-translation">Tokyo Monorail is a convenient way to get to Haneda Airport. But that is not all. It was built for the 1964 Tokyo Olympics, and it is also an important part of Japan&#x27;s engineering history.</div>
+    <p class="article-paragraph">このモノレールは、<ruby>羽田空港<rt>はねだくうこう</rt></ruby>と<ruby>東京<rt>とうきょう</rt></ruby>の<ruby>中心部<rt>ちゅうしんぶ</rt></ruby>を<ruby>結<rt>むす</rt></ruby>ぶために<ruby>建設<rt>けんせつ</rt></ruby>されました。<ruby>開業日<rt>かいぎょうび</rt></ruby>は1964年9月17日で、オリンピックが<ruby>始<rt>はじ</rt></ruby>まる10月10日より<ruby>数週間<rt>すうしゅうかん</rt></ruby>前でした。</p>
+    <div class="sentence-translation">This monorail was built to connect Haneda Airport with central Tokyo. It opened on September 17, 1964, only a few weeks before the Olympics began on October 10.</div>
+    <p class="article-paragraph"><ruby>当時<rt>とうじ</rt></ruby>、この<ruby>路線<rt>ろせん</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>最初<rt>さいしょ</rt></ruby>に<ruby>営業<rt>えいぎょう</rt></ruby>したモノレールでした。<ruby>未来的<rt>みらいてき</rt></ruby>に<ruby>見<rt>み</rt></ruby>えるシステムでも、<ruby>実際<rt>じっさい</rt></ruby>の<ruby>公共交通<rt>こうきょうこうつう</rt></ruby>として<ruby>使<rt>つか</rt></ruby>えることを<ruby>示<rt>しめ</rt></ruby>したのです。</p>
+    <div class="sentence-translation">At the time, this line was Japan&#x27;s first commercially operated monorail. It showed that a futuristic-looking system could also work as real public transportation.</div>
+    <p class="article-paragraph">60年以上たった今でも、東京モノレールは<ruby>毎日<rt>まいにち</rt></ruby><ruby>動<rt>うご</rt></ruby>いています。<ruby>空港<rt>くうこう</rt></ruby>へ向かう<ruby>旅行者<rt>りょこうしゃ</rt></ruby>だけでなく、<ruby>通勤<rt>つうきん</rt></ruby>する<ruby>人<rt>ひと</rt></ruby>も<ruby>利用<rt>りよう</rt></ruby>していて、<ruby>今<rt>いま</rt></ruby>も<ruby>実用的<rt>じつようてき</rt></ruby>です。</p>
+    <div class="sentence-translation">Even more than 60 years later, Tokyo Monorail still runs every day. It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today.</div>
+    <p class="article-paragraph"><ruby>五輪<rt>ごりん</rt></ruby>のために<ruby>生<rt>う</rt></ruby>まれた<ruby>設備<rt>せつび</rt></ruby>が、<ruby>長<rt>なが</rt></ruby>い<ruby>時間<rt>じかん</rt></ruby>をへても<ruby>役立<rt>やくだ</rt></ruby>ち<ruby>続<rt>つづ</rt></ruby>けているのはおもしろいことです。東京モノレールは、東京の<ruby>交通<rt>こうつう</rt></ruby>を<ruby>支<rt>ささ</rt></ruby>えるだけでなく、<ruby>昔<rt>むかし</rt></ruby>の<ruby>大<rt>おお</rt></ruby>きなイベントの<ruby>記憶<rt>きおく</rt></ruby>も<ruby>今<rt>いま</rt></ruby>に<ruby>伝<rt>つた</rt></ruby>えています。</p>
+    <div class="sentence-translation">It is interesting that a facility born for the Olympics has continued to be useful for a long time. Tokyo Monorail not only supports transportation in Tokyo, but also carries the memory of a major event from the past into the present.</div>
+    <div class="recording-footer" aria-hidden="true">
+        <span>英訳はコメント欄にあります</span>
+        <span>2026年6月30日</span>
+    </div>
+
+    <div class="vocabulary-box">
+        <h2>N3 Vocabulary</h2>
+        <ul>
+            <li><strong>交通機関（こうつうきかん）:</strong> Means of transportation</li>
+            <li><strong>営業（えいぎょう）:</strong> Commercial operation</li>
+            <li><strong>開業（かいぎょう）:</strong> Opening / Start of service</li>
+            <li><strong>公共交通（こうきょうこうつう）:</strong> Public transportation</li>
+            <li><strong>通勤（つうきん）する:</strong> To commute</li>
+            <li><strong>実用的（じつようてき）:</strong> Practical</li>
+            <li><strong>遺産（いさん）:</strong> Legacy</li>
+            <li><strong>結ぶ（むすぶ）:</strong> To connect</li>
+        </ul>
+    </div>
+</div>
+    </main>
+</div>
+
+<script src="./assets/article.js?v=c253c6109e64"></script>
+
+</body>
+</html>

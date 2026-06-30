@@ -429,7 +429,7 @@ def render_quiz_html(quiz: dict, options: RenderOptions) -> str:
 
 
 def render_article_cover_html(article: dict, options: RenderOptions) -> str:
-    cover_kicker = "Japanese News Reading Exercise"
+    cover_kicker = "Japanese Reading Exercise"
     title_translation = str(article.get("titleTranslation", "")).strip()
     kicker_html = f'        <p class="cover-kicker">{escape(cover_kicker)}</p>'
     translation_html = (
