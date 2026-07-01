@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/usr/bin/python3 .codex/hooks/check_kanji_coverage.py",
+            "timeout": 10,
+            "statusMessage": "Checking article kanji furigana coverage"
+          }
+        ]
+      }
+    ]
+  }
+}

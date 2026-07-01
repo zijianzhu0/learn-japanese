@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>京急線では行き先だけでなく列車の種別も確認しよう</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <link rel="stylesheet" href="./assets/article.css?v=93cf5769ed14">
+</head>
+<body id="top" data-article-id="2026-07-02-keikyu-train-types" data-recording-download-name="2026-07-02-keikyu-train-types.mp4">
+<nav class="top-nav" aria-label="Page navigation"></nav>
+<div class="article-shell">
+    <aside class="article-sidebar" aria-label="Article navigation"></aside>
+    <main class="article-main">
+
+<div class="container">
+    <div class="date">2026年7月2日</div>
+    <div class="article-toolbar">
+        <div class="voice-controls">
+            <button class="toolbar-icon-button voice-menu-toggle" type="button" id="voice-menu-toggle" aria-expanded="false" aria-controls="voice-settings-menu" aria-label="Voice settings" data-tooltip="Voice settings">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 10v4"></path>
+                    <path d="M8 7v10"></path>
+                    <path d="M12 4v16"></path>
+                    <path d="M16 7v10"></path>
+                    <path d="M20 10v4"></path>
+                </svg>
+                <span class="icon-label">Voice settings</span>
+            </button>
+            <div class="voice-current-status" id="voice-current-status" aria-live="polite">Docker VOICEVOX</div>
+            <button class="audio-enable-button" type="button" id="enable-docker-audio" hidden>Enable audio</button>
+            <div class="voice-settings-menu" id="voice-settings-menu" hidden>
+                <label class="toolbar-label" for="browser-voice">Browser Voice</label>
+                <select class="voice-select" id="browser-voice" aria-label="Browser voice">
+                    <option value="auto" selected>Google 日本語</option>
+                </select>
+            </div>
+        </div>
+        <div class="article-actions" aria-label="Article actions">
+            <button class="toolbar-icon-button video-button" type="button" id="render-video" aria-label="Render video" data-tooltip="Render video" data-default-label="Render video" data-active-label="Recording">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M5 6h11a2 2 0 0 1 2 2v1l3-2v10l-3-2v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"></path>
+                    <path d="M9 10.5v3l3-1.5z"></path>
+                </svg>
+                <span class="icon-label">Render video</span>
+            </button>
+            <button class="toolbar-icon-button cover-button" type="button" id="download-cover" aria-label="Download video cover" data-tooltip="Download cover" data-default-label="Download cover" data-active-label="Rendering cover">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                    <circle cx="8.5" cy="10" r="1.5"></circle>
+                    <path d="m21 15-5-5L5 19"></path>
+                </svg>
+                <span class="icon-label">Download cover</span>
+            </button>
+            <button class="toolbar-icon-button speak-button" type="button" id="speak-japanese-article" aria-label="Read aloud" data-tooltip="Read aloud" data-default-label="Read aloud" data-active-label="Stop reading" data-loading-label="Preparing audio">
+                <svg class="toolbar-svg icon-read" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 10v4h4l5 4V6L8 10z"></path>
+                    <path d="M16 9c1.8 1.8 1.8 4.2 0 6"></path>
+                    <path d="M18.5 6.5c3.3 3.3 3.3 7.7 0 11"></path>
+                </svg>
+                <svg class="toolbar-svg icon-stop" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 8h8v8H8z"></path>
+                </svg>
+                <span class="icon-label">Read aloud</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-japanese-article" aria-label="Copy Japanese article" data-tooltip="Copy Japanese article">
+                <span class="copy-language-icon" aria-hidden="true">あ</span>
+                <span class="icon-label">Copy Japanese article</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-english-translation" aria-label="Copy English translation" data-tooltip="Copy English translation">
+                <span class="copy-language-icon" aria-hidden="true">A</span>
+                <span class="icon-label">Copy English translation</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-bilingual-article" aria-label="Copy Japanese and English article" data-tooltip="Copy Japanese and English article">
+                <span class="copy-language-icon copy-language-icon-wide" aria-hidden="true">あ/A</span>
+                <span class="icon-label">Copy Japanese and English article</span>
+            </button>
+        </div>
+    </div>
+    <div class="copy-status" id="copy-status" aria-live="polite"></div>
+    <audio class="audio-player" id="tts-player" controls hidden preload="none"></audio>
+    <h1><ruby>京急線<rt>けいきゅうせん</rt></ruby>では<ruby>行<rt>い</rt></ruby>き<ruby>先<rt>さき</rt></ruby>だけでなく<ruby>列車<rt>れっしゃ</rt></ruby>の<ruby>種別<rt>しゅべつ</rt></ruby>も<ruby>確認<rt>かくにん</rt></ruby>しよう</h1>
+    <div class="source-note">ユーザー提供の京急線の列車種別についての説明文をもとにしたN3レベルの学習用ページです。</div>
+
+
+    <p class="article-paragraph"><ruby>京急線<rt>けいきゅうせん</rt></ruby>に<ruby>乗<rt>の</rt></ruby>る<ruby>人<rt>ひと</rt></ruby>がよくする<ruby>間違<rt>まちが</rt></ruby>いの<ruby>一<rt>ひと</rt></ruby>つは、<ruby>行<rt>い</rt></ruby>き<ruby>先<rt>さき</rt></ruby>だけを<ruby>見<rt>み</rt></ruby>て、<ruby>列車<rt>れっしゃ</rt></ruby>の<ruby>種別<rt>しゅべつ</rt></ruby>を<ruby>見<rt>み</rt></ruby>ないことです。<ruby>同<rt>おな</rt></ruby>じ<ruby>方向<rt>ほうこう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>く<ruby>電車<rt>でんしゃ</rt></ruby>でも、<ruby>止<rt>と</rt></ruby>まる<ruby>駅<rt>えき</rt></ruby>は<ruby>同<rt>おな</rt></ruby>じではありません。</p>
+    <div class="sentence-translation">One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type. Even trains going in the same direction do not all stop at the same stations.</div>
+    <p class="article-paragraph"><ruby>品川<rt>しながわ</rt></ruby>や<ruby>羽田空港<rt>はねだくうこう</rt></ruby>などの<ruby>駅<rt>えき</rt></ruby>では、<ruby>普通<rt>ふつう</rt></ruby>、<ruby>急行<rt>きゅうこう</rt></ruby>、エアポート<ruby>急行<rt>きゅうこう</rt></ruby>、<ruby>特急<rt>とっきゅう</rt></ruby>、<ruby>快特<rt>かいとく</rt></ruby>などの<ruby>表示<rt>ひょうじ</rt></ruby>を<ruby>見<rt>み</rt></ruby>ます。これらは<ruby>速<rt>はや</rt></ruby>さや<ruby>停車駅<rt>ていしゃえき</rt></ruby>が<ruby>違<rt>ちが</rt></ruby>うため、<ruby>名前<rt>なまえ</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>することが<ruby>大切<rt>たいせつ</rt></ruby>です。</p>
+    <div class="sentence-translation">At stations such as Shinagawa and Haneda Airport, you will see labels like Local, Express, Airport Express, Limited Express, and Rapid Limited Express. Because their speeds and stopping stations differ, it is important to check the name.</div>
+    <p class="article-paragraph"><ruby>早<rt>はや</rt></ruby>く<ruby>着<rt>つ</rt></ruby>きたいと<ruby>思<rt>おも</rt></ruby>って<ruby>速<rt>はや</rt></ruby>い<ruby>電車<rt>でんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>ると、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>駅<rt>えき</rt></ruby>を<ruby>通<rt>とお</rt></ruby>りすぎてしまうことがあります。<ruby>降<rt>お</rt></ruby>りたい<ruby>駅<rt>えき</rt></ruby>を<ruby>全部<rt>ぜんぶ</rt></ruby>の<ruby>電車<rt>でんしゃ</rt></ruby>が<ruby>通<rt>とお</rt></ruby>るわけではないので、<ruby>急<rt>いそ</rt></ruby>いでいるときほど<ruby>注意<rt>ちゅうい</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>です。</p>
+    <div class="sentence-translation">If you board a faster train because you want to arrive quickly, it may pass your station. Not every train serves the station where you want to get off, so you need to be especially careful when you are in a hurry.</div>
+    <p class="article-paragraph"><ruby>乗<rt>の</rt></ruby>る<ruby>前<rt>まえ</rt></ruby>に、<ruby>発車標<rt>はっしゃひょう</rt></ruby>で<ruby>行<rt>い</rt></ruby>き<ruby>先<rt>さき</rt></ruby>と<ruby>種別<rt>しゅべつ</rt></ruby>の<ruby>両方<rt>りょうほう</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>しましょう。30<ruby>秒<rt>びょう</rt></ruby>だけ<ruby>余分<rt>よぶん</rt></ruby>に<ruby>使<rt>つか</rt></ruby>って<ruby>正<rt>ただ</rt></ruby>しい<ruby>電車<rt>でんしゃ</rt></ruby>を<ruby>選<rt>えら</rt></ruby>ぶことで、あとで<ruby>長<rt>なが</rt></ruby>い<ruby>遠回<rt>とおまわ</rt></ruby>りをしなくてすむかもしれません。</p>
+    <div class="sentence-translation">Before getting on, check both the destination and the service type on the departure board. Spending just an extra 30 seconds choosing the right train may save you from a much longer detour later.</div>
+    <p class="article-paragraph"><ruby>種別<rt>しゅべつ</rt></ruby>ごとの<ruby>止<rt>と</rt></ruby>まり<ruby>方<rt>かた</rt></ruby>がわかると、<ruby>京急線<rt>けいきゅうせん</rt></ruby>はずっと<ruby>使<rt>つか</rt></ruby>いやすくなります。<ruby>最初<rt>さいしょ</rt></ruby>は<ruby>少<rt>すこ</rt></ruby>し<ruby>難<rt>むずか</rt></ruby>しく<ruby>見<rt>み</rt></ruby>えても、<ruby>行<rt>い</rt></ruby>き<ruby>先<rt>さき</rt></ruby>と<ruby>種別<rt>しゅべつ</rt></ruby>をセットで<ruby>見<rt>み</rt></ruby>る<ruby>習慣<rt>しゅうかん</rt></ruby>をつければ、<ruby>不安<rt>ふあん</rt></ruby>はかなり<ruby>小<rt>ちい</rt></ruby>さくなります。</p>
+    <div class="sentence-translation">Once you understand how each service type stops, the Keikyu Line becomes much easier to use. It may look a little difficult at first, but if you make a habit of checking the destination and train type together, it becomes much less intimidating.</div>
+    <div class="recording-footer" aria-hidden="true">
+        <span>英訳はコメント欄にあります</span>
+        <span>2026年7月2日</span>
+    </div>
+
+    <div class="vocabulary-box">
+        <h2>N3 Vocabulary</h2>
+        <ul>
+            <li><strong>種別（しゅべつ）:</strong> Type / Category</li>
+            <li><strong>普通（ふつう）:</strong> Local train</li>
+            <li><strong>急行（きゅうこう）:</strong> Express train</li>
+            <li><strong>特急（とっきゅう）:</strong> Limited express train</li>
+            <li><strong>快特（かいとく）:</strong> Rapid limited express train</li>
+            <li><strong>発車標（はっしゃひょう）:</strong> Departure board</li>
+            <li><strong>遠回り（とおまわり）:</strong> Detour / Going the long way around</li>
+        </ul>
+    </div>
+</div>
+    </main>
+</div>
+
+<script src="./assets/article.js?v=c253c6109e64"></script>
+
+</body>
+</html>
