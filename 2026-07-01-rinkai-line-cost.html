@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>りんかい線の運賃が少し高いのは、深い地下の工事が理由の一つ</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <link rel="stylesheet" href="./assets/article.css?v=93cf5769ed14">
+</head>
+<body id="top" data-article-id="2026-07-01-rinkai-line-cost" data-recording-download-name="2026-07-01-rinkai-line-cost.mp4">
+<nav class="top-nav" aria-label="Page navigation"></nav>
+<div class="article-shell">
+    <aside class="article-sidebar" aria-label="Article navigation"></aside>
+    <main class="article-main">
+
+<div class="container">
+    <div class="date">2026年7月1日</div>
+    <div class="article-toolbar">
+        <div class="voice-controls">
+            <button class="toolbar-icon-button voice-menu-toggle" type="button" id="voice-menu-toggle" aria-expanded="false" aria-controls="voice-settings-menu" aria-label="Voice settings" data-tooltip="Voice settings">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 10v4"></path>
+                    <path d="M8 7v10"></path>
+                    <path d="M12 4v16"></path>
+                    <path d="M16 7v10"></path>
+                    <path d="M20 10v4"></path>
+                </svg>
+                <span class="icon-label">Voice settings</span>
+            </button>
+            <div class="voice-current-status" id="voice-current-status" aria-live="polite">Docker VOICEVOX</div>
+            <button class="audio-enable-button" type="button" id="enable-docker-audio" hidden>Enable audio</button>
+            <div class="voice-settings-menu" id="voice-settings-menu" hidden>
+                <label class="toolbar-label" for="browser-voice">Browser Voice</label>
+                <select class="voice-select" id="browser-voice" aria-label="Browser voice">
+                    <option value="auto" selected>Google 日本語</option>
+                </select>
+            </div>
+        </div>
+        <div class="article-actions" aria-label="Article actions">
+            <button class="toolbar-icon-button video-button" type="button" id="render-video" aria-label="Render video" data-tooltip="Render video" data-default-label="Render video" data-active-label="Recording">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M5 6h11a2 2 0 0 1 2 2v1l3-2v10l-3-2v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"></path>
+                    <path d="M9 10.5v3l3-1.5z"></path>
+                </svg>
+                <span class="icon-label">Render video</span>
+            </button>
+            <button class="toolbar-icon-button cover-button" type="button" id="download-cover" aria-label="Download video cover" data-tooltip="Download cover" data-default-label="Download cover" data-active-label="Rendering cover">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                    <circle cx="8.5" cy="10" r="1.5"></circle>
+                    <path d="m21 15-5-5L5 19"></path>
+                </svg>
+                <span class="icon-label">Download cover</span>
+            </button>
+            <button class="toolbar-icon-button speak-button" type="button" id="speak-japanese-article" aria-label="Read aloud" data-tooltip="Read aloud" data-default-label="Read aloud" data-active-label="Stop reading" data-loading-label="Preparing audio">
+                <svg class="toolbar-svg icon-read" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 10v4h4l5 4V6L8 10z"></path>
+                    <path d="M16 9c1.8 1.8 1.8 4.2 0 6"></path>
+                    <path d="M18.5 6.5c3.3 3.3 3.3 7.7 0 11"></path>
+                </svg>
+                <svg class="toolbar-svg icon-stop" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 8h8v8H8z"></path>
+                </svg>
+                <span class="icon-label">Read aloud</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-japanese-article" aria-label="Copy Japanese article" data-tooltip="Copy Japanese article">
+                <span class="copy-language-icon" aria-hidden="true">あ</span>
+                <span class="icon-label">Copy Japanese article</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-english-translation" aria-label="Copy English translation" data-tooltip="Copy English translation">
+                <span class="copy-language-icon" aria-hidden="true">A</span>
+                <span class="icon-label">Copy English translation</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-bilingual-article" aria-label="Copy Japanese and English article" data-tooltip="Copy Japanese and English article">
+                <span class="copy-language-icon copy-language-icon-wide" aria-hidden="true">あ/A</span>
+                <span class="icon-label">Copy Japanese and English article</span>
+            </button>
+        </div>
+    </div>
+    <div class="copy-status" id="copy-status" aria-live="polite"></div>
+    <audio class="audio-player" id="tts-player" controls hidden preload="none"></audio>
+    <h1>りんかい<ruby>線<rt>せん</rt></ruby>の<ruby>運賃<rt>うんちん</rt></ruby>が<ruby>少<rt>すこ</rt></ruby>し<ruby>高<rt>たか</rt></ruby>いのは、<ruby>深<rt>ふか</rt></ruby>い<ruby>地下<rt>ちか</rt></ruby>の<ruby>工事<rt>こうじ</rt></ruby>が<ruby>理由<rt>りゆう</rt></ruby>の一つ</h1>
+    <div class="source-note">ユーザー提供のりんかい線についての説明文をもとにしたN3レベルの学習用ページです。</div>
+
+
+    <p class="article-paragraph"><ruby>東京<rt>とうきょう</rt></ruby>のりんかい<ruby>線<rt>せん</rt></ruby>は、ほかの<ruby>路線<rt>ろせん</rt></ruby>より<ruby>運賃<rt>うんちん</rt></ruby>が少し高いと<ruby>感<rt>かん</rt></ruby>じる<ruby>人<rt>ひと</rt></ruby>がいます。その<ruby>理由<rt>りゆう</rt></ruby>の一つは、<ruby>線路<rt>せんろ</rt></ruby>の多くがとても深い<ruby>地下<rt>ちか</rt></ruby>を通っていることです。</p>
+    <div class="sentence-translation">Some people feel that Tokyo&#x27;s Rinkai Line costs a little more than other rail lines. One reason is that much of the track runs very deep underground.</div>
+    <p class="article-paragraph">この<ruby>路線<rt>ろせん</rt></ruby>は、<ruby>東京港<rt>とうきょうこう</rt></ruby>の<ruby>下<rt>した</rt></ruby>を通るところで、<ruby>地上<rt>ちじょう</rt></ruby>から40メートル近い<ruby>深<rt>ふか</rt></ruby>さまで下がります。すでにある<ruby>地下鉄<rt>ちかてつ</rt></ruby>、<ruby>水道<rt>すいどう</rt></ruby>や<ruby>電気<rt>でんき</rt></ruby>の<ruby>設備<rt>せつび</rt></ruby>、<ruby>建物<rt>たてもの</rt></ruby>の<ruby>基礎<rt>きそ</rt></ruby>をよけながらトンネルを<ruby>作<rt>つく</rt></ruby>るのは、とても<ruby>大変<rt>たいへん</rt></ruby>でした。</p>
+    <div class="sentence-translation">Where the line passes under the Port of Tokyo, it descends to nearly 40 meters below the surface. Building tunnels while avoiding existing subways, water and electrical infrastructure, and building foundations was extremely difficult.</div>
+    <p class="article-paragraph">そのため、<ruby>建設費<rt>けんせつひ</rt></ruby>はとても高くなりました。2002年に<ruby>完成<rt>かんせい</rt></ruby>したとき、<ruby>全体<rt>ぜんたい</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>は4400<ruby>億円<rt>おくえん</rt></ruby>をこえていて、そのときの<ruby>借金<rt>しゃっきん</rt></ruby>が<ruby>今<rt>いま</rt></ruby>の運賃にも<ruby>影響<rt>えいきょう</rt></ruby>しています。</p>
+    <div class="sentence-translation">Because of that, construction costs became very high. When the line was completed in 2002, the total cost exceeded 440 billion yen, and those debts still affect fares today.</div>
+    <p class="article-paragraph">りんかい線は、1990年代から2000年代のはじめにかけて、<ruby>東京<rt>とうきょう</rt></ruby>の<ruby>臨海部<rt>りんかいぶ</rt></ruby>を<ruby>発展<rt>はってん</rt></ruby>させるために作られました。<ruby>昔<rt>むかし</rt></ruby>は<ruby>港<rt>みなと</rt></ruby>や<ruby>工業用地<rt>こうぎょうようち</rt></ruby>が多かった<ruby>場所<rt>ばしょ</rt></ruby>が、<ruby>仕事<rt>しごと</rt></ruby>、<ruby>買<rt>か</rt></ruby>い物、<ruby>遊<rt>あそ</rt></ruby>びを<ruby>楽<rt>たの</rt></ruby>しめるエリアに<ruby>変<rt>か</rt></ruby>わっていきました。</p>
+    <div class="sentence-translation">The Rinkai Line was built to develop Tokyo&#x27;s waterfront area from the 1990s into the early 2000s. Places that once had many port facilities and industrial sites changed into an area for work, shopping, and entertainment.</div>
+    <p class="article-paragraph">だから、りんかい線の<ruby>駅<rt>えき</rt></ruby>で<ruby>長<rt>なが</rt></ruby>いエスカレーターを下りるときは、<ruby>東京<rt>とうきょう</rt></ruby>でも特に<ruby>大<rt>おお</rt></ruby>きくてお<ruby>金<rt>かね</rt></ruby>のかかった<ruby>鉄道計画<rt>てつどうけいかく</rt></ruby>の<ruby>中<rt>なか</rt></ruby>を<ruby>移動<rt>いどう</rt></ruby>していると<ruby>考<rt>かんが</rt></ruby>えることができます。<ruby>足<rt>あし</rt></ruby>の<ruby>下<rt>した</rt></ruby>には、<ruby>東京<rt>とうきょう</rt></ruby>の<ruby>大規模<rt>だいきぼ</rt></ruby>な<ruby>再開発<rt>さいかいはつ</rt></ruby>の<ruby>歴史<rt>れきし</rt></ruby>があるのです。</p>
+    <div class="sentence-translation">So when you ride down the long escalators at a Rinkai Line station, you can think of yourself as moving through one of Tokyo&#x27;s biggest and most expensive railway projects. Beneath your feet lies the history of a major redevelopment effort.</div>
+    <div class="recording-footer" aria-hidden="true">
+        <span>英訳はコメント欄にあります</span>
+        <span>2026年7月1日</span>
+    </div>
+
+    <div class="vocabulary-box">
+        <h2>N3 Vocabulary</h2>
+        <ul>
+            <li><strong>運賃（うんちん）:</strong> Fare</li>
+            <li><strong>地下（ちか）:</strong> Underground</li>
+            <li><strong>設備（せつび）:</strong> Infrastructure / Equipment</li>
+            <li><strong>建設費（けんせつひ）:</strong> Construction cost</li>
+            <li><strong>借金（しゃっきん）:</strong> Debt</li>
+            <li><strong>臨海部（りんかいぶ）:</strong> Waterfront area</li>
+            <li><strong>再開発（さいかいはつ）:</strong> Redevelopment</li>
+        </ul>
+    </div>
+</div>
+    </main>
+</div>
+
+<script src="./assets/article.js?v=c253c6109e64"></script>
+
+</body>
+</html>
