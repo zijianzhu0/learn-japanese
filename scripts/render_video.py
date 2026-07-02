@@ -6,6 +6,7 @@ import argparse
 import json
 import math
 import os
+import random
 import re
 import shutil
 import subprocess
@@ -430,11 +431,87 @@ def render_quiz_html(quiz: dict, options: RenderOptions) -> str:
 def render_article_cover_html(article: dict, options: RenderOptions) -> str:
     cover_kicker = "Japanese Reading Exercise"
     title_translation = str(article.get("titleTranslation", "")).strip()
+    emoji_pool = [
+        "☆",
+        "★",
+        "♡",
+        "♥",
+        "❤",
+        "✿",
+        "✦",
+        "✧",
+        "✱",
+        "✲",
+        "✸",
+        "❁",
+        "❀",
+        "☁",
+        "♫",
+        "☾",
+        "☼",
+        "∞",
+        "○",
+        "●",
+        "◎",
+        "◇",
+        "◆",
+    ]
+    randomizer = random.SystemRandom()
+    shuffled_emojis = emoji_pool[:]
+    randomizer.shuffle(shuffled_emojis)
+
+    def next_emoji() -> str:
+        nonlocal shuffled_emojis
+        if not shuffled_emojis:
+            shuffled_emojis = emoji_pool[:]
+            randomizer.shuffle(shuffled_emojis)
+        return shuffled_emojis.pop()
+
+    emoji_count = randomizer.randint(12, 18)
+    emoji_specs = []
+    occupied_positions: list[tuple[int, int, float]] = []
+    attempts = 0
+    while len(emoji_specs) < emoji_count and attempts < 600:
+        attempts += 1
+        size_px = randomizer.randint(54, 132)
+        left = randomizer.randint(2, 92)
+        top = randomizer.randint(2, 94)
+        if 20 <= left <= 80 and 18 <= top <= 86:
+            continue
+        spacing_radius = max(8.0, min(17.0, size_px / 10.0))
+        if any(
+            math.hypot(left - existing_left, top - existing_top)
+            < spacing_radius + existing_radius
+            for existing_left, existing_top, existing_radius in occupied_positions
+        ):
+            continue
+        occupied_positions.append((left, top, spacing_radius))
+        emoji_specs.append(
+            (
+                next_emoji(),
+                f"{left}%",
+                f"{top}%",
+                f"{size_px}px",
+                f"{randomizer.randint(-24, 24)}deg",
+                round(randomizer.uniform(0.06, 0.16), 2),
+            )
+        )
     kicker_html = f'        <p class="cover-kicker">{escape(cover_kicker)}</p>'
     translation_html = (
         f'        <p class="cover-translation">{escape(title_translation)}</p>'
         if title_translation
         else ""
+    )
+    emoji_texture_html = "\n".join(
+        '        <span style="left: {left}; top: {top}; --emoji-size: {size}; --emoji-rotate: {rotate}; --emoji-opacity: {opacity};">{emoji}</span>'.format(
+            left=left,
+            top=top,
+            size=size,
+            rotate=rotate,
+            opacity=opacity,
+            emoji=escape(emoji),
+        )
+        for emoji, left, top, size, rotate, opacity in emoji_specs
     )
     return f"""<!DOCTYPE html>
 <html lang="ja">
@@ -454,19 +531,46 @@ def render_article_cover_html(article: dict, options: RenderOptions) -> str:
             display: grid;
             place-items: center;
             padding: 96px;
+            position: relative;
+            overflow: hidden;
             color: #333;
-            background: #f9f9f9;
+            background:
+                radial-gradient(circle at top left, #f2f2f2, transparent 34%),
+                radial-gradient(circle at bottom right, #ececec, transparent 28%),
+                linear-gradient(180deg, #fafafa 0%, #f3f3f3 100%);
             font-family: "Noto Sans CJK JP", "Noto Sans JP", "Helvetica Neue", Arial, sans-serif;
         }}
+        .emoji-texture {{
+            position: absolute;
+            inset: 0;
+            overflow: hidden;
+            pointer-events: none;
+            z-index: 0;
+        }}
+        .emoji-texture span {{
+            position: absolute;
+            display: block;
+            color: #8f8f8f;
+            font-size: var(--emoji-size);
+            line-height: 1;
+            opacity: var(--emoji-opacity);
+            filter: grayscale(1) saturate(0) contrast(0.9);
+            transform: rotate(var(--emoji-rotate));
+            user-select: none;
+            white-space: nowrap;
+        }}
         .cover-card {{
+            position: relative;
+            z-index: 1;
             display: grid;
             gap: 42px;
             width: 100%;
             max-width: 860px;
             padding: 72px;
             border-radius: 12px;
-            background: #fff;
+            background: rgba(255, 255, 255, 0.94);
             box-shadow: 0 2px 18px rgba(0, 0, 0, 0.12);
+            backdrop-filter: blur(4px);
         }}
         .cover-kicker {{
             margin: 0;
@@ -507,6 +611,9 @@ def render_article_cover_html(article: dict, options: RenderOptions) -> str:
     </style>
 </head>
 <body>
+    <div class="emoji-texture" aria-hidden="true">
+{emoji_texture_html}
+    </div>
     <main class="cover-card">
 {kicker_html}
         <h1>{article["headlineHtml"]}</h1>
