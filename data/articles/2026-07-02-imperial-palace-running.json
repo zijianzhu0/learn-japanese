@@ -1,0 +1,66 @@
+{
+  "id": "2026-07-02-imperial-palace-running",
+  "file": "2026-07-02-imperial-palace-running.html",
+  "title": "皇居のまわりは東京で最も有名なランニングコースの一つ",
+  "titleTranslation": "The Area Around the Imperial Palace Is One of Tokyo's Most Famous Running Courses",
+  "date": "2026年7月2日",
+  "month": "July 2026",
+  "navLabel": "7/2 皇居ランニング",
+  "level": "N3",
+  "downloadFileName": "2026-07-02-imperial-palace-running.mp4",
+  "headlineHtml": "<ruby>皇居<rt>こうきょ</rt></ruby>のまわりは<ruby>東京<rt>とうきょう</rt></ruby>で<ruby>最<rt>もっと</rt></ruby>も<ruby>有名<rt>ゆうめい</rt></ruby>なランニングコースの<ruby>一<rt>ひと</rt></ruby>つ",
+  "sourceNote": "ユーザー提供の皇居まわりのランニングについての説明文をもとにしたN3レベルの学習用ページです。",
+  "paragraphs": [
+    {
+      "html": "<ruby>皇居<rt>こうきょ</rt></ruby>は<ruby>東京<rt>とうきょう</rt></ruby>の<ruby>中心<rt>ちゅうしん</rt></ruby>にあり、そのまわりには<ruby>約<rt>やく</rt></ruby>5キロのランニングコースがあります。このコースは<ruby>東京<rt>とうきょう</rt></ruby>でとても<ruby>有名<rt>ゆうめい</rt></ruby>で、<ruby>毎日<rt>まいにち</rt></ruby>たくさんの<ruby>人<rt>ひと</rt></ruby>が<ruby>走<rt>はし</rt></ruby>っています。",
+      "translation": "The Imperial Palace is in the center of Tokyo, and there is a running course of about five kilometers around it. This course is very famous in Tokyo, and many people run there every day."
+    },
+    {
+      "html": "<ruby>速<rt>はや</rt></ruby>く<ruby>走<rt>はし</rt></ruby>る<ruby>人<rt>ひと</rt></ruby>もいれば、ゆっくり<ruby>自分<rt>じぶん</rt></ruby>のペースで<ruby>走<rt>はし</rt></ruby>る<ruby>人<rt>ひと</rt></ruby>もいます。レベルが<ruby>違<rt>ちが</rt></ruby>っても<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>楽<rt>たの</rt></ruby>しめるので、<ruby>初心者<rt>しょしんしゃ</rt></ruby>にも<ruby>人気<rt>にんき</rt></ruby>があります。",
+      "translation": "Some people run fast, while others run slowly at their own pace. Because people of different levels can enjoy it together, it is also popular with beginners."
+    },
+    {
+      "html": "<ruby>近<rt>ちか</rt></ruby>くでは<ruby>地元<rt>じもと</rt></ruby>のランニンググループが<ruby>集<rt>あつ</rt></ruby>まり、いっしょにスタートすることもあります。<ruby>東京<rt>とうきょう</rt></ruby>マラソンも<ruby>毎年<rt>まいとし</rt></ruby>このあたりから<ruby>始<rt>はじ</rt></ruby>まるため、<ruby>走<rt>はし</rt></ruby>る<ruby>場所<rt>ばしょ</rt></ruby>として<ruby>特別<rt>とくべつ</rt></ruby>なイメージがあります。",
+      "translation": "Local running groups also gather nearby and sometimes start together. The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
+    },
+    {
+      "html": "<ruby>旅行中<rt>りょこうちゅう</rt></ruby>で<ruby>運動着<rt>うんどうぎ</rt></ruby>を<ruby>持<rt>も</rt></ruby>っていなくても、<ruby>近<rt>ちか</rt></ruby>くのランナーズステーションで<ruby>靴<rt>くつ</rt></ruby>やウェアを<ruby>借<rt>か</rt></ruby>りることができます。ロッカーや<ruby>温<rt>あたた</rt></ruby>かいシャワーもあるので、<ruby>気軽<rt>きがる</rt></ruby>に<ruby>利用<rt>りよう</rt></ruby>できます。",
+      "translation": "Even if you are traveling and did not bring exercise clothes, you can rent shoes and sportswear at a nearby runner’s station. There are also lockers and hot showers, so you can use it casually."
+    },
+    {
+      "html": "そのため、<ruby>観光客<rt>かんこうきゃく</rt></ruby>でも<ruby>東京<rt>とうきょう</rt></ruby>のランニング<ruby>文化<rt>ぶんか</rt></ruby>をすぐに<ruby>体験<rt>たいけん</rt></ruby>できます。<ruby>皇居<rt>こうきょ</rt></ruby>のまわりを<ruby>一周<rt>いっしゅう</rt></ruby>すると、<ruby>景色<rt>けしき</rt></ruby>を<ruby>見<rt>み</rt></ruby>ながら<ruby>東京<rt>とうきょう</rt></ruby>らしい<ruby>習慣<rt>しゅうかん</rt></ruby>にふれることができます。",
+      "translation": "Because of that, even visitors can quickly experience Tokyo’s running culture. If you run one lap around the Imperial Palace, you can enjoy the scenery and experience a very Tokyo-like custom."
+    }
+  ],
+  "vocabularyTitle": "N3 Vocabulary",
+  "vocabulary": [
+    {
+      "term": "中心（ちゅうしん）",
+      "meaning": "Center"
+    },
+    {
+      "term": "初心者（しょしんしゃ）",
+      "meaning": "Beginner"
+    },
+    {
+      "term": "地元（じもと）",
+      "meaning": "Local area / Local"
+    },
+    {
+      "term": "運動着（うんどうぎ）",
+      "meaning": "Sportswear / Exercise clothes"
+    },
+    {
+      "term": "利用（りよう）する",
+      "meaning": "To use"
+    },
+    {
+      "term": "体験（たいけん）する",
+      "meaning": "To experience"
+    },
+    {
+      "term": "一周（いっしゅう）",
+      "meaning": "One lap / One circuit"
+    }
+  ]
+}

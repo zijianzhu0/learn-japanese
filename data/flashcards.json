@@ -4,7 +4,7 @@
     "articleManifest": "data/articles.json"
   },
   "levels": {
-    "N3": 1987,
+    "N3": 1994,
     "N4": 536,
     "N5": 553
   },
@@ -1350,6 +1350,10 @@
           "meaning": "Te-form of 違う: to differ (from)",
           "exampleSentences": [
             {
+              "ja": "レベルが違っても一緒に楽しめるので、初心者にも人気があります。",
+              "en": "Because people of different levels can enjoy it together, it is also popular with beginners."
+            },
+            {
               "ja": "これらは速さや停車駅が違うため、名前を確認することが大切です。",
               "en": "Because their speeds and stopping stations differ, it is important to check the name."
             }
@@ -1437,6 +1441,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "近くでは地元のランニンググループが集まり、いっしょにスタートすることもあります。",
+          "en": "Local running groups also gather nearby and sometimes start together."
+        },
+        {
+          "ja": "旅行中で運動着を持っていなくても、近くのランナーズステーションで靴やウェアを借りることができます。",
+          "en": "Even if you are traveling and did not bring exercise clothes, you can rent shoes and sportswear at a nearby runner’s station."
+        },
+        {
           "ja": "知らない駅に行くときも、近くにある駅との関係から予想できます。",
           "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
         },
@@ -1447,14 +1459,6 @@
         {
           "ja": "スイスのバーゼルでは38度近くまで上がり、オランダでは初めて暑さに関する赤い警報が出されました。",
           "en": "In Basel, Switzerland, temperatures rose close to 38 degrees Celsius, and the Netherlands issued its first red alert for heat."
-        },
-        {
-          "ja": "予報では、27日の夜には関東の近くまで進む可能性があります。",
-          "en": "As of 9 p.m., Typhoon No. 7 was over waters east of areas near Amami and Okinawa. The forecast says it may move close to the Kanto region by the night of June 27."
-        },
-        {
-          "ja": "震源は、カリブ海沿いのモロンという町の近くでした。",
-          "en": "The epicenter was near the town of Moron on the Caribbean coast, about 160 kilometers west of the capital, Caracas. The shaking was felt across a wide area in the north, and buildings collapsed in Caracas and La Guaira."
         }
       ]
     },
@@ -3231,6 +3235,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
+          "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
+        },
+        {
           "ja": "開業日は1964年9月17日で、オリンピックが始まる10月10日より数週間前でした。",
           "en": "It opened on September 17, 1964, only a few weeks before the Olympics began on October 10."
         },
@@ -3251,6 +3259,10 @@
           "meaning": "Polite form of 始まる: to begin, to start",
           "exampleSentences": [
             {
+              "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
+              "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
+            },
+            {
               "ja": "開業日は1964年9月17日で、オリンピックが始まる10月10日より数週間前でした。",
               "en": "It opened on September 17, 1964, only a few weeks before the Olympics began on October 10."
             },
@@ -3268,6 +3280,10 @@
           "readingHiragana": "はじまった",
           "meaning": "Plain past form of 始まる: to begin, to start",
           "exampleSentences": [
+            {
+              "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
+              "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
+            },
             {
               "ja": "開業日は1964年9月17日で、オリンピックが始まる10月10日より数週間前でした。",
               "en": "It opened on September 17, 1964, only a few weeks before the Olympics began on October 10."
@@ -3287,6 +3303,10 @@
           "meaning": "Plain negative form of 始まる: to begin, to start",
           "exampleSentences": [
             {
+              "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
+              "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
+            },
+            {
               "ja": "開業日は1964年9月17日で、オリンピックが始まる10月10日より数週間前でした。",
               "en": "It opened on September 17, 1964, only a few weeks before the Olympics began on October 10."
             },
@@ -3305,6 +3325,10 @@
           "meaning": "Te-form of 始まる: to begin, to start",
           "exampleSentences": [
             {
+              "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
+              "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
+            },
+            {
               "ja": "開業日は1964年9月17日で、オリンピックが始まる10月10日より数週間前でした。",
               "en": "It opened on September 17, 1964, only a few weeks before the Olympics began on October 10."
             },
@@ -3322,6 +3346,10 @@
           "readingHiragana": "はじまれる",
           "meaning": "Potential form of 始まる: to begin, to start",
           "exampleSentences": [
+            {
+              "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
+              "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
+            },
             {
               "ja": "開業日は1964年9月17日で、オリンピックが始まる10月10日より数週間前でした。",
               "en": "It opened on September 17, 1964, only a few weeks before the Olympics began on October 10."
@@ -3713,6 +3741,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "速く走る人もいれば、ゆっくり自分のペースで走る人もいます。",
+          "en": "Some people run fast, while others run slowly at their own pace."
+        },
+        {
+          "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
+          "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
+        },
+        {
           "ja": "町では、人口が減り、決まった道を走るバスの利用者も少なくなっています。",
           "en": "In the town, the population is falling, and fewer people use buses that run on fixed routes."
         },
@@ -3733,6 +3769,14 @@
           "meaning": "Polite form of 走る: to run",
           "exampleSentences": [
             {
+              "ja": "速く走る人もいれば、ゆっくり自分のペースで走る人もいます。",
+              "en": "Some people run fast, while others run slowly at their own pace."
+            },
+            {
+              "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
+              "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
+            },
+            {
               "ja": "町では、人口が減り、決まった道を走るバスの利用者も少なくなっています。",
               "en": "In the town, the population is falling, and fewer people use buses that run on fixed routes."
             },
@@ -3750,6 +3794,14 @@
           "readingHiragana": "はしった",
           "meaning": "Plain past form of 走る: to run",
           "exampleSentences": [
+            {
+              "ja": "速く走る人もいれば、ゆっくり自分のペースで走る人もいます。",
+              "en": "Some people run fast, while others run slowly at their own pace."
+            },
+            {
+              "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
+              "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
+            },
             {
               "ja": "町では、人口が減り、決まった道を走るバスの利用者も少なくなっています。",
               "en": "In the town, the population is falling, and fewer people use buses that run on fixed routes."
@@ -3769,6 +3821,14 @@
           "meaning": "Plain negative form of 走る: to run",
           "exampleSentences": [
             {
+              "ja": "速く走る人もいれば、ゆっくり自分のペースで走る人もいます。",
+              "en": "Some people run fast, while others run slowly at their own pace."
+            },
+            {
+              "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
+              "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
+            },
+            {
               "ja": "町では、人口が減り、決まった道を走るバスの利用者も少なくなっています。",
               "en": "In the town, the population is falling, and fewer people use buses that run on fixed routes."
             },
@@ -3787,16 +3847,24 @@
           "meaning": "Te-form of 走る: to run",
           "exampleSentences": [
             {
+              "ja": "このコースは東京でとても有名で、毎日たくさんの人が走っています。",
+              "en": "This course is very famous in Tokyo, and many people run there every day."
+            },
+            {
               "ja": "実験では、短い距離を何度も走って、安全や使いやすさを調べます。",
               "en": "In the test, it will make repeated short trips so people can check safety and practicality."
             },
             {
-              "ja": "町では、人口が減り、決まった道を走るバスの利用者も少なくなっています。",
-              "en": "In the town, the population is falling, and fewer people use buses that run on fixed routes."
+              "ja": "速く走る人もいれば、ゆっくり自分のペースで走る人もいます。",
+              "en": "Some people run fast, while others run slowly at their own pace."
             },
             {
-              "ja": "そのため、必要な時だけ走る仕組みにして、運転手や燃料の負担を減らしたい考えです。",
-              "en": "The town wants to reduce the burden on drivers and fuel use by running buses only when needed."
+              "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
+              "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
+            },
+            {
+              "ja": "町では、人口が減り、決まった道を走るバスの利用者も少なくなっています。",
+              "en": "In the town, the population is falling, and fewer people use buses that run on fixed routes."
             }
           ]
         },
@@ -3808,6 +3876,14 @@
           "readingHiragana": "はしれる",
           "meaning": "Potential form of 走る: to run",
           "exampleSentences": [
+            {
+              "ja": "速く走る人もいれば、ゆっくり自分のペースで走る人もいます。",
+              "en": "Some people run fast, while others run slowly at their own pace."
+            },
+            {
+              "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
+              "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
+            },
             {
               "ja": "町では、人口が減り、決まった道を走るバスの利用者も少なくなっています。",
               "en": "In the town, the population is falling, and fewer people use buses that run on fixed routes."
@@ -4104,6 +4180,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "このコースは東京でとても有名で、毎日たくさんの人が走っています。",
+          "en": "This course is very famous in Tokyo, and many people run there every day."
+        },
+        {
           "ja": "1964年の東京オリンピックに向けて作られた、日本の技術史でも大切な乗り物です。",
           "en": "It was built for the 1964 Tokyo Olympics, and it is also an important part of Japan's engineering history."
         },
@@ -4118,10 +4198,6 @@
         {
           "ja": "60年以上たった今でも、東京モノレールは毎日動いています。",
           "en": "Even more than 60 years later, Tokyo Monorail still runs every day."
-        },
-        {
-          "ja": "日本と中国の関係は、経済では深くつながっています。",
-          "en": "Japan and China are deeply connected through the economy."
         }
       ]
     },
@@ -4179,24 +4255,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "東京のりんかい線は、ほかの路線より運賃が少し高いと感じる人がいます。",
-          "en": "Some people feel that Tokyo's Rinkai Line costs a little more than other rail lines."
+          "ja": "皇居は東京の中心にあり、そのまわりには約5キロのランニングコースがあります。",
+          "en": "The Imperial Palace is in the center of Tokyo, and there is a running course of about five kilometers around it."
         },
         {
-          "ja": "この路線は、東京港の下を通るところで、地上から40メートル近い深さまで下がります。",
-          "en": "Where the line passes under the Port of Tokyo, it descends to nearly 40 meters below the surface."
+          "ja": "このコースは東京でとても有名で、毎日たくさんの人が走っています。",
+          "en": "This course is very famous in Tokyo, and many people run there every day."
         },
         {
-          "ja": "りんかい線は、1990年代から2000年代のはじめにかけて、東京の臨海部を発展させるために作られました。",
-          "en": "The Rinkai Line was built to develop Tokyo's waterfront area from the 1990s into the early 2000s."
+          "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
+          "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
         },
         {
-          "ja": "だから、りんかい線の駅で長いエスカレーターを下りるときは、東京でも特に大きくてお金のかかった鉄道計画の中を移動していると考えることができます。",
-          "en": "So when you ride down the long escalators at a Rinkai Line station, you can think of yourself as moving through one of Tokyo's biggest and most expensive railway projects."
+          "ja": "そのため、観光客でも東京のランニング文化をすぐに体験できます。",
+          "en": "Because of that, even visitors can quickly experience Tokyo’s running culture."
         },
         {
-          "ja": "足の下には、東京の大規模な再開発の歴史があるのです。",
-          "en": "Beneath your feet lies the history of a major redevelopment effort."
+          "ja": "皇居のまわりを一周すると、景色を見ながら東京らしい習慣にふれることができます。",
+          "en": "If you run one lap around the Imperial Palace, you can enjoy the scenery and experience a very Tokyo-like custom."
         }
       ]
     },
@@ -4477,24 +4553,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "このコースは東京でとても有名で、毎日たくさんの人が走っています。",
+          "en": "This course is very famous in Tokyo, and many people run there every day."
+        },
+        {
+          "ja": "速く走る人もいれば、ゆっくり自分のペースで走る人もいます。",
+          "en": "Some people run fast, while others run slowly at their own pace."
+        },
+        {
+          "ja": "レベルが違っても一緒に楽しめるので、初心者にも人気があります。",
+          "en": "Because people of different levels can enjoy it together, it is also popular with beginners."
+        },
+        {
           "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
           "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
         },
         {
           "ja": "東京のりんかい線は、ほかの路線より運賃が少し高いと感じる人がいます。",
           "en": "Some people feel that Tokyo's Rinkai Line costs a little more than other rail lines."
-        },
-        {
-          "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
-          "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
-        },
-        {
-          "ja": "また、人と人の交流も弱くなっています。",
-          "en": "People-to-people exchange is also weakening."
-        },
-        {
-          "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
-          "en": "In London, people using the Underground and buses were also advised to drink water."
         }
       ]
     },
@@ -4669,6 +4745,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "レベルが違っても一緒に楽しめるので、初心者にも人気があります。",
+          "en": "Because people of different levels can enjoy it together, it is also popular with beginners."
+        },
+        {
+          "ja": "皇居のまわりを一周すると、景色を見ながら東京らしい習慣にふれることができます。",
+          "en": "If you run one lap around the Imperial Palace, you can enjoy the scenery and experience a very Tokyo-like custom."
+        },
+        {
           "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
           "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
         },
@@ -4679,14 +4763,6 @@
         {
           "ja": "大きな理由の一つは、台湾の問題です。",
           "en": "One major reason is the Taiwan issue."
-        },
-        {
-          "ja": "中国は台湾を自分の一部だと考えています。",
-          "en": "China considers Taiwan part of its own territory."
-        },
-        {
-          "ja": "一方、日本は、台湾の近くで大きな問題が起きれば、日本の安全にも関係すると見ています。",
-          "en": "Japan, on the other hand, thinks that if a major problem happens near Taiwan, it would also affect Japan's safety."
         }
       ]
     },
@@ -5243,6 +5319,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "皇居のまわりを一周すると、景色を見ながら東京らしい習慣にふれることができます。",
+          "en": "If you run one lap around the Imperial Palace, you can enjoy the scenery and experience a very Tokyo-like custom."
+        },
+        {
           "ja": "東北のある県で、景色を楽しめる観光列車の人気が高まっています。",
           "en": "In one prefecture in Tohoku, a sightseeing train that lets passengers enjoy the scenery is becoming more popular."
         }
@@ -5379,7 +5459,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "レベルが違っても一緒に楽しめるので、初心者にも人気があります。",
+          "en": "Because people of different levels can enjoy it together, it is also popular with beginners."
+        }
+      ]
     },
     {
       "id": "core-d00f83ae295e20",
@@ -5570,6 +5655,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "速く走る人もいれば、ゆっくり自分のペースで走る人もいます。",
+          "en": "Some people run fast, while others run slowly at their own pace."
+        },
+        {
           "ja": "早く着きたいと思って速い電車に乗ると、自分の駅を通りすぎてしまうことがあります。",
           "en": "If you board a faster train because you want to arrive quickly, it may pass your station."
         },
@@ -5584,10 +5673,6 @@
         {
           "ja": "専門家は、アプリだけに頼らず、自分の体調にも注意してほしいと話しています。",
           "en": "Experts say people should not rely only on apps and should also pay attention to their own physical condition."
-        },
-        {
-          "ja": "自分たちで作った電気を使えば、費用をおさえるだけでなく、環境への負担も減らせます。",
-          "en": "Using electricity they generate themselves can reduce both costs and environmental impact."
         }
       ]
     },
@@ -6118,6 +6203,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そのため、観光客でも東京のランニング文化をすぐに体験できます。",
+          "en": "Because of that, even visitors can quickly experience Tokyo’s running culture."
+        },
+        {
           "ja": "2002年に完成したとき、全体の費用は4400億円をこえていて、そのときの借金が今の運賃にも影響しています。",
           "en": "When the line was completed in 2002, the total cost exceeded 440 billion yen, and those debts still affect fares today."
         },
@@ -6132,10 +6221,6 @@
         {
           "ja": "病院や介護施設では、高齢者の体調に特に注意しています。",
           "en": "Hospitals and care homes are paying special attention to the health of older people."
-        },
-        {
-          "ja": "政府や議会、経済団体も反対しました。",
-          "en": "The government, parliament, and business groups also opposed the proposal."
         }
       ]
     },
@@ -6167,7 +6252,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "旅行中で運動着を持っていなくても、近くのランナーズステーションで靴やウェアを借りることができます。",
+          "en": "Even if you are traveling and did not bring exercise clothes, you can rent shoes and sportswear at a nearby runner’s station."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "ichidan",
       "verbForms": [
@@ -6178,7 +6268,12 @@
           "term": "借ります",
           "readingHiragana": "かります",
           "meaning": "Polite form of 借りる: to borrow",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "旅行中で運動着を持っていなくても、近くのランナーズステーションで靴やウェアを借りることができます。",
+              "en": "Even if you are traveling and did not bring exercise clothes, you can rent shoes and sportswear at a nearby runner’s station."
+            }
+          ]
         },
         {
           "form": "past",
@@ -6187,7 +6282,12 @@
           "term": "借りた",
           "readingHiragana": "かりた",
           "meaning": "Plain past form of 借りる: to borrow",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "旅行中で運動着を持っていなくても、近くのランナーズステーションで靴やウェアを借りることができます。",
+              "en": "Even if you are traveling and did not bring exercise clothes, you can rent shoes and sportswear at a nearby runner’s station."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -6196,7 +6296,12 @@
           "term": "借りない",
           "readingHiragana": "かりない",
           "meaning": "Plain negative form of 借りる: to borrow",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "旅行中で運動着を持っていなくても、近くのランナーズステーションで靴やウェアを借りることができます。",
+              "en": "Even if you are traveling and did not bring exercise clothes, you can rent shoes and sportswear at a nearby runner’s station."
+            }
+          ]
         },
         {
           "form": "te",
@@ -6205,7 +6310,12 @@
           "term": "借りて",
           "readingHiragana": "かりて",
           "meaning": "Te-form of 借りる: to borrow",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "旅行中で運動着を持っていなくても、近くのランナーズステーションで靴やウェアを借りることができます。",
+              "en": "Even if you are traveling and did not bring exercise clothes, you can rent shoes and sportswear at a nearby runner’s station."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -6214,7 +6324,12 @@
           "term": "借りられる",
           "readingHiragana": "かりられる",
           "meaning": "Potential form of 借りる: to borrow",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "旅行中で運動着を持っていなくても、近くのランナーズステーションで靴やウェアを借りることができます。",
+              "en": "Even if you are traveling and did not bring exercise clothes, you can rent shoes and sportswear at a nearby runner’s station."
+            }
+          ]
         }
       ]
     },
@@ -7983,6 +8098,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "旅行中で運動着を持っていなくても、近くのランナーズステーションで靴やウェアを借りることができます。",
+          "en": "Even if you are traveling and did not bring exercise clothes, you can rent shoes and sportswear at a nearby runner’s station."
+        },
+        {
           "ja": "名前は緑の靴のようですが、環境の制度ではありません。",
           "en": "The name sounds like a green shoe, but it is not an environmental policy."
         }
@@ -8167,6 +8286,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "このコースは東京でとても有名で、毎日たくさんの人が走っています。",
+          "en": "This course is very famous in Tokyo, and many people run there every day."
+        },
+        {
           "ja": "60年以上たった今でも、東京モノレールは毎日動いています。",
           "en": "Even more than 60 years later, Tokyo Monorail still runs every day."
         },
@@ -8204,7 +8327,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
+          "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
+        }
+      ]
     },
     {
       "id": "core-840dfa01b4d13c",
@@ -9262,6 +9390,10 @@
           "meaning": "Te-form of 持つ: to hold (in one’s hands)",
           "exampleSentences": [
             {
+              "ja": "旅行中で運動着を持っていなくても、近くのランナーズステーションで靴やウェアを借りることができます。",
+              "en": "Even if you are traveling and did not bring exercise clothes, you can rent shoes and sportswear at a nearby runner’s station."
+            },
+            {
               "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
               "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
             },
@@ -9422,6 +9554,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "皇居は東京の中心にあり、そのまわりには約5キロのランニングコースがあります。",
+          "en": "The Imperial Palace is in the center of Tokyo, and there is a running course of about five kilometers around it."
+        },
+        {
+          "ja": "旅行中で運動着を持っていなくても、近くのランナーズステーションで靴やウェアを借りることができます。",
+          "en": "Even if you are traveling and did not bring exercise clothes, you can rent shoes and sportswear at a nearby runner’s station."
+        },
+        {
           "ja": "だから、りんかい線の駅で長いエスカレーターを下りるときは、東京でも特に大きくてお金のかかった鉄道計画の中を移動していると考えることができます。",
           "en": "So when you ride down the long escalators at a Rinkai Line station, you can think of yourself as moving through one of Tokyo's biggest and most expensive railway projects."
         },
@@ -9432,14 +9572,6 @@
         {
           "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
           "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
-        },
-        {
-          "ja": "乗り換えのたびに地図を開かなくても、頭の中で道を組みたてられるようになります。",
-          "en": "Even without opening a map for each transfer, you can start building the route in your head."
-        },
-        {
-          "ja": "日本と中国の関係は、経済では深くつながっています。",
-          "en": "Japan and China are deeply connected through the economy."
         }
       ]
     },
@@ -12039,6 +12171,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "旅行中で運動着を持っていなくても、近くのランナーズステーションで靴やウェアを借りることができます。",
+          "en": "Even if you are traveling and did not bring exercise clothes, you can rent shoes and sportswear at a nearby runner’s station."
+        },
+        {
           "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
           "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
         },
@@ -13265,6 +13401,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そのため、観光客でも東京のランニング文化をすぐに体験できます。",
+          "en": "Because of that, even visitors can quickly experience Tokyo’s running culture."
+        },
+        {
           "ja": "地方で人が少なくなり、クマも多くなったため、注意喚起や対策をすぐに出す必要があります。",
           "en": "Because rural populations are shrinking and bear numbers are growing, cities need to issue warnings and take action quickly."
         },
@@ -13447,6 +13587,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "近くでは地元のランニンググループが集まり、いっしょにスタートすることもあります。",
+          "en": "Local running groups also gather nearby and sometimes start together."
+        },
+        {
+          "ja": "皇居のまわりを一周すると、景色を見ながら東京らしい習慣にふれることができます。",
+          "en": "If you run one lap around the Imperial Palace, you can enjoy the scenery and experience a very Tokyo-like custom."
+        },
+        {
           "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
           "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
         },
@@ -13457,14 +13605,6 @@
         {
           "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
           "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
-        },
-        {
-          "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
-          "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
-        },
-        {
-          "ja": "東京の地下鉄やJRは複雑ですが、大きな駅の位置を地図の骨組みにすると、少しずつ慣れていきます。",
-          "en": "Tokyo’s subways and JR lines are complicated, but if you treat the positions of major stations as the frame of the map, you gradually get used to it."
         }
       ],
       "partOfSpeech": "verb",
@@ -13543,20 +13683,20 @@
               "en": "While its convenience is recognized, it is considered important not to weaken students’ ability to think for themselves."
             },
             {
+              "ja": "近くでは地元のランニンググループが集まり、いっしょにスタートすることもあります。",
+              "en": "Local running groups also gather nearby and sometimes start together."
+            },
+            {
+              "ja": "皇居のまわりを一周すると、景色を見ながら東京らしい習慣にふれることができます。",
+              "en": "If you run one lap around the Imperial Palace, you can enjoy the scenery and experience a very Tokyo-like custom."
+            },
+            {
               "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
               "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
             },
             {
               "ja": "これらは速さや停車駅が違うため、名前を確認することが大切です。",
               "en": "Because their speeds and stopping stations differ, it is important to check the name."
-            },
-            {
-              "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
-              "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
-            },
-            {
-              "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
-              "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
             }
           ]
         },
@@ -13568,6 +13708,10 @@
           "readingHiragana": "して",
           "meaning": "Te-form of する: to do",
           "exampleSentences": [
+            {
+              "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
+              "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
+            },
             {
               "ja": "2002年に完成したとき、全体の費用は4400億円をこえていて、そのときの借金が今の運賃にも影響しています。",
               "en": "When the line was completed in 2002, the total cost exceeded 440 billion yen, and those debts still affect fares today."
@@ -13583,10 +13727,6 @@
             {
               "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
               "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
-            },
-            {
-              "ja": "フランス、イギリス、スイス、オランダなどで気温が大きく上がり、多くの町で6月としては異例の暑さになりました。",
-              "en": "Temperatures rose sharply in countries such as France, the United Kingdom, Switzerland, and the Netherlands, bringing unusual June heat to many towns and cities."
             }
           ]
         },
@@ -14678,6 +14818,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
+          "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
+        },
+        {
           "ja": "2002年に完成したとき、全体の費用は4400億円をこえていて、そのときの借金が今の運賃にも影響しています。",
           "en": "When the line was completed in 2002, the total cost exceeded 440 billion yen, and those debts still affect fares today."
         },
@@ -14692,10 +14836,6 @@
         {
           "ja": "開業日は1964年9月17日で、オリンピックが始まる10月10日より数週間前でした。",
           "en": "It opened on September 17, 1964, only a few weeks before the Olympics began on October 10."
-        },
-        {
-          "ja": "60年以上たった今でも、東京モノレールは毎日動いています。",
-          "en": "Even more than 60 years later, Tokyo Monorail still runs every day."
         }
       ]
     },
@@ -14780,6 +14920,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
+          "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
+        },
+        {
           "ja": "昔は港や工業用地が多かった場所が、仕事、買い物、遊びを楽しめるエリアに変わっていきました。",
           "en": "Places that once had many port facilities and industrial sites changed into an area for work, shopping, and entertainment."
         },
@@ -14794,10 +14938,6 @@
         {
           "ja": "同じくらいの強さの地震が、近い場所で短い時間に起きることです。",
           "en": "\" It means earthquakes of similar strength happen close together in place and time."
-        },
-        {
-          "ja": "二酸化炭素、二酸化窒素、細かい粒子の汚染、緑の多さなどを同じ場所ごとに比べられます。",
-          "en": "It can compare carbon dioxide, nitrogen dioxide, fine-particle pollution, the amount of greenery, and other data for the same kinds of locations."
         }
       ]
     },
@@ -14895,6 +15035,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "このコースは東京でとても有名で、毎日たくさんの人が走っています。",
+          "en": "This course is very famous in Tokyo, and many people run there every day."
+        },
+        {
           "ja": "その理由の一つは、線路の多くがとても深い地下を通っていることです。",
           "en": "One reason is that much of the track runs very deep underground."
         },
@@ -14909,10 +15053,6 @@
         {
           "ja": "ホルムズ海峡は、世界の石油や貿易にとってとても重要な場所です。",
           "en": "The Strait of Hormuz is very important for the world's oil and trade."
-        },
-        {
-          "ja": "スイスはEU加盟国ではありませんが、EUとの関係はとても深いです。",
-          "en": "Switzerland is not an EU member, but its relationship with the EU is very deep."
         }
       ]
     },
@@ -16920,7 +17060,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "速く走る人もいれば、ゆっくり自分のペースで走る人もいます。",
+          "en": "Some people run fast, while others run slowly at their own pace."
+        }
+      ]
     },
     {
       "id": "core-379ca3608c72a7",
@@ -16951,6 +17096,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "このコースは東京でとても有名で、毎日たくさんの人が走っています。",
+          "en": "This course is very famous in Tokyo, and many people run there every day."
+        },
         {
           "ja": "政治の場所に有名なロックバンドが来るのは少し意外ですが、文化や音楽を通して国どうしの交流を深めたいという考えもあります。",
           "en": "It is a little surprising for a famous rock band to visit a political office, but there is also an idea of deepening ties between countries through culture and music."
@@ -17232,6 +17381,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "皇居は東京の中心にあり、そのまわりには約5キロのランニングコースがあります。",
+          "en": "The Imperial Palace is in the center of Tokyo, and there is a running course of about five kilometers around it."
+        },
+        {
           "ja": "首都カラカスから西へ約160キロの場所です。",
           "en": "The epicenter was near the town of Moron on the Caribbean coast, about 160 kilometers west of the capital, Caracas. The shaking was felt across a wide area in the north, and buildings collapsed in Caracas and La Guaira."
         }
@@ -17400,7 +17553,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "ロッカーや温かいシャワーもあるので、気軽に利用できます。",
+          "en": "There are also lockers and hot showers, so you can use it casually."
+        }
+      ]
     },
     {
       "id": "core-8747d264887b90",
@@ -18321,6 +18479,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
+          "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
+        },
+        {
           "ja": "昔は港や工業用地が多かった場所が、仕事、買い物、遊びを楽しめるエリアに変わっていきました。",
           "en": "Places that once had many port facilities and industrial sites changed into an area for work, shopping, and entertainment."
         },
@@ -18335,10 +18497,6 @@
         {
           "ja": "同じくらいの強さの地震が、近い場所で短い時間に起きることです。",
           "en": "\" It means earthquakes of similar strength happen close together in place and time."
-        },
-        {
-          "ja": "二酸化炭素、二酸化窒素、細かい粒子の汚染、緑の多さなどを同じ場所ごとに比べられます。",
-          "en": "It can compare carbon dioxide, nitrogen dioxide, fine-particle pollution, the amount of greenery, and other data for the same kinds of locations."
         }
       ]
     },
@@ -18357,6 +18515,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
+          "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
+        },
+        {
           "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
           "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
         },
@@ -18371,10 +18533,6 @@
         {
           "ja": "最初は少し難しく見えても、行き先と種別をセットで見る習慣をつければ、不安はかなり小さくなります。",
           "en": "It may look a little difficult at first, but if you make a habit of checking the destination and train type together, it becomes much less intimidating."
-        },
-        {
-          "ja": "一つ目の地震が別の断層に力を加え、二つ目を引き起こした可能性があります。",
-          "en": "The first quake may have added stress to another fault and triggered the second one."
         }
       ]
     },
@@ -18506,6 +18664,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "そのため、観光客でも東京のランニング文化をすぐに体験できます。",
+          "en": "Because of that, even visitors can quickly experience Tokyo’s running culture."
+        },
         {
           "ja": "のりは軽くて運びやすいため、これからも日本の食文化を伝える商品として期待されています。",
           "en": "Because seaweed is light and easy to transport, it is expected to remain an important product for sharing Japanese food culture."
@@ -20430,6 +20592,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そのため、観光客でも東京のランニング文化をすぐに体験できます。",
+          "en": "Because of that, even visitors can quickly experience Tokyo’s running culture."
+        },
+        {
           "ja": "暑さは観光や交通だけでなく、農業や電力にも影響を与えるため、各国は対策を急いでいます。",
           "en": "Because the heat affects not only tourism and transportation but also agriculture and electricity, countries are rushing to respond."
         },
@@ -20444,10 +20610,6 @@
         {
           "ja": "鉄道会社が、駅の屋根に太陽光パネルを置く計画を広げています。",
           "en": "A railway company is expanding plans to install solar panels on station roofs."
-        },
-        {
-          "ja": "観光地のホテルでは、これから夏休みの忙しい時期を前に、さらに導入を進める計画です。",
-          "en": "Hotels in tourist areas plan to increase adoption further before the busy summer vacation season."
         }
       ]
     },
@@ -23447,6 +23609,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "皇居のまわりを一周すると、景色を見ながら東京らしい習慣にふれることができます。",
+          "en": "If you run one lap around the Imperial Palace, you can enjoy the scenery and experience a very Tokyo-like custom."
+        },
+        {
           "ja": "東北のある県で、景色を楽しめる観光列車の人気が高まっています。",
           "en": "In one prefecture in Tohoku, a sightseeing train that lets passengers enjoy the scenery is becoming more popular."
         }
@@ -23467,6 +23633,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "レベルが違っても一緒に楽しめるので、初心者にも人気があります。",
+          "en": "Because people of different levels can enjoy it together, it is also popular with beginners."
+        },
+        {
+          "ja": "ロッカーや温かいシャワーもあるので、気軽に利用できます。",
+          "en": "There are also lockers and hot showers, so you can use it casually."
+        },
+        {
           "ja": "すでにある地下鉄、水道や電気の設備、建物の基礎をよけながらトンネルを作るのは、とても大変でした。",
           "en": "Building tunnels while avoiding existing subways, water and electrical infrastructure, and building foundations was extremely difficult."
         },
@@ -23477,14 +23651,6 @@
         {
           "ja": "フランス南西部のピソスでは、気温が43.",
           "en": "In Pissos in southwestern France, the temperature was reported to have reached 43."
-        },
-        {
-          "ja": "イギリスでは、サマセットで36度を超える暑さが観測され、6月の最高気温の記録を更新しました。",
-          "en": "In the United Kingdom, temperatures above 36 degrees Celsius were observed in Somerset, setting a new June temperature record."
-        },
-        {
-          "ja": "専門家は、気候変動によって、このような強い熱波が起きやすくなっていると説明しています。",
-          "en": "Experts explain that climate change is making intense heatwaves like this more likely."
         }
       ]
     },
@@ -23912,6 +24078,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "皇居は東京の中心にあり、そのまわりには約5キロのランニングコースがあります。",
+          "en": "The Imperial Palace is in the center of Tokyo, and there is a running course of about five kilometers around it."
+        },
+        {
+          "ja": "レベルが違っても一緒に楽しめるので、初心者にも人気があります。",
+          "en": "Because people of different levels can enjoy it together, it is also popular with beginners."
+        },
+        {
           "ja": "このモノレールは、羽田空港と東京の中心部を結ぶために建設されました。",
           "en": "This monorail was built to connect Haneda Airport with central Tokyo."
         },
@@ -23922,14 +24096,6 @@
         {
           "ja": "中心が遠くても、湿った空気が流れ込むと、雨雲が発達することがあります。",
           "en": "Even when a storm center is far away, moist air can flow in and help rain clouds develop."
-        },
-        {
-          "ja": "余震の心配も続いています。",
-          "en": "Concern about aftershocks continues."
-        },
-        {
-          "ja": "ヴィニシウスは狭い角度からシュートを決め、ブラジルの応援席を安心させました。",
-          "en": "Vinicius scored from a tight angle, calming the Brazil supporters."
         }
       ]
     },
@@ -24935,6 +25101,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "そのため、観光客でも東京のランニング文化をすぐに体験できます。",
+          "en": "Because of that, even visitors can quickly experience Tokyo’s running culture."
+        },
         {
           "ja": "図書館では、観光客だけでなく、地域で生活する外国人にも役立つと考えています。",
           "en": "Libraries believe the tablets will help not only tourists but also foreign residents in the community."
@@ -29230,6 +29400,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ロッカーや温かいシャワーもあるので、気軽に利用できます。",
+          "en": "There are also lockers and hot showers, so you can use it casually."
+        },
+        {
           "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
           "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
         },
@@ -29244,10 +29418,6 @@
         {
           "ja": "町は3か月の実験で、利用した人数や運行にかかる費用を調べます。",
           "en": "During the three-month trial, the town will study the number of users and the cost of operating the buses."
-        },
-        {
-          "ja": "交通機関を利用する際は、運行状況を確認し、無理な移動を避けることが大切です。",
-          "en": "When using transportation, it is important to check service status and avoid unnecessary travel."
         }
       ]
     },
@@ -31163,6 +31333,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "皇居のまわりを一周すると、景色を見ながら東京らしい習慣にふれることができます。",
+          "en": "If you run one lap around the Imperial Palace, you can enjoy the scenery and experience a very Tokyo-like custom."
+        },
+        {
           "ja": "最初は少し難しく見えても、行き先と種別をセットで見る習慣をつければ、不安はかなり小さくなります。",
           "en": "It may look a little difficult at first, but if you make a habit of checking the destination and train type together, it becomes much less intimidating."
         },
@@ -32950,6 +33124,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
+          "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
+        },
+        {
           "ja": "長い間苦しんだチームとファンにとって、今年の優勝は特別な出来事になりました。",
           "en": "For a team and fan base that struggled for a long time, this year's title became a special event."
         }
@@ -34381,7 +34559,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "旅行中で運動着を持っていなくても、近くのランナーズステーションで靴やウェアを借りることができます。",
+          "en": "Even if you are traveling and did not bring exercise clothes, you can rent shoes and sportswear at a nearby runner’s station."
+        }
+      ]
     },
     {
       "id": "core-9b418d5324d8fc",
@@ -35596,6 +35779,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ロッカーや温かいシャワーもあるので、気軽に利用できます。",
+          "en": "There are also lockers and hot showers, so you can use it casually."
+        },
+        {
           "ja": "2002年に完成したとき、全体の費用は4400億円をこえていて、そのときの借金が今の運賃にも影響しています。",
           "en": "When the line was completed in 2002, the total cost exceeded 440 billion yen, and those debts still affect fares today."
         },
@@ -35610,10 +35797,6 @@
         {
           "ja": "利用したい人は、前日までに電話かスマートフォンで乗る場所と時間を伝えます。",
           "en": "People who want to use the service tell the town their pickup place and time by phone or smartphone by the previous day."
-        },
-        {
-          "ja": "町では、人口が減り、決まった道を走るバスの利用者も少なくなっています。",
-          "en": "In the town, the population is falling, and fewer people use buses that run on fixed routes."
         }
       ]
     },
@@ -37458,6 +37641,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "近くでは地元のランニンググループが集まり、いっしょにスタートすることもあります。",
+          "en": "Local running groups also gather nearby and sometimes start together."
+        },
+        {
           "ja": "マディソン・スクエア・ガーデンの近くには、たくさんの人が集まりました。",
           "en": "Many people gathered near Madison Square Garden."
         }
@@ -37745,6 +37932,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
+          "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
+        },
+        {
           "ja": "昔は港や工業用地が多かった場所が、仕事、買い物、遊びを楽しめるエリアに変わっていきました。",
           "en": "Places that once had many port facilities and industrial sites changed into an area for work, shopping, and entertainment."
         },
@@ -37759,10 +37950,6 @@
         {
           "ja": "同じくらいの強さの地震が、近い場所で短い時間に起きることです。",
           "en": "\" It means earthquakes of similar strength happen close together in place and time."
-        },
-        {
-          "ja": "二酸化炭素、二酸化窒素、細かい粒子の汚染、緑の多さなどを同じ場所ごとに比べられます。",
-          "en": "It can compare carbon dioxide, nitrogen dioxide, fine-particle pollution, the amount of greenery, and other data for the same kinds of locations."
         }
       ]
     },
@@ -38201,6 +38388,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そのため、観光客でも東京のランニング文化をすぐに体験できます。",
+          "en": "Because of that, even visitors can quickly experience Tokyo’s running culture."
+        },
+        {
           "ja": "のりは軽くて運びやすいため、これからも日本の食文化を伝える商品として期待されています。",
           "en": "Because seaweed is light and easy to transport, it is expected to remain an important product for sharing Japanese food culture."
         },
@@ -38233,6 +38424,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "速く走る人もいれば、ゆっくり自分のペースで走る人もいます。",
+          "en": "Some people run fast, while others run slowly at their own pace."
+        },
+        {
           "ja": "早く着きたいと思って速い電車に乗ると、自分の駅を通りすぎてしまうことがあります。",
           "en": "If you board a faster train because you want to arrive quickly, it may pass your station."
         },
@@ -38247,10 +38442,6 @@
         {
           "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
           "en": "In London, people using the Underground and buses were also advised to drink water."
-        },
-        {
-          "ja": "まだ行方が分からない人も多く、救助隊ががれきの中を探しています。",
-          "en": "Many people were still missing, and rescue teams were searching through rubble."
         }
       ]
     },
@@ -39134,6 +39325,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "皇居は東京の中心にあり、そのまわりには約5キロのランニングコースがあります。",
+          "en": "The Imperial Palace is in the center of Tokyo, and there is a running course of about five kilometers around it."
+        },
         {
           "ja": "このモノレールは、羽田空港と東京の中心部を結ぶために建設されました。",
           "en": "This monorail was built to connect Haneda Airport with central Tokyo."
@@ -50771,6 +50966,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そのため、観光客でも東京のランニング文化をすぐに体験できます。",
+          "en": "Because of that, even visitors can quickly experience Tokyo’s running culture."
+        },
+        {
           "ja": "暑さは観光や交通だけでなく、農業や電力にも影響を与えるため、各国は対策を急いでいます。",
           "en": "Because the heat affects not only tourism and transportation but also agriculture and electricity, countries are rushing to respond."
         },
@@ -50785,10 +50984,6 @@
         {
           "ja": "観光地のホテルでは、これから夏休みの忙しい時期を前に、さらに導入を進める計画です。",
           "en": "Hotels in tourist areas plan to increase adoption further before the busy summer vacation season."
-        },
-        {
-          "ja": "東北のある県で、景色を楽しめる観光列車の人気が高まっています。",
-          "en": "In one prefecture in Tohoku, a sightseeing train that lets passengers enjoy the scenery is becoming more popular."
         }
       ]
     },
@@ -50806,6 +51001,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "そのため、観光客でも東京のランニング文化をすぐに体験できます。",
+          "en": "Because of that, even visitors can quickly experience Tokyo’s running culture."
+        },
         {
           "ja": "図書館では、観光客だけでなく、地域で生活する外国人にも役立つと考えています。",
           "en": "Libraries believe the tablets will help not only tourists but also foreign residents in the community."
@@ -51916,6 +52115,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "旅行中で運動着を持っていなくても、近くのランナーズステーションで靴やウェアを借りることができます。",
+          "en": "Even if you are traveling and did not bring exercise clothes, you can rent shoes and sportswear at a nearby runner’s station."
+        },
+        {
           "ja": "だから、りんかい線の駅で長いエスカレーターを下りるときは、東京でも特に大きくてお金のかかった鉄道計画の中を移動していると考えることができます。",
           "en": "So when you ride down the long escalators at a Rinkai Line station, you can think of yourself as moving through one of Tokyo's biggest and most expensive railway projects."
         },
@@ -51930,10 +52133,6 @@
         {
           "ja": "フランスの一部では学校が休みになり、屋外の活動を避けるよう呼びかけられました。",
           "en": "In parts of France, schools were closed, and people were urged to avoid outdoor activities."
-        },
-        {
-          "ja": "専門家は、気候変動によって、このような強い熱波が起きやすくなっていると説明しています。",
-          "en": "Experts explain that climate change is making intense heatwaves like this more likely."
         }
       ]
     },
@@ -59570,6 +59769,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "レベルが違っても一緒に楽しめるので、初心者にも人気があります。",
+          "en": "Because people of different levels can enjoy it together, it is also popular with beginners."
+        },
+        {
           "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
           "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
         },
@@ -59584,10 +59787,6 @@
         {
           "ja": "研究者たちは、15種類の最新AIを試しました。",
           "en": "The researchers tested 15 kinds of advanced AI."
-        },
-        {
-          "ja": "アメリカのプロバスケットボール、NBAで、ニューヨーク・ニックスが2026年の王者になりました。",
-          "en": "In the NBA, America's professional basketball league, the New York Knicks became the 2026 champions."
         }
       ]
     },
@@ -59666,6 +59865,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "近くでは地元のランニンググループが集まり、いっしょにスタートすることもあります。",
+          "en": "Local running groups also gather nearby and sometimes start together."
+        },
+        {
           "ja": "AIは、昔からの記録を見て、空気の汚れや街の元気さがどう変わるかを予測します。",
           "en": "AI looks at past records and predicts how air pollution and urban vitality may change."
         },
@@ -59680,10 +59883,6 @@
         {
           "ja": "観光だけでなく、地域の経済を元気にする役割も期待されています。",
           "en": "The train is expected not only to support tourism but also to help energize the regional economy."
-        },
-        {
-          "ja": "忙しい仕事の中でも、音楽が元気をくれると話しました。",
-          "en": "She said that even during busy work, music gives her energy."
         }
       ]
     },
@@ -60369,6 +60568,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "このコースは東京でとても有名で、毎日たくさんの人が走っています。",
+          "en": "This course is very famous in Tokyo, and many people run there every day."
+        },
+        {
           "ja": "これらは速さや停車駅が違うため、名前を確認することが大切です。",
           "en": "Because their speeds and stopping stations differ, it is important to check the name."
         },
@@ -60383,10 +60586,6 @@
         {
           "ja": "JR東海によると、東海道新幹線の17駅のうち、ホームドアがあるのは東京、名古屋、新大阪など7駅です。",
           "en": "According to JR Central, seven of the 17 Tokaido Shinkansen stations—including Tokyo, Nagoya, and Shin-Osaka—have platform doors."
-        },
-        {
-          "ja": "名前は緑の靴のようですが、環境の制度ではありません。",
-          "en": "The name sounds like a green shoe, but it is not an environmental policy."
         }
       ]
     },
@@ -61800,6 +61999,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "レベルが違っても一緒に楽しめるので、初心者にも人気があります。",
+          "en": "Because people of different levels can enjoy it together, it is also popular with beginners."
+        },
         {
           "ja": "アジアやヨーロッパで日本食の人気が続いていて、すしだけでなく、家庭でのりを使う人も多くなっています。",
           "en": "Japanese food remains popular in Asia and Europe, and more people are using seaweed at home, not only for sushi."
@@ -64554,6 +64757,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "レベルが違っても一緒に楽しめるので、初心者にも人気があります。",
+          "en": "Because people of different levels can enjoy it together, it is also popular with beginners."
+        },
+        {
           "ja": "昔は港や工業用地が多かった場所が、仕事、買い物、遊びを楽しめるエリアに変わっていきました。",
           "en": "Places that once had many port facilities and industrial sites changed into an area for work, shopping, and entertainment."
         },
@@ -64568,10 +64775,6 @@
         {
           "ja": "忙しい仕事の中でも、音楽が元気をくれると話しました。",
           "en": "She said that even during busy work, music gives her energy."
-        },
-        {
-          "ja": "政治の場所に有名なロックバンドが来るのは少し意外ですが、文化や音楽を通して国どうしの交流を深めたいという考えもあります。",
-          "en": "It is a little surprising for a famous rock band to visit a political office, but there is also an idea of deepening ties between countries through culture and music."
         }
       ]
     },
@@ -71949,6 +72152,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "旅行中で運動着を持っていなくても、近くのランナーズステーションで靴やウェアを借りることができます。",
+          "en": "Even if you are traveling and did not bring exercise clothes, you can rent shoes and sportswear at a nearby runner’s station."
+        },
+        {
           "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
           "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
         },
@@ -73081,6 +73288,10 @@
           "readingHiragana": "たのしめる",
           "meaning": "Potential form of 楽しむ: to enjoy (oneself)",
           "exampleSentences": [
+            {
+              "ja": "レベルが違っても一緒に楽しめるので、初心者にも人気があります。",
+              "en": "Because people of different levels can enjoy it together, it is also popular with beginners."
+            },
             {
               "ja": "昔は港や工業用地が多かった場所が、仕事、買い物、遊びを楽しめるエリアに変わっていきました。",
               "en": "Places that once had many port facilities and industrial sites changed into an area for work, shopping, and entertainment."
@@ -77004,6 +77215,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "旅行中で運動着を持っていなくても、近くのランナーズステーションで靴やウェアを借りることができます。",
+          "en": "Even if you are traveling and did not bring exercise clothes, you can rent shoes and sportswear at a nearby runner’s station."
+        },
+        {
           "ja": "東京のりんかい線は、ほかの路線より運賃が少し高いと感じる人がいます。",
           "en": "Some people feel that Tokyo's Rinkai Line costs a little more than other rail lines."
         },
@@ -77018,10 +77233,6 @@
         {
           "ja": "運転は約3時間後の午後8時48分に再開しました。",
           "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
-        },
-        {
-          "ja": "リンクは6月27日に打ち上げられる予定で、3本のロボットアームでスウィフトをつかみ、より高く安全な軌道へ運びます。",
-          "en": "Link is scheduled to launch on June 27, grab Swift with three robotic arms, and move it to a higher, safer orbit."
         }
       ]
     },
@@ -78265,6 +78476,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "皇居は東京の中心にあり、そのまわりには約5キロのランニングコースがあります。",
+          "en": "The Imperial Palace is in the center of Tokyo, and there is a running course of about five kilometers around it."
+        },
+        {
           "ja": "首都カラカスから西へ約160キロの場所です。",
           "en": "The epicenter was near the town of Moron on the Caribbean coast, about 160 kilometers west of the capital, Caracas. The shaking was felt across a wide area in the north, and buildings collapsed in Caracas and La Guaira."
         },
@@ -78279,10 +78494,6 @@
         {
           "ja": "もし株価が高いままなら、会社から追加の株を買って約束を満たします。",
           "en": "If the share price stays high, they buy additional shares from the company to meet their commitment."
-        },
-        {
-          "ja": "山間部にある小さな町で、予約制バスの実験が始まりました。",
-          "en": "In a small town in a mountain area, a trial of reservation-based buses has started."
         }
       ]
     },
@@ -80303,6 +80514,203 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": []
+    },
+    {
+      "id": "article-cf4c937def2482",
+      "level": "N3",
+      "term": "中心",
+      "reading": "ちゅうしん",
+      "readingHiragana": "ちゅうしん",
+      "meaning": "Center",
+      "source": "article",
+      "sourceId": "2026-07-02-imperial-palace-running",
+      "sourceTitle": "皇居のまわりは東京で最も有名なランニングコースの一つ",
+      "sourceLabel": "7/2 皇居ランニング",
+      "sourceHref": "./2026-07-02-imperial-palace-running.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-02-imperial-palace-running"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "皇居は東京の中心にあり、そのまわりには約5キロのランニングコースがあります。",
+          "en": "The Imperial Palace is in the center of Tokyo, and there is a running course of about five kilometers around it."
+        },
+        {
+          "ja": "このモノレールは、羽田空港と東京の中心部を結ぶために建設されました。",
+          "en": "This monorail was built to connect Haneda Airport with central Tokyo."
+        },
+        {
+          "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
+          "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
+        },
+        {
+          "ja": "中心が遠くても、湿った空気が流れ込むと、雨雲が発達することがあります。",
+          "en": "Even when a storm center is far away, moist air can flow in and help rain clouds develop."
+        }
+      ]
+    },
+    {
+      "id": "article-c93f00c288b157",
+      "level": "N3",
+      "term": "初心者",
+      "reading": "しょしんしゃ",
+      "readingHiragana": "しょしんしゃ",
+      "meaning": "Beginner",
+      "source": "article",
+      "sourceId": "2026-07-02-imperial-palace-running",
+      "sourceTitle": "皇居のまわりは東京で最も有名なランニングコースの一つ",
+      "sourceLabel": "7/2 皇居ランニング",
+      "sourceHref": "./2026-07-02-imperial-palace-running.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-02-imperial-palace-running"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "レベルが違っても一緒に楽しめるので、初心者にも人気があります。",
+          "en": "Because people of different levels can enjoy it together, it is also popular with beginners."
+        }
+      ]
+    },
+    {
+      "id": "article-b4a80c14d20862",
+      "level": "N3",
+      "term": "地元",
+      "reading": "じもと",
+      "readingHiragana": "じもと",
+      "meaning": "Local area / Local",
+      "source": "article",
+      "sourceId": "2026-07-02-imperial-palace-running",
+      "sourceTitle": "皇居のまわりは東京で最も有名なランニングコースの一つ",
+      "sourceLabel": "7/2 皇居ランニング",
+      "sourceHref": "./2026-07-02-imperial-palace-running.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-02-imperial-palace-running"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "近くでは地元のランニンググループが集まり、いっしょにスタートすることもあります。",
+          "en": "Local running groups also gather nearby and sometimes start together."
+        },
+        {
+          "ja": "列車の中では、地元の食材を使ったお弁当や、お茶が出されます。",
+          "en": "On the train, passengers are served boxed meals and tea made with local ingredients."
+        },
+        {
+          "ja": "地元の人は、列車のおかげで町に活気が戻ってきたと感じています。",
+          "en": "Local people feel the train is bringing energy back to the town."
+        }
+      ]
+    },
+    {
+      "id": "article-440f5f16efddc1",
+      "level": "N3",
+      "term": "運動着",
+      "reading": "うんどうぎ",
+      "readingHiragana": "うんどうぎ",
+      "meaning": "Sportswear / Exercise clothes",
+      "source": "article",
+      "sourceId": "2026-07-02-imperial-palace-running",
+      "sourceTitle": "皇居のまわりは東京で最も有名なランニングコースの一つ",
+      "sourceLabel": "7/2 皇居ランニング",
+      "sourceHref": "./2026-07-02-imperial-palace-running.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-02-imperial-palace-running"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "旅行中で運動着を持っていなくても、近くのランナーズステーションで靴やウェアを借りることができます。",
+          "en": "Even if you are traveling and did not bring exercise clothes, you can rent shoes and sportswear at a nearby runner’s station."
+        }
+      ]
+    },
+    {
+      "id": "article-bcbe31e13b3466",
+      "level": "N3",
+      "term": "利用する",
+      "reading": "りようする",
+      "readingHiragana": "りようする",
+      "meaning": "To use",
+      "source": "article",
+      "sourceId": "2026-07-02-imperial-palace-running",
+      "sourceTitle": "皇居のまわりは東京で最も有名なランニングコースの一つ",
+      "sourceLabel": "7/2 皇居ランニング",
+      "sourceHref": "./2026-07-02-imperial-palace-running.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-02-imperial-palace-running"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "交通機関を利用する際は、運行状況を確認し、無理な移動を避けることが大切です。",
+          "en": "When using transportation, it is important to check service status and avoid unnecessary travel."
+        },
+        {
+          "ja": "ひとりでは高くて持てない設備を共同で利用する考えです。",
+          "en": "The idea is to share equipment that is too expensive for one person to own alone."
+        },
+        {
+          "ja": "ロッカーや温かいシャワーもあるので、気軽に利用できます。",
+          "en": "There are also lockers and hot showers, so you can use it casually."
+        },
+        {
+          "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
+          "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
+        },
+        {
+          "ja": "利用したい人は、前日までに電話かスマートフォンで乗る場所と時間を伝えます。",
+          "en": "People who want to use the service tell the town their pickup place and time by phone or smartphone by the previous day."
+        }
+      ]
+    },
+    {
+      "id": "article-5bc73890b47232",
+      "level": "N3",
+      "term": "体験する",
+      "reading": "たいけんする",
+      "readingHiragana": "たいけんする",
+      "meaning": "To experience",
+      "source": "article",
+      "sourceId": "2026-07-02-imperial-palace-running",
+      "sourceTitle": "皇居のまわりは東京で最も有名なランニングコースの一つ",
+      "sourceLabel": "7/2 皇居ランニング",
+      "sourceHref": "./2026-07-02-imperial-palace-running.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-02-imperial-palace-running"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "そのため、観光客でも東京のランニング文化をすぐに体験できます。",
+          "en": "Because of that, even visitors can quickly experience Tokyo’s running culture."
+        }
+      ]
+    },
+    {
+      "id": "article-864198dfbac9df",
+      "level": "N3",
+      "term": "一周",
+      "reading": "いっしゅう",
+      "readingHiragana": "いっしゅう",
+      "meaning": "One lap / One circuit",
+      "source": "article",
+      "sourceId": "2026-07-02-imperial-palace-running",
+      "sourceTitle": "皇居のまわりは東京で最も有名なランニングコースの一つ",
+      "sourceLabel": "7/2 皇居ランニング",
+      "sourceHref": "./2026-07-02-imperial-palace-running.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-02-imperial-palace-running"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "皇居のまわりを一周すると、景色を見ながら東京らしい習慣にふれることができます。",
+          "en": "If you run one lap around the Imperial Palace, you can enjoy the scenery and experience a very Tokyo-like custom."
+        }
+      ]
     },
     {
       "id": "article-426f7e9a29bf78",
