@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>山手線は東京の便利さを支える都市の輪になっている</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <link rel="stylesheet" href="./assets/article.css?v=93cf5769ed14">
+</head>
+<body id="top" data-article-id="2026-07-03-yamanote-city-centers" data-recording-download-name="2026-07-03-yamanote-city-centers.mp4">
+<nav class="top-nav" aria-label="Page navigation"></nav>
+<div class="article-shell">
+    <aside class="article-sidebar" aria-label="Article navigation"></aside>
+    <main class="article-main">
+
+<div class="container">
+    <div class="date">2026年7月3日</div>
+    <div class="article-toolbar">
+        <div class="voice-controls">
+            <button class="toolbar-icon-button voice-menu-toggle" type="button" id="voice-menu-toggle" aria-expanded="false" aria-controls="voice-settings-menu" aria-label="Voice settings" data-tooltip="Voice settings">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 10v4"></path>
+                    <path d="M8 7v10"></path>
+                    <path d="M12 4v16"></path>
+                    <path d="M16 7v10"></path>
+                    <path d="M20 10v4"></path>
+                </svg>
+                <span class="icon-label">Voice settings</span>
+            </button>
+            <div class="voice-current-status" id="voice-current-status" aria-live="polite">Docker VOICEVOX</div>
+            <button class="audio-enable-button" type="button" id="enable-docker-audio" hidden>Enable audio</button>
+            <div class="voice-settings-menu" id="voice-settings-menu" hidden>
+                <label class="toolbar-label" for="browser-voice">Browser Voice</label>
+                <select class="voice-select" id="browser-voice" aria-label="Browser voice">
+                    <option value="auto" selected>Google 日本語</option>
+                </select>
+            </div>
+        </div>
+        <div class="article-actions" aria-label="Article actions">
+            <button class="toolbar-icon-button video-button" type="button" id="render-video" aria-label="Render video" data-tooltip="Render video" data-default-label="Render video" data-active-label="Recording">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M5 6h11a2 2 0 0 1 2 2v1l3-2v10l-3-2v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"></path>
+                    <path d="M9 10.5v3l3-1.5z"></path>
+                </svg>
+                <span class="icon-label">Render video</span>
+            </button>
+            <button class="toolbar-icon-button cover-button" type="button" id="download-cover" aria-label="Download video cover" data-tooltip="Download cover" data-default-label="Download cover" data-active-label="Rendering cover">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                    <circle cx="8.5" cy="10" r="1.5"></circle>
+                    <path d="m21 15-5-5L5 19"></path>
+                </svg>
+                <span class="icon-label">Download cover</span>
+            </button>
+            <button class="toolbar-icon-button speak-button" type="button" id="speak-japanese-article" aria-label="Read aloud" data-tooltip="Read aloud" data-default-label="Read aloud" data-active-label="Stop reading" data-loading-label="Preparing audio">
+                <svg class="toolbar-svg icon-read" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 10v4h4l5 4V6L8 10z"></path>
+                    <path d="M16 9c1.8 1.8 1.8 4.2 0 6"></path>
+                    <path d="M18.5 6.5c3.3 3.3 3.3 7.7 0 11"></path>
+                </svg>
+                <svg class="toolbar-svg icon-stop" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 8h8v8H8z"></path>
+                </svg>
+                <span class="icon-label">Read aloud</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-japanese-article" aria-label="Copy Japanese article" data-tooltip="Copy Japanese article">
+                <span class="copy-language-icon" aria-hidden="true">あ</span>
+                <span class="icon-label">Copy Japanese article</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-english-translation" aria-label="Copy English translation" data-tooltip="Copy English translation">
+                <span class="copy-language-icon" aria-hidden="true">A</span>
+                <span class="icon-label">Copy English translation</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-bilingual-article" aria-label="Copy Japanese and English article" data-tooltip="Copy Japanese and English article">
+                <span class="copy-language-icon copy-language-icon-wide" aria-hidden="true">あ/A</span>
+                <span class="icon-label">Copy Japanese and English article</span>
+            </button>
+        </div>
+    </div>
+    <div class="copy-status" id="copy-status" aria-live="polite"></div>
+    <audio class="audio-player" id="tts-player" controls hidden preload="none"></audio>
+    <h1><ruby>山手線<rt>やまのてせん</rt></ruby>は<ruby>東京<rt>とうきょう</rt></ruby>の<ruby>便利<rt>べんり</rt></ruby>さを<ruby>支<rt>ささ</rt></ruby>える<ruby>都市<rt>とし</rt></ruby>の<ruby>輪<rt>わ</rt></ruby>になっている</h1>
+    <div class="source-note">ユーザー提供の山手線と東京の都市構造についての説明文をもとにしたN3レベルの学習用ページです。</div>
+
+
+    <p class="article-paragraph"><ruby>東京<rt>とうきょう</rt></ruby>がとても<ruby>便利<rt>べんり</rt></ruby>に<ruby>感<rt>かん</rt></ruby>じられる<ruby>大<rt>おお</rt></ruby>きな<ruby>理由<rt>りゆう</rt></ruby>の一つは、よく<ruby>整<rt>ととの</rt></ruby>った<ruby>鉄道網<rt>てつどうもう</rt></ruby>です。その<ruby>中心<rt>ちゅうしん</rt></ruby>にあるのが、<ruby>東京<rt>とうきょう</rt></ruby>を<ruby>輪<rt>わ</rt></ruby>のように<ruby>回<rt>まわ</rt></ruby>る<ruby>山手線<rt>やまのてせん</rt></ruby>です。</p>
+    <div class="sentence-translation">One big reason Tokyo feels so convenient is its well-developed rail network. At the center of that network is the Yamanote Line, which circles Tokyo like a loop.</div>
+    <p class="article-paragraph"><ruby>山手線<rt>やまのてせん</rt></ruby>は、<ruby>新宿<rt>しんじゅく</rt></ruby>、<ruby>渋谷<rt>しぶや</rt></ruby>、<ruby>上野<rt>うえの</rt></ruby>、<ruby>東京駅<rt>とうきょうえき</rt></ruby>、<ruby>池袋<rt>いけぶくろ</rt></ruby>などの大きなエリアをつないでいます。こうした<ruby>駅<rt>えき</rt></ruby>のまわりには、<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>ができる<ruby>店<rt>みせ</rt></ruby>、<ruby>会社<rt>かいしゃ</rt></ruby>、レストラン、<ruby>遊<rt>あそ</rt></ruby>べる<ruby>場所<rt>ばしょ</rt></ruby>が<ruby>集<rt>あつ</rt></ruby>まっています。</p>
+    <div class="sentence-translation">The Yamanote Line connects major areas such as Shinjuku, Shibuya, Ueno, Tokyo Station, and Ikebukuro. Around these stations, shops, offices, restaurants, and places for entertainment are gathered together.</div>
+    <p class="article-paragraph"><ruby>東京<rt>とうきょう</rt></ruby>は、一つのダウンタウンだけが<ruby>発展<rt>はってん</rt></ruby>した<ruby>都市<rt>とし</rt></ruby>ではありません。いくつもの<ruby>都市中心<rt>としちゅうしん</rt></ruby>が<ruby>鉄道<rt>てつどう</rt></ruby>でしっかり<ruby>結<rt>むす</rt></ruby>ばれた<ruby>形<rt>かたち</rt></ruby>で<ruby>広<rt>ひろ</rt></ruby>がってきました。そのため、多くの<ruby>人<rt>ひと</rt></ruby>は<ruby>遠<rt>とお</rt></ruby>くまで行かなくても、<ruby>生活<rt>せいかつ</rt></ruby>に<ruby>必要<rt>ひつよう</rt></ruby>なものに<ruby>近<rt>ちか</rt></ruby>い<ruby>場所<rt>ばしょ</rt></ruby>で<ruby>出会<rt>であ</rt></ruby>えます。</p>
+    <div class="sentence-translation">Tokyo is not a city where only one downtown area developed. It spread in a form where many urban centers were firmly connected by rail. Because of that, many people can find what they need for daily life without going very far.</div>
+    <p class="article-paragraph">このように、<ruby>駅<rt>えき</rt></ruby>の近くに<ruby>仕事<rt>しごと</rt></ruby>や<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>や<ruby>食事<rt>しょくじ</rt></ruby>の<ruby>場所<rt>ばしょ</rt></ruby>が<ruby>集<rt>あつ</rt></ruby>まる<ruby>考<rt>かんが</rt></ruby>え<ruby>方<rt>かた</rt></ruby>を、<ruby>公共交通<rt>こうきょうこうつう</rt></ruby>を<ruby>中心<rt>ちゅうしん</rt></ruby>にした<ruby>都市開発<rt>としかいはつ</rt></ruby>と<ruby>言<rt>い</rt></ruby>うことができます。<ruby>電車<rt>でんしゃ</rt></ruby>で<ruby>移動<rt>いどう</rt></ruby>しやすいので、<ruby>車<rt>くるま</rt></ruby>だけに<ruby>頼<rt>たよ</rt></ruby>らなくても<ruby>暮<rt>く</rt></ruby>らしやすくなります。</p>
+    <div class="sentence-translation">This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation. Because it is easy to move by train, life becomes easier without relying only on cars.</div>
+    <p class="article-paragraph">こうした<ruby>仕組<rt>しく</rt></ruby>みがあったからこそ、<ruby>東京<rt>とうきょう</rt></ruby>は<ruby>世界<rt>せかい</rt></ruby>でもとても大きく、しかも<ruby>効率的<rt>こうりつてき</rt></ruby>な<ruby>都市圏<rt>としけん</rt></ruby>の一つに<ruby>成長<rt>せいちょう</rt></ruby>できました。<ruby>山手線<rt>やまのてせん</rt></ruby>は、ただ人を<ruby>運<rt>はこ</rt></ruby>ぶだけでなく、<ruby>東京<rt>とうきょう</rt></ruby>の<ruby>街<rt>まち</rt></ruby>の作られ方そのものを<ruby>支<rt>ささ</rt></ruby>えているのです。</p>
+    <div class="sentence-translation">Because this kind of system existed, Tokyo was able to grow into one of the world&#x27;s very large and efficient metropolitan areas. The Yamanote Line does not just carry people; it supports the very way Tokyo&#x27;s cityscape was built.</div>
+    <div class="recording-footer" aria-hidden="true">
+        <span>英訳はコメント欄にあります</span>
+        <span>2026年7月3日</span>
+    </div>
+
+    <div class="vocabulary-box">
+        <h2>N3 Vocabulary</h2>
+        <ul>
+            <li><strong>鉄道網（てつどうもう）:</strong> Rail network</li>
+            <li><strong>都市中心（としちゅうしん）:</strong> Urban center / City center</li>
+            <li><strong>発展（はってん）する:</strong> To develop / To grow</li>
+            <li><strong>公共交通（こうきょうこうつう）:</strong> Public transportation</li>
+            <li><strong>都市開発（としかいはつ）:</strong> Urban development</li>
+            <li><strong>効率的（こうりつてき）:</strong> Efficient</li>
+            <li><strong>都市圏（としけん）:</strong> Metropolitan area</li>
+        </ul>
+    </div>
+</div>
+    </main>
+</div>
+
+<script src="./assets/article.js?v=c253c6109e64"></script>
+
+</body>
+</html>

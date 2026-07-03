@@ -4,7 +4,7 @@
     "articleManifest": "data/articles.json"
   },
   "levels": {
-    "N3": 1994,
+    "N3": 2001,
     "N4": 536,
     "N5": 553
   },
@@ -818,7 +818,12 @@
           "term": "遊べる",
           "readingHiragana": "あそべる",
           "meaning": "Potential form of 遊ぶ: to play",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "こうした駅のまわりには、買い物ができる店、会社、レストラン、遊べる場所が集まっています。",
+              "en": "Around these stations, shops, offices, restaurants, and places for entertainment are gathered together."
+            }
+          ]
         }
       ]
     },
@@ -1134,6 +1139,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京がとても便利に感じられる大きな理由の一つは、よく整った鉄道網です。",
+          "en": "One big reason Tokyo feels so convenient is its well-developed rail network."
+        },
+        {
           "ja": "東京モノレールは、羽田空港へ行くための便利な交通機関です。",
           "en": "Tokyo Monorail is a convenient way to get to Haneda Airport."
         },
@@ -1148,10 +1157,6 @@
         {
           "ja": "ふだんの便利さだけでなく、もしものときの安心にもつなげたいとしています。",
           "en": "The goal is to provide not only everyday convenience but also reassurance in emergencies."
-        },
-        {
-          "ja": "便利さを認めながらも、考える力を弱くしないことが大切だとされています。",
-          "en": "While its convenience is recognized, it is considered important not to weaken students’ ability to think for themselves."
         }
       ]
     },
@@ -1405,6 +1410,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そのため、多くの人は遠くまで行かなくても、生活に必要なものに近い場所で出会えます。",
+          "en": "Because of that, many people can find what they need for daily life without going very far."
+        },
+        {
           "ja": "この路線は、東京港の下を通るところで、地上から40メートル近い深さまで下がります。",
           "en": "Where the line passes under the Port of Tokyo, it descends to nearly 40 meters below the surface."
         },
@@ -1419,10 +1428,6 @@
         {
           "ja": "女性は土曜日の朝、岸に近い場所で泳いでいました。",
           "en": "She was swimming near the shore on Saturday morning."
-        },
-        {
-          "ja": "この日は、1ドル160円に近い水準まで円が弱くなっていました。",
-          "en": "That day, the yen had weakened to a level close to 160 yen per dollar."
         }
       ]
     },
@@ -1441,6 +1446,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
+          "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
+        },
+        {
           "ja": "近くでは地元のランニンググループが集まり、いっしょにスタートすることもあります。",
           "en": "Local running groups also gather nearby and sometimes start together."
         },
@@ -1455,10 +1464,6 @@
         {
           "ja": "一方、日本は、台湾の近くで大きな問題が起きれば、日本の安全にも関係すると見ています。",
           "en": "Japan, on the other hand, thinks that if a major problem happens near Taiwan, it would also affect Japan's safety."
-        },
-        {
-          "ja": "スイスのバーゼルでは38度近くまで上がり、オランダでは初めて暑さに関する赤い警報が出されました。",
-          "en": "In Basel, Switzerland, temperatures rose close to 38 degrees Celsius, and the Netherlands issued its first red alert for heat."
         }
       ]
     },
@@ -1976,6 +1981,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "電車で移動しやすいので、車だけに頼らなくても暮らしやすくなります。",
+          "en": "Because it is easy to move by train, life becomes easier without relying only on cars."
+        },
+        {
           "ja": "同じ方向へ行く電車でも、止まる駅は同じではありません。",
           "en": "Even trains going in the same direction do not all stop at the same stations."
         },
@@ -2386,24 +2395,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "山手線は、新宿、渋谷、上野、東京駅、池袋などの大きなエリアをつないでいます。",
+          "en": "The Yamanote Line connects major areas such as Shinjuku, Shibuya, Ueno, Tokyo Station, and Ikebukuro."
+        },
+        {
+          "ja": "こうした駅のまわりには、買い物ができる店、会社、レストラン、遊べる場所が集まっています。",
+          "en": "Around these stations, shops, offices, restaurants, and places for entertainment are gathered together."
+        },
+        {
+          "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
+          "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
+        },
+        {
           "ja": "同じ方向へ行く電車でも、止まる駅は同じではありません。",
           "en": "Even trains going in the same direction do not all stop at the same stations."
         },
         {
           "ja": "品川や羽田空港などの駅では、普通、急行、エアポート急行、特急、快特などの表示を見ます。",
           "en": "At stations such as Shinagawa and Haneda Airport, you will see labels like Local, Express, Airport Express, Limited Express, and Rapid Limited Express."
-        },
-        {
-          "ja": "これらは速さや停車駅が違うため、名前を確認することが大切です。",
-          "en": "Because their speeds and stopping stations differ, it is important to check the name."
-        },
-        {
-          "ja": "早く着きたいと思って速い電車に乗ると、自分の駅を通りすぎてしまうことがあります。",
-          "en": "If you board a faster train because you want to arrive quickly, it may pass your station."
-        },
-        {
-          "ja": "降りたい駅を全部の電車が通るわけではないので、急いでいるときほど注意が必要です。",
-          "en": "Not every train serves the station where you want to get off, so you need to be especially careful when you are in a hurry."
         }
       ]
     },
@@ -4255,24 +4264,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "皇居は東京の中心にあり、そのまわりには約5キロのランニングコースがあります。",
-          "en": "The Imperial Palace is in the center of Tokyo, and there is a running course of about five kilometers around it."
+          "ja": "東京がとても便利に感じられる大きな理由の一つは、よく整った鉄道網です。",
+          "en": "One big reason Tokyo feels so convenient is its well-developed rail network."
         },
         {
-          "ja": "このコースは東京でとても有名で、毎日たくさんの人が走っています。",
-          "en": "This course is very famous in Tokyo, and many people run there every day."
+          "ja": "その中心にあるのが、東京を輪のように回る山手線です。",
+          "en": "At the center of that network is the Yamanote Line, which circles Tokyo like a loop."
         },
         {
-          "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
-          "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
+          "ja": "山手線は、新宿、渋谷、上野、東京駅、池袋などの大きなエリアをつないでいます。",
+          "en": "The Yamanote Line connects major areas such as Shinjuku, Shibuya, Ueno, Tokyo Station, and Ikebukuro."
         },
         {
-          "ja": "そのため、観光客でも東京のランニング文化をすぐに体験できます。",
-          "en": "Because of that, even visitors can quickly experience Tokyo’s running culture."
+          "ja": "東京は、一つのダウンタウンだけが発展した都市ではありません。",
+          "en": "Tokyo is not a city where only one downtown area developed."
         },
         {
-          "ja": "皇居のまわりを一周すると、景色を見ながら東京らしい習慣にふれることができます。",
-          "en": "If you run one lap around the Imperial Palace, you can enjoy the scenery and experience a very Tokyo-like custom."
+          "ja": "こうした仕組みがあったからこそ、東京は世界でもとても大きく、しかも効率的な都市圏の一つに成長できました。",
+          "en": "Because this kind of system existed, Tokyo was able to grow into one of the world's very large and efficient metropolitan areas."
         }
       ]
     },
@@ -4553,6 +4562,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そのため、多くの人は遠くまで行かなくても、生活に必要なものに近い場所で出会えます。",
+          "en": "Because of that, many people can find what they need for daily life without going very far."
+        },
+        {
+          "ja": "山手線は、ただ人を運ぶだけでなく、東京の街の作られ方そのものを支えているのです。",
+          "en": "The Yamanote Line does not just carry people; it supports the very way Tokyo's cityscape was built."
+        },
+        {
           "ja": "このコースは東京でとても有名で、毎日たくさんの人が走っています。",
           "en": "This course is very famous in Tokyo, and many people run there every day."
         },
@@ -4563,14 +4580,6 @@
         {
           "ja": "レベルが違っても一緒に楽しめるので、初心者にも人気があります。",
           "en": "Because people of different levels can enjoy it together, it is also popular with beginners."
-        },
-        {
-          "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
-          "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
-        },
-        {
-          "ja": "東京のりんかい線は、ほかの路線より運賃が少し高いと感じる人がいます。",
-          "en": "Some people feel that Tokyo's Rinkai Line costs a little more than other rail lines."
         }
       ]
     },
@@ -4604,24 +4613,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京がとても便利に感じられる大きな理由の一つは、よく整った鉄道網です。",
+          "en": "One big reason Tokyo feels so convenient is its well-developed rail network."
+        },
+        {
+          "ja": "東京は、一つのダウンタウンだけが発展した都市ではありません。",
+          "en": "Tokyo is not a city where only one downtown area developed."
+        },
+        {
+          "ja": "こうした仕組みがあったからこそ、東京は世界でもとても大きく、しかも効率的な都市圏の一つに成長できました。",
+          "en": "Because this kind of system existed, Tokyo was able to grow into one of the world's very large and efficient metropolitan areas."
+        },
+        {
           "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
           "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
         },
         {
           "ja": "その理由の一つは、線路の多くがとても深い地下を通っていることです。",
           "en": "One reason is that much of the track runs very deep underground."
-        },
-        {
-          "ja": "大きな理由の一つは、台湾の問題です。",
-          "en": "One major reason is the Taiwan issue."
-        },
-        {
-          "ja": "もう一つの理由は、アメリカの存在です。",
-          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
-        },
-        {
-          "ja": "一つ目の地震が別の断層に力を加え、二つ目を引き起こした可能性があります。",
-          "en": "The first quake may have added stress to another fault and triggered the second one."
         }
       ]
     },
@@ -4745,24 +4754,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京がとても便利に感じられる大きな理由の一つは、よく整った鉄道網です。",
+          "en": "One big reason Tokyo feels so convenient is its well-developed rail network."
+        },
+        {
+          "ja": "東京は、一つのダウンタウンだけが発展した都市ではありません。",
+          "en": "Tokyo is not a city where only one downtown area developed."
+        },
+        {
+          "ja": "こうした仕組みがあったからこそ、東京は世界でもとても大きく、しかも効率的な都市圏の一つに成長できました。",
+          "en": "Because this kind of system existed, Tokyo was able to grow into one of the world's very large and efficient metropolitan areas."
+        },
+        {
           "ja": "レベルが違っても一緒に楽しめるので、初心者にも人気があります。",
           "en": "Because people of different levels can enjoy it together, it is also popular with beginners."
         },
         {
           "ja": "皇居のまわりを一周すると、景色を見ながら東京らしい習慣にふれることができます。",
           "en": "If you run one lap around the Imperial Palace, you can enjoy the scenery and experience a very Tokyo-like custom."
-        },
-        {
-          "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
-          "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
-        },
-        {
-          "ja": "その理由の一つは、線路の多くがとても深い地下を通っていることです。",
-          "en": "One reason is that much of the track runs very deep underground."
-        },
-        {
-          "ja": "大きな理由の一つは、台湾の問題です。",
-          "en": "One major reason is the Taiwan issue."
         }
       ]
     },
@@ -4880,7 +4889,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "山手線は、新宿、渋谷、上野、東京駅、池袋などの大きなエリアをつないでいます。",
+          "en": "The Yamanote Line connects major areas such as Shinjuku, Shibuya, Ueno, Tokyo Station, and Ikebukuro."
+        }
+      ]
     },
     {
       "id": "core-54a76074b83199",
@@ -5559,7 +5573,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
+          "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "godan",
       "verbForms": [
@@ -5570,7 +5589,12 @@
           "term": "言います",
           "readingHiragana": "いいます",
           "meaning": "Polite form of 言う: to say, to utter",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
+              "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
+            }
+          ]
         },
         {
           "form": "past",
@@ -5579,7 +5603,12 @@
           "term": "言った",
           "readingHiragana": "いった",
           "meaning": "Plain past form of 言う: to say, to utter",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
+              "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -5588,7 +5617,12 @@
           "term": "言わない",
           "readingHiragana": "いわない",
           "meaning": "Plain negative form of 言う: to say, to utter",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
+              "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
+            }
+          ]
         },
         {
           "form": "te",
@@ -5597,7 +5631,12 @@
           "term": "言って",
           "readingHiragana": "いって",
           "meaning": "Te-form of 言う: to say, to utter",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
+              "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -5606,7 +5645,12 @@
           "term": "言える",
           "readingHiragana": "いえる",
           "meaning": "Potential form of 言う: to say, to utter",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
+              "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
+            }
+          ]
         }
       ]
     },
@@ -6039,6 +6083,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "こうした駅のまわりには、買い物ができる店、会社、レストラン、遊べる場所が集まっています。",
+          "en": "Around these stations, shops, offices, restaurants, and places for entertainment are gathered together."
+        },
+        {
           "ja": "これは日本の会社にとって大きなリスクです。",
           "en": "This is a major risk for Japanese companies."
         },
@@ -6053,10 +6101,6 @@
         {
           "ja": "グリーンシューがあると、証券会社は予定より多く、ふつうは最大15パーセント多く株を売ることができます。",
           "en": "With a greenshoe option, the securities firms can sell more shares than planned, usually up to 15 percent more."
-        },
-        {
-          "ja": "もし上場後に株価が下がれば、証券会社は市場で株を買い戻します。",
-          "en": "If the share price falls after listing, the securities firms buy shares back in the market."
         }
       ]
     },
@@ -6442,6 +6486,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
+          "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
+        },
+        {
+          "ja": "山手線は、ただ人を運ぶだけでなく、東京の街の作られ方そのものを支えているのです。",
+          "en": "The Yamanote Line does not just carry people; it supports the very way Tokyo's cityscape was built."
+        },
+        {
           "ja": "同じ方向へ行く電車でも、止まる駅は同じではありません。",
           "en": "Even trains going in the same direction do not all stop at the same stations."
         },
@@ -6452,14 +6504,6 @@
         {
           "ja": "種別ごとの止まり方がわかると、京急線はずっと使いやすくなります。",
           "en": "Once you understand how each service type stops, the Keikyu Line becomes much easier to use."
-        },
-        {
-          "ja": "全部の路線を暗記しなくても、この方向だけでかなり考えやすくなります。",
-          "en": "You do not need to memorize every line; these directions alone make it much easier to think."
-        },
-        {
-          "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
-          "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
         }
       ]
     },
@@ -8042,6 +8086,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "電車で移動しやすいので、車だけに頼らなくても暮らしやすくなります。",
+          "en": "Because it is easy to move by train, life becomes easier without relying only on cars."
+        },
+        {
           "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
           "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
         },
@@ -8056,10 +8104,6 @@
         {
           "ja": "早く着きたいと思って速い電車に乗ると、自分の駅を通りすぎてしまうことがあります。",
           "en": "If you board a faster train because you want to arrive quickly, it may pass your station."
-        },
-        {
-          "ja": "降りたい駅を全部の電車が通るわけではないので、急いでいるときほど注意が必要です。",
-          "en": "Not every train serves the station where you want to get off, so you need to be especially careful when you are in a hurry."
         }
       ]
     },
@@ -8704,6 +8748,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京がとても便利に感じられる大きな理由の一つは、よく整った鉄道網です。",
+          "en": "One big reason Tokyo feels so convenient is its well-developed rail network."
+        },
+        {
+          "ja": "いくつもの都市中心が鉄道でしっかり結ばれた形で広がってきました。",
+          "en": "It spread in a form where many urban centers were firmly connected by rail."
+        },
+        {
           "ja": "すでにある地下鉄、水道や電気の設備、建物の基礎をよけながらトンネルを作るのは、とても大変でした。",
           "en": "Building tunnels while avoiding existing subways, water and electrical infrastructure, and building foundations was extremely difficult."
         },
@@ -8714,14 +8766,6 @@
         {
           "ja": "乗り換えのたびに地図を開かなくても、頭の中で道を組みたてられるようになります。",
           "en": "Even without opening a map for each transfer, you can start building the route in your head."
-        },
-        {
-          "ja": "研究チームは、環境だけでなく、スーパーやレストランまでの距離、道路の多さ、土地の使い方も集めました。",
-          "en": "The research team collected not only environmental data, but also distances to supermarkets and restaurants, road density, and land use."
-        },
-        {
-          "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
-          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
         }
       ]
     },
@@ -9108,6 +9152,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "こうした駅のまわりには、買い物ができる店、会社、レストラン、遊べる場所が集まっています。",
+          "en": "Around these stations, shops, offices, restaurants, and places for entertainment are gathered together."
+        },
+        {
           "ja": "切符の売り場だけでなく、船内の売店でもカードやスマートフォンで払えるようになりました。",
           "en": "Not only ticket counters but also onboard shops now accept cards and smartphones."
         },
@@ -9122,10 +9170,6 @@
         {
           "ja": "駅の周りでは、列車の到着にあわせて土産店やカフェが営業を広げています。",
           "en": "Around the stations, souvenir shops and cafes are extending business hours to match the train’s arrivals."
-        },
-        {
-          "ja": "家計への負担を軽くするため、小売店や農家を支える仕組みを増やすとしています。",
-          "en": "To reduce the burden on households, it plans to expand support systems for retailers and farmers."
         }
       ]
     },
@@ -9554,24 +9598,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "その中心にあるのが、東京を輪のように回る山手線です。",
+          "en": "At the center of that network is the Yamanote Line, which circles Tokyo like a loop."
+        },
+        {
+          "ja": "いくつもの都市中心が鉄道でしっかり結ばれた形で広がってきました。",
+          "en": "It spread in a form where many urban centers were firmly connected by rail."
+        },
+        {
+          "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
+          "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
+        },
+        {
           "ja": "皇居は東京の中心にあり、そのまわりには約5キロのランニングコースがあります。",
           "en": "The Imperial Palace is in the center of Tokyo, and there is a running course of about five kilometers around it."
         },
         {
           "ja": "旅行中で運動着を持っていなくても、近くのランナーズステーションで靴やウェアを借りることができます。",
           "en": "Even if you are traveling and did not bring exercise clothes, you can rent shoes and sportswear at a nearby runner’s station."
-        },
-        {
-          "ja": "だから、りんかい線の駅で長いエスカレーターを下りるときは、東京でも特に大きくてお金のかかった鉄道計画の中を移動していると考えることができます。",
-          "en": "So when you ride down the long escalators at a Rinkai Line station, you can think of yourself as moving through one of Tokyo's biggest and most expensive railway projects."
-        },
-        {
-          "ja": "このモノレールは、羽田空港と東京の中心部を結ぶために建設されました。",
-          "en": "This monorail was built to connect Haneda Airport with central Tokyo."
-        },
-        {
-          "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
-          "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
         }
       ]
     },
@@ -10009,6 +10053,10 @@
           "meaning": "Polite form of なる: to become",
           "exampleSentences": [
             {
+              "ja": "電車で移動しやすいので、車だけに頼らなくても暮らしやすくなります。",
+              "en": "Because it is easy to move by train, life becomes easier without relying only on cars."
+            },
+            {
               "ja": "種別ごとの止まり方がわかると、京急線はずっと使いやすくなります。",
               "en": "Once you understand how each service type stops, the Keikyu Line becomes much easier to use."
             },
@@ -10023,10 +10071,6 @@
             {
               "ja": "全部の路線を暗記しなくても、この方向だけでかなり考えやすくなります。",
               "en": "You do not need to memorize every line; these directions alone make it much easier to think."
-            },
-            {
-              "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
-              "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
             }
           ]
         },
@@ -12729,6 +12773,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
+          "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
+        },
+        {
           "ja": "昔は港や工業用地が多かった場所が、仕事、買い物、遊びを楽しめるエリアに変わっていきました。",
           "en": "Places that once had many port facilities and industrial sites changed into an area for work, shopping, and entertainment."
         },
@@ -12743,10 +12791,6 @@
         {
           "ja": "一方で、教員からは、採点や教材づくりにAIを活用すれば、仕事の負担を減らせるという期待もあります。",
           "en": "At the same time, teachers expect that using AI for grading and creating teaching materials could reduce their workload."
-        },
-        {
-          "ja": "忙しい仕事の中でも、音楽が元気をくれると話しました。",
-          "en": "She said that even during busy work, music gives her energy."
         }
       ]
     },
@@ -13649,24 +13693,24 @@
           "meaning": "Plain past form of する: to do",
           "exampleSentences": [
             {
-              "ja": "すでにある地下鉄、水道や電気の設備、建物の基礎をよけながらトンネルを作るのは、とても大変でした。",
-              "en": "Building tunnels while avoiding existing subways, water and electrical infrastructure, and building foundations was extremely difficult."
+              "ja": "こうした駅のまわりには、買い物ができる店、会社、レストラン、遊べる場所が集まっています。",
+              "en": "Around these stations, shops, offices, restaurants, and places for entertainment are gathered together."
             },
             {
-              "ja": "そのため、建設費はとても高くなりました。",
-              "en": "Because of that, construction costs became very high."
+              "ja": "東京は、一つのダウンタウンだけが発展した都市ではありません。",
+              "en": "Tokyo is not a city where only one downtown area developed."
             },
             {
-              "ja": "2002年に完成したとき、全体の費用は4400億円をこえていて、そのときの借金が今の運賃にも影響しています。",
-              "en": "When the line was completed in 2002, the total cost exceeded 440 billion yen, and those debts still affect fares today."
+              "ja": "いくつもの都市中心が鉄道でしっかり結ばれた形で広がってきました。",
+              "en": "It spread in a form where many urban centers were firmly connected by rail."
             },
             {
-              "ja": "りんかい線は、1990年代から2000年代のはじめにかけて、東京の臨海部を発展させるために作られました。",
-              "en": "The Rinkai Line was built to develop Tokyo's waterfront area from the 1990s into the early 2000s."
+              "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
+              "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
             },
             {
-              "ja": "昔は港や工業用地が多かった場所が、仕事、買い物、遊びを楽しめるエリアに変わっていきました。",
-              "en": "Places that once had many port facilities and industrial sites changed into an area for work, shopping, and entertainment."
+              "ja": "こうした仕組みがあったからこそ、東京は世界でもとても大きく、しかも効率的な都市圏の一つに成長できました。",
+              "en": "Because this kind of system existed, Tokyo was able to grow into one of the world's very large and efficient metropolitan areas."
             }
           ]
         },
@@ -13739,6 +13783,10 @@
           "meaning": "Potential form of する: to do",
           "exampleSentences": [
             {
+              "ja": "こうした駅のまわりには、買い物ができる店、会社、レストラン、遊べる場所が集まっています。",
+              "en": "Around these stations, shops, offices, restaurants, and places for entertainment are gathered together."
+            },
+            {
               "ja": "この考え方ができると、毎回ルート検索に時間を取られにくくなります。",
               "en": "Once you can think this way, you do not spend as much time on route searches every time."
             },
@@ -13753,10 +13801,6 @@
             {
               "ja": "温室の中では、温度や水の管理を自動でできるようにする予定です。",
               "en": "Inside the greenhouse, temperature and water management will be automated."
-            },
-            {
-              "ja": "関係者は、この温室をきっかけに、販売や出荷も協力してできるようにしたいと話しています。",
-              "en": "The people involved say they also want to use the greenhouse as a starting point for cooperative selling and shipping."
             }
           ]
         }
@@ -14425,24 +14469,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "その中心にあるのが、東京を輪のように回る山手線です。",
+          "en": "At the center of that network is the Yamanote Line, which circles Tokyo like a loop."
+        },
+        {
+          "ja": "山手線は、新宿、渋谷、上野、東京駅、池袋などの大きなエリアをつないでいます。",
+          "en": "The Yamanote Line connects major areas such as Shinjuku, Shibuya, Ueno, Tokyo Station, and Ikebukuro."
+        },
+        {
+          "ja": "山手線は、ただ人を運ぶだけでなく、東京の街の作られ方そのものを支えているのです。",
+          "en": "The Yamanote Line does not just carry people; it supports the very way Tokyo's cityscape was built."
+        },
+        {
           "ja": "AIは写真から大切な手がかりを見つけられましたが、結果は項目によって大きく違いました。",
           "en": "The AI could find important clues in images, but the results differed greatly depending on the item."
         },
         {
           "ja": "その後、救急隊や医師たちが浜辺で手当てをしました。",
           "en": "After that, emergency workers and doctors treated her on the beach."
-        },
-        {
-          "ja": "今回の引き分けで、今年も強い相手になりそうだと感じさせました。",
-          "en": "This draw made people feel that Morocco may again be a strong opponent this year."
-        },
-        {
-          "ja": "そのため、必要な時だけ走る仕組みにして、運転手や燃料の負担を減らしたい考えです。",
-          "en": "The town wants to reduce the burden on drivers and fuel use by running buses only when needed."
-        },
-        {
-          "ja": "本の探し方や貸し出しの手続きを、画面を見ながら説明できるようになりました。",
-          "en": "People can now see on-screen explanations of how to find books and complete borrowing procedures."
         }
       ]
     },
@@ -14920,24 +14964,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "こうした駅のまわりには、買い物ができる店、会社、レストラン、遊べる場所が集まっています。",
+          "en": "Around these stations, shops, offices, restaurants, and places for entertainment are gathered together."
+        },
+        {
+          "ja": "そのため、多くの人は遠くまで行かなくても、生活に必要なものに近い場所で出会えます。",
+          "en": "Because of that, many people can find what they need for daily life without going very far."
+        },
+        {
+          "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
+          "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
+        },
+        {
           "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
           "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
         },
         {
           "ja": "昔は港や工業用地が多かった場所が、仕事、買い物、遊びを楽しめるエリアに変わっていきました。",
           "en": "Places that once had many port facilities and industrial sites changed into an area for work, shopping, and entertainment."
-        },
-        {
-          "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
-          "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
-        },
-        {
-          "ja": "首都カラカスから西へ約160キロの場所です。",
-          "en": "The epicenter was near the town of Moron on the Caribbean coast, about 160 kilometers west of the capital, Caracas. The shaking was felt across a wide area in the north, and buildings collapsed in Caracas and La Guaira."
-        },
-        {
-          "ja": "同じくらいの強さの地震が、近い場所で短い時間に起きることです。",
-          "en": "\" It means earthquakes of similar strength happen close together in place and time."
         }
       ]
     },
@@ -15035,6 +15079,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京がとても便利に感じられる大きな理由の一つは、よく整った鉄道網です。",
+          "en": "One big reason Tokyo feels so convenient is its well-developed rail network."
+        },
+        {
+          "ja": "こうした仕組みがあったからこそ、東京は世界でもとても大きく、しかも効率的な都市圏の一つに成長できました。",
+          "en": "Because this kind of system existed, Tokyo was able to grow into one of the world's very large and efficient metropolitan areas."
+        },
+        {
           "ja": "このコースは東京でとても有名で、毎日たくさんの人が走っています。",
           "en": "This course is very famous in Tokyo, and many people run there every day."
         },
@@ -15045,14 +15097,6 @@
         {
           "ja": "すでにある地下鉄、水道や電気の設備、建物の基礎をよけながらトンネルを作るのは、とても大変でした。",
           "en": "Building tunnels while avoiding existing subways, water and electrical infrastructure, and building foundations was extremely difficult."
-        },
-        {
-          "ja": "そのため、建設費はとても高くなりました。",
-          "en": "Because of that, construction costs became very high."
-        },
-        {
-          "ja": "ホルムズ海峡は、世界の石油や貿易にとってとても重要な場所です。",
-          "en": "The Strait of Hormuz is very important for the world's oil and trade."
         }
       ]
     },
@@ -15772,6 +15816,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "山手線は、新宿、渋谷、上野、東京駅、池袋などの大きなエリアをつないでいます。",
+          "en": "The Yamanote Line connects major areas such as Shinjuku, Shibuya, Ueno, Tokyo Station, and Ikebukuro."
+        },
+        {
           "ja": "この路線は、東京港の下を通るところで、地上から40メートル近い深さまで下がります。",
           "en": "Where the line passes under the Port of Tokyo, it descends to nearly 40 meters below the surface."
         },
@@ -15786,10 +15834,6 @@
         {
           "ja": "フランス、イギリス、スイス、オランダなどで気温が大きく上がり、多くの町で6月としては異例の暑さになりました。",
           "en": "Temperatures rose sharply in countries such as France, the United Kingdom, Switzerland, and the Netherlands, bringing unusual June heat to many towns and cities."
-        },
-        {
-          "ja": "8度まで上がったと報じられました。",
-          "en": "8 degrees Celsius."
         }
       ]
     },
@@ -16493,6 +16537,18 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "その中心にあるのが、東京を輪のように回る山手線です。",
+          "en": "At the center of that network is the Yamanote Line, which circles Tokyo like a loop."
+        },
+        {
+          "ja": "山手線は、新宿、渋谷、上野、東京駅、池袋などの大きなエリアをつないでいます。",
+          "en": "The Yamanote Line connects major areas such as Shinjuku, Shibuya, Ueno, Tokyo Station, and Ikebukuro."
+        },
+        {
+          "ja": "山手線は、ただ人を運ぶだけでなく、東京の街の作られ方そのものを支えているのです。",
+          "en": "The Yamanote Line does not just carry people; it supports the very way Tokyo's cityscape was built."
+        },
         {
           "ja": "山陽新幹線の上り線にも影響が広がりました。",
           "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
@@ -18479,24 +18535,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "こうした駅のまわりには、買い物ができる店、会社、レストラン、遊べる場所が集まっています。",
+          "en": "Around these stations, shops, offices, restaurants, and places for entertainment are gathered together."
+        },
+        {
+          "ja": "そのため、多くの人は遠くまで行かなくても、生活に必要なものに近い場所で出会えます。",
+          "en": "Because of that, many people can find what they need for daily life without going very far."
+        },
+        {
+          "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
+          "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
+        },
+        {
           "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
           "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
         },
         {
           "ja": "昔は港や工業用地が多かった場所が、仕事、買い物、遊びを楽しめるエリアに変わっていきました。",
           "en": "Places that once had many port facilities and industrial sites changed into an area for work, shopping, and entertainment."
-        },
-        {
-          "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
-          "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
-        },
-        {
-          "ja": "首都カラカスから西へ約160キロの場所です。",
-          "en": "The epicenter was near the town of Moron on the Caribbean coast, about 160 kilometers west of the capital, Caracas. The shaking was felt across a wide area in the north, and buildings collapsed in Caracas and La Guaira."
-        },
-        {
-          "ja": "同じくらいの強さの地震が、近い場所で短い時間に起きることです。",
-          "en": "\" It means earthquakes of similar strength happen close together in place and time."
         }
       ]
     },
@@ -20144,6 +20200,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "山手線は、ただ人を運ぶだけでなく、東京の街の作られ方そのものを支えているのです。",
+          "en": "The Yamanote Line does not just carry people; it supports the very way Tokyo's cityscape was built."
+        },
+        {
           "ja": "また、ドローンで薬や水を運ぶ想定の訓練もありました。",
           "en": "There were also drills assuming drones would carry medicine and water."
         },
@@ -20168,6 +20228,10 @@
               "en": "Link is scheduled to launch on June 27, grab Swift with three robotic arms, and move it to a higher, safer orbit."
             },
             {
+              "ja": "山手線は、ただ人を運ぶだけでなく、東京の街の作られ方そのものを支えているのです。",
+              "en": "The Yamanote Line does not just carry people; it supports the very way Tokyo's cityscape was built."
+            },
+            {
               "ja": "また、ドローンで薬や水を運ぶ想定の訓練もありました。",
               "en": "There were also drills assuming drones would carry medicine and water."
             },
@@ -20185,6 +20249,10 @@
           "readingHiragana": "はこんだ",
           "meaning": "Plain past form of 運ぶ: to carry, to transport",
           "exampleSentences": [
+            {
+              "ja": "山手線は、ただ人を運ぶだけでなく、東京の街の作られ方そのものを支えているのです。",
+              "en": "The Yamanote Line does not just carry people; it supports the very way Tokyo's cityscape was built."
+            },
             {
               "ja": "また、ドローンで薬や水を運ぶ想定の訓練もありました。",
               "en": "There were also drills assuming drones would carry medicine and water."
@@ -20204,6 +20272,10 @@
           "meaning": "Plain negative form of 運ぶ: to carry, to transport",
           "exampleSentences": [
             {
+              "ja": "山手線は、ただ人を運ぶだけでなく、東京の街の作られ方そのものを支えているのです。",
+              "en": "The Yamanote Line does not just carry people; it supports the very way Tokyo's cityscape was built."
+            },
+            {
               "ja": "また、ドローンで薬や水を運ぶ想定の訓練もありました。",
               "en": "There were also drills assuming drones would carry medicine and water."
             },
@@ -20222,6 +20294,10 @@
           "meaning": "Te-form of 運ぶ: to carry, to transport",
           "exampleSentences": [
             {
+              "ja": "山手線は、ただ人を運ぶだけでなく、東京の街の作られ方そのものを支えているのです。",
+              "en": "The Yamanote Line does not just carry people; it supports the very way Tokyo's cityscape was built."
+            },
+            {
               "ja": "また、ドローンで薬や水を運ぶ想定の訓練もありました。",
               "en": "There were also drills assuming drones would carry medicine and water."
             },
@@ -20239,6 +20315,10 @@
           "readingHiragana": "はこべる",
           "meaning": "Potential form of 運ぶ: to carry, to transport",
           "exampleSentences": [
+            {
+              "ja": "山手線は、ただ人を運ぶだけでなく、東京の街の作られ方そのものを支えているのです。",
+              "en": "The Yamanote Line does not just carry people; it supports the very way Tokyo's cityscape was built."
+            },
             {
               "ja": "また、ドローンで薬や水を運ぶ想定の訓練もありました。",
               "en": "There were also drills assuming drones would carry medicine and water."
@@ -22862,6 +22942,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "いくつもの都市中心が鉄道でしっかり結ばれた形で広がってきました。",
+          "en": "It spread in a form where many urban centers were firmly connected by rail."
+        },
+        {
           "ja": "後半はブラジルが少し形を直しましたが、モロッコの守備も強かったです。",
           "en": "In the second half Brazil improved their shape a little, but Morocco’s defense was also strong."
         }
@@ -24078,24 +24162,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "その中心にあるのが、東京を輪のように回る山手線です。",
+          "en": "At the center of that network is the Yamanote Line, which circles Tokyo like a loop."
+        },
+        {
+          "ja": "いくつもの都市中心が鉄道でしっかり結ばれた形で広がってきました。",
+          "en": "It spread in a form where many urban centers were firmly connected by rail."
+        },
+        {
+          "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
+          "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
+        },
+        {
           "ja": "皇居は東京の中心にあり、そのまわりには約5キロのランニングコースがあります。",
           "en": "The Imperial Palace is in the center of Tokyo, and there is a running course of about five kilometers around it."
         },
         {
           "ja": "レベルが違っても一緒に楽しめるので、初心者にも人気があります。",
           "en": "Because people of different levels can enjoy it together, it is also popular with beginners."
-        },
-        {
-          "ja": "このモノレールは、羽田空港と東京の中心部を結ぶために建設されました。",
-          "en": "This monorail was built to connect Haneda Airport with central Tokyo."
-        },
-        {
-          "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
-          "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
-        },
-        {
-          "ja": "中心が遠くても、湿った空気が流れ込むと、雨雲が発達することがあります。",
-          "en": "Even when a storm center is far away, moist air can flow in and help rain clouds develop."
         }
       ]
     },
@@ -24450,6 +24534,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
+          "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
+        },
+        {
           "ja": "昔は港や工業用地が多かった場所が、仕事、買い物、遊びを楽しめるエリアに変わっていきました。",
           "en": "Places that once had many port facilities and industrial sites changed into an area for work, shopping, and entertainment."
         },
@@ -24464,10 +24552,6 @@
         {
           "ja": "この事故で、東海道新幹線は東京と新大阪の間の全線で運転を見合わせました。",
           "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
-        },
-        {
-          "ja": "この事故の後、安全対策について議論が起きました。",
-          "en": "After the incident, a debate began about safety measures."
         }
       ]
     },
@@ -24651,6 +24735,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
+          "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
+        },
+        {
           "ja": "東京モノレールは、羽田空港へ行くための便利な交通機関です。",
           "en": "Tokyo Monorail is a convenient way to get to Haneda Airport."
         },
@@ -24665,10 +24753,6 @@
         {
           "ja": "暑さは観光や交通だけでなく、農業や電力にも影響を与えるため、各国は対策を急いでいます。",
           "en": "Because the heat affects not only tourism and transportation but also agriculture and electricity, countries are rushing to respond."
-        },
-        {
-          "ja": "支持者は、住宅や交通、公共サービスへの負担が重くなっていると訴えました。",
-          "en": "The proposal was promoted by the right-wing Swiss People's Party. Switzerland's population is now about 9.1 million and has grown greatly since 2002. Supporters said the burden on housing, transportation, and public services was becoming heavy."
         }
       ]
     },
@@ -25590,6 +25674,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "その中心にあるのが、東京を輪のように回る山手線です。",
+          "en": "At the center of that network is the Yamanote Line, which circles Tokyo like a loop."
+        },
+        {
           "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
           "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
         }
@@ -25606,6 +25694,10 @@
           "meaning": "Polite form of 回る: to turn, to revolve",
           "exampleSentences": [
             {
+              "ja": "その中心にあるのが、東京を輪のように回る山手線です。",
+              "en": "At the center of that network is the Yamanote Line, which circles Tokyo like a loop."
+            },
+            {
               "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
               "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
             }
@@ -25620,6 +25712,10 @@
           "meaning": "Plain past form of 回る: to turn, to revolve",
           "exampleSentences": [
             {
+              "ja": "その中心にあるのが、東京を輪のように回る山手線です。",
+              "en": "At the center of that network is the Yamanote Line, which circles Tokyo like a loop."
+            },
+            {
               "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
               "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
             }
@@ -25633,6 +25729,10 @@
           "readingHiragana": "まわらない",
           "meaning": "Plain negative form of 回る: to turn, to revolve",
           "exampleSentences": [
+            {
+              "ja": "その中心にあるのが、東京を輪のように回る山手線です。",
+              "en": "At the center of that network is the Yamanote Line, which circles Tokyo like a loop."
+            },
             {
               "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
               "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
@@ -25652,6 +25752,10 @@
               "en": "At stations without platform doors, staff patrol the platforms for safety."
             },
             {
+              "ja": "その中心にあるのが、東京を輪のように回る山手線です。",
+              "en": "At the center of that network is the Yamanote Line, which circles Tokyo like a loop."
+            },
+            {
               "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
               "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
             }
@@ -25665,6 +25769,10 @@
           "readingHiragana": "まわれる",
           "meaning": "Potential form of 回る: to turn, to revolve",
           "exampleSentences": [
+            {
+              "ja": "その中心にあるのが、東京を輪のように回る山手線です。",
+              "en": "At the center of that network is the Yamanote Line, which circles Tokyo like a loop."
+            },
             {
               "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
               "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
@@ -29436,6 +29544,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京がとても便利に感じられる大きな理由の一つは、よく整った鉄道網です。",
+          "en": "One big reason Tokyo feels so convenient is its well-developed rail network."
+        },
+        {
           "ja": "その理由の一つは、線路の多くがとても深い地下を通っていることです。",
           "en": "One reason is that much of the track runs very deep underground."
         },
@@ -30235,6 +30347,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そのため、多くの人は遠くまで行かなくても、生活に必要なものに近い場所で出会えます。",
+          "en": "Because of that, many people can find what they need for daily life without going very far."
+        },
+        {
           "ja": "日本では、クマが人の生活する場所に入る問題が増えています。",
           "en": "In Japan, the problem of bears entering places where people live is increasing."
         },
@@ -30249,10 +30365,6 @@
         {
           "ja": "地域では、フェリーが生活に欠かせない交通手段になっています。",
           "en": "In these regions, ferries are an essential means of transportation."
-        },
-        {
-          "ja": "とくにエネルギーや食料品の価格は、生活に大きく関係します。",
-          "en": "In particular, the prices of energy and food have a big effect on daily life."
         }
       ]
     },
@@ -30314,6 +30426,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "こうした仕組みがあったからこそ、東京は世界でもとても大きく、しかも効率的な都市圏の一つに成長できました。",
+          "en": "Because this kind of system existed, Tokyo was able to grow into one of the world's very large and efficient metropolitan areas."
+        },
+        {
           "ja": "このデータセットには、世界の38の都市の情報が入っています。",
           "en": "The dataset includes information from 38 cities around the world."
         },
@@ -30328,10 +30444,6 @@
         {
           "ja": "この海峡は、世界の大切なエネルギー輸送ルートの一つです。",
           "en": "This strait is one of the world’s important energy shipping routes."
-        },
-        {
-          "ja": "ここが十分に使えないと、世界中に石油を送ることがむずかしくなります。",
-          "en": "If it cannot be used fully, it becomes difficult to send oil around the world."
         }
       ]
     },
@@ -30370,24 +30482,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "その中心にあるのが、東京を輪のように回る山手線です。",
+          "en": "At the center of that network is the Yamanote Line, which circles Tokyo like a loop."
+        },
+        {
+          "ja": "山手線は、新宿、渋谷、上野、東京駅、池袋などの大きなエリアをつないでいます。",
+          "en": "The Yamanote Line connects major areas such as Shinjuku, Shibuya, Ueno, Tokyo Station, and Ikebukuro."
+        },
+        {
+          "ja": "山手線は、ただ人を運ぶだけでなく、東京の街の作られ方そのものを支えているのです。",
+          "en": "The Yamanote Line does not just carry people; it supports the very way Tokyo's cityscape was built."
+        },
+        {
           "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
           "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
         },
         {
           "ja": "種別ごとの止まり方がわかると、京急線はずっと使いやすくなります。",
           "en": "Once you understand how each service type stops, the Keikyu Line becomes much easier to use."
-        },
-        {
-          "ja": "東京のりんかい線は、ほかの路線より運賃が少し高いと感じる人がいます。",
-          "en": "Some people feel that Tokyo's Rinkai Line costs a little more than other rail lines."
-        },
-        {
-          "ja": "その理由の一つは、線路の多くがとても深い地下を通っていることです。",
-          "en": "One reason is that much of the track runs very deep underground."
-        },
-        {
-          "ja": "この路線は、東京港の下を通るところで、地上から40メートル近い深さまで下がります。",
-          "en": "Where the line passes under the Port of Tokyo, it descends to nearly 40 meters below the surface."
         }
       ]
     },
@@ -30542,24 +30654,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京は、一つのダウンタウンだけが発展した都市ではありません。",
+          "en": "Tokyo is not a city where only one downtown area developed."
+        },
+        {
+          "ja": "いくつもの都市中心が鉄道でしっかり結ばれた形で広がってきました。",
+          "en": "It spread in a form where many urban centers were firmly connected by rail."
+        },
+        {
+          "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
+          "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
+        },
+        {
+          "ja": "こうした仕組みがあったからこそ、東京は世界でもとても大きく、しかも効率的な都市圏の一つに成長できました。",
+          "en": "Because this kind of system existed, Tokyo was able to grow into one of the world's very large and efficient metropolitan areas."
+        },
+        {
           "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
           "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
-        },
-        {
-          "ja": "まるで都市の「脈」を読むような研究です。",
-          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
-        },
-        {
-          "ja": "このデータセットには、世界の38の都市の情報が入っています。",
-          "en": "The dataset includes information from 38 cities around the world."
-        },
-        {
-          "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
-          "en": "The information was made to test how well AI can think about the present and future of cities."
-        },
-        {
-          "ja": "都市の脈を正しく読むには、まだ多くの研究が必要です。",
-          "en": "More research is still needed to read a city's pulse accurately."
         }
       ]
     },
@@ -30718,6 +30830,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "いくつもの都市中心が鉄道でしっかり結ばれた形で広がってきました。",
+          "en": "It spread in a form where many urban centers were firmly connected by rail."
+        },
         {
           "ja": "夜にゴミを出さないことや、窓と扉をしっかり閉めることも大切だと案内しました。",
           "en": "It also advised people not to put out garbage at night and to keep windows and doors tightly closed."
@@ -31158,7 +31274,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
+          "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
+        }
+      ]
     },
     {
       "id": "core-686704f535ca09",
@@ -33255,6 +33376,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "そのため、多くの人は遠くまで行かなくても、生活に必要なものに近い場所で出会えます。",
+          "en": "Because of that, many people can find what they need for daily life without going very far."
+        },
         {
           "ja": "中心が遠くても、湿った空気が流れ込むと、雨雲が発達することがあります。",
           "en": "Even when a storm center is far away, moist air can flow in and help rain clouds develop."
@@ -37932,24 +38057,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "こうした駅のまわりには、買い物ができる店、会社、レストラン、遊べる場所が集まっています。",
+          "en": "Around these stations, shops, offices, restaurants, and places for entertainment are gathered together."
+        },
+        {
+          "ja": "そのため、多くの人は遠くまで行かなくても、生活に必要なものに近い場所で出会えます。",
+          "en": "Because of that, many people can find what they need for daily life without going very far."
+        },
+        {
+          "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
+          "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
+        },
+        {
           "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
           "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
         },
         {
           "ja": "昔は港や工業用地が多かった場所が、仕事、買い物、遊びを楽しめるエリアに変わっていきました。",
           "en": "Places that once had many port facilities and industrial sites changed into an area for work, shopping, and entertainment."
-        },
-        {
-          "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
-          "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
-        },
-        {
-          "ja": "首都カラカスから西へ約160キロの場所です。",
-          "en": "The epicenter was near the town of Moron on the Caribbean coast, about 160 kilometers west of the capital, Caracas. The shaking was felt across a wide area in the north, and buildings collapsed in Caracas and La Guaira."
-        },
-        {
-          "ja": "同じくらいの強さの地震が、近い場所で短い時間に起きることです。",
-          "en": "\" It means earthquakes of similar strength happen close together in place and time."
         }
       ]
     },
@@ -38202,6 +38327,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京がとても便利に感じられる大きな理由の一つは、よく整った鉄道網です。",
+          "en": "One big reason Tokyo feels so convenient is its well-developed rail network."
+        },
+        {
           "ja": "東京モノレールは、羽田空港へ行くための便利な交通機関です。",
           "en": "Tokyo Monorail is a convenient way to get to Haneda Airport."
         },
@@ -38216,10 +38345,6 @@
         {
           "ja": "便利さと安全の両方を考えながら、サービスを改善していくことが大切だとみられています。",
           "en": "It is seen as important to improve services while considering both convenience and safety."
-        },
-        {
-          "ja": "ふだんの便利さだけでなく、もしものときの安心にもつなげたいとしています。",
-          "en": "The goal is to provide not only everyday convenience but also reassurance in emergencies."
         }
       ]
     },
@@ -39326,20 +39451,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "その中心にあるのが、東京を輪のように回る山手線です。",
+          "en": "At the center of that network is the Yamanote Line, which circles Tokyo like a loop."
+        },
+        {
+          "ja": "いくつもの都市中心が鉄道でしっかり結ばれた形で広がってきました。",
+          "en": "It spread in a form where many urban centers were firmly connected by rail."
+        },
+        {
+          "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
+          "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
+        },
+        {
           "ja": "皇居は東京の中心にあり、そのまわりには約5キロのランニングコースがあります。",
           "en": "The Imperial Palace is in the center of Tokyo, and there is a running course of about five kilometers around it."
         },
         {
           "ja": "このモノレールは、羽田空港と東京の中心部を結ぶために建設されました。",
           "en": "This monorail was built to connect Haneda Airport with central Tokyo."
-        },
-        {
-          "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
-          "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
-        },
-        {
-          "ja": "中心が遠くても、湿った空気が流れ込むと、雨雲が発達することがあります。",
-          "en": "Even when a storm center is far away, moist air can flow in and help rain clouds develop."
         }
       ]
     },
@@ -41065,7 +41194,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "山手線は、新宿、渋谷、上野、東京駅、池袋などの大きなエリアをつないでいます。",
+          "en": "The Yamanote Line connects major areas such as Shinjuku, Shibuya, Ueno, Tokyo Station, and Ikebukuro."
+        }
+      ]
     },
     {
       "id": "core-694dcd5277a473",
@@ -44082,6 +44216,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京は、一つのダウンタウンだけが発展した都市ではありません。",
+          "en": "Tokyo is not a city where only one downtown area developed."
+        },
+        {
           "ja": "りんかい線は、1990年代から2000年代のはじめにかけて、東京の臨海部を発展させるために作られました。",
           "en": "The Rinkai Line was built to develop Tokyo's waterfront area from the 1990s into the early 2000s."
         }
@@ -45097,6 +45235,10 @@
           "meaning": "Te-form of 広がる: to spread out, to extend",
           "exampleSentences": [
             {
+              "ja": "いくつもの都市中心が鉄道でしっかり結ばれた形で広がってきました。",
+              "en": "It spread in a form where many urban centers were firmly connected by rail."
+            },
+            {
               "ja": "外国人の利用者が増える中、いくつかの図書館で多言語タブレットを置く動きが広がっています。",
               "en": "As the number of foreign users increases, some libraries are expanding the use of multilingual tablets."
             },
@@ -45841,6 +45983,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
+          "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
+        },
+        {
+          "ja": "山手線は、ただ人を運ぶだけでなく、東京の街の作られ方そのものを支えているのです。",
+          "en": "The Yamanote Line does not just carry people; it supports the very way Tokyo's cityscape was built."
+        },
+        {
           "ja": "同じ方向へ行く電車でも、止まる駅は同じではありません。",
           "en": "Even trains going in the same direction do not all stop at the same stations."
         },
@@ -45851,14 +46001,6 @@
         {
           "ja": "種別ごとの止まり方がわかると、京急線はずっと使いやすくなります。",
           "en": "Once you understand how each service type stops, the Keikyu Line becomes much easier to use."
-        },
-        {
-          "ja": "全部の路線を暗記しなくても、この方向だけでかなり考えやすくなります。",
-          "en": "You do not need to memorize every line; these directions alone make it much easier to think."
-        },
-        {
-          "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
-          "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
         }
       ]
     },
@@ -46476,6 +46618,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "電車で移動しやすいので、車だけに頼らなくても暮らしやすくなります。",
+          "en": "Because it is easy to move by train, life becomes easier without relying only on cars."
+        },
         {
           "ja": "だから、りんかい線の駅で長いエスカレーターを下りるときは、東京でも特に大きくてお金のかかった鉄道計画の中を移動していると考えることができます。",
           "en": "So when you ride down the long escalators at a Rinkai Line station, you can think of yourself as moving through one of Tokyo's biggest and most expensive railway projects."
@@ -47891,6 +48037,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そのため、多くの人は遠くまで行かなくても、生活に必要なものに近い場所で出会えます。",
+          "en": "Because of that, many people can find what they need for daily life without going very far."
+        },
+        {
           "ja": "五輪のために生まれた設備が、長い時間をへても役立ち続けているのはおもしろいことです。",
           "en": "It is interesting that a facility born for the Olympics has continued to be useful for a long time."
         },
@@ -47905,10 +48055,6 @@
         {
           "ja": "最近の日本では、クマが人の生活する場所に入る問題が増えています。",
           "en": "Recently in Japan, the problem of bears entering places where people live has been increasing."
-        },
-        {
-          "ja": "管理者は、同じ内容を働く人や生徒にすぐ送ることができます。",
-          "en": "Managers can quickly send the same information to workers or students."
         }
       ]
     },
@@ -48989,6 +49135,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "こうした駅のまわりには、買い物ができる店、会社、レストラン、遊べる場所が集まっています。",
+          "en": "Around these stations, shops, offices, restaurants, and places for entertainment are gathered together."
+        },
+        {
+          "ja": "そのため、多くの人は遠くまで行かなくても、生活に必要なものに近い場所で出会えます。",
+          "en": "Because of that, many people can find what they need for daily life without going very far."
+        },
+        {
           "ja": "これは日本の会社にとって大きなリスクです。",
           "en": "This is a major risk for Japanese companies."
         },
@@ -48999,14 +49153,6 @@
         {
           "ja": "政府や議会、経済団体も反対しました。",
           "en": "The government, parliament, and business groups also opposed the proposal."
-        },
-        {
-          "ja": "今回の結果は、移民への不安と、EUとの結びつきを守りたい考えが、スイス社会でぶつかっていることを示しました。",
-          "en": "\" The result showed that anxiety about immigration and the wish to protect ties with the EU are clashing in Swiss society."
-        },
-        {
-          "ja": "試合はニューヨーク・ニュージャージーの大きな会場で行われました。",
-          "en": "The match was played at a large venue in New York/New Jersey."
         }
       ]
     },
@@ -49025,6 +49171,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "その中心にあるのが、東京を輪のように回る山手線です。",
+          "en": "At the center of that network is the Yamanote Line, which circles Tokyo like a loop."
+        },
+        {
           "ja": "30秒だけ余分に使って正しい電車を選ぶことで、あとで長い遠回りをしなくてすむかもしれません。",
           "en": "Spending just an extra 30 seconds choosing the right train may save you from a much longer detour later."
         },
@@ -49039,10 +49189,6 @@
         {
           "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
           "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
-        },
-        {
-          "ja": "今回の結果は、移民への不安と、EUとの結びつきを守りたい考えが、スイス社会でぶつかっていることを示しました。",
-          "en": "\" The result showed that anxiety about immigration and the wish to protect ties with the EU are clashing in Swiss society."
         }
       ]
     },
@@ -50424,6 +50570,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "山手線は、新宿、渋谷、上野、東京駅、池袋などの大きなエリアをつないでいます。",
+          "en": "The Yamanote Line connects major areas such as Shinjuku, Shibuya, Ueno, Tokyo Station, and Ikebukuro."
+        },
+        {
           "ja": "この路線は、東京港の下を通るところで、地上から40メートル近い深さまで下がります。",
           "en": "Where the line passes under the Port of Tokyo, it descends to nearly 40 meters below the surface."
         },
@@ -50438,10 +50588,6 @@
         {
           "ja": "フランス、イギリス、スイス、オランダなどで気温が大きく上がり、多くの町で6月としては異例の暑さになりました。",
           "en": "Temperatures rose sharply in countries such as France, the United Kingdom, Switzerland, and the Netherlands, bringing unusual June heat to many towns and cities."
-        },
-        {
-          "ja": "8度まで上がったと報じられました。",
-          "en": "8 degrees Celsius."
         }
       ]
     },
@@ -50695,6 +50841,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
+          "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
+        },
+        {
           "ja": "だから、りんかい線の駅で長いエスカレーターを下りるときは、東京でも特に大きくてお金のかかった鉄道計画の中を移動していると考えることができます。",
           "en": "So when you ride down the long escalators at a Rinkai Line station, you can think of yourself as moving through one of Tokyo's biggest and most expensive railway projects."
         },
@@ -50709,10 +50859,6 @@
         {
           "ja": "この考え方ができると、毎回ルート検索に時間を取られにくくなります。",
           "en": "Once you can think this way, you do not spend as much time on route searches every time."
-        },
-        {
-          "ja": "中国は台湾を自分の一部だと考えています。",
-          "en": "China considers Taiwan part of its own territory."
         }
       ]
     },
@@ -50775,6 +50921,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "東京がとても便利に感じられる大きな理由の一つは、よく整った鉄道網です。",
+          "en": "One big reason Tokyo feels so convenient is its well-developed rail network."
+        },
         {
           "ja": "東京のりんかい線は、ほかの路線より運賃が少し高いと感じる人がいます。",
           "en": "Some people feel that Tokyo's Rinkai Line costs a little more than other rail lines."
@@ -50883,6 +51033,10 @@
           "readingHiragana": "かんじられる",
           "meaning": "Potential form of 感じる: to feel, to sense",
           "exampleSentences": [
+            {
+              "ja": "東京がとても便利に感じられる大きな理由の一つは、よく整った鉄道網です。",
+              "en": "One big reason Tokyo feels so convenient is its well-developed rail network."
+            },
             {
               "ja": "東京のりんかい線は、ほかの路線より運賃が少し高いと感じる人がいます。",
               "en": "Some people feel that Tokyo's Rinkai Line costs a little more than other rail lines."
@@ -52115,6 +52269,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "電車で移動しやすいので、車だけに頼らなくても暮らしやすくなります。",
+          "en": "Because it is easy to move by train, life becomes easier without relying only on cars."
+        },
+        {
           "ja": "旅行中で運動着を持っていなくても、近くのランナーズステーションで靴やウェアを借りることができます。",
           "en": "Even if you are traveling and did not bring exercise clothes, you can rent shoes and sportswear at a nearby runner’s station."
         },
@@ -52129,10 +52287,6 @@
         {
           "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
           "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
-        },
-        {
-          "ja": "フランスの一部では学校が休みになり、屋外の活動を避けるよう呼びかけられました。",
-          "en": "In parts of France, schools were closed, and people were urged to avoid outdoor activities."
         }
       ]
     },
@@ -55839,6 +55993,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
+          "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
+        },
+        {
           "ja": "未来的に見えるシステムでも、実際の公共交通として使えることを示したのです。",
           "en": "It showed that a futuristic-looking system could also work as real public transportation."
         },
@@ -56140,6 +56298,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "こうした仕組みがあったからこそ、東京は世界でもとても大きく、しかも効率的な都市圏の一つに成長できました。",
+          "en": "Because this kind of system existed, Tokyo was able to grow into one of the world's very large and efficient metropolitan areas."
+        },
+        {
           "ja": "乗り換えのたびに地図を開かなくても、頭の中で道を組みたてられるようになります。",
           "en": "Even without opening a map for each transfer, you can start building the route in your head."
         },
@@ -56154,10 +56316,6 @@
         {
           "ja": "誰でも使いやすい図書館を目指す取り組みとして注目されています。",
           "en": "The effort is drawing attention as a way to make libraries easier for everyone to use."
-        },
-        {
-          "ja": "地域の農業を守るための新しい仕組みとして注目されています。",
-          "en": "It is attracting attention as a new system for protecting local agriculture."
         }
       ]
     },
@@ -56444,7 +56602,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "電車で移動しやすいので、車だけに頼らなくても暮らしやすくなります。",
+          "en": "Because it is easy to move by train, life becomes easier without relying only on cars."
+        }
+      ]
     },
     {
       "id": "core-40ae2e65ca88d8",
@@ -59359,24 +59522,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京は、一つのダウンタウンだけが発展した都市ではありません。",
+          "en": "Tokyo is not a city where only one downtown area developed."
+        },
+        {
+          "ja": "いくつもの都市中心が鉄道でしっかり結ばれた形で広がってきました。",
+          "en": "It spread in a form where many urban centers were firmly connected by rail."
+        },
+        {
+          "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
+          "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
+        },
+        {
+          "ja": "こうした仕組みがあったからこそ、東京は世界でもとても大きく、しかも効率的な都市圏の一つに成長できました。",
+          "en": "Because this kind of system existed, Tokyo was able to grow into one of the world's very large and efficient metropolitan areas."
+        },
+        {
           "ja": "首都カラカスから西へ約160キロの場所です。",
           "en": "The epicenter was near the town of Moron on the Caribbean coast, about 160 kilometers west of the capital, Caracas. The shaking was felt across a wide area in the north, and buildings collapsed in Caracas and La Guaira."
-        },
-        {
-          "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
-          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
-        },
-        {
-          "ja": "まるで都市の「脈」を読むような研究です。",
-          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
-        },
-        {
-          "ja": "このデータセットには、世界の38の都市の情報が入っています。",
-          "en": "The dataset includes information from 38 cities around the world."
-        },
-        {
-          "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
-          "en": "The information was made to test how well AI can think about the present and future of cities."
         }
       ]
     },
@@ -61121,6 +61284,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そのため、多くの人は遠くまで行かなくても、生活に必要なものに近い場所で出会えます。",
+          "en": "Because of that, many people can find what they need for daily life without going very far."
+        },
+        {
           "ja": "五輪のために生まれた設備が、長い時間をへても役立ち続けているのはおもしろいことです。",
           "en": "It is interesting that a facility born for the Olympics has continued to be useful for a long time."
         },
@@ -61135,10 +61302,6 @@
         {
           "ja": "最近の日本では、クマが人の生活する場所に入る問題が増えています。",
           "en": "Recently in Japan, the problem of bears entering places where people live has been increasing."
-        },
-        {
-          "ja": "管理者は、同じ内容を働く人や生徒にすぐ送ることができます。",
-          "en": "Managers can quickly send the same information to workers or students."
         }
       ]
     },
@@ -62063,6 +62226,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "山手線は、新宿、渋谷、上野、東京駅、池袋などの大きなエリアをつないでいます。",
+          "en": "The Yamanote Line connects major areas such as Shinjuku, Shibuya, Ueno, Tokyo Station, and Ikebukuro."
+        },
+        {
           "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
           "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
         },
@@ -62077,10 +62244,6 @@
         {
           "ja": "また、防衛だけでなく、経済や技術の分野でも協力を深めることが話題になりました。",
           "en": "They also discussed deepening cooperation not only in defense but also in the economy and technology."
-        },
-        {
-          "ja": "半導体やエネルギーのような重要な分野で、お互いに助け合うことが、これからさらに必要になるとみられています。",
-          "en": "In important fields like semiconductors and energy, mutual support is expected to become even more necessary."
         }
       ]
     },
@@ -65072,7 +65235,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "こうした仕組みがあったからこそ、東京は世界でもとても大きく、しかも効率的な都市圏の一つに成長できました。",
+          "en": "Because this kind of system existed, Tokyo was able to grow into one of the world's very large and efficient metropolitan areas."
+        }
+      ]
     },
     {
       "id": "core-09977e304ca621",
@@ -66376,6 +66544,10 @@
           "meaning": "Te-form of 支える: to support, to prop",
           "exampleSentences": [
             {
+              "ja": "山手線は、ただ人を運ぶだけでなく、東京の街の作られ方そのものを支えているのです。",
+              "en": "The Yamanote Line does not just carry people; it supports the very way Tokyo's cityscape was built."
+            },
+            {
               "ja": "東京モノレールは、東京の交通を支えるだけでなく、昔の大きなイベントの記憶も今に伝えています。",
               "en": "Tokyo Monorail not only supports transportation in Tokyo, but also carries the memory of a major event from the past into the present."
             },
@@ -66796,7 +66968,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "こうした仕組みがあったからこそ、東京は世界でもとても大きく、しかも効率的な都市圏の一つに成長できました。",
+          "en": "Because this kind of system existed, Tokyo was able to grow into one of the world's very large and efficient metropolitan areas."
+        }
+      ]
     },
     {
       "id": "core-bf4bbdeb5b9567",
@@ -73120,7 +73297,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "山手線は、新宿、渋谷、上野、東京駅、池袋などの大きなエリアをつないでいます。",
+          "en": "The Yamanote Line connects major areas such as Shinjuku, Shibuya, Ueno, Tokyo Station, and Ikebukuro."
+        }
+      ]
     },
     {
       "id": "core-098c64948f67e6",
@@ -74442,6 +74624,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京がとても便利に感じられる大きな理由の一つは、よく整った鉄道網です。",
+          "en": "One big reason Tokyo feels so convenient is its well-developed rail network."
+        },
+        {
+          "ja": "いくつもの都市中心が鉄道でしっかり結ばれた形で広がってきました。",
+          "en": "It spread in a form where many urban centers were firmly connected by rail."
+        },
+        {
           "ja": "すでにある地下鉄、水道や電気の設備、建物の基礎をよけながらトンネルを作るのは、とても大変でした。",
           "en": "Building tunnels while avoiding existing subways, water and electrical infrastructure, and building foundations was extremely difficult."
         },
@@ -74452,14 +74642,6 @@
         {
           "ja": "東京の地下鉄やJRは複雑ですが、大きな駅の位置を地図の骨組みにすると、少しずつ慣れていきます。",
           "en": "Tokyo’s subways and JR lines are complicated, but if you treat the positions of major stations as the frame of the map, you gradually get used to it."
-        },
-        {
-          "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
-          "en": "In London, people using the Underground and buses were also advised to drink water."
-        },
-        {
-          "ja": "鉄道会社が、駅の屋根に太陽光パネルを置く計画を広げています。",
-          "en": "A railway company is expanding plans to install solar panels on station roofs."
         }
       ]
     },
@@ -74492,6 +74674,14 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "東京がとても便利に感じられる大きな理由の一つは、よく整った鉄道網です。",
+          "en": "One big reason Tokyo feels so convenient is its well-developed rail network."
+        },
+        {
+          "ja": "いくつもの都市中心が鉄道でしっかり結ばれた形で広がってきました。",
+          "en": "It spread in a form where many urban centers were firmly connected by rail."
+        },
         {
           "ja": "だから、りんかい線の駅で長いエスカレーターを下りるときは、東京でも特に大きくてお金のかかった鉄道計画の中を移動していると考えることができます。",
           "en": "So when you ride down the long escalators at a Rinkai Line station, you can think of yourself as moving through one of Tokyo's biggest and most expensive railway projects."
@@ -75407,24 +75597,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京は、一つのダウンタウンだけが発展した都市ではありません。",
+          "en": "Tokyo is not a city where only one downtown area developed."
+        },
+        {
+          "ja": "いくつもの都市中心が鉄道でしっかり結ばれた形で広がってきました。",
+          "en": "It spread in a form where many urban centers were firmly connected by rail."
+        },
+        {
+          "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
+          "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
+        },
+        {
+          "ja": "こうした仕組みがあったからこそ、東京は世界でもとても大きく、しかも効率的な都市圏の一つに成長できました。",
+          "en": "Because this kind of system existed, Tokyo was able to grow into one of the world's very large and efficient metropolitan areas."
+        },
+        {
           "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
           "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
-        },
-        {
-          "ja": "まるで都市の「脈」を読むような研究です。",
-          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
-        },
-        {
-          "ja": "このデータセットには、世界の38の都市の情報が入っています。",
-          "en": "The dataset includes information from 38 cities around the world."
-        },
-        {
-          "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
-          "en": "The information was made to test how well AI can think about the present and future of cities."
-        },
-        {
-          "ja": "都市の脈を正しく読むには、まだ多くの研究が必要です。",
-          "en": "More research is still needed to read a city's pulse accurately."
         }
       ]
     },
@@ -77215,6 +77405,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "山手線は、ただ人を運ぶだけでなく、東京の街の作られ方そのものを支えているのです。",
+          "en": "The Yamanote Line does not just carry people; it supports the very way Tokyo's cityscape was built."
+        },
+        {
           "ja": "旅行中で運動着を持っていなくても、近くのランナーズステーションで靴やウェアを借りることができます。",
           "en": "Even if you are traveling and did not bring exercise clothes, you can rent shoes and sportswear at a nearby runner’s station."
         },
@@ -77228,10 +77422,6 @@
         },
         {
           "ja": "この事故で、東海道新幹線は東京と新大阪の間の全線で運転を見合わせました。",
-          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
-        },
-        {
-          "ja": "運転は約3時間後の午後8時48分に再開しました。",
           "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
         }
       ]
@@ -77922,6 +78112,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "その中心にあるのが、東京を輪のように回る山手線です。",
+          "en": "At the center of that network is the Yamanote Line, which circles Tokyo like a loop."
+        },
+        {
           "ja": "五輪のために生まれた設備が、長い時間をへても役立ち続けているのはおもしろいことです。",
           "en": "It is interesting that a facility born for the Olympics has continued to be useful for a long time."
         }
@@ -78374,6 +78568,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "山手線は、新宿、渋谷、上野、東京駅、池袋などの大きなエリアをつないでいます。",
+          "en": "The Yamanote Line connects major areas such as Shinjuku, Shibuya, Ueno, Tokyo Station, and Ikebukuro."
+        },
         {
           "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
           "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
@@ -80516,6 +80714,175 @@
       "exampleSentences": []
     },
     {
+      "id": "article-7e833aefe4ff2f",
+      "level": "N3",
+      "term": "鉄道網",
+      "reading": "てつどうもう",
+      "readingHiragana": "てつどうもう",
+      "meaning": "Rail network",
+      "source": "article",
+      "sourceId": "2026-07-03-yamanote-city-centers",
+      "sourceTitle": "山手線は東京の便利さを支える都市の輪になっている",
+      "sourceLabel": "7/3 山手線と都市",
+      "sourceHref": "./2026-07-03-yamanote-city-centers.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-03-yamanote-city-centers"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "東京がとても便利に感じられる大きな理由の一つは、よく整った鉄道網です。",
+          "en": "One big reason Tokyo feels so convenient is its well-developed rail network."
+        }
+      ]
+    },
+    {
+      "id": "article-515c813e945c24",
+      "level": "N3",
+      "term": "都市中心",
+      "reading": "としちゅうしん",
+      "readingHiragana": "としちゅうしん",
+      "meaning": "Urban center / City center",
+      "source": "article",
+      "sourceId": "2026-07-03-yamanote-city-centers",
+      "sourceTitle": "山手線は東京の便利さを支える都市の輪になっている",
+      "sourceLabel": "7/3 山手線と都市",
+      "sourceHref": "./2026-07-03-yamanote-city-centers.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-03-yamanote-city-centers"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "いくつもの都市中心が鉄道でしっかり結ばれた形で広がってきました。",
+          "en": "It spread in a form where many urban centers were firmly connected by rail."
+        }
+      ]
+    },
+    {
+      "id": "article-e1dd99e34c054d",
+      "level": "N3",
+      "term": "発展する",
+      "reading": "はってんする",
+      "readingHiragana": "はってんする",
+      "meaning": "To develop / To grow",
+      "source": "article",
+      "sourceId": "2026-07-03-yamanote-city-centers",
+      "sourceTitle": "山手線は東京の便利さを支える都市の輪になっている",
+      "sourceLabel": "7/3 山手線と都市",
+      "sourceHref": "./2026-07-03-yamanote-city-centers.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-03-yamanote-city-centers"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "東京は、一つのダウンタウンだけが発展した都市ではありません。",
+          "en": "Tokyo is not a city where only one downtown area developed."
+        },
+        {
+          "ja": "りんかい線は、1990年代から2000年代のはじめにかけて、東京の臨海部を発展させるために作られました。",
+          "en": "The Rinkai Line was built to develop Tokyo's waterfront area from the 1990s into the early 2000s."
+        }
+      ]
+    },
+    {
+      "id": "article-1db0ef816f2484",
+      "level": "N3",
+      "term": "公共交通",
+      "reading": "こうきょうこうつう",
+      "readingHiragana": "こうきょうこうつう",
+      "meaning": "Public transportation",
+      "source": "article",
+      "sourceId": "2026-07-03-yamanote-city-centers",
+      "sourceTitle": "山手線は東京の便利さを支える都市の輪になっている",
+      "sourceLabel": "7/3 山手線と都市",
+      "sourceHref": "./2026-07-03-yamanote-city-centers.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-03-yamanote-city-centers"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
+          "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
+        },
+        {
+          "ja": "未来的に見えるシステムでも、実際の公共交通として使えることを示したのです。",
+          "en": "It showed that a futuristic-looking system could also work as real public transportation."
+        }
+      ]
+    },
+    {
+      "id": "article-5fb649e39b9fe8",
+      "level": "N3",
+      "term": "都市開発",
+      "reading": "としかいはつ",
+      "readingHiragana": "としかいはつ",
+      "meaning": "Urban development",
+      "source": "article",
+      "sourceId": "2026-07-03-yamanote-city-centers",
+      "sourceTitle": "山手線は東京の便利さを支える都市の輪になっている",
+      "sourceLabel": "7/3 山手線と都市",
+      "sourceHref": "./2026-07-03-yamanote-city-centers.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-03-yamanote-city-centers"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
+          "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
+        }
+      ]
+    },
+    {
+      "id": "article-746f89a2c42e9e",
+      "level": "N3",
+      "term": "効率的",
+      "reading": "こうりつてき",
+      "readingHiragana": "こうりつてき",
+      "meaning": "Efficient",
+      "source": "article",
+      "sourceId": "2026-07-03-yamanote-city-centers",
+      "sourceTitle": "山手線は東京の便利さを支える都市の輪になっている",
+      "sourceLabel": "7/3 山手線と都市",
+      "sourceHref": "./2026-07-03-yamanote-city-centers.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-03-yamanote-city-centers"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "こうした仕組みがあったからこそ、東京は世界でもとても大きく、しかも効率的な都市圏の一つに成長できました。",
+          "en": "Because this kind of system existed, Tokyo was able to grow into one of the world's very large and efficient metropolitan areas."
+        }
+      ]
+    },
+    {
+      "id": "article-33b47061db15c4",
+      "level": "N3",
+      "term": "都市圏",
+      "reading": "としけん",
+      "readingHiragana": "としけん",
+      "meaning": "Metropolitan area",
+      "source": "article",
+      "sourceId": "2026-07-03-yamanote-city-centers",
+      "sourceTitle": "山手線は東京の便利さを支える都市の輪になっている",
+      "sourceLabel": "7/3 山手線と都市",
+      "sourceHref": "./2026-07-03-yamanote-city-centers.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-03-yamanote-city-centers"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "こうした仕組みがあったからこそ、東京は世界でもとても大きく、しかも効率的な都市圏の一つに成長できました。",
+          "en": "Because this kind of system existed, Tokyo was able to grow into one of the world's very large and efficient metropolitan areas."
+        }
+      ]
+    },
+    {
       "id": "article-cf4c937def2482",
       "level": "N3",
       "term": "中心",
@@ -80533,20 +80900,24 @@
       ],
       "exampleSentences": [
         {
+          "ja": "その中心にあるのが、東京を輪のように回る山手線です。",
+          "en": "At the center of that network is the Yamanote Line, which circles Tokyo like a loop."
+        },
+        {
+          "ja": "いくつもの都市中心が鉄道でしっかり結ばれた形で広がってきました。",
+          "en": "It spread in a form where many urban centers were firmly connected by rail."
+        },
+        {
+          "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
+          "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
+        },
+        {
           "ja": "皇居は東京の中心にあり、そのまわりには約5キロのランニングコースがあります。",
           "en": "The Imperial Palace is in the center of Tokyo, and there is a running course of about five kilometers around it."
         },
         {
           "ja": "このモノレールは、羽田空港と東京の中心部を結ぶために建設されました。",
           "en": "This monorail was built to connect Haneda Airport with central Tokyo."
-        },
-        {
-          "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
-          "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
-        },
-        {
-          "ja": "中心が遠くても、湿った空気が流れ込むと、雨雲が発達することがあります。",
-          "en": "Even when a storm center is far away, moist air can flow in and help rain clouds develop."
         }
       ]
     },
@@ -81172,6 +81543,10 @@
         "2026-06-30-tokyo-monorail-history"
       ],
       "exampleSentences": [
+        {
+          "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
+          "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
+        },
         {
           "ja": "未来的に見えるシステムでも、実際の公共交通として使えることを示したのです。",
           "en": "It showed that a futuristic-looking system could also work as real public transportation."
@@ -82356,24 +82731,24 @@
       ],
       "exampleSentences": [
         {
+          "ja": "東京は、一つのダウンタウンだけが発展した都市ではありません。",
+          "en": "Tokyo is not a city where only one downtown area developed."
+        },
+        {
+          "ja": "いくつもの都市中心が鉄道でしっかり結ばれた形で広がってきました。",
+          "en": "It spread in a form where many urban centers were firmly connected by rail."
+        },
+        {
+          "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
+          "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
+        },
+        {
+          "ja": "こうした仕組みがあったからこそ、東京は世界でもとても大きく、しかも効率的な都市圏の一つに成長できました。",
+          "en": "Because this kind of system existed, Tokyo was able to grow into one of the world's very large and efficient metropolitan areas."
+        },
+        {
           "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
           "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
-        },
-        {
-          "ja": "まるで都市の「脈」を読むような研究です。",
-          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
-        },
-        {
-          "ja": "このデータセットには、世界の38の都市の情報が入っています。",
-          "en": "The dataset includes information from 38 cities around the world."
-        },
-        {
-          "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
-          "en": "The information was made to test how well AI can think about the present and future of cities."
-        },
-        {
-          "ja": "都市の脈を正しく読むには、まだ多くの研究が必要です。",
-          "en": "More research is still needed to read a city's pulse accurately."
         }
       ]
     },
@@ -82904,6 +83279,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
+          "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
+        },
+        {
           "ja": "足の下には、東京の大規模な再開発の歴史があるのです。",
           "en": "Beneath your feet lies the history of a major redevelopment effort."
         },
@@ -82918,10 +83297,6 @@
         {
           "ja": "このお金は、研究や開発をもっと早く進めるために使われます。",
           "en": "This money will be used to speed up research and development."
-        },
-        {
-          "ja": "今回の追加支援で、ラピダスへの研究開発支援は全部で2兆3540億円になりました。",
-          "en": "With this additional support, total research and development support for Rapidus reached 2.354 trillion yen."
         }
       ]
     },
@@ -84838,6 +85213,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "こうした仕組みがあったからこそ、東京は世界でもとても大きく、しかも効率的な都市圏の一つに成長できました。",
+          "en": "Because this kind of system existed, Tokyo was able to grow into one of the world's very large and efficient metropolitan areas."
+        },
+        {
           "ja": "そのため、必要な時だけ走る仕組みにして、運転手や燃料の負担を減らしたい考えです。",
           "en": "The town wants to reduce the burden on drivers and fuel use by running buses only when needed."
         },
@@ -85715,6 +86094,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "こうした仕組みがあったからこそ、東京は世界でもとても大きく、しかも効率的な都市圏の一つに成長できました。",
+          "en": "Because this kind of system existed, Tokyo was able to grow into one of the world's very large and efficient metropolitan areas."
+        },
+        {
           "ja": "そのため、必要な時だけ走る仕組みにして、運転手や燃料の負担を減らしたい考えです。",
           "en": "The town wants to reduce the burden on drivers and fuel use by running buses only when needed."
         },
@@ -85876,6 +86259,10 @@
         "2026-05-26-city-cooling-mist"
       ],
       "exampleSentences": [
+        {
+          "ja": "こうした仕組みがあったからこそ、東京は世界でもとても大きく、しかも効率的な都市圏の一つに成長できました。",
+          "en": "Because this kind of system existed, Tokyo was able to grow into one of the world's very large and efficient metropolitan areas."
+        },
         {
           "ja": "そのため、必要な時だけ走る仕組みにして、運転手や燃料の負担を減らしたい考えです。",
           "en": "The town wants to reduce the burden on drivers and fuel use by running buses only when needed."
