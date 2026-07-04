@@ -4,7 +4,7 @@
     "articleManifest": "data/articles.json"
   },
   "levels": {
-    "N3": 2001,
+    "N3": 2008,
     "N4": 536,
     "N5": 553
   },
@@ -1609,7 +1609,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
+          "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
+        }
+      ]
     },
     {
       "id": "core-ca2edbc77203ed",
@@ -1981,24 +1986,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "電車で移動しやすいので、車だけに頼らなくても暮らしやすくなります。",
-          "en": "Because it is easy to move by train, life becomes easier without relying only on cars."
+          "ja": "これだけで、電車の選び方がかなり簡単になります。",
+          "en": "That alone makes choosing a train much easier."
         },
         {
-          "ja": "同じ方向へ行く電車でも、止まる駅は同じではありません。",
-          "en": "Even trains going in the same direction do not all stop at the same stations."
+          "ja": "京急線では、たくさんの電車がほかの鉄道会社の路線へそのまま入っていきます。",
+          "en": "On the Keikyu Line, many trains continue directly onto other railway networks."
         },
         {
-          "ja": "早く着きたいと思って速い電車に乗ると、自分の駅を通りすぎてしまうことがあります。",
-          "en": "If you board a faster train because you want to arrive quickly, it may pass your station."
+          "ja": "東京の中心部へ向かうなら、まず品川方面へ行く電車を探しましょう。",
+          "en": "If you are heading into central Tokyo, first look for a train going toward Shinagawa."
         },
         {
-          "ja": "降りたい駅を全部の電車が通るわけではないので、急いでいるときほど注意が必要です。",
-          "en": "Not every train serves the station where you want to get off, so you need to be especially careful when you are in a hurry."
+          "ja": "横浜やその先へ行くなら、横浜方面の電車に乗ればいいです。",
+          "en": "If you are going to Yokohama or beyond, board a train heading that way."
         },
         {
-          "ja": "30秒だけ余分に使って正しい電車を選ぶことで、あとで長い遠回りをしなくてすむかもしれません。",
-          "en": "Spending just an extra 30 seconds choosing the right train may save you from a much longer detour later."
+          "ja": "このように、細かい列車の名前を全部覚えていなくても、まず路線のどちら側に行きたいかがわかれば、正しい電車をかなり選びやすくなります。",
+          "en": "In this way, even if you do not remember every train name, knowing which side of the line you need first makes it much easier to choose the right train."
         }
       ]
     },
@@ -2161,7 +2166,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "このように、細かい列車の名前を全部覚えていなくても、まず路線のどちら側に行きたいかがわかれば、正しい電車をかなり選びやすくなります。",
+          "en": "In this way, even if you do not remember every train name, knowing which side of the line you need first makes it much easier to choose the right train."
+        }
+      ]
     },
     {
       "id": "core-efc528a96c770c",
@@ -2395,6 +2405,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そのため、車両に表示される行き先は、自分が降りる駅よりずっと先の地名であることもあります。",
+          "en": "Because of that, the destination shown on the train may be a place name far beyond the station where you plan to get off."
+        },
+        {
+          "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
+          "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
+        },
+        {
           "ja": "山手線は、新宿、渋谷、上野、東京駅、池袋などの大きなエリアをつないでいます。",
           "en": "The Yamanote Line connects major areas such as Shinjuku, Shibuya, Ueno, Tokyo Station, and Ikebukuro."
         },
@@ -2405,14 +2423,6 @@
         {
           "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
           "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
-        },
-        {
-          "ja": "同じ方向へ行く電車でも、止まる駅は同じではありません。",
-          "en": "Even trains going in the same direction do not all stop at the same stations."
-        },
-        {
-          "ja": "品川や羽田空港などの駅では、普通、急行、エアポート急行、特急、快特などの表示を見ます。",
-          "en": "At stations such as Shinagawa and Haneda Airport, you will see labels like Local, Express, Airport Express, Limited Express, and Rapid Limited Express."
         }
       ]
     },
@@ -3112,6 +3122,10 @@
           "readingHiragana": "はいって",
           "meaning": "Te-form of 入る: to enter, to go into",
           "exampleSentences": [
+            {
+              "ja": "京急線では、たくさんの電車がほかの鉄道会社の路線へそのまま入っていきます。",
+              "en": "On the Keikyu Line, many trains continue directly onto other railway networks."
+            },
             {
               "ja": "このデータセットには、世界の38の都市の情報が入っています。",
               "en": "The dataset includes information from 38 cities around the world."
@@ -4264,6 +4278,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京の中心部へ向かうなら、まず品川方面へ行く電車を探しましょう。",
+          "en": "If you are heading into central Tokyo, first look for a train going toward Shinagawa."
+        },
+        {
           "ja": "東京がとても便利に感じられる大きな理由の一つは、よく整った鉄道網です。",
           "en": "One big reason Tokyo feels so convenient is its well-developed rail network."
         },
@@ -4278,10 +4296,6 @@
         {
           "ja": "東京は、一つのダウンタウンだけが発展した都市ではありません。",
           "en": "Tokyo is not a city where only one downtown area developed."
-        },
-        {
-          "ja": "こうした仕組みがあったからこそ、東京は世界でもとても大きく、しかも効率的な都市圏の一つに成長できました。",
-          "en": "Because this kind of system existed, Tokyo was able to grow into one of the world's very large and efficient metropolitan areas."
         }
       ]
     },
@@ -4613,6 +4627,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+          "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+        },
+        {
           "ja": "東京がとても便利に感じられる大きな理由の一つは、よく整った鉄道網です。",
           "en": "One big reason Tokyo feels so convenient is its well-developed rail network."
         },
@@ -4627,10 +4645,6 @@
         {
           "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
           "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
-        },
-        {
-          "ja": "その理由の一つは、線路の多くがとても深い地下を通っていることです。",
-          "en": "One reason is that much of the track runs very deep underground."
         }
       ]
     },
@@ -4754,6 +4768,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+          "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+        },
+        {
           "ja": "東京がとても便利に感じられる大きな理由の一つは、よく整った鉄道網です。",
           "en": "One big reason Tokyo feels so convenient is its well-developed rail network."
         },
@@ -4768,10 +4786,6 @@
         {
           "ja": "レベルが違っても一緒に楽しめるので、初心者にも人気があります。",
           "en": "Because people of different levels can enjoy it together, it is also popular with beginners."
-        },
-        {
-          "ja": "皇居のまわりを一周すると、景色を見ながら東京らしい習慣にふれることができます。",
-          "en": "If you run one lap around the Imperial Palace, you can enjoy the scenery and experience a very Tokyo-like custom."
         }
       ]
     },
@@ -4856,6 +4870,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "横浜やその先へ行くなら、横浜方面の電車に乗ればいいです。",
+          "en": "If you are going to Yokohama or beyond, board a train heading that way."
+        },
+        {
           "ja": "外国の店では、健康にいい食品として紹介されることも多いです。",
           "en": "In overseas stores, seaweed is often introduced as a healthy food."
         }
@@ -4911,6 +4929,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京の中心部へ向かうなら、まず品川方面へ行く電車を探しましょう。",
+          "en": "If you are heading into central Tokyo, first look for a train going toward Shinagawa."
+        },
+        {
+          "ja": "横浜やその先へ行くなら、横浜方面の電車に乗ればいいです。",
+          "en": "If you are going to Yokohama or beyond, board a train heading that way."
+        },
+        {
           "ja": "同じ方向へ行く電車でも、止まる駅は同じではありません。",
           "en": "Even trains going in the same direction do not all stop at the same stations."
         },
@@ -4921,10 +4947,6 @@
         {
           "ja": "知らない駅に行くときも、近くにある駅との関係から予想できます。",
           "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
-        },
-        {
-          "ja": "週末に海へ行く予定がある人や、飛行機や船を使う人は、新しい情報を確認したほうがよさそうです。",
-          "en": "People planning to go to the sea over the weekend, or to use planes or boats, should check the latest information."
         }
       ],
       "partOfSpeech": "verb",
@@ -4939,6 +4961,14 @@
           "meaning": "Polite form of 行く: to go",
           "exampleSentences": [
             {
+              "ja": "東京の中心部へ向かうなら、まず品川方面へ行く電車を探しましょう。",
+              "en": "If you are heading into central Tokyo, first look for a train going toward Shinagawa."
+            },
+            {
+              "ja": "横浜やその先へ行くなら、横浜方面の電車に乗ればいいです。",
+              "en": "If you are going to Yokohama or beyond, board a train heading that way."
+            },
+            {
               "ja": "同じ方向へ行く電車でも、止まる駅は同じではありません。",
               "en": "Even trains going in the same direction do not all stop at the same stations."
             },
@@ -4949,10 +4979,6 @@
             {
               "ja": "知らない駅に行くときも、近くにある駅との関係から予想できます。",
               "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
-            },
-            {
-              "ja": "週末に海へ行く予定がある人や、飛行機や船を使う人は、新しい情報を確認したほうがよさそうです。",
-              "en": "People planning to go to the sea over the weekend, or to use planes or boats, should check the latest information."
             }
           ]
         },
@@ -4965,6 +4991,14 @@
           "meaning": "Plain past form of 行く: to go",
           "exampleSentences": [
             {
+              "ja": "東京の中心部へ向かうなら、まず品川方面へ行く電車を探しましょう。",
+              "en": "If you are heading into central Tokyo, first look for a train going toward Shinagawa."
+            },
+            {
+              "ja": "横浜やその先へ行くなら、横浜方面の電車に乗ればいいです。",
+              "en": "If you are going to Yokohama or beyond, board a train heading that way."
+            },
+            {
               "ja": "同じ方向へ行く電車でも、止まる駅は同じではありません。",
               "en": "Even trains going in the same direction do not all stop at the same stations."
             },
@@ -4975,10 +5009,6 @@
             {
               "ja": "知らない駅に行くときも、近くにある駅との関係から予想できます。",
               "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
-            },
-            {
-              "ja": "週末に海へ行く予定がある人や、飛行機や船を使う人は、新しい情報を確認したほうがよさそうです。",
-              "en": "People planning to go to the sea over the weekend, or to use planes or boats, should check the latest information."
             }
           ]
         },
@@ -4995,20 +5025,20 @@
               "en": "Experts say it is important not to go near the sea when an advisory is issued."
             },
             {
+              "ja": "東京の中心部へ向かうなら、まず品川方面へ行く電車を探しましょう。",
+              "en": "If you are heading into central Tokyo, first look for a train going toward Shinagawa."
+            },
+            {
+              "ja": "横浜やその先へ行くなら、横浜方面の電車に乗ればいいです。",
+              "en": "If you are going to Yokohama or beyond, board a train heading that way."
+            },
+            {
               "ja": "同じ方向へ行く電車でも、止まる駅は同じではありません。",
               "en": "Even trains going in the same direction do not all stop at the same stations."
             },
             {
               "ja": "東京モノレールは、羽田空港へ行くための便利な交通機関です。",
               "en": "Tokyo Monorail is a convenient way to get to Haneda Airport."
-            },
-            {
-              "ja": "知らない駅に行くときも、近くにある駅との関係から予想できます。",
-              "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
-            },
-            {
-              "ja": "週末に海へ行く予定がある人や、飛行機や船を使う人は、新しい情報を確認したほうがよさそうです。",
-              "en": "People planning to go to the sea over the weekend, or to use planes or boats, should check the latest information."
             }
           ]
         },
@@ -5021,6 +5051,14 @@
           "meaning": "Te-form of 行く: to go",
           "exampleSentences": [
             {
+              "ja": "東京の中心部へ向かうなら、まず品川方面へ行く電車を探しましょう。",
+              "en": "If you are heading into central Tokyo, first look for a train going toward Shinagawa."
+            },
+            {
+              "ja": "横浜やその先へ行くなら、横浜方面の電車に乗ればいいです。",
+              "en": "If you are going to Yokohama or beyond, board a train heading that way."
+            },
+            {
               "ja": "同じ方向へ行く電車でも、止まる駅は同じではありません。",
               "en": "Even trains going in the same direction do not all stop at the same stations."
             },
@@ -5031,10 +5069,6 @@
             {
               "ja": "知らない駅に行くときも、近くにある駅との関係から予想できます。",
               "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
-            },
-            {
-              "ja": "週末に海へ行く予定がある人や、飛行機や船を使う人は、新しい情報を確認したほうがよさそうです。",
-              "en": "People planning to go to the sea over the weekend, or to use planes or boats, should check the latest information."
             }
           ]
         },
@@ -5047,6 +5081,14 @@
           "meaning": "Potential form of 行く: to go",
           "exampleSentences": [
             {
+              "ja": "東京の中心部へ向かうなら、まず品川方面へ行く電車を探しましょう。",
+              "en": "If you are heading into central Tokyo, first look for a train going toward Shinagawa."
+            },
+            {
+              "ja": "横浜やその先へ行くなら、横浜方面の電車に乗ればいいです。",
+              "en": "If you are going to Yokohama or beyond, board a train heading that way."
+            },
+            {
               "ja": "同じ方向へ行く電車でも、止まる駅は同じではありません。",
               "en": "Even trains going in the same direction do not all stop at the same stations."
             },
@@ -5057,10 +5099,6 @@
             {
               "ja": "知らない駅に行くときも、近くにある駅との関係から予想できます。",
               "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
-            },
-            {
-              "ja": "週末に海へ行く予定がある人や、飛行機や船を使う人は、新しい情報を確認したほうがよさそうです。",
-              "en": "People planning to go to the sea over the weekend, or to use planes or boats, should check the latest information."
             }
           ]
         }
@@ -5699,24 +5737,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+          "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+        },
+        {
+          "ja": "そのため、車両に表示される行き先は、自分が降りる駅よりずっと先の地名であることもあります。",
+          "en": "Because of that, the destination shown on the train may be a place name far beyond the station where you plan to get off."
+        },
+        {
+          "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
+          "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
+        },
+        {
           "ja": "速く走る人もいれば、ゆっくり自分のペースで走る人もいます。",
           "en": "Some people run fast, while others run slowly at their own pace."
         },
         {
           "ja": "早く着きたいと思って速い電車に乗ると、自分の駅を通りすぎてしまうことがあります。",
           "en": "If you board a faster train because you want to arrive quickly, it may pass your station."
-        },
-        {
-          "ja": "中国は台湾を自分の一部だと考えています。",
-          "en": "China considers Taiwan part of its own territory."
-        },
-        {
-          "ja": "しかし、スウィフトには自分で軌道を上げるためのエンジンがありません。",
-          "en": "However, Swift has no engine for raising its own orbit."
-        },
-        {
-          "ja": "専門家は、アプリだけに頼らず、自分の体調にも注意してほしいと話しています。",
-          "en": "Experts say people should not rely only on apps and should also pay attention to their own physical condition."
         }
       ]
     },
@@ -6083,6 +6121,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "京急線では、たくさんの電車がほかの鉄道会社の路線へそのまま入っていきます。",
+          "en": "On the Keikyu Line, many trains continue directly onto other railway networks."
+        },
+        {
           "ja": "こうした駅のまわりには、買い物ができる店、会社、レストラン、遊べる場所が集まっています。",
           "en": "Around these stations, shops, offices, restaurants, and places for entertainment are gathered together."
         },
@@ -6097,10 +6139,6 @@
         {
           "ja": "IPOでは、証券会社が会社の株を投資家に売ります。",
           "en": "In an IPO, securities firms sell a company’s shares to investors."
-        },
-        {
-          "ja": "グリーンシューがあると、証券会社は予定より多く、ふつうは最大15パーセント多く株を売ることができます。",
-          "en": "With a greenshoe option, the securities firms can sell more shares than planned, usually up to 15 percent more."
         }
       ]
     },
@@ -6486,24 +6524,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
-          "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
+          "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+          "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
         },
         {
-          "ja": "山手線は、ただ人を運ぶだけでなく、東京の街の作られ方そのものを支えているのです。",
-          "en": "The Yamanote Line does not just carry people; it supports the very way Tokyo's cityscape was built."
+          "ja": "これだけで、電車の選び方がかなり簡単になります。",
+          "en": "That alone makes choosing a train much easier."
         },
         {
-          "ja": "同じ方向へ行く電車でも、止まる駅は同じではありません。",
-          "en": "Even trains going in the same direction do not all stop at the same stations."
+          "ja": "東京の中心部へ向かうなら、まず品川方面へ行く電車を探しましょう。",
+          "en": "If you are heading into central Tokyo, first look for a train going toward Shinagawa."
         },
         {
-          "ja": "乗る前に、発車標で行き先と種別の両方を確認しましょう。",
-          "en": "Before getting on, check both the destination and the service type on the departure board."
+          "ja": "横浜やその先へ行くなら、横浜方面の電車に乗ればいいです。",
+          "en": "If you are going to Yokohama or beyond, board a train heading that way."
         },
         {
-          "ja": "種別ごとの止まり方がわかると、京急線はずっと使いやすくなります。",
-          "en": "Once you understand how each service type stops, the Keikyu Line becomes much easier to use."
+          "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
+          "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
         }
       ]
     },
@@ -6766,16 +6804,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+          "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+        },
+        {
+          "ja": "東京の中心部へ向かうなら、まず品川方面へ行く電車を探しましょう。",
+          "en": "If you are heading into central Tokyo, first look for a train going toward Shinagawa."
+        },
+        {
+          "ja": "品川に着けば、そこから山手線やほかの路線に乗り換えやすく、都心への移動がしやすくなります。",
+          "en": "Once you reach Shinagawa, it is easy to transfer to the Yamanote Line and other routes into the city center."
+        },
+        {
+          "ja": "羽田空港で迷ったら、まず品川方面か横浜方面かを考えてみましょう。",
+          "en": "If you feel confused at Haneda Airport, start by asking whether you need Shinagawa side or Yokohama side."
+        },
+        {
           "ja": "品川や羽田空港などの駅では、普通、急行、エアポート急行、特急、快特などの表示を見ます。",
           "en": "At stations such as Shinagawa and Haneda Airport, you will see labels like Local, Express, Airport Express, Limited Express, and Rapid Limited Express."
-        },
-        {
-          "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
-          "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
-        },
-        {
-          "ja": "ドローンは、道路が通れるかどうかや、川の水がどこまで来ているかを、すばやく調べることができます。",
-          "en": "Drones can quickly check whether roads are passable and how far river water has reached."
         }
       ]
     },
@@ -8086,24 +8132,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "電車で移動しやすいので、車だけに頼らなくても暮らしやすくなります。",
-          "en": "Because it is easy to move by train, life becomes easier without relying only on cars."
+          "ja": "これだけで、電車の選び方がかなり簡単になります。",
+          "en": "That alone makes choosing a train much easier."
         },
         {
-          "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
-          "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
+          "ja": "京急線では、たくさんの電車がほかの鉄道会社の路線へそのまま入っていきます。",
+          "en": "On the Keikyu Line, many trains continue directly onto other railway networks."
         },
         {
-          "ja": "同じ方向へ行く電車でも、止まる駅は同じではありません。",
-          "en": "Even trains going in the same direction do not all stop at the same stations."
+          "ja": "そのため、車両に表示される行き先は、自分が降りる駅よりずっと先の地名であることもあります。",
+          "en": "Because of that, the destination shown on the train may be a place name far beyond the station where you plan to get off."
         },
         {
-          "ja": "これらは速さや停車駅が違うため、名前を確認することが大切です。",
-          "en": "Because their speeds and stopping stations differ, it is important to check the name."
+          "ja": "東京の中心部へ向かうなら、まず品川方面へ行く電車を探しましょう。",
+          "en": "If you are heading into central Tokyo, first look for a train going toward Shinagawa."
         },
         {
-          "ja": "早く着きたいと思って速い電車に乗ると、自分の駅を通りすぎてしまうことがあります。",
-          "en": "If you board a faster train because you want to arrive quickly, it may pass your station."
+          "ja": "横浜やその先へ行くなら、横浜方面の電車に乗ればいいです。",
+          "en": "If you are going to Yokohama or beyond, board a train heading that way."
         }
       ]
     },
@@ -8249,6 +8295,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "このように、細かい列車の名前を全部覚えていなくても、まず路線のどちら側に行きたいかがわかれば、正しい電車をかなり選びやすくなります。",
+          "en": "In this way, even if you do not remember every train name, knowing which side of the line you need first makes it much easier to choose the right train."
+        },
+        {
           "ja": "これらは速さや停車駅が違うため、名前を確認することが大切です。",
           "en": "Because their speeds and stopping stations differ, it is important to check the name."
         },
@@ -8263,10 +8313,6 @@
         {
           "ja": "名前は「アーバンウェル」です。",
           "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
-        },
-        {
-          "ja": "ブラジルは優勝経験が多い強いチームですが、前半はモロッコの速い攻撃に苦しみました。",
-          "en": "Brazil are a strong team with many World Cup titles, but in the first half they struggled against Morocco’s quick attacks."
         }
       ]
     },
@@ -8697,6 +8743,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+          "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+        },
+        {
+          "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
+          "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
+        },
+        {
           "ja": "一つ目の地震が別の断層に力を加え、二つ目を引き起こした可能性があります。",
           "en": "The first quake may have added stress to another fault and triggered the second one."
         },
@@ -8707,14 +8761,6 @@
         {
           "ja": "防犯カメラなどによると、その人は上りホームの柵の切れ目から線路に降りました。",
           "en": "According to security-camera footage and other evidence, the person went down to the tracks through a gap in the fence on the inbound platform."
-        },
-        {
-          "ja": "初めの取引では株価が大きく上がり、世界中の投資家が注目しました。",
-          "en": "Its share price rose sharply in early trading, drawing attention from investors around the world."
-        },
-        {
-          "ja": "スペースXのように注目度が高い会社では、上場直後の値動きが激しくなりやすいです。",
-          "en": "For a highly watched company like SpaceX, price movements just after listing can easily become intense."
         }
       ]
     },
@@ -8748,6 +8794,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "京急線では、たくさんの電車がほかの鉄道会社の路線へそのまま入っていきます。",
+          "en": "On the Keikyu Line, many trains continue directly onto other railway networks."
+        },
+        {
           "ja": "東京がとても便利に感じられる大きな理由の一つは、よく整った鉄道網です。",
           "en": "One big reason Tokyo feels so convenient is its well-developed rail network."
         },
@@ -8762,10 +8812,6 @@
         {
           "ja": "だから、りんかい線の駅で長いエスカレーターを下りるときは、東京でも特に大きくてお金のかかった鉄道計画の中を移動していると考えることができます。",
           "en": "So when you ride down the long escalators at a Rinkai Line station, you can think of yourself as moving through one of Tokyo's biggest and most expensive railway projects."
-        },
-        {
-          "ja": "乗り換えのたびに地図を開かなくても、頭の中で道を組みたてられるようになります。",
-          "en": "Even without opening a map for each transfer, you can start building the route in your head."
         }
       ]
     },
@@ -9598,6 +9644,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京の中心部へ向かうなら、まず品川方面へ行く電車を探しましょう。",
+          "en": "If you are heading into central Tokyo, first look for a train going toward Shinagawa."
+        },
+        {
           "ja": "その中心にあるのが、東京を輪のように回る山手線です。",
           "en": "At the center of that network is the Yamanote Line, which circles Tokyo like a loop."
         },
@@ -9612,10 +9662,6 @@
         {
           "ja": "皇居は東京の中心にあり、そのまわりには約5キロのランニングコースがあります。",
           "en": "The Imperial Palace is in the center of Tokyo, and there is a running course of about five kilometers around it."
-        },
-        {
-          "ja": "旅行中で運動着を持っていなくても、近くのランナーズステーションで靴やウェアを借りることができます。",
-          "en": "Even if you are traveling and did not bring exercise clothes, you can rent shoes and sportswear at a nearby runner’s station."
         }
       ]
     },
@@ -9761,6 +9807,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "このように、細かい列車の名前を全部覚えていなくても、まず路線のどちら側に行きたいかがわかれば、正しい電車をかなり選びやすくなります。",
+          "en": "In this way, even if you do not remember every train name, knowing which side of the line you need first makes it much easier to choose the right train."
+        },
         {
           "ja": "これらは速さや停車駅が違うため、名前を確認することが大切です。",
           "en": "Because their speeds and stopping stations differ, it is important to check the name."
@@ -10053,24 +10103,24 @@
           "meaning": "Polite form of なる: to become",
           "exampleSentences": [
             {
+              "ja": "これだけで、電車の選び方がかなり簡単になります。",
+              "en": "That alone makes choosing a train much easier."
+            },
+            {
+              "ja": "品川に着けば、そこから山手線やほかの路線に乗り換えやすく、都心への移動がしやすくなります。",
+              "en": "Once you reach Shinagawa, it is easy to transfer to the Yamanote Line and other routes into the city center."
+            },
+            {
+              "ja": "このように、細かい列車の名前を全部覚えていなくても、まず路線のどちら側に行きたいかがわかれば、正しい電車をかなり選びやすくなります。",
+              "en": "In this way, even if you do not remember every train name, knowing which side of the line you need first makes it much easier to choose the right train."
+            },
+            {
               "ja": "電車で移動しやすいので、車だけに頼らなくても暮らしやすくなります。",
               "en": "Because it is easy to move by train, life becomes easier without relying only on cars."
             },
             {
               "ja": "種別ごとの止まり方がわかると、京急線はずっと使いやすくなります。",
               "en": "Once you understand how each service type stops, the Keikyu Line becomes much easier to use."
-            },
-            {
-              "ja": "最初は少し難しく見えても、行き先と種別をセットで見る習慣をつければ、不安はかなり小さくなります。",
-              "en": "It may look a little difficult at first, but if you make a habit of checking the destination and train type together, it becomes much less intimidating."
-            },
-            {
-              "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
-              "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
-            },
-            {
-              "ja": "全部の路線を暗記しなくても、この方向だけでかなり考えやすくなります。",
-              "en": "You do not need to memorize every line; these directions alone make it much easier to think."
             }
           ]
         },
@@ -10622,6 +10672,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+          "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+        },
+        {
           "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
           "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
         },
@@ -10650,6 +10704,10 @@
           "meaning": "Polite form of 乗る: to get on (train, plane, bus, ship)",
           "exampleSentences": [
             {
+              "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+              "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+            },
+            {
               "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
               "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
             },
@@ -10675,6 +10733,10 @@
           "readingHiragana": "のった",
           "meaning": "Plain past form of 乗る: to get on (train, plane, bus, ship)",
           "exampleSentences": [
+            {
+              "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+              "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+            },
             {
               "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
               "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
@@ -10702,6 +10764,10 @@
           "meaning": "Plain negative form of 乗る: to get on (train, plane, bus, ship)",
           "exampleSentences": [
             {
+              "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+              "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+            },
+            {
               "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
               "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
             },
@@ -10728,6 +10794,10 @@
           "meaning": "Te-form of 乗る: to get on (train, plane, bus, ship)",
           "exampleSentences": [
             {
+              "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+              "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+            },
+            {
               "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
               "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
             },
@@ -10753,6 +10823,10 @@
           "readingHiragana": "のれる",
           "meaning": "Potential form of 乗る: to get on (train, plane, bus, ship)",
           "exampleSentences": [
+            {
+              "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+              "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+            },
             {
               "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
               "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
@@ -10959,6 +11033,10 @@
           "readingHiragana": "おぼえて",
           "meaning": "Te-form of 覚える: to memorize, to remember",
           "exampleSentences": [
+            {
+              "ja": "このように、細かい列車の名前を全部覚えていなくても、まず路線のどちら側に行きたいかがわかれば、正しい電車をかなり選びやすくなります。",
+              "en": "In this way, even if you do not remember every train name, knowing which side of the line you need first makes it much easier to choose the right train."
+            },
             {
               "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
               "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
@@ -11614,7 +11692,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "そのため、車両に表示される行き先は、自分が降りる駅よりずっと先の地名であることもあります。",
+          "en": "Because of that, the destination shown on the train may be a place name far beyond the station where you plan to get off."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "ichidan",
       "verbForms": [
@@ -11625,7 +11708,12 @@
           "term": "降ります",
           "readingHiragana": "おります",
           "meaning": "Polite form of 降りる: to descend, to get off",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "そのため、車両に表示される行き先は、自分が降りる駅よりずっと先の地名であることもあります。",
+              "en": "Because of that, the destination shown on the train may be a place name far beyond the station where you plan to get off."
+            }
+          ]
         },
         {
           "form": "past",
@@ -11638,6 +11726,10 @@
             {
               "ja": "降りたい駅を全部の電車が通るわけではないので、急いでいるときほど注意が必要です。",
               "en": "Not every train serves the station where you want to get off, so you need to be especially careful when you are in a hurry."
+            },
+            {
+              "ja": "そのため、車両に表示される行き先は、自分が降りる駅よりずっと先の地名であることもあります。",
+              "en": "Because of that, the destination shown on the train may be a place name far beyond the station where you plan to get off."
             }
           ]
         },
@@ -11648,7 +11740,12 @@
           "term": "降りない",
           "readingHiragana": "おりない",
           "meaning": "Plain negative form of 降りる: to descend, to get off",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "そのため、車両に表示される行き先は、自分が降りる駅よりずっと先の地名であることもあります。",
+              "en": "Because of that, the destination shown on the train may be a place name far beyond the station where you plan to get off."
+            }
+          ]
         },
         {
           "form": "te",
@@ -11657,7 +11754,12 @@
           "term": "降りて",
           "readingHiragana": "おりて",
           "meaning": "Te-form of 降りる: to descend, to get off",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "そのため、車両に表示される行き先は、自分が降りる駅よりずっと先の地名であることもあります。",
+              "en": "Because of that, the destination shown on the train may be a place name far beyond the station where you plan to get off."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -11666,7 +11768,12 @@
           "term": "降りられる",
           "readingHiragana": "おりられる",
           "meaning": "Potential form of 降りる: to descend, to get off",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "そのため、車両に表示される行き先は、自分が降りる駅よりずっと先の地名であることもあります。",
+              "en": "Because of that, the destination shown on the train may be a place name far beyond the station where you plan to get off."
+            }
+          ]
         }
       ]
     },
@@ -12365,24 +12472,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+          "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+        },
+        {
+          "ja": "そのため、車両に表示される行き先は、自分が降りる駅よりずっと先の地名であることもあります。",
+          "en": "Because of that, the destination shown on the train may be a place name far beyond the station where you plan to get off."
+        },
+        {
+          "ja": "横浜やその先へ行くなら、横浜方面の電車に乗ればいいです。",
+          "en": "If you are going to Yokohama or beyond, board a train heading that way."
+        },
+        {
+          "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
+          "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
+        },
+        {
           "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
           "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
-        },
-        {
-          "ja": "乗る前に、発車標で行き先と種別の両方を確認しましょう。",
-          "en": "Before getting on, check both the destination and the service type on the departure board."
-        },
-        {
-          "ja": "最初は少し難しく見えても、行き先と種別をセットで見る習慣をつければ、不安はかなり小さくなります。",
-          "en": "It may look a little difficult at first, but if you make a habit of checking the destination and train type together, it becomes much less intimidating."
-        },
-        {
-          "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
-          "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
-        },
-        {
-          "ja": "先に全体を見ると、細かい線も覚えやすくなります。",
-          "en": "When you look at the whole picture first, the smaller lines are easier to remember too."
         }
       ]
     },
@@ -13181,7 +13288,12 @@
           "term": "知って",
           "readingHiragana": "しって",
           "meaning": "Te-form of 知る: to be aware of, to know",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+              "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -13330,6 +13442,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "このように、細かい列車の名前を全部覚えていなくても、まず路線のどちら側に行きたいかがわかれば、正しい電車をかなり選びやすくなります。",
+          "en": "In this way, even if you do not remember every train name, knowing which side of the line you need first makes it much easier to choose the right train."
+        },
+        {
           "ja": "ベネズエラの北側では、カリブプレートと南アメリカプレートが横にずれています。",
           "en": "North of Venezuela, the Caribbean Plate and the South American Plate slide sideways past each other."
         },
@@ -13358,6 +13474,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+          "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+        },
+        {
+          "ja": "羽田空港で迷ったら、まず品川方面か横浜方面かを考えてみましょう。",
+          "en": "If you feel confused at Haneda Airport, start by asking whether you need Shinagawa side or Yokohama side."
+        },
+        {
           "ja": "品川や羽田空港などの駅では、普通、急行、エアポート急行、特急、快特などの表示を見ます。",
           "en": "At stations such as Shinagawa and Haneda Airport, you will see labels like Local, Express, Airport Express, Limited Express, and Rapid Limited Express."
         },
@@ -13368,14 +13492,6 @@
         {
           "ja": "このモノレールは、羽田空港と東京の中心部を結ぶために建設されました。",
           "en": "This monorail was built to connect Haneda Airport with central Tokyo."
-        },
-        {
-          "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
-          "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
-        },
-        {
-          "ja": "中心が遠くても、湿った空気が流れ込むと、雨雲が発達することがあります。",
-          "en": "Even when a storm center is far away, moist air can flow in and help rain clouds develop."
         }
       ]
     },
@@ -14371,6 +14487,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+          "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+        },
+        {
           "ja": "図書館では、観光客だけでなく、地域で生活する外国人にも役立つと考えています。",
           "en": "Libraries believe the tablets will help not only tourists but also foreign residents in the community."
         }
@@ -14387,6 +14507,10 @@
           "meaning": "Polite form of 立つ: to stand, to rise",
           "exampleSentences": [
             {
+              "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+              "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+            },
+            {
               "ja": "図書館では、観光客だけでなく、地域で生活する外国人にも役立つと考えています。",
               "en": "Libraries believe the tablets will help not only tourists but also foreign residents in the community."
             }
@@ -14401,6 +14525,10 @@
           "meaning": "Plain past form of 立つ: to stand, to rise",
           "exampleSentences": [
             {
+              "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+              "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+            },
+            {
               "ja": "図書館では、観光客だけでなく、地域で生活する外国人にも役立つと考えています。",
               "en": "Libraries believe the tablets will help not only tourists but also foreign residents in the community."
             }
@@ -14414,6 +14542,10 @@
           "readingHiragana": "たたない",
           "meaning": "Plain negative form of 立つ: to stand, to rise",
           "exampleSentences": [
+            {
+              "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+              "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+            },
             {
               "ja": "図書館では、観光客だけでなく、地域で生活する外国人にも役立つと考えています。",
               "en": "Libraries believe the tablets will help not only tourists but also foreign residents in the community."
@@ -14433,6 +14565,10 @@
               "en": "More shoppers are looking for cheaper products, and changes in store shelves are becoming noticeable."
             },
             {
+              "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+              "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+            },
+            {
               "ja": "図書館では、観光客だけでなく、地域で生活する外国人にも役立つと考えています。",
               "en": "Libraries believe the tablets will help not only tourists but also foreign residents in the community."
             }
@@ -14446,6 +14582,10 @@
           "readingHiragana": "たてる",
           "meaning": "Potential form of 立つ: to stand, to rise",
           "exampleSentences": [
+            {
+              "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+              "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+            },
             {
               "ja": "図書館では、観光客だけでなく、地域で生活する外国人にも役立つと考えています。",
               "en": "Libraries believe the tablets will help not only tourists but also foreign residents in the community."
@@ -14469,6 +14609,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "品川に着けば、そこから山手線やほかの路線に乗り換えやすく、都心への移動がしやすくなります。",
+          "en": "Once you reach Shinagawa, it is easy to transfer to the Yamanote Line and other routes into the city center."
+        },
+        {
           "ja": "その中心にあるのが、東京を輪のように回る山手線です。",
           "en": "At the center of that network is the Yamanote Line, which circles Tokyo like a loop."
         },
@@ -14483,10 +14627,6 @@
         {
           "ja": "AIは写真から大切な手がかりを見つけられましたが、結果は項目によって大きく違いました。",
           "en": "The AI could find important clues in images, but the results differed greatly depending on the item."
-        },
-        {
-          "ja": "その後、救急隊や医師たちが浜辺で手当てをしました。",
-          "en": "After that, emergency workers and doctors treated her on the beach."
         }
       ]
     },
@@ -16538,6 +16678,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "品川に着けば、そこから山手線やほかの路線に乗り換えやすく、都心への移動がしやすくなります。",
+          "en": "Once you reach Shinagawa, it is easy to transfer to the Yamanote Line and other routes into the city center."
+        },
+        {
           "ja": "その中心にあるのが、東京を輪のように回る山手線です。",
           "en": "At the center of that network is the Yamanote Line, which circles Tokyo like a loop."
         },
@@ -16552,10 +16696,6 @@
         {
           "ja": "山陽新幹線の上り線にも影響が広がりました。",
           "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
-        },
-        {
-          "ja": "山間部にある小さな町で、予約制バスの実験が始まりました。",
-          "en": "In a small town in a mountain area, a trial of reservation-based buses has started."
         }
       ]
     },
@@ -16888,6 +17028,18 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+          "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+        },
+        {
+          "ja": "横浜やその先へ行くなら、横浜方面の電車に乗ればいいです。",
+          "en": "If you are going to Yokohama or beyond, board a train heading that way."
+        },
+        {
+          "ja": "羽田空港で迷ったら、まず品川方面か横浜方面かを考えてみましょう。",
+          "en": "If you feel confused at Haneda Airport, start by asking whether you need Shinagawa side or Yokohama side."
+        },
+        {
           "ja": "ベネズエラの北側では、カリブプレートと南アメリカプレートが横にずれています。",
           "en": "North of Venezuela, the Caribbean Plate and the South American Plate slide sideways past each other."
         },
@@ -17191,6 +17343,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "このように、細かい列車の名前を全部覚えていなくても、まず路線のどちら側に行きたいかがわかれば、正しい電車をかなり選びやすくなります。",
+          "en": "In this way, even if you do not remember every train name, knowing which side of the line you need first makes it much easier to choose the right train."
+        },
         {
           "ja": "降りたい駅を全部の電車が通るわけではないので、急いでいるときほど注意が必要です。",
           "en": "Not every train serves the station where you want to get off, so you need to be especially careful when you are in a hurry."
@@ -22749,6 +22905,10 @@
           "meaning": "Te-form of 考える: to think about",
           "exampleSentences": [
             {
+              "ja": "羽田空港で迷ったら、まず品川方面か横浜方面かを考えてみましょう。",
+              "en": "If you feel confused at Haneda Airport, start by asking whether you need Shinagawa side or Yokohama side."
+            },
+            {
               "ja": "中国は台湾を自分の一部だと考えています。",
               "en": "China considers Taiwan part of its own territory."
             },
@@ -22763,10 +22923,6 @@
             {
               "ja": "図書館では、観光客だけでなく、地域で生活する外国人にも役立つと考えています。",
               "en": "Libraries believe the tablets will help not only tourists but also foreign residents in the community."
-            },
-            {
-              "ja": "港を管理する会社は、環境にやさしい輸送の方法を増やしたいと考えています。",
-              "en": "The port operator wants to expand environmentally friendly transport methods."
             }
           ]
         },
@@ -22867,6 +23023,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "これだけで、電車の選び方がかなり簡単になります。",
+          "en": "That alone makes choosing a train much easier."
+        },
         {
           "ja": "モロッコは中盤でボールをよく動かし、ブラジルに簡単な時間を与えませんでした。",
           "en": "Morocco moved the ball well in midfield and did not give Brazil easy moments."
@@ -24162,24 +24322,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京の中心部へ向かうなら、まず品川方面へ行く電車を探しましょう。",
+          "en": "If you are heading into central Tokyo, first look for a train going toward Shinagawa."
+        },
+        {
+          "ja": "品川に着けば、そこから山手線やほかの路線に乗り換えやすく、都心への移動がしやすくなります。",
+          "en": "Once you reach Shinagawa, it is easy to transfer to the Yamanote Line and other routes into the city center."
+        },
+        {
+          "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
+          "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
+        },
+        {
           "ja": "その中心にあるのが、東京を輪のように回る山手線です。",
           "en": "At the center of that network is the Yamanote Line, which circles Tokyo like a loop."
         },
         {
           "ja": "いくつもの都市中心が鉄道でしっかり結ばれた形で広がってきました。",
           "en": "It spread in a form where many urban centers were firmly connected by rail."
-        },
-        {
-          "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
-          "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
-        },
-        {
-          "ja": "皇居は東京の中心にあり、そのまわりには約5キロのランニングコースがあります。",
-          "en": "The Imperial Palace is in the center of Tokyo, and there is a running course of about five kilometers around it."
-        },
-        {
-          "ja": "レベルが違っても一緒に楽しめるので、初心者にも人気があります。",
-          "en": "Because people of different levels can enjoy it together, it is also popular with beginners."
         }
       ]
     },
@@ -24254,6 +24414,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "このように、細かい列車の名前を全部覚えていなくても、まず路線のどちら側に行きたいかがわかれば、正しい電車をかなり選びやすくなります。",
+          "en": "In this way, even if you do not remember every train name, knowing which side of the line you need first makes it much easier to choose the right train."
+        },
+        {
           "ja": "先に全体を見ると、細かい線も覚えやすくなります。",
           "en": "When you look at the whole picture first, the smaller lines are easier to remember too."
         },
@@ -24268,10 +24432,6 @@
         {
           "ja": "一方で、細かい相談や、急なトラブルには、やはり人の対応が必要です。",
           "en": "At the same time, detailed requests and sudden trouble still require human support."
-        },
-        {
-          "ja": "ラピダスは、2ナノメートルというとても細かい次世代のロジック半導体を作ろうとしています。",
-          "en": "Rapidus is trying to make next-generation 2-nanometer logic semiconductors, which are extremely advanced."
         }
       ]
     },
@@ -25135,6 +25295,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+          "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+        },
+        {
+          "ja": "羽田空港で迷ったら、まず品川方面か横浜方面かを考えてみましょう。",
+          "en": "If you feel confused at Haneda Airport, start by asking whether you need Shinagawa side or Yokohama side."
+        },
+        {
           "ja": "品川や羽田空港などの駅では、普通、急行、エアポート急行、特急、快特などの表示を見ます。",
           "en": "At stations such as Shinagawa and Haneda Airport, you will see labels like Local, Express, Airport Express, Limited Express, and Rapid Limited Express."
         },
@@ -25145,14 +25313,6 @@
         {
           "ja": "このモノレールは、羽田空港と東京の中心部を結ぶために建設されました。",
           "en": "This monorail was built to connect Haneda Airport with central Tokyo."
-        },
-        {
-          "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
-          "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
-        },
-        {
-          "ja": "通勤や出張の予定を変更する人が多く、駅や空港では最新情報を確認する姿が目立ちました。",
-          "en": "Many people changed commuting or business-trip plans, while stations and airports were filled with travelers checking the latest information."
         }
       ]
     },
@@ -25278,6 +25438,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+          "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+        },
+        {
+          "ja": "京急線では、たくさんの電車がほかの鉄道会社の路線へそのまま入っていきます。",
+          "en": "On the Keikyu Line, many trains continue directly onto other railway networks."
+        },
+        {
           "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
           "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
         },
@@ -25288,14 +25456,6 @@
         {
           "ja": "降りたい駅を全部の電車が通るわけではないので、急いでいるときほど注意が必要です。",
           "en": "Not every train serves the station where you want to get off, so you need to be especially careful when you are in a hurry."
-        },
-        {
-          "ja": "種別ごとの止まり方がわかると、京急線はずっと使いやすくなります。",
-          "en": "Once you understand how each service type stops, the Keikyu Line becomes much easier to use."
-        },
-        {
-          "ja": "暑さは観光や交通だけでなく、農業や電力にも影響を与えるため、各国は対策を急いでいます。",
-          "en": "Because the heat affects not only tourism and transportation but also agriculture and electricity, countries are rushing to respond."
         }
       ]
     },
@@ -25796,6 +25956,18 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京の中心部へ向かうなら、まず品川方面へ行く電車を探しましょう。",
+          "en": "If you are heading into central Tokyo, first look for a train going toward Shinagawa."
+        },
+        {
+          "ja": "このように、細かい列車の名前を全部覚えていなくても、まず路線のどちら側に行きたいかがわかれば、正しい電車をかなり選びやすくなります。",
+          "en": "In this way, even if you do not remember every train name, knowing which side of the line you need first makes it much easier to choose the right train."
+        },
+        {
+          "ja": "羽田空港で迷ったら、まず品川方面か横浜方面かを考えてみましょう。",
+          "en": "If you feel confused at Haneda Airport, start by asking whether you need Shinagawa side or Yokohama side."
+        },
+        {
           "ja": "まずは大きな駅から始めて、発電した電気を照明や案内板に使う予定です。",
           "en": "It will start with large stations and use the generated electricity for lighting and information boards."
         }
@@ -25998,6 +26170,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+          "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+        },
+        {
+          "ja": "羽田空港で迷ったら、まず品川方面か横浜方面かを考えてみましょう。",
+          "en": "If you feel confused at Haneda Airport, start by asking whether you need Shinagawa side or Yokohama side."
+        },
+        {
           "ja": "品川や羽田空港などの駅では、普通、急行、エアポート急行、特急、快特などの表示を見ます。",
           "en": "At stations such as Shinagawa and Haneda Airport, you will see labels like Local, Express, Airport Express, Limited Express, and Rapid Limited Express."
         },
@@ -26008,14 +26188,6 @@
         {
           "ja": "昔は港や工業用地が多かった場所が、仕事、買い物、遊びを楽しめるエリアに変わっていきました。",
           "en": "Places that once had many port facilities and industrial sites changed into an area for work, shopping, and entertainment."
-        },
-        {
-          "ja": "東京モノレールは、羽田空港へ行くための便利な交通機関です。",
-          "en": "Tokyo Monorail is a convenient way to get to Haneda Airport."
-        },
-        {
-          "ja": "このモノレールは、羽田空港と東京の中心部を結ぶために建設されました。",
-          "en": "This monorail was built to connect Haneda Airport with central Tokyo."
         }
       ]
     },
@@ -26549,6 +26721,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京の中心部へ向かうなら、まず品川方面へ行く電車を探しましょう。",
+          "en": "If you are heading into central Tokyo, first look for a train going toward Shinagawa."
+        },
+        {
           "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
           "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
         },
@@ -26569,6 +26745,10 @@
           "meaning": "Polite form of 向かう: to face, to go towards",
           "exampleSentences": [
             {
+              "ja": "東京の中心部へ向かうなら、まず品川方面へ行く電車を探しましょう。",
+              "en": "If you are heading into central Tokyo, first look for a train going toward Shinagawa."
+            },
+            {
               "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
               "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
             },
@@ -26586,6 +26766,10 @@
           "readingHiragana": "むかった",
           "meaning": "Plain past form of 向かう: to face, to go towards",
           "exampleSentences": [
+            {
+              "ja": "東京の中心部へ向かうなら、まず品川方面へ行く電車を探しましょう。",
+              "en": "If you are heading into central Tokyo, first look for a train going toward Shinagawa."
+            },
             {
               "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
               "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
@@ -26605,6 +26789,10 @@
           "meaning": "Plain negative form of 向かう: to face, to go towards",
           "exampleSentences": [
             {
+              "ja": "東京の中心部へ向かうなら、まず品川方面へ行く電車を探しましょう。",
+              "en": "If you are heading into central Tokyo, first look for a train going toward Shinagawa."
+            },
+            {
               "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
               "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
             },
@@ -26623,6 +26811,10 @@
           "meaning": "Te-form of 向かう: to face, to go towards",
           "exampleSentences": [
             {
+              "ja": "東京の中心部へ向かうなら、まず品川方面へ行く電車を探しましょう。",
+              "en": "If you are heading into central Tokyo, first look for a train going toward Shinagawa."
+            },
+            {
               "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
               "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
             },
@@ -26640,6 +26832,10 @@
           "readingHiragana": "むかえる",
           "meaning": "Potential form of 向かう: to face, to go towards",
           "exampleSentences": [
+            {
+              "ja": "東京の中心部へ向かうなら、まず品川方面へ行く電車を探しましょう。",
+              "en": "If you are heading into central Tokyo, first look for a train going toward Shinagawa."
+            },
             {
               "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
               "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
@@ -27250,7 +27446,12 @@
           "term": "慣れない",
           "readingHiragana": "なれない",
           "meaning": "Plain negative form of 慣れる: to get used to",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
+              "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
+            }
+          ]
         },
         {
           "form": "te",
@@ -28970,6 +29171,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そのため、車両に表示される行き先は、自分が降りる駅よりずっと先の地名であることもあります。",
+          "en": "Because of that, the destination shown on the train may be a place name far beyond the station where you plan to get off."
+        },
+        {
+          "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
+          "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
+        },
+        {
           "ja": "品川や羽田空港などの駅では、普通、急行、エアポート急行、特急、快特などの表示を見ます。",
           "en": "At stations such as Shinagawa and Haneda Airport, you will see labels like Local, Express, Airport Express, Limited Express, and Rapid Limited Express."
         },
@@ -28980,14 +29189,6 @@
         {
           "ja": "気象庁は、最大1メートルの津波が来る可能性があると発表しました。",
           "en": "The agency announced that waves of up to one meter could arrive."
-        },
-        {
-          "ja": "利用者が安心して使えるように、わかりやすい表示や説明も必要になりそうです。",
-          "en": "Clear displays and explanations will also be needed so guests can use the system with confidence."
-        },
-        {
-          "ja": "米の値段が上がっているため、政府は新しい対策を発表しました。",
-          "en": "Because rice prices are rising, the government announced new measures."
         }
       ]
     },
@@ -29406,7 +29607,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
+          "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
+        }
+      ]
     },
     {
       "id": "core-eba996032c0b39",
@@ -30482,24 +30688,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+          "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+        },
+        {
+          "ja": "京急線では、たくさんの電車がほかの鉄道会社の路線へそのまま入っていきます。",
+          "en": "On the Keikyu Line, many trains continue directly onto other railway networks."
+        },
+        {
+          "ja": "品川に着けば、そこから山手線やほかの路線に乗り換えやすく、都心への移動がしやすくなります。",
+          "en": "Once you reach Shinagawa, it is easy to transfer to the Yamanote Line and other routes into the city center."
+        },
+        {
+          "ja": "このように、細かい列車の名前を全部覚えていなくても、まず路線のどちら側に行きたいかがわかれば、正しい電車をかなり選びやすくなります。",
+          "en": "In this way, even if you do not remember every train name, knowing which side of the line you need first makes it much easier to choose the right train."
+        },
+        {
           "ja": "その中心にあるのが、東京を輪のように回る山手線です。",
           "en": "At the center of that network is the Yamanote Line, which circles Tokyo like a loop."
-        },
-        {
-          "ja": "山手線は、新宿、渋谷、上野、東京駅、池袋などの大きなエリアをつないでいます。",
-          "en": "The Yamanote Line connects major areas such as Shinjuku, Shibuya, Ueno, Tokyo Station, and Ikebukuro."
-        },
-        {
-          "ja": "山手線は、ただ人を運ぶだけでなく、東京の街の作られ方そのものを支えているのです。",
-          "en": "The Yamanote Line does not just carry people; it supports the very way Tokyo's cityscape was built."
-        },
-        {
-          "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
-          "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
-        },
-        {
-          "ja": "種別ごとの止まり方がわかると、京急線はずっと使いやすくなります。",
-          "en": "Once you understand how each service type stops, the Keikyu Line becomes much easier to use."
         }
       ]
     },
@@ -30945,6 +31151,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
+          "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
+        },
         {
           "ja": "余震の心配も続いています。",
           "en": "Concern about aftershocks continues."
@@ -32282,6 +32492,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "このように、細かい列車の名前を全部覚えていなくても、まず路線のどちら側に行きたいかがわかれば、正しい電車をかなり選びやすくなります。",
+          "en": "In this way, even if you do not remember every train name, knowing which side of the line you need first makes it much easier to choose the right train."
+        },
         {
           "ja": "30秒だけ余分に使って正しい電車を選ぶことで、あとで長い遠回りをしなくてすむかもしれません。",
           "en": "Spending just an extra 30 seconds choosing the right train may save you from a much longer detour later."
@@ -35546,7 +35760,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+          "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "godan",
       "verbForms": [
@@ -35557,7 +35776,12 @@
           "term": "役に立ちます",
           "readingHiragana": "やく に たちます",
           "meaning": "Polite form of 役に立つ: to be helpful, to be useful",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+              "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+            }
+          ]
         },
         {
           "form": "past",
@@ -35566,7 +35790,12 @@
           "term": "役に立った",
           "readingHiragana": "やく に たった",
           "meaning": "Plain past form of 役に立つ: to be helpful, to be useful",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+              "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -35575,7 +35804,12 @@
           "term": "役に立たない",
           "readingHiragana": "やく に たたない",
           "meaning": "Plain negative form of 役に立つ: to be helpful, to be useful",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+              "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+            }
+          ]
         },
         {
           "form": "te",
@@ -35584,7 +35818,12 @@
           "term": "役に立って",
           "readingHiragana": "やく に たって",
           "meaning": "Te-form of 役に立つ: to be helpful, to be useful",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+              "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -35593,7 +35832,12 @@
           "term": "役に立てる",
           "readingHiragana": "やく に たてる",
           "meaning": "Potential form of 役に立つ: to be helpful, to be useful",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+              "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+            }
+          ]
         }
       ]
     },
@@ -38549,24 +38793,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+          "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+        },
+        {
+          "ja": "そのため、車両に表示される行き先は、自分が降りる駅よりずっと先の地名であることもあります。",
+          "en": "Because of that, the destination shown on the train may be a place name far beyond the station where you plan to get off."
+        },
+        {
+          "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
+          "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
+        },
+        {
           "ja": "速く走る人もいれば、ゆっくり自分のペースで走る人もいます。",
           "en": "Some people run fast, while others run slowly at their own pace."
         },
         {
           "ja": "早く着きたいと思って速い電車に乗ると、自分の駅を通りすぎてしまうことがあります。",
           "en": "If you board a faster train because you want to arrive quickly, it may pass your station."
-        },
-        {
-          "ja": "30秒だけ余分に使って正しい電車を選ぶことで、あとで長い遠回りをしなくてすむかもしれません。",
-          "en": "Spending just an extra 30 seconds choosing the right train may save you from a much longer detour later."
-        },
-        {
-          "ja": "中国は台湾を自分の一部だと考えています。",
-          "en": "China considers Taiwan part of its own territory."
-        },
-        {
-          "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
-          "en": "In London, people using the Underground and buses were also advised to drink water."
         }
       ]
     },
@@ -39451,6 +39695,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京の中心部へ向かうなら、まず品川方面へ行く電車を探しましょう。",
+          "en": "If you are heading into central Tokyo, first look for a train going toward Shinagawa."
+        },
+        {
           "ja": "その中心にあるのが、東京を輪のように回る山手線です。",
           "en": "At the center of that network is the Yamanote Line, which circles Tokyo like a loop."
         },
@@ -39465,10 +39713,6 @@
         {
           "ja": "皇居は東京の中心にあり、そのまわりには約5キロのランニングコースがあります。",
           "en": "The Imperial Palace is in the center of Tokyo, and there is a running course of about five kilometers around it."
-        },
-        {
-          "ja": "このモノレールは、羽田空港と東京の中心部を結ぶために建設されました。",
-          "en": "This monorail was built to connect Haneda Airport with central Tokyo."
         }
       ]
     },
@@ -43800,6 +44044,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+          "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+        },
+        {
+          "ja": "羽田空港で迷ったら、まず品川方面か横浜方面かを考えてみましょう。",
+          "en": "If you feel confused at Haneda Airport, start by asking whether you need Shinagawa side or Yokohama side."
+        },
+        {
           "ja": "品川や羽田空港などの駅では、普通、急行、エアポート急行、特急、快特などの表示を見ます。",
           "en": "At stations such as Shinagawa and Haneda Airport, you will see labels like Local, Express, Airport Express, Limited Express, and Rapid Limited Express."
         },
@@ -45983,24 +46235,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
-          "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
+          "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+          "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
         },
         {
-          "ja": "山手線は、ただ人を運ぶだけでなく、東京の街の作られ方そのものを支えているのです。",
-          "en": "The Yamanote Line does not just carry people; it supports the very way Tokyo's cityscape was built."
+          "ja": "これだけで、電車の選び方がかなり簡単になります。",
+          "en": "That alone makes choosing a train much easier."
         },
         {
-          "ja": "同じ方向へ行く電車でも、止まる駅は同じではありません。",
-          "en": "Even trains going in the same direction do not all stop at the same stations."
+          "ja": "東京の中心部へ向かうなら、まず品川方面へ行く電車を探しましょう。",
+          "en": "If you are heading into central Tokyo, first look for a train going toward Shinagawa."
         },
         {
-          "ja": "乗る前に、発車標で行き先と種別の両方を確認しましょう。",
-          "en": "Before getting on, check both the destination and the service type on the departure board."
+          "ja": "横浜やその先へ行くなら、横浜方面の電車に乗ればいいです。",
+          "en": "If you are going to Yokohama or beyond, board a train heading that way."
         },
         {
-          "ja": "種別ごとの止まり方がわかると、京急線はずっと使いやすくなります。",
-          "en": "Once you understand how each service type stops, the Keikyu Line becomes much easier to use."
+          "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
+          "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
         }
       ]
     },
@@ -46133,6 +46385,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
+          "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
+        },
+        {
           "ja": "同じ方向へ行く電車でも、止まる駅は同じではありません。",
           "en": "Even trains going in the same direction do not all stop at the same stations."
         },
@@ -46224,6 +46480,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そのため、車両に表示される行き先は、自分が降りる駅よりずっと先の地名であることもあります。",
+          "en": "Because of that, the destination shown on the train may be a place name far beyond the station where you plan to get off."
+        },
+        {
+          "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
+          "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
+        },
+        {
           "ja": "品川や羽田空港などの駅では、普通、急行、エアポート急行、特急、快特などの表示を見ます。",
           "en": "At stations such as Shinagawa and Haneda Airport, you will see labels like Local, Express, Airport Express, Limited Express, and Rapid Limited Express."
         },
@@ -46234,14 +46498,6 @@
         {
           "ja": "気象庁は、最大1メートルの津波が来る可能性があると発表しました。",
           "en": "The agency announced that waves of up to one meter could arrive."
-        },
-        {
-          "ja": "利用者が安心して使えるように、わかりやすい表示や説明も必要になりそうです。",
-          "en": "Clear displays and explanations will also be needed so guests can use the system with confidence."
-        },
-        {
-          "ja": "米の値段が上がっているため、政府は新しい対策を発表しました。",
-          "en": "Because rice prices are rising, the government announced new measures."
         }
       ]
     },
@@ -46619,6 +46875,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "品川に着けば、そこから山手線やほかの路線に乗り換えやすく、都心への移動がしやすくなります。",
+          "en": "Once you reach Shinagawa, it is easy to transfer to the Yamanote Line and other routes into the city center."
+        },
+        {
           "ja": "電車で移動しやすいので、車だけに頼らなくても暮らしやすくなります。",
           "en": "Because it is easy to move by train, life becomes easier without relying only on cars."
         },
@@ -46633,10 +46893,6 @@
         {
           "ja": "頭が痛い、気分が悪いなどの症状がある時は、すぐに涼しい場所へ移動することが大切です。",
           "en": "If symptoms such as a headache or feeling unwell appear, it is important to move to a cool place right away."
-        },
-        {
-          "ja": "交通機関を利用する際は、運行状況を確認し、無理な移動を避けることが大切です。",
-          "en": "When using transportation, it is important to check service status and avoid unnecessary travel."
         }
       ]
     },
@@ -48360,7 +48616,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
+          "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
+        }
+      ]
     },
     {
       "id": "core-8e70af60a8679d",
@@ -49135,6 +49396,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "京急線では、たくさんの電車がほかの鉄道会社の路線へそのまま入っていきます。",
+          "en": "On the Keikyu Line, many trains continue directly onto other railway networks."
+        },
+        {
           "ja": "こうした駅のまわりには、買い物ができる店、会社、レストラン、遊べる場所が集まっています。",
           "en": "Around these stations, shops, offices, restaurants, and places for entertainment are gathered together."
         },
@@ -49149,10 +49414,6 @@
         {
           "ja": "そこでNASAは、アメリカの会社カタリスト・スペースが作った「リンク」という宇宙船を送ります。",
           "en": "NASA will therefore send a spacecraft called Link, built by the American company Katalyst Space."
-        },
-        {
-          "ja": "政府や議会、経済団体も反対しました。",
-          "en": "The government, parliament, and business groups also opposed the proposal."
         }
       ]
     },
@@ -50841,6 +51102,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "羽田空港で迷ったら、まず品川方面か横浜方面かを考えてみましょう。",
+          "en": "If you feel confused at Haneda Airport, start by asking whether you need Shinagawa side or Yokohama side."
+        },
+        {
           "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
           "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
         },
@@ -50855,10 +51120,6 @@
         {
           "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
           "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
-        },
-        {
-          "ja": "この考え方ができると、毎回ルート検索に時間を取られにくくなります。",
-          "en": "Once you can think this way, you do not spend as much time on route searches every time."
         }
       ]
     },
@@ -51362,6 +51623,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+          "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+        },
+        {
+          "ja": "羽田空港で迷ったら、まず品川方面か横浜方面かを考えてみましょう。",
+          "en": "If you feel confused at Haneda Airport, start by asking whether you need Shinagawa side or Yokohama side."
+        },
+        {
           "ja": "品川や羽田空港などの駅では、普通、急行、エアポート急行、特急、快特などの表示を見ます。",
           "en": "At stations such as Shinagawa and Haneda Airport, you will see labels like Local, Express, Airport Express, Limited Express, and Rapid Limited Express."
         },
@@ -51372,14 +51641,6 @@
         {
           "ja": "このモノレールは、羽田空港と東京の中心部を結ぶために建設されました。",
           "en": "This monorail was built to connect Haneda Airport with central Tokyo."
-        },
-        {
-          "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
-          "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
-        },
-        {
-          "ja": "中心が遠くても、湿った空気が流れ込むと、雨雲が発達することがあります。",
-          "en": "Even when a storm center is far away, moist air can flow in and help rain clouds develop."
         }
       ]
     },
@@ -52269,6 +52530,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "品川に着けば、そこから山手線やほかの路線に乗り換えやすく、都心への移動がしやすくなります。",
+          "en": "Once you reach Shinagawa, it is easy to transfer to the Yamanote Line and other routes into the city center."
+        },
+        {
           "ja": "電車で移動しやすいので、車だけに頼らなくても暮らしやすくなります。",
           "en": "Because it is easy to move by train, life becomes easier without relying only on cars."
         },
@@ -52283,10 +52548,6 @@
         {
           "ja": "60年以上たった今でも、東京モノレールは毎日動いています。",
           "en": "Even more than 60 years later, Tokyo Monorail still runs every day."
-        },
-        {
-          "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
-          "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
         }
       ]
     },
@@ -58611,7 +58872,12 @@
           "term": "迷った",
           "readingHiragana": "まよった",
           "meaning": "Plain past form of 迷う: to lose one’s way",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "羽田空港で迷ったら、まず品川方面か横浜方面かを考えてみましょう。",
+              "en": "If you feel confused at Haneda Airport, start by asking whether you need Shinagawa side or Yokohama side."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -58860,20 +59126,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+          "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+        },
+        {
+          "ja": "東京の中心部へ向かうなら、まず品川方面へ行く電車を探しましょう。",
+          "en": "If you are heading into central Tokyo, first look for a train going toward Shinagawa."
+        },
+        {
+          "ja": "横浜やその先へ行くなら、横浜方面の電車に乗ればいいです。",
+          "en": "If you are going to Yokohama or beyond, board a train heading that way."
+        },
+        {
+          "ja": "羽田空港で迷ったら、まず品川方面か横浜方面かを考えてみましょう。",
+          "en": "If you feel confused at Haneda Airport, start by asking whether you need Shinagawa side or Yokohama side."
+        },
+        {
           "ja": "ガードのジェイレン・ブランソンは45点を取り、大きな場面でチームを助けました。",
           "en": "Guard Jalen Brunson scored 45 points and helped the team in big moments."
-        },
-        {
-          "ja": "注意報はその後、夕方にすべて解除されましたが、海面の変化が続く場所もあるとされています。",
-          "en": "The advisory was later fully lifted in the evening, but sea level changes may continue in some places."
-        },
-        {
-          "ja": "本の探し方や貸し出しの手続きを、画面を見ながら説明できるようになりました。",
-          "en": "People can now see on-screen explanations of how to find books and complete borrowing procedures."
-        },
-        {
-          "ja": "今年は、空から被害の様子を確認できるドローンを使う場面が増えました。",
-          "en": "This year, there were more situations in which drones were used to check damage from the sky."
         }
       ]
     },
@@ -59522,6 +59792,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "品川に着けば、そこから山手線やほかの路線に乗り換えやすく、都心への移動がしやすくなります。",
+          "en": "Once you reach Shinagawa, it is easy to transfer to the Yamanote Line and other routes into the city center."
+        },
+        {
           "ja": "東京は、一つのダウンタウンだけが発展した都市ではありません。",
           "en": "Tokyo is not a city where only one downtown area developed."
         },
@@ -59536,10 +59810,6 @@
         {
           "ja": "こうした仕組みがあったからこそ、東京は世界でもとても大きく、しかも効率的な都市圏の一つに成長できました。",
           "en": "Because this kind of system existed, Tokyo was able to grow into one of the world's very large and efficient metropolitan areas."
-        },
-        {
-          "ja": "首都カラカスから西へ約160キロの場所です。",
-          "en": "The epicenter was near the town of Moron on the Caribbean coast, about 160 kilometers west of the capital, Caracas. The shaking was felt across a wide area in the north, and buildings collapsed in Caracas and La Guaira."
         }
       ]
     },
@@ -59892,6 +60162,14 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+          "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+        },
+        {
+          "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
+          "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
+        },
         {
           "ja": "細かい水を空気に出して、少しでも涼しくすることが目的です。",
           "en": "The goal is to spray fine water into the air and make the area a little cooler."
@@ -60731,24 +61009,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そのため、車両に表示される行き先は、自分が降りる駅よりずっと先の地名であることもあります。",
+          "en": "Because of that, the destination shown on the train may be a place name far beyond the station where you plan to get off."
+        },
+        {
+          "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
+          "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
+        },
+        {
+          "ja": "このように、細かい列車の名前を全部覚えていなくても、まず路線のどちら側に行きたいかがわかれば、正しい電車をかなり選びやすくなります。",
+          "en": "In this way, even if you do not remember every train name, knowing which side of the line you need first makes it much easier to choose the right train."
+        },
+        {
           "ja": "このコースは東京でとても有名で、毎日たくさんの人が走っています。",
           "en": "This course is very famous in Tokyo, and many people run there every day."
         },
         {
           "ja": "これらは速さや停車駅が違うため、名前を確認することが大切です。",
           "en": "Because their speeds and stopping stations differ, it is important to check the name."
-        },
-        {
-          "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
-          "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
-        },
-        {
-          "ja": "名前は「アーバンウェル」です。",
-          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
-        },
-        {
-          "ja": "JR東海によると、東海道新幹線の17駅のうち、ホームドアがあるのは東京、名古屋、新大阪など7駅です。",
-          "en": "According to JR Central, seven of the 17 Tokaido Shinkansen stations—including Tokyo, Nagoya, and Shin-Osaka—have platform doors."
         }
       ]
     },
@@ -64776,6 +65054,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
+          "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
+        },
+        {
           "ja": "アメリカとイランは、戦争を終わらせるための一時的な合意について話し合っています。",
           "en": "The United States and Iran are discussing a temporary agreement to end the war."
         }
@@ -65075,6 +65357,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "このように、細かい列車の名前を全部覚えていなくても、まず路線のどちら側に行きたいかがわかれば、正しい電車をかなり選びやすくなります。",
+          "en": "In this way, even if you do not remember every train name, knowing which side of the line you need first makes it much easier to choose the right train."
+        },
+        {
           "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
           "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
         },
@@ -65089,10 +65375,6 @@
         {
           "ja": "列車の中では、地元の食材を使ったお弁当や、お茶が出されます。",
           "en": "On the train, passengers are served boxed meals and tea made with local ingredients."
-        },
-        {
-          "ja": "駅の周りでは、列車の到着にあわせて土産店やカフェが営業を広げています。",
-          "en": "Around the stations, souvenir shops and cafes are extending business hours to match the train’s arrivals."
         }
       ]
     },
@@ -65111,6 +65393,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "このように、細かい列車の名前を全部覚えていなくても、まず路線のどちら側に行きたいかがわかれば、正しい電車をかなり選びやすくなります。",
+          "en": "In this way, even if you do not remember every train name, knowing which side of the line you need first makes it much easier to choose the right train."
+        },
+        {
           "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
           "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
         },
@@ -65125,10 +65411,6 @@
         {
           "ja": "東北のある県で、景色を楽しめる観光列車の人気が高まっています。",
           "en": "In one prefecture in Tohoku, a sightseeing train that lets passengers enjoy the scenery is becoming more popular."
-        },
-        {
-          "ja": "列車の中では、地元の食材を使ったお弁当や、お茶が出されます。",
-          "en": "On the train, passengers are served boxed meals and tea made with local ingredients."
         }
       ]
     },
@@ -65687,7 +65969,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
+          "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
+        }
+      ]
     },
     {
       "id": "core-e4a2a2494cb9ad",
@@ -66840,6 +67127,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "このように、細かい列車の名前を全部覚えていなくても、まず路線のどちら側に行きたいかがわかれば、正しい電車をかなり選びやすくなります。",
+          "en": "In this way, even if you do not remember every train name, knowing which side of the line you need first makes it much easier to choose the right train."
+        },
         {
           "ja": "30秒だけ余分に使って正しい電車を選ぶことで、あとで長い遠回りをしなくてすむかもしれません。",
           "en": "Spending just an extra 30 seconds choosing the right train may save you from a much longer detour later."
@@ -68753,24 +69044,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+          "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+        },
+        {
+          "ja": "東京の中心部へ向かうなら、まず品川方面へ行く電車を探しましょう。",
+          "en": "If you are heading into central Tokyo, first look for a train going toward Shinagawa."
+        },
+        {
+          "ja": "品川に着けば、そこから山手線やほかの路線に乗り換えやすく、都心への移動がしやすくなります。",
+          "en": "Once you reach Shinagawa, it is easy to transfer to the Yamanote Line and other routes into the city center."
+        },
+        {
+          "ja": "羽田空港で迷ったら、まず品川方面か横浜方面かを考えてみましょう。",
+          "en": "If you feel confused at Haneda Airport, start by asking whether you need Shinagawa side or Yokohama side."
+        },
+        {
           "ja": "品川や羽田空港などの駅では、普通、急行、エアポート急行、特急、快特などの表示を見ます。",
           "en": "At stations such as Shinagawa and Haneda Airport, you will see labels like Local, Express, Airport Express, Limited Express, and Rapid Limited Express."
-        },
-        {
-          "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
-          "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
-        },
-        {
-          "ja": "自動車メーカーの一部は、従業員の安全や部品輸送への影響を考慮して、工場の操業を一時停止しました。",
-          "en": "Some automakers temporarily stopped factory operations after considering worker safety and impacts on parts transport."
-        },
-        {
-          "ja": "生産者の団体によると、小さく切ったのりや、味をつけた商品がとくに売れています。",
-          "en": "According to producer groups, especially popular items are small-cut seaweed and seasoned products."
-        },
-        {
-          "ja": "外国の店では、健康にいい食品として紹介されることも多いです。",
-          "en": "In overseas stores, seaweed is often introduced as a healthy food."
         }
       ]
     },
@@ -73377,7 +73668,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "これだけで、電車の選び方がかなり簡単になります。",
+          "en": "That alone makes choosing a train much easier."
+        }
+      ]
     },
     {
       "id": "core-bdec30cef529c3",
@@ -74624,6 +74920,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "京急線では、たくさんの電車がほかの鉄道会社の路線へそのまま入っていきます。",
+          "en": "On the Keikyu Line, many trains continue directly onto other railway networks."
+        },
+        {
           "ja": "東京がとても便利に感じられる大きな理由の一つは、よく整った鉄道網です。",
           "en": "One big reason Tokyo feels so convenient is its well-developed rail network."
         },
@@ -74638,10 +74938,6 @@
         {
           "ja": "だから、りんかい線の駅で長いエスカレーターを下りるときは、東京でも特に大きくてお金のかかった鉄道計画の中を移動していると考えることができます。",
           "en": "So when you ride down the long escalators at a Rinkai Line station, you can think of yourself as moving through one of Tokyo's biggest and most expensive railway projects."
-        },
-        {
-          "ja": "東京の地下鉄やJRは複雑ですが、大きな駅の位置を地図の骨組みにすると、少しずつ慣れていきます。",
-          "en": "Tokyo’s subways and JR lines are complicated, but if you treat the positions of major stations as the frame of the map, you gradually get used to it."
         }
       ]
     },
@@ -74675,6 +74971,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "京急線では、たくさんの電車がほかの鉄道会社の路線へそのまま入っていきます。",
+          "en": "On the Keikyu Line, many trains continue directly onto other railway networks."
+        },
+        {
           "ja": "東京がとても便利に感じられる大きな理由の一つは、よく整った鉄道網です。",
           "en": "One big reason Tokyo feels so convenient is its well-developed rail network."
         },
@@ -74689,10 +74989,6 @@
         {
           "ja": "鉄道会社が、駅の屋根に太陽光パネルを置く計画を広げています。",
           "en": "A railway company is expanding plans to install solar panels on station roofs."
-        },
-        {
-          "ja": "ほかの鉄道会社にも同じような動きが広がるかが注目されています。",
-          "en": "Attention is focused on whether similar efforts will spread to other railway companies."
         }
       ]
     },
@@ -78642,6 +78938,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+          "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+        },
+        {
           "ja": "五輪のために生まれた設備が、長い時間をへても役立ち続けているのはおもしろいことです。",
           "en": "It is interesting that a facility born for the Olympics has continued to be useful for a long time."
         },
@@ -79244,6 +79544,18 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+          "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+        },
+        {
+          "ja": "横浜やその先へ行くなら、横浜方面の電車に乗ればいいです。",
+          "en": "If you are going to Yokohama or beyond, board a train heading that way."
+        },
+        {
+          "ja": "羽田空港で迷ったら、まず品川方面か横浜方面かを考えてみましょう。",
+          "en": "If you feel confused at Haneda Airport, start by asking whether you need Shinagawa side or Yokohama side."
+        },
+        {
           "ja": "ベネズエラの北側では、カリブプレートと南アメリカプレートが横にずれています。",
           "en": "North of Venezuela, the Caribbean Plate and the South American Plate slide sideways past each other."
         },
@@ -79815,20 +80127,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そのため、車両に表示される行き先は、自分が降りる駅よりずっと先の地名であることもあります。",
+          "en": "Because of that, the destination shown on the train may be a place name far beyond the station where you plan to get off."
+        },
+        {
+          "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
+          "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
+        },
+        {
+          "ja": "このように、細かい列車の名前を全部覚えていなくても、まず路線のどちら側に行きたいかがわかれば、正しい電車をかなり選びやすくなります。",
+          "en": "In this way, even if you do not remember every train name, knowing which side of the line you need first makes it much easier to choose the right train."
+        },
+        {
           "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
           "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
         },
         {
           "ja": "乗る前に、発車標で行き先と種別の両方を確認しましょう。",
           "en": "Before getting on, check both the destination and the service type on the departure board."
-        },
-        {
-          "ja": "最初は少し難しく見えても、行き先と種別をセットで見る習慣をつければ、不安はかなり小さくなります。",
-          "en": "It may look a little difficult at first, but if you make a habit of checking the destination and train type together, it becomes much less intimidating."
-        },
-        {
-          "ja": "事故にあったのは、東京発博多行きの「のぞみ49号」です。",
-          "en": "The train involved was Nozomi 49, traveling from Tokyo to Hakata."
         }
       ]
     },
@@ -79846,6 +80162,14 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "そのため、車両に表示される行き先は、自分が降りる駅よりずっと先の地名であることもあります。",
+          "en": "Because of that, the destination shown on the train may be a place name far beyond the station where you plan to get off."
+        },
+        {
+          "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
+          "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
+        },
         {
           "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
           "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
@@ -80693,6 +81017,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そのため、車両に表示される行き先は、自分が降りる駅よりずっと先の地名であることもあります。",
+          "en": "Because of that, the destination shown on the train may be a place name far beyond the station where you plan to get off."
+        },
+        {
           "ja": "種別ごとの止まり方がわかると、京急線はずっと使いやすくなります。",
           "en": "Once you understand how each service type stops, the Keikyu Line becomes much easier to use."
         }
@@ -80712,6 +81040,219 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": []
+    },
+    {
+      "id": "article-1564fe4df9ef41",
+      "level": "N3",
+      "term": "目的地",
+      "reading": "もくてきち",
+      "readingHiragana": "もくてきち",
+      "meaning": "Destination",
+      "source": "article",
+      "sourceId": "2026-07-04-keikyu-direction-from-haneda",
+      "sourceTitle": "羽田空港から京急線に乗るならまず品川方面か横浜方面かを知ろう",
+      "sourceLabel": "7/4 京急線の方向",
+      "sourceHref": "./2026-07-04-keikyu-direction-from-haneda.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-04-keikyu-direction-from-haneda"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+          "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+        },
+        {
+          "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
+          "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
+        }
+      ]
+    },
+    {
+      "id": "article-6b1ea039cc4b9d",
+      "level": "N3",
+      "term": "方面",
+      "reading": "ほうめん",
+      "readingHiragana": "ほうめん",
+      "meaning": "Direction / Area",
+      "source": "article",
+      "sourceId": "2026-07-04-keikyu-direction-from-haneda",
+      "sourceTitle": "羽田空港から京急線に乗るならまず品川方面か横浜方面かを知ろう",
+      "sourceLabel": "7/4 京急線の方向",
+      "sourceHref": "./2026-07-04-keikyu-direction-from-haneda.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-04-keikyu-direction-from-haneda"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+          "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+        },
+        {
+          "ja": "東京の中心部へ向かうなら、まず品川方面へ行く電車を探しましょう。",
+          "en": "If you are heading into central Tokyo, first look for a train going toward Shinagawa."
+        },
+        {
+          "ja": "横浜やその先へ行くなら、横浜方面の電車に乗ればいいです。",
+          "en": "If you are going to Yokohama or beyond, board a train heading that way."
+        },
+        {
+          "ja": "羽田空港で迷ったら、まず品川方面か横浜方面かを考えてみましょう。",
+          "en": "If you feel confused at Haneda Airport, start by asking whether you need Shinagawa side or Yokohama side."
+        }
+      ]
+    },
+    {
+      "id": "article-5aec5a7f51472b",
+      "level": "N3",
+      "term": "鉄道会社",
+      "reading": "てつどうがいしゃ",
+      "readingHiragana": "てつどうがいしゃ",
+      "meaning": "Railway company",
+      "source": "article",
+      "sourceId": "2026-07-04-keikyu-direction-from-haneda",
+      "sourceTitle": "羽田空港から京急線に乗るならまず品川方面か横浜方面かを知ろう",
+      "sourceLabel": "7/4 京急線の方向",
+      "sourceHref": "./2026-07-04-keikyu-direction-from-haneda.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-04-keikyu-direction-from-haneda"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "京急線では、たくさんの電車がほかの鉄道会社の路線へそのまま入っていきます。",
+          "en": "On the Keikyu Line, many trains continue directly onto other railway networks."
+        },
+        {
+          "ja": "鉄道会社が、駅の屋根に太陽光パネルを置く計画を広げています。",
+          "en": "A railway company is expanding plans to install solar panels on station roofs."
+        },
+        {
+          "ja": "ほかの鉄道会社にも同じような動きが広がるかが注目されています。",
+          "en": "Attention is focused on whether similar efforts will spread to other railway companies."
+        }
+      ]
+    },
+    {
+      "id": "article-5e946f2601c958",
+      "level": "N3",
+      "term": "表示",
+      "reading": "ひょうじ",
+      "readingHiragana": "ひょうじ",
+      "meaning": "Display / Indication",
+      "source": "article",
+      "sourceId": "2026-07-04-keikyu-direction-from-haneda",
+      "sourceTitle": "羽田空港から京急線に乗るならまず品川方面か横浜方面かを知ろう",
+      "sourceLabel": "7/4 京急線の方向",
+      "sourceHref": "./2026-07-04-keikyu-direction-from-haneda.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-04-keikyu-direction-from-haneda"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "そのため、車両に表示される行き先は、自分が降りる駅よりずっと先の地名であることもあります。",
+          "en": "Because of that, the destination shown on the train may be a place name far beyond the station where you plan to get off."
+        },
+        {
+          "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
+          "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
+        },
+        {
+          "ja": "品川や羽田空港などの駅では、普通、急行、エアポート急行、特急、快特などの表示を見ます。",
+          "en": "At stations such as Shinagawa and Haneda Airport, you will see labels like Local, Express, Airport Express, Limited Express, and Rapid Limited Express."
+        },
+        {
+          "ja": "利用者が安心して使えるように、わかりやすい表示や説明も必要になりそうです。",
+          "en": "Clear displays and explanations will also be needed so guests can use the system with confidence."
+        }
+      ]
+    },
+    {
+      "id": "article-0e8b4dfeff3633",
+      "level": "N3",
+      "term": "中心部",
+      "reading": "ちゅうしんぶ",
+      "readingHiragana": "ちゅうしんぶ",
+      "meaning": "Central area",
+      "source": "article",
+      "sourceId": "2026-07-04-keikyu-direction-from-haneda",
+      "sourceTitle": "羽田空港から京急線に乗るならまず品川方面か横浜方面かを知ろう",
+      "sourceLabel": "7/4 京急線の方向",
+      "sourceHref": "./2026-07-04-keikyu-direction-from-haneda.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-04-keikyu-direction-from-haneda"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "東京の中心部へ向かうなら、まず品川方面へ行く電車を探しましょう。",
+          "en": "If you are heading into central Tokyo, first look for a train going toward Shinagawa."
+        },
+        {
+          "ja": "このモノレールは、羽田空港と東京の中心部を結ぶために建設されました。",
+          "en": "This monorail was built to connect Haneda Airport with central Tokyo."
+        }
+      ]
+    },
+    {
+      "id": "article-9aca5f379bd71a",
+      "level": "N3",
+      "term": "最終的",
+      "reading": "さいしゅうてき",
+      "readingHiragana": "さいしゅうてき",
+      "meaning": "Final / Ultimate",
+      "source": "article",
+      "sourceId": "2026-07-04-keikyu-direction-from-haneda",
+      "sourceTitle": "羽田空港から京急線に乗るならまず品川方面か横浜方面かを知ろう",
+      "sourceLabel": "7/4 京急線の方向",
+      "sourceHref": "./2026-07-04-keikyu-direction-from-haneda.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-04-keikyu-direction-from-haneda"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
+          "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
+        }
+      ]
+    },
+    {
+      "id": "article-0b7c05e9892fd9",
+      "level": "N3",
+      "term": "心配",
+      "reading": "しんぱい",
+      "readingHiragana": "しんぱい",
+      "meaning": "Worry / Concern",
+      "source": "article",
+      "sourceId": "2026-07-04-keikyu-direction-from-haneda",
+      "sourceTitle": "羽田空港から京急線に乗るならまず品川方面か横浜方面かを知ろう",
+      "sourceLabel": "7/4 京急線の方向",
+      "sourceHref": "./2026-07-04-keikyu-direction-from-haneda.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-04-keikyu-direction-from-haneda"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
+          "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
+        },
+        {
+          "ja": "余震の心配も続いています。",
+          "en": "Concern about aftershocks continues."
+        },
+        {
+          "ja": "栃木県の宇都宮市で、クマが町の中に出たため、多くの人が心配しました。",
+          "en": "In Utsunomiya, Tochigi Prefecture, many people became worried after a bear appeared in town."
+        },
+        {
+          "ja": "ロイターによると、アメリカとイランが平和に向けた提案で一致できなかったため、エネルギーの供給が不安定になると心配されています。",
+          "en": "According to Reuters, there are worries that energy supply could become unstable because the United States and Iran could not agree on a proposal aimed at peace."
+        }
+      ]
     },
     {
       "id": "article-7e833aefe4ff2f",
@@ -80900,6 +81441,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "東京の中心部へ向かうなら、まず品川方面へ行く電車を探しましょう。",
+          "en": "If you are heading into central Tokyo, first look for a train going toward Shinagawa."
+        },
+        {
           "ja": "その中心にあるのが、東京を輪のように回る山手線です。",
           "en": "At the center of that network is the Yamanote Line, which circles Tokyo like a loop."
         },
@@ -80914,10 +81459,6 @@
         {
           "ja": "皇居は東京の中心にあり、そのまわりには約5キロのランニングコースがあります。",
           "en": "The Imperial Palace is in the center of Tokyo, and there is a running course of about five kilometers around it."
-        },
-        {
-          "ja": "このモノレールは、羽田空港と東京の中心部を結ぶために建設されました。",
-          "en": "This monorail was built to connect Haneda Airport with central Tokyo."
         }
       ]
     },
@@ -81712,6 +82253,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
+          "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
+        },
+        {
           "ja": "同じ方向へ行く電車でも、止まる駅は同じではありません。",
           "en": "Even trains going in the same direction do not all stop at the same stations."
         },
@@ -81792,6 +82337,10 @@
         "2026-06-29-tokyo-stations-map"
       ],
       "exampleSentences": [
+        {
+          "ja": "品川に着けば、そこから山手線やほかの路線に乗り換えやすく、都心への移動がしやすくなります。",
+          "en": "Once you reach Shinagawa, it is easy to transfer to the Yamanote Line and other routes into the city center."
+        },
         {
           "ja": "乗り換えのたびに地図を開かなくても、頭の中で道を組みたてられるようになります。",
           "en": "Even without opening a map for each transfer, you can start building the route in your head."
@@ -86156,6 +86705,14 @@
       ],
       "exampleSentences": [
         {
+          "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川方面か横浜方面かを、先に知っておくことです。",
+          "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the Shinagawa side or the Yokohama side."
+        },
+        {
+          "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
+          "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
+        },
+        {
           "ja": "細かい水を空気に出して、少しでも涼しくすることが目的です。",
           "en": "The goal is to spray fine water into the air and make the area a little cooler."
         },
@@ -86872,6 +87429,14 @@
         "2026-05-23-hotel-robots-support"
       ],
       "exampleSentences": [
+        {
+          "ja": "そのため、車両に表示される行き先は、自分が降りる駅よりずっと先の地名であることもあります。",
+          "en": "Because of that, the destination shown on the train may be a place name far beyond the station where you plan to get off."
+        },
+        {
+          "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
+          "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
+        },
         {
           "ja": "品川や羽田空港などの駅では、普通、急行、エアポート急行、特急、快特などの表示を見ます。",
           "en": "At stations such as Shinagawa and Haneda Airport, you will see labels like Local, Express, Airport Express, Limited Express, and Rapid Limited Express."
