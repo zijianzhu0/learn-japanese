@@ -64,6 +64,18 @@ Article pages support:
 - vertical one-page recording mode
 - MP4 download through browser support or server-side `ffmpeg` conversion
 
+## Recording Layout Guidelines
+
+- The recording render uses the `body.recording-mode` rules in `assets/article.css` as the source of truth for preview and export layout.
+- Keep the render frame at `1080x1920` unless intentionally changing the output format.
+- Treat `body.recording-mode .container` padding as the canonical content inset for the title and body copy. The current layout uses an intentionally asymmetric inset with a larger left padding than right padding.
+- Keep recording-mode title and paragraph elements free of extra horizontal padding so they align to the shared `.container` inset.
+- The recording background is a textured paper treatment built from layered gradients plus the `.container::before` grid overlay. Update those recording-only layers instead of the global page background when adjusting video render texture.
+- Keep `.container > *` above the texture overlay so the text remains readable in preview and export.
+- The recording footer is centered and stacked vertically. If footer spacing changes, update `body.recording-mode .recording-footer` rather than adding per-span positioning.
+- Paragraph spacing in renders comes from `body.recording-mode p { margin-bottom: ... }`, while intra-paragraph line spacing comes from `--recording-body-line-height`.
+- Video render caching is versioned in `server/local_tts_server.py`. Bump the video render cache version when CSS or render changes should force fresh MP4 output.
+
 ## Run
 
 ```bash
