@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Story Quiz Videos</title>
+    <title>Quiz Videos Retired</title>
     <link rel="icon" type="image/svg+xml" href="./favicon.svg">
-    <link rel="stylesheet" href="./assets/ig-videos.css?v=44e35d84c50e">
+    <link rel="stylesheet" href="./assets/ig-videos.css?v=d7ba175016bf">
 </head>
 <body>
 <nav class="top-nav" aria-label="Page navigation">
@@ -26,81 +26,19 @@
         </svg>
         <span class="icon-label">Flashcards</span>
     </a>
-    <a class="top-nav-link is-current" href="./ig-videos.html" aria-label="Quiz Videos" title="Quiz videos" aria-current="page">
-        <svg class="nav-svg" viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M9 9a3 3 0 1 1 5.4 1.8c-.8.6-1.4 1.1-1.4 2.2"></path>
-            <path d="M12 17h.01"></path>
-            <rect x="4" y="3" width="16" height="18" rx="2"></rect>
-        </svg>
-        <span class="icon-label">Quiz Videos</span>
-    </a>
 </nav>
 
-<main class="quiz-workspace">
-    <section class="control-panel" aria-label="Quiz video controls">
-        <label class="control-field">
-            <span>Story</span>
-            <select id="quiz-select"></select>
-        </label>
-        <label class="control-field">
-            <span>Voice</span>
-            <select id="docker-voice">
-                <option value="9">VOICEVOX speaker 9</option>
-            </select>
-        </label>
-
-        <div class="button-row">
-            <button class="primary-button" type="button" id="read-story">
-                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"></path></svg>
-                <span>Read Story</span>
-            </button>
-            <button class="primary-button" type="button" id="copy-comment">
-                <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-                <span>Copy Comment Text</span>
-            </button>
-            <button class="render-button" type="button" id="render-video">
-                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12"></path><path d="m7 10 5 5 5-5"></path><path d="M5 21h14"></path></svg>
-                <span>Render MP4</span>
-            </button>
-            <button class="cover-render-button" type="button" id="download-cover">
-                <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"></rect><circle cx="8.5" cy="10" r="1.5"></circle><path d="m21 15-5-5L5 19"></path></svg>
-                <span>Download Cover</span>
-            </button>
-        </div>
-
-        <div class="status-line" id="status-line" aria-live="polite">Loading quiz...</div>
-
-        <section class="comment-panel" aria-label="Comment text">
-            <div class="panel-heading">
-                <h2>Comment Text</h2>
-                <span id="answer-label"></span>
-            </div>
-            <textarea id="comment-text" readonly spellcheck="false"></textarea>
-        </section>
-    </section>
-
-    <section class="preview-column" aria-label="Quiz video preview">
-        <div class="phone-frame">
-            <article class="quiz-stage" id="quiz-stage">
-                <header class="stage-header">
-                    <span class="stage-kicker" id="stage-kicker">Japanese Reading Quiz</span>
-                    <h1 id="stage-title">What happened?</h1>
-                    <span class="stage-meta" id="stage-meta">Choose one answer</span>
-                </header>
-                <section class="question-block">
-                    <p id="quiz-question"></p>
-                </section>
-                <ol class="option-list" id="option-list"></ol>
-                <footer class="stage-footer">
-                    <span id="stage-footer-left">Read the passage in comments</span>
-                    <span id="stage-footer-right">A-D</span>
-                </footer>
-            </article>
+<main class="retired-shell">
+    <section class="retired-card" aria-labelledby="retired-title">
+        <p class="eyebrow">Deprecated Feature</p>
+        <h1 id="retired-title">Quiz videos are retired.</h1>
+        <p class="retired-copy">This Instagram-style video generator is no longer part of the active site flow. The page is staying online for compatibility, but it is no longer linked from the main navigation.</p>
+        <p class="retired-copy">If you want short-form output, use the article pages instead. Each article still includes the built-in <strong>Render video</strong> and <strong>Download cover</strong> actions.</p>
+        <div class="retired-actions">
+            <a class="primary-link" href="./index.html">Browse articles</a>
+            <a class="secondary-link" href="./flashcards.html">Open flashcards</a>
         </div>
     </section>
 </main>
-
-<audio id="tts-player" hidden preload="none"></audio>
-<script src="./assets/ig-videos.js?v=9059fea81fa1"></script>
 </body>
 </html>

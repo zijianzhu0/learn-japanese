@@ -5,7 +5,7 @@ A local Japanese learning board with furigana, sentence highlighting, browser sp
 ## Project Layout
 
 - `index.html`: generated reading archive and article index.
-- `ig-videos.html`: story quiz video generator for Instagram-style vertical MP4s.
+- `ig-videos.html`: retired feature landing page kept for compatibility.
 - `2026-*.html`: generated article pages kept at the repo root so URLs stay simple.
 - `data/articles.json`: ordered manifest of article JSON files.
 - `data/article-navigation.json`: generated runtime navigation manifest for article pages.
@@ -13,7 +13,7 @@ A local Japanese learning board with furigana, sentence highlighting, browser sp
 - `templates/article.html`: article page template.
 - `assets/article.css`: shared article styles.
 - `assets/article.js`: shared article behavior, navigation, playback, highlighting, and recording.
-- `assets/ig-videos.css` and `assets/ig-videos.js`: story quiz video generator styles and behavior.
+- `assets/ig-videos.css` and `assets/ig-videos.js`: retired IG-video feature assets kept for compatibility.
 - `data/video-quizzes.json`: source content for short Japanese quiz passages, translations, questions, and options.
 - `scripts/generate_site.py`: static site generator.
 - `scripts/render_video_url.py`: CLI renderer that writes an MP4 under `videos/` and prints a JSON download URL.
@@ -115,7 +115,7 @@ The generator updates:
 - Furigana-safe article copy.
 - Flashcards show common verb forms next to the base vocabulary.
 - Flashcards cycle through five generated or source-provided example sentences per card, with the next example index stored in progress.
-- Story quiz videos render a 9:16 multiple-choice prompt with four answers and Japanese TTS narration while keeping the full JP/EN passage available for comment copying.
+- The former story quiz video generator has been deprecated in favor of article-page video tools.
 - Vertical one-page recording layout for `Render Video`.
 - MP4 download when browser MP4 recording is available or server-side `ffmpeg` conversion succeeds.
 
