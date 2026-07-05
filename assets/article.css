@@ -1247,16 +1247,38 @@ body.recording-mode .container {
     position: relative;
     width: 100%;
     height: 100%;
-    padding: calc(var(--recording-frame-height) * 0.043) calc(var(--recording-frame-width) * 0.065) calc(var(--recording-frame-height) * 0.082);
+    padding: 
+        calc(var(--recording-frame-height) * 0.123) /* top */
+        calc(var(--recording-frame-width) * 0.075) /* right */
+        calc(var(--recording-frame-height) * 0.132) /* bottom */
+        calc(var(--recording-frame-width) * 0.095); /* left */
     border: 0;
     border-radius: 0;
     box-shadow: none;
-    background: #fffdf8;
+    background:
+        radial-gradient(circle at top left, rgba(255, 255, 255, 0.9), transparent 34%),
+        radial-gradient(circle at top right, rgba(186, 220, 209, 0.68), transparent 30%),
+        radial-gradient(circle at bottom left, rgba(230, 214, 191, 0.34), transparent 26%),
+        linear-gradient(180deg, #faf6ef 0%, #f2ede3 54%, #e8e1d3 100%);
     overflow: hidden;
 }
 
 body.recording-mode .container::before {
-    display: none;
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image:
+        linear-gradient(rgba(84, 71, 56, 0.06) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(84, 71, 56, 0.05) 1px, transparent 1px);
+    background-size: 28px 28px;
+    mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.58));
+    opacity: 0.95;
+    pointer-events: none;
+}
+
+body.recording-mode .container > * {
+    position: relative;
+    z-index: 1;
 }
 
 .recording-footer {
@@ -1269,8 +1291,9 @@ body.recording-mode .recording-footer {
     bottom: calc(var(--recording-frame-height) * 0.034);
     left: calc(var(--recording-frame-width) * 0.065);
     display: flex;
-    align-items: baseline;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 24px;
     color: #4b5563;
     font-size: calc(var(--recording-body-size) * 0.56);
@@ -1295,7 +1318,7 @@ body.recording-mode h1::after {
 }
 
 body.recording-mode p {
-    margin: 0 0 0.82em;
+    margin: 0 0 0.52em;
     color: #17202a;
     font-size: var(--recording-body-size);
     line-height: var(--recording-body-line-height);

@@ -717,7 +717,7 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
     def video_render_cache_key(self, payload: dict, speaker: int) -> str:
         encoded = json.dumps(
             {
-                "version": "video-render-v2",
+                "version": "video-render-v3",
                 "speaker": speaker,
                 "payload": payload,
             },
