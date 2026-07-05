@@ -5,7 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>N5-N3 Flashcards</title>
     <link rel="icon" type="image/svg+xml" href="./favicon.svg">
-    <link rel="stylesheet" href="./assets/flashcards.css?v=52faa0d81347">
+    <script>
+        (() => {
+            try {
+                const storedTheme = window.localStorage.getItem('learnJapanese.theme');
+                const theme = storedTheme === 'dark' || storedTheme === 'light'
+                    ? storedTheme
+                    : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                document.documentElement.dataset.theme = theme;
+                document.documentElement.style.colorScheme = theme;
+            } catch (error) {
+                document.documentElement.dataset.theme = 'light';
+                document.documentElement.style.colorScheme = 'light';
+            }
+        })();
+    </script>
+    <link rel="stylesheet" href="./assets/flashcards.css?v=c8b74c5c736b">
 </head>
 <body id="top">
 <nav class="top-nav" aria-label="Page navigation">
@@ -26,6 +41,7 @@
         </svg>
         <span class="icon-label">Flashcards</span>
     </a>
+    <button class="top-nav-link top-nav-button" type="button" data-theme-toggle aria-label="Switch to dark mode" title="Switch to dark mode"></button>
 </nav>
 
 <main class="flashcard-shell">
@@ -150,6 +166,7 @@
     </section>
 </main>
 
+<script src="./assets/theme.js"></script>
 <script src="./assets/flashcards.js?v=56fadaf92e80"></script>
 </body>
 </html>

@@ -5,9 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Japanese learning board</title>
     <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <script>
+        (() => {
+            try {
+                const storedTheme = window.localStorage.getItem('learnJapanese.theme');
+                const theme = storedTheme === 'dark' || storedTheme === 'light'
+                    ? storedTheme
+                    : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                document.documentElement.dataset.theme = theme;
+                document.documentElement.style.colorScheme = theme;
+            } catch (error) {
+                document.documentElement.dataset.theme = 'light';
+                document.documentElement.style.colorScheme = 'light';
+            }
+        })();
+    </script>
     <style>
         :root {
-            color-scheme: light;
+            color-scheme: light dark;
             --bg: #f3efe7;
             --bg-accent: #e6f0eb;
             --paper: rgba(255, 252, 247, 0.76);
@@ -24,6 +39,25 @@
             --soft: rgba(15, 118, 110, 0.08);
             --shadow: 0 24px 56px rgba(48, 39, 28, 0.11);
             --shadow-soft: 0 12px 28px rgba(48, 39, 28, 0.08);
+        }
+
+        :root[data-theme="dark"] {
+            --bg: #10181f;
+            --bg-accent: #17252d;
+            --paper: rgba(20, 31, 40, 0.82);
+            --panel: rgba(18, 28, 36, 0.9);
+            --panel-strong: #13202a;
+            --line: rgba(145, 169, 184, 0.16);
+            --line-strong: rgba(145, 169, 184, 0.24);
+            --ink: #e6eef5;
+            --muted: #a3b2bf;
+            --accent: #4fd1c5;
+            --accent-dark: #98f5eb;
+            --warm: #f2b880;
+            --warm-soft: rgba(242, 184, 128, 0.16);
+            --soft: rgba(79, 209, 197, 0.14);
+            --shadow: 0 28px 64px rgba(0, 0, 0, 0.34);
+            --shadow-soft: 0 16px 36px rgba(0, 0, 0, 0.22);
         }
 
         * {
@@ -45,6 +79,13 @@
                 linear-gradient(180deg, #f7f3ec 0%, var(--bg) 52%, #ece8df 100%);
         }
 
+        :root[data-theme="dark"] body {
+            background:
+                radial-gradient(circle at top left, rgba(88, 128, 152, 0.16), transparent 32%),
+                radial-gradient(circle at top right, rgba(79, 209, 197, 0.12), transparent 30%),
+                linear-gradient(180deg, #0b1217 0%, var(--bg) 52%, #0f171d 100%);
+        }
+
         body::before {
             content: "";
             position: fixed;
@@ -58,8 +99,19 @@
             pointer-events: none;
         }
 
+        :root[data-theme="dark"] body::before {
+            background-image:
+                linear-gradient(rgba(163, 178, 191, 0.06) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(163, 178, 191, 0.04) 1px, transparent 1px);
+        }
+
         a {
             color: inherit;
+        }
+
+        .top-nav-button {
+            cursor: pointer;
+            font: inherit;
         }
 
         .top-nav {
@@ -418,6 +470,57 @@
             color: var(--accent-dark);
         }
 
+        :root[data-theme="dark"] .top-nav,
+        :root[data-theme="dark"] .sidebar {
+            background: rgba(10, 18, 24, 0.8);
+            border-color: var(--line);
+        }
+
+        :root[data-theme="dark"] .top-nav-link,
+        :root[data-theme="dark"] .mobile-article-menu summary,
+        :root[data-theme="dark"] .utility-link,
+        :root[data-theme="dark"] .nav-link:hover,
+        :root[data-theme="dark"] .nav-link:focus {
+            background: rgba(18, 31, 40, 0.88);
+        }
+
+        :root[data-theme="dark"] .top-nav-link,
+        :root[data-theme="dark"] .nav-link,
+        :root[data-theme="dark"] .post-title,
+        :root[data-theme="dark"] h1,
+        :root[data-theme="dark"] h2 {
+            color: var(--ink);
+        }
+
+        :root[data-theme="dark"] .blog-header,
+        :root[data-theme="dark"] .post-card {
+            border-color: var(--line);
+            background:
+                linear-gradient(180deg, rgba(21, 34, 44, 0.96), rgba(16, 26, 34, 0.98)),
+                var(--panel-strong);
+        }
+
+        :root[data-theme="dark"] .blog-header::before {
+            background:
+                radial-gradient(circle at top right, rgba(79, 209, 197, 0.14), transparent 30%),
+                radial-gradient(circle at top left, rgba(242, 184, 128, 0.12), transparent 26%);
+        }
+
+        :root[data-theme="dark"] .article-count {
+            border-color: rgba(79, 209, 197, 0.24);
+            background: rgba(18, 45, 43, 0.88);
+            color: var(--accent-dark);
+        }
+
+        :root[data-theme="dark"] .level {
+            background: rgba(101, 67, 34, 0.36);
+            color: #ffd7b0;
+        }
+
+        :root[data-theme="dark"] .mobile-nav-content {
+            background: rgba(18, 31, 40, 0.92);
+        }
+
         @media (max-width: 860px) {
             .page-shell {
                 display: block;
@@ -554,6 +657,7 @@
         </svg>
         <span class="icon-label">Last Page</span>
     </a>
+    <button class="top-nav-link top-nav-button" type="button" data-theme-toggle aria-label="Switch to dark mode" title="Switch to dark mode"></button>
 </nav>
 
 <div class="page-shell">
@@ -1170,5 +1274,6 @@
             </section>
 </main>
 </div>
+<script src="./assets/theme.js"></script>
 </body>
 </html>

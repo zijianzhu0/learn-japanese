@@ -5,7 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LY社などが価格.comを買うためのお金を増やす</title>
     <link rel="icon" type="image/svg+xml" href="./favicon.svg">
-    <link rel="stylesheet" href="./assets/article.css?v=371b4a17be5d">
+    <script>
+        (() => {
+            try {
+                const storedTheme = window.localStorage.getItem('learnJapanese.theme');
+                const theme = storedTheme === 'dark' || storedTheme === 'light'
+                    ? storedTheme
+                    : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                document.documentElement.dataset.theme = theme;
+                document.documentElement.style.colorScheme = theme;
+            } catch (error) {
+                document.documentElement.dataset.theme = 'light';
+                document.documentElement.style.colorScheme = 'light';
+            }
+        })();
+    </script>
+    <link rel="stylesheet" href="./assets/article.css?v=58a4cc2e22d5">
 </head>
 <body id="top" data-article-id="2026-05-14-ly-kakaku-offer" data-recording-download-name="2026-05-14-ly-kakaku-offer.mp4">
 <nav class="top-nav" aria-label="Page navigation"></nav>
@@ -114,7 +129,8 @@
     </main>
 </div>
 
-<script src="./assets/article.js?v=eafb288b079d"></script>
+<script src="./assets/theme.js"></script>
+<script src="./assets/article.js?v=6452b8f23f8c"></script>
 
 </body>
 </html>

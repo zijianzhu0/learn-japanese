@@ -5,6 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{PAGE_TITLE}}</title>
     <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <script>
+        (() => {
+            try {
+                const storedTheme = window.localStorage.getItem('learnJapanese.theme');
+                const theme = storedTheme === 'dark' || storedTheme === 'light'
+                    ? storedTheme
+                    : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                document.documentElement.dataset.theme = theme;
+                document.documentElement.style.colorScheme = theme;
+            } catch (error) {
+                document.documentElement.dataset.theme = 'light';
+                document.documentElement.style.colorScheme = 'light';
+            }
+        })();
+    </script>
     <link rel="stylesheet" href="./assets/article.css?v={{ARTICLE_CSS_VERSION}}">
 </head>
 <body id="top" data-article-id="{{ARTICLE_ID}}" data-recording-download-name="{{DOWNLOAD_FILE_NAME}}">
@@ -108,6 +123,7 @@
     </main>
 </div>
 
+<script src="./assets/theme.js"></script>
 <script src="./assets/article.js?v={{ARTICLE_JS_VERSION}}"></script>
 
 </body>

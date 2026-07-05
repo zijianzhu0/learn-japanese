@@ -206,7 +206,11 @@ function renderTopNavigation() {
         );
     }
 
+    links.push('<button class="top-nav-link top-nav-button" type="button" data-theme-toggle aria-label="Switch to dark mode" title="Switch to dark mode"></button>');
     topNav.innerHTML = links.join('');
+    if (typeof initializeThemeToggle === 'function') {
+        initializeThemeToggle();
+    }
 }
 
 function articleNavigationGroupsHtml(currentFile) {
