@@ -23,9 +23,11 @@ from scripts.render_video import (
     DEFAULT_VOICEVOX_TIMEOUT,
     EXPORT_AUDIO_FILTER,
     RenderOptions,
+    build_segments,
     find_article,
     find_video_quiz,
     quiz_video_filename,
+    render_html,
     render_article_cover,
     render_article_video,
     render_quiz_cover,
@@ -60,13 +62,18 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
         return
 
     def do_GET(self) -> None:
-        request_path = parse.urlsplit(self.path).path
+        parsed = parse.urlsplit(self.path)
+        request_path = parsed.path
         if request_path == "/api/tts/voicevox/status":
             self.handle_voicevox_status()
             return
 
         if request_path == "/api/flashcards/progress":
             self.handle_flashcard_progress_get()
+            return
+
+        if request_path == "/api/video/preview":
+            self.handle_video_preview(parsed.query)
             return
 
         super().do_GET()
@@ -128,6 +135,32 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
                 "speakers": speakers,
             },
         )
+
+    def handle_video_preview(self, query_string: str) -> None:
+        params = parse.parse_qs(query_string, keep_blank_values=False)
+        article_ref = str(params.get("article_id", [""])[0]).strip()
+        if not article_ref:
+            self.send_json(400, {"ok": False, "error": "Missing article_id query parameter."})
+            return
+
+        try:
+            article = find_article(article_ref)
+            segment = build_segments(article)[0]
+            html = render_html(article, segment, RenderOptions(article_id=article["id"]))
+        except (ValueError, IndexError) as exc:
+            self.send_json(404, {"ok": False, "error": str(exc)})
+            return
+        except Exception as exc:
+            self.send_json(500, {"ok": False, "error": f"Preview render failed: {exc}"})
+            return
+
+        body = html.encode("utf-8")
+        self.send_response(200)
+        self.send_header("Content-Type", "text/html; charset=utf-8")
+        self.send_header("Content-Length", str(len(body)))
+        self.send_header("Cache-Control", "no-store")
+        self.end_headers()
+        self.wfile.write(body)
 
     def handle_voicevox_synthesis(self) -> None:
         try:

@@ -1423,10 +1423,6 @@ function waitForNextPaint() {
     });
 }
 
-function isRecordingPreviewMode() {
-    return new URLSearchParams(window.location.search).has('recording-preview');
-}
-
 function ensureVideoRenderProgress() {
     let progress = document.getElementById('video-render-progress');
     if (progress) {
@@ -1515,50 +1511,27 @@ function hideVideoRenderProgress() {
     }
 }
 
-async function fitRecordingPageText() {
-    const frame = document.querySelector('.article-main');
-    const container = document.querySelector('.container');
-    if (!frame || !container) {
-        return;
-    }
-
-    document.body.style.removeProperty('--recording-title-size');
-    document.body.style.removeProperty('--recording-body-size');
-    document.body.style.removeProperty('--recording-body-line-height');
-    await waitForNextPaint();
-
-    const pageWidth = frame.clientWidth || container.clientWidth;
-    let bodySize = Math.max(22, Math.min(58, pageWidth * 0.035));
-    let titleSize = bodySize * 1.32;
-    let lineHeight = 1.68;
-
-    const applySizes = () => {
-        document.body.style.setProperty('--recording-title-size', `${titleSize}px`);
-        document.body.style.setProperty('--recording-body-size', `${bodySize}px`);
-        document.body.style.setProperty('--recording-body-line-height', String(lineHeight));
-    };
-
-    applySizes();
-    await waitForNextPaint();
-
-    while (container.scrollHeight > container.clientHeight && bodySize > 12) {
-        bodySize -= 1;
-        titleSize = bodySize * 1.32;
-        if (bodySize < 18) {
-            lineHeight = 1.48;
-        } else if (bodySize < 22) {
-            lineHeight = 1.56;
-        }
-        applySizes();
-        await waitForNextPaint();
-    }
-}
-
 function clearRecordingMode() {
     document.body.classList.remove('recording-mode', 'recording-preview');
     document.body.style.removeProperty('--recording-title-size');
     document.body.style.removeProperty('--recording-body-size');
     document.body.style.removeProperty('--recording-body-line-height');
+    document.body.style.removeProperty('--recording-preview-scale');
+}
+
+function openRecordingPreview() {
+    const articleRef = articleId || currentArticleFile();
+    if (!articleRef) {
+        const status = document.getElementById('copy-status');
+        if (status) {
+            status.textContent = 'This page is missing its article identifier.';
+        }
+        return;
+    }
+
+    const previewUrl = new URL('/api/video/preview', window.location.origin);
+    previewUrl.searchParams.set('article_id', articleRef);
+    window.location.href = previewUrl.toString();
 }
 
 async function renderVideo() {
@@ -1647,6 +1620,10 @@ async function handleDownloadCoverClick() {
     await downloadCoverPhoto();
 }
 
+function handlePreviewRecordingModeClick() {
+    openRecordingPreview();
+}
+
 initializeArticleNavigation();
 setupVoiceSettingsMenu();
 insertVoiceSourceControls();
@@ -1667,6 +1644,7 @@ document.getElementById('enable-docker-audio')?.addEventListener('click', () => 
     });
 });
 document.getElementById('speak-japanese-article')?.addEventListener('click', speakJapaneseArticle);
+document.getElementById('preview-recording-mode')?.addEventListener('click', handlePreviewRecordingModeClick);
 document.getElementById('render-video')?.addEventListener('click', handleRenderVideoClick);
 document.getElementById('download-cover')?.addEventListener('click', handleDownloadCoverClick);
 document.addEventListener('click', (event) => {
@@ -1687,7 +1665,3 @@ buildSentenceMeta();
 renderSentencePlaybackButtons();
 populateBrowserVoiceOptions();
 refreshArticleAudioCacheStatus();
-if (isRecordingPreviewMode()) {
-    document.body.classList.add('recording-mode', 'recording-preview');
-    fitRecordingPageText();
-}

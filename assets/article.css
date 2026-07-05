@@ -452,6 +452,10 @@ body.recording-mode .article-toolbar {
     background: linear-gradient(135deg, #b86a1d, #8b4d13);
 }
 
+.preview-button {
+    background: linear-gradient(135deg, #0f766e, #115e59);
+}
+
 .cover-button {
     background: linear-gradient(135deg, #5a50dd, #4138b7);
 }
@@ -1163,6 +1167,7 @@ body.recording-mode {
     --recording-title-size: 44px;
     --recording-body-size: 33px;
     --recording-body-line-height: 1.68;
+    --recording-preview-scale: 1;
     margin: 0;
     padding: 0;
     color: #17202a;
@@ -1177,8 +1182,6 @@ body.recording-mode .container {
 }
 
 body.recording-preview {
-    --recording-frame-width: min(100vw, calc(100vh * 9 / 16));
-    --recording-frame-height: min(100vh, calc(100vw * 16 / 9));
     width: 100%;
     height: 100vh;
 }
@@ -1214,6 +1217,13 @@ body.recording-preview .article-shell {
     place-items: center;
     width: 100vw;
     height: 100vh;
+}
+
+body.recording-preview .article-main {
+    width: var(--recording-frame-width);
+    height: var(--recording-frame-height);
+    transform: scale(var(--recording-preview-scale));
+    transform-origin: center center;
 }
 
 body.recording-export .article-shell {
