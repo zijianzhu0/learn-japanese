@@ -1,0 +1,66 @@
+{
+  "id": "2026-07-06-marunouchi-shikai",
+  "file": "2026-07-06-marunouchi-shikai.html",
+  "title": "駅の点字ブロックの小さなQRコードがやさしい移動サポートにつながっていた",
+  "titleTranslation": "A Small QR Code on Tactile Paving at a Station Led to Gentle Mobility Support",
+  "date": "2026年7月6日",
+  "month": "July 2026",
+  "navLabel": "7/6 点字QRコード",
+  "level": "N3",
+  "downloadFileName": "2026-07-06-marunouchi-shikai.mp4",
+  "headlineHtml": "<ruby>駅<rt>えき</rt></ruby>の<ruby>点字<rt>てんじ</rt></ruby>ブロックの<ruby>小<rt>ちい</rt></ruby>さなQRコードがやさしい<ruby>移動<rt>いどう</rt></ruby>サポートにつながっていた",
+  "sourceNote": "ユーザー提供の丸の内駅で見つけたShikAIの案内についての説明文をもとにしたN3レベルの学習用ページです。",
+  "paragraphs": [
+    {
+      "html": "<ruby>丸の内駅<rt>まるのうちえき</rt></ruby>を<ruby>歩<rt>ある</rt></ruby>いていたとき、<ruby>点字<rt>てんじ</rt></ruby>ブロックの<ruby>上<rt>うえ</rt></ruby>に<ruby>小<rt>ちい</rt></ruby>さなQRコードがついているのを<ruby>見<rt>み</rt></ruby>つけました。ふつうならそのまま<ruby>通<rt>とお</rt></ruby>り<ruby>過<rt>す</rt></ruby>ぎてしまいそうな<ruby>場所<rt>ばしょ</rt></ruby>でしたが、なぜそこにあるのかが<ruby>気<rt>き</rt></ruby>になりました。",
+      "translation": "While walking through Marunouchi Station, I noticed a small QR code attached above the tactile paving. It was the kind of place I would normally pass without thinking, but I became curious about why it was there."
+    },
+    {
+      "html": "そこで<ruby>読<rt>よ</rt></ruby>み<ruby>込<rt>こ</rt></ruby>んでみると、「ShikAI」というサービスにつながりました。これは、<ruby>視覚障害<rt>しかくしょうがい</rt></ruby>のある<ruby>人<rt>ひと</rt></ruby>が<ruby>駅<rt>えき</rt></ruby>の<ruby>中<rt>なか</rt></ruby>をより<ruby>安心<rt>あんしん</rt></ruby>して<ruby>移動<rt>いどう</rt></ruby>できるようにサポートするためのものだそうです。",
+      "translation": "When I scanned it, it connected to a service called ShikAI. It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
+    },
+    {
+      "html": "<ruby>普段<rt>ふだん</rt></ruby>は<ruby>何気<rt>なにげ</rt></ruby>なく<ruby>歩<rt>ある</rt></ruby>いている<ruby>駅<rt>えき</rt></ruby>の<ruby>中<rt>なか</rt></ruby>にも、このようなやさしい<ruby>工夫<rt>くふう</rt></ruby>が<ruby>隠<rt>かく</rt></ruby>れていると<ruby>知<rt>し</rt></ruby>って、<ruby>少<rt>すこ</rt></ruby>し<ruby>驚<rt>おどろ</rt></ruby>きました。<ruby>自分<rt>じぶん</rt></ruby>が<ruby>使<rt>つか</rt></ruby>う<ruby>機会<rt>きかい</rt></ruby>がないと、こうした<ruby>設備<rt>せつび</rt></ruby>にはなかなか<ruby>気<rt>き</rt></ruby>づかないものです。",
+      "translation": "I was a little surprised to learn that this kind of considerate idea was hidden inside a station I usually walk through without much thought. If you never have a reason to use such equipment, it is easy not to notice it."
+    },
+    {
+      "html": "<ruby>毎日<rt>まいにち</rt></ruby>たくさんの<ruby>人<rt>ひと</rt></ruby>が<ruby>行<rt>い</rt></ruby>き<ruby>交<rt>か</rt></ruby>う<ruby>東京<rt>とうきょう</rt></ruby>の<ruby>駅<rt>えき</rt></ruby>だからこそ、このような<ruby>技術<rt>ぎじゅつ</rt></ruby>がとても<ruby>自然<rt>しぜん</rt></ruby>に<ruby>街<rt>まち</rt></ruby>へ<ruby>溶<rt>と</rt></ruby>け<ruby>込<rt>こ</rt></ruby>んでいるのかもしれません。<ruby>大<rt>おお</rt></ruby>きく<ruby>目立<rt>めだ</rt></ruby>つわけではなくても、だれかの<ruby>安心<rt>あんしん</rt></ruby>をしっかり<ruby>支<rt>ささ</rt></ruby>えているところが<ruby>素敵<rt>すてき</rt></ruby>です。",
+      "translation": "Because Tokyo stations are used by so many people every day, perhaps this kind of technology blends naturally into the city. Even if it does not stand out, it is wonderful that it quietly supports someone’s sense of safety."
+    },
+    {
+      "html": "ほんの<ruby>小<rt>ちい</rt></ruby>さな<ruby>発見<rt>はっけん</rt></ruby>でしたが、その<ruby>日<rt>ひ</rt></ruby>から<ruby>街<rt>まち</rt></ruby>の<ruby>見<rt>み</rt></ruby>え<ruby>方<rt>かた</rt></ruby>が<ruby>少<rt>すこ</rt></ruby>し<ruby>変<rt>か</rt></ruby>わったように<ruby>感<rt>かん</rt></ruby>じました。いつもの<ruby>風景<rt>ふうけい</rt></ruby>の<ruby>中<rt>なか</rt></ruby>にも、まだ<ruby>気<rt>き</rt></ruby>づいていないやさしさや<ruby>工夫<rt>くふう</rt></ruby>がたくさんあるのだと<ruby>思<rt>おも</rt></ruby>います。",
+      "translation": "It was only a small discovery, but it made me feel that the way I see the city changed a little that day. I think there are many more acts of kindness and smart ideas hidden in the familiar scenery around us."
+    }
+  ],
+  "vocabularyTitle": "N3 Vocabulary",
+  "vocabulary": [
+    {
+      "term": "点字ブロック（てんじブロック）",
+      "meaning": "Tactile paving"
+    },
+    {
+      "term": "視覚障害（しかくしょうがい）",
+      "meaning": "Visual impairment"
+    },
+    {
+      "term": "安心（あんしん）",
+      "meaning": "Peace of mind / Safety"
+    },
+    {
+      "term": "移動（いどう）する",
+      "meaning": "To move / To travel"
+    },
+    {
+      "term": "設備（せつび）",
+      "meaning": "Facility / Equipment"
+    },
+    {
+      "term": "溶け込む（とけこむ）",
+      "meaning": "To blend in"
+    },
+    {
+      "term": "風景（ふうけい）",
+      "meaning": "Scenery / Scene"
+    }
+  ]
+}

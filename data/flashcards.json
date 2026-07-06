@@ -4,7 +4,7 @@
     "articleManifest": "data/articles.json"
   },
   "levels": {
-    "N3": 2008,
+    "N3": 2015,
     "N4": 536,
     "N5": 553
   },
@@ -656,7 +656,16 @@
           "term": "歩いて",
           "readingHiragana": "あるいて",
           "meaning": "Te-form of 歩く: to walk",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "丸の内駅を歩いていたとき、点字ブロックの上に小さなQRコードがついているのを見つけました。",
+              "en": "While walking through Marunouchi Station, I noticed a small QR code attached above the tactile paving."
+            },
+            {
+              "ja": "普段は何気なく歩いている駅の中にも、このようなやさしい工夫が隠れていると知って、少し驚きました。",
+              "en": "I was a little surprised to learn that this kind of considerate idea was hidden inside a station I usually walk through without much thought."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -2409,24 +2418,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "丸の内駅を歩いていたとき、点字ブロックの上に小さなQRコードがついているのを見つけました。",
+          "en": "While walking through Marunouchi Station, I noticed a small QR code attached above the tactile paving."
+        },
+        {
+          "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
+          "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
+        },
+        {
+          "ja": "普段は何気なく歩いている駅の中にも、このようなやさしい工夫が隠れていると知って、少し驚きました。",
+          "en": "I was a little surprised to learn that this kind of considerate idea was hidden inside a station I usually walk through without much thought."
+        },
+        {
+          "ja": "毎日たくさんの人が行き交う東京の駅だからこそ、このような技術がとても自然に街へ溶け込んでいるのかもしれません。",
+          "en": "Because Tokyo stations are used by so many people every day, perhaps this kind of technology blends naturally into the city."
+        },
+        {
           "ja": "そのため、車両に表示される行き先は、自分が降りる駅よりずっと先の地名であることもあります。",
           "en": "Because of that, the destination shown on the train may be a place name far beyond the station where you plan to get off."
-        },
-        {
-          "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
-          "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
-        },
-        {
-          "ja": "山手線は、新宿、渋谷、上野、東京駅、池袋などの大きなエリアをつないでいます。",
-          "en": "The Yamanote Line connects major areas such as Shinjuku, Shibuya, Ueno, Tokyo Station, and Ikebukuro."
-        },
-        {
-          "ja": "こうした駅のまわりには、買い物ができる店、会社、レストラン、遊べる場所が集まっています。",
-          "en": "Around these stations, shops, offices, restaurants, and places for entertainment are gathered together."
-        },
-        {
-          "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
-          "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
         }
       ]
     },
@@ -4207,6 +4216,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "毎日たくさんの人が行き交う東京の駅だからこそ、このような技術がとても自然に街へ溶け込んでいるのかもしれません。",
+          "en": "Because Tokyo stations are used by so many people every day, perhaps this kind of technology blends naturally into the city."
+        },
+        {
+          "ja": "ほんの小さな発見でしたが、その日から街の見え方が少し変わったように感じました。",
+          "en": "It was only a small discovery, but it made me feel that the way I see the city changed a little that day."
+        },
+        {
           "ja": "このコースは東京でとても有名で、毎日たくさんの人が走っています。",
           "en": "This course is very famous in Tokyo, and many people run there every day."
         },
@@ -4217,14 +4234,6 @@
         {
           "ja": "開業日は1964年9月17日で、オリンピックが始まる10月10日より数週間前でした。",
           "en": "It opened on September 17, 1964, only a few weeks before the Olympics began on October 10."
-        },
-        {
-          "ja": "当時、この路線は日本で最初に営業したモノレールでした。",
-          "en": "At the time, this line was Japan's first commercially operated monorail."
-        },
-        {
-          "ja": "60年以上たった今でも、東京モノレールは毎日動いています。",
-          "en": "Even more than 60 years later, Tokyo Monorail still runs every day."
         }
       ]
     },
@@ -4282,6 +4291,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "毎日たくさんの人が行き交う東京の駅だからこそ、このような技術がとても自然に街へ溶け込んでいるのかもしれません。",
+          "en": "Because Tokyo stations are used by so many people every day, perhaps this kind of technology blends naturally into the city."
+        },
+        {
           "ja": "東京の中心部へ向かうなら、まず品川へ向かう電車を探しましょう。",
           "en": "If you are heading into central Tokyo, first look for a train going toward Shinagawa."
         },
@@ -4296,10 +4309,6 @@
         {
           "ja": "山手線は、新宿、渋谷、上野、東京駅、池袋などの大きなエリアをつないでいます。",
           "en": "The Yamanote Line connects major areas such as Shinjuku, Shibuya, Ueno, Tokyo Station, and Ikebukuro."
-        },
-        {
-          "ja": "東京は、一つのダウンタウンだけが発展した都市ではありません。",
-          "en": "Tokyo is not a city where only one downtown area developed."
         }
       ]
     },
@@ -4580,6 +4589,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
+          "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
+        },
+        {
+          "ja": "毎日たくさんの人が行き交う東京の駅だからこそ、このような技術がとても自然に街へ溶け込んでいるのかもしれません。",
+          "en": "Because Tokyo stations are used by so many people every day, perhaps this kind of technology blends naturally into the city."
+        },
+        {
           "ja": "そのため、多くの人は遠くまで行かなくても、生活に必要なものに近い場所で出会えます。",
           "en": "Because of that, many people can find what they need for daily life without going very far."
         },
@@ -4590,14 +4607,6 @@
         {
           "ja": "このコースは東京でとても有名で、毎日たくさんの人が走っています。",
           "en": "This course is very famous in Tokyo, and many people run there every day."
-        },
-        {
-          "ja": "速く走る人もいれば、ゆっくり自分のペースで走る人もいます。",
-          "en": "Some people run fast, while others run slowly at their own pace."
-        },
-        {
-          "ja": "レベルが違っても一緒に楽しめるので、初心者にも人気があります。",
-          "en": "Because people of different levels can enjoy it together, it is also popular with beginners."
         }
       ]
     },
@@ -5585,7 +5594,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "いつもの風景の中にも、まだ気づいていないやさしさや工夫がたくさんあるのだと思います。",
+          "en": "I think there are many more acts of kindness and smart ideas hidden in the familiar scenery around us."
+        }
+      ]
     },
     {
       "id": "core-0ccc624632eb3a",
@@ -5741,6 +5755,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "自分が使う機会がないと、こうした設備にはなかなか気づかないものです。",
+          "en": "If you never have a reason to use such equipment, it is easy not to notice it."
+        },
+        {
           "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
           "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
         },
@@ -5755,10 +5773,6 @@
         {
           "ja": "速く走る人もいれば、ゆっくり自分のペースで走る人もいます。",
           "en": "Some people run fast, while others run slowly at their own pace."
-        },
-        {
-          "ja": "早く着きたいと思って速い電車に乗ると、自分の駅を通りすぎてしまうことがあります。",
-          "en": "If you board a faster train because you want to arrive quickly, it may pass your station."
         }
       ]
     },
@@ -6528,6 +6542,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ほんの小さな発見でしたが、その日から街の見え方が少し変わったように感じました。",
+          "en": "It was only a small discovery, but it made me feel that the way I see the city changed a little that day."
+        },
+        {
           "ja": "これだけで、電車の選び方がかなり簡単になります。",
           "en": "That alone makes choosing a train much easier."
         },
@@ -6542,10 +6560,6 @@
         {
           "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
           "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
-        },
-        {
-          "ja": "山手線は、ただ人を運ぶだけでなく、東京の街の作られ方そのものを支えているのです。",
-          "en": "The Yamanote Line does not just carry people; it supports the very way Tokyo's cityscape was built."
         }
       ]
     },
@@ -6757,6 +6771,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "いつもの風景の中にも、まだ気づいていないやさしさや工夫がたくさんあるのだと思います。",
+          "en": "I think there are many more acts of kindness and smart ideas hidden in the familiar scenery around us."
+        },
+        {
           "ja": "気象庁は6月26日の夜、台風7号「メーカラー」と台風8号「ヒーゴス」の情報を出しました。",
           "en": "On the night of June 26, the Japan Meteorological Agency released information on Typhoon No. 7, Mekkhala, and Typhoon No. 8, Higos. The two typhoons are moving at the same time over the sea south of Japan."
         },
@@ -6771,10 +6789,6 @@
         {
           "ja": "台風8号は、日本の南の海上を北東へ速く進んでいます。",
           "en": "Typhoon No. 8 is moving quickly northeast over the sea south of Japan. According to the JMA track forecast, it is expected to move away to the east of Honshu on June 27."
-        },
-        {
-          "ja": "二つの台風は、上陸するかどうかだけでなく、海の波や強い雨にも注意が必要です。",
-          "en": "With the two typhoons, people need to watch not only whether they make landfall, but also ocean waves and heavy rain."
         }
       ]
     },
@@ -8267,6 +8281,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "いつもの風景の中にも、まだ気づいていないやさしさや工夫がたくさんあるのだと思います。",
+          "en": "I think there are many more acts of kindness and smart ideas hidden in the familiar scenery around us."
+        },
+        {
           "ja": "まだ行方が分からない人も多く、救助隊ががれきの中を探しています。",
           "en": "Many people were still missing, and rescue teams were searching through rubble."
         },
@@ -8379,6 +8397,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "毎日たくさんの人が行き交う東京の駅だからこそ、このような技術がとても自然に街へ溶け込んでいるのかもしれません。",
+          "en": "Because Tokyo stations are used by so many people every day, perhaps this kind of technology blends naturally into the city."
+        },
         {
           "ja": "このコースは東京でとても有名で、毎日たくさんの人が走っています。",
           "en": "This course is very famous in Tokyo, and many people run there every day."
@@ -8747,6 +8769,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "大きく目立つわけではなくても、だれかの安心をしっかり支えているところが素敵です。",
+          "en": "Even if it does not stand out, it is wonderful that it quietly supports someone’s sense of safety."
+        },
+        {
           "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
           "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
         },
@@ -8761,10 +8787,6 @@
         {
           "ja": "AIは写真から大切な手がかりを見つけられましたが、結果は項目によって大きく違いました。",
           "en": "The AI could find important clues in images, but the results differed greatly depending on the item."
-        },
-        {
-          "ja": "防犯カメラなどによると、その人は上りホームの柵の切れ目から線路に降りました。",
-          "en": "According to security-camera footage and other evidence, the person went down to the tracks through a gap in the fence on the inbound platform."
         }
       ]
     },
@@ -9648,24 +9670,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
+          "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
+        },
+        {
+          "ja": "普段は何気なく歩いている駅の中にも、このようなやさしい工夫が隠れていると知って、少し驚きました。",
+          "en": "I was a little surprised to learn that this kind of considerate idea was hidden inside a station I usually walk through without much thought."
+        },
+        {
+          "ja": "いつもの風景の中にも、まだ気づいていないやさしさや工夫がたくさんあるのだと思います。",
+          "en": "I think there are many more acts of kindness and smart ideas hidden in the familiar scenery around us."
+        },
+        {
           "ja": "東京の中心部へ向かうなら、まず品川へ向かう電車を探しましょう。",
           "en": "If you are heading into central Tokyo, first look for a train going toward Shinagawa."
         },
         {
           "ja": "その中心にあるのが、東京を輪のように回る山手線です。",
           "en": "At the center of that network is the Yamanote Line, which circles Tokyo like a loop."
-        },
-        {
-          "ja": "いくつもの都市中心が鉄道でしっかり結ばれた形で広がってきました。",
-          "en": "It spread in a form where many urban centers were firmly connected by rail."
-        },
-        {
-          "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
-          "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
-        },
-        {
-          "ja": "皇居は東京の中心にあり、そのまわりには約5キロのランニングコースがあります。",
-          "en": "The Imperial Palace is in the center of Tokyo, and there is a running course of about five kilometers around it."
         }
       ]
     },
@@ -9847,6 +9869,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "普段は何気なく歩いている駅の中にも、このようなやさしい工夫が隠れていると知って、少し驚きました。",
+          "en": "I was a little surprised to learn that this kind of considerate idea was hidden inside a station I usually walk through without much thought."
+        },
         {
           "ja": "実験では、短い距離を何度も走って、安全や使いやすさを調べます。",
           "en": "In the test, it will make repeated short trips so people can check safety and practicality."
@@ -13294,6 +13320,10 @@
           "meaning": "Te-form of 知る: to be aware of, to know",
           "exampleSentences": [
             {
+              "ja": "普段は何気なく歩いている駅の中にも、このようなやさしい工夫が隠れていると知って、少し驚きました。",
+              "en": "I was a little surprised to learn that this kind of considerate idea was hidden inside a station I usually walk through without much thought."
+            },
+            {
               "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
               "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
             }
@@ -13635,6 +13665,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "普段は何気なく歩いている駅の中にも、このようなやさしい工夫が隠れていると知って、少し驚きました。",
+          "en": "I was a little surprised to learn that this kind of considerate idea was hidden inside a station I usually walk through without much thought."
+        },
+        {
+          "ja": "ほんの小さな発見でしたが、その日から街の見え方が少し変わったように感じました。",
+          "en": "It was only a small discovery, but it made me feel that the way I see the city changed a little that day."
+        },
+        {
           "ja": "最初は少し難しく見えても、行き先と種別をセットで見る習慣をつければ、不安はかなり小さくなります。",
           "en": "It may look a little difficult at first, but if you make a habit of checking the destination and train type together, it becomes much less intimidating."
         },
@@ -13645,14 +13683,6 @@
         {
           "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
           "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
-        },
-        {
-          "ja": "東京の地下鉄やJRは複雑ですが、大きな駅の位置を地図の骨組みにすると、少しずつ慣れていきます。",
-          "en": "Tokyo’s subways and JR lines are complicated, but if you treat the positions of major stations as the frame of the map, you gradually get used to it."
-        },
-        {
-          "ja": "しかし、もしアメリカと中国の関係が少しよくなると、日本は不安になります。",
-          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
         }
       ]
     },
@@ -13755,6 +13785,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
+          "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
+        },
+        {
           "ja": "近くでは地元のランニンググループが集まり、いっしょにスタートすることもあります。",
           "en": "Local running groups also gather nearby and sometimes start together."
         },
@@ -13769,10 +13803,6 @@
         {
           "ja": "これらは速さや停車駅が違うため、名前を確認することが大切です。",
           "en": "Because their speeds and stopping stations differ, it is important to check the name."
-        },
-        {
-          "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
-          "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
         }
       ],
       "partOfSpeech": "verb",
@@ -13817,24 +13847,24 @@
           "meaning": "Plain past form of する: to do",
           "exampleSentences": [
             {
-              "ja": "こうした駅のまわりには、買い物ができる店、会社、レストラン、遊べる場所が集まっています。",
-              "en": "Around these stations, shops, offices, restaurants, and places for entertainment are gathered together."
+              "ja": "丸の内駅を歩いていたとき、点字ブロックの上に小さなQRコードがついているのを見つけました。",
+              "en": "While walking through Marunouchi Station, I noticed a small QR code attached above the tactile paving."
             },
             {
-              "ja": "東京は、一つのダウンタウンだけが発展した都市ではありません。",
-              "en": "Tokyo is not a city where only one downtown area developed."
+              "ja": "ふつうならそのまま通り過ぎてしまいそうな場所でしたが、なぜそこにあるのかが気になりました。",
+              "en": "It was the kind of place I would normally pass without thinking, but I became curious about why it was there."
             },
             {
-              "ja": "いくつもの都市中心が鉄道でしっかり結ばれた形で広がってきました。",
-              "en": "It spread in a form where many urban centers were firmly connected by rail."
+              "ja": "そこで読み込んでみると、「ShikAI」というサービスにつながりました。",
+              "en": "When I scanned it, it connected to a service called ShikAI."
             },
             {
-              "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
-              "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
+              "ja": "普段は何気なく歩いている駅の中にも、このようなやさしい工夫が隠れていると知って、少し驚きました。",
+              "en": "I was a little surprised to learn that this kind of considerate idea was hidden inside a station I usually walk through without much thought."
             },
             {
-              "ja": "こうした仕組みがあったからこそ、東京は世界でもとても大きく、しかも効率的な都市圏の一つに成長できました。",
-              "en": "Because this kind of system existed, Tokyo was able to grow into one of the world's very large and efficient metropolitan areas."
+              "ja": "自分が使う機会がないと、こうした設備にはなかなか気づかないものです。",
+              "en": "If you never have a reason to use such equipment, it is easy not to notice it."
             }
           ]
         },
@@ -13851,6 +13881,10 @@
               "en": "While its convenience is recognized, it is considered important not to weaken students’ ability to think for themselves."
             },
             {
+              "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
+              "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
+            },
+            {
               "ja": "近くでは地元のランニンググループが集まり、いっしょにスタートすることもあります。",
               "en": "Local running groups also gather nearby and sometimes start together."
             },
@@ -13861,10 +13895,6 @@
             {
               "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
               "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
-            },
-            {
-              "ja": "これらは速さや停車駅が違うため、名前を確認することが大切です。",
-              "en": "Because their speeds and stopping stations differ, it is important to check the name."
             }
           ]
         },
@@ -13876,6 +13906,10 @@
           "readingHiragana": "して",
           "meaning": "Te-form of する: to do",
           "exampleSentences": [
+            {
+              "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
+              "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
+            },
             {
               "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
               "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
@@ -13891,10 +13925,6 @@
             {
               "ja": "未来的に見えるシステムでも、実際の公共交通として使えることを示したのです。",
               "en": "It showed that a futuristic-looking system could also work as real public transportation."
-            },
-            {
-              "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
-              "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
             }
           ]
         },
@@ -13906,6 +13936,10 @@
           "readingHiragana": "できる",
           "meaning": "Potential form of する: to do",
           "exampleSentences": [
+            {
+              "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
+              "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
+            },
             {
               "ja": "こうした駅のまわりには、買い物ができる店、会社、レストラン、遊べる場所が集まっています。",
               "en": "Around these stations, shops, offices, restaurants, and places for entertainment are gathered together."
@@ -13921,10 +13955,6 @@
             {
               "ja": "混みやすい時期でも、乗客の流れをスムーズにできるという期待があります。",
               "en": "Even during busy periods, they expect passenger flow to become smoother."
-            },
-            {
-              "ja": "温室の中では、温度や水の管理を自動でできるようにする予定です。",
-              "en": "Inside the greenhouse, temperature and water management will be automated."
             }
           ]
         }
@@ -14495,6 +14525,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "大きく目立つわけではなくても、だれかの安心をしっかり支えているところが素敵です。",
+          "en": "Even if it does not stand out, it is wonderful that it quietly supports someone’s sense of safety."
+        },
+        {
           "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
           "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
         },
@@ -14515,6 +14549,10 @@
           "meaning": "Polite form of 立つ: to stand, to rise",
           "exampleSentences": [
             {
+              "ja": "大きく目立つわけではなくても、だれかの安心をしっかり支えているところが素敵です。",
+              "en": "Even if it does not stand out, it is wonderful that it quietly supports someone’s sense of safety."
+            },
+            {
               "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
               "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
             },
@@ -14533,6 +14571,10 @@
           "meaning": "Plain past form of 立つ: to stand, to rise",
           "exampleSentences": [
             {
+              "ja": "大きく目立つわけではなくても、だれかの安心をしっかり支えているところが素敵です。",
+              "en": "Even if it does not stand out, it is wonderful that it quietly supports someone’s sense of safety."
+            },
+            {
               "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
               "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
             },
@@ -14550,6 +14592,10 @@
           "readingHiragana": "たたない",
           "meaning": "Plain negative form of 立つ: to stand, to rise",
           "exampleSentences": [
+            {
+              "ja": "大きく目立つわけではなくても、だれかの安心をしっかり支えているところが素敵です。",
+              "en": "Even if it does not stand out, it is wonderful that it quietly supports someone’s sense of safety."
+            },
             {
               "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
               "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
@@ -14573,6 +14619,10 @@
               "en": "More shoppers are looking for cheaper products, and changes in store shelves are becoming noticeable."
             },
             {
+              "ja": "大きく目立つわけではなくても、だれかの安心をしっかり支えているところが素敵です。",
+              "en": "Even if it does not stand out, it is wonderful that it quietly supports someone’s sense of safety."
+            },
+            {
               "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
               "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
             },
@@ -14590,6 +14640,10 @@
           "readingHiragana": "たてる",
           "meaning": "Potential form of 立つ: to stand, to rise",
           "exampleSentences": [
+            {
+              "ja": "大きく目立つわけではなくても、だれかの安心をしっかり支えているところが素敵です。",
+              "en": "Even if it does not stand out, it is wonderful that it quietly supports someone’s sense of safety."
+            },
             {
               "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
               "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
@@ -15112,6 +15166,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ふつうならそのまま通り過ぎてしまいそうな場所でしたが、なぜそこにあるのかが気になりました。",
+          "en": "It was the kind of place I would normally pass without thinking, but I became curious about why it was there."
+        },
+        {
           "ja": "こうした駅のまわりには、買い物ができる店、会社、レストラン、遊べる場所が集まっています。",
           "en": "Around these stations, shops, offices, restaurants, and places for entertainment are gathered together."
         },
@@ -15126,10 +15184,6 @@
         {
           "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
           "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
-        },
-        {
-          "ja": "昔は港や工業用地が多かった場所が、仕事、買い物、遊びを楽しめるエリアに変わっていきました。",
-          "en": "Places that once had many port facilities and industrial sites changed into an area for work, shopping, and entertainment."
         }
       ]
     },
@@ -15227,6 +15281,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "毎日たくさんの人が行き交う東京の駅だからこそ、このような技術がとても自然に街へ溶け込んでいるのかもしれません。",
+          "en": "Because Tokyo stations are used by so many people every day, perhaps this kind of technology blends naturally into the city."
+        },
+        {
           "ja": "東京がとても便利に感じられる大きな理由の一つは、よく整った鉄道網です。",
           "en": "One big reason Tokyo feels so convenient is its well-developed rail network."
         },
@@ -15241,10 +15299,6 @@
         {
           "ja": "その理由の一つは、線路の多くがとても深い地下を通っていることです。",
           "en": "One reason is that much of the track runs very deep underground."
-        },
-        {
-          "ja": "すでにある地下鉄、水道や電気の設備、建物の基礎をよけながらトンネルを作るのは、とても大変でした。",
-          "en": "Building tunnels while avoiding existing subways, water and electrical infrastructure, and building foundations was extremely difficult."
         }
       ]
     },
@@ -15355,6 +15409,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "自分が使う機会がないと、こうした設備にはなかなか気づかないものです。",
+          "en": "If you never have a reason to use such equipment, it is easy not to notice it."
+        },
+        {
           "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
           "en": "In London, people using the Underground and buses were also advised to drink water."
         },
@@ -15369,10 +15427,6 @@
         {
           "ja": "通勤や通学で使う人が多い場所では、とくに休める空間が必要だと考えられています。",
           "en": "In places used by many commuters and students, it is thought that rest spaces are especially necessary."
-        },
-        {
-          "ja": "一方で、水道代や管理の手間がかかるため、時間や場所を決めて使うことが検討されています。",
-          "en": "At the same time, because water costs and maintenance take effort, officials are considering limiting the times and places where the systems are used."
         }
       ],
       "partOfSpeech": "verb",
@@ -15386,6 +15440,10 @@
           "readingHiragana": "つかいます",
           "meaning": "Polite form of 使う: to use, to make use of",
           "exampleSentences": [
+            {
+              "ja": "自分が使う機会がないと、こうした設備にはなかなか気づかないものです。",
+              "en": "If you never have a reason to use such equipment, it is easy not to notice it."
+            },
             {
               "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
               "en": "In London, people using the Underground and buses were also advised to drink water."
@@ -15401,10 +15459,6 @@
             {
               "ja": "通勤や通学で使う人が多い場所では、とくに休める空間が必要だと考えられています。",
               "en": "In places used by many commuters and students, it is thought that rest spaces are especially necessary."
-            },
-            {
-              "ja": "一方で、水道代や管理の手間がかかるため、時間や場所を決めて使うことが検討されています。",
-              "en": "At the same time, because water costs and maintenance take effort, officials are considering limiting the times and places where the systems are used."
             }
           ]
         },
@@ -15421,6 +15475,10 @@
               "en": "On the train, passengers are served boxed meals and tea made with local ingredients."
             },
             {
+              "ja": "自分が使う機会がないと、こうした設備にはなかなか気づかないものです。",
+              "en": "If you never have a reason to use such equipment, it is easy not to notice it."
+            },
+            {
               "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
               "en": "In London, people using the Underground and buses were also advised to drink water."
             },
@@ -15431,10 +15489,6 @@
             {
               "ja": "暑い日が増える中、熱中症を防ぐための通知アプリを使う会社や学校が増えています。",
               "en": "As hot days increase, more companies and schools are using notification apps to prevent heatstroke."
-            },
-            {
-              "ja": "通勤や通学で使う人が多い場所では、とくに休める空間が必要だと考えられています。",
-              "en": "In places used by many commuters and students, it is thought that rest spaces are especially necessary."
             }
           ]
         },
@@ -15451,6 +15505,10 @@
               "en": "Cashless payments are increasing on ferries heading to remote islands."
             },
             {
+              "ja": "自分が使う機会がないと、こうした設備にはなかなか気づかないものです。",
+              "en": "If you never have a reason to use such equipment, it is easy not to notice it."
+            },
+            {
               "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
               "en": "In London, people using the Underground and buses were also advised to drink water."
             },
@@ -15461,10 +15519,6 @@
             {
               "ja": "暑い日が増える中、熱中症を防ぐための通知アプリを使う会社や学校が増えています。",
               "en": "As hot days increase, more companies and schools are using notification apps to prevent heatstroke."
-            },
-            {
-              "ja": "通勤や通学で使う人が多い場所では、とくに休める空間が必要だと考えられています。",
-              "en": "In places used by many commuters and students, it is thought that rest spaces are especially necessary."
             }
           ]
         },
@@ -15519,12 +15573,12 @@
               "en": "Clear displays and explanations will also be needed so guests can use the system with confidence."
             },
             {
-              "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
-              "en": "In London, people using the Underground and buses were also advised to drink water."
+              "ja": "自分が使う機会がないと、こうした設備にはなかなか気づかないものです。",
+              "en": "If you never have a reason to use such equipment, it is easy not to notice it."
             },
             {
-              "ja": "週末に海へ行く予定がある人や、飛行機や船を使う人は、新しい情報を確認したほうがよさそうです。",
-              "en": "People planning to go to the sea over the weekend, or to use planes or boats, should check the latest information."
+              "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
+              "en": "In London, people using the Underground and buses were also advised to drink water."
             }
           ]
         }
@@ -15964,6 +16018,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "丸の内駅を歩いていたとき、点字ブロックの上に小さなQRコードがついているのを見つけました。",
+          "en": "While walking through Marunouchi Station, I noticed a small QR code attached above the tactile paving."
+        },
+        {
           "ja": "山手線は、新宿、渋谷、上野、東京駅、池袋などの大きなエリアをつないでいます。",
           "en": "The Yamanote Line connects major areas such as Shinjuku, Shibuya, Ueno, Tokyo Station, and Ikebukuro."
         },
@@ -15978,10 +16036,6 @@
         {
           "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
           "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
-        },
-        {
-          "ja": "フランス、イギリス、スイス、オランダなどで気温が大きく上がり、多くの町で6月としては異例の暑さになりました。",
-          "en": "Temperatures rose sharply in countries such as France, the United Kingdom, Switzerland, and the Netherlands, bringing unusual June heat to many towns and cities."
         }
       ]
     },
@@ -18223,6 +18277,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
+          "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
+        },
+        {
+          "ja": "大きく目立つわけではなくても、だれかの安心をしっかり支えているところが素敵です。",
+          "en": "Even if it does not stand out, it is wonderful that it quietly supports someone’s sense of safety."
+        },
+        {
           "ja": "ヴィニシウスは狭い角度からシュートを決め、ブラジルの応援席を安心させました。",
           "en": "Vinicius scored from a tight angle, calming the Brazil supporters."
         },
@@ -18695,6 +18757,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ふつうならそのまま通り過ぎてしまいそうな場所でしたが、なぜそこにあるのかが気になりました。",
+          "en": "It was the kind of place I would normally pass without thinking, but I became curious about why it was there."
+        },
+        {
           "ja": "こうした駅のまわりには、買い物ができる店、会社、レストラン、遊べる場所が集まっています。",
           "en": "Around these stations, shops, offices, restaurants, and places for entertainment are gathered together."
         },
@@ -18709,10 +18775,6 @@
         {
           "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
           "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
-        },
-        {
-          "ja": "昔は港や工業用地が多かった場所が、仕事、買い物、遊びを楽しめるエリアに変わっていきました。",
-          "en": "Places that once had many port facilities and industrial sites changed into an area for work, shopping, and entertainment."
         }
       ]
     },
@@ -19135,6 +19197,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "毎日たくさんの人が行き交う東京の駅だからこそ、このような技術がとても自然に街へ溶け込んでいるのかもしれません。",
+          "en": "Because Tokyo stations are used by so many people every day, perhaps this kind of technology blends naturally into the city."
+        },
         {
           "ja": "だから、りんかい線の駅で長いエスカレーターを下りるときは、東京でも特に大きくてお金のかかった鉄道計画の中を移動していると考えることができます。",
           "en": "So when you ride down the long escalators at a Rinkai Line station, you can think of yourself as moving through one of Tokyo's biggest and most expensive railway projects."
@@ -19950,6 +20016,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "毎日たくさんの人が行き交う東京の駅だからこそ、このような技術がとても自然に街へ溶け込んでいるのかもしれません。",
+          "en": "Because Tokyo stations are used by so many people every day, perhaps this kind of technology blends naturally into the city."
+        },
+        {
           "ja": "1964年の東京オリンピックに向けて作られた、日本の技術史でも大切な乗り物です。",
           "en": "It was built for the 1964 Tokyo Olympics, and it is also an important part of Japan's engineering history."
         },
@@ -19964,10 +20034,6 @@
         {
           "ja": "専門家は、技術だけに頼るのではなく、住民どうしの助け合いも大切だと話しています。",
           "en": "Experts say it is important not to rely only on technology, but also on mutual help among residents."
-        },
-        {
-          "ja": "また、防衛だけでなく、経済や技術の分野でも協力を深めることが話題になりました。",
-          "en": "They also discussed deepening cooperation not only in defense but also in the economy and technology."
         }
       ]
     },
@@ -20667,6 +20733,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ほんの小さな発見でしたが、その日から街の見え方が少し変わったように感じました。",
+          "en": "It was only a small discovery, but it made me feel that the way I see the city changed a little that day."
+        },
+        {
           "ja": "すでにある地下鉄、水道や電気の設備、建物の基礎をよけながらトンネルを作るのは、とても大変でした。",
           "en": "Building tunnels while avoiding existing subways, water and electrical infrastructure, and building foundations was extremely difficult."
         },
@@ -20681,10 +20751,6 @@
         {
           "ja": "台風の進路は、数時間で変わることがあります。",
           "en": "A typhoon's path can change within a few hours."
-        },
-        {
-          "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
-          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
         }
       ]
     },
@@ -21934,7 +22000,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "丸の内駅を歩いていたとき、点字ブロックの上に小さなQRコードがついているのを見つけました。",
+          "en": "While walking through Marunouchi Station, I noticed a small QR code attached above the tactile paving."
+        }
+      ]
     },
     {
       "id": "core-6294ba3ea10cd8",
@@ -23390,6 +23461,10 @@
           "meaning": "Plain past form of 変わる: to change, to be transformed",
           "exampleSentences": [
             {
+              "ja": "ほんの小さな発見でしたが、その日から街の見え方が少し変わったように感じました。",
+              "en": "It was only a small discovery, but it made me feel that the way I see the city changed a little that day."
+            },
+            {
               "ja": "台風の進路は、数時間で変わることがあります。",
               "en": "A typhoon's path can change within a few hours."
             },
@@ -23881,24 +23956,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ふつうならそのまま通り過ぎてしまいそうな場所でしたが、なぜそこにあるのかが気になりました。",
+          "en": "It was the kind of place I would normally pass without thinking, but I became curious about why it was there."
+        },
+        {
+          "ja": "普段は何気なく歩いている駅の中にも、このようなやさしい工夫が隠れていると知って、少し驚きました。",
+          "en": "I was a little surprised to learn that this kind of considerate idea was hidden inside a station I usually walk through without much thought."
+        },
+        {
+          "ja": "自分が使う機会がないと、こうした設備にはなかなか気づかないものです。",
+          "en": "If you never have a reason to use such equipment, it is easy not to notice it."
+        },
+        {
+          "ja": "いつもの風景の中にも、まだ気づいていないやさしさや工夫がたくさんあるのだと思います。",
+          "en": "I think there are many more acts of kindness and smart ideas hidden in the familiar scenery around us."
+        },
+        {
           "ja": "レベルが違っても一緒に楽しめるので、初心者にも人気があります。",
           "en": "Because people of different levels can enjoy it together, it is also popular with beginners."
-        },
-        {
-          "ja": "ロッカーや温かいシャワーもあるので、気軽に利用できます。",
-          "en": "There are also lockers and hot showers, so you can use it casually."
-        },
-        {
-          "ja": "すでにある地下鉄、水道や電気の設備、建物の基礎をよけながらトンネルを作るのは、とても大変でした。",
-          "en": "Building tunnels while avoiding existing subways, water and electrical infrastructure, and building foundations was extremely difficult."
-        },
-        {
-          "ja": "フランス、イギリス、スイス、オランダなどで気温が大きく上がり、多くの町で6月としては異例の暑さになりました。",
-          "en": "Temperatures rose sharply in countries such as France, the United Kingdom, Switzerland, and the Netherlands, bringing unusual June heat to many towns and cities."
-        },
-        {
-          "ja": "フランス南西部のピソスでは、気温が43.",
-          "en": "In Pissos in southwestern France, the temperature was reported to have reached 43."
         }
       ]
     },
@@ -23950,7 +24025,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "自分が使う機会がないと、こうした設備にはなかなか気づかないものです。",
+          "en": "If you never have a reason to use such equipment, it is easy not to notice it."
+        }
+      ]
     },
     {
       "id": "core-e254efd684ac0e",
@@ -24326,6 +24406,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
+          "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
+        },
+        {
+          "ja": "大きく目立つわけではなくても、だれかの安心をしっかり支えているところが素敵です。",
+          "en": "Even if it does not stand out, it is wonderful that it quietly supports someone’s sense of safety."
+        },
+        {
           "ja": "東京の中心部へ向かうなら、まず品川へ向かう電車を探しましょう。",
           "en": "If you are heading into central Tokyo, first look for a train going toward Shinagawa."
         },
@@ -24336,14 +24424,6 @@
         {
           "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
           "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
-        },
-        {
-          "ja": "その中心にあるのが、東京を輪のように回る山手線です。",
-          "en": "At the center of that network is the Yamanote Line, which circles Tokyo like a loop."
-        },
-        {
-          "ja": "いくつもの都市中心が鉄道でしっかり結ばれた形で広がってきました。",
-          "en": "It spread in a form where many urban centers were firmly connected by rail."
         }
       ]
     },
@@ -24535,6 +24615,14 @@
           "readingHiragana": "こんで",
           "meaning": "Te-form of 込む: to be crowded, to be packed",
           "exampleSentences": [
+            {
+              "ja": "そこで読み込んでみると、「ShikAI」というサービスにつながりました。",
+              "en": "When I scanned it, it connected to a service called ShikAI."
+            },
+            {
+              "ja": "毎日たくさんの人が行き交う東京の駅だからこそ、このような技術がとても自然に街へ溶け込んでいるのかもしれません。",
+              "en": "Because Tokyo stations are used by so many people every day, perhaps this kind of technology blends naturally into the city."
+            },
             {
               "ja": "中心が遠くても、湿った空気が流れ込むと、雨雲が発達することがあります。",
               "en": "Even when a storm center is far away, moist air can flow in and help rain clouds develop."
@@ -26482,6 +26570,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "毎日たくさんの人が行き交う東京の駅だからこそ、このような技術がとても自然に街へ溶け込んでいるのかもしれません。",
+          "en": "Because Tokyo stations are used by so many people every day, perhaps this kind of technology blends naturally into the city."
+        },
+        {
           "ja": "30秒だけ余分に使って正しい電車を選ぶことで、あとで長い遠回りをしなくてすむかもしれません。",
           "en": "Spending just an extra 30 seconds choosing the right train may save you from a much longer detour later."
         },
@@ -26496,10 +26588,6 @@
         {
           "ja": "もし上場後に株価が下がれば、証券会社は市場で株を買い戻します。",
           "en": "If the share price falls after listing, the securities firms buy shares back in the market."
-        },
-        {
-          "ja": "もし株価が高いままなら、会社から追加の株を買って約束を満たします。",
-          "en": "If the share price stays high, they buy additional shares from the company to meet their commitment."
         }
       ]
     },
@@ -29268,7 +29356,12 @@
           "term": "思います",
           "readingHiragana": "おもいます",
           "meaning": "Polite form of 思う: to think, to consider",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "いつもの風景の中にも、まだ気づいていないやさしさや工夫がたくさんあるのだと思います。",
+              "en": "I think there are many more acts of kindness and smart ideas hidden in the familiar scenery around us."
+            }
+          ]
         },
         {
           "form": "past",
@@ -29660,6 +29753,14 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "普段は何気なく歩いている駅の中にも、このようなやさしい工夫が隠れていると知って、少し驚きました。",
+          "en": "I was a little surprised to learn that this kind of considerate idea was hidden inside a station I usually walk through without much thought."
+        },
+        {
+          "ja": "いつもの風景の中にも、まだ気づいていないやさしさや工夫がたくさんあるのだと思います。",
+          "en": "I think there are many more acts of kindness and smart ideas hidden in the familiar scenery around us."
+        },
         {
           "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
           "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
@@ -31089,6 +31190,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "大きく目立つわけではなくても、だれかの安心をしっかり支えているところが素敵です。",
+          "en": "Even if it does not stand out, it is wonderful that it quietly supports someone’s sense of safety."
+        },
+        {
           "ja": "いくつもの都市中心が鉄道でしっかり結ばれた形で広がってきました。",
           "en": "It spread in a form where many urban centers were firmly connected by rail."
         },
@@ -32092,7 +32197,12 @@
           "term": "過ぎて",
           "readingHiragana": "すぎて",
           "meaning": "Te-form of 過ぎる: to pass through, to pass by",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "ふつうならそのまま通り過ぎてしまいそうな場所でしたが、なぜそこにあるのかが気になりました。",
+              "en": "It was the kind of place I would normally pass without thinking, but I became curious about why it was there."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -33245,6 +33355,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "丸の内駅を歩いていたとき、点字ブロックの上に小さなQRコードがついているのを見つけました。",
+          "en": "While walking through Marunouchi Station, I noticed a small QR code attached above the tactile paving."
+        },
         {
           "ja": "台風7号は21時の時点で、奄美や沖縄に近い東の海上にありました。",
           "en": "As of 9 p.m., Typhoon No. 7 was over waters east of areas near Amami and Okinawa. The forecast says it may move close to the Kanto region by the night of June 27."
@@ -38353,6 +38467,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ふつうならそのまま通り過ぎてしまいそうな場所でしたが、なぜそこにあるのかが気になりました。",
+          "en": "It was the kind of place I would normally pass without thinking, but I became curious about why it was there."
+        },
+        {
           "ja": "こうした駅のまわりには、買い物ができる店、会社、レストラン、遊べる場所が集まっています。",
           "en": "Around these stations, shops, offices, restaurants, and places for entertainment are gathered together."
         },
@@ -38367,10 +38485,6 @@
         {
           "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
           "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
-        },
-        {
-          "ja": "昔は港や工業用地が多かった場所が、仕事、買い物、遊びを楽しめるエリアに変わっていきました。",
-          "en": "Places that once had many port facilities and industrial sites changed into an area for work, shopping, and entertainment."
         }
       ]
     },
@@ -38845,6 +38959,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "自分が使う機会がないと、こうした設備にはなかなか気づかないものです。",
+          "en": "If you never have a reason to use such equipment, it is easy not to notice it."
+        },
+        {
           "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
           "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
         },
@@ -38859,10 +38977,6 @@
         {
           "ja": "速く走る人もいれば、ゆっくり自分のペースで走る人もいます。",
           "en": "Some people run fast, while others run slowly at their own pace."
-        },
-        {
-          "ja": "早く着きたいと思って速い電車に乗ると、自分の駅を通りすぎてしまうことがあります。",
-          "en": "If you board a faster train because you want to arrive quickly, it may pass your station."
         }
       ]
     },
@@ -40083,6 +40197,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "普段は何気なく歩いている駅の中にも、このようなやさしい工夫が隠れていると知って、少し驚きました。",
+          "en": "I was a little surprised to learn that this kind of considerate idea was hidden inside a station I usually walk through without much thought."
+        },
+        {
           "ja": "新しい株の値段を安定させるための金融のしくみです。",
           "en": "It is a financial mechanism for stabilizing the price of new shares."
         },
@@ -40097,10 +40215,6 @@
         {
           "ja": "米の値段が上がっているため、政府は新しい対策を発表しました。",
           "en": "Because rice prices are rising, the government announced new measures."
-        },
-        {
-          "ja": "comは、買い物をする人が商品の値段や評価を調べるときによく使うサービスです。",
-          "en": "com is a service people often use to check prices and reviews before shopping."
         }
       ]
     },
@@ -41246,7 +41360,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "普段は何気なく歩いている駅の中にも、このようなやさしい工夫が隠れていると知って、少し驚きました。",
+          "en": "I was a little surprised to learn that this kind of considerate idea was hidden inside a station I usually walk through without much thought."
+        }
+      ]
     },
     {
       "id": "core-02f491e8415516",
@@ -41981,7 +42100,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "いつもの風景の中にも、まだ気づいていないやさしさや工夫がたくさんあるのだと思います。",
+          "en": "I think there are many more acts of kindness and smart ideas hidden in the familiar scenery around us."
+        }
+      ]
     },
     {
       "id": "core-623b1a9674d109",
@@ -42043,6 +42167,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
+          "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
+        },
+        {
           "ja": "この動きは浅い地震を起こしやすく、地上の建物に強い被害を出すことがあります。",
           "en": "This movement can cause shallow earthquakes, which can heavily damage buildings on the surface."
         },
@@ -42057,10 +42185,6 @@
         {
           "ja": "企業には、災害後も重要な業務を続けるための事業継続計画を作ることが求められます。",
           "en": "Companies will be asked to prepare business continuity plans so they can keep important operations running after a disaster."
-        },
-        {
-          "ja": "気象庁は、台風が通過した後も地盤が緩んでいる場所では土砂災害に警戒するよう求めています。",
-          "en": "The Meteorological Agency is asking people to remain alert for landslides in places where the ground has loosened even after the typhoon passes."
         }
       ]
     },
@@ -43497,7 +43621,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "ほんの小さな発見でしたが、その日から街の見え方が少し変わったように感じました。",
+          "en": "It was only a small discovery, but it made me feel that the way I see the city changed a little that day."
+        }
+      ]
     },
     {
       "id": "core-24c9bbb4711509",
@@ -46287,6 +46416,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ほんの小さな発見でしたが、その日から街の見え方が少し変わったように感じました。",
+          "en": "It was only a small discovery, but it made me feel that the way I see the city changed a little that day."
+        },
+        {
           "ja": "これだけで、電車の選び方がかなり簡単になります。",
           "en": "That alone makes choosing a train much easier."
         },
@@ -46301,10 +46434,6 @@
         {
           "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
           "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
-        },
-        {
-          "ja": "山手線は、ただ人を運ぶだけでなく、東京の街の作られ方そのものを支えているのです。",
-          "en": "The Yamanote Line does not just carry people; it supports the very way Tokyo's cityscape was built."
         }
       ]
     },
@@ -46927,6 +47056,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
+          "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
+        },
+        {
           "ja": "品川に着けば、そこから山手線やほかの路線に乗り換えやすく、都心への移動がしやすくなります。",
           "en": "Once you reach Shinagawa, it is easy to transfer to the Yamanote Line and other routes into the city center."
         },
@@ -46941,10 +47074,6 @@
         {
           "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
-        },
-        {
-          "ja": "頭が痛い、気分が悪いなどの症状がある時は、すぐに涼しい場所へ移動することが大切です。",
-          "en": "If symptoms such as a headache or feeling unwell appear, it is important to move to a cool place right away."
         }
       ]
     },
@@ -49448,6 +49577,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "自分が使う機会がないと、こうした設備にはなかなか気づかないものです。",
+          "en": "If you never have a reason to use such equipment, it is easy not to notice it."
+        },
+        {
           "ja": "京急線では、たくさんの電車がほかの鉄道会社の路線へそのまま入っていきます。",
           "en": "On the Keikyu Line, many trains continue directly onto other railway networks."
         },
@@ -49462,10 +49595,6 @@
         {
           "ja": "これは日本の会社にとって大きなリスクです。",
           "en": "This is a major risk for Japanese companies."
-        },
-        {
-          "ja": "そこでNASAは、アメリカの会社カタリスト・スペースが作った「リンク」という宇宙船を送ります。",
-          "en": "NASA will therefore send a spacecraft called Link, built by the American company Katalyst Space."
         }
       ]
     },
@@ -50697,7 +50826,12 @@
           "term": "隠れて",
           "readingHiragana": "かくれて",
           "meaning": "Te-form of 隠れる: to hide, to be hidden",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "普段は何気なく歩いている駅の中にも、このようなやさしい工夫が隠れていると知って、少し驚きました。",
+              "en": "I was a little surprised to learn that this kind of considerate idea was hidden inside a station I usually walk through without much thought."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -50883,6 +51017,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "丸の内駅を歩いていたとき、点字ブロックの上に小さなQRコードがついているのを見つけました。",
+          "en": "While walking through Marunouchi Station, I noticed a small QR code attached above the tactile paving."
+        },
+        {
           "ja": "山手線は、新宿、渋谷、上野、東京駅、池袋などの大きなエリアをつないでいます。",
           "en": "The Yamanote Line connects major areas such as Shinjuku, Shibuya, Ueno, Tokyo Station, and Ikebukuro."
         },
@@ -50897,10 +51035,6 @@
         {
           "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
           "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
-        },
-        {
-          "ja": "フランス、イギリス、スイス、オランダなどで気温が大きく上がり、多くの町で6月としては異例の暑さになりました。",
-          "en": "Temperatures rose sharply in countries such as France, the United Kingdom, Switzerland, and the Netherlands, bringing unusual June heat to many towns and cities."
         }
       ]
     },
@@ -51235,6 +51369,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ほんの小さな発見でしたが、その日から街の見え方が少し変わったように感じました。",
+          "en": "It was only a small discovery, but it made me feel that the way I see the city changed a little that day."
+        },
+        {
           "ja": "東京がとても便利に感じられる大きな理由の一つは、よく整った鉄道網です。",
           "en": "One big reason Tokyo feels so convenient is its well-developed rail network."
         },
@@ -51249,10 +51387,6 @@
         {
           "ja": "今回の引き分けで、今年も強い相手になりそうだと感じさせました。",
           "en": "This draw made people feel that Morocco may again be a strong opponent this year."
-        },
-        {
-          "ja": "地元の人は、列車のおかげで町に活気が戻ってきたと感じています。",
-          "en": "Local people feel the train is bringing energy back to the town."
         }
       ]
     },
@@ -52582,6 +52716,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
+          "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
+        },
+        {
           "ja": "品川に着けば、そこから山手線やほかの路線に乗り換えやすく、都心への移動がしやすくなります。",
           "en": "Once you reach Shinagawa, it is easy to transfer to the Yamanote Line and other routes into the city center."
         },
@@ -52596,10 +52734,6 @@
         {
           "ja": "だから、りんかい線の駅で長いエスカレーターを下りるときは、東京でも特に大きくてお金のかかった鉄道計画の中を移動していると考えることができます。",
           "en": "So when you ride down the long escalators at a Rinkai Line station, you can think of yourself as moving through one of Tokyo's biggest and most expensive railway projects."
-        },
-        {
-          "ja": "60年以上たった今でも、東京モノレールは毎日動いています。",
-          "en": "Even more than 60 years later, Tokyo Monorail still runs every day."
         }
       ]
     },
@@ -54263,6 +54397,10 @@
         {
           "ja": "観光だけでなく、地域の経済を元気にする役割も期待されています。",
           "en": "The train is expected not only to support tourism but also to help energize the regional economy."
+        },
+        {
+          "ja": "ふつうならそのまま通り過ぎてしまいそうな場所でしたが、なぜそこにあるのかが気になりました。",
+          "en": "It was the kind of place I would normally pass without thinking, but I became curious about why it was there."
         },
         {
           "ja": "細かい水を空気に出して、少しでも涼しくすることが目的です。",
@@ -56594,7 +56732,16 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "普段は何気なく歩いている駅の中にも、このようなやさしい工夫が隠れていると知って、少し驚きました。",
+          "en": "I was a little surprised to learn that this kind of considerate idea was hidden inside a station I usually walk through without much thought."
+        },
+        {
+          "ja": "いつもの風景の中にも、まだ気づいていないやさしさや工夫がたくさんあるのだと思います。",
+          "en": "I think there are many more acts of kindness and smart ideas hidden in the familiar scenery around us."
+        }
+      ]
     },
     {
       "id": "core-c8c7fd1f001a79",
@@ -58711,7 +58858,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "丸の内駅を歩いていたとき、点字ブロックの上に小さなQRコードがついているのを見つけました。",
+          "en": "While walking through Marunouchi Station, I noticed a small QR code attached above the tactile paving."
+        }
+      ]
     },
     {
       "id": "core-b2f5ff88e69214",
@@ -66883,6 +67035,10 @@
           "meaning": "Te-form of 支える: to support, to prop",
           "exampleSentences": [
             {
+              "ja": "大きく目立つわけではなくても、だれかの安心をしっかり支えているところが素敵です。",
+              "en": "Even if it does not stand out, it is wonderful that it quietly supports someone’s sense of safety."
+            },
+            {
               "ja": "山手線は、ただ人を運ぶだけでなく、東京の街の作られ方そのものを支えているのです。",
               "en": "The Yamanote Line does not just carry people; it supports the very way Tokyo's cityscape was built."
             },
@@ -66897,10 +67053,6 @@
             {
               "ja": "たくさん買うことで、株価を支える力になります。",
               "en": "Buying many shares can help support the price."
-            },
-            {
-              "ja": "家計への負担を軽くするため、小売店や農家を支える仕組みを増やすとしています。",
-              "en": "To reduce the burden on households, it plans to expand support systems for retailers and farmers."
             }
           ]
         },
@@ -68136,6 +68288,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "自分が使う機会がないと、こうした設備にはなかなか気づかないものです。",
+          "en": "If you never have a reason to use such equipment, it is easy not to notice it."
+        },
+        {
           "ja": "すでにある地下鉄、水道や電気の設備、建物の基礎をよけながらトンネルを作るのは、とても大変でした。",
           "en": "Building tunnels while avoiding existing subways, water and electrical infrastructure, and building foundations was extremely difficult."
         },
@@ -68150,10 +68306,6 @@
         {
           "ja": "暑い日が早く増えているため、いくつかの都市で駅前広場のミスト設備を増やす計画が始まりました。",
           "en": "Because hot days are coming earlier, some cities have begun plans to increase mist systems in station plazas."
-        },
-        {
-          "ja": "安定して出荷するために、新しい設備や管理方法の導入が進められています。",
-          "en": "New equipment and management methods are being introduced to maintain stable shipments."
         }
       ]
     },
@@ -70061,7 +70213,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "毎日たくさんの人が行き交う東京の駅だからこそ、このような技術がとても自然に街へ溶け込んでいるのかもしれません。",
+          "en": "Because Tokyo stations are used by so many people every day, perhaps this kind of technology blends naturally into the city."
+        }
+      ]
     },
     {
       "id": "core-d8f67d4b5a6015",
@@ -70500,7 +70657,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
+          "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
+        }
+      ]
     },
     {
       "id": "core-f2cf3e4bde4352",
@@ -72620,7 +72782,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "大きく目立つわけではなくても、だれかの安心をしっかり支えているところが素敵です。",
+          "en": "Even if it does not stand out, it is wonderful that it quietly supports someone’s sense of safety."
+        }
+      ]
     },
     {
       "id": "core-521014f576cfc2",
@@ -74755,7 +74922,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "大きく目立つわけではなくても、だれかの安心をしっかり支えているところが素敵です。",
+          "en": "Even if it does not stand out, it is wonderful that it quietly supports someone’s sense of safety."
+        }
+      ]
     },
     {
       "id": "core-8c818657b0be65",
@@ -75649,6 +75821,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ふつうならそのまま通り過ぎてしまいそうな場所でしたが、なぜそこにあるのかが気になりました。",
+          "en": "It was the kind of place I would normally pass without thinking, but I became curious about why it was there."
+        },
+        {
           "ja": "早く着きたいと思って速い電車に乗ると、自分の駅を通りすぎてしまうことがあります。",
           "en": "If you board a faster train because you want to arrive quickly, it may pass your station."
         }
@@ -75705,7 +75881,12 @@
           "term": "通り過ぎて",
           "readingHiragana": "とおりすぎて",
           "meaning": "Te-form of 通り過ぎる: to pass through",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "ふつうならそのまま通り過ぎてしまいそうな場所でしたが、なぜそこにあるのかが気になりました。",
+              "en": "It was the kind of place I would normally pass without thinking, but I became curious about why it was there."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -79671,7 +79852,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "そこで読み込んでみると、「ShikAI」というサービスにつながりました。",
+          "en": "When I scanned it, it connected to a service called ShikAI."
+        }
+      ]
     },
     {
       "id": "core-fc4818a042baf2",
@@ -80175,6 +80361,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "毎日たくさんの人が行き交う東京の駅だからこそ、このような技術がとても自然に街へ溶け込んでいるのかもしれません。",
+          "en": "Because Tokyo stations are used by so many people every day, perhaps this kind of technology blends naturally into the city."
+        },
+        {
           "ja": "そのため、車両に表示される行き先は、自分が降りる駅よりずっと先の地名であることもあります。",
           "en": "Because of that, the destination shown on the train may be a place name far beyond the station where you plan to get off."
         },
@@ -80189,10 +80379,6 @@
         {
           "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
           "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
-        },
-        {
-          "ja": "乗る前に、発車標で行き先と種別の両方を確認しましょう。",
-          "en": "Before getting on, check both the destination and the service type on the departure board."
         }
       ]
     },
@@ -81090,6 +81276,210 @@
       "exampleSentences": []
     },
     {
+      "id": "article-f31cce1be4a89e",
+      "level": "N3",
+      "term": "点字ブロック",
+      "reading": "てんじブロック",
+      "readingHiragana": "てんじぶろっく",
+      "meaning": "Tactile paving",
+      "source": "article",
+      "sourceId": "2026-07-06-marunouchi-shikai",
+      "sourceTitle": "駅の点字ブロックの小さなQRコードがやさしい移動サポートにつながっていた",
+      "sourceLabel": "7/6 点字QRコード",
+      "sourceHref": "./2026-07-06-marunouchi-shikai.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-06-marunouchi-shikai"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "丸の内駅を歩いていたとき、点字ブロックの上に小さなQRコードがついているのを見つけました。",
+          "en": "While walking through Marunouchi Station, I noticed a small QR code attached above the tactile paving."
+        }
+      ]
+    },
+    {
+      "id": "article-18986c696a551b",
+      "level": "N3",
+      "term": "視覚障害",
+      "reading": "しかくしょうがい",
+      "readingHiragana": "しかくしょうがい",
+      "meaning": "Visual impairment",
+      "source": "article",
+      "sourceId": "2026-07-06-marunouchi-shikai",
+      "sourceTitle": "駅の点字ブロックの小さなQRコードがやさしい移動サポートにつながっていた",
+      "sourceLabel": "7/6 点字QRコード",
+      "sourceHref": "./2026-07-06-marunouchi-shikai.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-06-marunouchi-shikai"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
+          "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
+        }
+      ]
+    },
+    {
+      "id": "article-03078e3b2ffe3a",
+      "level": "N3",
+      "term": "安心",
+      "reading": "あんしん",
+      "readingHiragana": "あんしん",
+      "meaning": "Peace of mind / Safety",
+      "source": "article",
+      "sourceId": "2026-07-06-marunouchi-shikai",
+      "sourceTitle": "駅の点字ブロックの小さなQRコードがやさしい移動サポートにつながっていた",
+      "sourceLabel": "7/6 点字QRコード",
+      "sourceHref": "./2026-07-06-marunouchi-shikai.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-06-marunouchi-shikai"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
+          "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
+        },
+        {
+          "ja": "大きく目立つわけではなくても、だれかの安心をしっかり支えているところが素敵です。",
+          "en": "Even if it does not stand out, it is wonderful that it quietly supports someone’s sense of safety."
+        },
+        {
+          "ja": "ヴィニシウスは狭い角度からシュートを決め、ブラジルの応援席を安心させました。",
+          "en": "Vinicius scored from a tight angle, calming the Brazil supporters."
+        },
+        {
+          "ja": "ふだんの便利さだけでなく、もしものときの安心にもつなげたいとしています。",
+          "en": "The goal is to provide not only everyday convenience but also reassurance in emergencies."
+        },
+        {
+          "ja": "利用者が安心して使えるように、わかりやすい表示や説明も必要になりそうです。",
+          "en": "Clear displays and explanations will also be needed so guests can use the system with confidence."
+        }
+      ]
+    },
+    {
+      "id": "article-570a369e876143",
+      "level": "N3",
+      "term": "移動する",
+      "reading": "いどうする",
+      "readingHiragana": "いどうする",
+      "meaning": "To move / To travel",
+      "source": "article",
+      "sourceId": "2026-07-06-marunouchi-shikai",
+      "sourceTitle": "駅の点字ブロックの小さなQRコードがやさしい移動サポートにつながっていた",
+      "sourceLabel": "7/6 点字QRコード",
+      "sourceHref": "./2026-07-06-marunouchi-shikai.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-06-marunouchi-shikai"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "頭が痛い、気分が悪いなどの症状がある時は、すぐに涼しい場所へ移動することが大切です。",
+          "en": "If symptoms such as a headache or feeling unwell appear, it is important to move to a cool place right away."
+        },
+        {
+          "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
+          "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
+        },
+        {
+          "ja": "品川に着けば、そこから山手線やほかの路線に乗り換えやすく、都心への移動がしやすくなります。",
+          "en": "Once you reach Shinagawa, it is easy to transfer to the Yamanote Line and other routes into the city center."
+        },
+        {
+          "ja": "電車で移動しやすいので、車だけに頼らなくても暮らしやすくなります。",
+          "en": "Because it is easy to move by train, life becomes easier without relying only on cars."
+        },
+        {
+          "ja": "だから、りんかい線の駅で長いエスカレーターを下りるときは、東京でも特に大きくてお金のかかった鉄道計画の中を移動していると考えることができます。",
+          "en": "So when you ride down the long escalators at a Rinkai Line station, you can think of yourself as moving through one of Tokyo's biggest and most expensive railway projects."
+        }
+      ]
+    },
+    {
+      "id": "article-677cc335f30366",
+      "level": "N3",
+      "term": "設備",
+      "reading": "せつび",
+      "readingHiragana": "せつび",
+      "meaning": "Facility / Equipment",
+      "source": "article",
+      "sourceId": "2026-07-06-marunouchi-shikai",
+      "sourceTitle": "駅の点字ブロックの小さなQRコードがやさしい移動サポートにつながっていた",
+      "sourceLabel": "7/6 点字QRコード",
+      "sourceHref": "./2026-07-06-marunouchi-shikai.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-06-marunouchi-shikai"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "自分が使う機会がないと、こうした設備にはなかなか気づかないものです。",
+          "en": "If you never have a reason to use such equipment, it is easy not to notice it."
+        },
+        {
+          "ja": "すでにある地下鉄、水道や電気の設備、建物の基礎をよけながらトンネルを作るのは、とても大変でした。",
+          "en": "Building tunnels while avoiding existing subways, water and electrical infrastructure, and building foundations was extremely difficult."
+        },
+        {
+          "ja": "五輪のために生まれた設備が、長い時間をへても役立ち続けているのはおもしろいことです。",
+          "en": "It is interesting that a facility born for the Olympics has continued to be useful for a long time."
+        },
+        {
+          "ja": "ひとりでは高くて持てない設備を共同で利用する考えです。",
+          "en": "The idea is to share equipment that is too expensive for one person to own alone."
+        },
+        {
+          "ja": "暑い日が早く増えているため、いくつかの都市で駅前広場のミスト設備を増やす計画が始まりました。",
+          "en": "Because hot days are coming earlier, some cities have begun plans to increase mist systems in station plazas."
+        }
+      ]
+    },
+    {
+      "id": "article-a02cf1fe7a41fb",
+      "level": "N3",
+      "term": "溶け込む",
+      "reading": "とけこむ",
+      "readingHiragana": "とけこむ",
+      "meaning": "To blend in",
+      "source": "article",
+      "sourceId": "2026-07-06-marunouchi-shikai",
+      "sourceTitle": "駅の点字ブロックの小さなQRコードがやさしい移動サポートにつながっていた",
+      "sourceLabel": "7/6 点字QRコード",
+      "sourceHref": "./2026-07-06-marunouchi-shikai.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-06-marunouchi-shikai"
+      ],
+      "exampleSentences": []
+    },
+    {
+      "id": "article-ed06d00d8a2de9",
+      "level": "N3",
+      "term": "風景",
+      "reading": "ふうけい",
+      "readingHiragana": "ふうけい",
+      "meaning": "Scenery / Scene",
+      "source": "article",
+      "sourceId": "2026-07-06-marunouchi-shikai",
+      "sourceTitle": "駅の点字ブロックの小さなQRコードがやさしい移動サポートにつながっていた",
+      "sourceLabel": "7/6 点字QRコード",
+      "sourceHref": "./2026-07-06-marunouchi-shikai.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-06-marunouchi-shikai"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "いつもの風景の中にも、まだ気づいていないやさしさや工夫がたくさんあるのだと思います。",
+          "en": "I think there are many more acts of kindness and smart ideas hidden in the familiar scenery around us."
+        }
+      ]
+    },
+    {
       "id": "article-1564fe4df9ef41",
       "level": "N3",
       "term": "目的地",
@@ -81913,6 +82303,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "自分が使う機会がないと、こうした設備にはなかなか気づかないものです。",
+          "en": "If you never have a reason to use such equipment, it is easy not to notice it."
+        },
+        {
           "ja": "すでにある地下鉄、水道や電気の設備、建物の基礎をよけながらトンネルを作るのは、とても大変でした。",
           "en": "Building tunnels while avoiding existing subways, water and electrical infrastructure, and building foundations was extremely difficult."
         },
@@ -81927,10 +82321,6 @@
         {
           "ja": "暑い日が早く増えているため、いくつかの都市で駅前広場のミスト設備を増やす計画が始まりました。",
           "en": "Because hot days are coming earlier, some cities have begun plans to increase mist systems in station plazas."
-        },
-        {
-          "ja": "安定して出荷するために、新しい設備や管理方法の導入が進められています。",
-          "en": "New equipment and management methods are being introduced to maintain stable shipments."
         }
       ]
     },
@@ -86551,6 +86941,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "自分が使う機会がないと、こうした設備にはなかなか気づかないものです。",
+          "en": "If you never have a reason to use such equipment, it is easy not to notice it."
+        },
+        {
           "ja": "すでにある地下鉄、水道や電気の設備、建物の基礎をよけながらトンネルを作るのは、とても大変でした。",
           "en": "Building tunnels while avoiding existing subways, water and electrical infrastructure, and building foundations was extremely difficult."
         },
@@ -86565,10 +86959,6 @@
         {
           "ja": "暑い日が早く増えているため、いくつかの都市で駅前広場のミスト設備を増やす計画が始まりました。",
           "en": "Because hot days are coming earlier, some cities have begun plans to increase mist systems in station plazas."
-        },
-        {
-          "ja": "安定して出荷するために、新しい設備や管理方法の導入が進められています。",
-          "en": "New equipment and management methods are being introduced to maintain stable shipments."
         }
       ]
     },
@@ -87555,6 +87945,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "自分が使う機会がないと、こうした設備にはなかなか気づかないものです。",
+          "en": "If you never have a reason to use such equipment, it is easy not to notice it."
+        },
+        {
           "ja": "すでにある地下鉄、水道や電気の設備、建物の基礎をよけながらトンネルを作るのは、とても大変でした。",
           "en": "Building tunnels while avoiding existing subways, water and electrical infrastructure, and building foundations was extremely difficult."
         },
@@ -87569,10 +87963,6 @@
         {
           "ja": "暑い日が早く増えているため、いくつかの都市で駅前広場のミスト設備を増やす計画が始まりました。",
           "en": "Because hot days are coming earlier, some cities have begun plans to increase mist systems in station plazas."
-        },
-        {
-          "ja": "安定して出荷するために、新しい設備や管理方法の導入が進められています。",
-          "en": "New equipment and management methods are being introduced to maintain stable shipments."
         }
       ]
     },
