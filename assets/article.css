@@ -655,8 +655,9 @@ p {
     margin: 0 0 18px;
     font-size: clamp(1.06rem, 1.1vw + 0.86rem, 1.22rem);
     text-align: left;
-    word-break: auto-phrase;
-    overflow-wrap: break-word;
+    word-break: normal;
+    line-break: strict;
+    overflow-wrap: normal;
 }
 
 .article-paragraph {
@@ -1323,8 +1324,9 @@ body.recording-mode p {
     font-size: var(--recording-body-size);
     line-height: var(--recording-body-line-height);
     text-align: left;
-    word-break: auto-phrase;
-    overflow-wrap: break-word;
+    word-break: normal;
+    line-break: strict;
+    overflow-wrap: normal;
 }
 
 body.recording-mode p:last-of-type {
