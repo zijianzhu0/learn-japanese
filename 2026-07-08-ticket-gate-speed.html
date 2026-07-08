@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>東京の駅の改札が混んでいても流れにくいのは見えない速い処理があるから</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <script>
+        (() => {
+            try {
+                const storedTheme = window.localStorage.getItem('learnJapanese.theme');
+                const theme = storedTheme === 'dark' || storedTheme === 'light'
+                    ? storedTheme
+                    : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                document.documentElement.dataset.theme = theme;
+                document.documentElement.style.colorScheme = theme;
+            } catch (error) {
+                document.documentElement.dataset.theme = 'light';
+                document.documentElement.style.colorScheme = 'light';
+            }
+        })();
+    </script>
+    <link rel="stylesheet" href="./assets/article.css?v=2501f9242bce">
+</head>
+<body id="top" data-article-id="2026-07-08-ticket-gate-speed" data-recording-download-name="2026-07-08-ticket-gate-speed.mp4">
+<nav class="top-nav" aria-label="Page navigation"></nav>
+<div class="article-shell">
+    <aside class="article-sidebar" aria-label="Article navigation"></aside>
+    <main class="article-main">
+
+<div class="container">
+    <div class="date">2026年7月8日</div>
+    <div class="article-toolbar">
+        <div class="voice-controls">
+            <button class="toolbar-icon-button voice-menu-toggle" type="button" id="voice-menu-toggle" aria-expanded="false" aria-controls="voice-settings-menu" aria-label="Voice settings" data-tooltip="Voice settings">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 10v4"></path>
+                    <path d="M8 7v10"></path>
+                    <path d="M12 4v16"></path>
+                    <path d="M16 7v10"></path>
+                    <path d="M20 10v4"></path>
+                </svg>
+                <span class="icon-label">Voice settings</span>
+            </button>
+            <div class="voice-current-status" id="voice-current-status" aria-live="polite">Docker VOICEVOX</div>
+            <button class="audio-enable-button" type="button" id="enable-docker-audio" hidden>Enable audio</button>
+            <div class="voice-settings-menu" id="voice-settings-menu" hidden>
+                <label class="toolbar-label" for="browser-voice">Browser Voice</label>
+                <select class="voice-select" id="browser-voice" aria-label="Browser voice">
+                    <option value="auto" selected>Google 日本語</option>
+                </select>
+            </div>
+        </div>
+        <div class="article-actions" aria-label="Article actions">
+            <button class="toolbar-icon-button preview-button" type="button" id="preview-recording-mode" aria-label="Preview recording mode" data-tooltip="Preview recording mode">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M2 12s3.8-6 10-6 10 6 10 6-3.8 6-10 6-10-6-10-6z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+                <span class="icon-label">Preview recording mode</span>
+            </button>
+            <button class="toolbar-icon-button video-button" type="button" id="render-video" aria-label="Render video" data-tooltip="Render video" data-default-label="Render video" data-active-label="Recording">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M5 6h11a2 2 0 0 1 2 2v1l3-2v10l-3-2v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"></path>
+                    <path d="M9 10.5v3l3-1.5z"></path>
+                </svg>
+                <span class="icon-label">Render video</span>
+            </button>
+            <button class="toolbar-icon-button cover-button" type="button" id="download-cover" aria-label="Download video cover" data-tooltip="Download cover" data-default-label="Download cover" data-active-label="Rendering cover">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                    <circle cx="8.5" cy="10" r="1.5"></circle>
+                    <path d="m21 15-5-5L5 19"></path>
+                </svg>
+                <span class="icon-label">Download cover</span>
+            </button>
+            <button class="toolbar-icon-button speak-button" type="button" id="speak-japanese-article" aria-label="Read aloud" data-tooltip="Read aloud" data-default-label="Read aloud" data-active-label="Stop reading" data-loading-label="Preparing audio">
+                <svg class="toolbar-svg icon-read" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 10v4h4l5 4V6L8 10z"></path>
+                    <path d="M16 9c1.8 1.8 1.8 4.2 0 6"></path>
+                    <path d="M18.5 6.5c3.3 3.3 3.3 7.7 0 11"></path>
+                </svg>
+                <svg class="toolbar-svg icon-stop" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 8h8v8H8z"></path>
+                </svg>
+                <span class="icon-label">Read aloud</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-japanese-article" aria-label="Copy Japanese article" data-tooltip="Copy Japanese article">
+                <span class="copy-language-icon" aria-hidden="true">あ</span>
+                <span class="icon-label">Copy Japanese article</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-english-translation" aria-label="Copy English translation" data-tooltip="Copy English translation">
+                <span class="copy-language-icon" aria-hidden="true">A</span>
+                <span class="icon-label">Copy English translation</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-bilingual-article" aria-label="Copy Japanese and English article" data-tooltip="Copy Japanese and English article">
+                <span class="copy-language-icon copy-language-icon-wide" aria-hidden="true">あ/A</span>
+                <span class="icon-label">Copy Japanese and English article</span>
+            </button>
+        </div>
+    </div>
+    <div class="copy-status" id="copy-status" aria-live="polite"></div>
+    <audio class="audio-player" id="tts-player" controls hidden preload="none"></audio>
+    <h1><ruby>東京<rt>とうきょう</rt></ruby>の<ruby>駅<rt>えき</rt></ruby>の<ruby>改札<rt>かいさつ</rt></ruby>が<ruby>混<rt>こ</rt></ruby>んでいても<ruby>流<rt>なが</rt></ruby>れにくいのは<ruby>見<rt>み</rt></ruby>えない<ruby>速<rt>はや</rt></ruby>い<ruby>処理<rt>しょり</rt></ruby>があるから</h1>
+    <div class="source-note">ユーザー提供の東京の駅の改札機の速さについての説明文をもとにしたN3レベルの学習用ページです。</div>
+
+
+    <p class="article-paragraph"><ruby>東京<rt>とうきょう</rt></ruby>の<ruby>駅<rt>えき</rt></ruby>では、<ruby>朝<rt>あさ</rt></ruby>のラッシュ<ruby>時<rt>じ</rt></ruby>でも<ruby>改札<rt>かいさつ</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>に<ruby>長<rt>なが</rt></ruby>い<ruby>列<rt>れつ</rt></ruby>ができることは<ruby>意外<rt>いがい</rt></ruby>と<ruby>少<rt>すく</rt></ruby>ないです。<ruby>毎日<rt>まいにち</rt></ruby><ruby>何百万人<rt>なんびゃくまんにん</rt></ruby>もの<ruby>乗客<rt>じょうきゃく</rt></ruby>が<ruby>利用<rt>りよう</rt></ruby>しているのに、<ruby>多<rt>おお</rt></ruby>くの<ruby>人<rt>ひと</rt></ruby>はほんの<ruby>一瞬<rt>いっしゅん</rt></ruby>で<ruby>通過<rt>つうか</rt></ruby>できます。</p>
+    <div class="sentence-translation">At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates. Even though millions of passengers use them every day, most people can pass through in just a moment.</div>
+    <p class="article-paragraph">その<ruby>理由<rt>りゆう</rt></ruby>の<ruby>一<rt>ひと</rt></ruby>つは、ICカードの<ruby>残高確認<rt>ざんだかかくにん</rt></ruby>や<ruby>運賃計算<rt>うんちんけいさん</rt></ruby>が、<ruby>改札機<rt>かいさつき</rt></ruby>の<ruby>中<rt>なか</rt></ruby>でとても<ruby>速<rt>はや</rt></ruby>く<ruby>処理<rt>しょり</rt></ruby>されるように<ruby>設計<rt>せっけい</rt></ruby>されていることです。<ruby>外<rt>そと</rt></ruby>のサーバーとの<ruby>通信<rt>つうしん</rt></ruby>を<ruby>長<rt>なが</rt></ruby>く<ruby>待<rt>ま</rt></ruby>たなくてもいいので、<ruby>流<rt>なが</rt></ruby>れが<ruby>止<rt>と</rt></ruby>まりにくくなっています。</p>
+    <div class="sentence-translation">One reason is that balance checks and fare calculations for IC cards are designed to be processed very quickly inside the ticket gate itself. Because there is little need to wait on long communication with an outside server, the flow is less likely to stop.</div>
+    <p class="article-paragraph">そのため、<ruby>駅<rt>えき</rt></ruby>が<ruby>混雑<rt>こんざつ</rt></ruby>しているときでも、たくさんの<ruby>人<rt>ひと</rt></ruby>がほぼ<ruby>同<rt>おな</rt></ruby>じ<ruby>速<rt>はや</rt></ruby>さで<ruby>進<rt>すす</rt></ruby>めます。<ruby>利用者<rt>りようしゃ</rt></ruby>はカードをタッチするだけでよく、<ruby>複雑<rt>ふくざつ</rt></ruby>な<ruby>計算<rt>けいさん</rt></ruby>や<ruby>確認<rt>かくにん</rt></ruby>を<ruby>意識<rt>いしき</rt></ruby>する<ruby>必要<rt>ひつよう</rt></ruby>はほとんどありません。</p>
+    <div class="sentence-translation">Because of that, even when a station is crowded, many people can keep moving at almost the same speed. Users only need to tap their card, and they hardly need to think about the complex calculations and checks happening behind the scenes.</div>
+    <p class="article-paragraph">もちろん、ただ<ruby>速<rt>はや</rt></ruby>いだけではなく、<ruby>不正利用<rt>ふせいりよう</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐための<ruby>仕組<rt>しく</rt></ruby>みもしっかり<ruby>組<rt>く</rt></ruby>み<ruby>込<rt>こ</rt></ruby>まれています。<ruby>速<rt>はや</rt></ruby>さと<ruby>安全性<rt>あんぜんせい</rt></ruby>を<ruby>両立<rt>りょうりつ</rt></ruby>しているからこそ、<ruby>毎日<rt>まいにち</rt></ruby>の<ruby>大<rt>おお</rt></ruby>きな<ruby>移動<rt>いどう</rt></ruby>が<ruby>安定<rt>あんてい</rt></ruby>して<ruby>続<rt>つづ</rt></ruby>けられるのです。</p>
+    <div class="sentence-translation">Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably.</div>
+    <p class="article-paragraph"><ruby>普段<rt>ふだん</rt></ruby>は<ruby>当<rt>あ</rt></ruby>たり<ruby>前<rt>まえ</rt></ruby>のように<ruby>使<rt>つか</rt></ruby>っている<ruby>改札<rt>かいさつ</rt></ruby>ですが、その<ruby>裏<rt>うら</rt></ruby>には<ruby>日本<rt>にほん</rt></ruby>ならではの<ruby>高<rt>たか</rt></ruby>い<ruby>技術<rt>ぎじゅつ</rt></ruby>と<ruby>緻密<rt>ちみつ</rt></ruby>なシステム<ruby>設計<rt>せっけい</rt></ruby>が<ruby>詰<rt>つ</rt></ruby>まっています。<ruby>何気<rt>なにげ</rt></ruby>ない<ruby>通勤<rt>つうきん</rt></ruby>の<ruby>風景<rt>ふうけい</rt></ruby>にも、<ruby>見<rt>み</rt></ruby>えにくい<ruby>工夫<rt>くふう</rt></ruby>がたくさんかくれているのです。</p>
+    <div class="sentence-translation">We usually use ticket gates as if they were completely ordinary, but behind them are advanced technology and precise system design that feel very characteristic of Japan. Even in an everyday commuting scene, many hard-to-see innovations are hidden.</div>
+    <div class="recording-footer" aria-hidden="true">
+        <span>英訳はコメント欄にあります</span>
+        <span>2026年7月8日</span>
+    </div>
+
+    <div class="vocabulary-box">
+        <h2>N3 Vocabulary</h2>
+        <ul>
+            <li><strong>改札（かいさつ）:</strong> Ticket gate</li>
+            <li><strong>残高確認（ざんだかかくにん）:</strong> Balance check</li>
+            <li><strong>運賃計算（うんちんけいさん）:</strong> Fare calculation</li>
+            <li><strong>通信（つうしん）:</strong> Communication / Data transmission</li>
+            <li><strong>混雑（こんざつ）:</strong> Crowding / Congestion</li>
+            <li><strong>不正利用（ふせいりよう）:</strong> Fraudulent use / Misuse</li>
+            <li><strong>緻密（ちみつ）:</strong> Precise / Detailed</li>
+        </ul>
+    </div>
+</div>
+    </main>
+</div>
+
+<script src="./assets/theme.js"></script>
+<script src="./assets/article.js?v=04a59d323d82"></script>
+
+</body>
+</html>

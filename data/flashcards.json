@@ -4,7 +4,7 @@
     "articleManifest": "data/articles.json"
   },
   "levels": {
-    "N3": 2015,
+    "N3": 2022,
     "N4": 536,
     "N5": 553
   },
@@ -692,6 +692,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
+          "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
+        },
         {
           "ja": "女性は土曜日の朝、岸に近い場所で泳いでいました。",
           "en": "She was swimming near the shore on Saturday morning."
@@ -2418,6 +2422,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
+          "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
+        },
+        {
+          "ja": "そのため、駅が混雑しているときでも、たくさんの人がほぼ同じ速さで進めます。",
+          "en": "Because of that, even when a station is crowded, many people can keep moving at almost the same speed."
+        },
+        {
           "ja": "丸の内駅を歩いていたとき、点字ブロックの上に小さなQRコードがついているのを見つけました。",
           "en": "While walking through Marunouchi Station, I noticed a small QR code attached above the tactile paving."
         },
@@ -2428,14 +2440,6 @@
         {
           "ja": "普段は何気なく歩いている駅の中にも、このようなやさしい工夫が隠れていると知って、少し驚きました。",
           "en": "I was a little surprised to learn that this kind of considerate idea was hidden inside a station I usually walk through without much thought."
-        },
-        {
-          "ja": "毎日たくさんの人が行き交う東京の駅だからこそ、このような技術がとても自然に街へ溶け込んでいるのかもしれません。",
-          "en": "Because Tokyo stations are used by so many people every day, perhaps this kind of technology blends naturally into the city."
-        },
-        {
-          "ja": "そのため、車両に表示される行き先は、自分が降りる駅よりずっと先の地名であることもあります。",
-          "en": "Because of that, the destination shown on the train may be a place name far beyond the station where you plan to get off."
         }
       ]
     },
@@ -4142,6 +4146,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "もちろん、ただ速いだけではなく、不正利用を防ぐための仕組みもしっかり組み込まれています。",
+          "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
+        },
+        {
           "ja": "早く着きたいと思って速い電車に乗ると、自分の駅を通りすぎてしまうことがあります。",
           "en": "If you board a faster train because you want to arrive quickly, it may pass your station."
         },
@@ -4216,24 +4224,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "毎日何百万人もの乗客が利用しているのに、多くの人はほんの一瞬で通過できます。",
+          "en": "Even though millions of passengers use them every day, most people can pass through in just a moment."
+        },
+        {
+          "ja": "速さと安全性を両立しているからこそ、毎日の大きな移動が安定して続けられるのです。",
+          "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
+        },
+        {
+          "ja": "普段は当たり前のように使っている改札ですが、その裏には日本ならではの高い技術と緻密なシステム設計が詰まっています。",
+          "en": "We usually use ticket gates as if they were completely ordinary, but behind them are advanced technology and precise system design that feel very characteristic of Japan."
+        },
+        {
           "ja": "毎日たくさんの人が行き交う東京の駅だからこそ、このような技術がとても自然に街へ溶け込んでいるのかもしれません。",
           "en": "Because Tokyo stations are used by so many people every day, perhaps this kind of technology blends naturally into the city."
         },
         {
           "ja": "ほんの小さな発見でしたが、その日から街の見え方が少し変わったように感じました。",
           "en": "It was only a small discovery, but it made me feel that the way I see the city changed a little that day."
-        },
-        {
-          "ja": "このコースは東京でとても有名で、毎日たくさんの人が走っています。",
-          "en": "This course is very famous in Tokyo, and many people run there every day."
-        },
-        {
-          "ja": "1964年の東京オリンピックに向けて作られた、日本の技術史でも大切な乗り物です。",
-          "en": "It was built for the 1964 Tokyo Olympics, and it is also an important part of Japan's engineering history."
-        },
-        {
-          "ja": "開業日は1964年9月17日で、オリンピックが始まる10月10日より数週間前でした。",
-          "en": "It opened on September 17, 1964, only a few weeks before the Olympics began on October 10."
         }
       ]
     },
@@ -4291,6 +4299,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
+          "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
+        },
+        {
           "ja": "毎日たくさんの人が行き交う東京の駅だからこそ、このような技術がとても自然に街へ溶け込んでいるのかもしれません。",
           "en": "Because Tokyo stations are used by so many people every day, perhaps this kind of technology blends naturally into the city."
         },
@@ -4305,10 +4317,6 @@
         {
           "ja": "その中心にあるのが、東京を輪のように回る山手線です。",
           "en": "At the center of that network is the Yamanote Line, which circles Tokyo like a loop."
-        },
-        {
-          "ja": "山手線は、新宿、渋谷、上野、東京駅、池袋などの大きなエリアをつないでいます。",
-          "en": "The Yamanote Line connects major areas such as Shinjuku, Shibuya, Ueno, Tokyo Station, and Ikebukuro."
         }
       ]
     },
@@ -4589,6 +4597,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "毎日何百万人もの乗客が利用しているのに、多くの人はほんの一瞬で通過できます。",
+          "en": "Even though millions of passengers use them every day, most people can pass through in just a moment."
+        },
+        {
+          "ja": "そのため、駅が混雑しているときでも、たくさんの人がほぼ同じ速さで進めます。",
+          "en": "Because of that, even when a station is crowded, many people can keep moving at almost the same speed."
+        },
+        {
           "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
           "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
         },
@@ -4599,14 +4615,6 @@
         {
           "ja": "そのため、多くの人は遠くまで行かなくても、生活に必要なものに近い場所で出会えます。",
           "en": "Because of that, many people can find what they need for daily life without going very far."
-        },
-        {
-          "ja": "山手線は、ただ人を運ぶだけでなく、東京の街の作られ方そのものを支えているのです。",
-          "en": "The Yamanote Line does not just carry people; it supports the very way Tokyo's cityscape was built."
-        },
-        {
-          "ja": "このコースは東京でとても有名で、毎日たくさんの人が走っています。",
-          "en": "This course is very famous in Tokyo, and many people run there every day."
         }
       ]
     },
@@ -4640,6 +4648,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "その理由の一つは、ICカードの残高確認や運賃計算が、改札機の中でとても速く処理されるように設計されていることです。",
+          "en": "One reason is that balance checks and fare calculations for IC cards are designed to be processed very quickly inside the ticket gate itself."
+        },
+        {
           "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
           "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
         },
@@ -4654,10 +4666,6 @@
         {
           "ja": "こうした仕組みがあったからこそ、東京は世界でもとても大きく、しかも効率的な都市圏の一つに成長できました。",
           "en": "Because this kind of system existed, Tokyo was able to grow into one of the world's very large and efficient metropolitan areas."
-        },
-        {
-          "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
-          "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
         }
       ]
     },
@@ -4676,6 +4684,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "普段は当たり前のように使っている改札ですが、その裏には日本ならではの高い技術と緻密なシステム設計が詰まっています。",
+          "en": "We usually use ticket gates as if they were completely ordinary, but behind them are advanced technology and precise system design that feel very characteristic of Japan."
+        },
+        {
           "ja": "1964年の東京オリンピックに向けて作られた、日本の技術史でも大切な乗り物です。",
           "en": "It was built for the 1964 Tokyo Olympics, and it is also an important part of Japan's engineering history."
         },
@@ -4690,10 +4702,6 @@
         {
           "ja": "一方、日本は、台湾の近くで大きな問題が起きれば、日本の安全にも関係すると見ています。",
           "en": "Japan, on the other hand, thinks that if a major problem happens near Taiwan, it would also affect Japan's safety."
-        },
-        {
-          "ja": "そのため、日本は南西の島々で防衛を強めています。",
-          "en": "For that reason, Japan is strengthening its defense in the southwestern islands."
         }
       ]
     },
@@ -4764,7 +4772,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "毎日何百万人もの乗客が利用しているのに、多くの人はほんの一瞬で通過できます。",
+          "en": "Even though millions of passengers use them every day, most people can pass through in just a moment."
+        }
+      ]
     },
     {
       "id": "core-f217f1f426a153",
@@ -4781,6 +4794,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "毎日何百万人もの乗客が利用しているのに、多くの人はほんの一瞬で通過できます。",
+          "en": "Even though millions of passengers use them every day, most people can pass through in just a moment."
+        },
+        {
+          "ja": "その理由の一つは、ICカードの残高確認や運賃計算が、改札機の中でとても速く処理されるように設計されていることです。",
+          "en": "One reason is that balance checks and fare calculations for IC cards are designed to be processed very quickly inside the ticket gate itself."
+        },
+        {
           "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
           "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
         },
@@ -4791,14 +4812,6 @@
         {
           "ja": "東京は、一つのダウンタウンだけが発展した都市ではありません。",
           "en": "Tokyo is not a city where only one downtown area developed."
-        },
-        {
-          "ja": "こうした仕組みがあったからこそ、東京は世界でもとても大きく、しかも効率的な都市圏の一つに成長できました。",
-          "en": "Because this kind of system existed, Tokyo was able to grow into one of the world's very large and efficient metropolitan areas."
-        },
-        {
-          "ja": "レベルが違っても一緒に楽しめるので、初心者にも人気があります。",
-          "en": "Because people of different levels can enjoy it together, it is also popular with beginners."
         }
       ]
     },
@@ -4882,6 +4895,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "外のサーバーとの通信を長く待たなくてもいいので、流れが止まりにくくなっています。",
+          "en": "Because there is little need to wait on long communication with an outside server, the flow is less likely to stop."
+        },
         {
           "ja": "横浜やその先へ行くなら、横浜へ向かう電車に乗ればいいです。",
           "en": "If you are going to Yokohama or beyond, board a train heading that way."
@@ -6771,6 +6788,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "何気ない通勤の風景にも、見えにくい工夫がたくさんかくれているのです。",
+          "en": "Even in an everyday commuting scene, many hard-to-see innovations are hidden."
+        },
+        {
           "ja": "いつもの風景の中にも、まだ気づいていないやさしさや工夫がたくさんあるのだと思います。",
           "en": "I think there are many more acts of kindness and smart ideas hidden in the familiar scenery around us."
         },
@@ -6785,10 +6806,6 @@
         {
           "ja": "台風7号は21時の時点で、奄美や沖縄に近い東の海上にありました。",
           "en": "As of 9 p.m., Typhoon No. 7 was over waters east of areas near Amami and Okinawa. The forecast says it may move close to the Kanto region by the night of June 27."
-        },
-        {
-          "ja": "台風8号は、日本の南の海上を北東へ速く進んでいます。",
-          "en": "Typhoon No. 8 is moving quickly northeast over the sea south of Japan. According to the JMA track forecast, it is expected to move away to the east of Honshu on June 27."
         }
       ]
     },
@@ -8317,6 +8334,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
+          "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
+        },
+        {
+          "ja": "普段は当たり前のように使っている改札ですが、その裏には日本ならではの高い技術と緻密なシステム設計が詰まっています。",
+          "en": "We usually use ticket gates as if they were completely ordinary, but behind them are advanced technology and precise system design that feel very characteristic of Japan."
+        },
+        {
           "ja": "このように、細かい列車の名前を全部覚えていなくても、まず路線のどちら側に行きたいかがわかれば、正しい電車をかなり選びやすくなります。",
           "en": "In this way, even if you do not remember every train name, knowing which side of the line you need first makes it much easier to choose the right train."
         },
@@ -8327,14 +8352,6 @@
         {
           "ja": "乗る前に、発車標で行き先と種別の両方を確認しましょう。",
           "en": "Before getting on, check both the destination and the service type on the departure board."
-        },
-        {
-          "ja": "開業日は1964年9月17日で、オリンピックが始まる10月10日より数週間前でした。",
-          "en": "It opened on September 17, 1964, only a few weeks before the Olympics began on October 10."
-        },
-        {
-          "ja": "名前は「アーバンウェル」です。",
-          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
         }
       ]
     },
@@ -8398,6 +8415,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "毎日何百万人もの乗客が利用しているのに、多くの人はほんの一瞬で通過できます。",
+          "en": "Even though millions of passengers use them every day, most people can pass through in just a moment."
+        },
+        {
+          "ja": "速さと安全性を両立しているからこそ、毎日の大きな移動が安定して続けられるのです。",
+          "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
+        },
+        {
           "ja": "毎日たくさんの人が行き交う東京の駅だからこそ、このような技術がとても自然に街へ溶け込んでいるのかもしれません。",
           "en": "Because Tokyo stations are used by so many people every day, perhaps this kind of technology blends naturally into the city."
         },
@@ -8408,10 +8433,6 @@
         {
           "ja": "60年以上たった今でも、東京モノレールは毎日動いています。",
           "en": "Even more than 60 years later, Tokyo Monorail still runs every day."
-        },
-        {
-          "ja": "消費者からは、毎日食べるものなので、少しの値上がりでも大きいという声が出ています。",
-          "en": "Consumers say that even small price increases matter because rice is eaten every day."
         }
       ]
     },
@@ -8549,6 +8570,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "毎日何百万人もの乗客が利用しているのに、多くの人はほんの一瞬で通過できます。",
+          "en": "Even though millions of passengers use them every day, most people can pass through in just a moment."
+        },
+        {
           "ja": "争点の一つは、国の人口を2050年まで1000万人までに抑える提案でした。",
           "en": "One issue was a proposal to keep the country's population at no more than 10 million by 2050."
         },
@@ -8563,10 +8588,6 @@
         {
           "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
-        },
-        {
-          "ja": "昨年の被害想定では、最悪の場合、およそ1万8000人が亡くなり、約40万棟の建物が壊れたり焼けたりする可能性が示されました。",
-          "en": "Last year's damage estimate showed that in the worst case about 18,000 people could die and around 400,000 buildings could collapse or burn."
         }
       ]
     },
@@ -9634,6 +9655,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
+          "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
+        },
+        {
           "ja": "30秒だけ余分に使って正しい電車を選ぶことで、あとで長い遠回りをしなくてすむかもしれません。",
           "en": "Spending just an extra 30 seconds choosing the right train may save you from a much longer detour later."
         },
@@ -9648,10 +9673,6 @@
         {
           "ja": "日本は長い間、アメリカの大切な同盟国でした。",
           "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
-        },
-        {
-          "ja": "ニックスのファンは長い間、優勝を待っていました。",
-          "en": "Knicks fans had waited a long time for a championship."
         }
       ]
     },
@@ -9670,6 +9691,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "その理由の一つは、ICカードの残高確認や運賃計算が、改札機の中でとても速く処理されるように設計されていることです。",
+          "en": "One reason is that balance checks and fare calculations for IC cards are designed to be processed very quickly inside the ticket gate itself."
+        },
+        {
           "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
           "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
         },
@@ -9684,10 +9709,6 @@
         {
           "ja": "東京の中心部へ向かうなら、まず品川へ向かう電車を探しましょう。",
           "en": "If you are heading into central Tokyo, first look for a train going toward Shinagawa."
-        },
-        {
-          "ja": "その中心にあるのが、東京を輪のように回る山手線です。",
-          "en": "At the center of that network is the Yamanote Line, which circles Tokyo like a loop."
         }
       ]
     },
@@ -9869,6 +9890,14 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "毎日何百万人もの乗客が利用しているのに、多くの人はほんの一瞬で通過できます。",
+          "en": "Even though millions of passengers use them every day, most people can pass through in just a moment."
+        },
+        {
+          "ja": "何気ない通勤の風景にも、見えにくい工夫がたくさんかくれているのです。",
+          "en": "Even in an everyday commuting scene, many hard-to-see innovations are hidden."
+        },
         {
           "ja": "普段は何気なく歩いている駅の中にも、このようなやさしい工夫が隠れていると知って、少し驚きました。",
           "en": "I was a little surprised to learn that this kind of considerate idea was hidden inside a station I usually walk through without much thought."
@@ -10223,6 +10252,10 @@
           "meaning": "Te-form of なる: to become",
           "exampleSentences": [
             {
+              "ja": "外のサーバーとの通信を長く待たなくてもいいので、流れが止まりにくくなっています。",
+              "en": "Because there is little need to wait on long communication with an outside server, the flow is less likely to stop."
+            },
+            {
               "ja": "また、人と人の交流も弱くなっています。",
               "en": "People-to-people exchange is also weakening."
             },
@@ -10237,10 +10270,6 @@
             {
               "ja": "町では、人口が減り、決まった道を走るバスの利用者も少なくなっています。",
               "en": "In the town, the population is falling, and fewer people use buses that run on fixed routes."
-            },
-            {
-              "ja": "地域では、フェリーが生活に欠かせない交通手段になっています。",
-              "en": "In these regions, ferries are an essential means of transportation."
             }
           ]
         },
@@ -11576,6 +11605,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そのため、駅が混雑しているときでも、たくさんの人がほぼ同じ速さで進めます。",
+          "en": "Because of that, even when a station is crowded, many people can keep moving at almost the same speed."
+        },
+        {
           "ja": "同じ方向へ行く電車でも、止まる駅は同じではありません。",
           "en": "Even trains going in the same direction do not all stop at the same stations."
         },
@@ -11590,10 +11623,6 @@
         {
           "ja": "管理者は、同じ内容を働く人や生徒にすぐ送ることができます。",
           "en": "Managers can quickly send the same information to workers or students."
-        },
-        {
-          "ja": "ほかの鉄道会社にも同じような動きが広がるかが注目されています。",
-          "en": "Attention is focused on whether similar efforts will spread to other railway companies."
         }
       ]
     },
@@ -13548,6 +13577,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
+          "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
+        },
+        {
+          "ja": "外のサーバーとの通信を長く待たなくてもいいので、流れが止まりにくくなっています。",
+          "en": "Because there is little need to wait on long communication with an outside server, the flow is less likely to stop."
+        },
+        {
           "ja": "フランスの一部では学校が休みになり、屋外の活動を避けるよう呼びかけられました。",
           "en": "In parts of France, schools were closed, and people were urged to avoid outdoor activities."
         },
@@ -13558,14 +13595,6 @@
         {
           "ja": "医療、金融、技術などの分野では、外国から来た働く人が重要です。",
           "en": "In fields such as healthcare, finance, and technology, workers from other countries are important."
-        },
-        {
-          "ja": "市はSNSや放送車で注意を呼びかけ、住民に外へ出ないよう伝えました。",
-          "en": "The city warned residents through social media and announcement vehicles and told them not to go outside."
-        },
-        {
-          "ja": "市はSNSや放送車で注意を出し、住民に外へ出ないよう呼びかけました。",
-          "en": "The city issued warnings on social media and through announcement vehicles, asking residents not to go outside."
         }
       ]
     },
@@ -13701,6 +13730,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
+          "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
+        },
+        {
           "ja": "これにより、経験が少ない人でも、安定して野菜を育てやすくなると期待されています。",
           "en": "Because of this, even people with little experience are expected to find it easier to grow vegetables steadily."
         }
@@ -13785,6 +13818,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "利用者はカードをタッチするだけでよく、複雑な計算や確認を意識する必要はほとんどありません。",
+          "en": "Users only need to tap their card, and they hardly need to think about the complex calculations and checks happening behind the scenes."
+        },
+        {
           "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
           "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
         },
@@ -13799,10 +13836,6 @@
         {
           "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
           "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
-        },
-        {
-          "ja": "これらは速さや停車駅が違うため、名前を確認することが大切です。",
-          "en": "Because their speeds and stopping stations differ, it is important to check the name."
         }
       ],
       "partOfSpeech": "verb",
@@ -13881,6 +13914,10 @@
               "en": "While its convenience is recognized, it is considered important not to weaken students’ ability to think for themselves."
             },
             {
+              "ja": "利用者はカードをタッチするだけでよく、複雑な計算や確認を意識する必要はほとんどありません。",
+              "en": "Users only need to tap their card, and they hardly need to think about the complex calculations and checks happening behind the scenes."
+            },
+            {
               "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
               "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
             },
@@ -13891,10 +13928,6 @@
             {
               "ja": "皇居のまわりを一周すると、景色を見ながら東京らしい習慣にふれることができます。",
               "en": "If you run one lap around the Imperial Palace, you can enjoy the scenery and experience a very Tokyo-like custom."
-            },
-            {
-              "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
-              "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
             }
           ]
         },
@@ -13907,24 +13940,24 @@
           "meaning": "Te-form of する: to do",
           "exampleSentences": [
             {
+              "ja": "毎日何百万人もの乗客が利用しているのに、多くの人はほんの一瞬で通過できます。",
+              "en": "Even though millions of passengers use them every day, most people can pass through in just a moment."
+            },
+            {
+              "ja": "そのため、駅が混雑しているときでも、たくさんの人がほぼ同じ速さで進めます。",
+              "en": "Because of that, even when a station is crowded, many people can keep moving at almost the same speed."
+            },
+            {
+              "ja": "速さと安全性を両立しているからこそ、毎日の大きな移動が安定して続けられるのです。",
+              "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
+            },
+            {
               "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
               "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
             },
             {
               "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
               "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
-            },
-            {
-              "ja": "2002年に完成したとき、全体の費用は4400億円をこえていて、そのときの借金が今の運賃にも影響しています。",
-              "en": "When the line was completed in 2002, the total cost exceeded 440 billion yen, and those debts still affect fares today."
-            },
-            {
-              "ja": "だから、りんかい線の駅で長いエスカレーターを下りるときは、東京でも特に大きくてお金のかかった鉄道計画の中を移動していると考えることができます。",
-              "en": "So when you ride down the long escalators at a Rinkai Line station, you can think of yourself as moving through one of Tokyo's biggest and most expensive railway projects."
-            },
-            {
-              "ja": "未来的に見えるシステムでも、実際の公共交通として使えることを示したのです。",
-              "en": "It showed that a futuristic-looking system could also work as real public transportation."
             }
           ]
         },
@@ -13936,6 +13969,10 @@
           "readingHiragana": "できる",
           "meaning": "Potential form of する: to do",
           "exampleSentences": [
+            {
+              "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
+              "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
+            },
             {
               "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
               "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
@@ -13951,10 +13988,6 @@
             {
               "ja": "本の探し方や貸し出しの手続きを、画面を見ながら説明できるようになりました。",
               "en": "People can now see on-screen explanations of how to find books and complete borrowing procedures."
-            },
-            {
-              "ja": "混みやすい時期でも、乗客の流れをスムーズにできるという期待があります。",
-              "en": "Even during busy periods, they expect passenger flow to become smoother."
             }
           ]
         }
@@ -14332,6 +14365,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "普段は当たり前のように使っている改札ですが、その裏には日本ならではの高い技術と緻密なシステム設計が詰まっています。",
+          "en": "We usually use ticket gates as if they were completely ordinary, but behind them are advanced technology and precise system design that feel very characteristic of Japan."
+        },
         {
           "ja": "東京のりんかい線は、ほかの路線より運賃が少し高いと感じる人がいます。",
           "en": "Some people feel that Tokyo's Rinkai Line costs a little more than other rail lines."
@@ -15281,6 +15318,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "その理由の一つは、ICカードの残高確認や運賃計算が、改札機の中でとても速く処理されるように設計されていることです。",
+          "en": "One reason is that balance checks and fare calculations for IC cards are designed to be processed very quickly inside the ticket gate itself."
+        },
+        {
           "ja": "毎日たくさんの人が行き交う東京の駅だからこそ、このような技術がとても自然に街へ溶け込んでいるのかもしれません。",
           "en": "Because Tokyo stations are used by so many people every day, perhaps this kind of technology blends naturally into the city."
         },
@@ -15295,10 +15336,6 @@
         {
           "ja": "このコースは東京でとても有名で、毎日たくさんの人が走っています。",
           "en": "This course is very famous in Tokyo, and many people run there every day."
-        },
-        {
-          "ja": "その理由の一つは、線路の多くがとても深い地下を通っていることです。",
-          "en": "One reason is that much of the track runs very deep underground."
         }
       ]
     },
@@ -15531,6 +15568,10 @@
           "meaning": "Te-form of 使う: to use, to make use of",
           "exampleSentences": [
             {
+              "ja": "普段は当たり前のように使っている改札ですが、その裏には日本ならではの高い技術と緻密なシステム設計が詰まっています。",
+              "en": "We usually use ticket gates as if they were completely ordinary, but behind them are advanced technology and precise system design that feel very characteristic of Japan."
+            },
+            {
               "ja": "30秒だけ余分に使って正しい電車を選ぶことで、あとで長い遠回りをしなくてすむかもしれません。",
               "en": "Spending just an extra 30 seconds choosing the right train may save you from a much longer detour later."
             },
@@ -15545,10 +15586,6 @@
             {
               "ja": "市の職員はドローンを使ってクマを探し、最後は獣医が麻酔の銃でクマを止めました。",
               "en": "City workers used a drone to search for it, and in the end a veterinarian stopped the bear with a tranquilizer gun."
-            },
-            {
-              "ja": "ある高校では、AIを使って文章の案を作ることは認めていますが、そのまま提出することは禁止しています。",
-              "en": "At one high school, students are allowed to use AI to draft writing, but submitting it as-is is prohibited."
             }
           ]
         },
@@ -18313,6 +18350,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "速さと安全性を両立しているからこそ、毎日の大きな移動が安定して続けられるのです。",
+          "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
+        },
+        {
           "ja": "しかし、政治や安全保障の問題では、なかなか意見が合いません。",
           "en": "However, in politics and security, it is hard for the two countries to agree."
         },
@@ -18327,10 +18368,6 @@
         {
           "ja": "リンクは6月27日に打ち上げられる予定で、3本のロボットアームでスウィフトをつかみ、より高く安全な軌道へ運びます。",
           "en": "Link is scheduled to launch on June 27, grab Swift with three robotic arms, and move it to a higher, safer orbit."
-        },
-        {
-          "ja": "この事故の後、安全対策について議論が起きました。",
-          "en": "After the incident, a debate began about safety measures."
         }
       ]
     },
@@ -19698,6 +19735,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "利用者はカードをタッチするだけでよく、複雑な計算や確認を意識する必要はほとんどありません。",
+          "en": "Users only need to tap their card, and they hardly need to think about the complex calculations and checks happening behind the scenes."
+        },
+        {
           "ja": "東京の地下鉄やJRは複雑ですが、大きな駅の位置を地図の骨組みにすると、少しずつ慣れていきます。",
           "en": "Tokyo’s subways and JR lines are complicated, but if you treat the positions of major stations as the frame of the map, you gradually get used to it."
         }
@@ -20016,6 +20057,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "普段は当たり前のように使っている改札ですが、その裏には日本ならではの高い技術と緻密なシステム設計が詰まっています。",
+          "en": "We usually use ticket gates as if they were completely ordinary, but behind them are advanced technology and precise system design that feel very characteristic of Japan."
+        },
+        {
           "ja": "毎日たくさんの人が行き交う東京の駅だからこそ、このような技術がとても自然に街へ溶け込んでいるのかもしれません。",
           "en": "Because Tokyo stations are used by so many people every day, perhaps this kind of technology blends naturally into the city."
         },
@@ -20030,10 +20075,6 @@
         {
           "ja": "関係者は、将来は貨物船や作業船にもこの技術を広げたいと話しています。",
           "en": "The people involved say they want to expand this technology to cargo ships and work boats in the future."
-        },
-        {
-          "ja": "専門家は、技術だけに頼るのではなく、住民どうしの助け合いも大切だと話しています。",
-          "en": "Experts say it is important not to rely only on technology, but also on mutual help among residents."
         }
       ]
     },
@@ -21456,7 +21497,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "利用者はカードをタッチするだけでよく、複雑な計算や確認を意識する必要はほとんどありません。",
+          "en": "Users only need to tap their card, and they hardly need to think about the complex calculations and checks happening behind the scenes."
+        }
+      ]
     },
     {
       "id": "core-6f8c6ba3e02daf",
@@ -23956,6 +24002,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "何気ない通勤の風景にも、見えにくい工夫がたくさんかくれているのです。",
+          "en": "Even in an everyday commuting scene, many hard-to-see innovations are hidden."
+        },
+        {
           "ja": "ふつうならそのまま通り過ぎてしまいそうな場所でしたが、なぜそこにあるのかが気になりました。",
           "en": "It was the kind of place I would normally pass without thinking, but I became curious about why it was there."
         },
@@ -23970,10 +24020,6 @@
         {
           "ja": "いつもの風景の中にも、まだ気づいていないやさしさや工夫がたくさんあるのだと思います。",
           "en": "I think there are many more acts of kindness and smart ideas hidden in the familiar scenery around us."
-        },
-        {
-          "ja": "レベルが違っても一緒に楽しめるので、初心者にも人気があります。",
-          "en": "Because people of different levels can enjoy it together, it is also popular with beginners."
         }
       ]
     },
@@ -25438,6 +25484,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "毎日何百万人もの乗客が利用しているのに、多くの人はほんの一瞬で通過できます。",
+          "en": "Even though millions of passengers use them every day, most people can pass through in just a moment."
+        },
+        {
           "ja": "そのため、観光客でも東京のランニング文化をすぐに体験できます。",
           "en": "Because of that, even visitors can quickly experience Tokyo’s running culture."
         },
@@ -26469,7 +26519,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "もちろん、ただ速いだけではなく、不正利用を防ぐための仕組みもしっかり組み込まれています。",
+          "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
+        }
+      ]
     },
     {
       "id": "core-bc9f61bcbec0d1",
@@ -26570,6 +26625,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "もちろん、ただ速いだけではなく、不正利用を防ぐための仕組みもしっかり組み込まれています。",
+          "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
+        },
+        {
           "ja": "毎日たくさんの人が行き交う東京の駅だからこそ、このような技術がとても自然に街へ溶け込んでいるのかもしれません。",
           "en": "Because Tokyo stations are used by so many people every day, perhaps this kind of technology blends naturally into the city."
         },
@@ -26584,10 +26643,6 @@
         {
           "ja": "しかし、もしアメリカと中国の関係が少しよくなると、日本は不安になります。",
           "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
-        },
-        {
-          "ja": "もし上場後に株価が下がれば、証券会社は市場で株を買い戻します。",
-          "en": "If the share price falls after listing, the securities firms buy shares back in the market."
         }
       ]
     },
@@ -29754,6 +29809,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "何気ない通勤の風景にも、見えにくい工夫がたくさんかくれているのです。",
+          "en": "Even in an everyday commuting scene, many hard-to-see innovations are hidden."
+        },
+        {
           "ja": "普段は何気なく歩いている駅の中にも、このようなやさしい工夫が隠れていると知って、少し驚きました。",
           "en": "I was a little surprised to learn that this kind of considerate idea was hidden inside a station I usually walk through without much thought."
         },
@@ -29867,24 +29926,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "毎日何百万人もの乗客が利用しているのに、多くの人はほんの一瞬で通過できます。",
+          "en": "Even though millions of passengers use them every day, most people can pass through in just a moment."
+        },
+        {
+          "ja": "利用者はカードをタッチするだけでよく、複雑な計算や確認を意識する必要はほとんどありません。",
+          "en": "Users only need to tap their card, and they hardly need to think about the complex calculations and checks happening behind the scenes."
+        },
+        {
+          "ja": "もちろん、ただ速いだけではなく、不正利用を防ぐための仕組みもしっかり組み込まれています。",
+          "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
+        },
+        {
           "ja": "ロッカーや温かいシャワーもあるので、気軽に利用できます。",
           "en": "There are also lockers and hot showers, so you can use it casually."
         },
         {
           "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
           "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
-        },
-        {
-          "ja": "利用したい人は、前日までに電話かスマートフォンで乗る場所と時間を伝えます。",
-          "en": "People who want to use the service tell the town their pickup place and time by phone or smartphone by the previous day."
-        },
-        {
-          "ja": "町では、人口が減り、決まった道を走るバスの利用者も少なくなっています。",
-          "en": "In the town, the population is falling, and fewer people use buses that run on fixed routes."
-        },
-        {
-          "ja": "町は3か月の実験で、利用した人数や運行にかかる費用を調べます。",
-          "en": "During the three-month trial, the town will study the number of users and the cost of operating the buses."
         }
       ]
     },
@@ -29903,6 +29962,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "その理由の一つは、ICカードの残高確認や運賃計算が、改札機の中でとても速く処理されるように設計されていることです。",
+          "en": "One reason is that balance checks and fare calculations for IC cards are designed to be processed very quickly inside the ticket gate itself."
+        },
+        {
           "ja": "東京がとても便利に感じられる大きな理由の一つは、よく整った鉄道網です。",
           "en": "One big reason Tokyo feels so convenient is its well-developed rail network."
         },
@@ -29917,10 +29980,6 @@
         {
           "ja": "もう一つの理由は、アメリカの存在です。",
           "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
-        },
-        {
-          "ja": "つまり、日本と中国には協力したい理由もありますが、信じにくい理由も多いのです。",
-          "en": "In other words, Japan and China have reasons to cooperate, but they also have many reasons to distrust each other."
         }
       ]
     },
@@ -31189,6 +31248,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "もちろん、ただ速いだけではなく、不正利用を防ぐための仕組みもしっかり組み込まれています。",
+          "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
+        },
         {
           "ja": "大きく目立つわけではなくても、だれかの安心をしっかり支えているところが素敵です。",
           "en": "Even if it does not stand out, it is wonderful that it quietly supports someone’s sense of safety."
@@ -34602,6 +34665,10 @@
           "meaning": "Potential form of 続ける: to continue, to keep up",
           "exampleSentences": [
             {
+              "ja": "速さと安全性を両立しているからこそ、毎日の大きな移動が安定して続けられるのです。",
+              "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
+            },
+            {
               "ja": "それでも成功すれば、スウィフトはさらに5年以上観測を続けられる可能性があります。",
               "en": "Even so, if the mission succeeds, Swift may be able to continue observing for at least five more years."
             },
@@ -35132,7 +35199,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "普段は当たり前のように使っている改札ですが、その裏には日本ならではの高い技術と緻密なシステム設計が詰まっています。",
+          "en": "We usually use ticket gates as if they were completely ordinary, but behind them are advanced technology and precise system design that feel very characteristic of Japan."
+        }
+      ]
     },
     {
       "id": "core-6015ad1127850c",
@@ -36314,24 +36386,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "毎日何百万人もの乗客が利用しているのに、多くの人はほんの一瞬で通過できます。",
+          "en": "Even though millions of passengers use them every day, most people can pass through in just a moment."
+        },
+        {
+          "ja": "利用者はカードをタッチするだけでよく、複雑な計算や確認を意識する必要はほとんどありません。",
+          "en": "Users only need to tap their card, and they hardly need to think about the complex calculations and checks happening behind the scenes."
+        },
+        {
+          "ja": "もちろん、ただ速いだけではなく、不正利用を防ぐための仕組みもしっかり組み込まれています。",
+          "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
+        },
+        {
           "ja": "ロッカーや温かいシャワーもあるので、気軽に利用できます。",
           "en": "There are also lockers and hot showers, so you can use it casually."
         },
         {
           "ja": "2002年に完成したとき、全体の費用は4400億円をこえていて、そのときの借金が今の運賃にも影響しています。",
           "en": "When the line was completed in 2002, the total cost exceeded 440 billion yen, and those debts still affect fares today."
-        },
-        {
-          "ja": "昔は港や工業用地が多かった場所が、仕事、買い物、遊びを楽しめるエリアに変わっていきました。",
-          "en": "Places that once had many port facilities and industrial sites changed into an area for work, shopping, and entertainment."
-        },
-        {
-          "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
-          "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
-        },
-        {
-          "ja": "利用したい人は、前日までに電話かスマートフォンで乗る場所と時間を伝えます。",
-          "en": "People who want to use the service tell the town their pickup place and time by phone or smartphone by the previous day."
         }
       ]
     },
@@ -37556,6 +37628,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "速さと安全性を両立しているからこそ、毎日の大きな移動が安定して続けられるのです。",
+          "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
+        },
+        {
           "ja": "新しい株の値段を安定させるための金融のしくみです。",
           "en": "It is a financial mechanism for stabilizing the price of new shares."
         },
@@ -37570,10 +37646,6 @@
         {
           "ja": "安定して出荷するために、新しい設備や管理方法の導入が進められています。",
           "en": "New equipment and management methods are being introduced to maintain stable shipments."
-        },
-        {
-          "ja": "生産を続けやすくして、市場に安定して米を出すことが目的です。",
-          "en": "The goal is to make production easier to continue and keep rice supplies stable in the market."
         }
       ]
     },
@@ -40197,6 +40269,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "普段は当たり前のように使っている改札ですが、その裏には日本ならではの高い技術と緻密なシステム設計が詰まっています。",
+          "en": "We usually use ticket gates as if they were completely ordinary, but behind them are advanced technology and precise system design that feel very characteristic of Japan."
+        },
+        {
           "ja": "普段は何気なく歩いている駅の中にも、このようなやさしい工夫が隠れていると知って、少し驚きました。",
           "en": "I was a little surprised to learn that this kind of considerate idea was hidden inside a station I usually walk through without much thought."
         },
@@ -40211,10 +40287,6 @@
         {
           "ja": "地域では、フェリーが生活に欠かせない交通手段になっています。",
           "en": "In these regions, ferries are an essential means of transportation."
-        },
-        {
-          "ja": "米の値段が上がっているため、政府は新しい対策を発表しました。",
-          "en": "Because rice prices are rising, the government announced new measures."
         }
       ]
     },
@@ -41362,6 +41434,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "普段は当たり前のように使っている改札ですが、その裏には日本ならではの高い技術と緻密なシステム設計が詰まっています。",
+          "en": "We usually use ticket gates as if they were completely ordinary, but behind them are advanced technology and precise system design that feel very characteristic of Japan."
+        },
+        {
           "ja": "普段は何気なく歩いている駅の中にも、このようなやさしい工夫が隠れていると知って、少し驚きました。",
           "en": "I was a little surprised to learn that this kind of considerate idea was hidden inside a station I usually walk through without much thought."
         }
@@ -41898,6 +41974,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "もちろん、ただ速いだけではなく、不正利用を防ぐための仕組みもしっかり組み込まれています。",
+          "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
+        },
+        {
           "ja": "暑い日が増える中、熱中症を防ぐための通知アプリを使う会社や学校が増えています。",
           "en": "As hot days increase, more companies and schools are using notification apps to prevent heatstroke."
         }
@@ -41914,6 +41994,10 @@
           "meaning": "Polite form of 防ぐ: to defend, to protect",
           "exampleSentences": [
             {
+              "ja": "もちろん、ただ速いだけではなく、不正利用を防ぐための仕組みもしっかり組み込まれています。",
+              "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
+            },
+            {
               "ja": "暑い日が増える中、熱中症を防ぐための通知アプリを使う会社や学校が増えています。",
               "en": "As hot days increase, more companies and schools are using notification apps to prevent heatstroke."
             }
@@ -41927,6 +42011,10 @@
           "readingHiragana": "ふせいだ",
           "meaning": "Plain past form of 防ぐ: to defend, to protect",
           "exampleSentences": [
+            {
+              "ja": "もちろん、ただ速いだけではなく、不正利用を防ぐための仕組みもしっかり組み込まれています。",
+              "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
+            },
             {
               "ja": "暑い日が増える中、熱中症を防ぐための通知アプリを使う会社や学校が増えています。",
               "en": "As hot days increase, more companies and schools are using notification apps to prevent heatstroke."
@@ -41942,6 +42030,10 @@
           "meaning": "Plain negative form of 防ぐ: to defend, to protect",
           "exampleSentences": [
             {
+              "ja": "もちろん、ただ速いだけではなく、不正利用を防ぐための仕組みもしっかり組み込まれています。",
+              "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
+            },
+            {
               "ja": "暑い日が増える中、熱中症を防ぐための通知アプリを使う会社や学校が増えています。",
               "en": "As hot days increase, more companies and schools are using notification apps to prevent heatstroke."
             }
@@ -41956,6 +42048,10 @@
           "meaning": "Te-form of 防ぐ: to defend, to protect",
           "exampleSentences": [
             {
+              "ja": "もちろん、ただ速いだけではなく、不正利用を防ぐための仕組みもしっかり組み込まれています。",
+              "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
+            },
+            {
               "ja": "暑い日が増える中、熱中症を防ぐための通知アプリを使う会社や学校が増えています。",
               "en": "As hot days increase, more companies and schools are using notification apps to prevent heatstroke."
             }
@@ -41969,6 +42065,10 @@
           "readingHiragana": "ふせげる",
           "meaning": "Potential form of 防ぐ: to defend, to protect",
           "exampleSentences": [
+            {
+              "ja": "もちろん、ただ速いだけではなく、不正利用を防ぐための仕組みもしっかり組み込まれています。",
+              "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
+            },
             {
               "ja": "暑い日が増える中、熱中症を防ぐための通知アプリを使う会社や学校が増えています。",
               "en": "As hot days increase, more companies and schools are using notification apps to prevent heatstroke."
@@ -41990,7 +42090,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "もちろん、ただ速いだけではなく、不正利用を防ぐための仕組みもしっかり組み込まれています。",
+          "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
+        }
+      ]
     },
     {
       "id": "core-1906aefe2182e0",
@@ -42101,6 +42206,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "何気ない通勤の風景にも、見えにくい工夫がたくさんかくれているのです。",
+          "en": "Even in an everyday commuting scene, many hard-to-see innovations are hidden."
+        },
         {
           "ja": "いつもの風景の中にも、まだ気づいていないやさしさや工夫がたくさんあるのだと思います。",
           "en": "I think there are many more acts of kindness and smart ideas hidden in the familiar scenery around us."
@@ -47056,6 +47165,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "速さと安全性を両立しているからこそ、毎日の大きな移動が安定して続けられるのです。",
+          "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
+        },
+        {
           "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
           "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
         },
@@ -47070,10 +47183,6 @@
         {
           "ja": "だから、りんかい線の駅で長いエスカレーターを下りるときは、東京でも特に大きくてお金のかかった鉄道計画の中を移動していると考えることができます。",
           "en": "So when you ride down the long escalators at a Rinkai Line station, you can think of yourself as moving through one of Tokyo's biggest and most expensive railway projects."
-        },
-        {
-          "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
-          "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
         }
       ]
     },
@@ -47106,6 +47215,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
+          "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
+        },
         {
           "ja": "政治の場所に有名なロックバンドが来るのは少し意外ですが、文化や音楽を通して国どうしの交流を深めたいという考えもあります。",
           "en": "It is a little surprising for a famous rock band to visit a political office, but there is also an idea of deepening ties between countries through culture and music."
@@ -47637,6 +47750,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "利用者はカードをタッチするだけでよく、複雑な計算や確認を意識する必要はほとんどありません。",
+          "en": "Users only need to tap their card, and they hardly need to think about the complex calculations and checks happening behind the scenes."
+        },
+        {
           "ja": "専門家は、交通の施設で再生可能エネルギーを使うことは、地域の意識を変えるきっかけにもなるとみています。",
           "en": "Experts say using renewable energy at transportation facilities can also change local awareness."
         }
@@ -47685,7 +47802,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "毎日何百万人もの乗客が利用しているのに、多くの人はほんの一瞬で通過できます。",
+          "en": "Even though millions of passengers use them every day, most people can pass through in just a moment."
+        }
+      ]
     },
     {
       "id": "core-2cd6881fbd086f",
@@ -48939,6 +49061,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "毎日何百万人もの乗客が利用しているのに、多くの人はほんの一瞬で通過できます。",
+          "en": "Even though millions of passengers use them every day, most people can pass through in just a moment."
+        },
+        {
           "ja": "混みやすい時期でも、乗客の流れをスムーズにできるという期待があります。",
           "en": "Even during busy periods, they expect passenger flow to become smoother."
         }
@@ -49752,7 +49878,20 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
+          "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
+        },
+        {
+          "ja": "その理由の一つは、ICカードの残高確認や運賃計算が、改札機の中でとても速く処理されるように設計されていることです。",
+          "en": "One reason is that balance checks and fare calculations for IC cards are designed to be processed very quickly inside the ticket gate itself."
+        },
+        {
+          "ja": "普段は当たり前のように使っている改札ですが、その裏には日本ならではの高い技術と緻密なシステム設計が詰まっています。",
+          "en": "We usually use ticket gates as if they were completely ordinary, but behind them are advanced technology and precise system design that feel very characteristic of Japan."
+        }
+      ]
     },
     {
       "id": "core-de13d57555484e",
@@ -50754,6 +50893,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "その理由の一つは、ICカードの残高確認や運賃計算が、改札機の中でとても速く処理されるように設計されていることです。",
+          "en": "One reason is that balance checks and fare calculations for IC cards are designed to be processed very quickly inside the ticket gate itself."
+        },
+        {
+          "ja": "利用者はカードをタッチするだけでよく、複雑な計算や確認を意識する必要はほとんどありません。",
+          "en": "Users only need to tap their card, and they hardly need to think about the complex calculations and checks happening behind the scenes."
+        },
+        {
           "ja": "これらは速さや停車駅が違うため、名前を確認することが大切です。",
           "en": "Because their speeds and stopping stations differ, it is important to check the name."
         },
@@ -50764,14 +50911,6 @@
         {
           "ja": "週末に海へ行く予定がある人や、飛行機や船を使う人は、新しい情報を確認したほうがよさそうです。",
           "en": "People planning to go to the sea over the weekend, or to use planes or boats, should check the latest information."
-        },
-        {
-          "ja": "警察は、その人の死亡を確認しました。",
-          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
-        },
-        {
-          "ja": "そして、2本の線路を横断し、下り線まで歩いたことが確認されました。",
-          "en": "The person then crossed two tracks and walked to the outbound track."
         }
       ]
     },
@@ -52716,6 +52855,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "速さと安全性を両立しているからこそ、毎日の大きな移動が安定して続けられるのです。",
+          "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
+        },
+        {
           "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
           "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
         },
@@ -52730,10 +52873,6 @@
         {
           "ja": "旅行中で運動着を持っていなくても、近くのランナーズステーションで靴やウェアを借りることができます。",
           "en": "Even if you are traveling and did not bring exercise clothes, you can rent shoes and sportswear at a nearby runner’s station."
-        },
-        {
-          "ja": "だから、りんかい線の駅で長いエスカレーターを下りるときは、東京でも特に大きくてお金のかかった鉄道計画の中を移動していると考えることができます。",
-          "en": "So when you ride down the long escalators at a Rinkai Line station, you can think of yourself as moving through one of Tokyo's biggest and most expensive railway projects."
         }
       ]
     },
@@ -53206,7 +53345,16 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "その理由の一つは、ICカードの残高確認や運賃計算が、改札機の中でとても速く処理されるように設計されていることです。",
+          "en": "One reason is that balance checks and fare calculations for IC cards are designed to be processed very quickly inside the ticket gate itself."
+        },
+        {
+          "ja": "利用者はカードをタッチするだけでよく、複雑な計算や確認を意識する必要はほとんどありません。",
+          "en": "Users only need to tap their card, and they hardly need to think about the complex calculations and checks happening behind the scenes."
+        }
+      ]
     },
     {
       "id": "core-631cc5e3d067a9",
@@ -55767,7 +55915,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "そのため、駅が混雑しているときでも、たくさんの人がほぼ同じ速さで進めます。",
+          "en": "Because of that, even when a station is crowded, many people can keep moving at almost the same speed."
+        }
+      ]
     },
     {
       "id": "core-f4cc8e4ac9f001",
@@ -56734,6 +56887,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "何気ない通勤の風景にも、見えにくい工夫がたくさんかくれているのです。",
+          "en": "Even in an everyday commuting scene, many hard-to-see innovations are hidden."
+        },
+        {
           "ja": "普段は何気なく歩いている駅の中にも、このようなやさしい工夫が隠れていると知って、少し驚きました。",
           "en": "I was a little surprised to learn that this kind of considerate idea was hidden inside a station I usually walk through without much thought."
         },
@@ -56758,6 +56915,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "もちろん、ただ速いだけではなく、不正利用を防ぐための仕組みもしっかり組み込まれています。",
+          "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
+        },
+        {
           "ja": "こうした仕組みがあったからこそ、東京は世界でもとても大きく、しかも効率的な都市圏の一つに成長できました。",
           "en": "Because this kind of system existed, Tokyo was able to grow into one of the world's very large and efficient metropolitan areas."
         },
@@ -56772,10 +56933,6 @@
         {
           "ja": "そのため、必要な時だけ走る仕組みにして、運転手や燃料の負担を減らしたい考えです。",
           "en": "The town wants to reduce the burden on drivers and fuel use by running buses only when needed."
-        },
-        {
-          "ja": "誰でも使いやすい図書館を目指す取り組みとして注目されています。",
-          "en": "The effort is drawing attention as a way to make libraries easier for everyone to use."
         }
       ]
     },
@@ -60414,6 +60571,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "利用者はカードをタッチするだけでよく、複雑な計算や確認を意識する必要はほとんどありません。",
+          "en": "Users only need to tap their card, and they hardly need to think about the complex calculations and checks happening behind the scenes."
+        },
+        {
           "ja": "レベルが違っても一緒に楽しめるので、初心者にも人気があります。",
           "en": "Because people of different levels can enjoy it together, it is also popular with beginners."
         },
@@ -60428,10 +60589,6 @@
         {
           "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
           "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
-        },
-        {
-          "ja": "研究者たちは、15種類の最新AIを試しました。",
-          "en": "The researchers tested 15 kinds of advanced AI."
         }
       ]
     },
@@ -61421,6 +61578,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "外のサーバーとの通信を長く待たなくてもいいので、流れが止まりにくくなっています。",
+          "en": "Because there is little need to wait on long communication with an outside server, the flow is less likely to stop."
+        },
         {
           "ja": "中心が遠くても、湿った空気が流れ込むと、雨雲が発達することがあります。",
           "en": "Even when a storm center is far away, moist air can flow in and help rain clouds develop."
@@ -62564,6 +62725,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "普段は当たり前のように使っている改札ですが、その裏には日本ならではの高い技術と緻密なシステム設計が詰まっています。",
+          "en": "We usually use ticket gates as if they were completely ordinary, but behind them are advanced technology and precise system design that feel very characteristic of Japan."
+        },
+        {
           "ja": "1964年の東京オリンピックに向けて作られた、日本の技術史でも大切な乗り物です。",
           "en": "It was built for the 1964 Tokyo Olympics, and it is also an important part of Japan's engineering history."
         },
@@ -62578,10 +62743,6 @@
         {
           "ja": "一方、日本は、台湾の近くで大きな問題が起きれば、日本の安全にも関係すると見ています。",
           "en": "Japan, on the other hand, thinks that if a major problem happens near Taiwan, it would also affect Japan's safety."
-        },
-        {
-          "ja": "そのため、日本は南西の島々で防衛を強めています。",
-          "en": "For that reason, Japan is strengthening its defense in the southwestern islands."
         }
       ]
     },
@@ -65597,6 +65758,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
+          "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
+        },
+        {
           "ja": "このように、細かい列車の名前を全部覚えていなくても、まず路線のどちら側に行きたいかがわかれば、正しい電車をかなり選びやすくなります。",
           "en": "In this way, even if you do not remember every train name, knowing which side of the line you need first makes it much easier to choose the right train."
         },
@@ -65611,10 +65776,6 @@
         {
           "ja": "台風6号は3日、強い風と激しい雨を伴って日本列島を進みました。",
           "en": "On the 3rd, Typhoon No. 6 moved across Japan with strong winds and heavy rain. Power outages, flooding, and fallen trees were reported in many places, and local governments urged residents to evacuate early."
-        },
-        {
-          "ja": "東北のある県で、景色を楽しめる観光列車の人気が高まっています。",
-          "en": "In one prefecture in Tohoku, a sightseeing train that lets passengers enjoy the scenery is becoming more popular."
         }
       ]
     },
@@ -65742,6 +65903,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "利用者はカードをタッチするだけでよく、複雑な計算や確認を意識する必要はほとんどありません。",
+          "en": "Users only need to tap their card, and they hardly need to think about the complex calculations and checks happening behind the scenes."
+        },
         {
           "ja": "町では、人口が減り、決まった道を走るバスの利用者も少なくなっています。",
           "en": "In the town, the population is falling, and fewer people use buses that run on fixed routes."
@@ -67285,7 +67450,20 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
+          "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
+        },
+        {
+          "ja": "その理由の一つは、ICカードの残高確認や運賃計算が、改札機の中でとても速く処理されるように設計されていることです。",
+          "en": "One reason is that balance checks and fare calculations for IC cards are designed to be processed very quickly inside the ticket gate itself."
+        },
+        {
+          "ja": "普段は当たり前のように使っている改札ですが、その裏には日本ならではの高い技術と緻密なシステム設計が詰まっています。",
+          "en": "We usually use ticket gates as if they were completely ordinary, but behind them are advanced technology and precise system design that feel very characteristic of Japan."
+        }
+      ]
     },
     {
       "id": "core-516b16f625ef4f",
@@ -67332,6 +67510,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "もちろん、ただ速いだけではなく、不正利用を防ぐための仕組みもしっかり組み込まれています。",
+          "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
+        },
+        {
           "ja": "このように、細かい列車の名前を全部覚えていなくても、まず路線のどちら側に行きたいかがわかれば、正しい電車をかなり選びやすくなります。",
           "en": "In this way, even if you do not remember every train name, knowing which side of the line you need first makes it much easier to choose the right train."
         },
@@ -67364,6 +67546,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "速さと安全性を両立しているからこそ、毎日の大きな移動が安定して続けられるのです。",
+          "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
+        },
+        {
           "ja": "予報では、27日の夜には関東の近くまで進む可能性があります。",
           "en": "As of 9 p.m., Typhoon No. 7 was over waters east of areas near Amami and Okinawa. The forecast says it may move close to the Kanto region by the night of June 27."
         },
@@ -67378,10 +67564,6 @@
         {
           "ja": "このままでは、2026年内に大気圏へ入り、燃えてしまう可能性があります。",
           "en": "If nothing changes, it may enter the atmosphere and burn up by the end of 2026."
-        },
-        {
-          "ja": "それでも成功すれば、スウィフトはさらに5年以上観測を続けられる可能性があります。",
-          "en": "Even so, if the mission succeeds, Swift may be able to continue observing for at least five more years."
         }
       ]
     },
@@ -68009,7 +68191,16 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "その理由の一つは、ICカードの残高確認や運賃計算が、改札機の中でとても速く処理されるように設計されていることです。",
+          "en": "One reason is that balance checks and fare calculations for IC cards are designed to be processed very quickly inside the ticket gate itself."
+        },
+        {
+          "ja": "普段は当たり前のように使っている改札ですが、その裏には日本ならではの高い技術と緻密なシステム設計が詰まっています。",
+          "en": "We usually use ticket gates as if they were completely ordinary, but behind them are advanced technology and precise system design that feel very characteristic of Japan."
+        }
+      ]
     },
     {
       "id": "core-566f5cf6fb18d7",
@@ -70527,7 +70718,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "その理由の一つは、ICカードの残高確認や運賃計算が、改札機の中でとても速く処理されるように設計されていることです。",
+          "en": "One reason is that balance checks and fare calculations for IC cards are designed to be processed very quickly inside the ticket gate itself."
+        }
+      ]
     },
     {
       "id": "core-ad0c3dc984f709",
@@ -72570,6 +72766,10 @@
           "meaning": "Polite form of 進める: to advance, to promote",
           "exampleSentences": [
             {
+              "ja": "そのため、駅が混雑しているときでも、たくさんの人がほぼ同じ速さで進めます。",
+              "en": "Because of that, even when a station is crowded, many people can keep moving at almost the same speed."
+            },
+            {
               "ja": "新しい計画では、揺れを感知すると自動的に電気を止める感震ブレーカーの普及を進めます。",
               "en": "The new plan will promote seismic circuit breakers that automatically shut off electricity when they detect shaking."
             },
@@ -72584,10 +72784,6 @@
             {
               "ja": "自治体は、脱炭素の目標を進めるため、企業への支援も続ける方針です。",
               "en": "The local government plans to keep supporting companies to advance decarbonization goals."
-            },
-            {
-              "ja": "このお金は、研究や開発をもっと早く進めるために使われます。",
-              "en": "This money will be used to speed up research and development."
             }
           ]
         },
@@ -75582,6 +75778,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
+          "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
+        },
+        {
           "ja": "当時、この路線は日本で最初に営業したモノレールでした。",
           "en": "At the time, this line was Japan's first commercially operated monorail."
         },
@@ -75596,10 +75796,6 @@
         {
           "ja": "二つの台風が日本の南の海で同時に動いています。",
           "en": "On the night of June 26, the Japan Meteorological Agency released information on Typhoon No. 7, Mekkhala, and Typhoon No. 8, Higos. The two typhoons are moving at the same time over the sea south of Japan."
-        },
-        {
-          "ja": "台風7号は21時の時点で、奄美や沖縄に近い東の海上にありました。",
-          "en": "As of 9 p.m., Typhoon No. 7 was over waters east of areas near Amami and Okinawa. The forecast says it may move close to the Kanto region by the night of June 27."
         }
       ]
     },
@@ -77244,6 +77440,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "毎日何百万人もの乗客が利用しているのに、多くの人はほんの一瞬で通過できます。",
+          "en": "Even though millions of passengers use them every day, most people can pass through in just a moment."
+        },
+        {
           "ja": "この列車は浜松駅を通過しているところでした。",
           "en": "It was passing through Hamamatsu Station."
         },
@@ -77267,6 +77467,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "何気ない通勤の風景にも、見えにくい工夫がたくさんかくれているのです。",
+          "en": "Even in an everyday commuting scene, many hard-to-see innovations are hidden."
+        },
         {
           "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
           "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
@@ -77310,6 +77514,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "外のサーバーとの通信を長く待たなくてもいいので、流れが止まりにくくなっています。",
+          "en": "Because there is little need to wait on long communication with an outside server, the flow is less likely to stop."
+        },
         {
           "ja": "AP通信は、少なくとも188人が死亡し、約1500人がけがをしたと伝えています。",
           "en": "The Associated Press reported that at least 188 people had died and about 1,500 were injured."
@@ -77934,6 +78142,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "その理由の一つは、ICカードの残高確認や運賃計算が、改札機の中でとても速く処理されるように設計されていることです。",
+          "en": "One reason is that balance checks and fare calculations for IC cards are designed to be processed very quickly inside the ticket gate itself."
+        },
+        {
           "ja": "山手線は、ただ人を運ぶだけでなく、東京の街の作られ方そのものを支えているのです。",
           "en": "The Yamanote Line does not just carry people; it supports the very way Tokyo's cityscape was built."
         },
@@ -77948,10 +78160,6 @@
         {
           "ja": "2002年に完成したとき、全体の費用は4400億円をこえていて、そのときの借金が今の運賃にも影響しています。",
           "en": "When the line was completed in 2002, the total cost exceeded 440 billion yen, and those debts still affect fares today."
-        },
-        {
-          "ja": "この事故で、東海道新幹線は東京と新大阪の間の全線で運転を見合わせました。",
-          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
         }
       ]
     },
@@ -81276,6 +81484,183 @@
       "exampleSentences": []
     },
     {
+      "id": "article-330696a27e3d79",
+      "level": "N3",
+      "term": "改札",
+      "reading": "かいさつ",
+      "readingHiragana": "かいさつ",
+      "meaning": "Ticket gate",
+      "source": "article",
+      "sourceId": "2026-07-08-ticket-gate-speed",
+      "sourceTitle": "東京の駅の改札が混んでいても流れにくいのは見えない速い処理があるから",
+      "sourceLabel": "7/8 改札の速さ",
+      "sourceHref": "./2026-07-08-ticket-gate-speed.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-08-ticket-gate-speed"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
+          "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
+        },
+        {
+          "ja": "その理由の一つは、ICカードの残高確認や運賃計算が、改札機の中でとても速く処理されるように設計されていることです。",
+          "en": "One reason is that balance checks and fare calculations for IC cards are designed to be processed very quickly inside the ticket gate itself."
+        },
+        {
+          "ja": "普段は当たり前のように使っている改札ですが、その裏には日本ならではの高い技術と緻密なシステム設計が詰まっています。",
+          "en": "We usually use ticket gates as if they were completely ordinary, but behind them are advanced technology and precise system design that feel very characteristic of Japan."
+        }
+      ]
+    },
+    {
+      "id": "article-ef50743b4fb2ba",
+      "level": "N3",
+      "term": "残高確認",
+      "reading": "ざんだかかくにん",
+      "readingHiragana": "ざんだかかくにん",
+      "meaning": "Balance check",
+      "source": "article",
+      "sourceId": "2026-07-08-ticket-gate-speed",
+      "sourceTitle": "東京の駅の改札が混んでいても流れにくいのは見えない速い処理があるから",
+      "sourceLabel": "7/8 改札の速さ",
+      "sourceHref": "./2026-07-08-ticket-gate-speed.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-08-ticket-gate-speed"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "その理由の一つは、ICカードの残高確認や運賃計算が、改札機の中でとても速く処理されるように設計されていることです。",
+          "en": "One reason is that balance checks and fare calculations for IC cards are designed to be processed very quickly inside the ticket gate itself."
+        }
+      ]
+    },
+    {
+      "id": "article-4724824951a605",
+      "level": "N3",
+      "term": "運賃計算",
+      "reading": "うんちんけいさん",
+      "readingHiragana": "うんちんけいさん",
+      "meaning": "Fare calculation",
+      "source": "article",
+      "sourceId": "2026-07-08-ticket-gate-speed",
+      "sourceTitle": "東京の駅の改札が混んでいても流れにくいのは見えない速い処理があるから",
+      "sourceLabel": "7/8 改札の速さ",
+      "sourceHref": "./2026-07-08-ticket-gate-speed.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-08-ticket-gate-speed"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "その理由の一つは、ICカードの残高確認や運賃計算が、改札機の中でとても速く処理されるように設計されていることです。",
+          "en": "One reason is that balance checks and fare calculations for IC cards are designed to be processed very quickly inside the ticket gate itself."
+        }
+      ]
+    },
+    {
+      "id": "article-48d62a97957f66",
+      "level": "N3",
+      "term": "通信",
+      "reading": "つうしん",
+      "readingHiragana": "つうしん",
+      "meaning": "Communication / Data transmission",
+      "source": "article",
+      "sourceId": "2026-07-08-ticket-gate-speed",
+      "sourceTitle": "東京の駅の改札が混んでいても流れにくいのは見えない速い処理があるから",
+      "sourceLabel": "7/8 改札の速さ",
+      "sourceHref": "./2026-07-08-ticket-gate-speed.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-08-ticket-gate-speed"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "外のサーバーとの通信を長く待たなくてもいいので、流れが止まりにくくなっています。",
+          "en": "Because there is little need to wait on long communication with an outside server, the flow is less likely to stop."
+        },
+        {
+          "ja": "AP通信は、少なくとも188人が死亡し、約1500人がけがをしたと伝えています。",
+          "en": "The Associated Press reported that at least 188 people had died and about 1,500 were injured."
+        },
+        {
+          "ja": "一方で、通信が不安定な海上では、機械が使えない場合もあります。",
+          "en": "At the same time, onboard machines may not work when communications are unstable at sea."
+        }
+      ]
+    },
+    {
+      "id": "article-54810a24bbf592",
+      "level": "N3",
+      "term": "混雑",
+      "reading": "こんざつ",
+      "readingHiragana": "こんざつ",
+      "meaning": "Crowding / Congestion",
+      "source": "article",
+      "sourceId": "2026-07-08-ticket-gate-speed",
+      "sourceTitle": "東京の駅の改札が混んでいても流れにくいのは見えない速い処理があるから",
+      "sourceLabel": "7/8 改札の速さ",
+      "sourceHref": "./2026-07-08-ticket-gate-speed.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-08-ticket-gate-speed"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "そのため、駅が混雑しているときでも、たくさんの人がほぼ同じ速さで進めます。",
+          "en": "Because of that, even when a station is crowded, many people can keep moving at almost the same speed."
+        }
+      ]
+    },
+    {
+      "id": "article-a800b179fb7430",
+      "level": "N3",
+      "term": "不正利用",
+      "reading": "ふせいりよう",
+      "readingHiragana": "ふせいりよう",
+      "meaning": "Fraudulent use / Misuse",
+      "source": "article",
+      "sourceId": "2026-07-08-ticket-gate-speed",
+      "sourceTitle": "東京の駅の改札が混んでいても流れにくいのは見えない速い処理があるから",
+      "sourceLabel": "7/8 改札の速さ",
+      "sourceHref": "./2026-07-08-ticket-gate-speed.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-08-ticket-gate-speed"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "もちろん、ただ速いだけではなく、不正利用を防ぐための仕組みもしっかり組み込まれています。",
+          "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
+        }
+      ]
+    },
+    {
+      "id": "article-baf12c4642b304",
+      "level": "N3",
+      "term": "緻密",
+      "reading": "ちみつ",
+      "readingHiragana": "ちみつ",
+      "meaning": "Precise / Detailed",
+      "source": "article",
+      "sourceId": "2026-07-08-ticket-gate-speed",
+      "sourceTitle": "東京の駅の改札が混んでいても流れにくいのは見えない速い処理があるから",
+      "sourceLabel": "7/8 改札の速さ",
+      "sourceHref": "./2026-07-08-ticket-gate-speed.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-08-ticket-gate-speed"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "普段は当たり前のように使っている改札ですが、その裏には日本ならではの高い技術と緻密なシステム設計が詰まっています。",
+          "en": "We usually use ticket gates as if they were completely ordinary, but behind them are advanced technology and precise system design that feel very characteristic of Japan."
+        }
+      ]
+    },
+    {
       "id": "article-f31cce1be4a89e",
       "level": "N3",
       "term": "点字ブロック",
@@ -81382,6 +81767,10 @@
           "en": "If symptoms such as a headache or feeling unwell appear, it is important to move to a cool place right away."
         },
         {
+          "ja": "速さと安全性を両立しているからこそ、毎日の大きな移動が安定して続けられるのです。",
+          "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
+        },
+        {
           "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
           "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
         },
@@ -81392,10 +81781,6 @@
         {
           "ja": "電車で移動しやすいので、車だけに頼らなくても暮らしやすくなります。",
           "en": "Because it is easy to move by train, life becomes easier without relying only on cars."
-        },
-        {
-          "ja": "だから、りんかい線の駅で長いエスカレーターを下りるときは、東京でも特に大きくてお金のかかった鉄道計画の中を移動していると考えることができます。",
-          "en": "So when you ride down the long escalators at a Rinkai Line station, you can think of yourself as moving through one of Tokyo's biggest and most expensive railway projects."
         }
       ]
     },
@@ -81473,6 +81858,10 @@
         "2026-07-06-marunouchi-shikai"
       ],
       "exampleSentences": [
+        {
+          "ja": "何気ない通勤の風景にも、見えにくい工夫がたくさんかくれているのです。",
+          "en": "Even in an everyday commuting scene, many hard-to-see innovations are hidden."
+        },
         {
           "ja": "いつもの風景の中にも、まだ気づいていないやさしさや工夫がたくさんあるのだと思います。",
           "en": "I think there are many more acts of kindness and smart ideas hidden in the familiar scenery around us."
@@ -81991,16 +82380,16 @@
           "en": "The idea is to share equipment that is too expensive for one person to own alone."
         },
         {
-          "ja": "ロッカーや温かいシャワーもあるので、気軽に利用できます。",
-          "en": "There are also lockers and hot showers, so you can use it casually."
+          "ja": "毎日何百万人もの乗客が利用しているのに、多くの人はほんの一瞬で通過できます。",
+          "en": "Even though millions of passengers use them every day, most people can pass through in just a moment."
         },
         {
-          "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
-          "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
+          "ja": "利用者はカードをタッチするだけでよく、複雑な計算や確認を意識する必要はほとんどありません。",
+          "en": "Users only need to tap their card, and they hardly need to think about the complex calculations and checks happening behind the scenes."
         },
         {
-          "ja": "利用したい人は、前日までに電話かスマートフォンで乗る場所と時間を伝えます。",
-          "en": "People who want to use the service tell the town their pickup place and time by phone or smartphone by the previous day."
+          "ja": "もちろん、ただ速いだけではなく、不正利用を防ぐための仕組みもしっかり組み込まれています。",
+          "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
         }
       ]
     },
@@ -82240,6 +82629,10 @@
         "2026-07-01-rinkai-line-cost"
       ],
       "exampleSentences": [
+        {
+          "ja": "その理由の一つは、ICカードの残高確認や運賃計算が、改札機の中でとても速く処理されるように設計されていることです。",
+          "en": "One reason is that balance checks and fare calculations for IC cards are designed to be processed very quickly inside the ticket gate itself."
+        },
         {
           "ja": "東京のりんかい線は、ほかの路線より運賃が少し高いと感じる人がいます。",
           "en": "Some people feel that Tokyo's Rinkai Line costs a little more than other rail lines."
@@ -82540,6 +82933,10 @@
         {
           "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
           "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
+        },
+        {
+          "ja": "何気ない通勤の風景にも、見えにくい工夫がたくさんかくれているのです。",
+          "en": "Even in an everyday commuting scene, many hard-to-see innovations are hidden."
         },
         {
           "ja": "通勤や出張の予定を変更する人が多く、駅や空港では最新情報を確認する姿が目立ちました。",
@@ -83482,12 +83879,12 @@
           "en": "Many people changed commuting or business-trip plans, while stations and airports were filled with travelers checking the latest information."
         },
         {
-          "ja": "乗る前に、発車標で行き先と種別の両方を確認しましょう。",
-          "en": "Before getting on, check both the destination and the service type on the departure board."
+          "ja": "その理由の一つは、ICカードの残高確認や運賃計算が、改札機の中でとても速く処理されるように設計されていることです。",
+          "en": "One reason is that balance checks and fare calculations for IC cards are designed to be processed very quickly inside the ticket gate itself."
         },
         {
-          "ja": "週末に海へ行く予定がある人や、飛行機や船を使う人は、新しい情報を確認したほうがよさそうです。",
-          "en": "People planning to go to the sea over the weekend, or to use planes or boats, should check the latest information."
+          "ja": "利用者はカードをタッチするだけでよく、複雑な計算や確認を意識する必要はほとんどありません。",
+          "en": "Users only need to tap their card, and they hardly need to think about the complex calculations and checks happening behind the scenes."
         }
       ]
     },
@@ -83935,6 +84332,10 @@
         "2026-06-20-hamamatsu-shinkansen-accident"
       ],
       "exampleSentences": [
+        {
+          "ja": "毎日何百万人もの乗客が利用しているのに、多くの人はほんの一瞬で通過できます。",
+          "en": "Even though millions of passengers use them every day, most people can pass through in just a moment."
+        },
         {
           "ja": "この列車は浜松駅を通過しているところでした。",
           "en": "It was passing through Hamamatsu Station."
@@ -85556,6 +85957,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "速さと安全性を両立しているからこそ、毎日の大きな移動が安定して続けられるのです。",
+          "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
+        },
+        {
           "ja": "新しい株の値段を安定させるための金融のしくみです。",
           "en": "It is a financial mechanism for stabilizing the price of new shares."
         },
@@ -85570,10 +85975,6 @@
         {
           "ja": "安定して出荷するために、新しい設備や管理方法の導入が進められています。",
           "en": "New equipment and management methods are being introduced to maintain stable shipments."
-        },
-        {
-          "ja": "生産を続けやすくして、市場に安定して米を出すことが目的です。",
-          "en": "The goal is to make production easier to continue and keep rice supplies stable in the market."
         }
       ]
     },
@@ -86188,6 +86589,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "もちろん、ただ速いだけではなく、不正利用を防ぐための仕組みもしっかり組み込まれています。",
+          "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
+        },
+        {
           "ja": "こうした仕組みがあったからこそ、東京は世界でもとても大きく、しかも効率的な都市圏の一つに成長できました。",
           "en": "Because this kind of system existed, Tokyo was able to grow into one of the world's very large and efficient metropolitan areas."
         },
@@ -86202,10 +86607,6 @@
         {
           "ja": "必要なときだけ自動で動く仕組みを入れる例もあります。",
           "en": "Some examples include systems that run automatically only when needed."
-        },
-        {
-          "ja": "家計への負担を軽くするため、小売店や農家を支える仕組みを増やすとしています。",
-          "en": "To reduce the burden on households, it plans to expand support systems for retailers and farmers."
         }
       ]
     },
@@ -86764,6 +87165,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "毎日何百万人もの乗客が利用しているのに、多くの人はほんの一瞬で通過できます。",
+          "en": "Even though millions of passengers use them every day, most people can pass through in just a moment."
+        },
+        {
           "ja": "混みやすい時期でも、乗客の流れをスムーズにできるという期待があります。",
           "en": "Even during busy periods, they expect passenger flow to become smoother."
         }
@@ -86786,6 +87191,10 @@
         "2026-05-28-cashless-ferry"
       ],
       "exampleSentences": [
+        {
+          "ja": "外のサーバーとの通信を長く待たなくてもいいので、流れが止まりにくくなっています。",
+          "en": "Because there is little need to wait on long communication with an outside server, the flow is less likely to stop."
+        },
         {
           "ja": "AP通信は、少なくとも188人が死亡し、約1500人がけがをしたと伝えています。",
           "en": "The Associated Press reported that at least 188 people had died and about 1,500 were injured."
@@ -87069,6 +87478,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "もちろん、ただ速いだけではなく、不正利用を防ぐための仕組みもしっかり組み込まれています。",
+          "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
+        },
+        {
           "ja": "こうした仕組みがあったからこそ、東京は世界でもとても大きく、しかも効率的な都市圏の一つに成長できました。",
           "en": "Because this kind of system existed, Tokyo was able to grow into one of the world's very large and efficient metropolitan areas."
         },
@@ -87083,10 +87496,6 @@
         {
           "ja": "必要なときだけ自動で動く仕組みを入れる例もあります。",
           "en": "Some examples include systems that run automatically only when needed."
-        },
-        {
-          "ja": "家計への負担を軽くするため、小売店や農家を支える仕組みを増やすとしています。",
-          "en": "To reduce the burden on households, it plans to expand support systems for retailers and farmers."
         }
       ]
     },
@@ -87243,6 +87652,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "もちろん、ただ速いだけではなく、不正利用を防ぐための仕組みもしっかり組み込まれています。",
+          "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
+        },
+        {
           "ja": "こうした仕組みがあったからこそ、東京は世界でもとても大きく、しかも効率的な都市圏の一つに成長できました。",
           "en": "Because this kind of system existed, Tokyo was able to grow into one of the world's very large and efficient metropolitan areas."
         },
@@ -87257,10 +87670,6 @@
         {
           "ja": "必要なときだけ自動で動く仕組みを入れる例もあります。",
           "en": "Some examples include systems that run automatically only when needed."
-        },
-        {
-          "ja": "家計への負担を軽くするため、小売店や農家を支える仕組みを増やすとしています。",
-          "en": "To reduce the burden on households, it plans to expand support systems for retailers and farmers."
         }
       ]
     },
@@ -89124,6 +89533,10 @@
         "2026-04-10-deep-purple-pm"
       ],
       "exampleSentences": [
+        {
+          "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
+          "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
+        },
         {
           "ja": "政治の場所に有名なロックバンドが来るのは少し意外ですが、文化や音楽を通して国どうしの交流を深めたいという考えもあります。",
           "en": "It is a little surprising for a famous rock band to visit a political office, but there is also an idea of deepening ties between countries through culture and music."
