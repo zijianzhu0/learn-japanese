@@ -18,6 +18,8 @@ A local Japanese learning board with furigana, sentence highlighting, browser sp
 - `scripts/generate_site.py`: static site generator.
 - `scripts/render_video_url.py`: CLI renderer that writes an MP4 under `videos/` and prints a JSON download URL.
 - `server/local_tts_server.py`: static server, VOICEVOX proxy, and MP4 conversion endpoint.
+- `scripts/publish_article.py`: CLI helper that posts an article JSON file to the local runtime article API.
+- `publish.html` and `assets/publish.js`: browser UI for pasting article JSON and publishing it to the runtime article API.
 - `Dockerfile` and `docker-compose.yml`: Docker web server plus VOICEVOX engine.
 
 ## Run
@@ -46,6 +48,8 @@ Local Python mode also works if `ffmpeg` is installed:
 python3 server/local_tts_server.py
 ```
 
+By default, runtime-published articles live outside the repo at `~/.local/share/learn-japanese/articles`. In Docker, they live in the container at `/content/articles`, backed by the named Docker volume `learn_japanese_content`.
+
 ## Article Workflow
 
 Before changing article data, run the normal verification commands once so you have a clean baseline:
@@ -69,6 +73,54 @@ To add an article:
 2. Add `articles/YYYY-MM-DD-slug.json` to `data/articles.json` in display order.
 3. Run `python3 scripts/generate_site.py`.
 4. Re-run the verification commands from `Verify`.
+
+To publish an article without modifying the repo:
+
+1. Prepare an article JSON file with the same schema.
+2. Start the local server.
+3. Publish it to the runtime content store:
+
+```bash
+python3 scripts/publish_article.py /path/to/article.json
+```
+
+Or call the API directly:
+
+```bash
+curl -s \
+  -H 'Content-Type: application/json' \
+  -X POST \
+  --data @/path/to/article.json \
+  http://127.0.0.1:8765/api/articles
+```
+
+Useful runtime endpoints:
+
+- `GET /api/articles`
+- `GET /api/articles?article_id=...`
+- `POST /api/articles`
+- `DELETE /api/articles?article_id=...`
+- `GET /api/articles/backup`
+- `GET /data/article-navigation.json`
+- `GET /data/flashcards.json`
+
+Runtime-published articles appear on the served `index.html`, article navigation, flashcards, and video endpoints without regenerating tracked files.
+
+There is also a browser UI at:
+
+```text
+http://127.0.0.1:8765/publish.html
+```
+
+The publish page now acts as a lightweight runtime CMS:
+
+- copy the authoring prompt
+- copy a valid sample JSON payload
+- publish new runtime articles
+- load an existing runtime article back into the editor and save changes
+- copy a stored runtime JSON file
+- delete a stored runtime article
+- download a zip backup of the runtime content directory
 
 Each article JSON file includes:
 
@@ -146,6 +198,7 @@ Use `PUBLIC_BASE_URL` or `--base-url` if the static server is exposed somewhere 
 python3 scripts/generate_site.py
 node --check assets/article.js
 python3 -m py_compile server/local_tts_server.py scripts/generate_site.py scripts/render_video.py scripts/render_video_url.py
+python3 -m py_compile scripts/publish_article.py scripts/article_store.py
 docker compose config
 ```
 

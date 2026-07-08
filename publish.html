@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publish Runtime Article</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <script>
+        (() => {
+            try {
+                const storedTheme = window.localStorage.getItem('learnJapanese.theme');
+                const theme = storedTheme === 'dark' || storedTheme === 'light'
+                    ? storedTheme
+                    : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                document.documentElement.dataset.theme = theme;
+                document.documentElement.style.colorScheme = theme;
+            } catch (error) {
+                document.documentElement.dataset.theme = 'light';
+                document.documentElement.style.colorScheme = 'light';
+            }
+        })();
+    </script>
+    <style>
+        :root {
+            color-scheme: light dark;
+            --bg: #f3efe7;
+            --bg-accent: #e6f0eb;
+            --panel: rgba(255, 255, 255, 0.88);
+            --panel-strong: #fffdf9;
+            --line: rgba(84, 71, 56, 0.14);
+            --line-strong: rgba(84, 71, 56, 0.24);
+            --ink: #1f2a33;
+            --muted: #66737f;
+            --accent: #0f766e;
+            --accent-dark: #134e4a;
+            --warm: #9a5a22;
+            --danger: #9f2d2d;
+            --danger-soft: rgba(159, 45, 45, 0.08);
+            --shadow: 0 24px 56px rgba(48, 39, 28, 0.11);
+            --shadow-soft: 0 12px 28px rgba(48, 39, 28, 0.08);
+        }
+
+        :root[data-theme="dark"] {
+            --bg: #10181f;
+            --bg-accent: #17252d;
+            --panel: rgba(18, 28, 36, 0.92);
+            --panel-strong: #13202a;
+            --line: rgba(145, 169, 184, 0.16);
+            --line-strong: rgba(145, 169, 184, 0.24);
+            --ink: #e6eef5;
+            --muted: #a3b2bf;
+            --accent: #4fd1c5;
+            --accent-dark: #98f5eb;
+            --warm: #f2b880;
+            --danger: #ff8b8b;
+            --danger-soft: rgba(255, 139, 139, 0.12);
+            --shadow: 0 28px 64px rgba(0, 0, 0, 0.34);
+            --shadow-soft: 0 16px 36px rgba(0, 0, 0, 0.22);
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            color: var(--ink);
+            font-family: "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            background:
+                radial-gradient(circle at top left, rgba(255, 255, 255, 0.82), transparent 32%),
+                radial-gradient(circle at top right, rgba(205, 233, 223, 0.76), transparent 30%),
+                linear-gradient(180deg, #f7f3ec 0%, var(--bg) 52%, #ece8df 100%);
+        }
+
+        :root[data-theme="dark"] body {
+            background:
+                radial-gradient(circle at top left, rgba(88, 128, 152, 0.16), transparent 32%),
+                radial-gradient(circle at top right, rgba(79, 209, 197, 0.12), transparent 30%),
+                linear-gradient(180deg, #0b1217 0%, var(--bg) 52%, #0f171d 100%);
+        }
+
+        .top-nav {
+            position: sticky;
+            top: 0;
+            z-index: 5;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 14px 28px;
+            border-bottom: 1px solid rgba(84, 71, 56, 0.08);
+            background: rgba(247, 243, 236, 0.82);
+            backdrop-filter: blur(16px);
+        }
+
+        :root[data-theme="dark"] .top-nav {
+            background: rgba(11, 18, 23, 0.82);
+            border-bottom-color: rgba(145, 169, 184, 0.1);
+        }
+
+        .top-nav-link,
+        .top-nav-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 42px;
+            height: 42px;
+            border: 1px solid var(--line);
+            border-radius: 14px;
+            background: var(--panel);
+            color: #344054;
+            text-decoration: none;
+            box-shadow: var(--shadow-soft);
+            backdrop-filter: blur(14px);
+        }
+
+        :root[data-theme="dark"] .top-nav-link,
+        :root[data-theme="dark"] .top-nav-button {
+            color: var(--ink);
+        }
+
+        .top-nav-link:hover,
+        .top-nav-link:focus,
+        .top-nav-button:hover,
+        .top-nav-button:focus {
+            border-color: rgba(15, 118, 110, 0.18);
+            color: var(--accent-dark);
+            outline: none;
+            transform: translateY(-1px);
+        }
+
+        .top-nav-link.is-current {
+            border-color: rgba(15, 118, 110, 0.22);
+            color: var(--accent-dark);
+            background: rgba(239, 248, 246, 0.92);
+        }
+
+        .top-nav-button {
+            cursor: pointer;
+            font: inherit;
+        }
+
+        .nav-svg {
+            display: block;
+            width: 20px;
+            height: 20px;
+            stroke: currentColor;
+            stroke-width: 2;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            fill: none;
+        }
+
+        .icon-label {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+
+        .page-shell {
+            width: min(1100px, calc(100% - 32px));
+            margin: 32px auto 64px;
+            display: grid;
+            gap: 24px;
+        }
+
+        .hero,
+        .panel {
+            padding: 28px;
+            border: 1px solid rgba(255, 255, 255, 0.56);
+            border-radius: 28px;
+            background:
+                linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(255, 253, 249, 0.94)),
+                var(--panel-strong);
+            box-shadow: var(--shadow);
+        }
+
+        :root[data-theme="dark"] .hero,
+        :root[data-theme="dark"] .panel {
+            border-color: rgba(145, 169, 184, 0.12);
+            background:
+                linear-gradient(180deg, rgba(19, 32, 42, 0.96), rgba(19, 32, 42, 0.92)),
+                var(--panel-strong);
+        }
+
+        .eyebrow {
+            margin: 0 0 10px;
+            color: var(--warm);
+            font-size: 0.8rem;
+            font-weight: 800;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        h1,
+        h2 {
+            margin: 0;
+            color: #16313d;
+        }
+
+        :root[data-theme="dark"] h1,
+        :root[data-theme="dark"] h2 {
+            color: var(--ink);
+        }
+
+        h1 {
+            font-size: clamp(2rem, 4vw, 3.4rem);
+            line-height: 1.08;
+            letter-spacing: -0.03em;
+        }
+
+        .intro,
+        .panel-copy,
+        .small-note {
+            color: var(--muted);
+        }
+
+        .layout {
+            display: grid;
+            grid-template-columns: minmax(0, 1.5fr) minmax(280px, 0.9fr);
+            gap: 24px;
+        }
+
+        .editor-toolbar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            align-items: center;
+            margin: 0 0 14px;
+        }
+
+        .editor-toolbar h2 {
+            margin-right: auto;
+        }
+
+        .button,
+        .button-secondary {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 44px;
+            padding: 0 16px;
+            border: 1px solid transparent;
+            border-radius: 14px;
+            font: inherit;
+            font-weight: 700;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .button {
+            color: #fff;
+            background: linear-gradient(135deg, var(--accent), var(--accent-dark));
+            box-shadow: var(--shadow-soft);
+        }
+
+        .button-secondary {
+            color: var(--accent-dark);
+            background: rgba(255, 255, 255, 0.84);
+            border-color: var(--line);
+        }
+
+        .button:disabled,
+        .button-secondary:disabled {
+            opacity: 0.58;
+            cursor: default;
+        }
+
+        textarea {
+            width: 100%;
+            min-height: 560px;
+            padding: 18px;
+            border: 1px solid var(--line-strong);
+            border-radius: 22px;
+            color: var(--ink);
+            background: rgba(249, 246, 241, 0.92);
+            font: 14px/1.6 "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+            resize: vertical;
+        }
+
+        :root[data-theme="dark"] textarea {
+            background: rgba(10, 18, 24, 0.9);
+        }
+
+        textarea:focus {
+            outline: 2px solid rgba(15, 118, 110, 0.18);
+            outline-offset: 2px;
+        }
+
+        .status {
+            margin-top: 14px;
+            padding: 14px 16px;
+            border: 1px solid var(--line);
+            border-radius: 16px;
+            background: rgba(255, 255, 255, 0.74);
+            white-space: pre-wrap;
+        }
+
+        .status.is-error {
+            border-color: rgba(159, 45, 45, 0.24);
+            background: var(--danger-soft);
+            color: var(--danger);
+        }
+
+        .editing-target {
+            margin-top: 14px;
+            color: var(--warm);
+            font-size: 0.92rem;
+            font-weight: 700;
+        }
+
+        .meta-grid {
+            display: grid;
+            gap: 14px;
+            margin-top: 18px;
+        }
+
+        .meta-item {
+            padding: 14px 16px;
+            border: 1px solid var(--line);
+            border-radius: 18px;
+            background: rgba(255, 255, 255, 0.72);
+        }
+
+        .meta-label {
+            display: block;
+            margin-bottom: 5px;
+            color: var(--warm);
+            font-size: 0.76rem;
+            font-weight: 800;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        .article-list {
+            margin: 16px 0 0;
+            padding: 0;
+            list-style: none;
+            display: grid;
+            gap: 10px;
+        }
+
+        .article-card,
+        .article-list a {
+            border: 1px solid var(--line);
+            border-radius: 16px;
+            background: rgba(255, 255, 255, 0.64);
+        }
+
+        .article-card {
+            display: grid;
+            gap: 12px;
+            padding: 12px 14px;
+        }
+
+        .article-list a {
+            display: block;
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .article-list a:hover,
+        .article-list a:focus {
+            border-color: rgba(15, 118, 110, 0.18);
+            color: var(--accent-dark);
+            outline: none;
+        }
+
+        .article-list strong {
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        .article-card-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .list-button {
+            min-height: 36px;
+            padding: 0 12px;
+            border: 1px solid var(--line);
+            border-radius: 999px;
+            background: rgba(255, 255, 255, 0.84);
+            color: var(--accent-dark);
+            font: inherit;
+            font-size: 0.92rem;
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+        .list-button.is-danger {
+            color: var(--danger);
+        }
+
+        @media (max-width: 900px) {
+            .layout {
+                grid-template-columns: 1fr;
+            }
+
+            .page-shell {
+                width: min(100% - 20px, 1100px);
+                margin-top: 20px;
+            }
+
+            textarea {
+                min-height: 420px;
+            }
+        }
+    </style>
+</head>
+<body id="top">
+<nav class="top-nav" aria-label="Page navigation">
+    <a class="top-nav-link" href="./index.html" aria-label="Home" title="Home">
+        <svg class="nav-svg" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M3 11.5 12 4l9 7.5"></path>
+            <path d="M6.5 10.5V20h15v-9.5"></path>
+            <path d="M10 20v-5h4v5"></path>
+        </svg>
+        <span class="icon-label">Home</span>
+    </a>
+    <a class="top-nav-link" href="./flashcards.html" aria-label="Flashcards" title="Flashcards">
+        <svg class="nav-svg" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h9A2.5 2.5 0 0 1 18 6.5v11A2.5 2.5 0 0 1 15.5 20h-9A2.5 2.5 0 0 1 4 17.5z"></path>
+            <path d="M8 8h6"></path>
+            <path d="M8 12h8"></path>
+            <path d="M8 16h4"></path>
+        </svg>
+        <span class="icon-label">Flashcards</span>
+    </a>
+    <a class="top-nav-link is-current" href="./publish.html" aria-label="Publish article" title="Publish article" aria-current="page">
+        <svg class="nav-svg" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 5v14"></path>
+            <path d="M5 12h14"></path>
+        </svg>
+        <span class="icon-label">Publish</span>
+    </a>
+    <button class="top-nav-link top-nav-button" type="button" data-theme-toggle aria-label="Switch to dark mode" title="Switch to dark mode"></button>
+</nav>
+
+<main class="page-shell">
+    <section class="hero">
+        <p class="eyebrow">Runtime Publishing</p>
+        <h1>Paste article JSON and publish it live.</h1>
+        <p class="intro">This page writes to the runtime article store through <code>/api/articles</code>. It does not add files to the repo. After publish, the article appears on the served archive, article navigation, flashcards, and video endpoints.</p>
+    </section>
+
+    <section class="layout">
+        <section class="panel" aria-labelledby="publisher-heading">
+            <div class="editor-toolbar">
+                <h2 id="publisher-heading">Article JSON</h2>
+                <button class="button" type="button" id="publish-article">Publish</button>
+                <button class="button-secondary" type="button" id="format-json">Format JSON</button>
+                <button class="button-secondary" type="button" id="load-sample">Load Sample</button>
+                <button class="button-secondary" type="button" id="clear-editor">Clear</button>
+                <button class="button-secondary" type="button" id="copy-prompt">Copy Prompt</button>
+                <button class="button-secondary" type="button" id="copy-sample-json">Copy Sample JSON</button>
+            </div>
+            <p class="panel-copy">Paste the full article object. The same schema used in <code>data/articles/*.json</code> works here.</p>
+            <textarea id="article-json-input" spellcheck="false" aria-label="Article JSON editor"></textarea>
+            <div class="editing-target" id="editing-target">Editing a new runtime article</div>
+            <div class="status" id="publish-status" aria-live="polite">Ready.</div>
+        </section>
+
+        <aside class="panel" aria-labelledby="runtime-heading">
+            <h2 id="runtime-heading">Runtime Store</h2>
+            <p class="panel-copy">The server keeps runtime-published articles outside Git. This panel shows the current store and the newest published entries.</p>
+            <div class="meta-grid">
+                <div class="meta-item">
+                    <span class="meta-label">Content Dir</span>
+                    <div id="content-dir">Loading...</div>
+                    <div class="editor-toolbar" style="margin-top: 10px;">
+                        <button class="button-secondary" type="button" id="copy-content-dir">Copy Path</button>
+                        <button class="button-secondary" type="button" id="download-backup">Download Backup</button>
+                    </div>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Runtime Count</span>
+                    <div id="article-count">Loading...</div>
+                </div>
+            </div>
+            <p class="small-note">Existing runtime items can be loaded back into the editor, copied, or deleted here.</p>
+            <ul class="article-list" id="runtime-articles"></ul>
+        </aside>
+    </section>
+</main>
+
+<script src="./assets/theme.js"></script>
+<script src="./assets/publish.js"></script>
+</body>
+</html>

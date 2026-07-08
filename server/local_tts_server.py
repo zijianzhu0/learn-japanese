@@ -19,12 +19,12 @@ PROJECT_DIR = Path(__file__).resolve().parent.parent
 if str(PROJECT_DIR) not in sys.path:
     sys.path.insert(0, str(PROJECT_DIR))
 
+from scripts import article_store, generate_site
 from scripts.render_video import (
     DEFAULT_VOICEVOX_TIMEOUT,
     EXPORT_AUDIO_FILTER,
     RenderOptions,
     build_segments,
-    find_article,
     find_video_quiz,
     quiz_video_filename,
     render_html,
@@ -52,6 +52,7 @@ MAX_VIDEO_UPLOAD_BYTES = 700 * 1024 * 1024
 VIDEO_OUTPUT_DIR = PROJECT_DIR / "videos"
 FLASHCARD_PROGRESS_PATH = PROJECT_DIR / "data" / "flashcard-progress.json"
 FLASHCARD_PROGRESS_LOCK = threading.Lock()
+RUNTIME_ARTICLE_CONTENT_DIR = article_store.content_dir()
 
 
 class LearnJapaneseHandler(SimpleHTTPRequestHandler):
@@ -64,8 +65,33 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
     def do_GET(self) -> None:
         parsed = parse.urlsplit(self.path)
         request_path = parsed.path
+        if request_path in {"", "/", "/index.html"}:
+            self.handle_dynamic_index()
+            return
+
+        if request_path == "/data/article-navigation.json":
+            self.handle_article_navigation_manifest()
+            return
+
+        if request_path == "/data/flashcards.json":
+            self.handle_flashcards_manifest()
+            return
+
+        dynamic_article = self.find_dynamic_article(request_path)
+        if dynamic_article is not None:
+            self.handle_dynamic_article(dynamic_article)
+            return
+
         if request_path == "/api/tts/voicevox/status":
             self.handle_voicevox_status()
+            return
+
+        if request_path == "/api/articles":
+            self.handle_articles_get(parsed.query)
+            return
+
+        if request_path == "/api/articles/backup":
+            self.handle_articles_backup()
             return
 
         if request_path == "/api/flashcards/progress":
@@ -80,6 +106,10 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
 
     def do_POST(self) -> None:
         request_path = parse.urlsplit(self.path).path
+        if request_path == "/api/articles":
+            self.handle_article_create()
+            return
+
         if request_path == "/api/tts/voicevox":
             self.handle_voicevox_synthesis()
             return
@@ -118,6 +148,274 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
 
         self.send_json(404, {"ok": False, "error": "Unknown API endpoint."})
 
+    def do_DELETE(self) -> None:
+        parsed = parse.urlsplit(self.path)
+        if parsed.path == "/api/articles":
+            self.handle_article_delete(parsed.query)
+            return
+
+        self.send_json(404, {"ok": False, "error": "Unknown API endpoint."})
+
+    def runtime_articles(self) -> list[dict]:
+        return article_store.load_articles(RUNTIME_ARTICLE_CONTENT_DIR)
+
+    def find_dynamic_article(self, request_path: str) -> dict | None:
+        path = request_path.strip("/")
+        if not path or not path.endswith(".html") or path in {"flashcards.html", "ig-videos.html"}:
+            return None
+        try:
+            return article_store.find_article(path, RUNTIME_ARTICLE_CONTENT_DIR)
+        except ValueError:
+            return None
+
+    def send_html(self, status: int, html: str) -> None:
+        body = html.encode("utf-8")
+        self.send_response(status)
+        self.send_header("Content-Type", "text/html; charset=utf-8")
+        self.send_header("Content-Length", str(len(body)))
+        self.send_header("Cache-Control", "no-store")
+        self.end_headers()
+        self.wfile.write(body)
+
+    def handle_dynamic_index(self) -> None:
+        self.send_html(200, generate_site.render_index_html(self.runtime_articles()))
+
+    def handle_dynamic_article(self, article: dict) -> None:
+        template = generate_site.ARTICLE_TEMPLATE_PATH.read_text(encoding="utf-8")
+        html = generate_site.render_article(
+            article,
+            template,
+            generate_site.file_version(generate_site.ARTICLE_JS_PATH),
+        )
+        self.send_html(200, html)
+
+    def handle_article_navigation_manifest(self) -> None:
+        self.send_json(200, generate_site.article_navigation(self.runtime_articles()))
+
+    def handle_flashcards_manifest(self) -> None:
+        self.send_json(200, generate_site.build_flashcards_payload(self.runtime_articles()))
+
+    def handle_articles_get(self, query_string: str) -> None:
+        params = parse.parse_qs(query_string, keep_blank_values=False)
+        article_ref = str(params.get("article_id", [""])[0]).strip()
+        if article_ref:
+            self.handle_article_detail(article_ref)
+            return
+
+        articles = generate_site.primary_articles(self.runtime_articles())
+        runtime_count = sum(
+            1
+            for article in articles
+            if article_store.article_storage_path(article, RUNTIME_ARTICLE_CONTENT_DIR).exists()
+        )
+        self.send_json(
+            200,
+            {
+                "ok": True,
+                "content_dir": str(RUNTIME_ARTICLE_CONTENT_DIR),
+                "backup_url": "/api/articles/backup",
+                "count": len(articles),
+                "runtime_count": runtime_count,
+                "articles": [
+                    {
+                        "id": article["id"],
+                        "file": article["file"],
+                        "title": article["title"],
+                        "date": article["date"],
+                        "month": article["month"],
+                        "navLabel": article["navLabel"],
+                        "level": article.get("level", ""),
+                        "href": generate_site.article_href(article),
+                        "runtime": article_store.article_storage_path(
+                            article, RUNTIME_ARTICLE_CONTENT_DIR
+                        ).exists(),
+                    }
+                    for article in articles
+                ],
+            },
+        )
+
+    def handle_article_detail(self, article_ref: str) -> None:
+        try:
+            article, path = article_store.read_external_article_spec(
+                article_ref, RUNTIME_ARTICLE_CONTENT_DIR
+            )
+        except ValueError as exc:
+            self.send_json(404, {"ok": False, "error": str(exc)})
+            return
+
+        self.send_json(
+            200,
+            {
+                "ok": True,
+                "content_dir": str(RUNTIME_ARTICLE_CONTENT_DIR),
+                "article": article,
+                "json_path": str(path),
+            },
+        )
+
+    def parse_article_write_request(self) -> tuple[dict, bool]:
+        payload = self.read_json_body()
+        if "article" in payload:
+            article = payload.get("article")
+            overwrite = bool(payload.get("overwrite"))
+        else:
+            article = dict(payload)
+            overwrite = bool(article.pop("overwrite", False))
+        if not isinstance(article, dict):
+            raise ValueError("Article request must contain an article object.")
+        article_store.validate_article_payload(article, enforce_runtime_rules=True)
+        return article, overwrite
+
+    def validate_runtime_article_set(self, article_id: str) -> dict:
+        articles = self.runtime_articles()
+        article = article_store.find_article(article_id, RUNTIME_ARTICLE_CONTENT_DIR)
+        generate_site.render_article(
+            article,
+            generate_site.ARTICLE_TEMPLATE_PATH.read_text(encoding="utf-8"),
+            generate_site.file_version(generate_site.ARTICLE_JS_PATH),
+        )
+        generate_site.render_index_html(articles)
+        generate_site.build_flashcards_payload(articles)
+        return article
+
+    def handle_article_create(self) -> None:
+        try:
+            article, overwrite = self.parse_article_write_request()
+            RUNTIME_ARTICLE_CONTENT_DIR.mkdir(parents=True, exist_ok=True)
+            target_path = article_store.article_storage_path(article, RUNTIME_ARTICLE_CONTENT_DIR)
+
+            repo_conflict = next(
+                (
+                    existing
+                    for existing in article_store.read_repo_article_specs()
+                    if existing["id"] == article["id"] or existing["file"] == article["file"]
+                ),
+                None,
+            )
+            if repo_conflict:
+                raise ValueError("Article id or file conflicts with a repo-backed article.")
+
+            existing_external = next(
+                (
+                    existing
+                    for existing in article_store.read_external_article_specs(RUNTIME_ARTICLE_CONTENT_DIR)
+                    if existing["id"] == article["id"] or existing["file"] == article["file"]
+                ),
+                None,
+            )
+            if existing_external and not overwrite:
+                raise ValueError("Runtime article already exists. Pass overwrite=true to replace it.")
+
+            prior_bytes = target_path.read_bytes() if target_path.exists() else None
+            temp_path = target_path.with_suffix(f"{target_path.suffix}.tmp")
+            temp_path.write_text(
+                json.dumps(article, ensure_ascii=False, indent=2) + "\n",
+                encoding="utf-8",
+            )
+            temp_path.replace(target_path)
+            try:
+                saved = self.validate_runtime_article_set(article["id"])
+            except Exception:
+                if prior_bytes is None:
+                    target_path.unlink(missing_ok=True)
+                else:
+                    target_path.write_bytes(prior_bytes)
+                raise
+        except (TypeError, ValueError, json.JSONDecodeError) as exc:
+            self.send_json(400, {"ok": False, "error": str(exc)})
+            return
+        except Exception as exc:
+            self.send_json(500, {"ok": False, "error": f"Runtime article publish failed: {exc}"})
+            return
+
+        self.send_json(
+            201,
+            {
+                "ok": True,
+                "article": {
+                    "id": saved["id"],
+                    "file": saved["file"],
+                    "title": saved["title"],
+                    "href": generate_site.article_href(saved),
+                    "json_path": str(target_path),
+                },
+                "content_dir": str(RUNTIME_ARTICLE_CONTENT_DIR),
+                "index_url": "/index.html",
+                "flashcards_url": "/flashcards.html",
+            },
+        )
+
+    def handle_article_delete(self, query_string: str) -> None:
+        params = parse.parse_qs(query_string, keep_blank_values=False)
+        article_ref = str(params.get("article_id", [""])[0]).strip()
+        if not article_ref:
+            self.send_json(400, {"ok": False, "error": "Missing article_id query parameter."})
+            return
+
+        try:
+            article, target_path = article_store.read_external_article_spec(
+                article_ref, RUNTIME_ARTICLE_CONTENT_DIR
+            )
+            prior_bytes = target_path.read_bytes()
+            target_path.unlink()
+            try:
+                articles = self.runtime_articles()
+                generate_site.render_index_html(articles)
+                generate_site.build_flashcards_payload(articles)
+            except Exception:
+                target_path.write_bytes(prior_bytes)
+                raise
+        except ValueError as exc:
+            self.send_json(404, {"ok": False, "error": str(exc)})
+            return
+        except Exception as exc:
+            self.send_json(500, {"ok": False, "error": f"Runtime article delete failed: {exc}"})
+            return
+
+        self.send_json(
+            200,
+            {
+                "ok": True,
+                "deleted": {
+                    "id": article["id"],
+                    "file": article["file"],
+                    "json_path": str(target_path),
+                },
+                "content_dir": str(RUNTIME_ARTICLE_CONTENT_DIR),
+            },
+        )
+
+    def handle_articles_backup(self) -> None:
+        if not RUNTIME_ARTICLE_CONTENT_DIR.exists():
+            self.send_json(
+                404,
+                {"ok": False, "error": "Runtime content directory does not exist yet."},
+            )
+            return
+
+        with tempfile.TemporaryDirectory(prefix="learn-japanese-backup-") as temp_dir:
+            archive_base = Path(temp_dir) / "learn-japanese-runtime-content"
+            archive_path = Path(
+                shutil.make_archive(
+                    str(archive_base),
+                    "zip",
+                    root_dir=str(RUNTIME_ARTICLE_CONTENT_DIR),
+                )
+            )
+            archive_bytes = archive_path.read_bytes()
+
+        self.send_response(200)
+        self.send_header("Content-Type", "application/zip")
+        self.send_header("Content-Length", str(len(archive_bytes)))
+        self.send_header(
+            "Content-Disposition",
+            'attachment; filename="learn-japanese-runtime-content.zip"',
+        )
+        self.send_header("Cache-Control", "no-store")
+        self.end_headers()
+        self.wfile.write(archive_bytes)
+
     def handle_voicevox_status(self) -> None:
         try:
             speakers = voicevox_request("GET", "/speakers", base_url=VOICEVOX_BASE_URL)
@@ -144,7 +442,7 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
             return
 
         try:
-            article = find_article(article_ref)
+            article = article_store.find_article(article_ref, RUNTIME_ARTICLE_CONTENT_DIR)
             segment = build_segments(article)[0]
             html = render_html(article, segment, RenderOptions(article_id=article["id"]))
         except (ValueError, IndexError) as exc:
@@ -478,7 +776,7 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
             if not article_id:
                 raise VideoRenderRequestError(400, "Missing article_id.")
             try:
-                article = find_article(article_id)
+                article = article_store.find_article(article_id, RUNTIME_ARTICLE_CONTENT_DIR)
             except ValueError as exc:
                 raise VideoRenderRequestError(404, str(exc)) from exc
 
@@ -645,7 +943,7 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
             raise VideoRenderRequestError(400, "Missing article_id.")
 
         try:
-            article = find_article(article_id)
+            article = article_store.find_article(article_id, RUNTIME_ARTICLE_CONTENT_DIR)
         except ValueError as exc:
             raise VideoRenderRequestError(404, str(exc)) from exc
 
@@ -681,7 +979,7 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
             raise VideoRenderRequestError(400, "Missing article_id.")
 
         try:
-            article = find_article(article_id)
+            article = article_store.find_article(article_id, RUNTIME_ARTICLE_CONTENT_DIR)
         except ValueError as exc:
             raise VideoRenderRequestError(404, str(exc)) from exc
 
@@ -776,6 +1074,7 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
         self.send_header("Cache-Control", "no-store")
         self.end_headers()
         self.wfile.write(body)
+
 
 class VideoRenderRequestError(Exception):
     def __init__(self, status: int, message: str):
