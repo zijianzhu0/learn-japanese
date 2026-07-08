@@ -1064,6 +1064,11 @@ def load_core_vocabulary(article_examples: list[dict]) -> list[dict]:
 
 
 def write_flashcards_manifest(articles: list[dict]) -> None:
+    payload = build_flashcards_payload(articles)
+    FLASHCARDS_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def build_flashcards_payload(articles: list[dict]) -> dict:
     article_examples = article_sentence_examples(articles)
     core_items = load_core_vocabulary(article_examples)
     article_items = article_flashcard_items(articles, article_examples)
@@ -1080,7 +1085,7 @@ def write_flashcards_manifest(articles: list[dict]) -> None:
         "levels": level_counts,
         "items": items,
     }
-    FLASHCARDS_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return payload
 
 
 def write_article_navigation_manifest(articles: list[dict]) -> None:
@@ -1235,7 +1240,11 @@ def render_index_card(article: dict) -> str:
 
 
 def write_index(articles: list[dict]) -> None:
-    index = INDEX_PATH.read_text(encoding="utf-8")
+    INDEX_PATH.write_text(render_index_html(articles), encoding="utf-8")
+
+
+def render_index_html(articles: list[dict], base_html: str | None = None) -> str:
+    index = base_html if base_html is not None else INDEX_PATH.read_text(encoding="utf-8")
     favicon_link = '<link rel="icon" type="image/svg+xml" href="./favicon.svg">'
     if favicon_link not in index:
         index = re.sub(
@@ -1274,7 +1283,7 @@ def write_index(articles: list[dict]) -> None:
         index,
         count=1,
     )
-    INDEX_PATH.write_text(index, encoding="utf-8")
+    return index
 
 
 def write_flashcards_page() -> None:

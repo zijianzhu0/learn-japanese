@@ -24,6 +24,7 @@ ROOT = Path(__file__).resolve().parent.parent
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
+from scripts.article_store import find_article, load_articles
 from scripts.voicevox_cache import (
     DEFAULT_VOICEVOX_BASE_URL,
     VoicevoxRequestError,
@@ -123,31 +124,6 @@ def split_html_sentences(html: str) -> list[str]:
     if tail:
         pieces.append(tail)
     return pieces or [html]
-
-
-def load_articles() -> list[dict]:
-    manifest = json.loads(ARTICLES_MANIFEST.read_text(encoding="utf-8"))
-    articles = []
-    for article_path in manifest["articles"]:
-        path = ARTICLES_MANIFEST.parent / article_path
-        articles.append(json.loads(path.read_text(encoding="utf-8")))
-    return articles
-
-
-def find_article(article_ref: str) -> dict:
-    normalized = article_ref.removesuffix(".json").removesuffix(".html")
-    for article in load_articles():
-        slug = re.sub(r"^\d{4}-\d{2}-\d{2}-", "", article["id"])
-        candidates = {
-            article["id"],
-            slug,
-            article["file"],
-            article["file"].removesuffix(".html"),
-            Path(article["file"]).stem,
-        }
-        if article_ref in candidates or normalized in candidates:
-            return article
-    raise ValueError(f"Article not found: {article_ref}")
 
 
 def load_video_quizzes() -> list[dict]:

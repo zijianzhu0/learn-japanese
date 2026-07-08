@@ -187,11 +187,13 @@ function renderTopNavigation() {
 
     const homeIcon = '<svg class="nav-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11.5 12 4l9 7.5"></path><path d="M6.5 10.5V20h15v-9.5"></path><path d="M10 20v-5h4v5"></path></svg>';
     const flashcardsIcon = '<svg class="nav-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h9A2.5 2.5 0 0 1 18 6.5v11A2.5 2.5 0 0 1 15.5 20h-9A2.5 2.5 0 0 1 4 17.5z"></path><path d="M8 8h6"></path><path d="M8 12h8"></path><path d="M8 16h4"></path></svg>';
+    const publishIcon = '<svg class="nav-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14"></path><path d="M5 12h14"></path></svg>';
     const nextIcon = '<svg class="nav-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg>';
     const lastIcon = '<svg class="nav-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="m7 18 6-6-6-6"></path><path d="M17 6v12"></path></svg>';
     const links = [
         topNavLink('./index.html', 'Home', 'Home', homeIcon),
-        topNavLink('./flashcards.html', 'Flashcards', 'Flashcards', flashcardsIcon)
+        topNavLink('./flashcards.html', 'Flashcards', 'Flashcards', flashcardsIcon),
+        topNavLink('./publish.html', 'Publish', 'Publish article', publishIcon)
     ];
 
     if (articleNavigation.length > 0) {
@@ -255,6 +257,7 @@ function renderArticleNavigation() {
         <h2 class="site-title">Japanese learning board</h2>
         <p class="site-subtitle">Quick links to every article.</p>
         <a class="article-nav-link article-utility-link" href="./flashcards.html">Flashcards</a>
+        <a class="article-nav-link article-utility-link" href="./publish.html">Publish Article</a>
         <nav class="desktop-article-nav">${groupsHtml}
         </nav>
         <details class="mobile-article-menu">
