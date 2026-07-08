@@ -4,7 +4,7 @@
     "articleManifest": "data/articles.json"
   },
   "levels": {
-    "N3": 2022,
+    "N3": 2029,
     "N4": 536,
     "N5": 553
   },
@@ -869,6 +869,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "どの線に乗ってきたかで頭がいっぱいでも、色だけで目的の情報をつかみやすくなります。",
+          "en": "Even if your head is full of route information, the color alone makes the information you need easier to grasp."
+        },
         {
           "ja": "乗り換えのたびに地図を開かなくても、頭の中で道を組みたてられるようになります。",
           "en": "Even without opening a map for each transfer, you can start building the route in your head."
@@ -1882,7 +1886,20 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "多くの主要駅では、出口への案内に黄色が標準的に使われています。",
+          "en": "At many major stations, yellow is used as the standard color for directions to the exits."
+        },
+        {
+          "ja": "電車の路線はそれぞれ別の色で表されることが多いので、黄色い出口案内は見分けやすいです。",
+          "en": "Train lines are often shown in different colors, so yellow exit guidance is easy to distinguish from them."
+        },
+        {
+          "ja": "全部を理解しようとしなくても、「黄色は出口」と覚えておけば、移動の負担がかなり軽くなります。",
+          "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
+        }
+      ]
     },
     {
       "id": "core-4d720d780aeb1f",
@@ -1999,6 +2016,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "電車の路線はそれぞれ別の色で表されることが多いので、黄色い出口案内は見分けやすいです。",
+          "en": "Train lines are often shown in different colors, so yellow exit guidance is easy to distinguish from them."
+        },
+        {
           "ja": "これだけで、電車の選び方がかなり簡単になります。",
           "en": "That alone makes choosing a train much easier."
         },
@@ -2013,10 +2034,6 @@
         {
           "ja": "横浜やその先へ行くなら、横浜へ向かう電車に乗ればいいです。",
           "en": "If you are going to Yokohama or beyond, board a train heading that way."
-        },
-        {
-          "ja": "このように、細かい列車の名前を全部覚えていなくても、まず路線のどちら側に行きたいかがわかれば、正しい電車をかなり選びやすくなります。",
-          "en": "In this way, even if you do not remember every train name, knowing which side of the line you need first makes it much easier to choose the right train."
         }
       ]
     },
@@ -2422,24 +2439,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
-          "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
+          "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
+          "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
         },
         {
-          "ja": "そのため、駅が混雑しているときでも、たくさんの人がほぼ同じ速さで進めます。",
-          "en": "Because of that, even when a station is crowded, many people can keep moving at almost the same speed."
+          "ja": "多くの主要駅では、出口への案内に黄色が標準的に使われています。",
+          "en": "At many major stations, yellow is used as the standard color for directions to the exits."
         },
         {
-          "ja": "丸の内駅を歩いていたとき、点字ブロックの上に小さなQRコードがついているのを見つけました。",
-          "en": "While walking through Marunouchi Station, I noticed a small QR code attached above the tactile paving."
+          "ja": "黄色い背景に黒い文字と矢印を組み合わせた表示は、人の多い駅でもよく目立ちます。",
+          "en": "Signs that combine a yellow background with black text and arrows stand out well even in crowded stations."
         },
         {
-          "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
-          "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
+          "ja": "この仕組みを知っているだけで、新宿駅のような巨大な駅でも必要以上にこわがらなくてよくなります。",
+          "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
         },
         {
-          "ja": "普段は何気なく歩いている駅の中にも、このようなやさしい工夫が隠れていると知って、少し驚きました。",
-          "en": "I was a little surprised to learn that this kind of considerate idea was hidden inside a station I usually walk through without much thought."
+          "ja": "東京の駅が混雑していても大きく混乱しにくいのは、こうした単純で強いデザインの力があるからかもしれません。",
+          "en": "One reason Tokyo stations can stay usable despite heavy crowds may be the strength of this kind of simple, effective design."
         }
       ]
     },
@@ -4224,6 +4241,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "何気ない色の使い方ですが、毎日何百万人もの通勤客や旅行者がこの工夫に助けられています。",
+          "en": "It is only a simple use of color, but every day hundreds of thousands of commuters and travelers are helped by this idea."
+        },
+        {
           "ja": "毎日何百万人もの乗客が利用しているのに、多くの人はほんの一瞬で通過できます。",
           "en": "Even though millions of passengers use them every day, most people can pass through in just a moment."
         },
@@ -4238,10 +4259,6 @@
         {
           "ja": "毎日たくさんの人が行き交う東京の駅だからこそ、このような技術がとても自然に街へ溶け込んでいるのかもしれません。",
           "en": "Because Tokyo stations are used by so many people every day, perhaps this kind of technology blends naturally into the city."
-        },
-        {
-          "ja": "ほんの小さな発見でしたが、その日から街の見え方が少し変わったように感じました。",
-          "en": "It was only a small discovery, but it made me feel that the way I see the city changed a little that day."
         }
       ]
     },
@@ -4299,6 +4316,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
+          "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
+        },
+        {
+          "ja": "東京の駅が混雑していても大きく混乱しにくいのは、こうした単純で強いデザインの力があるからかもしれません。",
+          "en": "One reason Tokyo stations can stay usable despite heavy crowds may be the strength of this kind of simple, effective design."
+        },
+        {
           "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
           "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
         },
@@ -4309,14 +4334,6 @@
         {
           "ja": "東京の中心部へ向かうなら、まず品川へ向かう電車を探しましょう。",
           "en": "If you are heading into central Tokyo, first look for a train going toward Shinagawa."
-        },
-        {
-          "ja": "東京がとても便利に感じられる大きな理由の一つは、よく整った鉄道網です。",
-          "en": "One big reason Tokyo feels so convenient is its well-developed rail network."
-        },
-        {
-          "ja": "その中心にあるのが、東京を輪のように回る山手線です。",
-          "en": "At the center of that network is the Yamanote Line, which circles Tokyo like a loop."
         }
       ]
     },
@@ -4597,6 +4614,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "黄色い背景に黒い文字と矢印を組み合わせた表示は、人の多い駅でもよく目立ちます。",
+          "en": "Signs that combine a yellow background with black text and arrows stand out well even in crowded stations."
+        },
+        {
+          "ja": "何気ない色の使い方ですが、毎日何百万人もの通勤客や旅行者がこの工夫に助けられています。",
+          "en": "It is only a simple use of color, but every day hundreds of thousands of commuters and travelers are helped by this idea."
+        },
+        {
           "ja": "毎日何百万人もの乗客が利用しているのに、多くの人はほんの一瞬で通過できます。",
           "en": "Even though millions of passengers use them every day, most people can pass through in just a moment."
         },
@@ -4607,14 +4632,6 @@
         {
           "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
           "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
-        },
-        {
-          "ja": "毎日たくさんの人が行き交う東京の駅だからこそ、このような技術がとても自然に街へ溶け込んでいるのかもしれません。",
-          "en": "Because Tokyo stations are used by so many people every day, perhaps this kind of technology blends naturally into the city."
-        },
-        {
-          "ja": "そのため、多くの人は遠くまで行かなくても、生活に必要なものに近い場所で出会えます。",
-          "en": "Because of that, many people can find what they need for daily life without going very far."
         }
       ]
     },
@@ -4774,6 +4791,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "何気ない色の使い方ですが、毎日何百万人もの通勤客や旅行者がこの工夫に助けられています。",
+          "en": "It is only a simple use of color, but every day hundreds of thousands of commuters and travelers are helped by this idea."
+        },
+        {
           "ja": "毎日何百万人もの乗客が利用しているのに、多くの人はほんの一瞬で通過できます。",
           "en": "Even though millions of passengers use them every day, most people can pass through in just a moment."
         }
@@ -4895,6 +4916,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
+          "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
+        },
         {
           "ja": "外のサーバーとの通信を長く待たなくてもいいので、流れが止まりにくくなっています。",
           "en": "Because there is little need to wait on long communication with an outside server, the flow is less likely to stop."
@@ -5401,12 +5426,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "皇居のまわりを一周すると、景色を見ながら東京らしい習慣にふれることができます。",
-          "en": "If you run one lap around the Imperial Palace, you can enjoy the scenery and experience a very Tokyo-like custom."
+          "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
+          "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
         },
         {
-          "ja": "東北のある県で、景色を楽しめる観光列車の人気が高まっています。",
-          "en": "In one prefecture in Tohoku, a sightseeing train that lets passengers enjoy the scenery is becoming more popular."
+          "ja": "多くの主要駅では、出口への案内に黄色が標準的に使われています。",
+          "en": "At many major stations, yellow is used as the standard color for directions to the exits."
+        },
+        {
+          "ja": "電車の路線はそれぞれ別の色で表されることが多いので、黄色い出口案内は見分けやすいです。",
+          "en": "Train lines are often shown in different colors, so yellow exit guidance is easy to distinguish from them."
+        },
+        {
+          "ja": "どの線に乗ってきたかで頭がいっぱいでも、色だけで目的の情報をつかみやすくなります。",
+          "en": "Even if your head is full of route information, the color alone makes the information you need easier to grasp."
+        },
+        {
+          "ja": "黄色い背景に黒い文字と矢印を組み合わせた表示は、人の多い駅でもよく目立ちます。",
+          "en": "Signs that combine a yellow background with black text and arrows stand out well even in crowded stations."
         }
       ]
     },
@@ -5518,6 +5555,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
+          "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
+        },
         {
           "ja": "観光地のホテルでは、これから夏休みの忙しい時期を前に、さらに導入を進める計画です。",
           "en": "Hotels in tourist areas plan to increase adoption further before the busy summer vacation season."
@@ -5828,6 +5869,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
+          "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
+        },
+        {
           "ja": "五輪のために生まれた設備が、長い時間をへても役立ち続けているのはおもしろいことです。",
           "en": "It is interesting that a facility born for the Olympics has continued to be useful for a long time."
         },
@@ -5842,10 +5887,6 @@
         {
           "ja": "同じくらいの強さの地震が、近い場所で短い時間に起きることです。",
           "en": "\" It means earthquakes of similar strength happen close together in place and time."
-        },
-        {
-          "ja": "運転は約3時間後の午後8時48分に再開しました。",
-          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
         }
       ]
     },
@@ -6559,6 +6600,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
+          "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
+        },
+        {
+          "ja": "何気ない色の使い方ですが、毎日何百万人もの通勤客や旅行者がこの工夫に助けられています。",
+          "en": "It is only a simple use of color, but every day hundreds of thousands of commuters and travelers are helped by this idea."
+        },
+        {
           "ja": "ほんの小さな発見でしたが、その日から街の見え方が少し変わったように感じました。",
           "en": "It was only a small discovery, but it made me feel that the way I see the city changed a little that day."
         },
@@ -6569,14 +6618,6 @@
         {
           "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
           "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
-        },
-        {
-          "ja": "羽田空港で迷ったら、まずどちらの方面へ向かうのかを考えてみましょう。",
-          "en": "If you feel confused at Haneda Airport, first think about which direction you need to head."
-        },
-        {
-          "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
-          "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
         }
       ]
     },
@@ -7089,7 +7130,20 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
+          "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
+        },
+        {
+          "ja": "電車の路線はそれぞれ別の色で表されることが多いので、黄色い出口案内は見分けやすいです。",
+          "en": "Train lines are often shown in different colors, so yellow exit guidance is easy to distinguish from them."
+        },
+        {
+          "ja": "黄色い背景に黒い文字と矢印を組み合わせた表示は、人の多い駅でもよく目立ちます。",
+          "en": "Signs that combine a yellow background with black text and arrows stand out well even in crowded stations."
+        }
+      ]
     },
     {
       "id": "core-3e80e22f520098",
@@ -7905,24 +7959,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "多くの主要駅では、出口への案内に黄色が標準的に使われています。",
+          "en": "At many major stations, yellow is used as the standard color for directions to the exits."
+        },
+        {
+          "ja": "電車の路線はそれぞれ別の色で表されることが多いので、黄色い出口案内は見分けやすいです。",
+          "en": "Train lines are often shown in different colors, so yellow exit guidance is easy to distinguish from them."
+        },
+        {
+          "ja": "全部を理解しようとしなくても、「黄色は出口」と覚えておけば、移動の負担がかなり軽くなります。",
+          "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
+        },
+        {
           "ja": "争点の一つは、国の人口を2050年まで1000万人までに抑える提案でした。",
           "en": "One issue was a proposal to keep the country's population at no more than 10 million by 2050."
         },
         {
           "ja": "スイスの人口は現在およそ910万人で、2002年から大きく増えました。",
           "en": "The proposal was promoted by the right-wing Swiss People's Party. Switzerland's population is now about 9.1 million and has grown greatly since 2002. Supporters said the burden on housing, transportation, and public services was becoming heavy."
-        },
-        {
-          "ja": "案が通れば、人口が950万人に近づいたとき、政府は移民や難民、家族の呼び寄せを厳しく制限することになります。",
-          "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
-        },
-        {
-          "ja": "町では、人口が減り、決まった道を走るバスの利用者も少なくなっています。",
-          "en": "In the town, the population is falling, and fewer people use buses that run on fixed routes."
-        },
-        {
-          "ja": "人口や機能が集中する首都圏では、交通や物流の混乱も深刻になるとみられています。",
-          "en": "In the Tokyo metropolitan area, where people and key functions are concentrated, disruption to transport and logistics is also expected to be severe."
         }
       ]
     },
@@ -8020,7 +8074,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "黄色い背景に黒い文字と矢印を組み合わせた表示は、人の多い駅でもよく目立ちます。",
+          "en": "Signs that combine a yellow background with black text and arrows stand out well even in crowded stations."
+        }
+      ]
     },
     {
       "id": "core-4471ee5cb141cc",
@@ -8167,6 +8226,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "電車の路線はそれぞれ別の色で表されることが多いので、黄色い出口案内は見分けやすいです。",
+          "en": "Train lines are often shown in different colors, so yellow exit guidance is easy to distinguish from them."
+        },
+        {
           "ja": "これだけで、電車の選び方がかなり簡単になります。",
           "en": "That alone makes choosing a train much easier."
         },
@@ -8181,10 +8244,6 @@
         {
           "ja": "東京の中心部へ向かうなら、まず品川へ向かう電車を探しましょう。",
           "en": "If you are heading into central Tokyo, first look for a train going toward Shinagawa."
-        },
-        {
-          "ja": "横浜やその先へ行くなら、横浜へ向かう電車に乗ればいいです。",
-          "en": "If you are going to Yokohama or beyond, board a train heading that way."
         }
       ]
     },
@@ -8415,6 +8474,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "何気ない色の使い方ですが、毎日何百万人もの通勤客や旅行者がこの工夫に助けられています。",
+          "en": "It is only a simple use of color, but every day hundreds of thousands of commuters and travelers are helped by this idea."
+        },
+        {
           "ja": "毎日何百万人もの乗客が利用しているのに、多くの人はほんの一瞬で通過できます。",
           "en": "Even though millions of passengers use them every day, most people can pass through in just a moment."
         },
@@ -8429,10 +8492,6 @@
         {
           "ja": "このコースは東京でとても有名で、毎日たくさんの人が走っています。",
           "en": "This course is very famous in Tokyo, and many people run there every day."
-        },
-        {
-          "ja": "60年以上たった今でも、東京モノレールは毎日動いています。",
-          "en": "Even more than 60 years later, Tokyo Monorail still runs every day."
         }
       ]
     },
@@ -8570,6 +8629,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "何気ない色の使い方ですが、毎日何百万人もの通勤客や旅行者がこの工夫に助けられています。",
+          "en": "It is only a simple use of color, but every day hundreds of thousands of commuters and travelers are helped by this idea."
+        },
+        {
           "ja": "毎日何百万人もの乗客が利用しているのに、多くの人はほんの一瞬で通過できます。",
           "en": "Even though millions of passengers use them every day, most people can pass through in just a moment."
         },
@@ -8583,10 +8646,6 @@
         },
         {
           "ja": "案が通れば、人口が950万人に近づいたとき、政府は移民や難民、家族の呼び寄せを厳しく制限することになります。",
-          "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
-        },
-        {
-          "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
         }
       ]
@@ -8790,6 +8849,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "どの線に乗ってきたかで頭がいっぱいでも、色だけで目的の情報をつかみやすくなります。",
+          "en": "Even if your head is full of route information, the color alone makes the information you need easier to grasp."
+        },
+        {
+          "ja": "黄色い背景に黒い文字と矢印を組み合わせた表示は、人の多い駅でもよく目立ちます。",
+          "en": "Signs that combine a yellow background with black text and arrows stand out well even in crowded stations."
+        },
+        {
           "ja": "大きく目立つわけではなくても、だれかの安心をしっかり支えているところが素敵です。",
           "en": "Even if it does not stand out, it is wonderful that it quietly supports someone’s sense of safety."
         },
@@ -8800,14 +8867,6 @@
         {
           "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
           "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
-        },
-        {
-          "ja": "一つ目の地震が別の断層に力を加え、二つ目を引き起こした可能性があります。",
-          "en": "The first quake may have added stress to another fault and triggered the second one."
-        },
-        {
-          "ja": "AIは写真から大切な手がかりを見つけられましたが、結果は項目によって大きく違いました。",
-          "en": "The AI could find important clues in images, but the results differed greatly depending on the item."
         }
       ]
     },
@@ -8841,6 +8900,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
+          "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
+        },
+        {
           "ja": "京急線では、たくさんの電車がほかの鉄道会社の路線へそのまま入っていきます。",
           "en": "On the Keikyu Line, many trains continue directly onto other railway networks."
         },
@@ -8855,10 +8918,6 @@
         {
           "ja": "すでにある地下鉄、水道や電気の設備、建物の基礎をよけながらトンネルを作るのは、とても大変でした。",
           "en": "Building tunnels while avoiding existing subways, water and electrical infrastructure, and building foundations was extremely difficult."
-        },
-        {
-          "ja": "だから、りんかい線の駅で長いエスカレーターを下りるときは、東京でも特に大きくてお金のかかった鉄道計画の中を移動していると考えることができます。",
-          "en": "So when you ride down the long escalators at a Rinkai Line station, you can think of yourself as moving through one of Tokyo's biggest and most expensive railway projects."
         }
       ]
     },
@@ -9891,6 +9950,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "何気ない色の使い方ですが、毎日何百万人もの通勤客や旅行者がこの工夫に助けられています。",
+          "en": "It is only a simple use of color, but every day hundreds of thousands of commuters and travelers are helped by this idea."
+        },
+        {
           "ja": "毎日何百万人もの乗客が利用しているのに、多くの人はほんの一瞬で通過できます。",
           "en": "Even though millions of passengers use them every day, most people can pass through in just a moment."
         },
@@ -10162,24 +10225,24 @@
           "meaning": "Polite form of なる: to become",
           "exampleSentences": [
             {
+              "ja": "どの線に乗ってきたかで頭がいっぱいでも、色だけで目的の情報をつかみやすくなります。",
+              "en": "Even if your head is full of route information, the color alone makes the information you need easier to grasp."
+            },
+            {
+              "ja": "この仕組みを知っているだけで、新宿駅のような巨大な駅でも必要以上にこわがらなくてよくなります。",
+              "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
+            },
+            {
+              "ja": "全部を理解しようとしなくても、「黄色は出口」と覚えておけば、移動の負担がかなり軽くなります。",
+              "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
+            },
+            {
               "ja": "これだけで、電車の選び方がかなり簡単になります。",
               "en": "That alone makes choosing a train much easier."
             },
             {
               "ja": "品川に着けば、そこから山手線やほかの路線に乗り換えやすく、都心への移動がしやすくなります。",
               "en": "Once you reach Shinagawa, it is easy to transfer to the Yamanote Line and other routes into the city center."
-            },
-            {
-              "ja": "このように、細かい列車の名前を全部覚えていなくても、まず路線のどちら側に行きたいかがわかれば、正しい電車をかなり選びやすくなります。",
-              "en": "In this way, even if you do not remember every train name, knowing which side of the line you need first makes it much easier to choose the right train."
-            },
-            {
-              "ja": "電車で移動しやすいので、車だけに頼らなくても暮らしやすくなります。",
-              "en": "Because it is easy to move by train, life becomes easier without relying only on cars."
-            },
-            {
-              "ja": "種別ごとの止まり方がわかると、京急線はずっと使いやすくなります。",
-              "en": "Once you understand how each service type stops, the Keikyu Line becomes much easier to use."
             }
           ]
         },
@@ -10853,6 +10916,10 @@
           "meaning": "Te-form of 乗る: to get on (train, plane, bus, ship)",
           "exampleSentences": [
             {
+              "ja": "どの線に乗ってきたかで頭がいっぱいでも、色だけで目的の情報をつかみやすくなります。",
+              "en": "Even if your head is full of route information, the color alone makes the information you need easier to grasp."
+            },
+            {
               "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
               "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
             },
@@ -10867,10 +10934,6 @@
             {
               "ja": "乗る前に、発車標で行き先と種別の両方を確認しましょう。",
               "en": "Before getting on, check both the destination and the service type on the departure board."
-            },
-            {
-              "ja": "利用したい人は、前日までに電話かスマートフォンで乗る場所と時間を伝えます。",
-              "en": "People who want to use the service tell the town their pickup place and time by phone or smartphone by the previous day."
             }
           ]
         },
@@ -11092,6 +11155,10 @@
           "readingHiragana": "おぼえて",
           "meaning": "Te-form of 覚える: to memorize, to remember",
           "exampleSentences": [
+            {
+              "ja": "全部を理解しようとしなくても、「黄色は出口」と覚えておけば、移動の負担がかなり軽くなります。",
+              "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
+            },
             {
               "ja": "このように、細かい列車の名前を全部覚えていなくても、まず路線のどちら側に行きたいかがわかれば、正しい電車をかなり選びやすくなります。",
               "en": "In this way, even if you do not remember every train name, knowing which side of the line you need first makes it much easier to choose the right train."
@@ -11686,6 +11753,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "電車の路線はそれぞれ別の色で表されることが多いので、黄色い出口案内は見分けやすいです。",
+          "en": "Train lines are often shown in different colors, so yellow exit guidance is easy to distinguish from them."
+        },
+        {
+          "ja": "黄色い背景に黒い文字と矢印を組み合わせた表示は、人の多い駅でもよく目立ちます。",
+          "en": "Signs that combine a yellow background with black text and arrows stand out well even in crowded stations."
+        },
+        {
           "ja": "つまり、日本と中国には協力したい理由もありますが、信じにくい理由も多いのです。",
           "en": "In other words, Japan and China have reasons to cooperate, but they also have many reasons to distrust each other."
         },
@@ -11696,10 +11771,6 @@
         {
           "ja": "通勤や通学で使う人が多い場所では、とくに休める空間が必要だと考えられています。",
           "en": "In places used by many commuters and students, it is thought that rest spaces are especially necessary."
-        },
-        {
-          "ja": "外国の店では、健康にいい食品として紹介されることも多いです。",
-          "en": "In overseas stores, seaweed is often introduced as a healthy food."
         }
       ]
     },
@@ -12381,6 +12452,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "何気ない色の使い方ですが、毎日何百万人もの通勤客や旅行者がこの工夫に助けられています。",
+          "en": "It is only a simple use of color, but every day hundreds of thousands of commuters and travelers are helped by this idea."
+        },
+        {
           "ja": "旅行中で運動着を持っていなくても、近くのランナーズステーションで靴やウェアを借りることができます。",
           "en": "Even if you are traveling and did not bring exercise clothes, you can rent shoes and sportswear at a nearby runner’s station."
         },
@@ -12395,10 +12470,6 @@
         {
           "ja": "旅行者が増える中、多くのホテルで案内ロボットを使う動きが広がっています。",
           "en": "As the number of travelers increases, more hotels are using guide robots."
-        },
-        {
-          "ja": "とくに、最近は外国人の旅行者が多く、週末の予約が取りにくくなっています。",
-          "en": "Recently, especially many foreign travelers are using it, making weekend reservations hard to get."
         }
       ]
     },
@@ -12719,7 +12790,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "黄色い背景に黒い文字と矢印を組み合わせた表示は、人の多い駅でもよく目立ちます。",
+          "en": "Signs that combine a yellow background with black text and arrows stand out well even in crowded stations."
+        }
+      ]
     },
     {
       "id": "core-176ebaee14373b",
@@ -13349,6 +13425,10 @@
           "meaning": "Te-form of 知る: to be aware of, to know",
           "exampleSentences": [
             {
+              "ja": "この仕組みを知っているだけで、新宿駅のような巨大な駅でも必要以上にこわがらなくてよくなります。",
+              "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
+            },
+            {
               "ja": "普段は何気なく歩いている駅の中にも、このようなやさしい工夫が隠れていると知って、少し驚きました。",
               "en": "I was a little surprised to learn that this kind of considerate idea was hidden inside a station I usually walk through without much thought."
             },
@@ -13880,6 +13960,10 @@
           "meaning": "Plain past form of する: to do",
           "exampleSentences": [
             {
+              "ja": "東京の駅が混雑していても大きく混乱しにくいのは、こうした単純で強いデザインの力があるからかもしれません。",
+              "en": "One reason Tokyo stations can stay usable despite heavy crowds may be the strength of this kind of simple, effective design."
+            },
+            {
               "ja": "丸の内駅を歩いていたとき、点字ブロックの上に小さなQRコードがついているのを見つけました。",
               "en": "While walking through Marunouchi Station, I noticed a small QR code attached above the tactile paving."
             },
@@ -13894,10 +13978,6 @@
             {
               "ja": "普段は何気なく歩いている駅の中にも、このようなやさしい工夫が隠れていると知って、少し驚きました。",
               "en": "I was a little surprised to learn that this kind of considerate idea was hidden inside a station I usually walk through without much thought."
-            },
-            {
-              "ja": "自分が使う機会がないと、こうした設備にはなかなか気づかないものです。",
-              "en": "If you never have a reason to use such equipment, it is easy not to notice it."
             }
           ]
         },
@@ -13940,6 +14020,10 @@
           "meaning": "Te-form of する: to do",
           "exampleSentences": [
             {
+              "ja": "東京の駅が混雑していても大きく混乱しにくいのは、こうした単純で強いデザインの力があるからかもしれません。",
+              "en": "One reason Tokyo stations can stay usable despite heavy crowds may be the strength of this kind of simple, effective design."
+            },
+            {
               "ja": "毎日何百万人もの乗客が利用しているのに、多くの人はほんの一瞬で通過できます。",
               "en": "Even though millions of passengers use them every day, most people can pass through in just a moment."
             },
@@ -13954,10 +14038,6 @@
             {
               "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
               "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
-            },
-            {
-              "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
-              "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
             }
           ]
         },
@@ -13969,6 +14049,10 @@
           "readingHiragana": "できる",
           "meaning": "Potential form of する: to do",
           "exampleSentences": [
+            {
+              "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
+              "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
+            },
             {
               "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
               "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
@@ -13984,10 +14068,6 @@
             {
               "ja": "この考え方ができると、毎回ルート検索に時間を取られにくくなります。",
               "en": "Once you can think this way, you do not spend as much time on route searches every time."
-            },
-            {
-              "ja": "本の探し方や貸し出しの手続きを、画面を見ながら説明できるようになりました。",
-              "en": "People can now see on-screen explanations of how to find books and complete borrowing procedures."
             }
           ]
         }
@@ -14585,6 +14665,10 @@
           "readingHiragana": "たちます",
           "meaning": "Polite form of 立つ: to stand, to rise",
           "exampleSentences": [
+            {
+              "ja": "黄色い背景に黒い文字と矢印を組み合わせた表示は、人の多い駅でもよく目立ちます。",
+              "en": "Signs that combine a yellow background with black text and arrows stand out well even in crowded stations."
+            },
             {
               "ja": "大きく目立つわけではなくても、だれかの安心をしっかり支えているところが素敵です。",
               "en": "Even if it does not stand out, it is wonderful that it quietly supports someone’s sense of safety."
@@ -15203,6 +15287,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
+          "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
+        },
+        {
           "ja": "ふつうならそのまま通り過ぎてしまいそうな場所でしたが、なぜそこにあるのかが気になりました。",
           "en": "It was the kind of place I would normally pass without thinking, but I became curious about why it was there."
         },
@@ -15217,10 +15305,6 @@
         {
           "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
           "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
-        },
-        {
-          "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
-          "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
         }
       ]
     },
@@ -16019,6 +16103,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京の駅が混雑していても大きく混乱しにくいのは、こうした単純で強いデザインの力があるからかもしれません。",
+          "en": "One reason Tokyo stations can stay usable despite heavy crowds may be the strength of this kind of simple, effective design."
+        },
+        {
           "ja": "専門家は、気候変動によって、このような強い熱波が起きやすくなっていると説明しています。",
           "en": "Experts explain that climate change is making intense heatwaves like this more likely."
         },
@@ -16033,10 +16121,6 @@
         {
           "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
           "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
-        },
-        {
-          "ja": "太陽の活動が強くなり、地球の大気が広がったため、予想より強い抵抗を受けて高度が下がりました。",
-          "en": "Stronger solar activity expanded Earth's atmosphere, so the telescope experienced more drag than expected and lost altitude."
         }
       ]
     },
@@ -16055,6 +16139,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "この仕組みを知っているだけで、新宿駅のような巨大な駅でも必要以上にこわがらなくてよくなります。",
+          "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
+        },
+        {
           "ja": "丸の内駅を歩いていたとき、点字ブロックの上に小さなQRコードがついているのを見つけました。",
           "en": "While walking through Marunouchi Station, I noticed a small QR code attached above the tactile paving."
         },
@@ -16069,10 +16157,6 @@
         {
           "ja": "60年以上たった今でも、東京モノレールは毎日動いています。",
           "en": "Even more than 60 years later, Tokyo Monorail still runs every day."
-        },
-        {
-          "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
-          "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
         }
       ]
     },
@@ -17439,6 +17523,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "全部を理解しようとしなくても、「黄色は出口」と覚えておけば、移動の負担がかなり軽くなります。",
+          "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
+        },
+        {
           "ja": "このように、細かい列車の名前を全部覚えていなくても、まず路線のどちら側に行きたいかがわかれば、正しい電車をかなり選びやすくなります。",
           "en": "In this way, even if you do not remember every train name, knowing which side of the line you need first makes it much easier to choose the right train."
         },
@@ -18278,24 +18366,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
+          "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
+        },
+        {
+          "ja": "多くの主要駅では、出口への案内に黄色が標準的に使われています。",
+          "en": "At many major stations, yellow is used as the standard color for directions to the exits."
+        },
+        {
+          "ja": "電車の路線はそれぞれ別の色で表されることが多いので、黄色い出口案内は見分けやすいです。",
+          "en": "Train lines are often shown in different colors, so yellow exit guidance is easy to distinguish from them."
+        },
+        {
           "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
           "en": "In London, people using the Underground and buses were also advised to drink water."
         },
         {
           "ja": "夜にゴミを出さないことや、窓と扉をしっかり閉めることも大切だと案内しました。",
           "en": "It also advised people not to put out garbage at night and to keep windows and doors tightly closed."
-        },
-        {
-          "ja": "対応する言語は英語、中国語、韓国語などで、音声でも案内できます。",
-          "en": "The supported languages include English, Chinese, and Korean, and audio guidance is also available."
-        },
-        {
-          "ja": "こどもの本や日本語学習の資料への案内にも活用する予定です。",
-          "en": "They also plan to use them to guide people to children’s books and Japanese-learning materials."
-        },
-        {
-          "ja": "まずは大きな駅から始めて、発電した電気を照明や案内板に使う予定です。",
-          "en": "It will start with large stations and use the generated electricity for lighting and information boards."
         }
       ]
     },
@@ -18578,6 +18666,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
+          "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
+        },
+        {
           "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
           "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
         },
@@ -18598,6 +18690,10 @@
           "meaning": "Polite form of 合う: to fit, to match, to suit",
           "exampleSentences": [
             {
+              "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
+              "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
+            },
+            {
               "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
               "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
             },
@@ -18616,6 +18712,10 @@
           "meaning": "Plain past form of 合う: to fit, to match, to suit",
           "exampleSentences": [
             {
+              "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
+              "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
+            },
+            {
               "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
               "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
             },
@@ -18633,6 +18733,10 @@
           "readingHiragana": "あわない",
           "meaning": "Plain negative form of 合う: to fit, to match, to suit",
           "exampleSentences": [
+            {
+              "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
+              "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
+            },
             {
               "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
               "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
@@ -18656,6 +18760,10 @@
               "en": "The United States and Iran are discussing a temporary agreement to end the war."
             },
             {
+              "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
+              "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
+            },
+            {
               "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
               "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
             },
@@ -18673,6 +18781,10 @@
           "readingHiragana": "あえる",
           "meaning": "Potential form of 合う: to fit, to match, to suit",
           "exampleSentences": [
+            {
+              "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
+              "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
+            },
             {
               "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
               "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
@@ -18794,6 +18906,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
+          "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
+        },
+        {
           "ja": "ふつうならそのまま通り過ぎてしまいそうな場所でしたが、なぜそこにあるのかが気になりました。",
           "en": "It was the kind of place I would normally pass without thinking, but I became curious about why it was there."
         },
@@ -18808,10 +18924,6 @@
         {
           "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
           "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
-        },
-        {
-          "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
-          "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
         }
       ]
     },
@@ -18830,6 +18942,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "電車の路線はそれぞれ別の色で表されることが多いので、黄色い出口案内は見分けやすいです。",
+          "en": "Train lines are often shown in different colors, so yellow exit guidance is easy to distinguish from them."
+        },
+        {
           "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
           "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
         },
@@ -18844,10 +18960,6 @@
         {
           "ja": "種別ごとの止まり方がわかると、京急線はずっと使いやすくなります。",
           "en": "Once you understand how each service type stops, the Keikyu Line becomes much easier to use."
-        },
-        {
-          "ja": "最初は少し難しく見えても、行き先と種別をセットで見る習慣をつければ、不安はかなり小さくなります。",
-          "en": "It may look a little difficult at first, but if you make a habit of checking the destination and train type together, it becomes much less intimidating."
         }
       ]
     },
@@ -19038,6 +19150,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京の駅が混雑していても大きく混乱しにくいのは、こうした単純で強いデザインの力があるからかもしれません。",
+          "en": "One reason Tokyo stations can stay usable despite heavy crowds may be the strength of this kind of simple, effective design."
+        },
+        {
           "ja": "つまり、日本と中国には協力したい理由もありますが、信じにくい理由も多いのです。",
           "en": "In other words, Japan and China have reasons to cooperate, but they also have many reasons to distrust each other."
         },
@@ -19052,10 +19168,6 @@
         {
           "ja": "人が集まる力や、経済活動の種類も調べています。",
           "en": "It also studies a city's ability to attract people and the variety of its economic activity."
-        },
-        {
-          "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
-          "en": "The information was made to test how well AI can think about the present and future of cities."
         }
       ]
     },
@@ -20939,6 +21051,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
+          "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
+        },
+        {
           "ja": "そのため、観光客でも東京のランニング文化をすぐに体験できます。",
           "en": "Because of that, even visitors can quickly experience Tokyo’s running culture."
         },
@@ -20953,10 +21069,6 @@
         {
           "ja": "運営会社は、観光客が便利になるだけでなく、会計の時間が短くなると説明しています。",
           "en": "The operator explains that this not only makes things more convenient for tourists but also shortens checkout time."
-        },
-        {
-          "ja": "鉄道会社が、駅の屋根に太陽光パネルを置く計画を広げています。",
-          "en": "A railway company is expanding plans to install solar panels on station roofs."
         }
       ]
     },
@@ -21628,6 +21740,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "この仕組みを知っているだけで、新宿駅のような巨大な駅でも必要以上にこわがらなくてよくなります。",
+          "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
+        },
+        {
           "ja": "60年以上たった今でも、東京モノレールは毎日動いています。",
           "en": "Even more than 60 years later, Tokyo Monorail still runs every day."
         },
@@ -22047,6 +22163,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "黄色い背景に黒い文字と矢印を組み合わせた表示は、人の多い駅でもよく目立ちます。",
+          "en": "Signs that combine a yellow background with black text and arrows stand out well even in crowded stations."
+        },
         {
           "ja": "丸の内駅を歩いていたとき、点字ブロックの上に小さなQRコードがついているのを見つけました。",
           "en": "While walking through Marunouchi Station, I noticed a small QR code attached above the tactile paving."
@@ -24002,6 +24122,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "何気ない色の使い方ですが、毎日何百万人もの通勤客や旅行者がこの工夫に助けられています。",
+          "en": "It is only a simple use of color, but every day hundreds of thousands of commuters and travelers are helped by this idea."
+        },
+        {
           "ja": "何気ない通勤の風景にも、見えにくい工夫がたくさんかくれているのです。",
           "en": "Even in an everyday commuting scene, many hard-to-see innovations are hidden."
         },
@@ -24016,10 +24140,6 @@
         {
           "ja": "自分が使う機会がないと、こうした設備にはなかなか気づかないものです。",
           "en": "If you never have a reason to use such equipment, it is easy not to notice it."
-        },
-        {
-          "ja": "いつもの風景の中にも、まだ気づいていないやさしさや工夫がたくさんあるのだと思います。",
-          "en": "I think there are many more acts of kindness and smart ideas hidden in the familiar scenery around us."
         }
       ]
     },
@@ -25484,6 +25604,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
+          "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
+        },
+        {
+          "ja": "何気ない色の使い方ですが、毎日何百万人もの通勤客や旅行者がこの工夫に助けられています。",
+          "en": "It is only a simple use of color, but every day hundreds of thousands of commuters and travelers are helped by this idea."
+        },
+        {
           "ja": "毎日何百万人もの乗客が利用しているのに、多くの人はほんの一瞬で通過できます。",
           "en": "Even though millions of passengers use them every day, most people can pass through in just a moment."
         },
@@ -25494,14 +25622,6 @@
         {
           "ja": "図書館では、観光客だけでなく、地域で生活する外国人にも役立つと考えています。",
           "en": "Libraries believe the tablets will help not only tourists but also foreign residents in the community."
-        },
-        {
-          "ja": "運営会社は、観光客が便利になるだけでなく、会計の時間が短くなると説明しています。",
-          "en": "The operator explains that this not only makes things more convenient for tourists but also shortens checkout time."
-        },
-        {
-          "ja": "混みやすい時期でも、乗客の流れをスムーズにできるという期待があります。",
-          "en": "Even during busy periods, they expect passenger flow to become smoother."
         }
       ]
     },
@@ -26098,6 +26218,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
+          "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
+        },
+        {
           "ja": "東京の中心部へ向かうなら、まず品川へ向かう電車を探しましょう。",
           "en": "If you are heading into central Tokyo, first look for a train going toward Shinagawa."
         },
@@ -26625,6 +26749,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京の駅が混雑していても大きく混乱しにくいのは、こうした単純で強いデザインの力があるからかもしれません。",
+          "en": "One reason Tokyo stations can stay usable despite heavy crowds may be the strength of this kind of simple, effective design."
+        },
+        {
           "ja": "もちろん、ただ速いだけではなく、不正利用を防ぐための仕組みもしっかり組み込まれています。",
           "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
         },
@@ -26639,10 +26767,6 @@
         {
           "ja": "五輪のために生まれた設備が、長い時間をへても役立ち続けているのはおもしろいことです。",
           "en": "It is interesting that a facility born for the Olympics has continued to be useful for a long time."
-        },
-        {
-          "ja": "しかし、もしアメリカと中国の関係が少しよくなると、日本は不安になります。",
-          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
         }
       ]
     },
@@ -29366,24 +29490,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
+          "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
+        },
+        {
+          "ja": "電車の路線はそれぞれ別の色で表されることが多いので、黄色い出口案内は見分けやすいです。",
+          "en": "Train lines are often shown in different colors, so yellow exit guidance is easy to distinguish from them."
+        },
+        {
+          "ja": "黄色い背景に黒い文字と矢印を組み合わせた表示は、人の多い駅でもよく目立ちます。",
+          "en": "Signs that combine a yellow background with black text and arrows stand out well even in crowded stations."
+        },
+        {
           "ja": "そのため、車両に表示される行き先は、自分が降りる駅よりずっと先の地名であることもあります。",
           "en": "Because of that, the destination shown on the train may be a place name far beyond the station where you plan to get off."
         },
         {
           "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
           "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
-        },
-        {
-          "ja": "品川や羽田空港などの駅では、普通、急行、エアポート急行、特急、快特などの表示を見ます。",
-          "en": "At stations such as Shinagawa and Haneda Airport, you will see labels like Local, Express, Airport Express, Limited Express, and Rapid Limited Express."
-        },
-        {
-          "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
-          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
-        },
-        {
-          "ja": "気象庁は、最大1メートルの津波が来る可能性があると発表しました。",
-          "en": "The agency announced that waves of up to one meter could arrive."
         }
       ]
     },
@@ -29809,6 +29933,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "何気ない色の使い方ですが、毎日何百万人もの通勤客や旅行者がこの工夫に助けられています。",
+          "en": "It is only a simple use of color, but every day hundreds of thousands of commuters and travelers are helped by this idea."
+        },
+        {
           "ja": "何気ない通勤の風景にも、見えにくい工夫がたくさんかくれているのです。",
           "en": "Even in an everyday commuting scene, many hard-to-see innovations are hidden."
         },
@@ -30189,6 +30317,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
+          "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
+        },
+        {
           "ja": "スーパーでは、安い商品を探す人が増え、売り場の変化も目立っています。",
           "en": "More shoppers are looking for cheaper products, and changes in store shelves are becoming noticeable."
         }
@@ -30205,6 +30337,10 @@
           "meaning": "Polite form of 探す: to search, to look for",
           "exampleSentences": [
             {
+              "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
+              "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
+            },
+            {
               "ja": "スーパーでは、安い商品を探す人が増え、売り場の変化も目立っています。",
               "en": "More shoppers are looking for cheaper products, and changes in store shelves are becoming noticeable."
             }
@@ -30219,6 +30355,10 @@
           "meaning": "Plain past form of 探す: to search, to look for",
           "exampleSentences": [
             {
+              "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
+              "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
+            },
+            {
               "ja": "スーパーでは、安い商品を探す人が増え、売り場の変化も目立っています。",
               "en": "More shoppers are looking for cheaper products, and changes in store shelves are becoming noticeable."
             }
@@ -30232,6 +30372,10 @@
           "readingHiragana": "さがさない",
           "meaning": "Plain negative form of 探す: to search, to look for",
           "exampleSentences": [
+            {
+              "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
+              "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
+            },
             {
               "ja": "スーパーでは、安い商品を探す人が増え、売り場の変化も目立っています。",
               "en": "More shoppers are looking for cheaper products, and changes in store shelves are becoming noticeable."
@@ -30251,6 +30395,10 @@
               "en": "Many people were still missing, and rescue teams were searching through rubble."
             },
             {
+              "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
+              "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
+            },
+            {
               "ja": "スーパーでは、安い商品を探す人が増え、売り場の変化も目立っています。",
               "en": "More shoppers are looking for cheaper products, and changes in store shelves are becoming noticeable."
             }
@@ -30264,6 +30412,10 @@
           "readingHiragana": "さがせる",
           "meaning": "Potential form of 探す: to search, to look for",
           "exampleSentences": [
+            {
+              "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
+              "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
+            },
             {
               "ja": "スーパーでは、安い商品を探す人が増え、売り場の変化も目立っています。",
               "en": "More shoppers are looking for cheaper products, and changes in store shelves are becoming noticeable."
@@ -30900,6 +31052,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "電車の路線はそれぞれ別の色で表されることが多いので、黄色い出口案内は見分けやすいです。",
+          "en": "Train lines are often shown in different colors, so yellow exit guidance is easy to distinguish from them."
+        },
+        {
+          "ja": "どの線に乗ってきたかで頭がいっぱいでも、色だけで目的の情報をつかみやすくなります。",
+          "en": "Even if your head is full of route information, the color alone makes the information you need easier to grasp."
+        },
+        {
           "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
           "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
         },
@@ -30910,14 +31070,6 @@
         {
           "ja": "品川に着けば、そこから山手線やほかの路線に乗り換えやすく、都心への移動がしやすくなります。",
           "en": "Once you reach Shinagawa, it is easy to transfer to the Yamanote Line and other routes into the city center."
-        },
-        {
-          "ja": "このように、細かい列車の名前を全部覚えていなくても、まず路線のどちら側に行きたいかがわかれば、正しい電車をかなり選びやすくなります。",
-          "en": "In this way, even if you do not remember every train name, knowing which side of the line you need first makes it much easier to choose the right train."
-        },
-        {
-          "ja": "その中心にあるのが、東京を輪のように回る山手線です。",
-          "en": "At the center of that network is the Yamanote Line, which circles Tokyo like a loop."
         }
       ]
     },
@@ -37542,24 +37694,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
+          "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
+        },
+        {
+          "ja": "多くの主要駅では、出口への案内に黄色が標準的に使われています。",
+          "en": "At many major stations, yellow is used as the standard color for directions to the exits."
+        },
+        {
+          "ja": "電車の路線はそれぞれ別の色で表されることが多いので、黄色い出口案内は見分けやすいです。",
+          "en": "Train lines are often shown in different colors, so yellow exit guidance is easy to distinguish from them."
+        },
+        {
           "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
           "en": "In London, people using the Underground and buses were also advised to drink water."
         },
         {
           "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
           "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
-        },
-        {
-          "ja": "そのため、停戦案が本当に進むかはまだわかりません。",
-          "en": "Because of that, it is still unclear whether the ceasefire plan will really move forward."
-        },
-        {
-          "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
-          "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
-        },
-        {
-          "ja": "争点の一つは、国の人口を2050年まで1000万人までに抑える提案でした。",
-          "en": "One issue was a proposal to keep the country's population at no more than 10 million by 2050."
         }
       ]
     },
@@ -38411,6 +38563,10 @@
           "meaning": "Plain past form of 合わせる: to match, to join together",
           "exampleSentences": [
             {
+              "ja": "黄色い背景に黒い文字と矢印を組み合わせた表示は、人の多い駅でもよく目立ちます。",
+              "en": "Signs that combine a yellow background with black text and arrows stand out well even in crowded stations."
+            },
+            {
               "ja": "ベンチや日陰と組み合わせることで、熱中症の予防にもつなげたいとしています。",
               "en": "By combining the mist with benches and shade, the cities also hope to help prevent heatstroke."
             }
@@ -38539,6 +38695,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
+          "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
+        },
+        {
           "ja": "ふつうならそのまま通り過ぎてしまいそうな場所でしたが、なぜそこにあるのかが気になりました。",
           "en": "It was the kind of place I would normally pass without thinking, but I became curious about why it was there."
         },
@@ -38553,10 +38713,6 @@
         {
           "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
           "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
-        },
-        {
-          "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
-          "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
         }
       ]
     },
@@ -38995,6 +39151,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "黄色い背景に黒い文字と矢印を組み合わせた表示は、人の多い駅でもよく目立ちます。",
+          "en": "Signs that combine a yellow background with black text and arrows stand out well even in crowded stations."
+        },
+        {
           "ja": "そのため、観光客でも東京のランニング文化をすぐに体験できます。",
           "en": "Because of that, even visitors can quickly experience Tokyo’s running culture."
         },
@@ -39009,10 +39169,6 @@
         {
           "ja": "文部科学省は、学校ごとの状況にあわせて柔軟に運用できる指針を示したい考えです。",
           "en": "The education ministry wants to present guidelines that schools can apply flexibly according to their situations."
-        },
-        {
-          "ja": "政治の場所に有名なロックバンドが来るのは少し意外ですが、文化や音楽を通して国どうしの交流を深めたいという考えもあります。",
-          "en": "It is a little surprising for a famous rock band to visit a political office, but there is also an idea of deepening ties between countries through culture and music."
         }
       ]
     },
@@ -39031,6 +39187,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "電車の路線はそれぞれ別の色で表されることが多いので、黄色い出口案内は見分けやすいです。",
+          "en": "Train lines are often shown in different colors, so yellow exit guidance is easy to distinguish from them."
+        },
+        {
           "ja": "自分が使う機会がないと、こうした設備にはなかなか気づかないものです。",
           "en": "If you never have a reason to use such equipment, it is easy not to notice it."
         },
@@ -39045,10 +39205,6 @@
         {
           "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
           "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
-        },
-        {
-          "ja": "速く走る人もいれば、ゆっくり自分のペースで走る人もいます。",
-          "en": "Some people run fast, while others run slowly at their own pace."
         }
       ]
     },
@@ -44390,6 +44546,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
+          "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
+        },
+        {
           "ja": "消防や自治体の職員は、映像を見ながら避難の判断をする練習をしました。",
           "en": "Firefighters and local officials practiced making evacuation decisions while watching the video images."
         },
@@ -46525,6 +46685,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
+          "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
+        },
+        {
+          "ja": "何気ない色の使い方ですが、毎日何百万人もの通勤客や旅行者がこの工夫に助けられています。",
+          "en": "It is only a simple use of color, but every day hundreds of thousands of commuters and travelers are helped by this idea."
+        },
+        {
           "ja": "ほんの小さな発見でしたが、その日から街の見え方が少し変わったように感じました。",
           "en": "It was only a small discovery, but it made me feel that the way I see the city changed a little that day."
         },
@@ -46535,14 +46703,6 @@
         {
           "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
           "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
-        },
-        {
-          "ja": "羽田空港で迷ったら、まずどちらの方面へ向かうのかを考えてみましょう。",
-          "en": "If you feel confused at Haneda Airport, first think about which direction you need to head."
-        },
-        {
-          "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
-          "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
         }
       ]
     },
@@ -46675,6 +46835,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
+          "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
+        },
+        {
           "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
           "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
         },
@@ -46770,24 +46934,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
+          "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
+        },
+        {
+          "ja": "電車の路線はそれぞれ別の色で表されることが多いので、黄色い出口案内は見分けやすいです。",
+          "en": "Train lines are often shown in different colors, so yellow exit guidance is easy to distinguish from them."
+        },
+        {
+          "ja": "黄色い背景に黒い文字と矢印を組み合わせた表示は、人の多い駅でもよく目立ちます。",
+          "en": "Signs that combine a yellow background with black text and arrows stand out well even in crowded stations."
+        },
+        {
           "ja": "そのため、車両に表示される行き先は、自分が降りる駅よりずっと先の地名であることもあります。",
           "en": "Because of that, the destination shown on the train may be a place name far beyond the station where you plan to get off."
         },
         {
           "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
           "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
-        },
-        {
-          "ja": "品川や羽田空港などの駅では、普通、急行、エアポート急行、特急、快特などの表示を見ます。",
-          "en": "At stations such as Shinagawa and Haneda Airport, you will see labels like Local, Express, Airport Express, Limited Express, and Rapid Limited Express."
-        },
-        {
-          "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
-          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
-        },
-        {
-          "ja": "気象庁は、最大1メートルの津波が来る可能性があると発表しました。",
-          "en": "The agency announced that waves of up to one meter could arrive."
         }
       ]
     },
@@ -47165,6 +47329,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "全部を理解しようとしなくても、「黄色は出口」と覚えておけば、移動の負担がかなり軽くなります。",
+          "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
+        },
+        {
           "ja": "速さと安全性を両立しているからこそ、毎日の大きな移動が安定して続けられるのです。",
           "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
         },
@@ -47179,10 +47347,6 @@
         {
           "ja": "電車で移動しやすいので、車だけに頼らなくても暮らしやすくなります。",
           "en": "Because it is easy to move by train, life becomes easier without relying only on cars."
-        },
-        {
-          "ja": "だから、りんかい線の駅で長いエスカレーターを下りるときは、東京でも特に大きくてお金のかかった鉄道計画の中を移動していると考えることができます。",
-          "en": "So when you ride down the long escalators at a Rinkai Line station, you can think of yourself as moving through one of Tokyo's biggest and most expensive railway projects."
         }
       ]
     },
@@ -48986,6 +49150,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "どの線に乗ってきたかで頭がいっぱいでも、色だけで目的の情報をつかみやすくなります。",
+          "en": "Even if your head is full of route information, the color alone makes the information you need easier to grasp."
+        },
+        {
           "ja": "気象庁は6月26日の夜、台風7号「メーカラー」と台風8号「ヒーゴス」の情報を出しました。",
           "en": "On the night of June 26, the Japan Meteorological Agency released information on Typhoon No. 7, Mekkhala, and Typhoon No. 8, Higos. The two typhoons are moving at the same time over the sea south of Japan."
         },
@@ -49000,10 +49168,6 @@
         {
           "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
           "en": "The information was made to test how well AI can think about the present and future of cities."
-        },
-        {
-          "ja": "建設現場では、作業を始める前にアプリの情報を確認しています。",
-          "en": "At construction sites, workers check the app's information before starting work."
         }
       ]
     },
@@ -51156,6 +51320,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "この仕組みを知っているだけで、新宿駅のような巨大な駅でも必要以上にこわがらなくてよくなります。",
+          "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
+        },
+        {
           "ja": "丸の内駅を歩いていたとき、点字ブロックの上に小さなQRコードがついているのを見つけました。",
           "en": "While walking through Marunouchi Station, I noticed a small QR code attached above the tactile paving."
         },
@@ -51170,10 +51338,6 @@
         {
           "ja": "60年以上たった今でも、東京モノレールは毎日動いています。",
           "en": "Even more than 60 years later, Tokyo Monorail still runs every day."
-        },
-        {
-          "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
-          "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
         }
       ]
     },
@@ -51427,6 +51591,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
+          "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
+        },
+        {
           "ja": "羽田空港で迷ったら、まずどちらの方面へ向かうのかを考えてみましょう。",
           "en": "If you feel confused at Haneda Airport, first think about which direction you need to head."
         },
@@ -51441,10 +51609,6 @@
         {
           "ja": "全部の路線を暗記しなくても、この方向だけでかなり考えやすくなります。",
           "en": "You do not need to memorize every line; these directions alone make it much easier to think."
-        },
-        {
-          "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
-          "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
         }
       ]
     },
@@ -51706,6 +51870,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
+          "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
+        },
+        {
           "ja": "そのため、観光客でも東京のランニング文化をすぐに体験できます。",
           "en": "Because of that, even visitors can quickly experience Tokyo’s running culture."
         },
@@ -51720,10 +51888,6 @@
         {
           "ja": "運営会社は、観光客が便利になるだけでなく、会計の時間が短くなると説明しています。",
           "en": "The operator explains that this not only makes things more convenient for tourists but also shortens checkout time."
-        },
-        {
-          "ja": "観光地のホテルでは、これから夏休みの忙しい時期を前に、さらに導入を進める計画です。",
-          "en": "Hotels in tourist areas plan to increase adoption further before the busy summer vacation season."
         }
       ]
     },
@@ -51741,6 +51905,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
+          "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
+        },
         {
           "ja": "そのため、観光客でも東京のランニング文化をすぐに体験できます。",
           "en": "Because of that, even visitors can quickly experience Tokyo’s running culture."
@@ -52855,6 +53023,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "全部を理解しようとしなくても、「黄色は出口」と覚えておけば、移動の負担がかなり軽くなります。",
+          "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
+        },
+        {
           "ja": "速さと安全性を両立しているからこそ、毎日の大きな移動が安定して続けられるのです。",
           "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
         },
@@ -52869,10 +53041,6 @@
         {
           "ja": "電車で移動しやすいので、車だけに頼らなくても暮らしやすくなります。",
           "en": "Because it is easy to move by train, life becomes easier without relying only on cars."
-        },
-        {
-          "ja": "旅行中で運動着を持っていなくても、近くのランナーズステーションで靴やウェアを借りることができます。",
-          "en": "Even if you are traveling and did not bring exercise clothes, you can rent shoes and sportswear at a nearby runner’s station."
         }
       ]
     },
@@ -55878,6 +56046,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京の駅が混雑していても大きく混乱しにくいのは、こうした単純で強いデザインの力があるからかもしれません。",
+          "en": "One reason Tokyo stations can stay usable despite heavy crowds may be the strength of this kind of simple, effective design."
+        },
+        {
           "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
           "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
         },
@@ -55916,6 +56088,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "東京の駅が混雑していても大きく混乱しにくいのは、こうした単純で強いデザインの力があるからかもしれません。",
+          "en": "One reason Tokyo stations can stay usable despite heavy crowds may be the strength of this kind of simple, effective design."
+        },
         {
           "ja": "そのため、駅が混雑しているときでも、たくさんの人がほぼ同じ速さで進めます。",
           "en": "Because of that, even when a station is crowded, many people can keep moving at almost the same speed."
@@ -56887,6 +57063,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "何気ない色の使い方ですが、毎日何百万人もの通勤客や旅行者がこの工夫に助けられています。",
+          "en": "It is only a simple use of color, but every day hundreds of thousands of commuters and travelers are helped by this idea."
+        },
+        {
           "ja": "何気ない通勤の風景にも、見えにくい工夫がたくさんかくれているのです。",
           "en": "Even in an everyday commuting scene, many hard-to-see innovations are hidden."
         },
@@ -56915,6 +57095,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "黄色い背景に黒い文字と矢印を組み合わせた表示は、人の多い駅でもよく目立ちます。",
+          "en": "Signs that combine a yellow background with black text and arrows stand out well even in crowded stations."
+        },
+        {
+          "ja": "この仕組みを知っているだけで、新宿駅のような巨大な駅でも必要以上にこわがらなくてよくなります。",
+          "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
+        },
+        {
           "ja": "もちろん、ただ速いだけではなく、不正利用を防ぐための仕組みもしっかり組み込まれています。",
           "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
         },
@@ -56925,14 +57113,6 @@
         {
           "ja": "乗り換えのたびに地図を開かなくても、頭の中で道を組みたてられるようになります。",
           "en": "Even without opening a map for each transfer, you can start building the route in your head."
-        },
-        {
-          "ja": "東京の地下鉄やJRは複雑ですが、大きな駅の位置を地図の骨組みにすると、少しずつ慣れていきます。",
-          "en": "Tokyo’s subways and JR lines are complicated, but if you treat the positions of major stations as the frame of the map, you gradually get used to it."
-        },
-        {
-          "ja": "そのため、必要な時だけ走る仕組みにして、運転手や燃料の負担を減らしたい考えです。",
-          "en": "The town wants to reduce the burden on drivers and fuel use by running buses only when needed."
         }
       ]
     },
@@ -57931,7 +58111,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "この仕組みを知っているだけで、新宿駅のような巨大な駅でも必要以上にこわがらなくてよくなります。",
+          "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
+        }
+      ]
     },
     {
       "id": "core-c5fa0c07a00254",
@@ -59235,6 +59420,10 @@
           "meaning": "Plain past form of 迷う: to lose one’s way",
           "exampleSentences": [
             {
+              "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
+              "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
+            },
+            {
               "ja": "羽田空港で迷ったら、まずどちらの方面へ向かうのかを考えてみましょう。",
               "en": "If you feel confused at Haneda Airport, first think about which direction you need to head."
             }
@@ -60483,7 +60672,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "黄色い背景に黒い文字と矢印を組み合わせた表示は、人の多い駅でもよく目立ちます。",
+          "en": "Signs that combine a yellow background with black text and arrows stand out well even in crowded stations."
+        }
+      ]
     },
     {
       "id": "core-d0a783719bc776",
@@ -60523,6 +60717,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "どの線に乗ってきたかで頭がいっぱいでも、色だけで目的の情報をつかみやすくなります。",
+          "en": "Even if your head is full of route information, the color alone makes the information you need easier to grasp."
+        },
         {
           "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
           "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
@@ -60571,6 +60769,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "何気ない色の使い方ですが、毎日何百万人もの通勤客や旅行者がこの工夫に助けられています。",
+          "en": "It is only a simple use of color, but every day hundreds of thousands of commuters and travelers are helped by this idea."
+        },
+        {
           "ja": "利用者はカードをタッチするだけでよく、複雑な計算や確認を意識する必要はほとんどありません。",
           "en": "Users only need to tap their card, and they hardly need to think about the complex calculations and checks happening behind the scenes."
         },
@@ -60585,10 +60787,6 @@
         {
           "ja": "病院や介護施設では、高齢者の体調に特に注意しています。",
           "en": "Hospitals and care homes are paying special attention to the health of older people."
-        },
-        {
-          "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
-          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
         }
       ]
     },
@@ -65807,7 +66005,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "全部を理解しようとしなくても、「黄色は出口」と覚えておけば、移動の負担がかなり軽くなります。",
+          "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
+        }
+      ]
     },
     {
       "id": "core-2b456aef6d1112",
@@ -70042,7 +70245,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "黄色い背景に黒い文字と矢印を組み合わせた表示は、人の多い駅でもよく目立ちます。",
+          "en": "Signs that combine a yellow background with black text and arrows stand out well even in crowded stations."
+        }
+      ]
     },
     {
       "id": "core-fe710967eee0ff",
@@ -71466,7 +71674,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "多くの主要駅では、出口への案内に黄色が標準的に使われています。",
+          "en": "At many major stations, yellow is used as the standard color for directions to the exits."
+        }
+      ]
     },
     {
       "id": "core-3d132281e8d680",
@@ -73035,6 +73248,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "何気ない色の使い方ですが、毎日何百万人もの通勤客や旅行者がこの工夫に助けられています。",
+          "en": "It is only a simple use of color, but every day hundreds of thousands of commuters and travelers are helped by this idea."
+        },
+        {
           "ja": "旅行中で運動着を持っていなくても、近くのランナーズステーションで靴やウェアを借りることができます。",
           "en": "Even if you are traveling and did not bring exercise clothes, you can rent shoes and sportswear at a nearby runner’s station."
         },
@@ -73049,10 +73266,6 @@
         {
           "ja": "旅行者が増える中、多くのホテルで案内ロボットを使う動きが広がっています。",
           "en": "As the number of travelers increases, more hotels are using guide robots."
-        },
-        {
-          "ja": "とくに、最近は外国人の旅行者が多く、週末の予約が取りにくくなっています。",
-          "en": "Recently, especially many foreign travelers are using it, making weekend reservations hard to get."
         }
       ]
     },
@@ -74118,7 +74331,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "東京の駅が混雑していても大きく混乱しにくいのは、こうした単純で強いデザインの力があるからかもしれません。",
+          "en": "One reason Tokyo stations can stay usable despite heavy crowds may be the strength of this kind of simple, effective design."
+        }
+      ]
     },
     {
       "id": "core-e56785f9d806b5",
@@ -75778,6 +75996,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
+          "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
+        },
+        {
           "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
           "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
         },
@@ -75792,10 +76014,6 @@
         {
           "ja": "この考え方ができると、毎回ルート検索に時間を取られにくくなります。",
           "en": "Once you can think this way, you do not spend as much time on route searches every time."
-        },
-        {
-          "ja": "二つの台風が日本の南の海で同時に動いています。",
-          "en": "On the night of June 26, the Japan Meteorological Agency released information on Typhoon No. 7, Mekkhala, and Typhoon No. 8, Higos. The two typhoons are moving at the same time over the sea south of Japan."
         }
       ]
     },
@@ -77468,6 +77686,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
+          "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
+        },
+        {
+          "ja": "何気ない色の使い方ですが、毎日何百万人もの通勤客や旅行者がこの工夫に助けられています。",
+          "en": "It is only a simple use of color, but every day hundreds of thousands of commuters and travelers are helped by this idea."
+        },
+        {
           "ja": "何気ない通勤の風景にも、見えにくい工夫がたくさんかくれているのです。",
           "en": "Even in an everyday commuting scene, many hard-to-see innovations are hidden."
         },
@@ -77478,10 +77704,6 @@
         {
           "ja": "通勤や出張の予定を変更する人が多く、駅や空港では最新情報を確認する姿が目立ちました。",
           "en": "Many people changed commuting or business-trip plans, while stations and airports were filled with travelers checking the latest information."
-        },
-        {
-          "ja": "通勤や通学で使う人が多い場所では、とくに休める空間が必要だと考えられています。",
-          "en": "In places used by many commuters and students, it is thought that rest spaces are especially necessary."
         }
       ]
     },
@@ -79305,6 +79527,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "この仕組みを知っているだけで、新宿駅のような巨大な駅でも必要以上にこわがらなくてよくなります。",
+          "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
+        },
         {
           "ja": "山手線は、新宿、渋谷、上野、東京駅、池袋などの大きなエリアをつないでいます。",
           "en": "The Yamanote Line connects major areas such as Shinjuku, Shibuya, Ueno, Tokyo Station, and Ikebukuro."
@@ -81484,6 +81710,199 @@
       "exampleSentences": []
     },
     {
+      "id": "article-dbf90bf7a7e355",
+      "level": "N3",
+      "term": "案内表示",
+      "reading": "あんないひょうじ",
+      "readingHiragana": "あんないひょうじ",
+      "meaning": "Guide sign / Directional display",
+      "source": "article",
+      "sourceId": "2026-07-08-yellow-exit-signs",
+      "sourceTitle": "東京の大きな駅で迷ったら黄色い案内を見れば出口が見つけやすい",
+      "sourceLabel": "7/8 黄色い出口案内",
+      "sourceHref": "./2026-07-08-yellow-exit-signs.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-08-yellow-exit-signs"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
+          "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
+        }
+      ]
+    },
+    {
+      "id": "article-055d559f585ae2",
+      "level": "N3",
+      "term": "主要駅",
+      "reading": "しゅようえき",
+      "readingHiragana": "しゅようえき",
+      "meaning": "Major station",
+      "source": "article",
+      "sourceId": "2026-07-08-yellow-exit-signs",
+      "sourceTitle": "東京の大きな駅で迷ったら黄色い案内を見れば出口が見つけやすい",
+      "sourceLabel": "7/8 黄色い出口案内",
+      "sourceHref": "./2026-07-08-yellow-exit-signs.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-08-yellow-exit-signs"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "多くの主要駅では、出口への案内に黄色が標準的に使われています。",
+          "en": "At many major stations, yellow is used as the standard color for directions to the exits."
+        }
+      ]
+    },
+    {
+      "id": "article-826ddb22a9cb6a",
+      "level": "N3",
+      "term": "矢印",
+      "reading": "やじるし",
+      "readingHiragana": "やじるし",
+      "meaning": "Arrow",
+      "source": "article",
+      "sourceId": "2026-07-08-yellow-exit-signs",
+      "sourceTitle": "東京の大きな駅で迷ったら黄色い案内を見れば出口が見つけやすい",
+      "sourceLabel": "7/8 黄色い出口案内",
+      "sourceHref": "./2026-07-08-yellow-exit-signs.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-08-yellow-exit-signs"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "黄色い背景に黒い文字と矢印を組み合わせた表示は、人の多い駅でもよく目立ちます。",
+          "en": "Signs that combine a yellow background with black text and arrows stand out well even in crowded stations."
+        }
+      ]
+    },
+    {
+      "id": "article-6180d6d9b3b4d1",
+      "level": "N3",
+      "term": "判断する",
+      "reading": "はんだんする",
+      "readingHiragana": "はんだんする",
+      "meaning": "To judge / To decide",
+      "source": "article",
+      "sourceId": "2026-07-08-yellow-exit-signs",
+      "sourceTitle": "東京の大きな駅で迷ったら黄色い案内を見れば出口が見つけやすい",
+      "sourceLabel": "7/8 黄色い出口案内",
+      "sourceHref": "./2026-07-08-yellow-exit-signs.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-08-yellow-exit-signs"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
+          "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
+        },
+        {
+          "ja": "消防や自治体の職員は、映像を見ながら避難の判断をする練習をしました。",
+          "en": "Firefighters and local officials practiced making evacuation decisions while watching the video images."
+        },
+        {
+          "ja": "com側の判断にも注目が集まっています。",
+          "en": "com’s own decision."
+        }
+      ]
+    },
+    {
+      "id": "article-dcf2cffaa88dab",
+      "level": "N3",
+      "term": "巨大",
+      "reading": "きょだい",
+      "readingHiragana": "きょだい",
+      "meaning": "Huge / Massive",
+      "source": "article",
+      "sourceId": "2026-07-08-yellow-exit-signs",
+      "sourceTitle": "東京の大きな駅で迷ったら黄色い案内を見れば出口が見つけやすい",
+      "sourceLabel": "7/8 黄色い出口案内",
+      "sourceHref": "./2026-07-08-yellow-exit-signs.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-08-yellow-exit-signs"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "この仕組みを知っているだけで、新宿駅のような巨大な駅でも必要以上にこわがらなくてよくなります。",
+          "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
+        }
+      ]
+    },
+    {
+      "id": "article-6672c89a04898f",
+      "level": "N3",
+      "term": "負担",
+      "reading": "ふたん",
+      "readingHiragana": "ふたん",
+      "meaning": "Burden / Stress",
+      "source": "article",
+      "sourceId": "2026-07-08-yellow-exit-signs",
+      "sourceTitle": "東京の大きな駅で迷ったら黄色い案内を見れば出口が見つけやすい",
+      "sourceLabel": "7/8 黄色い出口案内",
+      "sourceHref": "./2026-07-08-yellow-exit-signs.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-08-yellow-exit-signs"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "全部を理解しようとしなくても、「黄色は出口」と覚えておけば、移動の負担がかなり軽くなります。",
+          "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
+        },
+        {
+          "ja": "支持者は、住宅や交通、公共サービスへの負担が重くなっていると訴えました。",
+          "en": "The proposal was promoted by the right-wing Swiss People's Party. Switzerland's population is now about 9.1 million and has grown greatly since 2002. Supporters said the burden on housing, transportation, and public services was becoming heavy."
+        },
+        {
+          "ja": "そのため、必要な時だけ走る仕組みにして、運転手や燃料の負担を減らしたい考えです。",
+          "en": "The town wants to reduce the burden on drivers and fuel use by running buses only when needed."
+        },
+        {
+          "ja": "新しく農業を始める人の負担を軽くすることが必要だとみられています。",
+          "en": "It is considered necessary to reduce the burden on people starting agriculture for the first time."
+        },
+        {
+          "ja": "自分たちで作った電気を使えば、費用をおさえるだけでなく、環境への負担も減らせます。",
+          "en": "Using electricity they generate themselves can reduce both costs and environmental impact."
+        }
+      ]
+    },
+    {
+      "id": "article-7c492c1f00b540",
+      "level": "N3",
+      "term": "混乱",
+      "reading": "こんらん",
+      "readingHiragana": "こんらん",
+      "meaning": "Confusion",
+      "source": "article",
+      "sourceId": "2026-07-08-yellow-exit-signs",
+      "sourceTitle": "東京の大きな駅で迷ったら黄色い案内を見れば出口が見つけやすい",
+      "sourceLabel": "7/8 黄色い出口案内",
+      "sourceHref": "./2026-07-08-yellow-exit-signs.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-08-yellow-exit-signs"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "東京の駅が混雑していても大きく混乱しにくいのは、こうした単純で強いデザインの力があるからかもしれません。",
+          "en": "One reason Tokyo stations can stay usable despite heavy crowds may be the strength of this kind of simple, effective design."
+        },
+        {
+          "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
+          "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
+        },
+        {
+          "ja": "人口や機能が集中する首都圏では、交通や物流の混乱も深刻になるとみられています。",
+          "en": "In the Tokyo metropolitan area, where people and key functions are concentrated, disruption to transport and logistics is also expected to be severe."
+        }
+      ]
+    },
+    {
       "id": "article-330696a27e3d79",
       "level": "N3",
       "term": "改札",
@@ -81608,6 +82027,10 @@
         "2026-07-08-ticket-gate-speed"
       ],
       "exampleSentences": [
+        {
+          "ja": "東京の駅が混雑していても大きく混乱しにくいのは、こうした単純で強いデザインの力があるからかもしれません。",
+          "en": "One reason Tokyo stations can stay usable despite heavy crowds may be the strength of this kind of simple, effective design."
+        },
         {
           "ja": "そのため、駅が混雑しているときでも、たくさんの人がほぼ同じ速さで進めます。",
           "en": "Because of that, even when a station is crowded, many people can keep moving at almost the same speed."
@@ -81767,6 +82190,10 @@
           "en": "If symptoms such as a headache or feeling unwell appear, it is important to move to a cool place right away."
         },
         {
+          "ja": "全部を理解しようとしなくても、「黄色は出口」と覚えておけば、移動の負担がかなり軽くなります。",
+          "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
+        },
+        {
           "ja": "速さと安全性を両立しているからこそ、毎日の大きな移動が安定して続けられるのです。",
           "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
         },
@@ -81777,10 +82204,6 @@
         {
           "ja": "品川に着けば、そこから山手線やほかの路線に乗り換えやすく、都心への移動がしやすくなります。",
           "en": "Once you reach Shinagawa, it is easy to transfer to the Yamanote Line and other routes into the city center."
-        },
-        {
-          "ja": "電車で移動しやすいので、車だけに頼らなくても暮らしやすくなります。",
-          "en": "Because it is easy to move by train, life becomes easier without relying only on cars."
         }
       ]
     },
@@ -81967,6 +82390,14 @@
       ],
       "exampleSentences": [
         {
+          "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
+          "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
+        },
+        {
+          "ja": "黄色い背景に黒い文字と矢印を組み合わせた表示は、人の多い駅でもよく目立ちます。",
+          "en": "Signs that combine a yellow background with black text and arrows stand out well even in crowded stations."
+        },
+        {
           "ja": "そのため、車両に表示される行き先は、自分が降りる駅よりずっと先の地名であることもあります。",
           "en": "Because of that, the destination shown on the train may be a place name far beyond the station where you plan to get off."
         },
@@ -81977,10 +82408,6 @@
         {
           "ja": "品川や羽田空港などの駅では、普通、急行、エアポート急行、特急、快特などの表示を見ます。",
           "en": "At stations such as Shinagawa and Haneda Airport, you will see labels like Local, Express, Airport Express, Limited Express, and Rapid Limited Express."
-        },
-        {
-          "ja": "利用者が安心して使えるように、わかりやすい表示や説明も必要になりそうです。",
-          "en": "Clear displays and explanations will also be needed so guests can use the system with confidence."
         }
       ]
     },
@@ -82935,16 +83362,20 @@
           "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
         },
         {
+          "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
+          "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
+        },
+        {
+          "ja": "何気ない色の使い方ですが、毎日何百万人もの通勤客や旅行者がこの工夫に助けられています。",
+          "en": "It is only a simple use of color, but every day hundreds of thousands of commuters and travelers are helped by this idea."
+        },
+        {
           "ja": "何気ない通勤の風景にも、見えにくい工夫がたくさんかくれているのです。",
           "en": "Even in an everyday commuting scene, many hard-to-see innovations are hidden."
         },
         {
           "ja": "通勤や出張の予定を変更する人が多く、駅や空港では最新情報を確認する姿が目立ちました。",
           "en": "Many people changed commuting or business-trip plans, while stations and airports were filled with travelers checking the latest information."
-        },
-        {
-          "ja": "通勤や通学で使う人が多い場所では、とくに休める空間が必要だと考えられています。",
-          "en": "In places used by many commuters and students, it is thought that rest spaces are especially necessary."
         }
       ]
     },
@@ -83075,6 +83506,10 @@
         "2026-06-29-tokyo-stations-map"
       ],
       "exampleSentences": [
+        {
+          "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
+          "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
+        },
         {
           "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
           "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
@@ -85256,6 +85691,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "東京の駅が混雑していても大きく混乱しにくいのは、こうした単純で強いデザインの力があるからかもしれません。",
+          "en": "One reason Tokyo stations can stay usable despite heavy crowds may be the strength of this kind of simple, effective design."
+        },
+        {
           "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
           "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
         },
@@ -86589,6 +87028,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "この仕組みを知っているだけで、新宿駅のような巨大な駅でも必要以上にこわがらなくてよくなります。",
+          "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
+        },
+        {
           "ja": "もちろん、ただ速いだけではなく、不正利用を防ぐための仕組みもしっかり組み込まれています。",
           "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
         },
@@ -86603,10 +87046,6 @@
         {
           "ja": "地域の農業を守るための新しい仕組みとして注目されています。",
           "en": "It is attracting attention as a new system for protecting local agriculture."
-        },
-        {
-          "ja": "必要なときだけ自動で動く仕組みを入れる例もあります。",
-          "en": "Some examples include systems that run automatically only when needed."
         }
       ]
     },
@@ -86628,6 +87067,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "全部を理解しようとしなくても、「黄色は出口」と覚えておけば、移動の負担がかなり軽くなります。",
+          "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
+        },
+        {
           "ja": "支持者は、住宅や交通、公共サービスへの負担が重くなっていると訴えました。",
           "en": "The proposal was promoted by the right-wing Swiss People's Party. Switzerland's population is now about 9.1 million and has grown greatly since 2002. Supporters said the burden on housing, transportation, and public services was becoming heavy."
         },
@@ -86642,10 +87085,6 @@
         {
           "ja": "自分たちで作った電気を使えば、費用をおさえるだけでなく、環境への負担も減らせます。",
           "en": "Using electricity they generate themselves can reduce both costs and environmental impact."
-        },
-        {
-          "ja": "家計への負担を軽くするため、小売店や農家を支える仕組みを増やすとしています。",
-          "en": "To reduce the burden on households, it plans to expand support systems for retailers and farmers."
         }
       ]
     },
@@ -87412,6 +87851,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "全部を理解しようとしなくても、「黄色は出口」と覚えておけば、移動の負担がかなり軽くなります。",
+          "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
+        },
+        {
           "ja": "支持者は、住宅や交通、公共サービスへの負担が重くなっていると訴えました。",
           "en": "The proposal was promoted by the right-wing Swiss People's Party. Switzerland's population is now about 9.1 million and has grown greatly since 2002. Supporters said the burden on housing, transportation, and public services was becoming heavy."
         },
@@ -87426,10 +87869,6 @@
         {
           "ja": "自分たちで作った電気を使えば、費用をおさえるだけでなく、環境への負担も減らせます。",
           "en": "Using electricity they generate themselves can reduce both costs and environmental impact."
-        },
-        {
-          "ja": "家計への負担を軽くするため、小売店や農家を支える仕組みを増やすとしています。",
-          "en": "To reduce the burden on households, it plans to expand support systems for retailers and farmers."
         }
       ]
     },
@@ -87478,6 +87917,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "この仕組みを知っているだけで、新宿駅のような巨大な駅でも必要以上にこわがらなくてよくなります。",
+          "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
+        },
+        {
           "ja": "もちろん、ただ速いだけではなく、不正利用を防ぐための仕組みもしっかり組み込まれています。",
           "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
         },
@@ -87492,10 +87935,6 @@
         {
           "ja": "地域の農業を守るための新しい仕組みとして注目されています。",
           "en": "It is attracting attention as a new system for protecting local agriculture."
-        },
-        {
-          "ja": "必要なときだけ自動で動く仕組みを入れる例もあります。",
-          "en": "Some examples include systems that run automatically only when needed."
         }
       ]
     },
@@ -87539,6 +87978,10 @@
         "2026-05-26-city-cooling-mist"
       ],
       "exampleSentences": [
+        {
+          "ja": "どの線に乗ってきたかで頭がいっぱいでも、色だけで目的の情報をつかみやすくなります。",
+          "en": "Even if your head is full of route information, the color alone makes the information you need easier to grasp."
+        },
         {
           "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
           "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
@@ -87652,6 +88095,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "この仕組みを知っているだけで、新宿駅のような巨大な駅でも必要以上にこわがらなくてよくなります。",
+          "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
+        },
+        {
           "ja": "もちろん、ただ速いだけではなく、不正利用を防ぐための仕組みもしっかり組み込まれています。",
           "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
         },
@@ -87666,10 +88113,6 @@
         {
           "ja": "地域の農業を守るための新しい仕組みとして注目されています。",
           "en": "It is attracting attention as a new system for protecting local agriculture."
-        },
-        {
-          "ja": "必要なときだけ自動で動く仕組みを入れる例もあります。",
-          "en": "Some examples include systems that run automatically only when needed."
         }
       ]
     },
@@ -87951,6 +88394,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "全部を理解しようとしなくても、「黄色は出口」と覚えておけば、移動の負担がかなり軽くなります。",
+          "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
+        },
+        {
           "ja": "支持者は、住宅や交通、公共サービスへの負担が重くなっていると訴えました。",
           "en": "The proposal was promoted by the right-wing Swiss People's Party. Switzerland's population is now about 9.1 million and has grown greatly since 2002. Supporters said the burden on housing, transportation, and public services was becoming heavy."
         },
@@ -87965,10 +88412,6 @@
         {
           "ja": "自分たちで作った電気を使えば、費用をおさえるだけでなく、環境への負担も減らせます。",
           "en": "Using electricity they generate themselves can reduce both costs and environmental impact."
-        },
-        {
-          "ja": "家計への負担を軽くするため、小売店や農家を支える仕組みを増やすとしています。",
-          "en": "To reduce the burden on households, it plans to expand support systems for retailers and farmers."
         }
       ]
     },
@@ -88075,24 +88518,24 @@
       ],
       "exampleSentences": [
         {
+          "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
+          "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
+        },
+        {
+          "ja": "多くの主要駅では、出口への案内に黄色が標準的に使われています。",
+          "en": "At many major stations, yellow is used as the standard color for directions to the exits."
+        },
+        {
+          "ja": "電車の路線はそれぞれ別の色で表されることが多いので、黄色い出口案内は見分けやすいです。",
+          "en": "Train lines are often shown in different colors, so yellow exit guidance is easy to distinguish from them."
+        },
+        {
           "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
           "en": "In London, people using the Underground and buses were also advised to drink water."
         },
         {
           "ja": "夜にゴミを出さないことや、窓と扉をしっかり閉めることも大切だと案内しました。",
           "en": "It also advised people not to put out garbage at night and to keep windows and doors tightly closed."
-        },
-        {
-          "ja": "対応する言語は英語、中国語、韓国語などで、音声でも案内できます。",
-          "en": "The supported languages include English, Chinese, and Korean, and audio guidance is also available."
-        },
-        {
-          "ja": "こどもの本や日本語学習の資料への案内にも活用する予定です。",
-          "en": "They also plan to use them to guide people to children’s books and Japanese-learning materials."
-        },
-        {
-          "ja": "まずは大きな駅から始めて、発電した電気を照明や案内板に使う予定です。",
-          "en": "It will start with large stations and use the generated electricity for lighting and information boards."
         }
       ]
     },
@@ -88265,6 +88708,14 @@
       ],
       "exampleSentences": [
         {
+          "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
+          "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
+        },
+        {
+          "ja": "黄色い背景に黒い文字と矢印を組み合わせた表示は、人の多い駅でもよく目立ちます。",
+          "en": "Signs that combine a yellow background with black text and arrows stand out well even in crowded stations."
+        },
+        {
           "ja": "そのため、車両に表示される行き先は、自分が降りる駅よりずっと先の地名であることもあります。",
           "en": "Because of that, the destination shown on the train may be a place name far beyond the station where you plan to get off."
         },
@@ -88275,10 +88726,6 @@
         {
           "ja": "品川や羽田空港などの駅では、普通、急行、エアポート急行、特急、快特などの表示を見ます。",
           "en": "At stations such as Shinagawa and Haneda Airport, you will see labels like Local, Express, Airport Express, Limited Express, and Rapid Limited Express."
-        },
-        {
-          "ja": "利用者が安心して使えるように、わかりやすい表示や説明も必要になりそうです。",
-          "en": "Clear displays and explanations will also be needed so guests can use the system with confidence."
         }
       ]
     },
@@ -88520,6 +88967,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "何気ない色の使い方ですが、毎日何百万人もの通勤客や旅行者がこの工夫に助けられています。",
+          "en": "It is only a simple use of color, but every day hundreds of thousands of commuters and travelers are helped by this idea."
+        },
+        {
           "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
           "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
         },
@@ -88686,6 +89137,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "全部を理解しようとしなくても、「黄色は出口」と覚えておけば、移動の負担がかなり軽くなります。",
+          "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
+        },
+        {
           "ja": "支持者は、住宅や交通、公共サービスへの負担が重くなっていると訴えました。",
           "en": "The proposal was promoted by the right-wing Swiss People's Party. Switzerland's population is now about 9.1 million and has grown greatly since 2002. Supporters said the burden on housing, transportation, and public services was becoming heavy."
         },
@@ -88700,10 +89155,6 @@
         {
           "ja": "自分たちで作った電気を使えば、費用をおさえるだけでなく、環境への負担も減らせます。",
           "en": "Using electricity they generate themselves can reduce both costs and environmental impact."
-        },
-        {
-          "ja": "家計への負担を軽くするため、小売店や農家を支える仕組みを増やすとしています。",
-          "en": "To reduce the burden on households, it plans to expand support systems for retailers and farmers."
         }
       ]
     },
@@ -88987,6 +89438,10 @@
         "2026-05-18-drone-disaster-drills"
       ],
       "exampleSentences": [
+        {
+          "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
+          "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
+        },
         {
           "ja": "消防や自治体の職員は、映像を見ながら避難の判断をする練習をしました。",
           "en": "Firefighters and local officials practiced making evacuation decisions while watching the video images."
@@ -89301,24 +89756,24 @@
       ],
       "exampleSentences": [
         {
+          "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
+          "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
+        },
+        {
+          "ja": "多くの主要駅では、出口への案内に黄色が標準的に使われています。",
+          "en": "At many major stations, yellow is used as the standard color for directions to the exits."
+        },
+        {
+          "ja": "電車の路線はそれぞれ別の色で表されることが多いので、黄色い出口案内は見分けやすいです。",
+          "en": "Train lines are often shown in different colors, so yellow exit guidance is easy to distinguish from them."
+        },
+        {
           "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
           "en": "In London, people using the Underground and buses were also advised to drink water."
         },
         {
           "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
           "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
-        },
-        {
-          "ja": "そのため、停戦案が本当に進むかはまだわかりません。",
-          "en": "Because of that, it is still unclear whether the ceasefire plan will really move forward."
-        },
-        {
-          "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
-          "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
-        },
-        {
-          "ja": "争点の一つは、国の人口を2050年まで1000万人までに抑える提案でした。",
-          "en": "One issue was a proposal to keep the country's population at no more than 10 million by 2050."
         }
       ]
     },

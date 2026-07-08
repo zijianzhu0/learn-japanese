@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>東京の大きな駅で迷ったら黄色い案内を見れば出口が見つけやすい</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <script>
+        (() => {
+            try {
+                const storedTheme = window.localStorage.getItem('learnJapanese.theme');
+                const theme = storedTheme === 'dark' || storedTheme === 'light'
+                    ? storedTheme
+                    : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                document.documentElement.dataset.theme = theme;
+                document.documentElement.style.colorScheme = theme;
+            } catch (error) {
+                document.documentElement.dataset.theme = 'light';
+                document.documentElement.style.colorScheme = 'light';
+            }
+        })();
+    </script>
+    <link rel="stylesheet" href="./assets/article.css?v=2501f9242bce">
+</head>
+<body id="top" data-article-id="2026-07-08-yellow-exit-signs" data-recording-download-name="2026-07-08-yellow-exit-signs.mp4">
+<nav class="top-nav" aria-label="Page navigation"></nav>
+<div class="article-shell">
+    <aside class="article-sidebar" aria-label="Article navigation"></aside>
+    <main class="article-main">
+
+<div class="container">
+    <div class="date">2026年7月8日</div>
+    <div class="article-toolbar">
+        <div class="voice-controls">
+            <button class="toolbar-icon-button voice-menu-toggle" type="button" id="voice-menu-toggle" aria-expanded="false" aria-controls="voice-settings-menu" aria-label="Voice settings" data-tooltip="Voice settings">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 10v4"></path>
+                    <path d="M8 7v10"></path>
+                    <path d="M12 4v16"></path>
+                    <path d="M16 7v10"></path>
+                    <path d="M20 10v4"></path>
+                </svg>
+                <span class="icon-label">Voice settings</span>
+            </button>
+            <div class="voice-current-status" id="voice-current-status" aria-live="polite">Docker VOICEVOX</div>
+            <button class="audio-enable-button" type="button" id="enable-docker-audio" hidden>Enable audio</button>
+            <div class="voice-settings-menu" id="voice-settings-menu" hidden>
+                <label class="toolbar-label" for="browser-voice">Browser Voice</label>
+                <select class="voice-select" id="browser-voice" aria-label="Browser voice">
+                    <option value="auto" selected>Google 日本語</option>
+                </select>
+            </div>
+        </div>
+        <div class="article-actions" aria-label="Article actions">
+            <button class="toolbar-icon-button preview-button" type="button" id="preview-recording-mode" aria-label="Preview recording mode" data-tooltip="Preview recording mode">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M2 12s3.8-6 10-6 10 6 10 6-3.8 6-10 6-10-6-10-6z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+                <span class="icon-label">Preview recording mode</span>
+            </button>
+            <button class="toolbar-icon-button video-button" type="button" id="render-video" aria-label="Render video" data-tooltip="Render video" data-default-label="Render video" data-active-label="Recording">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M5 6h11a2 2 0 0 1 2 2v1l3-2v10l-3-2v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"></path>
+                    <path d="M9 10.5v3l3-1.5z"></path>
+                </svg>
+                <span class="icon-label">Render video</span>
+            </button>
+            <button class="toolbar-icon-button cover-button" type="button" id="download-cover" aria-label="Download video cover" data-tooltip="Download cover" data-default-label="Download cover" data-active-label="Rendering cover">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                    <circle cx="8.5" cy="10" r="1.5"></circle>
+                    <path d="m21 15-5-5L5 19"></path>
+                </svg>
+                <span class="icon-label">Download cover</span>
+            </button>
+            <button class="toolbar-icon-button speak-button" type="button" id="speak-japanese-article" aria-label="Read aloud" data-tooltip="Read aloud" data-default-label="Read aloud" data-active-label="Stop reading" data-loading-label="Preparing audio">
+                <svg class="toolbar-svg icon-read" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 10v4h4l5 4V6L8 10z"></path>
+                    <path d="M16 9c1.8 1.8 1.8 4.2 0 6"></path>
+                    <path d="M18.5 6.5c3.3 3.3 3.3 7.7 0 11"></path>
+                </svg>
+                <svg class="toolbar-svg icon-stop" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 8h8v8H8z"></path>
+                </svg>
+                <span class="icon-label">Read aloud</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-japanese-article" aria-label="Copy Japanese article" data-tooltip="Copy Japanese article">
+                <span class="copy-language-icon" aria-hidden="true">あ</span>
+                <span class="icon-label">Copy Japanese article</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-english-translation" aria-label="Copy English translation" data-tooltip="Copy English translation">
+                <span class="copy-language-icon" aria-hidden="true">A</span>
+                <span class="icon-label">Copy English translation</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-bilingual-article" aria-label="Copy Japanese and English article" data-tooltip="Copy Japanese and English article">
+                <span class="copy-language-icon copy-language-icon-wide" aria-hidden="true">あ/A</span>
+                <span class="icon-label">Copy Japanese and English article</span>
+            </button>
+        </div>
+    </div>
+    <div class="copy-status" id="copy-status" aria-live="polite"></div>
+    <audio class="audio-player" id="tts-player" controls hidden preload="none"></audio>
+    <h1><ruby>東京<rt>とうきょう</rt></ruby>の<ruby>大<rt>おお</rt></ruby>きな<ruby>駅<rt>えき</rt></ruby>で<ruby>迷<rt>まよ</rt></ruby>ったら<ruby>黄色<rt>きいろ</rt></ruby>い<ruby>案内<rt>あんない</rt></ruby>を<ruby>見<rt>み</rt></ruby>れば<ruby>出口<rt>でぐち</rt></ruby>が<ruby>見<rt>み</rt></ruby>つけやすい</h1>
+    <div class="source-note">ユーザー提供の東京の駅で黄色い出口案内を目印にすると分かりやすいという説明文をもとにしたN3レベルの学習用ページです。</div>
+
+
+    <p class="article-paragraph"><ruby>東京<rt>とうきょう</rt></ruby>の<ruby>大<rt>おお</rt></ruby>きな<ruby>駅<rt>えき</rt></ruby>で<ruby>道<rt>みち</rt></ruby>に<ruby>迷<rt>まよ</rt></ruby>ったときは、まず<ruby>黄色<rt>きいろ</rt></ruby>い<ruby>案内表示<rt>あんないひょうじ</rt></ruby>を<ruby>探<rt>さが</rt></ruby>すといいです。<ruby>多<rt>おお</rt></ruby>くの<ruby>主要駅<rt>しゅようえき</rt></ruby>では、<ruby>出口<rt>でぐち</rt></ruby>への<ruby>案内<rt>あんない</rt></ruby>に<ruby>黄色<rt>きいろ</rt></ruby>が<ruby>標準的<rt>ひょうじゅんてき</rt></ruby>に<ruby>使<rt>つか</rt></ruby>われています。</p>
+    <div class="sentence-translation">If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs. At many major stations, yellow is used as the standard color for directions to the exits.</div>
+    <p class="article-paragraph"><ruby>電車<rt>でんしゃ</rt></ruby>の<ruby>路線<rt>ろせん</rt></ruby>はそれぞれ<ruby>別<rt>べつ</rt></ruby>の<ruby>色<rt>いろ</rt></ruby>で<ruby>表<rt>あらわ</rt></ruby>されることが<ruby>多<rt>おお</rt></ruby>いので、<ruby>黄色<rt>きいろ</rt></ruby>い<ruby>出口案内<rt>でぐちあんない</rt></ruby>は<ruby>見分<rt>みわ</rt></ruby>けやすいです。どの<ruby>線<rt>せん</rt></ruby>に<ruby>乗<rt>の</rt></ruby>ってきたかで<ruby>頭<rt>あたま</rt></ruby>がいっぱいでも、<ruby>色<rt>いろ</rt></ruby>だけで<ruby>目的<rt>もくてき</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby>をつかみやすくなります。</p>
+    <div class="sentence-translation">Train lines are often shown in different colors, so yellow exit guidance is easy to distinguish from them. Even if your head is full of route information, the color alone makes the information you need easier to grasp.</div>
+    <p class="article-paragraph"><ruby>黄色<rt>きいろ</rt></ruby>い<ruby>背景<rt>はいけい</rt></ruby>に<ruby>黒<rt>くろ</rt></ruby>い<ruby>文字<rt>もじ</rt></ruby>と<ruby>矢印<rt>やじるし</rt></ruby>を<ruby>組<rt>く</rt></ruby>み<ruby>合<rt>あ</rt></ruby>わせた<ruby>表示<rt>ひょうじ</rt></ruby>は、<ruby>人<rt>ひと</rt></ruby>の<ruby>多<rt>おお</rt></ruby>い<ruby>駅<rt>えき</rt></ruby>でもよく<ruby>目立<rt>めだ</rt></ruby>ちます。<ruby>忙<rt>いそが</rt></ruby>しい<ruby>通勤時間<rt>つうきんじかん</rt></ruby>や<ruby>観光客<rt>かんこうきゃく</rt></ruby>で<ruby>混<rt>こ</rt></ruby>み<ruby>合<rt>あ</rt></ruby>う<ruby>場所<rt>ばしょ</rt></ruby>でも、すばやく<ruby>方向<rt>ほうこう</rt></ruby>を<ruby>判断<rt>はんだん</rt></ruby>できるように<ruby>考<rt>かんが</rt></ruby>えられています。</p>
+    <div class="sentence-translation">Signs that combine a yellow background with black text and arrows stand out well even in crowded stations. They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists.</div>
+    <p class="article-paragraph">この<ruby>仕組<rt>しく</rt></ruby>みを<ruby>知<rt>し</rt></ruby>っているだけで、<ruby>新宿駅<rt>しんじゅくえき</rt></ruby>のような<ruby>巨大<rt>きょだい</rt></ruby>な<ruby>駅<rt>えき</rt></ruby>でも<ruby>必要以上<rt>ひつよういじょう</rt></ruby>にこわがらなくてよくなります。<ruby>全部<rt>ぜんぶ</rt></ruby>を<ruby>理解<rt>りかい</rt></ruby>しようとしなくても、「<ruby>黄色<rt>きいろ</rt></ruby>は<ruby>出口<rt>でぐち</rt></ruby>」と<ruby>覚<rt>おぼ</rt></ruby>えておけば、<ruby>移動<rt>いどう</rt></ruby>の<ruby>負担<rt>ふたん</rt></ruby>がかなり<ruby>軽<rt>かる</rt></ruby>くなります。</p>
+    <div class="sentence-translation">Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful.</div>
+    <p class="article-paragraph"><ruby>何気<rt>なにげ</rt></ruby>ない<ruby>色<rt>いろ</rt></ruby>の<ruby>使<rt>つか</rt></ruby>い<ruby>方<rt>かた</rt></ruby>ですが、<ruby>毎日<rt>まいにち</rt></ruby><ruby>何百万人<rt>なんびゃくまんにん</rt></ruby>もの<ruby>通勤客<rt>つうきんきゃく</rt></ruby>や<ruby>旅行者<rt>りょこうしゃ</rt></ruby>がこの<ruby>工夫<rt>くふう</rt></ruby>に<ruby>助<rt>たす</rt></ruby>けられています。<ruby>東京<rt>とうきょう</rt></ruby>の<ruby>駅<rt>えき</rt></ruby>が<ruby>混雑<rt>こんざつ</rt></ruby>していても<ruby>大<rt>おお</rt></ruby>きく<ruby>混乱<rt>こんらん</rt></ruby>しにくいのは、こうした<ruby>単純<rt>たんじゅん</rt></ruby>で<ruby>強<rt>つよ</rt></ruby>いデザインの<ruby>力<rt>ちから</rt></ruby>があるからかもしれません。</p>
+    <div class="sentence-translation">It is only a simple use of color, but every day hundreds of thousands of commuters and travelers are helped by this idea. One reason Tokyo stations can stay usable despite heavy crowds may be the strength of this kind of simple, effective design.</div>
+    <div class="recording-footer" aria-hidden="true">
+        <span>英訳はコメント欄にあります</span>
+        <span>2026年7月8日</span>
+    </div>
+
+    <div class="vocabulary-box">
+        <h2>N3 Vocabulary</h2>
+        <ul>
+            <li><strong>案内表示（あんないひょうじ）:</strong> Guide sign / Directional display</li>
+            <li><strong>主要駅（しゅようえき）:</strong> Major station</li>
+            <li><strong>矢印（やじるし）:</strong> Arrow</li>
+            <li><strong>判断（はんだん）する:</strong> To judge / To decide</li>
+            <li><strong>巨大（きょだい）:</strong> Huge / Massive</li>
+            <li><strong>負担（ふたん）:</strong> Burden / Stress</li>
+            <li><strong>混乱（こんらん）:</strong> Confusion</li>
+        </ul>
+    </div>
+</div>
+    </main>
+</div>
+
+<script src="./assets/theme.js"></script>
+<script src="./assets/article.js?v=04a59d323d82"></script>
+
+</body>
+</html>
