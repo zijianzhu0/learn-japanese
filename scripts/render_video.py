@@ -27,8 +27,10 @@ if str(ROOT) not in sys.path:
 from scripts.article_store import find_article, load_articles
 from scripts.voicevox_cache import (
     DEFAULT_VOICEVOX_BASE_URL,
+    DEFAULT_VOICEVOX_PROSODY,
     VoicevoxRequestError,
     cached_voicevox_wav,
+    normalize_voicevox_prosody,
     voicevox_request,
 )
 
@@ -52,6 +54,9 @@ EXPORT_AUDIO_FILTER = "loudnorm=I=-16:TP=-1.5:LRA=11"
 class RenderOptions:
     article_id: str
     speaker: int = DEFAULT_SPEAKER
+    voicevox_speed_scale: float = DEFAULT_VOICEVOX_PROSODY["speedScale"]
+    voicevox_pitch_scale: float = DEFAULT_VOICEVOX_PROSODY["pitchScale"]
+    voicevox_intonation_scale: float = DEFAULT_VOICEVOX_PROSODY["intonationScale"]
     frame_width: int = FRAME_WIDTH
     frame_height: int = FRAME_HEIGHT
     frame_rate: int = FRAME_RATE
@@ -193,14 +198,25 @@ def wait_for_voicevox(timeout: float) -> None:
     raise SystemExit(f"VOICEVOX is not reachable at {VOICEVOX_BASE_URL}: {last_error}")
 
 
-def cached_sentence_audio_path(text: str, speaker: int) -> Path:
+def cached_sentence_audio_path(text: str, speaker: int, prosody: dict | None = None) -> Path:
     _, _, audio_path = cached_voicevox_wav(
         text,
         speaker,
         base_url=VOICEVOX_BASE_URL,
+        prosody=prosody,
         timeout=60,
     )
     return audio_path
+
+
+def render_voicevox_prosody(options: RenderOptions) -> dict:
+    return normalize_voicevox_prosody(
+        {
+            "speedScale": options.voicevox_speed_scale,
+            "pitchScale": options.voicevox_pitch_scale,
+            "intonationScale": options.voicevox_intonation_scale,
+        }
+    )
 
 
 def wav_duration(path: Path) -> float:
@@ -826,6 +842,7 @@ def render_article_video(
     with tempfile.TemporaryDirectory(prefix="learn-japanese-render-") as temp_dir:
         temp_path = Path(temp_dir)
         segment_paths = []
+        prosody = render_voicevox_prosody(options)
         for index, segment in enumerate(segments, start=1):
             print(f"[{index}/{len(segments)}] {segment.text}", flush=True)
             html_path = temp_path / f"{index:03d}-{segment.key}.html"
@@ -833,7 +850,7 @@ def render_article_video(
             video_path = temp_path / f"{index:03d}-{segment.key}.mp4"
 
             html_path.write_text(render_html(article, segment, options), encoding="utf-8")
-            audio_path = cached_sentence_audio_path(segment.text, options.speaker)
+            audio_path = cached_sentence_audio_path(segment.text, options.speaker, prosody)
             render_screenshot(chromium, html_path, image_path, options)
             if index == 1 and cover_path:
                 cover_path.parent.mkdir(parents=True, exist_ok=True)
@@ -868,7 +885,7 @@ def render_quiz_video(quiz: dict, output_path: Path, options: RenderOptions, cov
         image_path = temp_path / "quiz.png"
         story_text = "\n".join(str(line.get("jp", "")) for line in quiz.get("passage", []) if line.get("jp"))
         html_path.write_text(render_quiz_html(quiz, options), encoding="utf-8")
-        audio_path = cached_sentence_audio_path(story_text, options.speaker)
+        audio_path = cached_sentence_audio_path(story_text, options.speaker, render_voicevox_prosody(options))
         render_screenshot(chromium, html_path, image_path, options)
         if cover_path:
             cover_path.parent.mkdir(parents=True, exist_ok=True)

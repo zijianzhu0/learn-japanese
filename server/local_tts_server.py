@@ -35,9 +35,11 @@ from scripts.render_video import (
     video_cover_filename,
 )
 from scripts.voicevox_cache import (
+    DEFAULT_VOICEVOX_PROSODY,
     VoicevoxRequestError,
     cache_path,
     cached_voicevox_wav,
+    normalize_voicevox_prosody,
     voicevox_request,
 )
 
@@ -52,6 +54,8 @@ MAX_VIDEO_UPLOAD_BYTES = 700 * 1024 * 1024
 VIDEO_OUTPUT_DIR = PROJECT_DIR / "videos"
 FLASHCARD_PROGRESS_PATH = PROJECT_DIR / "data" / "flashcard-progress.json"
 FLASHCARD_PROGRESS_LOCK = threading.Lock()
+VOICE_SETTINGS_PATH = PROJECT_DIR / "data" / "voice-settings.json"
+VOICE_SETTINGS_LOCK = threading.Lock()
 RUNTIME_ARTICLE_CONTENT_DIR = article_store.content_dir()
 
 
@@ -86,6 +90,10 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
             self.handle_voicevox_status()
             return
 
+        if request_path == "/api/voice-settings":
+            self.handle_voice_settings_get()
+            return
+
         if request_path == "/api/articles":
             self.handle_articles_get(parsed.query)
             return
@@ -116,6 +124,10 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
 
         if request_path == "/api/tts/voicevox/cache-status":
             self.handle_voicevox_cache_status()
+            return
+
+        if request_path == "/api/voice-settings":
+            self.handle_voice_settings_update()
             return
 
         if request_path == "/api/flashcards/progress":
@@ -434,6 +446,193 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
             },
         )
 
+    def default_voice_settings(self) -> dict:
+        return {
+            "schemaVersion": 1,
+            "source": "docker",
+            "browserVoice": "Google 日本語",
+            "browserRate": 0.9,
+            "browserPitch": 1.0,
+            "dockerSpeaker": DEFAULT_VOICEVOX_SPEAKER,
+            "voicevoxProsody": dict(DEFAULT_VOICEVOX_PROSODY),
+        }
+
+    def normalize_voice_setting_number(
+        self,
+        value: object,
+        *,
+        fallback: float,
+        minimum: float,
+        maximum: float,
+    ) -> float:
+        if value is None or value == "":
+            return fallback
+        normalized = float(value)
+        if normalized < minimum or normalized > maximum:
+            raise ValueError(f"Value must be between {minimum} and {maximum}.")
+        return round(normalized, 2)
+
+    def normalize_voice_settings(self, payload: dict | None = None) -> dict:
+        defaults = self.default_voice_settings()
+        source_payload = payload if isinstance(payload, dict) else {}
+        source = str(source_payload.get("source", defaults["source"])).strip()
+        if source not in {"browser", "docker"}:
+            raise ValueError("Voice source must be browser or docker.")
+
+        browser_voice = str(source_payload.get("browserVoice", defaults["browserVoice"])).strip() or defaults["browserVoice"]
+        docker_speaker = int(source_payload.get("dockerSpeaker", defaults["dockerSpeaker"]))
+        if docker_speaker < 0:
+            raise ValueError("Docker speaker must be a non-negative integer.")
+
+        browser_rate = self.normalize_voice_setting_number(
+            source_payload.get("browserRate", defaults["browserRate"]),
+            fallback=defaults["browserRate"],
+            minimum=0.7,
+            maximum=1.2,
+        )
+        browser_pitch = self.normalize_voice_setting_number(
+            source_payload.get("browserPitch", defaults["browserPitch"]),
+            fallback=defaults["browserPitch"],
+            minimum=0.8,
+            maximum=1.3,
+        )
+        prosody_payload = source_payload.get("voicevoxProsody", {})
+        if prosody_payload is None:
+            prosody_payload = {}
+        if not isinstance(prosody_payload, dict):
+            raise ValueError("VOICEVOX prosody must be an object.")
+        voicevox_prosody = {
+            "speedScale": self.normalize_voice_setting_number(
+                prosody_payload.get("speedScale", defaults["voicevoxProsody"]["speedScale"]),
+                fallback=defaults["voicevoxProsody"]["speedScale"],
+                minimum=0.8,
+                maximum=1.2,
+            ),
+            "pitchScale": self.normalize_voice_setting_number(
+                prosody_payload.get("pitchScale", defaults["voicevoxProsody"]["pitchScale"]),
+                fallback=defaults["voicevoxProsody"]["pitchScale"],
+                minimum=-0.12,
+                maximum=0.12,
+            ),
+            "intonationScale": self.normalize_voice_setting_number(
+                prosody_payload.get("intonationScale", defaults["voicevoxProsody"]["intonationScale"]),
+                fallback=defaults["voicevoxProsody"]["intonationScale"],
+                minimum=0.7,
+                maximum=1.6,
+            ),
+        }
+        return {
+            "schemaVersion": defaults["schemaVersion"],
+            "source": source,
+            "browserVoice": browser_voice,
+            "browserRate": browser_rate,
+            "browserPitch": browser_pitch,
+            "dockerSpeaker": docker_speaker,
+            "voicevoxProsody": normalize_voicevox_prosody(voicevox_prosody),
+        }
+
+    def read_voice_settings(self) -> dict:
+        if not VOICE_SETTINGS_PATH.exists():
+            return self.default_voice_settings()
+        payload = json.loads(VOICE_SETTINGS_PATH.read_text(encoding="utf-8"))
+        if not isinstance(payload, dict):
+            raise ValueError("Voice settings file must contain a JSON object.")
+        return self.normalize_voice_settings(payload)
+
+    def write_voice_settings(self, settings: dict) -> None:
+        VOICE_SETTINGS_PATH.parent.mkdir(parents=True, exist_ok=True)
+        temp_path = VOICE_SETTINGS_PATH.with_suffix(".json.tmp")
+        temp_path.write_text(
+            json.dumps(settings, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        temp_path.replace(VOICE_SETTINGS_PATH)
+
+    def current_voice_settings(self) -> dict:
+        with VOICE_SETTINGS_LOCK:
+            return self.read_voice_settings()
+
+    def resolve_voicevox_request_settings(self, payload: dict) -> tuple[int, dict]:
+        settings = self.current_voice_settings()
+        speaker_value = payload.get("speaker")
+        speaker = int(speaker_value) if speaker_value is not None else int(settings["dockerSpeaker"])
+        if speaker < 0:
+            raise ValueError("Docker speaker must be a non-negative integer.")
+
+        prosody_source = payload.get("voicevoxProsody")
+        if prosody_source is None:
+            prosody_source = settings.get("voicevoxProsody", {})
+        if not isinstance(prosody_source, dict):
+            raise ValueError("VOICEVOX prosody must be an object.")
+
+        defaults = settings.get("voicevoxProsody", self.default_voice_settings()["voicevoxProsody"])
+        prosody = {
+            "speedScale": self.normalize_voice_setting_number(
+                prosody_source.get("speedScale", defaults["speedScale"]),
+                fallback=defaults["speedScale"],
+                minimum=0.8,
+                maximum=1.2,
+            ),
+            "pitchScale": self.normalize_voice_setting_number(
+                prosody_source.get("pitchScale", defaults["pitchScale"]),
+                fallback=defaults["pitchScale"],
+                minimum=-0.12,
+                maximum=0.12,
+            ),
+            "intonationScale": self.normalize_voice_setting_number(
+                prosody_source.get("intonationScale", defaults["intonationScale"]),
+                fallback=defaults["intonationScale"],
+                minimum=0.7,
+                maximum=1.6,
+            ),
+        }
+        return speaker, normalize_voicevox_prosody(prosody)
+
+    def render_options_for_speaker(self, article_id: str, speaker: int, prosody: dict) -> RenderOptions:
+        return RenderOptions(
+            article_id=article_id,
+            speaker=speaker,
+            voicevox_speed_scale=prosody["speedScale"],
+            voicevox_pitch_scale=prosody["pitchScale"],
+            voicevox_intonation_scale=prosody["intonationScale"],
+        )
+
+    def handle_voice_settings_get(self) -> None:
+        try:
+            settings = self.current_voice_settings()
+        except (json.JSONDecodeError, ValueError) as exc:
+            self.send_json(500, {"ok": False, "error": f"Voice settings could not be loaded: {exc}"})
+            return
+
+        self.send_json(200, {"ok": True, "settings": settings})
+
+    def handle_voice_settings_update(self) -> None:
+        try:
+            payload = self.read_json_body()
+        except (TypeError, json.JSONDecodeError) as exc:
+            self.send_json(400, {"ok": False, "error": f"Invalid JSON request: {exc}"})
+            return
+
+        try:
+            with VOICE_SETTINGS_LOCK:
+                current = self.read_voice_settings()
+                merged = dict(current)
+                merged.update({key: value for key, value in payload.items() if key != "voicevoxProsody"})
+                current_prosody = dict(current.get("voicevoxProsody", {}))
+                next_prosody = payload.get("voicevoxProsody")
+                if next_prosody is not None:
+                    if not isinstance(next_prosody, dict):
+                        raise ValueError("VOICEVOX prosody must be an object.")
+                    current_prosody.update(next_prosody)
+                merged["voicevoxProsody"] = current_prosody
+                settings = self.normalize_voice_settings(merged)
+                self.write_voice_settings(settings)
+        except (TypeError, ValueError, json.JSONDecodeError) as exc:
+            self.send_json(400, {"ok": False, "error": str(exc)})
+            return
+
+        self.send_json(200, {"ok": True, "settings": settings})
+
     def handle_video_preview(self, query_string: str) -> None:
         params = parse.parse_qs(query_string, keep_blank_values=False)
         article_ref = str(params.get("article_id", [""])[0]).strip()
@@ -464,7 +663,7 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
         try:
             payload = self.read_json_body()
             text = str(payload.get("text", "")).strip()
-            speaker = int(payload.get("speaker", DEFAULT_VOICEVOX_SPEAKER))
+            speaker, prosody = self.resolve_voicevox_request_settings(payload)
         except (ValueError, TypeError, json.JSONDecodeError) as exc:
             self.send_json(400, {"ok": False, "error": f"Invalid JSON request: {exc}"})
             return
@@ -488,6 +687,7 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
                 text,
                 speaker,
                 base_url=VOICEVOX_BASE_URL,
+                prosody=prosody,
             )
         except VoicevoxRequestError as exc:
             self.send_json(exc.status, {"ok": False, "error": exc.message})
@@ -510,7 +710,7 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
                 raw_texts = [payload.get("text", "")]
             if not isinstance(raw_texts, list):
                 raise TypeError("texts must be an array")
-            speaker = int(payload.get("speaker", DEFAULT_VOICEVOX_SPEAKER))
+            speaker, prosody = self.resolve_voicevox_request_settings(payload)
             texts = [str(text).strip() for text in raw_texts]
         except (ValueError, TypeError, json.JSONDecodeError) as exc:
             self.send_json(400, {"ok": False, "error": f"Invalid JSON request: {exc}"})
@@ -535,7 +735,7 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
                     },
                 )
                 return
-            path = cache_path(text, speaker)
+            path = cache_path(text, speaker, prosody=prosody)
             cached = path.exists()
             if cached:
                 cached_count += 1
@@ -553,6 +753,7 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
             {
                 "ok": True,
                 "speaker": speaker,
+                "voicevoxProsody": prosody,
                 "cached": cached_count,
                 "missing": len(results) - cached_count,
                 "results": results,
@@ -771,8 +972,7 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
             VIDEO_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
             payload = self.read_json_body()
             article_id = str(payload.get("article_id", "")).strip()
-            speaker_value = payload.get("speaker")
-            speaker = int(speaker_value) if speaker_value is not None else DEFAULT_VOICEVOX_SPEAKER
+            speaker, prosody = self.resolve_voicevox_request_settings(payload)
             if not article_id:
                 raise VideoRenderRequestError(400, "Missing article_id.")
             try:
@@ -781,14 +981,14 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
                 raise VideoRenderRequestError(404, str(exc)) from exc
 
             output_path = VIDEO_OUTPUT_DIR / article["downloadFileName"]
-            cache_key = self.video_render_cache_key(article, speaker)
+            cache_key = self.video_render_cache_key(article, speaker, prosody)
             if self.video_render_cache_matches(output_path, cache_key):
                 version = str(output_path.stat().st_mtime_ns)
             else:
                 temp_dir = tempfile.TemporaryDirectory(prefix="learn-japanese-render-")
                 temp_output_path = Path(temp_dir.name) / article["downloadFileName"]
                 try:
-                    options = RenderOptions(article_id=article["id"], speaker=speaker)
+                    options = self.render_options_for_speaker(article["id"], speaker, prosody)
                     render_article_video(article, temp_output_path, options, DEFAULT_VOICEVOX_TIMEOUT)
                     shutil.move(str(temp_output_path), str(output_path))
                     self.write_video_render_cache_key(output_path, cache_key)
@@ -843,18 +1043,18 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
 
     def handle_quiz_video_render_url(self) -> None:
         try:
-            quiz, speaker = self.parse_quiz_video_request()
+            quiz, speaker, prosody = self.parse_quiz_video_request()
             VIDEO_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
             filename = quiz_video_filename(quiz["id"])
             output_path = VIDEO_OUTPUT_DIR / filename
-            cache_key = self.video_render_cache_key(quiz, speaker)
+            cache_key = self.video_render_cache_key(quiz, speaker, prosody)
             if self.video_render_cache_matches(output_path, cache_key):
                 version = str(output_path.stat().st_mtime_ns)
             else:
                 temp_dir = tempfile.TemporaryDirectory(prefix="learn-japanese-quiz-render-")
                 temp_output_path = Path(temp_dir.name) / filename
                 try:
-                    options = RenderOptions(article_id=quiz["id"], speaker=speaker)
+                    options = self.render_options_for_speaker(quiz["id"], speaker, prosody)
                     render_quiz_video(quiz, temp_output_path, options)
                     shutil.move(str(temp_output_path), str(output_path))
                     self.write_video_render_cache_key(output_path, cache_key)
@@ -884,7 +1084,7 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
 
     def handle_quiz_video_cover_render(self) -> None:
         try:
-            quiz, _speaker = self.parse_quiz_video_request()
+            quiz, _speaker, _prosody = self.parse_quiz_video_request()
             temp_dir = tempfile.TemporaryDirectory(prefix="learn-japanese-quiz-cover-")
             filename = video_cover_filename(quiz_video_filename(quiz["id"]))
             cover_path = Path(temp_dir.name) / filename
@@ -913,12 +1113,11 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(cover_image)
 
-    def parse_quiz_video_request(self) -> tuple[dict, int]:
+    def parse_quiz_video_request(self) -> tuple[dict, int, dict]:
         try:
             payload = self.read_json_body()
             quiz_id = str(payload.get("quiz_id", "")).strip()
-            speaker_value = payload.get("speaker")
-            speaker = int(speaker_value) if speaker_value is not None else DEFAULT_VOICEVOX_SPEAKER
+            speaker, prosody = self.resolve_voicevox_request_settings(payload)
         except (ValueError, TypeError, json.JSONDecodeError) as exc:
             raise VideoRenderRequestError(400, f"Invalid JSON request: {exc}") from exc
 
@@ -926,7 +1125,7 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
             raise VideoRenderRequestError(400, "Missing quiz_id.")
 
         try:
-            return find_video_quiz(quiz_id), speaker
+            return find_video_quiz(quiz_id), speaker, prosody
         except ValueError as exc:
             raise VideoRenderRequestError(404, str(exc)) from exc
 
@@ -934,8 +1133,7 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
         try:
             payload = self.read_json_body()
             article_id = str(payload.get("article_id", "")).strip()
-            speaker_value = payload.get("speaker")
-            speaker = int(speaker_value) if speaker_value is not None else DEFAULT_VOICEVOX_SPEAKER
+            speaker, prosody = self.resolve_voicevox_request_settings(payload)
         except (ValueError, TypeError, json.JSONDecodeError) as exc:
             raise VideoRenderRequestError(400, f"Invalid JSON request: {exc}") from exc
 
@@ -947,7 +1145,7 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
         except ValueError as exc:
             raise VideoRenderRequestError(404, str(exc)) from exc
 
-        options = RenderOptions(article_id=article["id"], speaker=speaker)
+        options = self.render_options_for_speaker(article["id"], speaker, prosody)
 
         temp_dir = None
         try:
@@ -1012,11 +1210,12 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
     def video_render_cache_metadata_path(self, output_path: Path) -> Path:
         return output_path.with_suffix(f"{output_path.suffix}.cache.json")
 
-    def video_render_cache_key(self, payload: dict, speaker: int) -> str:
+    def video_render_cache_key(self, payload: dict, speaker: int, prosody: dict) -> str:
         encoded = json.dumps(
             {
-                "version": "video-render-v3",
+                "version": "video-render-v4",
                 "speaker": speaker,
+                "voicevoxProsody": prosody,
                 "payload": payload,
             },
             ensure_ascii=False,

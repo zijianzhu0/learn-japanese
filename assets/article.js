@@ -2,16 +2,23 @@ const articleId = document.body.dataset.articleId || '';
 const recordingDownloadName = document.body.dataset.recordingDownloadName || 'article.mp4';
 const defaultLocalTtsSpeaker = 9;
 const silentAudioDataUrl = 'data:audio/wav;base64,UklGRigAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQQAAAAAgICA';
-const voicePreferenceKeys = {
-    source: 'learnJapanese.voiceSource',
-    browserVoice: 'learnJapanese.browserVoice',
-    dockerSpeaker: 'learnJapanese.dockerSpeaker',
-    sourceDefaultMigrated: 'learnJapanese.voiceSourceDefaultMigrated'
-};
-const previousDefaultLocalTtsSpeaker = 3;
-const defaultVoiceSource = 'docker';
 const articleNavigationUrl = './data/article-navigation.json';
+const voiceSettingsUrl = '/api/voice-settings';
+const defaultVoiceSettings = Object.freeze({
+    source: 'docker',
+    browserVoice: 'Google 日本語',
+    browserRate: 0.9,
+    browserPitch: 1,
+    dockerSpeaker: defaultLocalTtsSpeaker,
+    voicevoxProsody: Object.freeze({
+        speedScale: 1,
+        pitchScale: 0,
+        intonationScale: 1
+    })
+});
 let articleNavigation = [];
+let voiceSettings = cloneDefaultVoiceSettings();
+let voiceSettingsSaveRun = 0;
 
 function currentArticleFile() {
     return decodeURIComponent(window.location.pathname.split('/').pop() || '');
@@ -68,19 +75,154 @@ function escapeHtml(value) {
     }[character]));
 }
 
-function readVoicePreference(key) {
-    try {
-        return window.localStorage.getItem(key);
-    } catch (error) {
-        return null;
+function cloneDefaultVoiceSettings() {
+    return {
+        source: defaultVoiceSettings.source,
+        browserVoice: defaultVoiceSettings.browserVoice,
+        browserRate: defaultVoiceSettings.browserRate,
+        browserPitch: defaultVoiceSettings.browserPitch,
+        dockerSpeaker: defaultVoiceSettings.dockerSpeaker,
+        voicevoxProsody: {
+            speedScale: defaultVoiceSettings.voicevoxProsody.speedScale,
+            pitchScale: defaultVoiceSettings.voicevoxProsody.pitchScale,
+            intonationScale: defaultVoiceSettings.voicevoxProsody.intonationScale
+        }
+    };
+}
+
+function clampNumber(value, fallback, minimum, maximum, precision = 2) {
+    const numeric = Number(value);
+    if (!Number.isFinite(numeric)) {
+        return fallback;
+    }
+
+    const clamped = Math.min(maximum, Math.max(minimum, numeric));
+    return Number(clamped.toFixed(precision));
+}
+
+function normalizeVoiceSettings(payload = {}) {
+    const defaults = cloneDefaultVoiceSettings();
+    const source = payload?.source === 'browser' ? 'browser' : 'docker';
+    const browserVoice = String(payload?.browserVoice || defaults.browserVoice).trim() || defaults.browserVoice;
+    const dockerSpeaker = Number.parseInt(payload?.dockerSpeaker, 10);
+    const incomingProsody = payload?.voicevoxProsody || {};
+    return {
+        source,
+        browserVoice,
+        browserRate: clampNumber(payload?.browserRate, defaults.browserRate, 0.7, 1.2),
+        browserPitch: clampNumber(payload?.browserPitch, defaults.browserPitch, 0.8, 1.3),
+        dockerSpeaker: Number.isInteger(dockerSpeaker) && dockerSpeaker >= 0 ? dockerSpeaker : defaults.dockerSpeaker,
+        voicevoxProsody: {
+            speedScale: clampNumber(incomingProsody?.speedScale, defaults.voicevoxProsody.speedScale, 0.8, 1.2),
+            pitchScale: clampNumber(incomingProsody?.pitchScale, defaults.voicevoxProsody.pitchScale, -0.12, 0.12),
+            intonationScale: clampNumber(incomingProsody?.intonationScale, defaults.voicevoxProsody.intonationScale, 0.7, 1.6)
+        }
+    };
+}
+
+function sliderValueText(value) {
+    const rounded = Number(value);
+    return Number.isFinite(rounded) ? rounded.toFixed(2).replace(/\.00$/, '') : '';
+}
+
+function updateRangeValue(inputId) {
+    const input = document.getElementById(inputId);
+    const output = document.querySelector(`[data-range-value-for="${inputId}"]`);
+    if (!input || !output) {
+        return;
+    }
+
+    output.textContent = sliderValueText(input.value);
+}
+
+function setRangeValue(inputId, value) {
+    const input = document.getElementById(inputId);
+    if (!input) {
+        return;
+    }
+
+    input.value = String(value);
+    updateRangeValue(inputId);
+}
+
+function applyVoiceSettingsToControls(settings = voiceSettings) {
+    const normalized = normalizeVoiceSettings(settings);
+    const sourceSelect = document.getElementById('voice-source');
+    if (sourceSelect) {
+        sourceSelect.value = normalized.source;
+    }
+
+    const browserVoiceSelect = document.getElementById('browser-voice');
+    if (browserVoiceSelect && [...browserVoiceSelect.options].some((option) => option.value === normalized.browserVoice)) {
+        browserVoiceSelect.value = normalized.browserVoice;
+    }
+
+    const dockerVoiceSelect = document.getElementById('docker-voice');
+    if (dockerVoiceSelect) {
+        dockerVoiceSelect.value = String(normalized.dockerSpeaker);
+    }
+
+    setRangeValue('browser-rate', normalized.browserRate);
+    setRangeValue('browser-pitch', normalized.browserPitch);
+    setRangeValue('docker-speed-scale', normalized.voicevoxProsody.speedScale);
+    setRangeValue('docker-pitch-scale', normalized.voicevoxProsody.pitchScale);
+    setRangeValue('docker-intonation-scale', normalized.voicevoxProsody.intonationScale);
+    updateVoiceControlVisibility();
+}
+
+async function loadVoiceSettings() {
+    const response = await fetch(voiceSettingsUrl, { cache: 'no-store' });
+    const payload = await response.json();
+    if (!response.ok) {
+        throw new Error(payload.error || `Voice settings failed to load with HTTP ${response.status}.`);
+    }
+
+    voiceSettings = normalizeVoiceSettings(payload.settings || payload);
+    return voiceSettings;
+}
+
+async function saveVoiceSettings(nextSettings) {
+    const runId = voiceSettingsSaveRun + 1;
+    voiceSettingsSaveRun = runId;
+    voiceSettings = normalizeVoiceSettings(nextSettings);
+
+    const response = await fetch(voiceSettingsUrl, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(voiceSettings)
+    });
+    const payload = await response.json();
+    if (!response.ok) {
+        throw new Error(payload.error || `Voice settings failed to save with HTTP ${response.status}.`);
+    }
+
+    if (runId === voiceSettingsSaveRun) {
+        voiceSettings = normalizeVoiceSettings(payload.settings || payload);
+        applyVoiceSettingsToControls(voiceSettings);
     }
 }
 
-function writeVoicePreference(key, value) {
-    try {
-        window.localStorage.setItem(key, value);
-    } catch (error) {
-        // Private browsing or storage policy restrictions should not block playback.
+function currentVoiceSettingsFromControls() {
+    return normalizeVoiceSettings({
+        source: getSelectedVoiceSource(),
+        browserVoice: document.getElementById('browser-voice')?.value || voiceSettings.browserVoice,
+        browserRate: document.getElementById('browser-rate')?.value,
+        browserPitch: document.getElementById('browser-pitch')?.value,
+        dockerSpeaker: document.getElementById('docker-voice')?.value,
+        voicevoxProsody: getSelectedVoicevoxProsody()
+    });
+}
+
+async function persistVoiceSettingsFromControls() {
+    await saveVoiceSettings(currentVoiceSettingsFromControls());
+}
+
+function reportVoiceSettingsError(error) {
+    const status = document.getElementById('copy-status');
+    if (status && error?.message) {
+        status.textContent = error.message;
     }
 }
 
@@ -145,14 +287,20 @@ function updateLocalTtsAudioGate() {
 function setupVoiceSettingsMenu() {
     const toggle = document.getElementById('voice-menu-toggle');
     const menu = document.getElementById('voice-settings-menu');
+    const voiceControls = document.querySelector('.voice-controls');
     if (!toggle || !menu) {
         return;
     }
 
+    const setVoiceMenuOpen = (open) => {
+        toggle.setAttribute('aria-expanded', String(open));
+        menu.hidden = !open;
+        voiceControls?.classList.toggle('is-open', open);
+    };
+
     toggle.addEventListener('click', () => {
         const isOpen = toggle.getAttribute('aria-expanded') === 'true';
-        toggle.setAttribute('aria-expanded', String(!isOpen));
-        menu.hidden = isOpen;
+        setVoiceMenuOpen(!isOpen);
     });
 
     document.addEventListener('click', (event) => {
@@ -160,8 +308,7 @@ function setupVoiceSettingsMenu() {
             return;
         }
 
-        toggle.setAttribute('aria-expanded', 'false');
-        menu.hidden = true;
+        setVoiceMenuOpen(false);
     });
 
     document.addEventListener('keydown', (event) => {
@@ -169,8 +316,7 @@ function setupVoiceSettingsMenu() {
             return;
         }
 
-        toggle.setAttribute('aria-expanded', 'false');
-        menu.hidden = true;
+        setVoiceMenuOpen(false);
         toggle.focus();
     });
 }
@@ -295,7 +441,7 @@ let localTtsAudioUnlocked = false;
 let localTtsSpeakersLoaded = false;
 let preparedLocalTtsAudioBlobs = null;
 let preparedLocalTtsStartIndex = 0;
-let preparedLocalTtsSpeaker = null;
+let preparedLocalTtsConfigKey = '';
 let localTtsCacheStats = { hit: 0, miss: 0, unknown: 0 };
 let articleAudioCacheStatusRun = 0;
 
@@ -338,7 +484,11 @@ function articleAudioCacheAvailabilityText(cached, total) {
     return `Audio cache: ${cached}/${total} cached, ${missing} not cached.`;
 }
 
-async function fetchLocalTtsCacheStatus(texts, speaker = getSelectedLocalTtsSpeaker()) {
+async function fetchLocalTtsCacheStatus(
+    texts,
+    speaker = getSelectedLocalTtsSpeaker(),
+    voicevoxProsody = getSelectedVoicevoxProsody()
+) {
     const response = await fetch('/api/tts/voicevox/cache-status', {
         method: 'POST',
         headers: {
@@ -346,7 +496,8 @@ async function fetchLocalTtsCacheStatus(texts, speaker = getSelectedLocalTtsSpea
         },
         body: JSON.stringify({
             texts,
-            speaker
+            speaker,
+            voicevoxProsody
         })
     });
 
@@ -376,7 +527,8 @@ async function refreshArticleAudioCacheStatus() {
     try {
         const payload = await fetchLocalTtsCacheStatus(
             sentenceMeta.map((sentence) => sentence.text),
-            getSelectedLocalTtsSpeaker()
+            getSelectedLocalTtsSpeaker(),
+            getSelectedVoicevoxProsody()
         );
         if (runId === articleAudioCacheStatusRun && status && !speaking && !localTtsPlaybackActive) {
             status.textContent = articleAudioCacheAvailabilityText(payload.cached || 0, sentenceMeta.length);
@@ -637,7 +789,7 @@ function populateBrowserVoiceOptions() {
     const voices = window.speechSynthesis.getVoices().filter((voice) => voice.lang === 'ja-JP');
     availableBrowserVoices = voices;
 
-    const savedValue = readVoicePreference(voicePreferenceKeys.browserVoice);
+    const savedValue = voiceSettings.browserVoice;
     const previousValue = select.value;
     select.innerHTML = '';
 
@@ -683,7 +835,7 @@ function getSelectedBrowserVoice() {
 
 function getSelectedVoiceSource() {
     const select = document.getElementById('voice-source');
-    return select?.value === 'docker' ? 'docker' : 'browser';
+    return select?.value === 'browser' ? 'browser' : 'docker';
 }
 
 function getSelectedLocalTtsSpeaker() {
@@ -692,24 +844,34 @@ function getSelectedLocalTtsSpeaker() {
     return Number.isInteger(speaker) ? speaker : defaultLocalTtsSpeaker;
 }
 
+function getSelectedVoicevoxProsody() {
+    return {
+        speedScale: clampNumber(document.getElementById('docker-speed-scale')?.value, voiceSettings.voicevoxProsody.speedScale, 0.8, 1.2),
+        pitchScale: clampNumber(document.getElementById('docker-pitch-scale')?.value, voiceSettings.voicevoxProsody.pitchScale, -0.12, 0.12),
+        intonationScale: clampNumber(document.getElementById('docker-intonation-scale')?.value, voiceSettings.voicevoxProsody.intonationScale, 0.7, 1.6)
+    };
+}
+
+function currentVoicevoxConfigKey() {
+    return JSON.stringify({
+        speaker: getSelectedLocalTtsSpeaker(),
+        prosody: getSelectedVoicevoxProsody()
+    });
+}
+
 function updateVoiceControlVisibility() {
     const source = getSelectedVoiceSource();
-    const browserVoice = document.getElementById('browser-voice');
-    const browserVoiceLabel = document.querySelector('label[for="browser-voice"]');
-    const dockerVoice = document.getElementById('docker-voice');
-    const dockerVoiceLabel = document.querySelector('label[for="docker-voice"]');
-
-    if (browserVoice && browserVoiceLabel) {
-        const isBrowser = source === 'browser';
-        browserVoice.hidden = !isBrowser;
-        browserVoiceLabel.hidden = !isBrowser;
+    const voiceControls = document.querySelector('.voice-controls');
+    if (voiceControls) {
+        voiceControls.classList.toggle('is-open', !(document.getElementById('voice-settings-menu')?.hidden ?? true));
     }
 
-    if (dockerVoice && dockerVoiceLabel) {
-        const isDocker = source === 'docker';
-        dockerVoice.hidden = !isDocker;
-        dockerVoiceLabel.hidden = !isDocker;
-    }
+    document.querySelectorAll('.browser-voice-setting').forEach((element) => {
+        element.hidden = source !== 'browser';
+    });
+    document.querySelectorAll('.docker-voice-setting').forEach((element) => {
+        element.hidden = source !== 'docker';
+    });
 
     updateVoiceStatus();
     updateLocalTtsAudioGate();
@@ -744,6 +906,36 @@ function findUnitIndexById(unitId) {
     return -1;
 }
 
+function createVoiceSettingLabel(id, text, extraClassName = '') {
+    const label = document.createElement('label');
+    label.className = `toolbar-label ${extraClassName}`.trim();
+    label.htmlFor = id;
+    label.textContent = text;
+    return label;
+}
+
+function createVoiceRangeControl({ id, value, min, max, step, extraClassName = '' }) {
+    const wrapper = document.createElement('div');
+    wrapper.className = `voice-setting-control ${extraClassName}`.trim();
+
+    const input = document.createElement('input');
+    input.className = 'voice-slider';
+    input.type = 'range';
+    input.id = id;
+    input.min = String(min);
+    input.max = String(max);
+    input.step = String(step);
+    input.value = String(value);
+
+    const output = document.createElement('span');
+    output.className = 'voice-slider-value';
+    output.dataset.rangeValueFor = id;
+    output.textContent = sliderValueText(value);
+
+    wrapper.append(input, output);
+    return wrapper;
+}
+
 function insertVoiceSourceControls() {
     const menu = document.getElementById('voice-settings-menu');
     const browserVoice = document.getElementById('browser-voice');
@@ -752,10 +944,11 @@ function insertVoiceSourceControls() {
         return;
     }
 
-    const sourceLabel = document.createElement('label');
-    sourceLabel.className = 'toolbar-label';
-    sourceLabel.htmlFor = 'voice-source';
-    sourceLabel.textContent = 'Voice Source';
+    browserVoiceLabel.classList.add('browser-voice-setting');
+    browserVoice.classList.add('browser-voice-setting');
+    browserVoice.setAttribute('data-setting-kind', 'browser');
+
+    const sourceLabel = createVoiceSettingLabel('voice-source', 'Voice Source');
 
     const sourceSelect = document.createElement('select');
     sourceSelect.className = 'voice-select';
@@ -765,51 +958,117 @@ function insertVoiceSourceControls() {
         '<option value="docker" selected>Docker VOICEVOX</option>',
         '<option value="browser">Browser Voice</option>'
     ].join('');
-    const savedSource = readVoicePreference(voicePreferenceKeys.source);
-    const sourceDefaultMigrated = readVoicePreference(voicePreferenceKeys.sourceDefaultMigrated) === '1';
-    if (!sourceDefaultMigrated && savedSource === 'browser') {
-        sourceSelect.value = defaultVoiceSource;
-        writeVoicePreference(voicePreferenceKeys.source, defaultVoiceSource);
-        writeVoicePreference(voicePreferenceKeys.sourceDefaultMigrated, '1');
-    } else if (savedSource === 'browser' || savedSource === 'docker') {
-        sourceSelect.value = savedSource;
-    } else {
-        sourceSelect.value = defaultVoiceSource;
-        writeVoicePreference(voicePreferenceKeys.source, defaultVoiceSource);
-        writeVoicePreference(voicePreferenceKeys.sourceDefaultMigrated, '1');
-    }
-    sourceSelect.addEventListener('change', () => {
-        writeVoicePreference(voicePreferenceKeys.source, getSelectedVoiceSource());
+    sourceSelect.value = voiceSettings.source;
+    sourceSelect.addEventListener('change', async () => {
         updateVoiceControlVisibility();
         if (getSelectedVoiceSource() === 'docker') {
-            populateLocalTtsVoiceOptions();
+            await populateLocalTtsVoiceOptions();
+        }
+        try {
+            await persistVoiceSettingsFromControls();
+        } catch (error) {
+            reportVoiceSettingsError(error);
         }
     });
 
-    const dockerVoiceLabel = document.createElement('label');
-    dockerVoiceLabel.className = 'toolbar-label';
-    dockerVoiceLabel.htmlFor = 'docker-voice';
-    dockerVoiceLabel.textContent = 'Docker Voice';
+    const dockerVoiceLabel = createVoiceSettingLabel('docker-voice', 'Docker Voice', 'docker-voice-setting');
 
     const dockerVoice = document.createElement('select');
-    dockerVoice.className = 'voice-select';
+    dockerVoice.className = 'voice-select docker-voice-setting';
     dockerVoice.id = 'docker-voice';
     dockerVoice.setAttribute('aria-label', 'Docker VOICEVOX voice');
     dockerVoice.innerHTML = `<option value="${defaultLocalTtsSpeaker}" selected>VOICEVOX speaker ${defaultLocalTtsSpeaker}</option>`;
-    const savedSpeaker = readVoicePreference(voicePreferenceKeys.dockerSpeaker);
-    if (savedSpeaker) {
-        dockerVoice.value = savedSpeaker;
-    }
-    dockerVoice.addEventListener('change', () => {
-        writeVoicePreference(voicePreferenceKeys.dockerSpeaker, dockerVoice.value);
+    dockerVoice.value = String(voiceSettings.dockerSpeaker);
+    dockerVoice.addEventListener('change', async () => {
         updateVoiceStatus();
+        clearPreparedLocalTtsAudio();
+        try {
+            await persistVoiceSettingsFromControls();
+        } catch (error) {
+            reportVoiceSettingsError(error);
+        }
+    });
+
+    const browserRateLabel = createVoiceSettingLabel('browser-rate', 'Speech Pace', 'browser-voice-setting');
+    const browserRateControl = createVoiceRangeControl({
+        id: 'browser-rate',
+        value: voiceSettings.browserRate,
+        min: 0.7,
+        max: 1.2,
+        step: 0.05,
+        extraClassName: 'browser-voice-setting'
+    });
+    const browserPitchLabel = createVoiceSettingLabel('browser-pitch', 'Tone Height', 'browser-voice-setting');
+    const browserPitchControl = createVoiceRangeControl({
+        id: 'browser-pitch',
+        value: voiceSettings.browserPitch,
+        min: 0.8,
+        max: 1.3,
+        step: 0.05,
+        extraClassName: 'browser-voice-setting'
+    });
+    const dockerSpeedLabel = createVoiceSettingLabel('docker-speed-scale', 'Speech Pace', 'docker-voice-setting');
+    const dockerSpeedControl = createVoiceRangeControl({
+        id: 'docker-speed-scale',
+        value: voiceSettings.voicevoxProsody.speedScale,
+        min: 0.8,
+        max: 1.2,
+        step: 0.05,
+        extraClassName: 'docker-voice-setting'
+    });
+    const dockerPitchLabel = createVoiceSettingLabel('docker-pitch-scale', 'Tone Height', 'docker-voice-setting');
+    const dockerPitchControl = createVoiceRangeControl({
+        id: 'docker-pitch-scale',
+        value: voiceSettings.voicevoxProsody.pitchScale,
+        min: -0.12,
+        max: 0.12,
+        step: 0.02,
+        extraClassName: 'docker-voice-setting'
+    });
+    const dockerIntonationLabel = createVoiceSettingLabel('docker-intonation-scale', 'Intonation', 'docker-voice-setting');
+    const dockerIntonationControl = createVoiceRangeControl({
+        id: 'docker-intonation-scale',
+        value: voiceSettings.voicevoxProsody.intonationScale,
+        min: 0.7,
+        max: 1.6,
+        step: 0.05,
+        extraClassName: 'docker-voice-setting'
     });
 
     menu.insertBefore(sourceLabel, browserVoiceLabel);
     menu.insertBefore(sourceSelect, browserVoiceLabel);
     menu.insertBefore(dockerVoiceLabel, browserVoice.nextSibling);
     menu.insertBefore(dockerVoice, dockerVoiceLabel.nextSibling);
+    menu.append(
+        browserRateLabel,
+        browserRateControl,
+        browserPitchLabel,
+        browserPitchControl,
+        dockerSpeedLabel,
+        dockerSpeedControl,
+        dockerPitchLabel,
+        dockerPitchControl,
+        dockerIntonationLabel,
+        dockerIntonationControl
+    );
+
+    menu.querySelectorAll('.voice-slider').forEach((input) => {
+        input.addEventListener('input', () => {
+            updateRangeValue(input.id);
+            clearPreparedLocalTtsAudio();
+        });
+        input.addEventListener('change', async () => {
+            try {
+                await persistVoiceSettingsFromControls();
+            } catch (error) {
+                reportVoiceSettingsError(error);
+            }
+            refreshArticleAudioCacheStatus();
+        });
+    });
+
     updateVoiceControlVisibility();
+    applyVoiceSettingsToControls(voiceSettings);
     if (getSelectedVoiceSource() === 'docker') {
         populateLocalTtsVoiceOptions();
     }
@@ -827,7 +1086,7 @@ function revokeActiveTtsAudioUrl() {
 function clearPreparedLocalTtsAudio() {
     preparedLocalTtsAudioBlobs = null;
     preparedLocalTtsStartIndex = 0;
-    preparedLocalTtsSpeaker = null;
+    preparedLocalTtsConfigKey = '';
 }
 
 async function unlockLocalTtsAudio() {
@@ -906,10 +1165,7 @@ async function populateLocalTtsVoiceOptions() {
 
     try {
         const payload = await fetchLocalTtsStatus();
-        const savedValue = readVoicePreference(voicePreferenceKeys.dockerSpeaker);
-        const preferredValue = savedValue === String(previousDefaultLocalTtsSpeaker)
-            ? String(defaultLocalTtsSpeaker)
-            : savedValue;
+        const preferredValue = String(voiceSettings.dockerSpeaker);
         const previousValue = select.value;
         const options = [];
         payload.speakers.forEach((speaker) => {
@@ -950,6 +1206,7 @@ async function populateLocalTtsVoiceOptions() {
 }
 
 async function fetchLocalTtsAudio(text, speaker = getSelectedLocalTtsSpeaker()) {
+    const voicevoxProsody = getSelectedVoicevoxProsody();
     const response = await fetch('/api/tts/voicevox', {
         method: 'POST',
         headers: {
@@ -957,7 +1214,8 @@ async function fetchLocalTtsAudio(text, speaker = getSelectedLocalTtsSpeaker()) 
         },
         body: JSON.stringify({
             text,
-            speaker
+            speaker,
+            voicevoxProsody
         })
     });
 
@@ -1117,17 +1375,18 @@ async function speakWithLocalTts(startIndex = 0) {
     if (!localTtsPlaybackActive) {
         if (usesIosAudioGate()) {
             const speaker = getSelectedLocalTtsSpeaker();
+            const configKey = currentVoicevoxConfigKey();
             const hasPreparedAudio = preparedLocalTtsAudioBlobs
                 && preparedLocalTtsStartIndex === startIndex
-                && preparedLocalTtsSpeaker === speaker;
+                && preparedLocalTtsConfigKey === configKey;
 
             if (!hasPreparedAudio) {
                 try {
                     status.textContent = 'Preparing Docker TTS for Safari. Tap Read Aloud again when ready...';
                     await populateLocalTtsVoiceOptions();
-                    preparedLocalTtsSpeaker = getSelectedLocalTtsSpeaker();
+                    preparedLocalTtsConfigKey = currentVoicevoxConfigKey();
                     preparedLocalTtsStartIndex = startIndex;
-                    preparedLocalTtsAudioBlobs = await buildLocalTtsAudioQueue(status, preparedLocalTtsSpeaker);
+                    preparedLocalTtsAudioBlobs = await buildLocalTtsAudioQueue(status, speaker);
                     status.textContent = 'Docker TTS is ready. Tap Read Aloud again.';
                 } catch (error) {
                     clearPreparedLocalTtsAudio();
@@ -1252,8 +1511,8 @@ function speakWithBrowserSentenceQueue(onComplete = null, startIndex = 0) {
         const utterance = new SpeechSynthesisUtterance(sentence.text);
         browserUtterance = utterance;
         utterance.lang = 'ja-JP';
-        utterance.rate = 0.9;
-        utterance.pitch = 1;
+        utterance.rate = clampNumber(document.getElementById('browser-rate')?.value, voiceSettings.browserRate, 0.7, 1.2);
+        utterance.pitch = clampNumber(document.getElementById('browser-pitch')?.value, voiceSettings.browserPitch, 0.8, 1.3);
         utterance.voice = selectedVoice;
 
         utterance.onstart = () => {
@@ -1338,7 +1597,8 @@ async function fetchRenderedVideoUrl(speaker) {
         },
         body: JSON.stringify({
             article_id: articleId || currentArticleFile(),
-            speaker
+            speaker,
+            voicevoxProsody: getSelectedVoicevoxProsody()
         })
     });
 
@@ -1627,12 +1887,11 @@ function handlePreviewRecordingModeClick() {
     openRecordingPreview();
 }
 
-initializeArticleNavigation();
 setupVoiceSettingsMenu();
 insertVoiceSourceControls();
-document.getElementById('browser-voice')?.addEventListener('change', (event) => {
-    writeVoicePreference(voicePreferenceKeys.browserVoice, event.target.value);
+document.getElementById('browser-voice')?.addEventListener('change', () => {
     updateVoiceStatus();
+    persistVoiceSettingsFromControls().catch(reportVoiceSettingsError);
 });
 document.getElementById('docker-voice')?.addEventListener('change', refreshArticleAudioCacheStatus);
 document.getElementById('copy-japanese-article')?.addEventListener('click', copyJapaneseArticle);
@@ -1667,4 +1926,14 @@ buildReadingUnits();
 buildSentenceMeta();
 renderSentencePlaybackButtons();
 populateBrowserVoiceOptions();
-refreshArticleAudioCacheStatus();
+loadVoiceSettings()
+    .then(() => {
+        populateBrowserVoiceOptions();
+        applyVoiceSettingsToControls(voiceSettings);
+        refreshArticleAudioCacheStatus();
+    })
+    .catch((error) => {
+        reportVoiceSettingsError(error);
+        refreshArticleAudioCacheStatus();
+    });
+initializeArticleNavigation();

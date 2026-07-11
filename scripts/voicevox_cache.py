@@ -14,7 +14,24 @@ ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_VOICEVOX_BASE_URL = os.environ.get("VOICEVOX_BASE_URL", "http://127.0.0.1:50021")
 DEFAULT_AUDIO_CACHE_DIR = Path(os.environ.get("AUDIO_CACHE_DIR", ROOT / ".generated_audio" / "voicevox"))
 DEFAULT_TIMEOUT = 30
-CACHE_VERSION = "voicevox-wav-v1"
+CACHE_VERSION = "voicevox-wav-v2"
+DEFAULT_VOICEVOX_PROSODY = {
+    "speedScale": 1.0,
+    "pitchScale": 0.0,
+    "intonationScale": 1.0,
+}
+
+
+def normalize_voicevox_prosody(prosody: dict | None = None) -> dict:
+    if not isinstance(prosody, dict):
+        return dict(DEFAULT_VOICEVOX_PROSODY)
+
+    normalized = dict(DEFAULT_VOICEVOX_PROSODY)
+    for key in DEFAULT_VOICEVOX_PROSODY:
+        value = prosody.get(key)
+        if isinstance(value, (int, float)):
+            normalized[key] = float(value)
+    return normalized
 
 
 class VoicevoxRequestError(Exception):
@@ -24,11 +41,18 @@ class VoicevoxRequestError(Exception):
         self.message = message
 
 
-def cache_key(text: str, speaker: int, *, trailing_silence: float | None = None) -> str:
+def cache_key(
+    text: str,
+    speaker: int,
+    *,
+    prosody: dict | None = None,
+    trailing_silence: float | None = None,
+) -> str:
     payload = {
         "version": CACHE_VERSION,
         "engine": "VOICEVOX",
         "speaker": speaker,
+        "prosody": normalize_voicevox_prosody(prosody),
         "text": text,
         "trailing_silence": trailing_silence,
     }
@@ -40,10 +64,11 @@ def cache_path(
     text: str,
     speaker: int,
     *,
+    prosody: dict | None = None,
     trailing_silence: float | None = None,
     cache_dir: Path = DEFAULT_AUDIO_CACHE_DIR,
 ) -> Path:
-    key = cache_key(text, speaker, trailing_silence=trailing_silence)
+    key = cache_key(text, speaker, prosody=prosody, trailing_silence=trailing_silence)
     return cache_dir / str(speaker) / f"{key}.wav"
 
 
@@ -94,9 +119,11 @@ def synthesize_voicevox_wav(
     speaker: int,
     *,
     base_url: str = DEFAULT_VOICEVOX_BASE_URL,
+    prosody: dict | None = None,
     trailing_silence: float | None = None,
     timeout: float = DEFAULT_TIMEOUT,
 ) -> bytes:
+    normalized_prosody = normalize_voicevox_prosody(prosody)
     audio_query = voicevox_request(
         "POST",
         "/audio_query",
@@ -105,6 +132,7 @@ def synthesize_voicevox_wav(
         body=b"",
         timeout=timeout,
     )
+    audio_query.update(normalized_prosody)
     if trailing_silence is not None:
         audio_query["postPhonemeLength"] = trailing_silence
     return voicevox_request(
@@ -124,12 +152,19 @@ def cached_voicevox_wav(
     speaker: int,
     *,
     base_url: str = DEFAULT_VOICEVOX_BASE_URL,
+    prosody: dict | None = None,
     trailing_silence: float | None = None,
     cache_dir: Path = DEFAULT_AUDIO_CACHE_DIR,
     timeout: float = DEFAULT_TIMEOUT,
     force: bool = False,
 ) -> tuple[bytes, bool, Path]:
-    path = cache_path(text, speaker, trailing_silence=trailing_silence, cache_dir=cache_dir)
+    path = cache_path(
+        text,
+        speaker,
+        prosody=prosody,
+        trailing_silence=trailing_silence,
+        cache_dir=cache_dir,
+    )
     if path.exists() and not force:
         return path.read_bytes(), True, path
 
@@ -137,6 +172,7 @@ def cached_voicevox_wav(
         text,
         speaker,
         base_url=base_url,
+        prosody=prosody,
         trailing_silence=trailing_silence,
         timeout=timeout,
     )

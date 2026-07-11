@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "source": "docker",
+  "browserVoice": "Google 日本語",
+  "browserRate": 0.9,
+  "browserPitch": 1.0,
+  "dockerSpeaker": 9,
+  "voicevoxProsody": {
+    "speedScale": 1.0,
+    "pitchScale": 0.0,
+    "intonationScale": 1.0
+  }
+}
