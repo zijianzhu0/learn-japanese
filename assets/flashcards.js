@@ -8,6 +8,7 @@ const silentAudioDataUrl = 'data:audio/wav;base64,UklGRigAAABXQVZFZm10IBAAAAABAA
 
 let manifest = { items: [] };
 let progressByCardId = new Map();
+let studyItems = [];
 let visibleItems = [];
 let currentItem = null;
 let currentCard = null;
@@ -23,6 +24,8 @@ let progressServerAvailable = true;
 
 const elements = {
     levelFilter: document.getElementById('level-filter'),
+    studyModeFilter: document.getElementById('study-mode-filter'),
+    verbFormFilter: document.getElementById('verb-form-filter'),
     dueOnly: document.getElementById('due-only'),
     total: document.getElementById('stat-total'),
     due: document.getElementById('stat-due'),
@@ -59,6 +62,67 @@ const elements = {
     resetProgress: document.getElementById('reset-progress'),
     progressStorageStatus: document.getElementById('progress-storage-status')
 };
+
+function cardIdForItem(item) {
+    return item.cardId || `recognition:${item.id}`;
+}
+
+function cloneExampleSentences(examples) {
+    return Array.isArray(examples)
+        ? examples
+            .filter((example) => example?.ja && example?.en)
+            .map((example) => ({ ja: example.ja, en: example.en }))
+        : [];
+}
+
+function buildStudyItems(items) {
+    const built = [];
+
+    items.forEach((item) => {
+        const baseItem = {
+            ...item,
+            studyType: 'vocabulary',
+            cardId: `recognition:${item.id}`
+        };
+        built.push(baseItem);
+
+        const forms = Array.isArray(item.verbForms) ? item.verbForms : [];
+        if (!forms.length) {
+            return;
+        }
+
+        const companionForms = forms.map((form) => ({
+            ...form,
+            isCurrent: false
+        }));
+        const fallbackExamples = cloneExampleSentences(item.exampleSentences);
+        const baseReading = item.readingHiragana || item.reading || '';
+        forms.forEach((form) => {
+            const formExamples = cloneExampleSentences(form.exampleSentences);
+            built.push({
+                ...item,
+                id: `${item.id}:${form.form}`,
+                studyType: 'verb-forms',
+                cardId: `verb-form:${item.id}:${form.form}`,
+                term: form.term || item.term,
+                reading: form.readingHiragana || item.reading || '',
+                readingHiragana: form.readingHiragana || item.readingHiragana || item.reading || '',
+                meaning: form.meaning || item.meaning,
+                exampleSentences: formExamples.length ? formExamples : fallbackExamples,
+                form: form.form || '',
+                formLabel: form.label || form.form || '',
+                baseVerbTerm: item.term,
+                baseVerbReading: baseReading,
+                verbForms: companionForms.map((candidate) => ({
+                    ...candidate,
+                    isCurrent: candidate.form === form.form
+                }))
+            });
+        });
+    });
+
+    return built;
+}
 
 function normalizeAudioCacheState(value) {
     if (value === 'hit' || value === 'miss') {
@@ -258,15 +322,11 @@ async function resetStoredProgress() {
     return updateProgress('reset');
 }
 
-function cardIdForItem(item) {
-    return `recognition:${item.id}`;
-}
-
 function defaultCardForItem(item) {
     return {
         card_id: cardIdForItem(item),
         vocab_id: item.id,
-        card_type: 'recognition',
+        card_type: item.studyType || 'recognition',
         level: item.level,
         shown_count: 0,
         remembered_count: 0,
@@ -297,7 +357,7 @@ function renderVerbForms(item) {
     elements.cardVerbForms.replaceChildren(
         ...forms.map((form) => {
             const chip = document.createElement('span');
-            chip.className = 'verb-form-chip';
+            chip.className = form.isCurrent ? 'verb-form-chip is-current' : 'verb-form-chip';
 
             const label = document.createElement('span');
             label.className = 'verb-form-chip-label';
@@ -331,7 +391,7 @@ function updateProgressStorageStatus() {
     }
 
     const savedCount = progressByCardId.size;
-    const visibleCount = manifest.items.filter((item) => progressByCardId.has(cardIdForItem(item))).length;
+    const visibleCount = studyItems.filter((item) => progressByCardId.has(cardIdForItem(item))).length;
     const olderCount = Math.max(0, savedCount - visibleCount);
     elements.progressStorageStatus.textContent = olderCount
         ? `Progress is stored on the local server with ${visibleCount} active cards and ${olderCount} older records.`
@@ -383,13 +443,35 @@ function selectedLevel() {
     return elements.levelFilter?.value || 'all';
 }
 
+function selectedStudyMode() {
+    return elements.studyModeFilter?.value || 'all';
+}
+
+function selectedVerbForm() {
+    return elements.verbFormFilter?.value || 'all';
+}
+
 function filterItems() {
     const level = selectedLevel();
+    const studyMode = selectedStudyMode();
+    const verbForm = selectedVerbForm();
     const dueOnly = Boolean(elements.dueOnly?.checked);
     const now = Date.now();
 
-    visibleItems = manifest.items.filter((item) => {
+    visibleItems = studyItems.filter((item) => {
         if (level !== 'all' && item.level !== level) {
+            return false;
+        }
+
+        if (studyMode !== 'all' && item.studyType !== studyMode) {
+            return false;
+        }
+
+        if (verbForm !== 'all' && item.studyType === 'verb-forms' && item.form !== verbForm) {
+            return false;
+        }
+
+        if (verbForm !== 'all' && item.studyType !== 'verb-forms') {
             return false;
         }
 
@@ -416,7 +498,23 @@ function pickNextItem() {
 
 function aggregateStats() {
     const level = selectedLevel();
-    const matchingItems = manifest.items.filter((item) => level === 'all' || item.level === level);
+    const studyMode = selectedStudyMode();
+    const verbForm = selectedVerbForm();
+    const matchingItems = studyItems.filter((item) => {
+        if (level !== 'all' && item.level !== level) {
+            return false;
+        }
+        if (studyMode !== 'all' && item.studyType !== studyMode) {
+            return false;
+        }
+        if (verbForm !== 'all' && item.studyType === 'verb-forms' && item.form !== verbForm) {
+            return false;
+        }
+        if (verbForm !== 'all' && item.studyType !== 'verb-forms') {
+            return false;
+        }
+        return true;
+    });
     const now = Date.now();
     const totals = {
         cards: matchingItems.length,
@@ -486,6 +584,8 @@ function setEmptyState(isEmpty) {
     if (isEmpty) {
         elements.cardVerbForms.hidden = true;
         elements.cardVerbForms.replaceChildren();
+        elements.cardBaseVerb.hidden = true;
+        elements.cardBaseVerb.textContent = '';
     }
 }
 
@@ -499,14 +599,28 @@ async function showItem(item) {
     await putRecord('cards', currentCard);
 
     elements.cardLevel.textContent = item.level;
-    elements.cardSource.textContent = item.sourceLabel || item.sourceTitle || 'Vocabulary';
+    const sourceLabel = item.sourceLabel || item.sourceTitle || 'Vocabulary';
+    elements.cardSource.textContent = item.studyType === 'verb-forms'
+        ? `${sourceLabel} · Verb forms`
+        : sourceLabel;
     elements.cardTerm.textContent = item.term;
     elements.cardReading.textContent = item.readingHiragana || item.reading || '';
     elements.cardMeaning.textContent = item.meaning;
-    elements.cardForm.hidden = true;
-    elements.cardForm.textContent = '';
-    elements.cardBaseVerb.hidden = true;
-    elements.cardBaseVerb.textContent = '';
+    if (item.studyType === 'verb-forms' && item.formLabel) {
+        elements.cardForm.hidden = false;
+        elements.cardForm.textContent = item.formLabel;
+    } else {
+        elements.cardForm.hidden = true;
+        elements.cardForm.textContent = '';
+    }
+    if (item.studyType === 'verb-forms' && item.baseVerbTerm) {
+        const baseReading = item.baseVerbReading ? ` · ${item.baseVerbReading}` : '';
+        elements.cardBaseVerb.hidden = false;
+        elements.cardBaseVerb.textContent = `Base verb: ${item.baseVerbTerm}${baseReading}`;
+    } else {
+        elements.cardBaseVerb.hidden = true;
+        elements.cardBaseVerb.textContent = '';
+    }
     renderVerbForms(item);
 
     if (item.sourceHref) {
@@ -689,8 +803,8 @@ async function showNextCard() {
         currentCard = null;
         setEmptyState(true);
         elements.cardLevel.textContent = selectedLevel() === 'all' ? 'All' : selectedLevel();
-        elements.cardSource.textContent = 'No cards due';
-        elements.cardTerm.textContent = 'No cards';
+        elements.cardSource.textContent = selectedStudyMode() === 'verb-forms' ? 'No verb-form cards due' : 'No cards due';
+        elements.cardTerm.textContent = selectedStudyMode() === 'verb-forms' ? 'No verb-form cards' : 'No cards';
         elements.cardReading.textContent = '';
         elements.cardMeaning.textContent = '';
         elements.cardForm.hidden = true;
@@ -803,6 +917,7 @@ async function loadManifest() {
     }
     manifest = await response.json();
     manifest.items = Array.isArray(manifest.items) ? manifest.items : [];
+    studyItems = buildStudyItems(manifest.items);
     updateProgressStorageStatus();
 }
 
@@ -858,6 +973,8 @@ async function resetProgress() {
 
 function bindEvents() {
     elements.levelFilter.addEventListener('change', showNextCard);
+    elements.studyModeFilter.addEventListener('change', showNextCard);
+    elements.verbFormFilter.addEventListener('change', showNextCard);
     elements.dueOnly.addEventListener('change', showNextCard);
     elements.flashcard.addEventListener('click', revealAnswer);
     elements.flashcard.addEventListener('keydown', (event) => {

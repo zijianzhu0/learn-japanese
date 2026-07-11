@@ -20,7 +20,7 @@
             }
         })();
     </script>
-    <link rel="stylesheet" href="./assets/flashcards.css?v=c8b74c5c736b">
+    <link rel="stylesheet" href="./assets/flashcards.css?v=06e909fd6a7e">
 </head>
 <body id="top">
 <nav class="top-nav" aria-label="Page navigation">
@@ -55,7 +55,7 @@
     <header class="flashcard-header">
         <p class="eyebrow">N5-N3 Vocabulary</p>
         <h1>Flashcards</h1>
-        <p class="intro">Study core vocabulary and article vocabulary with local progress tracking, quick pronunciation checks, and article-linked review cards.</p>
+        <p class="intro">Study core vocabulary and article vocabulary with local progress tracking, quick pronunciation checks, article-linked review cards, and a dedicated verb-form drill mode for common conjugations.</p>
     </header>
 
     <section class="study-layout" aria-label="Flashcard study">
@@ -67,6 +67,27 @@
                     <option value="N5">N5</option>
                     <option value="N4">N4</option>
                     <option value="N3">N3</option>
+                </select>
+            </div>
+
+            <div class="control-group">
+                <label class="control-label" for="study-mode-filter">Study Mode</label>
+                <select id="study-mode-filter" class="select-control">
+                    <option value="all">All cards</option>
+                    <option value="vocabulary">Vocabulary</option>
+                    <option value="verb-forms">Verb forms</option>
+                </select>
+            </div>
+
+            <div class="control-group">
+                <label class="control-label" for="verb-form-filter">Verb Form</label>
+                <select id="verb-form-filter" class="select-control">
+                    <option value="all">All verb forms</option>
+                    <option value="polite">Polite</option>
+                    <option value="past">Past</option>
+                    <option value="negative">Negative</option>
+                    <option value="te">Te-form</option>
+                    <option value="potential">Potential</option>
                 </select>
             </div>
 
@@ -174,6 +195,6 @@
 </main>
 
 <script src="./assets/theme.js"></script>
-<script src="./assets/flashcards.js?v=56fadaf92e80"></script>
+<script src="./assets/flashcards.js?v=1688c78a89bb"></script>
 </body>
 </html>
