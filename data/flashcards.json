@@ -4,7 +4,7 @@
     "articleManifest": "data/articles.json"
   },
   "levels": {
-    "N3": 2029,
+    "N3": 2037,
     "N4": 536,
     "N5": 553
   },
@@ -301,6 +301,10 @@
           "readingHiragana": "あきます",
           "meaning": "Polite form of 開く: to open",
           "exampleSentences": [
+            {
+              "ja": "駅の外に出て、広い安全な場所で輪行袋を開きます。",
+              "en": "Leave the station and open the bike bag in a spacious, safe place."
+            },
             {
               "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
               "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
@@ -693,6 +697,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "朝夕のラッシュ時間は車内が混むため、できれば避けたほうが安全です。",
+          "en": "Trains are crowded during the morning and evening rush hours, so avoiding those times is safer when possible."
+        },
+        {
           "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
           "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
         },
@@ -953,6 +961,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "袋に入れた後は、持ち上げても部品が動かないよう、しっかり固定します。",
+          "en": "After putting the bike in the bag, secure the parts so they do not move when you lift it."
+        },
+        {
           "ja": "最初の地震はマグニチュード7・2で、その39秒後にマグニチュード7・5の地震が起きました。",
           "en": "The first was magnitude seven point two, and 39 seconds later a magnitude seven point five quake occurred."
         },
@@ -967,10 +979,6 @@
         {
           "ja": "その後、救急隊や医師たちが浜辺で手当てをしました。",
           "en": "After that, emergency workers and doctors treated her on the beach."
-        },
-        {
-          "ja": "この事故の後、安全対策について議論が起きました。",
-          "en": "After the incident, a debate began about safety measures."
         }
       ]
     },
@@ -1314,6 +1322,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
+          "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
+        },
+        {
           "ja": "これらは速さや停車駅が違うため、名前を確認することが大切です。",
           "en": "Because their speeds and stopping stations differ, it is important to check the name."
         }
@@ -1330,6 +1342,10 @@
           "meaning": "Polite form of 違う: to differ (from)",
           "exampleSentences": [
             {
+              "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
+              "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
+            },
+            {
               "ja": "これらは速さや停車駅が違うため、名前を確認することが大切です。",
               "en": "Because their speeds and stopping stations differ, it is important to check the name."
             }
@@ -1344,6 +1360,10 @@
           "meaning": "Plain past form of 違う: to differ (from)",
           "exampleSentences": [
             {
+              "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
+              "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
+            },
+            {
               "ja": "これらは速さや停車駅が違うため、名前を確認することが大切です。",
               "en": "Because their speeds and stopping stations differ, it is important to check the name."
             }
@@ -1357,6 +1377,10 @@
           "readingHiragana": "ちがわない",
           "meaning": "Plain negative form of 違う: to differ (from)",
           "exampleSentences": [
+            {
+              "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
+              "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
+            },
             {
               "ja": "これらは速さや停車駅が違うため、名前を確認することが大切です。",
               "en": "Because their speeds and stopping stations differ, it is important to check the name."
@@ -1376,6 +1400,10 @@
               "en": "Because people of different levels can enjoy it together, it is also popular with beginners."
             },
             {
+              "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
+              "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
+            },
+            {
               "ja": "これらは速さや停車駅が違うため、名前を確認することが大切です。",
               "en": "Because their speeds and stopping stations differ, it is important to check the name."
             }
@@ -1389,6 +1417,10 @@
           "readingHiragana": "ちがえる",
           "meaning": "Potential form of 違う: to differ (from)",
           "exampleSentences": [
+            {
+              "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
+              "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
+            },
             {
               "ja": "これらは速さや停車駅が違うため、名前を確認することが大切です。",
               "en": "Because their speeds and stopping stations differ, it is important to check the name."
@@ -1463,6 +1495,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "目的の駅に着いても、ホームや改札の近くで自転車を組み立てるのは避けましょう。",
+          "en": "Even after arriving at your destination, avoid assembling your bicycle near the platform or ticket gates."
+        },
+        {
           "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
           "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
         },
@@ -1477,10 +1513,6 @@
         {
           "ja": "知らない駅に行くときも、近くにある駅との関係から予想できます。",
           "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
-        },
-        {
-          "ja": "一方、日本は、台湾の近くで大きな問題が起きれば、日本の安全にも関係すると見ています。",
-          "en": "Japan, on the other hand, thinks that if a major problem happens near Taiwan, it would also affect Japan's safety."
         }
       ]
     },
@@ -2016,6 +2048,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京の電車に自転車をそのまま持ち込むことは、基本的にできません。",
+          "en": "You generally cannot take an uncovered bicycle directly onto trains in Tokyo."
+        },
+        {
+          "ja": "電車に乗ったら、ドアの前や通路をふさがない場所を選びます。",
+          "en": "Once on the train, choose a place where the bicycle will not block the doors or aisle."
+        },
+        {
           "ja": "電車の路線はそれぞれ別の色で表されることが多いので、黄色い出口案内は見分けやすいです。",
           "en": "Train lines are often shown in different colors, so yellow exit guidance is easy to distinguish from them."
         },
@@ -2026,14 +2066,6 @@
         {
           "ja": "京急線では、たくさんの電車がほかの鉄道会社の路線へそのまま入っていきます。",
           "en": "On the Keikyu Line, many trains continue directly onto other railway networks."
-        },
-        {
-          "ja": "東京の中心部へ向かうなら、まず品川へ向かう電車を探しましょう。",
-          "en": "If you are heading into central Tokyo, first look for a train going toward Shinagawa."
-        },
-        {
-          "ja": "横浜やその先へ行くなら、横浜へ向かう電車に乗ればいいです。",
-          "en": "If you are going to Yokohama or beyond, board a train heading that way."
         }
       ]
     },
@@ -2124,6 +2156,10 @@
           "meaning": "Plain negative form of 出る: to leave, to exit",
           "exampleSentences": [
             {
+              "ja": "タイヤやハンドルが袋の外に出ないよう確認しましょう。",
+              "en": "Make sure the tires and handlebars do not stick out of the bag."
+            },
+            {
               "ja": "市はSNSや放送車で注意を呼びかけ、住民に外へ出ないよう伝えました。",
               "en": "The city warned residents through social media and announcement vehicles and told them not to go outside."
             },
@@ -2146,6 +2182,10 @@
           "meaning": "Te-form of 出る: to leave, to exit",
           "exampleSentences": [
             {
+              "ja": "駅の外に出て、広い安全な場所で輪行袋を開きます。",
+              "en": "Leave the station and open the bike bag in a spacious, safe place."
+            },
+            {
               "ja": "栃木県の宇都宮市では、クマが公園や学校、図書館の近くに出て、多くの人を怖がらせました。",
               "en": "In Utsunomiya, Tochigi Prefecture, a bear appeared near parks, schools, and a library, frightening many people."
             },
@@ -2160,10 +2200,6 @@
             {
               "ja": "消費者からは、毎日食べるものなので、少しの値上がりでも大きいという声が出ています。",
               "en": "Consumers say that even small price increases matter because rice is eaten every day."
-            },
-            {
-              "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
-              "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
             }
           ]
         },
@@ -2439,24 +2475,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "駅へ入る前に、通行の邪魔にならない場所で自転車を準備します。",
+          "en": "Before entering the station, prepare your bicycle somewhere that does not block pedestrian traffic."
+        },
+        {
+          "ja": "駅員から乗る位置を案内された場合は、その指示に従いましょう。",
+          "en": "Follow any instructions from station staff about where to board."
+        },
+        {
+          "ja": "目的の駅に着いても、ホームや改札の近くで自転車を組み立てるのは避けましょう。",
+          "en": "Even after arriving at your destination, avoid assembling your bicycle near the platform or ticket gates."
+        },
+        {
+          "ja": "駅の外に出て、広い安全な場所で輪行袋を開きます。",
+          "en": "Leave the station and open the bike bag in a spacious, safe place."
+        },
+        {
           "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
           "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
-        },
-        {
-          "ja": "多くの主要駅では、出口への案内に黄色が標準的に使われています。",
-          "en": "At many major stations, yellow is used as the standard color for directions to the exits."
-        },
-        {
-          "ja": "黄色い背景に黒い文字と矢印を組み合わせた表示は、人の多い駅でもよく目立ちます。",
-          "en": "Signs that combine a yellow background with black text and arrows stand out well even in crowded stations."
-        },
-        {
-          "ja": "この仕組みを知っているだけで、新宿駅のような巨大な駅でも必要以上にこわがらなくてよくなります。",
-          "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
-        },
-        {
-          "ja": "東京の駅が混雑していても大きく混乱しにくいのは、こうした単純で強いデザインの力があるからかもしれません。",
-          "en": "One reason Tokyo stations can stay usable despite heavy crowds may be the strength of this kind of simple, effective design."
         }
       ]
     },
@@ -3079,6 +3115,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "駅へ入る前に、通行の邪魔にならない場所で自転車を準備します。",
+          "en": "Before entering the station, prepare your bicycle somewhere that does not block pedestrian traffic."
+        },
+        {
           "ja": "日本では、クマが人の生活する場所に入る問題が増えています。",
           "en": "In Japan, the problem of bears entering places where people live is increasing."
         },
@@ -3098,6 +3138,10 @@
           "readingHiragana": "はいります",
           "meaning": "Polite form of 入る: to enter, to go into",
           "exampleSentences": [
+            {
+              "ja": "駅へ入る前に、通行の邪魔にならない場所で自転車を準備します。",
+              "en": "Before entering the station, prepare your bicycle somewhere that does not block pedestrian traffic."
+            },
             {
               "ja": "日本では、クマが人の生活する場所に入る問題が増えています。",
               "en": "In Japan, the problem of bears entering places where people live is increasing."
@@ -3121,6 +3165,10 @@
               "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
             },
             {
+              "ja": "駅へ入る前に、通行の邪魔にならない場所で自転車を準備します。",
+              "en": "Before entering the station, prepare your bicycle somewhere that does not block pedestrian traffic."
+            },
+            {
               "ja": "日本では、クマが人の生活する場所に入る問題が増えています。",
               "en": "In Japan, the problem of bears entering places where people live is increasing."
             },
@@ -3138,6 +3186,10 @@
           "readingHiragana": "はいらない",
           "meaning": "Plain negative form of 入る: to enter, to go into",
           "exampleSentences": [
+            {
+              "ja": "駅へ入る前に、通行の邪魔にならない場所で自転車を準備します。",
+              "en": "Before entering the station, prepare your bicycle somewhere that does not block pedestrian traffic."
+            },
             {
               "ja": "日本では、クマが人の生活する場所に入る問題が増えています。",
               "en": "In Japan, the problem of bears entering places where people live is increasing."
@@ -3169,12 +3221,12 @@
               "en": "A 24-year-old lifesaver nearby entered the water and put the woman on a board."
             },
             {
-              "ja": "日本では、クマが人の生活する場所に入る問題が増えています。",
-              "en": "In Japan, the problem of bears entering places where people live is increasing."
+              "ja": "駅へ入る前に、通行の邪魔にならない場所で自転車を準備します。",
+              "en": "Before entering the station, prepare your bicycle somewhere that does not block pedestrian traffic."
             },
             {
-              "ja": "最近の日本では、クマが人の生活する場所に入る問題が増えています。",
-              "en": "Recently in Japan, the problem of bears entering places where people live has been increasing."
+              "ja": "日本では、クマが人の生活する場所に入る問題が増えています。",
+              "en": "In Japan, the problem of bears entering places where people live is increasing."
             }
           ]
         },
@@ -3187,6 +3239,10 @@
           "meaning": "Potential form of 入る: to enter, to go into",
           "exampleSentences": [
             {
+              "ja": "多くの鉄道会社では、自転車を分解したり折りたたんだりして、専用の輪行袋に完全に入れる必要があります。",
+              "en": "Many railway companies require bicycles to be disassembled or folded and completely placed inside a dedicated bike transport bag."
+            },
+            {
               "ja": "必要なときだけ自動で動く仕組みを入れる例もあります。",
               "en": "Some examples include systems that run automatically only when needed."
             },
@@ -3195,12 +3251,12 @@
               "en": "Storage equipment and fueling devices have also been prepared near the port."
             },
             {
-              "ja": "日本では、クマが人の生活する場所に入る問題が増えています。",
-              "en": "In Japan, the problem of bears entering places where people live is increasing."
+              "ja": "駅へ入る前に、通行の邪魔にならない場所で自転車を準備します。",
+              "en": "Before entering the station, prepare your bicycle somewhere that does not block pedestrian traffic."
             },
             {
-              "ja": "最近の日本では、クマが人の生活する場所に入る問題が増えています。",
-              "en": "Recently in Japan, the problem of bears entering places where people live has been increasing."
+              "ja": "日本では、クマが人の生活する場所に入る問題が増えています。",
+              "en": "In Japan, the problem of bears entering places where people live is increasing."
             }
           ]
         }
@@ -4316,6 +4372,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京の電車に自転車をそのまま持ち込むことは、基本的にできません。",
+          "en": "You generally cannot take an uncovered bicycle directly onto trains in Tokyo."
+        },
+        {
           "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
           "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
         },
@@ -4330,10 +4390,6 @@
         {
           "ja": "毎日たくさんの人が行き交う東京の駅だからこそ、このような技術がとても自然に街へ溶け込んでいるのかもしれません。",
           "en": "Because Tokyo stations are used by so many people every day, perhaps this kind of technology blends naturally into the city."
-        },
-        {
-          "ja": "東京の中心部へ向かうなら、まず品川へ向かう電車を探しましょう。",
-          "en": "If you are heading into central Tokyo, first look for a train going toward Shinagawa."
         }
       ]
     },
@@ -4560,6 +4616,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "駅の外に出て、広い安全な場所で輪行袋を開きます。",
+          "en": "Leave the station and open the bike bag in a spacious, safe place."
+        },
+        {
           "ja": "揺れは北部の広い地域で感じられ、カラカスやラグアイラで建物が倒れました。",
           "en": "The epicenter was near the town of Moron on the Caribbean coast, about 160 kilometers west of the capital, Caracas. The shaking was felt across a wide area in the north, and buildings collapsed in Caracas and La Guaira."
         },
@@ -4614,6 +4674,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "改札では大きな荷物として扱い、周りの人にぶつけないよう注意します。",
+          "en": "At the ticket gates, handle the bicycle like a large piece of luggage and be careful not to hit people around you."
+        },
+        {
           "ja": "黄色い背景に黒い文字と矢印を組み合わせた表示は、人の多い駅でもよく目立ちます。",
           "en": "Signs that combine a yellow background with black text and arrows stand out well even in crowded stations."
         },
@@ -4628,10 +4692,6 @@
         {
           "ja": "そのため、駅が混雑しているときでも、たくさんの人がほぼ同じ速さで進めます。",
           "en": "Because of that, even when a station is crowded, many people can keep moving at almost the same speed."
-        },
-        {
-          "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
-          "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
         }
       ]
     },
@@ -4701,6 +4761,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京の電車に自転車をそのまま持ち込むことは、基本的にできません。",
+          "en": "You generally cannot take an uncovered bicycle directly onto trains in Tokyo."
+        },
+        {
           "ja": "普段は当たり前のように使っている改札ですが、その裏には日本ならではの高い技術と緻密なシステム設計が詰まっています。",
           "en": "We usually use ticket gates as if they were completely ordinary, but behind them are advanced technology and precise system design that feel very characteristic of Japan."
         },
@@ -4715,10 +4779,6 @@
         {
           "ja": "日本と中国の関係は、経済では深くつながっています。",
           "en": "Japan and China are deeply connected through the economy."
-        },
-        {
-          "ja": "一方、日本は、台湾の近くで大きな問題が起きれば、日本の安全にも関係すると見ています。",
-          "en": "Japan, on the other hand, thinks that if a major problem happens near Taiwan, it would also affect Japan's safety."
         }
       ]
     },
@@ -4774,7 +4834,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "移動中は、他の乗客が乗り降りしやすいか確認することも大切です。",
+          "en": "During the trip, it is also important to make sure other passengers can easily get on and off."
+        }
+      ]
     },
     {
       "id": "core-7241c579a861f3",
@@ -5285,6 +5350,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "多くの鉄道会社では、自転車を分解したり折りたたんだりして、専用の輪行袋に完全に入れる必要があります。",
+          "en": "Many railway companies require bicycles to be disassembled or folded and completely placed inside a dedicated bike transport bag."
+        },
+        {
           "ja": "必要なときだけ自動で動く仕組みを入れる例もあります。",
           "en": "Some examples include systems that run automatically only when needed."
         },
@@ -5305,6 +5374,10 @@
           "meaning": "Polite form of 入れる: to put in, to let in",
           "exampleSentences": [
             {
+              "ja": "多くの鉄道会社では、自転車を分解したり折りたたんだりして、専用の輪行袋に完全に入れる必要があります。",
+              "en": "Many railway companies require bicycles to be disassembled or folded and completely placed inside a dedicated bike transport bag."
+            },
+            {
               "ja": "必要なときだけ自動で動く仕組みを入れる例もあります。",
               "en": "Some examples include systems that run automatically only when needed."
             },
@@ -5322,6 +5395,14 @@
           "readingHiragana": "いれた",
           "meaning": "Plain past form of 入れる: to put in, to let in",
           "exampleSentences": [
+            {
+              "ja": "袋に入れた後は、持ち上げても部品が動かないよう、しっかり固定します。",
+              "en": "After putting the bike in the bag, secure the parts so they do not move when you lift it."
+            },
+            {
+              "ja": "多くの鉄道会社では、自転車を分解したり折りたたんだりして、専用の輪行袋に完全に入れる必要があります。",
+              "en": "Many railway companies require bicycles to be disassembled or folded and completely placed inside a dedicated bike transport bag."
+            },
             {
               "ja": "必要なときだけ自動で動く仕組みを入れる例もあります。",
               "en": "Some examples include systems that run automatically only when needed."
@@ -5343,6 +5424,10 @@
             {
               "ja": "車が入れない場所でも、小さな荷物ならすぐに届けられるので、期待が高まっています。",
               "en": "Expectations are rising because even where cars cannot enter, small supplies can be delivered quickly."
+            },
+            {
+              "ja": "多くの鉄道会社では、自転車を分解したり折りたたんだりして、専用の輪行袋に完全に入れる必要があります。",
+              "en": "Many railway companies require bicycles to be disassembled or folded and completely placed inside a dedicated bike transport bag."
             },
             {
               "ja": "必要なときだけ自動で動く仕組みを入れる例もあります。",
@@ -5367,6 +5452,10 @@
               "en": "Israel has not accepted this condition."
             },
             {
+              "ja": "多くの鉄道会社では、自転車を分解したり折りたたんだりして、専用の輪行袋に完全に入れる必要があります。",
+              "en": "Many railway companies require bicycles to be disassembled or folded and completely placed inside a dedicated bike transport bag."
+            },
+            {
               "ja": "必要なときだけ自動で動く仕組みを入れる例もあります。",
               "en": "Some examples include systems that run automatically only when needed."
             },
@@ -5384,6 +5473,10 @@
           "readingHiragana": "いれられる",
           "meaning": "Potential form of 入れる: to put in, to let in",
           "exampleSentences": [
+            {
+              "ja": "多くの鉄道会社では、自転車を分解したり折りたたんだりして、専用の輪行袋に完全に入れる必要があります。",
+              "en": "Many railway companies require bicycles to be disassembled or folded and completely placed inside a dedicated bike transport bag."
+            },
             {
               "ja": "必要なときだけ自動で動く仕組みを入れる例もあります。",
               "en": "Some examples include systems that run automatically only when needed."
@@ -5869,6 +5962,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "朝夕のラッシュ時間は車内が混むため、できれば避けたほうが安全です。",
+          "en": "Trains are crowded during the morning and evening rush hours, so avoiding those times is safer when possible."
+        },
+        {
           "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
           "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
         },
@@ -5883,10 +5980,6 @@
         {
           "ja": "台風の進路は、数時間で変わることがあります。",
           "en": "A typhoon's path can change within a few hours."
-        },
-        {
-          "ja": "同じくらいの強さの地震が、近い場所で短い時間に起きることです。",
-          "en": "\" It means earthquakes of similar strength happen close together in place and time."
         }
       ]
     },
@@ -5918,7 +6011,24 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "東京の電車に自転車をそのまま持ち込むことは、基本的にできません。",
+          "en": "You generally cannot take an uncovered bicycle directly onto trains in Tokyo."
+        },
+        {
+          "ja": "多くの鉄道会社では、自転車を分解したり折りたたんだりして、専用の輪行袋に完全に入れる必要があります。",
+          "en": "Many railway companies require bicycles to be disassembled or folded and completely placed inside a dedicated bike transport bag."
+        },
+        {
+          "ja": "駅へ入る前に、通行の邪魔にならない場所で自転車を準備します。",
+          "en": "Before entering the station, prepare your bicycle somewhere that does not block pedestrian traffic."
+        },
+        {
+          "ja": "目的の駅に着いても、ホームや改札の近くで自転車を組み立てるのは避けましょう。",
+          "en": "Even after arriving at your destination, avoid assembling your bicycle near the platform or ticket gates."
+        }
+      ]
     },
     {
       "id": "core-f6add65a221514",
@@ -6197,6 +6307,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "多くの鉄道会社では、自転車を分解したり折りたたんだりして、専用の輪行袋に完全に入れる必要があります。",
+          "en": "Many railway companies require bicycles to be disassembled or folded and completely placed inside a dedicated bike transport bag."
+        },
+        {
+          "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
+          "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
+        },
+        {
           "ja": "京急線では、たくさんの電車がほかの鉄道会社の路線へそのまま入っていきます。",
           "en": "On the Keikyu Line, many trains continue directly onto other railway networks."
         },
@@ -6207,14 +6325,6 @@
         {
           "ja": "これは日本の会社にとって大きなリスクです。",
           "en": "This is a major risk for Japanese companies."
-        },
-        {
-          "ja": "そこでNASAは、アメリカの会社カタリスト・スペースが作った「リンク」という宇宙船を送ります。",
-          "en": "NASA will therefore send a spacecraft called Link, built by the American company Katalyst Space."
-        },
-        {
-          "ja": "IPOでは、証券会社が会社の株を投資家に売ります。",
-          "en": "In an IPO, securities firms sell a company’s shares to investors."
         }
       ]
     },
@@ -8226,24 +8336,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "電車の路線はそれぞれ別の色で表されることが多いので、黄色い出口案内は見分けやすいです。",
-          "en": "Train lines are often shown in different colors, so yellow exit guidance is easy to distinguish from them."
+          "ja": "東京の電車に自転車をそのまま持ち込むことは、基本的にできません。",
+          "en": "You generally cannot take an uncovered bicycle directly onto trains in Tokyo."
         },
         {
-          "ja": "これだけで、電車の選び方がかなり簡単になります。",
-          "en": "That alone makes choosing a train much easier."
+          "ja": "多くの鉄道会社では、自転車を分解したり折りたたんだりして、専用の輪行袋に完全に入れる必要があります。",
+          "en": "Many railway companies require bicycles to be disassembled or folded and completely placed inside a dedicated bike transport bag."
         },
         {
-          "ja": "京急線では、たくさんの電車がほかの鉄道会社の路線へそのまま入っていきます。",
-          "en": "On the Keikyu Line, many trains continue directly onto other railway networks."
+          "ja": "駅へ入る前に、通行の邪魔にならない場所で自転車を準備します。",
+          "en": "Before entering the station, prepare your bicycle somewhere that does not block pedestrian traffic."
         },
         {
-          "ja": "そのため、車両に表示される行き先は、自分が降りる駅よりずっと先の地名であることもあります。",
-          "en": "Because of that, the destination shown on the train may be a place name far beyond the station where you plan to get off."
+          "ja": "車輪を外すタイプでは、工具や固定用ベルトを用意すると安心です。",
+          "en": "For bikes that require wheel removal, it is helpful to bring tools and fastening straps."
         },
         {
-          "ja": "東京の中心部へ向かうなら、まず品川へ向かう電車を探しましょう。",
-          "en": "If you are heading into central Tokyo, first look for a train going toward Shinagawa."
+          "ja": "朝夕のラッシュ時間は車内が混むため、できれば避けたほうが安全です。",
+          "en": "Trains are crowded during the morning and evening rush hours, so avoiding those times is safer when possible."
         }
       ]
     },
@@ -8393,24 +8503,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "駅へ入る前に、通行の邪魔にならない場所で自転車を準備します。",
+          "en": "Before entering the station, prepare your bicycle somewhere that does not block pedestrian traffic."
+        },
+        {
+          "ja": "電車に乗ったら、ドアの前や通路をふさがない場所を選びます。",
+          "en": "Once on the train, choose a place where the bicycle will not block the doors or aisle."
+        },
+        {
+          "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
+          "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
+        },
+        {
           "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
           "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
         },
         {
           "ja": "普段は当たり前のように使っている改札ですが、その裏には日本ならではの高い技術と緻密なシステム設計が詰まっています。",
           "en": "We usually use ticket gates as if they were completely ordinary, but behind them are advanced technology and precise system design that feel very characteristic of Japan."
-        },
-        {
-          "ja": "このように、細かい列車の名前を全部覚えていなくても、まず路線のどちら側に行きたいかがわかれば、正しい電車をかなり選びやすくなります。",
-          "en": "In this way, even if you do not remember every train name, knowing which side of the line you need first makes it much easier to choose the right train."
-        },
-        {
-          "ja": "これらは速さや停車駅が違うため、名前を確認することが大切です。",
-          "en": "Because their speeds and stopping stations differ, it is important to check the name."
-        },
-        {
-          "ja": "乗る前に、発車標で行き先と種別の両方を確認しましょう。",
-          "en": "Before getting on, check both the destination and the service type on the departure board."
         }
       ]
     },
@@ -8849,6 +8959,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "目的の駅に着いても、ホームや改札の近くで自転車を組み立てるのは避けましょう。",
+          "en": "Even after arriving at your destination, avoid assembling your bicycle near the platform or ticket gates."
+        },
+        {
           "ja": "どの線に乗ってきたかで頭がいっぱいでも、色だけで目的の情報をつかみやすくなります。",
           "en": "Even if your head is full of route information, the color alone makes the information you need easier to grasp."
         },
@@ -8863,10 +8977,6 @@
         {
           "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
           "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
-        },
-        {
-          "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
-          "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
         }
       ]
     },
@@ -8900,6 +9010,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "多くの鉄道会社では、自転車を分解したり折りたたんだりして、専用の輪行袋に完全に入れる必要があります。",
+          "en": "Many railway companies require bicycles to be disassembled or folded and completely placed inside a dedicated bike transport bag."
+        },
+        {
+          "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
+          "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
+        },
+        {
           "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
           "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
         },
@@ -8910,14 +9028,6 @@
         {
           "ja": "東京がとても便利に感じられる大きな理由の一つは、よく整った鉄道網です。",
           "en": "One big reason Tokyo feels so convenient is its well-developed rail network."
-        },
-        {
-          "ja": "いくつもの都市中心が鉄道でしっかり結ばれた形で広がってきました。",
-          "en": "It spread in a form where many urban centers were firmly connected by rail."
-        },
-        {
-          "ja": "すでにある地下鉄、水道や電気の設備、建物の基礎をよけながらトンネルを作るのは、とても大変でした。",
-          "en": "Building tunnels while avoiding existing subways, water and electrical infrastructure, and building foundations was extremely difficult."
         }
       ]
     },
@@ -9750,6 +9860,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "移動中は、他の乗客が乗り降りしやすいか確認することも大切です。",
+          "en": "During the trip, it is also important to make sure other passengers can easily get on and off."
+        },
+        {
           "ja": "その理由の一つは、ICカードの残高確認や運賃計算が、改札機の中でとても速く処理されるように設計されていることです。",
           "en": "One reason is that balance checks and fare calculations for IC cards are designed to be processed very quickly inside the ticket gate itself."
         },
@@ -9764,10 +9878,6 @@
         {
           "ja": "いつもの風景の中にも、まだ気づいていないやさしさや工夫がたくさんあるのだと思います。",
           "en": "I think there are many more acts of kindness and smart ideas hidden in the familiar scenery around us."
-        },
-        {
-          "ja": "東京の中心部へ向かうなら、まず品川へ向かう電車を探しましょう。",
-          "en": "If you are heading into central Tokyo, first look for a train going toward Shinagawa."
         }
       ]
     },
@@ -10285,6 +10395,10 @@
           "meaning": "Plain negative form of なる: to become",
           "exampleSentences": [
             {
+              "ja": "駅へ入る前に、通行の邪魔にならない場所で自転車を準備します。",
+              "en": "Before entering the station, prepare your bicycle somewhere that does not block pedestrian traffic."
+            },
+            {
               "ja": "試合後、ブラジルのアンチェロッティ監督は、チームはもっと良くならなければならないと話しました。",
               "en": "After the match, Brazil coach Ancelotti said the team must improve."
             },
@@ -10299,10 +10413,6 @@
             {
               "ja": "人口や機能が集中する首都圏では、交通や物流の混乱も深刻になるとみられています。",
               "en": "In the Tokyo metropolitan area, where people and key functions are concentrated, disruption to transport and logistics is also expected to be severe."
-            },
-            {
-              "ja": "運営会社は、観光客が便利になるだけでなく、会計の時間が短くなると説明しています。",
-              "en": "The operator explains that this not only makes things more convenient for tourists but also shortens checkout time."
             }
           ]
         },
@@ -10571,6 +10681,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "改札では大きな荷物として扱い、周りの人にぶつけないよう注意します。",
+          "en": "At the ticket gates, handle the bicycle like a large piece of luggage and be careful not to hit people around you."
+        },
+        {
           "ja": "車が入れない場所でも、小さな荷物ならすぐに届けられるので、期待が高まっています。",
           "en": "Expectations are rising because even where cars cannot enter, small supplies can be delivered quickly."
         }
@@ -10794,6 +10908,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "駅員から乗る位置を案内された場合は、その指示に従いましょう。",
+          "en": "Follow any instructions from station staff about where to board."
+        },
+        {
           "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
           "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
         },
@@ -10808,10 +10926,6 @@
         {
           "ja": "乗る前に、発車標で行き先と種別の両方を確認しましょう。",
           "en": "Before getting on, check both the destination and the service type on the departure board."
-        },
-        {
-          "ja": "利用したい人は、前日までに電話かスマートフォンで乗る場所と時間を伝えます。",
-          "en": "People who want to use the service tell the town their pickup place and time by phone or smartphone by the previous day."
         }
       ],
       "partOfSpeech": "verb",
@@ -10826,6 +10940,10 @@
           "meaning": "Polite form of 乗る: to get on (train, plane, bus, ship)",
           "exampleSentences": [
             {
+              "ja": "駅員から乗る位置を案内された場合は、その指示に従いましょう。",
+              "en": "Follow any instructions from station staff about where to board."
+            },
+            {
               "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
               "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
             },
@@ -10840,10 +10958,6 @@
             {
               "ja": "乗る前に、発車標で行き先と種別の両方を確認しましょう。",
               "en": "Before getting on, check both the destination and the service type on the departure board."
-            },
-            {
-              "ja": "利用したい人は、前日までに電話かスマートフォンで乗る場所と時間を伝えます。",
-              "en": "People who want to use the service tell the town their pickup place and time by phone or smartphone by the previous day."
             }
           ]
         },
@@ -10856,6 +10970,14 @@
           "meaning": "Plain past form of 乗る: to get on (train, plane, bus, ship)",
           "exampleSentences": [
             {
+              "ja": "電車に乗ったら、ドアの前や通路をふさがない場所を選びます。",
+              "en": "Once on the train, choose a place where the bicycle will not block the doors or aisle."
+            },
+            {
+              "ja": "駅員から乗る位置を案内された場合は、その指示に従いましょう。",
+              "en": "Follow any instructions from station staff about where to board."
+            },
+            {
               "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
               "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
             },
@@ -10866,14 +10988,6 @@
             {
               "ja": "早く着きたいと思って速い電車に乗ると、自分の駅を通りすぎてしまうことがあります。",
               "en": "If you board a faster train because you want to arrive quickly, it may pass your station."
-            },
-            {
-              "ja": "乗る前に、発車標で行き先と種別の両方を確認しましょう。",
-              "en": "Before getting on, check both the destination and the service type on the departure board."
-            },
-            {
-              "ja": "利用したい人は、前日までに電話かスマートフォンで乗る場所と時間を伝えます。",
-              "en": "People who want to use the service tell the town their pickup place and time by phone or smartphone by the previous day."
             }
           ]
         },
@@ -10886,6 +11000,10 @@
           "meaning": "Plain negative form of 乗る: to get on (train, plane, bus, ship)",
           "exampleSentences": [
             {
+              "ja": "駅員から乗る位置を案内された場合は、その指示に従いましょう。",
+              "en": "Follow any instructions from station staff about where to board."
+            },
+            {
               "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
               "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
             },
@@ -10900,10 +11018,6 @@
             {
               "ja": "乗る前に、発車標で行き先と種別の両方を確認しましょう。",
               "en": "Before getting on, check both the destination and the service type on the departure board."
-            },
-            {
-              "ja": "利用したい人は、前日までに電話かスマートフォンで乗る場所と時間を伝えます。",
-              "en": "People who want to use the service tell the town their pickup place and time by phone or smartphone by the previous day."
             }
           ]
         },
@@ -10920,6 +11034,10 @@
               "en": "Even if your head is full of route information, the color alone makes the information you need easier to grasp."
             },
             {
+              "ja": "駅員から乗る位置を案内された場合は、その指示に従いましょう。",
+              "en": "Follow any instructions from station staff about where to board."
+            },
+            {
               "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
               "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
             },
@@ -10930,10 +11048,6 @@
             {
               "ja": "早く着きたいと思って速い電車に乗ると、自分の駅を通りすぎてしまうことがあります。",
               "en": "If you board a faster train because you want to arrive quickly, it may pass your station."
-            },
-            {
-              "ja": "乗る前に、発車標で行き先と種別の両方を確認しましょう。",
-              "en": "Before getting on, check both the destination and the service type on the departure board."
             }
           ]
         },
@@ -10946,6 +11060,10 @@
           "meaning": "Potential form of 乗る: to get on (train, plane, bus, ship)",
           "exampleSentences": [
             {
+              "ja": "駅員から乗る位置を案内された場合は、その指示に従いましょう。",
+              "en": "Follow any instructions from station staff about where to board."
+            },
+            {
               "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
               "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
             },
@@ -10960,10 +11078,6 @@
             {
               "ja": "乗る前に、発車標で行き先と種別の両方を確認しましょう。",
               "en": "Before getting on, check both the destination and the service type on the departure board."
-            },
-            {
-              "ja": "利用したい人は、前日までに電話かスマートフォンで乗る場所と時間を伝えます。",
-              "en": "People who want to use the service tell the town their pickup place and time by phone or smartphone by the previous day."
             }
           ]
         }
@@ -13657,24 +13771,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "タイヤやハンドルが袋の外に出ないよう確認しましょう。",
+          "en": "Make sure the tires and handlebars do not stick out of the bag."
+        },
+        {
+          "ja": "車輪を外すタイプでは、工具や固定用ベルトを用意すると安心です。",
+          "en": "For bikes that require wheel removal, it is helpful to bring tools and fastening straps."
+        },
+        {
+          "ja": "駅の外に出て、広い安全な場所で輪行袋を開きます。",
+          "en": "Leave the station and open the bike bag in a spacious, safe place."
+        },
+        {
           "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
           "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
         },
         {
           "ja": "外のサーバーとの通信を長く待たなくてもいいので、流れが止まりにくくなっています。",
           "en": "Because there is little need to wait on long communication with an outside server, the flow is less likely to stop."
-        },
-        {
-          "ja": "フランスの一部では学校が休みになり、屋外の活動を避けるよう呼びかけられました。",
-          "en": "In parts of France, schools were closed, and people were urged to avoid outdoor activities."
-        },
-        {
-          "ja": "G7の首脳たちは、この外交の動きを支持すると述べました。",
-          "en": "G7 leaders said they support this diplomatic move."
-        },
-        {
-          "ja": "医療、金融、技術などの分野では、外国から来た働く人が重要です。",
-          "en": "In fields such as healthcare, finance, and technology, workers from other countries are important."
         }
       ]
     },
@@ -13898,24 +14012,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "車輪を外すタイプでは、工具や固定用ベルトを用意すると安心です。",
+          "en": "For bikes that require wheel removal, it is helpful to bring tools and fastening straps."
+        },
+        {
+          "ja": "移動中は、他の乗客が乗り降りしやすいか確認することも大切です。",
+          "en": "During the trip, it is also important to make sure other passengers can easily get on and off."
+        },
+        {
+          "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
+          "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
+        },
+        {
           "ja": "利用者はカードをタッチするだけでよく、複雑な計算や確認を意識する必要はほとんどありません。",
           "en": "Users only need to tap their card, and they hardly need to think about the complex calculations and checks happening behind the scenes."
         },
         {
           "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
           "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
-        },
-        {
-          "ja": "近くでは地元のランニンググループが集まり、いっしょにスタートすることもあります。",
-          "en": "Local running groups also gather nearby and sometimes start together."
-        },
-        {
-          "ja": "皇居のまわりを一周すると、景色を見ながら東京らしい習慣にふれることができます。",
-          "en": "If you run one lap around the Imperial Palace, you can enjoy the scenery and experience a very Tokyo-like custom."
-        },
-        {
-          "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
-          "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
         }
       ],
       "partOfSpeech": "verb",
@@ -13930,24 +14044,24 @@
           "meaning": "Polite form of する: to do",
           "exampleSentences": [
             {
+              "ja": "駅へ入る前に、通行の邪魔にならない場所で自転車を準備します。",
+              "en": "Before entering the station, prepare your bicycle somewhere that does not block pedestrian traffic."
+            },
+            {
+              "ja": "袋に入れた後は、持ち上げても部品が動かないよう、しっかり固定します。",
+              "en": "After putting the bike in the bag, secure the parts so they do not move when you lift it."
+            },
+            {
+              "ja": "改札では大きな荷物として扱い、周りの人にぶつけないよう注意します。",
+              "en": "At the ticket gates, handle the bicycle like a large piece of luggage and be careful not to hit people around you."
+            },
+            {
               "ja": "AIは、昔からの記録を見て、空気の汚れや街の元気さがどう変わるかを予測します。",
               "en": "AI looks at past records and predicts how air pollution and urban vitality may change."
             },
             {
               "ja": "もし上場後に株価が下がれば、証券会社は市場で株を買い戻します。",
               "en": "If the share price falls after listing, the securities firms buy shares back in the market."
-            },
-            {
-              "ja": "もし株価が高いままなら、会社から追加の株を買って約束を満たします。",
-              "en": "If the share price stays high, they buy additional shares from the company to meet their commitment."
-            },
-            {
-              "ja": "死者数や全壊・焼失する建物の数を、想定より半分以下に抑えることを目標にします。",
-              "en": "Its goal is to cut the expected deaths and destroyed or burned buildings to less than half of the estimate."
-            },
-            {
-              "ja": "ロボットは、フロントの近くで館内の説明をしたり、近くの店を紹介したりします。",
-              "en": "These robots explain hotel facilities near the front desk and introduce nearby shops."
             }
           ]
         },
@@ -13959,6 +14073,10 @@
           "readingHiragana": "した",
           "meaning": "Plain past form of する: to do",
           "exampleSentences": [
+            {
+              "ja": "多くの鉄道会社では、自転車を分解したり折りたたんだりして、専用の輪行袋に完全に入れる必要があります。",
+              "en": "Many railway companies require bicycles to be disassembled or folded and completely placed inside a dedicated bike transport bag."
+            },
             {
               "ja": "東京の駅が混雑していても大きく混乱しにくいのは、こうした単純で強いデザインの力があるからかもしれません。",
               "en": "One reason Tokyo stations can stay usable despite heavy crowds may be the strength of this kind of simple, effective design."
@@ -13974,10 +14092,6 @@
             {
               "ja": "そこで読み込んでみると、「ShikAI」というサービスにつながりました。",
               "en": "When I scanned it, it connected to a service called ShikAI."
-            },
-            {
-              "ja": "普段は何気なく歩いている駅の中にも、このようなやさしい工夫が隠れていると知って、少し驚きました。",
-              "en": "I was a little surprised to learn that this kind of considerate idea was hidden inside a station I usually walk through without much thought."
             }
           ]
         },
@@ -13994,20 +14108,20 @@
               "en": "While its convenience is recognized, it is considered important not to weaken students’ ability to think for themselves."
             },
             {
+              "ja": "車輪を外すタイプでは、工具や固定用ベルトを用意すると安心です。",
+              "en": "For bikes that require wheel removal, it is helpful to bring tools and fastening straps."
+            },
+            {
+              "ja": "移動中は、他の乗客が乗り降りしやすいか確認することも大切です。",
+              "en": "During the trip, it is also important to make sure other passengers can easily get on and off."
+            },
+            {
+              "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
+              "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
+            },
+            {
               "ja": "利用者はカードをタッチするだけでよく、複雑な計算や確認を意識する必要はほとんどありません。",
               "en": "Users only need to tap their card, and they hardly need to think about the complex calculations and checks happening behind the scenes."
-            },
-            {
-              "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
-              "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
-            },
-            {
-              "ja": "近くでは地元のランニンググループが集まり、いっしょにスタートすることもあります。",
-              "en": "Local running groups also gather nearby and sometimes start together."
-            },
-            {
-              "ja": "皇居のまわりを一周すると、景色を見ながら東京らしい習慣にふれることができます。",
-              "en": "If you run one lap around the Imperial Palace, you can enjoy the scenery and experience a very Tokyo-like custom."
             }
           ]
         },
@@ -14020,24 +14134,24 @@
           "meaning": "Te-form of する: to do",
           "exampleSentences": [
             {
+              "ja": "多くの鉄道会社では、自転車を分解したり折りたたんだりして、専用の輪行袋に完全に入れる必要があります。",
+              "en": "Many railway companies require bicycles to be disassembled or folded and completely placed inside a dedicated bike transport bag."
+            },
+            {
+              "ja": "改札では大きな荷物として扱い、周りの人にぶつけないよう注意します。",
+              "en": "At the ticket gates, handle the bicycle like a large piece of luggage and be careful not to hit people around you."
+            },
+            {
+              "ja": "車両の端などで輪行袋を手で支え、急ブレーキで倒れないようにしてください。",
+              "en": "Hold the bike bag near the end of the car so it does not fall during sudden braking."
+            },
+            {
               "ja": "東京の駅が混雑していても大きく混乱しにくいのは、こうした単純で強いデザインの力があるからかもしれません。",
               "en": "One reason Tokyo stations can stay usable despite heavy crowds may be the strength of this kind of simple, effective design."
             },
             {
               "ja": "毎日何百万人もの乗客が利用しているのに、多くの人はほんの一瞬で通過できます。",
               "en": "Even though millions of passengers use them every day, most people can pass through in just a moment."
-            },
-            {
-              "ja": "そのため、駅が混雑しているときでも、たくさんの人がほぼ同じ速さで進めます。",
-              "en": "Because of that, even when a station is crowded, many people can keep moving at almost the same speed."
-            },
-            {
-              "ja": "速さと安全性を両立しているからこそ、毎日の大きな移動が安定して続けられるのです。",
-              "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
-            },
-            {
-              "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
-              "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
             }
           ]
         },
@@ -14395,6 +14509,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "移動中は、他の乗客が乗り降りしやすいか確認することも大切です。",
+          "en": "During the trip, it is also important to make sure other passengers can easily get on and off."
+        },
+        {
           "ja": "これらは速さや停車駅が違うため、名前を確認することが大切です。",
           "en": "Because their speeds and stopping stations differ, it is important to check the name."
         },
@@ -14409,10 +14527,6 @@
         {
           "ja": "しかし、中国がレアアースなどの大切な材料の輸出を制限することがあります。",
           "en": "But China sometimes restricts exports of important materials such as rare earths."
-        },
-        {
-          "ja": "AIは写真から大切な手がかりを見つけられましたが、結果は項目によって大きく違いました。",
-          "en": "The AI could find important clues in images, but the results differed greatly depending on the item."
         }
       ]
     },
@@ -14762,6 +14876,10 @@
           "meaning": "Potential form of 立つ: to stand, to rise",
           "exampleSentences": [
             {
+              "ja": "目的の駅に着いても、ホームや改札の近くで自転車を組み立てるのは避けましょう。",
+              "en": "Even after arriving at your destination, avoid assembling your bicycle near the platform or ticket gates."
+            },
+            {
               "ja": "大きく目立つわけではなくても、だれかの安心をしっかり支えているところが素敵です。",
               "en": "Even if it does not stand out, it is wonderful that it quietly supports someone’s sense of safety."
             },
@@ -14792,6 +14910,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "車両の端などで輪行袋を手で支え、急ブレーキで倒れないようにしてください。",
+          "en": "Hold the bike bag near the end of the car so it does not fall during sudden braking."
+        },
+        {
           "ja": "品川に着けば、そこから山手線やほかの路線に乗り換えやすく、都心への移動がしやすくなります。",
           "en": "Once you reach Shinagawa, it is easy to transfer to the Yamanote Line and other routes into the city center."
         },
@@ -14806,10 +14928,6 @@
         {
           "ja": "山手線は、ただ人を運ぶだけでなく、東京の街の作られ方そのものを支えているのです。",
           "en": "The Yamanote Line does not just carry people; it supports the very way Tokyo's cityscape was built."
-        },
-        {
-          "ja": "AIは写真から大切な手がかりを見つけられましたが、結果は項目によって大きく違いました。",
-          "en": "The AI could find important clues in images, but the results differed greatly depending on the item."
         }
       ]
     },
@@ -15287,24 +15405,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "駅へ入る前に、通行の邪魔にならない場所で自転車を準備します。",
+          "en": "Before entering the station, prepare your bicycle somewhere that does not block pedestrian traffic."
+        },
+        {
+          "ja": "電車に乗ったら、ドアの前や通路をふさがない場所を選びます。",
+          "en": "Once on the train, choose a place where the bicycle will not block the doors or aisle."
+        },
+        {
+          "ja": "駅の外に出て、広い安全な場所で輪行袋を開きます。",
+          "en": "Leave the station and open the bike bag in a spacious, safe place."
+        },
+        {
           "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
           "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
         },
         {
           "ja": "ふつうならそのまま通り過ぎてしまいそうな場所でしたが、なぜそこにあるのかが気になりました。",
           "en": "It was the kind of place I would normally pass without thinking, but I became curious about why it was there."
-        },
-        {
-          "ja": "こうした駅のまわりには、買い物ができる店、会社、レストラン、遊べる場所が集まっています。",
-          "en": "Around these stations, shops, offices, restaurants, and places for entertainment are gathered together."
-        },
-        {
-          "ja": "そのため、多くの人は遠くまで行かなくても、生活に必要なものに近い場所で出会えます。",
-          "en": "Because of that, many people can find what they need for daily life without going very far."
-        },
-        {
-          "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
-          "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
         }
       ]
     },
@@ -15773,6 +15891,10 @@
           "meaning": "Te-form of 着く: to arrive at, to reach",
           "exampleSentences": [
             {
+              "ja": "目的の駅に着いても、ホームや改札の近くで自転車を組み立てるのは避けましょう。",
+              "en": "Even after arriving at your destination, avoid assembling your bicycle near the platform or ticket gates."
+            },
+            {
               "ja": "ブラヒム・ディアスのパスからチャンスが生まれ、サイバリが落ち着いて決めました。",
               "en": "A chance came from a pass by Brahim Diaz, and Saibari finished calmly."
             }
@@ -16139,6 +16261,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "袋に入れた後は、持ち上げても部品が動かないよう、しっかり固定します。",
+          "en": "After putting the bike in the bag, secure the parts so they do not move when you lift it."
+        },
+        {
           "ja": "この仕組みを知っているだけで、新宿駅のような巨大な駅でも必要以上にこわがらなくてよくなります。",
           "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
         },
@@ -16153,10 +16279,6 @@
         {
           "ja": "この路線は、東京港の下を通るところで、地上から40メートル近い深さまで下がります。",
           "en": "Where the line passes under the Port of Tokyo, it descends to nearly 40 meters below the surface."
-        },
-        {
-          "ja": "60年以上たった今でも、東京モノレールは毎日動いています。",
-          "en": "Even more than 60 years later, Tokyo Monorail still runs every day."
         }
       ]
     },
@@ -17640,6 +17762,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "電車に乗ったら、ドアの前や通路をふさがない場所を選びます。",
+          "en": "Once on the train, choose a place where the bicycle will not block the doors or aisle."
+        },
+        {
           "ja": "浜松駅にはホームドアがありませんでした。",
           "en": "Hamamatsu Station did not have platform doors."
         },
@@ -18366,6 +18492,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "駅員から乗る位置を案内された場合は、その指示に従いましょう。",
+          "en": "Follow any instructions from station staff about where to board."
+        },
+        {
+          "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
+          "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
+        },
+        {
           "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
           "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
         },
@@ -18376,14 +18510,6 @@
         {
           "ja": "電車の路線はそれぞれ別の色で表されることが多いので、黄色い出口案内は見分けやすいです。",
           "en": "Train lines are often shown in different colors, so yellow exit guidance is easy to distinguish from them."
-        },
-        {
-          "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
-          "en": "In London, people using the Underground and buses were also advised to drink water."
-        },
-        {
-          "ja": "夜にゴミを出さないことや、窓と扉をしっかり閉めることも大切だと案内しました。",
-          "en": "It also advised people not to put out garbage at night and to keep windows and doors tightly closed."
         }
       ]
     },
@@ -18402,6 +18528,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "車輪を外すタイプでは、工具や固定用ベルトを用意すると安心です。",
+          "en": "For bikes that require wheel removal, it is helpful to bring tools and fastening straps."
+        },
+        {
+          "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
+          "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
+        },
+        {
           "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
           "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
         },
@@ -18412,14 +18546,6 @@
         {
           "ja": "ヴィニシウスは狭い角度からシュートを決め、ブラジルの応援席を安心させました。",
           "en": "Vinicius scored from a tight angle, calming the Brazil supporters."
-        },
-        {
-          "ja": "ふだんの便利さだけでなく、もしものときの安心にもつなげたいとしています。",
-          "en": "The goal is to provide not only everyday convenience but also reassurance in emergencies."
-        },
-        {
-          "ja": "利用者が安心して使えるように、わかりやすい表示や説明も必要になりそうです。",
-          "en": "Clear displays and explanations will also be needed so guests can use the system with confidence."
         }
       ]
     },
@@ -18438,6 +18564,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "朝夕のラッシュ時間は車内が混むため、できれば避けたほうが安全です。",
+          "en": "Trains are crowded during the morning and evening rush hours, so avoiding those times is safer when possible."
+        },
+        {
+          "ja": "駅の外に出て、広い安全な場所で輪行袋を開きます。",
+          "en": "Leave the station and open the bike bag in a spacious, safe place."
+        },
+        {
           "ja": "速さと安全性を両立しているからこそ、毎日の大きな移動が安定して続けられるのです。",
           "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
         },
@@ -18448,14 +18582,6 @@
         {
           "ja": "一方、日本は、台湾の近くで大きな問題が起きれば、日本の安全にも関係すると見ています。",
           "en": "Japan, on the other hand, thinks that if a major problem happens near Taiwan, it would also affect Japan's safety."
-        },
-        {
-          "ja": "ホームドアがない駅では、安全のために職員がホームを見回っています。",
-          "en": "At stations without platform doors, staff patrol the platforms for safety."
-        },
-        {
-          "ja": "リンクは6月27日に打ち上げられる予定で、3本のロボットアームでスウィフトをつかみ、より高く安全な軌道へ運びます。",
-          "en": "Link is scheduled to launch on June 27, grab Swift with three robotic arms, and move it to a higher, safer orbit."
         }
       ]
     },
@@ -18906,24 +19032,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "駅へ入る前に、通行の邪魔にならない場所で自転車を準備します。",
+          "en": "Before entering the station, prepare your bicycle somewhere that does not block pedestrian traffic."
+        },
+        {
+          "ja": "電車に乗ったら、ドアの前や通路をふさがない場所を選びます。",
+          "en": "Once on the train, choose a place where the bicycle will not block the doors or aisle."
+        },
+        {
+          "ja": "駅の外に出て、広い安全な場所で輪行袋を開きます。",
+          "en": "Leave the station and open the bike bag in a spacious, safe place."
+        },
+        {
           "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
           "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
         },
         {
           "ja": "ふつうならそのまま通り過ぎてしまいそうな場所でしたが、なぜそこにあるのかが気になりました。",
           "en": "It was the kind of place I would normally pass without thinking, but I became curious about why it was there."
-        },
-        {
-          "ja": "こうした駅のまわりには、買い物ができる店、会社、レストラン、遊べる場所が集まっています。",
-          "en": "Around these stations, shops, offices, restaurants, and places for entertainment are gathered together."
-        },
-        {
-          "ja": "そのため、多くの人は遠くまで行かなくても、生活に必要なものに近い場所で出会えます。",
-          "en": "Because of that, many people can find what they need for daily life without going very far."
-        },
-        {
-          "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
-          "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
         }
       ]
     },
@@ -19216,6 +19342,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "改札では大きな荷物として扱い、周りの人にぶつけないよう注意します。",
+          "en": "At the ticket gates, handle the bicycle like a large piece of luggage and be careful not to hit people around you."
+        },
+        {
           "ja": "降りたい駅を全部の電車が通るわけではないので、急いでいるときほど注意が必要です。",
           "en": "Not every train serves the station where you want to get off, so you need to be especially careful when you are in a hurry."
         },
@@ -19230,10 +19360,6 @@
         {
           "ja": "そのため、各国の政府や企業は、この合意が実行されるかどうかを注意して見ています。",
           "en": "For that reason, governments and companies are watching carefully to see whether the agreement will be carried out."
-        },
-        {
-          "ja": "市はSNSや放送車で注意を呼びかけ、住民に外へ出ないよう伝えました。",
-          "en": "The city warned residents through social media and announcement vehicles and told them not to go outside."
         }
       ]
     },
@@ -19560,6 +19686,10 @@
           "readingHiragana": "えらびます",
           "meaning": "Polite form of 選ぶ: to choose, to select",
           "exampleSentences": [
+            {
+              "ja": "電車に乗ったら、ドアの前や通路をふさがない場所を選びます。",
+              "en": "Once on the train, choose a place where the bicycle will not block the doors or aisle."
+            },
             {
               "ja": "30秒だけ余分に使って正しい電車を選ぶことで、あとで長い遠回りをしなくてすむかもしれません。",
               "en": "Spending just an extra 30 seconds choosing the right train may save you from a much longer detour later."
@@ -21325,6 +21455,10 @@
           "meaning": "Polite form of 開く: to open, to undo",
           "exampleSentences": [
             {
+              "ja": "駅の外に出て、広い安全な場所で輪行袋を開きます。",
+              "en": "Leave the station and open the bike bag in a spacious, safe place."
+            },
+            {
               "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
               "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
             }
@@ -22147,7 +22281,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "駅へ入る前に、通行の邪魔にならない場所で自転車を準備します。",
+          "en": "Before entering the station, prepare your bicycle somewhere that does not block pedestrian traffic."
+        }
+      ]
     },
     {
       "id": "core-510f83f6bcb1c9",
@@ -22407,7 +22546,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "駅へ入る前に、通行の邪魔にならない場所で自転車を準備します。",
+          "en": "Before entering the station, prepare your bicycle somewhere that does not block pedestrian traffic."
+        }
+      ]
     },
     {
       "id": "core-d6db3547ada979",
@@ -24572,6 +24716,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "車輪を外すタイプでは、工具や固定用ベルトを用意すると安心です。",
+          "en": "For bikes that require wheel removal, it is helpful to bring tools and fastening straps."
+        },
+        {
+          "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
+          "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
+        },
+        {
           "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
           "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
         },
@@ -24582,14 +24734,6 @@
         {
           "ja": "東京の中心部へ向かうなら、まず品川へ向かう電車を探しましょう。",
           "en": "If you are heading into central Tokyo, first look for a train going toward Shinagawa."
-        },
-        {
-          "ja": "品川に着けば、そこから山手線やほかの路線に乗り換えやすく、都心への移動がしやすくなります。",
-          "en": "Once you reach Shinagawa, it is easy to transfer to the Yamanote Line and other routes into the city center."
-        },
-        {
-          "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
-          "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
         }
       ]
     },
@@ -24724,6 +24868,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京の電車に自転車をそのまま持ち込むことは、基本的にできません。",
+          "en": "You generally cannot take an uncovered bicycle directly onto trains in Tokyo."
+        },
+        {
           "ja": "中心が遠くても、湿った空気が流れ込むと、雨雲が発達することがあります。",
           "en": "Even when a storm center is far away, moist air can flow in and help rain clouds develop."
         }
@@ -24740,6 +24888,10 @@
           "meaning": "Polite form of 込む: to be crowded, to be packed",
           "exampleSentences": [
             {
+              "ja": "東京の電車に自転車をそのまま持ち込むことは、基本的にできません。",
+              "en": "You generally cannot take an uncovered bicycle directly onto trains in Tokyo."
+            },
+            {
               "ja": "中心が遠くても、湿った空気が流れ込むと、雨雲が発達することがあります。",
               "en": "Even when a storm center is far away, moist air can flow in and help rain clouds develop."
             }
@@ -24754,6 +24906,10 @@
           "meaning": "Plain past form of 込む: to be crowded, to be packed",
           "exampleSentences": [
             {
+              "ja": "東京の電車に自転車をそのまま持ち込むことは、基本的にできません。",
+              "en": "You generally cannot take an uncovered bicycle directly onto trains in Tokyo."
+            },
+            {
               "ja": "中心が遠くても、湿った空気が流れ込むと、雨雲が発達することがあります。",
               "en": "Even when a storm center is far away, moist air can flow in and help rain clouds develop."
             }
@@ -24767,6 +24923,10 @@
           "readingHiragana": "こまない",
           "meaning": "Plain negative form of 込む: to be crowded, to be packed",
           "exampleSentences": [
+            {
+              "ja": "東京の電車に自転車をそのまま持ち込むことは、基本的にできません。",
+              "en": "You generally cannot take an uncovered bicycle directly onto trains in Tokyo."
+            },
             {
               "ja": "中心が遠くても、湿った空気が流れ込むと、雨雲が発達することがあります。",
               "en": "Even when a storm center is far away, moist air can flow in and help rain clouds develop."
@@ -24790,6 +24950,10 @@
               "en": "Because Tokyo stations are used by so many people every day, perhaps this kind of technology blends naturally into the city."
             },
             {
+              "ja": "東京の電車に自転車をそのまま持ち込むことは、基本的にできません。",
+              "en": "You generally cannot take an uncovered bicycle directly onto trains in Tokyo."
+            },
+            {
               "ja": "中心が遠くても、湿った空気が流れ込むと、雨雲が発達することがあります。",
               "en": "Even when a storm center is far away, moist air can flow in and help rain clouds develop."
             }
@@ -24803,6 +24967,10 @@
           "readingHiragana": "こめる",
           "meaning": "Potential form of 込む: to be crowded, to be packed",
           "exampleSentences": [
+            {
+              "ja": "東京の電車に自転車をそのまま持ち込むことは、基本的にできません。",
+              "en": "You generally cannot take an uncovered bicycle directly onto trains in Tokyo."
+            },
             {
               "ja": "中心が遠くても、湿った空気が流れ込むと、雨雲が発達することがあります。",
               "en": "Even when a storm center is far away, moist air can flow in and help rain clouds develop."
@@ -25604,6 +25772,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "移動中は、他の乗客が乗り降りしやすいか確認することも大切です。",
+          "en": "During the trip, it is also important to make sure other passengers can easily get on and off."
+        },
+        {
           "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
           "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
         },
@@ -25618,10 +25790,6 @@
         {
           "ja": "そのため、観光客でも東京のランニング文化をすぐに体験できます。",
           "en": "Because of that, even visitors can quickly experience Tokyo’s running culture."
-        },
-        {
-          "ja": "図書館では、観光客だけでなく、地域で生活する外国人にも役立つと考えています。",
-          "en": "Libraries believe the tablets will help not only tourists but also foreign residents in the community."
         }
       ]
     },
@@ -25700,6 +25868,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "車両の端などで輪行袋を手で支え、急ブレーキで倒れないようにしてください。",
+          "en": "Hold the bike bag near the end of the car so it does not fall during sudden braking."
+        },
+        {
           "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
           "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
         },
@@ -25714,10 +25886,6 @@
         {
           "ja": "品川や羽田空港などの駅では、普通、急行、エアポート急行、特急、快特などの表示を見ます。",
           "en": "At stations such as Shinagawa and Haneda Airport, you will see labels like Local, Express, Airport Express, Limited Express, and Rapid Limited Express."
-        },
-        {
-          "ja": "降りたい駅を全部の電車が通るわけではないので、急いでいるときほど注意が必要です。",
-          "en": "Not every train serves the station where you want to get off, so you need to be especially careful when you are in a hurry."
         }
       ]
     },
@@ -26071,6 +26239,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "改札では大きな荷物として扱い、周りの人にぶつけないよう注意します。",
+          "en": "At the ticket gates, handle the bicycle like a large piece of luggage and be careful not to hit people around you."
+        },
         {
           "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
           "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
@@ -31401,6 +31573,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "袋に入れた後は、持ち上げても部品が動かないよう、しっかり固定します。",
+          "en": "After putting the bike in the bag, secure the parts so they do not move when you lift it."
+        },
+        {
           "ja": "もちろん、ただ速いだけではなく、不正利用を防ぐための仕組みもしっかり組み込まれています。",
           "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
         },
@@ -32004,7 +32180,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
+          "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
+        }
+      ]
     },
     {
       "id": "core-48edc3c725fd88",
@@ -33060,7 +33241,12 @@
           "term": "倒れない",
           "readingHiragana": "たおれない",
           "meaning": "Plain negative form of 倒れる: to fall, to collapse",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "車両の端などで輪行袋を手で支え、急ブレーキで倒れないようにしてください。",
+              "en": "Hold the bike bag near the end of the car so it does not fall during sudden braking."
+            }
+          ]
         },
         {
           "form": "te",
@@ -33268,7 +33454,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "目的の駅に着いても、ホームや改札の近くで自転車を組み立てるのは避けましょう。",
+          "en": "Even after arriving at your destination, avoid assembling your bicycle near the platform or ticket gates."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "ichidan",
       "verbForms": [
@@ -33279,7 +33470,12 @@
           "term": "立てます",
           "readingHiragana": "たてます",
           "meaning": "Polite form of 立てる: to stand up",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "目的の駅に着いても、ホームや改札の近くで自転車を組み立てるのは避けましょう。",
+              "en": "Even after arriving at your destination, avoid assembling your bicycle near the platform or ticket gates."
+            }
+          ]
         },
         {
           "form": "past",
@@ -33288,7 +33484,12 @@
           "term": "立てた",
           "readingHiragana": "たてた",
           "meaning": "Plain past form of 立てる: to stand up",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "目的の駅に着いても、ホームや改札の近くで自転車を組み立てるのは避けましょう。",
+              "en": "Even after arriving at your destination, avoid assembling your bicycle near the platform or ticket gates."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -33297,7 +33498,12 @@
           "term": "立てない",
           "readingHiragana": "たてない",
           "meaning": "Plain negative form of 立てる: to stand up",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "目的の駅に着いても、ホームや改札の近くで自転車を組み立てるのは避けましょう。",
+              "en": "Even after arriving at your destination, avoid assembling your bicycle near the platform or ticket gates."
+            }
+          ]
         },
         {
           "form": "te",
@@ -33306,7 +33512,12 @@
           "term": "立てて",
           "readingHiragana": "たてて",
           "meaning": "Te-form of 立てる: to stand up",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "目的の駅に着いても、ホームや改札の近くで自転車を組み立てるのは避けましょう。",
+              "en": "Even after arriving at your destination, avoid assembling your bicycle near the platform or ticket gates."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -33315,7 +33526,12 @@
           "term": "立てられる",
           "readingHiragana": "たてられる",
           "meaning": "Potential form of 立てる: to stand up",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "目的の駅に着いても、ホームや改札の近くで自転車を組み立てるのは避けましょう。",
+              "en": "Even after arriving at your destination, avoid assembling your bicycle near the platform or ticket gates."
+            }
+          ]
         }
       ]
     },
@@ -35124,6 +35340,10 @@
           "meaning": "Plain negative form of 動く: to move, to stir, to shift",
           "exampleSentences": [
             {
+              "ja": "袋に入れた後は、持ち上げても部品が動かないよう、しっかり固定します。",
+              "en": "After putting the bike in the bag, secure the parts so they do not move when you lift it."
+            },
+            {
               "ja": "必要なときだけ自動で動く仕組みを入れる例もあります。",
               "en": "Some examples include systems that run automatically only when needed."
             }
@@ -36538,6 +36758,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "多くの鉄道会社では、自転車を分解したり折りたたんだりして、専用の輪行袋に完全に入れる必要があります。",
+          "en": "Many railway companies require bicycles to be disassembled or folded and completely placed inside a dedicated bike transport bag."
+        },
+        {
+          "ja": "車輪を外すタイプでは、工具や固定用ベルトを用意すると安心です。",
+          "en": "For bikes that require wheel removal, it is helpful to bring tools and fastening straps."
+        },
+        {
           "ja": "毎日何百万人もの乗客が利用しているのに、多くの人はほんの一瞬で通過できます。",
           "en": "Even though millions of passengers use them every day, most people can pass through in just a moment."
         },
@@ -36548,14 +36776,6 @@
         {
           "ja": "もちろん、ただ速いだけではなく、不正利用を防ぐための仕組みもしっかり組み込まれています。",
           "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
-        },
-        {
-          "ja": "ロッカーや温かいシャワーもあるので、気軽に利用できます。",
-          "en": "There are also lockers and hot showers, so you can use it casually."
-        },
-        {
-          "ja": "2002年に完成したとき、全体の費用は4400億円をこえていて、そのときの借金が今の運賃にも影響しています。",
-          "en": "When the line was completed in 2002, the total cost exceeded 440 billion yen, and those debts still affect fares today."
         }
       ]
     },
@@ -36817,6 +37037,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "車輪を外すタイプでは、工具や固定用ベルトを用意すると安心です。",
+          "en": "For bikes that require wheel removal, it is helpful to bring tools and fastening straps."
+        },
+        {
           "ja": "港の近くには、水素をためる設備や、船に入れるための装置も用意されました。",
           "en": "Storage equipment and fueling devices have also been prepared near the port."
         }
@@ -36890,6 +37114,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "駅員から乗る位置を案内された場合は、その指示に従いましょう。",
+          "en": "Follow any instructions from station staff about where to board."
+        },
         {
           "ja": "誰でも使いやすい図書館を目指す取り組みとして注目されています。",
           "en": "The effort is drawing attention as a way to make libraries easier for everyone to use."
@@ -37694,6 +37922,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "駅員から乗る位置を案内された場合は、その指示に従いましょう。",
+          "en": "Follow any instructions from station staff about where to board."
+        },
+        {
+          "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
+          "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
+        },
+        {
           "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
           "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
         },
@@ -37704,14 +37940,6 @@
         {
           "ja": "電車の路線はそれぞれ別の色で表されることが多いので、黄色い出口案内は見分けやすいです。",
           "en": "Train lines are often shown in different colors, so yellow exit guidance is easy to distinguish from them."
-        },
-        {
-          "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
-          "en": "In London, people using the Underground and buses were also advised to drink water."
-        },
-        {
-          "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
-          "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
         }
       ]
     },
@@ -38695,24 +38923,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
-          "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
+          "ja": "駅へ入る前に、通行の邪魔にならない場所で自転車を準備します。",
+          "en": "Before entering the station, prepare your bicycle somewhere that does not block pedestrian traffic."
         },
         {
-          "ja": "ふつうならそのまま通り過ぎてしまいそうな場所でしたが、なぜそこにあるのかが気になりました。",
-          "en": "It was the kind of place I would normally pass without thinking, but I became curious about why it was there."
+          "ja": "駅員から乗る位置を案内された場合は、その指示に従いましょう。",
+          "en": "Follow any instructions from station staff about where to board."
         },
         {
-          "ja": "こうした駅のまわりには、買い物ができる店、会社、レストラン、遊べる場所が集まっています。",
-          "en": "Around these stations, shops, offices, restaurants, and places for entertainment are gathered together."
+          "ja": "電車に乗ったら、ドアの前や通路をふさがない場所を選びます。",
+          "en": "Once on the train, choose a place where the bicycle will not block the doors or aisle."
         },
         {
-          "ja": "そのため、多くの人は遠くまで行かなくても、生活に必要なものに近い場所で出会えます。",
-          "en": "Because of that, many people can find what they need for daily life without going very far."
+          "ja": "駅の外に出て、広い安全な場所で輪行袋を開きます。",
+          "en": "Leave the station and open the bike bag in a spacious, safe place."
         },
         {
-          "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
-          "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
+          "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
+          "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
         }
       ]
     },
@@ -39081,6 +39309,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "袋に入れた後は、持ち上げても部品が動かないよう、しっかり固定します。",
+          "en": "After putting the bike in the bag, secure the parts so they do not move when you lift it."
+        },
+        {
           "ja": "自動車メーカーの一部は、従業員の安全や部品輸送への影響を考慮して、工場の操業を一時停止しました。",
           "en": "Some automakers temporarily stopped factory operations after considering worker safety and impacts on parts transport."
         }
@@ -39187,6 +39419,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "多くの鉄道会社では、自転車を分解したり折りたたんだりして、専用の輪行袋に完全に入れる必要があります。",
+          "en": "Many railway companies require bicycles to be disassembled or folded and completely placed inside a dedicated bike transport bag."
+        },
+        {
           "ja": "電車の路線はそれぞれ別の色で表されることが多いので、黄色い出口案内は見分けやすいです。",
           "en": "Train lines are often shown in different colors, so yellow exit guidance is easy to distinguish from them."
         },
@@ -39201,10 +39437,6 @@
         {
           "ja": "そのため、車両に表示される行き先は、自分が降りる駅よりずっと先の地名であることもあります。",
           "en": "Because of that, the destination shown on the train may be a place name far beyond the station where you plan to get off."
-        },
-        {
-          "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
-          "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
         }
       ]
     },
@@ -41843,8 +42075,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "山手線は、新宿、渋谷、上野、東京駅、池袋などの大きなエリアをつないでいます。",
-          "en": "The Yamanote Line connects major areas such as Shinjuku, Shibuya, Ueno, Tokyo Station, and Ikebukuro."
+          "ja": "多くの鉄道会社では、自転車を分解したり折りたたんだりして、専用の輪行袋に完全に入れる必要があります。",
+          "en": "Many railway companies require bicycles to be disassembled or folded and completely placed inside a dedicated bike transport bag."
+        },
+        {
+          "ja": "タイヤやハンドルが袋の外に出ないよう確認しましょう。",
+          "en": "Make sure the tires and handlebars do not stick out of the bag."
+        },
+        {
+          "ja": "袋に入れた後は、持ち上げても部品が動かないよう、しっかり固定します。",
+          "en": "After putting the bike in the bag, secure the parts so they do not move when you lift it."
+        },
+        {
+          "ja": "車両の端などで輪行袋を手で支え、急ブレーキで倒れないようにしてください。",
+          "en": "Hold the bike bag near the end of the car so it does not fall during sudden braking."
+        },
+        {
+          "ja": "駅の外に出て、広い安全な場所で輪行袋を開きます。",
+          "en": "Leave the station and open the bike bag in a spacious, safe place."
         }
       ]
     },
@@ -44798,6 +45046,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "車両の端などで輪行袋を手で支え、急ブレーキで倒れないようにしてください。",
+          "en": "Hold the bike bag near the end of the car so it does not fall during sudden braking."
+        },
+        {
           "ja": "日本政府は、国内で先端半導体を作る力を強くしたいと考えています。",
           "en": "The Japanese government wants to strengthen its ability to make advanced semiconductors inside the country."
         }
@@ -44985,7 +45237,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "車輪を外すタイプでは、工具や固定用ベルトを用意すると安心です。",
+          "en": "For bikes that require wheel removal, it is helpful to bring tools and fastening straps."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "godan",
       "verbForms": [
@@ -44996,7 +45253,12 @@
           "term": "外します",
           "readingHiragana": "はずします",
           "meaning": "Polite form of 外す: to undo, to remove",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "車輪を外すタイプでは、工具や固定用ベルトを用意すると安心です。",
+              "en": "For bikes that require wheel removal, it is helpful to bring tools and fastening straps."
+            }
+          ]
         },
         {
           "form": "past",
@@ -45005,7 +45267,12 @@
           "term": "外した",
           "readingHiragana": "はずした",
           "meaning": "Plain past form of 外す: to undo, to remove",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "車輪を外すタイプでは、工具や固定用ベルトを用意すると安心です。",
+              "en": "For bikes that require wheel removal, it is helpful to bring tools and fastening straps."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -45014,7 +45281,12 @@
           "term": "外さない",
           "readingHiragana": "はずさない",
           "meaning": "Plain negative form of 外す: to undo, to remove",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "車輪を外すタイプでは、工具や固定用ベルトを用意すると安心です。",
+              "en": "For bikes that require wheel removal, it is helpful to bring tools and fastening straps."
+            }
+          ]
         },
         {
           "form": "te",
@@ -45023,7 +45295,12 @@
           "term": "外して",
           "readingHiragana": "はずして",
           "meaning": "Te-form of 外す: to undo, to remove",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "車輪を外すタイプでは、工具や固定用ベルトを用意すると安心です。",
+              "en": "For bikes that require wheel removal, it is helpful to bring tools and fastening straps."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -45032,7 +45309,12 @@
           "term": "外せる",
           "readingHiragana": "はずせる",
           "meaning": "Potential form of 外す: to undo, to remove",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "車輪を外すタイプでは、工具や固定用ベルトを用意すると安心です。",
+              "en": "For bikes that require wheel removal, it is helpful to bring tools and fastening straps."
+            }
+          ]
         }
       ]
     },
@@ -47085,6 +47367,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "駅員から乗る位置を案内された場合は、その指示に従いましょう。",
+          "en": "Follow any instructions from station staff about where to board."
+        },
+        {
           "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
           "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
         },
@@ -47329,6 +47615,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "移動中は、他の乗客が乗り降りしやすいか確認することも大切です。",
+          "en": "During the trip, it is also important to make sure other passengers can easily get on and off."
+        },
+        {
           "ja": "全部を理解しようとしなくても、「黄色は出口」と覚えておけば、移動の負担がかなり軽くなります。",
           "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
         },
@@ -47343,10 +47633,6 @@
         {
           "ja": "品川に着けば、そこから山手線やほかの路線に乗り換えやすく、都心への移動がしやすくなります。",
           "en": "Once you reach Shinagawa, it is easy to transfer to the Yamanote Line and other routes into the city center."
-        },
-        {
-          "ja": "電車で移動しやすいので、車だけに頼らなくても暮らしやすくなります。",
-          "en": "Because it is easy to move by train, life becomes easier without relying only on cars."
         }
       ]
     },
@@ -49225,6 +49511,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "移動中は、他の乗客が乗り降りしやすいか確認することも大切です。",
+          "en": "During the trip, it is also important to make sure other passengers can easily get on and off."
+        },
+        {
           "ja": "毎日何百万人もの乗客が利用しているのに、多くの人はほんの一瞬で通過できます。",
           "en": "Even though millions of passengers use them every day, most people can pass through in just a moment."
         },
@@ -49867,6 +50157,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "多くの鉄道会社では、自転車を分解したり折りたたんだりして、専用の輪行袋に完全に入れる必要があります。",
+          "en": "Many railway companies require bicycles to be disassembled or folded and completely placed inside a dedicated bike transport bag."
+        },
+        {
+          "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
+          "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
+        },
+        {
           "ja": "自分が使う機会がないと、こうした設備にはなかなか気づかないものです。",
           "en": "If you never have a reason to use such equipment, it is easy not to notice it."
         },
@@ -49877,14 +50175,6 @@
         {
           "ja": "こうした駅のまわりには、買い物ができる店、会社、レストラン、遊べる場所が集まっています。",
           "en": "Around these stations, shops, offices, restaurants, and places for entertainment are gathered together."
-        },
-        {
-          "ja": "そのため、多くの人は遠くまで行かなくても、生活に必要なものに近い場所で出会えます。",
-          "en": "Because of that, many people can find what they need for daily life without going very far."
-        },
-        {
-          "ja": "これは日本の会社にとって大きなリスクです。",
-          "en": "This is a major risk for Japanese companies."
         }
       ]
     },
@@ -50043,6 +50333,14 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "改札では大きな荷物として扱い、周りの人にぶつけないよう注意します。",
+          "en": "At the ticket gates, handle the bicycle like a large piece of luggage and be careful not to hit people around you."
+        },
+        {
+          "ja": "目的の駅に着いても、ホームや改札の近くで自転車を組み立てるのは避けましょう。",
+          "en": "Even after arriving at your destination, avoid assembling your bicycle near the platform or ticket gates."
+        },
         {
           "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
           "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
@@ -51057,24 +51355,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "タイヤやハンドルが袋の外に出ないよう確認しましょう。",
+          "en": "Make sure the tires and handlebars do not stick out of the bag."
+        },
+        {
+          "ja": "移動中は、他の乗客が乗り降りしやすいか確認することも大切です。",
+          "en": "During the trip, it is also important to make sure other passengers can easily get on and off."
+        },
+        {
+          "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
+          "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
+        },
+        {
           "ja": "その理由の一つは、ICカードの残高確認や運賃計算が、改札機の中でとても速く処理されるように設計されていることです。",
           "en": "One reason is that balance checks and fare calculations for IC cards are designed to be processed very quickly inside the ticket gate itself."
         },
         {
           "ja": "利用者はカードをタッチするだけでよく、複雑な計算や確認を意識する必要はほとんどありません。",
           "en": "Users only need to tap their card, and they hardly need to think about the complex calculations and checks happening behind the scenes."
-        },
-        {
-          "ja": "これらは速さや停車駅が違うため、名前を確認することが大切です。",
-          "en": "Because their speeds and stopping stations differ, it is important to check the name."
-        },
-        {
-          "ja": "乗る前に、発車標で行き先と種別の両方を確認しましょう。",
-          "en": "Before getting on, check both the destination and the service type on the departure board."
-        },
-        {
-          "ja": "週末に海へ行く予定がある人や、飛行機や船を使う人は、新しい情報を確認したほうがよさそうです。",
-          "en": "People planning to go to the sea over the weekend, or to use planes or boats, should check the latest information."
         }
       ]
     },
@@ -51320,6 +51618,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "袋に入れた後は、持ち上げても部品が動かないよう、しっかり固定します。",
+          "en": "After putting the bike in the bag, secure the parts so they do not move when you lift it."
+        },
+        {
           "ja": "この仕組みを知っているだけで、新宿駅のような巨大な駅でも必要以上にこわがらなくてよくなります。",
           "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
         },
@@ -51334,10 +51636,6 @@
         {
           "ja": "この路線は、東京港の下を通るところで、地上から40メートル近い深さまで下がります。",
           "en": "Where the line passes under the Port of Tokyo, it descends to nearly 40 meters below the surface."
-        },
-        {
-          "ja": "60年以上たった今でも、東京モノレールは毎日動いています。",
-          "en": "Even more than 60 years later, Tokyo Monorail still runs every day."
         }
       ]
     },
@@ -53023,6 +53321,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "袋に入れた後は、持ち上げても部品が動かないよう、しっかり固定します。",
+          "en": "After putting the bike in the bag, secure the parts so they do not move when you lift it."
+        },
+        {
+          "ja": "移動中は、他の乗客が乗り降りしやすいか確認することも大切です。",
+          "en": "During the trip, it is also important to make sure other passengers can easily get on and off."
+        },
+        {
           "ja": "全部を理解しようとしなくても、「黄色は出口」と覚えておけば、移動の負担がかなり軽くなります。",
           "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
         },
@@ -53033,14 +53339,6 @@
         {
           "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
           "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
-        },
-        {
-          "ja": "品川に着けば、そこから山手線やほかの路線に乗り換えやすく、都心への移動がしやすくなります。",
-          "en": "Once you reach Shinagawa, it is easy to transfer to the Yamanote Line and other routes into the city center."
-        },
-        {
-          "ja": "電車で移動しやすいので、車だけに頼らなくても暮らしやすくなります。",
-          "en": "Because it is easy to move by train, life becomes easier without relying only on cars."
         }
       ]
     },
@@ -53244,6 +53542,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "多くの鉄道会社では、自転車を分解したり折りたたんだりして、専用の輪行袋に完全に入れる必要があります。",
+          "en": "Many railway companies require bicycles to be disassembled or folded and completely placed inside a dedicated bike transport bag."
+        },
         {
           "ja": "AIを完全に避けるのではなく、うまく使いながら学びの質を守ることが課題になっています。",
           "en": "The challenge is not to avoid AI completely, but to use it well while protecting the quality of learning."
@@ -54281,7 +54583,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "東京の電車に自転車をそのまま持ち込むことは、基本的にできません。",
+          "en": "You generally cannot take an uncovered bicycle directly onto trains in Tokyo."
+        }
+      ]
     },
     {
       "id": "core-da044eafb4e680",
@@ -57095,6 +57402,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "目的の駅に着いても、ホームや改札の近くで自転車を組み立てるのは避けましょう。",
+          "en": "Even after arriving at your destination, avoid assembling your bicycle near the platform or ticket gates."
+        },
+        {
           "ja": "黄色い背景に黒い文字と矢印を組み合わせた表示は、人の多い駅でもよく目立ちます。",
           "en": "Signs that combine a yellow background with black text and arrows stand out well even in crowded stations."
         },
@@ -57109,10 +57420,6 @@
         {
           "ja": "こうした仕組みがあったからこそ、東京は世界でもとても大きく、しかも効率的な都市圏の一つに成長できました。",
           "en": "Because this kind of system existed, Tokyo was able to grow into one of the world's very large and efficient metropolitan areas."
-        },
-        {
-          "ja": "乗り換えのたびに地図を開かなくても、頭の中で道を組みたてられるようになります。",
-          "en": "Even without opening a map for each transfer, you can start building the route in your head."
         }
       ]
     },
@@ -57144,7 +57451,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "目的の駅に着いても、ホームや改札の近くで自転車を組み立てるのは避けましょう。",
+          "en": "Even after arriving at your destination, avoid assembling your bicycle near the platform or ticket gates."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "ichidan",
       "verbForms": [
@@ -57155,7 +57467,12 @@
           "term": "組み立てます",
           "readingHiragana": "くみたてます",
           "meaning": "Polite form of 組み立てる: to assemble, to set up",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "目的の駅に着いても、ホームや改札の近くで自転車を組み立てるのは避けましょう。",
+              "en": "Even after arriving at your destination, avoid assembling your bicycle near the platform or ticket gates."
+            }
+          ]
         },
         {
           "form": "past",
@@ -57164,7 +57481,12 @@
           "term": "組み立てた",
           "readingHiragana": "くみたてた",
           "meaning": "Plain past form of 組み立てる: to assemble, to set up",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "目的の駅に着いても、ホームや改札の近くで自転車を組み立てるのは避けましょう。",
+              "en": "Even after arriving at your destination, avoid assembling your bicycle near the platform or ticket gates."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -57173,7 +57495,12 @@
           "term": "組み立てない",
           "readingHiragana": "くみたてない",
           "meaning": "Plain negative form of 組み立てる: to assemble, to set up",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "目的の駅に着いても、ホームや改札の近くで自転車を組み立てるのは避けましょう。",
+              "en": "Even after arriving at your destination, avoid assembling your bicycle near the platform or ticket gates."
+            }
+          ]
         },
         {
           "form": "te",
@@ -57182,7 +57509,12 @@
           "term": "組み立てて",
           "readingHiragana": "くみたてて",
           "meaning": "Te-form of 組み立てる: to assemble, to set up",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "目的の駅に着いても、ホームや改札の近くで自転車を組み立てるのは避けましょう。",
+              "en": "Even after arriving at your destination, avoid assembling your bicycle near the platform or ticket gates."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -57191,7 +57523,12 @@
           "term": "組み立てられる",
           "readingHiragana": "くみたてられる",
           "meaning": "Potential form of 組み立てる: to assemble, to set up",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "目的の駅に着いても、ホームや改札の近くで自転車を組み立てるのは避けましょう。",
+              "en": "Even after arriving at your destination, avoid assembling your bicycle near the platform or ticket gates."
+            }
+          ]
         }
       ]
     },
@@ -57376,6 +57713,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "駅員から乗る位置を案内された場合は、その指示に従いましょう。",
+          "en": "Follow any instructions from station staff about where to board."
+        },
         {
           "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
           "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
@@ -60718,6 +61059,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "目的の駅に着いても、ホームや改札の近くで自転車を組み立てるのは避けましょう。",
+          "en": "Even after arriving at your destination, avoid assembling your bicycle near the platform or ticket gates."
+        },
+        {
           "ja": "どの線に乗ってきたかで頭がいっぱいでも、色だけで目的の情報をつかみやすくなります。",
           "en": "Even if your head is full of route information, the color alone makes the information you need easier to grasp."
         },
@@ -60732,10 +61077,6 @@
         {
           "ja": "細かい水を空気に出して、少しでも涼しくすることが目的です。",
           "en": "The goal is to spray fine water into the air and make the area a little cooler."
-        },
-        {
-          "ja": "生産を続けやすくして、市場に安定して米を出すことが目的です。",
-          "en": "The goal is to make production easier to continue and keep rice supplies stable in the market."
         }
       ]
     },
@@ -66814,6 +67155,10 @@
           "meaning": "Plain past form of 避ける: to avoid, to ward off",
           "exampleSentences": [
             {
+              "ja": "朝夕のラッシュ時間は車内が混むため、できれば避けたほうが安全です。",
+              "en": "Trains are crowded during the morning and evening rush hours, so avoiding those times is safer when possible."
+            },
+            {
               "ja": "フランスの一部では学校が休みになり、屋外の活動を避けるよう呼びかけられました。",
               "en": "In parts of France, schools were closed, and people were urged to avoid outdoor activities."
             },
@@ -67654,6 +67999,14 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "改札では大きな荷物として扱い、周りの人にぶつけないよう注意します。",
+          "en": "At the ticket gates, handle the bicycle like a large piece of luggage and be careful not to hit people around you."
+        },
+        {
+          "ja": "目的の駅に着いても、ホームや改札の近くで自転車を組み立てるのは避けましょう。",
+          "en": "Even after arriving at your destination, avoid assembling your bicycle near the platform or ticket gates."
+        },
         {
           "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
           "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
@@ -69259,6 +69612,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
+          "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
+        },
+        {
           "ja": "アメリカの宇宙企業スペースXは、6月12日に株式市場に上場しました。",
           "en": "The American space company SpaceX listed on the stock market on June 12."
         },
@@ -69642,6 +69999,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "袋に入れた後は、持ち上げても部品が動かないよう、しっかり固定します。",
+          "en": "After putting the bike in the bag, secure the parts so they do not move when you lift it."
+        },
+        {
           "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
           "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
         },
@@ -69656,10 +70017,6 @@
         {
           "ja": "品川や羽田空港などの駅では、普通、急行、エアポート急行、特急、快特などの表示を見ます。",
           "en": "At stations such as Shinagawa and Haneda Airport, you will see labels like Local, Express, Airport Express, Limited Express, and Rapid Limited Express."
-        },
-        {
-          "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
-          "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
         }
       ]
     },
@@ -75558,6 +75915,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "多くの鉄道会社では、自転車を分解したり折りたたんだりして、専用の輪行袋に完全に入れる必要があります。",
+          "en": "Many railway companies require bicycles to be disassembled or folded and completely placed inside a dedicated bike transport bag."
+        },
+        {
+          "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
+          "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
+        },
+        {
           "ja": "京急線では、たくさんの電車がほかの鉄道会社の路線へそのまま入っていきます。",
           "en": "On the Keikyu Line, many trains continue directly onto other railway networks."
         },
@@ -75568,14 +75933,6 @@
         {
           "ja": "いくつもの都市中心が鉄道でしっかり結ばれた形で広がってきました。",
           "en": "It spread in a form where many urban centers were firmly connected by rail."
-        },
-        {
-          "ja": "すでにある地下鉄、水道や電気の設備、建物の基礎をよけながらトンネルを作るのは、とても大変でした。",
-          "en": "Building tunnels while avoiding existing subways, water and electrical infrastructure, and building foundations was extremely difficult."
-        },
-        {
-          "ja": "だから、りんかい線の駅で長いエスカレーターを下りるときは、東京でも特に大きくてお金のかかった鉄道計画の中を移動していると考えることができます。",
-          "en": "So when you ride down the long escalators at a Rinkai Line station, you can think of yourself as moving through one of Tokyo's biggest and most expensive railway projects."
         }
       ]
     },
@@ -75609,6 +75966,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "多くの鉄道会社では、自転車を分解したり折りたたんだりして、専用の輪行袋に完全に入れる必要があります。",
+          "en": "Many railway companies require bicycles to be disassembled or folded and completely placed inside a dedicated bike transport bag."
+        },
+        {
+          "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
+          "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
+        },
+        {
           "ja": "京急線では、たくさんの電車がほかの鉄道会社の路線へそのまま入っていきます。",
           "en": "On the Keikyu Line, many trains continue directly onto other railway networks."
         },
@@ -75619,14 +75984,6 @@
         {
           "ja": "いくつもの都市中心が鉄道でしっかり結ばれた形で広がってきました。",
           "en": "It spread in a form where many urban centers were firmly connected by rail."
-        },
-        {
-          "ja": "だから、りんかい線の駅で長いエスカレーターを下りるときは、東京でも特に大きくてお金のかかった鉄道計画の中を移動していると考えることができます。",
-          "en": "So when you ride down the long escalators at a Rinkai Line station, you can think of yourself as moving through one of Tokyo's biggest and most expensive railway projects."
-        },
-        {
-          "ja": "鉄道会社が、駅の屋根に太陽光パネルを置く計画を広げています。",
-          "en": "A railway company is expanding plans to install solar panels on station roofs."
         }
       ]
     },
@@ -75996,6 +76353,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "朝夕のラッシュ時間は車内が混むため、できれば避けたほうが安全です。",
+          "en": "Trains are crowded during the morning and evening rush hours, so avoiding those times is safer when possible."
+        },
+        {
           "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
           "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
         },
@@ -76010,10 +76371,6 @@
         {
           "ja": "五輪のために生まれた設備が、長い時間をへても役立ち続けているのはおもしろいことです。",
           "en": "It is interesting that a facility born for the Olympics has continued to be useful for a long time."
-        },
-        {
-          "ja": "この考え方ができると、毎回ルート検索に時間を取られにくくなります。",
-          "en": "Once you can think this way, you do not spend as much time on route searches every time."
         }
       ]
     },
@@ -77720,7 +78077,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "駅へ入る前に、通行の邪魔にならない場所で自転車を準備します。",
+          "en": "Before entering the station, prepare your bicycle somewhere that does not block pedestrian traffic."
+        }
+      ]
     },
     {
       "id": "core-8cd918354b7dd8",
@@ -79071,12 +79433,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "その中心にあるのが、東京を輪のように回る山手線です。",
-          "en": "At the center of that network is the Yamanote Line, which circles Tokyo like a loop."
+          "ja": "多くの鉄道会社では、自転車を分解したり折りたたんだりして、専用の輪行袋に完全に入れる必要があります。",
+          "en": "Many railway companies require bicycles to be disassembled or folded and completely placed inside a dedicated bike transport bag."
         },
         {
-          "ja": "五輪のために生まれた設備が、長い時間をへても役立ち続けているのはおもしろいことです。",
-          "en": "It is interesting that a facility born for the Olympics has continued to be useful for a long time."
+          "ja": "車輪を外すタイプでは、工具や固定用ベルトを用意すると安心です。",
+          "en": "For bikes that require wheel removal, it is helpful to bring tools and fastening straps."
+        },
+        {
+          "ja": "車両の端などで輪行袋を手で支え、急ブレーキで倒れないようにしてください。",
+          "en": "Hold the bike bag near the end of the car so it does not fall during sudden braking."
+        },
+        {
+          "ja": "駅の外に出て、広い安全な場所で輪行袋を開きます。",
+          "en": "Leave the station and open the bike bag in a spacious, safe place."
+        },
+        {
+          "ja": "その中心にあるのが、東京を輪のように回る山手線です。",
+          "en": "At the center of that network is the Yamanote Line, which circles Tokyo like a loop."
         }
       ]
     },
@@ -81710,6 +82084,217 @@
       "exampleSentences": []
     },
     {
+      "id": "article-16e0de276731a7",
+      "level": "N3",
+      "term": "輪行袋",
+      "reading": "りんこうぶくろ",
+      "readingHiragana": "りんこうぶくろ",
+      "meaning": "Bike transport bag",
+      "source": "article",
+      "sourceId": "2026-07-12-bike-on-tokyo-trains",
+      "sourceTitle": "東京の電車に自転車を持ち込む方法",
+      "sourceLabel": "7/12 電車と自転車",
+      "sourceHref": "./2026-07-12-bike-on-tokyo-trains.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-12-bike-on-tokyo-trains"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "多くの鉄道会社では、自転車を分解したり折りたたんだりして、専用の輪行袋に完全に入れる必要があります。",
+          "en": "Many railway companies require bicycles to be disassembled or folded and completely placed inside a dedicated bike transport bag."
+        },
+        {
+          "ja": "車両の端などで輪行袋を手で支え、急ブレーキで倒れないようにしてください。",
+          "en": "Hold the bike bag near the end of the car so it does not fall during sudden braking."
+        },
+        {
+          "ja": "駅の外に出て、広い安全な場所で輪行袋を開きます。",
+          "en": "Leave the station and open the bike bag in a spacious, safe place."
+        }
+      ]
+    },
+    {
+      "id": "article-4c02180c5421c8",
+      "level": "N3",
+      "term": "持ち込む",
+      "reading": "もちこむ",
+      "readingHiragana": "もちこむ",
+      "meaning": "To bring something into a place",
+      "source": "article",
+      "sourceId": "2026-07-12-bike-on-tokyo-trains",
+      "sourceTitle": "東京の電車に自転車を持ち込む方法",
+      "sourceLabel": "7/12 電車と自転車",
+      "sourceHref": "./2026-07-12-bike-on-tokyo-trains.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-12-bike-on-tokyo-trains"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "東京の電車に自転車をそのまま持ち込むことは、基本的にできません。",
+          "en": "You generally cannot take an uncovered bicycle directly onto trains in Tokyo."
+        }
+      ]
+    },
+    {
+      "id": "article-b19b0f98258d33",
+      "level": "N3",
+      "term": "分解する",
+      "reading": "ぶんかいする",
+      "readingHiragana": "ぶんかいする",
+      "meaning": "To disassemble",
+      "source": "article",
+      "sourceId": "2026-07-12-bike-on-tokyo-trains",
+      "sourceTitle": "東京の電車に自転車を持ち込む方法",
+      "sourceLabel": "7/12 電車と自転車",
+      "sourceHref": "./2026-07-12-bike-on-tokyo-trains.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-12-bike-on-tokyo-trains"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "多くの鉄道会社では、自転車を分解したり折りたたんだりして、専用の輪行袋に完全に入れる必要があります。",
+          "en": "Many railway companies require bicycles to be disassembled or folded and completely placed inside a dedicated bike transport bag."
+        }
+      ]
+    },
+    {
+      "id": "article-c4b611bf5cf2ad",
+      "level": "N3",
+      "term": "折りたたむ",
+      "reading": "おりたたむ",
+      "readingHiragana": "おりたたむ",
+      "meaning": "To fold",
+      "source": "article",
+      "sourceId": "2026-07-12-bike-on-tokyo-trains",
+      "sourceTitle": "東京の電車に自転車を持ち込む方法",
+      "sourceLabel": "7/12 電車と自転車",
+      "sourceHref": "./2026-07-12-bike-on-tokyo-trains.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-12-bike-on-tokyo-trains"
+      ],
+      "exampleSentences": []
+    },
+    {
+      "id": "article-daaced4119d352",
+      "level": "N3",
+      "term": "改札",
+      "reading": "かいさつ",
+      "readingHiragana": "かいさつ",
+      "meaning": "Ticket gate",
+      "source": "article",
+      "sourceId": "2026-07-12-bike-on-tokyo-trains",
+      "sourceTitle": "東京の電車に自転車を持ち込む方法",
+      "sourceLabel": "7/12 電車と自転車",
+      "sourceHref": "./2026-07-12-bike-on-tokyo-trains.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-12-bike-on-tokyo-trains"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "改札では大きな荷物として扱い、周りの人にぶつけないよう注意します。",
+          "en": "At the ticket gates, handle the bicycle like a large piece of luggage and be careful not to hit people around you."
+        },
+        {
+          "ja": "目的の駅に着いても、ホームや改札の近くで自転車を組み立てるのは避けましょう。",
+          "en": "Even after arriving at your destination, avoid assembling your bicycle near the platform or ticket gates."
+        },
+        {
+          "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
+          "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
+        },
+        {
+          "ja": "その理由の一つは、ICカードの残高確認や運賃計算が、改札機の中でとても速く処理されるように設計されていることです。",
+          "en": "One reason is that balance checks and fare calculations for IC cards are designed to be processed very quickly inside the ticket gate itself."
+        },
+        {
+          "ja": "普段は当たり前のように使っている改札ですが、その裏には日本ならではの高い技術と緻密なシステム設計が詰まっています。",
+          "en": "We usually use ticket gates as if they were completely ordinary, but behind them are advanced technology and precise system design that feel very characteristic of Japan."
+        }
+      ]
+    },
+    {
+      "id": "article-c51adddfd13491",
+      "level": "N3",
+      "term": "通路",
+      "reading": "つうろ",
+      "readingHiragana": "つうろ",
+      "meaning": "Aisle or passage",
+      "source": "article",
+      "sourceId": "2026-07-12-bike-on-tokyo-trains",
+      "sourceTitle": "東京の電車に自転車を持ち込む方法",
+      "sourceLabel": "7/12 電車と自転車",
+      "sourceHref": "./2026-07-12-bike-on-tokyo-trains.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-12-bike-on-tokyo-trains"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "電車に乗ったら、ドアの前や通路をふさがない場所を選びます。",
+          "en": "Once on the train, choose a place where the bicycle will not block the doors or aisle."
+        }
+      ]
+    },
+    {
+      "id": "article-ccd7589a1c853d",
+      "level": "N3",
+      "term": "固定する",
+      "reading": "こていする",
+      "readingHiragana": "こていする",
+      "meaning": "To secure or fasten",
+      "source": "article",
+      "sourceId": "2026-07-12-bike-on-tokyo-trains",
+      "sourceTitle": "東京の電車に自転車を持ち込む方法",
+      "sourceLabel": "7/12 電車と自転車",
+      "sourceHref": "./2026-07-12-bike-on-tokyo-trains.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-12-bike-on-tokyo-trains"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "車輪を外すタイプでは、工具や固定用ベルトを用意すると安心です。",
+          "en": "For bikes that require wheel removal, it is helpful to bring tools and fastening straps."
+        },
+        {
+          "ja": "袋に入れた後は、持ち上げても部品が動かないよう、しっかり固定します。",
+          "en": "After putting the bike in the bag, secure the parts so they do not move when you lift it."
+        },
+        {
+          "ja": "家庭でも、家具を固定し、少なくとも3日分の食料を備蓄するなど、日常の備えを改めて確認することが重要です。",
+          "en": "Households also need to review everyday preparedness, such as securing furniture and storing at least three days of food."
+        }
+      ]
+    },
+    {
+      "id": "article-c3f192c41ad396",
+      "level": "N3",
+      "term": "公式案内",
+      "reading": "こうしきあんない",
+      "readingHiragana": "こうしきあんない",
+      "meaning": "Official guidance",
+      "source": "article",
+      "sourceId": "2026-07-12-bike-on-tokyo-trains",
+      "sourceTitle": "東京の電車に自転車を持ち込む方法",
+      "sourceLabel": "7/12 電車と自転車",
+      "sourceHref": "./2026-07-12-bike-on-tokyo-trains.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-12-bike-on-tokyo-trains"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
+          "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
+        }
+      ]
+    },
+    {
       "id": "article-dbf90bf7a7e355",
       "level": "N3",
       "term": "案内表示",
@@ -81919,6 +82504,14 @@
         "2026-07-08-ticket-gate-speed"
       ],
       "exampleSentences": [
+        {
+          "ja": "改札では大きな荷物として扱い、周りの人にぶつけないよう注意します。",
+          "en": "At the ticket gates, handle the bicycle like a large piece of luggage and be careful not to hit people around you."
+        },
+        {
+          "ja": "目的の駅に着いても、ホームや改札の近くで自転車を組み立てるのは避けましょう。",
+          "en": "Even after arriving at your destination, avoid assembling your bicycle near the platform or ticket gates."
+        },
         {
           "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
           "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
@@ -82147,6 +82740,14 @@
       ],
       "exampleSentences": [
         {
+          "ja": "車輪を外すタイプでは、工具や固定用ベルトを用意すると安心です。",
+          "en": "For bikes that require wheel removal, it is helpful to bring tools and fastening straps."
+        },
+        {
+          "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
+          "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
+        },
+        {
           "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
           "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
         },
@@ -82157,14 +82758,6 @@
         {
           "ja": "ヴィニシウスは狭い角度からシュートを決め、ブラジルの応援席を安心させました。",
           "en": "Vinicius scored from a tight angle, calming the Brazil supporters."
-        },
-        {
-          "ja": "ふだんの便利さだけでなく、もしものときの安心にもつなげたいとしています。",
-          "en": "The goal is to provide not only everyday convenience but also reassurance in emergencies."
-        },
-        {
-          "ja": "利用者が安心して使えるように、わかりやすい表示や説明も必要になりそうです。",
-          "en": "Clear displays and explanations will also be needed so guests can use the system with confidence."
         }
       ]
     },
@@ -82190,6 +82783,10 @@
           "en": "If symptoms such as a headache or feeling unwell appear, it is important to move to a cool place right away."
         },
         {
+          "ja": "移動中は、他の乗客が乗り降りしやすいか確認することも大切です。",
+          "en": "During the trip, it is also important to make sure other passengers can easily get on and off."
+        },
+        {
           "ja": "全部を理解しようとしなくても、「黄色は出口」と覚えておけば、移動の負担がかなり軽くなります。",
           "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
         },
@@ -82200,10 +82797,6 @@
         {
           "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
           "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
-        },
-        {
-          "ja": "品川に着けば、そこから山手線やほかの路線に乗り換えやすく、都心への移動がしやすくなります。",
-          "en": "Once you reach Shinagawa, it is easy to transfer to the Yamanote Line and other routes into the city center."
         }
       ]
     },
@@ -82358,6 +82951,14 @@
         "2026-07-04-keikyu-direction-from-haneda"
       ],
       "exampleSentences": [
+        {
+          "ja": "多くの鉄道会社では、自転車を分解したり折りたたんだりして、専用の輪行袋に完全に入れる必要があります。",
+          "en": "Many railway companies require bicycles to be disassembled or folded and completely placed inside a dedicated bike transport bag."
+        },
+        {
+          "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
+          "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
+        },
         {
           "ja": "京急線では、たくさんの電車がほかの鉄道会社の路線へそのまま入っていきます。",
           "en": "On the Keikyu Line, many trains continue directly onto other railway networks."
@@ -84302,6 +84903,14 @@
       ],
       "exampleSentences": [
         {
+          "ja": "移動中は、他の乗客が乗り降りしやすいか確認することも大切です。",
+          "en": "During the trip, it is also important to make sure other passengers can easily get on and off."
+        },
+        {
+          "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
+          "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
+        },
+        {
           "ja": "これらは速さや停車駅が違うため、名前を確認することが大切です。",
           "en": "Because their speeds and stopping stations differ, it is important to check the name."
         },
@@ -84312,14 +84921,6 @@
         {
           "ja": "通勤や出張の予定を変更する人が多く、駅や空港では最新情報を確認する姿が目立ちました。",
           "en": "Many people changed commuting or business-trip plans, while stations and airports were filled with travelers checking the latest information."
-        },
-        {
-          "ja": "その理由の一つは、ICカードの残高確認や運賃計算が、改札機の中でとても速く処理されるように設計されていることです。",
-          "en": "One reason is that balance checks and fare calculations for IC cards are designed to be processed very quickly inside the ticket gate itself."
-        },
-        {
-          "ja": "利用者はカードをタッチするだけでよく、複雑な計算や確認を意識する必要はほとんどありません。",
-          "en": "Users only need to tap their card, and they hardly need to think about the complex calculations and checks happening behind the scenes."
         }
       ]
     },
@@ -87604,6 +88205,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "移動中は、他の乗客が乗り降りしやすいか確認することも大切です。",
+          "en": "During the trip, it is also important to make sure other passengers can easily get on and off."
+        },
+        {
           "ja": "毎日何百万人もの乗客が利用しているのに、多くの人はほんの一瞬で通過できます。",
           "en": "Even though millions of passengers use them every day, most people can pass through in just a moment."
         },
@@ -87979,6 +88584,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "目的の駅に着いても、ホームや改札の近くで自転車を組み立てるのは避けましょう。",
+          "en": "Even after arriving at your destination, avoid assembling your bicycle near the platform or ticket gates."
+        },
+        {
           "ja": "どの線に乗ってきたかで頭がいっぱいでも、色だけで目的の情報をつかみやすくなります。",
           "en": "Even if your head is full of route information, the color alone makes the information you need easier to grasp."
         },
@@ -87993,10 +88602,6 @@
         {
           "ja": "細かい水を空気に出して、少しでも涼しくすることが目的です。",
           "en": "The goal is to spray fine water into the air and make the area a little cooler."
-        },
-        {
-          "ja": "生産を続けやすくして、市場に安定して米を出すことが目的です。",
-          "en": "The goal is to make production easier to continue and keep rice supplies stable in the market."
         }
       ]
     },
@@ -88518,6 +89123,14 @@
       ],
       "exampleSentences": [
         {
+          "ja": "駅員から乗る位置を案内された場合は、その指示に従いましょう。",
+          "en": "Follow any instructions from station staff about where to board."
+        },
+        {
+          "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
+          "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
+        },
+        {
           "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
           "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
         },
@@ -88528,14 +89141,6 @@
         {
           "ja": "電車の路線はそれぞれ別の色で表されることが多いので、黄色い出口案内は見分けやすいです。",
           "en": "Train lines are often shown in different colors, so yellow exit guidance is easy to distinguish from them."
-        },
-        {
-          "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
-          "en": "In London, people using the Underground and buses were also advised to drink water."
-        },
-        {
-          "ja": "夜にゴミを出さないことや、窓と扉をしっかり閉めることも大切だと案内しました。",
-          "en": "It also advised people not to put out garbage at night and to keep windows and doors tightly closed."
         }
       ]
     },
@@ -89756,6 +90361,14 @@
       ],
       "exampleSentences": [
         {
+          "ja": "駅員から乗る位置を案内された場合は、その指示に従いましょう。",
+          "en": "Follow any instructions from station staff about where to board."
+        },
+        {
+          "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
+          "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
+        },
+        {
           "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
           "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
         },
@@ -89766,14 +90379,6 @@
         {
           "ja": "電車の路線はそれぞれ別の色で表されることが多いので、黄色い出口案内は見分けやすいです。",
           "en": "Train lines are often shown in different colors, so yellow exit guidance is easy to distinguish from them."
-        },
-        {
-          "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
-          "en": "In London, people using the Underground and buses were also advised to drink water."
-        },
-        {
-          "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
-          "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
         }
       ]
     },
