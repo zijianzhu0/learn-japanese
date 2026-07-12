@@ -1,0 +1,71 @@
+{
+  "_comment": "Publish-ready N3 article about how train drivers stop at the correct platform position and what can happen after a small overrun. Exactly 5 paragraph sections in the recent explanatory style.",
+  "id": "2026-07-18-train-stop-position",
+  "file": "2026-07-18-train-stop-position.html",
+  "title": "電車はどうやって駅でちょうどいい場所に止まるのか",
+  "titleTranslation": "How Trains Stop at Exactly the Right Place in a Station",
+  "date": "2026年7月18日",
+  "month": "July 2026",
+  "navLabel": "7/18 電車の止まる場所",
+  "level": "N3",
+  "downloadFileName": "2026-07-18-train-stop-position.mp4",
+  "headlineHtml": "<ruby>電車<rt>でんしゃ</rt></ruby>はどうやって<ruby>駅<rt>えき</rt></ruby>でちょうどいい<ruby>場所<rt>ばしょ</rt></ruby>に<ruby>止<rt>と</rt></ruby>まるのか",
+  "sourceNote": "日本の鉄道で使われる停止位置目標や定位置停止支援の考え方をもとに、運転士が駅で列車を止める仕組みを説明する学習用ページです。",
+  "paragraphs": [
+    {
+      "html": "<ruby>電車<rt>でんしゃ</rt></ruby>が<ruby>駅<rt>えき</rt></ruby>に<ruby>入<rt>はい</rt></ruby>ると、いつもドアがホームのちょうどいい<ruby>場所<rt>ばしょ</rt></ruby>に<ruby>来<rt>き</rt></ruby>ます。<ruby>毎日<rt>まいにち</rt></ruby>のことなので<ruby>簡単<rt>かんたん</rt></ruby>に<ruby>見<rt>み</rt></ruby>えますが、<ruby>実際<rt>じっさい</rt></ruby>にはかなり<ruby>細<rt>こま</rt></ruby>かい<ruby>運転<rt>うんてん</rt></ruby>です。ホームの<ruby>長<rt>なが</rt></ruby>さ、<ruby>車両数<rt>しゃりょうすう</rt></ruby>、ブレーキの<ruby>強<rt>つよ</rt></ruby>さ、<ruby>雨<rt>あめ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>かどうかまで<ruby>関係<rt>かんけい</rt></ruby>します。それでも<ruby>同<rt>おな</rt></ruby>じ<ruby>位置<rt>いち</rt></ruby>に<ruby>止<rt>と</rt></ruby>めるのは、<ruby>駅<rt>えき</rt></ruby>に<ruby>目印<rt>めじるし</rt></ruby>と<ruby>手順<rt>てじゅん</rt></ruby>があるからです。",
+      "translation": "When a train enters a station, the doors usually line up with the platform in exactly the right place. Because it happens every day, it looks easy, but in reality it is a very precise operation. Platform length, number of cars, brake strength, and even whether it is raining all matter. Even so, trains stop in the same place because stations have markers and procedures."
+    },
+    {
+      "html": "<ruby>多<rt>おお</rt></ruby>くのホームには、<ruby>列車<rt>れっしゃ</rt></ruby>を<ruby>止<rt>と</rt></ruby>めるための<ruby>停止位置目標<rt>ていしいちもくひょう</rt></ruby>があります。これは「8<ruby>両<rt>りょう</rt></ruby>」「10<ruby>両<rt>りょう</rt></ruby>」のように、<ruby>車両数<rt>しゃりょうすう</rt></ruby>ごとの<ruby>止<rt>と</rt></ruby>まる<ruby>場所<rt>ばしょ</rt></ruby>を<ruby>示<rt>しめ</rt></ruby>す<ruby>印<rt>しるし</rt></ruby>です。<ruby>運転士<rt>うんてんし</rt></ruby>はホームに<ruby>入<rt>はい</rt></ruby>りながらその<ruby>目標<rt>もくひょう</rt></ruby>を<ruby>見<rt>み</rt></ruby>て、スピードを<ruby>落<rt>お</rt></ruby>としてブレーキを<ruby>調整<rt>ちょうせい</rt></ruby>します。つまり、ただ「だいたいこのへん」で<ruby>止<rt>と</rt></ruby>めているのではなく、かなり<ruby>具体的<rt>ぐたいてき</rt></ruby>な<ruby>目標<rt>もくひょう</rt></ruby>に<ruby>合<rt>あ</rt></ruby>わせているのです。",
+      "translation": "Many platforms have stopping-position markers for trains. These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop. As the train enters the platform, the driver watches that marker, reduces speed, and adjusts the brakes. In other words, the train is not stopped at some rough guess; it is lined up with a very specific target."
+    },
+    {
+      "html": "<ruby>最近<rt>さいきん</rt></ruby>の<ruby>路線<rt>ろせん</rt></ruby>では、<ruby>人<rt>ひと</rt></ruby>だけでなく<ruby>機械<rt>きかい</rt></ruby>も<ruby>手伝<rt>てつだ</rt></ruby>います。ホームドアがある<ruby>駅<rt>えき</rt></ruby>などでは、<ruby>決<rt>き</rt></ruby>まった<ruby>位置<rt>いち</rt></ruby>により<ruby>正確<rt>せいかく</rt></ruby>に<ruby>止<rt>と</rt></ruby>まることが<ruby>特<rt>とく</rt></ruby>に<ruby>大切<rt>たいせつ</rt></ruby>です。そのため、<ruby>定位置停止<rt>ていいちていし</rt></ruby>を<ruby>助<rt>たす</rt></ruby>ける<ruby>装置<rt>そうち</rt></ruby>が<ruby>使<rt>つか</rt></ruby>われることもあります。もちろん<ruby>最後<rt>さいご</rt></ruby>は<ruby>運転士<rt>うんてんし</rt></ruby>が<ruby>確認<rt>かくにん</rt></ruby>しますが、<ruby>人<rt>ひと</rt></ruby>と<ruby>装置<rt>そうち</rt></ruby>の<ruby>両方<rt>りょうほう</rt></ruby>でずれを<ruby>小<rt>ちい</rt></ruby>さくしているわけです。",
+      "translation": "On more recent railway lines, machines help as well as people. At stations with platform doors, for example, it is especially important to stop very accurately in the planned position. For that reason, some lines use systems that assist fixed-position stopping. Of course, the driver still makes the final check, but both people and equipment work together to keep errors small."
+    },
+    {
+      "html": "それでも、ときどき<ruby>少<rt>すこ</rt></ruby>し<ruby>行<rt>い</rt></ruby>きすぎることがあります。これをオーバーランと<ruby>呼<rt>よ</rt></ruby>びます。ほんのわずかな<ruby>場合<rt>ばあい</rt></ruby>でも、すぐドアを<ruby>開<rt>あ</rt></ruby>けるのではなく、<ruby>安全確認<rt>あんぜんかくにん</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>です。<ruby>状況<rt>じょうきょう</rt></ruby>によっては、そのままにせず、<ruby>後<rt>うし</rt></ruby>ろへゆっくり<ruby>戻<rt>もど</rt></ruby>して<ruby>正<rt>ただ</rt></ruby>しい<ruby>位置<rt>いち</rt></ruby>に<ruby>合<rt>あ</rt></ruby>わせることもあります。ただし、これは<ruby>自由<rt>じゆう</rt></ruby>にやるのではなく、<ruby>決<rt>き</rt></ruby>められた<ruby>手順<rt>てじゅん</rt></ruby>にしたがって<ruby>行<rt>おこな</rt></ruby>われます。",
+      "translation": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+    },
+    {
+      "html": "だから、<ruby>駅<rt>えき</rt></ruby>での<ruby>停車<rt>ていしゃ</rt></ruby>は「<ruby>最後<rt>さいご</rt></ruby>にブレーキをかけるだけ」の<ruby>仕事<rt>しごと</rt></ruby>ではありません。<ruby>目印<rt>めじるし</rt></ruby>を<ruby>見<rt>み</rt></ruby>て、<ruby>速度<rt>そくど</rt></ruby>を<ruby>読<rt>よ</rt></ruby>んで、ホームの<ruby>条件<rt>じょうけん</rt></ruby>も<ruby>考<rt>かんが</rt></ruby>えながら<ruby>止<rt>と</rt></ruby>めています。そして<ruby>万一<rt>まんいち</rt></ruby>まちがいがあっても、すぐに<ruby>直<rt>なお</rt></ruby>せるように<ruby>仕組<rt>しく</rt></ruby>みと<ruby>手順<rt>てじゅん</rt></ruby>が<ruby>用意<rt>ようい</rt></ruby>されています。いつもの<ruby>静<rt>しず</rt></ruby>かな<ruby>停車<rt>ていしゃ</rt></ruby>の<ruby>後<rt>うし</rt></ruby>ろには、かなり<ruby>緻密<rt>ちみつ</rt></ruby>な<ruby>仕事<rt>しごと</rt></ruby>がかくれているのです。",
+      "translation": "So stopping at a station is not just a matter of applying the brakes at the end. Drivers watch markers, read speed, and consider the platform conditions while stopping the train. And even if a mistake happens, systems and procedures are prepared so it can be corrected safely. Behind an ordinary quiet stop, there is actually very careful work."
+    }
+  ],
+  "vocabularyTitle": "N3 Vocabulary",
+  "vocabulary": [
+    {
+      "term": "停止位置目標（ていしいちもくひょう）",
+      "meaning": "Stopping-position marker"
+    },
+    {
+      "term": "運転士（うんてんし）",
+      "meaning": "Train driver"
+    },
+    {
+      "term": "調整する（ちょうせいする）",
+      "meaning": "To adjust"
+    },
+    {
+      "term": "定位置停止（ていいちていし）",
+      "meaning": "Stopping at a fixed designated position"
+    },
+    {
+      "term": "装置（そうち）",
+      "meaning": "Device / System"
+    },
+    {
+      "term": "安全確認（あんぜんかくにん）",
+      "meaning": "Safety check"
+    },
+    {
+      "term": "手順（てじゅん）",
+      "meaning": "Procedure"
+    },
+    {
+      "term": "緻密（ちみつ）",
+      "meaning": "Precise / Detailed"
+    }
+  ]
+}

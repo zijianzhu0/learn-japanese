@@ -4,7 +4,7 @@
     "articleManifest": "data/articles.json"
   },
   "levels": {
-    "N3": 2077,
+    "N3": 2085,
     "N4": 536,
     "N5": 553
   },
@@ -205,7 +205,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "ほんのわずかな場合でも、すぐドアを開けるのではなく、安全確認が必要です。",
+          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "ichidan",
       "verbForms": [
@@ -216,7 +221,12 @@
           "term": "開けます",
           "readingHiragana": "あけます",
           "meaning": "Polite form of 開ける: to open",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "ほんのわずかな場合でも、すぐドアを開けるのではなく、安全確認が必要です。",
+              "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+            }
+          ]
         },
         {
           "form": "past",
@@ -225,7 +235,12 @@
           "term": "開けた",
           "readingHiragana": "あけた",
           "meaning": "Plain past form of 開ける: to open",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "ほんのわずかな場合でも、すぐドアを開けるのではなく、安全確認が必要です。",
+              "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -234,7 +249,12 @@
           "term": "開けない",
           "readingHiragana": "あけない",
           "meaning": "Plain negative form of 開ける: to open",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "ほんのわずかな場合でも、すぐドアを開けるのではなく、安全確認が必要です。",
+              "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+            }
+          ]
         },
         {
           "form": "te",
@@ -243,7 +263,12 @@
           "term": "開けて",
           "readingHiragana": "あけて",
           "meaning": "Te-form of 開ける: to open",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "ほんのわずかな場合でも、すぐドアを開けるのではなく、安全確認が必要です。",
+              "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -252,7 +277,12 @@
           "term": "開けられる",
           "readingHiragana": "あけられる",
           "meaning": "Potential form of 開ける: to open",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "ほんのわずかな場合でも、すぐドアを開けるのではなく、安全確認が必要です。",
+              "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+            }
+          ]
         }
       ]
     },
@@ -362,6 +392,10 @@
           "meaning": "Potential form of 開く: to open",
           "exampleSentences": [
             {
+              "ja": "ほんのわずかな場合でも、すぐドアを開けるのではなく、安全確認が必要です。",
+              "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+            },
+            {
               "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
               "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
             }
@@ -398,6 +432,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "ホームの長さ、車両数、ブレーキの強さ、雨の日かどうかまで関係します。",
+          "en": "Platform length, number of cars, brake strength, and even whether it is raining all matter."
+        },
         {
           "ja": "二つの台風は、上陸するかどうかだけでなく、海の波や強い雨にも注意が必要です。",
           "en": "With the two typhoons, people need to watch not only whether they make landfall, but also ocean waves and heavy rain."
@@ -961,24 +999,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "もちろん最後は運転士が確認しますが、人と装置の両方でずれを小さくしているわけです。",
+          "en": "Of course, the driver still makes the final check, but both people and equipment work together to keep errors small."
+        },
+        {
+          "ja": "状況によっては、そのままにせず、後ろへゆっくり戻して正しい位置に合わせることもあります。",
+          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+        },
+        {
+          "ja": "だから、駅での停車は「最後にブレーキをかけるだけ」の仕事ではありません。",
+          "en": "So stopping at a station is not just a matter of applying the brakes at the end."
+        },
+        {
+          "ja": "いつもの静かな停車の後ろには、かなり緻密な仕事がかくれているのです。",
+          "en": "Behind an ordinary quiet stop, there is actually very careful work."
+        },
+        {
           "ja": "その後、コンビニは食べ物だけでなく、24時間営業、料金支払い、ATM、チケット、宅配などを少しずつ増やしました。",
           "en": "After that, convenience stores gradually added not only food, but also 24-hour service, bill payment, ATMs, tickets, and parcel services."
-        },
-        {
-          "ja": "たとえば、混んだ道でほかの車が少し間をあけてくれたら、その後でハザードを二回ぐらい光らせる人がいます。",
-          "en": "For example, if another driver leaves a little space for you on a crowded road, some people flash their hazard lights about twice afterward."
-        },
-        {
-          "ja": "ハザードなら後ろの車にも見えやすく、短時間で終わります。",
-          "en": "Hazard lights are easy for the car behind to see and only last a short time."
-        },
-        {
-          "ja": "カーナビの画面に出る渋滞情報や規制情報の後ろには、道路と車が少しずつ会話している世界があります。",
-          "en": "Behind the congestion and restriction information shown on a car navigation screen is a world where roads and cars are quietly exchanging information."
-        },
-        {
-          "ja": "袋に入れた後は、持ち上げても部品が動かないよう、しっかり固定します。",
-          "en": "After putting the bike in the bag, secure the parts so they do not move when you lift it."
         }
       ]
     },
@@ -1572,7 +1610,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+          "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+        }
+      ]
     },
     {
       "id": "core-f9546c25b337e9",
@@ -2086,6 +2129,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+          "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+        },
+        {
           "ja": "東京の電車に自転車をそのまま持ち込むことは、基本的にできません。",
           "en": "You generally cannot take an uncovered bicycle directly onto trains in Tokyo."
         },
@@ -2100,10 +2147,6 @@
         {
           "ja": "これだけで、電車の選び方がかなり簡単になります。",
           "en": "That alone makes choosing a train much easier."
-        },
-        {
-          "ja": "京急線では、たくさんの電車がほかの鉄道会社の路線へそのまま入っていきます。",
-          "en": "On the Keikyu Line, many trains continue directly onto other railway networks."
         }
       ]
     },
@@ -2352,6 +2395,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ホームの長さ、車両数、ブレーキの強さ、雨の日かどうかまで関係します。",
+          "en": "Platform length, number of cars, brake strength, and even whether it is raining all matter."
+        },
+        {
           "ja": "ETCを知っているだけで、東京の道路がどう動いているか、少し見えやすくなります。",
           "en": "Just understanding ETC makes it easier to see how Tokyo’s roads actually work."
         },
@@ -2366,10 +2413,6 @@
         {
           "ja": "AIは、昔からの記録を見て、空気の汚れや街の元気さがどう変わるかを予測します。",
           "en": "AI looks at past records and predicts how air pollution and urban vitality may change."
-        },
-        {
-          "ja": "そのため、各国の政府や企業は、この合意が実行されるかどうかを注意して見ています。",
-          "en": "For that reason, governments and companies are watching carefully to see whether the agreement will be carried out."
         }
       ]
     },
@@ -2541,24 +2584,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+          "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+        },
+        {
+          "ja": "それでも同じ位置に止めるのは、駅に目印と手順があるからです。",
+          "en": "Even so, trains stop in the same place because stations have markers and procedures."
+        },
+        {
+          "ja": "ホームドアがある駅などでは、決まった位置により正確に止まることが特に大切です。",
+          "en": "At stations with platform doors, for example, it is especially important to stop very accurately in the planned position."
+        },
+        {
+          "ja": "だから、駅での停車は「最後にブレーキをかけるだけ」の仕事ではありません。",
+          "en": "So stopping at a station is not just a matter of applying the brakes at the end."
+        },
+        {
           "ja": "すると駅で紙のきっぷを受け取らなくても、改札でタッチしてそのまま入れます。",
           "en": "Then, instead of picking up a paper ticket at the station, you can simply tap at the gate and go in."
-        },
-        {
-          "ja": "駅へ入る前に、通行の邪魔にならない場所で自転車を準備します。",
-          "en": "Before entering the station, prepare your bicycle somewhere that does not block pedestrian traffic."
-        },
-        {
-          "ja": "駅員から乗る位置を案内された場合は、その指示に従いましょう。",
-          "en": "Follow any instructions from station staff about where to board."
-        },
-        {
-          "ja": "目的の駅に着いても、ホームや改札の近くで自転車を組み立てるのは避けましょう。",
-          "en": "Even after arriving at your destination, avoid assembling your bicycle near the platform or ticket gates."
-        },
-        {
-          "ja": "駅の外に出て、広い安全な場所で輪行袋を開きます。",
-          "en": "Leave the station and open the bike bag in a spacious, safe place."
         }
       ]
     },
@@ -3185,6 +3228,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+          "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+        },
+        {
           "ja": "予約した座席と「どのICカードで入るか」を先にひもづけておくのです。",
           "en": "You link the reserved seat in advance to the IC card that will be used to enter."
         },
@@ -3212,6 +3259,10 @@
           "readingHiragana": "はいります",
           "meaning": "Polite form of 入る: to enter, to go into",
           "exampleSentences": [
+            {
+              "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+              "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+            },
             {
               "ja": "予約した座席と「どのICカードで入るか」を先にひもづけておくのです。",
               "en": "You link the reserved seat in advance to the IC card that will be used to enter."
@@ -3243,6 +3294,10 @@
               "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
             },
             {
+              "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+              "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+            },
+            {
               "ja": "予約した座席と「どのICカードで入るか」を先にひもづけておくのです。",
               "en": "You link the reserved seat in advance to the IC card that will be used to enter."
             },
@@ -3253,10 +3308,6 @@
             {
               "ja": "日本では、クマが人の生活する場所に入る問題が増えています。",
               "en": "In Japan, the problem of bears entering places where people live is increasing."
-            },
-            {
-              "ja": "最近の日本では、クマが人の生活する場所に入る問題が増えています。",
-              "en": "Recently in Japan, the problem of bears entering places where people live has been increasing."
             }
           ]
         },
@@ -3268,6 +3319,10 @@
           "readingHiragana": "はいらない",
           "meaning": "Plain negative form of 入る: to enter, to go into",
           "exampleSentences": [
+            {
+              "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+              "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+            },
             {
               "ja": "予約した座席と「どのICカードで入るか」を先にひもづけておくのです。",
               "en": "You link the reserved seat in advance to the IC card that will be used to enter."
@@ -3337,12 +3392,12 @@
               "en": "Storage equipment and fueling devices have also been prepared near the port."
             },
             {
-              "ja": "予約した座席と「どのICカードで入るか」を先にひもづけておくのです。",
-              "en": "You link the reserved seat in advance to the IC card that will be used to enter."
+              "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+              "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
             },
             {
-              "ja": "駅へ入る前に、通行の邪魔にならない場所で自転車を準備します。",
-              "en": "Before entering the station, prepare your bicycle somewhere that does not block pedestrian traffic."
+              "ja": "予約した座席と「どのICカードで入るか」を先にひもづけておくのです。",
+              "en": "You link the reserved seat in advance to the IC card that will be used to enter."
             }
           ]
         }
@@ -4391,6 +4446,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "毎日のことなので簡単に見えますが、実際にはかなり細かい運転です。",
+          "en": "Because it happens every day, it looks easy, but in reality it is a very precise operation."
+        },
+        {
+          "ja": "ホームの長さ、車両数、ブレーキの強さ、雨の日かどうかまで関係します。",
+          "en": "Platform length, number of cars, brake strength, and even whether it is raining all matter."
+        },
+        {
           "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
           "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
         },
@@ -4401,14 +4464,6 @@
         {
           "ja": "こうして見ると、日本の鉄道は複雑そうでも、実際には目的に合わせて細かく選べるようになっています。",
           "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
-        },
-        {
-          "ja": "今の日本では、コンビニはどこにでもある店に見えます。",
-          "en": "In Japan today, convenience stores seem to be everywhere."
-        },
-        {
-          "ja": "でも、この形が最初から日本にあったわけではありません。",
-          "en": "But this style did not exist in Japan from the beginning."
         }
       ]
     },
@@ -4772,6 +4827,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "最近の路線では、人だけでなく機械も手伝います。",
+          "en": "On more recent railway lines, machines help as well as people."
+        },
+        {
+          "ja": "もちろん最後は運転士が確認しますが、人と装置の両方でずれを小さくしているわけです。",
+          "en": "Of course, the driver still makes the final check, but both people and equipment work together to keep errors small."
+        },
+        {
           "ja": "新幹線に乗るとき、「指定席」と「自由席」の違いがわかりにくいと感じる人は多いです。",
           "en": "When riding the Shinkansen, many people feel that the difference between reserved and non-reserved seats is confusing."
         },
@@ -4782,14 +4845,6 @@
         {
           "ja": "物理的なSuicaカードを使う人もいれば、スマートフォン側のIC機能を使う人もいますが、考え方は同じです。",
           "en": "Some people use a physical Suica card, while others use the IC function on a smartphone, but the basic idea is the same."
-        },
-        {
-          "ja": "こうした変化で、コンビニは急いでいる人だけの店ではなくなりました。",
-          "en": "These changes meant they were no longer stores only for people in a hurry."
-        },
-        {
-          "ja": "たとえば、混んだ道でほかの車が少し間をあけてくれたら、その後でハザードを二回ぐらい光らせる人がいます。",
-          "en": "For example, if another driver leaves a little space for you on a crowded road, some people flash their hazard lights about twice afterward."
         }
       ]
     },
@@ -4978,6 +5033,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そして万一まちがいがあっても、すぐに直せるように仕組みと手順が用意されています。",
+          "en": "And even if a mistake happens, systems and procedures are prepared so it can be corrected safely."
+        },
+        {
           "ja": "飲み物やおにぎりを買うだけでなく、ATMや支払い、宅配まで使えるので、生活の一部になっています。",
           "en": "People use them not only to buy drinks and rice balls, but also for ATMs, payments, and parcel services, so they have become part of everyday life."
         },
@@ -4992,10 +5051,6 @@
         {
           "ja": "だからこそ、お礼として使う時もごく短く、安全を第一にすることが大切です。",
           "en": "That is exactly why, when they are used as thanks, it should be only very brief and safety should come first."
-        },
-        {
-          "ja": "ETC専用、ETC一般という表示が何度も出てくるのは、その仕組みが交通を支えているからです。",
-          "en": "Signs like ETC-only and ETC/general appear again and again because this system helps support traffic flow."
         }
       ]
     },
@@ -5079,6 +5134,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+          "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+        },
         {
           "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
           "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
@@ -5871,6 +5930,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+          "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+        },
+        {
+          "ja": "いつもの静かな停車の後ろには、かなり緻密な仕事がかくれているのです。",
+          "en": "Behind an ordinary quiet stop, there is actually very careful work."
+        },
+        {
           "ja": "いつもの風景の中にも、まだ気づいていないやさしさや工夫がたくさんあるのだと思います。",
           "en": "I think there are many more acts of kindness and smart ideas hidden in the familiar scenery around us."
         }
@@ -6616,6 +6683,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "つまり、ただ「だいたいこのへん」で止めているのではなく、かなり具体的な目標に合わせているのです。",
+          "en": "In other words, the train is not stopped at some rough guess; it is lined up with a very specific target."
+        },
+        {
           "ja": "多くの車にはETCの車載器がついていますが、カード自体は別に必要なことがあります。",
           "en": "Many cars have an ETC onboard unit, but the card itself may be separate."
         },
@@ -6630,10 +6701,6 @@
         {
           "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
           "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
-        },
-        {
-          "ja": "先に全体を見ると、細かい線も覚えやすくなります。",
-          "en": "When you look at the whole picture first, the smaller lines are easier to remember too."
         }
       ]
     },
@@ -6879,6 +6946,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "もちろん最後は運転士が確認しますが、人と装置の両方でずれを小さくしているわけです。",
+          "en": "Of course, the driver still makes the final check, but both people and equipment work together to keep errors small."
+        },
+        {
           "ja": "つまり、安心して席を確保したいか、少し気楽に乗りたいかで選び方が変わります。",
           "en": "In other words, the choice changes depending on whether you want the security of a guaranteed seat or a more flexible ride."
         },
@@ -6893,10 +6964,6 @@
         {
           "ja": "物理的なSuicaカードを使う人もいれば、スマートフォン側のIC機能を使う人もいますが、考え方は同じです。",
           "en": "Some people use a physical Suica card, while others use the IC function on a smartphone, but the basic idea is the same."
-        },
-        {
-          "ja": "これは、アメリカで生まれたコンビニの考え方が、本格的に日本へ入ってきた瞬間でした。",
-          "en": "That was the moment when the convenience store idea born in America entered Japan in a full-scale way."
         }
       ]
     },
@@ -8477,6 +8544,10 @@
           "meaning": "Polite form of 来る: to come",
           "exampleSentences": [
             {
+              "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+              "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+            },
+            {
               "ja": "つまり、日本のV2Xは「いつか来る未来技術」というより、もう見えにくい形で働いている生活のインフラです。",
               "en": "So in Japan, V2X is less a future technology that will arrive someday and more an invisible piece of daily infrastructure that is already working."
             },
@@ -8607,24 +8678,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "いっぽう自由席は、自由席車両の中で空いている席を自分で探します。",
-          "en": "With a non-reserved seat, you look for an open seat inside the non-reserved cars."
+          "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+          "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
         },
         {
-          "ja": "自由席のきっぷを持っていても、座れるのは自由席車両だけです。",
-          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+          "ja": "ホームの長さ、車両数、ブレーキの強さ、雨の日かどうかまで関係します。",
+          "en": "Platform length, number of cars, brake strength, and even whether it is raining all matter."
         },
         {
-          "ja": "だから、どの車両が自由席かを先に見ておくと安心です。",
-          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+          "ja": "多くのホームには、列車を止めるための停止位置目標があります。",
+          "en": "Many platforms have stopping-position markers for trains."
         },
         {
-          "ja": "日本で車に乗っていると、前の車が一瞬だけハザードランプを光らせることがあります。",
-          "en": "When you drive in Japan, you may sometimes see the car ahead flash its hazard lights for just a moment."
+          "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+          "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
         },
         {
-          "ja": "この合図は、車線変更や合流のときによく見られます。",
-          "en": "This signal is often seen during lane changes and merges."
+          "ja": "だから、駅での停車は「最後にブレーキをかけるだけ」の仕事ではありません。",
+          "en": "So stopping at a station is not just a matter of applying the brakes at the end."
         }
       ]
     },
@@ -8855,6 +8926,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "毎日のことなので簡単に見えますが、実際にはかなり細かい運転です。",
+          "en": "Because it happens every day, it looks easy, but in reality it is a very precise operation."
+        },
+        {
           "ja": "何気ない色の使い方ですが、毎日何百万人もの通勤客や旅行者がこの工夫に助けられています。",
           "en": "It is only a simple use of color, but every day hundreds of thousands of commuters and travelers are helped by this idea."
         },
@@ -8869,10 +8944,6 @@
         {
           "ja": "毎日たくさんの人が行き交う東京の駅だからこそ、このような技術がとても自然に街へ溶け込んでいるのかもしれません。",
           "en": "Because Tokyo stations are used by so many people every day, perhaps this kind of technology blends naturally into the city."
-        },
-        {
-          "ja": "このコースは東京でとても有名で、毎日たくさんの人が走っています。",
-          "en": "This course is very famous in Tokyo, and many people run there every day."
         }
       ]
     },
@@ -9010,6 +9081,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そして万一まちがいがあっても、すぐに直せるように仕組みと手順が用意されています。",
+          "en": "And even if a mistake happens, systems and procedures are prepared so it can be corrected safely."
+        },
+        {
           "ja": "何気ない色の使い方ですが、毎日何百万人もの通勤客や旅行者がこの工夫に助けられています。",
           "en": "It is only a simple use of color, but every day hundreds of thousands of commuters and travelers are helped by this idea."
         },
@@ -9024,10 +9099,6 @@
         {
           "ja": "スイスの人口は現在およそ910万人で、2002年から大きく増えました。",
           "en": "The proposal was promoted by the right-wing Swiss People's Party. Switzerland's population is now about 9.1 million and has grown greatly since 2002. Supporters said the burden on housing, transportation, and public services was becoming heavy."
-        },
-        {
-          "ja": "案が通れば、人口が950万人に近づいたとき、政府は移民や難民、家族の呼び寄せを厳しく制限することになります。",
-          "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
         }
       ]
     },
@@ -9234,24 +9305,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "こうして見ると、日本の鉄道は複雑そうでも、実際には目的に合わせて細かく選べるようになっています。",
-          "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+          "ja": "それでも同じ位置に止めるのは、駅に目印と手順があるからです。",
+          "en": "Even so, trains stop in the same place because stations have markers and procedures."
         },
         {
-          "ja": "現金で払えるレーンがあっても数は限られ、ETC専用のレーンのほうがずっと目立つことがあります。",
-          "en": "Even if cash lanes exist, they are limited, and ETC-only lanes often stand out much more."
+          "ja": "多くのホームには、列車を止めるための停止位置目標があります。",
+          "en": "Many platforms have stopping-position markers for trains."
         },
         {
-          "ja": "実際には目立つ場所に集中しているのですが、それだけ都市の車の移動に深く組み込まれています。",
-          "en": "In reality, it is concentrated in highly visible places, but that shows how deeply it is built into urban car travel."
+          "ja": "運転士はホームに入りながらその目標を見て、スピードを落としてブレーキを調整します。",
+          "en": "As the train enters the platform, the driver watches that marker, reduces speed, and adjusts the brakes."
         },
         {
-          "ja": "目的の駅に着いても、ホームや改札の近くで自転車を組み立てるのは避けましょう。",
-          "en": "Even after arriving at your destination, avoid assembling your bicycle near the platform or ticket gates."
+          "ja": "つまり、ただ「だいたいこのへん」で止めているのではなく、かなり具体的な目標に合わせているのです。",
+          "en": "In other words, the train is not stopped at some rough guess; it is lined up with a very specific target."
         },
         {
-          "ja": "どの線に乗ってきたかで頭がいっぱいでも、色だけで目的の情報をつかみやすくなります。",
-          "en": "Even if your head is full of route information, the color alone makes the information you need easier to grasp."
+          "ja": "目印を見て、速度を読んで、ホームの条件も考えながら止めています。",
+          "en": "Drivers watch markers, read speed, and consider the platform conditions while stopping the train."
         }
       ]
     },
@@ -9649,6 +9720,14 @@
           "meaning": "Te-form of 見る: to see, to look, to watch",
           "exampleSentences": [
             {
+              "ja": "運転士はホームに入りながらその目標を見て、スピードを落としてブレーキを調整します。",
+              "en": "As the train enters the platform, the driver watches that marker, reduces speed, and adjusts the brakes."
+            },
+            {
+              "ja": "目印を見て、速度を読んで、ホームの条件も考えながら止めています。",
+              "en": "Drivers watch markers, read speed, and consider the platform conditions while stopping the train."
+            },
+            {
               "ja": "だから、どの車両が自由席かを先に見ておくと安心です。",
               "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
             },
@@ -9659,14 +9738,6 @@
             {
               "ja": "東京の駅は数が多くて、最初は路線図を見ても迷いやすいです。",
               "en": "Tokyo has so many stations that it is easy to get lost at first, even if you look at a route map."
-            },
-            {
-              "ja": "一方、日本は、台湾の近くで大きな問題が起きれば、日本の安全にも関係すると見ています。",
-              "en": "Japan, on the other hand, thinks that if a major problem happens near Taiwan, it would also affect Japan's safety."
-            },
-            {
-              "ja": "AIは、昔からの記録を見て、空気の汚れや街の元気さがどう変わるかを予測します。",
-              "en": "AI looks at past records and predicts how air pollution and urban vitality may change."
             }
           ]
         },
@@ -12097,6 +12168,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "それでも同じ位置に止めるのは、駅に目印と手順があるからです。",
+          "en": "Even so, trains stop in the same place because stations have markers and procedures."
+        },
+        {
           "ja": "物理的なSuicaカードを使う人もいれば、スマートフォン側のIC機能を使う人もいますが、考え方は同じです。",
           "en": "Some people use a physical Suica card, while others use the IC function on a smartphone, but the basic idea is the same."
         },
@@ -12111,10 +12186,6 @@
         {
           "ja": "同じくらいの強さの地震が、近い場所で短い時間に起きることです。",
           "en": "\" It means earthquakes of similar strength happen close together in place and time."
-        },
-        {
-          "ja": "二酸化炭素、二酸化窒素、細かい粒子の汚染、緑の多さなどを同じ場所ごとに比べられます。",
-          "en": "It can compare carbon dioxide, nitrogen dioxide, fine-particle pollution, the amount of greenery, and other data for the same kinds of locations."
         }
       ]
     },
@@ -13445,6 +13516,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "だから、駅での停車は「最後にブレーキをかけるだけ」の仕事ではありません。",
+          "en": "So stopping at a station is not just a matter of applying the brakes at the end."
+        },
+        {
+          "ja": "いつもの静かな停車の後ろには、かなり緻密な仕事がかくれているのです。",
+          "en": "Behind an ordinary quiet stop, there is actually very careful work."
+        },
+        {
           "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
           "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
         },
@@ -13455,14 +13534,6 @@
         {
           "ja": "危険な時間帯には、屋外の仕事を減らし、日陰で休む時間を長くしています。",
           "en": "During dangerous time periods, they reduce outdoor work and take longer breaks in the shade."
-        },
-        {
-          "ja": "ホテルの職員は、簡単な質問をロボットにまかせることで、別の仕事に時間を使いやすくなったと話しています。",
-          "en": "Hotel staff say that by leaving simple questions to robots, they can spend more time on other work."
-        },
-        {
-          "ja": "一方で、教員からは、採点や教材づくりにAIを活用すれば、仕事の負担を減らせるという期待もあります。",
-          "en": "At the same time, teachers expect that using AI for grading and creating teaching materials could reduce their workload."
         }
       ]
     },
@@ -13982,6 +14053,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "いつもの静かな停車の後ろには、かなり緻密な仕事がかくれているのです。",
+          "en": "Behind an ordinary quiet stop, there is actually very careful work."
+        },
+        {
           "ja": "V2Xが静かに広がった理由は、この実用性の高さにあります。",
           "en": "That practical value is why V2X has spread quietly."
         }
@@ -14175,6 +14250,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ほんのわずかな場合でも、すぐドアを開けるのではなく、安全確認が必要です。",
+          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+        },
+        {
+          "ja": "そして万一まちがいがあっても、すぐに直せるように仕組みと手順が用意されています。",
+          "en": "And even if a mistake happens, systems and procedures are prepared so it can be corrected safely."
+        },
+        {
           "ja": "日本の町では、家の近くで必要なものをすぐ買えることが重視されました。",
           "en": "In Japanese towns, what mattered was being able to quickly buy what you need close to home."
         },
@@ -14185,14 +14268,6 @@
         {
           "ja": "地方で人が少なくなり、クマも多くなったため、注意喚起や対策をすぐに出す必要があります。",
           "en": "Because rural populations are shrinking and bear numbers are growing, cities need to issue warnings and take action quickly."
-        },
-        {
-          "ja": "管理者は、同じ内容を働く人や生徒にすぐ送ることができます。",
-          "en": "Managers can quickly send the same information to workers or students."
-        },
-        {
-          "ja": "頭が痛い、気分が悪いなどの症状がある時は、すぐに涼しい場所へ移動することが大切です。",
-          "en": "If symptoms such as a headache or feeling unwell appear, it is important to move to a cool place right away."
         }
       ]
     },
@@ -14241,6 +14316,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "それでも、ときどき少し行きすぎることがあります。",
+          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+        },
+        {
           "ja": "つまり、安心して席を確保したいか、少し気楽に乗りたいかで選び方が変わります。",
           "en": "In other words, the choice changes depending on whether you want the security of a guaranteed seat or a more flexible ride."
         },
@@ -14255,10 +14334,6 @@
         {
           "ja": "とても小さな行動ですが、道を少しやわらかい空気にする力があります。",
           "en": "It is a very small action, but it can make the mood on the road a little softer."
-        },
-        {
-          "ja": "混雑した道でも、相手に少し気を配ると流れがよくなることがあります。",
-          "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
         }
       ]
     },
@@ -14397,24 +14472,24 @@
           "meaning": "Polite form of する: to do",
           "exampleSentences": [
             {
+              "ja": "ホームの長さ、車両数、ブレーキの強さ、雨の日かどうかまで関係します。",
+              "en": "Platform length, number of cars, brake strength, and even whether it is raining all matter."
+            },
+            {
+              "ja": "運転士はホームに入りながらその目標を見て、スピードを落としてブレーキを調整します。",
+              "en": "As the train enters the platform, the driver watches that marker, reduces speed, and adjusts the brakes."
+            },
+            {
+              "ja": "もちろん最後は運転士が確認しますが、人と装置の両方でずれを小さくしているわけです。",
+              "en": "Of course, the driver still makes the final check, but both people and equipment work together to keep errors small."
+            },
+            {
               "ja": "いっぽう自由席は、自由席車両の中で空いている席を自分で探します。",
               "en": "With a non-reserved seat, you look for an open seat inside the non-reserved cars."
             },
             {
               "ja": "V2Xという言葉を聞くと、多くの人は自動運転の未来を想像します。",
               "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
-            },
-            {
-              "ja": "特に高速道路では、その感覚がもっとはっきりします。",
-              "en": "This feeling becomes even clearer on expressways."
-            },
-            {
-              "ja": "駅へ入る前に、通行の邪魔にならない場所で自転車を準備します。",
-              "en": "Before entering the station, prepare your bicycle somewhere that does not block pedestrian traffic."
-            },
-            {
-              "ja": "袋に入れた後は、持ち上げても部品が動かないよう、しっかり固定します。",
-              "en": "After putting the bike in the bag, secure the parts so they do not move when you lift it."
             }
           ]
         },
@@ -14426,6 +14501,10 @@
           "readingHiragana": "した",
           "meaning": "Plain past form of する: to do",
           "exampleSentences": [
+            {
+              "ja": "ただし、これは自由にやるのではなく、決められた手順にしたがって行われます。",
+              "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+            },
             {
               "ja": "つまり、安心して席を確保したいか、少し気楽に乗りたいかで選び方が変わります。",
               "en": "In other words, the choice changes depending on whether you want the security of a guaranteed seat or a more flexible ride."
@@ -14441,10 +14520,6 @@
             {
               "ja": "大きな転機の一つが、セブン-イレブンの登場でした。",
               "en": "One major turning point was the arrival of Seven-Eleven."
-            },
-            {
-              "ja": "1973年、イトーヨーカドーはアメリカの7-Elevenを展開していたサウスランド社と提携しました。",
-              "en": "In 1973, Ito-Yokado formed a partnership with Southland, the company that operated 7-Eleven in the United States."
             }
           ]
         },
@@ -14487,24 +14562,24 @@
           "meaning": "Te-form of する: to do",
           "exampleSentences": [
             {
+              "ja": "運転士はホームに入りながらその目標を見て、スピードを落としてブレーキを調整します。",
+              "en": "As the train enters the platform, the driver watches that marker, reduces speed, and adjusts the brakes."
+            },
+            {
+              "ja": "もちろん最後は運転士が確認しますが、人と装置の両方でずれを小さくしているわけです。",
+              "en": "Of course, the driver still makes the final check, but both people and equipment work together to keep errors small."
+            },
+            {
+              "ja": "状況によっては、そのままにせず、後ろへゆっくり戻して正しい位置に合わせることもあります。",
+              "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+            },
+            {
+              "ja": "そして万一まちがいがあっても、すぐに直せるように仕組みと手順が用意されています。",
+              "en": "And even if a mistake happens, systems and procedures are prepared so it can be corrected safely."
+            },
+            {
               "ja": "つまり、安心して席を確保したいか、少し気楽に乗りたいかで選び方が変わります。",
               "en": "In other words, the choice changes depending on whether you want the security of a guaranteed seat or a more flexible ride."
-            },
-            {
-              "ja": "すると駅で紙のきっぷを受け取らなくても、改札でタッチしてそのまま入れます。",
-              "en": "Then, instead of picking up a paper ticket at the station, you can simply tap at the gate and go in."
-            },
-            {
-              "ja": "急がない時は自由席、確実に座りたい時は指定席、そして改札をすばやく通りたいならSuicaなどのIC連携が役に立ちます。",
-              "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
-            },
-            {
-              "ja": "こうして見ると、日本の鉄道は複雑そうでも、実際には目的に合わせて細かく選べるようになっています。",
-              "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
-            },
-            {
-              "ja": "1973年、イトーヨーカドーはアメリカの7-Elevenを展開していたサウスランド社と提携しました。",
-              "en": "In 1973, Ito-Yokado formed a partnership with Southland, the company that operated 7-Eleven in the United States."
             }
           ]
         },
@@ -14877,6 +14952,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ホームドアがある駅などでは、決まった位置により正確に止まることが特に大切です。",
+          "en": "At stations with platform doors, for example, it is especially important to stop very accurately in the planned position."
+        },
+        {
           "ja": "だから、新幹線のきっぷは「紙かデジタルか」だけでなく、「指定席か自由席か」も大切です。",
           "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
         },
@@ -14891,10 +14970,6 @@
         {
           "ja": "移動中は、他の乗客が乗り降りしやすいか確認することも大切です。",
           "en": "During the trip, it is also important to make sure other passengers can easily get on and off."
-        },
-        {
-          "ja": "これらは速さや停車駅が違うため、名前を確認することが大切です。",
-          "en": "Because their speeds and stopping stations differ, it is important to check the name."
         }
       ]
     },
@@ -15314,24 +15389,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "それでも同じ位置に止めるのは、駅に目印と手順があるからです。",
+          "en": "Even so, trains stop in the same place because stations have markers and procedures."
+        },
+        {
+          "ja": "最近の路線では、人だけでなく機械も手伝います。",
+          "en": "On more recent railway lines, machines help as well as people."
+        },
+        {
+          "ja": "ただし、これは自由にやるのではなく、決められた手順にしたがって行われます。",
+          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+        },
+        {
+          "ja": "そして万一まちがいがあっても、すぐに直せるように仕組みと手順が用意されています。",
+          "en": "And even if a mistake happens, systems and procedures are prepared so it can be corrected safely."
+        },
+        {
           "ja": "外国ではクラクションや手であいさつすることが多い場所もありますが、日本では大きな音を出さない形のほうが合いやすいのかもしれません。",
           "en": "In some other countries, people more often use the horn or wave with their hand, but in Japan a quieter form may fit better."
-        },
-        {
-          "ja": "混雑した道でも、相手に少し気を配ると流れがよくなることがあります。",
-          "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
-        },
-        {
-          "ja": "車両の端などで輪行袋を手で支え、急ブレーキで倒れないようにしてください。",
-          "en": "Hold the bike bag near the end of the car so it does not fall during sudden braking."
-        },
-        {
-          "ja": "品川に着けば、そこから山手線やほかの路線に乗り換えやすく、都心への移動がしやすくなります。",
-          "en": "Once you reach Shinagawa, it is easy to transfer to the Yamanote Line and other routes into the city center."
-        },
-        {
-          "ja": "その中心にあるのが、東京を輪のように回る山手線です。",
-          "en": "At the center of that network is the Yamanote Line, which circles Tokyo like a loop."
         }
       ]
     },
@@ -15483,6 +15558,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+          "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
+        },
+        {
+          "ja": "ホームドアがある駅などでは、決まった位置により正確に止まることが特に大切です。",
+          "en": "At stations with platform doors, for example, it is especially important to stop very accurately in the planned position."
+        },
+        {
           "ja": "同じ方向へ行く電車でも、止まる駅は同じではありません。",
           "en": "Even trains going in the same direction do not all stop at the same stations."
         }
@@ -15499,6 +15582,14 @@
           "meaning": "Polite form of 止まる: to stop (moving)",
           "exampleSentences": [
             {
+              "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+              "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
+            },
+            {
+              "ja": "ホームドアがある駅などでは、決まった位置により正確に止まることが特に大切です。",
+              "en": "At stations with platform doors, for example, it is especially important to stop very accurately in the planned position."
+            },
+            {
               "ja": "同じ方向へ行く電車でも、止まる駅は同じではありません。",
               "en": "Even trains going in the same direction do not all stop at the same stations."
             }
@@ -15512,6 +15603,14 @@
           "readingHiragana": "とまった",
           "meaning": "Plain past form of 止まる: to stop (moving)",
           "exampleSentences": [
+            {
+              "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+              "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
+            },
+            {
+              "ja": "ホームドアがある駅などでは、決まった位置により正確に止まることが特に大切です。",
+              "en": "At stations with platform doors, for example, it is especially important to stop very accurately in the planned position."
+            },
             {
               "ja": "同じ方向へ行く電車でも、止まる駅は同じではありません。",
               "en": "Even trains going in the same direction do not all stop at the same stations."
@@ -15527,6 +15626,14 @@
           "meaning": "Plain negative form of 止まる: to stop (moving)",
           "exampleSentences": [
             {
+              "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+              "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
+            },
+            {
+              "ja": "ホームドアがある駅などでは、決まった位置により正確に止まることが特に大切です。",
+              "en": "At stations with platform doors, for example, it is especially important to stop very accurately in the planned position."
+            },
+            {
               "ja": "同じ方向へ行く電車でも、止まる駅は同じではありません。",
               "en": "Even trains going in the same direction do not all stop at the same stations."
             }
@@ -15541,6 +15648,14 @@
           "meaning": "Te-form of 止まる: to stop (moving)",
           "exampleSentences": [
             {
+              "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+              "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
+            },
+            {
+              "ja": "ホームドアがある駅などでは、決まった位置により正確に止まることが特に大切です。",
+              "en": "At stations with platform doors, for example, it is especially important to stop very accurately in the planned position."
+            },
+            {
               "ja": "同じ方向へ行く電車でも、止まる駅は同じではありません。",
               "en": "Even trains going in the same direction do not all stop at the same stations."
             }
@@ -15554,6 +15669,14 @@
           "readingHiragana": "とまれる",
           "meaning": "Potential form of 止まる: to stop (moving)",
           "exampleSentences": [
+            {
+              "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+              "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
+            },
+            {
+              "ja": "ホームドアがある駅などでは、決まった位置により正確に止まることが特に大切です。",
+              "en": "At stations with platform doors, for example, it is especially important to stop very accurately in the planned position."
+            },
             {
               "ja": "同じ方向へ行く電車でも、止まる駅は同じではありません。",
               "en": "Even trains going in the same direction do not all stop at the same stations."
@@ -15822,6 +15945,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+          "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+        },
+        {
+          "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+          "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
+        },
+        {
           "ja": "つまり日本では、コンビニは単なる小さな店ではなく、近所の便利な拠点として育っていきました。",
           "en": "” In Japan, that meant convenience stores grew not just as small shops, but as useful local hubs."
         },
@@ -15832,14 +15963,6 @@
         {
           "ja": "高速道路の入口だけでなく、料金所の案内や道路標識にもETCの表示が多く、はじめての人は「ここではETCが当たり前なのだ」と感じやすいです。",
           "en": "It appears not only at expressway entrances, but also on toll guidance and road signs, so first-time drivers easily feel that ETC is simply taken for granted here."
-        },
-        {
-          "ja": "料金が自動で計算され、車を止めずに精算できるので、東京のように交通量が多い場所ではとても効率的です。",
-          "en": "Tolls are calculated automatically, and you can pay without stopping the car, which is highly efficient in a place with as much traffic as Tokyo."
-        },
-        {
-          "ja": "実際には目立つ場所に集中しているのですが、それだけ都市の車の移動に深く組み込まれています。",
-          "en": "In reality, it is concentrated in highly visible places, but that shows how deeply it is built into urban car travel."
         }
       ]
     },
@@ -16960,6 +17083,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "状況によっては、そのままにせず、後ろへゆっくり戻して正しい位置に合わせることもあります。",
+          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+        },
+        {
+          "ja": "いつもの静かな停車の後ろには、かなり緻密な仕事がかくれているのです。",
+          "en": "Behind an ordinary quiet stop, there is actually very careful work."
+        },
+        {
           "ja": "ハザードなら後ろの車にも見えやすく、短時間で終わります。",
           "en": "Hazard lights are easy for the car behind to see and only last a short time."
         },
@@ -17447,7 +17578,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "ただし、これは自由にやるのではなく、決められた手順にしたがって行われます。",
+          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "godan",
       "verbForms": [
@@ -17458,7 +17594,12 @@
           "term": "やります",
           "readingHiragana": "やります",
           "meaning": "Polite form of やる: to do",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "ただし、これは自由にやるのではなく、決められた手順にしたがって行われます。",
+              "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+            }
+          ]
         },
         {
           "form": "past",
@@ -17467,7 +17608,12 @@
           "term": "やった",
           "readingHiragana": "やった",
           "meaning": "Plain past form of やる: to do",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "ただし、これは自由にやるのではなく、決められた手順にしたがって行われます。",
+              "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -17476,7 +17622,12 @@
           "term": "やらない",
           "readingHiragana": "やらない",
           "meaning": "Plain negative form of やる: to do",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "ただし、これは自由にやるのではなく、決められた手順にしたがって行われます。",
+              "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+            }
+          ]
         },
         {
           "form": "te",
@@ -17485,7 +17636,12 @@
           "term": "やって",
           "readingHiragana": "やって",
           "meaning": "Te-form of やる: to do",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "ただし、これは自由にやるのではなく、決められた手順にしたがって行われます。",
+              "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -17494,7 +17650,12 @@
           "term": "やれる",
           "readingHiragana": "やれる",
           "meaning": "Potential form of やる: to do",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "ただし、これは自由にやるのではなく、決められた手順にしたがって行われます。",
+              "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+            }
+          ]
         }
       ]
     },
@@ -17690,6 +17851,10 @@
           "meaning": "Polite form of 呼ぶ: to call out, to call",
           "exampleSentences": [
             {
+              "ja": "これをオーバーランと呼びます。",
+              "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+            },
+            {
               "ja": "専門家は、このような地震を「ダブレット」と呼びます。",
               "en": "Experts call this kind of event a \"doublet."
             }
@@ -17869,6 +18034,10 @@
           "meaning": "Te-form of 読む: to read",
           "exampleSentences": [
             {
+              "ja": "目印を見て、速度を読んで、ホームの条件も考えながら止めています。",
+              "en": "Drivers watch markers, read speed, and consider the platform conditions while stopping the train."
+            },
+            {
               "ja": "まるで都市の「脈」を読むような研究です。",
               "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
             },
@@ -18000,6 +18169,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "状況によっては、そのままにせず、後ろへゆっくり戻して正しい位置に合わせることもあります。",
+          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+        },
         {
           "ja": "速く走る人もいれば、ゆっくり自分のペースで走る人もいます。",
           "en": "Some people run fast, while others run slowly at their own pace."
@@ -18192,20 +18365,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+          "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+        },
+        {
+          "ja": "ホームドアがある駅などでは、決まった位置により正確に止まることが特に大切です。",
+          "en": "At stations with platform doors, for example, it is especially important to stop very accurately in the planned position."
+        },
+        {
+          "ja": "ほんのわずかな場合でも、すぐドアを開けるのではなく、安全確認が必要です。",
+          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+        },
+        {
           "ja": "電車に乗ったら、ドアの前や通路をふさがない場所を選びます。",
           "en": "Once on the train, choose a place where the bicycle will not block the doors or aisle."
         },
         {
           "ja": "浜松駅にはホームドアがありませんでした。",
           "en": "Hamamatsu Station did not have platform doors."
-        },
-        {
-          "ja": "JR東海によると、東海道新幹線の17駅のうち、ホームドアがあるのは東京、名古屋、新大阪など7駅です。",
-          "en": "According to JR Central, seven of the 17 Tokaido Shinkansen stations—including Tokyo, Nagoya, and Shin-Osaka—have platform doors."
-        },
-        {
-          "ja": "ホームドアがない駅では、安全のために職員がホームを見回っています。",
-          "en": "At stations without platform doors, staff patrol the platforms for safety."
         }
       ]
     },
@@ -18998,6 +19175,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ほんのわずかな場合でも、すぐドアを開けるのではなく、安全確認が必要です。",
+          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+        },
+        {
           "ja": "だからこそ、お礼として使う時もごく短く、安全を第一にすることが大切です。",
           "en": "That is exactly why, when they are used as thanks, it should be only very brief and safety should come first."
         },
@@ -19012,10 +19193,6 @@
         {
           "ja": "速さと安全性を両立しているからこそ、毎日の大きな移動が安定して続けられるのです。",
           "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
-        },
-        {
-          "ja": "しかし、政治や安全保障の問題では、なかなか意見が合いません。",
-          "en": "However, in politics and security, it is hard for the two countries to agree."
         }
       ]
     },
@@ -19466,6 +19643,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+          "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+        },
+        {
+          "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+          "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
+        },
+        {
           "ja": "外国ではクラクションや手であいさつすることが多い場所もありますが、日本では大きな音を出さない形のほうが合いやすいのかもしれません。",
           "en": "In some other countries, people more often use the horn or wave with their hand, but in Japan a quieter form may fit better."
         },
@@ -19476,14 +19661,6 @@
         {
           "ja": "実際には目立つ場所に集中しているのですが、それだけ都市の車の移動に深く組み込まれています。",
           "en": "In reality, it is concentrated in highly visible places, but that shows how deeply it is built into urban car travel."
-        },
-        {
-          "ja": "駅へ入る前に、通行の邪魔にならない場所で自転車を準備します。",
-          "en": "Before entering the station, prepare your bicycle somewhere that does not block pedestrian traffic."
-        },
-        {
-          "ja": "電車に乗ったら、ドアの前や通路をふさがない場所を選びます。",
-          "en": "Once on the train, choose a place where the bicycle will not block the doors or aisle."
         }
       ]
     },
@@ -19915,6 +20092,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "だから、駅での停車は「最後にブレーキをかけるだけ」の仕事ではありません。",
+          "en": "So stopping at a station is not just a matter of applying the brakes at the end."
+        },
+        {
           "ja": "だから、どの車両が自由席かを先に見ておくと安心です。",
           "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
         },
@@ -19929,10 +20110,6 @@
         {
           "ja": "だからこそ、お礼として使う時もごく短く、安全を第一にすることが大切です。",
           "en": "That is exactly why, when they are used as thanks, it should be only very brief and safety should come first."
-        },
-        {
-          "ja": "だから、車が自分だけで考えるより、道路の側が先に状況を知らせるほうが役に立ちます。",
-          "en": "Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself."
         }
       ]
     },
@@ -22045,6 +22222,10 @@
           "meaning": "Potential form of 開く: to open, to undo",
           "exampleSentences": [
             {
+              "ja": "ほんのわずかな場合でも、すぐドアを開けるのではなく、安全確認が必要です。",
+              "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+            },
+            {
               "ja": "報道によると、この案には60日間の停戦と、ホルムズ海峡を再び開くことが含まれています。",
               "en": "According to reports, the plan includes a 60-day ceasefire and reopening the Strait of Hormuz."
             }
@@ -23039,6 +23220,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ただし、これは自由にやるのではなく、決められた手順にしたがって行われます。",
+          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+        },
+        {
           "ja": "新幹線に乗るとき、「指定席」と「自由席」の違いがわかりにくいと感じる人は多いです。",
           "en": "When riding the Shinkansen, many people feel that the difference between reserved and non-reserved seats is confusing."
         },
@@ -23052,10 +23237,6 @@
         },
         {
           "ja": "自由席のきっぷを持っていても、座れるのは自由席車両だけです。",
-          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
-        },
-        {
-          "ja": "だから、どの車両が自由席かを先に見ておくと安心です。",
           "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
         }
       ]
@@ -23926,6 +24107,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ホームの長さ、車両数、ブレーキの強さ、雨の日かどうかまで関係します。",
+          "en": "Platform length, number of cars, brake strength, and even whether it is raining all matter."
+        },
+        {
           "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
           "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
         },
@@ -23940,10 +24125,6 @@
         {
           "ja": "一方、日本は、台湾の近くで大きな問題が起きれば、日本の安全にも関係すると見ています。",
           "en": "Japan, on the other hand, thinks that if a major problem happens near Taiwan, it would also affect Japan's safety."
-        },
-        {
-          "ja": "しかし、もしアメリカと中国の関係が少しよくなると、日本は不安になります。",
-          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
         }
       ]
     },
@@ -23976,6 +24157,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "毎日のことなので簡単に見えますが、実際にはかなり細かい運転です。",
+          "en": "Because it happens every day, it looks easy, but in reality it is a very precise operation."
+        },
         {
           "ja": "これだけで、電車の選び方がかなり簡単になります。",
           "en": "That alone makes choosing a train much easier."
@@ -25418,6 +25603,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "毎日のことなので簡単に見えますが、実際にはかなり細かい運転です。",
+          "en": "Because it happens every day, it looks easy, but in reality it is a very precise operation."
+        },
+        {
           "ja": "このように、細かい列車の名前を全部覚えていなくても、まず路線のどちら側に行きたいかがわかれば、正しい電車をかなり選びやすくなります。",
           "en": "In this way, even if you do not remember every train name, knowing which side of the line you need first makes it much easier to choose the right train."
         },
@@ -25432,10 +25621,6 @@
         {
           "ja": "細かい水を空気に出して、少しでも涼しくすることが目的です。",
           "en": "The goal is to spray fine water into the air and make the area a little cooler."
-        },
-        {
-          "ja": "一方で、細かい相談や、急なトラブルには、やはり人の対応が必要です。",
-          "en": "At the same time, detailed requests and sudden trouble still require human support."
         }
       ]
     },
@@ -25735,6 +25920,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "だから、駅での停車は「最後にブレーキをかけるだけ」の仕事ではありません。",
+          "en": "So stopping at a station is not just a matter of applying the brakes at the end."
+        },
+        {
+          "ja": "いつもの静かな停車の後ろには、かなり緻密な仕事がかくれているのです。",
+          "en": "Behind an ordinary quiet stop, there is actually very careful work."
+        },
+        {
           "ja": "何気ない二回の点滅は、ただのランプではなく、「わかっています、ありがとう」という返事にも見えるのです。",
           "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
         },
@@ -25745,14 +25938,6 @@
         {
           "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
           "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
-        },
-        {
-          "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
-          "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
-        },
-        {
-          "ja": "昔は港や工業用地が多かった場所が、仕事、買い物、遊びを楽しめるエリアに変わっていきました。",
-          "en": "Places that once had many port facilities and industrial sites changed into an area for work, shopping, and entertainment."
         }
       ]
     },
@@ -27162,6 +27347,10 @@
           "meaning": "Polite form of 見える: to be seen, to be in sight",
           "exampleSentences": [
             {
+              "ja": "毎日のことなので簡単に見えますが、実際にはかなり細かい運転です。",
+              "en": "Because it happens every day, it looks easy, but in reality it is a very precise operation."
+            },
+            {
               "ja": "今の日本では、コンビニはどこにでもある店に見えます。",
               "en": "In Japan today, convenience stores seem to be everywhere."
             },
@@ -27176,10 +27365,6 @@
             {
               "ja": "だから、東京で運転するとETCが「どこにでもある」ように見えるのです。",
               "en": "That is why ETC can look as if it is everywhere when you drive in Tokyo."
-            },
-            {
-              "ja": "未来的に見えるシステムでも、実際の公共交通として使えることを示したのです。",
-              "en": "It showed that a futuristic-looking system could also work as real public transportation."
             }
           ]
         },
@@ -27516,6 +27701,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "もちろん最後は運転士が確認しますが、人と装置の両方でずれを小さくしているわけです。",
+          "en": "Of course, the driver still makes the final check, but both people and equipment work together to keep errors small."
+        },
         {
           "ja": "もちろん、これは法律で決まった義務ではなく、すべての人がするわけでもありません。",
           "en": "Of course, this is not a legal duty, and not everyone does it."
@@ -28595,7 +28784,12 @@
           "term": "直せる",
           "readingHiragana": "なおせる",
           "meaning": "Potential form of 直す: to fix, to repair",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "そして万一まちがいがあっても、すぐに直せるように仕組みと手順が用意されています。",
+              "en": "And even if a mistake happens, systems and procedures are prepared so it can be corrected safely."
+            }
+          ]
         }
       ]
     },
@@ -30838,7 +31032,12 @@
           "term": "落として",
           "readingHiragana": "おとして",
           "meaning": "Te-form of 落とす: to drop, to let fall",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "運転士はホームに入りながらその目標を見て、スピードを落としてブレーキを調整します。",
+              "en": "As the train enters the platform, the driver watches that marker, reduces speed, and adjusts the brakes."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -31093,6 +31292,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "もちろん最後は運転士が確認しますが、人と装置の両方でずれを小さくしているわけです。",
+          "en": "Of course, the driver still makes the final check, but both people and equipment work together to keep errors small."
+        },
         {
           "ja": "乗る前に、発車標で行き先と種別の両方を確認しましょう。",
           "en": "Before getting on, check both the destination and the service type on the departure board."
@@ -31445,6 +31648,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "もちろん最後は運転士が確認しますが、人と装置の両方でずれを小さくしているわけです。",
+          "en": "Of course, the driver still makes the final check, but both people and equipment work together to keep errors small."
+        },
+        {
+          "ja": "だから、駅での停車は「最後にブレーキをかけるだけ」の仕事ではありません。",
+          "en": "So stopping at a station is not just a matter of applying the brakes at the end."
+        },
+        {
           "ja": "最後の第5戦は94対90の接戦でした。",
           "en": "The final Game 5 was a close 94-90 game."
         },
@@ -31455,10 +31666,6 @@
         {
           "ja": "市の職員はドローンを使ってクマを探し、最後は獣医が麻酔の銃でクマを止めました。",
           "en": "City workers used a drone to search for it, and in the end a veterinarian stopped the bear with a tranquilizer gun."
-        },
-        {
-          "ja": "どのグループが最後に選ばれるのかが、市場で大きな話題になっています。",
-          "en": "The market is closely watching which group will be chosen in the end."
         }
       ]
     },
@@ -31476,6 +31683,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "最近の路線では、人だけでなく機械も手伝います。",
+          "en": "On more recent railway lines, machines help as well as people."
+        },
         {
           "ja": "最近は、紙のきっぷを出さなくても乗れる方法が広がっています。",
           "en": "Recently, more ways have spread that let people ride without printing paper tickets."
@@ -32018,6 +32229,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "最近の路線では、人だけでなく機械も手伝います。",
+          "en": "On more recent railway lines, machines help as well as people."
+        },
+        {
           "ja": "新幹線に乗るとき、「指定席」と「自由席」の違いがわかりにくいと感じる人は多いです。",
           "en": "When riding the Shinkansen, many people feel that the difference between reserved and non-reserved seats is confusing."
         },
@@ -32032,10 +32247,6 @@
         {
           "ja": "だから、新幹線のきっぷは「紙かデジタルか」だけでなく、「指定席か自由席か」も大切です。",
           "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
-        },
-        {
-          "ja": "この合図は、車線変更や合流のときによく見られます。",
-          "en": "This signal is often seen during lane changes and merges."
         }
       ]
     },
@@ -33181,6 +33392,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "それでも同じ位置に止めるのは、駅に目印と手順があるからです。",
+          "en": "Even so, trains stop in the same place because stations have markers and procedures."
+        },
+        {
+          "ja": "それでも、ときどき少し行きすぎることがあります。",
+          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+        },
+        {
           "ja": "それでも、この短い光には日本らしい運転文化がよく出ています。",
           "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
         },
@@ -33886,6 +34105,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "状況によっては、そのままにせず、後ろへゆっくり戻して正しい位置に合わせることもあります。",
+          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+        },
         {
           "ja": "このように、細かい列車の名前を全部覚えていなくても、まず路線のどちら側に行きたいかがわかれば、正しい電車をかなり選びやすくなります。",
           "en": "In this way, even if you do not remember every train name, knowing which side of the line you need first makes it much easier to choose the right train."
@@ -34756,7 +34979,12 @@
           "term": "手伝います",
           "readingHiragana": "てつだいます",
           "meaning": "Polite form of 手伝う: to help, to assist, to aid",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "最近の路線では、人だけでなく機械も手伝います。",
+              "en": "On more recent railway lines, machines help as well as people."
+            }
+          ]
         },
         {
           "form": "past",
@@ -34928,6 +35156,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "ホームドアがある駅などでは、決まった位置により正確に止まることが特に大切です。",
+          "en": "At stations with platform doors, for example, it is especially important to stop very accurately in the planned position."
+        },
         {
           "ja": "特に高速道路では、その感覚がもっとはっきりします。",
           "en": "This feeling becomes even clearer on expressways."
@@ -36442,24 +36674,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "毎日のことなので簡単に見えますが、実際にはかなり細かい運転です。",
+          "en": "Because it happens every day, it looks easy, but in reality it is a very precise operation."
+        },
+        {
+          "ja": "運転士はホームに入りながらその目標を見て、スピードを落としてブレーキを調整します。",
+          "en": "As the train enters the platform, the driver watches that marker, reduces speed, and adjusts the brakes."
+        },
+        {
+          "ja": "もちろん最後は運転士が確認しますが、人と装置の両方でずれを小さくしているわけです。",
+          "en": "Of course, the driver still makes the final check, but both people and equipment work together to keep errors small."
+        },
+        {
           "ja": "言葉は聞こえませんが、運転者同士で気持ちを伝える方法として使われています。",
           "en": "No words can be heard, but it is used as a way for drivers to communicate their feelings."
         },
         {
           "ja": "それでも、この短い光には日本らしい運転文化がよく出ています。",
           "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
-        },
-        {
-          "ja": "V2Xという言葉を聞くと、多くの人は自動運転の未来を想像します。",
-          "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
-        },
-        {
-          "ja": "つまりV2Xは、未来の実験だけでなく、すでに日常の運転の中にも入っているのです。",
-          "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
-        },
-        {
-          "ja": "そう考えると、ふつうの運転も少し未来的に見えてきます。",
-          "en": "Seen that way, ordinary driving starts to look a little futuristic."
         }
       ]
     },
@@ -37419,6 +37651,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "それでも同じ位置に止めるのは、駅に目印と手順があるからです。",
+          "en": "Even so, trains stop in the same place because stations have markers and procedures."
+        },
+        {
+          "ja": "多くのホームには、列車を止めるための停止位置目標があります。",
+          "en": "Many platforms have stopping-position markers for trains."
+        },
+        {
           "ja": "新しい計画では、揺れを感知すると自動的に電気を止める感震ブレーカーの普及を進めます。",
           "en": "The new plan will promote seismic circuit breakers that automatically shut off electricity when they detect shaking."
         }
@@ -37435,6 +37675,14 @@
           "meaning": "Polite form of 止める: to stop",
           "exampleSentences": [
             {
+              "ja": "それでも同じ位置に止めるのは、駅に目印と手順があるからです。",
+              "en": "Even so, trains stop in the same place because stations have markers and procedures."
+            },
+            {
+              "ja": "多くのホームには、列車を止めるための停止位置目標があります。",
+              "en": "Many platforms have stopping-position markers for trains."
+            },
+            {
               "ja": "新しい計画では、揺れを感知すると自動的に電気を止める感震ブレーカーの普及を進めます。",
               "en": "The new plan will promote seismic circuit breakers that automatically shut off electricity when they detect shaking."
             }
@@ -37448,6 +37696,14 @@
           "readingHiragana": "やめた",
           "meaning": "Plain past form of 止める: to stop",
           "exampleSentences": [
+            {
+              "ja": "それでも同じ位置に止めるのは、駅に目印と手順があるからです。",
+              "en": "Even so, trains stop in the same place because stations have markers and procedures."
+            },
+            {
+              "ja": "多くのホームには、列車を止めるための停止位置目標があります。",
+              "en": "Many platforms have stopping-position markers for trains."
+            },
             {
               "ja": "新しい計画では、揺れを感知すると自動的に電気を止める感震ブレーカーの普及を進めます。",
               "en": "The new plan will promote seismic circuit breakers that automatically shut off electricity when they detect shaking."
@@ -37467,6 +37723,14 @@
               "en": "Even on short stretches, there are many entrances and exits, so using ETC is very important to keep traffic moving."
             },
             {
+              "ja": "それでも同じ位置に止めるのは、駅に目印と手順があるからです。",
+              "en": "Even so, trains stop in the same place because stations have markers and procedures."
+            },
+            {
+              "ja": "多くのホームには、列車を止めるための停止位置目標があります。",
+              "en": "Many platforms have stopping-position markers for trains."
+            },
+            {
               "ja": "新しい計画では、揺れを感知すると自動的に電気を止める感震ブレーカーの普及を進めます。",
               "en": "The new plan will promote seismic circuit breakers that automatically shut off electricity when they detect shaking."
             }
@@ -37481,6 +37745,22 @@
           "meaning": "Te-form of 止める: to stop",
           "exampleSentences": [
             {
+              "ja": "つまり、ただ「だいたいこのへん」で止めているのではなく、かなり具体的な目標に合わせているのです。",
+              "en": "In other words, the train is not stopped at some rough guess; it is lined up with a very specific target."
+            },
+            {
+              "ja": "目印を見て、速度を読んで、ホームの条件も考えながら止めています。",
+              "en": "Drivers watch markers, read speed, and consider the platform conditions while stopping the train."
+            },
+            {
+              "ja": "それでも同じ位置に止めるのは、駅に目印と手順があるからです。",
+              "en": "Even so, trains stop in the same place because stations have markers and procedures."
+            },
+            {
+              "ja": "多くのホームには、列車を止めるための停止位置目標があります。",
+              "en": "Many platforms have stopping-position markers for trains."
+            },
+            {
               "ja": "新しい計画では、揺れを感知すると自動的に電気を止める感震ブレーカーの普及を進めます。",
               "en": "The new plan will promote seismic circuit breakers that automatically shut off electricity when they detect shaking."
             }
@@ -37494,6 +37774,14 @@
           "readingHiragana": "やめられる",
           "meaning": "Potential form of 止める: to stop",
           "exampleSentences": [
+            {
+              "ja": "それでも同じ位置に止めるのは、駅に目印と手順があるからです。",
+              "en": "Even so, trains stop in the same place because stations have markers and procedures."
+            },
+            {
+              "ja": "多くのホームには、列車を止めるための停止位置目標があります。",
+              "en": "Many platforms have stopping-position markers for trains."
+            },
             {
               "ja": "新しい計画では、揺れを感知すると自動的に電気を止める感震ブレーカーの普及を進めます。",
               "en": "The new plan will promote seismic circuit breakers that automatically shut off electricity when they detect shaking."
@@ -37563,6 +37851,14 @@
           "readingHiragana": "やめる",
           "meaning": "Potential form of 止む: to cease, to stop",
           "exampleSentences": [
+            {
+              "ja": "それでも同じ位置に止めるのは、駅に目印と手順があるからです。",
+              "en": "Even so, trains stop in the same place because stations have markers and procedures."
+            },
+            {
+              "ja": "多くのホームには、列車を止めるための停止位置目標があります。",
+              "en": "Many platforms have stopping-position markers for trains."
+            },
             {
               "ja": "新しい計画では、揺れを感知すると自動的に電気を止める感震ブレーカーの普及を進めます。",
               "en": "The new plan will promote seismic circuit breakers that automatically shut off electricity when they detect shaking."
@@ -37695,6 +37991,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そして万一まちがいがあっても、すぐに直せるように仕組みと手順が用意されています。",
+          "en": "And even if a mistake happens, systems and procedures are prepared so it can be corrected safely."
+        },
+        {
           "ja": "V2Xが静かに広がった理由は、この実用性の高さにあります。",
           "en": "That practical value is why V2X has spread quietly."
         },
@@ -37709,10 +38009,6 @@
         {
           "ja": "ETC専用、ETC一般という表示が何度も出てくるのは、その仕組みが交通を支えているからです。",
           "en": "Signs like ETC-only and ETC/general appear again and again because this system helps support traffic flow."
-        },
-        {
-          "ja": "多くの鉄道会社では、自転車を分解したり折りたたんだりして、専用の輪行袋に完全に入れる必要があります。",
-          "en": "Many railway companies require bicycles to be disassembled or folded and completely placed inside a dedicated bike transport bag."
         }
       ]
     },
@@ -37973,6 +38269,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "そして万一まちがいがあっても、すぐに直せるように仕組みと手順が用意されています。",
+          "en": "And even if a mistake happens, systems and procedures are prepared so it can be corrected safely."
+        },
         {
           "ja": "車輪を外すタイプでは、工具や固定用ベルトを用意すると安心です。",
           "en": "For bikes that require wheel removal, it is helpful to bring tools and fastening straps."
@@ -39728,6 +40028,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "状況によっては、そのままにせず、後ろへゆっくり戻して正しい位置に合わせることもあります。",
+          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+        },
+        {
           "ja": "ベンチや日陰と組み合わせることで、熱中症の予防にもつなげたいとしています。",
           "en": "By combining the mist with benches and shade, the cities also hope to help prevent heatstroke."
         }
@@ -39743,6 +40047,10 @@
           "readingHiragana": "あわせます",
           "meaning": "Polite form of 合わせる: to match, to join together",
           "exampleSentences": [
+            {
+              "ja": "状況によっては、そのままにせず、後ろへゆっくり戻して正しい位置に合わせることもあります。",
+              "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+            },
             {
               "ja": "ベンチや日陰と組み合わせることで、熱中症の予防にもつなげたいとしています。",
               "en": "By combining the mist with benches and shade, the cities also hope to help prevent heatstroke."
@@ -39762,6 +40070,10 @@
               "en": "Signs that combine a yellow background with black text and arrows stand out well even in crowded stations."
             },
             {
+              "ja": "状況によっては、そのままにせず、後ろへゆっくり戻して正しい位置に合わせることもあります。",
+              "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+            },
+            {
               "ja": "ベンチや日陰と組み合わせることで、熱中症の予防にもつなげたいとしています。",
               "en": "By combining the mist with benches and shade, the cities also hope to help prevent heatstroke."
             }
@@ -39775,6 +40087,10 @@
           "readingHiragana": "あわせない",
           "meaning": "Plain negative form of 合わせる: to match, to join together",
           "exampleSentences": [
+            {
+              "ja": "状況によっては、そのままにせず、後ろへゆっくり戻して正しい位置に合わせることもあります。",
+              "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+            },
             {
               "ja": "ベンチや日陰と組み合わせることで、熱中症の予防にもつなげたいとしています。",
               "en": "By combining the mist with benches and shade, the cities also hope to help prevent heatstroke."
@@ -39790,12 +40106,20 @@
           "meaning": "Te-form of 合わせる: to match, to join together",
           "exampleSentences": [
             {
+              "ja": "つまり、ただ「だいたいこのへん」で止めているのではなく、かなり具体的な目標に合わせているのです。",
+              "en": "In other words, the train is not stopped at some rough guess; it is lined up with a very specific target."
+            },
+            {
               "ja": "こうして見ると、日本の鉄道は複雑そうでも、実際には目的に合わせて細かく選べるようになっています。",
               "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
             },
             {
               "ja": "日本の町や生活に合わせて作り替えたからこそ、今日のコンビニ文化ができました。",
               "en": "Because it was reshaped to fit Japanese towns and daily life, today’s convenience store culture became possible."
+            },
+            {
+              "ja": "状況によっては、そのままにせず、後ろへゆっくり戻して正しい位置に合わせることもあります。",
+              "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
             },
             {
               "ja": "ベンチや日陰と組み合わせることで、熱中症の予防にもつなげたいとしています。",
@@ -39811,6 +40135,10 @@
           "readingHiragana": "あわせられる",
           "meaning": "Potential form of 合わせる: to match, to join together",
           "exampleSentences": [
+            {
+              "ja": "状況によっては、そのままにせず、後ろへゆっくり戻して正しい位置に合わせることもあります。",
+              "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+            },
             {
               "ja": "ベンチや日陰と組み合わせることで、熱中症の予防にもつなげたいとしています。",
               "en": "By combining the mist with benches and shade, the cities also hope to help prevent heatstroke."
@@ -39898,24 +40226,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+          "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+        },
+        {
+          "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+          "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
+        },
+        {
+          "ja": "ほんのわずかな場合でも、すぐドアを開けるのではなく、安全確認が必要です。",
+          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+        },
+        {
           "ja": "大きな転機の一つが、セブン-イレブンの登場でした。",
           "en": "One major turning point was the arrival of Seven-Eleven."
         },
         {
           "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
           "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
-        },
-        {
-          "ja": "外国ではクラクションや手であいさつすることが多い場所もありますが、日本では大きな音を出さない形のほうが合いやすいのかもしれません。",
-          "en": "In some other countries, people more often use the horn or wave with their hand, but in Japan a quieter form may fit better."
-        },
-        {
-          "ja": "料金が自動で計算され、車を止めずに精算できるので、東京のように交通量が多い場所ではとても効率的です。",
-          "en": "Tolls are calculated automatically, and you can pay without stopping the car, which is highly efficient in a place with as much traffic as Tokyo."
-        },
-        {
-          "ja": "実際には目立つ場所に集中しているのですが、それだけ都市の車の移動に深く組み込まれています。",
-          "en": "In reality, it is concentrated in highly visible places, but that shows how deeply it is built into urban car travel."
         }
       ]
     },
@@ -41963,6 +42291,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "目印を見て、速度を読んで、ホームの条件も考えながら止めています。",
+          "en": "Drivers watch markers, read speed, and consider the platform conditions while stopping the train."
+        },
+        {
           "ja": "ETC専用、ETC一般という表示が何度も出てくるのは、その仕組みが交通を支えているからです。",
           "en": "Signs like ETC-only and ETC/general appear again and again because this system helps support traffic flow."
         },
@@ -41977,10 +42309,6 @@
         {
           "ja": "スイスのバーゼルでは38度近くまで上がり、オランダでは初めて暑さに関する赤い警報が出されました。",
           "en": "In Basel, Switzerland, temperatures rose close to 38 degrees Celsius, and the Netherlands issued its first red alert for heat."
-        },
-        {
-          "ja": "太陽の活動が強くなり、地球の大気が広がったため、予想より強い抵抗を受けて高度が下がりました。",
-          "en": "Stronger solar activity expanded Earth's atmosphere, so the telescope experienced more drag than expected and lost altitude."
         }
       ]
     },
@@ -42188,6 +42516,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "ホームの長さ、車両数、ブレーキの強さ、雨の日かどうかまで関係します。",
+          "en": "Platform length, number of cars, brake strength, and even whether it is raining all matter."
+        },
         {
           "ja": "二つの台風は、上陸するかどうかだけでなく、海の波や強い雨にも注意が必要です。",
           "en": "With the two typhoons, people need to watch not only whether they make landfall, but also ocean waves and heavy rain."
@@ -44607,7 +44939,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "つまり、ただ「だいたいこのへん」で止めているのではなく、かなり具体的な目標に合わせているのです。",
+          "en": "In other words, the train is not stopped at some rough guess; it is lined up with a very specific target."
+        }
+      ]
     },
     {
       "id": "core-1500c5b4223838",
@@ -48010,6 +48347,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "もちろん最後は運転士が確認しますが、人と装置の両方でずれを小さくしているわけです。",
+          "en": "Of course, the driver still makes the final check, but both people and equipment work together to keep errors small."
+        },
+        {
           "ja": "つまり、安心して席を確保したいか、少し気楽に乗りたいかで選び方が変わります。",
           "en": "In other words, the choice changes depending on whether you want the security of a guaranteed seat or a more flexible ride."
         },
@@ -48024,10 +48365,6 @@
         {
           "ja": "物理的なSuicaカードを使う人もいれば、スマートフォン側のIC機能を使う人もいますが、考え方は同じです。",
           "en": "Some people use a physical Suica card, while others use the IC function on a smartphone, but the basic idea is the same."
-        },
-        {
-          "ja": "これは、アメリカで生まれたコンビニの考え方が、本格的に日本へ入ってきた瞬間でした。",
-          "en": "That was the moment when the convenience store idea born in America entered Japan in a full-scale way."
         }
       ]
     },
@@ -48418,16 +48755,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "駅員から乗る位置を案内された場合は、その指示に従いましょう。",
-          "en": "Follow any instructions from station staff about where to board."
+          "ja": "それでも同じ位置に止めるのは、駅に目印と手順があるからです。",
+          "en": "Even so, trains stop in the same place because stations have markers and procedures."
         },
         {
-          "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
-          "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
+          "ja": "多くのホームには、列車を止めるための停止位置目標があります。",
+          "en": "Many platforms have stopping-position markers for trains."
         },
         {
-          "ja": "東京の地下鉄やJRは複雑ですが、大きな駅の位置を地図の骨組みにすると、少しずつ慣れていきます。",
-          "en": "Tokyo’s subways and JR lines are complicated, but if you treat the positions of major stations as the frame of the map, you gradually get used to it."
+          "ja": "ホームドアがある駅などでは、決まった位置により正確に止まることが特に大切です。",
+          "en": "At stations with platform doors, for example, it is especially important to stop very accurately in the planned position."
+        },
+        {
+          "ja": "そのため、定位置停止を助ける装置が使われることもあります。",
+          "en": "For that reason, some lines use systems that assist fixed-position stopping."
+        },
+        {
+          "ja": "状況によっては、そのままにせず、後ろへゆっくり戻して正しい位置に合わせることもあります。",
+          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
         }
       ]
     },
@@ -50226,6 +50571,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "毎日のことなので簡単に見えますが、実際にはかなり細かい運転です。",
+          "en": "Because it happens every day, it looks easy, but in reality it is a very precise operation."
+        },
+        {
           "ja": "こうして見ると、日本の鉄道は複雑そうでも、実際には目的に合わせて細かく選べるようになっています。",
           "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
         },
@@ -50240,10 +50589,6 @@
         {
           "ja": "未来的に見えるシステムでも、実際の公共交通として使えることを示したのです。",
           "en": "It showed that a futuristic-looking system could also work as real public transportation."
-        },
-        {
-          "ja": "実際には、沖縄県や宮崎県などで数センチから30センチほどの波が観測されました。",
-          "en": "In reality, waves from several centimeters to about 30 centimeters were observed in places such as Okinawa and Miyazaki prefectures."
         }
       ]
     },
@@ -50557,6 +50902,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "目印を見て、速度を読んで、ホームの条件も考えながら止めています。",
+          "en": "Drivers watch markers, read speed, and consider the platform conditions while stopping the train."
+        },
+        {
           "ja": "イスラエルはこの条件を受け入れていません。",
           "en": "Israel has not accepted this condition."
         },
@@ -50638,6 +50987,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "状況によっては、そのままにせず、後ろへゆっくり戻して正しい位置に合わせることもあります。",
+          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+        },
         {
           "ja": "だから、車が自分だけで考えるより、道路の側が先に状況を知らせるほうが役に立ちます。",
           "en": "Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself."
@@ -50765,6 +51118,18 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "それでも同じ位置に止めるのは、駅に目印と手順があるからです。",
+          "en": "Even so, trains stop in the same place because stations have markers and procedures."
+        },
+        {
+          "ja": "ただし、これは自由にやるのではなく、決められた手順にしたがって行われます。",
+          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+        },
+        {
+          "ja": "そして万一まちがいがあっても、すぐに直せるように仕組みと手順が用意されています。",
+          "en": "And even if a mistake happens, systems and procedures are prepared so it can be corrected safely."
+        },
         {
           "ja": "天候が回復した地域から、順次再開する動きも見られました。",
           "en": "In areas where the weather improved, operations began to restart gradually."
@@ -52471,6 +52836,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "もちろん最後は運転士が確認しますが、人と装置の両方でずれを小さくしているわけです。",
+          "en": "Of course, the driver still makes the final check, but both people and equipment work together to keep errors small."
+        },
+        {
+          "ja": "ほんのわずかな場合でも、すぐドアを開けるのではなく、安全確認が必要です。",
+          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+        },
+        {
           "ja": "タイヤやハンドルが袋の外に出ないよう確認しましょう。",
           "en": "Make sure the tires and handlebars do not stick out of the bag."
         },
@@ -52481,14 +52854,6 @@
         {
           "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
           "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
-        },
-        {
-          "ja": "その理由の一つは、ICカードの残高確認や運賃計算が、改札機の中でとても速く処理されるように設計されていることです。",
-          "en": "One reason is that balance checks and fare calculations for IC cards are designed to be processed very quickly inside the ticket gate itself."
-        },
-        {
-          "ja": "利用者はカードをタッチするだけでよく、複雑な計算や確認を意識する必要はほとんどありません。",
-          "en": "Users only need to tap their card, and they hardly need to think about the complex calculations and checks happening behind the scenes."
         }
       ]
     },
@@ -53005,6 +53370,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "目印を見て、速度を読んで、ホームの条件も考えながら止めています。",
+          "en": "Drivers watch markers, read speed, and consider the platform conditions while stopping the train."
+        },
+        {
           "ja": "物理的なSuicaカードを使う人もいれば、スマートフォン側のIC機能を使う人もいますが、考え方は同じです。",
           "en": "Some people use a physical Suica card, while others use the IC function on a smartphone, but the basic idea is the same."
         },
@@ -53019,10 +53388,6 @@
         {
           "ja": "だから、車が自分だけで考えるより、道路の側が先に状況を知らせるほうが役に立ちます。",
           "en": "Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself."
-        },
-        {
-          "ja": "そう考えると、ふつうの運転も少し未来的に見えてきます。",
-          "en": "Seen that way, ordinary driving starts to look a little futuristic."
         }
       ]
     },
@@ -54045,16 +54410,16 @@
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
         },
         {
+          "ja": "ホームの長さ、車両数、ブレーキの強さ、雨の日かどうかまで関係します。",
+          "en": "Platform length, number of cars, brake strength, and even whether it is raining all matter."
+        },
+        {
           "ja": "東京モノレールは、羽田空港へ行くための便利な交通機関です。",
           "en": "Tokyo Monorail is a convenient way to get to Haneda Airport."
         },
         {
           "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
           "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
-        },
-        {
-          "ja": "知らない駅に行くときも、近くにある駅との関係から予想できます。",
-          "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
         }
       ],
       "partOfSpeech": "verb",
@@ -54791,6 +55156,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ホームの長さ、車両数、ブレーキの強さ、雨の日かどうかまで関係します。",
+          "en": "Platform length, number of cars, brake strength, and even whether it is raining all matter."
+        },
+        {
+          "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+          "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
+        },
+        {
           "ja": "現金で払えるレーンがあっても数は限られ、ETC専用のレーンのほうがずっと目立つことがあります。",
           "en": "Even if cash lanes exist, they are limited, and ETC-only lanes often stand out much more."
         },
@@ -54801,14 +55174,6 @@
         {
           "ja": "東京の駅は数が多くて、最初は路線図を見ても迷いやすいです。",
           "en": "Tokyo has so many stations that it is easy to get lost at first, even if you look at a route map."
-        },
-        {
-          "ja": "台風の進路は、数時間で変わることがあります。",
-          "en": "A typhoon's path can change within a few hours."
-        },
-        {
-          "ja": "専門家は、クマの数が増えたことや、地方で人が少なくなったことが原因の一つだと考えています。",
-          "en": "Experts think one reason is that bear numbers have grown while rural populations have shrunk."
         }
       ]
     },
@@ -55797,6 +56162,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "最近の路線では、人だけでなく機械も手伝います。",
+          "en": "On more recent railway lines, machines help as well as people."
+        },
+        {
           "ja": "一方で、通信が不安定な海上では、機械が使えない場合もあります。",
           "en": "At the same time, onboard machines may not work when communications are unstable at sea."
         }
@@ -56753,6 +57122,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "毎日のことなので簡単に見えますが、実際にはかなり細かい運転です。",
+          "en": "Because it happens every day, it looks easy, but in reality it is a very precise operation."
+        },
+        {
           "ja": "こうして見ると、日本の鉄道は複雑そうでも、実際には目的に合わせて細かく選べるようになっています。",
           "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
         },
@@ -56767,10 +57140,6 @@
         {
           "ja": "未来的に見えるシステムでも、実際の公共交通として使えることを示したのです。",
           "en": "It showed that a futuristic-looking system could also work as real public transportation."
-        },
-        {
-          "ja": "実際には、沖縄県や宮崎県などで数センチから30センチほどの波が観測されました。",
-          "en": "In reality, waves from several centimeters to about 30 centimeters were observed in places such as Okinawa and Miyazaki prefectures."
         }
       ]
     },
@@ -58648,6 +59017,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "そして万一まちがいがあっても、すぐに直せるように仕組みと手順が用意されています。",
+          "en": "And even if a mistake happens, systems and procedures are prepared so it can be corrected safely."
+        },
+        {
           "ja": "この仕組みでは、1人につき1枚のICカードが必要です。",
           "en": "In this system, each person needs one IC card."
         },
@@ -58662,10 +59035,6 @@
         {
           "ja": "事故や工事、天気による制限まで受け取れるので、ただお金を払うだけの仕組みではありません。",
           "en": "Drivers can receive information about accidents, construction, and even weather-related restrictions, so the system is not just about paying tolls."
-        },
-        {
-          "ja": "ETC専用、ETC一般という表示が何度も出てくるのは、その仕組みが交通を支えているからです。",
-          "en": "Signs like ETC-only and ETC/general appear again and again because this system helps support traffic flow."
         }
       ]
     },
@@ -58960,16 +59329,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "駅員から乗る位置を案内された場合は、その指示に従いましょう。",
-          "en": "Follow any instructions from station staff about where to board."
+          "ja": "それでも同じ位置に止めるのは、駅に目印と手順があるからです。",
+          "en": "Even so, trains stop in the same place because stations have markers and procedures."
         },
         {
-          "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
-          "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
+          "ja": "多くのホームには、列車を止めるための停止位置目標があります。",
+          "en": "Many platforms have stopping-position markers for trains."
         },
         {
-          "ja": "東京の地下鉄やJRは複雑ですが、大きな駅の位置を地図の骨組みにすると、少しずつ慣れていきます。",
-          "en": "Tokyo’s subways and JR lines are complicated, but if you treat the positions of major stations as the frame of the map, you gradually get used to it."
+          "ja": "ホームドアがある駅などでは、決まった位置により正確に止まることが特に大切です。",
+          "en": "At stations with platform doors, for example, it is especially important to stop very accurately in the planned position."
+        },
+        {
+          "ja": "そのため、定位置停止を助ける装置が使われることもあります。",
+          "en": "For that reason, some lines use systems that assist fixed-position stopping."
+        },
+        {
+          "ja": "状況によっては、そのままにせず、後ろへゆっくり戻して正しい位置に合わせることもあります。",
+          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
         }
       ]
     },
@@ -60742,7 +61119,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "そして万一まちがいがあっても、すぐに直せるように仕組みと手順が用意されています。",
+          "en": "And even if a mistake happens, systems and procedures are prepared so it can be corrected safely."
+        }
+      ]
     },
     {
       "id": "core-6058588b775510",
@@ -61419,6 +61801,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "毎日のことなので簡単に見えますが、実際にはかなり細かい運転です。",
+          "en": "Because it happens every day, it looks easy, but in reality it is a very precise operation."
+        },
+        {
           "ja": "急がない時は自由席、確実に座りたい時は指定席、そして改札をすばやく通りたいならSuicaなどのIC連携が役に立ちます。",
           "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
         },
@@ -61433,10 +61819,6 @@
         {
           "ja": "つまりV2Xは、未来の実験だけでなく、すでに日常の運転の中にも入っているのです。",
           "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
-        },
-        {
-          "ja": "VICSは渋滞や交通規制などの道路交通情報を、カーナビに実時間で届けます。",
-          "en": "VICS delivers road traffic information such as congestion and traffic restrictions to car navigation systems in real time."
         }
       ]
     },
@@ -62176,7 +62558,12 @@
           "term": "戻して",
           "readingHiragana": "もどして",
           "meaning": "Te-form of 戻す: to put back, to give back",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "状況によっては、そのままにせず、後ろへゆっくり戻して正しい位置に合わせることもあります。",
+              "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -62292,6 +62679,18 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "多くのホームには、列車を止めるための停止位置目標があります。",
+          "en": "Many platforms have stopping-position markers for trains."
+        },
+        {
+          "ja": "運転士はホームに入りながらその目標を見て、スピードを落としてブレーキを調整します。",
+          "en": "As the train enters the platform, the driver watches that marker, reduces speed, and adjusts the brakes."
+        },
+        {
+          "ja": "つまり、ただ「だいたいこのへん」で止めているのではなく、かなり具体的な目標に合わせているのです。",
+          "en": "In other words, the train is not stopped at some rough guess; it is lined up with a very specific target."
+        },
         {
           "ja": "死者数や全壊・焼失する建物の数を、想定より半分以下に抑えることを目標にします。",
           "en": "Its goal is to cut the expected deaths and destroyed or burned buildings to less than half of the estimate."
@@ -63882,6 +64281,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "そして万一まちがいがあっても、すぐに直せるように仕組みと手順が用意されています。",
+          "en": "And even if a mistake happens, systems and procedures are prepared so it can be corrected safely."
+        },
         {
           "ja": "後半はブラジルが少し形を直しましたが、モロッコの守備も強かったです。",
           "en": "In the second half Brazil improved their shape a little, but Morocco’s defense was also strong."
@@ -67543,6 +67946,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "多くのホームには、列車を止めるための停止位置目標があります。",
+          "en": "Many platforms have stopping-position markers for trains."
+        },
+        {
           "ja": "このように、細かい列車の名前を全部覚えていなくても、まず路線のどちら側に行きたいかがわかれば、正しい電車をかなり選びやすくなります。",
           "en": "In this way, even if you do not remember every train name, knowing which side of the line you need first makes it much easier to choose the right train."
         },
@@ -67557,10 +67964,6 @@
         {
           "ja": "東北のある県で、景色を楽しめる観光列車の人気が高まっています。",
           "en": "In one prefecture in Tohoku, a sightseeing train that lets passengers enjoy the scenery is becoming more popular."
-        },
-        {
-          "ja": "列車の中では、地元の食材を使ったお弁当や、お茶が出されます。",
-          "en": "On the train, passengers are served boxed meals and tea made with local ingredients."
         }
       ]
     },
@@ -67579,6 +67982,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "多くのホームには、列車を止めるための停止位置目標があります。",
+          "en": "Many platforms have stopping-position markers for trains."
+        },
+        {
           "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
           "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
         },
@@ -67593,10 +68000,6 @@
         {
           "ja": "この列車は浜松駅を通過しているところでした。",
           "en": "It was passing through Hamamatsu Station."
-        },
-        {
-          "ja": "台風6号は3日、強い風と激しい雨を伴って日本列島を進みました。",
-          "en": "On the 3rd, Typhoon No. 6 moved across Japan with strong winds and heavy rain. Power outages, flooding, and fallen trees were reported in many places, and local governments urged residents to evacuate early."
         }
       ]
     },
@@ -69393,6 +69796,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ホームドアがある駅などでは、決まった位置により正確に止まることが特に大切です。",
+          "en": "At stations with platform doors, for example, it is especially important to stop very accurately in the planned position."
+        },
+        {
+          "ja": "状況によっては、そのままにせず、後ろへゆっくり戻して正しい位置に合わせることもあります。",
+          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+        },
+        {
           "ja": "もちろん、ただ速いだけではなく、不正利用を防ぐための仕組みもしっかり組み込まれています。",
           "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
         },
@@ -69403,14 +69814,6 @@
         {
           "ja": "30秒だけ余分に使って正しい電車を選ぶことで、あとで長い遠回りをしなくてすむかもしれません。",
           "en": "Spending just an extra 30 seconds choosing the right train may save you from a much longer detour later."
-        },
-        {
-          "ja": "都市の脈を正しく読むには、まだ多くの研究が必要です。",
-          "en": "More research is still needed to read a city's pulse accurately."
-        },
-        {
-          "ja": "結果がよければ、来年から正式なサービスにする予定です。",
-          "en": "If the results are good, it plans to make the service official next year."
         }
       ]
     },
@@ -69737,7 +70140,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "ホームドアがある駅などでは、決まった位置により正確に止まることが特に大切です。",
+          "en": "At stations with platform doors, for example, it is especially important to stop very accurately in the planned position."
+        }
+      ]
     },
     {
       "id": "core-0094f5bf239e38",
@@ -71253,7 +71661,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+          "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "godan",
       "verbForms": [
@@ -71264,7 +71677,12 @@
           "term": "示します",
           "readingHiragana": "しめします",
           "meaning": "Polite form of 示す: to show, to indicate",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+              "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
+            }
+          ]
         },
         {
           "form": "past",
@@ -71285,6 +71703,10 @@
             {
               "ja": "政府は、トップどうしが同じ考えを示したことで、今後の外交や政策が進めやすくなると期待しています。",
               "en": "The government expects that showing agreement at the top level will make future diplomacy and policy coordination easier."
+            },
+            {
+              "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+              "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
             }
           ]
         },
@@ -71295,7 +71717,12 @@
           "term": "示さない",
           "readingHiragana": "しめさない",
           "meaning": "Plain negative form of 示す: to show, to indicate",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+              "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
+            }
+          ]
         },
         {
           "form": "te",
@@ -71304,7 +71731,12 @@
           "term": "示して",
           "readingHiragana": "しめして",
           "meaning": "Te-form of 示す: to show, to indicate",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+              "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -71313,7 +71745,12 @@
           "term": "示せる",
           "readingHiragana": "しめせる",
           "meaning": "Potential form of 示す: to show, to indicate",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+              "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
+            }
+          ]
         }
       ]
     },
@@ -71955,6 +72392,18 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "それでも同じ位置に止めるのは、駅に目印と手順があるからです。",
+          "en": "Even so, trains stop in the same place because stations have markers and procedures."
+        },
+        {
+          "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+          "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
+        },
+        {
+          "ja": "目印を見て、速度を読んで、ホームの条件も考えながら止めています。",
+          "en": "Drivers watch markers, read speed, and consider the platform conditions while stopping the train."
+        },
         {
           "ja": "特に首都高では、その印象が強くなります。",
           "en": "That impression becomes especially strong on the Shuto Expressway."
@@ -73823,7 +74272,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "目印を見て、速度を読んで、ホームの条件も考えながら止めています。",
+          "en": "Drivers watch markers, read speed, and consider the platform conditions while stopping the train."
+        }
+      ]
     },
     {
       "id": "core-86deba958169f9",
@@ -74137,6 +74591,14 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "そのため、定位置停止を助ける装置が使われることもあります。",
+          "en": "For that reason, some lines use systems that assist fixed-position stopping."
+        },
+        {
+          "ja": "もちろん最後は運転士が確認しますが、人と装置の両方でずれを小さくしているわけです。",
+          "en": "Of course, the driver still makes the final check, but both people and equipment work together to keep errors small."
+        },
         {
           "ja": "港の近くには、水素をためる設備や、船に入れるための装置も用意されました。",
           "en": "Storage equipment and fueling devices have also been prepared near the port."
@@ -76064,6 +76526,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "毎日のことなので簡単に見えますが、実際にはかなり細かい運転です。",
+          "en": "Because it happens every day, it looks easy, but in reality it is a very precise operation."
+        },
+        {
           "ja": "これだけで、電車の選び方がかなり簡単になります。",
           "en": "That alone makes choosing a train much easier."
         }
@@ -76432,7 +76898,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "そのため、定位置停止を助ける装置が使われることもあります。",
+          "en": "For that reason, some lines use systems that assist fixed-position stopping."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "ichidan",
       "verbForms": [
@@ -76443,7 +76914,12 @@
           "term": "助けます",
           "readingHiragana": "たすけます",
           "meaning": "Polite form of 助ける: to save, to rescue",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "そのため、定位置停止を助ける装置が使われることもあります。",
+              "en": "For that reason, some lines use systems that assist fixed-position stopping."
+            }
+          ]
         },
         {
           "form": "past",
@@ -76452,7 +76928,12 @@
           "term": "助けた",
           "readingHiragana": "たすけた",
           "meaning": "Plain past form of 助ける: to save, to rescue",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "そのため、定位置停止を助ける装置が使われることもあります。",
+              "en": "For that reason, some lines use systems that assist fixed-position stopping."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -76461,7 +76942,12 @@
           "term": "助けない",
           "readingHiragana": "たすけない",
           "meaning": "Plain negative form of 助ける: to save, to rescue",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "そのため、定位置停止を助ける装置が使われることもあります。",
+              "en": "For that reason, some lines use systems that assist fixed-position stopping."
+            }
+          ]
         },
         {
           "form": "te",
@@ -76470,7 +76956,12 @@
           "term": "助けて",
           "readingHiragana": "たすけて",
           "meaning": "Te-form of 助ける: to save, to rescue",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "そのため、定位置停止を助ける装置が使われることもあります。",
+              "en": "For that reason, some lines use systems that assist fixed-position stopping."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -76479,7 +76970,12 @@
           "term": "助けられる",
           "readingHiragana": "たすけられる",
           "meaning": "Potential form of 助ける: to save, to rescue",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "そのため、定位置停止を助ける装置が使われることもあります。",
+              "en": "For that reason, some lines use systems that assist fixed-position stopping."
+            }
+          ]
         }
       ]
     },
@@ -77034,6 +77530,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "だから、駅での停車は「最後にブレーキをかけるだけ」の仕事ではありません。",
+          "en": "So stopping at a station is not just a matter of applying the brakes at the end."
+        },
+        {
+          "ja": "いつもの静かな停車の後ろには、かなり緻密な仕事がかくれているのです。",
+          "en": "Behind an ordinary quiet stop, there is actually very careful work."
+        },
+        {
           "ja": "これらは速さや停車駅が違うため、名前を確認することが大切です。",
           "en": "Because their speeds and stopping stations differ, it is important to check the name."
         }
@@ -77358,7 +77862,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "最近の路線では、人だけでなく機械も手伝います。",
+          "en": "On more recent railway lines, machines help as well as people."
+        }
+      ]
     },
     {
       "id": "core-4d39d1db22c4e7",
@@ -80217,24 +80726,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "毎日のことなので簡単に見えますが、実際にはかなり細かい運転です。",
+          "en": "Because it happens every day, it looks easy, but in reality it is a very precise operation."
+        },
+        {
+          "ja": "運転士はホームに入りながらその目標を見て、スピードを落としてブレーキを調整します。",
+          "en": "As the train enters the platform, the driver watches that marker, reduces speed, and adjusts the brakes."
+        },
+        {
+          "ja": "もちろん最後は運転士が確認しますが、人と装置の両方でずれを小さくしているわけです。",
+          "en": "Of course, the driver still makes the final check, but both people and equipment work together to keep errors small."
+        },
+        {
           "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
           "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
         },
         {
           "ja": "だから、セブン-イレブンが日本にコンビニを「持ってきた」と言っても、ただ外国の仕組みを運んだだけではありません。",
           "en": "So even if we say Seven-Eleven “brought” convenience stores to Japan, it did not simply carry over a foreign system unchanged."
-        },
-        {
-          "ja": "言葉は聞こえませんが、運転者同士で気持ちを伝える方法として使われています。",
-          "en": "No words can be heard, but it is used as a way for drivers to communicate their feelings."
-        },
-        {
-          "ja": "それでも、この短い光には日本らしい運転文化がよく出ています。",
-          "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
-        },
-        {
-          "ja": "V2Xという言葉を聞くと、多くの人は自動運転の未来を想像します。",
-          "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
         }
       ]
     },
@@ -82660,6 +83169,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "それでも、ときどき少し行きすぎることがあります。",
+          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+        },
+        {
           "ja": "毎日たくさんの人が行き交う東京の駅だからこそ、このような技術がとても自然に街へ溶け込んでいるのかもしれません。",
           "en": "Because Tokyo stations are used by so many people every day, perhaps this kind of technology blends naturally into the city."
         },
@@ -82674,10 +83187,6 @@
         {
           "ja": "このように、細かい列車の名前を全部覚えていなくても、まず路線のどちら側に行きたいかがわかれば、正しい電車をかなり選びやすくなります。",
           "en": "In this way, even if you do not remember every train name, knowing which side of the line you need first makes it much easier to choose the right train."
-        },
-        {
-          "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
-          "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
         }
       ]
     },
@@ -83586,6 +84095,214 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": []
+    },
+    {
+      "id": "article-4db921ba56cd03",
+      "level": "N3",
+      "term": "停止位置目標",
+      "reading": "ていしいちもくひょう",
+      "readingHiragana": "ていしいちもくひょう",
+      "meaning": "Stopping-position marker",
+      "source": "article",
+      "sourceId": "2026-07-18-train-stop-position",
+      "sourceTitle": "電車はどうやって駅でちょうどいい場所に止まるのか",
+      "sourceLabel": "7/18 電車の止まる場所",
+      "sourceHref": "./2026-07-18-train-stop-position.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-18-train-stop-position"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "多くのホームには、列車を止めるための停止位置目標があります。",
+          "en": "Many platforms have stopping-position markers for trains."
+        }
+      ]
+    },
+    {
+      "id": "article-ee83c07975da86",
+      "level": "N3",
+      "term": "運転士",
+      "reading": "うんてんし",
+      "readingHiragana": "うんてんし",
+      "meaning": "Train driver",
+      "source": "article",
+      "sourceId": "2026-07-18-train-stop-position",
+      "sourceTitle": "電車はどうやって駅でちょうどいい場所に止まるのか",
+      "sourceLabel": "7/18 電車の止まる場所",
+      "sourceHref": "./2026-07-18-train-stop-position.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-18-train-stop-position"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "運転士はホームに入りながらその目標を見て、スピードを落としてブレーキを調整します。",
+          "en": "As the train enters the platform, the driver watches that marker, reduces speed, and adjusts the brakes."
+        },
+        {
+          "ja": "もちろん最後は運転士が確認しますが、人と装置の両方でずれを小さくしているわけです。",
+          "en": "Of course, the driver still makes the final check, but both people and equipment work together to keep errors small."
+        }
+      ]
+    },
+    {
+      "id": "article-f2f506f6b37476",
+      "level": "N3",
+      "term": "調整する",
+      "reading": "ちょうせいする",
+      "readingHiragana": "ちょうせいする",
+      "meaning": "To adjust",
+      "source": "article",
+      "sourceId": "2026-07-18-train-stop-position",
+      "sourceTitle": "電車はどうやって駅でちょうどいい場所に止まるのか",
+      "sourceLabel": "7/18 電車の止まる場所",
+      "sourceHref": "./2026-07-18-train-stop-position.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-18-train-stop-position"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "運転士はホームに入りながらその目標を見て、スピードを落としてブレーキを調整します。",
+          "en": "As the train enters the platform, the driver watches that marker, reduces speed, and adjusts the brakes."
+        }
+      ]
+    },
+    {
+      "id": "article-987b9fc7ab09aa",
+      "level": "N3",
+      "term": "定位置停止",
+      "reading": "ていいちていし",
+      "readingHiragana": "ていいちていし",
+      "meaning": "Stopping at a fixed designated position",
+      "source": "article",
+      "sourceId": "2026-07-18-train-stop-position",
+      "sourceTitle": "電車はどうやって駅でちょうどいい場所に止まるのか",
+      "sourceLabel": "7/18 電車の止まる場所",
+      "sourceHref": "./2026-07-18-train-stop-position.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-18-train-stop-position"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "そのため、定位置停止を助ける装置が使われることもあります。",
+          "en": "For that reason, some lines use systems that assist fixed-position stopping."
+        }
+      ]
+    },
+    {
+      "id": "article-a523bbc6b8b1fb",
+      "level": "N3",
+      "term": "装置",
+      "reading": "そうち",
+      "readingHiragana": "そうち",
+      "meaning": "Device / System",
+      "source": "article",
+      "sourceId": "2026-07-18-train-stop-position",
+      "sourceTitle": "電車はどうやって駅でちょうどいい場所に止まるのか",
+      "sourceLabel": "7/18 電車の止まる場所",
+      "sourceHref": "./2026-07-18-train-stop-position.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-18-train-stop-position"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "そのため、定位置停止を助ける装置が使われることもあります。",
+          "en": "For that reason, some lines use systems that assist fixed-position stopping."
+        },
+        {
+          "ja": "もちろん最後は運転士が確認しますが、人と装置の両方でずれを小さくしているわけです。",
+          "en": "Of course, the driver still makes the final check, but both people and equipment work together to keep errors small."
+        },
+        {
+          "ja": "港の近くには、水素をためる設備や、船に入れるための装置も用意されました。",
+          "en": "Storage equipment and fueling devices have also been prepared near the port."
+        }
+      ]
+    },
+    {
+      "id": "article-9f09c502e5e130",
+      "level": "N3",
+      "term": "安全確認",
+      "reading": "あんぜんかくにん",
+      "readingHiragana": "あんぜんかくにん",
+      "meaning": "Safety check",
+      "source": "article",
+      "sourceId": "2026-07-18-train-stop-position",
+      "sourceTitle": "電車はどうやって駅でちょうどいい場所に止まるのか",
+      "sourceLabel": "7/18 電車の止まる場所",
+      "sourceHref": "./2026-07-18-train-stop-position.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-18-train-stop-position"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "ほんのわずかな場合でも、すぐドアを開けるのではなく、安全確認が必要です。",
+          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+        }
+      ]
+    },
+    {
+      "id": "article-44e65312d9c66b",
+      "level": "N3",
+      "term": "手順",
+      "reading": "てじゅん",
+      "readingHiragana": "てじゅん",
+      "meaning": "Procedure",
+      "source": "article",
+      "sourceId": "2026-07-18-train-stop-position",
+      "sourceTitle": "電車はどうやって駅でちょうどいい場所に止まるのか",
+      "sourceLabel": "7/18 電車の止まる場所",
+      "sourceHref": "./2026-07-18-train-stop-position.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-18-train-stop-position"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "それでも同じ位置に止めるのは、駅に目印と手順があるからです。",
+          "en": "Even so, trains stop in the same place because stations have markers and procedures."
+        },
+        {
+          "ja": "ただし、これは自由にやるのではなく、決められた手順にしたがって行われます。",
+          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+        },
+        {
+          "ja": "そして万一まちがいがあっても、すぐに直せるように仕組みと手順が用意されています。",
+          "en": "And even if a mistake happens, systems and procedures are prepared so it can be corrected safely."
+        }
+      ]
+    },
+    {
+      "id": "article-19528d0fb86bd2",
+      "level": "N3",
+      "term": "緻密",
+      "reading": "ちみつ",
+      "readingHiragana": "ちみつ",
+      "meaning": "Precise / Detailed",
+      "source": "article",
+      "sourceId": "2026-07-18-train-stop-position",
+      "sourceTitle": "電車はどうやって駅でちょうどいい場所に止まるのか",
+      "sourceLabel": "7/18 電車の止まる場所",
+      "sourceHref": "./2026-07-18-train-stop-position.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-18-train-stop-position"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "いつもの静かな停車の後ろには、かなり緻密な仕事がかくれているのです。",
+          "en": "Behind an ordinary quiet stop, there is actually very careful work."
+        },
+        {
+          "ja": "普段は当たり前のように使っている改札ですが、その裏には日本ならではの高い技術と緻密なシステム設計が詰まっています。",
+          "en": "We usually use ticket gates as if they were completely ordinary, but behind them are advanced technology and precise system design that feel very characteristic of Japan."
+        }
+      ]
     },
     {
       "id": "article-da65cb7ab0ba2b",
@@ -85177,6 +85894,10 @@
         "2026-07-08-ticket-gate-speed"
       ],
       "exampleSentences": [
+        {
+          "ja": "いつもの静かな停車の後ろには、かなり緻密な仕事がかくれているのです。",
+          "en": "Behind an ordinary quiet stop, there is actually very careful work."
+        },
         {
           "ja": "普段は当たり前のように使っている改札ですが、その裏には日本ならではの高い技術と緻密なシステム設計が詰まっています。",
           "en": "We usually use ticket gates as if they were completely ordinary, but behind them are advanced technology and precise system design that feel very characteristic of Japan."
@@ -86774,6 +87495,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "ホームの長さ、車両数、ブレーキの強さ、雨の日かどうかまで関係します。",
+          "en": "Platform length, number of cars, brake strength, and even whether it is raining all matter."
+        },
+        {
           "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
           "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
         },
@@ -86788,10 +87513,6 @@
         {
           "ja": "一方、日本は、台湾の近くで大きな問題が起きれば、日本の安全にも関係すると見ています。",
           "en": "Japan, on the other hand, thinks that if a major problem happens near Taiwan, it would also affect Japan's safety."
-        },
-        {
-          "ja": "しかし、もしアメリカと中国の関係が少しよくなると、日本は不安になります。",
-          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
         }
       ]
     },
@@ -88399,6 +89120,10 @@
         "2026-06-16-us-iran-peace-deal"
       ],
       "exampleSentences": [
+        {
+          "ja": "目印を見て、速度を読んで、ホームの条件も考えながら止めています。",
+          "en": "Drivers watch markers, read speed, and consider the platform conditions while stopping the train."
+        },
         {
           "ja": "イスラエルはこの条件を受け入れていません。",
           "en": "Israel has not accepted this condition."
@@ -90164,6 +90889,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "そして万一まちがいがあっても、すぐに直せるように仕組みと手順が用意されています。",
+          "en": "And even if a mistake happens, systems and procedures are prepared so it can be corrected safely."
+        },
+        {
           "ja": "この仕組みでは、1人につき1枚のICカードが必要です。",
           "en": "In this system, each person needs one IC card."
         },
@@ -90178,10 +90907,6 @@
         {
           "ja": "事故や工事、天気による制限まで受け取れるので、ただお金を払うだけの仕組みではありません。",
           "en": "Drivers can receive information about accidents, construction, and even weather-related restrictions, so the system is not just about paying tolls."
-        },
-        {
-          "ja": "ETC専用、ETC一般という表示が何度も出てくるのは、その仕組みが交通を支えているからです。",
-          "en": "Signs like ETC-only and ETC/general appear again and again because this system helps support traffic flow."
         }
       ]
     },
@@ -91069,6 +91794,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "そして万一まちがいがあっても、すぐに直せるように仕組みと手順が用意されています。",
+          "en": "And even if a mistake happens, systems and procedures are prepared so it can be corrected safely."
+        },
+        {
           "ja": "この仕組みでは、1人につき1枚のICカードが必要です。",
           "en": "In this system, each person needs one IC card."
         },
@@ -91083,10 +91812,6 @@
         {
           "ja": "事故や工事、天気による制限まで受け取れるので、ただお金を払うだけの仕組みではありません。",
           "en": "Drivers can receive information about accidents, construction, and even weather-related restrictions, so the system is not just about paying tolls."
-        },
-        {
-          "ja": "ETC専用、ETC一般という表示が何度も出てくるのは、その仕組みが交通を支えているからです。",
-          "en": "Signs like ETC-only and ETC/general appear again and again because this system helps support traffic flow."
         }
       ]
     },
@@ -91247,6 +91972,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "そして万一まちがいがあっても、すぐに直せるように仕組みと手順が用意されています。",
+          "en": "And even if a mistake happens, systems and procedures are prepared so it can be corrected safely."
+        },
+        {
           "ja": "この仕組みでは、1人につき1枚のICカードが必要です。",
           "en": "In this system, each person needs one IC card."
         },
@@ -91261,10 +91990,6 @@
         {
           "ja": "事故や工事、天気による制限まで受け取れるので、ただお金を払うだけの仕組みではありません。",
           "en": "Drivers can receive information about accidents, construction, and even weather-related restrictions, so the system is not just about paying tolls."
-        },
-        {
-          "ja": "ETC専用、ETC一般という表示が何度も出てくるのは、その仕組みが交通を支えているからです。",
-          "en": "Signs like ETC-only and ETC/general appear again and again because this system helps support traffic flow."
         }
       ]
     },
@@ -91991,6 +92716,14 @@
         "2026-05-22-hydrogen-port"
       ],
       "exampleSentences": [
+        {
+          "ja": "そのため、定位置停止を助ける装置が使われることもあります。",
+          "en": "For that reason, some lines use systems that assist fixed-position stopping."
+        },
+        {
+          "ja": "もちろん最後は運転士が確認しますが、人と装置の両方でずれを小さくしているわけです。",
+          "en": "Of course, the driver still makes the final check, but both people and equipment work together to keep errors small."
+        },
         {
           "ja": "港の近くには、水素をためる設備や、船に入れるための装置も用意されました。",
           "en": "Storage equipment and fueling devices have also been prepared near the port."
