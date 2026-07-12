@@ -49,6 +49,12 @@ python3 scripts/generate_site.py
 - Keep the tone of the article itself clear and readable for learners. The story choice can be weird; the writing should stay straightforward.
 - Use primary or high-quality news sources when possible, and keep source notes accurate to the publication date of the original report.
 
+## Article Length
+
+- Keep each article compact.
+- The combined total of the Japanese body text and the English translations should stay under 2000 characters.
+- When shortening is necessary, simplify the English first. The English can be more direct and less detailed than the Japanese as long as it stays accurate.
+
 ## Runtime Behavior
 
 Article pages support:
