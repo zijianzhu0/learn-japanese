@@ -93,6 +93,105 @@ GODAN_PAST_ENDINGS = {
     "ぐ": "いだ",
     "す": "した",
 }
+COMMON_PHRASE_SPECS = (
+    {
+        "label": "〜ように",
+        "pattern": re.compile(r"[^。！？]{0,16}ように[^。！？]{0,16}"),
+        "meaning": "so that / in order to / in the way that",
+    },
+    {
+        "label": "〜ため",
+        "pattern": re.compile(r"[^。！？]{0,16}ため[^。！？]{0,16}"),
+        "meaning": "because of / for the purpose of",
+    },
+    {
+        "label": "〜だけで",
+        "pattern": re.compile(r"[^。！？]{0,16}だけで[^。！？]{0,16}"),
+        "meaning": "just by / only with",
+    },
+    {
+        "label": "〜ほとんど〜ない",
+        "pattern": re.compile(r"ほとんど[^。！？]{0,18}ない"),
+        "meaning": "hardly / almost not",
+    },
+    {
+        "label": "〜からこそ",
+        "pattern": re.compile(r"[^。！？]{0,16}からこそ[^。！？]{0,16}"),
+        "meaning": "precisely because",
+    },
+    {
+        "label": "〜の一つは",
+        "pattern": re.compile(r"[^。！？]{0,16}の一つは[^。！？]{0,16}"),
+        "meaning": "one of the reasons / one example is",
+    },
+    {
+        "label": "〜なくてもいい",
+        "pattern": re.compile(r"[^。！？]{0,16}なくてもいい[^。！？]{0,16}"),
+        "meaning": "do not need to / it is okay not to",
+    },
+    {
+        "label": "そのため",
+        "pattern": re.compile(r"[^。！？]{0,12}そのため[^。！？]{0,16}"),
+        "meaning": "because of that / therefore",
+    },
+    {
+        "label": "〜だけではなく",
+        "pattern": re.compile(r"[^。！？]{0,16}だけではなく[^。！？]{0,16}"),
+        "meaning": "not only ... but also",
+    },
+    {
+        "label": "〜ときでも",
+        "pattern": re.compile(r"[^。！？]{0,16}ときでも[^。！？]{0,16}"),
+        "meaning": "even when",
+    },
+)
+COMMON_VERB_PATTERN_SPECS = (
+    {
+        "label": "〜ている",
+        "pattern": re.compile(r"[^。！？]{0,16}てい(?:る|ます|た|ました)[^。！？]{0,16}"),
+        "meaning": "ongoing state / habitual action",
+    },
+    {
+        "label": "〜ことができる",
+        "pattern": re.compile(r"[^。！？]{0,16}ことができ(?:る|ます|た|ました)[^。！？]{0,16}"),
+        "meaning": "can do / be able to",
+    },
+    {
+        "label": "〜ようになっている",
+        "pattern": re.compile(r"[^。！？]{0,16}ようになってい(?:る|ます)[^。！？]{0,16}"),
+        "meaning": "is set up so that / has become such that",
+    },
+    {
+        "label": "〜にくい",
+        "pattern": re.compile(r"[^。！？]{0,16}にくい[^。！？]{0,16}"),
+        "meaning": "hard to do",
+    },
+    {
+        "label": "〜やすい",
+        "pattern": re.compile(r"[^。！？]{0,16}やすい[^。！？]{0,16}"),
+        "meaning": "easy to do",
+    },
+    {
+        "label": "〜続ける",
+        "pattern": re.compile(r"[^。！？]{0,16}続け(?:る|られる|ている|ています)[^。！？]{0,16}"),
+        "meaning": "to continue doing",
+    },
+    {
+        "label": "〜込む",
+        "pattern": re.compile(r"[^。！？]{0,16}込(?:む|まれ|まれて|んで|んだ|んでい(?:る|ます))[^。！？]{0,16}"),
+        "meaning": "to put into / to go deeply into / to do thoroughly",
+    },
+    {
+        "label": "〜始める",
+        "pattern": re.compile(r"[^。！？]{0,16}始め(?:る|ている|ています|た|ました)[^。！？]{0,16}"),
+        "meaning": "to start doing",
+    },
+    {
+        "label": "〜出す",
+        "pattern": re.compile(r"[^。！？]{0,16}出(?:す|して|した|し始め)[^。！？]{0,16}"),
+        "meaning": "to start suddenly / to send out / to put out",
+    },
+)
 
 
 def load_articles() -> list[dict]:
@@ -438,6 +537,38 @@ def split_sentences(text: str) -> list[str]:
         for sentence in re.findall(r"[^。！？!?.]+[。！？!?.]?", text)
         if sentence.strip()
     ]
+
+
+def article_plain_text(article: dict) -> str:
+    parts = [strip_ruby_html(str(article.get("headlineHtml", "")))]
+    for paragraph in article.get("paragraphs", []):
+        parts.append(strip_ruby_html(str(paragraph.get("html", ""))))
+    return " ".join(part for part in parts if part).strip()
+
+
+def compact_study_example(value: str) -> str:
+    example = re.sub(r"\s+", " ", value).strip(" 、。")
+    return example[:44].rstrip() + "…" if len(example) > 44 else example
+
+
+def collect_study_matches(text: str, specs: tuple[dict, ...], limit: int = 4) -> list[dict]:
+    matches = []
+    seen_labels = set()
+    for spec in specs:
+        match = spec["pattern"].search(text)
+        if not match or spec["label"] in seen_labels:
+            continue
+        seen_labels.add(spec["label"])
+        matches.append(
+            {
+                "label": spec["label"],
+                "meaning": spec["meaning"],
+                "example": compact_study_example(match.group(0)),
+            }
+        )
+        if len(matches) >= limit:
+            break
+    return matches
 
 
 def article_sentence_examples(articles: list[dict]) -> list[dict]:
@@ -1108,6 +1239,55 @@ def render_vocabulary(article: dict) -> str:
     </div>"""
 
 
+def render_study_guide(article: dict) -> str:
+    text = article_plain_text(article)
+    phrase_matches = collect_study_matches(text, COMMON_PHRASE_SPECS)
+    verb_matches = collect_study_matches(text, COMMON_VERB_PATTERN_SPECS)
+
+    if not phrase_matches and not verb_matches:
+        return ""
+
+    sections = []
+    if phrase_matches:
+        phrase_items = "\n".join(
+            "                "
+            f"<li><strong>{escape(item['label'])}</strong> <span>{escape(item['meaning'])}</span>"
+            f"<div class=\"study-note-example\">Example: {escape(item['example'])}</div></li>"
+            for item in phrase_matches
+        )
+        sections.append(
+            "        <div class=\"study-note-group\">\n"
+            "            <h3>Useful phrases</h3>\n"
+            "            <ul class=\"study-note-list\">\n"
+            f"{phrase_items}\n"
+            "            </ul>\n"
+            "        </div>"
+        )
+
+    if verb_matches:
+        verb_items = "\n".join(
+            "                "
+            f"<li><strong>{escape(item['label'])}</strong> <span>{escape(item['meaning'])}</span>"
+            f"<div class=\"study-note-example\">Example: {escape(item['example'])}</div></li>"
+            for item in verb_matches
+        )
+        sections.append(
+            "        <div class=\"study-note-group\">\n"
+            "            <h3>Verb and grammar patterns</h3>\n"
+            "            <ul class=\"study-note-list\">\n"
+            f"{verb_items}\n"
+            "            </ul>\n"
+            "        </div>"
+        )
+
+    return (
+        "    <div class=\"study-notes-box\">\n"
+        "        <h2>Common Phrases and Patterns</h2>\n"
+        f"{chr(10).join(sections)}\n"
+        "    </div>"
+    )
+
+
 def render_paragraphs(article: dict) -> str:
     blocks = []
     for paragraph in article["paragraphs"]:
@@ -1160,7 +1340,7 @@ def render_article(article: dict, template: str, asset_version: str) -> str:
         '            <li><strong>{{WORD_6}}:</strong> {{MEANING_6}}</li>\n'
         '            <li><strong>{{WORD_7}}:</strong> {{MEANING_7}}</li>\n'
         '        </ul>\n'
-        '    </div>': render_vocabulary(article),
+        '    </div>': f"{render_study_guide(article)}\n{render_vocabulary(article)}".strip(),
     }
     rendered = template
     for old, new in replacements.items():

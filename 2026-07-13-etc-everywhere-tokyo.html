@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>東京で車に乗るとETCがどこにでもあるように感じる</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <script>
+        (() => {
+            try {
+                const storedTheme = window.localStorage.getItem('learnJapanese.theme');
+                const theme = storedTheme === 'dark' || storedTheme === 'light'
+                    ? storedTheme
+                    : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                document.documentElement.dataset.theme = theme;
+                document.documentElement.style.colorScheme = theme;
+            } catch (error) {
+                document.documentElement.dataset.theme = 'light';
+                document.documentElement.style.colorScheme = 'light';
+            }
+        })();
+    </script>
+    <link rel="stylesheet" href="./assets/article.css?v=945b9350dedc">
+</head>
+<body id="top" data-article-id="2026-07-13-etc-everywhere-tokyo" data-recording-download-name="2026-07-13-etc-everywhere-tokyo.mp4">
+<nav class="top-nav" aria-label="Page navigation"></nav>
+<div class="article-shell">
+    <aside class="article-sidebar" aria-label="Article navigation"></aside>
+    <main class="article-main">
+
+<div class="container">
+    <div class="date">2026年7月13日</div>
+    <div class="article-toolbar">
+        <div class="voice-controls">
+            <button class="toolbar-icon-button voice-menu-toggle" type="button" id="voice-menu-toggle" aria-expanded="false" aria-controls="voice-settings-menu" aria-label="Voice settings" data-tooltip="Voice settings">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 10v4"></path>
+                    <path d="M8 7v10"></path>
+                    <path d="M12 4v16"></path>
+                    <path d="M16 7v10"></path>
+                    <path d="M20 10v4"></path>
+                </svg>
+                <span class="icon-label">Voice settings</span>
+            </button>
+            <div class="voice-current-status" id="voice-current-status" aria-live="polite">Docker VOICEVOX</div>
+            <button class="audio-enable-button" type="button" id="enable-docker-audio" hidden>Enable audio</button>
+            <div class="voice-settings-menu" id="voice-settings-menu" hidden>
+                <label class="toolbar-label" for="browser-voice">Browser Voice</label>
+                <select class="voice-select" id="browser-voice" aria-label="Browser voice">
+                    <option value="auto" selected>Google 日本語</option>
+                </select>
+            </div>
+        </div>
+        <div class="article-actions" aria-label="Article actions">
+            <button class="toolbar-icon-button preview-button" type="button" id="preview-recording-mode" aria-label="Preview recording mode" data-tooltip="Preview recording mode">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M2 12s3.8-6 10-6 10 6 10 6-3.8 6-10 6-10-6-10-6z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+                <span class="icon-label">Preview recording mode</span>
+            </button>
+            <button class="toolbar-icon-button video-button" type="button" id="render-video" aria-label="Render video" data-tooltip="Render video" data-default-label="Render video" data-active-label="Recording">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M5 6h11a2 2 0 0 1 2 2v1l3-2v10l-3-2v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"></path>
+                    <path d="M9 10.5v3l3-1.5z"></path>
+                </svg>
+                <span class="icon-label">Render video</span>
+            </button>
+            <button class="toolbar-icon-button cover-button" type="button" id="download-cover" aria-label="Download video cover" data-tooltip="Download cover" data-default-label="Download cover" data-active-label="Rendering cover">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                    <circle cx="8.5" cy="10" r="1.5"></circle>
+                    <path d="m21 15-5-5L5 19"></path>
+                </svg>
+                <span class="icon-label">Download cover</span>
+            </button>
+            <button class="toolbar-icon-button speak-button" type="button" id="speak-japanese-article" aria-label="Read aloud" data-tooltip="Read aloud" data-default-label="Read aloud" data-active-label="Stop reading" data-loading-label="Preparing audio">
+                <svg class="toolbar-svg icon-read" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 10v4h4l5 4V6L8 10z"></path>
+                    <path d="M16 9c1.8 1.8 1.8 4.2 0 6"></path>
+                    <path d="M18.5 6.5c3.3 3.3 3.3 7.7 0 11"></path>
+                </svg>
+                <svg class="toolbar-svg icon-stop" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 8h8v8H8z"></path>
+                </svg>
+                <span class="icon-label">Read aloud</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-japanese-article" aria-label="Copy Japanese article" data-tooltip="Copy Japanese article">
+                <span class="copy-language-icon" aria-hidden="true">あ</span>
+                <span class="icon-label">Copy Japanese article</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-english-translation" aria-label="Copy English translation" data-tooltip="Copy English translation">
+                <span class="copy-language-icon" aria-hidden="true">A</span>
+                <span class="icon-label">Copy English translation</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-bilingual-article" aria-label="Copy Japanese and English article" data-tooltip="Copy Japanese and English article">
+                <span class="copy-language-icon copy-language-icon-wide" aria-hidden="true">あ/A</span>
+                <span class="icon-label">Copy Japanese and English article</span>
+            </button>
+        </div>
+    </div>
+    <div class="copy-status" id="copy-status" aria-live="polite"></div>
+    <audio class="audio-player" id="tts-player" controls hidden preload="none"></audio>
+    <h1><ruby>東京<rt>とうきょう</rt></ruby>で<ruby>車<rt>くるま</rt></ruby>に<ruby>乗<rt>の</rt></ruby>るとETCがどこにでもあるように<ruby>感<rt>かん</rt></ruby>じる</h1>
+    <div class="source-note">東京で車を運転するときにETCがとても身近に感じられる理由を紹介します。</div>
+
+
+    <p class="article-paragraph"><ruby>東京<rt>とうきょう</rt></ruby>で<ruby>車<rt>くるま</rt></ruby>を<ruby>運転<rt>うんてん</rt></ruby>すると、ETCという<ruby>言葉<rt>ことば</rt></ruby>をあちこちで<ruby>見<rt>み</rt></ruby>かけます。<ruby>高速道路<rt>こうそくどうろ</rt></ruby>の<ruby>入口<rt>いりぐち</rt></ruby>だけでなく、<ruby>料金所<rt>りょうきんじょ</rt></ruby>の<ruby>案内<rt>あんない</rt></ruby>や<ruby>道路標識<rt>どうろひょうしき</rt></ruby>にもETCの<ruby>表示<rt>ひょうじ</rt></ruby>が<ruby>多<rt>おお</rt></ruby>く、はじめての<ruby>人<rt>ひと</rt></ruby>は「ここではETCが<ruby>当<rt>あ</rt></ruby>たり<ruby>前<rt>まえ</rt></ruby>なのだ」と<ruby>感<rt>かん</rt></ruby>じやすいです。</p>
+    <div class="sentence-translation">When you drive in Tokyo, you see the term ETC in many places. It appears not only at expressway entrances, but also on toll guidance and road signs, so first-time drivers easily feel that ETC is simply taken for granted here.</div>
+    <p class="article-paragraph"><ruby>特<rt>とく</rt></ruby>に<ruby>首都高<rt>しゅとこう</rt></ruby>では、その<ruby>印象<rt>いんしょう</rt></ruby>が<ruby>強<rt>つよ</rt></ruby>くなります。<ruby>短<rt>みじか</rt></ruby>い<ruby>区間<rt>くかん</rt></ruby>でも<ruby>入口<rt>いりぐち</rt></ruby>と<ruby>出口<rt>でぐち</rt></ruby>が<ruby>多<rt>おお</rt></ruby>く、<ruby>流<rt>なが</rt></ruby>れを<ruby>止<rt>と</rt></ruby>めないためにETCの<ruby>利用<rt>りよう</rt></ruby>がとても<ruby>重要<rt>じゅうよう</rt></ruby>です。<ruby>現金<rt>げんきん</rt></ruby>で<ruby>払<rt>はら</rt></ruby>えるレーンがあっても<ruby>数<rt>かず</rt></ruby>は<ruby>限<rt>かぎ</rt></ruby>られ、ETC<ruby>専用<rt>せんよう</rt></ruby>のレーンのほうがずっと<ruby>目立<rt>めだ</rt></ruby>つことがあります。</p>
+    <div class="sentence-translation">That impression becomes especially strong on the Shuto Expressway. Even on short stretches, there are many entrances and exits, so using ETC is very important to keep traffic moving. Even if cash lanes exist, they are limited, and ETC-only lanes often stand out much more.</div>
+    <p class="article-paragraph"><ruby>旅行者<rt>りょこうしゃ</rt></ruby>がレンタカーを<ruby>借<rt>か</rt></ruby>りるときも、ETCは<ruby>大切<rt>たいせつ</rt></ruby>です。<ruby>多<rt>おお</rt></ruby>くの<ruby>車<rt>くるま</rt></ruby>にはETCの<ruby>車載器<rt>しゃさいき</rt></ruby>がついていますが、カード<ruby>自体<rt>じたい</rt></ruby>は<ruby>別<rt>べつ</rt></ruby>に<ruby>必要<rt>ひつよう</rt></ruby>なことがあります。<ruby>空港<rt>くうこう</rt></ruby>から<ruby>都心<rt>としん</rt></ruby>へ<ruby>向<rt>む</rt></ruby>かうときや、<ruby>郊外<rt>こうがい</rt></ruby>へ<ruby>出<rt>で</rt></ruby>かけるときにETCがないと、<ruby>経路<rt>けいろ</rt></ruby>や<ruby>支払<rt>しはら</rt></ruby>いで<ruby>不便<rt>ふべん</rt></ruby>を<ruby>感<rt>かん</rt></ruby>じやすくなります。</p>
+    <div class="sentence-translation">ETC is also important when travelers rent a car. Many cars have an ETC onboard unit, but the card itself may be separate. If you do not have ETC when heading from the airport into central Tokyo or driving out to the suburbs, payment and route choices can become inconvenient.</div>
+    <p class="article-paragraph">しかも、ETCはただ<ruby>通<rt>とお</rt></ruby>るためのカードではありません。<ruby>料金<rt>りょうきん</rt></ruby>が<ruby>自動<rt>じどう</rt></ruby>で<ruby>計算<rt>けいさん</rt></ruby>され、<ruby>車<rt>くるま</rt></ruby>を<ruby>止<rt>と</rt></ruby>めずに<ruby>精算<rt>せいさん</rt></ruby>できるので、<ruby>東京<rt>とうきょう</rt></ruby>のように<ruby>交通量<rt>こうつうりょう</rt></ruby>が<ruby>多<rt>おお</rt></ruby>い<ruby>場所<rt>ばしょ</rt></ruby>ではとても<ruby>効率的<rt>こうりつてき</rt></ruby>です。ETC<ruby>専用<rt>せんよう</rt></ruby>、ETC<ruby>一般<rt>いっぱん</rt></ruby>という<ruby>表示<rt>ひょうじ</rt></ruby>が<ruby>何度<rt>なんど</rt></ruby>も<ruby>出<rt>で</rt></ruby>てくるのは、その<ruby>仕組<rt>しく</rt></ruby>みが<ruby>交通<rt>こうつう</rt></ruby>を<ruby>支<rt>ささ</rt></ruby>えているからです。</p>
+    <div class="sentence-translation">Also, ETC is not just a card for passing through. Tolls are calculated automatically, and you can pay without stopping the car, which is highly efficient in a place with as much traffic as Tokyo. Signs like ETC-only and ETC/general appear again and again because this system helps support traffic flow.</div>
+    <p class="article-paragraph">だから、<ruby>東京<rt>とうきょう</rt></ruby>で<ruby>運転<rt>うんてん</rt></ruby>するとETCが「どこにでもある」ように<ruby>見<rt>み</rt></ruby>えるのです。<ruby>実際<rt>じっさい</rt></ruby>には<ruby>目立<rt>めだ</rt></ruby>つ<ruby>場所<rt>ばしょ</rt></ruby>に<ruby>集中<rt>しゅうちゅう</rt></ruby>しているのですが、それだけ<ruby>都市<rt>とし</rt></ruby>の<ruby>車<rt>くるま</rt></ruby>の<ruby>移動<rt>いどう</rt></ruby>に<ruby>深<rt>ふか</rt></ruby>く<ruby>組<rt>く</rt></ruby>み<ruby>込<rt>こ</rt></ruby>まれています。ETCを<ruby>知<rt>し</rt></ruby>っているだけで、<ruby>東京<rt>とうきょう</rt></ruby>の<ruby>道路<rt>どうろ</rt></ruby>がどう<ruby>動<rt>うご</rt></ruby>いているか、<ruby>少<rt>すこ</rt></ruby>し<ruby>見<rt>み</rt></ruby>えやすくなります。</p>
+    <div class="sentence-translation">That is why ETC can look as if it is everywhere when you drive in Tokyo. In reality, it is concentrated in highly visible places, but that shows how deeply it is built into urban car travel. Just understanding ETC makes it easier to see how Tokyo’s roads actually work.</div>
+    <div class="recording-footer" aria-hidden="true">
+        <span>英訳はコメント欄にあります</span>
+        <span>2026年7月13日</span>
+    </div>
+
+<div class="study-notes-box">
+        <h2>Common Phrases and Patterns</h2>
+        <div class="study-note-group">
+            <h3>Useful phrases</h3>
+            <ul class="study-note-list">
+                <li><strong>〜ように</strong> <span>so that / in order to / in the way that</span><div class="study-note-example">Example: 車に乗るとETCがどこにでもあるように感じる 東京で車を運転すると、E</div></li>
+                <li><strong>〜ため</strong> <span>because of / for the purpose of</span><div class="study-note-example">Example: 入口と出口が多く、流れを止めないためにETCの利用がとても重要です</div></li>
+                <li><strong>〜だけで</strong> <span>just by / only with</span><div class="study-note-example">Example: 高速道路の入口だけでなく、料金所の案内や道路標識にも</div></li>
+            </ul>
+        </div>
+        <div class="study-note-group">
+            <h3>Verb and grammar patterns</h3>
+            <ul class="study-note-list">
+                <li><strong>〜ている</strong> <span>ongoing state / habitual action</span><div class="study-note-example">Example: 多くの車にはETCの車載器がついていますが、カード自体は別に必要なことが</div></li>
+                <li><strong>〜やすい</strong> <span>easy to do</span><div class="study-note-example">Example: はETCが当たり前なのだ」と感じやすいです</div></li>
+                <li><strong>〜込む</strong> <span>to put into / to go deeply into / to do thoroughly</span><div class="study-note-example">Example: それだけ都市の車の移動に深く組み込まれています</div></li>
+            </ul>
+        </div>
+    </div>
+    <div class="vocabulary-box">
+        <h2>N3 Vocabulary</h2>
+        <ul>
+            <li><strong>料金所（りょうきんじょ）:</strong> Toll gate / Toll booth</li>
+            <li><strong>道路標識（どうろひょうしき）:</strong> Road sign</li>
+            <li><strong>首都高（しゅとこう）:</strong> Shuto Expressway</li>
+            <li><strong>車載器（しゃさいき）:</strong> Onboard ETC device</li>
+            <li><strong>経路（けいろ）:</strong> Route</li>
+            <li><strong>精算（せいさん）:</strong> Settlement / Payment processing</li>
+            <li><strong>交通量（こうつうりょう）:</strong> Traffic volume</li>
+            <li><strong>効率的（こうりつてき）:</strong> Efficient</li>
+        </ul>
+    </div>
+</div>
+    </main>
+</div>
+
+<script src="./assets/theme.js"></script>
+<script src="./assets/article.js?v=94510f45cd63"></script>
+
+</body>
+</html>
