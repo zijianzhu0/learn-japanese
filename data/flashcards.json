@@ -4,7 +4,7 @@
     "articleManifest": "data/articles.json"
   },
   "levels": {
-    "N3": 2069,
+    "N3": 2077,
     "N4": 536,
     "N5": 553
   },
@@ -1164,6 +1164,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "指定席でも、このやり方がとても便利です。",
+          "en": "This is very convenient even for reserved seats."
+        },
+        {
           "ja": "つまり日本では、コンビニは単なる小さな店ではなく、近所の便利な拠点として育っていきました。",
           "en": "” In Japan, that meant convenience stores grew not just as small shops, but as useful local hubs."
         },
@@ -1178,10 +1182,6 @@
         {
           "ja": "運営会社は、観光客が便利になるだけでなく、会計の時間が短くなると説明しています。",
           "en": "The operator explains that this not only makes things more convenient for tourists but also shortens checkout time."
-        },
-        {
-          "ja": "便利さと安全の両方を考えながら、サービスを改善していくことが大切だとみられています。",
-          "en": "It is seen as important to improve services while considering both convenience and safety."
         }
       ]
     },
@@ -1694,6 +1694,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "紙からICへ変わっても、誰がどの席を使うかはしっかり管理されています。",
+          "en": "Even when the format changes from paper to IC, the system still clearly manages who will use which seat."
+        },
         {
           "ja": "誰でも使いやすい図書館を目指す取り組みとして注目されています。",
           "en": "The effort is drawing attention as a way to make libraries easier for everyone to use."
@@ -2537,6 +2541,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "すると駅で紙のきっぷを受け取らなくても、改札でタッチしてそのまま入れます。",
+          "en": "Then, instead of picking up a paper ticket at the station, you can simply tap at the gate and go in."
+        },
+        {
           "ja": "駅へ入る前に、通行の邪魔にならない場所で自転車を準備します。",
           "en": "Before entering the station, prepare your bicycle somewhere that does not block pedestrian traffic."
         },
@@ -2551,10 +2559,6 @@
         {
           "ja": "駅の外に出て、広い安全な場所で輪行袋を開きます。",
           "en": "Leave the station and open the bike bag in a spacious, safe place."
-        },
-        {
-          "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
-          "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
         }
       ]
     },
@@ -3181,6 +3185,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "予約した座席と「どのICカードで入るか」を先にひもづけておくのです。",
+          "en": "You link the reserved seat in advance to the IC card that will be used to enter."
+        },
+        {
           "ja": "駅へ入る前に、通行の邪魔にならない場所で自転車を準備します。",
           "en": "Before entering the station, prepare your bicycle somewhere that does not block pedestrian traffic."
         },
@@ -3204,6 +3212,10 @@
           "readingHiragana": "はいります",
           "meaning": "Polite form of 入る: to enter, to go into",
           "exampleSentences": [
+            {
+              "ja": "予約した座席と「どのICカードで入るか」を先にひもづけておくのです。",
+              "en": "You link the reserved seat in advance to the IC card that will be used to enter."
+            },
             {
               "ja": "駅へ入る前に、通行の邪魔にならない場所で自転車を準備します。",
               "en": "Before entering the station, prepare your bicycle somewhere that does not block pedestrian traffic."
@@ -3231,6 +3243,10 @@
               "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
             },
             {
+              "ja": "予約した座席と「どのICカードで入るか」を先にひもづけておくのです。",
+              "en": "You link the reserved seat in advance to the IC card that will be used to enter."
+            },
+            {
               "ja": "駅へ入る前に、通行の邪魔にならない場所で自転車を準備します。",
               "en": "Before entering the station, prepare your bicycle somewhere that does not block pedestrian traffic."
             },
@@ -3252,6 +3268,10 @@
           "readingHiragana": "はいらない",
           "meaning": "Plain negative form of 入る: to enter, to go into",
           "exampleSentences": [
+            {
+              "ja": "予約した座席と「どのICカードで入るか」を先にひもづけておくのです。",
+              "en": "You link the reserved seat in advance to the IC card that will be used to enter."
+            },
             {
               "ja": "駅へ入る前に、通行の邪魔にならない場所で自転車を準備します。",
               "en": "Before entering the station, prepare your bicycle somewhere that does not block pedestrian traffic."
@@ -3317,12 +3337,12 @@
               "en": "Storage equipment and fueling devices have also been prepared near the port."
             },
             {
-              "ja": "駅へ入る前に、通行の邪魔にならない場所で自転車を準備します。",
-              "en": "Before entering the station, prepare your bicycle somewhere that does not block pedestrian traffic."
+              "ja": "予約した座席と「どのICカードで入るか」を先にひもづけておくのです。",
+              "en": "You link the reserved seat in advance to the IC card that will be used to enter."
             },
             {
-              "ja": "日本では、クマが人の生活する場所に入る問題が増えています。",
-              "en": "In Japan, the problem of bears entering places where people live is increasing."
+              "ja": "駅へ入る前に、通行の邪魔にならない場所で自転車を準備します。",
+              "en": "Before entering the station, prepare your bicycle somewhere that does not block pedestrian traffic."
             }
           ]
         }
@@ -4371,24 +4391,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        },
+        {
+          "ja": "JR東日本の「新幹線eチケット」では、オンラインで予約した情報をSuicaのようなICカードに結びつけることができます。",
+          "en": "With JR East’s Shinkansen e-ticket, reservation information bought online can be linked to an IC card such as Suica."
+        },
+        {
+          "ja": "こうして見ると、日本の鉄道は複雑そうでも、実際には目的に合わせて細かく選べるようになっています。",
+          "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+        },
+        {
           "ja": "今の日本では、コンビニはどこにでもある店に見えます。",
           "en": "In Japan today, convenience stores seem to be everywhere."
         },
         {
           "ja": "でも、この形が最初から日本にあったわけではありません。",
           "en": "But this style did not exist in Japan from the beginning."
-        },
-        {
-          "ja": "そして1974年5月、東京の豊洲に日本での1号店が開きました。",
-          "en": "Then in May 1974, the first Japanese store opened in Toyosu, Tokyo."
-        },
-        {
-          "ja": "これは、アメリカで生まれたコンビニの考え方が、本格的に日本へ入ってきた瞬間でした。",
-          "en": "That was the moment when the convenience store idea born in America entered Japan in a full-scale way."
-        },
-        {
-          "ja": "日本の町では、家の近くで必要なものをすぐ買えることが重視されました。",
-          "en": "In Japanese towns, what mattered was being able to quickly buy what you need close to home."
         }
       ]
     },
@@ -4446,6 +4466,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        },
+        {
+          "ja": "JR東日本の「新幹線eチケット」では、オンラインで予約した情報をSuicaのようなICカードに結びつけることができます。",
+          "en": "With JR East’s Shinkansen e-ticket, reservation information bought online can be linked to an IC card such as Suica."
+        },
+        {
           "ja": "そして1974年5月、東京の豊洲に日本での1号店が開きました。",
           "en": "Then in May 1974, the first Japanese store opened in Toyosu, Tokyo."
         },
@@ -4456,14 +4484,6 @@
         {
           "ja": "料金が自動で計算され、車を止めずに精算できるので、東京のように交通量が多い場所ではとても効率的です。",
           "en": "Tolls are calculated automatically, and you can pay without stopping the car, which is highly efficient in a place with as much traffic as Tokyo."
-        },
-        {
-          "ja": "だから、東京で運転するとETCが「どこにでもある」ように見えるのです。",
-          "en": "That is why ETC can look as if it is everywhere when you drive in Tokyo."
-        },
-        {
-          "ja": "ETCを知っているだけで、東京の道路がどう動いているか、少し見えやすくなります。",
-          "en": "Just understanding ETC makes it easier to see how Tokyo’s roads actually work."
         }
       ]
     },
@@ -4752,24 +4772,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "新幹線に乗るとき、「指定席」と「自由席」の違いがわかりにくいと感じる人は多いです。",
+          "en": "When riding the Shinkansen, many people feel that the difference between reserved and non-reserved seats is confusing."
+        },
+        {
+          "ja": "この仕組みでは、1人につき1枚のICカードが必要です。",
+          "en": "In this system, each person needs one IC card."
+        },
+        {
+          "ja": "物理的なSuicaカードを使う人もいれば、スマートフォン側のIC機能を使う人もいますが、考え方は同じです。",
+          "en": "Some people use a physical Suica card, while others use the IC function on a smartphone, but the basic idea is the same."
+        },
+        {
           "ja": "こうした変化で、コンビニは急いでいる人だけの店ではなくなりました。",
           "en": "These changes meant they were no longer stores only for people in a hurry."
         },
         {
           "ja": "たとえば、混んだ道でほかの車が少し間をあけてくれたら、その後でハザードを二回ぐらい光らせる人がいます。",
           "en": "For example, if another driver leaves a little space for you on a crowded road, some people flash their hazard lights about twice afterward."
-        },
-        {
-          "ja": "もちろん、これは法律で決まった義務ではなく、すべての人がするわけでもありません。",
-          "en": "Of course, this is not a legal duty, and not everyone does it."
-        },
-        {
-          "ja": "V2Xという言葉を聞くと、多くの人は自動運転の未来を想像します。",
-          "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
-        },
-        {
-          "ja": "高速道路の入口だけでなく、料金所の案内や道路標識にもETCの表示が多く、はじめての人は「ここではETCが当たり前なのだ」と感じやすいです。",
-          "en": "It appears not only at expressway entrances, but also on toll guidance and road signs, so first-time drivers easily feel that ETC is simply taken for granted here."
         }
       ]
     },
@@ -4839,24 +4859,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        },
+        {
+          "ja": "JR東日本の「新幹線eチケット」では、オンラインで予約した情報をSuicaのようなICカードに結びつけることができます。",
+          "en": "With JR East’s Shinkansen e-ticket, reservation information bought online can be linked to an IC card such as Suica."
+        },
+        {
+          "ja": "こうして見ると、日本の鉄道は複雑そうでも、実際には目的に合わせて細かく選べるようになっています。",
+          "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+        },
+        {
           "ja": "今の日本では、コンビニはどこにでもある店に見えます。",
           "en": "In Japan today, convenience stores seem to be everywhere."
         },
         {
           "ja": "でも、この形が最初から日本にあったわけではありません。",
           "en": "But this style did not exist in Japan from the beginning."
-        },
-        {
-          "ja": "そして1974年5月、東京の豊洲に日本での1号店が開きました。",
-          "en": "Then in May 1974, the first Japanese store opened in Toyosu, Tokyo."
-        },
-        {
-          "ja": "これは、アメリカで生まれたコンビニの考え方が、本格的に日本へ入ってきた瞬間でした。",
-          "en": "That was the moment when the convenience store idea born in America entered Japan in a full-scale way."
-        },
-        {
-          "ja": "日本の町では、家の近くで必要なものをすぐ買えることが重視されました。",
-          "en": "In Japanese towns, what mattered was being able to quickly buy what you need close to home."
         }
       ]
     },
@@ -5457,6 +5477,10 @@
           "meaning": "Polite form of 入れる: to put in, to let in",
           "exampleSentences": [
             {
+              "ja": "すると駅で紙のきっぷを受け取らなくても、改札でタッチしてそのまま入れます。",
+              "en": "Then, instead of picking up a paper ticket at the station, you can simply tap at the gate and go in."
+            },
+            {
               "ja": "多くの鉄道会社では、自転車を分解したり折りたたんだりして、専用の輪行袋に完全に入れる必要があります。",
               "en": "Many railway companies require bicycles to be disassembled or folded and completely placed inside a dedicated bike transport bag."
             },
@@ -6010,6 +6034,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "いっぽう自由席は、自由席車両の中で空いている席を自分で探します。",
+          "en": "With a non-reserved seat, you look for an open seat inside the non-reserved cars."
+        },
+        {
           "ja": "だから、車が自分だけで考えるより、道路の側が先に状況を知らせるほうが役に立ちます。",
           "en": "Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself."
         },
@@ -6024,10 +6052,6 @@
         {
           "ja": "そのため、車両に表示される行き先は、自分が降りる駅よりずっと先の地名であることもあります。",
           "en": "Because of that, the destination shown on the train may be a place name far beyond the station where you plan to get off."
-        },
-        {
-          "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
-          "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
         }
       ]
     },
@@ -6543,7 +6567,24 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "最近は、紙のきっぷを出さなくても乗れる方法が広がっています。",
+          "en": "Recently, more ways have spread that let people ride without printing paper tickets."
+        },
+        {
+          "ja": "すると駅で紙のきっぷを受け取らなくても、改札でタッチしてそのまま入れます。",
+          "en": "Then, instead of picking up a paper ticket at the station, you can simply tap at the gate and go in."
+        },
+        {
+          "ja": "紙からICへ変わっても、誰がどの席を使うかはしっかり管理されています。",
+          "en": "Even when the format changes from paper to IC, the system still clearly manages who will use which seat."
+        },
+        {
+          "ja": "だから、新幹線のきっぷは「紙かデジタルか」だけでなく、「指定席か自由席か」も大切です。",
+          "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+        }
+      ]
     },
     {
       "id": "core-64ae27a33a9e24",
@@ -6838,24 +6879,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "つまり、安心して席を確保したいか、少し気楽に乗りたいかで選び方が変わります。",
+          "en": "In other words, the choice changes depending on whether you want the security of a guaranteed seat or a more flexible ride."
+        },
+        {
+          "ja": "最近は、紙のきっぷを出さなくても乗れる方法が広がっています。",
+          "en": "Recently, more ways have spread that let people ride without printing paper tickets."
+        },
+        {
+          "ja": "指定席でも、このやり方がとても便利です。",
+          "en": "This is very convenient even for reserved seats."
+        },
+        {
+          "ja": "物理的なSuicaカードを使う人もいれば、スマートフォン側のIC機能を使う人もいますが、考え方は同じです。",
+          "en": "Some people use a physical Suica card, while others use the IC function on a smartphone, but the basic idea is the same."
+        },
+        {
           "ja": "これは、アメリカで生まれたコンビニの考え方が、本格的に日本へ入ってきた瞬間でした。",
           "en": "That was the moment when the convenience store idea born in America entered Japan in a full-scale way."
-        },
-        {
-          "ja": "セブン&アイの資料でも、「close by convenient stores」という考え方が強く出ています。",
-          "en": "Even Seven & i materials strongly use the idea of “close by convenient stores."
-        },
-        {
-          "ja": "言葉は聞こえませんが、運転者同士で気持ちを伝える方法として使われています。",
-          "en": "No words can be heard, but it is used as a way for drivers to communicate their feelings."
-        },
-        {
-          "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
-          "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
-        },
-        {
-          "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
-          "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
         }
       ]
     },
@@ -8566,24 +8607,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "いっぽう自由席は、自由席車両の中で空いている席を自分で探します。",
+          "en": "With a non-reserved seat, you look for an open seat inside the non-reserved cars."
+        },
+        {
+          "ja": "自由席のきっぷを持っていても、座れるのは自由席車両だけです。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        },
+        {
+          "ja": "だから、どの車両が自由席かを先に見ておくと安心です。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        },
+        {
           "ja": "日本で車に乗っていると、前の車が一瞬だけハザードランプを光らせることがあります。",
           "en": "When you drive in Japan, you may sometimes see the car ahead flash its hazard lights for just a moment."
         },
         {
           "ja": "この合図は、車線変更や合流のときによく見られます。",
           "en": "This signal is often seen during lane changes and merges."
-        },
-        {
-          "ja": "たとえば、混んだ道でほかの車が少し間をあけてくれたら、その後でハザードを二回ぐらい光らせる人がいます。",
-          "en": "For example, if another driver leaves a little space for you on a crowded road, some people flash their hazard lights about twice afterward."
-        },
-        {
-          "ja": "ハザードなら後ろの車にも見えやすく、短時間で終わります。",
-          "en": "Hazard lights are easy for the car behind to see and only last a short time."
-        },
-        {
-          "ja": "でも日本では、道路の情報を車へ送る仕組みが、もうかなり前から使われています。",
-          "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
         }
       ]
     },
@@ -9193,6 +9234,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "こうして見ると、日本の鉄道は複雑そうでも、実際には目的に合わせて細かく選べるようになっています。",
+          "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+        },
+        {
           "ja": "現金で払えるレーンがあっても数は限られ、ETC専用のレーンのほうがずっと目立つことがあります。",
           "en": "Even if cash lanes exist, they are limited, and ETC-only lanes often stand out much more."
         },
@@ -9207,10 +9252,6 @@
         {
           "ja": "どの線に乗ってきたかで頭がいっぱいでも、色だけで目的の情報をつかみやすくなります。",
           "en": "Even if your head is full of route information, the color alone makes the information you need easier to grasp."
-        },
-        {
-          "ja": "黄色い背景に黒い文字と矢印を組み合わせた表示は、人の多い駅でもよく目立ちます。",
-          "en": "Signs that combine a yellow background with black text and arrows stand out well even in crowded stations."
         }
       ]
     },
@@ -9244,6 +9285,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "こうして見ると、日本の鉄道は複雑そうでも、実際には目的に合わせて細かく選べるようになっています。",
+          "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+        },
+        {
           "ja": "道路の上での短いあいさつのようなものです。",
           "en": "” It is like a very short greeting on the road."
         },
@@ -9258,10 +9303,6 @@
         {
           "ja": "混雑した道でも、相手に少し気を配ると流れがよくなることがあります。",
           "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
-        },
-        {
-          "ja": "でも日本では、道路の情報を車へ送る仕組みが、もうかなり前から使われています。",
-          "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
         }
       ]
     },
@@ -9490,6 +9531,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "こうして見ると、日本の鉄道は複雑そうでも、実際には目的に合わせて細かく選べるようになっています。",
+          "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+        },
+        {
           "ja": "最初は少し難しく見えても、行き先と種別をセットで見る習慣をつければ、不安はかなり小さくなります。",
           "en": "It may look a little difficult at first, but if you make a habit of checking the destination and train type together, it becomes much less intimidating."
         },
@@ -9518,6 +9563,10 @@
               "en": "At stations such as Shinagawa and Haneda Airport, you will see labels like Local, Express, Airport Express, Limited Express, and Rapid Limited Express."
             },
             {
+              "ja": "こうして見ると、日本の鉄道は複雑そうでも、実際には目的に合わせて細かく選べるようになっています。",
+              "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+            },
+            {
               "ja": "最初は少し難しく見えても、行き先と種別をセットで見る習慣をつければ、不安はかなり小さくなります。",
               "en": "It may look a little difficult at first, but if you make a habit of checking the destination and train type together, it becomes much less intimidating."
             },
@@ -9542,6 +9591,10 @@
             {
               "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
               "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
+            },
+            {
+              "ja": "こうして見ると、日本の鉄道は複雑そうでも、実際には目的に合わせて細かく選べるようになっています。",
+              "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
             },
             {
               "ja": "最初は少し難しく見えても、行き先と種別をセットで見る習慣をつければ、不安はかなり小さくなります。",
@@ -9570,6 +9623,10 @@
               "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
             },
             {
+              "ja": "こうして見ると、日本の鉄道は複雑そうでも、実際には目的に合わせて細かく選べるようになっています。",
+              "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+            },
+            {
               "ja": "最初は少し難しく見えても、行き先と種別をセットで見る習慣をつければ、不安はかなり小さくなります。",
               "en": "It may look a little difficult at first, but if you make a habit of checking the destination and train type together, it becomes much less intimidating."
             },
@@ -9592,6 +9649,10 @@
           "meaning": "Te-form of 見る: to see, to look, to watch",
           "exampleSentences": [
             {
+              "ja": "だから、どの車両が自由席かを先に見ておくと安心です。",
+              "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+            },
+            {
               "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
               "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
             },
@@ -9606,10 +9667,6 @@
             {
               "ja": "AIは、昔からの記録を見て、空気の汚れや街の元気さがどう変わるかを予測します。",
               "en": "AI looks at past records and predicts how air pollution and urban vitality may change."
-            },
-            {
-              "ja": "そのため、各国の政府や企業は、この合意が実行されるかどうかを注意して見ています。",
-              "en": "For that reason, governments and companies are watching carefully to see whether the agreement will be carried out."
             }
           ]
         },
@@ -9621,6 +9678,10 @@
           "readingHiragana": "みられる",
           "meaning": "Potential form of 見る: to see, to look, to watch",
           "exampleSentences": [
+            {
+              "ja": "こうして見ると、日本の鉄道は複雑そうでも、実際には目的に合わせて細かく選べるようになっています。",
+              "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+            },
             {
               "ja": "最初は少し難しく見えても、行き先と種別をセットで見る習慣をつければ、不安はかなり小さくなります。",
               "en": "It may look a little difficult at first, but if you make a habit of checking the destination and train type together, it becomes much less intimidating."
@@ -9934,6 +9995,10 @@
           "meaning": "Te-form of 持つ: to hold (in one’s hands)",
           "exampleSentences": [
             {
+              "ja": "自由席のきっぷを持っていても、座れるのは自由席車両だけです。",
+              "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+            },
+            {
               "ja": "だから、セブン-イレブンが日本にコンビニを「持ってきた」と言っても、ただ外国の仕組みを運んだだけではありません。",
               "en": "So even if we say Seven-Eleven “brought” convenience stores to Japan, it did not simply carry over a foreign system unchanged."
             },
@@ -10102,6 +10167,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "いっぽう自由席は、自由席車両の中で空いている席を自分で探します。",
+          "en": "With a non-reserved seat, you look for an open seat inside the non-reserved cars."
+        },
+        {
           "ja": "豊洲の1店から始まった変化は、いまでは日本中の日常を支える当たり前の景色になっています。",
           "en": "What began with one store in Toyosu has turned into an ordinary part of life all across Japan."
         },
@@ -10116,10 +10185,6 @@
         {
           "ja": "移動中は、他の乗客が乗り降りしやすいか確認することも大切です。",
           "en": "During the trip, it is also important to make sure other passengers can easily get on and off."
-        },
-        {
-          "ja": "その理由の一つは、ICカードの残高確認や運賃計算が、改札機の中でとても速く処理されるように設計されていることです。",
-          "en": "One reason is that balance checks and fare calculations for IC cards are designed to be processed very quickly inside the ticket gate itself."
         }
       ]
     },
@@ -10667,6 +10732,10 @@
           "meaning": "Te-form of なる: to become",
           "exampleSentences": [
             {
+              "ja": "こうして見ると、日本の鉄道は複雑そうでも、実際には目的に合わせて細かく選べるようになっています。",
+              "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+            },
+            {
               "ja": "飲み物やおにぎりを買うだけでなく、ATMや支払い、宅配まで使えるので、生活の一部になっています。",
               "en": "People use them not only to buy drinks and rice balls, but also for ATMs, payments, and parcel services, so they have become part of everyday life."
             },
@@ -10681,10 +10750,6 @@
             {
               "ja": "また、人と人の交流も弱くなっています。",
               "en": "People-to-people exchange is also weakening."
-            },
-            {
-              "ja": "専門家は、気候変動によって、このような強い熱波が起きやすくなっていると説明しています。",
-              "en": "Experts explain that climate change is making intense heatwaves like this more likely."
             }
           ]
         },
@@ -11150,6 +11215,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "新幹線に乗るとき、「指定席」と「自由席」の違いがわかりにくいと感じる人は多いです。",
+          "en": "When riding the Shinkansen, many people feel that the difference between reserved and non-reserved seats is confusing."
+        },
+        {
+          "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        },
+        {
           "ja": "駅員から乗る位置を案内された場合は、その指示に従いましょう。",
           "en": "Follow any instructions from station staff about where to board."
         },
@@ -11160,14 +11233,6 @@
         {
           "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
           "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
-        },
-        {
-          "ja": "早く着きたいと思って速い電車に乗ると、自分の駅を通りすぎてしまうことがあります。",
-          "en": "If you board a faster train because you want to arrive quickly, it may pass your station."
-        },
-        {
-          "ja": "乗る前に、発車標で行き先と種別の両方を確認しましょう。",
-          "en": "Before getting on, check both the destination and the service type on the departure board."
         }
       ],
       "partOfSpeech": "verb",
@@ -11182,6 +11247,14 @@
           "meaning": "Polite form of 乗る: to get on (train, plane, bus, ship)",
           "exampleSentences": [
             {
+              "ja": "新幹線に乗るとき、「指定席」と「自由席」の違いがわかりにくいと感じる人は多いです。",
+              "en": "When riding the Shinkansen, many people feel that the difference between reserved and non-reserved seats is confusing."
+            },
+            {
+              "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
+              "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+            },
+            {
               "ja": "駅員から乗る位置を案内された場合は、その指示に従いましょう。",
               "en": "Follow any instructions from station staff about where to board."
             },
@@ -11192,14 +11265,6 @@
             {
               "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
               "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
-            },
-            {
-              "ja": "早く着きたいと思って速い電車に乗ると、自分の駅を通りすぎてしまうことがあります。",
-              "en": "If you board a faster train because you want to arrive quickly, it may pass your station."
-            },
-            {
-              "ja": "乗る前に、発車標で行き先と種別の両方を確認しましょう。",
-              "en": "Before getting on, check both the destination and the service type on the departure board."
             }
           ]
         },
@@ -11216,20 +11281,20 @@
               "en": "Once on the train, choose a place where the bicycle will not block the doors or aisle."
             },
             {
+              "ja": "新幹線に乗るとき、「指定席」と「自由席」の違いがわかりにくいと感じる人は多いです。",
+              "en": "When riding the Shinkansen, many people feel that the difference between reserved and non-reserved seats is confusing."
+            },
+            {
+              "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
+              "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+            },
+            {
               "ja": "駅員から乗る位置を案内された場合は、その指示に従いましょう。",
               "en": "Follow any instructions from station staff about where to board."
             },
             {
               "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
               "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
-            },
-            {
-              "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
-              "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
-            },
-            {
-              "ja": "早く着きたいと思って速い電車に乗ると、自分の駅を通りすぎてしまうことがあります。",
-              "en": "If you board a faster train because you want to arrive quickly, it may pass your station."
             }
           ]
         },
@@ -11242,6 +11307,14 @@
           "meaning": "Plain negative form of 乗る: to get on (train, plane, bus, ship)",
           "exampleSentences": [
             {
+              "ja": "新幹線に乗るとき、「指定席」と「自由席」の違いがわかりにくいと感じる人は多いです。",
+              "en": "When riding the Shinkansen, many people feel that the difference between reserved and non-reserved seats is confusing."
+            },
+            {
+              "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
+              "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+            },
+            {
               "ja": "駅員から乗る位置を案内された場合は、その指示に従いましょう。",
               "en": "Follow any instructions from station staff about where to board."
             },
@@ -11252,14 +11325,6 @@
             {
               "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
               "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
-            },
-            {
-              "ja": "早く着きたいと思って速い電車に乗ると、自分の駅を通りすぎてしまうことがあります。",
-              "en": "If you board a faster train because you want to arrive quickly, it may pass your station."
-            },
-            {
-              "ja": "乗る前に、発車標で行き先と種別の両方を確認しましょう。",
-              "en": "Before getting on, check both the destination and the service type on the departure board."
             }
           ]
         },
@@ -11280,16 +11345,16 @@
               "en": "Even if your head is full of route information, the color alone makes the information you need easier to grasp."
             },
             {
+              "ja": "新幹線に乗るとき、「指定席」と「自由席」の違いがわかりにくいと感じる人は多いです。",
+              "en": "When riding the Shinkansen, many people feel that the difference between reserved and non-reserved seats is confusing."
+            },
+            {
+              "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
+              "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+            },
+            {
               "ja": "駅員から乗る位置を案内された場合は、その指示に従いましょう。",
               "en": "Follow any instructions from station staff about where to board."
-            },
-            {
-              "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
-              "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
-            },
-            {
-              "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
-              "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
             }
           ]
         },
@@ -11302,24 +11367,24 @@
           "meaning": "Potential form of 乗る: to get on (train, plane, bus, ship)",
           "exampleSentences": [
             {
+              "ja": "最近は、紙のきっぷを出さなくても乗れる方法が広がっています。",
+              "en": "Recently, more ways have spread that let people ride without printing paper tickets."
+            },
+            {
+              "ja": "新幹線に乗るとき、「指定席」と「自由席」の違いがわかりにくいと感じる人は多いです。",
+              "en": "When riding the Shinkansen, many people feel that the difference between reserved and non-reserved seats is confusing."
+            },
+            {
+              "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
+              "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+            },
+            {
               "ja": "駅員から乗る位置を案内された場合は、その指示に従いましょう。",
               "en": "Follow any instructions from station staff about where to board."
             },
             {
               "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
               "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
-            },
-            {
-              "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
-              "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
-            },
-            {
-              "ja": "早く着きたいと思って速い電車に乗ると、自分の駅を通りすぎてしまうことがあります。",
-              "en": "If you board a faster train because you want to arrive quickly, it may pass your station."
-            },
-            {
-              "ja": "乗る前に、発車標で行き先と種別の両方を確認しましょう。",
-              "en": "Before getting on, check both the destination and the service type on the departure board."
             }
           ]
         }
@@ -12032,6 +12097,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "物理的なSuicaカードを使う人もいれば、スマートフォン側のIC機能を使う人もいますが、考え方は同じです。",
+          "en": "Some people use a physical Suica card, while others use the IC function on a smartphone, but the basic idea is the same."
+        },
+        {
           "ja": "そのため、駅が混雑しているときでも、たくさんの人がほぼ同じ速さで進めます。",
           "en": "Because of that, even when a station is crowded, many people can keep moving at almost the same speed."
         },
@@ -12046,10 +12115,6 @@
         {
           "ja": "二酸化炭素、二酸化窒素、細かい粒子の汚染、緑の多さなどを同じ場所ごとに比べられます。",
           "en": "It can compare carbon dioxide, nitrogen dioxide, fine-particle pollution, the amount of greenery, and other data for the same kinds of locations."
-        },
-        {
-          "ja": "管理者は、同じ内容を働く人や生徒にすぐ送ることができます。",
-          "en": "Managers can quickly send the same information to workers or students."
         }
       ]
     },
@@ -12113,6 +12178,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "新幹線に乗るとき、「指定席」と「自由席」の違いがわかりにくいと感じる人は多いです。",
+          "en": "When riding the Shinkansen, many people feel that the difference between reserved and non-reserved seats is confusing."
+        },
+        {
           "ja": "外国ではクラクションや手であいさつすることが多い場所もありますが、日本では大きな音を出さない形のほうが合いやすいのかもしれません。",
           "en": "In some other countries, people more often use the horn or wave with their hand, but in Japan a quieter form may fit better."
         },
@@ -12127,10 +12196,6 @@
         {
           "ja": "黄色い背景に黒い文字と矢印を組み合わせた表示は、人の多い駅でもよく目立ちます。",
           "en": "Signs that combine a yellow background with black text and arrows stand out well even in crowded stations."
-        },
-        {
-          "ja": "つまり、日本と中国には協力したい理由もありますが、信じにくい理由も多いのです。",
-          "en": "In other words, Japan and China have reasons to cooperate, but they also have many reasons to distrust each other."
         }
       ]
     },
@@ -12967,6 +13032,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "だから、どの車両が自由席かを先に見ておくと安心です。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        },
+        {
+          "ja": "予約した座席と「どのICカードで入るか」を先にひもづけておくのです。",
+          "en": "You link the reserved seat in advance to the IC card that will be used to enter."
+        },
+        {
           "ja": "だから、車が自分だけで考えるより、道路の側が先に状況を知らせるほうが役に立ちます。",
           "en": "Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself."
         },
@@ -12977,14 +13050,6 @@
         {
           "ja": "そのため、車両に表示される行き先は、自分が降りる駅よりずっと先の地名であることもあります。",
           "en": "Because of that, the destination shown on the train may be a place name far beyond the station where you plan to get off."
-        },
-        {
-          "ja": "横浜やその先へ行くなら、横浜へ向かう電車に乗ればいいです。",
-          "en": "If you are going to Yokohama or beyond, board a train heading that way."
-        },
-        {
-          "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
-          "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
         }
       ]
     },
@@ -13987,6 +14052,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "物理的なSuicaカードを使う人もいれば、スマートフォン側のIC機能を使う人もいますが、考え方は同じです。",
+          "en": "Some people use a physical Suica card, while others use the IC function on a smartphone, but the basic idea is the same."
+        },
+        {
           "ja": "これは道路の側から車へ必要な情報を送る、わかりやすいV2Iの形です。",
           "en": "This is a clear form of V2I, where the road side sends necessary information to the vehicle."
         },
@@ -14001,10 +14070,6 @@
         {
           "ja": "このように、細かい列車の名前を全部覚えていなくても、まず路線のどちら側に行きたいかがわかれば、正しい電車をかなり選びやすくなります。",
           "en": "In this way, even if you do not remember every train name, knowing which side of the line you need first makes it much easier to choose the right train."
-        },
-        {
-          "ja": "ベネズエラの北側では、カリブプレートと南アメリカプレートが横にずれています。",
-          "en": "North of Venezuela, the Caribbean Plate and the South American Plate slide sideways past each other."
         }
       ]
     },
@@ -14023,6 +14088,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "いっぽう自由席は、自由席車両の中で空いている席を自分で探します。",
+          "en": "With a non-reserved seat, you look for an open seat inside the non-reserved cars."
+        },
+        {
           "ja": "とても小さな行動ですが、道を少しやわらかい空気にする力があります。",
           "en": "It is a very small action, but it can make the mood on the road a little softer."
         },
@@ -14037,10 +14106,6 @@
         {
           "ja": "羽田空港で迷ったら、まずどちらの方面へ向かうのかを考えてみましょう。",
           "en": "If you feel confused at Haneda Airport, first think about which direction you need to head."
-        },
-        {
-          "ja": "品川や羽田空港などの駅では、普通、急行、エアポート急行、特急、快特などの表示を見ます。",
-          "en": "At stations such as Shinagawa and Haneda Airport, you will see labels like Local, Express, Airport Express, Limited Express, and Rapid Limited Express."
         }
       ]
     },
@@ -14176,6 +14241,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "つまり、安心して席を確保したいか、少し気楽に乗りたいかで選び方が変わります。",
+          "en": "In other words, the choice changes depending on whether you want the security of a guaranteed seat or a more flexible ride."
+        },
+        {
           "ja": "その後、コンビニは食べ物だけでなく、24時間営業、料金支払い、ATM、チケット、宅配などを少しずつ増やしました。",
           "en": "After that, convenience stores gradually added not only food, but also 24-hour service, bill payment, ATMs, tickets, and parcel services."
         },
@@ -14190,10 +14259,6 @@
         {
           "ja": "混雑した道でも、相手に少し気を配ると流れがよくなることがあります。",
           "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
-        },
-        {
-          "ja": "カーナビの画面に出る渋滞情報や規制情報の後ろには、道路と車が少しずつ会話している世界があります。",
-          "en": "Behind the congestion and restriction information shown on a car navigation screen is a world where roads and cars are quietly exchanging information."
         }
       ]
     },
@@ -14300,6 +14365,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "すると駅で紙のきっぷを受け取らなくても、改札でタッチしてそのまま入れます。",
+          "en": "Then, instead of picking up a paper ticket at the station, you can simply tap at the gate and go in."
+        },
+        {
           "ja": "外国ではクラクションや手であいさつすることが多い場所もありますが、日本では大きな音を出さない形のほうが合いやすいのかもしれません。",
           "en": "In some other countries, people more often use the horn or wave with their hand, but in Japan a quieter form may fit better."
         },
@@ -14314,10 +14383,6 @@
         {
           "ja": "だからこそ、お礼として使う時もごく短く、安全を第一にすることが大切です。",
           "en": "That is exactly why, when they are used as thanks, it should be only very brief and safety should come first."
-        },
-        {
-          "ja": "東京で車を運転すると、ETCという言葉をあちこちで見かけます。",
-          "en": "When you drive in Tokyo, you see the term ETC in many places."
         }
       ],
       "partOfSpeech": "verb",
@@ -14331,6 +14396,10 @@
           "readingHiragana": "します",
           "meaning": "Polite form of する: to do",
           "exampleSentences": [
+            {
+              "ja": "いっぽう自由席は、自由席車両の中で空いている席を自分で探します。",
+              "en": "With a non-reserved seat, you look for an open seat inside the non-reserved cars."
+            },
             {
               "ja": "V2Xという言葉を聞くと、多くの人は自動運転の未来を想像します。",
               "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
@@ -14346,10 +14415,6 @@
             {
               "ja": "袋に入れた後は、持ち上げても部品が動かないよう、しっかり固定します。",
               "en": "After putting the bike in the bag, secure the parts so they do not move when you lift it."
-            },
-            {
-              "ja": "改札では大きな荷物として扱い、周りの人にぶつけないよう注意します。",
-              "en": "At the ticket gates, handle the bicycle like a large piece of luggage and be careful not to hit people around you."
             }
           ]
         },
@@ -14362,24 +14427,24 @@
           "meaning": "Plain past form of する: to do",
           "exampleSentences": [
             {
+              "ja": "つまり、安心して席を確保したいか、少し気楽に乗りたいかで選び方が変わります。",
+              "en": "In other words, the choice changes depending on whether you want the security of a guaranteed seat or a more flexible ride."
+            },
+            {
+              "ja": "JR東日本の「新幹線eチケット」では、オンラインで予約した情報をSuicaのようなICカードに結びつけることができます。",
+              "en": "With JR East’s Shinkansen e-ticket, reservation information bought online can be linked to an IC card such as Suica."
+            },
+            {
+              "ja": "予約した座席と「どのICカードで入るか」を先にひもづけておくのです。",
+              "en": "You link the reserved seat in advance to the IC card that will be used to enter."
+            },
+            {
               "ja": "大きな転機の一つが、セブン-イレブンの登場でした。",
               "en": "One major turning point was the arrival of Seven-Eleven."
             },
             {
               "ja": "1973年、イトーヨーカドーはアメリカの7-Elevenを展開していたサウスランド社と提携しました。",
               "en": "In 1973, Ito-Yokado formed a partnership with Southland, the company that operated 7-Eleven in the United States."
-            },
-            {
-              "ja": "そして1974年5月、東京の豊洲に日本での1号店が開きました。",
-              "en": "Then in May 1974, the first Japanese store opened in Toyosu, Tokyo."
-            },
-            {
-              "ja": "これは、アメリカで生まれたコンビニの考え方が、本格的に日本へ入ってきた瞬間でした。",
-              "en": "That was the moment when the convenience store idea born in America entered Japan in a full-scale way."
-            },
-            {
-              "ja": "ただし、セブン-イレブンはそのままアメリカの店をまねしただけではありませんでした。",
-              "en": "However, Seven-Eleven did not simply copy the American store as it was."
             }
           ]
         },
@@ -14396,6 +14461,10 @@
               "en": "While its convenience is recognized, it is considered important not to weaken students’ ability to think for themselves."
             },
             {
+              "ja": "すると駅で紙のきっぷを受け取らなくても、改札でタッチしてそのまま入れます。",
+              "en": "Then, instead of picking up a paper ticket at the station, you can simply tap at the gate and go in."
+            },
+            {
               "ja": "外国ではクラクションや手であいさつすることが多い場所もありますが、日本では大きな音を出さない形のほうが合いやすいのかもしれません。",
               "en": "In some other countries, people more often use the horn or wave with their hand, but in Japan a quieter form may fit better."
             },
@@ -14406,10 +14475,6 @@
             {
               "ja": "もちろん、これは法律で決まった義務ではなく、すべての人がするわけでもありません。",
               "en": "Of course, this is not a legal duty, and not everyone does it."
-            },
-            {
-              "ja": "だからこそ、お礼として使う時もごく短く、安全を第一にすることが大切です。",
-              "en": "That is exactly why, when they are used as thanks, it should be only very brief and safety should come first."
             }
           ]
         },
@@ -14422,24 +14487,24 @@
           "meaning": "Te-form of する: to do",
           "exampleSentences": [
             {
+              "ja": "つまり、安心して席を確保したいか、少し気楽に乗りたいかで選び方が変わります。",
+              "en": "In other words, the choice changes depending on whether you want the security of a guaranteed seat or a more flexible ride."
+            },
+            {
+              "ja": "すると駅で紙のきっぷを受け取らなくても、改札でタッチしてそのまま入れます。",
+              "en": "Then, instead of picking up a paper ticket at the station, you can simply tap at the gate and go in."
+            },
+            {
+              "ja": "急がない時は自由席、確実に座りたい時は指定席、そして改札をすばやく通りたいならSuicaなどのIC連携が役に立ちます。",
+              "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+            },
+            {
+              "ja": "こうして見ると、日本の鉄道は複雑そうでも、実際には目的に合わせて細かく選べるようになっています。",
+              "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+            },
+            {
               "ja": "1973年、イトーヨーカドーはアメリカの7-Elevenを展開していたサウスランド社と提携しました。",
               "en": "In 1973, Ito-Yokado formed a partnership with Southland, the company that operated 7-Eleven in the United States."
-            },
-            {
-              "ja": "そして1974年5月、東京の豊洲に日本での1号店が開きました。",
-              "en": "Then in May 1974, the first Japanese store opened in Toyosu, Tokyo."
-            },
-            {
-              "ja": "つまり日本では、コンビニは単なる小さな店ではなく、近所の便利な拠点として育っていきました。",
-              "en": "” In Japan, that meant convenience stores grew not just as small shops, but as useful local hubs."
-            },
-            {
-              "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
-              "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
-            },
-            {
-              "ja": "言葉は聞こえませんが、運転者同士で気持ちを伝える方法として使われています。",
-              "en": "No words can be heard, but it is used as a way for drivers to communicate their feelings."
             }
           ]
         },
@@ -14563,7 +14628,12 @@
           "term": "座ります",
           "readingHiragana": "すわります",
           "meaning": "Polite form of 座る: to sit",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "指定席は座席があらかじめ決まっていて、その席に座ります。",
+              "en": "With a reserved seat, your seat is decided in advance and you sit in that seat."
+            }
+          ]
         },
         {
           "form": "past",
@@ -14599,7 +14669,12 @@
           "term": "座れる",
           "readingHiragana": "すわれる",
           "meaning": "Potential form of 座る: to sit",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "自由席のきっぷを持っていても、座れるのは自由席車両だけです。",
+              "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+            }
+          ]
         }
       ]
     },
@@ -14802,6 +14877,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "だから、新幹線のきっぷは「紙かデジタルか」だけでなく、「指定席か自由席か」も大切です。",
+          "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+        },
+        {
           "ja": "だからこそ、お礼として使う時もごく短く、安全を第一にすることが大切です。",
           "en": "That is exactly why, when they are used as thanks, it should be only very brief and safety should come first."
         },
@@ -14816,10 +14895,6 @@
         {
           "ja": "これらは速さや停車駅が違うため、名前を確認することが大切です。",
           "en": "Because their speeds and stopping stations differ, it is important to check the name."
-        },
-        {
-          "ja": "1964年の東京オリンピックに向けて作られた、日本の技術史でも大切な乗り物です。",
-          "en": "It was built for the 1964 Tokyo Olympics, and it is also an important part of Japan's engineering history."
         }
       ]
     },
@@ -15081,6 +15156,10 @@
           "meaning": "Polite form of 立つ: to stand, to rise",
           "exampleSentences": [
             {
+              "ja": "急がない時は自由席、確実に座りたい時は指定席、そして改札をすばやく通りたいならSuicaなどのIC連携が役に立ちます。",
+              "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+            },
+            {
               "ja": "だから、車が自分だけで考えるより、道路の側が先に状況を知らせるほうが役に立ちます。",
               "en": "Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself."
             },
@@ -15095,10 +15174,6 @@
             {
               "ja": "実際には目立つ場所に集中しているのですが、それだけ都市の車の移動に深く組み込まれています。",
               "en": "In reality, it is concentrated in highly visible places, but that shows how deeply it is built into urban car travel."
-            },
-            {
-              "ja": "大きく目立つわけではなくても、だれかの安心をしっかり支えているところが素敵です。",
-              "en": "Even if it does not stand out, it is wonderful that it quietly supports someone’s sense of safety."
             }
           ]
         },
@@ -15862,6 +15937,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "指定席でも、このやり方がとても便利です。",
+          "en": "This is very convenient even for reserved seats."
+        },
+        {
           "ja": "とても小さな行動ですが、道を少しやわらかい空気にする力があります。",
           "en": "It is a very small action, but it can make the mood on the road a little softer."
         },
@@ -15876,10 +15955,6 @@
         {
           "ja": "その理由の一つは、ICカードの残高確認や運賃計算が、改札機の中でとても速く処理されるように設計されていることです。",
           "en": "One reason is that balance checks and fare calculations for IC cards are designed to be processed very quickly inside the ticket gate itself."
-        },
-        {
-          "ja": "毎日たくさんの人が行き交う東京の駅だからこそ、このような技術がとても自然に街へ溶け込んでいるのかもしれません。",
-          "en": "Because Tokyo stations are used by so many people every day, perhaps this kind of technology blends naturally into the city."
         }
       ]
     },
@@ -15990,6 +16065,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "物理的なSuicaカードを使う人もいれば、スマートフォン側のIC機能を使う人もいますが、考え方は同じです。",
+          "en": "Some people use a physical Suica card, while others use the IC function on a smartphone, but the basic idea is the same."
+        },
+        {
+          "ja": "紙からICへ変わっても、誰がどの席を使うかはしっかり管理されています。",
+          "en": "Even when the format changes from paper to IC, the system still clearly manages who will use which seat."
+        },
+        {
           "ja": "学生も会社員も高齢者も、それぞれの理由で使う社会インフラになったのです。",
           "en": "Students, office workers, and older people all started using them for different reasons, and they became a kind of social infrastructure."
         },
@@ -16000,14 +16083,6 @@
         {
           "ja": "だからこそ、お礼として使う時もごく短く、安全を第一にすることが大切です。",
           "en": "That is exactly why, when they are used as thanks, it should be only very brief and safety should come first."
-        },
-        {
-          "ja": "自分が使う機会がないと、こうした設備にはなかなか気づかないものです。",
-          "en": "If you never have a reason to use such equipment, it is easy not to notice it."
-        },
-        {
-          "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
-          "en": "In London, people using the Underground and buses were also advised to drink water."
         }
       ],
       "partOfSpeech": "verb",
@@ -16022,6 +16097,14 @@
           "meaning": "Polite form of 使う: to use, to make use of",
           "exampleSentences": [
             {
+              "ja": "物理的なSuicaカードを使う人もいれば、スマートフォン側のIC機能を使う人もいますが、考え方は同じです。",
+              "en": "Some people use a physical Suica card, while others use the IC function on a smartphone, but the basic idea is the same."
+            },
+            {
+              "ja": "紙からICへ変わっても、誰がどの席を使うかはしっかり管理されています。",
+              "en": "Even when the format changes from paper to IC, the system still clearly manages who will use which seat."
+            },
+            {
               "ja": "学生も会社員も高齢者も、それぞれの理由で使う社会インフラになったのです。",
               "en": "Students, office workers, and older people all started using them for different reasons, and they became a kind of social infrastructure."
             },
@@ -16032,14 +16115,6 @@
             {
               "ja": "だからこそ、お礼として使う時もごく短く、安全を第一にすることが大切です。",
               "en": "That is exactly why, when they are used as thanks, it should be only very brief and safety should come first."
-            },
-            {
-              "ja": "自分が使う機会がないと、こうした設備にはなかなか気づかないものです。",
-              "en": "If you never have a reason to use such equipment, it is easy not to notice it."
-            },
-            {
-              "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
-              "en": "In London, people using the Underground and buses were also advised to drink water."
             }
           ]
         },
@@ -16056,20 +16131,20 @@
               "en": "On the train, passengers are served boxed meals and tea made with local ingredients."
             },
             {
+              "ja": "物理的なSuicaカードを使う人もいれば、スマートフォン側のIC機能を使う人もいますが、考え方は同じです。",
+              "en": "Some people use a physical Suica card, while others use the IC function on a smartphone, but the basic idea is the same."
+            },
+            {
+              "ja": "紙からICへ変わっても、誰がどの席を使うかはしっかり管理されています。",
+              "en": "Even when the format changes from paper to IC, the system still clearly manages who will use which seat."
+            },
+            {
               "ja": "学生も会社員も高齢者も、それぞれの理由で使う社会インフラになったのです。",
               "en": "Students, office workers, and older people all started using them for different reasons, and they became a kind of social infrastructure."
             },
             {
               "ja": "また、ハザードは本来注意や非常時のためのランプなので、長く使うものではありません。",
               "en": "Also, hazard lights are originally meant for caution or emergencies, not for long use."
-            },
-            {
-              "ja": "だからこそ、お礼として使う時もごく短く、安全を第一にすることが大切です。",
-              "en": "That is exactly why, when they are used as thanks, it should be only very brief and safety should come first."
-            },
-            {
-              "ja": "自分が使う機会がないと、こうした設備にはなかなか気づかないものです。",
-              "en": "If you never have a reason to use such equipment, it is easy not to notice it."
             }
           ]
         },
@@ -16086,20 +16161,20 @@
               "en": "Cashless payments are increasing on ferries heading to remote islands."
             },
             {
+              "ja": "物理的なSuicaカードを使う人もいれば、スマートフォン側のIC機能を使う人もいますが、考え方は同じです。",
+              "en": "Some people use a physical Suica card, while others use the IC function on a smartphone, but the basic idea is the same."
+            },
+            {
+              "ja": "紙からICへ変わっても、誰がどの席を使うかはしっかり管理されています。",
+              "en": "Even when the format changes from paper to IC, the system still clearly manages who will use which seat."
+            },
+            {
               "ja": "学生も会社員も高齢者も、それぞれの理由で使う社会インフラになったのです。",
               "en": "Students, office workers, and older people all started using them for different reasons, and they became a kind of social infrastructure."
             },
             {
               "ja": "また、ハザードは本来注意や非常時のためのランプなので、長く使うものではありません。",
               "en": "Also, hazard lights are originally meant for caution or emergencies, not for long use."
-            },
-            {
-              "ja": "だからこそ、お礼として使う時もごく短く、安全を第一にすることが大切です。",
-              "en": "That is exactly why, when they are used as thanks, it should be only very brief and safety should come first."
-            },
-            {
-              "ja": "自分が使う機会がないと、こうした設備にはなかなか気づかないものです。",
-              "en": "If you never have a reason to use such equipment, it is easy not to notice it."
             }
           ]
         },
@@ -16158,8 +16233,8 @@
               "en": "Clear displays and explanations will also be needed so guests can use the system with confidence."
             },
             {
-              "ja": "学生も会社員も高齢者も、それぞれの理由で使う社会インフラになったのです。",
-              "en": "Students, office workers, and older people all started using them for different reasons, and they became a kind of social infrastructure."
+              "ja": "物理的なSuicaカードを使う人もいれば、スマートフォン側のIC機能を使う人もいますが、考え方は同じです。",
+              "en": "Some people use a physical Suica card, while others use the IC function on a smartphone, but the basic idea is the same."
             }
           ]
         }
@@ -18851,6 +18926,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        },
+        {
           "ja": "高速道路の入口だけでなく、料金所の案内や道路標識にもETCの表示が多く、はじめての人は「ここではETCが当たり前なのだ」と感じやすいです。",
           "en": "It appears not only at expressway entrances, but also on toll guidance and road signs, so first-time drivers easily feel that ETC is simply taken for granted here."
         },
@@ -18865,10 +18944,6 @@
         {
           "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
           "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
-        },
-        {
-          "ja": "多くの主要駅では、出口への案内に黄色が標準的に使われています。",
-          "en": "At many major stations, yellow is used as the standard color for directions to the exits."
         }
       ]
     },
@@ -18887,6 +18962,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "つまり、安心して席を確保したいか、少し気楽に乗りたいかで選び方が変わります。",
+          "en": "In other words, the choice changes depending on whether you want the security of a guaranteed seat or a more flexible ride."
+        },
+        {
+          "ja": "だから、どの車両が自由席かを先に見ておくと安心です。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        },
+        {
           "ja": "車輪を外すタイプでは、工具や固定用ベルトを用意すると安心です。",
           "en": "For bikes that require wheel removal, it is helpful to bring tools and fastening straps."
         },
@@ -18897,14 +18980,6 @@
         {
           "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
           "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
-        },
-        {
-          "ja": "大きく目立つわけではなくても、だれかの安心をしっかり支えているところが素敵です。",
-          "en": "Even if it does not stand out, it is wonderful that it quietly supports someone’s sense of safety."
-        },
-        {
-          "ja": "ヴィニシウスは狭い角度からシュートを決め、ブラジルの応援席を安心させました。",
-          "en": "Vinicius scored from a tight angle, calming the Brazil supporters."
         }
       ]
     },
@@ -19840,6 +19915,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "だから、どの車両が自由席かを先に見ておくと安心です。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        },
+        {
+          "ja": "だから、新幹線のきっぷは「紙かデジタルか」だけでなく、「指定席か自由席か」も大切です。",
+          "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+        },
+        {
           "ja": "だから、セブン-イレブンが日本にコンビニを「持ってきた」と言っても、ただ外国の仕組みを運んだだけではありません。",
           "en": "So even if we say Seven-Eleven “brought” convenience stores to Japan, it did not simply carry over a foreign system unchanged."
         },
@@ -19850,14 +19933,6 @@
         {
           "ja": "だから、車が自分だけで考えるより、道路の側が先に状況を知らせるほうが役に立ちます。",
           "en": "Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself."
-        },
-        {
-          "ja": "だから、東京で運転するとETCが「どこにでもある」ように見えるのです。",
-          "en": "That is why ETC can look as if it is everywhere when you drive in Tokyo."
-        },
-        {
-          "ja": "毎日たくさんの人が行き交う東京の駅だからこそ、このような技術がとても自然に街へ溶け込んでいるのかもしれません。",
-          "en": "Because Tokyo stations are used by so many people every day, perhaps this kind of technology blends naturally into the city."
         }
       ]
     },
@@ -20126,6 +20201,10 @@
           "meaning": "Potential form of 選ぶ: to choose, to select",
           "exampleSentences": [
             {
+              "ja": "こうして見ると、日本の鉄道は複雑そうでも、実際には目的に合わせて細かく選べるようになっています。",
+              "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+            },
+            {
               "ja": "30秒だけ余分に使って正しい電車を選ぶことで、あとで長い遠回りをしなくてすむかもしれません。",
               "en": "Spending just an extra 30 seconds choosing the right train may save you from a much longer detour later."
             }
@@ -20360,6 +20439,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "こうして見ると、日本の鉄道は複雑そうでも、実際には目的に合わせて細かく選べるようになっています。",
+          "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+        },
         {
           "ja": "利用者はカードをタッチするだけでよく、複雑な計算や確認を意識する必要はほとんどありません。",
           "en": "Users only need to tap their card, and they hardly need to think about the complex calculations and checks happening behind the scenes."
@@ -21458,6 +21541,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "つまり、安心して席を確保したいか、少し気楽に乗りたいかで選び方が変わります。",
+          "en": "In other words, the choice changes depending on whether you want the security of a guaranteed seat or a more flexible ride."
+        },
+        {
+          "ja": "紙からICへ変わっても、誰がどの席を使うかはしっかり管理されています。",
+          "en": "Even when the format changes from paper to IC, the system still clearly manages who will use which seat."
+        },
+        {
           "ja": "こうした変化で、コンビニは急いでいる人だけの店ではなくなりました。",
           "en": "These changes meant they were no longer stores only for people in a hurry."
         },
@@ -21468,14 +21559,6 @@
         {
           "ja": "この合図は、車線変更や合流のときによく見られます。",
           "en": "This signal is often seen during lane changes and merges."
-        },
-        {
-          "ja": "ほんの小さな発見でしたが、その日から街の見え方が少し変わったように感じました。",
-          "en": "It was only a small discovery, but it made me feel that the way I see the city changed a little that day."
-        },
-        {
-          "ja": "すでにある地下鉄、水道や電気の設備、建物の基礎をよけながらトンネルを作るのは、とても大変でした。",
-          "en": "Building tunnels while avoiding existing subways, water and electrical infrastructure, and building foundations was extremely difficult."
         }
       ]
     },
@@ -22662,6 +22745,10 @@
           "meaning": "Plain negative form of 急ぐ: to hurry, to rush",
           "exampleSentences": [
             {
+              "ja": "急がない時は自由席、確実に座りたい時は指定席、そして改札をすばやく通りたいならSuicaなどのIC連携が役に立ちます。",
+              "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+            },
+            {
               "ja": "火災が広がりやすい地域では、古い住宅の耐震化や、避難しやすい道路の整備も急ぐ必要があります。",
               "en": "In areas where fires can spread easily, there is also a need to speed up earthquake-resistant housing improvements and roads that make evacuation easier."
             }
@@ -22952,8 +23039,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
-          "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
+          "ja": "新幹線に乗るとき、「指定席」と「自由席」の違いがわかりにくいと感じる人は多いです。",
+          "en": "When riding the Shinkansen, many people feel that the difference between reserved and non-reserved seats is confusing."
+        },
+        {
+          "ja": "いっぽう自由席は、自由席車両の中で空いている席を自分で探します。",
+          "en": "With a non-reserved seat, you look for an open seat inside the non-reserved cars."
+        },
+        {
+          "ja": "指定席なら指定席特急券、自由席なら自由席特急券です。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        },
+        {
+          "ja": "自由席のきっぷを持っていても、座れるのは自由席車両だけです。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        },
+        {
+          "ja": "だから、どの車両が自由席かを先に見ておくと安心です。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
         }
       ]
     },
@@ -24230,6 +24333,10 @@
           "meaning": "Polite form of 変わる: to change, to be transformed",
           "exampleSentences": [
             {
+              "ja": "つまり、安心して席を確保したいか、少し気楽に乗りたいかで選び方が変わります。",
+              "en": "In other words, the choice changes depending on whether you want the security of a guaranteed seat or a more flexible ride."
+            },
+            {
               "ja": "台風の進路は、数時間で変わることがあります。",
               "en": "A typhoon's path can change within a few hours."
             },
@@ -24291,6 +24398,10 @@
           "readingHiragana": "かわって",
           "meaning": "Te-form of 変わる: to change, to be transformed",
           "exampleSentences": [
+            {
+              "ja": "紙からICへ変わっても、誰がどの席を使うかはしっかり管理されています。",
+              "en": "Even when the format changes from paper to IC, the system still clearly manages who will use which seat."
+            },
             {
               "ja": "昔は港や工業用地が多かった場所が、仕事、買い物、遊びを楽しめるエリアに変わっていきました。",
               "en": "Places that once had many port facilities and industrial sites changed into an area for work, shopping, and entertainment."
@@ -24747,6 +24858,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "つまり、安心して席を確保したいか、少し気楽に乗りたいかで選び方が変わります。",
+          "en": "In other words, the choice changes depending on whether you want the security of a guaranteed seat or a more flexible ride."
+        },
+        {
           "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
           "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
         },
@@ -24760,10 +24875,6 @@
         },
         {
           "ja": "混雑した道でも、相手に少し気を配ると流れがよくなることがあります。",
-          "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
-        },
-        {
-          "ja": "何気ない二回の点滅は、ただのランプではなく、「わかっています、ありがとう」という返事にも見えるのです。",
           "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
         }
       ]
@@ -25215,6 +25326,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "つまり、安心して席を確保したいか、少し気楽に乗りたいかで選び方が変わります。",
+          "en": "In other words, the choice changes depending on whether you want the security of a guaranteed seat or a more flexible ride."
+        },
+        {
+          "ja": "だから、どの車両が自由席かを先に見ておくと安心です。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        },
+        {
           "ja": "空港から都心へ向かうときや、郊外へ出かけるときにETCがないと、経路や支払いで不便を感じやすくなります。",
           "en": "If you do not have ETC when heading from the airport into central Tokyo or driving out to the suburbs, payment and route choices can become inconvenient."
         },
@@ -25225,14 +25344,6 @@
         {
           "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
           "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
-        },
-        {
-          "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
-          "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
-        },
-        {
-          "ja": "大きく目立つわけではなくても、だれかの安心をしっかり支えているところが素敵です。",
-          "en": "Even if it does not stand out, it is wonderful that it quietly supports someone’s sense of safety."
         }
       ]
     },
@@ -26381,24 +26492,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        },
+        {
+          "ja": "指定席なら指定席特急券、自由席なら自由席特急券です。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        },
+        {
+          "ja": "急がない時は自由席、確実に座りたい時は指定席、そして改札をすばやく通りたいならSuicaなどのIC連携が役に立ちます。",
+          "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+        },
+        {
           "ja": "こうした変化で、コンビニは急いでいる人だけの店ではなくなりました。",
           "en": "These changes meant they were no longer stores only for people in a hurry."
         },
         {
           "ja": "車両の端などで輪行袋を手で支え、急ブレーキで倒れないようにしてください。",
           "en": "Hold the bike bag near the end of the car so it does not fall during sudden braking."
-        },
-        {
-          "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
-          "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
-        },
-        {
-          "ja": "京急線では、たくさんの電車がほかの鉄道会社の路線へそのまま入っていきます。",
-          "en": "On the Keikyu Line, many trains continue directly onto other railway networks."
-        },
-        {
-          "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
-          "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
         }
       ]
     },
@@ -31164,6 +31275,10 @@
           "meaning": "Polite form of 探す: to search, to look for",
           "exampleSentences": [
             {
+              "ja": "いっぽう自由席は、自由席車両の中で空いている席を自分で探します。",
+              "en": "With a non-reserved seat, you look for an open seat inside the non-reserved cars."
+            },
+            {
               "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
               "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
             },
@@ -31361,6 +31476,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "最近は、紙のきっぷを出さなくても乗れる方法が広がっています。",
+          "en": "Recently, more ways have spread that let people ride without printing paper tickets."
+        },
         {
           "ja": "最近の日本では、クマが人の生活する場所に入る問題が増えています。",
           "en": "Recently in Japan, the problem of bears entering places where people live has been increasing."
@@ -31863,8 +31982,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "ヴィニシウスは狭い角度からシュートを決め、ブラジルの応援席を安心させました。",
-          "en": "Vinicius scored from a tight angle, calming the Brazil supporters."
+          "ja": "新幹線に乗るとき、「指定席」と「自由席」の違いがわかりにくいと感じる人は多いです。",
+          "en": "When riding the Shinkansen, many people feel that the difference between reserved and non-reserved seats is confusing."
+        },
+        {
+          "ja": "指定席は座席があらかじめ決まっていて、その席に座ります。",
+          "en": "With a reserved seat, your seat is decided in advance and you sit in that seat."
+        },
+        {
+          "ja": "いっぽう自由席は、自由席車両の中で空いている席を自分で探します。",
+          "en": "With a non-reserved seat, you look for an open seat inside the non-reserved cars."
+        },
+        {
+          "ja": "つまり、安心して席を確保したいか、少し気楽に乗りたいかで選び方が変わります。",
+          "en": "In other words, the choice changes depending on whether you want the security of a guaranteed seat or a more flexible ride."
+        },
+        {
+          "ja": "指定席なら指定席特急券、自由席なら自由席特急券です。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
         }
       ]
     },
@@ -31883,24 +32018,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "新幹線に乗るとき、「指定席」と「自由席」の違いがわかりにくいと感じる人は多いです。",
+          "en": "When riding the Shinkansen, many people feel that the difference between reserved and non-reserved seats is confusing."
+        },
+        {
+          "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        },
+        {
+          "ja": "JR東日本の「新幹線eチケット」では、オンラインで予約した情報をSuicaのようなICカードに結びつけることができます。",
+          "en": "With JR East’s Shinkansen e-ticket, reservation information bought online can be linked to an IC card such as Suica."
+        },
+        {
+          "ja": "だから、新幹線のきっぷは「紙かデジタルか」だけでなく、「指定席か自由席か」も大切です。",
+          "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+        },
+        {
           "ja": "この合図は、車線変更や合流のときによく見られます。",
           "en": "This signal is often seen during lane changes and merges."
-        },
-        {
-          "ja": "電車の路線はそれぞれ別の色で表されることが多いので、黄色い出口案内は見分けやすいです。",
-          "en": "Train lines are often shown in different colors, so yellow exit guidance is easy to distinguish from them."
-        },
-        {
-          "ja": "どの線に乗ってきたかで頭がいっぱいでも、色だけで目的の情報をつかみやすくなります。",
-          "en": "Even if your head is full of route information, the color alone makes the information you need easier to grasp."
-        },
-        {
-          "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
-          "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
-        },
-        {
-          "ja": "京急線では、たくさんの電車がほかの鉄道会社の路線へそのまま入っていきます。",
-          "en": "On the Keikyu Line, many trains continue directly onto other railway networks."
         }
       ]
     },
@@ -31969,6 +32104,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        },
+        {
           "ja": "0対応システムを通じて、広い範囲の交通情報が届くと説明されています。",
           "en": "0 compatible systems."
         },
@@ -31983,10 +32122,6 @@
         {
           "ja": "運営会社は、観光客が便利になるだけでなく、会計の時間が短くなると説明しています。",
           "en": "The operator explains that this not only makes things more convenient for tourists but also shortens checkout time."
-        },
-        {
-          "ja": "ロボットは、フロントの近くで館内の説明をしたり、近くの店を紹介したりします。",
-          "en": "These robots explain hotel facilities near the front desk and introduce nearby shops."
         }
       ]
     },
@@ -32236,6 +32371,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "紙からICへ変わっても、誰がどの席を使うかはしっかり管理されています。",
+          "en": "Even when the format changes from paper to IC, the system still clearly manages who will use which seat."
+        },
+        {
           "ja": "袋に入れた後は、持ち上げても部品が動かないよう、しっかり固定します。",
           "en": "After putting the bike in the bag, secure the parts so they do not move when you lift it."
         },
@@ -32250,10 +32389,6 @@
         {
           "ja": "いくつもの都市中心が鉄道でしっかり結ばれた形で広がってきました。",
           "en": "It spread in a form where many urban centers were firmly connected by rail."
-        },
-        {
-          "ja": "夜にゴミを出さないことや、窓と扉をしっかり閉めることも大切だと案内しました。",
-          "en": "It also advised people not to put out garbage at night and to keep windows and doors tightly closed."
         }
       ]
     },
@@ -33403,7 +33538,12 @@
           "term": "空いて",
           "readingHiragana": "すいて",
           "meaning": "Te-form of 空く: to become empty",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "いっぽう自由席は、自由席車両の中で空いている席を自分で探します。",
+              "en": "With a non-reserved seat, you look for an open seat inside the non-reserved cars."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -34820,6 +34960,14 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        },
+        {
+          "ja": "指定席なら指定席特急券、自由席なら自由席特急券です。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        },
         {
           "ja": "品川や羽田空港などの駅では、普通、急行、エアポート急行、特急、快特などの表示を見ます。",
           "en": "At stations such as Shinagawa and Haneda Airport, you will see labels like Local, Express, Airport Express, Limited Express, and Rapid Limited Express."
@@ -37165,6 +37313,10 @@
           "meaning": "Polite form of 役に立つ: to be helpful, to be useful",
           "exampleSentences": [
             {
+              "ja": "急がない時は自由席、確実に座りたい時は指定席、そして改札をすばやく通りたいならSuicaなどのIC連携が役に立ちます。",
+              "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+            },
+            {
               "ja": "だから、車が自分だけで考えるより、道路の側が先に状況を知らせるほうが役に立ちます。",
               "en": "Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself."
             },
@@ -37861,6 +38013,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "JR東日本の「新幹線eチケット」では、オンラインで予約した情報をSuicaのようなICカードに結びつけることができます。",
+          "en": "With JR East’s Shinkansen e-ticket, reservation information bought online can be linked to an IC card such as Suica."
+        },
+        {
+          "ja": "予約した座席と「どのICカードで入るか」を先にひもづけておくのです。",
+          "en": "You link the reserved seat in advance to the IC card that will be used to enter."
+        },
+        {
           "ja": "山間部にある小さな町で、予約制バスの実験が始まりました。",
           "en": "In a small town in a mountain area, a trial of reservation-based buses has started."
         },
@@ -37900,16 +38060,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "駅員から乗る位置を案内された場合は、その指示に従いましょう。",
-          "en": "Follow any instructions from station staff about where to board."
+          "ja": "新幹線に乗るとき、「指定席」と「自由席」の違いがわかりにくいと感じる人は多いです。",
+          "en": "When riding the Shinkansen, many people feel that the difference between reserved and non-reserved seats is confusing."
         },
         {
-          "ja": "誰でも使いやすい図書館を目指す取り組みとして注目されています。",
-          "en": "The effort is drawing attention as a way to make libraries easier for everyone to use."
+          "ja": "指定席は座席があらかじめ決まっていて、その席に座ります。",
+          "en": "With a reserved seat, your seat is decided in advance and you sit in that seat."
         },
         {
-          "ja": "文部科学省は、学校ごとの状況にあわせて柔軟に運用できる指針を示したい考えです。",
-          "en": "The education ministry wants to present guidelines that schools can apply flexibly according to their situations."
+          "ja": "指定席なら指定席特急券、自由席なら自由席特急券です。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        },
+        {
+          "ja": "指定席でも、このやり方がとても便利です。",
+          "en": "This is very convenient even for reserved seats."
+        },
+        {
+          "ja": "だから、新幹線のきっぷは「紙かデジタルか」だけでなく、「指定席か自由席か」も大切です。",
+          "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
         }
       ]
     },
@@ -38716,6 +38884,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        },
+        {
           "ja": "高速道路の入口だけでなく、料金所の案内や道路標識にもETCの表示が多く、はじめての人は「ここではETCが当たり前なのだ」と感じやすいです。",
           "en": "It appears not only at expressway entrances, but also on toll guidance and road signs, so first-time drivers easily feel that ETC is simply taken for granted here."
         },
@@ -38730,10 +38902,6 @@
         {
           "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
           "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
-        },
-        {
-          "ja": "多くの主要駅では、出口への案内に黄色が標準的に使われています。",
-          "en": "At many major stations, yellow is used as the standard color for directions to the exits."
         }
       ]
     },
@@ -39622,6 +39790,10 @@
           "meaning": "Te-form of 合わせる: to match, to join together",
           "exampleSentences": [
             {
+              "ja": "こうして見ると、日本の鉄道は複雑そうでも、実際には目的に合わせて細かく選べるようになっています。",
+              "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+            },
+            {
               "ja": "日本の町や生活に合わせて作り替えたからこそ、今日のコンビニ文化ができました。",
               "en": "Because it was reshaped to fit Japanese towns and daily life, today’s convenience store culture became possible."
             },
@@ -39996,6 +40168,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "指定席でも、このやり方がとても便利です。",
+          "en": "This is very convenient even for reserved seats."
+        },
+        {
           "ja": "つまり日本では、コンビニは単なる小さな店ではなく、近所の便利な拠点として育っていきました。",
           "en": "” In Japan, that meant convenience stores grew not just as small shops, but as useful local hubs."
         },
@@ -40010,10 +40186,6 @@
         {
           "ja": "東京モノレールは、羽田空港へ行くための便利な交通機関です。",
           "en": "Tokyo Monorail is a convenient way to get to Haneda Airport."
-        },
-        {
-          "ja": "航空会社は国内線と国際線を含む多くの便を欠航にし、新幹線や在来線にも遅れや運休が出ました。",
-          "en": "Airlines canceled many domestic and international flights, and bullet trains and local rail services also saw delays and suspensions."
         }
       ]
     },
@@ -40222,6 +40394,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "いっぽう自由席は、自由席車両の中で空いている席を自分で探します。",
+          "en": "With a non-reserved seat, you look for an open seat inside the non-reserved cars."
+        },
+        {
           "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
           "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
         },
@@ -40236,10 +40412,6 @@
         {
           "ja": "電車の路線はそれぞれ別の色で表されることが多いので、黄色い出口案内は見分けやすいです。",
           "en": "Train lines are often shown in different colors, so yellow exit guidance is easy to distinguish from them."
-        },
-        {
-          "ja": "自分が使う機会がないと、こうした設備にはなかなか気づかないものです。",
-          "en": "If you never have a reason to use such equipment, it is easy not to notice it."
         }
       ]
     },
@@ -40473,7 +40645,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "物理的なSuicaカードを使う人もいれば、スマートフォン側のIC機能を使う人もいますが、考え方は同じです。",
+          "en": "Some people use a physical Suica card, while others use the IC function on a smartphone, but the basic idea is the same."
+        }
+      ]
     },
     {
       "id": "core-9d6df41e730eb9",
@@ -40558,6 +40735,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "新幹線に乗るとき、「指定席」と「自由席」の違いがわかりにくいと感じる人は多いです。",
+          "en": "When riding the Shinkansen, many people feel that the difference between reserved and non-reserved seats is confusing."
+        },
         {
           "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
           "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
@@ -47081,6 +47262,10 @@
           "meaning": "Te-form of 広がる: to spread out, to extend",
           "exampleSentences": [
             {
+              "ja": "最近は、紙のきっぷを出さなくても乗れる方法が広がっています。",
+              "en": "Recently, more ways have spread that let people ride without printing paper tickets."
+            },
+            {
               "ja": "いくつもの都市中心が鉄道でしっかり結ばれた形で広がってきました。",
               "en": "It spread in a form where many urban centers were firmly connected by rail."
             },
@@ -47095,10 +47280,6 @@
             {
               "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
               "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
-            },
-            {
-              "ja": "ほかの鉄道会社にも同じような動きが広がるかが注目されています。",
-              "en": "Attention is focused on whether similar efforts will spread to other railway companies."
             }
           ]
         },
@@ -47829,24 +48010,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "つまり、安心して席を確保したいか、少し気楽に乗りたいかで選び方が変わります。",
+          "en": "In other words, the choice changes depending on whether you want the security of a guaranteed seat or a more flexible ride."
+        },
+        {
+          "ja": "最近は、紙のきっぷを出さなくても乗れる方法が広がっています。",
+          "en": "Recently, more ways have spread that let people ride without printing paper tickets."
+        },
+        {
+          "ja": "指定席でも、このやり方がとても便利です。",
+          "en": "This is very convenient even for reserved seats."
+        },
+        {
+          "ja": "物理的なSuicaカードを使う人もいれば、スマートフォン側のIC機能を使う人もいますが、考え方は同じです。",
+          "en": "Some people use a physical Suica card, while others use the IC function on a smartphone, but the basic idea is the same."
+        },
+        {
           "ja": "これは、アメリカで生まれたコンビニの考え方が、本格的に日本へ入ってきた瞬間でした。",
           "en": "That was the moment when the convenience store idea born in America entered Japan in a full-scale way."
-        },
-        {
-          "ja": "セブン&アイの資料でも、「close by convenient stores」という考え方が強く出ています。",
-          "en": "Even Seven & i materials strongly use the idea of “close by convenient stores."
-        },
-        {
-          "ja": "言葉は聞こえませんが、運転者同士で気持ちを伝える方法として使われています。",
-          "en": "No words can be heard, but it is used as a way for drivers to communicate their feelings."
-        },
-        {
-          "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
-          "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
-        },
-        {
-          "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
-          "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
         }
       ]
     },
@@ -47865,6 +48046,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "最近は、紙のきっぷを出さなくても乗れる方法が広がっています。",
+          "en": "Recently, more ways have spread that let people ride without printing paper tickets."
+        },
+        {
           "ja": "言葉は聞こえませんが、運転者同士で気持ちを伝える方法として使われています。",
           "en": "No words can be heard, but it is used as a way for drivers to communicate their feelings."
         },
@@ -47879,10 +48064,6 @@
         {
           "ja": "安定して出荷するために、新しい設備や管理方法の導入が進められています。",
           "en": "New equipment and management methods are being introduced to maintain stable shipments."
-        },
-        {
-          "ja": "港を管理する会社は、環境にやさしい輸送の方法を増やしたいと考えています。",
-          "en": "The port operator wants to expand environmentally friendly transport methods."
         }
       ]
     },
@@ -47931,6 +48112,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "最近は、紙のきっぷを出さなくても乗れる方法が広がっています。",
+          "en": "Recently, more ways have spread that let people ride without printing paper tickets."
+        },
+        {
           "ja": "言葉は聞こえませんが、運転者同士で気持ちを伝える方法として使われています。",
           "en": "No words can be heard, but it is used as a way for drivers to communicate their feelings."
         },
@@ -47945,10 +48130,6 @@
         {
           "ja": "港を管理する会社は、環境にやさしい輸送の方法を増やしたいと考えています。",
           "en": "The port operator wants to expand environmentally friendly transport methods."
-        },
-        {
-          "ja": "アルファベットは、AIやデータセンターにたくさんのお金が必要なので、いろいろな方法で資金を集めています。",
-          "en": "Alphabet needs a lot of money for AI and data centers, so it is gathering funds in different ways."
         }
       ]
     },
@@ -50045,6 +50226,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "こうして見ると、日本の鉄道は複雑そうでも、実際には目的に合わせて細かく選べるようになっています。",
+          "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+        },
+        {
           "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
           "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
         },
@@ -50336,6 +50521,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "JR東日本の「新幹線eチケット」では、オンラインで予約した情報をSuicaのようなICカードに結びつけることができます。",
+          "en": "With JR East’s Shinkansen e-ticket, reservation information bought online can be linked to an IC card such as Suica."
+        },
+        {
           "ja": "でも日本では、道路の情報を車へ送る仕組みが、もうかなり前から使われています。",
           "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
         },
@@ -50350,10 +50539,6 @@
         {
           "ja": "0対応システムを通じて、広い範囲の交通情報が届くと説明されています。",
           "en": "0 compatible systems."
-        },
-        {
-          "ja": "カーナビの画面に出る渋滞情報や規制情報の後ろには、道路と車が少しずつ会話している世界があります。",
-          "en": "Behind the congestion and restriction information shown on a car navigation screen is a world where roads and cars are quietly exchanging information."
         }
       ]
     },
@@ -51255,6 +51440,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "すると駅で紙のきっぷを受け取らなくても、改札でタッチしてそのまま入れます。",
+          "en": "Then, instead of picking up a paper ticket at the station, you can simply tap at the gate and go in."
+        },
+        {
+          "ja": "急がない時は自由席、確実に座りたい時は指定席、そして改札をすばやく通りたいならSuicaなどのIC連携が役に立ちます。",
+          "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+        },
+        {
           "ja": "改札では大きな荷物として扱い、周りの人にぶつけないよう注意します。",
           "en": "At the ticket gates, handle the bicycle like a large piece of luggage and be careful not to hit people around you."
         },
@@ -51265,14 +51458,6 @@
         {
           "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
           "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
-        },
-        {
-          "ja": "その理由の一つは、ICカードの残高確認や運賃計算が、改札機の中でとても速く処理されるように設計されていることです。",
-          "en": "One reason is that balance checks and fare calculations for IC cards are designed to be processed very quickly inside the ticket gate itself."
-        },
-        {
-          "ja": "普段は当たり前のように使っている改札ですが、その裏には日本ならではの高い技術と緻密なシステム設計が詰まっています。",
-          "en": "We usually use ticket gates as if they were completely ordinary, but behind them are advanced technology and precise system design that feel very characteristic of Japan."
         }
       ]
     },
@@ -52264,7 +52449,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "急がない時は自由席、確実に座りたい時は指定席、そして改札をすばやく通りたいならSuicaなどのIC連携が役に立ちます。",
+          "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+        }
+      ]
     },
     {
       "id": "core-18a4bc20b139d3",
@@ -52640,6 +52830,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "紙からICへ変わっても、誰がどの席を使うかはしっかり管理されています。",
+          "en": "Even when the format changes from paper to IC, the system still clearly manages who will use which seat."
+        },
+        {
           "ja": "管理者は、同じ内容を働く人や生徒にすぐ送ることができます。",
           "en": "Managers can quickly send the same information to workers or students."
         },
@@ -52654,10 +52848,6 @@
         {
           "ja": "安定して出荷するために、新しい設備や管理方法の導入が進められています。",
           "en": "New equipment and management methods are being introduced to maintain stable shipments."
-        },
-        {
-          "ja": "港を管理する会社は、環境にやさしい輸送の方法を増やしたいと考えています。",
-          "en": "The port operator wants to expand environmentally friendly transport methods."
         }
       ]
     },
@@ -52815,6 +53005,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "物理的なSuicaカードを使う人もいれば、スマートフォン側のIC機能を使う人もいますが、考え方は同じです。",
+          "en": "Some people use a physical Suica card, while others use the IC function on a smartphone, but the basic idea is the same."
+        },
+        {
           "ja": "これは、アメリカで生まれたコンビニの考え方が、本格的に日本へ入ってきた瞬間でした。",
           "en": "That was the moment when the convenience store idea born in America entered Japan in a full-scale way."
         },
@@ -52829,10 +53023,6 @@
         {
           "ja": "そう考えると、ふつうの運転も少し未来的に見えてきます。",
           "en": "Seen that way, ordinary driving starts to look a little futuristic."
-        },
-        {
-          "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
-          "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
         }
       ]
     },
@@ -52896,6 +53086,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "新幹線に乗るとき、「指定席」と「自由席」の違いがわかりにくいと感じる人は多いです。",
+          "en": "When riding the Shinkansen, many people feel that the difference between reserved and non-reserved seats is confusing."
+        },
+        {
           "ja": "高速道路の入口だけでなく、料金所の案内や道路標識にもETCの表示が多く、はじめての人は「ここではETCが当たり前なのだ」と感じやすいです。",
           "en": "It appears not only at expressway entrances, but also on toll guidance and road signs, so first-time drivers easily feel that ETC is simply taken for granted here."
         },
@@ -52910,10 +53104,6 @@
         {
           "ja": "東京がとても便利に感じられる大きな理由の一つは、よく整った鉄道網です。",
           "en": "One big reason Tokyo feels so convenient is its well-developed rail network."
-        },
-        {
-          "ja": "東京のりんかい線は、ほかの路線より運賃が少し高いと感じる人がいます。",
-          "en": "Some people feel that Tokyo's Rinkai Line costs a little more than other rail lines."
         }
       ]
     },
@@ -52932,6 +53122,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "新幹線に乗るとき、「指定席」と「自由席」の違いがわかりにくいと感じる人は多いです。",
+          "en": "When riding the Shinkansen, many people feel that the difference between reserved and non-reserved seats is confusing."
+        },
+        {
           "ja": "東京のりんかい線は、ほかの路線より運賃が少し高いと感じる人がいます。",
           "en": "Some people feel that Tokyo's Rinkai Line costs a little more than other rail lines."
         }
@@ -52948,6 +53142,10 @@
           "meaning": "Polite form of 感じる: to feel, to sense",
           "exampleSentences": [
             {
+              "ja": "新幹線に乗るとき、「指定席」と「自由席」の違いがわかりにくいと感じる人は多いです。",
+              "en": "When riding the Shinkansen, many people feel that the difference between reserved and non-reserved seats is confusing."
+            },
+            {
               "ja": "東京のりんかい線は、ほかの路線より運賃が少し高いと感じる人がいます。",
               "en": "Some people feel that Tokyo's Rinkai Line costs a little more than other rail lines."
             }
@@ -52962,6 +53160,10 @@
           "meaning": "Plain past form of 感じる: to feel, to sense",
           "exampleSentences": [
             {
+              "ja": "新幹線に乗るとき、「指定席」と「自由席」の違いがわかりにくいと感じる人は多いです。",
+              "en": "When riding the Shinkansen, many people feel that the difference between reserved and non-reserved seats is confusing."
+            },
+            {
               "ja": "東京のりんかい線は、ほかの路線より運賃が少し高いと感じる人がいます。",
               "en": "Some people feel that Tokyo's Rinkai Line costs a little more than other rail lines."
             }
@@ -52975,6 +53177,10 @@
           "readingHiragana": "かんじない",
           "meaning": "Plain negative form of 感じる: to feel, to sense",
           "exampleSentences": [
+            {
+              "ja": "新幹線に乗るとき、「指定席」と「自由席」の違いがわかりにくいと感じる人は多いです。",
+              "en": "When riding the Shinkansen, many people feel that the difference between reserved and non-reserved seats is confusing."
+            },
             {
               "ja": "東京のりんかい線は、ほかの路線より運賃が少し高いと感じる人がいます。",
               "en": "Some people feel that Tokyo's Rinkai Line costs a little more than other rail lines."
@@ -52994,6 +53200,10 @@
               "en": "Local people feel the train is bringing energy back to the town."
             },
             {
+              "ja": "新幹線に乗るとき、「指定席」と「自由席」の違いがわかりにくいと感じる人は多いです。",
+              "en": "When riding the Shinkansen, many people feel that the difference between reserved and non-reserved seats is confusing."
+            },
+            {
               "ja": "東京のりんかい線は、ほかの路線より運賃が少し高いと感じる人がいます。",
               "en": "Some people feel that Tokyo's Rinkai Line costs a little more than other rail lines."
             }
@@ -53010,6 +53220,10 @@
             {
               "ja": "東京がとても便利に感じられる大きな理由の一つは、よく整った鉄道網です。",
               "en": "One big reason Tokyo feels so convenient is its well-developed rail network."
+            },
+            {
+              "ja": "新幹線に乗るとき、「指定席」と「自由席」の違いがわかりにくいと感じる人は多いです。",
+              "en": "When riding the Shinkansen, many people feel that the difference between reserved and non-reserved seats is confusing."
             },
             {
               "ja": "東京のりんかい線は、ほかの路線より運賃が少し高いと感じる人がいます。",
@@ -53345,6 +53559,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "いっぽう自由席は、自由席車両の中で空いている席を自分で探します。",
+          "en": "With a non-reserved seat, you look for an open seat inside the non-reserved cars."
+        },
+        {
           "ja": "とても小さな行動ですが、道を少しやわらかい空気にする力があります。",
           "en": "It is a very small action, but it can make the mood on the road a little softer."
         },
@@ -53359,10 +53577,6 @@
         {
           "ja": "羽田空港で迷ったら、まずどちらの方面へ向かうのかを考えてみましょう。",
           "en": "If you feel confused at Haneda Airport, first think about which direction you need to head."
-        },
-        {
-          "ja": "品川や羽田空港などの駅では、普通、急行、エアポート急行、特急、快特などの表示を見ます。",
-          "en": "At stations such as Shinagawa and Haneda Airport, you will see labels like Local, Express, Airport Express, Limited Express, and Rapid Limited Express."
         }
       ]
     },
@@ -53772,6 +53986,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "紙からICへ変わっても、誰がどの席を使うかはしっかり管理されています。",
+          "en": "Even when the format changes from paper to IC, the system still clearly manages who will use which seat."
+        },
+        {
           "ja": "管理者は、同じ内容を働く人や生徒にすぐ送ることができます。",
           "en": "Managers can quickly send the same information to workers or students."
         },
@@ -53786,10 +54004,6 @@
         {
           "ja": "安定して出荷するために、新しい設備や管理方法の導入が進められています。",
           "en": "New equipment and management methods are being introduced to maintain stable shipments."
-        },
-        {
-          "ja": "港を管理する会社は、環境にやさしい輸送の方法を増やしたいと考えています。",
-          "en": "The port operator wants to expand environmentally friendly transport methods."
         }
       ]
     },
@@ -54883,6 +55097,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "指定席なら指定席特急券、自由席なら自由席特急券です。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        },
+        {
           "ja": "IPOでは、証券会社が会社の株を投資家に売ります。",
           "en": "In an IPO, securities firms sell a company’s shares to investors."
         },
@@ -55520,6 +55738,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        },
+        {
           "ja": "東京の電車に自転車をそのまま持ち込むことは、基本的にできません。",
           "en": "You generally cannot take an uncovered bicycle directly onto trains in Tokyo."
         }
@@ -55768,6 +55990,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        },
+        {
           "ja": "その後、コンビニは食べ物だけでなく、24時間営業、料金支払い、ATM、チケット、宅配などを少しずつ増やしました。",
           "en": "After that, convenience stores gradually added not only food, but also 24-hour service, bill payment, ATMs, tickets, and parcel services."
         },
@@ -55782,10 +56008,6 @@
         {
           "ja": "現金で払えるレーンがあっても数は限られ、ETC専用のレーンのほうがずっと目立つことがあります。",
           "en": "Even if cash lanes exist, they are limited, and ETC-only lanes often stand out much more."
-        },
-        {
-          "ja": "料金が自動で計算され、車を止めずに精算できるので、東京のように交通量が多い場所ではとても効率的です。",
-          "en": "Tolls are calculated automatically, and you can pay without stopping the car, which is highly efficient in a place with as much traffic as Tokyo."
         }
       ]
     },
@@ -56175,6 +56397,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "物理的なSuicaカードを使う人もいれば、スマートフォン側のIC機能を使う人もいますが、考え方は同じです。",
+          "en": "Some people use a physical Suica card, while others use the IC function on a smartphone, but the basic idea is the same."
+        },
+        {
           "ja": "人口や機能が集中する首都圏では、交通や物流の混乱も深刻になるとみられています。",
           "en": "In the Tokyo metropolitan area, where people and key functions are concentrated, disruption to transport and logistics is also expected to be severe."
         },
@@ -56527,6 +56753,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "こうして見ると、日本の鉄道は複雑そうでも、実際には目的に合わせて細かく選べるようになっています。",
+          "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+        },
+        {
           "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
           "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
         },
@@ -56541,10 +56771,6 @@
         {
           "ja": "実際には、沖縄県や宮崎県などで数センチから30センチほどの波が観測されました。",
           "en": "In reality, waves from several centimeters to about 30 centimeters were observed in places such as Okinawa and Miyazaki prefectures."
-        },
-        {
-          "ja": "航空会社は国内線と国際線を含む多くの便を欠航にし、新幹線や在来線にも遅れや運休が出ました。",
-          "en": "Airlines canceled many domestic and international flights, and bullet trains and local rail services also saw delays and suspensions."
         }
       ]
     },
@@ -58422,6 +58648,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "この仕組みでは、1人につき1枚のICカードが必要です。",
+          "en": "In this system, each person needs one IC card."
+        },
+        {
           "ja": "だから、セブン-イレブンが日本にコンビニを「持ってきた」と言っても、ただ外国の仕組みを運んだだけではありません。",
           "en": "So even if we say Seven-Eleven “brought” convenience stores to Japan, it did not simply carry over a foreign system unchanged."
         },
@@ -58436,10 +58666,6 @@
         {
           "ja": "ETC専用、ETC一般という表示が何度も出てくるのは、その仕組みが交通を支えているからです。",
           "en": "Signs like ETC-only and ETC/general appear again and again because this system helps support traffic flow."
-        },
-        {
-          "ja": "実際には目立つ場所に集中しているのですが、それだけ都市の車の移動に深く組み込まれています。",
-          "en": "In reality, it is concentrated in highly visible places, but that shows how deeply it is built into urban car travel."
         }
       ]
     },
@@ -61193,6 +61419,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "急がない時は自由席、確実に座りたい時は指定席、そして改札をすばやく通りたいならSuicaなどのIC連携が役に立ちます。",
+          "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+        },
+        {
+          "ja": "こうして見ると、日本の鉄道は複雑そうでも、実際には目的に合わせて細かく選べるようになっています。",
+          "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+        },
+        {
           "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
           "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
         },
@@ -61203,14 +61437,6 @@
         {
           "ja": "VICSは渋滞や交通規制などの道路交通情報を、カーナビに実時間で届けます。",
           "en": "VICS delivers road traffic information such as congestion and traffic restrictions to car navigation systems in real time."
-        },
-        {
-          "ja": "V2Xが静かに広がった理由は、この実用性の高さにあります。",
-          "en": "That practical value is why V2X has spread quietly."
-        },
-        {
-          "ja": "実際には目立つ場所に集中しているのですが、それだけ都市の車の移動に深く組み込まれています。",
-          "en": "In reality, it is concentrated in highly visible places, but that shows how deeply it is built into urban car travel."
         }
       ]
     },
@@ -62091,6 +62317,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "こうして見ると、日本の鉄道は複雑そうでも、実際には目的に合わせて細かく選べるようになっています。",
+          "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+        },
+        {
           "ja": "目的の駅に着いても、ホームや改札の近くで自転車を組み立てるのは避けましょう。",
           "en": "Even after arriving at your destination, avoid assembling your bicycle near the platform or ticket gates."
         },
@@ -62105,10 +62335,6 @@
         {
           "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
           "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
-        },
-        {
-          "ja": "細かい水を空気に出して、少しでも涼しくすることが目的です。",
-          "en": "The goal is to spray fine water into the air and make the area a little cooler."
         }
       ]
     },
@@ -64312,24 +64538,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        },
+        {
+          "ja": "JR東日本の「新幹線eチケット」では、オンラインで予約した情報をSuicaのようなICカードに結びつけることができます。",
+          "en": "With JR East’s Shinkansen e-ticket, reservation information bought online can be linked to an IC card such as Suica."
+        },
+        {
+          "ja": "こうして見ると、日本の鉄道は複雑そうでも、実際には目的に合わせて細かく選べるようになっています。",
+          "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+        },
+        {
           "ja": "今の日本では、コンビニはどこにでもある店に見えます。",
           "en": "In Japan today, convenience stores seem to be everywhere."
         },
         {
           "ja": "でも、この形が最初から日本にあったわけではありません。",
           "en": "But this style did not exist in Japan from the beginning."
-        },
-        {
-          "ja": "そして1974年5月、東京の豊洲に日本での1号店が開きました。",
-          "en": "Then in May 1974, the first Japanese store opened in Toyosu, Tokyo."
-        },
-        {
-          "ja": "これは、アメリカで生まれたコンビニの考え方が、本格的に日本へ入ってきた瞬間でした。",
-          "en": "That was the moment when the convenience store idea born in America entered Japan in a full-scale way."
-        },
-        {
-          "ja": "日本の町では、家の近くで必要なものをすぐ買えることが重視されました。",
-          "en": "In Japanese towns, what mattered was being able to quickly buy what you need close to home."
         }
       ]
     },
@@ -64857,6 +65083,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "物理的なSuicaカードを使う人もいれば、スマートフォン側のIC機能を使う人もいますが、考え方は同じです。",
+          "en": "Some people use a physical Suica card, while others use the IC function on a smartphone, but the basic idea is the same."
+        },
+        {
           "ja": "予報では、27日の夜には関東の近くまで進む可能性があります。",
           "en": "As of 9 p.m., Typhoon No. 7 was over waters east of areas near Amami and Okinawa. The forecast says it may move close to the Kanto region by the night of June 27."
         },
@@ -64871,10 +65101,6 @@
         {
           "ja": "このままでは、2026年内に大気圏へ入り、燃えてしまう可能性があります。",
           "en": "If nothing changes, it may enter the atmosphere and burn up by the end of 2026."
-        },
-        {
-          "ja": "それでも成功すれば、スウィフトはさらに5年以上観測を続けられる可能性があります。",
-          "en": "Even so, if the mission succeeds, Swift may be able to continue observing for at least five more years."
         }
       ]
     },
@@ -67158,6 +67384,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "つまり、安心して席を確保したいか、少し気楽に乗りたいかで選び方が変わります。",
+          "en": "In other words, the choice changes depending on whether you want the security of a guaranteed seat or a more flexible ride."
+        },
+        {
           "ja": "ドライバーは画面で混み具合や通行止めを知ることができ、より楽な経路を選びやすくなります。",
           "en": "Drivers can see crowded areas and road closures on the screen and choose easier routes."
         },
@@ -67172,10 +67402,6 @@
         {
           "ja": "市民からは、外で待つ時間が楽になるという声が出ています。",
           "en": "Citizens say the systems make waiting outside easier."
-        },
-        {
-          "ja": "東北のある県で、景色を楽しめる観光列車の人気が高まっています。",
-          "en": "In one prefecture in Tohoku, a sightseeing train that lets passengers enjoy the scenery is becoming more popular."
         }
       ]
     },
@@ -67710,6 +67936,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        },
         {
           "ja": "その後、コンビニは食べ物だけでなく、24時間営業、料金支払い、ATM、チケット、宅配などを少しずつ増やしました。",
           "en": "After that, convenience stores gradually added not only food, but also 24-hour service, bill payment, ATMs, tickets, and parcel services."
@@ -69097,6 +69327,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "すると駅で紙のきっぷを受け取らなくても、改札でタッチしてそのまま入れます。",
+          "en": "Then, instead of picking up a paper ticket at the station, you can simply tap at the gate and go in."
+        },
+        {
+          "ja": "急がない時は自由席、確実に座りたい時は指定席、そして改札をすばやく通りたいならSuicaなどのIC連携が役に立ちます。",
+          "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+        },
+        {
           "ja": "改札では大きな荷物として扱い、周りの人にぶつけないよう注意します。",
           "en": "At the ticket gates, handle the bicycle like a large piece of luggage and be careful not to hit people around you."
         },
@@ -69107,14 +69345,6 @@
         {
           "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
           "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
-        },
-        {
-          "ja": "その理由の一つは、ICカードの残高確認や運賃計算が、改札機の中でとても速く処理されるように設計されていることです。",
-          "en": "One reason is that balance checks and fare calculations for IC cards are designed to be processed very quickly inside the ticket gate itself."
-        },
-        {
-          "ja": "普段は当たり前のように使っている改札ですが、その裏には日本ならではの高い技術と緻密なシステム設計が詰まっています。",
-          "en": "We usually use ticket gates as if they were completely ordinary, but behind them are advanced technology and precise system design that feel very characteristic of Japan."
         }
       ]
     },
@@ -70100,6 +70330,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        },
+        {
           "ja": "0対応システムを通じて、広い範囲の交通情報が届くと説明されています。",
           "en": "0 compatible systems."
         },
@@ -70114,10 +70348,6 @@
         {
           "ja": "運営会社は、観光客が便利になるだけでなく、会計の時間が短くなると説明しています。",
           "en": "The operator explains that this not only makes things more convenient for tourists but also shortens checkout time."
-        },
-        {
-          "ja": "ロボットは、フロントの近くで館内の説明をしたり、近くの店を紹介したりします。",
-          "en": "These robots explain hotel facilities near the front desk and introduce nearby shops."
         }
       ]
     },
@@ -71277,24 +71507,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "新幹線に乗るとき、「指定席」と「自由席」の違いがわかりにくいと感じる人は多いです。",
+          "en": "When riding the Shinkansen, many people feel that the difference between reserved and non-reserved seats is confusing."
+        },
+        {
+          "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        },
+        {
+          "ja": "JR東日本の「新幹線eチケット」では、オンラインで予約した情報をSuicaのようなICカードに結びつけることができます。",
+          "en": "With JR East’s Shinkansen e-ticket, reservation information bought online can be linked to an IC card such as Suica."
+        },
+        {
+          "ja": "だから、新幹線のきっぷは「紙かデジタルか」だけでなく、「指定席か自由席か」も大切です。",
+          "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+        },
+        {
           "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
           "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
-        },
-        {
-          "ja": "この事故で、東海道新幹線は東京と新大阪の間の全線で運転を見合わせました。",
-          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
-        },
-        {
-          "ja": "山陽新幹線の上り線にも影響が広がりました。",
-          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
-        },
-        {
-          "ja": "JR東海によると、東海道新幹線の17駅のうち、ホームドアがあるのは東京、名古屋、新大阪など7駅です。",
-          "en": "According to JR Central, seven of the 17 Tokaido Shinkansen stations—including Tokyo, Nagoya, and Shin-Osaka—have platform doors."
-        },
-        {
-          "ja": "航空会社は国内線と国際線を含む多くの便を欠航にし、新幹線や在来線にも遅れや運休が出ました。",
-          "en": "Airlines canceled many domestic and international flights, and bullet trains and local rail services also saw delays and suspensions."
         }
       ]
     },
@@ -71931,7 +72161,28 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "新幹線に乗るとき、「指定席」と「自由席」の違いがわかりにくいと感じる人は多いです。",
+          "en": "When riding the Shinkansen, many people feel that the difference between reserved and non-reserved seats is confusing."
+        },
+        {
+          "ja": "指定席は座席があらかじめ決まっていて、その席に座ります。",
+          "en": "With a reserved seat, your seat is decided in advance and you sit in that seat."
+        },
+        {
+          "ja": "指定席なら指定席特急券、自由席なら自由席特急券です。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        },
+        {
+          "ja": "指定席でも、このやり方がとても便利です。",
+          "en": "This is very convenient even for reserved seats."
+        },
+        {
+          "ja": "だから、新幹線のきっぷは「紙かデジタルか」だけでなく、「指定席か自由席か」も大切です。",
+          "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+        }
+      ]
     },
     {
       "id": "core-3ee9adbdcf6f13",
@@ -77073,6 +77324,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "こうして見ると、日本の鉄道は複雑そうでも、実際には目的に合わせて細かく選べるようになっています。",
+          "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+        },
+        {
           "ja": "多くの鉄道会社では、自転車を分解したり折りたたんだりして、専用の輪行袋に完全に入れる必要があります。",
           "en": "Many railway companies require bicycles to be disassembled or folded and completely placed inside a dedicated bike transport bag."
         },
@@ -77087,10 +77342,6 @@
         {
           "ja": "東京がとても便利に感じられる大きな理由の一つは、よく整った鉄道網です。",
           "en": "One big reason Tokyo feels so convenient is its well-developed rail network."
-        },
-        {
-          "ja": "いくつもの都市中心が鉄道でしっかり結ばれた形で広がってきました。",
-          "en": "It spread in a form where many urban centers were firmly connected by rail."
         }
       ]
     },
@@ -77124,6 +77375,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "こうして見ると、日本の鉄道は複雑そうでも、実際には目的に合わせて細かく選べるようになっています。",
+          "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+        },
+        {
           "ja": "多くの鉄道会社では、自転車を分解したり折りたたんだりして、専用の輪行袋に完全に入れる必要があります。",
           "en": "Many railway companies require bicycles to be disassembled or folded and completely placed inside a dedicated bike transport bag."
         },
@@ -77138,10 +77393,6 @@
         {
           "ja": "東京がとても便利に感じられる大きな理由の一つは、よく整った鉄道網です。",
           "en": "One big reason Tokyo feels so convenient is its well-developed rail network."
-        },
-        {
-          "ja": "いくつもの都市中心が鉄道でしっかり結ばれた形で広がってきました。",
-          "en": "It spread in a form where many urban centers were firmly connected by rail."
         }
       ]
     },
@@ -77541,6 +77792,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "急がない時は自由席、確実に座りたい時は指定席、そして改札をすばやく通りたいならSuicaなどのIC連携が役に立ちます。",
+          "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+        },
+        {
           "ja": "その後、コンビニは食べ物だけでなく、24時間営業、料金支払い、ATM、チケット、宅配などを少しずつ増やしました。",
           "en": "After that, convenience stores gradually added not only food, but also 24-hour service, bill payment, ATMs, tickets, and parcel services."
         },
@@ -77555,10 +77810,6 @@
         {
           "ja": "だからこそ、お礼として使う時もごく短く、安全を第一にすることが大切です。",
           "en": "That is exactly why, when they are used as thanks, it should be only very brief and safety should come first."
-        },
-        {
-          "ja": "VICSは渋滞や交通規制などの道路交通情報を、カーナビに実時間で届けます。",
-          "en": "VICS delivers road traffic information such as congestion and traffic restrictions to car navigation systems in real time."
         }
       ]
     },
@@ -77779,6 +78030,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "急がない時は自由席、確実に座りたい時は指定席、そして改札をすばやく通りたいならSuicaなどのIC連携が役に立ちます。",
+          "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+        },
         {
           "ja": "ふつうならそのまま通り過ぎてしまいそうな場所でしたが、なぜそこにあるのかが気になりました。",
           "en": "It was the kind of place I would normally pass without thinking, but I became curious about why it was there."
@@ -79962,6 +80217,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        },
+        {
           "ja": "だから、セブン-イレブンが日本にコンビニを「持ってきた」と言っても、ただ外国の仕組みを運んだだけではありません。",
           "en": "So even if we say Seven-Eleven “brought” convenience stores to Japan, it did not simply carry over a foreign system unchanged."
         },
@@ -79975,10 +80234,6 @@
         },
         {
           "ja": "V2Xという言葉を聞くと、多くの人は自動運転の未来を想像します。",
-          "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
-        },
-        {
-          "ja": "つまりV2Xは、未来の実験だけでなく、すでに日常の運転の中にも入っているのです。",
           "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
         }
       ]
@@ -81215,6 +81470,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "急がない時は自由席、確実に座りたい時は指定席、そして改札をすばやく通りたいならSuicaなどのIC連携が役に立ちます。",
+          "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+        },
+        {
           "ja": "だから、車が自分だけで考えるより、道路の側が先に状況を知らせるほうが役に立ちます。",
           "en": "Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself."
         },
@@ -81229,10 +81488,6 @@
         {
           "ja": "新しいバスは、病院、役場、スーパーなどを結びます。",
           "en": "The new buses connect places such as the hospital, town office, and supermarket."
-        },
-        {
-          "ja": "図書館では、観光客だけでなく、地域で生活する外国人にも役立つと考えています。",
-          "en": "Libraries believe the tablets will help not only tourists but also foreign residents in the community."
         }
       ]
     },
@@ -81251,6 +81506,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "JR東日本の「新幹線eチケット」では、オンラインで予約した情報をSuicaのようなICカードに結びつけることができます。",
+          "en": "With JR East’s Shinkansen e-ticket, reservation information bought online can be linked to an IC card such as Suica."
+        },
+        {
+          "ja": "予約した座席と「どのICカードで入るか」を先にひもづけておくのです。",
+          "en": "You link the reserved seat in advance to the IC card that will be used to enter."
+        },
+        {
           "ja": "皇居は東京の中心にあり、そのまわりには約5キロのランニングコースがあります。",
           "en": "The Imperial Palace is in the center of Tokyo, and there is a running course of about five kilometers around it."
         },
@@ -81261,14 +81524,6 @@
         {
           "ja": "AP通信は、少なくとも188人が死亡し、約1500人がけがをしたと伝えています。",
           "en": "The Associated Press reported that at least 188 people had died and about 1,500 were injured."
-        },
-        {
-          "ja": "運転は約3時間後の午後8時48分に再開しました。",
-          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
-        },
-        {
-          "ja": "もし株価が高いままなら、会社から追加の株を買って約束を満たします。",
-          "en": "If the share price stays high, they buy additional shares from the company to meet their commitment."
         }
       ]
     },
@@ -82923,7 +83178,16 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "指定席は座席があらかじめ決まっていて、その席に座ります。",
+          "en": "With a reserved seat, your seat is decided in advance and you sit in that seat."
+        },
+        {
+          "ja": "予約した座席と「どのICカードで入るか」を先にひもづけておくのです。",
+          "en": "You link the reserved seat in advance to the IC card that will be used to enter."
+        }
+      ]
     },
     {
       "id": "core-a573fc9b75e860",
@@ -83322,6 +83586,250 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": []
+    },
+    {
+      "id": "article-da65cb7ab0ba2b",
+      "level": "N3",
+      "term": "指定席",
+      "reading": "していせき",
+      "readingHiragana": "していせき",
+      "meaning": "Reserved seat",
+      "source": "article",
+      "sourceId": "2026-07-17-shinkansen-suica-seats",
+      "sourceTitle": "新幹線の指定席と自由席、それをSuicaで使う考え方",
+      "sourceLabel": "7/17 新幹線とSuica",
+      "sourceHref": "./2026-07-17-shinkansen-suica-seats.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-17-shinkansen-suica-seats"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "新幹線に乗るとき、「指定席」と「自由席」の違いがわかりにくいと感じる人は多いです。",
+          "en": "When riding the Shinkansen, many people feel that the difference between reserved and non-reserved seats is confusing."
+        },
+        {
+          "ja": "指定席は座席があらかじめ決まっていて、その席に座ります。",
+          "en": "With a reserved seat, your seat is decided in advance and you sit in that seat."
+        },
+        {
+          "ja": "指定席なら指定席特急券、自由席なら自由席特急券です。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        },
+        {
+          "ja": "指定席でも、このやり方がとても便利です。",
+          "en": "This is very convenient even for reserved seats."
+        },
+        {
+          "ja": "だから、新幹線のきっぷは「紙かデジタルか」だけでなく、「指定席か自由席か」も大切です。",
+          "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+        }
+      ]
+    },
+    {
+      "id": "article-c4cae8e32f2da6",
+      "level": "N3",
+      "term": "自由席",
+      "reading": "じゆうせき",
+      "readingHiragana": "じゆうせき",
+      "meaning": "Non-reserved seat",
+      "source": "article",
+      "sourceId": "2026-07-17-shinkansen-suica-seats",
+      "sourceTitle": "新幹線の指定席と自由席、それをSuicaで使う考え方",
+      "sourceLabel": "7/17 新幹線とSuica",
+      "sourceHref": "./2026-07-17-shinkansen-suica-seats.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-17-shinkansen-suica-seats"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "新幹線に乗るとき、「指定席」と「自由席」の違いがわかりにくいと感じる人は多いです。",
+          "en": "When riding the Shinkansen, many people feel that the difference between reserved and non-reserved seats is confusing."
+        },
+        {
+          "ja": "いっぽう自由席は、自由席車両の中で空いている席を自分で探します。",
+          "en": "With a non-reserved seat, you look for an open seat inside the non-reserved cars."
+        },
+        {
+          "ja": "指定席なら指定席特急券、自由席なら自由席特急券です。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        },
+        {
+          "ja": "自由席のきっぷを持っていても、座れるのは自由席車両だけです。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        },
+        {
+          "ja": "だから、どの車両が自由席かを先に見ておくと安心です。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        }
+      ]
+    },
+    {
+      "id": "article-3330aa54c679b3",
+      "level": "N3",
+      "term": "自由席車両",
+      "reading": "じゆうせきしゃりょう",
+      "readingHiragana": "じゆうせきしゃりょう",
+      "meaning": "Non-reserved seat car",
+      "source": "article",
+      "sourceId": "2026-07-17-shinkansen-suica-seats",
+      "sourceTitle": "新幹線の指定席と自由席、それをSuicaで使う考え方",
+      "sourceLabel": "7/17 新幹線とSuica",
+      "sourceHref": "./2026-07-17-shinkansen-suica-seats.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-17-shinkansen-suica-seats"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "いっぽう自由席は、自由席車両の中で空いている席を自分で探します。",
+          "en": "With a non-reserved seat, you look for an open seat inside the non-reserved cars."
+        },
+        {
+          "ja": "自由席のきっぷを持っていても、座れるのは自由席車両だけです。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        }
+      ]
+    },
+    {
+      "id": "article-2eb2327a32c351",
+      "level": "N3",
+      "term": "特急料金",
+      "reading": "とっきゅうりょうきん",
+      "readingHiragana": "とっきゅうりょうきん",
+      "meaning": "Limited express surcharge",
+      "source": "article",
+      "sourceId": "2026-07-17-shinkansen-suica-seats",
+      "sourceTitle": "新幹線の指定席と自由席、それをSuicaで使う考え方",
+      "sourceLabel": "7/17 新幹線とSuica",
+      "sourceHref": "./2026-07-17-shinkansen-suica-seats.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-17-shinkansen-suica-seats"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        }
+      ]
+    },
+    {
+      "id": "article-0067a870641902",
+      "level": "N3",
+      "term": "改札",
+      "reading": "かいさつ",
+      "readingHiragana": "かいさつ",
+      "meaning": "Ticket gate",
+      "source": "article",
+      "sourceId": "2026-07-17-shinkansen-suica-seats",
+      "sourceTitle": "新幹線の指定席と自由席、それをSuicaで使う考え方",
+      "sourceLabel": "7/17 新幹線とSuica",
+      "sourceHref": "./2026-07-17-shinkansen-suica-seats.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-17-shinkansen-suica-seats"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "すると駅で紙のきっぷを受け取らなくても、改札でタッチしてそのまま入れます。",
+          "en": "Then, instead of picking up a paper ticket at the station, you can simply tap at the gate and go in."
+        },
+        {
+          "ja": "急がない時は自由席、確実に座りたい時は指定席、そして改札をすばやく通りたいならSuicaなどのIC連携が役に立ちます。",
+          "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+        },
+        {
+          "ja": "改札では大きな荷物として扱い、周りの人にぶつけないよう注意します。",
+          "en": "At the ticket gates, handle the bicycle like a large piece of luggage and be careful not to hit people around you."
+        },
+        {
+          "ja": "目的の駅に着いても、ホームや改札の近くで自転車を組み立てるのは避けましょう。",
+          "en": "Even after arriving at your destination, avoid assembling your bicycle near the platform or ticket gates."
+        },
+        {
+          "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
+          "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
+        }
+      ]
+    },
+    {
+      "id": "article-909dc5b11241c2",
+      "level": "N3",
+      "term": "結びつける",
+      "reading": "むすびつける",
+      "readingHiragana": "むすびつける",
+      "meaning": "To link",
+      "source": "article",
+      "sourceId": "2026-07-17-shinkansen-suica-seats",
+      "sourceTitle": "新幹線の指定席と自由席、それをSuicaで使う考え方",
+      "sourceLabel": "7/17 新幹線とSuica",
+      "sourceHref": "./2026-07-17-shinkansen-suica-seats.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-17-shinkansen-suica-seats"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "JR東日本の「新幹線eチケット」では、オンラインで予約した情報をSuicaのようなICカードに結びつけることができます。",
+          "en": "With JR East’s Shinkansen e-ticket, reservation information bought online can be linked to an IC card such as Suica."
+        }
+      ]
+    },
+    {
+      "id": "article-1ef474847b993e",
+      "level": "N3",
+      "term": "物理的",
+      "reading": "ぶつりてき",
+      "readingHiragana": "ぶつりてき",
+      "meaning": "Physical",
+      "source": "article",
+      "sourceId": "2026-07-17-shinkansen-suica-seats",
+      "sourceTitle": "新幹線の指定席と自由席、それをSuicaで使う考え方",
+      "sourceLabel": "7/17 新幹線とSuica",
+      "sourceHref": "./2026-07-17-shinkansen-suica-seats.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-17-shinkansen-suica-seats"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "物理的なSuicaカードを使う人もいれば、スマートフォン側のIC機能を使う人もいますが、考え方は同じです。",
+          "en": "Some people use a physical Suica card, while others use the IC function on a smartphone, but the basic idea is the same."
+        }
+      ]
+    },
+    {
+      "id": "article-167a1f8b93ae34",
+      "level": "N3",
+      "term": "連携",
+      "reading": "れんけい",
+      "readingHiragana": "れんけい",
+      "meaning": "Integration / Linkage",
+      "source": "article",
+      "sourceId": "2026-07-17-shinkansen-suica-seats",
+      "sourceTitle": "新幹線の指定席と自由席、それをSuicaで使う考え方",
+      "sourceLabel": "7/17 新幹線とSuica",
+      "sourceHref": "./2026-07-17-shinkansen-suica-seats.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-17-shinkansen-suica-seats"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "急がない時は自由席、確実に座りたい時は指定席、そして改札をすばやく通りたいならSuicaなどのIC連携が役に立ちます。",
+          "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+        },
+        {
+          "ja": "今後は、新しい道具と地域の連携をどう強くするかが課題になりそうです。",
+          "en": "Going forward, the challenge will be how to strengthen cooperation between new tools and local communities."
+        },
+        {
+          "ja": "両国は、安全保障や地域の安定のために、これからも緊密に連携していく方針です。",
+          "en": "The two countries plan to keep working closely together for security and regional stability."
+        }
+      ]
     },
     {
       "id": "article-4f9c74468f43aa",
@@ -84191,6 +84699,14 @@
       ],
       "exampleSentences": [
         {
+          "ja": "すると駅で紙のきっぷを受け取らなくても、改札でタッチしてそのまま入れます。",
+          "en": "Then, instead of picking up a paper ticket at the station, you can simply tap at the gate and go in."
+        },
+        {
+          "ja": "急がない時は自由席、確実に座りたい時は指定席、そして改札をすばやく通りたいならSuicaなどのIC連携が役に立ちます。",
+          "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+        },
+        {
           "ja": "改札では大きな荷物として扱い、周りの人にぶつけないよう注意します。",
           "en": "At the ticket gates, handle the bicycle like a large piece of luggage and be careful not to hit people around you."
         },
@@ -84201,14 +84717,6 @@
         {
           "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
           "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
-        },
-        {
-          "ja": "その理由の一つは、ICカードの残高確認や運賃計算が、改札機の中でとても速く処理されるように設計されていることです。",
-          "en": "One reason is that balance checks and fare calculations for IC cards are designed to be processed very quickly inside the ticket gate itself."
-        },
-        {
-          "ja": "普段は当たり前のように使っている改札ですが、その裏には日本ならではの高い技術と緻密なシステム設計が詰まっています。",
-          "en": "We usually use ticket gates as if they were completely ordinary, but behind them are advanced technology and precise system design that feel very characteristic of Japan."
         }
       ]
     },
@@ -84500,6 +85008,14 @@
       ],
       "exampleSentences": [
         {
+          "ja": "すると駅で紙のきっぷを受け取らなくても、改札でタッチしてそのまま入れます。",
+          "en": "Then, instead of picking up a paper ticket at the station, you can simply tap at the gate and go in."
+        },
+        {
+          "ja": "急がない時は自由席、確実に座りたい時は指定席、そして改札をすばやく通りたいならSuicaなどのIC連携が役に立ちます。",
+          "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+        },
+        {
           "ja": "改札では大きな荷物として扱い、周りの人にぶつけないよう注意します。",
           "en": "At the ticket gates, handle the bicycle like a large piece of luggage and be careful not to hit people around you."
         },
@@ -84510,14 +85026,6 @@
         {
           "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
           "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
-        },
-        {
-          "ja": "その理由の一つは、ICカードの残高確認や運賃計算が、改札機の中でとても速く処理されるように設計されていることです。",
-          "en": "One reason is that balance checks and fare calculations for IC cards are designed to be processed very quickly inside the ticket gate itself."
-        },
-        {
-          "ja": "普段は当たり前のように使っている改札ですが、その裏には日本ならではの高い技術と緻密なシステム設計が詰まっています。",
-          "en": "We usually use ticket gates as if they were completely ordinary, but behind them are advanced technology and precise system design that feel very characteristic of Japan."
         }
       ]
     },
@@ -84739,6 +85247,14 @@
       ],
       "exampleSentences": [
         {
+          "ja": "つまり、安心して席を確保したいか、少し気楽に乗りたいかで選び方が変わります。",
+          "en": "In other words, the choice changes depending on whether you want the security of a guaranteed seat or a more flexible ride."
+        },
+        {
+          "ja": "だから、どの車両が自由席かを先に見ておくと安心です。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        },
+        {
           "ja": "車輪を外すタイプでは、工具や固定用ベルトを用意すると安心です。",
           "en": "For bikes that require wheel removal, it is helpful to bring tools and fastening straps."
         },
@@ -84749,14 +85265,6 @@
         {
           "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
           "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
-        },
-        {
-          "ja": "大きく目立つわけではなくても、だれかの安心をしっかり支えているところが素敵です。",
-          "en": "Even if it does not stand out, it is wonderful that it quietly supports someone’s sense of safety."
-        },
-        {
-          "ja": "ヴィニシウスは狭い角度からシュートを決め、ブラジルの応援席を安心させました。",
-          "en": "Vinicius scored from a tight angle, calming the Brazil supporters."
         }
       ]
     },
@@ -85569,6 +86077,14 @@
       ],
       "exampleSentences": [
         {
+          "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        },
+        {
+          "ja": "指定席なら指定席特急券、自由席なら自由席特急券です。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        },
+        {
           "ja": "品川や羽田空港などの駅では、普通、急行、エアポート急行、特急、快特などの表示を見ます。",
           "en": "At stations such as Shinagawa and Haneda Airport, you will see labels like Local, Express, Airport Express, Limited Express, and Rapid Limited Express."
         }
@@ -85660,6 +86176,10 @@
         "2026-07-01-rinkai-line-cost"
       ],
       "exampleSentences": [
+        {
+          "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        },
         {
           "ja": "その理由の一つは、ICカードの残高確認や運賃計算が、改札機の中でとても速く処理されるように設計されていることです。",
           "en": "One reason is that balance checks and fare calculations for IC cards are designed to be processed very quickly inside the ticket gate itself."
@@ -89644,6 +90164,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "この仕組みでは、1人につき1枚のICカードが必要です。",
+          "en": "In this system, each person needs one IC card."
+        },
+        {
           "ja": "だから、セブン-イレブンが日本にコンビニを「持ってきた」と言っても、ただ外国の仕組みを運んだだけではありません。",
           "en": "So even if we say Seven-Eleven “brought” convenience stores to Japan, it did not simply carry over a foreign system unchanged."
         },
@@ -89658,10 +90182,6 @@
         {
           "ja": "ETC専用、ETC一般という表示が何度も出てくるのは、その仕組みが交通を支えているからです。",
           "en": "Signs like ETC-only and ETC/general appear again and again because this system helps support traffic flow."
-        },
-        {
-          "ja": "この仕組みを知っているだけで、新宿駅のような巨大な駅でも必要以上にこわがらなくてよくなります。",
-          "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
         }
       ]
     },
@@ -90549,6 +91069,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "この仕組みでは、1人につき1枚のICカードが必要です。",
+          "en": "In this system, each person needs one IC card."
+        },
+        {
           "ja": "だから、セブン-イレブンが日本にコンビニを「持ってきた」と言っても、ただ外国の仕組みを運んだだけではありません。",
           "en": "So even if we say Seven-Eleven “brought” convenience stores to Japan, it did not simply carry over a foreign system unchanged."
         },
@@ -90563,10 +91087,6 @@
         {
           "ja": "ETC専用、ETC一般という表示が何度も出てくるのは、その仕組みが交通を支えているからです。",
           "en": "Signs like ETC-only and ETC/general appear again and again because this system helps support traffic flow."
-        },
-        {
-          "ja": "この仕組みを知っているだけで、新宿駅のような巨大な駅でも必要以上にこわがらなくてよくなります。",
-          "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
         }
       ]
     },
@@ -90611,6 +91131,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "こうして見ると、日本の鉄道は複雑そうでも、実際には目的に合わせて細かく選べるようになっています。",
+          "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+        },
+        {
           "ja": "目的の駅に着いても、ホームや改札の近くで自転車を組み立てるのは避けましょう。",
           "en": "Even after arriving at your destination, avoid assembling your bicycle near the platform or ticket gates."
         },
@@ -90625,10 +91149,6 @@
         {
           "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
           "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
-        },
-        {
-          "ja": "細かい水を空気に出して、少しでも涼しくすることが目的です。",
-          "en": "The goal is to spray fine water into the air and make the area a little cooler."
         }
       ]
     },
@@ -90727,6 +91247,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "この仕組みでは、1人につき1枚のICカードが必要です。",
+          "en": "In this system, each person needs one IC card."
+        },
+        {
           "ja": "だから、セブン-イレブンが日本にコンビニを「持ってきた」と言っても、ただ外国の仕組みを運んだだけではありません。",
           "en": "So even if we say Seven-Eleven “brought” convenience stores to Japan, it did not simply carry over a foreign system unchanged."
         },
@@ -90741,10 +91265,6 @@
         {
           "ja": "ETC専用、ETC一般という表示が何度も出てくるのは、その仕組みが交通を支えているからです。",
           "en": "Signs like ETC-only and ETC/general appear again and again because this system helps support traffic flow."
-        },
-        {
-          "ja": "この仕組みを知っているだけで、新宿駅のような巨大な駅でも必要以上にこわがらなくてよくなります。",
-          "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
         }
       ]
     },
@@ -91150,6 +91670,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        },
+        {
           "ja": "高速道路の入口だけでなく、料金所の案内や道路標識にもETCの表示が多く、はじめての人は「ここではETCが当たり前なのだ」と感じやすいです。",
           "en": "It appears not only at expressway entrances, but also on toll guidance and road signs, so first-time drivers easily feel that ETC is simply taken for granted here."
         },
@@ -91164,10 +91688,6 @@
         {
           "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
           "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
-        },
-        {
-          "ja": "多くの主要駅では、出口への案内に黄色が標準的に使われています。",
-          "en": "At many major stations, yellow is used as the standard color for directions to the exits."
         }
       ]
     },
@@ -92168,6 +92688,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "急がない時は自由席、確実に座りたい時は指定席、そして改札をすばやく通りたいならSuicaなどのIC連携が役に立ちます。",
+          "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+        },
+        {
           "ja": "今後は、新しい道具と地域の連携をどう強くするかが課題になりそうです。",
           "en": "Going forward, the challenge will be how to strengthen cooperation between new tools and local communities."
         },
@@ -92392,6 +92916,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
+          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+        },
+        {
           "ja": "高速道路の入口だけでなく、料金所の案内や道路標識にもETCの表示が多く、はじめての人は「ここではETCが当たり前なのだ」と感じやすいです。",
           "en": "It appears not only at expressway entrances, but also on toll guidance and road signs, so first-time drivers easily feel that ETC is simply taken for granted here."
         },
@@ -92406,10 +92934,6 @@
         {
           "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
           "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
-        },
-        {
-          "ja": "多くの主要駅では、出口への案内に黄色が標準的に使われています。",
-          "en": "At many major stations, yellow is used as the standard color for directions to the exits."
         }
       ]
     },

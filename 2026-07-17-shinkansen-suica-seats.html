@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新幹線の指定席と自由席、それをSuicaで使う考え方</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <script>
+        (() => {
+            try {
+                const storedTheme = window.localStorage.getItem('learnJapanese.theme');
+                const theme = storedTheme === 'dark' || storedTheme === 'light'
+                    ? storedTheme
+                    : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                document.documentElement.dataset.theme = theme;
+                document.documentElement.style.colorScheme = theme;
+            } catch (error) {
+                document.documentElement.dataset.theme = 'light';
+                document.documentElement.style.colorScheme = 'light';
+            }
+        })();
+    </script>
+    <link rel="stylesheet" href="./assets/article.css?v=945b9350dedc">
+</head>
+<body id="top" data-article-id="2026-07-17-shinkansen-suica-seats" data-recording-download-name="2026-07-17-shinkansen-suica-seats.mp4">
+<nav class="top-nav" aria-label="Page navigation"></nav>
+<div class="article-shell">
+    <aside class="article-sidebar" aria-label="Article navigation"></aside>
+    <main class="article-main">
+
+<div class="container">
+    <div class="date">2026年7月17日</div>
+    <div class="article-toolbar">
+        <div class="voice-controls">
+            <button class="toolbar-icon-button voice-menu-toggle" type="button" id="voice-menu-toggle" aria-expanded="false" aria-controls="voice-settings-menu" aria-label="Voice settings" data-tooltip="Voice settings">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 10v4"></path>
+                    <path d="M8 7v10"></path>
+                    <path d="M12 4v16"></path>
+                    <path d="M16 7v10"></path>
+                    <path d="M20 10v4"></path>
+                </svg>
+                <span class="icon-label">Voice settings</span>
+            </button>
+            <div class="voice-current-status" id="voice-current-status" aria-live="polite">Docker VOICEVOX</div>
+            <button class="audio-enable-button" type="button" id="enable-docker-audio" hidden>Enable audio</button>
+            <div class="voice-settings-menu" id="voice-settings-menu" hidden>
+                <label class="toolbar-label" for="browser-voice">Browser Voice</label>
+                <select class="voice-select" id="browser-voice" aria-label="Browser voice">
+                    <option value="auto" selected>Google 日本語</option>
+                </select>
+            </div>
+        </div>
+        <div class="article-actions" aria-label="Article actions">
+            <button class="toolbar-icon-button preview-button" type="button" id="preview-recording-mode" aria-label="Preview recording mode" data-tooltip="Preview recording mode">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M2 12s3.8-6 10-6 10 6 10 6-3.8 6-10 6-10-6-10-6z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+                <span class="icon-label">Preview recording mode</span>
+            </button>
+            <button class="toolbar-icon-button video-button" type="button" id="render-video" aria-label="Render video" data-tooltip="Render video" data-default-label="Render video" data-active-label="Recording">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M5 6h11a2 2 0 0 1 2 2v1l3-2v10l-3-2v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"></path>
+                    <path d="M9 10.5v3l3-1.5z"></path>
+                </svg>
+                <span class="icon-label">Render video</span>
+            </button>
+            <button class="toolbar-icon-button cover-button" type="button" id="download-cover" aria-label="Download video cover" data-tooltip="Download cover" data-default-label="Download cover" data-active-label="Rendering cover">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                    <circle cx="8.5" cy="10" r="1.5"></circle>
+                    <path d="m21 15-5-5L5 19"></path>
+                </svg>
+                <span class="icon-label">Download cover</span>
+            </button>
+            <button class="toolbar-icon-button speak-button" type="button" id="speak-japanese-article" aria-label="Read aloud" data-tooltip="Read aloud" data-default-label="Read aloud" data-active-label="Stop reading" data-loading-label="Preparing audio">
+                <svg class="toolbar-svg icon-read" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 10v4h4l5 4V6L8 10z"></path>
+                    <path d="M16 9c1.8 1.8 1.8 4.2 0 6"></path>
+                    <path d="M18.5 6.5c3.3 3.3 3.3 7.7 0 11"></path>
+                </svg>
+                <svg class="toolbar-svg icon-stop" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 8h8v8H8z"></path>
+                </svg>
+                <span class="icon-label">Read aloud</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-japanese-article" aria-label="Copy Japanese article" data-tooltip="Copy Japanese article">
+                <span class="copy-language-icon" aria-hidden="true">あ</span>
+                <span class="icon-label">Copy Japanese article</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-english-translation" aria-label="Copy English translation" data-tooltip="Copy English translation">
+                <span class="copy-language-icon" aria-hidden="true">A</span>
+                <span class="icon-label">Copy English translation</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-bilingual-article" aria-label="Copy Japanese and English article" data-tooltip="Copy Japanese and English article">
+                <span class="copy-language-icon copy-language-icon-wide" aria-hidden="true">あ/A</span>
+                <span class="icon-label">Copy Japanese and English article</span>
+            </button>
+        </div>
+    </div>
+    <div class="copy-status" id="copy-status" aria-live="polite"></div>
+    <audio class="audio-player" id="tts-player" controls hidden preload="none"></audio>
+    <h1><ruby>新幹線<rt>しんかんせん</rt></ruby>の<ruby>指定席<rt>していせき</rt></ruby>と<ruby>自由席<rt>じゆうせき</rt></ruby>、それをSuicaで<ruby>使<rt>つか</rt></ruby>う<ruby>考<rt>かんが</rt></ruby>え<ruby>方<rt>かた</rt></ruby></h1>
+    <div class="source-note">JR東日本の英語版チケット案内と新幹線eチケット案内をもとに、指定席・自由席とSuica連携の基本を説明する学習用ページです。</div>
+
+
+    <p class="article-paragraph"><ruby>新幹線<rt>しんかんせん</rt></ruby>に<ruby>乗<rt>の</rt></ruby>るとき、「<ruby>指定席<rt>していせき</rt></ruby>」と「<ruby>自由席<rt>じゆうせき</rt></ruby>」の<ruby>違<rt>ちが</rt></ruby>いがわかりにくいと<ruby>感<rt>かん</rt></ruby>じる<ruby>人<rt>ひと</rt></ruby>は<ruby>多<rt>おお</rt></ruby>いです。<ruby>指定席<rt>していせき</rt></ruby>は<ruby>座席<rt>ざせき</rt></ruby>があらかじめ<ruby>決<rt>き</rt></ruby>まっていて、その<ruby>席<rt>せき</rt></ruby>に<ruby>座<rt>すわ</rt></ruby>ります。いっぽう<ruby>自由席<rt>じゆうせき</rt></ruby>は、<ruby>自由席車両<rt>じゆうせきしゃりょう</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で<ruby>空<rt>あ</rt></ruby>いている<ruby>席<rt>せき</rt></ruby>を<ruby>自分<rt>じぶん</rt></ruby>で<ruby>探<rt>さが</rt></ruby>します。つまり、<ruby>安心<rt>あんしん</rt></ruby>して<ruby>席<rt>せき</rt></ruby>を<ruby>確保<rt>かくほ</rt></ruby>したいか、<ruby>少<rt>すこ</rt></ruby>し<ruby>気楽<rt>きらく</rt></ruby>に<ruby>乗<rt>の</rt></ruby>りたいかで<ruby>選<rt>えら</rt></ruby>び<ruby>方<rt>かた</rt></ruby>が<ruby>変<rt>か</rt></ruby>わります。</p>
+    <div class="sentence-translation">When riding the Shinkansen, many people feel that the difference between reserved and non-reserved seats is confusing. With a reserved seat, your seat is decided in advance and you sit in that seat. With a non-reserved seat, you look for an open seat inside the non-reserved cars. In other words, the choice changes depending on whether you want the security of a guaranteed seat or a more flexible ride.</div>
+    <p class="article-paragraph">JR<ruby>東日本<rt>ひがしにほん</rt></ruby>の<ruby>案内<rt>あんない</rt></ruby>では、<ruby>新幹線<rt>しんかんせん</rt></ruby>に<ruby>乗<rt>の</rt></ruby>るには<ruby>基本運賃<rt>きほんうんちん</rt></ruby>のきっぷと、<ruby>特急料金<rt>とっきゅうりょうきん</rt></ruby>のきっぷが<ruby>必要<rt>ひつよう</rt></ruby>だと<ruby>説明<rt>せつめい</rt></ruby>されています。<ruby>指定席<rt>していせき</rt></ruby>なら<ruby>指定席特急券<rt>していせきとっきゅうけん</rt></ruby>、<ruby>自由席<rt>じゆうせき</rt></ruby>なら<ruby>自由席特急券<rt>じゆうせきとっきゅうけん</rt></ruby>です。<ruby>自由席<rt>じゆうせき</rt></ruby>のきっぷを<ruby>持<rt>も</rt></ruby>っていても、<ruby>座<rt>すわ</rt></ruby>れるのは<ruby>自由席車両<rt>じゆうせきしゃりょう</rt></ruby>だけです。だから、どの<ruby>車両<rt>しゃりょう</rt></ruby>が<ruby>自由席<rt>じゆうせき</rt></ruby>かを<ruby>先<rt>さき</rt></ruby>に<ruby>見<rt>み</rt></ruby>ておくと<ruby>安心<rt>あんしん</rt></ruby>です。</p>
+    <div class="sentence-translation">JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved.</div>
+    <p class="article-paragraph"><ruby>最近<rt>さいきん</rt></ruby>は、<ruby>紙<rt>かみ</rt></ruby>のきっぷを<ruby>出<rt>だ</rt></ruby>さなくても<ruby>乗<rt>の</rt></ruby>れる<ruby>方法<rt>ほうほう</rt></ruby>が<ruby>広<rt>ひろ</rt></ruby>がっています。JR<ruby>東日本<rt>ひがしにほん</rt></ruby>の「<ruby>新幹線<rt>しんかんせん</rt></ruby>eチケット」では、オンラインで<ruby>予約<rt>よやく</rt></ruby>した<ruby>情報<rt>じょうほう</rt></ruby>をSuicaのようなICカードに<ruby>結<rt>むす</rt></ruby>びつけることができます。すると<ruby>駅<rt>えき</rt></ruby>で<ruby>紙<rt>かみ</rt></ruby>のきっぷを<ruby>受<rt>う</rt></ruby>け<ruby>取<rt>と</rt></ruby>らなくても、<ruby>改札<rt>かいさつ</rt></ruby>でタッチしてそのまま<ruby>入<rt>はい</rt></ruby>れます。<ruby>指定席<rt>していせき</rt></ruby>でも、このやり<ruby>方<rt>かた</rt></ruby>がとても<ruby>便利<rt>べんり</rt></ruby>です。</p>
+    <div class="sentence-translation">Recently, more ways have spread that let people ride without printing paper tickets. With JR East’s Shinkansen e-ticket, reservation information bought online can be linked to an IC card such as Suica. Then, instead of picking up a paper ticket at the station, you can simply tap at the gate and go in. This is very convenient even for reserved seats.</div>
+    <p class="article-paragraph">この<ruby>仕組<rt>しく</rt></ruby>みでは、1<ruby>人<rt>ひとり</rt></ruby>につき1<ruby>枚<rt>まい</rt></ruby>のICカードが<ruby>必要<rt>ひつよう</rt></ruby>です。<ruby>物理的<rt>ぶつりてき</rt></ruby>なSuicaカードを<ruby>使<rt>つか</rt></ruby>う<ruby>人<rt>ひと</rt></ruby>もいれば、スマートフォン<ruby>側<rt>がわ</rt></ruby>のIC<ruby>機能<rt>きのう</rt></ruby>を<ruby>使<rt>つか</rt></ruby>う<ruby>人<rt>ひと</rt></ruby>もいますが、<ruby>考<rt>かんが</rt></ruby>え<ruby>方<rt>かた</rt></ruby>は<ruby>同<rt>おな</rt></ruby>じです。<ruby>予約<rt>よやく</rt></ruby>した<ruby>座席<rt>ざせき</rt></ruby>と「どのICカードで<ruby>入<rt>はい</rt></ruby>るか」を<ruby>先<rt>さき</rt></ruby>にひもづけておくのです。<ruby>紙<rt>かみ</rt></ruby>からICへ<ruby>変<rt>か</rt></ruby>わっても、<ruby>誰<rt>だれ</rt></ruby>がどの<ruby>席<rt>せき</rt></ruby>を<ruby>使<rt>つか</rt></ruby>うかはしっかり<ruby>管理<rt>かんり</rt></ruby>されています。</p>
+    <div class="sentence-translation">In this system, each person needs one IC card. Some people use a physical Suica card, while others use the IC function on a smartphone, but the basic idea is the same. You link the reserved seat in advance to the IC card that will be used to enter. Even when the format changes from paper to IC, the system still clearly manages who will use which seat.</div>
+    <p class="article-paragraph">だから、<ruby>新幹線<rt>しんかんせん</rt></ruby>のきっぷは「<ruby>紙<rt>かみ</rt></ruby>かデジタルか」だけでなく、「<ruby>指定席<rt>していせき</rt></ruby>か<ruby>自由席<rt>じゆうせき</rt></ruby>か」も<ruby>大切<rt>たいせつ</rt></ruby>です。<ruby>急<rt>いそ</rt></ruby>がない<ruby>時<rt>とき</rt></ruby>は<ruby>自由席<rt>じゆうせき</rt></ruby>、<ruby>確実<rt>かくじつ</rt></ruby>に<ruby>座<rt>すわ</rt></ruby>りたい<ruby>時<rt>とき</rt></ruby>は<ruby>指定席<rt>していせき</rt></ruby>、そして<ruby>改札<rt>かいさつ</rt></ruby>をすばやく<ruby>通<rt>とお</rt></ruby>りたいならSuicaなどのIC<ruby>連携<rt>れんけい</rt></ruby>が<ruby>役<rt>やく</rt></ruby>に<ruby>立<rt>た</rt></ruby>ちます。こうして<ruby>見<rt>み</rt></ruby>ると、<ruby>日本<rt>にほん</rt></ruby>の<ruby>鉄道<rt>てつどう</rt></ruby>は<ruby>複雑<rt>ふくざつ</rt></ruby>そうでも、<ruby>実際<rt>じっさい</rt></ruby>には<ruby>目的<rt>もくてき</rt></ruby>に<ruby>合<rt>あ</rt></ruby>わせて<ruby>細<rt>こま</rt></ruby>かく<ruby>選<rt>えら</rt></ruby>べるようになっています。</p>
+    <div class="sentence-translation">So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs.</div>
+    <div class="recording-footer" aria-hidden="true">
+        <span>英訳はコメント欄にあります</span>
+        <span>2026年7月17日</span>
+    </div>
+
+<div class="study-notes-box">
+        <h2>Common Phrases and Patterns</h2>
+        <div class="study-note-group">
+            <h3>Useful phrases</h3>
+            <ul class="study-note-list">
+                <li><strong>〜ように</strong> <span>so that / in order to / in the way that</span><div class="study-note-example">Example: 際には目的に合わせて細かく選べるようになっています</div></li>
+                <li><strong>〜だけで</strong> <span>just by / only with</span><div class="study-note-example">Example: っていても、座れるのは自由席車両だけです</div></li>
+            </ul>
+        </div>
+        <div class="study-note-group">
+            <h3>Verb and grammar patterns</h3>
+            <ul class="study-note-list">
+                <li><strong>〜ている</strong> <span>ongoing state / habitual action</span><div class="study-note-example">Example: う自由席は、自由席車両の中で空いている席を自分で探します</div></li>
+                <li><strong>〜ことができる</strong> <span>can do / be able to</span><div class="study-note-example">Example: aのようなICカードに結びつけることができます</div></li>
+                <li><strong>〜ようになっている</strong> <span>is set up so that / has become such that</span><div class="study-note-example">Example: 際には目的に合わせて細かく選べるようになっています</div></li>
+                <li><strong>〜にくい</strong> <span>hard to do</span><div class="study-note-example">Example: 定席」と「自由席」の違いがわかりにくいと感じる人は多いです</div></li>
+            </ul>
+        </div>
+    </div>
+    <div class="vocabulary-box">
+        <h2>N3 Vocabulary</h2>
+        <ul>
+            <li><strong>指定席（していせき）:</strong> Reserved seat</li>
+            <li><strong>自由席（じゆうせき）:</strong> Non-reserved seat</li>
+            <li><strong>自由席車両（じゆうせきしゃりょう）:</strong> Non-reserved seat car</li>
+            <li><strong>特急料金（とっきゅうりょうきん）:</strong> Limited express surcharge</li>
+            <li><strong>改札（かいさつ）:</strong> Ticket gate</li>
+            <li><strong>結びつける（むすびつける）:</strong> To link</li>
+            <li><strong>物理的（ぶつりてき）:</strong> Physical</li>
+            <li><strong>連携（れんけい）:</strong> Integration / Linkage</li>
+        </ul>
+    </div>
+</div>
+    </main>
+</div>
+
+<script src="./assets/theme.js"></script>
+<script src="./assets/article.js?v=94510f45cd63"></script>
+
+</body>
+</html>

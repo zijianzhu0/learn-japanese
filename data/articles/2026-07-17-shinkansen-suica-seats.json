@@ -1,0 +1,71 @@
+{
+  "_comment": "Publish-ready N3 article about reserved and non-reserved Shinkansen seats and linking tickets to a Suica/IC card. Exactly 5 paragraph sections in the recent explanatory style.",
+  "id": "2026-07-17-shinkansen-suica-seats",
+  "file": "2026-07-17-shinkansen-suica-seats.html",
+  "title": "新幹線の指定席と自由席、それをSuicaで使う考え方",
+  "titleTranslation": "How Reserved and Non-Reserved Shinkansen Seats Work, and How to Use Them with Suica",
+  "date": "2026年7月17日",
+  "month": "July 2026",
+  "navLabel": "7/17 新幹線とSuica",
+  "level": "N3",
+  "downloadFileName": "2026-07-17-shinkansen-suica-seats.mp4",
+  "headlineHtml": "<ruby>新幹線<rt>しんかんせん</rt></ruby>の<ruby>指定席<rt>していせき</rt></ruby>と<ruby>自由席<rt>じゆうせき</rt></ruby>、それをSuicaで<ruby>使<rt>つか</rt></ruby>う<ruby>考<rt>かんが</rt></ruby>え<ruby>方<rt>かた</rt></ruby>",
+  "sourceNote": "JR東日本の英語版チケット案内と新幹線eチケット案内をもとに、指定席・自由席とSuica連携の基本を説明する学習用ページです。",
+  "paragraphs": [
+    {
+      "html": "<ruby>新幹線<rt>しんかんせん</rt></ruby>に<ruby>乗<rt>の</rt></ruby>るとき、「<ruby>指定席<rt>していせき</rt></ruby>」と「<ruby>自由席<rt>じゆうせき</rt></ruby>」の<ruby>違<rt>ちが</rt></ruby>いがわかりにくいと<ruby>感<rt>かん</rt></ruby>じる<ruby>人<rt>ひと</rt></ruby>は<ruby>多<rt>おお</rt></ruby>いです。<ruby>指定席<rt>していせき</rt></ruby>は<ruby>座席<rt>ざせき</rt></ruby>があらかじめ<ruby>決<rt>き</rt></ruby>まっていて、その<ruby>席<rt>せき</rt></ruby>に<ruby>座<rt>すわ</rt></ruby>ります。いっぽう<ruby>自由席<rt>じゆうせき</rt></ruby>は、<ruby>自由席車両<rt>じゆうせきしゃりょう</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で<ruby>空<rt>あ</rt></ruby>いている<ruby>席<rt>せき</rt></ruby>を<ruby>自分<rt>じぶん</rt></ruby>で<ruby>探<rt>さが</rt></ruby>します。つまり、<ruby>安心<rt>あんしん</rt></ruby>して<ruby>席<rt>せき</rt></ruby>を<ruby>確保<rt>かくほ</rt></ruby>したいか、<ruby>少<rt>すこ</rt></ruby>し<ruby>気楽<rt>きらく</rt></ruby>に<ruby>乗<rt>の</rt></ruby>りたいかで<ruby>選<rt>えら</rt></ruby>び<ruby>方<rt>かた</rt></ruby>が<ruby>変<rt>か</rt></ruby>わります。",
+      "translation": "When riding the Shinkansen, many people feel that the difference between reserved and non-reserved seats is confusing. With a reserved seat, your seat is decided in advance and you sit in that seat. With a non-reserved seat, you look for an open seat inside the non-reserved cars. In other words, the choice changes depending on whether you want the security of a guaranteed seat or a more flexible ride."
+    },
+    {
+      "html": "JR<ruby>東日本<rt>ひがしにほん</rt></ruby>の<ruby>案内<rt>あんない</rt></ruby>では、<ruby>新幹線<rt>しんかんせん</rt></ruby>に<ruby>乗<rt>の</rt></ruby>るには<ruby>基本運賃<rt>きほんうんちん</rt></ruby>のきっぷと、<ruby>特急料金<rt>とっきゅうりょうきん</rt></ruby>のきっぷが<ruby>必要<rt>ひつよう</rt></ruby>だと<ruby>説明<rt>せつめい</rt></ruby>されています。<ruby>指定席<rt>していせき</rt></ruby>なら<ruby>指定席特急券<rt>していせきとっきゅうけん</rt></ruby>、<ruby>自由席<rt>じゆうせき</rt></ruby>なら<ruby>自由席特急券<rt>じゆうせきとっきゅうけん</rt></ruby>です。<ruby>自由席<rt>じゆうせき</rt></ruby>のきっぷを<ruby>持<rt>も</rt></ruby>っていても、<ruby>座<rt>すわ</rt></ruby>れるのは<ruby>自由席車両<rt>じゆうせきしゃりょう</rt></ruby>だけです。だから、どの<ruby>車両<rt>しゃりょう</rt></ruby>が<ruby>自由席<rt>じゆうせき</rt></ruby>かを<ruby>先<rt>さき</rt></ruby>に<ruby>見<rt>み</rt></ruby>ておくと<ruby>安心<rt>あんしん</rt></ruby>です。",
+      "translation": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+    },
+    {
+      "html": "<ruby>最近<rt>さいきん</rt></ruby>は、<ruby>紙<rt>かみ</rt></ruby>のきっぷを<ruby>出<rt>だ</rt></ruby>さなくても<ruby>乗<rt>の</rt></ruby>れる<ruby>方法<rt>ほうほう</rt></ruby>が<ruby>広<rt>ひろ</rt></ruby>がっています。JR<ruby>東日本<rt>ひがしにほん</rt></ruby>の「<ruby>新幹線<rt>しんかんせん</rt></ruby>eチケット」では、オンラインで<ruby>予約<rt>よやく</rt></ruby>した<ruby>情報<rt>じょうほう</rt></ruby>をSuicaのようなICカードに<ruby>結<rt>むす</rt></ruby>びつけることができます。すると<ruby>駅<rt>えき</rt></ruby>で<ruby>紙<rt>かみ</rt></ruby>のきっぷを<ruby>受<rt>う</rt></ruby>け<ruby>取<rt>と</rt></ruby>らなくても、<ruby>改札<rt>かいさつ</rt></ruby>でタッチしてそのまま<ruby>入<rt>はい</rt></ruby>れます。<ruby>指定席<rt>していせき</rt></ruby>でも、このやり<ruby>方<rt>かた</rt></ruby>がとても<ruby>便利<rt>べんり</rt></ruby>です。",
+      "translation": "Recently, more ways have spread that let people ride without printing paper tickets. With JR East’s Shinkansen e-ticket, reservation information bought online can be linked to an IC card such as Suica. Then, instead of picking up a paper ticket at the station, you can simply tap at the gate and go in. This is very convenient even for reserved seats."
+    },
+    {
+      "html": "この<ruby>仕組<rt>しく</rt></ruby>みでは、1<ruby>人<rt>ひとり</rt></ruby>につき1<ruby>枚<rt>まい</rt></ruby>のICカードが<ruby>必要<rt>ひつよう</rt></ruby>です。<ruby>物理的<rt>ぶつりてき</rt></ruby>なSuicaカードを<ruby>使<rt>つか</rt></ruby>う<ruby>人<rt>ひと</rt></ruby>もいれば、スマートフォン<ruby>側<rt>がわ</rt></ruby>のIC<ruby>機能<rt>きのう</rt></ruby>を<ruby>使<rt>つか</rt></ruby>う<ruby>人<rt>ひと</rt></ruby>もいますが、<ruby>考<rt>かんが</rt></ruby>え<ruby>方<rt>かた</rt></ruby>は<ruby>同<rt>おな</rt></ruby>じです。<ruby>予約<rt>よやく</rt></ruby>した<ruby>座席<rt>ざせき</rt></ruby>と「どのICカードで<ruby>入<rt>はい</rt></ruby>るか」を<ruby>先<rt>さき</rt></ruby>にひもづけておくのです。<ruby>紙<rt>かみ</rt></ruby>からICへ<ruby>変<rt>か</rt></ruby>わっても、<ruby>誰<rt>だれ</rt></ruby>がどの<ruby>席<rt>せき</rt></ruby>を<ruby>使<rt>つか</rt></ruby>うかはしっかり<ruby>管理<rt>かんり</rt></ruby>されています。",
+      "translation": "In this system, each person needs one IC card. Some people use a physical Suica card, while others use the IC function on a smartphone, but the basic idea is the same. You link the reserved seat in advance to the IC card that will be used to enter. Even when the format changes from paper to IC, the system still clearly manages who will use which seat."
+    },
+    {
+      "html": "だから、<ruby>新幹線<rt>しんかんせん</rt></ruby>のきっぷは「<ruby>紙<rt>かみ</rt></ruby>かデジタルか」だけでなく、「<ruby>指定席<rt>していせき</rt></ruby>か<ruby>自由席<rt>じゆうせき</rt></ruby>か」も<ruby>大切<rt>たいせつ</rt></ruby>です。<ruby>急<rt>いそ</rt></ruby>がない<ruby>時<rt>とき</rt></ruby>は<ruby>自由席<rt>じゆうせき</rt></ruby>、<ruby>確実<rt>かくじつ</rt></ruby>に<ruby>座<rt>すわ</rt></ruby>りたい<ruby>時<rt>とき</rt></ruby>は<ruby>指定席<rt>していせき</rt></ruby>、そして<ruby>改札<rt>かいさつ</rt></ruby>をすばやく<ruby>通<rt>とお</rt></ruby>りたいならSuicaなどのIC<ruby>連携<rt>れんけい</rt></ruby>が<ruby>役<rt>やく</rt></ruby>に<ruby>立<rt>た</rt></ruby>ちます。こうして<ruby>見<rt>み</rt></ruby>ると、<ruby>日本<rt>にほん</rt></ruby>の<ruby>鉄道<rt>てつどう</rt></ruby>は<ruby>複雑<rt>ふくざつ</rt></ruby>そうでも、<ruby>実際<rt>じっさい</rt></ruby>には<ruby>目的<rt>もくてき</rt></ruby>に<ruby>合<rt>あ</rt></ruby>わせて<ruby>細<rt>こま</rt></ruby>かく<ruby>選<rt>えら</rt></ruby>べるようになっています。",
+      "translation": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+    }
+  ],
+  "vocabularyTitle": "N3 Vocabulary",
+  "vocabulary": [
+    {
+      "term": "指定席（していせき）",
+      "meaning": "Reserved seat"
+    },
+    {
+      "term": "自由席（じゆうせき）",
+      "meaning": "Non-reserved seat"
+    },
+    {
+      "term": "自由席車両（じゆうせきしゃりょう）",
+      "meaning": "Non-reserved seat car"
+    },
+    {
+      "term": "特急料金（とっきゅうりょうきん）",
+      "meaning": "Limited express surcharge"
+    },
+    {
+      "term": "改札（かいさつ）",
+      "meaning": "Ticket gate"
+    },
+    {
+      "term": "結びつける（むすびつける）",
+      "meaning": "To link"
+    },
+    {
+      "term": "物理的（ぶつりてき）",
+      "meaning": "Physical"
+    },
+    {
+      "term": "連携（れんけい）",
+      "meaning": "Integration / Linkage"
+    }
+  ]
+}
