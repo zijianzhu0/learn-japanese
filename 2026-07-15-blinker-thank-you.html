@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日本では車に入れてもらった後で短く光を出してありがとうを伝えることがある</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <script>
+        (() => {
+            try {
+                const storedTheme = window.localStorage.getItem('learnJapanese.theme');
+                const theme = storedTheme === 'dark' || storedTheme === 'light'
+                    ? storedTheme
+                    : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                document.documentElement.dataset.theme = theme;
+                document.documentElement.style.colorScheme = theme;
+            } catch (error) {
+                document.documentElement.dataset.theme = 'light';
+                document.documentElement.style.colorScheme = 'light';
+            }
+        })();
+    </script>
+    <link rel="stylesheet" href="./assets/article.css?v=945b9350dedc">
+</head>
+<body id="top" data-article-id="2026-07-15-blinker-thank-you" data-recording-download-name="2026-07-15-blinker-thank-you.mp4">
+<nav class="top-nav" aria-label="Page navigation"></nav>
+<div class="article-shell">
+    <aside class="article-sidebar" aria-label="Article navigation"></aside>
+    <main class="article-main">
+
+<div class="container">
+    <div class="date">2026年7月15日</div>
+    <div class="article-toolbar">
+        <div class="voice-controls">
+            <button class="toolbar-icon-button voice-menu-toggle" type="button" id="voice-menu-toggle" aria-expanded="false" aria-controls="voice-settings-menu" aria-label="Voice settings" data-tooltip="Voice settings">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 10v4"></path>
+                    <path d="M8 7v10"></path>
+                    <path d="M12 4v16"></path>
+                    <path d="M16 7v10"></path>
+                    <path d="M20 10v4"></path>
+                </svg>
+                <span class="icon-label">Voice settings</span>
+            </button>
+            <div class="voice-current-status" id="voice-current-status" aria-live="polite">Docker VOICEVOX</div>
+            <button class="audio-enable-button" type="button" id="enable-docker-audio" hidden>Enable audio</button>
+            <div class="voice-settings-menu" id="voice-settings-menu" hidden>
+                <label class="toolbar-label" for="browser-voice">Browser Voice</label>
+                <select class="voice-select" id="browser-voice" aria-label="Browser voice">
+                    <option value="auto" selected>Google 日本語</option>
+                </select>
+            </div>
+        </div>
+        <div class="article-actions" aria-label="Article actions">
+            <button class="toolbar-icon-button preview-button" type="button" id="preview-recording-mode" aria-label="Preview recording mode" data-tooltip="Preview recording mode">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M2 12s3.8-6 10-6 10 6 10 6-3.8 6-10 6-10-6-10-6z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+                <span class="icon-label">Preview recording mode</span>
+            </button>
+            <button class="toolbar-icon-button video-button" type="button" id="render-video" aria-label="Render video" data-tooltip="Render video" data-default-label="Render video" data-active-label="Recording">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M5 6h11a2 2 0 0 1 2 2v1l3-2v10l-3-2v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"></path>
+                    <path d="M9 10.5v3l3-1.5z"></path>
+                </svg>
+                <span class="icon-label">Render video</span>
+            </button>
+            <button class="toolbar-icon-button cover-button" type="button" id="download-cover" aria-label="Download video cover" data-tooltip="Download cover" data-default-label="Download cover" data-active-label="Rendering cover">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                    <circle cx="8.5" cy="10" r="1.5"></circle>
+                    <path d="m21 15-5-5L5 19"></path>
+                </svg>
+                <span class="icon-label">Download cover</span>
+            </button>
+            <button class="toolbar-icon-button speak-button" type="button" id="speak-japanese-article" aria-label="Read aloud" data-tooltip="Read aloud" data-default-label="Read aloud" data-active-label="Stop reading" data-loading-label="Preparing audio">
+                <svg class="toolbar-svg icon-read" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 10v4h4l5 4V6L8 10z"></path>
+                    <path d="M16 9c1.8 1.8 1.8 4.2 0 6"></path>
+                    <path d="M18.5 6.5c3.3 3.3 3.3 7.7 0 11"></path>
+                </svg>
+                <svg class="toolbar-svg icon-stop" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 8h8v8H8z"></path>
+                </svg>
+                <span class="icon-label">Read aloud</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-japanese-article" aria-label="Copy Japanese article" data-tooltip="Copy Japanese article">
+                <span class="copy-language-icon" aria-hidden="true">あ</span>
+                <span class="icon-label">Copy Japanese article</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-english-translation" aria-label="Copy English translation" data-tooltip="Copy English translation">
+                <span class="copy-language-icon" aria-hidden="true">A</span>
+                <span class="icon-label">Copy English translation</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-bilingual-article" aria-label="Copy Japanese and English article" data-tooltip="Copy Japanese and English article">
+                <span class="copy-language-icon copy-language-icon-wide" aria-hidden="true">あ/A</span>
+                <span class="icon-label">Copy Japanese and English article</span>
+            </button>
+        </div>
+    </div>
+    <div class="copy-status" id="copy-status" aria-live="polite"></div>
+    <audio class="audio-player" id="tts-player" controls hidden preload="none"></audio>
+    <h1><ruby>日本<rt>にほん</rt></ruby>では<ruby>車<rt>くるま</rt></ruby>に<ruby>入<rt>い</rt></ruby>れてもらった<ruby>後<rt>あと</rt></ruby>で<ruby>短<rt>みじか</rt></ruby>く<ruby>光<rt>ひかり</rt></ruby>を<ruby>出<rt>だ</rt></ruby>してありがとうを<ruby>伝<rt>つた</rt></ruby>えることがある</h1>
+    <div class="source-note">日本の運転中のちょっとしたマナーとして知られる、合流後に短くハザードなどでお礼を伝える習慣を説明する学習用ページです。</div>
+
+
+    <p class="article-paragraph"><ruby>日本<rt>にほん</rt></ruby>で<ruby>車<rt>くるま</rt></ruby>に<ruby>乗<rt>の</rt></ruby>っていると、<ruby>前<rt>まえ</rt></ruby>の<ruby>車<rt>くるま</rt></ruby>が<ruby>一瞬<rt>いっしゅん</rt></ruby>だけハザードランプを<ruby>光<rt>ひか</rt></ruby>らせることがあります。<ruby>故障<rt>こしょう</rt></ruby>や<ruby>危険<rt>きけん</rt></ruby>の<ruby>意味<rt>いみ</rt></ruby>に<ruby>見<rt>み</rt></ruby>えるかもしれませんが、<ruby>実際<rt>じっさい</rt></ruby>には「<ruby>入<rt>い</rt></ruby>れてくれてありがとう」という<ruby>気持<rt>きも</rt></ruby>ちを<ruby>表<rt>あらわ</rt></ruby>している<ruby>場合<rt>ばあい</rt></ruby>があります。<ruby>道路<rt>どうろ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>での<ruby>短<rt>みじか</rt></ruby>いあいさつのようなものです。</p>
+    <div class="sentence-translation">When you drive in Japan, you may sometimes see the car ahead flash its hazard lights for just a moment. It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in.” It is like a very short greeting on the road.</div>
+    <p class="article-paragraph">この<ruby>合図<rt>あいず</rt></ruby>は、<ruby>車線変更<rt>しゃせんへんこう</rt></ruby>や<ruby>合流<rt>ごうりゅう</rt></ruby>のときによく<ruby>見<rt>み</rt></ruby>られます。たとえば、<ruby>混<rt>こ</rt></ruby>んだ<ruby>道<rt>みち</rt></ruby>でほかの<ruby>車<rt>くるま</rt></ruby>が<ruby>少<rt>すこ</rt></ruby>し<ruby>間<rt>あいだ</rt></ruby>をあけてくれたら、その<ruby>後<rt>あと</rt></ruby>でハザードを<ruby>二回<rt>にかい</rt></ruby>ぐらい<ruby>光<rt>ひか</rt></ruby>らせる<ruby>人<rt>ひと</rt></ruby>がいます。<ruby>言葉<rt>ことば</rt></ruby>は<ruby>聞<rt>き</rt></ruby>こえませんが、<ruby>運転者同士<rt>うんてんしゃどうし</rt></ruby>で<ruby>気持<rt>きも</rt></ruby>ちを<ruby>伝<rt>つた</rt></ruby>える<ruby>方法<rt>ほうほう</rt></ruby>として<ruby>使<rt>つか</rt></ruby>われています。</p>
+    <div class="sentence-translation">This signal is often seen during lane changes and merges. For example, if another driver leaves a little space for you on a crowded road, some people flash their hazard lights about twice afterward. No words can be heard, but it is used as a way for drivers to communicate their feelings.</div>
+    <p class="article-paragraph"><ruby>外国<rt>がいこく</rt></ruby>ではクラクションや<ruby>手<rt>て</rt></ruby>であいさつすることが<ruby>多<rt>おお</rt></ruby>い<ruby>場所<rt>ばしょ</rt></ruby>もありますが、<ruby>日本<rt>にほん</rt></ruby>では<ruby>大<rt>おお</rt></ruby>きな<ruby>音<rt>おと</rt></ruby>を<ruby>出<rt>だ</rt></ruby>さない<ruby>形<rt>かたち</rt></ruby>のほうが<ruby>合<rt>あ</rt></ruby>いやすいのかもしれません。ハザードなら<ruby>後<rt>うし</rt></ruby>ろの<ruby>車<rt>くるま</rt></ruby>にも<ruby>見<rt>み</rt></ruby>えやすく、<ruby>短時間<rt>たんじかん</rt></ruby>で<ruby>終<rt>お</rt></ruby>わります。とても<ruby>小<rt>ちい</rt></ruby>さな<ruby>行動<rt>こうどう</rt></ruby>ですが、<ruby>道<rt>みち</rt></ruby>を<ruby>少<rt>すこ</rt></ruby>しやわらかい<ruby>空気<rt>くうき</rt></ruby>にする<ruby>力<rt>ちから</rt></ruby>があります。</p>
+    <div class="sentence-translation">In some other countries, people more often use the horn or wave with their hand, but in Japan a quieter form may fit better. Hazard lights are easy for the car behind to see and only last a short time. It is a very small action, but it can make the mood on the road a little softer.</div>
+    <p class="article-paragraph">もちろん、これは<ruby>法律<rt>ほうりつ</rt></ruby>で<ruby>決<rt>き</rt></ruby>まった<ruby>義務<rt>ぎむ</rt></ruby>ではなく、すべての<ruby>人<rt>ひと</rt></ruby>がするわけでもありません。また、ハザードは<ruby>本来<rt>ほんらい</rt></ruby><ruby>注意<rt>ちゅうい</rt></ruby>や<ruby>非常時<rt>ひじょうじ</rt></ruby>のためのランプなので、<ruby>長<rt>なが</rt></ruby>く<ruby>使<rt>つか</rt></ruby>うものではありません。だからこそ、お<ruby>礼<rt>れい</rt></ruby>として<ruby>使<rt>つか</rt></ruby>う<ruby>時<rt>とき</rt></ruby>もごく<ruby>短<rt>みじか</rt></ruby>く、<ruby>安全<rt>あんぜん</rt></ruby>を<ruby>第一<rt>だいいち</rt></ruby>にすることが<ruby>大切<rt>たいせつ</rt></ruby>です。</p>
+    <div class="sentence-translation">Of course, this is not a legal duty, and not everyone does it. Also, hazard lights are originally meant for caution or emergencies, not for long use. That is exactly why, when they are used as thanks, it should be only very brief and safety should come first.</div>
+    <p class="article-paragraph">それでも、この<ruby>短<rt>みじか</rt></ruby>い<ruby>光<rt>ひかり</rt></ruby>には<ruby>日本<rt>にほん</rt></ruby>らしい<ruby>運転文化<rt>うんてんぶんか</rt></ruby>がよく<ruby>出<rt>で</rt></ruby>ています。<ruby>混雑<rt>こんざつ</rt></ruby>した<ruby>道<rt>みち</rt></ruby>でも、<ruby>相手<rt>あいて</rt></ruby>に<ruby>少<rt>すこ</rt></ruby>し<ruby>気<rt>き</rt></ruby>を<ruby>配<rt>くば</rt></ruby>ると<ruby>流<rt>なが</rt></ruby>れがよくなることがあります。<ruby>何気<rt>なにげ</rt></ruby>ない<ruby>二回<rt>にかい</rt></ruby>の<ruby>点滅<rt>てんめつ</rt></ruby>は、ただのランプではなく、「わかっています、ありがとう」という<ruby>返事<rt>へんじ</rt></ruby>にも<ruby>見<rt>み</rt></ruby>えるのです。</p>
+    <div class="sentence-translation">Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”</div>
+    <div class="recording-footer" aria-hidden="true">
+        <span>英訳はコメント欄にあります</span>
+        <span>2026年7月15日</span>
+    </div>
+
+<div class="study-notes-box">
+        <h2>Common Phrases and Patterns</h2>
+        <div class="study-note-group">
+            <h3>Useful phrases</h3>
+            <ul class="study-note-list">
+                <li><strong>〜ため</strong> <span>because of / for the purpose of</span><div class="study-note-example">Example: た、ハザードは本来注意や非常時のためのランプなので、長く使うものでは</div></li>
+                <li><strong>〜からこそ</strong> <span>precisely because</span><div class="study-note-example">Example: だからこそ、お礼として使う時もごく短く、安</div></li>
+            </ul>
+        </div>
+        <div class="study-note-group">
+            <h3>Verb and grammar patterns</h3>
+            <ul class="study-note-list">
+                <li><strong>〜ている</strong> <span>ongoing state / habitual action</span><div class="study-note-example">Example: 伝えることがある 日本で車に乗っていると、前の車が一瞬だけハザードラン</div></li>
+                <li><strong>〜やすい</strong> <span>easy to do</span><div class="study-note-example">Example: 大きな音を出さない形のほうが合いやすいのかもしれません</div></li>
+                <li><strong>〜出す</strong> <span>to start suddenly / to send out / to put out</span><div class="study-note-example">Example: は車に入れてもらった後で短く光を出してありがとうを伝えることがある 日</div></li>
+            </ul>
+        </div>
+    </div>
+    <div class="vocabulary-box">
+        <h2>N3 Vocabulary</h2>
+        <ul>
+            <li><strong>ハザードランプ:</strong> Hazard lights</li>
+            <li><strong>合流（ごうりゅう）:</strong> Merge</li>
+            <li><strong>車線変更（しゃせんへんこう）:</strong> Lane change</li>
+            <li><strong>運転者同士（うんてんしゃどうし）:</strong> Between drivers</li>
+            <li><strong>短時間（たんじかん）:</strong> Short time</li>
+            <li><strong>義務（ぎむ）:</strong> Duty / Obligation</li>
+            <li><strong>非常時（ひじょうじ）:</strong> Emergency</li>
+            <li><strong>点滅（てんめつ）:</strong> Blinking / Flashing</li>
+        </ul>
+    </div>
+</div>
+    </main>
+</div>
+
+<script src="./assets/theme.js"></script>
+<script src="./assets/article.js?v=94510f45cd63"></script>
+
+</body>
+</html>

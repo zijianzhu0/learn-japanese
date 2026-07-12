@@ -1,6 +1,11 @@
 [
   {
     "month": "July 2026",
+    "href": "./2026-07-15-blinker-thank-you.html",
+    "label": "7/15 運転のありがとう"
+  },
+  {
+    "month": "July 2026",
     "href": "./2026-07-14-japan-v2x-usage.html",
     "label": "7/14 日本のV2X"
   },

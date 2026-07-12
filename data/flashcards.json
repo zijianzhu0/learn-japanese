@@ -4,7 +4,7 @@
     "articleManifest": "data/articles.json"
   },
   "levels": {
-    "N3": 2053,
+    "N3": 2061,
     "N4": 536,
     "N5": 553
   },
@@ -961,6 +961,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "たとえば、混んだ道でほかの車が少し間をあけてくれたら、その後でハザードを二回ぐらい光らせる人がいます。",
+          "en": "For example, if another driver leaves a little space for you on a crowded road, some people flash their hazard lights about twice afterward."
+        },
+        {
+          "ja": "ハザードなら後ろの車にも見えやすく、短時間で終わります。",
+          "en": "Hazard lights are easy for the car behind to see and only last a short time."
+        },
+        {
           "ja": "カーナビの画面に出る渋滞情報や規制情報の後ろには、道路と車が少しずつ会話している世界があります。",
           "en": "Behind the congestion and restriction information shown on a car navigation screen is a world where roads and cars are quietly exchanging information."
         },
@@ -971,14 +979,6 @@
         {
           "ja": "最初の地震はマグニチュード7・2で、その39秒後にマグニチュード7・5の地震が起きました。",
           "en": "The first was magnitude seven point two, and 39 seconds later a magnitude seven point five quake occurred."
-        },
-        {
-          "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
-          "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
-        },
-        {
-          "ja": "運転は約3時間後の午後8時48分に再開しました。",
-          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
         }
       ]
     },
@@ -1822,6 +1822,10 @@
           "meaning": "Plain negative form of 出す: to take out",
           "exampleSentences": [
             {
+              "ja": "外国ではクラクションや手であいさつすることが多い場所もありますが、日本では大きな音を出さない形のほうが合いやすいのかもしれません。",
+              "en": "In some other countries, people more often use the horn or wave with their hand, but in Japan a quieter form may fit better."
+            },
+            {
               "ja": "夜にゴミを出さないことや、窓と扉をしっかり閉めることも大切だと案内しました。",
               "en": "It also advised people not to put out garbage at night and to keep windows and doors tightly closed."
             },
@@ -1836,10 +1840,6 @@
             {
               "ja": "生産を続けやすくして、市場に安定して米を出すことが目的です。",
               "en": "The goal is to make production easier to continue and keep rice supplies stable in the market."
-            },
-            {
-              "ja": "ある高校では、AIを使って文章の案を作ることは認めていますが、そのまま提出することは禁止しています。",
-              "en": "At one high school, students are allowed to use AI to draft writing, but submitting it as-is is prohibited."
             }
           ]
         },
@@ -2232,6 +2232,10 @@
           "meaning": "Te-form of 出る: to leave, to exit",
           "exampleSentences": [
             {
+              "ja": "それでも、この短い光には日本らしい運転文化がよく出ています。",
+              "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+            },
+            {
               "ja": "ETC専用、ETC一般という表示が何度も出てくるのは、その仕組みが交通を支えているからです。",
               "en": "Signs like ETC-only and ETC/general appear again and again because this system helps support traffic flow."
             },
@@ -2246,10 +2250,6 @@
             {
               "ja": "高齢者からは、買い物や通院に使いやすいという声が出ています。",
               "en": "Older residents say the service is convenient for shopping and hospital visits."
-            },
-            {
-              "ja": "市民からは、外で待つ時間が楽になるという声が出ています。",
-              "en": "Citizens say the systems make waiting outside easier."
             }
           ]
         },
@@ -2872,6 +2872,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "外国ではクラクションや手であいさつすることが多い場所もありますが、日本では大きな音を出さない形のほうが合いやすいのかもしれません。",
+          "en": "In some other countries, people more often use the horn or wave with their hand, but in Japan a quieter form may fit better."
+        },
+        {
           "ja": "医療、金融、技術などの分野では、外国から来た働く人が重要です。",
           "en": "In fields such as healthcare, finance, and technology, workers from other countries are important."
         },
@@ -2886,10 +2890,6 @@
         {
           "ja": "外国の店では、健康にいい食品として紹介されることも多いです。",
           "en": "In overseas stores, seaweed is often introduced as a healthy food."
-        },
-        {
-          "ja": "とくに、最近は外国人の旅行者が多く、週末の予約が取りにくくなっています。",
-          "en": "Recently, especially many foreign travelers are using it, making weekend reservations hard to get."
         }
       ]
     },
@@ -4359,24 +4359,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "日本で車に乗っていると、前の車が一瞬だけハザードランプを光らせることがあります。",
+          "en": "When you drive in Japan, you may sometimes see the car ahead flash its hazard lights for just a moment."
+        },
+        {
+          "ja": "外国ではクラクションや手であいさつすることが多い場所もありますが、日本では大きな音を出さない形のほうが合いやすいのかもしれません。",
+          "en": "In some other countries, people more often use the horn or wave with their hand, but in Japan a quieter form may fit better."
+        },
+        {
+          "ja": "それでも、この短い光には日本らしい運転文化がよく出ています。",
+          "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+        },
+        {
           "ja": "でも日本では、道路の情報を車へ送る仕組みが、もうかなり前から使われています。",
           "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
         },
         {
           "ja": "つまりV2Xは、未来の実験だけでなく、すでに日常の運転の中にも入っているのです。",
           "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
-        },
-        {
-          "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
-          "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
-        },
-        {
-          "ja": "つまり、日本のV2Xは「いつか来る未来技術」というより、もう見えにくい形で働いている生活のインフラです。",
-          "en": "So in Japan, V2X is less a future technology that will arrive someday and more an invisible piece of daily infrastructure that is already working."
-        },
-        {
-          "ja": "何気ない色の使い方ですが、毎日何百万人もの通勤客や旅行者がこの工夫に助けられています。",
-          "en": "It is only a simple use of color, but every day hundreds of thousands of commuters and travelers are helped by this idea."
         }
       ]
     },
@@ -4740,6 +4740,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "たとえば、混んだ道でほかの車が少し間をあけてくれたら、その後でハザードを二回ぐらい光らせる人がいます。",
+          "en": "For example, if another driver leaves a little space for you on a crowded road, some people flash their hazard lights about twice afterward."
+        },
+        {
+          "ja": "もちろん、これは法律で決まった義務ではなく、すべての人がするわけでもありません。",
+          "en": "Of course, this is not a legal duty, and not everyone does it."
+        },
+        {
           "ja": "V2Xという言葉を聞くと、多くの人は自動運転の未来を想像します。",
           "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
         },
@@ -4750,14 +4758,6 @@
         {
           "ja": "改札では大きな荷物として扱い、周りの人にぶつけないよう注意します。",
           "en": "At the ticket gates, handle the bicycle like a large piece of luggage and be careful not to hit people around you."
-        },
-        {
-          "ja": "黄色い背景に黒い文字と矢印を組み合わせた表示は、人の多い駅でもよく目立ちます。",
-          "en": "Signs that combine a yellow background with black text and arrows stand out well even in crowded stations."
-        },
-        {
-          "ja": "何気ない色の使い方ですが、毎日何百万人もの通勤客や旅行者がこの工夫に助けられています。",
-          "en": "It is only a simple use of color, but every day hundreds of thousands of commuters and travelers are helped by this idea."
         }
       ]
     },
@@ -4827,24 +4827,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "日本で車に乗っていると、前の車が一瞬だけハザードランプを光らせることがあります。",
+          "en": "When you drive in Japan, you may sometimes see the car ahead flash its hazard lights for just a moment."
+        },
+        {
+          "ja": "外国ではクラクションや手であいさつすることが多い場所もありますが、日本では大きな音を出さない形のほうが合いやすいのかもしれません。",
+          "en": "In some other countries, people more often use the horn or wave with their hand, but in Japan a quieter form may fit better."
+        },
+        {
+          "ja": "また、ハザードは本来注意や非常時のためのランプなので、長く使うものではありません。",
+          "en": "Also, hazard lights are originally meant for caution or emergencies, not for long use."
+        },
+        {
+          "ja": "それでも、この短い光には日本らしい運転文化がよく出ています。",
+          "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+        },
+        {
           "ja": "でも日本では、道路の情報を車へ送る仕組みが、もうかなり前から使われています。",
           "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
-        },
-        {
-          "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
-          "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
-        },
-        {
-          "ja": "つまり、日本のV2Xは「いつか来る未来技術」というより、もう見えにくい形で働いている生活のインフラです。",
-          "en": "So in Japan, V2X is less a future technology that will arrive someday and more an invisible piece of daily infrastructure that is already working."
-        },
-        {
-          "ja": "東京の電車に自転車をそのまま持ち込むことは、基本的にできません。",
-          "en": "You generally cannot take an uncovered bicycle directly onto trains in Tokyo."
-        },
-        {
-          "ja": "普段は当たり前のように使っている改札ですが、その裏には日本ならではの高い技術と緻密なシステム設計が詰まっています。",
-          "en": "We usually use ticket gates as if they were completely ordinary, but behind them are advanced technology and precise system design that feel very characteristic of Japan."
         }
       ]
     },
@@ -4946,6 +4946,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "日本で車に乗っていると、前の車が一瞬だけハザードランプを光らせることがあります。",
+          "en": "When you drive in Japan, you may sometimes see the car ahead flash its hazard lights for just a moment."
+        },
+        {
+          "ja": "だからこそ、お礼として使う時もごく短く、安全を第一にすることが大切です。",
+          "en": "That is exactly why, when they are used as thanks, it should be only very brief and safety should come first."
+        },
+        {
           "ja": "ETC専用、ETC一般という表示が何度も出てくるのは、その仕組みが交通を支えているからです。",
           "en": "Signs like ETC-only and ETC/general appear again and again because this system helps support traffic flow."
         },
@@ -4956,14 +4964,6 @@
         {
           "ja": "その理由の一つは、ICカードの残高確認や運賃計算が、改札機の中でとても速く処理されるように設計されていることです。",
           "en": "One reason is that balance checks and fare calculations for IC cards are designed to be processed very quickly inside the ticket gate itself."
-        },
-        {
-          "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
-          "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
-        },
-        {
-          "ja": "東京がとても便利に感じられる大きな理由の一つは、よく整った鉄道網です。",
-          "en": "One big reason Tokyo feels so convenient is its well-developed rail network."
         }
       ]
     },
@@ -5369,7 +5369,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
+          "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
+        }
+      ]
     },
     {
       "id": "core-3a27b2fc30810c",
@@ -5513,6 +5518,10 @@
           "readingHiragana": "いれて",
           "meaning": "Te-form of 入れる: to put in, to let in",
           "exampleSentences": [
+            {
+              "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
+              "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
+            },
             {
               "ja": "イスラエルはこの条件を受け入れていません。",
               "en": "Israel has not accepted this condition."
@@ -6041,6 +6050,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ハザードなら後ろの車にも見えやすく、短時間で終わります。",
+          "en": "Hazard lights are easy for the car behind to see and only last a short time."
+        },
+        {
           "ja": "VICSは渋滞や交通規制などの道路交通情報を、カーナビに実時間で届けます。",
           "en": "VICS delivers road traffic information such as congestion and traffic restrictions to car navigation systems in real time."
         },
@@ -6055,10 +6068,6 @@
         {
           "ja": "五輪のために生まれた設備が、長い時間をへても役立ち続けているのはおもしろいことです。",
           "en": "It is interesting that a facility born for the Olympics has continued to be useful for a long time."
-        },
-        {
-          "ja": "この考え方ができると、毎回ルート検索に時間を取られにくくなります。",
-          "en": "Once you can think this way, you do not spend as much time on route searches every time."
         }
       ]
     },
@@ -6813,6 +6822,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "言葉は聞こえませんが、運転者同士で気持ちを伝える方法として使われています。",
+          "en": "No words can be heard, but it is used as a way for drivers to communicate their feelings."
+        },
+        {
           "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
           "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
         },
@@ -6827,10 +6840,6 @@
         {
           "ja": "ほんの小さな発見でしたが、その日から街の見え方が少し変わったように感じました。",
           "en": "It was only a small discovery, but it made me feel that the way I see the city changed a little that day."
-        },
-        {
-          "ja": "これだけで、電車の選び方がかなり簡単になります。",
-          "en": "That alone makes choosing a train much easier."
         }
       ]
     },
@@ -7969,6 +7978,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "言葉は聞こえませんが、運転者同士で気持ちを伝える方法として使われています。",
+          "en": "No words can be heard, but it is used as a way for drivers to communicate their feelings."
+        },
+        {
           "ja": "V2Xという言葉を聞くと、多くの人は自動運転の未来を想像します。",
           "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
         },
@@ -8279,6 +8292,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "外国ではクラクションや手であいさつすることが多い場所もありますが、日本では大きな音を出さない形のほうが合いやすいのかもしれません。",
+          "en": "In some other countries, people more often use the horn or wave with their hand, but in Japan a quieter form may fit better."
+        },
+        {
           "ja": "日本と中国の関係は、経済では深くつながっています。",
           "en": "Japan and China are deeply connected through the economy."
         },
@@ -8293,10 +8310,6 @@
         {
           "ja": "しかし、もしアメリカと中国の関係が少しよくなると、日本は不安になります。",
           "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
-        },
-        {
-          "ja": "日本と中国は貿易で互いに必要な国です。",
-          "en": "Japan and China need each other in trade."
         }
       ]
     },
@@ -8504,24 +8517,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "日本で車に乗っていると、前の車が一瞬だけハザードランプを光らせることがあります。",
+          "en": "When you drive in Japan, you may sometimes see the car ahead flash its hazard lights for just a moment."
+        },
+        {
+          "ja": "この合図は、車線変更や合流のときによく見られます。",
+          "en": "This signal is often seen during lane changes and merges."
+        },
+        {
+          "ja": "たとえば、混んだ道でほかの車が少し間をあけてくれたら、その後でハザードを二回ぐらい光らせる人がいます。",
+          "en": "For example, if another driver leaves a little space for you on a crowded road, some people flash their hazard lights about twice afterward."
+        },
+        {
+          "ja": "ハザードなら後ろの車にも見えやすく、短時間で終わります。",
+          "en": "Hazard lights are easy for the car behind to see and only last a short time."
+        },
+        {
           "ja": "でも日本では、道路の情報を車へ送る仕組みが、もうかなり前から使われています。",
           "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
-        },
-        {
-          "ja": "これは道路の側から車へ必要な情報を送る、わかりやすいV2Iの形です。",
-          "en": "This is a clear form of V2I, where the road side sends necessary information to the vehicle."
-        },
-        {
-          "ja": "だから、車が自分だけで考えるより、道路の側が先に状況を知らせるほうが役に立ちます。",
-          "en": "Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself."
-        },
-        {
-          "ja": "カーナビの画面に出る渋滞情報や規制情報の後ろには、道路と車が少しずつ会話している世界があります。",
-          "en": "Behind the congestion and restriction information shown on a car navigation screen is a world where roads and cars are quietly exchanging information."
-        },
-        {
-          "ja": "東京で車を運転すると、ETCという言葉をあちこちで見かけます。",
-          "en": "When you drive in Tokyo, you see the term ETC in many places."
         }
       ]
     },
@@ -8671,6 +8684,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "日本で車に乗っていると、前の車が一瞬だけハザードランプを光らせることがあります。",
+          "en": "When you drive in Japan, you may sometimes see the car ahead flash its hazard lights for just a moment."
+        },
+        {
           "ja": "でも日本では、道路の情報を車へ送る仕組みが、もうかなり前から使われています。",
           "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
         },
@@ -8685,10 +8702,6 @@
         {
           "ja": "電車に乗ったら、ドアの前や通路をふさがない場所を選びます。",
           "en": "Once on the train, choose a place where the bicycle will not block the doors or aisle."
-        },
-        {
-          "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
-          "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
         }
       ]
     },
@@ -8958,6 +8971,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "また、ハザードは本来注意や非常時のためのランプなので、長く使うものではありません。",
+          "en": "Also, hazard lights are originally meant for caution or emergencies, not for long use."
+        },
+        {
           "ja": "また、人と人の交流も弱くなっています。",
           "en": "People-to-people exchange is also weakening."
         },
@@ -9178,24 +9195,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "道路の上での短いあいさつのようなものです。",
+          "en": "” It is like a very short greeting on the road."
+        },
+        {
+          "ja": "たとえば、混んだ道でほかの車が少し間をあけてくれたら、その後でハザードを二回ぐらい光らせる人がいます。",
+          "en": "For example, if another driver leaves a little space for you on a crowded road, some people flash their hazard lights about twice afterward."
+        },
+        {
+          "ja": "とても小さな行動ですが、道を少しやわらかい空気にする力があります。",
+          "en": "It is a very small action, but it can make the mood on the road a little softer."
+        },
+        {
+          "ja": "混雑した道でも、相手に少し気を配ると流れがよくなることがあります。",
+          "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+        },
+        {
           "ja": "でも日本では、道路の情報を車へ送る仕組みが、もうかなり前から使われています。",
           "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
-        },
-        {
-          "ja": "VICSは渋滞や交通規制などの道路交通情報を、カーナビに実時間で届けます。",
-          "en": "VICS delivers road traffic information such as congestion and traffic restrictions to car navigation systems in real time."
-        },
-        {
-          "ja": "これは道路の側から車へ必要な情報を送る、わかりやすいV2Iの形です。",
-          "en": "This is a clear form of V2I, where the road side sends necessary information to the vehicle."
-        },
-        {
-          "ja": "特に高速道路では、その感覚がもっとはっきりします。",
-          "en": "This feeling becomes even clearer on expressways."
-        },
-        {
-          "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
-          "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
         }
       ]
     },
@@ -9322,6 +9339,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "道路の上での短いあいさつのようなものです。",
+          "en": "” It is like a very short greeting on the road."
+        },
+        {
+          "ja": "それでも、この短い光には日本らしい運転文化がよく出ています。",
+          "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+        },
+        {
           "ja": "短い区間でも入口と出口が多く、流れを止めないためにETCの利用がとても重要です。",
           "en": "Even on short stretches, there are many entrances and exits, so using ETC is very important to keep traffic moving."
         },
@@ -9332,14 +9357,6 @@
         {
           "ja": "職員は、短い時間で必要な情報を伝えやすくなったと話しています。",
           "en": "Staff say it has become easier to provide needed information in a short time."
-        },
-        {
-          "ja": "実験では、短い距離を何度も走って、安全や使いやすさを調べます。",
-          "en": "In the test, it will make repeated short trips so people can check safety and practicality."
-        },
-        {
-          "ja": "5円くらいまで下がり、円は短い時間で強くなりました。",
-          "en": "5 yen, and the yen became stronger in a short time."
         }
       ]
     },
@@ -10232,6 +10249,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "何気ない二回の点滅は、ただのランプではなく、「わかっています、ありがとう」という返事にも見えるのです。",
+          "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+        },
+        {
           "ja": "ETC専用、ETC一般という表示が何度も出てくるのは、その仕組みが交通を支えているからです。",
           "en": "Signs like ETC-only and ETC/general appear again and again because this system helps support traffic flow."
         },
@@ -10246,10 +10267,6 @@
         {
           "ja": "何気ない通勤の風景にも、見えにくい工夫がたくさんかくれているのです。",
           "en": "Even in an everyday commuting scene, many hard-to-see innovations are hidden."
-        },
-        {
-          "ja": "普段は何気なく歩いている駅の中にも、このようなやさしい工夫が隠れていると知って、少し驚きました。",
-          "en": "I was a little surprised to learn that this kind of considerate idea was hidden inside a station I usually walk through without much thought."
         }
       ]
     },
@@ -10475,6 +10492,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "混雑した道でも、相手に少し気を配ると流れがよくなることがあります。",
+          "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+        },
+        {
           "ja": "しかし、もしアメリカと中国の関係が少しよくなると、日本は不安になります。",
           "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
         },
@@ -10489,10 +10510,6 @@
         {
           "ja": "運営会社は、観光客が便利になるだけでなく、会計の時間が短くなると説明しています。",
           "en": "The operator explains that this not only makes things more convenient for tourists but also shortens checkout time."
-        },
-        {
-          "ja": "これにより、経験が少ない人でも、安定して野菜を育てやすくなると期待されています。",
-          "en": "Because of this, even people with little experience are expected to find it easier to grow vegetables steadily."
         }
       ],
       "partOfSpeech": "verb",
@@ -10575,16 +10592,16 @@
               "en": "After the match, Brazil coach Ancelotti said the team must improve."
             },
             {
+              "ja": "混雑した道でも、相手に少し気を配ると流れがよくなることがあります。",
+              "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+            },
+            {
               "ja": "しかし、もしアメリカと中国の関係が少しよくなると、日本は不安になります。",
               "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
             },
             {
               "ja": "旅行、留学、ビジネスの交流が少なくなると、お互いの国へのイメージも悪くなりやすいです。",
               "en": "When travel, study abroad, and business exchange decrease, people tend to get a worse image of the other country."
-            },
-            {
-              "ja": "人口や機能が集中する首都圏では、交通や物流の混乱も深刻になるとみられています。",
-              "en": "In the Tokyo metropolitan area, where people and key functions are concentrated, disruption to transport and logistics is also expected to be severe."
             }
           ]
         },
@@ -10627,6 +10644,10 @@
           "meaning": "Potential form of なる: to become",
           "exampleSentences": [
             {
+              "ja": "混雑した道でも、相手に少し気を配ると流れがよくなることがあります。",
+              "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+            },
+            {
               "ja": "しかし、もしアメリカと中国の関係が少しよくなると、日本は不安になります。",
               "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
             },
@@ -10641,10 +10662,6 @@
             {
               "ja": "運営会社は、観光客が便利になるだけでなく、会計の時間が短くなると説明しています。",
               "en": "The operator explains that this not only makes things more convenient for tourists but also shortens checkout time."
-            },
-            {
-              "ja": "これにより、経験が少ない人でも、安定して野菜を育てやすくなると期待されています。",
-              "en": "Because of this, even people with little experience are expected to find it easier to grow vegetables steadily."
             }
           ]
         }
@@ -10772,6 +10789,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "たとえば、混んだ道でほかの車が少し間をあけてくれたら、その後でハザードを二回ぐらい光らせる人がいます。",
+          "en": "For example, if another driver leaves a little space for you on a crowded road, some people flash their hazard lights about twice afterward."
+        },
+        {
+          "ja": "何気ない二回の点滅は、ただのランプではなく、「わかっています、ありがとう」という返事にも見えるのです。",
+          "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+        },
+        {
           "ja": "二つの台風が日本の南の海で同時に動いています。",
           "en": "On the night of June 26, the Japan Meteorological Agency released information on Typhoon No. 7, Mekkhala, and Typhoon No. 8, Higos. The two typhoons are moving at the same time over the sea south of Japan."
         },
@@ -10782,14 +10807,6 @@
         {
           "ja": "6月24日の夕方、ベネズエラ北部で大きな地震が二つ続けて起きました。",
           "en": "On the evening of June 24, two major earthquakes struck northern Venezuela in quick succession."
-        },
-        {
-          "ja": "一つ目の地震が別の断層に力を加え、二つ目を引き起こした可能性があります。",
-          "en": "The first quake may have added stress to another fault and triggered the second one."
-        },
-        {
-          "ja": "二酸化炭素、二酸化窒素、細かい粒子の汚染、緑の多さなどを同じ場所ごとに比べられます。",
-          "en": "It can compare carbon dioxide, nitrogen dioxide, fine-particle pollution, the amount of greenery, and other data for the same kinds of locations."
         }
       ]
     },
@@ -11202,6 +11219,10 @@
           "meaning": "Te-form of 乗る: to get on (train, plane, bus, ship)",
           "exampleSentences": [
             {
+              "ja": "日本で車に乗っていると、前の車が一瞬だけハザードランプを光らせることがあります。",
+              "en": "When you drive in Japan, you may sometimes see the car ahead flash its hazard lights for just a moment."
+            },
+            {
               "ja": "どの線に乗ってきたかで頭がいっぱいでも、色だけで目的の情報をつかみやすくなります。",
               "en": "Even if your head is full of route information, the color alone makes the information you need easier to grasp."
             },
@@ -11216,10 +11237,6 @@
             {
               "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
               "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
-            },
-            {
-              "ja": "早く着きたいと思って速い電車に乗ると、自分の駅を通りすぎてしまうことがあります。",
-              "en": "If you board a faster train because you want to arrive quickly, it may pass your station."
             }
           ]
         },
@@ -12043,6 +12060,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "外国ではクラクションや手であいさつすることが多い場所もありますが、日本では大きな音を出さない形のほうが合いやすいのかもしれません。",
+          "en": "In some other countries, people more often use the horn or wave with their hand, but in Japan a quieter form may fit better."
+        },
+        {
           "ja": "料金が自動で計算され、車を止めずに精算できるので、東京のように交通量が多い場所ではとても効率的です。",
           "en": "Tolls are calculated automatically, and you can pay without stopping the car, which is highly efficient in a place with as much traffic as Tokyo."
         },
@@ -12057,10 +12078,6 @@
         {
           "ja": "つまり、日本と中国には協力したい理由もありますが、信じにくい理由も多いのです。",
           "en": "In other words, Japan and China have reasons to cooperate, but they also have many reasons to distrust each other."
-        },
-        {
-          "ja": "ブラジルは優勝経験が多い強いチームですが、前半はモロッコの速い攻撃に苦しみました。",
-          "en": "Brazil are a strong team with many World Cup titles, but in the first half they struggled against Morocco’s quick attacks."
         }
       ]
     },
@@ -12499,7 +12516,12 @@
           "term": "終わります",
           "readingHiragana": "おわります",
           "meaning": "Polite form of 終わる: to finish, to end",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "ハザードなら後ろの車にも見えやすく、短時間で終わります。",
+              "en": "Hazard lights are easy for the car behind to see and only last a short time."
+            }
+          ]
         },
         {
           "form": "past",
@@ -13948,6 +13970,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "とても小さな行動ですが、道を少しやわらかい空気にする力があります。",
+          "en": "It is a very small action, but it can make the mood on the road a little softer."
+        },
+        {
           "ja": "空港から都心へ向かうときや、郊外へ出かけるときにETCがないと、経路や支払いで不便を感じやすくなります。",
           "en": "If you do not have ETC when heading from the airport into central Tokyo or driving out to the suburbs, payment and route choices can become inconvenient."
         },
@@ -13962,10 +13988,6 @@
         {
           "ja": "品川や羽田空港などの駅では、普通、急行、エアポート急行、特急、快特などの表示を見ます。",
           "en": "At stations such as Shinagawa and Haneda Airport, you will see labels like Local, Express, Airport Express, Limited Express, and Rapid Limited Express."
-        },
-        {
-          "ja": "東京モノレールは、羽田空港へ行くための便利な交通機関です。",
-          "en": "Tokyo Monorail is a convenient way to get to Haneda Airport."
         }
       ]
     },
@@ -13984,6 +14006,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "外国ではクラクションや手であいさつすることが多い場所もありますが、日本では大きな音を出さない形のほうが合いやすいのかもしれません。",
+          "en": "In some other countries, people more often use the horn or wave with their hand, but in Japan a quieter form may fit better."
+        },
+        {
           "ja": "空港から都心へ向かうときや、郊外へ出かけるときにETCがないと、経路や支払いで不便を感じやすくなります。",
           "en": "If you do not have ETC when heading from the airport into central Tokyo or driving out to the suburbs, payment and route choices can become inconvenient."
         },
@@ -13998,10 +14024,6 @@
         {
           "ja": "駅の外に出て、広い安全な場所で輪行袋を開きます。",
           "en": "Leave the station and open the bike bag in a spacious, safe place."
-        },
-        {
-          "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
-          "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
         }
       ]
     },
@@ -14101,24 +14123,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "たとえば、混んだ道でほかの車が少し間をあけてくれたら、その後でハザードを二回ぐらい光らせる人がいます。",
+          "en": "For example, if another driver leaves a little space for you on a crowded road, some people flash their hazard lights about twice afterward."
+        },
+        {
+          "ja": "とても小さな行動ですが、道を少しやわらかい空気にする力があります。",
+          "en": "It is a very small action, but it can make the mood on the road a little softer."
+        },
+        {
+          "ja": "混雑した道でも、相手に少し気を配ると流れがよくなることがあります。",
+          "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+        },
+        {
           "ja": "カーナビの画面に出る渋滞情報や規制情報の後ろには、道路と車が少しずつ会話している世界があります。",
           "en": "Behind the congestion and restriction information shown on a car navigation screen is a world where roads and cars are quietly exchanging information."
         },
         {
           "ja": "そう考えると、ふつうの運転も少し未来的に見えてきます。",
           "en": "Seen that way, ordinary driving starts to look a little futuristic."
-        },
-        {
-          "ja": "ETCを知っているだけで、東京の道路がどう動いているか、少し見えやすくなります。",
-          "en": "Just understanding ETC makes it easier to see how Tokyo’s roads actually work."
-        },
-        {
-          "ja": "普段は何気なく歩いている駅の中にも、このようなやさしい工夫が隠れていると知って、少し驚きました。",
-          "en": "I was a little surprised to learn that this kind of considerate idea was hidden inside a station I usually walk through without much thought."
-        },
-        {
-          "ja": "ほんの小さな発見でしたが、その日から街の見え方が少し変わったように感じました。",
-          "en": "It was only a small discovery, but it made me feel that the way I see the city changed a little that day."
         }
       ]
     },
@@ -14225,24 +14247,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "外国ではクラクションや手であいさつすることが多い場所もありますが、日本では大きな音を出さない形のほうが合いやすいのかもしれません。",
+          "en": "In some other countries, people more often use the horn or wave with their hand, but in Japan a quieter form may fit better."
+        },
+        {
+          "ja": "とても小さな行動ですが、道を少しやわらかい空気にする力があります。",
+          "en": "It is a very small action, but it can make the mood on the road a little softer."
+        },
+        {
+          "ja": "もちろん、これは法律で決まった義務ではなく、すべての人がするわけでもありません。",
+          "en": "Of course, this is not a legal duty, and not everyone does it."
+        },
+        {
+          "ja": "だからこそ、お礼として使う時もごく短く、安全を第一にすることが大切です。",
+          "en": "That is exactly why, when they are used as thanks, it should be only very brief and safety should come first."
+        },
+        {
           "ja": "東京で車を運転すると、ETCという言葉をあちこちで見かけます。",
           "en": "When you drive in Tokyo, you see the term ETC in many places."
-        },
-        {
-          "ja": "だから、東京で運転するとETCが「どこにでもある」ように見えるのです。",
-          "en": "That is why ETC can look as if it is everywhere when you drive in Tokyo."
-        },
-        {
-          "ja": "車輪を外すタイプでは、工具や固定用ベルトを用意すると安心です。",
-          "en": "For bikes that require wheel removal, it is helpful to bring tools and fastening straps."
-        },
-        {
-          "ja": "移動中は、他の乗客が乗り降りしやすいか確認することも大切です。",
-          "en": "During the trip, it is also important to make sure other passengers can easily get on and off."
-        },
-        {
-          "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
-          "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
         }
       ],
       "partOfSpeech": "verb",
@@ -14287,6 +14309,10 @@
           "meaning": "Plain past form of する: to do",
           "exampleSentences": [
             {
+              "ja": "混雑した道でも、相手に少し気を配ると流れがよくなることがあります。",
+              "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+            },
+            {
               "ja": "多くの鉄道会社では、自転車を分解したり折りたたんだりして、専用の輪行袋に完全に入れる必要があります。",
               "en": "Many railway companies require bicycles to be disassembled or folded and completely placed inside a dedicated bike transport bag."
             },
@@ -14301,10 +14327,6 @@
             {
               "ja": "ふつうならそのまま通り過ぎてしまいそうな場所でしたが、なぜそこにあるのかが気になりました。",
               "en": "It was the kind of place I would normally pass without thinking, but I became curious about why it was there."
-            },
-            {
-              "ja": "そこで読み込んでみると、「ShikAI」というサービスにつながりました。",
-              "en": "When I scanned it, it connected to a service called ShikAI."
             }
           ]
         },
@@ -14321,20 +14343,20 @@
               "en": "While its convenience is recognized, it is considered important not to weaken students’ ability to think for themselves."
             },
             {
-              "ja": "東京で車を運転すると、ETCという言葉をあちこちで見かけます。",
-              "en": "When you drive in Tokyo, you see the term ETC in many places."
+              "ja": "外国ではクラクションや手であいさつすることが多い場所もありますが、日本では大きな音を出さない形のほうが合いやすいのかもしれません。",
+              "en": "In some other countries, people more often use the horn or wave with their hand, but in Japan a quieter form may fit better."
             },
             {
-              "ja": "だから、東京で運転するとETCが「どこにでもある」ように見えるのです。",
-              "en": "That is why ETC can look as if it is everywhere when you drive in Tokyo."
+              "ja": "とても小さな行動ですが、道を少しやわらかい空気にする力があります。",
+              "en": "It is a very small action, but it can make the mood on the road a little softer."
             },
             {
-              "ja": "車輪を外すタイプでは、工具や固定用ベルトを用意すると安心です。",
-              "en": "For bikes that require wheel removal, it is helpful to bring tools and fastening straps."
+              "ja": "もちろん、これは法律で決まった義務ではなく、すべての人がするわけでもありません。",
+              "en": "Of course, this is not a legal duty, and not everyone does it."
             },
             {
-              "ja": "移動中は、他の乗客が乗り降りしやすいか確認することも大切です。",
-              "en": "During the trip, it is also important to make sure other passengers can easily get on and off."
+              "ja": "だからこそ、お礼として使う時もごく短く、安全を第一にすることが大切です。",
+              "en": "That is exactly why, when they are used as thanks, it should be only very brief and safety should come first."
             }
           ]
         },
@@ -14347,24 +14369,24 @@
           "meaning": "Te-form of する: to do",
           "exampleSentences": [
             {
+              "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
+              "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
+            },
+            {
+              "ja": "言葉は聞こえませんが、運転者同士で気持ちを伝える方法として使われています。",
+              "en": "No words can be heard, but it is used as a way for drivers to communicate their feelings."
+            },
+            {
+              "ja": "だからこそ、お礼として使う時もごく短く、安全を第一にすることが大切です。",
+              "en": "That is exactly why, when they are used as thanks, it should be only very brief and safety should come first."
+            },
+            {
               "ja": "カーナビの画面に出る渋滞情報や規制情報の後ろには、道路と車が少しずつ会話している世界があります。",
               "en": "Behind the congestion and restriction information shown on a car navigation screen is a world where roads and cars are quietly exchanging information."
             },
             {
               "ja": "実際には目立つ場所に集中しているのですが、それだけ都市の車の移動に深く組み込まれています。",
               "en": "In reality, it is concentrated in highly visible places, but that shows how deeply it is built into urban car travel."
-            },
-            {
-              "ja": "多くの鉄道会社では、自転車を分解したり折りたたんだりして、専用の輪行袋に完全に入れる必要があります。",
-              "en": "Many railway companies require bicycles to be disassembled or folded and completely placed inside a dedicated bike transport bag."
-            },
-            {
-              "ja": "改札では大きな荷物として扱い、周りの人にぶつけないよう注意します。",
-              "en": "At the ticket gates, handle the bicycle like a large piece of luggage and be careful not to hit people around you."
-            },
-            {
-              "ja": "車両の端などで輪行袋を手で支え、急ブレーキで倒れないようにしてください。",
-              "en": "Hold the bike bag near the end of the car so it does not fall during sudden braking."
             }
           ]
         },
@@ -14722,6 +14744,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "だからこそ、お礼として使う時もごく短く、安全を第一にすることが大切です。",
+          "en": "That is exactly why, when they are used as thanks, it should be only very brief and safety should come first."
+        },
+        {
           "ja": "旅行者がレンタカーを借りるときも、ETCは大切です。",
           "en": "ETC is also important when travelers rent a car."
         },
@@ -14736,10 +14762,6 @@
         {
           "ja": "1964年の東京オリンピックに向けて作られた、日本の技術史でも大切な乗り物です。",
           "en": "It was built for the 1964 Tokyo Olympics, and it is also an important part of Japan's engineering history."
-        },
-        {
-          "ja": "日本は長い間、アメリカの大切な同盟国でした。",
-          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
         }
       ]
     },
@@ -15159,6 +15181,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "外国ではクラクションや手であいさつすることが多い場所もありますが、日本では大きな音を出さない形のほうが合いやすいのかもしれません。",
+          "en": "In some other countries, people more often use the horn or wave with their hand, but in Japan a quieter form may fit better."
+        },
+        {
+          "ja": "混雑した道でも、相手に少し気を配ると流れがよくなることがあります。",
+          "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+        },
+        {
           "ja": "車両の端などで輪行袋を手で支え、急ブレーキで倒れないようにしてください。",
           "en": "Hold the bike bag near the end of the car so it does not fall during sudden braking."
         },
@@ -15169,14 +15199,6 @@
         {
           "ja": "その中心にあるのが、東京を輪のように回る山手線です。",
           "en": "At the center of that network is the Yamanote Line, which circles Tokyo like a loop."
-        },
-        {
-          "ja": "山手線は、新宿、渋谷、上野、東京駅、池袋などの大きなエリアをつないでいます。",
-          "en": "The Yamanote Line connects major areas such as Shinjuku, Shibuya, Ueno, Tokyo Station, and Ikebukuro."
-        },
-        {
-          "ja": "山手線は、ただ人を運ぶだけでなく、東京の街の作られ方そのものを支えているのです。",
-          "en": "The Yamanote Line does not just carry people; it supports the very way Tokyo's cityscape was built."
         }
       ]
     },
@@ -15667,6 +15689,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "外国ではクラクションや手であいさつすることが多い場所もありますが、日本では大きな音を出さない形のほうが合いやすいのかもしれません。",
+          "en": "In some other countries, people more often use the horn or wave with their hand, but in Japan a quieter form may fit better."
+        },
+        {
           "ja": "高速道路の入口だけでなく、料金所の案内や道路標識にもETCの表示が多く、はじめての人は「ここではETCが当たり前なのだ」と感じやすいです。",
           "en": "It appears not only at expressway entrances, but also on toll guidance and road signs, so first-time drivers easily feel that ETC is simply taken for granted here."
         },
@@ -15681,10 +15707,6 @@
         {
           "ja": "駅へ入る前に、通行の邪魔にならない場所で自転車を準備します。",
           "en": "Before entering the station, prepare your bicycle somewhere that does not block pedestrian traffic."
-        },
-        {
-          "ja": "電車に乗ったら、ドアの前や通路をふさがない場所を選びます。",
-          "en": "Once on the train, choose a place where the bicycle will not block the doors or aisle."
         }
       ]
     },
@@ -15782,6 +15804,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "とても小さな行動ですが、道を少しやわらかい空気にする力があります。",
+          "en": "It is a very small action, but it can make the mood on the road a little softer."
+        },
+        {
           "ja": "短い区間でも入口と出口が多く、流れを止めないためにETCの利用がとても重要です。",
           "en": "Even on short stretches, there are many entrances and exits, so using ETC is very important to keep traffic moving."
         },
@@ -15796,10 +15822,6 @@
         {
           "ja": "毎日たくさんの人が行き交う東京の駅だからこそ、このような技術がとても自然に街へ溶け込んでいるのかもしれません。",
           "en": "Because Tokyo stations are used by so many people every day, perhaps this kind of technology blends naturally into the city."
-        },
-        {
-          "ja": "東京がとても便利に感じられる大きな理由の一つは、よく整った鉄道網です。",
-          "en": "One big reason Tokyo feels so convenient is its well-developed rail network."
         }
       ]
     },
@@ -15910,6 +15932,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "また、ハザードは本来注意や非常時のためのランプなので、長く使うものではありません。",
+          "en": "Also, hazard lights are originally meant for caution or emergencies, not for long use."
+        },
+        {
+          "ja": "だからこそ、お礼として使う時もごく短く、安全を第一にすることが大切です。",
+          "en": "That is exactly why, when they are used as thanks, it should be only very brief and safety should come first."
+        },
+        {
           "ja": "自分が使う機会がないと、こうした設備にはなかなか気づかないものです。",
           "en": "If you never have a reason to use such equipment, it is easy not to notice it."
         },
@@ -15920,14 +15950,6 @@
         {
           "ja": "週末に海へ行く予定がある人や、飛行機や船を使う人は、新しい情報を確認したほうがよさそうです。",
           "en": "People planning to go to the sea over the weekend, or to use planes or boats, should check the latest information."
-        },
-        {
-          "ja": "暑い日が増える中、熱中症を防ぐための通知アプリを使う会社や学校が増えています。",
-          "en": "As hot days increase, more companies and schools are using notification apps to prevent heatstroke."
-        },
-        {
-          "ja": "通勤や通学で使う人が多い場所では、とくに休める空間が必要だと考えられています。",
-          "en": "In places used by many commuters and students, it is thought that rest spaces are especially necessary."
         }
       ],
       "partOfSpeech": "verb",
@@ -15942,6 +15964,14 @@
           "meaning": "Polite form of 使う: to use, to make use of",
           "exampleSentences": [
             {
+              "ja": "また、ハザードは本来注意や非常時のためのランプなので、長く使うものではありません。",
+              "en": "Also, hazard lights are originally meant for caution or emergencies, not for long use."
+            },
+            {
+              "ja": "だからこそ、お礼として使う時もごく短く、安全を第一にすることが大切です。",
+              "en": "That is exactly why, when they are used as thanks, it should be only very brief and safety should come first."
+            },
+            {
               "ja": "自分が使う機会がないと、こうした設備にはなかなか気づかないものです。",
               "en": "If you never have a reason to use such equipment, it is easy not to notice it."
             },
@@ -15952,14 +15982,6 @@
             {
               "ja": "週末に海へ行く予定がある人や、飛行機や船を使う人は、新しい情報を確認したほうがよさそうです。",
               "en": "People planning to go to the sea over the weekend, or to use planes or boats, should check the latest information."
-            },
-            {
-              "ja": "暑い日が増える中、熱中症を防ぐための通知アプリを使う会社や学校が増えています。",
-              "en": "As hot days increase, more companies and schools are using notification apps to prevent heatstroke."
-            },
-            {
-              "ja": "通勤や通学で使う人が多い場所では、とくに休める空間が必要だと考えられています。",
-              "en": "In places used by many commuters and students, it is thought that rest spaces are especially necessary."
             }
           ]
         },
@@ -15976,20 +15998,20 @@
               "en": "On the train, passengers are served boxed meals and tea made with local ingredients."
             },
             {
+              "ja": "また、ハザードは本来注意や非常時のためのランプなので、長く使うものではありません。",
+              "en": "Also, hazard lights are originally meant for caution or emergencies, not for long use."
+            },
+            {
+              "ja": "だからこそ、お礼として使う時もごく短く、安全を第一にすることが大切です。",
+              "en": "That is exactly why, when they are used as thanks, it should be only very brief and safety should come first."
+            },
+            {
               "ja": "自分が使う機会がないと、こうした設備にはなかなか気づかないものです。",
               "en": "If you never have a reason to use such equipment, it is easy not to notice it."
             },
             {
               "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
               "en": "In London, people using the Underground and buses were also advised to drink water."
-            },
-            {
-              "ja": "週末に海へ行く予定がある人や、飛行機や船を使う人は、新しい情報を確認したほうがよさそうです。",
-              "en": "People planning to go to the sea over the weekend, or to use planes or boats, should check the latest information."
-            },
-            {
-              "ja": "暑い日が増える中、熱中症を防ぐための通知アプリを使う会社や学校が増えています。",
-              "en": "As hot days increase, more companies and schools are using notification apps to prevent heatstroke."
             }
           ]
         },
@@ -16006,20 +16028,20 @@
               "en": "Cashless payments are increasing on ferries heading to remote islands."
             },
             {
+              "ja": "また、ハザードは本来注意や非常時のためのランプなので、長く使うものではありません。",
+              "en": "Also, hazard lights are originally meant for caution or emergencies, not for long use."
+            },
+            {
+              "ja": "だからこそ、お礼として使う時もごく短く、安全を第一にすることが大切です。",
+              "en": "That is exactly why, when they are used as thanks, it should be only very brief and safety should come first."
+            },
+            {
               "ja": "自分が使う機会がないと、こうした設備にはなかなか気づかないものです。",
               "en": "If you never have a reason to use such equipment, it is easy not to notice it."
             },
             {
               "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
               "en": "In London, people using the Underground and buses were also advised to drink water."
-            },
-            {
-              "ja": "週末に海へ行く予定がある人や、飛行機や船を使う人は、新しい情報を確認したほうがよさそうです。",
-              "en": "People planning to go to the sea over the weekend, or to use planes or boats, should check the latest information."
-            },
-            {
-              "ja": "暑い日が増える中、熱中症を防ぐための通知アプリを使う会社や学校が増えています。",
-              "en": "As hot days increase, more companies and schools are using notification apps to prevent heatstroke."
             }
           ]
         },
@@ -16074,12 +16096,12 @@
               "en": "Clear displays and explanations will also be needed so guests can use the system with confidence."
             },
             {
-              "ja": "自分が使う機会がないと、こうした設備にはなかなか気づかないものです。",
-              "en": "If you never have a reason to use such equipment, it is easy not to notice it."
+              "ja": "また、ハザードは本来注意や非常時のためのランプなので、長く使うものではありません。",
+              "en": "Also, hazard lights are originally meant for caution or emergencies, not for long use."
             },
             {
-              "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
-              "en": "In London, people using the Underground and buses were also advised to drink water."
+              "ja": "だからこそ、お礼として使う時もごく短く、安全を第一にすることが大切です。",
+              "en": "That is exactly why, when they are used as thanks, it should be only very brief and safety should come first."
             }
           ]
         }
@@ -16523,6 +16545,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "道路の上での短いあいさつのようなものです。",
+          "en": "” It is like a very short greeting on the road."
+        },
+        {
           "ja": "袋に入れた後は、持ち上げても部品が動かないよう、しっかり固定します。",
           "en": "After putting the bike in the bag, secure the parts so they do not move when you lift it."
         },
@@ -16537,10 +16563,6 @@
         {
           "ja": "山手線は、新宿、渋谷、上野、東京駅、池袋などの大きなエリアをつないでいます。",
           "en": "The Yamanote Line connects major areas such as Shinjuku, Shibuya, Ueno, Tokyo Station, and Ikebukuro."
-        },
-        {
-          "ja": "この路線は、東京港の下を通るところで、地上から40メートル近い深さまで下がります。",
-          "en": "Where the line passes under the Port of Tokyo, it descends to nearly 40 meters below the surface."
         }
       ]
     },
@@ -16800,6 +16822,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "ハザードなら後ろの車にも見えやすく、短時間で終わります。",
+          "en": "Hazard lights are easy for the car behind to see and only last a short time."
+        },
         {
           "ja": "カーナビの画面に出る渋滞情報や規制情報の後ろには、道路と車が少しずつ会話している世界があります。",
           "en": "Behind the congestion and restriction information shown on a car navigation screen is a world where roads and cars are quietly exchanging information."
@@ -18709,6 +18735,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
+          "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
+        },
+        {
           "ja": "生産者の団体によると、小さく切ったのりや、味をつけた商品がとくに売れています。",
           "en": "According to producer groups, especially popular items are small-cut seaweed and seasoned products."
         }
@@ -18831,6 +18861,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "だからこそ、お礼として使う時もごく短く、安全を第一にすることが大切です。",
+          "en": "That is exactly why, when they are used as thanks, it should be only very brief and safety should come first."
+        },
+        {
           "ja": "朝夕のラッシュ時間は車内が混むため、できれば避けたほうが安全です。",
           "en": "Trains are crowded during the morning and evening rush hours, so avoiding those times is safer when possible."
         },
@@ -18845,10 +18879,6 @@
         {
           "ja": "しかし、政治や安全保障の問題では、なかなか意見が合いません。",
           "en": "However, in politics and security, it is hard for the two countries to agree."
-        },
-        {
-          "ja": "一方、日本は、台湾の近くで大きな問題が起きれば、日本の安全にも関係すると見ています。",
-          "en": "Japan, on the other hand, thinks that if a major problem happens near Taiwan, it would also affect Japan's safety."
         }
       ]
     },
@@ -19299,6 +19329,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "外国ではクラクションや手であいさつすることが多い場所もありますが、日本では大きな音を出さない形のほうが合いやすいのかもしれません。",
+          "en": "In some other countries, people more often use the horn or wave with their hand, but in Japan a quieter form may fit better."
+        },
+        {
           "ja": "料金が自動で計算され、車を止めずに精算できるので、東京のように交通量が多い場所ではとても効率的です。",
           "en": "Tolls are calculated automatically, and you can pay without stopping the car, which is highly efficient in a place with as much traffic as Tokyo."
         },
@@ -19313,10 +19347,6 @@
         {
           "ja": "電車に乗ったら、ドアの前や通路をふさがない場所を選びます。",
           "en": "Once on the train, choose a place where the bicycle will not block the doors or aisle."
-        },
-        {
-          "ja": "駅の外に出て、広い安全な場所で輪行袋を開きます。",
-          "en": "Leave the station and open the bike bag in a spacious, safe place."
         }
       ]
     },
@@ -19485,6 +19515,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "それでも、この短い光には日本らしい運転文化がよく出ています。",
+          "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+        },
+        {
           "ja": "そのため、観光客でも東京のランニング文化をすぐに体験できます。",
           "en": "Because of that, even visitors can quickly experience Tokyo’s running culture."
         },
@@ -19543,6 +19577,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "とても小さな行動ですが、道を少しやわらかい空気にする力があります。",
+          "en": "It is a very small action, but it can make the mood on the road a little softer."
+        },
+        {
           "ja": "東京の駅が混雑していても大きく混乱しにくいのは、こうした単純で強いデザインの力があるからかもしれません。",
           "en": "One reason Tokyo stations can stay usable despite heavy crowds may be the strength of this kind of simple, effective design."
         },
@@ -19557,10 +19595,6 @@
         {
           "ja": "一つ目の地震が別の断層に力を加え、二つ目を引き起こした可能性があります。",
           "en": "The first quake may have added stress to another fault and triggered the second one."
-        },
-        {
-          "ja": "人が集まる力や、経済活動の種類も調べています。",
-          "en": "It also studies a city's ability to attract people and the variety of its economic activity."
         }
       ]
     },
@@ -19609,6 +19643,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "また、ハザードは本来注意や非常時のためのランプなので、長く使うものではありません。",
+          "en": "Also, hazard lights are originally meant for caution or emergencies, not for long use."
+        },
+        {
           "ja": "改札では大きな荷物として扱い、周りの人にぶつけないよう注意します。",
           "en": "At the ticket gates, handle the bicycle like a large piece of luggage and be careful not to hit people around you."
         },
@@ -19623,10 +19661,6 @@
         {
           "ja": "二つの台風は、上陸するかどうかだけでなく、海の波や強い雨にも注意が必要です。",
           "en": "With the two typhoons, people need to watch not only whether they make landfall, but also ocean waves and heavy rain."
-        },
-        {
-          "ja": "そのため、各国の政府や企業は、この合意が実行されるかどうかを注意して見ています。",
-          "en": "For that reason, governments and companies are watching carefully to see whether the agreement will be carried out."
         }
       ]
     },
@@ -19739,6 +19773,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "だからこそ、お礼として使う時もごく短く、安全を第一にすることが大切です。",
+          "en": "That is exactly why, when they are used as thanks, it should be only very brief and safety should come first."
+        },
         {
           "ja": "だから、車が自分だけで考えるより、道路の側が先に状況を知らせるほうが役に立ちます。",
           "en": "Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself."
@@ -20774,6 +20812,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "言葉は聞こえませんが、運転者同士で気持ちを伝える方法として使われています。",
+          "en": "No words can be heard, but it is used as a way for drivers to communicate their feelings."
+        },
+        {
           "ja": "V2Xという言葉を聞くと、多くの人は自動運転の未来を想像します。",
           "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
         },
@@ -21346,6 +21388,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "この合図は、車線変更や合流のときによく見られます。",
+          "en": "This signal is often seen during lane changes and merges."
+        },
+        {
           "ja": "ほんの小さな発見でしたが、その日から街の見え方が少し変わったように感じました。",
           "en": "It was only a small discovery, but it made me feel that the way I see the city changed a little that day."
         },
@@ -21360,10 +21406,6 @@
         {
           "ja": "専門家は、気候変動によって、このような強い熱波が起きやすくなっていると説明しています。",
           "en": "Experts explain that climate change is making intense heatwaves like this more likely."
-        },
-        {
-          "ja": "台風の進路は、数時間で変わることがあります。",
-          "en": "A typhoon's path can change within a few hours."
         }
       ]
     },
@@ -21380,7 +21422,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "何気ない二回の点滅は、ただのランプではなく、「わかっています、ありがとう」という返事にも見えるのです。",
+          "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+        }
+      ]
     },
     {
       "id": "core-4dd55ce8d4aa5d",
@@ -21511,24 +21558,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "日本で車に乗っていると、前の車が一瞬だけハザードランプを光らせることがあります。",
+          "en": "When you drive in Japan, you may sometimes see the car ahead flash its hazard lights for just a moment."
+        },
+        {
+          "ja": "たとえば、混んだ道でほかの車が少し間をあけてくれたら、その後でハザードを二回ぐらい光らせる人がいます。",
+          "en": "For example, if another driver leaves a little space for you on a crowded road, some people flash their hazard lights about twice afterward."
+        },
+        {
+          "ja": "それでも、この短い光には日本らしい運転文化がよく出ています。",
+          "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+        },
+        {
           "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
           "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
         },
         {
           "ja": "そのため、観光客でも東京のランニング文化をすぐに体験できます。",
           "en": "Because of that, even visitors can quickly experience Tokyo’s running culture."
-        },
-        {
-          "ja": "暑さは観光や交通だけでなく、農業や電力にも影響を与えるため、各国は対策を急いでいます。",
-          "en": "Because the heat affects not only tourism and transportation but also agriculture and electricity, countries are rushing to respond."
-        },
-        {
-          "ja": "図書館では、観光客だけでなく、地域で生活する外国人にも役立つと考えています。",
-          "en": "Libraries believe the tablets will help not only tourists but also foreign residents in the community."
-        },
-        {
-          "ja": "運営会社は、観光客が便利になるだけでなく、会計の時間が短くなると説明しています。",
-          "en": "The operator explains that this not only makes things more convenient for tourists but also shortens checkout time."
         }
       ]
     },
@@ -22093,7 +22140,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "もちろん、これは法律で決まった義務ではなく、すべての人がするわけでもありません。",
+          "en": "Of course, this is not a legal duty, and not everyone does it."
+        }
+      ]
     },
     {
       "id": "core-c3ef74bb592fed",
@@ -23826,6 +23878,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "外国ではクラクションや手であいさつすることが多い場所もありますが、日本では大きな音を出さない形のほうが合いやすいのかもしれません。",
+          "en": "In some other countries, people more often use the horn or wave with their hand, but in Japan a quieter form may fit better."
+        },
+        {
           "ja": "これは道路の側から車へ必要な情報を送る、わかりやすいV2Iの形です。",
           "en": "This is a clear form of V2I, where the road side sends necessary information to the vehicle."
         },
@@ -24613,24 +24669,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "事故や工事、天気による制限まで受け取れるので、ただお金を払うだけの仕組みではありません。",
-          "en": "Drivers can receive information about accidents, construction, and even weather-related restrictions, so the system is not just about paying tolls."
+          "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
+          "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
         },
         {
-          "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
-          "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
+          "ja": "言葉は聞こえませんが、運転者同士で気持ちを伝える方法として使われています。",
+          "en": "No words can be heard, but it is used as a way for drivers to communicate their feelings."
         },
         {
-          "ja": "何気ない色の使い方ですが、毎日何百万人もの通勤客や旅行者がこの工夫に助けられています。",
-          "en": "It is only a simple use of color, but every day hundreds of thousands of commuters and travelers are helped by this idea."
+          "ja": "とても小さな行動ですが、道を少しやわらかい空気にする力があります。",
+          "en": "It is a very small action, but it can make the mood on the road a little softer."
         },
         {
-          "ja": "何気ない通勤の風景にも、見えにくい工夫がたくさんかくれているのです。",
-          "en": "Even in an everyday commuting scene, many hard-to-see innovations are hidden."
+          "ja": "混雑した道でも、相手に少し気を配ると流れがよくなることがあります。",
+          "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
         },
         {
-          "ja": "ふつうならそのまま通り過ぎてしまいそうな場所でしたが、なぜそこにあるのかが気になりました。",
-          "en": "It was the kind of place I would normally pass without thinking, but I became curious about why it was there."
+          "ja": "何気ない二回の点滅は、ただのランプではなく、「わかっています、ありがとう」という返事にも見えるのです。",
+          "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
         }
       ]
     },
@@ -24703,6 +24759,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
+          "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
+        },
         {
           "ja": "そのため、接近してつかむ作業には大きな危険があります。",
           "en": "Approaching and grabbing it therefore carries major risks."
@@ -24971,7 +25031,16 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
+          "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
+        },
+        {
+          "ja": "言葉は聞こえませんが、運転者同士で気持ちを伝える方法として使われています。",
+          "en": "No words can be heard, but it is used as a way for drivers to communicate their feelings."
+        }
+      ]
     },
     {
       "id": "core-b3251b1e39e972",
@@ -25435,7 +25504,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
+          "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
+        }
+      ]
     },
     {
       "id": "core-ff3d32216c3f9c",
@@ -25467,6 +25541,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "何気ない二回の点滅は、ただのランプではなく、「わかっています、ありがとう」という返事にも見えるのです。",
+          "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+        },
+        {
           "ja": "事故や工事、天気による制限まで受け取れるので、ただお金を払うだけの仕組みではありません。",
           "en": "Drivers can receive information about accidents, construction, and even weather-related restrictions, so the system is not just about paying tolls."
         },
@@ -25481,10 +25559,6 @@
         {
           "ja": "昔は港や工業用地が多かった場所が、仕事、買い物、遊びを楽しめるエリアに変わっていきました。",
           "en": "Places that once had many port facilities and industrial sites changed into an area for work, shopping, and entertainment."
-        },
-        {
-          "ja": "政府は非常事態を宣言しました。",
-          "en": "The government declared a state of emergency."
         }
       ]
     },
@@ -26044,6 +26118,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "とても小さな行動ですが、道を少しやわらかい空気にする力があります。",
+          "en": "It is a very small action, but it can make the mood on the road a little softer."
+        },
         {
           "ja": "中心が遠くても、湿った空気が流れ込むと、雨雲が発達することがあります。",
           "en": "Even when a storm center is far away, moist air can flow in and help rain clouds develop."
@@ -26862,6 +26940,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
+          "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
+        },
+        {
+          "ja": "何気ない二回の点滅は、ただのランプではなく、「わかっています、ありがとう」という返事にも見えるのです。",
+          "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+        },
+        {
           "ja": "だから、東京で運転するとETCが「どこにでもある」ように見えるのです。",
           "en": "That is why ETC can look as if it is everywhere when you drive in Tokyo."
         },
@@ -26882,6 +26968,14 @@
           "meaning": "Polite form of 見える: to be seen, to be in sight",
           "exampleSentences": [
             {
+              "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
+              "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
+            },
+            {
+              "ja": "何気ない二回の点滅は、ただのランプではなく、「わかっています、ありがとう」という返事にも見えるのです。",
+              "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+            },
+            {
               "ja": "だから、東京で運転するとETCが「どこにでもある」ように見えるのです。",
               "en": "That is why ETC can look as if it is everywhere when you drive in Tokyo."
             },
@@ -26900,6 +26994,14 @@
           "meaning": "Plain past form of 見える: to be seen, to be in sight",
           "exampleSentences": [
             {
+              "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
+              "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
+            },
+            {
+              "ja": "何気ない二回の点滅は、ただのランプではなく、「わかっています、ありがとう」という返事にも見えるのです。",
+              "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+            },
+            {
               "ja": "だから、東京で運転するとETCが「どこにでもある」ように見えるのです。",
               "en": "That is why ETC can look as if it is everywhere when you drive in Tokyo."
             },
@@ -26917,6 +27019,14 @@
           "readingHiragana": "みえない",
           "meaning": "Plain negative form of 見える: to be seen, to be in sight",
           "exampleSentences": [
+            {
+              "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
+              "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
+            },
+            {
+              "ja": "何気ない二回の点滅は、ただのランプではなく、「わかっています、ありがとう」という返事にも見えるのです。",
+              "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+            },
             {
               "ja": "だから、東京で運転するとETCが「どこにでもある」ように見えるのです。",
               "en": "That is why ETC can look as if it is everywhere when you drive in Tokyo."
@@ -26944,12 +27054,16 @@
               "en": "It may look a little difficult at first, but if you make a habit of checking the destination and train type together, it becomes much less intimidating."
             },
             {
-              "ja": "だから、東京で運転するとETCが「どこにでもある」ように見えるのです。",
-              "en": "That is why ETC can look as if it is everywhere when you drive in Tokyo."
+              "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
+              "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
             },
             {
-              "ja": "未来的に見えるシステムでも、実際の公共交通として使えることを示したのです。",
-              "en": "It showed that a futuristic-looking system could also work as real public transportation."
+              "ja": "何気ない二回の点滅は、ただのランプではなく、「わかっています、ありがとう」という返事にも見えるのです。",
+              "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+            },
+            {
+              "ja": "だから、東京で運転するとETCが「どこにでもある」ように見えるのです。",
+              "en": "That is why ETC can look as if it is everywhere when you drive in Tokyo."
             }
           ]
         },
@@ -26961,6 +27075,14 @@
           "readingHiragana": "みえられる",
           "meaning": "Potential form of 見える: to be seen, to be in sight",
           "exampleSentences": [
+            {
+              "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
+              "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
+            },
+            {
+              "ja": "何気ない二回の点滅は、ただのランプではなく、「わかっています、ありがとう」という返事にも見えるのです。",
+              "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+            },
             {
               "ja": "だから、東京で運転するとETCが「どこにでもある」ように見えるのです。",
               "en": "That is why ETC can look as if it is everywhere when you drive in Tokyo."
@@ -27197,6 +27319,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "もちろん、これは法律で決まった義務ではなく、すべての人がするわけでもありません。",
+          "en": "Of course, this is not a legal duty, and not everyone does it."
+        },
+        {
           "ja": "もちろん、ただ速いだけではなく、不正利用を防ぐための仕組みもしっかり組み込まれています。",
           "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
         }
@@ -27301,6 +27427,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
+          "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
+        },
+        {
+          "ja": "外国ではクラクションや手であいさつすることが多い場所もありますが、日本では大きな音を出さない形のほうが合いやすいのかもしれません。",
+          "en": "In some other countries, people more often use the horn or wave with their hand, but in Japan a quieter form may fit better."
+        },
+        {
           "ja": "東京の駅が混雑していても大きく混乱しにくいのは、こうした単純で強いデザインの力があるからかもしれません。",
           "en": "One reason Tokyo stations can stay usable despite heavy crowds may be the strength of this kind of simple, effective design."
         },
@@ -27311,14 +27445,6 @@
         {
           "ja": "毎日たくさんの人が行き交う東京の駅だからこそ、このような技術がとても自然に街へ溶け込んでいるのかもしれません。",
           "en": "Because Tokyo stations are used by so many people every day, perhaps this kind of technology blends naturally into the city."
-        },
-        {
-          "ja": "30秒だけ余分に使って正しい電車を選ぶことで、あとで長い遠回りをしなくてすむかもしれません。",
-          "en": "Spending just an extra 30 seconds choosing the right train may save you from a much longer detour later."
-        },
-        {
-          "ja": "五輪のために生まれた設備が、長い時間をへても役立ち続けているのはおもしろいことです。",
-          "en": "It is interesting that a facility born for the Olympics has continued to be useful for a long time."
         }
       ]
     },
@@ -30090,6 +30216,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
+          "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
+        },
+        {
           "ja": "代表的な例がVICSです。",
           "en": "A representative example is VICS."
         },
@@ -30104,10 +30234,6 @@
         {
           "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
           "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
-        },
-        {
-          "ja": "電車の路線はそれぞれ別の色で表されることが多いので、黄色い出口案内は見分けやすいです。",
-          "en": "Train lines are often shown in different colors, so yellow exit guidance is easy to distinguish from them."
         }
       ]
     },
@@ -30198,7 +30324,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "だからこそ、お礼として使う時もごく短く、安全を第一にすることが大切です。",
+          "en": "That is exactly why, when they are used as thanks, it should be only very brief and safety should come first."
+        }
+      ]
     },
     {
       "id": "core-6e0de09438eeb3",
@@ -30437,6 +30568,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "外国ではクラクションや手であいさつすることが多い場所もありますが、日本では大きな音を出さない形のほうが合いやすいのかもしれません。",
+          "en": "In some other countries, people more often use the horn or wave with their hand, but in Japan a quieter form may fit better."
+        },
+        {
           "ja": "車のクラクションや花火の音も聞こえました。",
           "en": "Car horns and fireworks could also be heard."
         },
@@ -30582,7 +30717,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "ハザードなら後ろの車にも見えやすく、短時間で終わります。",
+          "en": "Hazard lights are easy for the car behind to see and only last a short time."
+        }
+      ]
     },
     {
       "id": "core-d531f8f718f850",
@@ -31652,6 +31792,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "この合図は、車線変更や合流のときによく見られます。",
+          "en": "This signal is often seen during lane changes and merges."
+        },
+        {
           "ja": "電車の路線はそれぞれ別の色で表されることが多いので、黄色い出口案内は見分けやすいです。",
           "en": "Train lines are often shown in different colors, so yellow exit guidance is easy to distinguish from them."
         },
@@ -31666,10 +31810,6 @@
         {
           "ja": "京急線では、たくさんの電車がほかの鉄道会社の路線へそのまま入っていきます。",
           "en": "On the Keikyu Line, many trains continue directly onto other railway networks."
-        },
-        {
-          "ja": "品川に着けば、そこから山手線やほかの路線に乗り換えやすく、都心への移動がしやすくなります。",
-          "en": "Once you reach Shinagawa, it is easy to transfer to the Yamanote Line and other routes into the city center."
         }
       ]
     },
@@ -32810,6 +32950,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "それでも、この短い光には日本らしい運転文化がよく出ています。",
+          "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+        },
         {
           "ja": "それでも成功すれば、スウィフトはさらに5年以上観測を続けられる可能性があります。",
           "en": "Even so, if the mission succeeds, Swift may be able to continue observing for at least five more years."
@@ -34244,6 +34388,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "何気ない二回の点滅は、ただのランプではなく、「わかっています、ありがとう」という返事にも見えるのです。",
+          "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+        },
+        {
           "ja": "丸の内駅を歩いていたとき、点字ブロックの上に小さなQRコードがついているのを見つけました。",
           "en": "While walking through Marunouchi Station, I noticed a small QR code attached above the tactile paving."
         },
@@ -34258,10 +34406,6 @@
         {
           "ja": "争点の一つは、国の人口を2050年まで1000万人までに抑える提案でした。",
           "en": "One issue was a proposal to keep the country's population at no more than 10 million by 2050."
-        },
-        {
-          "ja": "一方で、教員からは、採点や教材づくりにAIを活用すれば、仕事の負担を減らせるという期待もあります。",
-          "en": "At the same time, teachers expect that using AI for grading and creating teaching materials could reduce their workload."
         }
       ]
     },
@@ -35241,6 +35385,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "言葉は聞こえませんが、運転者同士で気持ちを伝える方法として使われています。",
+          "en": "No words can be heard, but it is used as a way for drivers to communicate their feelings."
+        },
+        {
           "ja": "のりは軽くて運びやすいため、これからも日本の食文化を伝える商品として期待されています。",
           "en": "Because seaweed is light and easy to transport, it is expected to remain an important product for sharing Japanese food culture."
         }
@@ -35261,6 +35409,10 @@
               "en": "People who want to use the service tell the town their pickup place and time by phone or smartphone by the previous day."
             },
             {
+              "ja": "言葉は聞こえませんが、運転者同士で気持ちを伝える方法として使われています。",
+              "en": "No words can be heard, but it is used as a way for drivers to communicate their feelings."
+            },
+            {
               "ja": "のりは軽くて運びやすいため、これからも日本の食文化を伝える商品として期待されています。",
               "en": "Because seaweed is light and easy to transport, it is expected to remain an important product for sharing Japanese food culture."
             }
@@ -35275,6 +35427,10 @@
           "meaning": "Plain past form of 伝える: to convey, to report",
           "exampleSentences": [
             {
+              "ja": "言葉は聞こえませんが、運転者同士で気持ちを伝える方法として使われています。",
+              "en": "No words can be heard, but it is used as a way for drivers to communicate their feelings."
+            },
+            {
               "ja": "のりは軽くて運びやすいため、これからも日本の食文化を伝える商品として期待されています。",
               "en": "Because seaweed is light and easy to transport, it is expected to remain an important product for sharing Japanese food culture."
             }
@@ -35288,6 +35444,10 @@
           "readingHiragana": "つたえない",
           "meaning": "Plain negative form of 伝える: to convey, to report",
           "exampleSentences": [
+            {
+              "ja": "言葉は聞こえませんが、運転者同士で気持ちを伝える方法として使われています。",
+              "en": "No words can be heard, but it is used as a way for drivers to communicate their feelings."
+            },
             {
               "ja": "のりは軽くて運びやすいため、これからも日本の食文化を伝える商品として期待されています。",
               "en": "Because seaweed is light and easy to transport, it is expected to remain an important product for sharing Japanese food culture."
@@ -35315,6 +35475,10 @@
               "en": "50 dollars per barrel."
             },
             {
+              "ja": "言葉は聞こえませんが、運転者同士で気持ちを伝える方法として使われています。",
+              "en": "No words can be heard, but it is used as a way for drivers to communicate their feelings."
+            },
+            {
               "ja": "のりは軽くて運びやすいため、これからも日本の食文化を伝える商品として期待されています。",
               "en": "Because seaweed is light and easy to transport, it is expected to remain an important product for sharing Japanese food culture."
             }
@@ -35328,6 +35492,10 @@
           "readingHiragana": "つたえられる",
           "meaning": "Potential form of 伝える: to convey, to report",
           "exampleSentences": [
+            {
+              "ja": "言葉は聞こえませんが、運転者同士で気持ちを伝える方法として使われています。",
+              "en": "No words can be heard, but it is used as a way for drivers to communicate their feelings."
+            },
             {
               "ja": "のりは軽くて運びやすいため、これからも日本の食文化を伝える商品として期待されています。",
               "en": "Because seaweed is light and easy to transport, it is expected to remain an important product for sharing Japanese food culture."
@@ -36031,6 +36199,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "言葉は聞こえませんが、運転者同士で気持ちを伝える方法として使われています。",
+          "en": "No words can be heard, but it is used as a way for drivers to communicate their feelings."
+        },
+        {
+          "ja": "それでも、この短い光には日本らしい運転文化がよく出ています。",
+          "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+        },
+        {
           "ja": "V2Xという言葉を聞くと、多くの人は自動運転の未来を想像します。",
           "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
         },
@@ -36041,14 +36217,6 @@
         {
           "ja": "そう考えると、ふつうの運転も少し未来的に見えてきます。",
           "en": "Seen that way, ordinary driving starts to look a little futuristic."
-        },
-        {
-          "ja": "東京で車を運転すると、ETCという言葉をあちこちで見かけます。",
-          "en": "When you drive in Tokyo, you see the term ETC in many places."
-        },
-        {
-          "ja": "だから、東京で運転するとETCが「どこにでもある」ように見えるのです。",
-          "en": "That is why ETC can look as if it is everywhere when you drive in Tokyo."
         }
       ]
     },
@@ -37999,6 +38167,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "混雑した道でも、相手に少し気を配ると流れがよくなることがあります。",
+          "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+        },
+        {
           "ja": "今回の引き分けで、今年も強い相手になりそうだと感じさせました。",
           "en": "This draw made people feel that Morocco may again be a strong opponent this year."
         }
@@ -38017,7 +38189,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "この合図は、車線変更や合流のときによく見られます。",
+          "en": "This signal is often seen during lane changes and merges."
+        }
+      ]
     },
     {
       "id": "core-0b1ec5d42954d9",
@@ -38711,7 +38888,12 @@
           "term": "表して",
           "readingHiragana": "あらわして",
           "meaning": "Te-form of 表す: to represent, to show, to display",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
+              "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -39445,6 +39627,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
+          "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
+        },
+        {
+          "ja": "外国ではクラクションや手であいさつすることが多い場所もありますが、日本では大きな音を出さない形のほうが合いやすいのかもしれません。",
+          "en": "In some other countries, people more often use the horn or wave with their hand, but in Japan a quieter form may fit better."
+        },
+        {
           "ja": "料金が自動で計算され、車を止めずに精算できるので、東京のように交通量が多い場所ではとても効率的です。",
           "en": "Tolls are calculated automatically, and you can pay without stopping the car, which is highly efficient in a place with as much traffic as Tokyo."
         },
@@ -39455,14 +39645,6 @@
         {
           "ja": "駅へ入る前に、通行の邪魔にならない場所で自転車を準備します。",
           "en": "Before entering the station, prepare your bicycle somewhere that does not block pedestrian traffic."
-        },
-        {
-          "ja": "駅員から乗る位置を案内された場合は、その指示に従いましょう。",
-          "en": "Follow any instructions from station staff about where to board."
-        },
-        {
-          "ja": "電車に乗ったら、ドアの前や通路をふさがない場所を選びます。",
-          "en": "Once on the train, choose a place where the bicycle will not block the doors or aisle."
         }
       ]
     },
@@ -39905,6 +40087,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "それでも、この短い光には日本らしい運転文化がよく出ています。",
+          "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+        },
+        {
           "ja": "黄色い背景に黒い文字と矢印を組み合わせた表示は、人の多い駅でもよく目立ちます。",
           "en": "Signs that combine a yellow background with black text and arrows stand out well even in crowded stations."
         },
@@ -39919,10 +40105,6 @@
         {
           "ja": "ある高校では、AIを使って文章の案を作ることは認めていますが、そのまま提出することは禁止しています。",
           "en": "At one high school, students are allowed to use AI to draft writing, but submitting it as-is is prohibited."
-        },
-        {
-          "ja": "文部科学省は、学校ごとの状況にあわせて柔軟に運用できる指針を示したい考えです。",
-          "en": "The education ministry wants to present guidelines that schools can apply flexibly according to their situations."
         }
       ]
     },
@@ -41774,6 +41956,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "道路の上での短いあいさつのようなものです。",
+          "en": "” It is like a very short greeting on the road."
+        },
+        {
           "ja": "でも日本では、道路の情報を車へ送る仕組みが、もうかなり前から使われています。",
           "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
         },
@@ -41788,10 +41974,6 @@
         {
           "ja": "特に高速道路では、その感覚がもっとはっきりします。",
           "en": "This feeling becomes even clearer on expressways."
-        },
-        {
-          "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
-          "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
         }
       ]
     },
@@ -43860,7 +44042,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "もちろん、これは法律で決まった義務ではなく、すべての人がするわけでもありません。",
+          "en": "Of course, this is not a legal duty, and not everyone does it."
+        }
+      ]
     },
     {
       "id": "core-811a4cdb7e592d",
@@ -46013,6 +46200,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "この合図は、車線変更や合流のときによく見られます。",
+          "en": "This signal is often seen during lane changes and merges."
+        },
+        {
           "ja": "通勤や出張の予定を変更する人が多く、駅や空港では最新情報を確認する姿が目立ちました。",
           "en": "Many people changed commuting or business-trip plans, while stations and airports were filled with travelers checking the latest information."
         }
@@ -46419,6 +46610,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "また、ハザードは本来注意や非常時のためのランプなので、長く使うものではありません。",
+          "en": "Also, hazard lights are originally meant for caution or emergencies, not for long use."
+        },
         {
           "ja": "政府は非常事態を宣言しました。",
           "en": "The government declared a state of emergency."
@@ -47531,6 +47726,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "言葉は聞こえませんが、運転者同士で気持ちを伝える方法として使われています。",
+          "en": "No words can be heard, but it is used as a way for drivers to communicate their feelings."
+        },
+        {
           "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
           "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
         },
@@ -47545,10 +47744,6 @@
         {
           "ja": "ほんの小さな発見でしたが、その日から街の見え方が少し変わったように感じました。",
           "en": "It was only a small discovery, but it made me feel that the way I see the city changed a little that day."
-        },
-        {
-          "ja": "これだけで、電車の選び方がかなり簡単になります。",
-          "en": "That alone makes choosing a train much easier."
         }
       ]
     },
@@ -47567,6 +47762,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "言葉は聞こえませんが、運転者同士で気持ちを伝える方法として使われています。",
+          "en": "No words can be heard, but it is used as a way for drivers to communicate their feelings."
+        },
+        {
+          "ja": "もちろん、これは法律で決まった義務ではなく、すべての人がするわけでもありません。",
+          "en": "Of course, this is not a legal duty, and not everyone does it."
+        },
+        {
           "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
           "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
         },
@@ -47577,10 +47780,6 @@
         {
           "ja": "港を管理する会社は、環境にやさしい輸送の方法を増やしたいと考えています。",
           "en": "The port operator wants to expand environmentally friendly transport methods."
-        },
-        {
-          "ja": "アルファベットは、AIやデータセンターにたくさんのお金が必要なので、いろいろな方法で資金を集めています。",
-          "en": "Alphabet needs a lot of money for AI and data centers, so it is gathering funds in different ways."
         }
       ]
     },
@@ -47628,6 +47827,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "言葉は聞こえませんが、運転者同士で気持ちを伝える方法として使われています。",
+          "en": "No words can be heard, but it is used as a way for drivers to communicate their feelings."
+        },
         {
           "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
           "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
@@ -47780,6 +47983,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
+          "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
+        },
+        {
           "ja": "代表的な例がVICSです。",
           "en": "A representative example is VICS."
         },
@@ -47794,10 +48001,6 @@
         {
           "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
           "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
-        },
-        {
-          "ja": "電車の路線はそれぞれ別の色で表されることが多いので、黄色い出口案内は見分けやすいです。",
-          "en": "Train lines are often shown in different colors, so yellow exit guidance is easy to distinguish from them."
         }
       ]
     },
@@ -48828,6 +49031,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "日本で車に乗っていると、前の車が一瞬だけハザードランプを光らせることがあります。",
+          "en": "When you drive in Japan, you may sometimes see the car ahead flash its hazard lights for just a moment."
+        },
+        {
           "ja": "毎日何百万人もの乗客が利用しているのに、多くの人はほんの一瞬で通過できます。",
           "en": "Even though millions of passengers use them every day, most people can pass through in just a moment."
         }
@@ -49734,6 +49941,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
+          "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
+        },
         {
           "ja": "実際には目立つ場所に集中しているのですが、それだけ都市の車の移動に深く組み込まれています。",
           "en": "In reality, it is concentrated in highly visible places, but that shows how deeply it is built into urban car travel."
@@ -50792,6 +51003,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "たとえば、混んだ道でほかの車が少し間をあけてくれたら、その後でハザードを二回ぐらい光らせる人がいます。",
+          "en": "For example, if another driver leaves a little space for you on a crowded road, some people flash their hazard lights about twice afterward."
+        },
+        {
+          "ja": "何気ない二回の点滅は、ただのランプではなく、「わかっています、ありがとう」という返事にも見えるのです。",
+          "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+        },
+        {
           "ja": "その中心にあるのが、東京を輪のように回る山手線です。",
           "en": "At the center of that network is the Yamanote Line, which circles Tokyo like a loop."
         },
@@ -50802,14 +51021,6 @@
         {
           "ja": "この考え方ができると、毎回ルート検索に時間を取られにくくなります。",
           "en": "Once you can think this way, you do not spend as much time on route searches every time."
-        },
-        {
-          "ja": "ホームドアがない駅では、安全のために職員がホームを見回っています。",
-          "en": "At stations without platform doors, staff patrol the platforms for safety."
-        },
-        {
-          "ja": "NASAの宇宙望遠鏡「スウィフト」は、地球の周りを回る軌道から少しずつ落ちています。",
-          "en": "NASA's Swift space telescope is gradually falling from its orbit around Earth."
         }
       ]
     },
@@ -52217,6 +52428,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "道路の上での短いあいさつのようなものです。",
+          "en": "” It is like a very short greeting on the road."
+        },
+        {
           "ja": "袋に入れた後は、持ち上げても部品が動かないよう、しっかり固定します。",
           "en": "After putting the bike in the bag, secure the parts so they do not move when you lift it."
         },
@@ -52231,10 +52446,6 @@
         {
           "ja": "山手線は、新宿、渋谷、上野、東京駅、池袋などの大きなエリアをつないでいます。",
           "en": "The Yamanote Line connects major areas such as Shinjuku, Shibuya, Ueno, Tokyo Station, and Ikebukuro."
-        },
-        {
-          "ja": "この路線は、東京港の下を通るところで、地上から40メートル近い深さまで下がります。",
-          "en": "Where the line passes under the Port of Tokyo, it descends to nearly 40 meters below the surface."
         }
       ]
     },
@@ -53018,6 +53229,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "とても小さな行動ですが、道を少しやわらかい空気にする力があります。",
+          "en": "It is a very small action, but it can make the mood on the road a little softer."
+        },
+        {
           "ja": "空港から都心へ向かうときや、郊外へ出かけるときにETCがないと、経路や支払いで不便を感じやすくなります。",
           "en": "If you do not have ETC when heading from the airport into central Tokyo or driving out to the suburbs, payment and route choices can become inconvenient."
         },
@@ -53032,10 +53247,6 @@
         {
           "ja": "品川や羽田空港などの駅では、普通、急行、エアポート急行、特急、快特などの表示を見ます。",
           "en": "At stations such as Shinagawa and Haneda Airport, you will see labels like Local, Express, Airport Express, Limited Express, and Rapid Limited Express."
-        },
-        {
-          "ja": "東京モノレールは、羽田空港へ行くための便利な交通機関です。",
-          "en": "Tokyo Monorail is a convenient way to get to Haneda Airport."
         }
       ]
     },
@@ -53925,6 +54136,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "とても小さな行動ですが、道を少しやわらかい空気にする力があります。",
+          "en": "It is a very small action, but it can make the mood on the road a little softer."
+        },
+        {
           "ja": "V2Xという言葉を聞くと、多くの人は自動運転の未来を想像します。",
           "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
         },
@@ -53939,10 +54154,6 @@
         {
           "ja": "ETCを知っているだけで、東京の道路がどう動いているか、少し見えやすくなります。",
           "en": "Just understanding ETC makes it easier to see how Tokyo’s roads actually work."
-        },
-        {
-          "ja": "袋に入れた後は、持ち上げても部品が動かないよう、しっかり固定します。",
-          "en": "After putting the bike in the bag, secure the parts so they do not move when you lift it."
         }
       ]
     },
@@ -55626,6 +55837,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "とても小さな行動ですが、道を少しやわらかい空気にする力があります。",
+          "en": "It is a very small action, but it can make the mood on the road a little softer."
+        },
+        {
           "ja": "観光だけでなく、地域の経済を元気にする役割も期待されています。",
           "en": "The train is expected not only to support tourism but also to help energize the regional economy."
         },
@@ -55654,6 +55869,10 @@
           "meaning": "Polite form of 気にする: to mind, to care about",
           "exampleSentences": [
             {
+              "ja": "とても小さな行動ですが、道を少しやわらかい空気にする力があります。",
+              "en": "It is a very small action, but it can make the mood on the road a little softer."
+            },
+            {
               "ja": "観光だけでなく、地域の経済を元気にする役割も期待されています。",
               "en": "The train is expected not only to support tourism but also to help energize the regional economy."
             }
@@ -55667,6 +55886,10 @@
           "readingHiragana": "き に した",
           "meaning": "Plain past form of 気にする: to mind, to care about",
           "exampleSentences": [
+            {
+              "ja": "とても小さな行動ですが、道を少しやわらかい空気にする力があります。",
+              "en": "It is a very small action, but it can make the mood on the road a little softer."
+            },
             {
               "ja": "観光だけでなく、地域の経済を元気にする役割も期待されています。",
               "en": "The train is expected not only to support tourism but also to help energize the regional economy."
@@ -55682,6 +55905,10 @@
           "meaning": "Plain negative form of 気にする: to mind, to care about",
           "exampleSentences": [
             {
+              "ja": "とても小さな行動ですが、道を少しやわらかい空気にする力があります。",
+              "en": "It is a very small action, but it can make the mood on the road a little softer."
+            },
+            {
               "ja": "観光だけでなく、地域の経済を元気にする役割も期待されています。",
               "en": "The train is expected not only to support tourism but also to help energize the regional economy."
             }
@@ -55695,6 +55922,10 @@
           "readingHiragana": "き に して",
           "meaning": "Te-form of 気にする: to mind, to care about",
           "exampleSentences": [
+            {
+              "ja": "とても小さな行動ですが、道を少しやわらかい空気にする力があります。",
+              "en": "It is a very small action, but it can make the mood on the road a little softer."
+            },
             {
               "ja": "観光だけでなく、地域の経済を元気にする役割も期待されています。",
               "en": "The train is expected not only to support tourism but also to help energize the regional economy."
@@ -56180,6 +56411,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
+          "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
+        },
+        {
           "ja": "実際には目立つ場所に集中しているのですが、それだけ都市の車の移動に深く組み込まれています。",
           "en": "In reality, it is concentrated in highly visible places, but that shows how deeply it is built into urban car travel."
         },
@@ -56194,10 +56429,6 @@
         {
           "ja": "航空会社は国内線と国際線を含む多くの便を欠航にし、新幹線や在来線にも遅れや運休が出ました。",
           "en": "Airlines canceled many domestic and international flights, and bullet trains and local rail services also saw delays and suspensions."
-        },
-        {
-          "ja": "交通機関を利用する際は、運行状況を確認し、無理な移動を避けることが大切です。",
-          "en": "When using transportation, it is important to check service status and avoid unnecessary travel."
         }
       ]
     },
@@ -57008,6 +57239,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "混雑した道でも、相手に少し気を配ると流れがよくなることがあります。",
+          "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+        },
+        {
           "ja": "東京の駅が混雑していても大きく混乱しにくいのは、こうした単純で強いデザインの力があるからかもしれません。",
           "en": "One reason Tokyo stations can stay usable despite heavy crowds may be the strength of this kind of simple, effective design."
         },
@@ -57426,6 +57661,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "とても小さな行動ですが、道を少しやわらかい空気にする力があります。",
+          "en": "It is a very small action, but it can make the mood on the road a little softer."
+        },
         {
           "ja": "日本の財務省の幹部は、その前から「決定的な行動をとる時が近い」と話していました。",
           "en": "A senior official at Japan’s Finance Ministry had already said that the time for decisive action was near."
@@ -57919,7 +58158,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "混雑した道でも、相手に少し気を配ると流れがよくなることがあります。",
+          "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "godan",
       "verbForms": [
@@ -57930,7 +58174,12 @@
           "term": "配ります",
           "readingHiragana": "くばります",
           "meaning": "Polite form of 配る: to distribute, to hand out",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "混雑した道でも、相手に少し気を配ると流れがよくなることがあります。",
+              "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+            }
+          ]
         },
         {
           "form": "past",
@@ -57939,7 +58188,12 @@
           "term": "配った",
           "readingHiragana": "くばった",
           "meaning": "Plain past form of 配る: to distribute, to hand out",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "混雑した道でも、相手に少し気を配ると流れがよくなることがあります。",
+              "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+            }
+          ]
         },
         {
           "form": "negative",
@@ -57948,7 +58202,12 @@
           "term": "配らない",
           "readingHiragana": "くばらない",
           "meaning": "Plain negative form of 配る: to distribute, to hand out",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "混雑した道でも、相手に少し気を配ると流れがよくなることがあります。",
+              "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+            }
+          ]
         },
         {
           "form": "te",
@@ -57957,7 +58216,12 @@
           "term": "配って",
           "readingHiragana": "くばって",
           "meaning": "Te-form of 配る: to distribute, to hand out",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "混雑した道でも、相手に少し気を配ると流れがよくなることがあります。",
+              "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+            }
+          ]
         },
         {
           "form": "potential",
@@ -57966,7 +58230,12 @@
           "term": "配れる",
           "readingHiragana": "くばれる",
           "meaning": "Potential form of 配る: to distribute, to hand out",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "混雑した道でも、相手に少し気を配ると流れがよくなることがあります。",
+              "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+            }
+          ]
         }
       ]
     },
@@ -60803,6 +61072,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
+          "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
+        },
+        {
           "ja": "つまりV2Xは、未来の実験だけでなく、すでに日常の運転の中にも入っているのです。",
           "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
         },
@@ -60817,10 +61090,6 @@
         {
           "ja": "実際には目立つ場所に集中しているのですが、それだけ都市の車の移動に深く組み込まれています。",
           "en": "In reality, it is concentrated in highly visible places, but that shows how deeply it is built into urban car travel."
-        },
-        {
-          "ja": "未来的に見えるシステムでも、実際の公共交通として使えることを示したのです。",
-          "en": "It showed that a futuristic-looking system could also work as real public transportation."
         }
       ]
     },
@@ -61752,6 +62021,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "言葉は聞こえませんが、運転者同士で気持ちを伝える方法として使われています。",
+          "en": "No words can be heard, but it is used as a way for drivers to communicate their feelings."
+        },
+        {
           "ja": "旅行者がレンタカーを借りるときも、ETCは大切です。",
           "en": "ETC is also important when travelers rent a car."
         },
@@ -61766,10 +62039,6 @@
         {
           "ja": "レベルが違っても一緒に楽しめるので、初心者にも人気があります。",
           "en": "Because people of different levels can enjoy it together, it is also popular with beginners."
-        },
-        {
-          "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
-          "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
         }
       ]
     },
@@ -62759,6 +63028,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "混雑した道でも、相手に少し気を配ると流れがよくなることがあります。",
+          "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+        },
         {
           "ja": "短い区間でも入口と出口が多く、流れを止めないためにETCの利用がとても重要です。",
           "en": "Even on short stretches, there are many entrances and exits, so using ETC is very important to keep traffic moving."
@@ -63914,24 +64187,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "日本で車に乗っていると、前の車が一瞬だけハザードランプを光らせることがあります。",
+          "en": "When you drive in Japan, you may sometimes see the car ahead flash its hazard lights for just a moment."
+        },
+        {
+          "ja": "外国ではクラクションや手であいさつすることが多い場所もありますが、日本では大きな音を出さない形のほうが合いやすいのかもしれません。",
+          "en": "In some other countries, people more often use the horn or wave with their hand, but in Japan a quieter form may fit better."
+        },
+        {
+          "ja": "それでも、この短い光には日本らしい運転文化がよく出ています。",
+          "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+        },
+        {
           "ja": "でも日本では、道路の情報を車へ送る仕組みが、もうかなり前から使われています。",
           "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
         },
         {
           "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
           "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
-        },
-        {
-          "ja": "つまり、日本のV2Xは「いつか来る未来技術」というより、もう見えにくい形で働いている生活のインフラです。",
-          "en": "So in Japan, V2X is less a future technology that will arrive someday and more an invisible piece of daily infrastructure that is already working."
-        },
-        {
-          "ja": "普段は当たり前のように使っている改札ですが、その裏には日本ならではの高い技術と緻密なシステム設計が詰まっています。",
-          "en": "We usually use ticket gates as if they were completely ordinary, but behind them are advanced technology and precise system design that feel very characteristic of Japan."
-        },
-        {
-          "ja": "1964年の東京オリンピックに向けて作られた、日本の技術史でも大切な乗り物です。",
-          "en": "It was built for the 1964 Tokyo Olympics, and it is also an important part of Japan's engineering history."
         }
       ]
     },
@@ -66607,6 +66880,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "ハザードなら後ろの車にも見えやすく、短時間で終わります。",
+          "en": "Hazard lights are easy for the car behind to see and only last a short time."
+        },
         {
           "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
           "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
@@ -77083,24 +77360,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ハザードなら後ろの車にも見えやすく、短時間で終わります。",
+          "en": "Hazard lights are easy for the car behind to see and only last a short time."
+        },
+        {
+          "ja": "また、ハザードは本来注意や非常時のためのランプなので、長く使うものではありません。",
+          "en": "Also, hazard lights are originally meant for caution or emergencies, not for long use."
+        },
+        {
+          "ja": "だからこそ、お礼として使う時もごく短く、安全を第一にすることが大切です。",
+          "en": "That is exactly why, when they are used as thanks, it should be only very brief and safety should come first."
+        },
+        {
           "ja": "VICSは渋滞や交通規制などの道路交通情報を、カーナビに実時間で届けます。",
           "en": "VICS delivers road traffic information such as congestion and traffic restrictions to car navigation systems in real time."
         },
         {
           "ja": "朝夕のラッシュ時間は車内が混むため、できれば避けたほうが安全です。",
           "en": "Trains are crowded during the morning and evening rush hours, so avoiding those times is safer when possible."
-        },
-        {
-          "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
-          "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
-        },
-        {
-          "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
-          "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
-        },
-        {
-          "ja": "当時、この路線は日本で最初に営業したモノレールでした。",
-          "en": "At the time, this line was Japan's first commercially operated monorail."
         }
       ]
     },
@@ -79500,6 +79777,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "言葉は聞こえませんが、運転者同士で気持ちを伝える方法として使われています。",
+          "en": "No words can be heard, but it is used as a way for drivers to communicate their feelings."
+        },
+        {
+          "ja": "それでも、この短い光には日本らしい運転文化がよく出ています。",
+          "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+        },
+        {
           "ja": "V2Xという言葉を聞くと、多くの人は自動運転の未来を想像します。",
           "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
         },
@@ -79510,14 +79795,6 @@
         {
           "ja": "そう考えると、ふつうの運転も少し未来的に見えてきます。",
           "en": "Seen that way, ordinary driving starts to look a little futuristic."
-        },
-        {
-          "ja": "東京で車を運転すると、ETCという言葉をあちこちで見かけます。",
-          "en": "When you drive in Tokyo, you see the term ETC in many places."
-        },
-        {
-          "ja": "だから、東京で運転するとETCが「どこにでもある」ように見えるのです。",
-          "en": "That is why ETC can look as if it is everywhere when you drive in Tokyo."
         }
       ]
     },
@@ -82782,6 +83059,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "この合図は、車線変更や合流のときによく見られます。",
+          "en": "This signal is often seen during lane changes and merges."
+        },
+        {
           "ja": "東京の駅は数が多くて、最初は路線図を見ても迷いやすいです。",
           "en": "Tokyo has so many stations that it is easy to get lost at first, even if you look at a route map."
         },
@@ -82796,10 +83077,6 @@
         {
           "ja": "東京の地下鉄やJRは複雑ですが、大きな駅の位置を地図の骨組みにすると、少しずつ慣れていきます。",
           "en": "Tokyo’s subways and JR lines are complicated, but if you treat the positions of major stations as the frame of the map, you gradually get used to it."
-        },
-        {
-          "ja": "栃木県の宇都宮市では、クマが公園や学校、図書館の近くに出て、多くの人を怖がらせました。",
-          "en": "In Utsunomiya, Tochigi Prefecture, a bear appeared near parks, schools, and a library, frightening many people."
         }
       ]
     },
@@ -82860,6 +83137,190 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": []
+    },
+    {
+      "id": "article-f2f52fd9813b12",
+      "level": "N3",
+      "term": "ハザードランプ",
+      "reading": "",
+      "readingHiragana": "",
+      "meaning": "Hazard lights",
+      "source": "article",
+      "sourceId": "2026-07-15-blinker-thank-you",
+      "sourceTitle": "日本では車に入れてもらった後で短く光を出してありがとうを伝えることがある",
+      "sourceLabel": "7/15 運転のありがとう",
+      "sourceHref": "./2026-07-15-blinker-thank-you.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-15-blinker-thank-you"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "日本で車に乗っていると、前の車が一瞬だけハザードランプを光らせることがあります。",
+          "en": "When you drive in Japan, you may sometimes see the car ahead flash its hazard lights for just a moment."
+        }
+      ]
+    },
+    {
+      "id": "article-3bcfa6035e3767",
+      "level": "N3",
+      "term": "合流",
+      "reading": "ごうりゅう",
+      "readingHiragana": "ごうりゅう",
+      "meaning": "Merge",
+      "source": "article",
+      "sourceId": "2026-07-15-blinker-thank-you",
+      "sourceTitle": "日本では車に入れてもらった後で短く光を出してありがとうを伝えることがある",
+      "sourceLabel": "7/15 運転のありがとう",
+      "sourceHref": "./2026-07-15-blinker-thank-you.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-15-blinker-thank-you"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "この合図は、車線変更や合流のときによく見られます。",
+          "en": "This signal is often seen during lane changes and merges."
+        }
+      ]
+    },
+    {
+      "id": "article-38a259f3dffff3",
+      "level": "N3",
+      "term": "車線変更",
+      "reading": "しゃせんへんこう",
+      "readingHiragana": "しゃせんへんこう",
+      "meaning": "Lane change",
+      "source": "article",
+      "sourceId": "2026-07-15-blinker-thank-you",
+      "sourceTitle": "日本では車に入れてもらった後で短く光を出してありがとうを伝えることがある",
+      "sourceLabel": "7/15 運転のありがとう",
+      "sourceHref": "./2026-07-15-blinker-thank-you.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-15-blinker-thank-you"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "この合図は、車線変更や合流のときによく見られます。",
+          "en": "This signal is often seen during lane changes and merges."
+        }
+      ]
+    },
+    {
+      "id": "article-66d258e4011fc2",
+      "level": "N3",
+      "term": "運転者同士",
+      "reading": "うんてんしゃどうし",
+      "readingHiragana": "うんてんしゃどうし",
+      "meaning": "Between drivers",
+      "source": "article",
+      "sourceId": "2026-07-15-blinker-thank-you",
+      "sourceTitle": "日本では車に入れてもらった後で短く光を出してありがとうを伝えることがある",
+      "sourceLabel": "7/15 運転のありがとう",
+      "sourceHref": "./2026-07-15-blinker-thank-you.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-15-blinker-thank-you"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "言葉は聞こえませんが、運転者同士で気持ちを伝える方法として使われています。",
+          "en": "No words can be heard, but it is used as a way for drivers to communicate their feelings."
+        }
+      ]
+    },
+    {
+      "id": "article-c4e506f3170bfb",
+      "level": "N3",
+      "term": "短時間",
+      "reading": "たんじかん",
+      "readingHiragana": "たんじかん",
+      "meaning": "Short time",
+      "source": "article",
+      "sourceId": "2026-07-15-blinker-thank-you",
+      "sourceTitle": "日本では車に入れてもらった後で短く光を出してありがとうを伝えることがある",
+      "sourceLabel": "7/15 運転のありがとう",
+      "sourceHref": "./2026-07-15-blinker-thank-you.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-15-blinker-thank-you"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "ハザードなら後ろの車にも見えやすく、短時間で終わります。",
+          "en": "Hazard lights are easy for the car behind to see and only last a short time."
+        }
+      ]
+    },
+    {
+      "id": "article-90b3605a093c5a",
+      "level": "N3",
+      "term": "義務",
+      "reading": "ぎむ",
+      "readingHiragana": "ぎむ",
+      "meaning": "Duty / Obligation",
+      "source": "article",
+      "sourceId": "2026-07-15-blinker-thank-you",
+      "sourceTitle": "日本では車に入れてもらった後で短く光を出してありがとうを伝えることがある",
+      "sourceLabel": "7/15 運転のありがとう",
+      "sourceHref": "./2026-07-15-blinker-thank-you.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-15-blinker-thank-you"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "もちろん、これは法律で決まった義務ではなく、すべての人がするわけでもありません。",
+          "en": "Of course, this is not a legal duty, and not everyone does it."
+        }
+      ]
+    },
+    {
+      "id": "article-f0559b658ce08d",
+      "level": "N3",
+      "term": "非常時",
+      "reading": "ひじょうじ",
+      "readingHiragana": "ひじょうじ",
+      "meaning": "Emergency",
+      "source": "article",
+      "sourceId": "2026-07-15-blinker-thank-you",
+      "sourceTitle": "日本では車に入れてもらった後で短く光を出してありがとうを伝えることがある",
+      "sourceLabel": "7/15 運転のありがとう",
+      "sourceHref": "./2026-07-15-blinker-thank-you.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-15-blinker-thank-you"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "また、ハザードは本来注意や非常時のためのランプなので、長く使うものではありません。",
+          "en": "Also, hazard lights are originally meant for caution or emergencies, not for long use."
+        }
+      ]
+    },
+    {
+      "id": "article-2efb87feaaf99f",
+      "level": "N3",
+      "term": "点滅",
+      "reading": "てんめつ",
+      "readingHiragana": "てんめつ",
+      "meaning": "Blinking / Flashing",
+      "source": "article",
+      "sourceId": "2026-07-15-blinker-thank-you",
+      "sourceTitle": "日本では車に入れてもらった後で短く光を出してありがとうを伝えることがある",
+      "sourceLabel": "7/15 運転のありがとう",
+      "sourceHref": "./2026-07-15-blinker-thank-you.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-15-blinker-thank-you"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "何気ない二回の点滅は、ただのランプではなく、「わかっています、ありがとう」という返事にも見えるのです。",
+          "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+        }
+      ]
     },
     {
       "id": "article-9e5d9e2ad7e854",
@@ -83778,6 +84239,10 @@
         "2026-07-08-ticket-gate-speed"
       ],
       "exampleSentences": [
+        {
+          "ja": "混雑した道でも、相手に少し気を配ると流れがよくなることがあります。",
+          "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+        },
         {
           "ja": "東京の駅が混雑していても大きく混乱しにくいのは、こうした単純で強いデザインの力があるからかもしれません。",
           "en": "One reason Tokyo stations can stay usable despite heavy crowds may be the strength of this kind of simple, effective design."
