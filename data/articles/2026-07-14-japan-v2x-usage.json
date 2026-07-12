@@ -1,0 +1,71 @@
+{
+  "_comment": "Publish-ready N3 article about practical V2X usage in Japan through VICS and ETC 2.0. Exactly 5 paragraph sections in the recent explanatory style.",
+  "id": "2026-07-14-japan-v2x-usage",
+  "file": "2026-07-14-japan-v2x-usage.html",
+  "title": "日本ではV2Xが未来の話だけではなく道路が車に話しかける形ですでに使われている",
+  "titleTranslation": "In Japan, V2X Is Not Just Future Talk. Roads Already 'Talk' to Cars",
+  "date": "2026年7月14日",
+  "month": "July 2026",
+  "navLabel": "7/14 日本のV2X",
+  "level": "N3",
+  "downloadFileName": "2026-07-14-japan-v2x-usage.mp4",
+  "headlineHtml": "<ruby>日本<rt>にほん</rt></ruby>ではV2Xが<ruby>未来<rt>みらい</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>だけではなく<ruby>道路<rt>どうろ</rt></ruby>が<ruby>車<rt>くるま</rt></ruby>に<ruby>話<rt>はな</rt></ruby>しかける<ruby>形<rt>かたち</rt></ruby>ですでに<ruby>使<rt>つか</rt></ruby>われている",
+  "sourceNote": "VICSセンターの英語版説明とVICSパンフレットをもとに、日本で実際に使われているV2Xの形を紹介します。",
+  "paragraphs": [
+    {
+      "html": "V2Xという<ruby>言葉<rt>ことば</rt></ruby>を<ruby>聞<rt>き</rt></ruby>くと、<ruby>多<rt>おお</rt></ruby>くの<ruby>人<rt>ひと</rt></ruby>は<ruby>自動運転<rt>じどううんてん</rt></ruby>の<ruby>未来<rt>みらい</rt></ruby>を<ruby>想像<rt>そうぞう</rt></ruby>します。でも<ruby>日本<rt>にほん</rt></ruby>では、<ruby>道路<rt>どうろ</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>車<rt>くるま</rt></ruby>へ<ruby>送<rt>おく</rt></ruby>る<ruby>仕組<rt>しく</rt></ruby>みが、もうかなり<ruby>前<rt>まえ</rt></ruby>から<ruby>使<rt>つか</rt></ruby>われています。つまりV2Xは、<ruby>未来<rt>みらい</rt></ruby>の<ruby>実験<rt>じっけん</rt></ruby>だけでなく、すでに<ruby>日常<rt>にちじょう</rt></ruby>の<ruby>運転<rt>うんてん</rt></ruby>の<ruby>中<rt>なか</rt></ruby>にも<ruby>入<rt>はい</rt></ruby>っているのです。",
+      "translation": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
+    },
+    {
+      "html": "<ruby>代表的<rt>だいひょうてき</rt></ruby>な<ruby>例<rt>れい</rt></ruby>がVICSです。VICSは<ruby>渋滞<rt>じゅうたい</rt></ruby>や<ruby>交通規制<rt>こうつうきせい</rt></ruby>などの<ruby>道路交通情報<rt>どうろこうつうじょうほう</rt></ruby>を、カーナビに<ruby>実時間<rt>じつじかん</rt></ruby>で<ruby>届<rt>とど</rt></ruby>けます。ドライバーは<ruby>画面<rt>がめん</rt></ruby>で<ruby>混<rt>こ</rt></ruby>み<ruby>具合<rt>ぐあい</rt></ruby>や<ruby>通行止<rt>つうこうど</rt></ruby>めを<ruby>知<rt>し</rt></ruby>ることができ、より<ruby>楽<rt>らく</rt></ruby>な<ruby>経路<rt>けいろ</rt></ruby>を<ruby>選<rt>えら</rt></ruby>びやすくなります。これは<ruby>道路<rt>どうろ</rt></ruby>の<ruby>側<rt>がわ</rt></ruby>から<ruby>車<rt>くるま</rt></ruby>へ<ruby>必要<rt>ひつよう</rt></ruby>な<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>送<rt>おく</rt></ruby>る、わかりやすいV2Iの<ruby>形<rt>かたち</rt></ruby>です。",
+      "translation": "A representative example is VICS. VICS delivers road traffic information such as congestion and traffic restrictions to car navigation systems in real time. Drivers can see crowded areas and road closures on the screen and choose easier routes. This is a clear form of V2I, where the road side sends necessary information to the vehicle."
+    },
+    {
+      "html": "<ruby>特<rt>とく</rt></ruby>に<ruby>高速道路<rt>こうそくどうろ</rt></ruby>では、その<ruby>感覚<rt>かんかく</rt></ruby>がもっとはっきりします。VICSのパンフレットでは、5.8ギガヘルツの<ruby>電波<rt>でんぱ</rt></ruby>ビーコンやETC2.0<ruby>対応<rt>たいおう</rt></ruby>システムを<ruby>通<rt>つう</rt></ruby>じて、<ruby>広<rt>ひろ</rt></ruby>い<ruby>範囲<rt>はんい</rt></ruby>の<ruby>交通情報<rt>こうつうじょうほう</rt></ruby>が<ruby>届<rt>とど</rt></ruby>くと<ruby>説明<rt>せつめい</rt></ruby>されています。<ruby>事故<rt>じこ</rt></ruby>や<ruby>工事<rt>こうじ</rt></ruby>、<ruby>天気<rt>てんき</rt></ruby>による<ruby>制限<rt>せいげん</rt></ruby>まで<ruby>受<rt>う</rt></ruby>け<ruby>取<rt>と</rt></ruby>れるので、ただお<ruby>金<rt>かね</rt></ruby>を<ruby>払<rt>はら</rt></ruby>うだけの<ruby>仕組<rt>しく</rt></ruby>みではありません。",
+      "translation": "This feeling becomes even clearer on expressways. According to the VICS pamphlet, wide-area traffic information is delivered through 5.8 GHz radio beacons and ETC 2.0 compatible systems. Drivers can receive information about accidents, construction, and even weather-related restrictions, so the system is not just about paying tolls."
+    },
+    {
+      "html": "<ruby>日本<rt>にほん</rt></ruby>の<ruby>道路<rt>どうろ</rt></ruby>は、<ruby>都市部<rt>としぶ</rt></ruby>では<ruby>入口<rt>いりぐち</rt></ruby>や<ruby>分岐<rt>ぶんき</rt></ruby>が<ruby>多<rt>おお</rt></ruby>く、<ruby>地方<rt>ちほう</rt></ruby>でも<ruby>天気<rt>てんき</rt></ruby>や<ruby>工事<rt>こうじ</rt></ruby>の<ruby>影響<rt>えいきょう</rt></ruby>を<ruby>受<rt>う</rt></ruby>けやすいです。だから、<ruby>車<rt>くるま</rt></ruby>が<ruby>自分<rt>じぶん</rt></ruby>だけで<ruby>考<rt>かんが</rt></ruby>えるより、<ruby>道路<rt>どうろ</rt></ruby>の<ruby>側<rt>がわ</rt></ruby>が<ruby>先<rt>さき</rt></ruby>に<ruby>状況<rt>じょうきょう</rt></ruby>を<ruby>知<rt>し</rt></ruby>らせるほうが<ruby>役<rt>やく</rt></ruby>に<ruby>立<rt>た</rt></ruby>ちます。V2Xが<ruby>静<rt>しず</rt></ruby>かに<ruby>広<rt>ひろ</rt></ruby>がった<ruby>理由<rt>りゆう</rt></ruby>は、この<ruby>実用性<rt>じつようせい</rt></ruby>の<ruby>高<rt>たか</rt></ruby>さにあります。",
+      "translation": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction. Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself. That practical value is why V2X has spread quietly."
+    },
+    {
+      "html": "つまり、<ruby>日本<rt>にほん</rt></ruby>のV2Xは「いつか<ruby>来<rt>く</rt></ruby>る<ruby>未来技術<rt>みらいぎじゅつ</rt></ruby>」というより、もう<ruby>見<rt>み</rt></ruby>えにくい<ruby>形<rt>かたち</rt></ruby>で<ruby>働<rt>はたら</rt></ruby>いている<ruby>生活<rt>せいかつ</rt></ruby>のインフラです。カーナビの<ruby>画面<rt>がめん</rt></ruby>に<ruby>出<rt>で</rt></ruby>る<ruby>渋滞情報<rt>じゅうたいじょうほう</rt></ruby>や<ruby>規制情報<rt>きせいじょうほう</rt></ruby>の<ruby>後<rt>うし</rt></ruby>ろには、<ruby>道路<rt>どうろ</rt></ruby>と<ruby>車<rt>くるま</rt></ruby>が<ruby>少<rt>すこ</rt></ruby>しずつ<ruby>会話<rt>かいわ</rt></ruby>している<ruby>世界<rt>せかい</rt></ruby>があります。そう<ruby>考<rt>かんが</rt></ruby>えると、ふつうの<ruby>運転<rt>うんてん</rt></ruby>も<ruby>少<rt>すこ</rt></ruby>し<ruby>未来的<rt>みらいてき</rt></ruby>に<ruby>見<rt>み</rt></ruby>えてきます。",
+      "translation": "So in Japan, V2X is less a future technology that will arrive someday and more an invisible piece of daily infrastructure that is already working. Behind the congestion and restriction information shown on a car navigation screen is a world where roads and cars are quietly exchanging information. Seen that way, ordinary driving starts to look a little futuristic."
+    }
+  ],
+  "vocabularyTitle": "N3 Vocabulary",
+  "vocabulary": [
+    {
+      "term": "道路交通情報（どうろこうつうじょうほう）",
+      "meaning": "Road traffic information"
+    },
+    {
+      "term": "実時間（じつじかん）",
+      "meaning": "Real time"
+    },
+    {
+      "term": "経路（けいろ）",
+      "meaning": "Route"
+    },
+    {
+      "term": "電波（でんぱ）",
+      "meaning": "Radio wave"
+    },
+    {
+      "term": "分岐（ぶんき）",
+      "meaning": "Junction / Branch point"
+    },
+    {
+      "term": "実用性（じつようせい）",
+      "meaning": "Practical usefulness"
+    },
+    {
+      "term": "規制情報（きせいじょうほう）",
+      "meaning": "Restriction information"
+    },
+    {
+      "term": "会話する（かいわする）",
+      "meaning": "To communicate / converse"
+    }
+  ]
+}

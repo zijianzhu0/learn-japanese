@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日本ではV2Xが未来の話だけではなく道路が車に話しかける形ですでに使われている</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <script>
+        (() => {
+            try {
+                const storedTheme = window.localStorage.getItem('learnJapanese.theme');
+                const theme = storedTheme === 'dark' || storedTheme === 'light'
+                    ? storedTheme
+                    : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                document.documentElement.dataset.theme = theme;
+                document.documentElement.style.colorScheme = theme;
+            } catch (error) {
+                document.documentElement.dataset.theme = 'light';
+                document.documentElement.style.colorScheme = 'light';
+            }
+        })();
+    </script>
+    <link rel="stylesheet" href="./assets/article.css?v=945b9350dedc">
+</head>
+<body id="top" data-article-id="2026-07-14-japan-v2x-usage" data-recording-download-name="2026-07-14-japan-v2x-usage.mp4">
+<nav class="top-nav" aria-label="Page navigation"></nav>
+<div class="article-shell">
+    <aside class="article-sidebar" aria-label="Article navigation"></aside>
+    <main class="article-main">
+
+<div class="container">
+    <div class="date">2026年7月14日</div>
+    <div class="article-toolbar">
+        <div class="voice-controls">
+            <button class="toolbar-icon-button voice-menu-toggle" type="button" id="voice-menu-toggle" aria-expanded="false" aria-controls="voice-settings-menu" aria-label="Voice settings" data-tooltip="Voice settings">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 10v4"></path>
+                    <path d="M8 7v10"></path>
+                    <path d="M12 4v16"></path>
+                    <path d="M16 7v10"></path>
+                    <path d="M20 10v4"></path>
+                </svg>
+                <span class="icon-label">Voice settings</span>
+            </button>
+            <div class="voice-current-status" id="voice-current-status" aria-live="polite">Docker VOICEVOX</div>
+            <button class="audio-enable-button" type="button" id="enable-docker-audio" hidden>Enable audio</button>
+            <div class="voice-settings-menu" id="voice-settings-menu" hidden>
+                <label class="toolbar-label" for="browser-voice">Browser Voice</label>
+                <select class="voice-select" id="browser-voice" aria-label="Browser voice">
+                    <option value="auto" selected>Google 日本語</option>
+                </select>
+            </div>
+        </div>
+        <div class="article-actions" aria-label="Article actions">
+            <button class="toolbar-icon-button preview-button" type="button" id="preview-recording-mode" aria-label="Preview recording mode" data-tooltip="Preview recording mode">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M2 12s3.8-6 10-6 10 6 10 6-3.8 6-10 6-10-6-10-6z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+                <span class="icon-label">Preview recording mode</span>
+            </button>
+            <button class="toolbar-icon-button video-button" type="button" id="render-video" aria-label="Render video" data-tooltip="Render video" data-default-label="Render video" data-active-label="Recording">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M5 6h11a2 2 0 0 1 2 2v1l3-2v10l-3-2v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"></path>
+                    <path d="M9 10.5v3l3-1.5z"></path>
+                </svg>
+                <span class="icon-label">Render video</span>
+            </button>
+            <button class="toolbar-icon-button cover-button" type="button" id="download-cover" aria-label="Download video cover" data-tooltip="Download cover" data-default-label="Download cover" data-active-label="Rendering cover">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                    <circle cx="8.5" cy="10" r="1.5"></circle>
+                    <path d="m21 15-5-5L5 19"></path>
+                </svg>
+                <span class="icon-label">Download cover</span>
+            </button>
+            <button class="toolbar-icon-button speak-button" type="button" id="speak-japanese-article" aria-label="Read aloud" data-tooltip="Read aloud" data-default-label="Read aloud" data-active-label="Stop reading" data-loading-label="Preparing audio">
+                <svg class="toolbar-svg icon-read" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 10v4h4l5 4V6L8 10z"></path>
+                    <path d="M16 9c1.8 1.8 1.8 4.2 0 6"></path>
+                    <path d="M18.5 6.5c3.3 3.3 3.3 7.7 0 11"></path>
+                </svg>
+                <svg class="toolbar-svg icon-stop" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 8h8v8H8z"></path>
+                </svg>
+                <span class="icon-label">Read aloud</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-japanese-article" aria-label="Copy Japanese article" data-tooltip="Copy Japanese article">
+                <span class="copy-language-icon" aria-hidden="true">あ</span>
+                <span class="icon-label">Copy Japanese article</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-english-translation" aria-label="Copy English translation" data-tooltip="Copy English translation">
+                <span class="copy-language-icon" aria-hidden="true">A</span>
+                <span class="icon-label">Copy English translation</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-bilingual-article" aria-label="Copy Japanese and English article" data-tooltip="Copy Japanese and English article">
+                <span class="copy-language-icon copy-language-icon-wide" aria-hidden="true">あ/A</span>
+                <span class="icon-label">Copy Japanese and English article</span>
+            </button>
+        </div>
+    </div>
+    <div class="copy-status" id="copy-status" aria-live="polite"></div>
+    <audio class="audio-player" id="tts-player" controls hidden preload="none"></audio>
+    <h1><ruby>日本<rt>にほん</rt></ruby>ではV2Xが<ruby>未来<rt>みらい</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>だけではなく<ruby>道路<rt>どうろ</rt></ruby>が<ruby>車<rt>くるま</rt></ruby>に<ruby>話<rt>はな</rt></ruby>しかける<ruby>形<rt>かたち</rt></ruby>ですでに<ruby>使<rt>つか</rt></ruby>われている</h1>
+    <div class="source-note">VICSセンターの英語版説明とVICSパンフレットをもとに、日本で実際に使われているV2Xの形を紹介します。</div>
+
+
+    <p class="article-paragraph">V2Xという<ruby>言葉<rt>ことば</rt></ruby>を<ruby>聞<rt>き</rt></ruby>くと、<ruby>多<rt>おお</rt></ruby>くの<ruby>人<rt>ひと</rt></ruby>は<ruby>自動運転<rt>じどううんてん</rt></ruby>の<ruby>未来<rt>みらい</rt></ruby>を<ruby>想像<rt>そうぞう</rt></ruby>します。でも<ruby>日本<rt>にほん</rt></ruby>では、<ruby>道路<rt>どうろ</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>車<rt>くるま</rt></ruby>へ<ruby>送<rt>おく</rt></ruby>る<ruby>仕組<rt>しく</rt></ruby>みが、もうかなり<ruby>前<rt>まえ</rt></ruby>から<ruby>使<rt>つか</rt></ruby>われています。つまりV2Xは、<ruby>未来<rt>みらい</rt></ruby>の<ruby>実験<rt>じっけん</rt></ruby>だけでなく、すでに<ruby>日常<rt>にちじょう</rt></ruby>の<ruby>運転<rt>うんてん</rt></ruby>の<ruby>中<rt>なか</rt></ruby>にも<ruby>入<rt>はい</rt></ruby>っているのです。</p>
+    <div class="sentence-translation">When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving.</div>
+    <p class="article-paragraph"><ruby>代表的<rt>だいひょうてき</rt></ruby>な<ruby>例<rt>れい</rt></ruby>がVICSです。VICSは<ruby>渋滞<rt>じゅうたい</rt></ruby>や<ruby>交通規制<rt>こうつうきせい</rt></ruby>などの<ruby>道路交通情報<rt>どうろこうつうじょうほう</rt></ruby>を、カーナビに<ruby>実時間<rt>じつじかん</rt></ruby>で<ruby>届<rt>とど</rt></ruby>けます。ドライバーは<ruby>画面<rt>がめん</rt></ruby>で<ruby>混<rt>こ</rt></ruby>み<ruby>具合<rt>ぐあい</rt></ruby>や<ruby>通行止<rt>つうこうど</rt></ruby>めを<ruby>知<rt>し</rt></ruby>ることができ、より<ruby>楽<rt>らく</rt></ruby>な<ruby>経路<rt>けいろ</rt></ruby>を<ruby>選<rt>えら</rt></ruby>びやすくなります。これは<ruby>道路<rt>どうろ</rt></ruby>の<ruby>側<rt>がわ</rt></ruby>から<ruby>車<rt>くるま</rt></ruby>へ<ruby>必要<rt>ひつよう</rt></ruby>な<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>送<rt>おく</rt></ruby>る、わかりやすいV2Iの<ruby>形<rt>かたち</rt></ruby>です。</p>
+    <div class="sentence-translation">A representative example is VICS. VICS delivers road traffic information such as congestion and traffic restrictions to car navigation systems in real time. Drivers can see crowded areas and road closures on the screen and choose easier routes. This is a clear form of V2I, where the road side sends necessary information to the vehicle.</div>
+    <p class="article-paragraph"><ruby>特<rt>とく</rt></ruby>に<ruby>高速道路<rt>こうそくどうろ</rt></ruby>では、その<ruby>感覚<rt>かんかく</rt></ruby>がもっとはっきりします。VICSのパンフレットでは、5.8ギガヘルツの<ruby>電波<rt>でんぱ</rt></ruby>ビーコンやETC2.0<ruby>対応<rt>たいおう</rt></ruby>システムを<ruby>通<rt>つう</rt></ruby>じて、<ruby>広<rt>ひろ</rt></ruby>い<ruby>範囲<rt>はんい</rt></ruby>の<ruby>交通情報<rt>こうつうじょうほう</rt></ruby>が<ruby>届<rt>とど</rt></ruby>くと<ruby>説明<rt>せつめい</rt></ruby>されています。<ruby>事故<rt>じこ</rt></ruby>や<ruby>工事<rt>こうじ</rt></ruby>、<ruby>天気<rt>てんき</rt></ruby>による<ruby>制限<rt>せいげん</rt></ruby>まで<ruby>受<rt>う</rt></ruby>け<ruby>取<rt>と</rt></ruby>れるので、ただお<ruby>金<rt>かね</rt></ruby>を<ruby>払<rt>はら</rt></ruby>うだけの<ruby>仕組<rt>しく</rt></ruby>みではありません。</p>
+    <div class="sentence-translation">This feeling becomes even clearer on expressways. According to the VICS pamphlet, wide-area traffic information is delivered through 5.8 GHz radio beacons and ETC 2.0 compatible systems. Drivers can receive information about accidents, construction, and even weather-related restrictions, so the system is not just about paying tolls.</div>
+    <p class="article-paragraph"><ruby>日本<rt>にほん</rt></ruby>の<ruby>道路<rt>どうろ</rt></ruby>は、<ruby>都市部<rt>としぶ</rt></ruby>では<ruby>入口<rt>いりぐち</rt></ruby>や<ruby>分岐<rt>ぶんき</rt></ruby>が<ruby>多<rt>おお</rt></ruby>く、<ruby>地方<rt>ちほう</rt></ruby>でも<ruby>天気<rt>てんき</rt></ruby>や<ruby>工事<rt>こうじ</rt></ruby>の<ruby>影響<rt>えいきょう</rt></ruby>を<ruby>受<rt>う</rt></ruby>けやすいです。だから、<ruby>車<rt>くるま</rt></ruby>が<ruby>自分<rt>じぶん</rt></ruby>だけで<ruby>考<rt>かんが</rt></ruby>えるより、<ruby>道路<rt>どうろ</rt></ruby>の<ruby>側<rt>がわ</rt></ruby>が<ruby>先<rt>さき</rt></ruby>に<ruby>状況<rt>じょうきょう</rt></ruby>を<ruby>知<rt>し</rt></ruby>らせるほうが<ruby>役<rt>やく</rt></ruby>に<ruby>立<rt>た</rt></ruby>ちます。V2Xが<ruby>静<rt>しず</rt></ruby>かに<ruby>広<rt>ひろ</rt></ruby>がった<ruby>理由<rt>りゆう</rt></ruby>は、この<ruby>実用性<rt>じつようせい</rt></ruby>の<ruby>高<rt>たか</rt></ruby>さにあります。</p>
+    <div class="sentence-translation">Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction. Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself. That practical value is why V2X has spread quietly.</div>
+    <p class="article-paragraph">つまり、<ruby>日本<rt>にほん</rt></ruby>のV2Xは「いつか<ruby>来<rt>く</rt></ruby>る<ruby>未来技術<rt>みらいぎじゅつ</rt></ruby>」というより、もう<ruby>見<rt>み</rt></ruby>えにくい<ruby>形<rt>かたち</rt></ruby>で<ruby>働<rt>はたら</rt></ruby>いている<ruby>生活<rt>せいかつ</rt></ruby>のインフラです。カーナビの<ruby>画面<rt>がめん</rt></ruby>に<ruby>出<rt>で</rt></ruby>る<ruby>渋滞情報<rt>じゅうたいじょうほう</rt></ruby>や<ruby>規制情報<rt>きせいじょうほう</rt></ruby>の<ruby>後<rt>うし</rt></ruby>ろには、<ruby>道路<rt>どうろ</rt></ruby>と<ruby>車<rt>くるま</rt></ruby>が<ruby>少<rt>すこ</rt></ruby>しずつ<ruby>会話<rt>かいわ</rt></ruby>している<ruby>世界<rt>せかい</rt></ruby>があります。そう<ruby>考<rt>かんが</rt></ruby>えると、ふつうの<ruby>運転<rt>うんてん</rt></ruby>も<ruby>少<rt>すこ</rt></ruby>し<ruby>未来的<rt>みらいてき</rt></ruby>に<ruby>見<rt>み</rt></ruby>えてきます。</p>
+    <div class="sentence-translation">So in Japan, V2X is less a future technology that will arrive someday and more an invisible piece of daily infrastructure that is already working. Behind the congestion and restriction information shown on a car navigation screen is a world where roads and cars are quietly exchanging information. Seen that way, ordinary driving starts to look a little futuristic.</div>
+    <div class="recording-footer" aria-hidden="true">
+        <span>英訳はコメント欄にあります</span>
+        <span>2026年7月14日</span>
+    </div>
+
+<div class="study-notes-box">
+        <h2>Common Phrases and Patterns</h2>
+        <div class="study-note-group">
+            <h3>Useful phrases</h3>
+            <ul class="study-note-list">
+                <li><strong>〜だけで</strong> <span>just by / only with</span><div class="study-note-example">Example: 日本ではV2Xが未来の話だけではなく道路が車に話しかける形です</div></li>
+                <li><strong>〜だけではなく</strong> <span>not only ... but also</span><div class="study-note-example">Example: 日本ではV2Xが未来の話だけではなく道路が車に話しかける形ですでに使</div></li>
+            </ul>
+        </div>
+        <div class="study-note-group">
+            <h3>Verb and grammar patterns</h3>
+            <ul class="study-note-list">
+                <li><strong>〜ている</strong> <span>ongoing state / habitual action</span><div class="study-note-example">Example: が車に話しかける形ですでに使われている V2Xという言葉を聞くと、多く</div></li>
+                <li><strong>〜にくい</strong> <span>hard to do</span><div class="study-note-example">Example: る未来技術」というより、もう見えにくい形で働いている生活のインフラです</div></li>
+                <li><strong>〜やすい</strong> <span>easy to do</span><div class="study-note-example">Example: から車へ必要な情報を送る、わかりやすいV2Iの形です</div></li>
+            </ul>
+        </div>
+    </div>
+    <div class="vocabulary-box">
+        <h2>N3 Vocabulary</h2>
+        <ul>
+            <li><strong>道路交通情報（どうろこうつうじょうほう）:</strong> Road traffic information</li>
+            <li><strong>実時間（じつじかん）:</strong> Real time</li>
+            <li><strong>経路（けいろ）:</strong> Route</li>
+            <li><strong>電波（でんぱ）:</strong> Radio wave</li>
+            <li><strong>分岐（ぶんき）:</strong> Junction / Branch point</li>
+            <li><strong>実用性（じつようせい）:</strong> Practical usefulness</li>
+            <li><strong>規制情報（きせいじょうほう）:</strong> Restriction information</li>
+            <li><strong>会話する（かいわする）:</strong> To communicate / converse</li>
+        </ul>
+    </div>
+</div>
+    </main>
+</div>
+
+<script src="./assets/theme.js"></script>
+<script src="./assets/article.js?v=94510f45cd63"></script>
+
+</body>
+</html>

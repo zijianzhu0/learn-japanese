@@ -4,7 +4,7 @@
     "articleManifest": "data/articles.json"
   },
   "levels": {
-    "N3": 2045,
+    "N3": 2053,
     "N4": 536,
     "N5": 553
   },
@@ -961,6 +961,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "カーナビの画面に出る渋滞情報や規制情報の後ろには、道路と車が少しずつ会話している世界があります。",
+          "en": "Behind the congestion and restriction information shown on a car navigation screen is a world where roads and cars are quietly exchanging information."
+        },
+        {
           "ja": "袋に入れた後は、持ち上げても部品が動かないよう、しっかり固定します。",
           "en": "After putting the bike in the bag, secure the parts so they do not move when you lift it."
         },
@@ -975,10 +979,6 @@
         {
           "ja": "運転は約3時間後の午後8時48分に再開しました。",
           "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
-        },
-        {
-          "ja": "その後、救急隊や医師たちが浜辺で手当てをしました。",
-          "en": "After that, emergency workers and doctors treated her on the beach."
         }
       ]
     },
@@ -2138,6 +2138,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "カーナビの画面に出る渋滞情報や規制情報の後ろには、道路と車が少しずつ会話している世界があります。",
+          "en": "Behind the congestion and restriction information shown on a car navigation screen is a world where roads and cars are quietly exchanging information."
+        },
+        {
           "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
         }
@@ -2153,6 +2157,10 @@
           "readingHiragana": "でます",
           "meaning": "Polite form of 出る: to leave, to exit",
           "exampleSentences": [
+            {
+              "ja": "カーナビの画面に出る渋滞情報や規制情報の後ろには、道路と車が少しずつ会話している世界があります。",
+              "en": "Behind the congestion and restriction information shown on a car navigation screen is a world where roads and cars are quietly exchanging information."
+            },
             {
               "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
               "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
@@ -2174,6 +2182,10 @@
             {
               "ja": "専門家は、注意報が出たときは、海の近くに行かないことが大切だと話しています。",
               "en": "Experts say it is important not to go near the sea when an advisory is issued."
+            },
+            {
+              "ja": "カーナビの画面に出る渋滞情報や規制情報の後ろには、道路と車が少しずつ会話している世界があります。",
+              "en": "Behind the congestion and restriction information shown on a car navigation screen is a world where roads and cars are quietly exchanging information."
             },
             {
               "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
@@ -2200,6 +2212,10 @@
             {
               "ja": "市はSNSや放送車で注意を出し、住民に外へ出ないよう呼びかけました。",
               "en": "The city issued warnings on social media and through announcement vehicles, asking residents not to go outside."
+            },
+            {
+              "ja": "カーナビの画面に出る渋滞情報や規制情報の後ろには、道路と車が少しずつ会話している世界があります。",
+              "en": "Behind the congestion and restriction information shown on a car navigation screen is a world where roads and cars are quietly exchanging information."
             },
             {
               "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
@@ -2245,6 +2261,10 @@
           "readingHiragana": "でられる",
           "meaning": "Potential form of 出る: to leave, to exit",
           "exampleSentences": [
+            {
+              "ja": "カーナビの画面に出る渋滞情報や規制情報の後ろには、道路と車が少しずつ会話している世界があります。",
+              "en": "Behind the congestion and restriction information shown on a car navigation screen is a world where roads and cars are quietly exchanging information."
+            },
             {
               "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
               "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
@@ -3247,6 +3267,10 @@
           "meaning": "Te-form of 入る: to enter, to go into",
           "exampleSentences": [
             {
+              "ja": "つまりV2Xは、未来の実験だけでなく、すでに日常の運転の中にも入っているのです。",
+              "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
+            },
+            {
               "ja": "京急線では、たくさんの電車がほかの鉄道会社の路線へそのまま入っていきます。",
               "en": "On the Keikyu Line, many trains continue directly onto other railway networks."
             },
@@ -3261,10 +3285,6 @@
             {
               "ja": "駅へ入る前に、通行の邪魔にならない場所で自転車を準備します。",
               "en": "Before entering the station, prepare your bicycle somewhere that does not block pedestrian traffic."
-            },
-            {
-              "ja": "日本では、クマが人の生活する場所に入る問題が増えています。",
-              "en": "In Japan, the problem of bears entering places where people live is increasing."
             }
           ]
         },
@@ -3598,6 +3618,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "カーナビの画面に出る渋滞情報や規制情報の後ろには、道路と車が少しずつ会話している世界があります。",
+          "en": "Behind the congestion and restriction information shown on a car navigation screen is a world where roads and cars are quietly exchanging information."
+        },
+        {
           "ja": "アメリカとイランは、戦争を終わらせるための一時的な合意について話し合っています。",
           "en": "The United States and Iran are discussing a temporary agreement to end the war."
         },
@@ -3612,10 +3636,6 @@
         {
           "ja": "家族は、救助した人たちや病院のスタッフに深く感謝していると話しました。",
           "en": "The family said they are deeply grateful to the people who rescued her and to the hospital staff."
-        },
-        {
-          "ja": "試合後、ブラジルのアンチェロッティ監督は、チームはもっと良くならなければならないと話しました。",
-          "en": "After the match, Brazil coach Ancelotti said the team must improve."
         }
       ]
     },
@@ -3672,6 +3692,10 @@
           "meaning": "Te-form of 話す: to talk, to speak",
           "exampleSentences": [
             {
+              "ja": "カーナビの画面に出る渋滞情報や規制情報の後ろには、道路と車が少しずつ会話している世界があります。",
+              "en": "Behind the congestion and restriction information shown on a car navigation screen is a world where roads and cars are quietly exchanging information."
+            },
+            {
               "ja": "専門家は、アプリだけに頼らず、自分の体調にも注意してほしいと話しています。",
               "en": "Experts say people should not rely only on apps and should also pay attention to their own physical condition."
             },
@@ -3686,10 +3710,6 @@
             {
               "ja": "関係者は、この温室をきっかけに、販売や出荷も協力してできるようにしたいと話しています。",
               "en": "The people involved say they also want to use the greenhouse as a starting point for cooperative selling and shipping."
-            },
-            {
-              "ja": "関係者は、品質を守りながら輸出を広げたいと話しています。",
-              "en": "People involved say they want to expand exports while protecting quality."
             }
           ]
         },
@@ -4151,6 +4171,10 @@
           "meaning": "Te-form of 働く: to work",
           "exampleSentences": [
             {
+              "ja": "つまり、日本のV2Xは「いつか来る未来技術」というより、もう見えにくい形で働いている生活のインフラです。",
+              "en": "So in Japan, V2X is less a future technology that will arrive someday and more an invisible piece of daily infrastructure that is already working."
+            },
+            {
               "ja": "もともとの予定は2年間でしたが、20年以上たった今も科学のために働いています。",
               "en": "Its mission was originally planned for two years, but more than 20 years later, it is still working for science."
             },
@@ -4335,24 +4359,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "でも日本では、道路の情報を車へ送る仕組みが、もうかなり前から使われています。",
+          "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
+        },
+        {
+          "ja": "つまりV2Xは、未来の実験だけでなく、すでに日常の運転の中にも入っているのです。",
+          "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
+        },
+        {
+          "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
+          "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
+        },
+        {
+          "ja": "つまり、日本のV2Xは「いつか来る未来技術」というより、もう見えにくい形で働いている生活のインフラです。",
+          "en": "So in Japan, V2X is less a future technology that will arrive someday and more an invisible piece of daily infrastructure that is already working."
+        },
+        {
           "ja": "何気ない色の使い方ですが、毎日何百万人もの通勤客や旅行者がこの工夫に助けられています。",
           "en": "It is only a simple use of color, but every day hundreds of thousands of commuters and travelers are helped by this idea."
-        },
-        {
-          "ja": "毎日何百万人もの乗客が利用しているのに、多くの人はほんの一瞬で通過できます。",
-          "en": "Even though millions of passengers use them every day, most people can pass through in just a moment."
-        },
-        {
-          "ja": "速さと安全性を両立しているからこそ、毎日の大きな移動が安定して続けられるのです。",
-          "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
-        },
-        {
-          "ja": "普段は当たり前のように使っている改札ですが、その裏には日本ならではの高い技術と緻密なシステム設計が詰まっています。",
-          "en": "We usually use ticket gates as if they were completely ordinary, but behind them are advanced technology and precise system design that feel very characteristic of Japan."
-        },
-        {
-          "ja": "毎日たくさんの人が行き交う東京の駅だからこそ、このような技術がとても自然に街へ溶け込んでいるのかもしれません。",
-          "en": "Because Tokyo stations are used by so many people every day, perhaps this kind of technology blends naturally into the city."
         }
       ]
     },
@@ -4654,6 +4678,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "0対応システムを通じて、広い範囲の交通情報が届くと説明されています。",
+          "en": "0 compatible systems."
+        },
+        {
           "ja": "駅の外に出て、広い安全な場所で輪行袋を開きます。",
           "en": "Leave the station and open the bike bag in a spacious, safe place."
         },
@@ -4712,6 +4740,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "V2Xという言葉を聞くと、多くの人は自動運転の未来を想像します。",
+          "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
+        },
+        {
           "ja": "高速道路の入口だけでなく、料金所の案内や道路標識にもETCの表示が多く、はじめての人は「ここではETCが当たり前なのだ」と感じやすいです。",
           "en": "It appears not only at expressway entrances, but also on toll guidance and road signs, so first-time drivers easily feel that ETC is simply taken for granted here."
         },
@@ -4726,10 +4758,6 @@
         {
           "ja": "何気ない色の使い方ですが、毎日何百万人もの通勤客や旅行者がこの工夫に助けられています。",
           "en": "It is only a simple use of color, but every day hundreds of thousands of commuters and travelers are helped by this idea."
-        },
-        {
-          "ja": "毎日何百万人もの乗客が利用しているのに、多くの人はほんの一瞬で通過できます。",
-          "en": "Even though millions of passengers use them every day, most people can pass through in just a moment."
         }
       ]
     },
@@ -4799,24 +4827,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "でも日本では、道路の情報を車へ送る仕組みが、もうかなり前から使われています。",
+          "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
+        },
+        {
+          "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
+          "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
+        },
+        {
+          "ja": "つまり、日本のV2Xは「いつか来る未来技術」というより、もう見えにくい形で働いている生活のインフラです。",
+          "en": "So in Japan, V2X is less a future technology that will arrive someday and more an invisible piece of daily infrastructure that is already working."
+        },
+        {
           "ja": "東京の電車に自転車をそのまま持ち込むことは、基本的にできません。",
           "en": "You generally cannot take an uncovered bicycle directly onto trains in Tokyo."
         },
         {
           "ja": "普段は当たり前のように使っている改札ですが、その裏には日本ならではの高い技術と緻密なシステム設計が詰まっています。",
           "en": "We usually use ticket gates as if they were completely ordinary, but behind them are advanced technology and precise system design that feel very characteristic of Japan."
-        },
-        {
-          "ja": "1964年の東京オリンピックに向けて作られた、日本の技術史でも大切な乗り物です。",
-          "en": "It was built for the 1964 Tokyo Olympics, and it is also an important part of Japan's engineering history."
-        },
-        {
-          "ja": "当時、この路線は日本で最初に営業したモノレールでした。",
-          "en": "At the time, this line was Japan's first commercially operated monorail."
-        },
-        {
-          "ja": "日本と中国の関係は、経済では深くつながっています。",
-          "en": "Japan and China are deeply connected through the economy."
         }
       ]
     },
@@ -5542,6 +5570,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
+          "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
+        },
+        {
           "ja": "高速道路の入口だけでなく、料金所の案内や道路標識にもETCの表示が多く、はじめての人は「ここではETCが当たり前なのだ」と感じやすいです。",
           "en": "It appears not only at expressway entrances, but also on toll guidance and road signs, so first-time drivers easily feel that ETC is simply taken for granted here."
         },
@@ -5953,6 +5985,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "だから、車が自分だけで考えるより、道路の側が先に状況を知らせるほうが役に立ちます。",
+          "en": "Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself."
+        },
+        {
           "ja": "自分が使う機会がないと、こうした設備にはなかなか気づかないものです。",
           "en": "If you never have a reason to use such equipment, it is easy not to notice it."
         },
@@ -5967,10 +6003,6 @@
         {
           "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
           "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
-        },
-        {
-          "ja": "速く走る人もいれば、ゆっくり自分のペースで走る人もいます。",
-          "en": "Some people run fast, while others run slowly at their own pace."
         }
       ]
     },
@@ -6009,6 +6041,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "VICSは渋滞や交通規制などの道路交通情報を、カーナビに実時間で届けます。",
+          "en": "VICS delivers road traffic information such as congestion and traffic restrictions to car navigation systems in real time."
+        },
+        {
           "ja": "朝夕のラッシュ時間は車内が混むため、できれば避けたほうが安全です。",
           "en": "Trains are crowded during the morning and evening rush hours, so avoiding those times is safer when possible."
         },
@@ -6023,10 +6059,6 @@
         {
           "ja": "この考え方ができると、毎回ルート検索に時間を取られにくくなります。",
           "en": "Once you can think this way, you do not spend as much time on route searches every time."
-        },
-        {
-          "ja": "台風の進路は、数時間で変わることがあります。",
-          "en": "A typhoon's path can change within a few hours."
         }
       ]
     },
@@ -6781,6 +6813,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
+          "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
+        },
+        {
           "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
           "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
         },
@@ -6795,10 +6831,6 @@
         {
           "ja": "これだけで、電車の選び方がかなり簡単になります。",
           "en": "That alone makes choosing a train much easier."
-        },
-        {
-          "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
-          "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
         }
       ]
     },
@@ -7937,6 +7969,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "V2Xという言葉を聞くと、多くの人は自動運転の未来を想像します。",
+          "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
+        },
+        {
           "ja": "東京で車を運転すると、ETCという言葉をあちこちで見かけます。",
           "en": "When you drive in Tokyo, you see the term ETC in many places."
         },
@@ -8002,7 +8038,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "V2Xという言葉を聞くと、多くの人は自動運転の未来を想像します。",
+          "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "godan",
       "verbForms": [
@@ -8013,7 +8054,12 @@
           "term": "聞きます",
           "readingHiragana": "ききます",
           "meaning": "Polite form of 聞く: to hear, to listen",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "V2Xという言葉を聞くと、多くの人は自動運転の未来を想像します。",
+              "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
+            }
+          ]
         },
         {
           "form": "past",
@@ -8022,7 +8068,12 @@
           "term": "聞いた",
           "readingHiragana": "きいた",
           "meaning": "Plain past form of 聞く: to hear, to listen",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "V2Xという言葉を聞くと、多くの人は自動運転の未来を想像します。",
+              "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -8031,7 +8082,12 @@
           "term": "聞かない",
           "readingHiragana": "きかない",
           "meaning": "Plain negative form of 聞く: to hear, to listen",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "V2Xという言葉を聞くと、多くの人は自動運転の未来を想像します。",
+              "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
+            }
+          ]
         },
         {
           "form": "te",
@@ -8044,6 +8100,10 @@
             {
               "ja": "そして、子どものころからアルバムを聞いていたと笑顔で話しました。",
               "en": "Smiling, she said she had been listening to the band's albums since childhood."
+            },
+            {
+              "ja": "V2Xという言葉を聞くと、多くの人は自動運転の未来を想像します。",
+              "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
             }
           ]
         },
@@ -8054,7 +8114,12 @@
           "term": "聞ける",
           "readingHiragana": "きける",
           "meaning": "Potential form of 聞く: to hear, to listen",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "V2Xという言葉を聞くと、多くの人は自動運転の未来を想像します。",
+              "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
+            }
+          ]
         }
       ]
     },
@@ -8148,6 +8213,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
+          "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
+        },
+        {
           "ja": "高速道路の入口だけでなく、料金所の案内や道路標識にもETCの表示が多く、はじめての人は「ここではETCが当たり前なのだ」と感じやすいです。",
           "en": "It appears not only at expressway entrances, but also on toll guidance and road signs, so first-time drivers easily feel that ETC is simply taken for granted here."
         },
@@ -8162,10 +8231,6 @@
         {
           "ja": "電車の路線はそれぞれ別の色で表されることが多いので、黄色い出口案内は見分けやすいです。",
           "en": "Train lines are often shown in different colors, so yellow exit guidance is easy to distinguish from them."
-        },
-        {
-          "ja": "全部を理解しようとしなくても、「黄色は出口」と覚えておけば、移動の負担がかなり軽くなります。",
-          "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
         }
       ]
     },
@@ -8285,6 +8350,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "つまり、日本のV2Xは「いつか来る未来技術」というより、もう見えにくい形で働いている生活のインフラです。",
+          "en": "So in Japan, V2X is less a future technology that will arrive someday and more an invisible piece of daily infrastructure that is already working."
+        },
+        {
           "ja": "気象庁は、最大1メートルの津波が来る可能性があると発表しました。",
           "en": "The agency announced that waves of up to one meter could arrive."
         },
@@ -8304,6 +8373,10 @@
           "readingHiragana": "きます",
           "meaning": "Polite form of 来る: to come",
           "exampleSentences": [
+            {
+              "ja": "つまり、日本のV2Xは「いつか来る未来技術」というより、もう見えにくい形で働いている生活のインフラです。",
+              "en": "So in Japan, V2X is less a future technology that will arrive someday and more an invisible piece of daily infrastructure that is already working."
+            },
             {
               "ja": "気象庁は、最大1メートルの津波が来る可能性があると発表しました。",
               "en": "The agency announced that waves of up to one meter could arrive."
@@ -8331,6 +8404,10 @@
               "en": "Announcements are also available in English and Chinese, making things easy for first-time visitors."
             },
             {
+              "ja": "つまり、日本のV2Xは「いつか来る未来技術」というより、もう見えにくい形で働いている生活のインフラです。",
+              "en": "So in Japan, V2X is less a future technology that will arrive someday and more an invisible piece of daily infrastructure that is already working."
+            },
+            {
               "ja": "気象庁は、最大1メートルの津波が来る可能性があると発表しました。",
               "en": "The agency announced that waves of up to one meter could arrive."
             },
@@ -8348,6 +8425,10 @@
           "readingHiragana": "こない",
           "meaning": "Plain negative form of 来る: to come",
           "exampleSentences": [
+            {
+              "ja": "つまり、日本のV2Xは「いつか来る未来技術」というより、もう見えにくい形で働いている生活のインフラです。",
+              "en": "So in Japan, V2X is less a future technology that will arrive someday and more an invisible piece of daily infrastructure that is already working."
+            },
             {
               "ja": "気象庁は、最大1メートルの津波が来る可能性があると発表しました。",
               "en": "The agency announced that waves of up to one meter could arrive."
@@ -8371,6 +8452,10 @@
               "en": "Drones can quickly check whether roads are passable and how far river water has reached."
             },
             {
+              "ja": "つまり、日本のV2Xは「いつか来る未来技術」というより、もう見えにくい形で働いている生活のインフラです。",
+              "en": "So in Japan, V2X is less a future technology that will arrive someday and more an invisible piece of daily infrastructure that is already working."
+            },
+            {
               "ja": "気象庁は、最大1メートルの津波が来る可能性があると発表しました。",
               "en": "The agency announced that waves of up to one meter could arrive."
             },
@@ -8388,6 +8473,10 @@
           "readingHiragana": "こられる",
           "meaning": "Potential form of 来る: to come",
           "exampleSentences": [
+            {
+              "ja": "つまり、日本のV2Xは「いつか来る未来技術」というより、もう見えにくい形で働いている生活のインフラです。",
+              "en": "So in Japan, V2X is less a future technology that will arrive someday and more an invisible piece of daily infrastructure that is already working."
+            },
             {
               "ja": "気象庁は、最大1メートルの津波が来る可能性があると発表しました。",
               "en": "The agency announced that waves of up to one meter could arrive."
@@ -8415,24 +8504,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "でも日本では、道路の情報を車へ送る仕組みが、もうかなり前から使われています。",
+          "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
+        },
+        {
+          "ja": "これは道路の側から車へ必要な情報を送る、わかりやすいV2Iの形です。",
+          "en": "This is a clear form of V2I, where the road side sends necessary information to the vehicle."
+        },
+        {
+          "ja": "だから、車が自分だけで考えるより、道路の側が先に状況を知らせるほうが役に立ちます。",
+          "en": "Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself."
+        },
+        {
+          "ja": "カーナビの画面に出る渋滞情報や規制情報の後ろには、道路と車が少しずつ会話している世界があります。",
+          "en": "Behind the congestion and restriction information shown on a car navigation screen is a world where roads and cars are quietly exchanging information."
+        },
+        {
           "ja": "東京で車を運転すると、ETCという言葉をあちこちで見かけます。",
           "en": "When you drive in Tokyo, you see the term ETC in many places."
-        },
-        {
-          "ja": "多くの車にはETCの車載器がついていますが、カード自体は別に必要なことがあります。",
-          "en": "Many cars have an ETC onboard unit, but the card itself may be separate."
-        },
-        {
-          "ja": "料金が自動で計算され、車を止めずに精算できるので、東京のように交通量が多い場所ではとても効率的です。",
-          "en": "Tolls are calculated automatically, and you can pay without stopping the car, which is highly efficient in a place with as much traffic as Tokyo."
-        },
-        {
-          "ja": "実際には目立つ場所に集中しているのですが、それだけ都市の車の移動に深く組み込まれています。",
-          "en": "In reality, it is concentrated in highly visible places, but that shows how deeply it is built into urban car travel."
-        },
-        {
-          "ja": "東京の電車に自転車をそのまま持ち込むことは、基本的にできません。",
-          "en": "You generally cannot take an uncovered bicycle directly onto trains in Tokyo."
         }
       ]
     },
@@ -8582,6 +8671,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "でも日本では、道路の情報を車へ送る仕組みが、もうかなり前から使われています。",
+          "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
+        },
+        {
           "ja": "高速道路の入口だけでなく、料金所の案内や道路標識にもETCの表示が多く、はじめての人は「ここではETCが当たり前なのだ」と感じやすいです。",
           "en": "It appears not only at expressway entrances, but also on toll guidance and road signs, so first-time drivers easily feel that ETC is simply taken for granted here."
         },
@@ -8596,10 +8689,6 @@
         {
           "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
           "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
-        },
-        {
-          "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
-          "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
         }
       ]
     },
@@ -9089,24 +9178,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "高速道路の入口だけでなく、料金所の案内や道路標識にもETCの表示が多く、はじめての人は「ここではETCが当たり前なのだ」と感じやすいです。",
-          "en": "It appears not only at expressway entrances, but also on toll guidance and road signs, so first-time drivers easily feel that ETC is simply taken for granted here."
+          "ja": "でも日本では、道路の情報を車へ送る仕組みが、もうかなり前から使われています。",
+          "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
         },
         {
-          "ja": "ETCを知っているだけで、東京の道路がどう動いているか、少し見えやすくなります。",
-          "en": "Just understanding ETC makes it easier to see how Tokyo’s roads actually work."
+          "ja": "VICSは渋滞や交通規制などの道路交通情報を、カーナビに実時間で届けます。",
+          "en": "VICS delivers road traffic information such as congestion and traffic restrictions to car navigation systems in real time."
         },
         {
-          "ja": "多くの鉄道会社では、自転車を分解したり折りたたんだりして、専用の輪行袋に完全に入れる必要があります。",
-          "en": "Many railway companies require bicycles to be disassembled or folded and completely placed inside a dedicated bike transport bag."
+          "ja": "これは道路の側から車へ必要な情報を送る、わかりやすいV2Iの形です。",
+          "en": "This is a clear form of V2I, where the road side sends necessary information to the vehicle."
         },
         {
-          "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
-          "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
+          "ja": "特に高速道路では、その感覚がもっとはっきりします。",
+          "en": "This feeling becomes even clearer on expressways."
         },
         {
-          "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
-          "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
+          "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
+          "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
         }
       ]
     },
@@ -9943,6 +10032,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "つまりV2Xは、未来の実験だけでなく、すでに日常の運転の中にも入っているのです。",
+          "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
+        },
+        {
           "ja": "実際には目立つ場所に集中しているのですが、それだけ都市の車の移動に深く組み込まれています。",
           "en": "In reality, it is concentrated in highly visible places, but that shows how deeply it is built into urban car travel."
         },
@@ -9957,10 +10050,6 @@
         {
           "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
           "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
-        },
-        {
-          "ja": "普段は何気なく歩いている駅の中にも、このようなやさしい工夫が隠れていると知って、少し驚きました。",
-          "en": "I was a little surprised to learn that this kind of considerate idea was hidden inside a station I usually walk through without much thought."
         }
       ]
     },
@@ -10418,6 +10507,10 @@
           "meaning": "Polite form of なる: to become",
           "exampleSentences": [
             {
+              "ja": "ドライバーは画面で混み具合や通行止めを知ることができ、より楽な経路を選びやすくなります。",
+              "en": "Drivers can see crowded areas and road closures on the screen and choose easier routes."
+            },
+            {
               "ja": "特に首都高では、その印象が強くなります。",
               "en": "That impression becomes especially strong on the Shuto Expressway."
             },
@@ -10432,10 +10525,6 @@
             {
               "ja": "どの線に乗ってきたかで頭がいっぱいでも、色だけで目的の情報をつかみやすくなります。",
               "en": "Even if your head is full of route information, the color alone makes the information you need easier to grasp."
-            },
-            {
-              "ja": "この仕組みを知っているだけで、新宿駅のような巨大な駅でも必要以上にこわがらなくてよくなります。",
-              "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
             }
           ]
         },
@@ -11461,6 +11550,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "事故や工事、天気による制限まで受け取れるので、ただお金を払うだけの仕組みではありません。",
+          "en": "Drivers can receive information about accidents, construction, and even weather-related restrictions, so the system is not just about paying tolls."
+        },
         {
           "ja": "だから、りんかい線の駅で長いエスカレーターを下りるときは、東京でも特に大きくてお金のかかった鉄道計画の中を移動していると考えることができます。",
           "en": "So when you ride down the long escalators at a Rinkai Line station, you can think of yourself as moving through one of Tokyo's biggest and most expensive railway projects."
@@ -12799,6 +12892,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "だから、車が自分だけで考えるより、道路の側が先に状況を知らせるほうが役に立ちます。",
+          "en": "Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself."
+        },
+        {
           "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
           "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
         },
@@ -12813,10 +12910,6 @@
         {
           "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
           "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
-        },
-        {
-          "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
-          "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
         }
       ]
     },
@@ -13577,7 +13670,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "ドライバーは画面で混み具合や通行止めを知ることができ、より楽な経路を選びやすくなります。",
+          "en": "Drivers can see crowded areas and road closures on the screen and choose easier routes."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "godan",
       "verbForms": [
@@ -13588,7 +13686,12 @@
           "term": "知ります",
           "readingHiragana": "しります",
           "meaning": "Polite form of 知る: to be aware of, to know",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "ドライバーは画面で混み具合や通行止めを知ることができ、より楽な経路を選びやすくなります。",
+              "en": "Drivers can see crowded areas and road closures on the screen and choose easier routes."
+            }
+          ]
         },
         {
           "form": "past",
@@ -13597,7 +13700,12 @@
           "term": "知った",
           "readingHiragana": "しった",
           "meaning": "Plain past form of 知る: to be aware of, to know",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "ドライバーは画面で混み具合や通行止めを知ることができ、より楽な経路を選びやすくなります。",
+              "en": "Drivers can see crowded areas and road closures on the screen and choose easier routes."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -13610,6 +13718,10 @@
             {
               "ja": "知らない駅に行くときも、近くにある駅との関係から予想できます。",
               "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
+            },
+            {
+              "ja": "ドライバーは画面で混み具合や通行止めを知ることができ、より楽な経路を選びやすくなります。",
+              "en": "Drivers can see crowded areas and road closures on the screen and choose easier routes."
             }
           ]
         },
@@ -13636,6 +13748,10 @@
             {
               "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
               "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
+            },
+            {
+              "ja": "ドライバーは画面で混み具合や通行止めを知ることができ、より楽な経路を選びやすくなります。",
+              "en": "Drivers can see crowded areas and road closures on the screen and choose easier routes."
             }
           ]
         },
@@ -13646,7 +13762,12 @@
           "term": "知れる",
           "readingHiragana": "しれる",
           "meaning": "Potential form of 知る: to be aware of, to know",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "ドライバーは画面で混み具合や通行止めを知ることができ、より楽な経路を選びやすくなります。",
+              "en": "Drivers can see crowded areas and road closures on the screen and choose easier routes."
+            }
+          ]
         }
       ]
     },
@@ -13719,7 +13840,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "V2Xが静かに広がった理由は、この実用性の高さにあります。",
+          "en": "That practical value is why V2X has spread quietly."
+        }
+      ]
     },
     {
       "id": "core-8832ca1805b434",
@@ -13786,6 +13912,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "これは道路の側から車へ必要な情報を送る、わかりやすいV2Iの形です。",
+          "en": "This is a clear form of V2I, where the road side sends necessary information to the vehicle."
+        },
+        {
+          "ja": "だから、車が自分だけで考えるより、道路の側が先に状況を知らせるほうが役に立ちます。",
+          "en": "Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself."
+        },
+        {
           "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
           "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
         },
@@ -13796,14 +13930,6 @@
         {
           "ja": "ベネズエラの北側では、カリブプレートと南アメリカプレートが横にずれています。",
           "en": "North of Venezuela, the Caribbean Plate and the South American Plate slide sideways past each other."
-        },
-        {
-          "ja": "気象庁は8日、日本の太平洋側の広い地域に津波注意報を出しました。",
-          "en": "On the 8th, the Japan Meteorological Agency issued a tsunami advisory for a wide area along Japan’s Pacific coast."
-        },
-        {
-          "ja": "com側の判断にも注目が集まっています。",
-          "en": "com’s own decision."
         }
       ]
     },
@@ -13975,6 +14101,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "カーナビの画面に出る渋滞情報や規制情報の後ろには、道路と車が少しずつ会話している世界があります。",
+          "en": "Behind the congestion and restriction information shown on a car navigation screen is a world where roads and cars are quietly exchanging information."
+        },
+        {
+          "ja": "そう考えると、ふつうの運転も少し未来的に見えてきます。",
+          "en": "Seen that way, ordinary driving starts to look a little futuristic."
+        },
+        {
           "ja": "ETCを知っているだけで、東京の道路がどう動いているか、少し見えやすくなります。",
           "en": "Just understanding ETC makes it easier to see how Tokyo’s roads actually work."
         },
@@ -13985,14 +14119,6 @@
         {
           "ja": "ほんの小さな発見でしたが、その日から街の見え方が少し変わったように感じました。",
           "en": "It was only a small discovery, but it made me feel that the way I see the city changed a little that day."
-        },
-        {
-          "ja": "最初は少し難しく見えても、行き先と種別をセットで見る習慣をつければ、不安はかなり小さくなります。",
-          "en": "It may look a little difficult at first, but if you make a habit of checking the destination and train type together, it becomes much less intimidating."
-        },
-        {
-          "ja": "東京のりんかい線は、ほかの路線より運賃が少し高いと感じる人がいます。",
-          "en": "Some people feel that Tokyo's Rinkai Line costs a little more than other rail lines."
         }
       ]
     },
@@ -14131,6 +14257,14 @@
           "meaning": "Polite form of する: to do",
           "exampleSentences": [
             {
+              "ja": "V2Xという言葉を聞くと、多くの人は自動運転の未来を想像します。",
+              "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
+            },
+            {
+              "ja": "特に高速道路では、その感覚がもっとはっきりします。",
+              "en": "This feeling becomes even clearer on expressways."
+            },
+            {
               "ja": "駅へ入る前に、通行の邪魔にならない場所で自転車を準備します。",
               "en": "Before entering the station, prepare your bicycle somewhere that does not block pedestrian traffic."
             },
@@ -14141,14 +14275,6 @@
             {
               "ja": "改札では大きな荷物として扱い、周りの人にぶつけないよう注意します。",
               "en": "At the ticket gates, handle the bicycle like a large piece of luggage and be careful not to hit people around you."
-            },
-            {
-              "ja": "AIは、昔からの記録を見て、空気の汚れや街の元気さがどう変わるかを予測します。",
-              "en": "AI looks at past records and predicts how air pollution and urban vitality may change."
-            },
-            {
-              "ja": "もし上場後に株価が下がれば、証券会社は市場で株を買い戻します。",
-              "en": "If the share price falls after listing, the securities firms buy shares back in the market."
             }
           ]
         },
@@ -14221,6 +14347,10 @@
           "meaning": "Te-form of する: to do",
           "exampleSentences": [
             {
+              "ja": "カーナビの画面に出る渋滞情報や規制情報の後ろには、道路と車が少しずつ会話している世界があります。",
+              "en": "Behind the congestion and restriction information shown on a car navigation screen is a world where roads and cars are quietly exchanging information."
+            },
+            {
               "ja": "実際には目立つ場所に集中しているのですが、それだけ都市の車の移動に深く組み込まれています。",
               "en": "In reality, it is concentrated in highly visible places, but that shows how deeply it is built into urban car travel."
             },
@@ -14235,10 +14365,6 @@
             {
               "ja": "車両の端などで輪行袋を手で支え、急ブレーキで倒れないようにしてください。",
               "en": "Hold the bike bag near the end of the car so it does not fall during sudden braking."
-            },
-            {
-              "ja": "東京の駅が混雑していても大きく混乱しにくいのは、こうした単純で強いデザインの力があるからかもしれません。",
-              "en": "One reason Tokyo stations can stay usable despite heavy crowds may be the strength of this kind of simple, effective design."
             }
           ]
         },
@@ -14875,6 +15001,10 @@
           "meaning": "Polite form of 立つ: to stand, to rise",
           "exampleSentences": [
             {
+              "ja": "だから、車が自分だけで考えるより、道路の側が先に状況を知らせるほうが役に立ちます。",
+              "en": "Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself."
+            },
+            {
               "ja": "黄色い背景に黒い文字と矢印を組み合わせた表示は、人の多い駅でもよく目立ちます。",
               "en": "Signs that combine a yellow background with black text and arrows stand out well even in crowded stations."
             },
@@ -14889,10 +15019,6 @@
             {
               "ja": "大きく目立つわけではなくても、だれかの安心をしっかり支えているところが素敵です。",
               "en": "Even if it does not stand out, it is wonderful that it quietly supports someone’s sense of safety."
-            },
-            {
-              "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
-              "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
             }
           ]
         },
@@ -15082,7 +15208,16 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "事故や工事、天気による制限まで受け取れるので、ただお金を払うだけの仕組みではありません。",
+          "en": "Drivers can receive information about accidents, construction, and even weather-related restrictions, so the system is not just about paying tolls."
+        },
+        {
+          "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
+          "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
+        }
+      ]
     },
     {
       "id": "core-356621a73b7805",
@@ -15403,6 +15538,10 @@
           "readingHiragana": "とれる",
           "meaning": "Potential form of 取る: to take, to pick up",
           "exampleSentences": [
+            {
+              "ja": "事故や工事、天気による制限まで受け取れるので、ただお金を払うだけの仕組みではありません。",
+              "en": "Drivers can receive information about accidents, construction, and even weather-related restrictions, so the system is not just about paying tolls."
+            },
             {
               "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
               "en": "In London, people using the Underground and buses were also advised to drink water."
@@ -16660,7 +16799,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "カーナビの画面に出る渋滞情報や規制情報の後ろには、道路と車が少しずつ会話している世界があります。",
+          "en": "Behind the congestion and restriction information shown on a car navigation screen is a world where roads and cars are quietly exchanging information."
+        }
+      ]
     },
     {
       "id": "core-c1f0cac397ae22",
@@ -19596,6 +19740,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "だから、車が自分だけで考えるより、道路の側が先に状況を知らせるほうが役に立ちます。",
+          "en": "Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself."
+        },
+        {
           "ja": "だから、東京で運転するとETCが「どこにでもある」ように見えるのです。",
           "en": "That is why ETC can look as if it is everywhere when you drive in Tokyo."
         },
@@ -20431,6 +20579,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "つまり、日本のV2Xは「いつか来る未来技術」というより、もう見えにくい形で働いている生活のインフラです。",
+          "en": "So in Japan, V2X is less a future technology that will arrive someday and more an invisible piece of daily infrastructure that is already working."
+        },
+        {
           "ja": "普段は当たり前のように使っている改札ですが、その裏には日本ならではの高い技術と緻密なシステム設計が詰まっています。",
           "en": "We usually use ticket gates as if they were completely ordinary, but behind them are advanced technology and precise system design that feel very characteristic of Japan."
         },
@@ -20445,10 +20597,6 @@
         {
           "ja": "医療、金融、技術などの分野では、外国から来た働く人が重要です。",
           "en": "In fields such as healthcare, finance, and technology, workers from other countries are important."
-        },
-        {
-          "ja": "関係者は、将来は貨物船や作業船にもこの技術を広げたいと話しています。",
-          "en": "The people involved say they want to expand this technology to cargo ships and work boats in the future."
         }
       ]
     },
@@ -20589,7 +20737,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "ドライバーは画面で混み具合や通行止めを知ることができ、より楽な経路を選びやすくなります。",
+          "en": "Drivers can see crowded areas and road closures on the screen and choose easier routes."
+        }
+      ]
     },
     {
       "id": "core-a4441435fe29d4",
@@ -20620,6 +20773,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "V2Xという言葉を聞くと、多くの人は自動運転の未来を想像します。",
+          "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
+        },
         {
           "ja": "東京で車を運転すると、ETCという言葉をあちこちで見かけます。",
           "en": "When you drive in Tokyo, you see the term ETC in many places."
@@ -20820,6 +20977,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "特に高速道路では、その感覚がもっとはっきりします。",
+          "en": "This feeling becomes even clearer on expressways."
+        },
         {
           "ja": "アメリカは制裁を一部緩める可能性がありますが、詳しい内容はまだはっきりしていません。",
           "en": "The United States may ease some sanctions, but the details are still not clear."
@@ -21036,7 +21197,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "事故や工事、天気による制限まで受け取れるので、ただお金を払うだけの仕組みではありません。",
+          "en": "Drivers can receive information about accidents, construction, and even weather-related restrictions, so the system is not just about paying tolls."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "godan",
       "verbForms": [
@@ -21047,7 +21213,12 @@
           "term": "払います",
           "readingHiragana": "はらいます",
           "meaning": "Polite form of 払う: to pay",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "事故や工事、天気による制限まで受け取れるので、ただお金を払うだけの仕組みではありません。",
+              "en": "Drivers can receive information about accidents, construction, and even weather-related restrictions, so the system is not just about paying tolls."
+            }
+          ]
         },
         {
           "form": "past",
@@ -21056,7 +21227,12 @@
           "term": "払った",
           "readingHiragana": "はらった",
           "meaning": "Plain past form of 払う: to pay",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "事故や工事、天気による制限まで受け取れるので、ただお金を払うだけの仕組みではありません。",
+              "en": "Drivers can receive information about accidents, construction, and even weather-related restrictions, so the system is not just about paying tolls."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -21065,7 +21241,12 @@
           "term": "払わない",
           "readingHiragana": "はらわない",
           "meaning": "Plain negative form of 払う: to pay",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "事故や工事、天気による制限まで受け取れるので、ただお金を払うだけの仕組みではありません。",
+              "en": "Drivers can receive information about accidents, construction, and even weather-related restrictions, so the system is not just about paying tolls."
+            }
+          ]
         },
         {
           "form": "te",
@@ -21074,7 +21255,12 @@
           "term": "払って",
           "readingHiragana": "はらって",
           "meaning": "Te-form of 払う: to pay",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "事故や工事、天気による制限まで受け取れるので、ただお金を払うだけの仕組みではありません。",
+              "en": "Drivers can receive information about accidents, construction, and even weather-related restrictions, so the system is not just about paying tolls."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -21091,6 +21277,10 @@
             {
               "ja": "切符の売り場だけでなく、船内の売店でもカードやスマートフォンで払えるようになりました。",
               "en": "Not only ticket counters but also onboard shops now accept cards and smartphones."
+            },
+            {
+              "ja": "事故や工事、天気による制限まで受け取れるので、ただお金を払うだけの仕組みではありません。",
+              "en": "Drivers can receive information about accidents, construction, and even weather-related restrictions, so the system is not just about paying tolls."
             }
           ]
         }
@@ -22487,6 +22677,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "事故や工事、天気による制限まで受け取れるので、ただお金を払うだけの仕組みではありません。",
+          "en": "Drivers can receive information about accidents, construction, and even weather-related restrictions, so the system is not just about paying tolls."
+        },
+        {
           "ja": "事故にあったのは、東京発博多行きの「のぞみ49号」です。",
           "en": "The train involved was Nozomi 49, traveling from Tokyo to Hakata."
         },
@@ -22994,7 +23188,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "カーナビの画面に出る渋滞情報や規制情報の後ろには、道路と車が少しずつ会話している世界があります。",
+          "en": "Behind the congestion and restriction information shown on a car navigation screen is a world where roads and cars are quietly exchanging information."
+        }
+      ]
     },
     {
       "id": "core-f8d3eb781ded9e",
@@ -23308,6 +23507,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "だから、車が自分だけで考えるより、道路の側が先に状況を知らせるほうが役に立ちます。",
+          "en": "Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself."
+        },
+        {
+          "ja": "そう考えると、ふつうの運転も少し未来的に見えてきます。",
+          "en": "Seen that way, ordinary driving starts to look a little futuristic."
+        },
+        {
           "ja": "だから、りんかい線の駅で長いエスカレーターを下りるときは、東京でも特に大きくてお金のかかった鉄道計画の中を移動していると考えることができます。",
           "en": "So when you ride down the long escalators at a Rinkai Line station, you can think of yourself as moving through one of Tokyo's biggest and most expensive railway projects."
         },
@@ -23318,14 +23525,6 @@
         {
           "ja": "日本は「アメリカは本当に日本を守ってくれるのか」と考えるからです。",
           "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
-        },
-        {
-          "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
-          "en": "The information was made to test how well AI can think about the present and future of cities."
-        },
-        {
-          "ja": "グリーンシューは、投資家の熱気と市場の不安の間で、値段を落ち着かせるための道具だと考えるとわかりやすいです。",
-          "en": "It is easiest to think of a greenshoe as a tool for calming the price between investor excitement and market anxiety."
         }
       ],
       "partOfSpeech": "verb",
@@ -23340,6 +23539,14 @@
           "meaning": "Polite form of 考える: to think about",
           "exampleSentences": [
             {
+              "ja": "だから、車が自分だけで考えるより、道路の側が先に状況を知らせるほうが役に立ちます。",
+              "en": "Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself."
+            },
+            {
+              "ja": "そう考えると、ふつうの運転も少し未来的に見えてきます。",
+              "en": "Seen that way, ordinary driving starts to look a little futuristic."
+            },
+            {
               "ja": "だから、りんかい線の駅で長いエスカレーターを下りるときは、東京でも特に大きくてお金のかかった鉄道計画の中を移動していると考えることができます。",
               "en": "So when you ride down the long escalators at a Rinkai Line station, you can think of yourself as moving through one of Tokyo's biggest and most expensive railway projects."
             },
@@ -23350,14 +23557,6 @@
             {
               "ja": "日本は「アメリカは本当に日本を守ってくれるのか」と考えるからです。",
               "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
-            },
-            {
-              "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
-              "en": "The information was made to test how well AI can think about the present and future of cities."
-            },
-            {
-              "ja": "グリーンシューは、投資家の熱気と市場の不安の間で、値段を落ち着かせるための道具だと考えるとわかりやすいです。",
-              "en": "It is easiest to think of a greenshoe as a tool for calming the price between investor excitement and market anxiety."
             }
           ]
         },
@@ -23370,6 +23569,14 @@
           "meaning": "Plain past form of 考える: to think about",
           "exampleSentences": [
             {
+              "ja": "だから、車が自分だけで考えるより、道路の側が先に状況を知らせるほうが役に立ちます。",
+              "en": "Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself."
+            },
+            {
+              "ja": "そう考えると、ふつうの運転も少し未来的に見えてきます。",
+              "en": "Seen that way, ordinary driving starts to look a little futuristic."
+            },
+            {
               "ja": "だから、りんかい線の駅で長いエスカレーターを下りるときは、東京でも特に大きくてお金のかかった鉄道計画の中を移動していると考えることができます。",
               "en": "So when you ride down the long escalators at a Rinkai Line station, you can think of yourself as moving through one of Tokyo's biggest and most expensive railway projects."
             },
@@ -23380,14 +23587,6 @@
             {
               "ja": "日本は「アメリカは本当に日本を守ってくれるのか」と考えるからです。",
               "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
-            },
-            {
-              "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
-              "en": "The information was made to test how well AI can think about the present and future of cities."
-            },
-            {
-              "ja": "グリーンシューは、投資家の熱気と市場の不安の間で、値段を落ち着かせるための道具だと考えるとわかりやすいです。",
-              "en": "It is easiest to think of a greenshoe as a tool for calming the price between investor excitement and market anxiety."
             }
           ]
         },
@@ -23400,6 +23599,14 @@
           "meaning": "Plain negative form of 考える: to think about",
           "exampleSentences": [
             {
+              "ja": "だから、車が自分だけで考えるより、道路の側が先に状況を知らせるほうが役に立ちます。",
+              "en": "Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself."
+            },
+            {
+              "ja": "そう考えると、ふつうの運転も少し未来的に見えてきます。",
+              "en": "Seen that way, ordinary driving starts to look a little futuristic."
+            },
+            {
               "ja": "だから、りんかい線の駅で長いエスカレーターを下りるときは、東京でも特に大きくてお金のかかった鉄道計画の中を移動していると考えることができます。",
               "en": "So when you ride down the long escalators at a Rinkai Line station, you can think of yourself as moving through one of Tokyo's biggest and most expensive railway projects."
             },
@@ -23410,14 +23617,6 @@
             {
               "ja": "日本は「アメリカは本当に日本を守ってくれるのか」と考えるからです。",
               "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
-            },
-            {
-              "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
-              "en": "The information was made to test how well AI can think about the present and future of cities."
-            },
-            {
-              "ja": "グリーンシューは、投資家の熱気と市場の不安の間で、値段を落ち着かせるための道具だと考えるとわかりやすいです。",
-              "en": "It is easiest to think of a greenshoe as a tool for calming the price between investor excitement and market anxiety."
             }
           ]
         },
@@ -23460,6 +23659,14 @@
           "meaning": "Potential form of 考える: to think about",
           "exampleSentences": [
             {
+              "ja": "だから、車が自分だけで考えるより、道路の側が先に状況を知らせるほうが役に立ちます。",
+              "en": "Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself."
+            },
+            {
+              "ja": "そう考えると、ふつうの運転も少し未来的に見えてきます。",
+              "en": "Seen that way, ordinary driving starts to look a little futuristic."
+            },
+            {
               "ja": "だから、りんかい線の駅で長いエスカレーターを下りるときは、東京でも特に大きくてお金のかかった鉄道計画の中を移動していると考えることができます。",
               "en": "So when you ride down the long escalators at a Rinkai Line station, you can think of yourself as moving through one of Tokyo's biggest and most expensive railway projects."
             },
@@ -23470,14 +23677,6 @@
             {
               "ja": "日本は「アメリカは本当に日本を守ってくれるのか」と考えるからです。",
               "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
-            },
-            {
-              "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
-              "en": "The information was made to test how well AI can think about the present and future of cities."
-            },
-            {
-              "ja": "グリーンシューは、投資家の熱気と市場の不安の間で、値段を落ち着かせるための道具だと考えるとわかりやすいです。",
-              "en": "It is easiest to think of a greenshoe as a tool for calming the price between investor excitement and market anxiety."
             }
           ]
         }
@@ -23626,6 +23825,14 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "これは道路の側から車へ必要な情報を送る、わかりやすいV2Iの形です。",
+          "en": "This is a clear form of V2I, where the road side sends necessary information to the vehicle."
+        },
+        {
+          "ja": "つまり、日本のV2Xは「いつか来る未来技術」というより、もう見えにくい形で働いている生活のインフラです。",
+          "en": "So in Japan, V2X is less a future technology that will arrive someday and more an invisible piece of daily infrastructure that is already working."
+        },
         {
           "ja": "いくつもの都市中心が鉄道でしっかり結ばれた形で広がってきました。",
           "en": "It spread in a form where many urban centers were firmly connected by rail."
@@ -24406,6 +24613,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "事故や工事、天気による制限まで受け取れるので、ただお金を払うだけの仕組みではありません。",
+          "en": "Drivers can receive information about accidents, construction, and even weather-related restrictions, so the system is not just about paying tolls."
+        },
+        {
+          "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
+          "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
+        },
+        {
           "ja": "何気ない色の使い方ですが、毎日何百万人もの通勤客や旅行者がこの工夫に助けられています。",
           "en": "It is only a simple use of color, but every day hundreds of thousands of commuters and travelers are helped by this idea."
         },
@@ -24416,14 +24631,6 @@
         {
           "ja": "ふつうならそのまま通り過ぎてしまいそうな場所でしたが、なぜそこにあるのかが気になりました。",
           "en": "It was the kind of place I would normally pass without thinking, but I became curious about why it was there."
-        },
-        {
-          "ja": "普段は何気なく歩いている駅の中にも、このようなやさしい工夫が隠れていると知って、少し驚きました。",
-          "en": "I was a little surprised to learn that this kind of considerate idea was hidden inside a station I usually walk through without much thought."
-        },
-        {
-          "ja": "自分が使う機会がないと、こうした設備にはなかなか気づかないものです。",
-          "en": "If you never have a reason to use such equipment, it is easy not to notice it."
         }
       ]
     },
@@ -25260,6 +25467,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "事故や工事、天気による制限まで受け取れるので、ただお金を払うだけの仕組みではありません。",
+          "en": "Drivers can receive information about accidents, construction, and even weather-related restrictions, so the system is not just about paying tolls."
+        },
+        {
+          "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
+          "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
+        },
+        {
           "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
           "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
         },
@@ -25270,14 +25485,6 @@
         {
           "ja": "政府は非常事態を宣言しました。",
           "en": "The government declared a state of emergency."
-        },
-        {
-          "ja": "事故にあったのは、東京発博多行きの「のぞみ49号」です。",
-          "en": "The train involved was Nozomi 49, traveling from Tokyo to Hakata."
-        },
-        {
-          "ja": "この事故で、東海道新幹線は東京と新大阪の間の全線で運転を見合わせました。",
-          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
         }
       ]
     },
@@ -25466,6 +25673,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "VICSは渋滞や交通規制などの道路交通情報を、カーナビに実時間で届けます。",
+          "en": "VICS delivers road traffic information such as congestion and traffic restrictions to car navigation systems in real time."
+        },
+        {
+          "ja": "0対応システムを通じて、広い範囲の交通情報が届くと説明されています。",
+          "en": "0 compatible systems."
+        },
+        {
           "ja": "料金が自動で計算され、車を止めずに精算できるので、東京のように交通量が多い場所ではとても効率的です。",
           "en": "Tolls are calculated automatically, and you can pay without stopping the car, which is highly efficient in a place with as much traffic as Tokyo."
         },
@@ -25476,14 +25691,6 @@
         {
           "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
           "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
-        },
-        {
-          "ja": "東京モノレールは、羽田空港へ行くための便利な交通機関です。",
-          "en": "Tokyo Monorail is a convenient way to get to Haneda Airport."
-        },
-        {
-          "ja": "未来的に見えるシステムでも、実際の公共交通として使えることを示したのです。",
-          "en": "It showed that a futuristic-looking system could also work as real public transportation."
         }
       ]
     },
@@ -26728,6 +26935,10 @@
           "readingHiragana": "みえて",
           "meaning": "Te-form of 見える: to be seen, to be in sight",
           "exampleSentences": [
+            {
+              "ja": "そう考えると、ふつうの運転も少し未来的に見えてきます。",
+              "en": "Seen that way, ordinary driving starts to look a little futuristic."
+            },
             {
               "ja": "最初は少し難しく見えても、行き先と種別をセットで見る習慣をつければ、不安はかなり小さくなります。",
               "en": "It may look a little difficult at first, but if you make a habit of checking the destination and train type together, it becomes much less intimidating."
@@ -29585,6 +29796,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "でも日本では、道路の情報を車へ送る仕組みが、もうかなり前から使われています。",
+          "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
+        },
+        {
+          "ja": "これは道路の側から車へ必要な情報を送る、わかりやすいV2Iの形です。",
+          "en": "This is a clear form of V2I, where the road side sends necessary information to the vehicle."
+        },
+        {
           "ja": "管理者は、同じ内容を働く人や生徒にすぐ送ることができます。",
           "en": "Managers can quickly send the same information to workers or students."
         },
@@ -29609,6 +29828,14 @@
               "en": "NASA will therefore send a spacecraft called Link, built by the American company Katalyst Space."
             },
             {
+              "ja": "でも日本では、道路の情報を車へ送る仕組みが、もうかなり前から使われています。",
+              "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
+            },
+            {
+              "ja": "これは道路の側から車へ必要な情報を送る、わかりやすいV2Iの形です。",
+              "en": "This is a clear form of V2I, where the road side sends necessary information to the vehicle."
+            },
+            {
               "ja": "管理者は、同じ内容を働く人や生徒にすぐ送ることができます。",
               "en": "Managers can quickly send the same information to workers or students."
             },
@@ -29626,6 +29853,14 @@
           "readingHiragana": "おくった",
           "meaning": "Plain past form of 送る: to send, to dispatch",
           "exampleSentences": [
+            {
+              "ja": "でも日本では、道路の情報を車へ送る仕組みが、もうかなり前から使われています。",
+              "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
+            },
+            {
+              "ja": "これは道路の側から車へ必要な情報を送る、わかりやすいV2Iの形です。",
+              "en": "This is a clear form of V2I, where the road side sends necessary information to the vehicle."
+            },
             {
               "ja": "管理者は、同じ内容を働く人や生徒にすぐ送ることができます。",
               "en": "Managers can quickly send the same information to workers or students."
@@ -29645,6 +29880,14 @@
           "meaning": "Plain negative form of 送る: to send, to dispatch",
           "exampleSentences": [
             {
+              "ja": "でも日本では、道路の情報を車へ送る仕組みが、もうかなり前から使われています。",
+              "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
+            },
+            {
+              "ja": "これは道路の側から車へ必要な情報を送る、わかりやすいV2Iの形です。",
+              "en": "This is a clear form of V2I, where the road side sends necessary information to the vehicle."
+            },
+            {
               "ja": "管理者は、同じ内容を働く人や生徒にすぐ送ることができます。",
               "en": "Managers can quickly send the same information to workers or students."
             },
@@ -29663,6 +29906,14 @@
           "meaning": "Te-form of 送る: to send, to dispatch",
           "exampleSentences": [
             {
+              "ja": "でも日本では、道路の情報を車へ送る仕組みが、もうかなり前から使われています。",
+              "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
+            },
+            {
+              "ja": "これは道路の側から車へ必要な情報を送る、わかりやすいV2Iの形です。",
+              "en": "This is a clear form of V2I, where the road side sends necessary information to the vehicle."
+            },
+            {
               "ja": "管理者は、同じ内容を働く人や生徒にすぐ送ることができます。",
               "en": "Managers can quickly send the same information to workers or students."
             },
@@ -29680,6 +29931,14 @@
           "readingHiragana": "おくれる",
           "meaning": "Potential form of 送る: to send, to dispatch",
           "exampleSentences": [
+            {
+              "ja": "でも日本では、道路の情報を車へ送る仕組みが、もうかなり前から使われています。",
+              "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
+            },
+            {
+              "ja": "これは道路の側から車へ必要な情報を送る、わかりやすいV2Iの形です。",
+              "en": "This is a clear form of V2I, where the road side sends necessary information to the vehicle."
+            },
             {
               "ja": "管理者は、同じ内容を働く人や生徒にすぐ送ることができます。",
               "en": "Managers can quickly send the same information to workers or students."
@@ -29831,6 +30090,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "代表的な例がVICSです。",
+          "en": "A representative example is VICS."
+        },
+        {
           "ja": "高速道路の入口だけでなく、料金所の案内や道路標識にもETCの表示が多く、はじめての人は「ここではETCが当たり前なのだ」と感じやすいです。",
           "en": "It appears not only at expressway entrances, but also on toll guidance and road signs, so first-time drivers easily feel that ETC is simply taken for granted here."
         },
@@ -29845,10 +30108,6 @@
         {
           "ja": "電車の路線はそれぞれ別の色で表されることが多いので、黄色い出口案内は見分けやすいです。",
           "en": "Train lines are often shown in different colors, so yellow exit guidance is easy to distinguish from them."
-        },
-        {
-          "ja": "黄色い背景に黒い文字と矢印を組み合わせた表示は、人の多い駅でもよく目立ちます。",
-          "en": "Signs that combine a yellow background with black text and arrows stand out well even in crowded stations."
         }
       ]
     },
@@ -30431,6 +30690,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "V2Xが静かに広がった理由は、この実用性の高さにあります。",
+          "en": "That practical value is why V2X has spread quietly."
+        },
+        {
           "ja": "その理由の一つは、ICカードの残高確認や運賃計算が、改札機の中でとても速く処理されるように設計されていることです。",
           "en": "One reason is that balance checks and fare calculations for IC cards are designed to be processed very quickly inside the ticket gate itself."
         },
@@ -30445,10 +30708,6 @@
         {
           "ja": "大きな理由の一つは、台湾の問題です。",
           "en": "One major reason is the Taiwan issue."
-        },
-        {
-          "ja": "もう一つの理由は、アメリカの存在です。",
-          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
         }
       ]
     },
@@ -31258,6 +31517,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "つまり、日本のV2Xは「いつか来る未来技術」というより、もう見えにくい形で働いている生活のインフラです。",
+          "en": "So in Japan, V2X is less a future technology that will arrive someday and more an invisible piece of daily infrastructure that is already working."
+        },
+        {
           "ja": "そのため、多くの人は遠くまで行かなくても、生活に必要なものに近い場所で出会えます。",
           "en": "Because of that, many people can find what they need for daily life without going very far."
         },
@@ -31272,10 +31535,6 @@
         {
           "ja": "図書館では、観光客だけでなく、地域で生活する外国人にも役立つと考えています。",
           "en": "Libraries believe the tablets will help not only tourists but also foreign residents in the community."
-        },
-        {
-          "ja": "地域では、フェリーが生活に欠かせない交通手段になっています。",
-          "en": "In these regions, ferries are an essential means of transportation."
         }
       ]
     },
@@ -31337,6 +31596,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "カーナビの画面に出る渋滞情報や規制情報の後ろには、道路と車が少しずつ会話している世界があります。",
+          "en": "Behind the congestion and restriction information shown on a car navigation screen is a world where roads and cars are quietly exchanging information."
+        },
+        {
           "ja": "こうした仕組みがあったからこそ、東京は世界でもとても大きく、しかも効率的な都市圏の一つに成長できました。",
           "en": "Because this kind of system existed, Tokyo was able to grow into one of the world's very large and efficient metropolitan areas."
         },
@@ -31351,10 +31614,6 @@
         {
           "ja": "初めの取引では株価が大きく上がり、世界中の投資家が注目しました。",
           "en": "Its share price rose sharply in early trading, drawing attention from investors around the world."
-        },
-        {
-          "ja": "この海峡は、世界の大切なエネルギー輸送ルートの一つです。",
-          "en": "This strait is one of the world’s important energy shipping routes."
         }
       ]
     },
@@ -31479,6 +31738,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "0対応システムを通じて、広い範囲の交通情報が届くと説明されています。",
+          "en": "0 compatible systems."
+        },
+        {
           "ja": "専門家は、気候変動によって、このような強い熱波が起きやすくなっていると説明しています。",
           "en": "Experts explain that climate change is making intense heatwaves like this more likely."
         },
@@ -31493,10 +31756,6 @@
         {
           "ja": "ロボットは、フロントの近くで館内の説明をしたり、近くの店を紹介したりします。",
           "en": "These robots explain hotel facilities near the front desk and introduce nearby shops."
-        },
-        {
-          "ja": "利用者が安心して使えるように、わかりやすい表示や説明も必要になりそうです。",
-          "en": "Clear displays and explanations will also be needed so guests can use the system with confidence."
         }
       ]
     },
@@ -31565,6 +31824,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
+          "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
+        },
+        {
           "ja": "実際には目立つ場所に集中しているのですが、それだけ都市の車の移動に深く組み込まれています。",
           "en": "In reality, it is concentrated in highly visible places, but that shows how deeply it is built into urban car travel."
         },
@@ -31579,10 +31842,6 @@
         {
           "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
           "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
-        },
-        {
-          "ja": "こうした仕組みがあったからこそ、東京は世界でもとても大きく、しかも効率的な都市圏の一つに成長できました。",
-          "en": "Because this kind of system existed, Tokyo was able to grow into one of the world's very large and efficient metropolitan areas."
         }
       ]
     },
@@ -32072,7 +32331,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "だから、車が自分だけで考えるより、道路の側が先に状況を知らせるほうが役に立ちます。",
+          "en": "Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "ichidan",
       "verbForms": [
@@ -32087,6 +32351,10 @@
             {
               "ja": "アプリは気温や湿度を見て、危険が高い時に知らせます。",
               "en": "The apps check temperature and humidity and send alerts when the danger is high."
+            },
+            {
+              "ja": "だから、車が自分だけで考えるより、道路の側が先に状況を知らせるほうが役に立ちます。",
+              "en": "Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself."
             }
           ]
         },
@@ -32097,7 +32365,12 @@
           "term": "知らせた",
           "readingHiragana": "しらせた",
           "meaning": "Plain past form of 知らせる: to notify, to advise, to inform",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "だから、車が自分だけで考えるより、道路の側が先に状況を知らせるほうが役に立ちます。",
+              "en": "Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -32106,7 +32379,12 @@
           "term": "知らせない",
           "readingHiragana": "しらせない",
           "meaning": "Plain negative form of 知らせる: to notify, to advise, to inform",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "だから、車が自分だけで考えるより、道路の側が先に状況を知らせるほうが役に立ちます。",
+              "en": "Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself."
+            }
+          ]
         },
         {
           "form": "te",
@@ -32115,7 +32393,12 @@
           "term": "知らせて",
           "readingHiragana": "しらせて",
           "meaning": "Te-form of 知らせる: to notify, to advise, to inform",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "だから、車が自分だけで考えるより、道路の側が先に状況を知らせるほうが役に立ちます。",
+              "en": "Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -32124,7 +32407,12 @@
           "term": "知らせられる",
           "readingHiragana": "しらせられる",
           "meaning": "Potential form of 知らせる: to notify, to advise, to inform",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "だから、車が自分だけで考えるより、道路の側が先に状況を知らせるほうが役に立ちます。",
+              "en": "Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself."
+            }
+          ]
         }
       ]
     },
@@ -33992,6 +34280,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "事故や工事、天気による制限まで受け取れるので、ただお金を払うだけの仕組みではありません。",
+          "en": "Drivers can receive information about accidents, construction, and even weather-related restrictions, so the system is not just about paying tolls."
+        },
+        {
+          "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
+          "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
+        },
+        {
           "ja": "天候が回復した地域から、順次再開する動きも見られました。",
           "en": "In areas where the weather improved, operations began to restart gradually."
         }
@@ -34150,7 +34446,12 @@
           "term": "届けます",
           "readingHiragana": "とどけます",
           "meaning": "Polite form of 届ける: to deliver, to send",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "VICSは渋滞や交通規制などの道路交通情報を、カーナビに実時間で届けます。",
+              "en": "VICS delivers road traffic information such as congestion and traffic restrictions to car navigation systems in real time."
+            }
+          ]
         },
         {
           "form": "past",
@@ -34248,6 +34549,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "特に高速道路では、その感覚がもっとはっきりします。",
+          "en": "This feeling becomes even clearer on expressways."
+        },
         {
           "ja": "特に首都高では、その印象が強くなります。",
           "en": "That impression becomes especially strong on the Shuto Expressway."
@@ -35726,24 +36031,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "V2Xという言葉を聞くと、多くの人は自動運転の未来を想像します。",
+          "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
+        },
+        {
+          "ja": "つまりV2Xは、未来の実験だけでなく、すでに日常の運転の中にも入っているのです。",
+          "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
+        },
+        {
+          "ja": "そう考えると、ふつうの運転も少し未来的に見えてきます。",
+          "en": "Seen that way, ordinary driving starts to look a little futuristic."
+        },
+        {
           "ja": "東京で車を運転すると、ETCという言葉をあちこちで見かけます。",
           "en": "When you drive in Tokyo, you see the term ETC in many places."
         },
         {
           "ja": "だから、東京で運転するとETCが「どこにでもある」ように見えるのです。",
           "en": "That is why ETC can look as if it is everywhere when you drive in Tokyo."
-        },
-        {
-          "ja": "この事故で、東海道新幹線は東京と新大阪の間の全線で運転を見合わせました。",
-          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
-        },
-        {
-          "ja": "運転は約3時間後の午後8時48分に再開しました。",
-          "en": "Because of the accident, Tokaido Shinkansen service was suspended along the entire line between Tokyo and Shin-Osaka. The disruption also spread to inbound Sanyo Shinkansen services. Operations resumed about three hours later at 8:48 p.m."
-        },
-        {
-          "ja": "そのため、必要な時だけ走る仕組みにして、運転手や燃料の負担を減らしたい考えです。",
-          "en": "The town wants to reduce the burden on drivers and fuel use by running buses only when needed."
         }
       ]
     },
@@ -36597,6 +36902,10 @@
           "meaning": "Polite form of 役に立つ: to be helpful, to be useful",
           "exampleSentences": [
             {
+              "ja": "だから、車が自分だけで考えるより、道路の側が先に状況を知らせるほうが役に立ちます。",
+              "en": "Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself."
+            },
+            {
               "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
               "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
             }
@@ -36971,6 +37280,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "V2Xが静かに広がった理由は、この実用性の高さにあります。",
+          "en": "That practical value is why V2X has spread quietly."
+        },
+        {
           "ja": "短い区間でも入口と出口が多く、流れを止めないためにETCの利用がとても重要です。",
           "en": "Even on short stretches, there are many entrances and exits, so using ETC is very important to keep traffic moving."
         },
@@ -36985,10 +37298,6 @@
         {
           "ja": "多くの鉄道会社では、自転車を分解したり折りたたんだりして、専用の輪行袋に完全に入れる必要があります。",
           "en": "Many railway companies require bicycles to be disassembled or folded and completely placed inside a dedicated bike transport bag."
-        },
-        {
-          "ja": "車輪を外すタイプでは、工具や固定用ベルトを用意すると安心です。",
-          "en": "For bikes that require wheel removal, it is helpful to bring tools and fastening straps."
         }
       ]
     },
@@ -39632,6 +39941,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
+          "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
+        },
+        {
+          "ja": "だから、車が自分だけで考えるより、道路の側が先に状況を知らせるほうが役に立ちます。",
+          "en": "Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself."
+        },
+        {
           "ja": "多くの鉄道会社では、自転車を分解したり折りたたんだりして、専用の輪行袋に完全に入れる必要があります。",
           "en": "Many railway companies require bicycles to be disassembled or folded and completely placed inside a dedicated bike transport bag."
         },
@@ -39642,14 +39959,6 @@
         {
           "ja": "自分が使う機会がないと、こうした設備にはなかなか気づかないものです。",
           "en": "If you never have a reason to use such equipment, it is easy not to notice it."
-        },
-        {
-          "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
-          "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
-        },
-        {
-          "ja": "そのため、車両に表示される行き先は、自分が降りる駅よりずっと先の地名であることもあります。",
-          "en": "Because of that, the destination shown on the train may be a place name far beyond the station where you plan to get off."
         }
       ]
     },
@@ -40007,6 +40316,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
+          "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
+        },
         {
           "ja": "地方で人が少なくなり、クマも多くなったため、注意喚起や対策をすぐに出す必要があります。",
           "en": "Because rural populations are shrinking and bear numbers are growing, cities need to issue warnings and take action quickly."
@@ -40615,6 +40928,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "代表的な例がVICSです。",
+          "en": "A representative example is VICS."
+        },
+        {
           "ja": "りんかい線は、1990年代から2000年代のはじめにかけて、東京の臨海部を発展させるために作られました。",
           "en": "The Rinkai Line was built to develop Tokyo's waterfront area from the 1990s into the early 2000s."
         },
@@ -40660,7 +40977,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "代表的な例がVICSです。",
+          "en": "A representative example is VICS."
+        }
+      ]
     },
     {
       "id": "core-03b22c0a0e8bca",
@@ -41452,24 +41774,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "高速道路の入口だけでなく、料金所の案内や道路標識にもETCの表示が多く、はじめての人は「ここではETCが当たり前なのだ」と感じやすいです。",
-          "en": "It appears not only at expressway entrances, but also on toll guidance and road signs, so first-time drivers easily feel that ETC is simply taken for granted here."
+          "ja": "でも日本では、道路の情報を車へ送る仕組みが、もうかなり前から使われています。",
+          "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
         },
         {
-          "ja": "ETCを知っているだけで、東京の道路がどう動いているか、少し見えやすくなります。",
-          "en": "Just understanding ETC makes it easier to see how Tokyo’s roads actually work."
+          "ja": "VICSは渋滞や交通規制などの道路交通情報を、カーナビに実時間で届けます。",
+          "en": "VICS delivers road traffic information such as congestion and traffic restrictions to car navigation systems in real time."
         },
         {
-          "ja": "研究チームは、環境だけでなく、スーパーやレストランまでの距離、道路の多さ、土地の使い方も集めました。",
-          "en": "The research team collected not only environmental data, but also distances to supermarkets and restaurants, road density, and land use."
+          "ja": "これは道路の側から車へ必要な情報を送る、わかりやすいV2Iの形です。",
+          "en": "This is a clear form of V2I, where the road side sends necessary information to the vehicle."
         },
         {
-          "ja": "火災が広がりやすい地域では、古い住宅の耐震化や、避難しやすい道路の整備も急ぐ必要があります。",
-          "en": "In areas where fires can spread easily, there is also a need to speed up earthquake-resistant housing improvements and roads that make evacuation easier."
+          "ja": "特に高速道路では、その感覚がもっとはっきりします。",
+          "en": "This feeling becomes even clearer on expressways."
         },
         {
-          "ja": "ドローンは、道路が通れるかどうかや、川の水がどこまで来ているかを、すばやく調べることができます。",
-          "en": "Drones can quickly check whether roads are passable and how far river water has reached."
+          "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
+          "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
         }
       ]
     },
@@ -41701,6 +42023,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
+          "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
+        },
+        {
           "ja": "2002年に完成したとき、全体の費用は4400億円をこえていて、そのときの借金が今の運賃にも影響しています。",
           "en": "When the line was completed in 2002, the total cost exceeded 440 billion yen, and those debts still affect fares today."
         },
@@ -41715,10 +42041,6 @@
         {
           "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
-        },
-        {
-          "ja": "反対派は、この案がスイスの経済に悪い影響を与えると主張しました。",
-          "en": "Opponents argued that the plan would hurt Switzerland's economy."
         }
       ]
     },
@@ -43181,6 +43503,14 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "ドライバーは画面で混み具合や通行止めを知ることができ、より楽な経路を選びやすくなります。",
+          "en": "Drivers can see crowded areas and road closures on the screen and choose easier routes."
+        },
+        {
+          "ja": "カーナビの画面に出る渋滞情報や規制情報の後ろには、道路と車が少しずつ会話している世界があります。",
+          "en": "Behind the congestion and restriction information shown on a car navigation screen is a world where roads and cars are quietly exchanging information."
+        },
         {
           "ja": "本の探し方や貸し出しの手続きを、画面を見ながら説明できるようになりました。",
           "en": "People can now see on-screen explanations of how to find books and complete borrowing procedures."
@@ -45045,7 +45375,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "0対応システムを通じて、広い範囲の交通情報が届くと説明されています。",
+          "en": "0 compatible systems."
+        }
+      ]
     },
     {
       "id": "core-d889100266678f",
@@ -46404,6 +46739,10 @@
           "meaning": "Plain past form of 広がる: to spread out, to extend",
           "exampleSentences": [
             {
+              "ja": "V2Xが静かに広がった理由は、この実用性の高さにあります。",
+              "en": "That practical value is why V2X has spread quietly."
+            },
+            {
               "ja": "太陽の活動が強くなり、地球の大気が広がったため、予想より強い抵抗を受けて高度が下がりました。",
               "en": "Stronger solar activity expanded Earth's atmosphere, so the telescope experienced more drag than expected and lost altitude."
             },
@@ -47192,6 +47531,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
+          "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
+        },
+        {
           "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
           "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
         },
@@ -47206,10 +47549,6 @@
         {
           "ja": "これだけで、電車の選び方がかなり簡単になります。",
           "en": "That alone makes choosing a train much easier."
-        },
-        {
-          "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
-          "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
         }
       ]
     },
@@ -47441,6 +47780,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "代表的な例がVICSです。",
+          "en": "A representative example is VICS."
+        },
+        {
           "ja": "高速道路の入口だけでなく、料金所の案内や道路標識にもETCの表示が多く、はじめての人は「ここではETCが当たり前なのだ」と感じやすいです。",
           "en": "It appears not only at expressway entrances, but also on toll guidance and road signs, so first-time drivers easily feel that ETC is simply taken for granted here."
         },
@@ -47455,10 +47798,6 @@
         {
           "ja": "電車の路線はそれぞれ別の色で表されることが多いので、黄色い出口案内は見分けやすいです。",
           "en": "Train lines are often shown in different colors, so yellow exit guidance is easy to distinguish from them."
-        },
-        {
-          "ja": "黄色い背景に黒い文字と矢印を組み合わせた表示は、人の多い駅でもよく目立ちます。",
-          "en": "Signs that combine a yellow background with black text and arrows stand out well even in crowded stations."
         }
       ]
     },
@@ -48935,6 +49274,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "V2Xという言葉を聞くと、多くの人は自動運転の未来を想像します。",
+          "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
+        },
+        {
           "ja": "料金が自動で計算され、車を止めずに精算できるので、東京のように交通量が多い場所ではとても効率的です。",
           "en": "Tolls are calculated automatically, and you can pay without stopping the car, which is highly efficient in a place with as much traffic as Tokyo."
         },
@@ -48949,10 +49292,6 @@
         {
           "ja": "温室の中では、温度や水の管理を自動でできるようにする予定です。",
           "en": "Inside the greenhouse, temperature and water management will be automated."
-        },
-        {
-          "ja": "必要なときだけ自動で動く仕組みを入れる例もあります。",
-          "en": "Some examples include systems that run automatically only when needed."
         }
       ]
     },
@@ -49109,6 +49448,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "つまりV2Xは、未来の実験だけでなく、すでに日常の運転の中にも入っているのです。",
+          "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
+        },
+        {
           "ja": "山間部にある小さな町で、予約制バスの実験が始まりました。",
           "en": "In a small town in a mountain area, a trial of reservation-based buses has started."
         },
@@ -49123,10 +49466,6 @@
         {
           "ja": "実験では、短い距離を何度も走って、安全や使いやすさを調べます。",
           "en": "In the test, it will make repeated short trips so people can check safety and practicality."
-        },
-        {
-          "ja": "今回の実験がうまくいけば、ほかの港でも同じような取り組みが始まるかもしれません。",
-          "en": "If this test goes well, similar efforts may begin at other ports too."
         }
       ]
     },
@@ -49285,6 +49624,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "つまり、日本のV2Xは「いつか来る未来技術」というより、もう見えにくい形で働いている生活のインフラです。",
+          "en": "So in Japan, V2X is less a future technology that will arrive someday and more an invisible piece of daily infrastructure that is already working."
+        },
+        {
           "ja": "そのため、多くの人は遠くまで行かなくても、生活に必要なものに近い場所で出会えます。",
           "en": "Because of that, many people can find what they need for daily life without going very far."
         },
@@ -49299,10 +49642,6 @@
         {
           "ja": "日本では、クマが人の生活する場所に入る問題が増えています。",
           "en": "In Japan, the problem of bears entering places where people live is increasing."
-        },
-        {
-          "ja": "最近の日本では、クマが人の生活する場所に入る問題が増えています。",
-          "en": "Recently in Japan, the problem of bears entering places where people live has been increasing."
         }
       ]
     },
@@ -49534,6 +49873,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "V2Xが静かに広がった理由は、この実用性の高さにあります。",
+          "en": "That practical value is why V2X has spread quietly."
+        },
+        {
           "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
           "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
         }
@@ -49679,24 +50022,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "どの線に乗ってきたかで頭がいっぱいでも、色だけで目的の情報をつかみやすくなります。",
-          "en": "Even if your head is full of route information, the color alone makes the information you need easier to grasp."
+          "ja": "でも日本では、道路の情報を車へ送る仕組みが、もうかなり前から使われています。",
+          "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
         },
         {
-          "ja": "気象庁は6月26日の夜、台風7号「メーカラー」と台風8号「ヒーゴス」の情報を出しました。",
-          "en": "On the night of June 26, the Japan Meteorological Agency released information on Typhoon No. 7, Mekkhala, and Typhoon No. 8, Higos. The two typhoons are moving at the same time over the sea south of Japan."
+          "ja": "VICSは渋滞や交通規制などの道路交通情報を、カーナビに実時間で届けます。",
+          "en": "VICS delivers road traffic information such as congestion and traffic restrictions to car navigation systems in real time."
         },
         {
-          "ja": "週末に海へ行く予定がある人や、飛行機や船を使う人は、新しい情報を確認したほうがよさそうです。",
-          "en": "People planning to go to the sea over the weekend, or to use planes or boats, should check the latest information."
+          "ja": "これは道路の側から車へ必要な情報を送る、わかりやすいV2Iの形です。",
+          "en": "This is a clear form of V2I, where the road side sends necessary information to the vehicle."
         },
         {
-          "ja": "このデータセットには、世界の38の都市の情報が入っています。",
-          "en": "The dataset includes information from 38 cities around the world."
+          "ja": "0対応システムを通じて、広い範囲の交通情報が届くと説明されています。",
+          "en": "0 compatible systems."
         },
         {
-          "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
-          "en": "The information was made to test how well AI can think about the present and future of cities."
+          "ja": "カーナビの画面に出る渋滞情報や規制情報の後ろには、道路と車が少しずつ会話している世界があります。",
+          "en": "Behind the congestion and restriction information shown on a car navigation screen is a world where roads and cars are quietly exchanging information."
         }
       ]
     },
@@ -49796,6 +50139,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "だから、車が自分だけで考えるより、道路の側が先に状況を知らせるほうが役に立ちます。",
+          "en": "Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself."
+        },
         {
           "ja": "交通機関を利用する際は、運行状況を確認し、無理な移動を避けることが大切です。",
           "en": "When using transportation, it is important to check service status and avoid unnecessary travel."
@@ -50074,7 +50421,16 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "VICSは渋滞や交通規制などの道路交通情報を、カーナビに実時間で届けます。",
+          "en": "VICS delivers road traffic information such as congestion and traffic restrictions to car navigation systems in real time."
+        },
+        {
+          "ja": "カーナビの画面に出る渋滞情報や規制情報の後ろには、道路と車が少しずつ会話している世界があります。",
+          "en": "Behind the congestion and restriction information shown on a car navigation screen is a world where roads and cars are quietly exchanging information."
+        }
+      ]
     },
     {
       "id": "core-945c0f5a8dd092",
@@ -50400,6 +50756,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "カーナビの画面に出る渋滞情報や規制情報の後ろには、道路と車が少しずつ会話している世界があります。",
+          "en": "Behind the congestion and restriction information shown on a car navigation screen is a world where roads and cars are quietly exchanging information."
+        },
+        {
           "ja": "多くの鉄道会社では、自転車を分解したり折りたたんだりして、専用の輪行袋に完全に入れる必要があります。",
           "en": "Many railway companies require bicycles to be disassembled or folded and completely placed inside a dedicated bike transport bag."
         },
@@ -50414,10 +50774,6 @@
         {
           "ja": "京急線では、たくさんの電車がほかの鉄道会社の路線へそのまま入っていきます。",
           "en": "On the Keikyu Line, many trains continue directly onto other railway networks."
-        },
-        {
-          "ja": "こうした駅のまわりには、買い物ができる店、会社、レストラン、遊べる場所が集まっています。",
-          "en": "Around these stations, shops, offices, restaurants, and places for entertainment are gathered together."
         }
       ]
     },
@@ -50832,6 +51188,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
+          "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
+        },
+        {
           "ja": "2002年に完成したとき、全体の費用は4400億円をこえていて、そのときの借金が今の運賃にも影響しています。",
           "en": "When the line was completed in 2002, the total cost exceeded 440 billion yen, and those debts still affect fares today."
         },
@@ -50846,10 +51206,6 @@
         {
           "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
-        },
-        {
-          "ja": "反対派は、この案がスイスの経済に悪い影響を与えると主張しました。",
-          "en": "Opponents argued that the plan would hurt Switzerland's economy."
         }
       ]
     },
@@ -52132,6 +52488,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "だから、車が自分だけで考えるより、道路の側が先に状況を知らせるほうが役に立ちます。",
+          "en": "Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself."
+        },
+        {
+          "ja": "そう考えると、ふつうの運転も少し未来的に見えてきます。",
+          "en": "Seen that way, ordinary driving starts to look a little futuristic."
+        },
+        {
           "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
           "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
         },
@@ -52142,14 +52506,6 @@
         {
           "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
           "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
-        },
-        {
-          "ja": "だから、りんかい線の駅で長いエスカレーターを下りるときは、東京でも特に大きくてお金のかかった鉄道計画の中を移動していると考えることができます。",
-          "en": "So when you ride down the long escalators at a Rinkai Line station, you can think of yourself as moving through one of Tokyo's biggest and most expensive railway projects."
-        },
-        {
-          "ja": "全部の路線を暗記しなくても、この方向だけでかなり考えやすくなります。",
-          "en": "You do not need to memorize every line; these directions alone make it much easier to think."
         }
       ]
     },
@@ -52379,7 +52735,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "特に高速道路では、その感覚がもっとはっきりします。",
+          "en": "This feeling becomes even clearer on expressways."
+        }
+      ]
     },
     {
       "id": "core-da93df9f4c82a9",
@@ -53564,6 +53925,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "V2Xという言葉を聞くと、多くの人は自動運転の未来を想像します。",
+          "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
+        },
+        {
           "ja": "料金が自動で計算され、車を止めずに精算できるので、東京のように交通量が多い場所ではとても効率的です。",
           "en": "Tolls are calculated automatically, and you can pay without stopping the car, which is highly efficient in a place with as much traffic as Tokyo."
         },
@@ -53578,10 +53943,6 @@
         {
           "ja": "袋に入れた後は、持ち上げても部品が動かないよう、しっかり固定します。",
           "en": "After putting the bike in the bag, secure the parts so they do not move when you lift it."
-        },
-        {
-          "ja": "移動中は、他の乗客が乗り降りしやすいか確認することも大切です。",
-          "en": "During the trip, it is also important to make sure other passengers can easily get on and off."
         }
       ]
     },
@@ -55080,6 +55441,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "事故や工事、天気による制限まで受け取れるので、ただお金を払うだけの仕組みではありません。",
+          "en": "Drivers can receive information about accidents, construction, and even weather-related restrictions, so the system is not just about paying tolls."
+        },
+        {
           "ja": "高速道路の入口だけでなく、料金所の案内や道路標識にもETCの表示が多く、はじめての人は「ここではETCが当たり前なのだ」と感じやすいです。",
           "en": "It appears not only at expressway entrances, but also on toll guidance and road signs, so first-time drivers easily feel that ETC is simply taken for granted here."
         },
@@ -55094,10 +55459,6 @@
         {
           "ja": "2002年に完成したとき、全体の費用は4400億円をこえていて、そのときの借金が今の運賃にも影響しています。",
           "en": "When the line was completed in 2002, the total cost exceeded 440 billion yen, and those debts still affect fares today."
-        },
-        {
-          "ja": "だから、りんかい線の駅で長いエスカレーターを下りるときは、東京でも特に大きくてお金のかかった鉄道計画の中を移動していると考えることができます。",
-          "en": "So when you ride down the long escalators at a Rinkai Line station, you can think of yourself as moving through one of Tokyo's biggest and most expensive railway projects."
         }
       ]
     },
@@ -55267,6 +55628,10 @@
         {
           "ja": "観光だけでなく、地域の経済を元気にする役割も期待されています。",
           "en": "The train is expected not only to support tourism but also to help energize the regional economy."
+        },
+        {
+          "ja": "事故や工事、天気による制限まで受け取れるので、ただお金を払うだけの仕組みではありません。",
+          "en": "Drivers can receive information about accidents, construction, and even weather-related restrictions, so the system is not just about paying tolls."
         },
         {
           "ja": "ふつうならそのまま通り過ぎてしまいそうな場所でしたが、なぜそこにあるのかが気になりました。",
@@ -57175,7 +57540,16 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "事故や工事、天気による制限まで受け取れるので、ただお金を払うだけの仕組みではありません。",
+          "en": "Drivers can receive information about accidents, construction, and even weather-related restrictions, so the system is not just about paying tolls."
+        },
+        {
+          "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
+          "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
+        }
+      ]
     },
     {
       "id": "core-e9085d0dcb62b3",
@@ -57448,6 +57822,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "特に高速道路では、その感覚がもっとはっきりします。",
+          "en": "This feeling becomes even clearer on expressways."
+        },
+        {
           "ja": "高速道路の入口だけでなく、料金所の案内や道路標識にもETCの表示が多く、はじめての人は「ここではETCが当たり前なのだ」と感じやすいです。",
           "en": "It appears not only at expressway entrances, but also on toll guidance and road signs, so first-time drivers easily feel that ETC is simply taken for granted here."
         }
@@ -57654,6 +58032,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "でも日本では、道路の情報を車へ送る仕組みが、もうかなり前から使われています。",
+          "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
+        },
+        {
+          "ja": "事故や工事、天気による制限まで受け取れるので、ただお金を払うだけの仕組みではありません。",
+          "en": "Drivers can receive information about accidents, construction, and even weather-related restrictions, so the system is not just about paying tolls."
+        },
+        {
           "ja": "ETC専用、ETC一般という表示が何度も出てくるのは、その仕組みが交通を支えているからです。",
           "en": "Signs like ETC-only and ETC/general appear again and again because this system helps support traffic flow."
         },
@@ -57664,14 +58050,6 @@
         {
           "ja": "目的の駅に着いても、ホームや改札の近くで自転車を組み立てるのは避けましょう。",
           "en": "Even after arriving at your destination, avoid assembling your bicycle near the platform or ticket gates."
-        },
-        {
-          "ja": "黄色い背景に黒い文字と矢印を組み合わせた表示は、人の多い駅でもよく目立ちます。",
-          "en": "Signs that combine a yellow background with black text and arrows stand out well even in crowded stations."
-        },
-        {
-          "ja": "この仕組みを知っているだけで、新宿駅のような巨大な駅でも必要以上にこわがらなくてよくなります。",
-          "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
         }
       ]
     },
@@ -60269,6 +60647,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ドライバーは画面で混み具合や通行止めを知ることができ、より楽な経路を選びやすくなります。",
+          "en": "Drivers can see crowded areas and road closures on the screen and choose easier routes."
+        },
+        {
+          "ja": "カーナビの画面に出る渋滞情報や規制情報の後ろには、道路と車が少しずつ会話している世界があります。",
+          "en": "Behind the congestion and restriction information shown on a car navigation screen is a world where roads and cars are quietly exchanging information."
+        },
+        {
           "ja": "羽田空港で迷ったら、まずどちらの方面へ向かうのかを考えてみましょう。",
           "en": "If you feel confused at Haneda Airport, first think about which direction you need to head."
         },
@@ -60279,14 +60665,6 @@
         {
           "ja": "注意報はその後、夕方にすべて解除されましたが、海面の変化が続く場所もあるとされています。",
           "en": "The advisory was later fully lifted in the evening, but sea level changes may continue in some places."
-        },
-        {
-          "ja": "本の探し方や貸し出しの手続きを、画面を見ながら説明できるようになりました。",
-          "en": "People can now see on-screen explanations of how to find books and complete borrowing procedures."
-        },
-        {
-          "ja": "今年は、空から被害の様子を確認できるドローンを使う場面が増えました。",
-          "en": "This year, there were more situations in which drones were used to check damage from the sky."
         }
       ]
     },
@@ -60425,24 +60803,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "つまりV2Xは、未来の実験だけでなく、すでに日常の運転の中にも入っているのです。",
+          "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
+        },
+        {
+          "ja": "VICSは渋滞や交通規制などの道路交通情報を、カーナビに実時間で届けます。",
+          "en": "VICS delivers road traffic information such as congestion and traffic restrictions to car navigation systems in real time."
+        },
+        {
+          "ja": "V2Xが静かに広がった理由は、この実用性の高さにあります。",
+          "en": "That practical value is why V2X has spread quietly."
+        },
+        {
           "ja": "実際には目立つ場所に集中しているのですが、それだけ都市の車の移動に深く組み込まれています。",
           "en": "In reality, it is concentrated in highly visible places, but that shows how deeply it is built into urban car travel."
         },
         {
           "ja": "未来的に見えるシステムでも、実際の公共交通として使えることを示したのです。",
           "en": "It showed that a futuristic-looking system could also work as real public transportation."
-        },
-        {
-          "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
-          "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
-        },
-        {
-          "ja": "そのため、各国の政府や企業は、この合意が実行されるかどうかを注意して見ています。",
-          "en": "For that reason, governments and companies are watching carefully to see whether the agreement will be carried out."
-        },
-        {
-          "ja": "山間部にある小さな町で、予約制バスの実験が始まりました。",
-          "en": "In a small town in a mountain area, a trial of reservation-based buses has started."
         }
       ]
     },
@@ -60743,12 +61121,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "未来的に見えるシステムでも、実際の公共交通として使えることを示したのです。",
-          "en": "It showed that a futuristic-looking system could also work as real public transportation."
+          "ja": "V2Xという言葉を聞くと、多くの人は自動運転の未来を想像します。",
+          "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
         },
         {
-          "ja": "この情報は、AIが都市の今と未来を考える力を試すために作られました。",
-          "en": "The information was made to test how well AI can think about the present and future of cities."
+          "ja": "つまりV2Xは、未来の実験だけでなく、すでに日常の運転の中にも入っているのです。",
+          "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
+        },
+        {
+          "ja": "つまり、日本のV2Xは「いつか来る未来技術」というより、もう見えにくい形で働いている生活のインフラです。",
+          "en": "So in Japan, V2X is less a future technology that will arrive someday and more an invisible piece of daily infrastructure that is already working."
+        },
+        {
+          "ja": "そう考えると、ふつうの運転も少し未来的に見えてきます。",
+          "en": "Seen that way, ordinary driving starts to look a little futuristic."
+        },
+        {
+          "ja": "未来的に見えるシステムでも、実際の公共交通として使えることを示したのです。",
+          "en": "It showed that a futuristic-looking system could also work as real public transportation."
         }
       ]
     },
@@ -60935,6 +61325,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
+          "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
+        },
+        {
           "ja": "特に首都高では、その印象が強くなります。",
           "en": "That impression becomes especially strong on the Shuto Expressway."
         },
@@ -60949,10 +61343,6 @@
         {
           "ja": "品川に着けば、そこから山手線やほかの路線に乗り換えやすく、都心への移動がしやすくなります。",
           "en": "Once you reach Shinagawa, it is easy to transfer to the Yamanote Line and other routes into the city center."
-        },
-        {
-          "ja": "東京は、一つのダウンタウンだけが発展した都市ではありません。",
-          "en": "Tokyo is not a city where only one downtown area developed."
         }
       ]
     },
@@ -62722,6 +63112,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "つまり、日本のV2Xは「いつか来る未来技術」というより、もう見えにくい形で働いている生活のインフラです。",
+          "en": "So in Japan, V2X is less a future technology that will arrive someday and more an invisible piece of daily infrastructure that is already working."
+        },
+        {
           "ja": "そのため、多くの人は遠くまで行かなくても、生活に必要なものに近い場所で出会えます。",
           "en": "Because of that, many people can find what they need for daily life without going very far."
         },
@@ -62736,10 +63130,6 @@
         {
           "ja": "日本では、クマが人の生活する場所に入る問題が増えています。",
           "en": "In Japan, the problem of bears entering places where people live is increasing."
-        },
-        {
-          "ja": "最近の日本では、クマが人の生活する場所に入る問題が増えています。",
-          "en": "Recently in Japan, the problem of bears entering places where people live has been increasing."
         }
       ]
     },
@@ -62822,6 +63212,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "8ギガヘルツの電波ビーコンやETC2.",
+          "en": "8 GHz radio beacons and ETC 2."
+        },
+        {
           "ja": "ヨーロッパの各地で、記録的な熱波が続いています。",
           "en": "A record heatwave is continuing across parts of Europe."
         },
@@ -62836,10 +63230,6 @@
         {
           "ja": "気象庁は8日、日本の太平洋側の広い地域に津波注意報を出しました。",
           "en": "On the 8th, the Japan Meteorological Agency issued a tsunami advisory for a wide area along Japan’s Pacific coast."
-        },
-        {
-          "ja": "気象庁は、最大1メートルの津波が来る可能性があると発表しました。",
-          "en": "The agency announced that waves of up to one meter could arrive."
         }
       ]
     },
@@ -63376,6 +63766,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "つまりV2Xは、未来の実験だけでなく、すでに日常の運転の中にも入っているのです。",
+          "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
+        },
+        {
           "ja": "家庭でも、家具を固定し、少なくとも3日分の食料を備蓄するなど、日常の備えを改めて確認することが重要です。",
           "en": "Households also need to review everyday preparedness, such as securing furniture and storing at least three days of food."
         }
@@ -63520,24 +63914,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "でも日本では、道路の情報を車へ送る仕組みが、もうかなり前から使われています。",
+          "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
+        },
+        {
+          "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
+          "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
+        },
+        {
+          "ja": "つまり、日本のV2Xは「いつか来る未来技術」というより、もう見えにくい形で働いている生活のインフラです。",
+          "en": "So in Japan, V2X is less a future technology that will arrive someday and more an invisible piece of daily infrastructure that is already working."
+        },
+        {
           "ja": "普段は当たり前のように使っている改札ですが、その裏には日本ならではの高い技術と緻密なシステム設計が詰まっています。",
           "en": "We usually use ticket gates as if they were completely ordinary, but behind them are advanced technology and precise system design that feel very characteristic of Japan."
         },
         {
           "ja": "1964年の東京オリンピックに向けて作られた、日本の技術史でも大切な乗り物です。",
           "en": "It was built for the 1964 Tokyo Olympics, and it is also an important part of Japan's engineering history."
-        },
-        {
-          "ja": "当時、この路線は日本で最初に営業したモノレールでした。",
-          "en": "At the time, this line was Japan's first commercially operated monorail."
-        },
-        {
-          "ja": "日本と中国の関係は、経済では深くつながっています。",
-          "en": "Japan and China are deeply connected through the economy."
-        },
-        {
-          "ja": "一方、日本は、台湾の近くで大きな問題が起きれば、日本の安全にも関係すると見ています。",
-          "en": "Japan, on the other hand, thinks that if a major problem happens near Taiwan, it would also affect Japan's safety."
         }
       ]
     },
@@ -66362,6 +66756,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ドライバーは画面で混み具合や通行止めを知ることができ、より楽な経路を選びやすくなります。",
+          "en": "Drivers can see crowded areas and road closures on the screen and choose easier routes."
+        },
+        {
           "ja": "レベルが違っても一緒に楽しめるので、初心者にも人気があります。",
           "en": "Because people of different levels can enjoy it together, it is also popular with beginners."
         },
@@ -66376,10 +66774,6 @@
         {
           "ja": "東北のある県で、景色を楽しめる観光列車の人気が高まっています。",
           "en": "In one prefecture in Tohoku, a sightseeing train that lets passengers enjoy the scenery is becoming more popular."
-        },
-        {
-          "ja": "忙しい仕事の中でも、音楽が元気をくれると話しました。",
-          "en": "She said that even during busy work, music gives her energy."
         }
       ]
     },
@@ -66397,6 +66791,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "代表的な例がVICSです。",
+          "en": "A representative example is VICS."
+        },
         {
           "ja": "フランス、イギリス、スイス、オランダなどで気温が大きく上がり、多くの町で6月としては異例の暑さになりました。",
           "en": "Temperatures rose sharply in countries such as France, the United Kingdom, Switzerland, and the Netherlands, bringing unusual June heat to many towns and cities."
@@ -68375,6 +68773,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "V2Xが静かに広がった理由は、この実用性の高さにあります。",
+          "en": "That practical value is why V2X has spread quietly."
+        },
+        {
           "ja": "速さと安全性を両立しているからこそ、毎日の大きな移動が安定して続けられるのです。",
           "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
         },
@@ -68389,10 +68791,6 @@
         {
           "ja": "車両の先頭部分が壊れた可能性があり、JR東海が調べています。",
           "en": "The front of the train may have been damaged, and JR Central is investigating."
-        },
-        {
-          "ja": "このままでは、2026年内に大気圏へ入り、燃えてしまう可能性があります。",
-          "en": "If nothing changes, it may enter the atmosphere and burn up by the end of 2026."
         }
       ]
     },
@@ -68566,6 +68964,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "事故や工事、天気による制限まで受け取れるので、ただお金を払うだけの仕組みではありません。",
+          "en": "Drivers can receive information about accidents, construction, and even weather-related restrictions, so the system is not just about paying tolls."
+        },
         {
           "ja": "しかし、中国がレアアースなどの大切な材料の輸出を制限することがあります。",
           "en": "But China sometimes restricts exports of important materials such as rare earths."
@@ -69272,6 +69674,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "0対応システムを通じて、広い範囲の交通情報が届くと説明されています。",
+          "en": "0 compatible systems."
+        },
+        {
           "ja": "専門家は、気候変動によって、このような強い熱波が起きやすくなっていると説明しています。",
           "en": "Experts explain that climate change is making intense heatwaves like this more likely."
         },
@@ -69286,10 +69692,6 @@
         {
           "ja": "ロボットは、フロントの近くで館内の説明をしたり、近くの店を紹介したりします。",
           "en": "These robots explain hotel facilities near the front desk and introduce nearby shops."
-        },
-        {
-          "ja": "利用者が安心して使えるように、わかりやすい表示や説明も必要になりそうです。",
-          "en": "Clear displays and explanations will also be needed so guests can use the system with confidence."
         }
       ]
     },
@@ -70746,6 +71148,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "だから、車が自分だけで考えるより、道路の側が先に状況を知らせるほうが役に立ちます。",
+          "en": "Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself."
+        },
         {
           "ja": "アプリは気温や湿度を見て、危険が高い時に知らせます。",
           "en": "The apps check temperature and humidity and send alerts when the danger is high."
@@ -73151,7 +73557,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "V2Xという言葉を聞くと、多くの人は自動運転の未来を想像します。",
+          "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
+        }
+      ]
     },
     {
       "id": "core-5a8e31e52991a4",
@@ -74396,6 +74807,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "0対応システムを通じて、広い範囲の交通情報が届くと説明されています。",
+          "en": "0 compatible systems."
+        },
+        {
           "ja": "暑さは観光や交通だけでなく、農業や電力にも影響を与えるため、各国は対策を急いでいます。",
           "en": "Because the heat affects not only tourism and transportation but also agriculture and electricity, countries are rushing to respond."
         },
@@ -74410,10 +74825,6 @@
         {
           "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
           "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
-        },
-        {
-          "ja": "最後の第5戦は94対90の接戦でした。",
-          "en": "The final Game 5 was a close 94-90 game."
         }
       ],
       "partOfSpeech": "verb",
@@ -76403,7 +76814,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "0対応システムを通じて、広い範囲の交通情報が届くと説明されています。",
+          "en": "0 compatible systems."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "godan",
       "verbForms": [
@@ -76414,7 +76830,12 @@
           "term": "届きます",
           "readingHiragana": "とどきます",
           "meaning": "Polite form of 届く: to reach, to be delivered",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "0対応システムを通じて、広い範囲の交通情報が届くと説明されています。",
+              "en": "0 compatible systems."
+            }
+          ]
         },
         {
           "form": "past",
@@ -76423,7 +76844,12 @@
           "term": "届いた",
           "readingHiragana": "とどいた",
           "meaning": "Plain past form of 届く: to reach, to be delivered",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "0対応システムを通じて、広い範囲の交通情報が届くと説明されています。",
+              "en": "0 compatible systems."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -76432,7 +76858,12 @@
           "term": "届かない",
           "readingHiragana": "とどかない",
           "meaning": "Plain negative form of 届く: to reach, to be delivered",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "0対応システムを通じて、広い範囲の交通情報が届くと説明されています。",
+              "en": "0 compatible systems."
+            }
+          ]
         },
         {
           "form": "te",
@@ -76441,7 +76872,12 @@
           "term": "届いて",
           "readingHiragana": "とどいて",
           "meaning": "Te-form of 届く: to reach, to be delivered",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "0対応システムを通じて、広い範囲の交通情報が届くと説明されています。",
+              "en": "0 compatible systems."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -76450,7 +76886,12 @@
           "term": "届ける",
           "readingHiragana": "とどける",
           "meaning": "Potential form of 届く: to reach, to be delivered",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "0対応システムを通じて、広い範囲の交通情報が届くと説明されています。",
+              "en": "0 compatible systems."
+            }
+          ]
         }
       ]
     },
@@ -76642,6 +77083,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "VICSは渋滞や交通規制などの道路交通情報を、カーナビに実時間で届けます。",
+          "en": "VICS delivers road traffic information such as congestion and traffic restrictions to car navigation systems in real time."
+        },
+        {
           "ja": "朝夕のラッシュ時間は車内が混むため、できれば避けたほうが安全です。",
           "en": "Trains are crowded during the morning and evening rush hours, so avoiding those times is safer when possible."
         },
@@ -76656,10 +77101,6 @@
         {
           "ja": "当時、この路線は日本で最初に営業したモノレールでした。",
           "en": "At the time, this line was Japan's first commercially operated monorail."
-        },
-        {
-          "ja": "五輪のために生まれた設備が、長い時間をへても役立ち続けているのはおもしろいことです。",
-          "en": "It is interesting that a facility born for the Olympics has continued to be useful for a long time."
         }
       ]
     },
@@ -77056,7 +77497,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "事故や工事、天気による制限まで受け取れるので、ただお金を払うだけの仕組みではありません。",
+          "en": "Drivers can receive information about accidents, construction, and even weather-related restrictions, so the system is not just about paying tolls."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "ichidan",
       "verbForms": [
@@ -77067,7 +77513,12 @@
           "term": "取れます",
           "readingHiragana": "とれます",
           "meaning": "Polite form of 取れる: to come off, to be removed",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "事故や工事、天気による制限まで受け取れるので、ただお金を払うだけの仕組みではありません。",
+              "en": "Drivers can receive information about accidents, construction, and even weather-related restrictions, so the system is not just about paying tolls."
+            }
+          ]
         },
         {
           "form": "past",
@@ -77076,7 +77527,12 @@
           "term": "取れた",
           "readingHiragana": "とれた",
           "meaning": "Plain past form of 取れる: to come off, to be removed",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "事故や工事、天気による制限まで受け取れるので、ただお金を払うだけの仕組みではありません。",
+              "en": "Drivers can receive information about accidents, construction, and even weather-related restrictions, so the system is not just about paying tolls."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -77085,7 +77541,12 @@
           "term": "取れない",
           "readingHiragana": "とれない",
           "meaning": "Plain negative form of 取れる: to come off, to be removed",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "事故や工事、天気による制限まで受け取れるので、ただお金を払うだけの仕組みではありません。",
+              "en": "Drivers can receive information about accidents, construction, and even weather-related restrictions, so the system is not just about paying tolls."
+            }
+          ]
         },
         {
           "form": "te",
@@ -77094,7 +77555,12 @@
           "term": "取れて",
           "readingHiragana": "とれて",
           "meaning": "Te-form of 取れる: to come off, to be removed",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "事故や工事、天気による制限まで受け取れるので、ただお金を払うだけの仕組みではありません。",
+              "en": "Drivers can receive information about accidents, construction, and even weather-related restrictions, so the system is not just about paying tolls."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -77103,7 +77569,12 @@
           "term": "取れられる",
           "readingHiragana": "とれられる",
           "meaning": "Potential form of 取れる: to come off, to be removed",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "事故や工事、天気による制限まで受け取れるので、ただお金を払うだけの仕組みではありません。",
+              "en": "Drivers can receive information about accidents, construction, and even weather-related restrictions, so the system is not just about paying tolls."
+            }
+          ]
         }
       ]
     },
@@ -77186,6 +77657,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
+          "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
+        },
+        {
           "ja": "実際には目立つ場所に集中しているのですが、それだけ都市の車の移動に深く組み込まれています。",
           "en": "In reality, it is concentrated in highly visible places, but that shows how deeply it is built into urban car travel."
         },
@@ -77200,10 +77675,6 @@
         {
           "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
           "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
-        },
-        {
-          "ja": "こうした仕組みがあったからこそ、東京は世界でもとても大きく、しかも効率的な都市圏の一つに成長できました。",
-          "en": "Because this kind of system existed, Tokyo was able to grow into one of the world's very large and efficient metropolitan areas."
         }
       ]
     },
@@ -78276,7 +78747,12 @@
           "term": "通じて",
           "readingHiragana": "つうじて",
           "meaning": "Te-form of 通じる: to lead to, to be understood",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "0対応システムを通じて、広い範囲の交通情報が届くと説明されています。",
+              "en": "0 compatible systems."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -78367,6 +78843,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "ドライバーは画面で混み具合や通行止めを知ることができ、より楽な経路を選びやすくなります。",
+          "en": "Drivers can see crowded areas and road closures on the screen and choose easier routes."
+        },
         {
           "ja": "駅へ入る前に、通行の邪魔にならない場所で自転車を準備します。",
           "en": "Before entering the station, prepare your bicycle somewhere that does not block pedestrian traffic."
@@ -78735,7 +79215,12 @@
           "term": "受け取れる",
           "readingHiragana": "うけとれる",
           "meaning": "Potential form of 受け取る: to receive, to get",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "事故や工事、天気による制限まで受け取れるので、ただお金を払うだけの仕組みではありません。",
+              "en": "Drivers can receive information about accidents, construction, and even weather-related restrictions, so the system is not just about paying tolls."
+            }
+          ]
         }
       ]
     },
@@ -79015,24 +79500,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "V2Xという言葉を聞くと、多くの人は自動運転の未来を想像します。",
+          "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
+        },
+        {
+          "ja": "つまりV2Xは、未来の実験だけでなく、すでに日常の運転の中にも入っているのです。",
+          "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
+        },
+        {
+          "ja": "そう考えると、ふつうの運転も少し未来的に見えてきます。",
+          "en": "Seen that way, ordinary driving starts to look a little futuristic."
+        },
+        {
           "ja": "東京で車を運転すると、ETCという言葉をあちこちで見かけます。",
           "en": "When you drive in Tokyo, you see the term ETC in many places."
         },
         {
           "ja": "だから、東京で運転するとETCが「どこにでもある」ように見えるのです。",
           "en": "That is why ETC can look as if it is everywhere when you drive in Tokyo."
-        },
-        {
-          "ja": "その理由の一つは、ICカードの残高確認や運賃計算が、改札機の中でとても速く処理されるように設計されていることです。",
-          "en": "One reason is that balance checks and fare calculations for IC cards are designed to be processed very quickly inside the ticket gate itself."
-        },
-        {
-          "ja": "山手線は、ただ人を運ぶだけでなく、東京の街の作られ方そのものを支えているのです。",
-          "en": "The Yamanote Line does not just carry people; it supports the very way Tokyo's cityscape was built."
-        },
-        {
-          "ja": "旅行中で運動着を持っていなくても、近くのランナーズステーションで靴やウェアを借りることができます。",
-          "en": "Even if you are traveling and did not bring exercise clothes, you can rent shoes and sportswear at a nearby runner’s station."
         }
       ]
     },
@@ -80268,6 +80753,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "だから、車が自分だけで考えるより、道路の側が先に状況を知らせるほうが役に立ちます。",
+          "en": "Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself."
+        },
+        {
           "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
           "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
         },
@@ -80282,10 +80771,6 @@
         {
           "ja": "図書館では、観光客だけでなく、地域で生活する外国人にも役立つと考えています。",
           "en": "Libraries believe the tablets will help not only tourists but also foreign residents in the community."
-        },
-        {
-          "ja": "観光だけでなく、地域の経済を元気にする役割も期待されています。",
-          "en": "The train is expected not only to support tourism but also to help energize the regional economy."
         }
       ]
     },
@@ -82377,6 +82862,194 @@
       "exampleSentences": []
     },
     {
+      "id": "article-9e5d9e2ad7e854",
+      "level": "N3",
+      "term": "道路交通情報",
+      "reading": "どうろこうつうじょうほう",
+      "readingHiragana": "どうろこうつうじょうほう",
+      "meaning": "Road traffic information",
+      "source": "article",
+      "sourceId": "2026-07-14-japan-v2x-usage",
+      "sourceTitle": "日本ではV2Xが未来の話だけではなく道路が車に話しかける形ですでに使われている",
+      "sourceLabel": "7/14 日本のV2X",
+      "sourceHref": "./2026-07-14-japan-v2x-usage.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-14-japan-v2x-usage"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "VICSは渋滞や交通規制などの道路交通情報を、カーナビに実時間で届けます。",
+          "en": "VICS delivers road traffic information such as congestion and traffic restrictions to car navigation systems in real time."
+        }
+      ]
+    },
+    {
+      "id": "article-4cb819f566b7a0",
+      "level": "N3",
+      "term": "実時間",
+      "reading": "じつじかん",
+      "readingHiragana": "じつじかん",
+      "meaning": "Real time",
+      "source": "article",
+      "sourceId": "2026-07-14-japan-v2x-usage",
+      "sourceTitle": "日本ではV2Xが未来の話だけではなく道路が車に話しかける形ですでに使われている",
+      "sourceLabel": "7/14 日本のV2X",
+      "sourceHref": "./2026-07-14-japan-v2x-usage.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-14-japan-v2x-usage"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "VICSは渋滞や交通規制などの道路交通情報を、カーナビに実時間で届けます。",
+          "en": "VICS delivers road traffic information such as congestion and traffic restrictions to car navigation systems in real time."
+        }
+      ]
+    },
+    {
+      "id": "article-866a84e19befd7",
+      "level": "N3",
+      "term": "経路",
+      "reading": "けいろ",
+      "readingHiragana": "けいろ",
+      "meaning": "Route",
+      "source": "article",
+      "sourceId": "2026-07-14-japan-v2x-usage",
+      "sourceTitle": "日本ではV2Xが未来の話だけではなく道路が車に話しかける形ですでに使われている",
+      "sourceLabel": "7/14 日本のV2X",
+      "sourceHref": "./2026-07-14-japan-v2x-usage.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-14-japan-v2x-usage"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "ドライバーは画面で混み具合や通行止めを知ることができ、より楽な経路を選びやすくなります。",
+          "en": "Drivers can see crowded areas and road closures on the screen and choose easier routes."
+        },
+        {
+          "ja": "空港から都心へ向かうときや、郊外へ出かけるときにETCがないと、経路や支払いで不便を感じやすくなります。",
+          "en": "If you do not have ETC when heading from the airport into central Tokyo or driving out to the suburbs, payment and route choices can become inconvenient."
+        }
+      ]
+    },
+    {
+      "id": "article-9075b8d3840626",
+      "level": "N3",
+      "term": "電波",
+      "reading": "でんぱ",
+      "readingHiragana": "でんぱ",
+      "meaning": "Radio wave",
+      "source": "article",
+      "sourceId": "2026-07-14-japan-v2x-usage",
+      "sourceTitle": "日本ではV2Xが未来の話だけではなく道路が車に話しかける形ですでに使われている",
+      "sourceLabel": "7/14 日本のV2X",
+      "sourceHref": "./2026-07-14-japan-v2x-usage.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-14-japan-v2x-usage"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "8ギガヘルツの電波ビーコンやETC2.",
+          "en": "8 GHz radio beacons and ETC 2."
+        }
+      ]
+    },
+    {
+      "id": "article-a592da862317b4",
+      "level": "N3",
+      "term": "分岐",
+      "reading": "ぶんき",
+      "readingHiragana": "ぶんき",
+      "meaning": "Junction / Branch point",
+      "source": "article",
+      "sourceId": "2026-07-14-japan-v2x-usage",
+      "sourceTitle": "日本ではV2Xが未来の話だけではなく道路が車に話しかける形ですでに使われている",
+      "sourceLabel": "7/14 日本のV2X",
+      "sourceHref": "./2026-07-14-japan-v2x-usage.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-14-japan-v2x-usage"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
+          "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
+        }
+      ]
+    },
+    {
+      "id": "article-42a8183d9ad4c2",
+      "level": "N3",
+      "term": "実用性",
+      "reading": "じつようせい",
+      "readingHiragana": "じつようせい",
+      "meaning": "Practical usefulness",
+      "source": "article",
+      "sourceId": "2026-07-14-japan-v2x-usage",
+      "sourceTitle": "日本ではV2Xが未来の話だけではなく道路が車に話しかける形ですでに使われている",
+      "sourceLabel": "7/14 日本のV2X",
+      "sourceHref": "./2026-07-14-japan-v2x-usage.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-14-japan-v2x-usage"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "V2Xが静かに広がった理由は、この実用性の高さにあります。",
+          "en": "That practical value is why V2X has spread quietly."
+        }
+      ]
+    },
+    {
+      "id": "article-8a565a5756ab61",
+      "level": "N3",
+      "term": "規制情報",
+      "reading": "きせいじょうほう",
+      "readingHiragana": "きせいじょうほう",
+      "meaning": "Restriction information",
+      "source": "article",
+      "sourceId": "2026-07-14-japan-v2x-usage",
+      "sourceTitle": "日本ではV2Xが未来の話だけではなく道路が車に話しかける形ですでに使われている",
+      "sourceLabel": "7/14 日本のV2X",
+      "sourceHref": "./2026-07-14-japan-v2x-usage.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-14-japan-v2x-usage"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "カーナビの画面に出る渋滞情報や規制情報の後ろには、道路と車が少しずつ会話している世界があります。",
+          "en": "Behind the congestion and restriction information shown on a car navigation screen is a world where roads and cars are quietly exchanging information."
+        }
+      ]
+    },
+    {
+      "id": "article-e442e4a0a05da0",
+      "level": "N3",
+      "term": "会話する",
+      "reading": "かいわする",
+      "readingHiragana": "かいわする",
+      "meaning": "To communicate / converse",
+      "source": "article",
+      "sourceId": "2026-07-14-japan-v2x-usage",
+      "sourceTitle": "日本ではV2Xが未来の話だけではなく道路が車に話しかける形ですでに使われている",
+      "sourceLabel": "7/14 日本のV2X",
+      "sourceHref": "./2026-07-14-japan-v2x-usage.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-14-japan-v2x-usage"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "カーナビの画面に出る渋滞情報や規制情報の後ろには、道路と車が少しずつ会話している世界があります。",
+          "en": "Behind the congestion and restriction information shown on a car navigation screen is a world where roads and cars are quietly exchanging information."
+        }
+      ]
+    },
+    {
       "id": "article-f86d7e1a9954fe",
       "level": "N3",
       "term": "料金所",
@@ -82485,6 +83158,10 @@
         "2026-07-13-etc-everywhere-tokyo"
       ],
       "exampleSentences": [
+        {
+          "ja": "ドライバーは画面で混み具合や通行止めを知ることができ、より楽な経路を選びやすくなります。",
+          "en": "Drivers can see crowded areas and road closures on the screen and choose easier routes."
+        },
         {
           "ja": "空港から都心へ向かうときや、郊外へ出かけるときにETCがないと、経路や支払いで不便を感じやすくなります。",
           "en": "If you do not have ETC when heading from the airport into central Tokyo or driving out to the suburbs, payment and route choices can become inconvenient."
@@ -84858,6 +85535,10 @@
         {
           "ja": "案が通れば、人口が950万人に近づいたとき、政府は移民や難民、家族の呼び寄せを厳しく制限することになります。",
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
+        },
+        {
+          "ja": "事故や工事、天気による制限まで受け取れるので、ただお金を払うだけの仕組みではありません。",
+          "en": "Drivers can receive information about accidents, construction, and even weather-related restrictions, so the system is not just about paying tolls."
         }
       ]
     },
@@ -85624,6 +86305,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
+          "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
+        },
+        {
           "ja": "実際には目立つ場所に集中しているのですが、それだけ都市の車の移動に深く組み込まれています。",
           "en": "In reality, it is concentrated in highly visible places, but that shows how deeply it is built into urban car travel."
         },
@@ -85638,10 +86323,6 @@
         {
           "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
           "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
-        },
-        {
-          "ja": "こうした仕組みがあったからこそ、東京は世界でもとても大きく、しかも効率的な都市圏の一つに成長できました。",
-          "en": "Because this kind of system existed, Tokyo was able to grow into one of the world's very large and efficient metropolitan areas."
         }
       ]
     },
@@ -86816,16 +87497,16 @@
           "en": "Reuters reported that the Japanese government was believed to have bought yen in the market to respond to the weak yen."
         },
         {
+          "ja": "0対応システムを通じて、広い範囲の交通情報が届くと説明されています。",
+          "en": "0 compatible systems."
+        },
+        {
           "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
           "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
         },
         {
           "ja": "そのため、現金の対応も残しながら、少しずつ切り替える方針です。",
           "en": "For that reason, cash support will remain while the system is changed gradually."
-        },
-        {
-          "ja": "英語や中国語など、いくつかの言語に対応できるのが特長です。",
-          "en": "A key feature is that the robots can handle several languages such as English and Chinese."
         }
       ]
     },
@@ -86991,6 +87672,10 @@
         {
           "ja": "案が通れば、人口が950万人に近づいたとき、政府は移民や難民、家族の呼び寄せを厳しく制限することになります。",
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
+        },
+        {
+          "ja": "事故や工事、天気による制限まで受け取れるので、ただお金を払うだけの仕組みではありません。",
+          "en": "Drivers can receive information about accidents, construction, and even weather-related restrictions, so the system is not just about paying tolls."
         }
       ]
     },
@@ -87035,6 +87720,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
+          "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
+        },
+        {
           "ja": "2002年に完成したとき、全体の費用は4400億円をこえていて、そのときの借金が今の運賃にも影響しています。",
           "en": "When the line was completed in 2002, the total cost exceeded 440 billion yen, and those debts still affect fares today."
         },
@@ -87049,10 +87738,6 @@
         {
           "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
           "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
-        },
-        {
-          "ja": "反対派は、この案がスイスの経済に悪い影響を与えると主張しました。",
-          "en": "Opponents argued that the plan would hurt Switzerland's economy."
         }
       ]
     },
@@ -88114,6 +88799,14 @@
       ],
       "exampleSentences": [
         {
+          "ja": "でも日本では、道路の情報を車へ送る仕組みが、もうかなり前から使われています。",
+          "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
+        },
+        {
+          "ja": "事故や工事、天気による制限まで受け取れるので、ただお金を払うだけの仕組みではありません。",
+          "en": "Drivers can receive information about accidents, construction, and even weather-related restrictions, so the system is not just about paying tolls."
+        },
+        {
           "ja": "ETC専用、ETC一般という表示が何度も出てくるのは、その仕組みが交通を支えているからです。",
           "en": "Signs like ETC-only and ETC/general appear again and again because this system helps support traffic flow."
         },
@@ -88124,14 +88817,6 @@
         {
           "ja": "もちろん、ただ速いだけではなく、不正利用を防ぐための仕組みもしっかり組み込まれています。",
           "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
-        },
-        {
-          "ja": "こうした仕組みがあったからこそ、東京は世界でもとても大きく、しかも効率的な都市圏の一つに成長できました。",
-          "en": "Because this kind of system existed, Tokyo was able to grow into one of the world's very large and efficient metropolitan areas."
-        },
-        {
-          "ja": "そのため、必要な時だけ走る仕組みにして、運転手や燃料の負担を減らしたい考えです。",
-          "en": "The town wants to reduce the burden on drivers and fuel use by running buses only when needed."
         }
       ]
     },
@@ -89011,6 +89696,14 @@
       ],
       "exampleSentences": [
         {
+          "ja": "でも日本では、道路の情報を車へ送る仕組みが、もうかなり前から使われています。",
+          "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
+        },
+        {
+          "ja": "事故や工事、天気による制限まで受け取れるので、ただお金を払うだけの仕組みではありません。",
+          "en": "Drivers can receive information about accidents, construction, and even weather-related restrictions, so the system is not just about paying tolls."
+        },
+        {
           "ja": "ETC専用、ETC一般という表示が何度も出てくるのは、その仕組みが交通を支えているからです。",
           "en": "Signs like ETC-only and ETC/general appear again and again because this system helps support traffic flow."
         },
@@ -89021,14 +89714,6 @@
         {
           "ja": "もちろん、ただ速いだけではなく、不正利用を防ぐための仕組みもしっかり組み込まれています。",
           "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
-        },
-        {
-          "ja": "こうした仕組みがあったからこそ、東京は世界でもとても大きく、しかも効率的な都市圏の一つに成長できました。",
-          "en": "Because this kind of system existed, Tokyo was able to grow into one of the world's very large and efficient metropolitan areas."
-        },
-        {
-          "ja": "そのため、必要な時だけ走る仕組みにして、運転手や燃料の負担を減らしたい考えです。",
-          "en": "The town wants to reduce the burden on drivers and fuel use by running buses only when needed."
         }
       ]
     },
@@ -89189,6 +89874,14 @@
       ],
       "exampleSentences": [
         {
+          "ja": "でも日本では、道路の情報を車へ送る仕組みが、もうかなり前から使われています。",
+          "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
+        },
+        {
+          "ja": "事故や工事、天気による制限まで受け取れるので、ただお金を払うだけの仕組みではありません。",
+          "en": "Drivers can receive information about accidents, construction, and even weather-related restrictions, so the system is not just about paying tolls."
+        },
+        {
           "ja": "ETC専用、ETC一般という表示が何度も出てくるのは、その仕組みが交通を支えているからです。",
           "en": "Signs like ETC-only and ETC/general appear again and again because this system helps support traffic flow."
         },
@@ -89199,14 +89892,6 @@
         {
           "ja": "もちろん、ただ速いだけではなく、不正利用を防ぐための仕組みもしっかり組み込まれています。",
           "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
-        },
-        {
-          "ja": "こうした仕組みがあったからこそ、東京は世界でもとても大きく、しかも効率的な都市圏の一つに成長できました。",
-          "en": "Because this kind of system existed, Tokyo was able to grow into one of the world's very large and efficient metropolitan areas."
-        },
-        {
-          "ja": "そのため、必要な時だけ走る仕組みにして、運転手や燃料の負担を減らしたい考えです。",
-          "en": "The town wants to reduce the burden on drivers and fuel use by running buses only when needed."
         }
       ]
     },
@@ -89674,6 +90359,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "0対応システムを通じて、広い範囲の交通情報が届くと説明されています。",
+          "en": "0 compatible systems."
+        },
+        {
           "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
           "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
         },
@@ -89688,10 +90377,6 @@
         {
           "ja": "英語や中国語など、いくつかの言語に対応できるのが特長です。",
           "en": "A key feature is that the robots can handle several languages such as English and Chinese."
-        },
-        {
-          "ja": "一方で、細かい相談や、急なトラブルには、やはり人の対応が必要です。",
-          "en": "At the same time, detailed requests and sudden trouble still require human support."
         }
       ]
     },
@@ -90100,6 +90785,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "0対応システムを通じて、広い範囲の交通情報が届くと説明されています。",
+          "en": "0 compatible systems."
+        },
+        {
           "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
           "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
         },
@@ -90114,10 +90803,6 @@
         {
           "ja": "英語や中国語など、いくつかの言語に対応できるのが特長です。",
           "en": "A key feature is that the robots can handle several languages such as English and Chinese."
-        },
-        {
-          "ja": "一方で、細かい相談や、急なトラブルには、やはり人の対応が必要です。",
-          "en": "At the same time, detailed requests and sudden trouble still require human support."
         }
       ]
     },
