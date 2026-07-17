@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import math
 import subprocess
 import sys
 import tempfile
@@ -44,6 +45,9 @@ DEFAULT_AUDIO_FORMAT = "mp3"
 DEFAULT_TRAILING_SILENCE = 0.18
 FIXED_LAYOUT_WIDTH = 1200
 FIXED_LAYOUT_HEIGHT = 1800
+EXPECTED_SECTION_COUNT = 5
+
+
 @dataclass(frozen=True)
 class AudioSettings:
     speaker: int
@@ -54,16 +58,31 @@ class AudioSettings:
 
 
 @dataclass(frozen=True)
+class SectionAudio:
+    id: str
+    href: str
+    bytes_: bytes
+    media_type: str
+    duration_seconds: float
+
+
+@dataclass(frozen=True)
+class SectionPage:
+    page_id: str
+    href: str
+    title: str
+    body: str
+    audio: SectionAudio
+
+
+@dataclass(frozen=True)
 class Chapter:
     index: int
     article: dict
-    chapter_audio_href: str
-    chapter_audio_bytes: bytes
-    chapter_audio_media_type: str
-    chapter_audio_duration_seconds: float
+    chapter_audio: SectionAudio
     opener_href: str
     opener_body_html: str
-    vocabulary_body_html: str
+    section_pages: tuple[SectionPage, ...]
 
 
 @dataclass(frozen=True)
@@ -136,7 +155,10 @@ div,
 header,
 main,
 nav,
-section {
+ol,
+p,
+section,
+ul {
   display: block;
 }
 
@@ -167,13 +189,13 @@ a {
   position: relative;
   width: 100%;
   height: 100%;
-  padding: 86px 100px 88px;
+  padding: 84px 96px 88px;
 }
 
 .page__inner {
   position: relative;
   z-index: 1;
-  width: 1000px;
+  width: 1008px;
   max-width: 100%;
   height: 100%;
   margin: 0 auto;
@@ -184,29 +206,28 @@ a {
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
   flex-direction: column;
+  gap: 20px;
 }
 
 .article-header {
-  width: 860px;
-  max-width: 86%;
-  margin: 0 0 26px;
+  width: 880px;
+  max-width: 88%;
+  margin: 0 0 8px;
 }
 
 .article-header--balanced {
-  width: 828px;
-  margin-bottom: 22px;
+  width: 850px;
 }
 
 .article-header--compact {
-  width: 796px;
-  margin-bottom: 18px;
+  width: 816px;
 }
 
 .article-meta,
 .kicker {
   margin: 0 0 14px;
   color: #94603a;
-  font-size: 19px;
+  font-size: 20px;
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -217,94 +238,29 @@ h1 {
   margin: 0;
   color: #1d252d;
   font-family: "Noto Serif JP", "Source Han Serif", "Hiragino Mincho ProN", "Yu Mincho", serif;
-  font-size: 56px;
+  font-size: 60px;
   font-weight: 600;
-  line-height: 1.22;
+  line-height: 1.2;
   letter-spacing: -0.01em;
 }
 
 .article-title--balanced {
-  font-size: 54px;
-  line-height: 1.18;
+  font-size: 57px;
+  line-height: 1.16;
 }
 
 .article-title--compact {
-  font-size: 52px;
-  line-height: 1.15;
+  font-size: 54px;
+  line-height: 1.14;
   letter-spacing: -0.015em;
 }
 
 .title-rule {
-  width: 196px;
+  width: 212px;
   height: 4px;
-  margin: 20px 0 18px;
+  margin: 18px 0 0;
   border-radius: 999px;
   background: linear-gradient(90deg, #2f6f69 0%, rgba(47, 111, 105, 0.18) 100%);
-}
-
-.article-header--balanced .title-rule {
-  margin: 16px 0 14px;
-}
-
-.article-header--compact .title-rule {
-  width: 178px;
-  margin: 14px 0 12px;
-}
-
-.title-translation,
-.article-subtitle {
-  margin: 0;
-  color: #465665;
-  font-size: 22px;
-  font-weight: 500;
-  line-height: 1.42;
-}
-
-.audio-panel {
-  margin: 20px 0 0;
-}
-
-.article-header--balanced .audio-panel {
-  margin-top: 16px;
-}
-
-.article-header--compact .audio-panel {
-  margin-top: 14px;
-}
-
-.audio-card {
-  display: inline-block;
-  padding: 12px 18px 12px 16px;
-  border: 1px solid rgba(101, 113, 123, 0.34);
-  border-radius: 22px;
-  background: rgba(255, 252, 247, 0.82);
-}
-
-.audio-label {
-  display: block;
-  margin: 0 0 8px;
-  color: #234d4a;
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 1.15;
-}
-
-.audio-label span {
-  color: #556473;
-  font-size: 17px;
-  font-weight: 500;
-}
-
-.audio-player {
-  display: block;
-  width: 338px;
-  min-width: 338px;
-  min-height: 56px;
-}
-
-.audio-player:focus {
-  outline: 2px solid #2f6f69;
-  outline-offset: 4px;
 }
 
 .story-body {
@@ -312,6 +268,9 @@ h1 {
   -webkit-flex: 1 1 auto;
   flex: 1 1 auto;
   min-height: 0;
+}
+
+.story-body--overview {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -322,11 +281,23 @@ h1 {
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   justify-content: space-between;
-  gap: 22px;
-  padding-bottom: 12px;
+  gap: 18px;
+  padding-bottom: 10px;
 }
 
-.bilingual-group {
+.story-body--section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.jp-only-group,
+.section-card {
   margin: 0;
   padding: 0;
 }
@@ -336,62 +307,152 @@ h1 {
   margin: 0;
   color: #1f2832;
   font-family: "Noto Serif JP", "Source Han Serif", "Hiragino Mincho ProN", "Yu Mincho", serif;
-  font-size: 33px;
+  font-size: 37px;
   font-weight: 500;
-  line-height: 1.64;
+  line-height: 1.68;
 }
 
-.en-copy,
-.translation {
-  margin: 10px 0 0;
-  color: #4d5d6d;
-  font-family: "Noto Sans", "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
-  font-size: 21px;
-  font-weight: 500;
-  line-height: 1.46;
+.section-card .jp-copy,
+.section-card .paragraph-japanese {
+  font-size: 41px;
+  line-height: 1.72;
 }
 
-.vocabulary-note {
+.section-shell {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  gap: 22px;
+  min-height: 0;
+}
+
+.section-label {
+  margin: 0;
+  color: #2f6f69;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.note-card {
+  min-height: 0;
+  padding: 22px 24px 24px;
+  border: 1px solid rgba(101, 113, 123, 0.26);
+  border-radius: 28px;
+  background: rgba(255, 252, 247, 0.82);
+}
+
+.notes-column {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.note-title,
+h2 {
   margin: 0 0 12px;
-  color: #4d5d6d;
-  font-size: 21px;
+  color: #234d4a;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.phrase-note {
+  margin: 0;
+  color: #425362;
+  font-size: 25px;
   font-weight: 500;
-  line-height: 1.42;
+  line-height: 1.5;
 }
 
-.toc {
-  margin: 18px 0 0;
-  padding-left: 34px;
-  color: #1f2832;
-  font-size: 26px;
-  line-height: 1.42;
+.audio-card {
+  display: block;
 }
 
-.toc li {
-  margin: 0 0 16px;
+.audio-label {
+  display: block;
+  margin: 0 0 10px;
+  color: #234d4a;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.audio-label span {
+  display: block;
+  margin-top: 4px;
+  color: #556473;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.audio-player {
+  display: block;
+  width: 100%;
+  min-height: 62px;
+}
+
+.audio-player:focus {
+  outline: 2px solid #2f6f69;
+  outline-offset: 4px;
 }
 
 .vocabulary-list {
   margin: 0;
-  padding-left: 34px;
+  padding-left: 28px;
   color: #1f2832;
   font-size: 24px;
-  line-height: 1.42;
+  line-height: 1.45;
 }
 
 .vocabulary-list li {
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
-.back-link,
+.vocabulary-list--section {
+  font-size: 23px;
+}
+
+.section-footer,
 .page-footer {
   margin-top: auto;
-  padding-top: 14px;
+  padding-top: 4px;
   color: #61707d;
   font-size: 18px;
   font-weight: 600;
   line-height: 1.2;
   text-transform: uppercase;
+}
+
+.title-translation,
+.vocabulary-note {
+  margin: 0;
+  color: #465665;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.toc {
+  margin: 8px 0 0;
+  padding-left: 34px;
+  color: #1f2832;
+  font-size: 28px;
+  line-height: 1.44;
+}
+
+.toc li {
+  margin: 0 0 16px;
 }
 
 ruby {
@@ -461,14 +522,12 @@ def intro_page(title: str, chapters: tuple[Chapter, ...]) -> str:
         <div class="page__inner">
         <p class="kicker">Japanese Reading EPUB</p>
         <h1>{xml_escape(title)}</h1>
-        <p class="title-translation">A fixed-layout EPUB styled from the IG-video look, with embedded chapter audio and a single play/pause control on each chapter opener.</p>
-        <p class="vocabulary-note">Each article stays on a single 1200×1800 page with native EPUB audio controls, and the vocabulary list sits on its own fixed page.</p>
+        <p class="title-translation">Each article opens with a Japanese-only overview page, followed by five section study pages with audio and notes.</p>
+        <p class="vocabulary-note">The layout is fixed at 1200×1800 with larger type for reading and ruby support.</p>
         <h2>Contents</h2>
         <ol class="toc">
 {toc_items}
         </ol>
-        <h2>Fallback</h2>
-        <p class="vocabulary-note">The article pages use normal text flow with ruby markup and standard audio playback controls so the layout and media remain available without JavaScript.</p>
         <p class="page-footer">Fixed layout · {FIXED_LAYOUT_WIDTH}×{FIXED_LAYOUT_HEIGHT}</p>
         </div>
       </section>
@@ -476,7 +535,7 @@ def intro_page(title: str, chapters: tuple[Chapter, ...]) -> str:
     return xhtml_document(title, body)
 
 
-def chapter_opener_xhtml(chapter: Chapter) -> str:
+def chapter_overview_xhtml(chapter: Chapter) -> str:
     article = chapter.article
     header_class, title_class = article_title_layout(article)
     body = f"""    <div class="page-wrap">
@@ -486,17 +545,16 @@ def chapter_opener_xhtml(chapter: Chapter) -> str:
           <p class="article-meta">Chapter {chapter.index} · {xml_escape(article["date"])} · {xml_escape(article.get("level", ""))}</p>
           <h1 class="{title_class}">{article["headlineHtml"]}</h1>
           <div class="title-rule"></div>
-          <p class="article-subtitle title-translation" lang="en" xml:lang="en">{xml_escape(article.get("titleTranslation", ""))}</p>
-          <section class="audio-panel" aria-label="Audio">
+          <section class="note-card" aria-label="Audio">
             <div class="audio-card">
-              <span class="audio-label">▶ 音声を聞く <span>Play audio</span></span>
-              <audio class="audio-player" controls="controls" preload="none" src="../{xml_escape(chapter.chapter_audio_href)}">
-                <p>This chapter includes embedded audio.</p>
+              <span class="audio-label">▶ Article audio <span>Play the full article</span></span>
+              <audio class="audio-player" controls="controls" preload="none" src="../{xml_escape(chapter.chapter_audio.href)}">
+                <p>This article includes embedded audio.</p>
               </audio>
             </div>
           </section>
         </header>
-        <main class="story-body">
+        <main class="story-body story-body--overview">
 {chapter.opener_body_html}
         </main>
         </div>
@@ -505,26 +563,59 @@ def chapter_opener_xhtml(chapter: Chapter) -> str:
     return xhtml_document(article["title"], body)
 
 
-def vocabulary_page_xhtml(chapter: Chapter) -> str:
-    article = chapter.article
+def section_page_xhtml(article: dict, chapter_index: int, section_index: int, paragraph: dict, audio: SectionAudio, vocabulary_items: tuple[dict, ...]) -> str:
+    phrase_note = str(paragraph.get("translation", "")).strip()
+    vocabulary_html = render_vocabulary_items(vocabulary_items)
+    notes_body = (
+        f'          <p class="phrase-note" lang="en" xml:lang="en">{xml_escape(phrase_note)}</p>'
+        if phrase_note
+        else '          <p class="phrase-note">No phrase note for this section.</p>'
+    )
     body = f"""    <div class="page-wrap">
       <article class="page">
         <div class="page__inner">
-        <p class="article-meta">Chapter {chapter.index} · Vocabulary</p>
-        <h2>{xml_escape(article.get("vocabularyTitle", "Vocabulary"))}</h2>
-        <p class="vocabulary-note">Key words from this article.</p>
-{chapter.vocabulary_body_html}
-        <p class="back-link"><a href="../toc.xhtml">Back to contents</a></p>
+        <p class="article-meta">Chapter {chapter_index} · Section {section_index} of {EXPECTED_SECTION_COUNT}</p>
+        <main class="story-body story-body--section">
+          <div class="section-shell">
+            <p class="section-label">{xml_escape(article["title"])}</p>
+            <section class="section-card">
+              <p class="jp-copy paragraph-japanese">{paragraph["html"]}</p>
+            </section>
+            <div class="notes-column">
+              <section class="note-card">
+                <h2>Phrase note</h2>
+{notes_body}
+              </section>
+              <section class="note-card">
+                <h2>Vocabulary</h2>
+                <ul class="vocabulary-list vocabulary-list--section">
+{vocabulary_html}
+                </ul>
+              </section>
+              <section class="note-card" aria-label="Audio">
+                <div class="audio-card">
+                  <span class="audio-label">▶ Section audio <span>Play this section only</span></span>
+                  <audio class="audio-player" controls="controls" preload="none" src="../{xml_escape(audio.href)}">
+                    <p>This section includes embedded audio.</p>
+                  </audio>
+                </div>
+              </section>
+            </div>
+          </div>
+          <p class="section-footer">Section {section_index} study page</p>
+        </main>
         </div>
       </article>
     </div>"""
     return xhtml_document(article["title"], body)
 
 
-def render_vocabulary(article: dict) -> str:
+def render_vocabulary_items(items: tuple[dict, ...]) -> str:
+    if not items:
+        return '                  <li>No vocabulary note on this page.</li>'
     return "\n".join(
-        f'        <li><strong>{xml_escape(item["term"])}</strong>: {xml_escape(item["meaning"])}</li>'
-        for item in article.get("vocabulary", [])
+        f'                  <li><strong>{xml_escape(item["term"])}</strong>: {xml_escape(item["meaning"])}</li>'
+        for item in items
     )
 
 
@@ -564,15 +655,20 @@ def package_document(book_uuid: str, title: str, chapters: tuple[Chapter, ...], 
         '    <item id="style" href="styles/book.css" media-type="text/css"/>',
     ]
     for page in spine_pages:
-        manifest_items.append(
-            f'    <item id="{page.id}" href="{page.href}" media-type="application/xhtml+xml"/>'
-        )
+        manifest_items.append(f'    <item id="{page.id}" href="{page.href}" media-type="application/xhtml+xml"/>')
+    total_duration = 0.0
     for chapter in chapters:
         manifest_items.append(
-            f'    <item id="chapter-audio-{chapter.index}" href="{chapter.chapter_audio_href}" media-type="{chapter.chapter_audio_media_type}"/>'
+            f'    <item id="{chapter.chapter_audio.id}" href="{chapter.chapter_audio.href}" media-type="{chapter.chapter_audio.media_type}"/>'
         )
+        total_duration += chapter.chapter_audio.duration_seconds
+        for section_page in chapter.section_pages:
+            audio = section_page.audio
+            manifest_items.append(
+                f'    <item id="{audio.id}" href="{audio.href}" media-type="{audio.media_type}"/>'
+            )
+            total_duration += audio.duration_seconds
     spine_items = [f'    <itemref idref="{page.id}"/>' for page in spine_pages]
-    total_duration = sum(chapter.chapter_audio_duration_seconds for chapter in chapters)
     return f"""<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" unique-identifier="book-id" version="3.0" xml:lang="{DEFAULT_LANGUAGE}" prefix="media: http://www.idpf.org/epub/vocab/overlays/# rendition: http://www.idpf.org/vocab/rendition/#">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
@@ -664,9 +760,9 @@ def transcode_audio(wav_path: Path, output_format: str) -> bytes:
 
 def combine_audio(wav_paths: list[Path], output_format: str) -> tuple[bytes, float]:
     if not wav_paths:
-        raise ValueError("No audio clips provided for chapter audio.")
+        raise ValueError("No audio clips provided for EPUB audio.")
     if which("ffmpeg") is None:
-        raise SystemExit("ffmpeg is required for chapter audio EPUB export.")
+        raise SystemExit("ffmpeg is required for EPUB audio export.")
 
     with tempfile.TemporaryDirectory(prefix="learn-japanese-epub-combine-") as temp_dir:
         temp_path = Path(temp_dir)
@@ -702,10 +798,7 @@ def combine_audio(wav_paths: list[Path], output_format: str) -> tuple[bytes, flo
 
 
 def select_articles(article_ids: tuple[str, ...]) -> tuple[dict, ...]:
-    articles = {
-        article["id"]: article
-        for article in primary_articles(load_articles())
-    }
+    articles = {article["id"]: article for article in primary_articles(load_articles())}
     selected = []
     for article_id in article_ids:
         article = articles.get(article_id)
@@ -731,41 +824,111 @@ def fetch_audio_wav_path(text: str, settings: AudioSettings) -> Path:
 
 
 def article_audio_segments(article: dict) -> tuple[str, ...]:
-    segments = [html_base_text(article["headlineHtml"])]
+    segments = [html_base_text(article["headlineHtml"]).strip()]
     for paragraph in article.get("paragraphs", []):
-        for sentence_html in split_html_sentences(paragraph["html"]):
-            segments.append(html_base_text(sentence_html))
+        segments.extend(paragraph_audio_segments(paragraph))
     return tuple(segment for segment in segments if segment)
 
 
-def build_chapter(article: dict, chapter_index: int, settings: AudioSettings) -> Chapter:
-    chapter_wav_paths = [fetch_audio_wav_path(text, settings) for text in article_audio_segments(article)]
-    paragraph_sections = []
+def paragraph_audio_segments(paragraph: dict) -> tuple[str, ...]:
+    return tuple(
+        text
+        for sentence_html in split_html_sentences(paragraph["html"])
+        for text in (html_base_text(sentence_html).strip(),)
+        if text
+    )
 
-    for paragraph in article.get("paragraphs", []):
-        translation = str(paragraph.get("translation", "")).strip()
-        translation_html = f'\n          <p class="en-copy translation" lang="en" xml:lang="en">{xml_escape(translation)}</p>' if translation else ""
-        paragraph_sections.append(
-            f"""          <section class="bilingual-group paragraph">
-          <p class="jp-copy paragraph-japanese">{paragraph["html"]}</p>{translation_html}
+
+def validate_article_sections(article: dict) -> tuple[dict, ...]:
+    paragraphs = tuple(article.get("paragraphs", []))
+    if len(paragraphs) != EXPECTED_SECTION_COUNT:
+        raise ValueError(
+            f'Article {article["id"]} must have exactly {EXPECTED_SECTION_COUNT} paragraphs for the fixed EPUB layout.'
+        )
+    return paragraphs
+
+
+def chunk_vocabulary(vocabulary: tuple[dict, ...], chunk_count: int) -> tuple[tuple[dict, ...], ...]:
+    if chunk_count <= 0:
+        return tuple()
+    if not vocabulary:
+        return tuple(() for _ in range(chunk_count))
+    size = max(1, math.ceil(len(vocabulary) / chunk_count))
+    chunks = []
+    for index in range(chunk_count):
+        start = index * size
+        end = start + size
+        chunks.append(vocabulary[start:end])
+    while len(chunks) < chunk_count:
+        chunks.append(())
+    return tuple(tuple(chunk) for chunk in chunks[:chunk_count])
+
+
+def build_overview_body(paragraphs: tuple[dict, ...]) -> str:
+    return "\n".join(
+        f"""          <section class="jp-only-group paragraph">
+          <p class="jp-copy paragraph-japanese">{paragraph["html"]}</p>
         </section>"""
+        for paragraph in paragraphs
+    )
+
+
+def build_section_audio(chapter_index: int, section_index: int, paragraph: dict, settings: AudioSettings) -> SectionAudio:
+    wav_paths = [fetch_audio_wav_path(text, settings) for text in paragraph_audio_segments(paragraph)]
+    audio_bytes, duration_seconds = combine_audio(wav_paths, settings.audio_format)
+    return SectionAudio(
+        id=f"chapter-{chapter_index}-section-{section_index}-audio",
+        href=f"audio/article-{chapter_index}-section-{section_index}.{settings.audio_format}",
+        bytes_=audio_bytes,
+        media_type=audio_media_type(settings.audio_format),
+        duration_seconds=duration_seconds,
+    )
+
+
+def build_chapter_audio(chapter_index: int, article: dict, settings: AudioSettings) -> SectionAudio:
+    wav_paths = [fetch_audio_wav_path(text, settings) for text in article_audio_segments(article)]
+    audio_bytes, duration_seconds = combine_audio(wav_paths, settings.audio_format)
+    return SectionAudio(
+        id=f"chapter-{chapter_index}-full-audio",
+        href=f"audio/article-{chapter_index}-full.{settings.audio_format}",
+        bytes_=audio_bytes,
+        media_type=audio_media_type(settings.audio_format),
+        duration_seconds=duration_seconds,
+    )
+
+
+def build_chapter(article: dict, chapter_index: int, settings: AudioSettings) -> Chapter:
+    paragraphs = validate_article_sections(article)
+    vocabulary_chunks = chunk_vocabulary(tuple(article.get("vocabulary", [])), len(paragraphs))
+    chapter_audio = build_chapter_audio(chapter_index, article, settings)
+    section_pages = []
+    for section_index, (paragraph, vocabulary_items) in enumerate(zip(paragraphs, vocabulary_chunks, strict=True), start=1):
+        audio = build_section_audio(chapter_index, section_index, paragraph, settings)
+        href = f"text/article-{chapter_index}-section-{section_index}.xhtml"
+        section_pages.append(
+            SectionPage(
+                page_id=f"chapter-{chapter_index}-section-{section_index}",
+                href=href,
+                title=f'{article["title"]} Section {section_index}',
+                body=section_page_xhtml(
+                    article,
+                    chapter_index,
+                    section_index,
+                    paragraph,
+                    audio,
+                    vocabulary_items,
+                ),
+                audio=audio,
+            )
         )
 
-    opener_body_html = "\n".join(paragraph_sections)
-
-    chapter_audio_bytes, chapter_audio_duration = combine_audio(chapter_wav_paths, settings.audio_format)
     return Chapter(
         index=chapter_index,
         article=article,
-        chapter_audio_href=f"audio/article-{chapter_index}-full.{settings.audio_format}",
-        chapter_audio_bytes=chapter_audio_bytes,
-        chapter_audio_media_type=audio_media_type(settings.audio_format),
-        chapter_audio_duration_seconds=chapter_audio_duration,
+        chapter_audio=chapter_audio,
         opener_href=f"text/article-{chapter_index}-1.xhtml",
-        opener_body_html=opener_body_html,
-        vocabulary_body_html=f"""        <ol class="vocabulary-list">
-{render_vocabulary(article)}
-        </ol>""",
+        opener_body_html=build_overview_body(paragraphs),
+        section_pages=tuple(section_pages),
     )
 
 
@@ -791,20 +954,21 @@ def build_epub(
     for chapter in chapters:
         spine_pages.append(
             SpinePage(
-                id=f"chapter-{chapter.index}-opener",
+                id=f"chapter-{chapter.index}-overview",
                 href=chapter.opener_href,
                 title=chapter.article["title"],
-                body=chapter_opener_xhtml(chapter),
+                body=chapter_overview_xhtml(chapter),
             )
         )
-        spine_pages.append(
-            SpinePage(
-                id=f"chapter-{chapter.index}-vocabulary",
-                href=f"text/article-{chapter.index}-vocabulary.xhtml",
-                title=chapter.article["title"],
-                body=vocabulary_page_xhtml(chapter),
+        for section_page in chapter.section_pages:
+            spine_pages.append(
+                SpinePage(
+                    id=section_page.page_id,
+                    href=section_page.href,
+                    title=section_page.title,
+                    body=section_page.body,
+                )
             )
-        )
 
     book_uuid = str(uuid4())
     output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -819,13 +983,15 @@ def build_epub(
         for page in spine_pages:
             archive.writestr(f"OEBPS/{page.href}", page.body)
         for chapter in chapters:
-            archive.writestr(f"OEBPS/{chapter.chapter_audio_href}", chapter.chapter_audio_bytes)
+            archive.writestr(f"OEBPS/{chapter.chapter_audio.href}", chapter.chapter_audio.bytes_)
+            for section_page in chapter.section_pages:
+                archive.writestr(f"OEBPS/{section_page.audio.href}", section_page.audio.bytes_)
 
     return output_path
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Build a fixed-layout EPUB 3 with embedded chapter audio from selected Learn Japanese articles.")
+    parser = argparse.ArgumentParser(description="Build a fixed-layout EPUB 3 with embedded section audio from selected Learn Japanese articles.")
     parser.add_argument("--output", default=str(DEFAULT_OUTPUT_PATH), help="Path to the EPUB file to create.")
     parser.add_argument("--title", default=DEFAULT_TITLE, help="Book title to embed in the EPUB metadata.")
     parser.add_argument("--article-id", action="append", dest="article_ids", help="Article id to include. Repeat to override the default three-article set.")
@@ -834,8 +1000,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--speed-scale", type=float, default=DEFAULT_VOICEVOX_PROSODY["speedScale"])
     parser.add_argument("--pitch-scale", type=float, default=DEFAULT_VOICEVOX_PROSODY["pitchScale"])
     parser.add_argument("--intonation-scale", type=float, default=DEFAULT_VOICEVOX_PROSODY["intonationScale"])
-    parser.add_argument("--trailing-silence", type=float, default=DEFAULT_TRAILING_SILENCE, help="Extra silence to append to each sentence clip before chapter concatenation.")
-    parser.add_argument("--audio-format", choices=("mp3", "wav"), default=DEFAULT_AUDIO_FORMAT, help="Pack chapter audio as mp3 or wav.")
+    parser.add_argument("--trailing-silence", type=float, default=DEFAULT_TRAILING_SILENCE, help="Extra silence to append to each sentence clip before section concatenation.")
+    parser.add_argument("--audio-format", choices=("mp3", "wav"), default=DEFAULT_AUDIO_FORMAT, help="Pack section audio as mp3 or wav.")
     return parser.parse_args()
 
 
