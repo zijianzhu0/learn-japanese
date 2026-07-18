@@ -212,18 +212,12 @@ a {
   gap: 20px;
 }
 
-.article-header {
-  width: 880px;
-  max-width: 88%;
-  margin: 0 0 8px;
-}
-
-.article-header--balanced {
-  width: 850px;
-}
-
+.article-header,
+.article-header--balanced,
 .article-header--compact {
-  width: 816px;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 0 8px;
 }
 
 .article-meta,
