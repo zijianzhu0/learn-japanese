@@ -688,11 +688,11 @@ p {
 }
 
 .article-paragraph {
-    max-width: 34em;
+    max-width: none;
 }
 
 .sentence-translation {
-    max-width: 38em;
+    max-width: none;
     margin-top: -8px;
     margin-bottom: 18px;
     color: #56616d;
@@ -1119,8 +1119,7 @@ li:last-child {
 }
 
 .article-main {
-    width: min(100%, calc(var(--reading-width) + 120px));
-    margin: 0 auto;
+    width: 100%;
     padding: 40px 28px 64px;
 }
 
@@ -1149,10 +1148,6 @@ li:last-child {
         padding: 34px 38px;
     }
 
-    .article-paragraph,
-    .sentence-translation {
-        margin-left: 6px;
-    }
 }
 
 @media (max-width: 860px) {
