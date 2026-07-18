@@ -143,6 +143,7 @@ select {
 }
 
 h1 {
+    width: 100%;
     margin: 0 0 14px;
     color: var(--ink);
     font-family: "Helvetica Neue", Arial, sans-serif;
@@ -179,6 +180,7 @@ h1::after {
 
 .article-toolbar {
     display: flex;
+    width: 100%;
     align-items: center;
     justify-content: space-between;
     gap: 12px;
@@ -505,6 +507,7 @@ body.recording-mode .article-toolbar {
 }
 
 .video-render-progress {
+    width: 100%;
     margin: 0 0 18px;
     padding: 15px 16px;
     border: 1px solid var(--line);
