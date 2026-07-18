@@ -33,7 +33,8 @@ from scripts.voicevox_cache import (
 
 DIST_DIR = ROOT / "dist"
 DEFAULT_OUTPUT_PATH = DIST_DIR / "tokyo-starter-pack-audio.epub"
-DEFAULT_TITLE = "Tokyo Starter Pack"
+DEFAULT_TITLE = "日本語の勉強記録"
+DEFAULT_AUTHOR = "ドキドキ団子"
 DEFAULT_LANGUAGE = "ja"
 DEFAULT_ARTICLE_IDS = (
     "2026-07-02-imperial-palace-running",
@@ -47,6 +48,8 @@ FIXED_LAYOUT_WIDTH = 1200
 FIXED_LAYOUT_HEIGHT = 1800
 EXPECTED_SECTION_COUNT = 5
 EPUB_LAYOUT_CSS_PATH = ROOT / "assets" / "epub-layout.css"
+EPUB_COVER_IMAGE_PATH = ROOT / "assets" / "epub-cover.jpg"
+EPUB_COVER_IMAGE_HREF = "images/epub-cover.jpg"
 
 
 @dataclass(frozen=True)
@@ -532,6 +535,13 @@ def intro_page(title: str, chapters: tuple[Chapter, ...]) -> str:
     return xhtml_document(title, body)
 
 
+def cover_page(title: str, author: str) -> str:
+    body = f"""    <div class="cover-page" role="doc-cover">
+      <img class="cover-page__image" src="../{EPUB_COVER_IMAGE_HREF}" alt="{xml_escape(title)} — {xml_escape(author)}"/>
+    </div>"""
+    return xhtml_document(title, body)
+
+
 def chapter_overview_xhtml(chapter: Chapter) -> str:
     article = chapter.article
     header_class, title_class = article_title_layout(article)
@@ -644,12 +654,13 @@ def ncx_document(book_uuid: str, title: str, chapters: tuple[Chapter, ...]) -> s
 """
 
 
-def package_document(book_uuid: str, title: str, chapters: tuple[Chapter, ...], spine_pages: tuple[SpinePage, ...]) -> str:
+def package_document(book_uuid: str, title: str, author: str, chapters: tuple[Chapter, ...], spine_pages: tuple[SpinePage, ...]) -> str:
     timestamp = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
     manifest_items = [
         '    <item id="nav" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>',
         '    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>',
         '    <item id="style" href="styles/book.css" media-type="text/css"/>',
+        f'    <item id="cover-image" href="{EPUB_COVER_IMAGE_HREF}" media-type="image/jpeg" properties="cover-image"/>',
     ]
     for page in spine_pages:
         manifest_items.append(f'    <item id="{page.id}" href="{page.href}" media-type="application/xhtml+xml"/>')
@@ -672,7 +683,8 @@ def package_document(book_uuid: str, title: str, chapters: tuple[Chapter, ...], 
     <dc:identifier id="book-id">urn:uuid:{book_uuid}</dc:identifier>
     <dc:title>{xml_escape(title)}</dc:title>
     <dc:language>{DEFAULT_LANGUAGE}</dc:language>
-    <dc:creator>OpenAI Codex</dc:creator>
+    <dc:creator>{xml_escape(author)}</dc:creator>
+    <meta name="cover" content="cover-image"/>
     <meta property="dcterms:modified">{timestamp}</meta>
     <meta property="media:duration">{format_metadata_duration(total_duration)}</meta>
     <meta property="rendition:layout">pre-paginated</meta>
@@ -932,15 +944,24 @@ def build_chapter(article: dict, chapter_index: int, settings: AudioSettings) ->
 def build_epub(
     output_path: Path,
     title: str,
+    author: str,
     article_ids: tuple[str, ...],
     settings: AudioSettings,
 ) -> Path:
+    if not EPUB_COVER_IMAGE_PATH.is_file():
+        raise FileNotFoundError(f"EPUB cover image is missing: {EPUB_COVER_IMAGE_PATH}")
     selected_articles = select_articles(article_ids)
     chapters = tuple(
         build_chapter(article, chapter_index, settings)
         for chapter_index, article in enumerate(selected_articles, start=1)
     )
     spine_pages = [
+        SpinePage(
+            id="cover",
+            href="text/cover.xhtml",
+            title=title,
+            body=cover_page(title, author),
+        ),
         SpinePage(
             id="intro",
             href="text/intro.xhtml",
@@ -976,7 +997,8 @@ def build_epub(
         archive.writestr("OEBPS/styles/book.css", book_stylesheet())
         archive.writestr("OEBPS/toc.xhtml", nav_document(title, chapters))
         archive.writestr("OEBPS/toc.ncx", ncx_document(book_uuid, title, chapters))
-        archive.writestr("OEBPS/content.opf", package_document(book_uuid, title, chapters, tuple(spine_pages)))
+        archive.writestr("OEBPS/content.opf", package_document(book_uuid, title, author, chapters, tuple(spine_pages)))
+        archive.write(EPUB_COVER_IMAGE_PATH, f"OEBPS/{EPUB_COVER_IMAGE_HREF}")
         for page in spine_pages:
             archive.writestr(f"OEBPS/{page.href}", page.body)
         for chapter in chapters:
@@ -991,6 +1013,7 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Build a fixed-layout EPUB 3 with embedded section audio from selected Learn Japanese articles.")
     parser.add_argument("--output", default=str(DEFAULT_OUTPUT_PATH), help="Path to the EPUB file to create.")
     parser.add_argument("--title", default=DEFAULT_TITLE, help="Book title to embed in the EPUB metadata.")
+    parser.add_argument("--author", default=DEFAULT_AUTHOR, help="Author name to embed in the EPUB metadata and cover.")
     parser.add_argument("--article-id", action="append", dest="article_ids", help="Article id to include. Repeat to override the default three-article set.")
     parser.add_argument("--speaker", type=int, default=DEFAULT_SPEAKER, help="VOICEVOX speaker id.")
     parser.add_argument("--voicevox-base-url", default=DEFAULT_VOICEVOX_BASE_URL, help="VOICEVOX base URL.")
@@ -1019,7 +1042,7 @@ def main() -> None:
         trailing_silence=args.trailing_silence,
         audio_format=args.audio_format,
     )
-    path = build_epub(output_path, args.title, article_ids, settings)
+    path = build_epub(output_path, args.title, args.author, article_ids, settings)
     print(path)
 
 

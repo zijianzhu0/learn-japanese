@@ -12,6 +12,13 @@ article, audio, div, header, main, nav, ol, p, section, ul { display: block; }
 a { color: inherit; text-decoration: none; }
 .page-wrap { position: relative; width: 100%; height: 100%; }
 .page-wrap::before { content: ""; position: absolute; inset: 0; background-image: linear-gradient(rgba(92,79,64,.03) 1px, transparent 1px), linear-gradient(90deg, rgba(92,79,64,.026) 1px, transparent 1px); background-size: 30px 30px; mask-image: linear-gradient(180deg, rgba(0,0,0,.66), transparent 88%); pointer-events: none; }
+.cover-page {
+  width: 100%; height: 100%;
+  margin: 0; padding: 0; overflow: hidden;
+}
+.cover-page__image {
+  display: block; width: 100%; height: 100%; object-fit: cover;
+}
 .page { position: relative; width: 100%; height: 100%; padding: 84px 96px 88px; }
 .page__inner { position: relative; z-index: 1; width: 1008px; max-width: 100%; height: 100%; margin: 0 auto; display: flex; flex-direction: column; gap: 20px; }
 .article-header,
