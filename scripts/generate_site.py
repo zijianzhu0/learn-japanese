@@ -27,6 +27,21 @@ FLASHCARDS_CSS_PATH = ROOT / "assets" / "flashcards.css"
 IG_VIDEOS_HTML_PATH = ROOT / "ig-videos.html"
 IG_VIDEOS_JS_PATH = ROOT / "assets" / "ig-videos.js"
 IG_VIDEOS_CSS_PATH = ROOT / "assets" / "ig-videos.css"
+EBOOK_HTML_PATH = ROOT / "ebook.html"
+EBOOK_JS_PATH = ROOT / "assets" / "ebook.js"
+EBOOK_CSS_PATH = ROOT / "assets" / "ebook.css"
+EBOOK_LIBRARY_PATH = ROOT / "data" / "ebook-library.json"
+EBOOK_MVP_ID = "tokyo-starter-pack"
+EBOOK_MVP_ARTICLE_IDS = (
+    "2026-07-02-imperial-palace-running",
+    "2026-07-04-keikyu-direction-from-haneda",
+    "2026-07-08-yellow-exit-signs",
+)
+EBOOK_MVP_PROMPTS = {
+    "2026-07-02-imperial-palace-running": "Why do you think the Imperial Palace route feels approachable even for visitors?",
+    "2026-07-04-keikyu-direction-from-haneda": "If you landed at Haneda today, would your destination be on the Shinagawa side or the Yokohama side?",
+    "2026-07-08-yellow-exit-signs": "What simple design choice makes busy Tokyo stations easier to navigate in this article?",
+}
 FLASHCARD_LEVELS = {"N5", "N4", "N3"}
 VERB_FORM_SPECS = (
     ("dictionary", "Dictionary", "Dictionary form"),
@@ -1226,6 +1241,71 @@ def write_article_navigation_manifest(articles: list[dict]) -> None:
     )
 
 
+def build_ebook_library_payload(articles: list[dict]) -> dict:
+    article_lookup = {
+        article["id"]: article
+        for article in primary_articles(articles)
+    }
+    ebook_articles = []
+    for article_id in EBOOK_MVP_ARTICLE_IDS:
+        article = article_lookup.get(article_id)
+        if article is None:
+            raise ValueError(f"E-book MVP article not found: {article_id}")
+        ebook_articles.append(
+            {
+                "id": article["id"],
+                "href": article_href(article),
+                "title": article["title"],
+                "titleTranslation": article.get("titleTranslation", ""),
+                "headlineHtml": article["headlineHtml"],
+                "date": article["date"],
+                "level": article.get("level", ""),
+                "navLabel": article["navLabel"],
+                "sourceNote": article["sourceNote"],
+                "focusPrompt": EBOOK_MVP_PROMPTS.get(article["id"], ""),
+                "paragraphs": [
+                    {
+                        "html": paragraph["html"],
+                        "translation": paragraph.get("translation", ""),
+                    }
+                    for paragraph in article.get("paragraphs", [])
+                ],
+                "vocabularyTitle": article["vocabularyTitle"],
+                "vocabulary": [
+                    {
+                        "term": item["term"],
+                        "meaning": item["meaning"],
+                    }
+                    for item in article.get("vocabulary", [])
+                ],
+            }
+        )
+
+    return {
+        "collections": [
+            {
+                "id": EBOOK_MVP_ID,
+                "title": "Tokyo Starter Pack",
+                "subtitle": "Three fixed-layout EPUB chapters for moving through Tokyo.",
+                "description": (
+                    "A browser workbench for the fixed-layout EPUB: preview its "
+                    "1200 × 1800 pages before exporting the book."
+                ),
+                "estimatedMinutes": 18,
+                "articles": ebook_articles,
+            }
+        ]
+    }
+
+
+def write_ebook_library_manifest(articles: list[dict]) -> None:
+    payload = build_ebook_library_payload(articles)
+    EBOOK_LIBRARY_PATH.write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+
 def render_vocabulary(article: dict) -> str:
     items = "\n".join(
         f"            <li><strong>{escape(item['term'])}:</strong> {escape(item['meaning'])}</li>"
@@ -1516,11 +1596,38 @@ def write_ig_videos_page() -> None:
     IG_VIDEOS_HTML_PATH.write_text(html, encoding="utf-8")
 
 
+def write_ebook_page() -> None:
+    html = EBOOK_HTML_PATH.read_text(encoding="utf-8")
+    favicon_link = '<link rel="icon" type="image/svg+xml" href="./favicon.svg">'
+    if favicon_link not in html:
+        html = re.sub(
+            r'(<title>[^<]*</title>)',
+            rf"\1\n    {favicon_link}",
+            html,
+            count=1,
+        )
+    html = re.sub(
+        r'./assets/ebook\.css(?:\?v=[^"]*)?',
+        f'./assets/ebook.css?v={file_version(EBOOK_CSS_PATH)}',
+        html,
+        count=1,
+    )
+    html = re.sub(
+        r'./assets/ebook\.js(?:\?v=[^"]*)?',
+        f'./assets/ebook.js?v={file_version(EBOOK_JS_PATH)}',
+        html,
+        count=1,
+    )
+    EBOOK_HTML_PATH.write_text(html, encoding="utf-8")
+
+
 def main() -> None:
     articles = load_articles()
     write_article_navigation_manifest(articles)
     write_articles(articles)
     write_index(articles)
+    write_ebook_library_manifest(articles)
+    write_ebook_page()
     write_flashcards_manifest(articles)
     write_flashcards_page()
     write_ig_videos_page()

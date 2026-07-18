@@ -46,6 +46,7 @@ DEFAULT_TRAILING_SILENCE = 0.18
 FIXED_LAYOUT_WIDTH = 1200
 FIXED_LAYOUT_HEIGHT = 1800
 EXPECTED_SECTION_COUNT = 5
+EPUB_LAYOUT_CSS_PATH = ROOT / "assets" / "epub-layout.css"
 
 
 @dataclass(frozen=True)
@@ -124,6 +125,8 @@ def root_xhtml_document(title: str, body: str) -> str:
 
 
 def book_stylesheet() -> str:
+    return EPUB_LAYOUT_CSS_PATH.read_text(encoding="utf-8")
+
     return """@namespace epub "http://www.idpf.org/2007/ops";
 
 *,
@@ -238,20 +241,20 @@ h1 {
   margin: 0;
   color: #1d252d;
   font-family: "Noto Serif JP", "Source Han Serif", "Hiragino Mincho ProN", "Yu Mincho", serif;
-  font-size: 60px;
+  font-size: 52px;
   font-weight: 600;
-  line-height: 1.2;
+  line-height: 1.18;
   letter-spacing: -0.01em;
 }
 
 .article-title--balanced {
-  font-size: 57px;
-  line-height: 1.16;
+  font-size: 49px;
+  line-height: 1.15;
 }
 
 .article-title--compact {
-  font-size: 54px;
-  line-height: 1.14;
+  font-size: 46px;
+  line-height: 1.13;
   letter-spacing: -0.015em;
 }
 
@@ -278,9 +281,9 @@ h1 {
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  justify-content: space-between;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
   gap: 18px;
   padding-bottom: 10px;
 }
@@ -307,15 +310,15 @@ h1 {
   margin: 0;
   color: #1f2832;
   font-family: "Noto Serif JP", "Source Han Serif", "Hiragino Mincho ProN", "Yu Mincho", serif;
-  font-size: 37px;
+  font-size: 31px;
   font-weight: 500;
-  line-height: 1.68;
+  line-height: 1.58;
 }
 
 .section-card .jp-copy,
 .section-card .paragraph-japanese {
-  font-size: 41px;
-  line-height: 1.72;
+  font-size: 35px;
+  line-height: 1.62;
 }
 
 .section-shell {

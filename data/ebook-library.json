@@ -1,0 +1,208 @@
+{
+  "collections": [
+    {
+      "id": "tokyo-starter-pack",
+      "title": "Tokyo Starter Pack",
+      "subtitle": "Three fixed-layout EPUB chapters for moving through Tokyo.",
+      "description": "A browser workbench for the fixed-layout EPUB: preview its 1200 × 1800 pages before exporting the book.",
+      "estimatedMinutes": 18,
+      "articles": [
+        {
+          "id": "2026-07-02-imperial-palace-running",
+          "href": "./2026-07-02-imperial-palace-running.html",
+          "title": "皇居のまわりは東京で最も有名なランニングコースの一つ",
+          "titleTranslation": "The Area Around the Imperial Palace Is One of Tokyo's Most Famous Running Courses",
+          "headlineHtml": "<ruby>皇居<rt>こうきょ</rt></ruby>のまわりは<ruby>東京<rt>とうきょう</rt></ruby>で<ruby>最<rt>もっと</rt></ruby>も<ruby>有名<rt>ゆうめい</rt></ruby>なランニングコースの<ruby>一<rt>ひと</rt></ruby>つ",
+          "date": "2026年7月2日",
+          "level": "N3",
+          "navLabel": "7/2 皇居ランニング",
+          "sourceNote": "ユーザー提供の皇居まわりのランニングについての説明文をもとにしたN3レベルの学習用ページです。",
+          "focusPrompt": "Why do you think the Imperial Palace route feels approachable even for visitors?",
+          "paragraphs": [
+            {
+              "html": "<ruby>皇居<rt>こうきょ</rt></ruby>は<ruby>東京<rt>とうきょう</rt></ruby>の<ruby>中心<rt>ちゅうしん</rt></ruby>にあり、そのまわりには<ruby>約<rt>やく</rt></ruby>5キロのランニングコースがあります。このコースは<ruby>東京<rt>とうきょう</rt></ruby>でとても<ruby>有名<rt>ゆうめい</rt></ruby>で、<ruby>毎日<rt>まいにち</rt></ruby>たくさんの<ruby>人<rt>ひと</rt></ruby>が<ruby>走<rt>はし</rt></ruby>っています。",
+              "translation": "The Imperial Palace is in the center of Tokyo, and there is a running course of about five kilometers around it. This course is very famous in Tokyo, and many people run there every day."
+            },
+            {
+              "html": "<ruby>速<rt>はや</rt></ruby>く<ruby>走<rt>はし</rt></ruby>る<ruby>人<rt>ひと</rt></ruby>もいれば、ゆっくり<ruby>自分<rt>じぶん</rt></ruby>のペースで<ruby>走<rt>はし</rt></ruby>る<ruby>人<rt>ひと</rt></ruby>もいます。レベルが<ruby>違<rt>ちが</rt></ruby>っても<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>楽<rt>たの</rt></ruby>しめるので、<ruby>初心者<rt>しょしんしゃ</rt></ruby>にも<ruby>人気<rt>にんき</rt></ruby>があります。",
+              "translation": "Some people run fast, while others run slowly at their own pace. Because people of different levels can enjoy it together, it is also popular with beginners."
+            },
+            {
+              "html": "<ruby>近<rt>ちか</rt></ruby>くでは<ruby>地元<rt>じもと</rt></ruby>のランニンググループが<ruby>集<rt>あつ</rt></ruby>まり、いっしょにスタートすることもあります。<ruby>東京<rt>とうきょう</rt></ruby>マラソンも<ruby>毎年<rt>まいとし</rt></ruby>このあたりから<ruby>始<rt>はじ</rt></ruby>まるため、<ruby>走<rt>はし</rt></ruby>る<ruby>場所<rt>ばしょ</rt></ruby>として<ruby>特別<rt>とくべつ</rt></ruby>なイメージがあります。",
+              "translation": "Local running groups also gather nearby and sometimes start together. The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
+            },
+            {
+              "html": "<ruby>旅行中<rt>りょこうちゅう</rt></ruby>で<ruby>運動着<rt>うんどうぎ</rt></ruby>を<ruby>持<rt>も</rt></ruby>っていなくても、<ruby>近<rt>ちか</rt></ruby>くのランナーズステーションで<ruby>靴<rt>くつ</rt></ruby>やウェアを<ruby>借<rt>か</rt></ruby>りることができます。ロッカーや<ruby>温<rt>あたた</rt></ruby>かいシャワーもあるので、<ruby>気軽<rt>きがる</rt></ruby>に<ruby>利用<rt>りよう</rt></ruby>できます。",
+              "translation": "Even if you are traveling and did not bring exercise clothes, you can rent shoes and sportswear at a nearby runner’s station. There are also lockers and hot showers, so you can use it casually."
+            },
+            {
+              "html": "そのため、<ruby>観光客<rt>かんこうきゃく</rt></ruby>でも<ruby>東京<rt>とうきょう</rt></ruby>のランニング<ruby>文化<rt>ぶんか</rt></ruby>をすぐに<ruby>体験<rt>たいけん</rt></ruby>できます。<ruby>皇居<rt>こうきょ</rt></ruby>のまわりを<ruby>一周<rt>いっしゅう</rt></ruby>すると、<ruby>景色<rt>けしき</rt></ruby>を<ruby>見<rt>み</rt></ruby>ながら<ruby>東京<rt>とうきょう</rt></ruby>らしい<ruby>習慣<rt>しゅうかん</rt></ruby>にふれることができます。",
+              "translation": "Because of that, even visitors can quickly experience Tokyo’s running culture. If you run one lap around the Imperial Palace, you can enjoy the scenery and experience a very Tokyo-like custom."
+            }
+          ],
+          "vocabularyTitle": "N3 Vocabulary",
+          "vocabulary": [
+            {
+              "term": "中心（ちゅうしん）",
+              "meaning": "Center"
+            },
+            {
+              "term": "初心者（しょしんしゃ）",
+              "meaning": "Beginner"
+            },
+            {
+              "term": "地元（じもと）",
+              "meaning": "Local area / Local"
+            },
+            {
+              "term": "運動着（うんどうぎ）",
+              "meaning": "Sportswear / Exercise clothes"
+            },
+            {
+              "term": "利用（りよう）する",
+              "meaning": "To use"
+            },
+            {
+              "term": "体験（たいけん）する",
+              "meaning": "To experience"
+            },
+            {
+              "term": "一周（いっしゅう）",
+              "meaning": "One lap / One circuit"
+            }
+          ]
+        },
+        {
+          "id": "2026-07-04-keikyu-direction-from-haneda",
+          "href": "./2026-07-04-keikyu-direction-from-haneda.html",
+          "title": "羽田空港から京急線に乗るならまず品川へ向かうか横浜へ向かうかを知ろう",
+          "titleTranslation": "From Haneda Airport on the Keikyu Line, First Know Whether You Need to Head Toward Shinagawa or Yokohama",
+          "headlineHtml": "<ruby>羽田空港<rt>はねだくうこう</rt></ruby>から<ruby>京急線<rt>けいきゅうせん</rt></ruby>に<ruby>乗<rt>の</rt></ruby>るなら、まず<ruby>品川<rt>しながわ</rt></ruby>へ<ruby>向<rt>む</rt></ruby>かうか<ruby>横浜<rt>よこはま</rt></ruby>へ<ruby>向<rt>む</rt></ruby>かうかを<ruby>知<rt>し</rt></ruby>ろう",
+          "date": "2026年7月4日",
+          "level": "N3",
+          "navLabel": "7/4 京急線の方向",
+          "sourceNote": "ユーザー提供の羽田空港から京急線を使うときのコツについての説明文をもとにしたN3レベルの学習用ページです。",
+          "focusPrompt": "If you landed at Haneda today, would your destination be on the Shinagawa side or the Yokohama side?",
+          "paragraphs": [
+            {
+              "html": "<ruby>羽田空港<rt>はねだくうこう</rt></ruby>から<ruby>京急線<rt>けいきゅうせん</rt></ruby>に<ruby>乗<rt>の</rt></ruby>るとき、いちばん<ruby>役<rt>やく</rt></ruby>に<ruby>立<rt>た</rt></ruby>つコツの一つは、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>目的地<rt>もくてきち</rt></ruby>が<ruby>品川<rt>しながわ</rt></ruby>へ<ruby>向<rt>む</rt></ruby>かう<ruby>側<rt>がわ</rt></ruby>にあるのか、<ruby>横浜<rt>よこはま</rt></ruby>へ<ruby>向<rt>む</rt></ruby>かう<ruby>側<rt>がわ</rt></ruby>にあるのかを、<ruby>先<rt>さき</rt></ruby>に<ruby>知<rt>し</rt></ruby>っておくことです。これだけで、<ruby>電車<rt>でんしゃ</rt></ruby>の<ruby>選<rt>えら</rt></ruby>び<ruby>方<rt>かた</rt></ruby>がかなり<ruby>簡単<rt>かんたん</rt></ruby>になります。",
+              "translation": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama. That alone makes choosing a train much easier."
+            },
+            {
+              "html": "<ruby>京急線<rt>けいきゅうせん</rt></ruby>では、たくさんの<ruby>電車<rt>でんしゃ</rt></ruby>がほかの<ruby>鉄道会社<rt>てつどうがいしゃ</rt></ruby>の<ruby>路線<rt>ろせん</rt></ruby>へそのまま<ruby>入<rt>はい</rt></ruby>っていきます。そのため、<ruby>車両<rt>しゃりょう</rt></ruby>に<ruby>表示<rt>ひょうじ</rt></ruby>される<ruby>行<rt>い</rt></ruby>き<ruby>先<rt>さき</rt></ruby>は、<ruby>自分<rt>じぶん</rt></ruby>が<ruby>降<rt>お</rt></ruby>りる<ruby>駅<rt>えき</rt></ruby>よりずっと<ruby>先<rt>さき</rt></ruby>の<ruby>地名<rt>ちめい</rt></ruby>であることもあります。",
+              "translation": "On the Keikyu Line, many trains continue directly onto other railway networks. Because of that, the destination shown on the train may be a place name far beyond the station where you plan to get off."
+            },
+            {
+              "html": "<ruby>東京<rt>とうきょう</rt></ruby>の<ruby>中心部<rt>ちゅうしんぶ</rt></ruby>へ<ruby>向<rt>む</rt></ruby>かうなら、まず<ruby>品川<rt>しながわ</rt></ruby>へ<ruby>向<rt>む</rt></ruby>かう<ruby>電車<rt>でんしゃ</rt></ruby>を<ruby>探<rt>さが</rt></ruby>しましょう。<ruby>品川<rt>しながわ</rt></ruby>に<ruby>着<rt>つ</rt></ruby>けば、そこから<ruby>山手線<rt>やまのてせん</rt></ruby>やほかの<ruby>路線<rt>ろせん</rt></ruby>に<ruby>乗<rt>の</rt></ruby>り<ruby>換<rt>か</rt></ruby>えやすく、<ruby>都心<rt>としん</rt></ruby>への<ruby>移動<rt>いどう</rt></ruby>がしやすくなります。",
+              "translation": "If you are heading into central Tokyo, first look for a train going toward Shinagawa. Once you reach Shinagawa, it is easy to transfer to the Yamanote Line and other routes into the city center."
+            },
+            {
+              "html": "<ruby>横浜<rt>よこはま</rt></ruby>やその<ruby>先<rt>さき</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くなら、<ruby>横浜<rt>よこはま</rt></ruby>へ<ruby>向<rt>む</rt></ruby>かう<ruby>電車<rt>でんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>ればいいです。<ruby>表示<rt>ひょうじ</rt></ruby>されている<ruby>最終的<rt>さいしゅうてき</rt></ruby>な<ruby>行<rt>い</rt></ruby>き<ruby>先<rt>さき</rt></ruby>が<ruby>聞<rt>き</rt></ruby>き<ruby>慣<rt>な</rt></ruby>れない<ruby>駅名<rt>えきめい</rt></ruby>でも、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>目的地<rt>もくてきち</rt></ruby>がその<ruby>方向<rt>ほうこう</rt></ruby>にあるなら、あまり<ruby>心配<rt>しんぱい</rt></ruby>しなくて<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>です。",
+              "translation": "If you are going to Yokohama or beyond, board a train heading that way. Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
+            },
+            {
+              "html": "このように、<ruby>細<rt>こま</rt></ruby>かい<ruby>列車<rt>れっしゃ</rt></ruby>の<ruby>名前<rt>なまえ</rt></ruby>を<ruby>全部<rt>ぜんぶ</rt></ruby><ruby>覚<rt>おぼ</rt></ruby>えていなくても、まず<ruby>路線<rt>ろせん</rt></ruby>のどちら<ruby>側<rt>がわ</rt></ruby>に<ruby>行<rt>い</rt></ruby>きたいかがわかれば、<ruby>正<rt>ただ</rt></ruby>しい<ruby>電車<rt>でんしゃ</rt></ruby>をかなり<ruby>選<rt>えら</rt></ruby>びやすくなります。<ruby>羽田空港<rt>はねだくうこう</rt></ruby>で<ruby>迷<rt>まよ</rt></ruby>ったら、まずどちらの<ruby>方面<rt>ほうめん</rt></ruby>へ<ruby>向<rt>む</rt></ruby>かうのかを<ruby>考<rt>かんが</rt></ruby>えてみましょう。",
+              "translation": "In this way, even if you do not remember every train name, knowing which side of the line you need first makes it much easier to choose the right train. If you feel confused at Haneda Airport, first think about which direction you need to head."
+            }
+          ],
+          "vocabularyTitle": "N3 Vocabulary",
+          "vocabulary": [
+            {
+              "term": "目的地（もくてきち）",
+              "meaning": "Destination"
+            },
+            {
+              "term": "方面（ほうめん）",
+              "meaning": "Direction / Area"
+            },
+            {
+              "term": "鉄道会社（てつどうがいしゃ）",
+              "meaning": "Railway company"
+            },
+            {
+              "term": "表示（ひょうじ）",
+              "meaning": "Display / Indication"
+            },
+            {
+              "term": "中心部（ちゅうしんぶ）",
+              "meaning": "Central area"
+            },
+            {
+              "term": "最終的（さいしゅうてき）",
+              "meaning": "Final / Ultimate"
+            },
+            {
+              "term": "心配（しんぱい）",
+              "meaning": "Worry / Concern"
+            }
+          ]
+        },
+        {
+          "id": "2026-07-08-yellow-exit-signs",
+          "href": "./2026-07-08-yellow-exit-signs.html",
+          "title": "東京の大きな駅で迷ったら黄色い案内を見れば出口が見つけやすい",
+          "titleTranslation": "If You Get Lost in a Big Tokyo Station, Yellow Signs Make the Exit Easier to Find",
+          "headlineHtml": "<ruby>東京<rt>とうきょう</rt></ruby>の<ruby>大<rt>おお</rt></ruby>きな<ruby>駅<rt>えき</rt></ruby>で<ruby>迷<rt>まよ</rt></ruby>ったら<ruby>黄色<rt>きいろ</rt></ruby>い<ruby>案内<rt>あんない</rt></ruby>を<ruby>見<rt>み</rt></ruby>れば<ruby>出口<rt>でぐち</rt></ruby>が<ruby>見<rt>み</rt></ruby>つけやすい",
+          "date": "2026年7月8日",
+          "level": "N3",
+          "navLabel": "7/8 黄色い出口案内",
+          "sourceNote": "ユーザー提供の東京の駅で黄色い出口案内を目印にすると分かりやすいという説明文をもとにしたN3レベルの学習用ページです。",
+          "focusPrompt": "What simple design choice makes busy Tokyo stations easier to navigate in this article?",
+          "paragraphs": [
+            {
+              "html": "<ruby>東京<rt>とうきょう</rt></ruby>の<ruby>大<rt>おお</rt></ruby>きな<ruby>駅<rt>えき</rt></ruby>で<ruby>道<rt>みち</rt></ruby>に<ruby>迷<rt>まよ</rt></ruby>ったときは、まず<ruby>黄色<rt>きいろ</rt></ruby>い<ruby>案内表示<rt>あんないひょうじ</rt></ruby>を<ruby>探<rt>さが</rt></ruby>すといいです。<ruby>多<rt>おお</rt></ruby>くの<ruby>主要駅<rt>しゅようえき</rt></ruby>では、<ruby>出口<rt>でぐち</rt></ruby>への<ruby>案内<rt>あんない</rt></ruby>に<ruby>黄色<rt>きいろ</rt></ruby>が<ruby>標準的<rt>ひょうじゅんてき</rt></ruby>に<ruby>使<rt>つか</rt></ruby>われています。",
+              "translation": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs. At many major stations, yellow is used as the standard color for directions to the exits."
+            },
+            {
+              "html": "<ruby>電車<rt>でんしゃ</rt></ruby>の<ruby>路線<rt>ろせん</rt></ruby>はそれぞれ<ruby>別<rt>べつ</rt></ruby>の<ruby>色<rt>いろ</rt></ruby>で<ruby>表<rt>あらわ</rt></ruby>されることが<ruby>多<rt>おお</rt></ruby>いので、<ruby>黄色<rt>きいろ</rt></ruby>い<ruby>出口案内<rt>でぐちあんない</rt></ruby>は<ruby>見分<rt>みわ</rt></ruby>けやすいです。どの<ruby>線<rt>せん</rt></ruby>に<ruby>乗<rt>の</rt></ruby>ってきたかで<ruby>頭<rt>あたま</rt></ruby>がいっぱいでも、<ruby>色<rt>いろ</rt></ruby>だけで<ruby>目的<rt>もくてき</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby>をつかみやすくなります。",
+              "translation": "Train lines are often shown in different colors, so yellow exit guidance is easy to distinguish from them. Even if your head is full of route information, the color alone makes the information you need easier to grasp."
+            },
+            {
+              "html": "<ruby>黄色<rt>きいろ</rt></ruby>い<ruby>背景<rt>はいけい</rt></ruby>に<ruby>黒<rt>くろ</rt></ruby>い<ruby>文字<rt>もじ</rt></ruby>と<ruby>矢印<rt>やじるし</rt></ruby>を<ruby>組<rt>く</rt></ruby>み<ruby>合<rt>あ</rt></ruby>わせた<ruby>表示<rt>ひょうじ</rt></ruby>は、<ruby>人<rt>ひと</rt></ruby>の<ruby>多<rt>おお</rt></ruby>い<ruby>駅<rt>えき</rt></ruby>でもよく<ruby>目立<rt>めだ</rt></ruby>ちます。<ruby>忙<rt>いそが</rt></ruby>しい<ruby>通勤時間<rt>つうきんじかん</rt></ruby>や<ruby>観光客<rt>かんこうきゃく</rt></ruby>で<ruby>混<rt>こ</rt></ruby>み<ruby>合<rt>あ</rt></ruby>う<ruby>場所<rt>ばしょ</rt></ruby>でも、すばやく<ruby>方向<rt>ほうこう</rt></ruby>を<ruby>判断<rt>はんだん</rt></ruby>できるように<ruby>考<rt>かんが</rt></ruby>えられています。",
+              "translation": "Signs that combine a yellow background with black text and arrows stand out well even in crowded stations. They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
+            },
+            {
+              "html": "この<ruby>仕組<rt>しく</rt></ruby>みを<ruby>知<rt>し</rt></ruby>っているだけで、<ruby>新宿駅<rt>しんじゅくえき</rt></ruby>のような<ruby>巨大<rt>きょだい</rt></ruby>な<ruby>駅<rt>えき</rt></ruby>でも<ruby>必要以上<rt>ひつよういじょう</rt></ruby>にこわがらなくてよくなります。<ruby>全部<rt>ぜんぶ</rt></ruby>を<ruby>理解<rt>りかい</rt></ruby>しようとしなくても、「<ruby>黄色<rt>きいろ</rt></ruby>は<ruby>出口<rt>でぐち</rt></ruby>」と<ruby>覚<rt>おぼ</rt></ruby>えておけば、<ruby>移動<rt>いどう</rt></ruby>の<ruby>負担<rt>ふたん</rt></ruby>がかなり<ruby>軽<rt>かる</rt></ruby>くなります。",
+              "translation": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
+            },
+            {
+              "html": "<ruby>何気<rt>なにげ</rt></ruby>ない<ruby>色<rt>いろ</rt></ruby>の<ruby>使<rt>つか</rt></ruby>い<ruby>方<rt>かた</rt></ruby>ですが、<ruby>毎日<rt>まいにち</rt></ruby><ruby>何百万人<rt>なんびゃくまんにん</rt></ruby>もの<ruby>通勤客<rt>つうきんきゃく</rt></ruby>や<ruby>旅行者<rt>りょこうしゃ</rt></ruby>がこの<ruby>工夫<rt>くふう</rt></ruby>に<ruby>助<rt>たす</rt></ruby>けられています。<ruby>東京<rt>とうきょう</rt></ruby>の<ruby>駅<rt>えき</rt></ruby>が<ruby>混雑<rt>こんざつ</rt></ruby>していても<ruby>大<rt>おお</rt></ruby>きく<ruby>混乱<rt>こんらん</rt></ruby>しにくいのは、こうした<ruby>単純<rt>たんじゅん</rt></ruby>で<ruby>強<rt>つよ</rt></ruby>いデザインの<ruby>力<rt>ちから</rt></ruby>があるからかもしれません。",
+              "translation": "It is only a simple use of color, but every day hundreds of thousands of commuters and travelers are helped by this idea. One reason Tokyo stations can stay usable despite heavy crowds may be the strength of this kind of simple, effective design."
+            }
+          ],
+          "vocabularyTitle": "N3 Vocabulary",
+          "vocabulary": [
+            {
+              "term": "案内表示（あんないひょうじ）",
+              "meaning": "Guide sign / Directional display"
+            },
+            {
+              "term": "主要駅（しゅようえき）",
+              "meaning": "Major station"
+            },
+            {
+              "term": "矢印（やじるし）",
+              "meaning": "Arrow"
+            },
+            {
+              "term": "判断（はんだん）する",
+              "meaning": "To judge / To decide"
+            },
+            {
+              "term": "巨大（きょだい）",
+              "meaning": "Huge / Massive"
+            },
+            {
+              "term": "負担（ふたん）",
+              "meaning": "Burden / Stress"
+            },
+            {
+              "term": "混乱（こんらん）",
+              "meaning": "Confusion"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
