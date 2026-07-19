@@ -259,7 +259,6 @@ def render_html(article: dict, segment: Segment, options: RenderOptions) -> str:
 {paragraphs}
             <div class="recording-footer" aria-hidden="true">
                 <span>英訳はコメント欄にあります</span>
-                <span>{escape(article["date"])}</span>
             </div>
         </div>
     </main>
