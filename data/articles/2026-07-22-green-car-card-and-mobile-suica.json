@@ -1,0 +1,47 @@
+{
+  "_comment": "Publish-ready N3 guide to using ordinary/rapid train Green Cars with a physical Suica card or Mobile Suica. Exactly 5 short paragraph sections.",
+  "id": "2026-07-22-green-car-card-and-mobile-suica",
+  "file": "2026-07-22-green-car-card-and-mobile-suica.html",
+  "title": "グリーン車はカードのSuicaとスマホで使える",
+  "titleTranslation": "Use a Green Car with a Suica Card or Your Phone",
+  "date": "2026年7月22日",
+  "month": "July 2026",
+  "navLabel": "7/22 グリーン車とSuica",
+  "level": "N3",
+  "downloadFileName": "2026-07-22-green-car-card-and-mobile-suica.mp4",
+  "headlineHtml": "グリーン<ruby>車<rt>しゃ</rt></ruby>はカードのSuicaとスマホで<ruby>使<rt>つか</rt></ruby>える",
+  "sourceNote": "JR東日本の「普通列車グリーン車」と「グリーン車Suicaシステム」の公式案内をもとに作成した学習用ページです。ここで説明するのは対象路線の普通・快速列車のグリーン車であり、新幹線のグリーン車とは利用方法が異なります。",
+  "paragraphs": [
+    {
+      "html": "<ruby>首都圏<rt>しゅとけん</rt></ruby>のJRには、<ruby>普通<rt>ふつう</rt></ruby>・<ruby>快速<rt>かいそく</rt></ruby><ruby>列車<rt>れっしゃ</rt></ruby>にグリーン<ruby>車<rt>しゃ</rt></ruby>がついている<ruby>路線<rt>ろせん</rt></ruby>があります。グリーン<ruby>車<rt>しゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>るには、ふつうの<ruby>運賃<rt>うんちん</rt></ruby>のほかにグリーン<ruby>券<rt>けん</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>です。JR<ruby>東日本<rt>ひがしにほん</rt></ruby>の<ruby>対象<rt>たいしょう</rt></ruby><ruby>路線<rt>ろせん</rt></ruby>では、カードのSuicaでも、スマホのモバイルSuicaでも、Suicaグリーン<ruby>券<rt>けん</rt></ruby>を<ruby>使<rt>つか</rt></ruby>えます。",
+      "translation": "Some JR lines around Tokyo have Green Cars on local and rapid trains. You need a Green Ticket in addition to the normal fare. On eligible JR East lines, you can use a physical Suica card or Mobile Suica."
+    },
+    {
+      "html": "カード<ruby>型<rt>がた</rt></ruby>のSuicaを<ruby>使<rt>つか</rt></ruby>う<ruby>場合<rt>ばあい</rt></ruby>は、<ruby>乗<rt>の</rt></ruby>る<ruby>前<rt>まえ</rt></ruby>に<ruby>駅<rt>えき</rt></ruby>の<ruby>券売機<rt>けんばいき</rt></ruby>でSuicaグリーン<ruby>券<rt>けん</rt></ruby>を<ruby>買<rt>か</rt></ruby>います。カードを<ruby>入<rt>い</rt></ruby>れて<ruby>乗車駅<rt>じょうしゃえき</rt></ruby>と<ruby>降車駅<rt>こうしゃえき</rt></ruby>を<ruby>選<rt>えら</rt></ruby>ぶと、<ruby>券<rt>けん</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby>がカードに<ruby>記録<rt>きろく</rt></ruby>されます。<ruby>紙<rt>かみ</rt></ruby>のきっぷは<ruby>出<rt>で</rt></ruby>ません。<ruby>料金<rt>りょうきん</rt></ruby>はSuicaにチャージしてある<ruby>残額<rt>ざんがく</rt></ruby>から<ruby>払<rt>はら</rt></ruby>います。",
+      "translation": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
+    },
+    {
+      "html": "モバイルSuicaなら、スマホのアプリで<ruby>同<rt>おな</rt></ruby>じように<ruby>乗車駅<rt>じょうしゃえき</rt></ruby>と<ruby>降車駅<rt>こうしゃえき</rt></ruby>を<ruby>選<rt>えら</rt></ruby>んで<ruby>買<rt>か</rt></ruby>えます。<ruby>券売機<rt>けんばいき</rt></ruby>に<ruby>並<rt>なら</rt></ruby>ばなくてもよいのが<ruby>便利<rt>べんり</rt></ruby>です。ただし、モバイルSuicaのグリーン<ruby>券<rt>けん</rt></ruby>は、Suicaのチャージ<ruby>残額<rt>ざんがく</rt></ruby>では<ruby>払<rt>はら</rt></ruby>えません。<ruby>登録<rt>とうろく</rt></ruby>したクレジットカード、またはGoogle Payで<ruby>決済<rt>けっさい</rt></ruby>します。<ruby>通信<rt>つうしん</rt></ruby>が<ruby>安定<rt>あんてい</rt></ruby>した<ruby>場所<rt>ばしょ</rt></ruby>で、<ruby>早<rt>はや</rt></ruby>めに<ruby>買<rt>か</rt></ruby>っておくと<ruby>安心<rt>あんしん</rt></ruby>です。",
+      "translation": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+    },
+    {
+      "html": "グリーン<ruby>車<rt>しゃ</rt></ruby>に<ruby>入<rt>はい</rt></ruby>ったら、<ruby>空<rt>あ</rt></ruby>いている<ruby>席<rt>せき</rt></ruby>を<ruby>選<rt>えら</rt></ruby>びます。<ruby>座席<rt>ざせき</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>には、グリーン<ruby>券<rt>けん</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>読<rt>よ</rt></ruby>む<ruby>部分<rt>ぶぶん</rt></ruby>があります。そこにカード、またはスマホをタッチしてください。ランプが<ruby>赤<rt>あか</rt></ruby>から<ruby>緑<rt>みどり</rt></ruby>に<ruby>変<rt>か</rt></ruby>われば、その<ruby>席<rt>せき</rt></ruby>を<ruby>使<rt>つか</rt></ruby>えます。<ruby>車内<rt>しゃない</rt></ruby><ruby>改札<rt>かいさつ</rt></ruby>は<ruby>基本的<rt>きほんてき</rt></ruby>に<ruby>省略<rt>しょうりゃく</rt></ruby>されます。",
+      "translation": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
+    },
+    {
+      "html": "<ruby>一枚<rt>いちまい</rt></ruby>のSuicaグリーン<ruby>券<rt>けん</rt></ruby>は、1<ruby>人<rt>にん</rt></ruby>、1<ruby>回<rt>かい</rt></ruby>の<ruby>乗車<rt>じょうしゃ</rt></ruby>のためのものです。<ruby>友<rt>とも</rt></ruby>だちの<ruby>分<rt>ぶん</rt></ruby>まで、一枚のカードや一台のスマホで<ruby>買<rt>か</rt></ruby>うことはできません。<ruby>席<rt>せき</rt></ruby>を<ruby>移<rt>うつ</rt></ruby>るときは、<ruby>新<rt>あたら</rt></ruby>しい<ruby>席<rt>せき</rt></ruby>でももう一<ruby>度<rt>ど</rt></ruby>タッチします。<ruby>乗<rt>の</rt></ruby>り<ruby>換<rt>か</rt></ruby>えるときも、<ruby>降<rt>お</rt></ruby>りる<ruby>前<rt>まえ</rt></ruby>と<ruby>次<rt>つぎ</rt></ruby>の<ruby>列車<rt>れっしゃ</rt></ruby>でタッチが<ruby>必要<rt>ひつよう</rt></ruby>です。",
+      "translation": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+    }
+  ],
+  "vocabularyTitle": "N3 Vocabulary",
+  "vocabulary": [
+    { "term": "グリーン券（グリーンけん）", "meaning": "Green Car ticket" },
+    { "term": "券売機（けんばいき）", "meaning": "Ticket vending machine" },
+    { "term": "残額（ざんがく）", "meaning": "Remaining balance" },
+    { "term": "決済（けっさい）", "meaning": "Payment / settlement" },
+    { "term": "座席（ざせき）", "meaning": "Seat" },
+    { "term": "車内改札（しゃないかいさつ）", "meaning": "On-board ticket inspection" },
+    { "term": "省略する（しょうりゃくする）", "meaning": "To omit / skip" },
+    { "term": "乗車（じょうしゃ）", "meaning": "Train ride / boarding" }
+  ]
+}

@@ -4,7 +4,7 @@
     "articleManifest": "data/articles.json"
   },
   "levels": {
-    "N3": 2109,
+    "N3": 2117,
     "N4": 536,
     "N5": 553
   },
@@ -171,6 +171,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "ランプが赤から緑に変われば、その席を使えます。",
+          "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
+        },
         {
           "ja": "スイスのバーゼルでは38度近くまで上がり、オランダでは初めて暑さに関する赤い警報が出されました。",
           "en": "In Basel, Switzerland, temperatures rose close to 38 degrees Celsius, and the Netherlands issued its first red alert for heat."
@@ -991,6 +995,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "席を移るときは、新しい席でももう一度タッチします。",
+          "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+        },
+        {
           "ja": "JR東日本は、2002年に山手線の新しい車両で、このような液晶を使う案内を始めました。",
           "en": "JR East began this kind of LCD guidance on new Yamanote Line trains in 2002. Today, displays on trains such as the E233 series provide arrival, travel-time, exit, and delay information—a small guide for the journey."
         },
@@ -1005,10 +1013,6 @@
         {
           "ja": "新しい株の値段を安定させるための金融のしくみです。",
           "en": "It is a financial mechanism for stabilizing the price of new shares."
-        },
-        {
-          "ja": "新しいバスは、病院、役場、スーパーなどを結びます。",
-          "en": "The new buses connect places such as the hospital, town office, and supermarket."
         }
       ]
     },
@@ -1230,6 +1234,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "券売機に並ばなくてもよいのが便利です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
           "ja": "この表示は、乗り換えにも便利です。",
           "en": "It is useful for transfers too. If you know how many minutes remain before a large interchange station, you can decide whether to hurry. Some screens also show connecting lines and which side the doors will open on."
         },
@@ -1244,10 +1252,6 @@
         {
           "ja": "東京がとても便利に感じられる大きな理由の一つは、よく整った鉄道網です。",
           "en": "One big reason Tokyo feels so convenient is its well-developed rail network."
-        },
-        {
-          "ja": "東京モノレールは、羽田空港へ行くための便利な交通機関です。",
-          "en": "Tokyo Monorail is a convenient way to get to Haneda Airport."
         }
       ]
     },
@@ -2664,24 +2668,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "カード型のSuicaを使う場合は、乗る前に駅の券売機でSuicaグリーン券を買います。",
+          "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
+        },
+        {
+          "ja": "カードを入れて乗車駅と降車駅を選ぶと、券の情報がカードに記録されます。",
+          "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
+        },
+        {
+          "ja": "モバイルSuicaなら、スマホのアプリで同じように乗車駅と降車駅を選んで買えます。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
           "ja": "地下の駅やトンネルが多いので、地図では地上のJRや私鉄とは別の色で書かれることがよくあります。",
           "en": "Because these systems have many underground stations and tunnels, maps often use colors separate from JR and private railways."
         },
         {
           "ja": "会話では、「駅まで電車で行く」「地下鉄に乗り換える」のように使います。",
           "en": "In conversation, you might say “go by train to the station” or “transfer to the subway."
-        },
-        {
-          "ja": "そこには次の駅だけでなく、路線の地図や、その先の駅までの所要時間が表示されます。",
-          "en": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
-        },
-        {
-          "ja": "駅名のそばに「5分」「12分」のような数字が出れば、それは現在の列車でその駅へ行くまでのおおよその時間です。",
-          "en": "A number such as five or 12 minutes beside a station is the time for this train to reach it."
-        },
-        {
-          "ja": "次の数駅をまとめて見られるので、降りる準備もしやすくなります。",
-          "en": "Seeing several upcoming stations together makes it easier to prepare to get off."
         }
       ]
     },
@@ -3370,6 +3374,10 @@
           "meaning": "Plain past form of 入る: to enter, to go into",
           "exampleSentences": [
             {
+              "ja": "グリーン車に入ったら、空いている席を選びます。",
+              "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
+            },
+            {
               "ja": "6月19日午後5時40分ごろ、静岡県のJR浜松駅で、東海道新幹線が線路に入った人と衝突しました。",
               "en": "At around 5:40 p.m. on June 19, a Tokaido Shinkansen train struck a person who had entered the tracks at JR Hamamatsu Station in Shizuoka Prefecture. Police confirmed that the person died."
             },
@@ -3384,10 +3392,6 @@
             {
               "ja": "駅へ入る前に、通行の邪魔にならない場所で自転車を準備します。",
               "en": "Before entering the station, prepare your bicycle somewhere that does not block pedestrian traffic."
-            },
-            {
-              "ja": "日本では、クマが人の生活する場所に入る問題が増えています。",
-              "en": "In Japan, the problem of bears entering places where people live is increasing."
             }
           ]
         },
@@ -4591,6 +4595,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "JR東日本の対象路線では、カードのSuicaでも、スマホのモバイルSuicaでも、Suicaグリーン券を使えます。",
+          "en": "On eligible JR East lines, you can use a physical Suica card or Mobile Suica."
+        },
+        {
           "ja": "日本で電車に乗ろうとすると、「電車」と「地下鉄」という言葉をよく見ます。",
           "en": "Densha means electric train."
         },
@@ -4604,10 +4612,6 @@
         },
         {
           "ja": "では、1日にどのくらいの人が使うのでしょうか。",
-          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
-        },
-        {
-          "ja": "東京メトロだけでも、2025年度には1日平均で約704万人を運びました。",
           "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
         }
       ]
@@ -4666,6 +4670,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "JR東日本の対象路線では、カードのSuicaでも、スマホのモバイルSuicaでも、Suicaグリーン券を使えます。",
+          "en": "On eligible JR East lines, you can use a physical Suica card or Mobile Suica."
+        },
+        {
           "ja": "東京には東京メトロと都営地下鉄があり、東京メトロだけでも9路線あります。",
           "en": "Tokyo has Tokyo Metro and Toei Subway; Tokyo Metro alone has nine lines."
         },
@@ -4680,10 +4688,6 @@
         {
           "ja": "JR東日本は、2002年に山手線の新しい車両で、このような液晶を使う案内を始めました。",
           "en": "JR East began this kind of LCD guidance on new Yamanote Line trains in 2002. Today, displays on trains such as the E233 series provide arrival, travel-time, exit, and delay information—a small guide for the journey."
-        },
-        {
-          "ja": "東京の電車は、朝から夜までたくさんの人を運んでいます。",
-          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
         }
       ]
     },
@@ -4972,6 +4976,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "一枚のSuicaグリーン券は、1人、1回の乗車のためのものです。",
+          "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+        },
+        {
           "ja": "どちらも人を運ぶ列車ですが、同じ意味ではありません。",
           "en": "Chikatetsu is an urban railway system that mainly runs underground."
         },
@@ -4985,10 +4993,6 @@
         },
         {
           "ja": "では、1日にどのくらいの人が使うのでしょうか。",
-          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
-        },
-        {
-          "ja": "東京メトロだけでも、2025年度には1日平均で約704万人を運びました。",
           "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
         }
       ]
@@ -5059,6 +5063,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "JR東日本の対象路線では、カードのSuicaでも、スマホのモバイルSuicaでも、Suicaグリーン券を使えます。",
+          "en": "On eligible JR East lines, you can use a physical Suica card or Mobile Suica."
+        },
+        {
+          "ja": "車内改札は基本的に省略されます。",
+          "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
+        },
+        {
           "ja": "日本で電車に乗ろうとすると、「電車」と「地下鉄」という言葉をよく見ます。",
           "en": "Densha means electric train."
         },
@@ -5069,14 +5081,6 @@
         {
           "ja": "JR東日本は、2002年に山手線の新しい車両で、このような液晶を使う案内を始めました。",
           "en": "JR East began this kind of LCD guidance on new Yamanote Line trains in 2002. Today, displays on trains such as the E233 series provide arrival, travel-time, exit, and delay information—a small guide for the journey."
-        },
-        {
-          "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
-          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
-        },
-        {
-          "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
-          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
         }
       ]
     },
@@ -5178,24 +5182,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "一枚のSuicaグリーン券は、1人、1回の乗車のためのものです。",
+          "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+        },
+        {
+          "ja": "友だちの分まで、一枚のカードや一台のスマホで買うことはできません。",
+          "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+        },
+        {
+          "ja": "席を移るときは、新しい席でももう一度タッチします。",
+          "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+        },
+        {
           "ja": "路線の一部が地上に出ることもあります。",
           "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
         },
         {
           "ja": "つまり、一つの電車が地下鉄の区間から私鉄の区間へ、そのまま走ることがあるのです。",
           "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
-        },
-        {
-          "ja": "地下鉄も電車の一つだと覚えると、この二つの言葉はわかりやすくなります。",
-          "en": "Remember: a subway train is also a densha."
-        },
-        {
-          "ja": "これは東京メトロという一つの会社の数字で、JRやほかの私鉄は入っていません。",
-          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
-        },
-        {
-          "ja": "もちろん、これは「東京の半分の人が一度だけ乗る」という意味ではありません。",
-          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
         }
       ]
     },
@@ -5775,6 +5779,10 @@
           "meaning": "Te-form of 入れる: to put in, to let in",
           "exampleSentences": [
             {
+              "ja": "カードを入れて乗車駅と降車駅を選ぶと、券の情報がカードに記録されます。",
+              "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
+            },
+            {
               "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
               "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
             },
@@ -5789,10 +5797,6 @@
             {
               "ja": "必要なときだけ自動で動く仕組みを入れる例もあります。",
               "en": "Some examples include systems that run automatically only when needed."
-            },
-            {
-              "ja": "港の近くには、水素をためる設備や、船に入れるための装置も用意されました。",
-              "en": "Storage equipment and fueling devices have also been prepared near the port."
             }
           ]
         },
@@ -6849,6 +6853,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "紙のきっぷは出ません。",
+          "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
+        },
+        {
           "ja": "最近は、紙のきっぷを出さなくても乗れる方法が広がっています。",
           "en": "Recently, more ways have spread that let people ride without printing paper tickets."
         },
@@ -7219,6 +7227,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "友だちの分まで、一枚のカードや一台のスマホで買うことはできません。",
+          "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+        },
+        {
           "ja": "飲み物やおにぎりを買うだけでなく、ATMや支払い、宅配まで使えるので、生活の一部になっています。",
           "en": "People use them not only to buy drinks and rice balls, but also for ATMs, payments, and parcel services, so they have become part of everyday life."
         },
@@ -7242,6 +7254,14 @@
           "readingHiragana": "かいます",
           "meaning": "Polite form of 買う: to buy, to purchase",
           "exampleSentences": [
+            {
+              "ja": "カード型のSuicaを使う場合は、乗る前に駅の券売機でSuicaグリーン券を買います。",
+              "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
+            },
+            {
+              "ja": "友だちの分まで、一枚のカードや一台のスマホで買うことはできません。",
+              "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+            },
             {
               "ja": "飲み物やおにぎりを買うだけでなく、ATMや支払い、宅配まで使えるので、生活の一部になっています。",
               "en": "People use them not only to buy drinks and rice balls, but also for ATMs, payments, and parcel services, so they have become part of everyday life."
@@ -7269,6 +7289,10 @@
               "en": "Reuters reported that the Japanese government was believed to have bought yen in the market to respond to the weak yen."
             },
             {
+              "ja": "友だちの分まで、一枚のカードや一台のスマホで買うことはできません。",
+              "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+            },
+            {
               "ja": "飲み物やおにぎりを買うだけでなく、ATMや支払い、宅配まで使えるので、生活の一部になっています。",
               "en": "People use them not only to buy drinks and rice balls, but also for ATMs, payments, and parcel services, so they have become part of everyday life."
             },
@@ -7290,6 +7314,10 @@
           "readingHiragana": "かわない",
           "meaning": "Plain negative form of 買う: to buy, to purchase",
           "exampleSentences": [
+            {
+              "ja": "友だちの分まで、一枚のカードや一台のスマホで買うことはできません。",
+              "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+            },
             {
               "ja": "飲み物やおにぎりを買うだけでなく、ATMや支払い、宅配まで使えるので、生活の一部になっています。",
               "en": "People use them not only to buy drinks and rice balls, but also for ATMs, payments, and parcel services, so they have become part of everyday life."
@@ -7313,8 +7341,16 @@
           "meaning": "Te-form of 買う: to buy, to purchase",
           "exampleSentences": [
             {
+              "ja": "通信が安定した場所で、早めに買っておくと安心です。",
+              "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+            },
+            {
               "ja": "もし株価が高いままなら、会社から追加の株を買って約束を満たします。",
               "en": "If the share price stays high, they buy additional shares from the company to meet their commitment."
+            },
+            {
+              "ja": "友だちの分まで、一枚のカードや一台のスマホで買うことはできません。",
+              "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
             },
             {
               "ja": "飲み物やおにぎりを買うだけでなく、ATMや支払い、宅配まで使えるので、生活の一部になっています。",
@@ -7323,10 +7359,6 @@
             {
               "ja": "たくさん買うことで、株価を支える力になります。",
               "en": "Buying many shares can help support the price."
-            },
-            {
-              "ja": "comを買うために出すお金を前より多くしました。",
-              "en": "com."
             }
           ]
         },
@@ -7341,6 +7373,10 @@
             {
               "ja": "日本の町では、家の近くで必要なものをすぐ買えることが重視されました。",
               "en": "In Japanese towns, what mattered was being able to quickly buy what you need close to home."
+            },
+            {
+              "ja": "友だちの分まで、一枚のカードや一台のスマホで買うことはできません。",
+              "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
             },
             {
               "ja": "飲み物やおにぎりを買うだけでなく、ATMや支払い、宅配まで使えるので、生活の一部になっています。",
@@ -8915,24 +8951,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "日本で電車に乗ろうとすると、「電車」と「地下鉄」という言葉をよく見ます。",
-          "en": "Densha means electric train."
+          "ja": "首都圏のJRには、普通・快速列車にグリーン車がついている路線があります。",
+          "en": "Some JR lines around Tokyo have Green Cars on local and rapid trains."
         },
         {
-          "ja": "どちらも人を運ぶ列車ですが、同じ意味ではありません。",
-          "en": "Chikatetsu is an urban railway system that mainly runs underground."
+          "ja": "グリーン車に乗るには、ふつうの運賃のほかにグリーン券が必要です。",
+          "en": "You need a Green Ticket in addition to the normal fare."
         },
         {
-          "ja": "いちばん簡単に言うと、電車は電気で走る車両のこと、地下鉄は都市の地下を中心に走る鉄道のことです。",
-          "en": "Both carry people, but the words differ."
+          "ja": "カードを入れて乗車駅と降車駅を選ぶと、券の情報がカードに記録されます。",
+          "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
         },
         {
-          "ja": "電車という言葉は、とても広く使われます。",
-          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+          "ja": "モバイルSuicaなら、スマホのアプリで同じように乗車駅と降車駅を選んで買えます。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
         },
         {
-          "ja": "JRの普通列車や私鉄、地下鉄の車両も、電気で走れば電車です。",
-          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+          "ja": "グリーン車に入ったら、空いている席を選びます。",
+          "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
         }
       ]
     },
@@ -9082,6 +9118,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "カード型のSuicaを使う場合は、乗る前に駅の券売機でSuicaグリーン券を買います。",
+          "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
+        },
+        {
+          "ja": "乗り換えるときも、降りる前と次の列車でタッチが必要です。",
+          "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+        },
+        {
           "ja": "地下鉄は、大きな都市で使われる鉄道の名前です。",
           "en": "Chikatetsu is the name for an urban railway system."
         },
@@ -9092,14 +9136,6 @@
         {
           "ja": "豊洲の1店から始まった変化は、いまでは日本中の日常を支える当たり前の景色になっています。",
           "en": "What began with one store in Toyosu has turned into an ordinary part of life all across Japan."
-        },
-        {
-          "ja": "日本で車に乗っていると、前の車が一瞬だけハザードランプを光らせることがあります。",
-          "en": "When you drive in Japan, you may sometimes see the car ahead flash its hazard lights for just a moment."
-        },
-        {
-          "ja": "でも日本では、道路の情報を車へ送る仕組みが、もうかなり前から使われています。",
-          "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
         }
       ]
     },
@@ -9369,6 +9405,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "登録したクレジットカード、またはGoogle Payで決済します。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
+          "ja": "そこにカード、またはスマホをタッチしてください。",
+          "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
+        },
+        {
           "ja": "また、東京メトロの多くの路線は、ほかの会社の鉄道と相互直通運転をしています。",
           "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
         },
@@ -9379,14 +9423,6 @@
         {
           "ja": "また、ハザードは本来注意や非常時のためのランプなので、長く使うものではありません。",
           "en": "Also, hazard lights are originally meant for caution or emergencies, not for long use."
-        },
-        {
-          "ja": "また、人と人の交流も弱くなっています。",
-          "en": "People-to-people exchange is also weakening."
-        },
-        {
-          "ja": "また、案内の放送は英語や中国語にも対応していて、はじめて来た人にもわかりやすいです。",
-          "en": "Announcements are also available in English and Chinese, making things easy for first-time visitors."
         }
       ]
     },
@@ -9628,6 +9664,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "ランプが赤から緑に変われば、その席を使えます。",
+          "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
+        },
         {
           "ja": "二酸化炭素、二酸化窒素、細かい粒子の汚染、緑の多さなどを同じ場所ごとに比べられます。",
           "en": "It can compare carbon dioxide, nitrogen dioxide, fine-particle pollution, the amount of greenery, and other data for the same kinds of locations."
@@ -11531,6 +11571,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "グリーン車に乗るには、ふつうの運賃のほかにグリーン券が必要です。",
+          "en": "You need a Green Ticket in addition to the normal fare."
+        },
+        {
+          "ja": "カード型のSuicaを使う場合は、乗る前に駅の券売機でSuicaグリーン券を買います。",
+          "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
+        },
+        {
           "ja": "乗る車両について広く話すなら「電車」、地下鉄というネットワークや路線を言いたいなら「地下鉄」が自然です。",
           "en": "” Use densha for the vehicle in a broad sense, and chikatetsu for the subway network or line."
         },
@@ -11541,14 +11589,6 @@
         {
           "ja": "初めて乗る路線でも、「あとどのくらいで着くか」を見て考えられます。",
           "en": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
-        },
-        {
-          "ja": "もちろん、これは「東京の半分の人が一度だけ乗る」という意味ではありません。",
-          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
-        },
-        {
-          "ja": "同じ人が行きと帰りで乗るので、これは利用の回数の大きさを示す比較です。",
-          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
         }
       ],
       "partOfSpeech": "verb",
@@ -11563,6 +11603,14 @@
           "meaning": "Polite form of 乗る: to get on (train, plane, bus, ship)",
           "exampleSentences": [
             {
+              "ja": "グリーン車に乗るには、ふつうの運賃のほかにグリーン券が必要です。",
+              "en": "You need a Green Ticket in addition to the normal fare."
+            },
+            {
+              "ja": "カード型のSuicaを使う場合は、乗る前に駅の券売機でSuicaグリーン券を買います。",
+              "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
+            },
+            {
               "ja": "乗る車両について広く話すなら「電車」、地下鉄というネットワークや路線を言いたいなら「地下鉄」が自然です。",
               "en": "” Use densha for the vehicle in a broad sense, and chikatetsu for the subway network or line."
             },
@@ -11573,14 +11621,6 @@
             {
               "ja": "初めて乗る路線でも、「あとどのくらいで着くか」を見て考えられます。",
               "en": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
-            },
-            {
-              "ja": "もちろん、これは「東京の半分の人が一度だけ乗る」という意味ではありません。",
-              "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
-            },
-            {
-              "ja": "同じ人が行きと帰りで乗るので、これは利用の回数の大きさを示す比較です。",
-              "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
             }
           ]
         },
@@ -11597,20 +11637,20 @@
               "en": "Once on the train, choose a place where the bicycle will not block the doors or aisle."
             },
             {
+              "ja": "グリーン車に乗るには、ふつうの運賃のほかにグリーン券が必要です。",
+              "en": "You need a Green Ticket in addition to the normal fare."
+            },
+            {
+              "ja": "カード型のSuicaを使う場合は、乗る前に駅の券売機でSuicaグリーン券を買います。",
+              "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
+            },
+            {
               "ja": "乗る車両について広く話すなら「電車」、地下鉄というネットワークや路線を言いたいなら「地下鉄」が自然です。",
               "en": "” Use densha for the vehicle in a broad sense, and chikatetsu for the subway network or line."
             },
             {
               "ja": "JR東日本の電車に乗ると、ドアの上に小さな画面があることがあります。",
               "en": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
-            },
-            {
-              "ja": "初めて乗る路線でも、「あとどのくらいで着くか」を見て考えられます。",
-              "en": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
-            },
-            {
-              "ja": "もちろん、これは「東京の半分の人が一度だけ乗る」という意味ではありません。",
-              "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
             }
           ]
         },
@@ -11623,6 +11663,14 @@
           "meaning": "Plain negative form of 乗る: to get on (train, plane, bus, ship)",
           "exampleSentences": [
             {
+              "ja": "グリーン車に乗るには、ふつうの運賃のほかにグリーン券が必要です。",
+              "en": "You need a Green Ticket in addition to the normal fare."
+            },
+            {
+              "ja": "カード型のSuicaを使う場合は、乗る前に駅の券売機でSuicaグリーン券を買います。",
+              "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
+            },
+            {
               "ja": "乗る車両について広く話すなら「電車」、地下鉄というネットワークや路線を言いたいなら「地下鉄」が自然です。",
               "en": "” Use densha for the vehicle in a broad sense, and chikatetsu for the subway network or line."
             },
@@ -11633,14 +11681,6 @@
             {
               "ja": "初めて乗る路線でも、「あとどのくらいで着くか」を見て考えられます。",
               "en": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
-            },
-            {
-              "ja": "もちろん、これは「東京の半分の人が一度だけ乗る」という意味ではありません。",
-              "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
-            },
-            {
-              "ja": "同じ人が行きと帰りで乗るので、これは利用の回数の大きさを示す比較です。",
-              "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
             }
           ]
         },
@@ -11661,16 +11701,16 @@
               "en": "Even if your head is full of route information, the color alone makes the information you need easier to grasp."
             },
             {
+              "ja": "グリーン車に乗るには、ふつうの運賃のほかにグリーン券が必要です。",
+              "en": "You need a Green Ticket in addition to the normal fare."
+            },
+            {
+              "ja": "カード型のSuicaを使う場合は、乗る前に駅の券売機でSuicaグリーン券を買います。",
+              "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
+            },
+            {
               "ja": "乗る車両について広く話すなら「電車」、地下鉄というネットワークや路線を言いたいなら「地下鉄」が自然です。",
               "en": "” Use densha for the vehicle in a broad sense, and chikatetsu for the subway network or line."
-            },
-            {
-              "ja": "JR東日本の電車に乗ると、ドアの上に小さな画面があることがあります。",
-              "en": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
-            },
-            {
-              "ja": "初めて乗る路線でも、「あとどのくらいで着くか」を見て考えられます。",
-              "en": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
             }
           ]
         },
@@ -11687,20 +11727,20 @@
               "en": "Recently, more ways have spread that let people ride without printing paper tickets."
             },
             {
+              "ja": "グリーン車に乗るには、ふつうの運賃のほかにグリーン券が必要です。",
+              "en": "You need a Green Ticket in addition to the normal fare."
+            },
+            {
+              "ja": "カード型のSuicaを使う場合は、乗る前に駅の券売機でSuicaグリーン券を買います。",
+              "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
+            },
+            {
               "ja": "乗る車両について広く話すなら「電車」、地下鉄というネットワークや路線を言いたいなら「地下鉄」が自然です。",
               "en": "” Use densha for the vehicle in a broad sense, and chikatetsu for the subway network or line."
             },
             {
               "ja": "JR東日本の電車に乗ると、ドアの上に小さな画面があることがあります。",
               "en": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
-            },
-            {
-              "ja": "初めて乗る路線でも、「あとどのくらいで着くか」を見て考えられます。",
-              "en": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
-            },
-            {
-              "ja": "もちろん、これは「東京の半分の人が一度だけ乗る」という意味ではありません。",
-              "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
             }
           ]
         }
@@ -12437,6 +12477,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "モバイルSuicaなら、スマホのアプリで同じように乗車駅と降車駅を選んで買えます。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
           "ja": "どちらも人を運ぶ列車ですが、同じ意味ではありません。",
           "en": "Chikatetsu is an urban railway system that mainly runs underground."
         },
@@ -12451,10 +12495,6 @@
         {
           "ja": "それでも同じ位置に止めるのは、駅に目印と手順があるからです。",
           "en": "Even so, trains stop in the same place because stations have markers and procedures."
-        },
-        {
-          "ja": "物理的なSuicaカードを使う人もいれば、スマートフォン側のIC機能を使う人もいますが、考え方は同じです。",
-          "en": "Some people use a physical Suica card, while others use the IC function on a smartphone, but the basic idea is the same."
         }
       ]
     },
@@ -12589,6 +12629,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "乗り換えるときも、降りる前と次の列車でタッチが必要です。",
+          "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+        },
+        {
           "ja": "次の数駅をまとめて見られるので、降りる準備もしやすくなります。",
           "en": "Seeing several upcoming stations together makes it easier to prepare to get off."
         },
@@ -12608,6 +12652,10 @@
           "readingHiragana": "おります",
           "meaning": "Polite form of 降りる: to descend, to get off",
           "exampleSentences": [
+            {
+              "ja": "乗り換えるときも、降りる前と次の列車でタッチが必要です。",
+              "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+            },
             {
               "ja": "次の数駅をまとめて見られるので、降りる準備もしやすくなります。",
               "en": "Seeing several upcoming stations together makes it easier to prepare to get off."
@@ -12631,6 +12679,10 @@
               "en": "Not every train serves the station where you want to get off, so you need to be especially careful when you are in a hurry."
             },
             {
+              "ja": "乗り換えるときも、降りる前と次の列車でタッチが必要です。",
+              "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+            },
+            {
               "ja": "次の数駅をまとめて見られるので、降りる準備もしやすくなります。",
               "en": "Seeing several upcoming stations together makes it easier to prepare to get off."
             },
@@ -12648,6 +12700,10 @@
           "readingHiragana": "おりない",
           "meaning": "Plain negative form of 降りる: to descend, to get off",
           "exampleSentences": [
+            {
+              "ja": "乗り換えるときも、降りる前と次の列車でタッチが必要です。",
+              "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+            },
             {
               "ja": "次の数駅をまとめて見られるので、降りる準備もしやすくなります。",
               "en": "Seeing several upcoming stations together makes it easier to prepare to get off."
@@ -12667,6 +12723,10 @@
           "meaning": "Te-form of 降りる: to descend, to get off",
           "exampleSentences": [
             {
+              "ja": "乗り換えるときも、降りる前と次の列車でタッチが必要です。",
+              "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+            },
+            {
               "ja": "次の数駅をまとめて見られるので、降りる準備もしやすくなります。",
               "en": "Seeing several upcoming stations together makes it easier to prepare to get off."
             },
@@ -12684,6 +12744,10 @@
           "readingHiragana": "おりられる",
           "meaning": "Potential form of 降りる: to descend, to get off",
           "exampleSentences": [
+            {
+              "ja": "乗り換えるときも、降りる前と次の列車でタッチが必要です。",
+              "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+            },
             {
               "ja": "次の数駅をまとめて見られるので、降りる準備もしやすくなります。",
               "en": "Seeing several upcoming stations together makes it easier to prepare to get off."
@@ -14456,6 +14520,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "グリーン車に入ったら、空いている席を選びます。",
+          "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
+        },
+        {
           "ja": "いっぽう自由席は、自由席車両の中で空いている席を自分で探します。",
           "en": "With a non-reserved seat, you look for an open seat inside the non-reserved cars."
         },
@@ -14470,10 +14538,6 @@
         {
           "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
           "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
-        },
-        {
-          "ja": "羽田空港で迷ったら、まずどちらの方面へ向かうのかを考えてみましょう。",
-          "en": "If you feel confused at Haneda Airport, first think about which direction you need to head."
         }
       ]
     },
@@ -14765,6 +14829,14 @@
           "meaning": "Polite form of する: to do",
           "exampleSentences": [
             {
+              "ja": "登録したクレジットカード、またはGoogle Payで決済します。",
+              "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+            },
+            {
+              "ja": "席を移るときは、新しい席でももう一度タッチします。",
+              "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+            },
+            {
               "ja": "ホームの長さ、車両数、ブレーキの強さ、雨の日かどうかまで関係します。",
               "en": "Platform length, number of cars, brake strength, and even whether it is raining all matter."
             },
@@ -14775,14 +14847,6 @@
             {
               "ja": "もちろん最後は運転士が確認しますが、人と装置の両方でずれを小さくしているわけです。",
               "en": "Of course, the driver still makes the final check, but both people and equipment work together to keep errors small."
-            },
-            {
-              "ja": "いっぽう自由席は、自由席車両の中で空いている席を自分で探します。",
-              "en": "With a non-reserved seat, you look for an open seat inside the non-reserved cars."
-            },
-            {
-              "ja": "V2Xという言葉を聞くと、多くの人は自動運転の未来を想像します。",
-              "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
             }
           ]
         },
@@ -14795,6 +14859,14 @@
           "meaning": "Plain past form of する: to do",
           "exampleSentences": [
             {
+              "ja": "登録したクレジットカード、またはGoogle Payで決済します。",
+              "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+            },
+            {
+              "ja": "通信が安定した場所で、早めに買っておくと安心です。",
+              "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+            },
+            {
               "ja": "JR東日本は、2002年に山手線の新しい車両で、このような液晶を使う案内を始めました。",
               "en": "JR East began this kind of LCD guidance on new Yamanote Line trains in 2002. Today, displays on trains such as the E233 series provide arrival, travel-time, exit, and delay information—a small guide for the journey."
             },
@@ -14805,14 +14877,6 @@
             {
               "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
               "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
-            },
-            {
-              "ja": "会社ごとの輸送人員、駅ごとの乗車人員、乗り降りした人の合計は、同じではありません。",
-              "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
-            },
-            {
-              "ja": "ただし、これは自由にやるのではなく、決められた手順にしたがって行われます。",
-              "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
             }
           ]
         },
@@ -14855,6 +14919,14 @@
           "meaning": "Te-form of する: to do",
           "exampleSentences": [
             {
+              "ja": "料金はSuicaにチャージしてある残額から払います。",
+              "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
+            },
+            {
+              "ja": "そこにカード、またはスマホをタッチしてください。",
+              "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
+            },
+            {
               "ja": "また、東京メトロの多くの路線は、ほかの会社の鉄道と相互直通運転をしています。",
               "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
             },
@@ -14865,14 +14937,6 @@
             {
               "ja": "それでも東京メトロだけで都の人口のほぼ半分にあたる利用があることは、東京の毎日がどれほど電車と深くつながっているかを示しています。",
               "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
-            },
-            {
-              "ja": "運転士はホームに入りながらその目標を見て、スピードを落としてブレーキを調整します。",
-              "en": "As the train enters the platform, the driver watches that marker, reduces speed, and adjusts the brakes."
-            },
-            {
-              "ja": "もちろん最後は運転士が確認しますが、人と装置の両方でずれを小さくしているわけです。",
-              "en": "Of course, the driver still makes the final check, but both people and equipment work together to keep errors small."
             }
           ]
         },
@@ -16238,6 +16302,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "通信が安定した場所で、早めに買っておくと安心です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
           "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
           "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
         },
@@ -16252,10 +16320,6 @@
         {
           "ja": "今では、E233系などの車内の液晶が、到着駅、所要時間、出口、遅延などを伝えています。",
           "en": "JR East began this kind of LCD guidance on new Yamanote Line trains in 2002. Today, displays on trains such as the E233 series provide arrival, travel-time, exit, and delay information—a small guide for the journey."
-        },
-        {
-          "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
-          "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
         }
       ]
     },
@@ -16453,6 +16517,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "乗り換えるときも、降りる前と次の列車でタッチが必要です。",
+          "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+        },
+        {
           "ja": "そこには次の駅だけでなく、路線の地図や、その先の駅までの所要時間が表示されます。",
           "en": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
         },
@@ -16467,10 +16535,6 @@
         {
           "ja": "車内にいても、少しずつ次の行動を決められるのです。",
           "en": "It is useful for transfers too. If you know how many minutes remain before a large interchange station, you can decide whether to hurry. Some screens also show connecting lines and which side the doors will open on."
-        },
-        {
-          "ja": "各地で停電や浸水、倒木の報告が相次ぎ、自治体は早めの避難を呼びかけました。",
-          "en": "On the 3rd, Typhoon No. 6 moved across Japan with strong winds and heavy rain. Power outages, flooding, and fallen trees were reported in many places, and local governments urged residents to evacuate early."
         }
       ]
     },
@@ -16489,6 +16553,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "カード型のSuicaを使う場合は、乗る前に駅の券売機でSuicaグリーン券を買います。",
+          "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
+        },
+        {
           "ja": "次の駅で使う路線や、ドアが開く側を案内する画面もあります。",
           "en": "It is useful for transfers too. If you know how many minutes remain before a large interchange station, you can decide whether to hurry. Some screens also show connecting lines and which side the doors will open on."
         },
@@ -16503,10 +16571,6 @@
         {
           "ja": "物理的なSuicaカードを使う人もいれば、スマートフォン側のIC機能を使う人もいますが、考え方は同じです。",
           "en": "Some people use a physical Suica card, while others use the IC function on a smartphone, but the basic idea is the same."
-        },
-        {
-          "ja": "紙からICへ変わっても、誰がどの席を使うかはしっかり管理されています。",
-          "en": "Even when the format changes from paper to IC, the system still clearly manages who will use which seat."
         }
       ],
       "partOfSpeech": "verb",
@@ -16525,6 +16589,10 @@
               "en": "In conversation, you might say “go by train to the station” or “transfer to the subway."
             },
             {
+              "ja": "カード型のSuicaを使う場合は、乗る前に駅の券売機でSuicaグリーン券を買います。",
+              "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
+            },
+            {
               "ja": "次の駅で使う路線や、ドアが開く側を案内する画面もあります。",
               "en": "It is useful for transfers too. If you know how many minutes remain before a large interchange station, you can decide whether to hurry. Some screens also show connecting lines and which side the doors will open on."
             },
@@ -16535,10 +16603,6 @@
             {
               "ja": "では、1日にどのくらいの人が使うのでしょうか。",
               "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
-            },
-            {
-              "ja": "物理的なSuicaカードを使う人もいれば、スマートフォン側のIC機能を使う人もいますが、考え方は同じです。",
-              "en": "Some people use a physical Suica card, while others use the IC function on a smartphone, but the basic idea is the same."
             }
           ]
         },
@@ -16555,6 +16619,10 @@
               "en": "On the train, passengers are served boxed meals and tea made with local ingredients."
             },
             {
+              "ja": "カード型のSuicaを使う場合は、乗る前に駅の券売機でSuicaグリーン券を買います。",
+              "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
+            },
+            {
               "ja": "次の駅で使う路線や、ドアが開く側を案内する画面もあります。",
               "en": "It is useful for transfers too. If you know how many minutes remain before a large interchange station, you can decide whether to hurry. Some screens also show connecting lines and which side the doors will open on."
             },
@@ -16565,10 +16633,6 @@
             {
               "ja": "では、1日にどのくらいの人が使うのでしょうか。",
               "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
-            },
-            {
-              "ja": "物理的なSuicaカードを使う人もいれば、スマートフォン側のIC機能を使う人もいますが、考え方は同じです。",
-              "en": "Some people use a physical Suica card, while others use the IC function on a smartphone, but the basic idea is the same."
             }
           ]
         },
@@ -16585,6 +16649,10 @@
               "en": "Cashless payments are increasing on ferries heading to remote islands."
             },
             {
+              "ja": "カード型のSuicaを使う場合は、乗る前に駅の券売機でSuicaグリーン券を買います。",
+              "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
+            },
+            {
               "ja": "次の駅で使う路線や、ドアが開く側を案内する画面もあります。",
               "en": "It is useful for transfers too. If you know how many minutes remain before a large interchange station, you can decide whether to hurry. Some screens also show connecting lines and which side the doors will open on."
             },
@@ -16595,10 +16663,6 @@
             {
               "ja": "では、1日にどのくらいの人が使うのでしょうか。",
               "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
-            },
-            {
-              "ja": "物理的なSuicaカードを使う人もいれば、スマートフォン側のIC機能を使う人もいますが、考え方は同じです。",
-              "en": "Some people use a physical Suica card, while others use the IC function on a smartphone, but the basic idea is the same."
             }
           ]
         },
@@ -16657,8 +16721,8 @@
               "en": "Clear displays and explanations will also be needed so guests can use the system with confidence."
             },
             {
-              "ja": "次の駅で使う路線や、ドアが開く側を案内する画面もあります。",
-              "en": "It is useful for transfers too. If you know how many minutes remain before a large interchange station, you can decide whether to hurry. Some screens also show connecting lines and which side the doors will open on."
+              "ja": "カード型のSuicaを使う場合は、乗る前に駅の券売機でSuicaグリーン券を買います。",
+              "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
             }
           ]
         }
@@ -17131,6 +17195,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "座席の上には、グリーン券の情報を読む部分があります。",
+          "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
+        },
+        {
           "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
           "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
         },
@@ -17145,10 +17213,6 @@
         {
           "ja": "JR東日本の電車に乗ると、ドアの上に小さな画面があることがあります。",
           "en": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
-        },
-        {
-          "ja": "1日に700万人以上という数字は、ホームが混む理由や、短い間隔で電車が来る理由をよく表しています。",
-          "en": "More than seven million daily journeys help explain crowded platforms and frequent trains."
         }
       ]
     },
@@ -18307,6 +18371,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "座席の上には、グリーン券の情報を読む部分があります。",
+          "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
+        },
+        {
           "ja": "まるで都市の「脈」を読むような研究です。",
           "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
         },
@@ -18327,6 +18395,10 @@
           "meaning": "Polite form of 読む: to read",
           "exampleSentences": [
             {
+              "ja": "座席の上には、グリーン券の情報を読む部分があります。",
+              "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
+            },
+            {
               "ja": "まるで都市の「脈」を読むような研究です。",
               "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
             },
@@ -18345,6 +18417,10 @@
           "meaning": "Plain past form of 読む: to read",
           "exampleSentences": [
             {
+              "ja": "座席の上には、グリーン券の情報を読む部分があります。",
+              "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
+            },
+            {
               "ja": "まるで都市の「脈」を読むような研究です。",
               "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
             },
@@ -18362,6 +18438,10 @@
           "readingHiragana": "よまない",
           "meaning": "Plain negative form of 読む: to read",
           "exampleSentences": [
+            {
+              "ja": "座席の上には、グリーン券の情報を読む部分があります。",
+              "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
+            },
             {
               "ja": "まるで都市の「脈」を読むような研究です。",
               "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
@@ -18385,6 +18465,10 @@
               "en": "Drivers watch markers, read speed, and consider the platform conditions while stopping the train."
             },
             {
+              "ja": "座席の上には、グリーン券の情報を読む部分があります。",
+              "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
+            },
+            {
               "ja": "まるで都市の「脈」を読むような研究です。",
               "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
             },
@@ -18402,6 +18486,10 @@
           "readingHiragana": "よめる",
           "meaning": "Potential form of 読む: to read",
           "exampleSentences": [
+            {
+              "ja": "座席の上には、グリーン券の情報を読む部分があります。",
+              "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
+            },
             {
               "ja": "まるで都市の「脈」を読むような研究です。",
               "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
@@ -19502,6 +19590,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "通信が安定した場所で、早めに買っておくと安心です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
           "ja": "つまり、安心して席を確保したいか、少し気楽に乗りたいかで選び方が変わります。",
           "en": "In other words, the choice changes depending on whether you want the security of a guaranteed seat or a more flexible ride."
         },
@@ -19516,10 +19608,6 @@
         {
           "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
           "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
-        },
-        {
-          "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
-          "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
         }
       ]
     },
@@ -20006,6 +20094,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "通信が安定した場所で、早めに買っておくと安心です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
           "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
           "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
         },
@@ -20020,10 +20112,6 @@
         {
           "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
           "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
-        },
-        {
-          "ja": "外国ではクラクションや手であいさつすることが多い場所もありますが、日本では大きな音を出さない形のほうが合いやすいのかもしれません。",
-          "en": "In some other countries, people more often use the horn or wave with their hand, but in Japan a quieter form may fit better."
         }
       ]
     },
@@ -20665,6 +20753,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "カードを入れて乗車駅と降車駅を選ぶと、券の情報がカードに記録されます。",
+          "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
+        },
+        {
           "ja": "30秒だけ余分に使って正しい電車を選ぶことで、あとで長い遠回りをしなくてすむかもしれません。",
           "en": "Spending just an extra 30 seconds choosing the right train may save you from a much longer detour later."
         }
@@ -20681,8 +20773,16 @@
           "meaning": "Polite form of 選ぶ: to choose, to select",
           "exampleSentences": [
             {
+              "ja": "グリーン車に入ったら、空いている席を選びます。",
+              "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
+            },
+            {
               "ja": "電車に乗ったら、ドアの前や通路をふさがない場所を選びます。",
               "en": "Once on the train, choose a place where the bicycle will not block the doors or aisle."
+            },
+            {
+              "ja": "カードを入れて乗車駅と降車駅を選ぶと、券の情報がカードに記録されます。",
+              "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
             },
             {
               "ja": "30秒だけ余分に使って正しい電車を選ぶことで、あとで長い遠回りをしなくてすむかもしれません。",
@@ -20699,6 +20799,10 @@
           "meaning": "Plain past form of 選ぶ: to choose, to select",
           "exampleSentences": [
             {
+              "ja": "カードを入れて乗車駅と降車駅を選ぶと、券の情報がカードに記録されます。",
+              "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
+            },
+            {
               "ja": "30秒だけ余分に使って正しい電車を選ぶことで、あとで長い遠回りをしなくてすむかもしれません。",
               "en": "Spending just an extra 30 seconds choosing the right train may save you from a much longer detour later."
             }
@@ -20713,6 +20817,10 @@
           "meaning": "Plain negative form of 選ぶ: to choose, to select",
           "exampleSentences": [
             {
+              "ja": "カードを入れて乗車駅と降車駅を選ぶと、券の情報がカードに記録されます。",
+              "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
+            },
+            {
               "ja": "30秒だけ余分に使って正しい電車を選ぶことで、あとで長い遠回りをしなくてすむかもしれません。",
               "en": "Spending just an extra 30 seconds choosing the right train may save you from a much longer detour later."
             }
@@ -20726,6 +20834,14 @@
           "readingHiragana": "えらんで",
           "meaning": "Te-form of 選ぶ: to choose, to select",
           "exampleSentences": [
+            {
+              "ja": "モバイルSuicaなら、スマホのアプリで同じように乗車駅と降車駅を選んで買えます。",
+              "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+            },
+            {
+              "ja": "カードを入れて乗車駅と降車駅を選ぶと、券の情報がカードに記録されます。",
+              "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
+            },
             {
               "ja": "30秒だけ余分に使って正しい電車を選ぶことで、あとで長い遠回りをしなくてすむかもしれません。",
               "en": "Spending just an extra 30 seconds choosing the right train may save you from a much longer detour later."
@@ -20743,6 +20859,10 @@
             {
               "ja": "こうして見ると、日本の鉄道は複雑そうでも、実際には目的に合わせて細かく選べるようになっています。",
               "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+            },
+            {
+              "ja": "カードを入れて乗車駅と降車駅を選ぶと、券の情報がカードに記録されます。",
+              "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
             },
             {
               "ja": "30秒だけ余分に使って正しい電車を選ぶことで、あとで長い遠回りをしなくてすむかもしれません。",
@@ -21186,6 +21306,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "首都圏のJRには、普通・快速列車にグリーン車がついている路線があります。",
+          "en": "Some JR lines around Tokyo have Green Cars on local and rapid trains."
+        },
         {
           "ja": "JRの普通列車や私鉄、地下鉄の車両も、電気で走れば電車です。",
           "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
@@ -21986,6 +22110,10 @@
           "meaning": "Polite form of 払う: to pay",
           "exampleSentences": [
             {
+              "ja": "料金はSuicaにチャージしてある残額から払います。",
+              "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
+            },
+            {
               "ja": "事故や工事、天気による制限まで受け取れるので、ただお金を払うだけの仕組みではありません。",
               "en": "Drivers can receive information about accidents, construction, and even weather-related restrictions, so the system is not just about paying tolls."
             }
@@ -22117,6 +22245,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ランプが赤から緑に変われば、その席を使えます。",
+          "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
+        },
+        {
           "ja": "駅で人が多いときや、前の電車が遅れているときは、実際の時間が変わることがあります。",
           "en": "Crowded stations or a delayed train ahead can change the actual time."
         },
@@ -22131,10 +22263,6 @@
         {
           "ja": "紙からICへ変わっても、誰がどの席を使うかはしっかり管理されています。",
           "en": "Even when the format changes from paper to IC, the system still clearly manages who will use which seat."
-        },
-        {
-          "ja": "こうした変化で、コンビニは急いでいる人だけの店ではなくなりました。",
-          "en": "These changes meant they were no longer stores only for people in a hurry."
         }
       ]
     },
@@ -22918,6 +23046,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "席を移るときは、新しい席でももう一度タッチします。",
+          "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+        },
         {
           "ja": "もちろん、これは「東京の半分の人が一度だけ乗る」という意味ではありません。",
           "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
@@ -26048,6 +26180,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "通信が安定した場所で、早めに買っておくと安心です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
           "ja": "いちばん簡単に言うと、電車は電気で走る車両のこと、地下鉄は都市の地下を中心に走る鉄道のことです。",
           "en": "Both carry people, but the words differ."
         },
@@ -26062,10 +26198,6 @@
         {
           "ja": "だから、どの車両が自由席かを先に見ておくと安心です。",
           "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
-        },
-        {
-          "ja": "空港から都心へ向かうときや、郊外へ出かけるときにETCがないと、経路や支払いで不便を感じやすくなります。",
-          "en": "If you do not have ETC when heading from the airport into central Tokyo or driving out to the suburbs, payment and route choices can become inconvenient."
         }
       ]
     },
@@ -26836,6 +26968,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "首都圏のJRには、普通・快速列車にグリーン車がついている路線があります。",
+          "en": "Some JR lines around Tokyo have Green Cars on local and rapid trains."
+        },
+        {
           "ja": "特に首都高では、その印象が強くなります。",
           "en": "That impression becomes especially strong on the Shuto Expressway."
         },
@@ -26850,10 +26986,6 @@
         {
           "ja": "政府は、首都直下地震が起きた場合の被害を今後10年で大幅に減らすため、防災計画を改定する方針です。",
           "en": "The government plans to revise its disaster-prevention plan to sharply reduce damage from a possible inland earthquake beneath the Tokyo area over the next decade."
-        },
-        {
-          "ja": "人口や機能が集中する首都圏では、交通や物流の混乱も深刻になるとみられています。",
-          "en": "In the Tokyo metropolitan area, where people and key functions are concentrated, disruption to transport and logistics is also expected to be severe."
         }
       ]
     },
@@ -27599,7 +27731,16 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "登録したクレジットカード、またはGoogle Payで決済します。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
+          "ja": "そこにカード、またはスマホをタッチしてください。",
+          "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
+        }
+      ]
     },
     {
       "id": "core-cb55214ac3ffe6",
@@ -29995,6 +30136,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "乗り換えるときも、降りる前と次の列車でタッチが必要です。",
+          "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+        },
+        {
           "ja": "会話では、「駅まで電車で行く」「地下鉄に乗り換える」のように使います。",
           "en": "In conversation, you might say “go by train to the station” or “transfer to the subway."
         }
@@ -30011,6 +30156,10 @@
           "meaning": "Polite form of 乗り換える: to transfer (trains), to change (bus, train)",
           "exampleSentences": [
             {
+              "ja": "乗り換えるときも、降りる前と次の列車でタッチが必要です。",
+              "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+            },
+            {
               "ja": "会話では、「駅まで電車で行く」「地下鉄に乗り換える」のように使います。",
               "en": "In conversation, you might say “go by train to the station” or “transfer to the subway."
             }
@@ -30024,6 +30173,10 @@
           "readingHiragana": "のりかえた",
           "meaning": "Plain past form of 乗り換える: to transfer (trains), to change (bus, train)",
           "exampleSentences": [
+            {
+              "ja": "乗り換えるときも、降りる前と次の列車でタッチが必要です。",
+              "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+            },
             {
               "ja": "会話では、「駅まで電車で行く」「地下鉄に乗り換える」のように使います。",
               "en": "In conversation, you might say “go by train to the station” or “transfer to the subway."
@@ -30039,6 +30192,10 @@
           "meaning": "Plain negative form of 乗り換える: to transfer (trains), to change (bus, train)",
           "exampleSentences": [
             {
+              "ja": "乗り換えるときも、降りる前と次の列車でタッチが必要です。",
+              "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+            },
+            {
               "ja": "会話では、「駅まで電車で行く」「地下鉄に乗り換える」のように使います。",
               "en": "In conversation, you might say “go by train to the station” or “transfer to the subway."
             }
@@ -30053,6 +30210,10 @@
           "meaning": "Te-form of 乗り換える: to transfer (trains), to change (bus, train)",
           "exampleSentences": [
             {
+              "ja": "乗り換えるときも、降りる前と次の列車でタッチが必要です。",
+              "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+            },
+            {
               "ja": "会話では、「駅まで電車で行く」「地下鉄に乗り換える」のように使います。",
               "en": "In conversation, you might say “go by train to the station” or “transfer to the subway."
             }
@@ -30066,6 +30227,10 @@
           "readingHiragana": "のりかえられる",
           "meaning": "Potential form of 乗り換える: to transfer (trains), to change (bus, train)",
           "exampleSentences": [
+            {
+              "ja": "乗り換えるときも、降りる前と次の列車でタッチが必要です。",
+              "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+            },
             {
               "ja": "会話では、「駅まで電車で行く」「地下鉄に乗り換える」のように使います。",
               "en": "In conversation, you might say “go by train to the station” or “transfer to the subway."
@@ -32799,24 +32964,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "グリーン車に入ったら、空いている席を選びます。",
+          "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
+        },
+        {
+          "ja": "座席の上には、グリーン券の情報を読む部分があります。",
+          "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
+        },
+        {
+          "ja": "ランプが赤から緑に変われば、その席を使えます。",
+          "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
+        },
+        {
+          "ja": "席を移るときは、新しい席でももう一度タッチします。",
+          "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+        },
+        {
           "ja": "新幹線に乗るとき、「指定席」と「自由席」の違いがわかりにくいと感じる人は多いです。",
           "en": "When riding the Shinkansen, many people feel that the difference between reserved and non-reserved seats is confusing."
-        },
-        {
-          "ja": "指定席は座席があらかじめ決まっていて、その席に座ります。",
-          "en": "With a reserved seat, your seat is decided in advance and you sit in that seat."
-        },
-        {
-          "ja": "いっぽう自由席は、自由席車両の中で空いている席を自分で探します。",
-          "en": "With a non-reserved seat, you look for an open seat inside the non-reserved cars."
-        },
-        {
-          "ja": "つまり、安心して席を確保したいか、少し気楽に乗りたいかで選び方が変わります。",
-          "en": "In other words, the choice changes depending on whether you want the security of a guaranteed seat or a more flexible ride."
-        },
-        {
-          "ja": "指定席なら指定席特急券、自由席なら自由席特急券です。",
-          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
         }
       ]
     },
@@ -32835,6 +33000,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "首都圏のJRには、普通・快速列車にグリーン車がついている路線があります。",
+          "en": "Some JR lines around Tokyo have Green Cars on local and rapid trains."
+        },
+        {
+          "ja": "JR東日本の対象路線では、カードのSuicaでも、スマホのモバイルSuicaでも、Suicaグリーン券を使えます。",
+          "en": "On eligible JR East lines, you can use a physical Suica card or Mobile Suica."
+        },
+        {
           "ja": "東京には東京メトロと都営地下鉄があり、東京メトロだけでも9路線あります。",
           "en": "Tokyo has Tokyo Metro and Toei Subway; Tokyo Metro alone has nine lines."
         },
@@ -32845,14 +33018,6 @@
         {
           "ja": "また、東京メトロの多くの路線は、ほかの会社の鉄道と相互直通運転をしています。",
           "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
-        },
-        {
-          "ja": "乗る車両について広く話すなら「電車」、地下鉄というネットワークや路線を言いたいなら「地下鉄」が自然です。",
-          "en": "” Use densha for the vehicle in a broad sense, and chikatetsu for the subway network or line."
-        },
-        {
-          "ja": "そこには次の駅だけでなく、路線の地図や、その先の駅までの所要時間が表示されます。",
-          "en": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
         }
       ]
     },
@@ -34368,6 +34533,10 @@
           "readingHiragana": "すいて",
           "meaning": "Te-form of 空く: to become empty",
           "exampleSentences": [
+            {
+              "ja": "グリーン車に入ったら、空いている席を選びます。",
+              "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
+            },
             {
               "ja": "いっぽう自由席は、自由席車両の中で空いている席を自分で探します。",
               "en": "With a non-reserved seat, you look for an open seat inside the non-reserved cars."
@@ -37541,6 +37710,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "席を移るときは、新しい席でももう一度タッチします。",
+          "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+        },
+        {
           "ja": "大きな駅で別の路線へ移るとき、あと何分あるかがわかれば、急ぐかどうかを決めやすくなります。",
           "en": "It is useful for transfers too. If you know how many minutes remain before a large interchange station, you can decide whether to hurry. Some screens also show connecting lines and which side the doors will open on."
         }
@@ -37557,6 +37730,10 @@
           "meaning": "Polite form of 移る: to move (house), to transfer (department)",
           "exampleSentences": [
             {
+              "ja": "席を移るときは、新しい席でももう一度タッチします。",
+              "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+            },
+            {
               "ja": "大きな駅で別の路線へ移るとき、あと何分あるかがわかれば、急ぐかどうかを決めやすくなります。",
               "en": "It is useful for transfers too. If you know how many minutes remain before a large interchange station, you can decide whether to hurry. Some screens also show connecting lines and which side the doors will open on."
             }
@@ -37570,6 +37747,10 @@
           "readingHiragana": "うつった",
           "meaning": "Plain past form of 移る: to move (house), to transfer (department)",
           "exampleSentences": [
+            {
+              "ja": "席を移るときは、新しい席でももう一度タッチします。",
+              "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+            },
             {
               "ja": "大きな駅で別の路線へ移るとき、あと何分あるかがわかれば、急ぐかどうかを決めやすくなります。",
               "en": "It is useful for transfers too. If you know how many minutes remain before a large interchange station, you can decide whether to hurry. Some screens also show connecting lines and which side the doors will open on."
@@ -37585,6 +37766,10 @@
           "meaning": "Plain negative form of 移る: to move (house), to transfer (department)",
           "exampleSentences": [
             {
+              "ja": "席を移るときは、新しい席でももう一度タッチします。",
+              "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+            },
+            {
               "ja": "大きな駅で別の路線へ移るとき、あと何分あるかがわかれば、急ぐかどうかを決めやすくなります。",
               "en": "It is useful for transfers too. If you know how many minutes remain before a large interchange station, you can decide whether to hurry. Some screens also show connecting lines and which side the doors will open on."
             }
@@ -37599,6 +37784,10 @@
           "meaning": "Te-form of 移る: to move (house), to transfer (department)",
           "exampleSentences": [
             {
+              "ja": "席を移るときは、新しい席でももう一度タッチします。",
+              "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+            },
+            {
               "ja": "大きな駅で別の路線へ移るとき、あと何分あるかがわかれば、急ぐかどうかを決めやすくなります。",
               "en": "It is useful for transfers too. If you know how many minutes remain before a large interchange station, you can decide whether to hurry. Some screens also show connecting lines and which side the doors will open on."
             }
@@ -37612,6 +37801,10 @@
           "readingHiragana": "うつれる",
           "meaning": "Potential form of 移る: to move (house), to transfer (department)",
           "exampleSentences": [
+            {
+              "ja": "席を移るときは、新しい席でももう一度タッチします。",
+              "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+            },
             {
               "ja": "大きな駅で別の路線へ移るとき、あと何分あるかがわかれば、急ぐかどうかを決めやすくなります。",
               "en": "It is useful for transfers too. If you know how many minutes remain before a large interchange station, you can decide whether to hurry. Some screens also show connecting lines and which side the doors will open on."
@@ -39962,6 +40155,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "通信が安定した場所で、早めに買っておくと安心です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
           "ja": "速さと安全性を両立しているからこそ、毎日の大きな移動が安定して続けられるのです。",
           "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
         },
@@ -39976,10 +40173,6 @@
         {
           "ja": "これにより、経験が少ない人でも、安定して野菜を育てやすくなると期待されています。",
           "en": "Because of this, even people with little experience are expected to find it easier to grow vegetables steadily."
-        },
-        {
-          "ja": "安定して出荷するために、新しい設備や管理方法の導入が進められています。",
-          "en": "New equipment and management methods are being introduced to maintain stable shipments."
         }
       ]
     },
@@ -40951,6 +41144,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "カード型のSuicaを使う場合は、乗る前に駅の券売機でSuicaグリーン券を買います。",
+          "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
+        },
+        {
+          "ja": "通信が安定した場所で、早めに買っておくと安心です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
           "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
           "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
         },
@@ -40961,14 +41162,6 @@
         {
           "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
           "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
-        },
-        {
-          "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
-          "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
-        },
-        {
-          "ja": "ほんのわずかな場合でも、すぐドアを開けるのではなく、安全確認が必要です。",
-          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
         }
       ]
     },
@@ -41221,6 +41414,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "券売機に並ばなくてもよいのが便利です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
           "ja": "この表示は、乗り換えにも便利です。",
           "en": "It is useful for transfers too. If you know how many minutes remain before a large interchange station, you can decide whether to hurry. Some screens also show connecting lines and which side the doors will open on."
         },
@@ -41235,10 +41432,6 @@
         {
           "ja": "空港から都心へ向かうときや、郊外へ出かけるときにETCがないと、経路や支払いで不便を感じやすくなります。",
           "en": "If you do not have ETC when heading from the airport into central Tokyo or driving out to the suburbs, payment and route choices can become inconvenient."
-        },
-        {
-          "ja": "東京がとても便利に感じられる大きな理由の一つは、よく整った鉄道網です。",
-          "en": "One big reason Tokyo feels so convenient is its well-developed rail network."
         }
       ]
     },
@@ -41316,6 +41509,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "座席の上には、グリーン券の情報を読む部分があります。",
+          "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
+        },
         {
           "ja": "車両の先頭部分が壊れた可能性があり、JR東海が調べています。",
           "en": "The front of the train may have been damaged, and JR Central is investigating."
@@ -41447,6 +41644,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "座席の上には、グリーン券の情報を読む部分があります。",
+          "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
+        },
+        {
+          "ja": "友だちの分まで、一枚のカードや一台のスマホで買うことはできません。",
+          "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+        },
+        {
           "ja": "駅名のそばに「5分」「12分」のような数字が出れば、それは現在の列車でその駅へ行くまでのおおよその時間です。",
           "en": "A number such as five or 12 minutes beside a station is the time for this train to reach it."
         },
@@ -41457,14 +41662,6 @@
         {
           "ja": "704万人をこの人口と比べると、約49パーセント、ほぼ半分になります。",
           "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
-        },
-        {
-          "ja": "もちろん、これは「東京の半分の人が一度だけ乗る」という意味ではありません。",
-          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
-        },
-        {
-          "ja": "それでも東京メトロだけで都の人口のほぼ半分にあたる利用があることは、東京の毎日がどれほど電車と深くつながっているかを示しています。",
-          "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
         }
       ]
     },
@@ -43020,6 +43217,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "席を移るときは、新しい席でももう一度タッチします。",
+          "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+        },
+        {
           "ja": "東京メトロだけでも、2025年度には1日平均で約704万人を運びました。",
           "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
         },
@@ -43034,10 +43235,6 @@
         {
           "ja": "目印を見て、速度を読んで、ホームの条件も考えながら止めています。",
           "en": "Drivers watch markers, read speed, and consider the platform conditions while stopping the train."
-        },
-        {
-          "ja": "ETC専用、ETC一般という表示が何度も出てくるのは、その仕組みが交通を支えているからです。",
-          "en": "Signs like ETC-only and ETC/general appear again and again because this system helps support traffic flow."
         }
       ]
     },
@@ -47340,7 +47537,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "通信が安定した場所で、早めに買っておくと安心です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        }
+      ]
     },
     {
       "id": "core-6b69f416fc91de",
@@ -48449,6 +48651,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "料金はSuicaにチャージしてある残額から払います。",
+          "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
+        },
+        {
+          "ja": "ただし、モバイルSuicaのグリーン券は、Suicaのチャージ残額では払えません。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
           "ja": "買収の金額が上がったことで、これからほかの会社の動きや、価格.",
           "en": "Now that the buyout amount has gone up, attention is turning to the moves of other companies and to Kakaku."
         }
@@ -48623,7 +48833,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "車内改札は基本的に省略されます。",
+          "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
+        }
+      ]
     },
     {
       "id": "core-e03ea685f158c9",
@@ -51635,6 +51850,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "カードを入れて乗車駅と降車駅を選ぶと、券の情報がカードに記録されます。",
+          "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
+        },
+        {
+          "ja": "座席の上には、グリーン券の情報を読む部分があります。",
+          "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
+        },
+        {
           "ja": "画面には遅れや運転見合わせの情報も出るため、予定が大きく変わったときは、そちらも確認することが大切です。",
           "en": "The screens can also show delay or suspension information, so check that when plans change."
         },
@@ -51645,14 +51868,6 @@
         {
           "ja": "でも日本では、道路の情報を車へ送る仕組みが、もうかなり前から使われています。",
           "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
-        },
-        {
-          "ja": "VICSは渋滞や交通規制などの道路交通情報を、カーナビに実時間で届けます。",
-          "en": "VICS delivers road traffic information such as congestion and traffic restrictions to car navigation systems in real time."
-        },
-        {
-          "ja": "これは道路の側から車へ必要な情報を送る、わかりやすいV2Iの形です。",
-          "en": "This is a clear form of V2I, where the road side sends necessary information to the vehicle."
         }
       ]
     },
@@ -52437,6 +52652,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "一枚のSuicaグリーン券は、1人、1回の乗車のためのものです。",
+          "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+        },
+        {
           "ja": "同じ人が行きと帰りで乗るので、これは利用の回数の大きさを示す比較です。",
           "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
         },
@@ -52451,10 +52670,6 @@
         {
           "ja": "その中心にあるのが、東京を輪のように回る山手線です。",
           "en": "At the center of that network is the Yamanote Line, which circles Tokyo like a loop."
-        },
-        {
-          "ja": "30秒だけ余分に使って正しい電車を選ぶことで、あとで長い遠回りをしなくてすむかもしれません。",
-          "en": "Spending just an extra 30 seconds choosing the right train may save you from a much longer detour later."
         }
       ]
     },
@@ -52578,6 +52793,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "車内改札は基本的に省略されます。",
+          "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
+        },
+        {
           "ja": "すると駅で紙のきっぷを受け取らなくても、改札でタッチしてそのまま入れます。",
           "en": "Then, instead of picking up a paper ticket at the station, you can simply tap at the gate and go in."
         },
@@ -52592,10 +52811,6 @@
         {
           "ja": "目的の駅に着いても、ホームや改札の近くで自転車を組み立てるのは避けましょう。",
           "en": "Even after arriving at your destination, avoid assembling your bicycle near the platform or ticket gates."
-        },
-        {
-          "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
-          "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
         }
       ]
     },
@@ -53877,6 +54092,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "座席の上には、グリーン券の情報を読む部分があります。",
+          "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
+        },
+        {
           "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
           "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
         },
@@ -53891,10 +54110,6 @@
         {
           "ja": "JR東日本の電車に乗ると、ドアの上に小さな画面があることがあります。",
           "en": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
-        },
-        {
-          "ja": "1日に700万人以上という数字は、ホームが混む理由や、短い間隔で電車が来る理由をよく表しています。",
-          "en": "More than seven million daily journeys help explain crowded platforms and frequent trains."
         }
       ]
     },
@@ -54707,6 +54922,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "グリーン車に入ったら、空いている席を選びます。",
+          "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
+        },
+        {
           "ja": "いっぽう自由席は、自由席車両の中で空いている席を自分で探します。",
           "en": "With a non-reserved seat, you look for an open seat inside the non-reserved cars."
         },
@@ -54721,10 +54940,6 @@
         {
           "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
           "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
-        },
-        {
-          "ja": "羽田空港で迷ったら、まずどちらの方面へ向かうのかを考えてみましょう。",
-          "en": "If you feel confused at Haneda Airport, first think about which direction you need to head."
         }
       ]
     },
@@ -55330,7 +55545,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "カード型のSuicaを使う場合は、乗る前に駅の券売機でSuicaグリーン券を買います。",
+          "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
+        }
+      ]
     },
     {
       "id": "core-4430f54cbbf929",
@@ -56254,20 +56474,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "指定席なら指定席特急券、自由席なら自由席特急券です。",
-          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+          "ja": "グリーン車に乗るには、ふつうの運賃のほかにグリーン券が必要です。",
+          "en": "You need a Green Ticket in addition to the normal fare."
         },
         {
-          "ja": "IPOでは、証券会社が会社の株を投資家に売ります。",
-          "en": "In an IPO, securities firms sell a company’s shares to investors."
+          "ja": "JR東日本の対象路線では、カードのSuicaでも、スマホのモバイルSuicaでも、Suicaグリーン券を使えます。",
+          "en": "On eligible JR East lines, you can use a physical Suica card or Mobile Suica."
         },
         {
-          "ja": "グリーンシューがあると、証券会社は予定より多く、ふつうは最大15パーセント多く株を売ることができます。",
-          "en": "With a greenshoe option, the securities firms can sell more shares than planned, usually up to 15 percent more."
+          "ja": "カード型のSuicaを使う場合は、乗る前に駅の券売機でSuicaグリーン券を買います。",
+          "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
         },
         {
-          "ja": "もし上場後に株価が下がれば、証券会社は市場で株を買い戻します。",
-          "en": "If the share price falls after listing, the securities firms buy shares back in the market."
+          "ja": "カードを入れて乗車駅と降車駅を選ぶと、券の情報がカードに記録されます。",
+          "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
+        },
+        {
+          "ja": "券売機に並ばなくてもよいのが便利です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
         }
       ]
     },
@@ -56895,6 +57119,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "車内改札は基本的に省略されます。",
+          "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
+        },
+        {
           "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
           "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
         },
@@ -57151,6 +57379,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "料金はSuicaにチャージしてある残額から払います。",
+          "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
+        },
+        {
           "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
           "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
         },
@@ -57165,10 +57397,6 @@
         {
           "ja": "高速道路の入口だけでなく、料金所の案内や道路標識にもETCの表示が多く、はじめての人は「ここではETCが当たり前なのだ」と感じやすいです。",
           "en": "It appears not only at expressway entrances, but also on toll guidance and road signs, so first-time drivers easily feel that ETC is simply taken for granted here."
-        },
-        {
-          "ja": "現金で払えるレーンがあっても数は限られ、ETC専用のレーンのほうがずっと目立つことがあります。",
-          "en": "Even if cash lanes exist, they are limited, and ETC-only lanes often stand out much more."
         }
       ]
     },
@@ -57775,6 +58003,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "カードを入れて乗車駅と降車駅を選ぶと、券の情報がカードに記録されます。",
+          "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
+        },
         {
           "ja": "ヨーロッパの各地で、記録的な熱波が続いています。",
           "en": "A record heatwave is continuing across parts of Europe."
@@ -63119,6 +63351,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "首都圏のJRには、普通・快速列車にグリーン車がついている路線があります。",
+          "en": "Some JR lines around Tokyo have Green Cars on local and rapid trains."
+        },
+        {
           "ja": "いちばん簡単に言うと、電車は電気で走る車両のこと、地下鉄は都市の地下を中心に走る鉄道のことです。",
           "en": "Both carry people, but the words differ."
         },
@@ -63133,10 +63369,6 @@
         {
           "ja": "東京都の人口は、2026年6月の推計で約1,430万人です。",
           "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
-        },
-        {
-          "ja": "都心の地下を通るこのネットワークは、通勤、通学、買い物、観光などを支えています。",
-          "en": "It supports commuting, school, shopping, and tourism."
         }
       ]
     },
@@ -65741,6 +65973,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "JR東日本の対象路線では、カードのSuicaでも、スマホのモバイルSuicaでも、Suicaグリーン券を使えます。",
+          "en": "On eligible JR East lines, you can use a physical Suica card or Mobile Suica."
+        },
+        {
           "ja": "日本で電車に乗ろうとすると、「電車」と「地下鉄」という言葉をよく見ます。",
           "en": "Densha means electric train."
         },
@@ -65755,10 +65991,6 @@
         {
           "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
           "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
-        },
-        {
-          "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
-          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
         }
       ]
     },
@@ -68746,6 +68978,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "首都圏のJRには、普通・快速列車にグリーン車がついている路線があります。",
+          "en": "Some JR lines around Tokyo have Green Cars on local and rapid trains."
+        },
+        {
+          "ja": "乗り換えるときも、降りる前と次の列車でタッチが必要です。",
+          "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+        },
+        {
           "ja": "どちらも人を運ぶ列車ですが、同じ意味ではありません。",
           "en": "Chikatetsu is an urban railway system that mainly runs underground."
         },
@@ -68756,14 +68996,6 @@
         {
           "ja": "駅名のそばに「5分」「12分」のような数字が出れば、それは現在の列車でその駅へ行くまでのおおよその時間です。",
           "en": "A number such as five or 12 minutes beside a station is the time for this train to reach it."
-        },
-        {
-          "ja": "多くのホームには、列車を止めるための停止位置目標があります。",
-          "en": "Many platforms have stopping-position markers for trains."
-        },
-        {
-          "ja": "このように、細かい列車の名前を全部覚えていなくても、まず路線のどちら側に行きたいかがわかれば、正しい電車をかなり選びやすくなります。",
-          "en": "In this way, even if you do not remember every train name, knowing which side of the line you need first makes it much easier to choose the right train."
         }
       ]
     },
@@ -68782,6 +69014,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "首都圏のJRには、普通・快速列車にグリーン車がついている路線があります。",
+          "en": "Some JR lines around Tokyo have Green Cars on local and rapid trains."
+        },
+        {
+          "ja": "乗り換えるときも、降りる前と次の列車でタッチが必要です。",
+          "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+        },
+        {
           "ja": "どちらも人を運ぶ列車ですが、同じ意味ではありません。",
           "en": "Chikatetsu is an urban railway system that mainly runs underground."
         },
@@ -68792,14 +69032,6 @@
         {
           "ja": "駅名のそばに「5分」「12分」のような数字が出れば、それは現在の列車でその駅へ行くまでのおおよその時間です。",
           "en": "A number such as five or 12 minutes beside a station is the time for this train to reach it."
-        },
-        {
-          "ja": "多くのホームには、列車を止めるための停止位置目標があります。",
-          "en": "Many platforms have stopping-position markers for trains."
-        },
-        {
-          "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
-          "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
         }
       ]
     },
@@ -69139,6 +69371,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "料金はSuicaにチャージしてある残額から払います。",
+          "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
+        },
         {
           "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
           "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
@@ -70530,6 +70766,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "車内改札は基本的に省略されます。",
+          "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
+        },
+        {
           "ja": "すると駅で紙のきっぷを受け取らなくても、改札でタッチしてそのまま入れます。",
           "en": "Then, instead of picking up a paper ticket at the station, you can simply tap at the gate and go in."
         },
@@ -70544,10 +70784,6 @@
         {
           "ja": "目的の駅に着いても、ホームや改札の近くで自転車を組み立てるのは避けましょう。",
           "en": "Even after arriving at your destination, avoid assembling your bicycle near the platform or ticket gates."
-        },
-        {
-          "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
-          "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
         }
       ]
     },
@@ -74642,6 +74878,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "首都圏のJRには、普通・快速列車にグリーン車がついている路線があります。",
+          "en": "Some JR lines around Tokyo have Green Cars on local and rapid trains."
+        },
+        {
           "ja": "特に首都高では、その印象が強くなります。",
           "en": "That impression becomes especially strong on the Shuto Expressway."
         },
@@ -76798,7 +77038,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "JR東日本の対象路線では、カードのSuicaでも、スマホのモバイルSuicaでも、Suicaグリーン券を使えます。",
+          "en": "On eligible JR East lines, you can use a physical Suica card or Mobile Suica."
+        }
+      ]
     },
     {
       "id": "core-545f464e4f81b7",
@@ -76830,6 +77075,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "JR東日本の対象路線では、カードのSuicaでも、スマホのモバイルSuicaでも、Suicaグリーン券を使えます。",
+          "en": "On eligible JR East lines, you can use a physical Suica card or Mobile Suica."
+        },
+        {
           "ja": "0対応システムを通じて、広い範囲の交通情報が届くと説明されています。",
           "en": "0 compatible systems."
         },
@@ -76844,10 +77093,6 @@
         {
           "ja": "この事故の後、安全対策について議論が起きました。",
           "en": "After the incident, a debate began about safety measures."
-        },
-        {
-          "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
-          "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
         }
       ],
       "partOfSpeech": "verb",
@@ -79354,7 +79599,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "友だちの分まで、一枚のカードや一台のスマホで買うことはできません。",
+          "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+        }
+      ]
     },
     {
       "id": "core-07d95048572f1f",
@@ -80963,6 +81213,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "通信が安定した場所で、早めに買っておくと安心です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
           "ja": "外のサーバーとの通信を長く待たなくてもいいので、流れが止まりにくくなっています。",
           "en": "Because there is little need to wait on long communication with an outside server, the flow is less likely to stop."
         },
@@ -81599,6 +81853,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "グリーン車に乗るには、ふつうの運賃のほかにグリーン券が必要です。",
+          "en": "You need a Green Ticket in addition to the normal fare."
+        },
+        {
           "ja": "どちらも人を運ぶ列車ですが、同じ意味ではありません。",
           "en": "Chikatetsu is an urban railway system that mainly runs underground."
         },
@@ -81612,10 +81870,6 @@
         },
         {
           "ja": "東京の電車は、朝から夜までたくさんの人を運んでいます。",
-          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
-        },
-        {
-          "ja": "東京メトロだけでも、2025年度には1日平均で約704万人を運びました。",
           "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
         }
       ]
@@ -84566,6 +84820,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "座席の上には、グリーン券の情報を読む部分があります。",
+          "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
+        },
+        {
           "ja": "指定席は座席があらかじめ決まっていて、その席に座ります。",
           "en": "With a reserved seat, your seat is decided in advance and you sit in that seat."
         },
@@ -84843,6 +85101,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "JR東日本の対象路線では、カードのSuicaでも、スマホのモバイルSuicaでも、Suicaグリーン券を使えます。",
+          "en": "On eligible JR East lines, you can use a physical Suica card or Mobile Suica."
+        },
+        {
           "ja": "特に首都高では、その印象が強くなります。",
           "en": "That impression becomes especially strong on the Shuto Expressway."
         },
@@ -84857,10 +85119,6 @@
         {
           "ja": "気象庁は8日、日本の太平洋側の広い地域に津波注意報を出しました。",
           "en": "On the 8th, the Japan Meteorological Agency issued a tsunami advisory for a wide area along Japan’s Pacific coast."
-        },
-        {
-          "ja": "気象庁は、最大1メートルの津波が来る可能性があると発表しました。",
-          "en": "The agency announced that waves of up to one meter could arrive."
         }
       ]
     },
@@ -84976,6 +85234,238 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": []
+    },
+    {
+      "id": "article-57a3420f117682",
+      "level": "N3",
+      "term": "グリーン券",
+      "reading": "グリーンけん",
+      "readingHiragana": "ぐりーんけん",
+      "meaning": "Green Car ticket",
+      "source": "article",
+      "sourceId": "2026-07-22-green-car-card-and-mobile-suica",
+      "sourceTitle": "グリーン車はカードのSuicaとスマホで使える",
+      "sourceLabel": "7/22 グリーン車とSuica",
+      "sourceHref": "./2026-07-22-green-car-card-and-mobile-suica.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-22-green-car-card-and-mobile-suica"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "グリーン車に乗るには、ふつうの運賃のほかにグリーン券が必要です。",
+          "en": "You need a Green Ticket in addition to the normal fare."
+        },
+        {
+          "ja": "JR東日本の対象路線では、カードのSuicaでも、スマホのモバイルSuicaでも、Suicaグリーン券を使えます。",
+          "en": "On eligible JR East lines, you can use a physical Suica card or Mobile Suica."
+        },
+        {
+          "ja": "カード型のSuicaを使う場合は、乗る前に駅の券売機でSuicaグリーン券を買います。",
+          "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
+        },
+        {
+          "ja": "ただし、モバイルSuicaのグリーン券は、Suicaのチャージ残額では払えません。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
+          "ja": "座席の上には、グリーン券の情報を読む部分があります。",
+          "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
+        }
+      ]
+    },
+    {
+      "id": "article-442e25c1a12cf4",
+      "level": "N3",
+      "term": "券売機",
+      "reading": "けんばいき",
+      "readingHiragana": "けんばいき",
+      "meaning": "Ticket vending machine",
+      "source": "article",
+      "sourceId": "2026-07-22-green-car-card-and-mobile-suica",
+      "sourceTitle": "グリーン車はカードのSuicaとスマホで使える",
+      "sourceLabel": "7/22 グリーン車とSuica",
+      "sourceHref": "./2026-07-22-green-car-card-and-mobile-suica.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-22-green-car-card-and-mobile-suica"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "カード型のSuicaを使う場合は、乗る前に駅の券売機でSuicaグリーン券を買います。",
+          "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
+        },
+        {
+          "ja": "券売機に並ばなくてもよいのが便利です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        }
+      ]
+    },
+    {
+      "id": "article-32945fadddd3a4",
+      "level": "N3",
+      "term": "残額",
+      "reading": "ざんがく",
+      "readingHiragana": "ざんがく",
+      "meaning": "Remaining balance",
+      "source": "article",
+      "sourceId": "2026-07-22-green-car-card-and-mobile-suica",
+      "sourceTitle": "グリーン車はカードのSuicaとスマホで使える",
+      "sourceLabel": "7/22 グリーン車とSuica",
+      "sourceHref": "./2026-07-22-green-car-card-and-mobile-suica.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-22-green-car-card-and-mobile-suica"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "料金はSuicaにチャージしてある残額から払います。",
+          "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
+        },
+        {
+          "ja": "ただし、モバイルSuicaのグリーン券は、Suicaのチャージ残額では払えません。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        }
+      ]
+    },
+    {
+      "id": "article-8709ccaab3461b",
+      "level": "N3",
+      "term": "決済",
+      "reading": "けっさい",
+      "readingHiragana": "けっさい",
+      "meaning": "Payment / settlement",
+      "source": "article",
+      "sourceId": "2026-07-22-green-car-card-and-mobile-suica",
+      "sourceTitle": "グリーン車はカードのSuicaとスマホで使える",
+      "sourceLabel": "7/22 グリーン車とSuica",
+      "sourceHref": "./2026-07-22-green-car-card-and-mobile-suica.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-22-green-car-card-and-mobile-suica"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "登録したクレジットカード、またはGoogle Payで決済します。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        }
+      ]
+    },
+    {
+      "id": "article-e3503b2017a733",
+      "level": "N3",
+      "term": "座席",
+      "reading": "ざせき",
+      "readingHiragana": "ざせき",
+      "meaning": "Seat",
+      "source": "article",
+      "sourceId": "2026-07-22-green-car-card-and-mobile-suica",
+      "sourceTitle": "グリーン車はカードのSuicaとスマホで使える",
+      "sourceLabel": "7/22 グリーン車とSuica",
+      "sourceHref": "./2026-07-22-green-car-card-and-mobile-suica.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-22-green-car-card-and-mobile-suica"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "座席の上には、グリーン券の情報を読む部分があります。",
+          "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
+        },
+        {
+          "ja": "指定席は座席があらかじめ決まっていて、その席に座ります。",
+          "en": "With a reserved seat, your seat is decided in advance and you sit in that seat."
+        },
+        {
+          "ja": "予約した座席と「どのICカードで入るか」を先にひもづけておくのです。",
+          "en": "You link the reserved seat in advance to the IC card that will be used to enter."
+        }
+      ]
+    },
+    {
+      "id": "article-4add3ebebe77fe",
+      "level": "N3",
+      "term": "車内改札",
+      "reading": "しゃないかいさつ",
+      "readingHiragana": "しゃないかいさつ",
+      "meaning": "On-board ticket inspection",
+      "source": "article",
+      "sourceId": "2026-07-22-green-car-card-and-mobile-suica",
+      "sourceTitle": "グリーン車はカードのSuicaとスマホで使える",
+      "sourceLabel": "7/22 グリーン車とSuica",
+      "sourceHref": "./2026-07-22-green-car-card-and-mobile-suica.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-22-green-car-card-and-mobile-suica"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "車内改札は基本的に省略されます。",
+          "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
+        }
+      ]
+    },
+    {
+      "id": "article-c12dbffb19acbf",
+      "level": "N3",
+      "term": "省略する",
+      "reading": "しょうりゃくする",
+      "readingHiragana": "しょうりゃくする",
+      "meaning": "To omit / skip",
+      "source": "article",
+      "sourceId": "2026-07-22-green-car-card-and-mobile-suica",
+      "sourceTitle": "グリーン車はカードのSuicaとスマホで使える",
+      "sourceLabel": "7/22 グリーン車とSuica",
+      "sourceHref": "./2026-07-22-green-car-card-and-mobile-suica.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-22-green-car-card-and-mobile-suica"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "車内改札は基本的に省略されます。",
+          "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
+        }
+      ]
+    },
+    {
+      "id": "article-ecbe668c4b2db1",
+      "level": "N3",
+      "term": "乗車",
+      "reading": "じょうしゃ",
+      "readingHiragana": "じょうしゃ",
+      "meaning": "Train ride / boarding",
+      "source": "article",
+      "sourceId": "2026-07-22-green-car-card-and-mobile-suica",
+      "sourceTitle": "グリーン車はカードのSuicaとスマホで使える",
+      "sourceLabel": "7/22 グリーン車とSuica",
+      "sourceHref": "./2026-07-22-green-car-card-and-mobile-suica.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-22-green-car-card-and-mobile-suica"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "カードを入れて乗車駅と降車駅を選ぶと、券の情報がカードに記録されます。",
+          "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
+        },
+        {
+          "ja": "モバイルSuicaなら、スマホのアプリで同じように乗車駅と降車駅を選んで買えます。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
+          "ja": "一枚のSuicaグリーン券は、1人、1回の乗車のためのものです。",
+          "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+        },
+        {
+          "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
+          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+        },
+        {
+          "ja": "会社ごとの輸送人員、駅ごとの乗車人員、乗り降りした人の合計は、同じではありません。",
+          "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+        }
+      ]
     },
     {
       "id": "article-d69464dea9d320",
@@ -85108,6 +85598,14 @@
       ],
       "exampleSentences": [
         {
+          "ja": "首都圏のJRには、普通・快速列車にグリーン車がついている路線があります。",
+          "en": "Some JR lines around Tokyo have Green Cars on local and rapid trains."
+        },
+        {
+          "ja": "JR東日本の対象路線では、カードのSuicaでも、スマホのモバイルSuicaでも、Suicaグリーン券を使えます。",
+          "en": "On eligible JR East lines, you can use a physical Suica card or Mobile Suica."
+        },
+        {
           "ja": "東京には東京メトロと都営地下鉄があり、東京メトロだけでも9路線あります。",
           "en": "Tokyo has Tokyo Metro and Toei Subway; Tokyo Metro alone has nine lines."
         },
@@ -85118,14 +85616,6 @@
         {
           "ja": "また、東京メトロの多くの路線は、ほかの会社の鉄道と相互直通運転をしています。",
           "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
-        },
-        {
-          "ja": "乗る車両について広く話すなら「電車」、地下鉄というネットワークや路線を言いたいなら「地下鉄」が自然です。",
-          "en": "” Use densha for the vehicle in a broad sense, and chikatetsu for the subway network or line."
-        },
-        {
-          "ja": "そこには次の駅だけでなく、路線の地図や、その先の駅までの所要時間が表示されます。",
-          "en": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
         }
       ]
     },
@@ -85196,6 +85686,10 @@
         "2026-07-21-train-and-subway-difference"
       ],
       "exampleSentences": [
+        {
+          "ja": "乗り換えるときも、降りる前と次の列車でタッチが必要です。",
+          "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+        },
         {
           "ja": "会話では、「駅まで電車で行く」「地下鉄に乗り換える」のように使います。",
           "en": "In conversation, you might say “go by train to the station” or “transfer to the subway."
@@ -85331,6 +85825,10 @@
         "2026-07-20-jr-in-car-travel-times"
       ],
       "exampleSentences": [
+        {
+          "ja": "乗り換えるときも、降りる前と次の列車でタッチが必要です。",
+          "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+        },
         {
           "ja": "会話では、「駅まで電車で行く」「地下鉄に乗り換える」のように使います。",
           "en": "In conversation, you might say “go by train to the station” or “transfer to the subway."
@@ -86014,6 +86512,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "車内改札は基本的に省略されます。",
+          "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
+        },
+        {
           "ja": "すると駅で紙のきっぷを受け取らなくても、改札でタッチしてそのまま入れます。",
           "en": "Then, instead of picking up a paper ticket at the station, you can simply tap at the gate and go in."
         },
@@ -86028,10 +86530,6 @@
         {
           "ja": "目的の駅に着いても、ホームや改札の近くで自転車を組み立てるのは避けましょう。",
           "en": "Even after arriving at your destination, avoid assembling your bicycle near the platform or ticket gates."
-        },
-        {
-          "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
-          "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
         }
       ]
     },
@@ -86984,6 +87482,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "車内改札は基本的に省略されます。",
+          "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
+        },
+        {
           "ja": "すると駅で紙のきっぷを受け取らなくても、改札でタッチしてそのまま入れます。",
           "en": "Then, instead of picking up a paper ticket at the station, you can simply tap at the gate and go in."
         },
@@ -86998,10 +87500,6 @@
         {
           "ja": "目的の駅に着いても、ホームや改札の近くで自転車を組み立てるのは避けましょう。",
           "en": "Even after arriving at your destination, avoid assembling your bicycle near the platform or ticket gates."
-        },
-        {
-          "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
-          "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
         }
       ]
     },
@@ -87293,6 +87791,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "車内改札は基本的に省略されます。",
+          "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
+        },
+        {
           "ja": "すると駅で紙のきっぷを受け取らなくても、改札でタッチしてそのまま入れます。",
           "en": "Then, instead of picking up a paper ticket at the station, you can simply tap at the gate and go in."
         },
@@ -87307,10 +87809,6 @@
         {
           "ja": "目的の駅に着いても、ホームや改札の近くで自転車を組み立てるのは避けましょう。",
           "en": "Even after arriving at your destination, avoid assembling your bicycle near the platform or ticket gates."
-        },
-        {
-          "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
-          "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
         }
       ]
     },
@@ -87377,6 +87875,10 @@
         "2026-07-08-ticket-gate-speed"
       ],
       "exampleSentences": [
+        {
+          "ja": "通信が安定した場所で、早めに買っておくと安心です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
         {
           "ja": "外のサーバーとの通信を長く待たなくてもいいので、流れが止まりにくくなっています。",
           "en": "Because there is little need to wait on long communication with an outside server, the flow is less likely to stop."
@@ -87536,6 +88038,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "通信が安定した場所で、早めに買っておくと安心です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
           "ja": "つまり、安心して席を確保したいか、少し気楽に乗りたいかで選び方が変わります。",
           "en": "In other words, the choice changes depending on whether you want the security of a guaranteed seat or a more flexible ride."
         },
@@ -87550,10 +88056,6 @@
         {
           "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
           "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
-        },
-        {
-          "ja": "これは、視覚障害のある人が駅の中をより安心して移動できるようにサポートするためのものだそうです。",
-          "en": "It seems to be designed to help people with visual impairments move through stations more safely and with more confidence."
         }
       ]
     },
@@ -88320,6 +88822,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "首都圏のJRには、普通・快速列車にグリーン車がついている路線があります。",
+          "en": "Some JR lines around Tokyo have Green Cars on local and rapid trains."
+        },
+        {
           "ja": "JRの普通列車や私鉄、地下鉄の車両も、電気で走れば電車です。",
           "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
         },
@@ -88469,6 +88975,10 @@
         "2026-07-01-rinkai-line-cost"
       ],
       "exampleSentences": [
+        {
+          "ja": "グリーン車に乗るには、ふつうの運賃のほかにグリーン券が必要です。",
+          "en": "You need a Green Ticket in addition to the normal fare."
+        },
         {
           "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
           "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
@@ -89024,6 +89534,10 @@
         "2026-06-29-tokyo-stations-map"
       ],
       "exampleSentences": [
+        {
+          "ja": "乗り換えるときも、降りる前と次の列車でタッチが必要です。",
+          "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
+        },
         {
           "ja": "会話では、「駅まで電車で行く」「地下鉄に乗り換える」のように使います。",
           "en": "In conversation, you might say “go by train to the station” or “transfer to the subway."
@@ -91849,6 +92363,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "通信が安定した場所で、早めに買っておくと安心です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
           "ja": "速さと安全性を両立しているからこそ、毎日の大きな移動が安定して続けられるのです。",
           "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
         },
@@ -91863,10 +92381,6 @@
         {
           "ja": "これにより、経験が少ない人でも、安定して野菜を育てやすくなると期待されています。",
           "en": "Because of this, even people with little experience are expected to find it easier to grow vegetables steadily."
-        },
-        {
-          "ja": "安定して出荷するために、新しい設備や管理方法の導入が進められています。",
-          "en": "New equipment and management methods are being introduced to maintain stable shipments."
         }
       ]
     },
@@ -93099,6 +93613,10 @@
         "2026-05-28-cashless-ferry"
       ],
       "exampleSentences": [
+        {
+          "ja": "通信が安定した場所で、早めに買っておくと安心です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
         {
           "ja": "外のサーバーとの通信を長く待たなくてもいいので、流れが止まりにくくなっています。",
           "en": "Because there is little need to wait on long communication with an outside server, the flow is less likely to stop."
