@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>電車の画面で、次の駅まで何分かわかる</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <script>
+        (() => {
+            try {
+                const storedTheme = window.localStorage.getItem('learnJapanese.theme');
+                const theme = storedTheme === 'dark' || storedTheme === 'light'
+                    ? storedTheme
+                    : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                document.documentElement.dataset.theme = theme;
+                document.documentElement.style.colorScheme = theme;
+            } catch (error) {
+                document.documentElement.dataset.theme = 'light';
+                document.documentElement.style.colorScheme = 'light';
+            }
+        })();
+    </script>
+    <link rel="stylesheet" href="./assets/article.css?v=b02c94c319a7">
+</head>
+<body id="top" data-article-id="2026-07-20-jr-in-car-travel-times" data-recording-download-name="2026-07-20-jr-in-car-travel-times.mp4">
+<nav class="top-nav" aria-label="Page navigation"></nav>
+<div class="article-shell">
+    <aside class="article-sidebar" aria-label="Article navigation"></aside>
+    <main class="article-main">
+
+<div class="container">
+    <div class="date">2026年7月20日</div>
+    <div class="article-toolbar">
+        <div class="voice-controls">
+            <button class="toolbar-icon-button voice-menu-toggle" type="button" id="voice-menu-toggle" aria-expanded="false" aria-controls="voice-settings-menu" aria-label="Voice settings" data-tooltip="Voice settings">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 10v4"></path>
+                    <path d="M8 7v10"></path>
+                    <path d="M12 4v16"></path>
+                    <path d="M16 7v10"></path>
+                    <path d="M20 10v4"></path>
+                </svg>
+                <span class="icon-label">Voice settings</span>
+            </button>
+            <div class="voice-current-status" id="voice-current-status" aria-live="polite">Docker VOICEVOX</div>
+            <button class="audio-enable-button" type="button" id="enable-docker-audio" hidden>Enable audio</button>
+            <div class="voice-settings-menu" id="voice-settings-menu" hidden>
+                <label class="toolbar-label" for="browser-voice">Browser Voice</label>
+                <select class="voice-select" id="browser-voice" aria-label="Browser voice">
+                    <option value="auto" selected>Google 日本語</option>
+                </select>
+            </div>
+        </div>
+        <div class="article-actions" aria-label="Article actions">
+            <button class="toolbar-icon-button preview-button" type="button" id="preview-recording-mode" aria-label="Preview recording mode" data-tooltip="Preview recording mode">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M2 12s3.8-6 10-6 10 6 10 6-3.8 6-10 6-10-6-10-6z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+                <span class="icon-label">Preview recording mode</span>
+            </button>
+            <button class="toolbar-icon-button video-button" type="button" id="render-video" aria-label="Render video" data-tooltip="Render video" data-default-label="Render video" data-active-label="Recording">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M5 6h11a2 2 0 0 1 2 2v1l3-2v10l-3-2v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"></path>
+                    <path d="M9 10.5v3l3-1.5z"></path>
+                </svg>
+                <span class="icon-label">Render video</span>
+            </button>
+            <button class="toolbar-icon-button cover-button" type="button" id="download-cover" aria-label="Download video cover" data-tooltip="Download cover" data-default-label="Download cover" data-active-label="Rendering cover">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                    <circle cx="8.5" cy="10" r="1.5"></circle>
+                    <path d="m21 15-5-5L5 19"></path>
+                </svg>
+                <span class="icon-label">Download cover</span>
+            </button>
+            <button class="toolbar-icon-button speak-button" type="button" id="speak-japanese-article" aria-label="Read aloud" data-tooltip="Read aloud" data-default-label="Read aloud" data-active-label="Stop reading" data-loading-label="Preparing audio">
+                <svg class="toolbar-svg icon-read" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 10v4h4l5 4V6L8 10z"></path>
+                    <path d="M16 9c1.8 1.8 1.8 4.2 0 6"></path>
+                    <path d="M18.5 6.5c3.3 3.3 3.3 7.7 0 11"></path>
+                </svg>
+                <svg class="toolbar-svg icon-stop" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 8h8v8H8z"></path>
+                </svg>
+                <span class="icon-label">Read aloud</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-japanese-article" aria-label="Copy Japanese article" data-tooltip="Copy Japanese article">
+                <span class="copy-language-icon" aria-hidden="true">あ</span>
+                <span class="icon-label">Copy Japanese article</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-english-translation" aria-label="Copy English translation" data-tooltip="Copy English translation">
+                <span class="copy-language-icon" aria-hidden="true">A</span>
+                <span class="icon-label">Copy English translation</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-bilingual-article" aria-label="Copy Japanese and English article" data-tooltip="Copy Japanese and English article">
+                <span class="copy-language-icon copy-language-icon-wide" aria-hidden="true">あ/A</span>
+                <span class="icon-label">Copy Japanese and English article</span>
+            </button>
+        </div>
+    </div>
+    <div class="copy-status" id="copy-status" aria-live="polite"></div>
+    <audio class="audio-player" id="tts-player" controls hidden preload="none"></audio>
+    <h1><ruby>電車<rt>でんしゃ</rt></ruby>の<ruby>画面<rt>がめん</rt></ruby>で、<ruby>次<rt>つぎ</rt></ruby>の<ruby>駅<rt>えき</rt></ruby>まで<ruby>何分<rt>なんぷん</rt></ruby>かわかる</h1>
+    <div class="source-note">JR東日本が2002年に山手線で始めた車内情報提供サービスと、交通エコロジー・モビリティ財団のE233系の案内表示装置の事例をもとに作成した学習用ページです。画面の所要時間は運行状況によって変わる目安です。</div>
+
+
+    <p class="article-paragraph">JR<ruby>東日本<rt>ひがしにほん</rt></ruby>の<ruby>電車<rt>でんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>ると、ドアの<ruby>上<rt>うえ</rt></ruby>に<ruby>小<rt>ちい</rt></ruby>さな<ruby>画面<rt>がめん</rt></ruby>があることがあります。そこには<ruby>次<rt>つぎ</rt></ruby>の<ruby>駅<rt>えき</rt></ruby>だけでなく、<ruby>路線<rt>ろせん</rt></ruby>の<ruby>地図<rt>ちず</rt></ruby>や、その<ruby>先<rt>さき</rt></ruby>の<ruby>駅<rt>えき</rt></ruby>までの<ruby>所要時間<rt>しょようじかん</rt></ruby>が<ruby>表示<rt>ひょうじ</rt></ruby>されます。<ruby>初<rt>はじ</rt></ruby>めて<ruby>乗<rt>の</rt></ruby>る<ruby>路線<rt>ろせん</rt></ruby>でも、「あとどのくらいで<ruby>着<rt>つ</rt></ruby>くか」を<ruby>見<rt>み</rt></ruby>て<ruby>考<rt>かんが</rt></ruby>えられます。</p>
+    <div class="sentence-translation">On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains.</div>
+    <p class="article-paragraph"><ruby>画面<rt>がめん</rt></ruby>の<ruby>路線図<rt>ろせんず</rt></ruby>では、<ruby>今<rt>いま</rt></ruby>いる<ruby>場所<rt>ばしょ</rt></ruby>と<ruby>進<rt>すす</rt></ruby>む<ruby>方向<rt>ほうこう</rt></ruby>がわかります。<ruby>駅名<rt>えきめい</rt></ruby>のそばに「5<ruby>分<rt>ふん</rt></ruby>」「12<ruby>分<rt>ふん</rt></ruby>」のような<ruby>数字<rt>すうじ</rt></ruby>が<ruby>出<rt>で</rt></ruby>れば、それは<ruby>現在<rt>げんざい</rt></ruby>の<ruby>列車<rt>れっしゃ</rt></ruby>でその<ruby>駅<rt>えき</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くまでのおおよその<ruby>時間<rt>じかん</rt></ruby>です。<ruby>次<rt>つぎ</rt></ruby>の<ruby>数駅<rt>すうえき</rt></ruby>をまとめて<ruby>見<rt>み</rt></ruby>られるので、<ruby>降<rt>お</rt></ruby>りる<ruby>準備<rt>じゅんび</rt></ruby>もしやすくなります。</p>
+    <div class="sentence-translation">The route map shows where the train is and which way it is going. A number such as five or 12 minutes beside a station is the time for this train to reach it. Seeing several upcoming stations together makes it easier to prepare to get off.</div>
+    <p class="article-paragraph">この<ruby>表示<rt>ひょうじ</rt></ruby>は、<ruby>乗<rt>の</rt></ruby>り<ruby>換<rt>か</rt></ruby>えにも<ruby>便利<rt>べんり</rt></ruby>です。<ruby>大<rt>おお</rt></ruby>きな<ruby>駅<rt>えき</rt></ruby>で<ruby>別<rt>べつ</rt></ruby>の<ruby>路線<rt>ろせん</rt></ruby>へ<ruby>移<rt>うつ</rt></ruby>るとき、あと何分あるかがわかれば、<ruby>急<rt>いそ</rt></ruby>ぐかどうかを<ruby>決<rt>き</rt></ruby>めやすくなります。<ruby>次<rt>つぎ</rt></ruby>の<ruby>駅<rt>えき</rt></ruby>で<ruby>使<rt>つか</rt></ruby>う<ruby>路線<rt>ろせん</rt></ruby>や、ドアが<ruby>開<rt>あ</rt></ruby>く<ruby>側<rt>がわ</rt></ruby>を<ruby>案内<rt>あんない</rt></ruby>する<ruby>画面<rt>がめん</rt></ruby>もあります。<ruby>車内<rt>しゃない</rt></ruby>にいても、<ruby>少<rt>すこ</rt></ruby>しずつ<ruby>次<rt>つぎ</rt></ruby>の<ruby>行動<rt>こうどう</rt></ruby>を<ruby>決<rt>き</rt></ruby>められるのです。</p>
+    <div class="sentence-translation">It is useful for transfers too. If you know how many minutes remain before a large interchange station, you can decide whether to hurry. Some screens also show connecting lines and which side the doors will open on.</div>
+    <p class="article-paragraph">ただし、この<ruby>時間<rt>じかん</rt></ruby>は<ruby>約束<rt>やくそく</rt></ruby>された<ruby>到着時刻<rt>とうちゃくじこく</rt></ruby>ではありません。<ruby>駅<rt>えき</rt></ruby>で<ruby>人<rt>ひと</rt></ruby>が<ruby>多<rt>おお</rt></ruby>いときや、<ruby>前<rt>まえ</rt></ruby>の<ruby>電車<rt>でんしゃ</rt></ruby>が<ruby>遅<rt>おく</rt></ruby>れているときは、<ruby>実際<rt>じっさい</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>変<rt>か</rt></ruby>わることがあります。<ruby>画面<rt>がめん</rt></ruby>には<ruby>遅<rt>おく</rt></ruby>れや<ruby>運転<rt>うんてん</rt></ruby><ruby>見合<rt>みあ</rt></ruby>わせの<ruby>情報<rt>じょうほう</rt></ruby>も<ruby>出<rt>で</rt></ruby>るため、<ruby>予定<rt>よてい</rt></ruby>が<ruby>大<rt>おお</rt></ruby>きく<ruby>変<rt>か</rt></ruby>わったときは、そちらも<ruby>確認<rt>かくにん</rt></ruby>することが<ruby>大切<rt>たいせつ</rt></ruby>です。</p>
+    <div class="sentence-translation">The times are not guaranteed arrival times. Crowded stations or a delayed train ahead can change the actual time. The screens can also show delay or suspension information, so check that when plans change.</div>
+    <p class="article-paragraph">JR<ruby>東日本<rt>ひがしにほん</rt></ruby>は、2002<ruby>年<rt>ねん</rt></ruby>に<ruby>山手線<rt>やまのてせん</rt></ruby>の<ruby>新<rt>あたら</rt></ruby>しい<ruby>車両<rt>しゃりょう</rt></ruby>で、このような<ruby>液晶<rt>えきしょう</rt></ruby>を<ruby>使<rt>つか</rt></ruby>う<ruby>案内<rt>あんない</rt></ruby>を<ruby>始<rt>はじ</rt></ruby>めました。<ruby>今<rt>いま</rt></ruby>では、E233<ruby>系<rt>けい</rt></ruby>などの<ruby>車内<rt>しゃない</rt></ruby>の<ruby>液晶<rt>えきしょう</rt></ruby>が、<ruby>到着駅<rt>とうちゃくえき</rt></ruby>、<ruby>所要時間<rt>しょようじかん</rt></ruby>、<ruby>出口<rt>でぐち</rt></ruby>、<ruby>遅延<rt>ちえん</rt></ruby>などを<ruby>伝<rt>つた</rt></ruby>えています。ふだんは<ruby>何気<rt>なにげ</rt></ruby>なく<ruby>見<rt>み</rt></ruby>る<ruby>画面<rt>がめん</rt></ruby>ですが、<ruby>旅<rt>たび</rt></ruby>の<ruby>小<rt>ちい</rt></ruby>さな<ruby>案内役<rt>あんないやく</rt></ruby>になっています。</p>
+    <div class="sentence-translation">JR East began this kind of LCD guidance on new Yamanote Line trains in 2002. Today, displays on trains such as the E233 series provide arrival, travel-time, exit, and delay information—a small guide for the journey.</div>
+    <div class="recording-footer" aria-hidden="true">
+        <span>英訳はコメント欄にあります</span>
+        <span>2026年7月20日</span>
+    </div>
+
+<div class="study-notes-box">
+        <h2>Common Phrases and Patterns</h2>
+        <div class="study-note-group">
+            <h3>Useful phrases</h3>
+            <ul class="study-note-list">
+                <li><strong>〜ため</strong> <span>because of / for the purpose of</span><div class="study-note-example">Example: は遅れや運転見合わせの情報も出るため、予定が大きく変わったときは、そ</div></li>
+                <li><strong>〜だけで</strong> <span>just by / only with</span><div class="study-note-example">Example: そこには次の駅だけでなく、路線の地図や、その先の駅ま</div></li>
+            </ul>
+        </div>
+        <div class="study-note-group">
+            <h3>Verb and grammar patterns</h3>
+            <ul class="study-note-list">
+                <li><strong>〜ている</strong> <span>ongoing state / habitual action</span><div class="study-note-example">Example: で人が多いときや、前の電車が遅れているときは、実際の時間が変わることが</div></li>
+                <li><strong>〜始める</strong> <span>to start doing</span><div class="study-note-example">Example: 両で、このような液晶を使う案内を始めました</div></li>
+            </ul>
+        </div>
+    </div>
+    <div class="vocabulary-box">
+        <h2>N3 Vocabulary</h2>
+        <ul>
+            <li><strong>所要時間（しょようじかん）:</strong> Time required / journey time</li>
+            <li><strong>路線図（ろせんず）:</strong> Route map</li>
+            <li><strong>おおよそ:</strong> Approximately / roughly</li>
+            <li><strong>乗り換え（のりかえ）:</strong> Transfer</li>
+            <li><strong>到着時刻（とうちゃくじこく）:</strong> Arrival time</li>
+            <li><strong>運転見合わせ（うんてんみあわせ）:</strong> Service suspension</li>
+            <li><strong>液晶（えきしょう）:</strong> Liquid-crystal display (LCD)</li>
+            <li><strong>遅延（ちえん）:</strong> Delay</li>
+        </ul>
+    </div>
+</div>
+    </main>
+</div>
+
+<script src="./assets/theme.js"></script>
+<script src="./assets/article.js?v=726492372069"></script>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+{
+  "_comment": "Publish-ready N3 article about reading estimated journey times on JR East in-car displays. Exactly 5 short paragraph sections.",
+  "id": "2026-07-20-jr-in-car-travel-times",
+  "file": "2026-07-20-jr-in-car-travel-times.html",
+  "title": "電車の画面で、次の駅まで何分かわかる",
+  "titleTranslation": "A Train Screen Can Tell You the Minutes to Upcoming Stations",
+  "date": "2026年7月20日",
+  "month": "July 2026",
+  "navLabel": "7/20 車内の所要時間",
+  "level": "N3",
+  "downloadFileName": "2026-07-20-jr-in-car-travel-times.mp4",
+  "headlineHtml": "<ruby>電車<rt>でんしゃ</rt></ruby>の<ruby>画面<rt>がめん</rt></ruby>で、<ruby>次<rt>つぎ</rt></ruby>の<ruby>駅<rt>えき</rt></ruby>まで<ruby>何分<rt>なんぷん</rt></ruby>かわかる",
+  "sourceNote": "JR東日本が2002年に山手線で始めた車内情報提供サービスと、交通エコロジー・モビリティ財団のE233系の案内表示装置の事例をもとに作成した学習用ページです。画面の所要時間は運行状況によって変わる目安です。",
+  "paragraphs": [
+    {
+      "html": "JR<ruby>東日本<rt>ひがしにほん</rt></ruby>の<ruby>電車<rt>でんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>ると、ドアの<ruby>上<rt>うえ</rt></ruby>に<ruby>小<rt>ちい</rt></ruby>さな<ruby>画面<rt>がめん</rt></ruby>があることがあります。そこには<ruby>次<rt>つぎ</rt></ruby>の<ruby>駅<rt>えき</rt></ruby>だけでなく、<ruby>路線<rt>ろせん</rt></ruby>の<ruby>地図<rt>ちず</rt></ruby>や、その<ruby>先<rt>さき</rt></ruby>の<ruby>駅<rt>えき</rt></ruby>までの<ruby>所要時間<rt>しょようじかん</rt></ruby>が<ruby>表示<rt>ひょうじ</rt></ruby>されます。<ruby>初<rt>はじ</rt></ruby>めて<ruby>乗<rt>の</rt></ruby>る<ruby>路線<rt>ろせん</rt></ruby>でも、「あとどのくらいで<ruby>着<rt>つ</rt></ruby>くか」を<ruby>見<rt>み</rt></ruby>て<ruby>考<rt>かんが</rt></ruby>えられます。",
+      "translation": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
+    },
+    {
+      "html": "<ruby>画面<rt>がめん</rt></ruby>の<ruby>路線図<rt>ろせんず</rt></ruby>では、<ruby>今<rt>いま</rt></ruby>いる<ruby>場所<rt>ばしょ</rt></ruby>と<ruby>進<rt>すす</rt></ruby>む<ruby>方向<rt>ほうこう</rt></ruby>がわかります。<ruby>駅名<rt>えきめい</rt></ruby>のそばに「5<ruby>分<rt>ふん</rt></ruby>」「12<ruby>分<rt>ふん</rt></ruby>」のような<ruby>数字<rt>すうじ</rt></ruby>が<ruby>出<rt>で</rt></ruby>れば、それは<ruby>現在<rt>げんざい</rt></ruby>の<ruby>列車<rt>れっしゃ</rt></ruby>でその<ruby>駅<rt>えき</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くまでのおおよその<ruby>時間<rt>じかん</rt></ruby>です。<ruby>次<rt>つぎ</rt></ruby>の<ruby>数駅<rt>すうえき</rt></ruby>をまとめて<ruby>見<rt>み</rt></ruby>られるので、<ruby>降<rt>お</rt></ruby>りる<ruby>準備<rt>じゅんび</rt></ruby>もしやすくなります。",
+      "translation": "The route map shows where the train is and which way it is going. A number such as five or 12 minutes beside a station is the time for this train to reach it. Seeing several upcoming stations together makes it easier to prepare to get off."
+    },
+    {
+      "html": "この<ruby>表示<rt>ひょうじ</rt></ruby>は、<ruby>乗<rt>の</rt></ruby>り<ruby>換<rt>か</rt></ruby>えにも<ruby>便利<rt>べんり</rt></ruby>です。<ruby>大<rt>おお</rt></ruby>きな<ruby>駅<rt>えき</rt></ruby>で<ruby>別<rt>べつ</rt></ruby>の<ruby>路線<rt>ろせん</rt></ruby>へ<ruby>移<rt>うつ</rt></ruby>るとき、あと何分あるかがわかれば、<ruby>急<rt>いそ</rt></ruby>ぐかどうかを<ruby>決<rt>き</rt></ruby>めやすくなります。<ruby>次<rt>つぎ</rt></ruby>の<ruby>駅<rt>えき</rt></ruby>で<ruby>使<rt>つか</rt></ruby>う<ruby>路線<rt>ろせん</rt></ruby>や、ドアが<ruby>開<rt>あ</rt></ruby>く<ruby>側<rt>がわ</rt></ruby>を<ruby>案内<rt>あんない</rt></ruby>する<ruby>画面<rt>がめん</rt></ruby>もあります。<ruby>車内<rt>しゃない</rt></ruby>にいても、<ruby>少<rt>すこ</rt></ruby>しずつ<ruby>次<rt>つぎ</rt></ruby>の<ruby>行動<rt>こうどう</rt></ruby>を<ruby>決<rt>き</rt></ruby>められるのです。",
+      "translation": "It is useful for transfers too. If you know how many minutes remain before a large interchange station, you can decide whether to hurry. Some screens also show connecting lines and which side the doors will open on."
+    },
+    {
+      "html": "ただし、この<ruby>時間<rt>じかん</rt></ruby>は<ruby>約束<rt>やくそく</rt></ruby>された<ruby>到着時刻<rt>とうちゃくじこく</rt></ruby>ではありません。<ruby>駅<rt>えき</rt></ruby>で<ruby>人<rt>ひと</rt></ruby>が<ruby>多<rt>おお</rt></ruby>いときや、<ruby>前<rt>まえ</rt></ruby>の<ruby>電車<rt>でんしゃ</rt></ruby>が<ruby>遅<rt>おく</rt></ruby>れているときは、<ruby>実際<rt>じっさい</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>変<rt>か</rt></ruby>わることがあります。<ruby>画面<rt>がめん</rt></ruby>には<ruby>遅<rt>おく</rt></ruby>れや<ruby>運転<rt>うんてん</rt></ruby><ruby>見合<rt>みあ</rt></ruby>わせの<ruby>情報<rt>じょうほう</rt></ruby>も<ruby>出<rt>で</rt></ruby>るため、<ruby>予定<rt>よてい</rt></ruby>が<ruby>大<rt>おお</rt></ruby>きく<ruby>変<rt>か</rt></ruby>わったときは、そちらも<ruby>確認<rt>かくにん</rt></ruby>することが<ruby>大切<rt>たいせつ</rt></ruby>です。",
+      "translation": "The times are not guaranteed arrival times. Crowded stations or a delayed train ahead can change the actual time. The screens can also show delay or suspension information, so check that when plans change."
+    },
+    {
+      "html": "JR<ruby>東日本<rt>ひがしにほん</rt></ruby>は、2002<ruby>年<rt>ねん</rt></ruby>に<ruby>山手線<rt>やまのてせん</rt></ruby>の<ruby>新<rt>あたら</rt></ruby>しい<ruby>車両<rt>しゃりょう</rt></ruby>で、このような<ruby>液晶<rt>えきしょう</rt></ruby>を<ruby>使<rt>つか</rt></ruby>う<ruby>案内<rt>あんない</rt></ruby>を<ruby>始<rt>はじ</rt></ruby>めました。<ruby>今<rt>いま</rt></ruby>では、E233<ruby>系<rt>けい</rt></ruby>などの<ruby>車内<rt>しゃない</rt></ruby>の<ruby>液晶<rt>えきしょう</rt></ruby>が、<ruby>到着駅<rt>とうちゃくえき</rt></ruby>、<ruby>所要時間<rt>しょようじかん</rt></ruby>、<ruby>出口<rt>でぐち</rt></ruby>、<ruby>遅延<rt>ちえん</rt></ruby>などを<ruby>伝<rt>つた</rt></ruby>えています。ふだんは<ruby>何気<rt>なにげ</rt></ruby>なく<ruby>見<rt>み</rt></ruby>る<ruby>画面<rt>がめん</rt></ruby>ですが、<ruby>旅<rt>たび</rt></ruby>の<ruby>小<rt>ちい</rt></ruby>さな<ruby>案内役<rt>あんないやく</rt></ruby>になっています。",
+      "translation": "JR East began this kind of LCD guidance on new Yamanote Line trains in 2002. Today, displays on trains such as the E233 series provide arrival, travel-time, exit, and delay information—a small guide for the journey."
+    }
+  ],
+  "vocabularyTitle": "N3 Vocabulary",
+  "vocabulary": [
+    { "term": "所要時間（しょようじかん）", "meaning": "Time required / journey time" },
+    { "term": "路線図（ろせんず）", "meaning": "Route map" },
+    { "term": "おおよそ", "meaning": "Approximately / roughly" },
+    { "term": "乗り換え（のりかえ）", "meaning": "Transfer" },
+    { "term": "到着時刻（とうちゃくじこく）", "meaning": "Arrival time" },
+    { "term": "運転見合わせ（うんてんみあわせ）", "meaning": "Service suspension" },
+    { "term": "液晶（えきしょう）", "meaning": "Liquid-crystal display (LCD)" },
+    { "term": "遅延（ちえん）", "meaning": "Delay" }
+  ]
+}
