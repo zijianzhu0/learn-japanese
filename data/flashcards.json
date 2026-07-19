@@ -4,7 +4,7 @@
     "articleManifest": "data/articles.json"
   },
   "levels": {
-    "N3": 2101,
+    "N3": 2109,
     "N4": 536,
     "N5": 553
   },
@@ -1597,16 +1597,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "すでにある地下鉄、水道や電気の設備、建物の基礎をよけながらトンネルを作るのは、とても大変でした。",
-          "en": "Building tunnels while avoiding existing subways, water and electrical infrastructure, and building foundations was extremely difficult."
+          "ja": "日本で電車に乗ろうとすると、「電車」と「地下鉄」という言葉をよく見ます。",
+          "en": "Densha means electric train."
         },
         {
-          "ja": "東京の地下鉄やJRは複雑ですが、大きな駅の位置を地図の骨組みにすると、少しずつ慣れていきます。",
-          "en": "Tokyo’s subways and JR lines are complicated, but if you treat the positions of major stations as the frame of the map, you gradually get used to it."
+          "ja": "いちばん簡単に言うと、電車は電気で走る車両のこと、地下鉄は都市の地下を中心に走る鉄道のことです。",
+          "en": "Both carry people, but the words differ."
         },
         {
-          "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
-          "en": "In London, people using the Underground and buses were also advised to drink water."
+          "ja": "JRの普通列車や私鉄、地下鉄の車両も、電気で走れば電車です。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
+          "ja": "地下鉄は、大きな都市で使われる鉄道の名前です。",
+          "en": "Chikatetsu is the name for an urban railway system."
+        },
+        {
+          "ja": "東京には東京メトロと都営地下鉄があり、東京メトロだけでも9路線あります。",
+          "en": "Tokyo has Tokyo Metro and Toei Subway; Tokyo Metro alone has nine lines."
         }
       ]
     },
@@ -1659,6 +1667,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "地下の駅やトンネルが多いので、地図では地上のJRや私鉄とは別の色で書かれることがよくあります。",
+          "en": "Because these systems have many underground stations and tunnels, maps often use colors separate from JR and private railways."
+        },
         {
           "ja": "そこには次の駅だけでなく、路線の地図や、その先の駅までの所要時間が表示されます。",
           "en": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
@@ -2129,6 +2141,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "いちばん簡単に言うと、電車は電気で走る車両のこと、地下鉄は都市の地下を中心に走る鉄道のことです。",
+          "en": "Both carry people, but the words differ."
+        },
+        {
+          "ja": "JRの普通列車や私鉄、地下鉄の車両も、電気で走れば電車です。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
           "ja": "すでにある地下鉄、水道や電気の設備、建物の基礎をよけながらトンネルを作るのは、とても大変でした。",
           "en": "Building tunnels while avoiding existing subways, water and electrical infrastructure, and building foundations was extremely difficult."
         },
@@ -2139,14 +2159,6 @@
         {
           "ja": "まずは大きな駅から始めて、発電した電気を照明や案内板に使う予定です。",
           "en": "It will start with large stations and use the generated electricity for lighting and information boards."
-        },
-        {
-          "ja": "自分たちで作った電気を使えば、費用をおさえるだけでなく、環境への負担も減らせます。",
-          "en": "Using electricity they generate themselves can reduce both costs and environmental impact."
-        },
-        {
-          "ja": "原油価格が上がると、ガソリンや電気、物を運ぶための費用も上がりやすくなります。",
-          "en": "When crude oil prices rise, the cost of gasoline, electricity, and transporting goods also tends to rise."
         }
       ]
     },
@@ -2165,24 +2177,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "JR東日本の電車に乗ると、ドアの上に小さな画面があることがあります。",
-          "en": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
+          "ja": "日本で電車に乗ろうとすると、「電車」と「地下鉄」という言葉をよく見ます。",
+          "en": "Densha means electric train."
         },
         {
-          "ja": "駅で人が多いときや、前の電車が遅れているときは、実際の時間が変わることがあります。",
-          "en": "Crowded stations or a delayed train ahead can change the actual time."
+          "ja": "いちばん簡単に言うと、電車は電気で走る車両のこと、地下鉄は都市の地下を中心に走る鉄道のことです。",
+          "en": "Both carry people, but the words differ."
         },
         {
-          "ja": "東京の電車は、朝から夜までたくさんの人を運んでいます。",
-          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
+          "ja": "電車という言葉は、とても広く使われます。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
         },
         {
-          "ja": "1日に700万人以上という数字は、ホームが混む理由や、短い間隔で電車が来る理由をよく表しています。",
-          "en": "More than seven million daily journeys help explain crowded platforms and frequent trains."
+          "ja": "JRの普通列車や私鉄、地下鉄の車両も、電気で走れば電車です。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
         },
         {
-          "ja": "それでも東京メトロだけで都の人口のほぼ半分にあたる利用があることは、東京の毎日がどれほど電車と深くつながっているかを示しています。",
-          "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+          "ja": "だから「電車で行く」と言うとき、JRだけを意味するわけではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
         }
       ]
     },
@@ -2221,6 +2233,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "路線の一部が地上に出ることもあります。",
+          "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
+        },
+        {
           "ja": "画面には遅れや運転見合わせの情報も出るため、予定が大きく変わったときは、そちらも確認することが大切です。",
           "en": "The screens can also show delay or suspension information, so check that when plans change."
         },
@@ -2244,6 +2260,10 @@
           "readingHiragana": "でます",
           "meaning": "Polite form of 出る: to leave, to exit",
           "exampleSentences": [
+            {
+              "ja": "路線の一部が地上に出ることもあります。",
+              "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
+            },
             {
               "ja": "画面には遅れや運転見合わせの情報も出るため、予定が大きく変わったときは、そちらも確認することが大切です。",
               "en": "The screens can also show delay or suspension information, so check that when plans change."
@@ -2275,16 +2295,16 @@
               "en": "Experts say it is important not to go near the sea when an advisory is issued."
             },
             {
+              "ja": "路線の一部が地上に出ることもあります。",
+              "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
+            },
+            {
               "ja": "画面には遅れや運転見合わせの情報も出るため、予定が大きく変わったときは、そちらも確認することが大切です。",
               "en": "The screens can also show delay or suspension information, so check that when plans change."
             },
             {
               "ja": "カーナビの画面に出る渋滞情報や規制情報の後ろには、道路と車が少しずつ会話している世界があります。",
               "en": "Behind the congestion and restriction information shown on a car navigation screen is a world where roads and cars are quietly exchanging information."
-            },
-            {
-              "ja": "さらに1000万人を超えると、EUとの人の移動の自由に関する協定にも影響が出る可能性がありました。",
-              "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
             }
           ]
         },
@@ -2309,12 +2329,12 @@
               "en": "The city issued warnings on social media and through announcement vehicles, asking residents not to go outside."
             },
             {
-              "ja": "画面には遅れや運転見合わせの情報も出るため、予定が大きく変わったときは、そちらも確認することが大切です。",
-              "en": "The screens can also show delay or suspension information, so check that when plans change."
+              "ja": "路線の一部が地上に出ることもあります。",
+              "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
             },
             {
-              "ja": "カーナビの画面に出る渋滞情報や規制情報の後ろには、道路と車が少しずつ会話している世界があります。",
-              "en": "Behind the congestion and restriction information shown on a car navigation screen is a world where roads and cars are quietly exchanging information."
+              "ja": "画面には遅れや運転見合わせの情報も出るため、予定が大きく変わったときは、そちらも確認することが大切です。",
+              "en": "The screens can also show delay or suspension information, so check that when plans change."
             }
           ]
         },
@@ -2357,6 +2377,10 @@
           "meaning": "Potential form of 出る: to leave, to exit",
           "exampleSentences": [
             {
+              "ja": "路線の一部が地上に出ることもあります。",
+              "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
+            },
+            {
               "ja": "画面には遅れや運転見合わせの情報も出るため、予定が大きく変わったときは、そちらも確認することが大切です。",
               "en": "The screens can also show delay or suspension information, so check that when plans change."
             },
@@ -2386,6 +2410,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "どちらも人を運ぶ列車ですが、同じ意味ではありません。",
+          "en": "Chikatetsu is an urban railway system that mainly runs underground."
+        },
         {
           "ja": "このように、細かい列車の名前を全部覚えていなくても、まず路線のどちら側に行きたいかがわかれば、正しい電車をかなり選びやすくなります。",
           "en": "In this way, even if you do not remember every train name, knowing which side of the line you need first makes it much easier to choose the right train."
@@ -2447,6 +2475,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
           "ja": "大きな駅で別の路線へ移るとき、あと何分あるかがわかれば、急ぐかどうかを決めやすくなります。",
           "en": "It is useful for transfers too. If you know how many minutes remain before a large interchange station, you can decide whether to hurry. Some screens also show connecting lines and which side the doors will open on."
         },
@@ -2461,10 +2493,6 @@
         {
           "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
           "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
-        },
-        {
-          "ja": "二つの台風は、上陸するかどうかだけでなく、海の波や強い雨にも注意が必要です。",
-          "en": "With the two typhoons, people need to watch not only whether they make landfall, but also ocean waves and heavy rain."
         }
       ]
     },
@@ -2636,6 +2664,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "地下の駅やトンネルが多いので、地図では地上のJRや私鉄とは別の色で書かれることがよくあります。",
+          "en": "Because these systems have many underground stations and tunnels, maps often use colors separate from JR and private railways."
+        },
+        {
+          "ja": "会話では、「駅まで電車で行く」「地下鉄に乗り換える」のように使います。",
+          "en": "In conversation, you might say “go by train to the station” or “transfer to the subway."
+        },
+        {
           "ja": "そこには次の駅だけでなく、路線の地図や、その先の駅までの所要時間が表示されます。",
           "en": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
         },
@@ -2646,14 +2682,6 @@
         {
           "ja": "次の数駅をまとめて見られるので、降りる準備もしやすくなります。",
           "en": "Seeing several upcoming stations together makes it easier to prepare to get off."
-        },
-        {
-          "ja": "大きな駅で別の路線へ移るとき、あと何分あるかがわかれば、急ぐかどうかを決めやすくなります。",
-          "en": "It is useful for transfers too. If you know how many minutes remain before a large interchange station, you can decide whether to hurry. Some screens also show connecting lines and which side the doors will open on."
-        },
-        {
-          "ja": "次の駅で使う路線や、ドアが開く側を案内する画面もあります。",
-          "en": "It is useful for transfers too. If you know how many minutes remain before a large interchange station, you can decide whether to hurry. Some screens also show connecting lines and which side the doors will open on."
         }
       ]
     },
@@ -3777,6 +3805,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "会話では、「駅まで電車で行く」「地下鉄に乗り換える」のように使います。",
+          "en": "In conversation, you might say “go by train to the station” or “transfer to the subway."
+        },
+        {
+          "ja": "乗る車両について広く話すなら「電車」、地下鉄というネットワークや路線を言いたいなら「地下鉄」が自然です。",
+          "en": "” Use densha for the vehicle in a broad sense, and chikatetsu for the subway network or line."
+        },
+        {
           "ja": "カーナビの画面に出る渋滞情報や規制情報の後ろには、道路と車が少しずつ会話している世界があります。",
           "en": "Behind the congestion and restriction information shown on a car navigation screen is a world where roads and cars are quietly exchanging information."
         },
@@ -3787,14 +3823,6 @@
         {
           "ja": "しかし、イランはイスラエルがレバノン南部から軍を引くことも必要だと話しました。",
           "en": "However, Iran said that Israel must also withdraw its forces from southern Lebanon."
-        },
-        {
-          "ja": "合意案では、イランの核開発についても、60日間の間にさらに話し合うとされています。",
-          "en": "Under the proposed agreement, Iran's nuclear program would also be discussed further during the 60-day period."
-        },
-        {
-          "ja": "家族は、救助した人たちや病院のスタッフに深く感謝していると話しました。",
-          "en": "The family said they are deeply grateful to the people who rescued her and to the hospital staff."
         }
       ]
     },
@@ -3811,7 +3839,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "乗る車両について広く話すなら「電車」、地下鉄というネットワークや路線を言いたいなら「地下鉄」が自然です。",
+          "en": "” Use densha for the vehicle in a broad sense, and chikatetsu for the subway network or line."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "godan",
       "verbForms": [
@@ -3822,7 +3855,12 @@
           "term": "話します",
           "readingHiragana": "はなします",
           "meaning": "Polite form of 話す: to talk, to speak",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "乗る車両について広く話すなら「電車」、地下鉄というネットワークや路線を言いたいなら「地下鉄」が自然です。",
+              "en": "” Use densha for the vehicle in a broad sense, and chikatetsu for the subway network or line."
+            }
+          ]
         },
         {
           "form": "past",
@@ -3831,7 +3869,12 @@
           "term": "話した",
           "readingHiragana": "はなした",
           "meaning": "Plain past form of 話す: to talk, to speak",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "乗る車両について広く話すなら「電車」、地下鉄というネットワークや路線を言いたいなら「地下鉄」が自然です。",
+              "en": "” Use densha for the vehicle in a broad sense, and chikatetsu for the subway network or line."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -3840,7 +3883,12 @@
           "term": "話さない",
           "readingHiragana": "はなさない",
           "meaning": "Plain negative form of 話す: to talk, to speak",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "乗る車両について広く話すなら「電車」、地下鉄というネットワークや路線を言いたいなら「地下鉄」が自然です。",
+              "en": "” Use densha for the vehicle in a broad sense, and chikatetsu for the subway network or line."
+            }
+          ]
         },
         {
           "form": "te",
@@ -3879,7 +3927,12 @@
           "term": "話せる",
           "readingHiragana": "はなせる",
           "meaning": "Potential form of 話す: to talk, to speak",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "乗る車両について広く話すなら「電車」、地下鉄というネットワークや路線を言いたいなら「地下鉄」が自然です。",
+              "en": "” Use densha for the vehicle in a broad sense, and chikatetsu for the subway network or line."
+            }
+          ]
         }
       ]
     },
@@ -4071,20 +4124,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "いちばん簡単に言うと、電車は電気で走る車両のこと、地下鉄は都市の地下を中心に走る鉄道のことです。",
+          "en": "Both carry people, but the words differ."
+        },
+        {
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
+          "ja": "つまり、一つの電車が地下鉄の区間から私鉄の区間へ、そのまま走ることがあるのです。",
+          "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
+        },
+        {
           "ja": "速く走る人もいれば、ゆっくり自分のペースで走る人もいます。",
           "en": "Some people run fast, while others run slowly at their own pace."
         },
         {
           "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
           "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
-        },
-        {
-          "ja": "町では、人口が減り、決まった道を走るバスの利用者も少なくなっています。",
-          "en": "In the town, the population is falling, and fewer people use buses that run on fixed routes."
-        },
-        {
-          "ja": "そのため、必要な時だけ走る仕組みにして、運転手や燃料の負担を減らしたい考えです。",
-          "en": "The town wants to reduce the burden on drivers and fuel use by running buses only when needed."
         }
       ],
       "partOfSpeech": "verb",
@@ -4099,20 +4156,24 @@
           "meaning": "Polite form of 走る: to run",
           "exampleSentences": [
             {
+              "ja": "いちばん簡単に言うと、電車は電気で走る車両のこと、地下鉄は都市の地下を中心に走る鉄道のことです。",
+              "en": "Both carry people, but the words differ."
+            },
+            {
+              "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+              "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+            },
+            {
+              "ja": "つまり、一つの電車が地下鉄の区間から私鉄の区間へ、そのまま走ることがあるのです。",
+              "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
+            },
+            {
               "ja": "速く走る人もいれば、ゆっくり自分のペースで走る人もいます。",
               "en": "Some people run fast, while others run slowly at their own pace."
             },
             {
               "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
               "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
-            },
-            {
-              "ja": "町では、人口が減り、決まった道を走るバスの利用者も少なくなっています。",
-              "en": "In the town, the population is falling, and fewer people use buses that run on fixed routes."
-            },
-            {
-              "ja": "そのため、必要な時だけ走る仕組みにして、運転手や燃料の負担を減らしたい考えです。",
-              "en": "The town wants to reduce the burden on drivers and fuel use by running buses only when needed."
             }
           ]
         },
@@ -4125,20 +4186,24 @@
           "meaning": "Plain past form of 走る: to run",
           "exampleSentences": [
             {
+              "ja": "いちばん簡単に言うと、電車は電気で走る車両のこと、地下鉄は都市の地下を中心に走る鉄道のことです。",
+              "en": "Both carry people, but the words differ."
+            },
+            {
+              "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+              "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+            },
+            {
+              "ja": "つまり、一つの電車が地下鉄の区間から私鉄の区間へ、そのまま走ることがあるのです。",
+              "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
+            },
+            {
               "ja": "速く走る人もいれば、ゆっくり自分のペースで走る人もいます。",
               "en": "Some people run fast, while others run slowly at their own pace."
             },
             {
               "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
               "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
-            },
-            {
-              "ja": "町では、人口が減り、決まった道を走るバスの利用者も少なくなっています。",
-              "en": "In the town, the population is falling, and fewer people use buses that run on fixed routes."
-            },
-            {
-              "ja": "そのため、必要な時だけ走る仕組みにして、運転手や燃料の負担を減らしたい考えです。",
-              "en": "The town wants to reduce the burden on drivers and fuel use by running buses only when needed."
             }
           ]
         },
@@ -4151,20 +4216,24 @@
           "meaning": "Plain negative form of 走る: to run",
           "exampleSentences": [
             {
+              "ja": "いちばん簡単に言うと、電車は電気で走る車両のこと、地下鉄は都市の地下を中心に走る鉄道のことです。",
+              "en": "Both carry people, but the words differ."
+            },
+            {
+              "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+              "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+            },
+            {
+              "ja": "つまり、一つの電車が地下鉄の区間から私鉄の区間へ、そのまま走ることがあるのです。",
+              "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
+            },
+            {
               "ja": "速く走る人もいれば、ゆっくり自分のペースで走る人もいます。",
               "en": "Some people run fast, while others run slowly at their own pace."
             },
             {
               "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
               "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
-            },
-            {
-              "ja": "町では、人口が減り、決まった道を走るバスの利用者も少なくなっています。",
-              "en": "In the town, the population is falling, and fewer people use buses that run on fixed routes."
-            },
-            {
-              "ja": "そのため、必要な時だけ走る仕組みにして、運転手や燃料の負担を減らしたい考えです。",
-              "en": "The town wants to reduce the burden on drivers and fuel use by running buses only when needed."
             }
           ]
         },
@@ -4185,16 +4254,16 @@
               "en": "In the test, it will make repeated short trips so people can check safety and practicality."
             },
             {
-              "ja": "速く走る人もいれば、ゆっくり自分のペースで走る人もいます。",
-              "en": "Some people run fast, while others run slowly at their own pace."
+              "ja": "いちばん簡単に言うと、電車は電気で走る車両のこと、地下鉄は都市の地下を中心に走る鉄道のことです。",
+              "en": "Both carry people, but the words differ."
             },
             {
-              "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
-              "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
+              "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+              "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
             },
             {
-              "ja": "町では、人口が減り、決まった道を走るバスの利用者も少なくなっています。",
-              "en": "In the town, the population is falling, and fewer people use buses that run on fixed routes."
+              "ja": "つまり、一つの電車が地下鉄の区間から私鉄の区間へ、そのまま走ることがあるのです。",
+              "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
             }
           ]
         },
@@ -4207,20 +4276,24 @@
           "meaning": "Potential form of 走る: to run",
           "exampleSentences": [
             {
+              "ja": "いちばん簡単に言うと、電車は電気で走る車両のこと、地下鉄は都市の地下を中心に走る鉄道のことです。",
+              "en": "Both carry people, but the words differ."
+            },
+            {
+              "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+              "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+            },
+            {
+              "ja": "つまり、一つの電車が地下鉄の区間から私鉄の区間へ、そのまま走ることがあるのです。",
+              "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
+            },
+            {
               "ja": "速く走る人もいれば、ゆっくり自分のペースで走る人もいます。",
               "en": "Some people run fast, while others run slowly at their own pace."
             },
             {
               "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
               "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
-            },
-            {
-              "ja": "町では、人口が減り、決まった道を走るバスの利用者も少なくなっています。",
-              "en": "In the town, the population is falling, and fewer people use buses that run on fixed routes."
-            },
-            {
-              "ja": "そのため、必要な時だけ走る仕組みにして、運転手や燃料の負担を減らしたい考えです。",
-              "en": "The town wants to reduce the burden on drivers and fuel use by running buses only when needed."
             }
           ]
         }
@@ -4518,6 +4591,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "日本で電車に乗ろうとすると、「電車」と「地下鉄」という言葉をよく見ます。",
+          "en": "Densha means electric train."
+        },
+        {
           "ja": "JR東日本の電車に乗ると、ドアの上に小さな画面があることがあります。",
           "en": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
         },
@@ -4532,10 +4609,6 @@
         {
           "ja": "東京メトロだけでも、2025年度には1日平均で約704万人を運びました。",
           "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
-        },
-        {
-          "ja": "1日に700万人以上という数字は、ホームが混む理由や、短い間隔で電車が来る理由をよく表しています。",
-          "en": "More than seven million daily journeys help explain crowded platforms and frequent trains."
         }
       ]
     },
@@ -4593,6 +4666,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京には東京メトロと都営地下鉄があり、東京メトロだけでも9路線あります。",
+          "en": "Tokyo has Tokyo Metro and Toei Subway; Tokyo Metro alone has nine lines."
+        },
+        {
+          "ja": "また、東京メトロの多くの路線は、ほかの会社の鉄道と相互直通運転をしています。",
+          "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
+        },
+        {
           "ja": "JR東日本の電車に乗ると、ドアの上に小さな画面があることがあります。",
           "en": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
         },
@@ -4602,14 +4683,6 @@
         },
         {
           "ja": "東京の電車は、朝から夜までたくさんの人を運んでいます。",
-          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
-        },
-        {
-          "ja": "東京メトロだけでも、2025年度には1日平均で約704万人を運びました。",
-          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
-        },
-        {
-          "ja": "これは東京メトロという一つの会社の数字で、JRやほかの私鉄は入っていません。",
           "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
         }
       ]
@@ -4899,6 +4972,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "どちらも人を運ぶ列車ですが、同じ意味ではありません。",
+          "en": "Chikatetsu is an urban railway system that mainly runs underground."
+        },
+        {
           "ja": "駅で人が多いときや、前の電車が遅れているときは、実際の時間が変わることがあります。",
           "en": "Crowded stations or a delayed train ahead can change the actual time."
         },
@@ -4913,10 +4990,6 @@
         {
           "ja": "東京メトロだけでも、2025年度には1日平均で約704万人を運びました。",
           "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
-        },
-        {
-          "ja": "東京都の人口は、2026年6月の推計で約1,430万人です。",
-          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
         }
       ]
     },
@@ -4950,6 +5023,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "つまり、一つの電車が地下鉄の区間から私鉄の区間へ、そのまま走ることがあるのです。",
+          "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
+        },
+        {
+          "ja": "地下鉄も電車の一つだと覚えると、この二つの言葉はわかりやすくなります。",
+          "en": "Remember: a subway train is also a densha."
+        },
+        {
           "ja": "これは東京メトロという一つの会社の数字で、JRやほかの私鉄は入っていません。",
           "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
         },
@@ -4960,14 +5041,6 @@
         {
           "ja": "その理由の一つは、ICカードの残高確認や運賃計算が、改札機の中でとても速く処理されるように設計されていることです。",
           "en": "One reason is that balance checks and fare calculations for IC cards are designed to be processed very quickly inside the ticket gate itself."
-        },
-        {
-          "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
-          "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
-        },
-        {
-          "ja": "東京がとても便利に感じられる大きな理由の一つは、よく整った鉄道網です。",
-          "en": "One big reason Tokyo feels so convenient is its well-developed rail network."
         }
       ]
     },
@@ -4986,6 +5059,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "日本で電車に乗ろうとすると、「電車」と「地下鉄」という言葉をよく見ます。",
+          "en": "Densha means electric train."
+        },
+        {
           "ja": "JR東日本の電車に乗ると、ドアの上に小さな画面があることがあります。",
           "en": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
         },
@@ -5000,10 +5077,6 @@
         {
           "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
           "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
-        },
-        {
-          "ja": "JR東日本の「新幹線eチケット」では、オンラインで予約した情報をSuicaのようなICカードに結びつけることができます。",
-          "en": "With JR East’s Shinkansen e-ticket, reservation information bought online can be linked to an IC card such as Suica."
         }
       ]
     },
@@ -5105,24 +5178,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "路線の一部が地上に出ることもあります。",
+          "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
+        },
+        {
+          "ja": "つまり、一つの電車が地下鉄の区間から私鉄の区間へ、そのまま走ることがあるのです。",
+          "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
+        },
+        {
+          "ja": "地下鉄も電車の一つだと覚えると、この二つの言葉はわかりやすくなります。",
+          "en": "Remember: a subway train is also a densha."
+        },
+        {
           "ja": "これは東京メトロという一つの会社の数字で、JRやほかの私鉄は入っていません。",
           "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
         },
         {
           "ja": "もちろん、これは「東京の半分の人が一度だけ乗る」という意味ではありません。",
           "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
-        },
-        {
-          "ja": "そして万一まちがいがあっても、すぐに直せるように仕組みと手順が用意されています。",
-          "en": "And even if a mistake happens, systems and procedures are prepared so it can be corrected safely."
-        },
-        {
-          "ja": "飲み物やおにぎりを買うだけでなく、ATMや支払い、宅配まで使えるので、生活の一部になっています。",
-          "en": "People use them not only to buy drinks and rice balls, but also for ATMs, payments, and parcel services, so they have become part of everyday life."
-        },
-        {
-          "ja": "大きな転機の一つが、セブン-イレブンの登場でした。",
-          "en": "One major turning point was the arrival of Seven-Eleven."
         }
       ]
     },
@@ -5282,6 +5355,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "だから「電車で行く」と言うとき、JRだけを意味するわけではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
+          "ja": "会話では、「駅まで電車で行く」「地下鉄に乗り換える」のように使います。",
+          "en": "In conversation, you might say “go by train to the station” or “transfer to the subway."
+        },
+        {
           "ja": "駅名のそばに「5分」「12分」のような数字が出れば、それは現在の列車でその駅へ行くまでのおおよその時間です。",
           "en": "A number such as five or 12 minutes beside a station is the time for this train to reach it."
         },
@@ -5292,14 +5373,6 @@
         {
           "ja": "同じ方向へ行く電車でも、止まる駅は同じではありません。",
           "en": "Even trains going in the same direction do not all stop at the same stations."
-        },
-        {
-          "ja": "東京モノレールは、羽田空港へ行くための便利な交通機関です。",
-          "en": "Tokyo Monorail is a convenient way to get to Haneda Airport."
-        },
-        {
-          "ja": "知らない駅に行くときも、近くにある駅との関係から予想できます。",
-          "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
         }
       ],
       "partOfSpeech": "verb",
@@ -5314,6 +5387,14 @@
           "meaning": "Polite form of 行く: to go",
           "exampleSentences": [
             {
+              "ja": "だから「電車で行く」と言うとき、JRだけを意味するわけではありません。",
+              "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+            },
+            {
+              "ja": "会話では、「駅まで電車で行く」「地下鉄に乗り換える」のように使います。",
+              "en": "In conversation, you might say “go by train to the station” or “transfer to the subway."
+            },
+            {
               "ja": "駅名のそばに「5分」「12分」のような数字が出れば、それは現在の列車でその駅へ行くまでのおおよその時間です。",
               "en": "A number such as five or 12 minutes beside a station is the time for this train to reach it."
             },
@@ -5324,14 +5405,6 @@
             {
               "ja": "同じ方向へ行く電車でも、止まる駅は同じではありません。",
               "en": "Even trains going in the same direction do not all stop at the same stations."
-            },
-            {
-              "ja": "東京モノレールは、羽田空港へ行くための便利な交通機関です。",
-              "en": "Tokyo Monorail is a convenient way to get to Haneda Airport."
-            },
-            {
-              "ja": "知らない駅に行くときも、近くにある駅との関係から予想できます。",
-              "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
             }
           ]
         },
@@ -5344,6 +5417,14 @@
           "meaning": "Plain past form of 行く: to go",
           "exampleSentences": [
             {
+              "ja": "だから「電車で行く」と言うとき、JRだけを意味するわけではありません。",
+              "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+            },
+            {
+              "ja": "会話では、「駅まで電車で行く」「地下鉄に乗り換える」のように使います。",
+              "en": "In conversation, you might say “go by train to the station” or “transfer to the subway."
+            },
+            {
               "ja": "駅名のそばに「5分」「12分」のような数字が出れば、それは現在の列車でその駅へ行くまでのおおよその時間です。",
               "en": "A number such as five or 12 minutes beside a station is the time for this train to reach it."
             },
@@ -5354,14 +5435,6 @@
             {
               "ja": "同じ方向へ行く電車でも、止まる駅は同じではありません。",
               "en": "Even trains going in the same direction do not all stop at the same stations."
-            },
-            {
-              "ja": "東京モノレールは、羽田空港へ行くための便利な交通機関です。",
-              "en": "Tokyo Monorail is a convenient way to get to Haneda Airport."
-            },
-            {
-              "ja": "知らない駅に行くときも、近くにある駅との関係から予想できます。",
-              "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
             }
           ]
         },
@@ -5378,20 +5451,20 @@
               "en": "Experts say it is important not to go near the sea when an advisory is issued."
             },
             {
+              "ja": "だから「電車で行く」と言うとき、JRだけを意味するわけではありません。",
+              "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+            },
+            {
+              "ja": "会話では、「駅まで電車で行く」「地下鉄に乗り換える」のように使います。",
+              "en": "In conversation, you might say “go by train to the station” or “transfer to the subway."
+            },
+            {
               "ja": "駅名のそばに「5分」「12分」のような数字が出れば、それは現在の列車でその駅へ行くまでのおおよその時間です。",
               "en": "A number such as five or 12 minutes beside a station is the time for this train to reach it."
             },
             {
               "ja": "横浜やその先へ行くなら、横浜へ向かう電車に乗ればいいです。",
               "en": "If you are going to Yokohama or beyond, board a train heading that way."
-            },
-            {
-              "ja": "同じ方向へ行く電車でも、止まる駅は同じではありません。",
-              "en": "Even trains going in the same direction do not all stop at the same stations."
-            },
-            {
-              "ja": "東京モノレールは、羽田空港へ行くための便利な交通機関です。",
-              "en": "Tokyo Monorail is a convenient way to get to Haneda Airport."
             }
           ]
         },
@@ -5404,6 +5477,14 @@
           "meaning": "Te-form of 行く: to go",
           "exampleSentences": [
             {
+              "ja": "だから「電車で行く」と言うとき、JRだけを意味するわけではありません。",
+              "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+            },
+            {
+              "ja": "会話では、「駅まで電車で行く」「地下鉄に乗り換える」のように使います。",
+              "en": "In conversation, you might say “go by train to the station” or “transfer to the subway."
+            },
+            {
               "ja": "駅名のそばに「5分」「12分」のような数字が出れば、それは現在の列車でその駅へ行くまでのおおよその時間です。",
               "en": "A number such as five or 12 minutes beside a station is the time for this train to reach it."
             },
@@ -5414,14 +5495,6 @@
             {
               "ja": "同じ方向へ行く電車でも、止まる駅は同じではありません。",
               "en": "Even trains going in the same direction do not all stop at the same stations."
-            },
-            {
-              "ja": "東京モノレールは、羽田空港へ行くための便利な交通機関です。",
-              "en": "Tokyo Monorail is a convenient way to get to Haneda Airport."
-            },
-            {
-              "ja": "知らない駅に行くときも、近くにある駅との関係から予想できます。",
-              "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
             }
           ]
         },
@@ -5434,6 +5507,14 @@
           "meaning": "Potential form of 行く: to go",
           "exampleSentences": [
             {
+              "ja": "だから「電車で行く」と言うとき、JRだけを意味するわけではありません。",
+              "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+            },
+            {
+              "ja": "会話では、「駅まで電車で行く」「地下鉄に乗り換える」のように使います。",
+              "en": "In conversation, you might say “go by train to the station” or “transfer to the subway."
+            },
+            {
               "ja": "駅名のそばに「5分」「12分」のような数字が出れば、それは現在の列車でその駅へ行くまでのおおよその時間です。",
               "en": "A number such as five or 12 minutes beside a station is the time for this train to reach it."
             },
@@ -5444,14 +5525,6 @@
             {
               "ja": "同じ方向へ行く電車でも、止まる駅は同じではありません。",
               "en": "Even trains going in the same direction do not all stop at the same stations."
-            },
-            {
-              "ja": "東京モノレールは、羽田空港へ行くための便利な交通機関です。",
-              "en": "Tokyo Monorail is a convenient way to get to Haneda Airport."
-            },
-            {
-              "ja": "知らない駅に行くときも、近くにある駅との関係から予想できます。",
-              "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
             }
           ]
         }
@@ -5537,6 +5610,14 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "どちらも人を運ぶ列車ですが、同じ意味ではありません。",
+          "en": "Chikatetsu is an urban railway system that mainly runs underground."
+        },
+        {
+          "ja": "だから「電車で行く」と言うとき、JRだけを意味するわけではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
         {
           "ja": "もちろん、これは「東京の半分の人が一度だけ乗る」という意味ではありません。",
           "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
@@ -5782,6 +5863,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "地下の駅やトンネルが多いので、地図では地上のJRや私鉄とは別の色で書かれることがよくあります。",
+          "en": "Because these systems have many underground stations and tunnels, maps often use colors separate from JR and private railways."
+        },
+        {
           "ja": "豊洲の1店から始まった変化は、いまでは日本中の日常を支える当たり前の景色になっています。",
           "en": "What began with one store in Toyosu has turned into an ordinary part of life all across Japan."
         },
@@ -5796,10 +5881,6 @@
         {
           "ja": "電車の路線はそれぞれ別の色で表されることが多いので、黄色い出口案内は見分けやすいです。",
           "en": "Train lines are often shown in different colors, so yellow exit guidance is easy to distinguish from them."
-        },
-        {
-          "ja": "どの線に乗ってきたかで頭がいっぱいでも、色だけで目的の情報をつかみやすくなります。",
-          "en": "Even if your head is full of route information, the color alone makes the information you need easier to grasp."
         }
       ]
     },
@@ -6010,6 +6091,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "しかし、地下鉄がいつもずっと地下にあるとは限りません。",
+          "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
+        },
+        {
           "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
           "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
         },
@@ -6053,6 +6138,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "いちばん簡単に言うと、電車は電気で走る車両のこと、地下鉄は都市の地下を中心に走る鉄道のことです。",
+          "en": "Both carry people, but the words differ."
+        },
+        {
+          "ja": "だから「電車で行く」と言うとき、JRだけを意味するわけではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
           "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
           "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
         }
@@ -6069,6 +6162,14 @@
           "meaning": "Polite form of 言う: to say, to utter",
           "exampleSentences": [
             {
+              "ja": "いちばん簡単に言うと、電車は電気で走る車両のこと、地下鉄は都市の地下を中心に走る鉄道のことです。",
+              "en": "Both carry people, but the words differ."
+            },
+            {
+              "ja": "だから「電車で行く」と言うとき、JRだけを意味するわけではありません。",
+              "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+            },
+            {
               "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
               "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
             }
@@ -6083,6 +6184,14 @@
           "meaning": "Plain past form of 言う: to say, to utter",
           "exampleSentences": [
             {
+              "ja": "いちばん簡単に言うと、電車は電気で走る車両のこと、地下鉄は都市の地下を中心に走る鉄道のことです。",
+              "en": "Both carry people, but the words differ."
+            },
+            {
+              "ja": "だから「電車で行く」と言うとき、JRだけを意味するわけではありません。",
+              "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+            },
+            {
               "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
               "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
             }
@@ -6096,6 +6205,14 @@
           "readingHiragana": "いわない",
           "meaning": "Plain negative form of 言う: to say, to utter",
           "exampleSentences": [
+            {
+              "ja": "いちばん簡単に言うと、電車は電気で走る車両のこと、地下鉄は都市の地下を中心に走る鉄道のことです。",
+              "en": "Both carry people, but the words differ."
+            },
+            {
+              "ja": "だから「電車で行く」と言うとき、JRだけを意味するわけではありません。",
+              "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+            },
             {
               "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
               "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
@@ -6115,6 +6232,14 @@
               "en": "So even if we say Seven-Eleven “brought” convenience stores to Japan, it did not simply carry over a foreign system unchanged."
             },
             {
+              "ja": "いちばん簡単に言うと、電車は電気で走る車両のこと、地下鉄は都市の地下を中心に走る鉄道のことです。",
+              "en": "Both carry people, but the words differ."
+            },
+            {
+              "ja": "だから「電車で行く」と言うとき、JRだけを意味するわけではありません。",
+              "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+            },
+            {
               "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
               "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
             }
@@ -6128,6 +6253,14 @@
           "readingHiragana": "いえる",
           "meaning": "Potential form of 言う: to say, to utter",
           "exampleSentences": [
+            {
+              "ja": "いちばん簡単に言うと、電車は電気で走る車両のこと、地下鉄は都市の地下を中心に走る鉄道のことです。",
+              "en": "Both carry people, but the words differ."
+            },
+            {
+              "ja": "だから「電車で行く」と言うとき、JRだけを意味するわけではありません。",
+              "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+            },
             {
               "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
               "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
@@ -6582,6 +6715,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "また、東京メトロの多くの路線は、ほかの会社の鉄道と相互直通運転をしています。",
+          "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
+        },
+        {
           "ja": "これは東京メトロという一つの会社の数字で、JRやほかの私鉄は入っていません。",
           "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
         },
@@ -6596,10 +6733,6 @@
         {
           "ja": "多くの鉄道会社では、自転車を分解したり折りたたんだりして、専用の輪行袋に完全に入れる必要があります。",
           "en": "Many railway companies require bicycles to be disassembled or folded and completely placed inside a dedicated bike transport bag."
-        },
-        {
-          "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
-          "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
         }
       ]
     },
@@ -8210,20 +8343,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "日本で電車に乗ろうとすると、「電車」と「地下鉄」という言葉をよく見ます。",
+          "en": "Densha means electric train."
+        },
+        {
+          "ja": "電車という言葉は、とても広く使われます。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
+          "ja": "地下鉄も電車の一つだと覚えると、この二つの言葉はわかりやすくなります。",
+          "en": "Remember: a subway train is also a densha."
+        },
+        {
           "ja": "言葉は聞こえませんが、運転者同士で気持ちを伝える方法として使われています。",
           "en": "No words can be heard, but it is used as a way for drivers to communicate their feelings."
         },
         {
           "ja": "V2Xという言葉を聞くと、多くの人は自動運転の未来を想像します。",
           "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
-        },
-        {
-          "ja": "東京で車を運転すると、ETCという言葉をあちこちで見かけます。",
-          "en": "When you drive in Tokyo, you see the term ETC in many places."
-        },
-        {
-          "ja": "このIPOで話題になった言葉の一つが、グリーンシュー・オプションです。",
-          "en": "One term that became a topic in this IPO was the greenshoe option."
         }
       ]
     },
@@ -8778,24 +8915,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "JR東日本の電車に乗ると、ドアの上に小さな画面があることがあります。",
-          "en": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
+          "ja": "日本で電車に乗ろうとすると、「電車」と「地下鉄」という言葉をよく見ます。",
+          "en": "Densha means electric train."
         },
         {
-          "ja": "駅名のそばに「5分」「12分」のような数字が出れば、それは現在の列車でその駅へ行くまでのおおよその時間です。",
-          "en": "A number such as five or 12 minutes beside a station is the time for this train to reach it."
+          "ja": "どちらも人を運ぶ列車ですが、同じ意味ではありません。",
+          "en": "Chikatetsu is an urban railway system that mainly runs underground."
         },
         {
-          "ja": "車内にいても、少しずつ次の行動を決められるのです。",
-          "en": "It is useful for transfers too. If you know how many minutes remain before a large interchange station, you can decide whether to hurry. Some screens also show connecting lines and which side the doors will open on."
+          "ja": "いちばん簡単に言うと、電車は電気で走る車両のこと、地下鉄は都市の地下を中心に走る鉄道のことです。",
+          "en": "Both carry people, but the words differ."
         },
         {
-          "ja": "駅で人が多いときや、前の電車が遅れているときは、実際の時間が変わることがあります。",
-          "en": "Crowded stations or a delayed train ahead can change the actual time."
+          "ja": "電車という言葉は、とても広く使われます。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
         },
         {
-          "ja": "JR東日本は、2002年に山手線の新しい車両で、このような液晶を使う案内を始めました。",
-          "en": "JR East began this kind of LCD guidance on new Yamanote Line trains in 2002. Today, displays on trains such as the E233 series provide arrival, travel-time, exit, and delay information—a small guide for the journey."
+          "ja": "JRの普通列車や私鉄、地下鉄の車両も、電気で走れば電車です。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
         }
       ]
     },
@@ -8945,6 +9082,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "地下鉄は、大きな都市で使われる鉄道の名前です。",
+          "en": "Chikatetsu is the name for an urban railway system."
+        },
+        {
           "ja": "駅で人が多いときや、前の電車が遅れているときは、実際の時間が変わることがあります。",
           "en": "Crowded stations or a delayed train ahead can change the actual time."
         },
@@ -8959,10 +9100,6 @@
         {
           "ja": "でも日本では、道路の情報を車へ送る仕組みが、もうかなり前から使われています。",
           "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
-        },
-        {
-          "ja": "高速道路の入口だけでなく、料金所の案内や道路標識にもETCの表示が多く、はじめての人は「ここではETCが当たり前なのだ」と感じやすいです。",
-          "en": "It appears not only at expressway entrances, but also on toll guidance and road signs, so first-time drivers easily feel that ETC is simply taken for granted here."
         }
       ]
     },
@@ -9232,6 +9369,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "また、東京メトロの多くの路線は、ほかの会社の鉄道と相互直通運転をしています。",
+          "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
+        },
+        {
           "ja": "また、これは乗る人だけを数えた数字です。",
           "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
         },
@@ -9246,10 +9387,6 @@
         {
           "ja": "また、案内の放送は英語や中国語にも対応していて、はじめて来た人にもわかりやすいです。",
           "en": "Announcements are also available in English and Chinese, making things easy for first-time visitors."
-        },
-        {
-          "ja": "また、ドローンで薬や水を運ぶ想定の訓練もありました。",
-          "en": "There were also drills assuming drones would carry medicine and water."
         }
       ]
     },
@@ -9456,24 +9593,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "いちばん簡単に言うと、電車は電気で走る車両のこと、地下鉄は都市の地下を中心に走る鉄道のことです。",
+          "en": "Both carry people, but the words differ."
+        },
+        {
+          "ja": "地下鉄は、大きな都市で使われる鉄道の名前です。",
+          "en": "Chikatetsu is the name for an urban railway system."
+        },
+        {
+          "ja": "また、東京メトロの多くの路線は、ほかの会社の鉄道と相互直通運転をしています。",
+          "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
+        },
+        {
           "ja": "こうして見ると、日本の鉄道は複雑そうでも、実際には目的に合わせて細かく選べるようになっています。",
           "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
         },
         {
           "ja": "道路の上での短いあいさつのようなものです。",
           "en": "” It is like a very short greeting on the road."
-        },
-        {
-          "ja": "たとえば、混んだ道でほかの車が少し間をあけてくれたら、その後でハザードを二回ぐらい光らせる人がいます。",
-          "en": "For example, if another driver leaves a little space for you on a crowded road, some people flash their hazard lights about twice afterward."
-        },
-        {
-          "ja": "とても小さな行動ですが、道を少しやわらかい空気にする力があります。",
-          "en": "It is a very small action, but it can make the mood on the road a little softer."
-        },
-        {
-          "ja": "混雑した道でも、相手に少し気を配ると流れがよくなることがあります。",
-          "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
         }
       ]
     },
@@ -9734,6 +9871,10 @@
           "meaning": "Polite form of 見る: to see, to look, to watch",
           "exampleSentences": [
             {
+              "ja": "日本で電車に乗ろうとすると、「電車」と「地下鉄」という言葉をよく見ます。",
+              "en": "Densha means electric train."
+            },
+            {
               "ja": "品川や羽田空港などの駅では、普通、急行、エアポート急行、特急、快特などの表示を見ます。",
               "en": "At stations such as Shinagawa and Haneda Airport, you will see labels like Local, Express, Airport Express, Limited Express, and Rapid Limited Express."
             },
@@ -9748,10 +9889,6 @@
             {
               "ja": "こうして見ると、日本の鉄道は複雑そうでも、実際には目的に合わせて細かく選べるようになっています。",
               "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
-            },
-            {
-              "ja": "最初は少し難しく見えても、行き先と種別をセットで見る習慣をつければ、不安はかなり小さくなります。",
-              "en": "It may look a little difficult at first, but if you make a habit of checking the destination and train type together, it becomes much less intimidating."
             }
           ]
         },
@@ -10346,6 +10483,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "いちばん簡単に言うと、電車は電気で走る車両のこと、地下鉄は都市の地下を中心に走る鉄道のことです。",
+          "en": "Both carry people, but the words differ."
+        },
+        {
           "ja": "いっぽう自由席は、自由席車両の中で空いている席を自分で探します。",
           "en": "With a non-reserved seat, you look for an open seat inside the non-reserved cars."
         },
@@ -10360,10 +10501,6 @@
         {
           "ja": "実際には目立つ場所に集中しているのですが、それだけ都市の車の移動に深く組み込まれています。",
           "en": "In reality, it is concentrated in highly visible places, but that shows how deeply it is built into urban car travel."
-        },
-        {
-          "ja": "移動中は、他の乗客が乗り降りしやすいか確認することも大切です。",
-          "en": "During the trip, it is also important to make sure other passengers can easily get on and off."
         }
       ]
     },
@@ -10510,6 +10647,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "地下鉄は、大きな都市で使われる鉄道の名前です。",
+          "en": "Chikatetsu is the name for an urban railway system."
+        },
+        {
           "ja": "このように、細かい列車の名前を全部覚えていなくても、まず路線のどちら側に行きたいかがわかれば、正しい電車をかなり選びやすくなります。",
           "en": "In this way, even if you do not remember every train name, knowing which side of the line you need first makes it much easier to choose the right train."
         },
@@ -10524,10 +10665,6 @@
         {
           "ja": "名前は緑の靴のようですが、環境の制度ではありません。",
           "en": "The name sounds like a green shoe, but it is not an environmental policy."
-        },
-        {
-          "ja": "首相は、ドラマーのイアン・ペイスさんに自分の名前を書いたドラムスティックを贈りました。",
-          "en": "The prime minister gave drummer Ian Paice a pair of drumsticks signed with her name."
         }
       ]
     },
@@ -10821,6 +10958,10 @@
           "meaning": "Polite form of なる: to become",
           "exampleSentences": [
             {
+              "ja": "地下鉄も電車の一つだと覚えると、この二つの言葉はわかりやすくなります。",
+              "en": "Remember: a subway train is also a densha."
+            },
+            {
               "ja": "次の数駅をまとめて見られるので、降りる準備もしやすくなります。",
               "en": "Seeing several upcoming stations together makes it easier to prepare to get off."
             },
@@ -10835,10 +10976,6 @@
             {
               "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
               "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
-            },
-            {
-              "ja": "ドライバーは画面で混み具合や通行止めを知ることができ、より楽な経路を選びやすくなります。",
-              "en": "Drivers can see crowded areas and road closures on the screen and choose easier routes."
             }
           ]
         },
@@ -11086,6 +11223,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "地下鉄も電車の一つだと覚えると、この二つの言葉はわかりやすくなります。",
+          "en": "Remember: a subway train is also a densha."
+        },
+        {
           "ja": "たとえば、混んだ道でほかの車が少し間をあけてくれたら、その後でハザードを二回ぐらい光らせる人がいます。",
           "en": "For example, if another driver leaves a little space for you on a crowded road, some people flash their hazard lights about twice afterward."
         },
@@ -11100,10 +11241,6 @@
         {
           "ja": "二つの台風は、上陸するかどうかだけでなく、海の波や強い雨にも注意が必要です。",
           "en": "With the two typhoons, people need to watch not only whether they make landfall, but also ocean waves and heavy rain."
-        },
-        {
-          "ja": "6月24日の夕方、ベネズエラ北部で大きな地震が二つ続けて起きました。",
-          "en": "On the evening of June 24, two major earthquakes struck northern Venezuela in quick succession."
         }
       ]
     },
@@ -11394,6 +11531,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "乗る車両について広く話すなら「電車」、地下鉄というネットワークや路線を言いたいなら「地下鉄」が自然です。",
+          "en": "” Use densha for the vehicle in a broad sense, and chikatetsu for the subway network or line."
+        },
+        {
           "ja": "JR東日本の電車に乗ると、ドアの上に小さな画面があることがあります。",
           "en": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
         },
@@ -11408,10 +11549,6 @@
         {
           "ja": "同じ人が行きと帰りで乗るので、これは利用の回数の大きさを示す比較です。",
           "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
-        },
-        {
-          "ja": "また、これは乗る人だけを数えた数字です。",
-          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
         }
       ],
       "partOfSpeech": "verb",
@@ -11425,6 +11562,10 @@
           "readingHiragana": "のります",
           "meaning": "Polite form of 乗る: to get on (train, plane, bus, ship)",
           "exampleSentences": [
+            {
+              "ja": "乗る車両について広く話すなら「電車」、地下鉄というネットワークや路線を言いたいなら「地下鉄」が自然です。",
+              "en": "” Use densha for the vehicle in a broad sense, and chikatetsu for the subway network or line."
+            },
             {
               "ja": "JR東日本の電車に乗ると、ドアの上に小さな画面があることがあります。",
               "en": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
@@ -11440,10 +11581,6 @@
             {
               "ja": "同じ人が行きと帰りで乗るので、これは利用の回数の大きさを示す比較です。",
               "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
-            },
-            {
-              "ja": "また、これは乗る人だけを数えた数字です。",
-              "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
             }
           ]
         },
@@ -11460,6 +11597,10 @@
               "en": "Once on the train, choose a place where the bicycle will not block the doors or aisle."
             },
             {
+              "ja": "乗る車両について広く話すなら「電車」、地下鉄というネットワークや路線を言いたいなら「地下鉄」が自然です。",
+              "en": "” Use densha for the vehicle in a broad sense, and chikatetsu for the subway network or line."
+            },
+            {
               "ja": "JR東日本の電車に乗ると、ドアの上に小さな画面があることがあります。",
               "en": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
             },
@@ -11469,10 +11610,6 @@
             },
             {
               "ja": "もちろん、これは「東京の半分の人が一度だけ乗る」という意味ではありません。",
-              "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
-            },
-            {
-              "ja": "同じ人が行きと帰りで乗るので、これは利用の回数の大きさを示す比較です。",
               "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
             }
           ]
@@ -11486,6 +11623,10 @@
           "meaning": "Plain negative form of 乗る: to get on (train, plane, bus, ship)",
           "exampleSentences": [
             {
+              "ja": "乗る車両について広く話すなら「電車」、地下鉄というネットワークや路線を言いたいなら「地下鉄」が自然です。",
+              "en": "” Use densha for the vehicle in a broad sense, and chikatetsu for the subway network or line."
+            },
+            {
               "ja": "JR東日本の電車に乗ると、ドアの上に小さな画面があることがあります。",
               "en": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
             },
@@ -11500,10 +11641,6 @@
             {
               "ja": "同じ人が行きと帰りで乗るので、これは利用の回数の大きさを示す比較です。",
               "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
-            },
-            {
-              "ja": "また、これは乗る人だけを数えた数字です。",
-              "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
             }
           ]
         },
@@ -11524,16 +11661,16 @@
               "en": "Even if your head is full of route information, the color alone makes the information you need easier to grasp."
             },
             {
+              "ja": "乗る車両について広く話すなら「電車」、地下鉄というネットワークや路線を言いたいなら「地下鉄」が自然です。",
+              "en": "” Use densha for the vehicle in a broad sense, and chikatetsu for the subway network or line."
+            },
+            {
               "ja": "JR東日本の電車に乗ると、ドアの上に小さな画面があることがあります。",
               "en": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
             },
             {
               "ja": "初めて乗る路線でも、「あとどのくらいで着くか」を見て考えられます。",
               "en": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
-            },
-            {
-              "ja": "もちろん、これは「東京の半分の人が一度だけ乗る」という意味ではありません。",
-              "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
             }
           ]
         },
@@ -11550,6 +11687,10 @@
               "en": "Recently, more ways have spread that let people ride without printing paper tickets."
             },
             {
+              "ja": "乗る車両について広く話すなら「電車」、地下鉄というネットワークや路線を言いたいなら「地下鉄」が自然です。",
+              "en": "” Use densha for the vehicle in a broad sense, and chikatetsu for the subway network or line."
+            },
+            {
               "ja": "JR東日本の電車に乗ると、ドアの上に小さな画面があることがあります。",
               "en": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
             },
@@ -11559,10 +11700,6 @@
             },
             {
               "ja": "もちろん、これは「東京の半分の人が一度だけ乗る」という意味ではありません。",
-              "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
-            },
-            {
-              "ja": "同じ人が行きと帰りで乗るので、これは利用の回数の大きさを示す比較です。",
               "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
             }
           ]
@@ -11698,6 +11835,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "地下鉄も電車の一つだと覚えると、この二つの言葉はわかりやすくなります。",
+          "en": "Remember: a subway train is also a densha."
+        },
+        {
           "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
           "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
         }
@@ -11714,6 +11855,10 @@
           "meaning": "Polite form of 覚える: to memorize, to remember",
           "exampleSentences": [
             {
+              "ja": "地下鉄も電車の一つだと覚えると、この二つの言葉はわかりやすくなります。",
+              "en": "Remember: a subway train is also a densha."
+            },
+            {
               "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
               "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
             }
@@ -11728,6 +11873,10 @@
           "meaning": "Plain past form of 覚える: to memorize, to remember",
           "exampleSentences": [
             {
+              "ja": "地下鉄も電車の一つだと覚えると、この二つの言葉はわかりやすくなります。",
+              "en": "Remember: a subway train is also a densha."
+            },
+            {
               "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
               "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
             }
@@ -11741,6 +11890,10 @@
           "readingHiragana": "おぼえない",
           "meaning": "Plain negative form of 覚える: to memorize, to remember",
           "exampleSentences": [
+            {
+              "ja": "地下鉄も電車の一つだと覚えると、この二つの言葉はわかりやすくなります。",
+              "en": "Remember: a subway train is also a densha."
+            },
             {
               "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
               "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
@@ -11764,6 +11917,10 @@
               "en": "In this way, even if you do not remember every train name, knowing which side of the line you need first makes it much easier to choose the right train."
             },
             {
+              "ja": "地下鉄も電車の一つだと覚えると、この二つの言葉はわかりやすくなります。",
+              "en": "Remember: a subway train is also a densha."
+            },
+            {
               "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
               "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
             }
@@ -11777,6 +11934,10 @@
           "readingHiragana": "おぼえられる",
           "meaning": "Potential form of 覚える: to memorize, to remember",
           "exampleSentences": [
+            {
+              "ja": "地下鉄も電車の一つだと覚えると、この二つの言葉はわかりやすくなります。",
+              "en": "Remember: a subway train is also a densha."
+            },
             {
               "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
               "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
@@ -12276,6 +12437,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "どちらも人を運ぶ列車ですが、同じ意味ではありません。",
+          "en": "Chikatetsu is an urban railway system that mainly runs underground."
+        },
+        {
           "ja": "同じ人が行きと帰りで乗るので、これは利用の回数の大きさを示す比較です。",
           "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
         },
@@ -12290,10 +12455,6 @@
         {
           "ja": "物理的なSuicaカードを使う人もいれば、スマートフォン側のIC機能を使う人もいますが、考え方は同じです。",
           "en": "Some people use a physical Suica card, while others use the IC function on a smartphone, but the basic idea is the same."
-        },
-        {
-          "ja": "そのため、駅が混雑しているときでも、たくさんの人がほぼ同じ速さで進めます。",
-          "en": "Because of that, even when a station is crowded, many people can keep moving at almost the same speed."
         }
       ]
     },
@@ -12357,6 +12518,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "地下の駅やトンネルが多いので、地図では地上のJRや私鉄とは別の色で書かれることがよくあります。",
+          "en": "Because these systems have many underground stations and tunnels, maps often use colors separate from JR and private railways."
+        },
+        {
           "ja": "駅で人が多いときや、前の電車が遅れているときは、実際の時間が変わることがあります。",
           "en": "Crowded stations or a delayed train ahead can change the actual time."
         },
@@ -12371,10 +12536,6 @@
         {
           "ja": "料金が自動で計算され、車を止めずに精算できるので、東京のように交通量が多い場所ではとても効率的です。",
           "en": "Tolls are calculated automatically, and you can pay without stopping the car, which is highly efficient in a place with as much traffic as Tokyo."
-        },
-        {
-          "ja": "電車の路線はそれぞれ別の色で表されることが多いので、黄色い出口案内は見分けやすいです。",
-          "en": "Train lines are often shown in different colors, so yellow exit guidance is easy to distinguish from them."
         }
       ]
     },
@@ -14129,24 +14290,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "都心の地下を通るこのネットワークは、通勤、通学、買い物、観光などを支えています。",
-          "en": "It supports commuting, school, shopping, and tourism."
+          "ja": "日本で電車に乗ろうとすると、「電車」と「地下鉄」という言葉をよく見ます。",
+          "en": "Densha means electric train."
         },
         {
-          "ja": "その理由の一つは、線路の多くがとても深い地下を通っていることです。",
-          "en": "One reason is that much of the track runs very deep underground."
+          "ja": "いちばん簡単に言うと、電車は電気で走る車両のこと、地下鉄は都市の地下を中心に走る鉄道のことです。",
+          "en": "Both carry people, but the words differ."
         },
         {
-          "ja": "この路線は、東京港の下を通るところで、地上から40メートル近い深さまで下がります。",
-          "en": "Where the line passes under the Port of Tokyo, it descends to nearly 40 meters below the surface."
+          "ja": "JRの普通列車や私鉄、地下鉄の車両も、電気で走れば電車です。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
         },
         {
-          "ja": "すでにある地下鉄、水道や電気の設備、建物の基礎をよけながらトンネルを作るのは、とても大変でした。",
-          "en": "Building tunnels while avoiding existing subways, water and electrical infrastructure, and building foundations was extremely difficult."
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
         },
         {
-          "ja": "だから、りんかい線の駅で長いエスカレーターを下りるときは、東京でも特に大きくてお金のかかった鉄道計画の中を移動していると考えることができます。",
-          "en": "So when you ride down the long escalators at a Rinkai Line station, you can think of yourself as moving through one of Tokyo's biggest and most expensive railway projects."
+          "ja": "地下鉄は、大きな都市で使われる鉄道の名前です。",
+          "en": "Chikatetsu is the name for an urban railway system."
         }
       ]
     },
@@ -14572,6 +14733,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "日本で電車に乗ろうとすると、「電車」と「地下鉄」という言葉をよく見ます。",
+          "en": "Densha means electric train."
+        },
+        {
+          "ja": "だから「電車で行く」と言うとき、JRだけを意味するわけではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
           "ja": "次の駅で使う路線や、ドアが開く側を案内する画面もあります。",
           "en": "It is useful for transfers too. If you know how many minutes remain before a large interchange station, you can decide whether to hurry. Some screens also show connecting lines and which side the doors will open on."
         },
@@ -14582,14 +14751,6 @@
         {
           "ja": "すると駅で紙のきっぷを受け取らなくても、改札でタッチしてそのまま入れます。",
           "en": "Then, instead of picking up a paper ticket at the station, you can simply tap at the gate and go in."
-        },
-        {
-          "ja": "外国ではクラクションや手であいさつすることが多い場所もありますが、日本では大きな音を出さない形のほうが合いやすいのかもしれません。",
-          "en": "In some other countries, people more often use the horn or wave with their hand, but in Japan a quieter form may fit better."
-        },
-        {
-          "ja": "とても小さな行動ですが、道を少しやわらかい空気にする力があります。",
-          "en": "It is a very small action, but it can make the mood on the road a little softer."
         }
       ],
       "partOfSpeech": "verb",
@@ -14668,20 +14829,20 @@
               "en": "While its convenience is recognized, it is considered important not to weaken students’ ability to think for themselves."
             },
             {
+              "ja": "日本で電車に乗ろうとすると、「電車」と「地下鉄」という言葉をよく見ます。",
+              "en": "Densha means electric train."
+            },
+            {
+              "ja": "だから「電車で行く」と言うとき、JRだけを意味するわけではありません。",
+              "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+            },
+            {
               "ja": "次の駅で使う路線や、ドアが開く側を案内する画面もあります。",
               "en": "It is useful for transfers too. If you know how many minutes remain before a large interchange station, you can decide whether to hurry. Some screens also show connecting lines and which side the doors will open on."
             },
             {
               "ja": "画面には遅れや運転見合わせの情報も出るため、予定が大きく変わったときは、そちらも確認することが大切です。",
               "en": "The screens can also show delay or suspension information, so check that when plans change."
-            },
-            {
-              "ja": "すると駅で紙のきっぷを受け取らなくても、改札でタッチしてそのまま入れます。",
-              "en": "Then, instead of picking up a paper ticket at the station, you can simply tap at the gate and go in."
-            },
-            {
-              "ja": "外国ではクラクションや手であいさつすることが多い場所もありますが、日本では大きな音を出さない形のほうが合いやすいのかもしれません。",
-              "en": "In some other countries, people more often use the horn or wave with their hand, but in Japan a quieter form may fit better."
             }
           ]
         },
@@ -14693,6 +14854,10 @@
           "readingHiragana": "して",
           "meaning": "Te-form of する: to do",
           "exampleSentences": [
+            {
+              "ja": "また、東京メトロの多くの路線は、ほかの会社の鉄道と相互直通運転をしています。",
+              "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
+            },
             {
               "ja": "1日に700万人以上という数字は、ホームが混む理由や、短い間隔で電車が来る理由をよく表しています。",
               "en": "More than seven million daily journeys help explain crowded platforms and frequent trains."
@@ -14708,10 +14873,6 @@
             {
               "ja": "もちろん最後は運転士が確認しますが、人と装置の両方でずれを小さくしているわけです。",
               "en": "Of course, the driver still makes the final check, but both people and equipment work together to keep errors small."
-            },
-            {
-              "ja": "状況によっては、そのままにせず、後ろへゆっくり戻して正しい位置に合わせることもあります。",
-              "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
             }
           ]
         },
@@ -15135,6 +15296,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
           "ja": "普段は当たり前のように使っている改札ですが、その裏には日本ならではの高い技術と緻密なシステム設計が詰まっています。",
           "en": "We usually use ticket gates as if they were completely ordinary, but behind them are advanced technology and precise system design that feel very characteristic of Japan."
         },
@@ -15149,10 +15314,6 @@
         {
           "ja": "スペースXのように注目度が高い会社では、上場直後の値動きが激しくなりやすいです。",
           "en": "For a highly watched company like SpaceX, price movements just after listing can easily become intense."
-        },
-        {
-          "ja": "アプリは気温や湿度を見て、危険が高い時に知らせます。",
-          "en": "The apps check temperature and humidity and send alerts when the danger is high."
         }
       ]
     },
@@ -16077,6 +16238,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
           "ja": "そこには次の駅だけでなく、路線の地図や、その先の駅までの所要時間が表示されます。",
           "en": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
         },
@@ -16091,10 +16256,6 @@
         {
           "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
           "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
-        },
-        {
-          "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
-          "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
         }
       ]
     },
@@ -16192,6 +16353,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "電車という言葉は、とても広く使われます。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
           "ja": "指定席でも、このやり方がとても便利です。",
           "en": "This is very convenient even for reserved seats."
         },
@@ -16206,10 +16371,6 @@
         {
           "ja": "料金が自動で計算され、車を止めずに精算できるので、東京のように交通量が多い場所ではとても効率的です。",
           "en": "Tolls are calculated automatically, and you can pay without stopping the car, which is highly efficient in a place with as much traffic as Tokyo."
-        },
-        {
-          "ja": "その理由の一つは、ICカードの残高確認や運賃計算が、改札機の中でとても速く処理されるように設計されていることです。",
-          "en": "One reason is that balance checks and fare calculations for IC cards are designed to be processed very quickly inside the ticket gate itself."
         }
       ]
     },
@@ -16360,6 +16521,10 @@
           "meaning": "Polite form of 使う: to use, to make use of",
           "exampleSentences": [
             {
+              "ja": "会話では、「駅まで電車で行く」「地下鉄に乗り換える」のように使います。",
+              "en": "In conversation, you might say “go by train to the station” or “transfer to the subway."
+            },
+            {
               "ja": "次の駅で使う路線や、ドアが開く側を案内する画面もあります。",
               "en": "It is useful for transfers too. If you know how many minutes remain before a large interchange station, you can decide whether to hurry. Some screens also show connecting lines and which side the doors will open on."
             },
@@ -16374,10 +16539,6 @@
             {
               "ja": "物理的なSuicaカードを使う人もいれば、スマートフォン側のIC機能を使う人もいますが、考え方は同じです。",
               "en": "Some people use a physical Suica card, while others use the IC function on a smartphone, but the basic idea is the same."
-            },
-            {
-              "ja": "紙からICへ変わっても、誰がどの席を使うかはしっかり管理されています。",
-              "en": "Even when the format changes from paper to IC, the system still clearly manages who will use which seat."
             }
           ]
         },
@@ -16970,24 +17131,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
+          "ja": "地下の駅やトンネルが多いので、地図では地上のJRや私鉄とは別の色で書かれることがよくあります。",
+          "en": "Because these systems have many underground stations and tunnels, maps often use colors separate from JR and private railways."
+        },
+        {
+          "ja": "路線の一部が地上に出ることもあります。",
+          "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
+        },
+        {
           "ja": "JR東日本の電車に乗ると、ドアの上に小さな画面があることがあります。",
           "en": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
         },
         {
           "ja": "1日に700万人以上という数字は、ホームが混む理由や、短い間隔で電車が来る理由をよく表しています。",
           "en": "More than seven million daily journeys help explain crowded platforms and frequent trains."
-        },
-        {
-          "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
-          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
-        },
-        {
-          "ja": "道路の上での短いあいさつのようなものです。",
-          "en": "” It is like a very short greeting on the road."
-        },
-        {
-          "ja": "袋に入れた後は、持ち上げても部品が動かないよう、しっかり固定します。",
-          "en": "After putting the bike in the bag, secure the parts so they do not move when you lift it."
         }
       ]
     },
@@ -17569,6 +17730,18 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "JRの普通列車や私鉄、地下鉄の車両も、電気で走れば電車です。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
+          "ja": "地下の駅やトンネルが多いので、地図では地上のJRや私鉄とは別の色で書かれることがよくあります。",
+          "en": "Because these systems have many underground stations and tunnels, maps often use colors separate from JR and private railways."
+        },
+        {
+          "ja": "つまり、一つの電車が地下鉄の区間から私鉄の区間へ、そのまま走ることがあるのです。",
+          "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
+        },
         {
           "ja": "これは東京メトロという一つの会社の数字で、JRやほかの私鉄は入っていません。",
           "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
@@ -19227,6 +19400,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "どちらも人を運ぶ列車ですが、同じ意味ではありません。",
+          "en": "Chikatetsu is an urban railway system that mainly runs underground."
+        },
+        {
+          "ja": "だから「電車で行く」と言うとき、JRだけを意味するわけではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
           "ja": "もちろん、これは「東京の半分の人が一度だけ乗る」という意味ではありません。",
           "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
         },
@@ -19825,6 +20006,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
           "ja": "画面の路線図では、今いる場所と進む方向がわかります。",
           "en": "The route map shows where the train is and which way it is going."
         },
@@ -19839,10 +20024,6 @@
         {
           "ja": "外国ではクラクションや手であいさつすることが多い場所もありますが、日本では大きな音を出さない形のほうが合いやすいのかもしれません。",
           "en": "In some other countries, people more often use the horn or wave with their hand, but in Japan a quieter form may fit better."
-        },
-        {
-          "ja": "料金が自動で計算され、車を止めずに精算できるので、東京のように交通量が多い場所ではとても効率的です。",
-          "en": "Tolls are calculated automatically, and you can pay without stopping the car, which is highly efficient in a place with as much traffic as Tokyo."
         }
       ]
     },
@@ -19861,6 +20042,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "地下の駅やトンネルが多いので、地図では地上のJRや私鉄とは別の色で書かれることがよくあります。",
+          "en": "Because these systems have many underground stations and tunnels, maps often use colors separate from JR and private railways."
+        },
+        {
           "ja": "大きな駅で別の路線へ移るとき、あと何分あるかがわかれば、急ぐかどうかを決めやすくなります。",
           "en": "It is useful for transfers too. If you know how many minutes remain before a large interchange station, you can decide whether to hurry. Some screens also show connecting lines and which side the doors will open on."
         },
@@ -19875,10 +20060,6 @@
         {
           "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
           "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
-        },
-        {
-          "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
-          "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
         }
       ]
     },
@@ -20274,6 +20455,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "だから「電車で行く」と言うとき、JRだけを意味するわけではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
           "ja": "だから、駅での停車は「最後にブレーキをかけるだけ」の仕事ではありません。",
           "en": "So stopping at a station is not just a matter of applying the brakes at the end."
         },
@@ -20288,10 +20473,6 @@
         {
           "ja": "だから、セブン-イレブンが日本にコンビニを「持ってきた」と言っても、ただ外国の仕組みを運んだだけではありません。",
           "en": "So even if we say Seven-Eleven “brought” convenience stores to Japan, it did not simply carry over a foreign system unchanged."
-        },
-        {
-          "ja": "だからこそ、お礼として使う時もごく短く、安全を第一にすることが大切です。",
-          "en": "That is exactly why, when they are used as thanks, it should be only very brief and safety should come first."
         }
       ]
     },
@@ -21006,6 +21187,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "JRの普通列車や私鉄、地下鉄の車両も、電気で走れば電車です。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
           "ja": "品川や羽田空港などの駅では、普通、急行、エアポート急行、特急、快特などの表示を見ます。",
           "en": "At stations such as Shinagawa and Haneda Airport, you will see labels like Local, Express, Airport Express, Limited Express, and Rapid Limited Express."
         }
@@ -21320,20 +21505,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "日本で電車に乗ろうとすると、「電車」と「地下鉄」という言葉をよく見ます。",
+          "en": "Densha means electric train."
+        },
+        {
+          "ja": "電車という言葉は、とても広く使われます。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
+          "ja": "地下鉄も電車の一つだと覚えると、この二つの言葉はわかりやすくなります。",
+          "en": "Remember: a subway train is also a densha."
+        },
+        {
           "ja": "言葉は聞こえませんが、運転者同士で気持ちを伝える方法として使われています。",
           "en": "No words can be heard, but it is used as a way for drivers to communicate their feelings."
         },
         {
           "ja": "V2Xという言葉を聞くと、多くの人は自動運転の未来を想像します。",
           "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
-        },
-        {
-          "ja": "東京で車を運転すると、ETCという言葉をあちこちで見かけます。",
-          "en": "When you drive in Tokyo, you see the term ETC in many places."
-        },
-        {
-          "ja": "このIPOで話題になった言葉の一つが、グリーンシュー・オプションです。",
-          "en": "One term that became a topic in this IPO was the greenshoe option."
         }
       ]
     },
@@ -21556,6 +21745,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "どちらも人を運ぶ列車ですが、同じ意味ではありません。",
+          "en": "Chikatetsu is an urban railway system that mainly runs underground."
+        },
+        {
           "ja": "山手線は、ただ人を運ぶだけでなく、東京の街の作られ方そのものを支えているのです。",
           "en": "The Yamanote Line does not just carry people; it supports the very way Tokyo's cityscape was built."
         },
@@ -21584,6 +21777,10 @@
               "en": "Link is scheduled to launch on June 27, grab Swift with three robotic arms, and move it to a higher, safer orbit."
             },
             {
+              "ja": "どちらも人を運ぶ列車ですが、同じ意味ではありません。",
+              "en": "Chikatetsu is an urban railway system that mainly runs underground."
+            },
+            {
               "ja": "山手線は、ただ人を運ぶだけでなく、東京の街の作られ方そのものを支えているのです。",
               "en": "The Yamanote Line does not just carry people; it supports the very way Tokyo's cityscape was built."
             },
@@ -21610,6 +21807,10 @@
               "en": "So even if we say Seven-Eleven “brought” convenience stores to Japan, it did not simply carry over a foreign system unchanged."
             },
             {
+              "ja": "どちらも人を運ぶ列車ですが、同じ意味ではありません。",
+              "en": "Chikatetsu is an urban railway system that mainly runs underground."
+            },
+            {
               "ja": "山手線は、ただ人を運ぶだけでなく、東京の街の作られ方そのものを支えているのです。",
               "en": "The Yamanote Line does not just carry people; it supports the very way Tokyo's cityscape was built."
             },
@@ -21631,6 +21832,10 @@
           "readingHiragana": "はこばない",
           "meaning": "Plain negative form of 運ぶ: to carry, to transport",
           "exampleSentences": [
+            {
+              "ja": "どちらも人を運ぶ列車ですが、同じ意味ではありません。",
+              "en": "Chikatetsu is an urban railway system that mainly runs underground."
+            },
             {
               "ja": "山手線は、ただ人を運ぶだけでなく、東京の街の作られ方そのものを支えているのです。",
               "en": "The Yamanote Line does not just carry people; it supports the very way Tokyo's cityscape was built."
@@ -21658,6 +21863,10 @@
               "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
             },
             {
+              "ja": "どちらも人を運ぶ列車ですが、同じ意味ではありません。",
+              "en": "Chikatetsu is an urban railway system that mainly runs underground."
+            },
+            {
               "ja": "山手線は、ただ人を運ぶだけでなく、東京の街の作られ方そのものを支えているのです。",
               "en": "The Yamanote Line does not just carry people; it supports the very way Tokyo's cityscape was built."
             },
@@ -21679,6 +21888,10 @@
           "readingHiragana": "はこべる",
           "meaning": "Potential form of 運ぶ: to carry, to transport",
           "exampleSentences": [
+            {
+              "ja": "どちらも人を運ぶ列車ですが、同じ意味ではありません。",
+              "en": "Chikatetsu is an urban railway system that mainly runs underground."
+            },
             {
               "ja": "山手線は、ただ人を運ぶだけでなく、東京の街の作られ方そのものを支えているのです。",
               "en": "The Yamanote Line does not just carry people; it supports the very way Tokyo's cityscape was built."
@@ -23860,6 +24073,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "会話では、「駅まで電車で行く」「地下鉄に乗り換える」のように使います。",
+          "en": "In conversation, you might say “go by train to the station” or “transfer to the subway."
+        },
+        {
           "ja": "カーナビの画面に出る渋滞情報や規制情報の後ろには、道路と車が少しずつ会話している世界があります。",
           "en": "Behind the congestion and restriction information shown on a car navigation screen is a world where roads and cars are quietly exchanging information."
         }
@@ -24417,6 +24634,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "いちばん簡単に言うと、電車は電気で走る車両のこと、地下鉄は都市の地下を中心に走る鉄道のことです。",
+          "en": "Both carry people, but the words differ."
+        },
         {
           "ja": "毎日のことなので簡単に見えますが、実際にはかなり細かい運転です。",
           "en": "Because it happens every day, it looks easy, but in reality it is a very precise operation."
@@ -25331,6 +25552,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "いちばん簡単に言うと、電車は電気で走る車両のこと、地下鉄は都市の地下を中心に走る鉄道のことです。",
+          "en": "Both carry people, but the words differ."
+        },
+        {
+          "ja": "JRの普通列車や私鉄、地下鉄の車両も、電気で走れば電車です。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
           "ja": "ふだんは何気なく見る画面ですが、旅の小さな案内役になっています。",
           "en": "JR East began this kind of LCD guidance on new Yamanote Line trains in 2002. Today, displays on trains such as the E233 series provide arrival, travel-time, exit, and delay information—a small guide for the journey."
         },
@@ -25341,14 +25570,6 @@
         {
           "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
           "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
-        },
-        {
-          "ja": "言葉は聞こえませんが、運転者同士で気持ちを伝える方法として使われています。",
-          "en": "No words can be heard, but it is used as a way for drivers to communicate their feelings."
-        },
-        {
-          "ja": "とても小さな行動ですが、道を少しやわらかい空気にする力があります。",
-          "en": "It is a very small action, but it can make the mood on the road a little softer."
         }
       ]
     },
@@ -25582,6 +25803,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
           "ja": "全国の学校で、生成AIを授業や宿題にどう使うかを決める動きが強まっています。",
           "en": "Schools across Japan are moving to decide how generative AI should be used in classes and homework."
         }
@@ -25598,6 +25823,10 @@
           "meaning": "Polite form of 決める: to decide, to choose",
           "exampleSentences": [
             {
+              "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+              "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+            },
+            {
               "ja": "全国の学校で、生成AIを授業や宿題にどう使うかを決める動きが強まっています。",
               "en": "Schools across Japan are moving to decide how generative AI should be used in classes and homework."
             }
@@ -25612,6 +25841,10 @@
           "meaning": "Plain past form of 決める: to decide, to choose",
           "exampleSentences": [
             {
+              "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+              "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+            },
+            {
               "ja": "全国の学校で、生成AIを授業や宿題にどう使うかを決める動きが強まっています。",
               "en": "Schools across Japan are moving to decide how generative AI should be used in classes and homework."
             }
@@ -25625,6 +25858,10 @@
           "readingHiragana": "きめない",
           "meaning": "Plain negative form of 決める: to decide, to choose",
           "exampleSentences": [
+            {
+              "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+              "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+            },
             {
               "ja": "全国の学校で、生成AIを授業や宿題にどう使うかを決める動きが強まっています。",
               "en": "Schools across Japan are moving to decide how generative AI should be used in classes and homework."
@@ -25644,6 +25881,10 @@
               "en": "At the same time, because water costs and maintenance take effort, officials are considering limiting the times and places where the systems are used."
             },
             {
+              "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+              "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+            },
+            {
               "ja": "全国の学校で、生成AIを授業や宿題にどう使うかを決める動きが強まっています。",
               "en": "Schools across Japan are moving to decide how generative AI should be used in classes and homework."
             }
@@ -25660,6 +25901,10 @@
             {
               "ja": "車内にいても、少しずつ次の行動を決められるのです。",
               "en": "It is useful for transfers too. If you know how many minutes remain before a large interchange station, you can decide whether to hurry. Some screens also show connecting lines and which side the doors will open on."
+            },
+            {
+              "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+              "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
             },
             {
               "ja": "全国の学校で、生成AIを授業や宿題にどう使うかを決める動きが強まっています。",
@@ -25803,6 +26048,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "いちばん簡単に言うと、電車は電気で走る車両のこと、地下鉄は都市の地下を中心に走る鉄道のことです。",
+          "en": "Both carry people, but the words differ."
+        },
+        {
           "ja": "都心の地下を通るこのネットワークは、通勤、通学、買い物、観光などを支えています。",
           "en": "It supports commuting, school, shopping, and tourism."
         },
@@ -25817,10 +26066,6 @@
         {
           "ja": "空港から都心へ向かうときや、郊外へ出かけるときにETCがないと、経路や支払いで不便を感じやすくなります。",
           "en": "If you do not have ETC when heading from the airport into central Tokyo or driving out to the suburbs, payment and route choices can become inconvenient."
-        },
-        {
-          "ja": "車輪を外すタイプでは、工具や固定用ベルトを用意すると安心です。",
-          "en": "For bikes that require wheel removal, it is helpful to bring tools and fastening straps."
         }
       ]
     },
@@ -29748,7 +29993,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "会話では、「駅まで電車で行く」「地下鉄に乗り換える」のように使います。",
+          "en": "In conversation, you might say “go by train to the station” or “transfer to the subway."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "ichidan",
       "verbForms": [
@@ -29759,7 +30009,12 @@
           "term": "乗り換えます",
           "readingHiragana": "のりかえます",
           "meaning": "Polite form of 乗り換える: to transfer (trains), to change (bus, train)",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "会話では、「駅まで電車で行く」「地下鉄に乗り換える」のように使います。",
+              "en": "In conversation, you might say “go by train to the station” or “transfer to the subway."
+            }
+          ]
         },
         {
           "form": "past",
@@ -29768,7 +30023,12 @@
           "term": "乗り換えた",
           "readingHiragana": "のりかえた",
           "meaning": "Plain past form of 乗り換える: to transfer (trains), to change (bus, train)",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "会話では、「駅まで電車で行く」「地下鉄に乗り換える」のように使います。",
+              "en": "In conversation, you might say “go by train to the station” or “transfer to the subway."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -29777,7 +30037,12 @@
           "term": "乗り換えない",
           "readingHiragana": "のりかえない",
           "meaning": "Plain negative form of 乗り換える: to transfer (trains), to change (bus, train)",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "会話では、「駅まで電車で行く」「地下鉄に乗り換える」のように使います。",
+              "en": "In conversation, you might say “go by train to the station” or “transfer to the subway."
+            }
+          ]
         },
         {
           "form": "te",
@@ -29786,7 +30051,12 @@
           "term": "乗り換えて",
           "readingHiragana": "のりかえて",
           "meaning": "Te-form of 乗り換える: to transfer (trains), to change (bus, train)",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "会話では、「駅まで電車で行く」「地下鉄に乗り換える」のように使います。",
+              "en": "In conversation, you might say “go by train to the station” or “transfer to the subway."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -29795,7 +30065,12 @@
           "term": "乗り換えられる",
           "readingHiragana": "のりかえられる",
           "meaning": "Potential form of 乗り換える: to transfer (trains), to change (bus, train)",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "会話では、「駅まで電車で行く」「地下鉄に乗り換える」のように使います。",
+              "en": "In conversation, you might say “go by train to the station” or “transfer to the subway."
+            }
+          ]
         }
       ]
     },
@@ -32560,24 +32835,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京には東京メトロと都営地下鉄があり、東京メトロだけでも9路線あります。",
+          "en": "Tokyo has Tokyo Metro and Toei Subway; Tokyo Metro alone has nine lines."
+        },
+        {
+          "ja": "路線の一部が地上に出ることもあります。",
+          "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
+        },
+        {
+          "ja": "また、東京メトロの多くの路線は、ほかの会社の鉄道と相互直通運転をしています。",
+          "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
+        },
+        {
+          "ja": "乗る車両について広く話すなら「電車」、地下鉄というネットワークや路線を言いたいなら「地下鉄」が自然です。",
+          "en": "” Use densha for the vehicle in a broad sense, and chikatetsu for the subway network or line."
+        },
+        {
           "ja": "そこには次の駅だけでなく、路線の地図や、その先の駅までの所要時間が表示されます。",
           "en": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
-        },
-        {
-          "ja": "初めて乗る路線でも、「あとどのくらいで着くか」を見て考えられます。",
-          "en": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
-        },
-        {
-          "ja": "画面の路線図では、今いる場所と進む方向がわかります。",
-          "en": "The route map shows where the train is and which way it is going."
-        },
-        {
-          "ja": "大きな駅で別の路線へ移るとき、あと何分あるかがわかれば、急ぐかどうかを決めやすくなります。",
-          "en": "It is useful for transfers too. If you know how many minutes remain before a large interchange station, you can decide whether to hurry. Some screens also show connecting lines and which side the doors will open on."
-        },
-        {
-          "ja": "次の駅で使う路線や、ドアが開く側を案内する画面もあります。",
-          "en": "It is useful for transfers too. If you know how many minutes remain before a large interchange station, you can decide whether to hurry. Some screens also show connecting lines and which side the doors will open on."
         }
       ]
     },
@@ -32736,6 +33011,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "いちばん簡単に言うと、電車は電気で走る車両のこと、地下鉄は都市の地下を中心に走る鉄道のことです。",
+          "en": "Both carry people, but the words differ."
+        },
+        {
+          "ja": "地下鉄は、大きな都市で使われる鉄道の名前です。",
+          "en": "Chikatetsu is the name for an urban railway system."
+        },
+        {
           "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
           "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
         },
@@ -32746,14 +33029,6 @@
         {
           "ja": "東京は、一つのダウンタウンだけが発展した都市ではありません。",
           "en": "Tokyo is not a city where only one downtown area developed."
-        },
-        {
-          "ja": "いくつもの都市中心が鉄道でしっかり結ばれた形で広がってきました。",
-          "en": "It spread in a form where many urban centers were firmly connected by rail."
-        },
-        {
-          "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
-          "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
         }
       ]
     },
@@ -37057,6 +37332,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "また、東京メトロの多くの路線は、ほかの会社の鉄道と相互直通運転をしています。",
+          "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
+        },
+        {
           "ja": "画面には遅れや運転見合わせの情報も出るため、予定が大きく変わったときは、そちらも確認することが大切です。",
           "en": "The screens can also show delay or suspension information, so check that when plans change."
         },
@@ -37071,10 +37350,6 @@
         {
           "ja": "もちろん最後は運転士が確認しますが、人と装置の両方でずれを小さくしているわけです。",
           "en": "Of course, the driver still makes the final check, but both people and equipment work together to keep errors small."
-        },
-        {
-          "ja": "言葉は聞こえませんが、運転者同士で気持ちを伝える方法として使われています。",
-          "en": "No words can be heard, but it is used as a way for drivers to communicate their feelings."
         }
       ]
     },
@@ -40676,6 +40951,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
           "ja": "画面の路線図では、今いる場所と進む方向がわかります。",
           "en": "The route map shows where the train is and which way it is going."
         },
@@ -40690,10 +40969,6 @@
         {
           "ja": "ほんのわずかな場合でも、すぐドアを開けるのではなく、安全確認が必要です。",
           "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
-        },
-        {
-          "ja": "大きな転機の一つが、セブン-イレブンの登場でした。",
-          "en": "One major turning point was the arrival of Seven-Eleven."
         }
       ]
     },
@@ -41655,24 +41930,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "都心の地下を通るこのネットワークは、通勤、通学、買い物、観光などを支えています。",
-          "en": "It supports commuting, school, shopping, and tourism."
+          "ja": "日本で電車に乗ろうとすると、「電車」と「地下鉄」という言葉をよく見ます。",
+          "en": "Densha means electric train."
         },
         {
-          "ja": "その理由の一つは、線路の多くがとても深い地下を通っていることです。",
-          "en": "One reason is that much of the track runs very deep underground."
+          "ja": "いちばん簡単に言うと、電車は電気で走る車両のこと、地下鉄は都市の地下を中心に走る鉄道のことです。",
+          "en": "Both carry people, but the words differ."
         },
         {
-          "ja": "すでにある地下鉄、水道や電気の設備、建物の基礎をよけながらトンネルを作るのは、とても大変でした。",
-          "en": "Building tunnels while avoiding existing subways, water and electrical infrastructure, and building foundations was extremely difficult."
+          "ja": "JRの普通列車や私鉄、地下鉄の車両も、電気で走れば電車です。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
         },
         {
-          "ja": "東京の地下鉄やJRは複雑ですが、大きな駅の位置を地図の骨組みにすると、少しずつ慣れていきます。",
-          "en": "Tokyo’s subways and JR lines are complicated, but if you treat the positions of major stations as the frame of the map, you gradually get used to it."
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
         },
         {
-          "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
-          "en": "In London, people using the Underground and buses were also advised to drink water."
+          "ja": "地下鉄は、大きな都市で使われる鉄道の名前です。",
+          "en": "Chikatetsu is the name for an urban railway system."
         }
       ]
     },
@@ -42091,6 +42366,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "いちばん簡単に言うと、電車は電気で走る車両のこと、地下鉄は都市の地下を中心に走る鉄道のことです。",
+          "en": "Both carry people, but the words differ."
+        },
+        {
           "ja": "東京の中心部へ向かうなら、まず品川へ向かう電車を探しましょう。",
           "en": "If you are heading into central Tokyo, first look for a train going toward Shinagawa."
         },
@@ -42105,10 +42384,6 @@
         {
           "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
           "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
-        },
-        {
-          "ja": "皇居は東京の中心にあり、そのまわりには約5キロのランニングコースがあります。",
-          "en": "The Imperial Palace is in the center of Tokyo, and there is a running course of about five kilometers around it."
         }
       ]
     },
@@ -42971,6 +43246,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
           "ja": "大きな駅で別の路線へ移るとき、あと何分あるかがわかれば、急ぐかどうかを決めやすくなります。",
           "en": "It is useful for transfers too. If you know how many minutes remain before a large interchange station, you can decide whether to hurry. Some screens also show connecting lines and which side the doors will open on."
         },
@@ -42985,10 +43264,6 @@
         {
           "ja": "そのため、各国の政府や企業は、この合意が実行されるかどうかを注意して見ています。",
           "en": "For that reason, governments and companies are watching carefully to see whether the agreement will be carried out."
-        },
-        {
-          "ja": "中東の緊張が下がるかどうかは、これからの交渉にかかっています。",
-          "en": "Whether tensions in the Middle East will decrease depends on the negotiations from here."
         }
       ]
     },
@@ -49316,6 +49591,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "路線の一部が地上に出ることもあります。",
+          "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
+        },
+        {
           "ja": "飲み物やおにぎりを買うだけでなく、ATMや支払い、宅配まで使えるので、生活の一部になっています。",
           "en": "People use them not only to buy drinks and rice balls, but also for ATMs, payments, and parcel services, so they have become part of everyday life."
         },
@@ -49330,10 +49609,6 @@
         {
           "ja": "アメリカは制裁を一部緩める可能性がありますが、詳しい内容はまだはっきりしていません。",
           "en": "The United States may ease some sanctions, but the details are still not clear."
-        },
-        {
-          "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
-          "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
         }
       ]
     },
@@ -51396,6 +51671,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
           "ja": "目印を見て、速度を読んで、ホームの条件も考えながら止めています。",
           "en": "Drivers watch markers, read speed, and consider the platform conditions while stopping the train."
         },
@@ -52122,6 +52401,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "また、東京メトロの多くの路線は、ほかの会社の鉄道と相互直通運転をしています。",
+          "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
+        },
+        {
+          "ja": "会話では、「駅まで電車で行く」「地下鉄に乗り換える」のように使います。",
+          "en": "In conversation, you might say “go by train to the station” or “transfer to the subway."
+        },
+        {
           "ja": "これは東京メトロという一つの会社の数字で、JRやほかの私鉄は入っていません。",
           "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
         },
@@ -52132,14 +52419,6 @@
         {
           "ja": "学生も会社員も高齢者も、それぞれの理由で使う社会インフラになったのです。",
           "en": "Students, office workers, and older people all started using them for different reasons, and they became a kind of social infrastructure."
-        },
-        {
-          "ja": "カーナビの画面に出る渋滞情報や規制情報の後ろには、道路と車が少しずつ会話している世界があります。",
-          "en": "Behind the congestion and restriction information shown on a car navigation screen is a world where roads and cars are quietly exchanging information."
-        },
-        {
-          "ja": "多くの鉄道会社では、自転車を分解したり折りたたんだりして、専用の輪行袋に完全に入れる必要があります。",
-          "en": "Many railway companies require bicycles to be disassembled or folded and completely placed inside a dedicated bike transport bag."
         }
       ]
     },
@@ -53598,24 +53877,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
+          "ja": "地下の駅やトンネルが多いので、地図では地上のJRや私鉄とは別の色で書かれることがよくあります。",
+          "en": "Because these systems have many underground stations and tunnels, maps often use colors separate from JR and private railways."
+        },
+        {
+          "ja": "路線の一部が地上に出ることもあります。",
+          "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
+        },
+        {
           "ja": "JR東日本の電車に乗ると、ドアの上に小さな画面があることがあります。",
           "en": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
         },
         {
           "ja": "1日に700万人以上という数字は、ホームが混む理由や、短い間隔で電車が来る理由をよく表しています。",
           "en": "More than seven million daily journeys help explain crowded platforms and frequent trains."
-        },
-        {
-          "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
-          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
-        },
-        {
-          "ja": "道路の上での短いあいさつのようなものです。",
-          "en": "” It is like a very short greeting on the road."
-        },
-        {
-          "ja": "袋に入れた後は、持ち上げても部品が動かないよう、しっかり固定します。",
-          "en": "After putting the bike in the bag, secure the parts so they do not move when you lift it."
         }
       ]
     },
@@ -62840,24 +63119,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "いちばん簡単に言うと、電車は電気で走る車両のこと、地下鉄は都市の地下を中心に走る鉄道のことです。",
+          "en": "Both carry people, but the words differ."
+        },
+        {
+          "ja": "地下鉄は、大きな都市で使われる鉄道の名前です。",
+          "en": "Chikatetsu is the name for an urban railway system."
+        },
+        {
+          "ja": "東京には東京メトロと都営地下鉄があり、東京メトロだけでも9路線あります。",
+          "en": "Tokyo has Tokyo Metro and Toei Subway; Tokyo Metro alone has nine lines."
+        },
+        {
           "ja": "東京都の人口は、2026年6月の推計で約1,430万人です。",
           "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
         },
         {
           "ja": "都心の地下を通るこのネットワークは、通勤、通学、買い物、観光などを支えています。",
           "en": "It supports commuting, school, shopping, and tourism."
-        },
-        {
-          "ja": "それでも東京メトロだけで都の人口のほぼ半分にあたる利用があることは、東京の毎日がどれほど電車と深くつながっているかを示しています。",
-          "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
-        },
-        {
-          "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
-          "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
-        },
-        {
-          "ja": "特に首都高では、その印象が強くなります。",
-          "en": "That impression becomes especially strong on the Shuto Expressway."
         }
       ]
     },
@@ -64083,6 +64362,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "地下鉄は、大きな都市で使われる鉄道の名前です。",
+          "en": "Chikatetsu is the name for an urban railway system."
+        },
+        {
           "ja": "駅名のそばに「5分」「12分」のような数字が出れば、それは現在の列車でその駅へ行くまでのおおよその時間です。",
           "en": "A number such as five or 12 minutes beside a station is the time for this train to reach it."
         },
@@ -64097,10 +64380,6 @@
         {
           "ja": "このように、細かい列車の名前を全部覚えていなくても、まず路線のどちら側に行きたいかがわかれば、正しい電車をかなり選びやすくなります。",
           "en": "In this way, even if you do not remember every train name, knowing which side of the line you need first makes it much easier to choose the right train."
-        },
-        {
-          "ja": "このコースは東京でとても有名で、毎日たくさんの人が走っています。",
-          "en": "This course is very famous in Tokyo, and many people run there every day."
         }
       ]
     },
@@ -64799,6 +65078,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "また、東京メトロの多くの路線は、ほかの会社の鉄道と相互直通運転をしています。",
+          "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
+        },
+        {
           "ja": "そして万一まちがいがあっても、すぐに直せるように仕組みと手順が用意されています。",
           "en": "And even if a mistake happens, systems and procedures are prepared so it can be corrected safely."
         },
@@ -65458,6 +65741,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "日本で電車に乗ろうとすると、「電車」と「地下鉄」という言葉をよく見ます。",
+          "en": "Densha means electric train."
+        },
+        {
           "ja": "JR東日本の電車に乗ると、ドアの上に小さな画面があることがあります。",
           "en": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
         },
@@ -65472,10 +65759,6 @@
         {
           "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
           "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
-        },
-        {
-          "ja": "JR東日本の「新幹線eチケット」では、オンラインで予約した情報をSuicaのようなICカードに結びつけることができます。",
-          "en": "With JR East’s Shinkansen e-ticket, reservation information bought online can be linked to an IC card such as Suica."
         }
       ]
     },
@@ -68463,6 +68746,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "どちらも人を運ぶ列車ですが、同じ意味ではありません。",
+          "en": "Chikatetsu is an urban railway system that mainly runs underground."
+        },
+        {
+          "ja": "JRの普通列車や私鉄、地下鉄の車両も、電気で走れば電車です。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
           "ja": "駅名のそばに「5分」「12分」のような数字が出れば、それは現在の列車でその駅へ行くまでのおおよその時間です。",
           "en": "A number such as five or 12 minutes beside a station is the time for this train to reach it."
         },
@@ -68473,14 +68764,6 @@
         {
           "ja": "このように、細かい列車の名前を全部覚えていなくても、まず路線のどちら側に行きたいかがわかれば、正しい電車をかなり選びやすくなります。",
           "en": "In this way, even if you do not remember every train name, knowing which side of the line you need first makes it much easier to choose the right train."
-        },
-        {
-          "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
-          "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
-        },
-        {
-          "ja": "この列車は浜松駅を通過しているところでした。",
-          "en": "It was passing through Hamamatsu Station."
         }
       ]
     },
@@ -68499,6 +68782,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "どちらも人を運ぶ列車ですが、同じ意味ではありません。",
+          "en": "Chikatetsu is an urban railway system that mainly runs underground."
+        },
+        {
+          "ja": "JRの普通列車や私鉄、地下鉄の車両も、電気で走れば電車です。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
           "ja": "駅名のそばに「5分」「12分」のような数字が出れば、それは現在の列車でその駅へ行くまでのおおよその時間です。",
           "en": "A number such as five or 12 minutes beside a station is the time for this train to reach it."
         },
@@ -68509,14 +68800,6 @@
         {
           "ja": "東京の駅では、朝のラッシュ時でも改札の前に長い列ができることは意外と少ないです。",
           "en": "At Tokyo stations, even during the morning rush, it is surprisingly rare to see very long lines at the ticket gates."
-        },
-        {
-          "ja": "このように、細かい列車の名前を全部覚えていなくても、まず路線のどちら側に行きたいかがわかれば、正しい電車をかなり選びやすくなります。",
-          "en": "In this way, even if you do not remember every train name, knowing which side of the line you need first makes it much easier to choose the right train."
-        },
-        {
-          "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
-          "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
         }
       ]
     },
@@ -73346,6 +73629,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "乗る車両について広く話すなら「電車」、地下鉄というネットワークや路線を言いたいなら「地下鉄」が自然です。",
+          "en": "” Use densha for the vehicle in a broad sense, and chikatetsu for the subway network or line."
+        },
+        {
           "ja": "毎日たくさんの人が行き交う東京の駅だからこそ、このような技術がとても自然に街へ溶け込んでいるのかもしれません。",
           "en": "Because Tokyo stations are used by so many people every day, perhaps this kind of technology blends naturally into the city."
         }
@@ -77096,6 +77383,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "いちばん簡単に言うと、電車は電気で走る車両のこと、地下鉄は都市の地下を中心に走る鉄道のことです。",
+          "en": "Both carry people, but the words differ."
+        },
+        {
           "ja": "毎日のことなので簡単に見えますが、実際にはかなり細かい運転です。",
           "en": "Because it happens every day, it looks easy, but in reality it is a very precise operation."
         },
@@ -78398,24 +78689,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "これは東京メトロという一つの会社の数字で、JRやほかの私鉄は入っていません。",
-          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
+          "ja": "日本で電車に乗ろうとすると、「電車」と「地下鉄」という言葉をよく見ます。",
+          "en": "Densha means electric train."
         },
         {
-          "ja": "こうして見ると、日本の鉄道は複雑そうでも、実際には目的に合わせて細かく選べるようになっています。",
-          "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+          "ja": "いちばん簡単に言うと、電車は電気で走る車両のこと、地下鉄は都市の地下を中心に走る鉄道のことです。",
+          "en": "Both carry people, but the words differ."
         },
         {
-          "ja": "多くの鉄道会社では、自転車を分解したり折りたたんだりして、専用の輪行袋に完全に入れる必要があります。",
-          "en": "Many railway companies require bicycles to be disassembled or folded and completely placed inside a dedicated bike transport bag."
+          "ja": "JRの普通列車や私鉄、地下鉄の車両も、電気で走れば電車です。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
         },
         {
-          "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
-          "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
+          "ja": "地下鉄は、大きな都市で使われる鉄道の名前です。",
+          "en": "Chikatetsu is the name for an urban railway system."
         },
         {
-          "ja": "京急線では、たくさんの電車がほかの鉄道会社の路線へそのまま入っていきます。",
-          "en": "On the Keikyu Line, many trains continue directly onto other railway networks."
+          "ja": "東京には東京メトロと都営地下鉄があり、東京メトロだけでも9路線あります。",
+          "en": "Tokyo has Tokyo Metro and Toei Subway; Tokyo Metro alone has nine lines."
         }
       ]
     },
@@ -78454,24 +78745,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "いちばん簡単に言うと、電車は電気で走る車両のこと、地下鉄は都市の地下を中心に走る鉄道のことです。",
+          "en": "Both carry people, but the words differ."
+        },
+        {
+          "ja": "地下鉄は、大きな都市で使われる鉄道の名前です。",
+          "en": "Chikatetsu is the name for an urban railway system."
+        },
+        {
+          "ja": "また、東京メトロの多くの路線は、ほかの会社の鉄道と相互直通運転をしています。",
+          "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
+        },
+        {
           "ja": "こうして見ると、日本の鉄道は複雑そうでも、実際には目的に合わせて細かく選べるようになっています。",
           "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
         },
         {
           "ja": "多くの鉄道会社では、自転車を分解したり折りたたんだりして、専用の輪行袋に完全に入れる必要があります。",
           "en": "Many railway companies require bicycles to be disassembled or folded and completely placed inside a dedicated bike transport bag."
-        },
-        {
-          "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
-          "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
-        },
-        {
-          "ja": "京急線では、たくさんの電車がほかの鉄道会社の路線へそのまま入っていきます。",
-          "en": "On the Keikyu Line, many trains continue directly onto other railway networks."
-        },
-        {
-          "ja": "東京がとても便利に感じられる大きな理由の一つは、よく整った鉄道網です。",
-          "en": "One big reason Tokyo feels so convenient is its well-developed rail network."
         }
       ]
     },
@@ -79449,6 +79740,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "いちばん簡単に言うと、電車は電気で走る車両のこと、地下鉄は都市の地下を中心に走る鉄道のことです。",
+          "en": "Both carry people, but the words differ."
+        },
+        {
+          "ja": "地下鉄は、大きな都市で使われる鉄道の名前です。",
+          "en": "Chikatetsu is the name for an urban railway system."
+        },
+        {
           "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
           "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
         },
@@ -79459,14 +79758,6 @@
         {
           "ja": "東京は、一つのダウンタウンだけが発展した都市ではありません。",
           "en": "Tokyo is not a city where only one downtown area developed."
-        },
-        {
-          "ja": "いくつもの都市中心が鉄道でしっかり結ばれた形で広がってきました。",
-          "en": "It spread in a form where many urban centers were firmly connected by rail."
-        },
-        {
-          "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
-          "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
         }
       ]
     },
@@ -81308,6 +81599,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "どちらも人を運ぶ列車ですが、同じ意味ではありません。",
+          "en": "Chikatetsu is an urban railway system that mainly runs underground."
+        },
+        {
+          "ja": "また、東京メトロの多くの路線は、ほかの会社の鉄道と相互直通運転をしています。",
+          "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
+        },
+        {
           "ja": "画面には遅れや運転見合わせの情報も出るため、予定が大きく変わったときは、そちらも確認することが大切です。",
           "en": "The screens can also show delay or suspension information, so check that when plans change."
         },
@@ -81318,14 +81617,6 @@
         {
           "ja": "東京メトロだけでも、2025年度には1日平均で約704万人を運びました。",
           "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
-        },
-        {
-          "ja": "毎日のことなので簡単に見えますが、実際にはかなり細かい運転です。",
-          "en": "Because it happens every day, it looks easy, but in reality it is a very precise operation."
-        },
-        {
-          "ja": "運転士はホームに入りながらその目標を見て、スピードを落としてブレーキを調整します。",
-          "en": "As the train enters the platform, the driver watches that marker, reduces speed, and adjusts the brakes."
         }
       ]
     },
@@ -84603,6 +84894,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "地下の駅やトンネルが多いので、地図では地上のJRや私鉄とは別の色で書かれることがよくあります。",
+          "en": "Because these systems have many underground stations and tunnels, maps often use colors separate from JR and private railways."
+        },
+        {
           "ja": "そこには次の駅だけでなく、路線の地図や、その先の駅までの所要時間が表示されます。",
           "en": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
         },
@@ -84617,10 +84912,6 @@
         {
           "ja": "東京の駅は数が多くて、最初は路線図を見ても迷いやすいです。",
           "en": "Tokyo has so many stations that it is easy to get lost at first, even if you look at a route map."
-        },
-        {
-          "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
-          "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
         }
       ]
     },
@@ -84654,6 +84945,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "しかし、地下鉄がいつもずっと地下にあるとは限りません。",
+          "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
+        },
+        {
           "ja": "現金で払えるレーンがあっても数は限られ、ETC専用のレーンのほうがずっと目立つことがあります。",
           "en": "Even if cash lanes exist, they are limited, and ETC-only lanes often stand out much more."
         },
@@ -84681,6 +84976,266 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": []
+    },
+    {
+      "id": "article-d69464dea9d320",
+      "level": "N3",
+      "term": "車両",
+      "reading": "しゃりょう",
+      "readingHiragana": "しゃりょう",
+      "meaning": "Rail vehicle / train car",
+      "source": "article",
+      "sourceId": "2026-07-21-train-and-subway-difference",
+      "sourceTitle": "「電車」と「地下鉄」は、何が違うのか",
+      "sourceLabel": "7/21 電車と地下鉄の違い",
+      "sourceHref": "./2026-07-21-train-and-subway-difference.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-21-train-and-subway-difference"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "いちばん簡単に言うと、電車は電気で走る車両のこと、地下鉄は都市の地下を中心に走る鉄道のことです。",
+          "en": "Both carry people, but the words differ."
+        },
+        {
+          "ja": "JRの普通列車や私鉄、地下鉄の車両も、電気で走れば電車です。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
+          "ja": "乗る車両について広く話すなら「電車」、地下鉄というネットワークや路線を言いたいなら「地下鉄」が自然です。",
+          "en": "” Use densha for the vehicle in a broad sense, and chikatetsu for the subway network or line."
+        },
+        {
+          "ja": "JR東日本は、2002年に山手線の新しい車両で、このような液晶を使う案内を始めました。",
+          "en": "JR East began this kind of LCD guidance on new Yamanote Line trains in 2002. Today, displays on trains such as the E233 series provide arrival, travel-time, exit, and delay information—a small guide for the journey."
+        },
+        {
+          "ja": "東京メトロは9路線、180駅、2,718両の車両で動いています。",
+          "en": "Tokyo Metro runs nine lines, 180 stations, and 2,718 cars."
+        }
+      ]
+    },
+    {
+      "id": "article-a78773ddee4cfc",
+      "level": "N3",
+      "term": "私鉄",
+      "reading": "してつ",
+      "readingHiragana": "してつ",
+      "meaning": "Private railway",
+      "source": "article",
+      "sourceId": "2026-07-21-train-and-subway-difference",
+      "sourceTitle": "「電車」と「地下鉄」は、何が違うのか",
+      "sourceLabel": "7/21 電車と地下鉄の違い",
+      "sourceHref": "./2026-07-21-train-and-subway-difference.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-21-train-and-subway-difference"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "JRの普通列車や私鉄、地下鉄の車両も、電気で走れば電車です。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
+          "ja": "地下の駅やトンネルが多いので、地図では地上のJRや私鉄とは別の色で書かれることがよくあります。",
+          "en": "Because these systems have many underground stations and tunnels, maps often use colors separate from JR and private railways."
+        },
+        {
+          "ja": "つまり、一つの電車が地下鉄の区間から私鉄の区間へ、そのまま走ることがあるのです。",
+          "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
+        },
+        {
+          "ja": "これは東京メトロという一つの会社の数字で、JRやほかの私鉄は入っていません。",
+          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
+        }
+      ]
+    },
+    {
+      "id": "article-a5ec59ca91da80",
+      "level": "N3",
+      "term": "地上",
+      "reading": "ちじょう",
+      "readingHiragana": "ちじょう",
+      "meaning": "Ground level / above ground",
+      "source": "article",
+      "sourceId": "2026-07-21-train-and-subway-difference",
+      "sourceTitle": "「電車」と「地下鉄」は、何が違うのか",
+      "sourceLabel": "7/21 電車と地下鉄の違い",
+      "sourceHref": "./2026-07-21-train-and-subway-difference.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-21-train-and-subway-difference"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
+          "ja": "地下の駅やトンネルが多いので、地図では地上のJRや私鉄とは別の色で書かれることがよくあります。",
+          "en": "Because these systems have many underground stations and tunnels, maps often use colors separate from JR and private railways."
+        },
+        {
+          "ja": "路線の一部が地上に出ることもあります。",
+          "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
+        },
+        {
+          "ja": "この路線は、東京港の下を通るところで、地上から40メートル近い深さまで下がります。",
+          "en": "Where the line passes under the Port of Tokyo, it descends to nearly 40 meters below the surface."
+        },
+        {
+          "ja": "この動きは浅い地震を起こしやすく、地上の建物に強い被害を出すことがあります。",
+          "en": "This movement can cause shallow earthquakes, which can heavily damage buildings on the surface."
+        }
+      ]
+    },
+    {
+      "id": "article-4c1787bb80ef9c",
+      "level": "N3",
+      "term": "路線",
+      "reading": "ろせん",
+      "readingHiragana": "ろせん",
+      "meaning": "Railway line / route",
+      "source": "article",
+      "sourceId": "2026-07-21-train-and-subway-difference",
+      "sourceTitle": "「電車」と「地下鉄」は、何が違うのか",
+      "sourceLabel": "7/21 電車と地下鉄の違い",
+      "sourceHref": "./2026-07-21-train-and-subway-difference.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-21-train-and-subway-difference"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "東京には東京メトロと都営地下鉄があり、東京メトロだけでも9路線あります。",
+          "en": "Tokyo has Tokyo Metro and Toei Subway; Tokyo Metro alone has nine lines."
+        },
+        {
+          "ja": "路線の一部が地上に出ることもあります。",
+          "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
+        },
+        {
+          "ja": "また、東京メトロの多くの路線は、ほかの会社の鉄道と相互直通運転をしています。",
+          "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
+        },
+        {
+          "ja": "乗る車両について広く話すなら「電車」、地下鉄というネットワークや路線を言いたいなら「地下鉄」が自然です。",
+          "en": "” Use densha for the vehicle in a broad sense, and chikatetsu for the subway network or line."
+        },
+        {
+          "ja": "そこには次の駅だけでなく、路線の地図や、その先の駅までの所要時間が表示されます。",
+          "en": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
+        }
+      ]
+    },
+    {
+      "id": "article-0e03df4dad62f5",
+      "level": "N3",
+      "term": "区間",
+      "reading": "くかん",
+      "readingHiragana": "くかん",
+      "meaning": "Section / segment",
+      "source": "article",
+      "sourceId": "2026-07-21-train-and-subway-difference",
+      "sourceTitle": "「電車」と「地下鉄」は、何が違うのか",
+      "sourceLabel": "7/21 電車と地下鉄の違い",
+      "sourceHref": "./2026-07-21-train-and-subway-difference.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-21-train-and-subway-difference"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "つまり、一つの電車が地下鉄の区間から私鉄の区間へ、そのまま走ることがあるのです。",
+          "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
+        },
+        {
+          "ja": "短い区間でも入口と出口が多く、流れを止めないためにETCの利用がとても重要です。",
+          "en": "Even on short stretches, there are many entrances and exits, so using ETC is very important to keep traffic moving."
+        }
+      ]
+    },
+    {
+      "id": "article-15c41526ccfbbb",
+      "level": "N3",
+      "term": "相互直通運転",
+      "reading": "そうごちょくつううんてん",
+      "readingHiragana": "そうごちょくつううんてん",
+      "meaning": "Through service between railways",
+      "source": "article",
+      "sourceId": "2026-07-21-train-and-subway-difference",
+      "sourceTitle": "「電車」と「地下鉄」は、何が違うのか",
+      "sourceLabel": "7/21 電車と地下鉄の違い",
+      "sourceHref": "./2026-07-21-train-and-subway-difference.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-21-train-and-subway-difference"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "また、東京メトロの多くの路線は、ほかの会社の鉄道と相互直通運転をしています。",
+          "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
+        }
+      ]
+    },
+    {
+      "id": "article-a130623cdcc01e",
+      "level": "N3",
+      "term": "乗り換える",
+      "reading": "のりかえる",
+      "readingHiragana": "のりかえる",
+      "meaning": "To transfer",
+      "source": "article",
+      "sourceId": "2026-07-21-train-and-subway-difference",
+      "sourceTitle": "「電車」と「地下鉄」は、何が違うのか",
+      "sourceLabel": "7/21 電車と地下鉄の違い",
+      "sourceHref": "./2026-07-21-train-and-subway-difference.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-21-train-and-subway-difference"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "会話では、「駅まで電車で行く」「地下鉄に乗り換える」のように使います。",
+          "en": "In conversation, you might say “go by train to the station” or “transfer to the subway."
+        }
+      ]
+    },
+    {
+      "id": "article-96518ce3da72cb",
+      "level": "N3",
+      "term": "条件",
+      "reading": "じょうけん",
+      "readingHiragana": "じょうけん",
+      "meaning": "Condition / criterion",
+      "source": "article",
+      "sourceId": "2026-07-21-train-and-subway-difference",
+      "sourceTitle": "「電車」と「地下鉄」は、何が違うのか",
+      "sourceLabel": "7/21 電車と地下鉄の違い",
+      "sourceHref": "./2026-07-21-train-and-subway-difference.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-21-train-and-subway-difference"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
+          "ja": "目印を見て、速度を読んで、ホームの条件も考えながら止めています。",
+          "en": "Drivers watch markers, read speed, and consider the platform conditions while stopping the train."
+        },
+        {
+          "ja": "イスラエルはこの条件を受け入れていません。",
+          "en": "Israel has not accepted this condition."
+        },
+        {
+          "ja": "買収を成功させるために、より強い条件を出したとみられています。",
+          "en": "It is seen as a move to present stronger terms and improve their chances of completing the acquisition."
+        }
+      ]
     },
     {
       "id": "article-9cd829e578c2b8",
@@ -84776,6 +85331,10 @@
         "2026-07-20-jr-in-car-travel-times"
       ],
       "exampleSentences": [
+        {
+          "ja": "会話では、「駅まで電車で行く」「地下鉄に乗り換える」のように使います。",
+          "en": "In conversation, you might say “go by train to the station” or “transfer to the subway."
+        },
         {
           "ja": "この表示は、乗り換えにも便利です。",
           "en": "It is useful for transfers too. If you know how many minutes remain before a large interchange station, you can decide whether to hurry. Some screens also show connecting lines and which side the doors will open on."
@@ -84967,6 +85526,18 @@
         "2026-07-19-tokyo-daily-train-ridership"
       ],
       "exampleSentences": [
+        {
+          "ja": "JRの普通列車や私鉄、地下鉄の車両も、電気で走れば電車です。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
+          "ja": "地下の駅やトンネルが多いので、地図では地上のJRや私鉄とは別の色で書かれることがよくあります。",
+          "en": "Because these systems have many underground stations and tunnels, maps often use colors separate from JR and private railways."
+        },
+        {
+          "ja": "つまり、一つの電車が地下鉄の区間から私鉄の区間へ、そのまま走ることがあるのです。",
+          "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
+        },
         {
           "ja": "これは東京メトロという一つの会社の数字で、JRやほかの私鉄は入っていません。",
           "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
@@ -86098,6 +86669,10 @@
         "2026-07-14-japan-v2x-usage"
       ],
       "exampleSentences": [
+        {
+          "ja": "会話では、「駅まで電車で行く」「地下鉄に乗り換える」のように使います。",
+          "en": "In conversation, you might say “go by train to the station” or “transfer to the subway."
+        },
         {
           "ja": "カーナビの画面に出る渋滞情報や規制情報の後ろには、道路と車が少しずつ会話している世界があります。",
           "en": "Behind the congestion and restriction information shown on a car navigation screen is a world where roads and cars are quietly exchanging information."
@@ -87509,6 +88084,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "いちばん簡単に言うと、電車は電気で走る車両のこと、地下鉄は都市の地下を中心に走る鉄道のことです。",
+          "en": "Both carry people, but the words differ."
+        },
+        {
           "ja": "東京の中心部へ向かうなら、まず品川へ向かう電車を探しましょう。",
           "en": "If you are heading into central Tokyo, first look for a train going toward Shinagawa."
         },
@@ -87523,10 +88102,6 @@
         {
           "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
           "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
-        },
-        {
-          "ja": "皇居は東京の中心にあり、そのまわりには約5キロのランニングコースがあります。",
-          "en": "The Imperial Palace is in the center of Tokyo, and there is a running course of about five kilometers around it."
         }
       ]
     },
@@ -87745,6 +88320,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "JRの普通列車や私鉄、地下鉄の車両も、電気で走れば電車です。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
           "ja": "品川や羽田空港などの駅では、普通、急行、エアポート急行、特急、快特などの表示を見ます。",
           "en": "At stations such as Shinagawa and Haneda Airport, you will see labels like Local, Express, Airport Express, Limited Express, and Rapid Limited Express."
         }
@@ -87926,24 +88505,24 @@
       ],
       "exampleSentences": [
         {
-          "ja": "都心の地下を通るこのネットワークは、通勤、通学、買い物、観光などを支えています。",
-          "en": "It supports commuting, school, shopping, and tourism."
+          "ja": "日本で電車に乗ろうとすると、「電車」と「地下鉄」という言葉をよく見ます。",
+          "en": "Densha means electric train."
         },
         {
-          "ja": "その理由の一つは、線路の多くがとても深い地下を通っていることです。",
-          "en": "One reason is that much of the track runs very deep underground."
+          "ja": "いちばん簡単に言うと、電車は電気で走る車両のこと、地下鉄は都市の地下を中心に走る鉄道のことです。",
+          "en": "Both carry people, but the words differ."
         },
         {
-          "ja": "すでにある地下鉄、水道や電気の設備、建物の基礎をよけながらトンネルを作るのは、とても大変でした。",
-          "en": "Building tunnels while avoiding existing subways, water and electrical infrastructure, and building foundations was extremely difficult."
+          "ja": "JRの普通列車や私鉄、地下鉄の車両も、電気で走れば電車です。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
         },
         {
-          "ja": "東京の地下鉄やJRは複雑ですが、大きな駅の位置を地図の骨組みにすると、少しずつ慣れていきます。",
-          "en": "Tokyo’s subways and JR lines are complicated, but if you treat the positions of major stations as the frame of the map, you gradually get used to it."
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
         },
         {
-          "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
-          "en": "In London, people using the Underground and buses were also advised to drink water."
+          "ja": "地下鉄は、大きな都市で使われる鉄道の名前です。",
+          "en": "Chikatetsu is the name for an urban railway system."
         }
       ]
     },
@@ -88445,6 +89024,10 @@
         "2026-06-29-tokyo-stations-map"
       ],
       "exampleSentences": [
+        {
+          "ja": "会話では、「駅まで電車で行く」「地下鉄に乗り換える」のように使います。",
+          "en": "In conversation, you might say “go by train to the station” or “transfer to the subway."
+        },
         {
           "ja": "この表示は、乗り換えにも便利です。",
           "en": "It is useful for transfers too. If you know how many minutes remain before a large interchange station, you can decide whether to hurry. Some screens also show connecting lines and which side the doors will open on."
@@ -89396,6 +89979,14 @@
       ],
       "exampleSentences": [
         {
+          "ja": "いちばん簡単に言うと、電車は電気で走る車両のこと、地下鉄は都市の地下を中心に走る鉄道のことです。",
+          "en": "Both carry people, but the words differ."
+        },
+        {
+          "ja": "地下鉄は、大きな都市で使われる鉄道の名前です。",
+          "en": "Chikatetsu is the name for an urban railway system."
+        },
+        {
           "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
           "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
         },
@@ -89406,14 +89997,6 @@
         {
           "ja": "東京は、一つのダウンタウンだけが発展した都市ではありません。",
           "en": "Tokyo is not a city where only one downtown area developed."
-        },
-        {
-          "ja": "いくつもの都市中心が鉄道でしっかり結ばれた形で広がってきました。",
-          "en": "It spread in a form where many urban centers were firmly connected by rail."
-        },
-        {
-          "ja": "このように、駅の近くに仕事や買い物や食事の場所が集まる考え方を、公共交通を中心にした都市開発と言うことができます。",
-          "en": "This idea of gathering work, shopping, and dining near stations can be described as urban development centered on public transportation."
         }
       ]
     },
@@ -90125,6 +90708,10 @@
         "2026-06-16-us-iran-peace-deal"
       ],
       "exampleSentences": [
+        {
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
         {
           "ja": "目印を見て、速度を読んで、ホームの条件も考えながら止めています。",
           "en": "Drivers watch markers, read speed, and consider the platform conditions while stopping the train."

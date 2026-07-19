@@ -1,0 +1,47 @@
+{
+  "_comment": "Publish-ready N3 explainer on the Japanese distinction between densha and chikatetsu. Exactly 5 short paragraph sections.",
+  "id": "2026-07-21-train-and-subway-difference",
+  "file": "2026-07-21-train-and-subway-difference.html",
+  "title": "「電車」と「地下鉄」は、何が違うのか",
+  "titleTranslation": "What Is the Difference Between Densha and Chikatetsu?",
+  "date": "2026年7月21日",
+  "month": "July 2026",
+  "navLabel": "7/21 電車と地下鉄の違い",
+  "level": "N3",
+  "downloadFileName": "2026-07-21-train-and-subway-difference.mp4",
+  "headlineHtml": "「<ruby>電車<rt>でんしゃ</rt></ruby>」と「<ruby>地下鉄<rt>ちかてつ</rt></ruby>」は、<ruby>何<rt>なに</rt></ruby>が<ruby>違<rt>ちが</rt></ruby>うのか",
+  "sourceNote": "JR東日本の路線案内と、東京メトロの公式情報をもとに作成した学習用ページです。東京メトロは9路線を運営し、そのうち7路線で他社との相互直通運転を行っています。ここでは日常会話での「電車」と「地下鉄」の基本的な使い分けを説明します。",
+  "paragraphs": [
+    {
+      "html": "日本で<ruby>電車<rt>でんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>ろうとすると、「<ruby>電車<rt>でんしゃ</rt></ruby>」と「<ruby>地下鉄<rt>ちかてつ</rt></ruby>」という<ruby>言葉<rt>ことば</rt></ruby>をよく<ruby>見<rt>み</rt></ruby>ます。どちらも<ruby>人<rt>ひと</rt></ruby>を<ruby>運<rt>はこ</rt></ruby>ぶ<ruby>列車<rt>れっしゃ</rt></ruby>ですが、<ruby>同<rt>おな</rt></ruby>じ<ruby>意味<rt>いみ</rt></ruby>ではありません。いちばん<ruby>簡単<rt>かんたん</rt></ruby>に<ruby>言<rt>い</rt></ruby>うと、<ruby>電車<rt>でんしゃ</rt></ruby>は<ruby>電気<rt>でんき</rt></ruby>で<ruby>走<rt>はし</rt></ruby>る<ruby>車両<rt>しゃりょう</rt></ruby>のこと、<ruby>地下鉄<rt>ちかてつ</rt></ruby>は<ruby>都市<rt>とし</rt></ruby>の<ruby>地下<rt>ちか</rt></ruby>を<ruby>中心<rt>ちゅうしん</rt></ruby>に<ruby>走<rt>はし</rt></ruby>る<ruby>鉄道<rt>てつどう</rt></ruby>のことです。",
+      "translation": "Densha means electric train. Chikatetsu is an urban railway system that mainly runs underground. Both carry people, but the words differ."
+    },
+    {
+      "html": "<ruby>電車<rt>でんしゃ</rt></ruby>という<ruby>言葉<rt>ことば</rt></ruby>は、とても<ruby>広<rt>ひろ</rt></ruby>く<ruby>使<rt>つか</rt></ruby>われます。JRの<ruby>普通<rt>ふつう</rt></ruby><ruby>列車<rt>れっしゃ</rt></ruby>や<ruby>私鉄<rt>してつ</rt></ruby>、<ruby>地下鉄<rt>ちかてつ</rt></ruby>の<ruby>車両<rt>しゃりょう</rt></ruby>も、<ruby>電気<rt>でんき</rt></ruby>で<ruby>走<rt>はし</rt></ruby>れば<ruby>電車<rt>でんしゃ</rt></ruby>です。だから「<ruby>電車<rt>でんしゃ</rt></ruby>で<ruby>行<rt>い</rt></ruby>く」と<ruby>言<rt>い</rt></ruby>うとき、JRだけを<ruby>意味<rt>いみ</rt></ruby>するわけではありません。<ruby>地上<rt>ちじょう</rt></ruby>を<ruby>走<rt>はし</rt></ruby>るか、<ruby>高<rt>たか</rt></ruby>い<ruby>場所<rt>ばしょ</rt></ruby>を<ruby>走<rt>はし</rt></ruby>るか、<ruby>地下<rt>ちか</rt></ruby>を<ruby>走<rt>はし</rt></ruby>るかも、<ruby>電車<rt>でんしゃ</rt></ruby>かどうかを<ruby>決<rt>き</rt></ruby>める<ruby>条件<rt>じょうけん</rt></ruby>ではありません。",
+      "translation": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+    },
+    {
+      "html": "<ruby>地下鉄<rt>ちかてつ</rt></ruby>は、<ruby>大<rt>おお</rt></ruby>きな<ruby>都市<rt>とし</rt></ruby>で<ruby>使<rt>つか</rt></ruby>われる<ruby>鉄道<rt>てつどう</rt></ruby>の<ruby>名前<rt>なまえ</rt></ruby>です。<ruby>東京<rt>とうきょう</rt></ruby>には<ruby>東京<rt>とうきょう</rt></ruby>メトロと<ruby>都営<rt>とえい</rt></ruby><ruby>地下鉄<rt>ちかてつ</rt></ruby>があり、<ruby>東京<rt>とうきょう</rt></ruby>メトロだけでも9<ruby>路線<rt>ろせん</rt></ruby>あります。<ruby>地下<rt>ちか</rt></ruby>の<ruby>駅<rt>えき</rt></ruby>やトンネルが<ruby>多<rt>おお</rt></ruby>いので、<ruby>地図<rt>ちず</rt></ruby>では<ruby>地上<rt>ちじょう</rt></ruby>のJRや<ruby>私鉄<rt>してつ</rt></ruby>とは<ruby>別<rt>べつ</rt></ruby>の<ruby>色<rt>いろ</rt></ruby>で<ruby>書<rt>か</rt></ruby>かれることがよくあります。",
+      "translation": "Chikatetsu is the name for an urban railway system. Tokyo has Tokyo Metro and Toei Subway; Tokyo Metro alone has nine lines. Because these systems have many underground stations and tunnels, maps often use colors separate from JR and private railways."
+    },
+    {
+      "html": "しかし、<ruby>地下鉄<rt>ちかてつ</rt></ruby>がいつもずっと<ruby>地下<rt>ちか</rt></ruby>にあるとは<ruby>限<rt>かぎ</rt></ruby>りません。<ruby>路線<rt>ろせん</rt></ruby>の<ruby>一部<rt>いちぶ</rt></ruby>が<ruby>地上<rt>ちじょう</rt></ruby>に<ruby>出<rt>で</rt></ruby>ることもあります。また、<ruby>東京<rt>とうきょう</rt></ruby>メトロの多くの<ruby>路線<rt>ろせん</rt></ruby>は、ほかの<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>鉄道<rt>てつどう</rt></ruby>と<ruby>相互直通運転<rt>そうごちょくつううんてん</rt></ruby>をしています。つまり、一つの<ruby>電車<rt>でんしゃ</rt></ruby>が<ruby>地下鉄<rt>ちかてつ</rt></ruby>の<ruby>区間<rt>くかん</rt></ruby>から<ruby>私鉄<rt>してつ</rt></ruby>の<ruby>区間<rt>くかん</rt></ruby>へ、そのまま<ruby>走<rt>はし</rt></ruby>ることがあるのです。",
+      "translation": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
+    },
+    {
+      "html": "<ruby>会話<rt>かいわ</rt></ruby>では、「<ruby>駅<rt>えき</rt></ruby>まで<ruby>電車<rt>でんしゃ</rt></ruby>で<ruby>行<rt>い</rt></ruby>く」「<ruby>地下鉄<rt>ちかてつ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>り<ruby>換<rt>か</rt></ruby>える」のように<ruby>使<rt>つか</rt></ruby>います。<ruby>乗<rt>の</rt></ruby>る<ruby>車両<rt>しゃりょう</rt></ruby>について<ruby>広<rt>ひろ</rt></ruby>く<ruby>話<rt>はな</rt></ruby>すなら「<ruby>電車<rt>でんしゃ</rt></ruby>」、<ruby>地下鉄<rt>ちかてつ</rt></ruby>というネットワークや<ruby>路線<rt>ろせん</rt></ruby>を<ruby>言<rt>い</rt></ruby>いたいなら「<ruby>地下鉄<rt>ちかてつ</rt></ruby>」が<ruby>自然<rt>しぜん</rt></ruby>です。<ruby>地下鉄<rt>ちかてつ</rt></ruby>も<ruby>電車<rt>でんしゃ</rt></ruby>の一つだと<ruby>覚<rt>おぼ</rt></ruby>えると、この二つの<ruby>言葉<rt>ことば</rt></ruby>はわかりやすくなります。",
+      "translation": "In conversation, you might say “go by train to the station” or “transfer to the subway.” Use densha for the vehicle in a broad sense, and chikatetsu for the subway network or line. Remember: a subway train is also a densha."
+    }
+  ],
+  "vocabularyTitle": "N3 Vocabulary",
+  "vocabulary": [
+    { "term": "車両（しゃりょう）", "meaning": "Rail vehicle / train car" },
+    { "term": "私鉄（してつ）", "meaning": "Private railway" },
+    { "term": "地上（ちじょう）", "meaning": "Ground level / above ground" },
+    { "term": "路線（ろせん）", "meaning": "Railway line / route" },
+    { "term": "区間（くかん）", "meaning": "Section / segment" },
+    { "term": "相互直通運転（そうごちょくつううんてん）", "meaning": "Through service between railways" },
+    { "term": "乗り換える（のりかえる）", "meaning": "To transfer" },
+    { "term": "条件（じょうけん）", "meaning": "Condition / criterion" }
+  ]
+}

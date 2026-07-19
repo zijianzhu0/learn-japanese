@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>「電車」と「地下鉄」は、何が違うのか</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <script>
+        (() => {
+            try {
+                const storedTheme = window.localStorage.getItem('learnJapanese.theme');
+                const theme = storedTheme === 'dark' || storedTheme === 'light'
+                    ? storedTheme
+                    : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                document.documentElement.dataset.theme = theme;
+                document.documentElement.style.colorScheme = theme;
+            } catch (error) {
+                document.documentElement.dataset.theme = 'light';
+                document.documentElement.style.colorScheme = 'light';
+            }
+        })();
+    </script>
+    <link rel="stylesheet" href="./assets/article.css?v=b02c94c319a7">
+</head>
+<body id="top" data-article-id="2026-07-21-train-and-subway-difference" data-recording-download-name="2026-07-21-train-and-subway-difference.mp4">
+<nav class="top-nav" aria-label="Page navigation"></nav>
+<div class="article-shell">
+    <aside class="article-sidebar" aria-label="Article navigation"></aside>
+    <main class="article-main">
+
+<div class="container">
+    <div class="date">2026年7月21日</div>
+    <div class="article-toolbar">
+        <div class="voice-controls">
+            <button class="toolbar-icon-button voice-menu-toggle" type="button" id="voice-menu-toggle" aria-expanded="false" aria-controls="voice-settings-menu" aria-label="Voice settings" data-tooltip="Voice settings">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 10v4"></path>
+                    <path d="M8 7v10"></path>
+                    <path d="M12 4v16"></path>
+                    <path d="M16 7v10"></path>
+                    <path d="M20 10v4"></path>
+                </svg>
+                <span class="icon-label">Voice settings</span>
+            </button>
+            <div class="voice-current-status" id="voice-current-status" aria-live="polite">Docker VOICEVOX</div>
+            <button class="audio-enable-button" type="button" id="enable-docker-audio" hidden>Enable audio</button>
+            <div class="voice-settings-menu" id="voice-settings-menu" hidden>
+                <label class="toolbar-label" for="browser-voice">Browser Voice</label>
+                <select class="voice-select" id="browser-voice" aria-label="Browser voice">
+                    <option value="auto" selected>Google 日本語</option>
+                </select>
+            </div>
+        </div>
+        <div class="article-actions" aria-label="Article actions">
+            <button class="toolbar-icon-button preview-button" type="button" id="preview-recording-mode" aria-label="Preview recording mode" data-tooltip="Preview recording mode">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M2 12s3.8-6 10-6 10 6 10 6-3.8 6-10 6-10-6-10-6z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+                <span class="icon-label">Preview recording mode</span>
+            </button>
+            <button class="toolbar-icon-button video-button" type="button" id="render-video" aria-label="Render video" data-tooltip="Render video" data-default-label="Render video" data-active-label="Recording">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M5 6h11a2 2 0 0 1 2 2v1l3-2v10l-3-2v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"></path>
+                    <path d="M9 10.5v3l3-1.5z"></path>
+                </svg>
+                <span class="icon-label">Render video</span>
+            </button>
+            <button class="toolbar-icon-button cover-button" type="button" id="download-cover" aria-label="Download video cover" data-tooltip="Download cover" data-default-label="Download cover" data-active-label="Rendering cover">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                    <circle cx="8.5" cy="10" r="1.5"></circle>
+                    <path d="m21 15-5-5L5 19"></path>
+                </svg>
+                <span class="icon-label">Download cover</span>
+            </button>
+            <button class="toolbar-icon-button speak-button" type="button" id="speak-japanese-article" aria-label="Read aloud" data-tooltip="Read aloud" data-default-label="Read aloud" data-active-label="Stop reading" data-loading-label="Preparing audio">
+                <svg class="toolbar-svg icon-read" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 10v4h4l5 4V6L8 10z"></path>
+                    <path d="M16 9c1.8 1.8 1.8 4.2 0 6"></path>
+                    <path d="M18.5 6.5c3.3 3.3 3.3 7.7 0 11"></path>
+                </svg>
+                <svg class="toolbar-svg icon-stop" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 8h8v8H8z"></path>
+                </svg>
+                <span class="icon-label">Read aloud</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-japanese-article" aria-label="Copy Japanese article" data-tooltip="Copy Japanese article">
+                <span class="copy-language-icon" aria-hidden="true">あ</span>
+                <span class="icon-label">Copy Japanese article</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-english-translation" aria-label="Copy English translation" data-tooltip="Copy English translation">
+                <span class="copy-language-icon" aria-hidden="true">A</span>
+                <span class="icon-label">Copy English translation</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-bilingual-article" aria-label="Copy Japanese and English article" data-tooltip="Copy Japanese and English article">
+                <span class="copy-language-icon copy-language-icon-wide" aria-hidden="true">あ/A</span>
+                <span class="icon-label">Copy Japanese and English article</span>
+            </button>
+        </div>
+    </div>
+    <div class="copy-status" id="copy-status" aria-live="polite"></div>
+    <audio class="audio-player" id="tts-player" controls hidden preload="none"></audio>
+    <h1>「<ruby>電車<rt>でんしゃ</rt></ruby>」と「<ruby>地下鉄<rt>ちかてつ</rt></ruby>」は、<ruby>何<rt>なに</rt></ruby>が<ruby>違<rt>ちが</rt></ruby>うのか</h1>
+    <div class="source-note">JR東日本の路線案内と、東京メトロの公式情報をもとに作成した学習用ページです。東京メトロは9路線を運営し、そのうち7路線で他社との相互直通運転を行っています。ここでは日常会話での「電車」と「地下鉄」の基本的な使い分けを説明します。</div>
+
+
+    <p class="article-paragraph">日本で<ruby>電車<rt>でんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>ろうとすると、「<ruby>電車<rt>でんしゃ</rt></ruby>」と「<ruby>地下鉄<rt>ちかてつ</rt></ruby>」という<ruby>言葉<rt>ことば</rt></ruby>をよく<ruby>見<rt>み</rt></ruby>ます。どちらも<ruby>人<rt>ひと</rt></ruby>を<ruby>運<rt>はこ</rt></ruby>ぶ<ruby>列車<rt>れっしゃ</rt></ruby>ですが、<ruby>同<rt>おな</rt></ruby>じ<ruby>意味<rt>いみ</rt></ruby>ではありません。いちばん<ruby>簡単<rt>かんたん</rt></ruby>に<ruby>言<rt>い</rt></ruby>うと、<ruby>電車<rt>でんしゃ</rt></ruby>は<ruby>電気<rt>でんき</rt></ruby>で<ruby>走<rt>はし</rt></ruby>る<ruby>車両<rt>しゃりょう</rt></ruby>のこと、<ruby>地下鉄<rt>ちかてつ</rt></ruby>は<ruby>都市<rt>とし</rt></ruby>の<ruby>地下<rt>ちか</rt></ruby>を<ruby>中心<rt>ちゅうしん</rt></ruby>に<ruby>走<rt>はし</rt></ruby>る<ruby>鉄道<rt>てつどう</rt></ruby>のことです。</p>
+    <div class="sentence-translation">Densha means electric train. Chikatetsu is an urban railway system that mainly runs underground. Both carry people, but the words differ.</div>
+    <p class="article-paragraph"><ruby>電車<rt>でんしゃ</rt></ruby>という<ruby>言葉<rt>ことば</rt></ruby>は、とても<ruby>広<rt>ひろ</rt></ruby>く<ruby>使<rt>つか</rt></ruby>われます。JRの<ruby>普通<rt>ふつう</rt></ruby><ruby>列車<rt>れっしゃ</rt></ruby>や<ruby>私鉄<rt>してつ</rt></ruby>、<ruby>地下鉄<rt>ちかてつ</rt></ruby>の<ruby>車両<rt>しゃりょう</rt></ruby>も、<ruby>電気<rt>でんき</rt></ruby>で<ruby>走<rt>はし</rt></ruby>れば<ruby>電車<rt>でんしゃ</rt></ruby>です。だから「<ruby>電車<rt>でんしゃ</rt></ruby>で<ruby>行<rt>い</rt></ruby>く」と<ruby>言<rt>い</rt></ruby>うとき、JRだけを<ruby>意味<rt>いみ</rt></ruby>するわけではありません。<ruby>地上<rt>ちじょう</rt></ruby>を<ruby>走<rt>はし</rt></ruby>るか、<ruby>高<rt>たか</rt></ruby>い<ruby>場所<rt>ばしょ</rt></ruby>を<ruby>走<rt>はし</rt></ruby>るか、<ruby>地下<rt>ちか</rt></ruby>を<ruby>走<rt>はし</rt></ruby>るかも、<ruby>電車<rt>でんしゃ</rt></ruby>かどうかを<ruby>決<rt>き</rt></ruby>める<ruby>条件<rt>じょうけん</rt></ruby>ではありません。</p>
+    <div class="sentence-translation">Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground.</div>
+    <p class="article-paragraph"><ruby>地下鉄<rt>ちかてつ</rt></ruby>は、<ruby>大<rt>おお</rt></ruby>きな<ruby>都市<rt>とし</rt></ruby>で<ruby>使<rt>つか</rt></ruby>われる<ruby>鉄道<rt>てつどう</rt></ruby>の<ruby>名前<rt>なまえ</rt></ruby>です。<ruby>東京<rt>とうきょう</rt></ruby>には<ruby>東京<rt>とうきょう</rt></ruby>メトロと<ruby>都営<rt>とえい</rt></ruby><ruby>地下鉄<rt>ちかてつ</rt></ruby>があり、<ruby>東京<rt>とうきょう</rt></ruby>メトロだけでも9<ruby>路線<rt>ろせん</rt></ruby>あります。<ruby>地下<rt>ちか</rt></ruby>の<ruby>駅<rt>えき</rt></ruby>やトンネルが<ruby>多<rt>おお</rt></ruby>いので、<ruby>地図<rt>ちず</rt></ruby>では<ruby>地上<rt>ちじょう</rt></ruby>のJRや<ruby>私鉄<rt>してつ</rt></ruby>とは<ruby>別<rt>べつ</rt></ruby>の<ruby>色<rt>いろ</rt></ruby>で<ruby>書<rt>か</rt></ruby>かれることがよくあります。</p>
+    <div class="sentence-translation">Chikatetsu is the name for an urban railway system. Tokyo has Tokyo Metro and Toei Subway; Tokyo Metro alone has nine lines. Because these systems have many underground stations and tunnels, maps often use colors separate from JR and private railways.</div>
+    <p class="article-paragraph">しかし、<ruby>地下鉄<rt>ちかてつ</rt></ruby>がいつもずっと<ruby>地下<rt>ちか</rt></ruby>にあるとは<ruby>限<rt>かぎ</rt></ruby>りません。<ruby>路線<rt>ろせん</rt></ruby>の<ruby>一部<rt>いちぶ</rt></ruby>が<ruby>地上<rt>ちじょう</rt></ruby>に<ruby>出<rt>で</rt></ruby>ることもあります。また、<ruby>東京<rt>とうきょう</rt></ruby>メトロの多くの<ruby>路線<rt>ろせん</rt></ruby>は、ほかの<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>鉄道<rt>てつどう</rt></ruby>と<ruby>相互直通運転<rt>そうごちょくつううんてん</rt></ruby>をしています。つまり、一つの<ruby>電車<rt>でんしゃ</rt></ruby>が<ruby>地下鉄<rt>ちかてつ</rt></ruby>の<ruby>区間<rt>くかん</rt></ruby>から<ruby>私鉄<rt>してつ</rt></ruby>の<ruby>区間<rt>くかん</rt></ruby>へ、そのまま<ruby>走<rt>はし</rt></ruby>ることがあるのです。</p>
+    <div class="sentence-translation">But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section.</div>
+    <p class="article-paragraph"><ruby>会話<rt>かいわ</rt></ruby>では、「<ruby>駅<rt>えき</rt></ruby>まで<ruby>電車<rt>でんしゃ</rt></ruby>で<ruby>行<rt>い</rt></ruby>く」「<ruby>地下鉄<rt>ちかてつ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>り<ruby>換<rt>か</rt></ruby>える」のように<ruby>使<rt>つか</rt></ruby>います。<ruby>乗<rt>の</rt></ruby>る<ruby>車両<rt>しゃりょう</rt></ruby>について<ruby>広<rt>ひろ</rt></ruby>く<ruby>話<rt>はな</rt></ruby>すなら「<ruby>電車<rt>でんしゃ</rt></ruby>」、<ruby>地下鉄<rt>ちかてつ</rt></ruby>というネットワークや<ruby>路線<rt>ろせん</rt></ruby>を<ruby>言<rt>い</rt></ruby>いたいなら「<ruby>地下鉄<rt>ちかてつ</rt></ruby>」が<ruby>自然<rt>しぜん</rt></ruby>です。<ruby>地下鉄<rt>ちかてつ</rt></ruby>も<ruby>電車<rt>でんしゃ</rt></ruby>の一つだと<ruby>覚<rt>おぼ</rt></ruby>えると、この二つの<ruby>言葉<rt>ことば</rt></ruby>はわかりやすくなります。</p>
+    <div class="sentence-translation">In conversation, you might say “go by train to the station” or “transfer to the subway.” Use densha for the vehicle in a broad sense, and chikatetsu for the subway network or line. Remember: a subway train is also a densha.</div>
+    <div class="recording-footer" aria-hidden="true">
+        <span>英訳はコメント欄にあります</span>
+        <span>2026年7月21日</span>
+    </div>
+
+<div class="study-notes-box">
+        <h2>Common Phrases and Patterns</h2>
+        <div class="study-note-group">
+            <h3>Useful phrases</h3>
+            <ul class="study-note-list">
+                <li><strong>〜ように</strong> <span>so that / in order to / in the way that</span><div class="study-note-example">Example: で行く」「地下鉄に乗り換える」のように使います</div></li>
+                <li><strong>〜だけで</strong> <span>just by / only with</span><div class="study-note-example">Example: ロと都営地下鉄があり、東京メトロだけでも9路線あります</div></li>
+            </ul>
+        </div>
+        <div class="study-note-group">
+            <h3>Verb and grammar patterns</h3>
+            <ul class="study-note-list">
+                <li><strong>〜ている</strong> <span>ongoing state / habitual action</span><div class="study-note-example">Example: かの会社の鉄道と相互直通運転をしています</div></li>
+            </ul>
+        </div>
+    </div>
+    <div class="vocabulary-box">
+        <h2>N3 Vocabulary</h2>
+        <ul>
+            <li><strong>車両（しゃりょう）:</strong> Rail vehicle / train car</li>
+            <li><strong>私鉄（してつ）:</strong> Private railway</li>
+            <li><strong>地上（ちじょう）:</strong> Ground level / above ground</li>
+            <li><strong>路線（ろせん）:</strong> Railway line / route</li>
+            <li><strong>区間（くかん）:</strong> Section / segment</li>
+            <li><strong>相互直通運転（そうごちょくつううんてん）:</strong> Through service between railways</li>
+            <li><strong>乗り換える（のりかえる）:</strong> To transfer</li>
+            <li><strong>条件（じょうけん）:</strong> Condition / criterion</li>
+        </ul>
+    </div>
+</div>
+    </main>
+</div>
+
+<script src="./assets/theme.js"></script>
+<script src="./assets/article.js?v=726492372069"></script>
+
+</body>
+</html>
