@@ -4,7 +4,7 @@
     "articleManifest": "data/articles.json"
   },
   "levels": {
-    "N3": 2085,
+    "N3": 2093,
     "N4": 536,
     "N5": 553
   },
@@ -734,6 +734,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "東京の電車は、朝から夜までたくさんの人を運んでいます。",
+          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
+        },
         {
           "ja": "朝夕のラッシュ時間は車内が混むため、できれば避けたほうが安全です。",
           "en": "Trains are crowded during the morning and evening rush hours, so avoiding those times is safer when possible."
@@ -2129,24 +2133,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京の電車は、朝から夜までたくさんの人を運んでいます。",
+          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
+        },
+        {
+          "ja": "1日に700万人以上という数字は、ホームが混む理由や、短い間隔で電車が来る理由をよく表しています。",
+          "en": "More than seven million daily journeys help explain crowded platforms and frequent trains."
+        },
+        {
+          "ja": "それでも東京メトロだけで都の人口のほぼ半分にあたる利用があることは、東京の毎日がどれほど電車と深くつながっているかを示しています。",
+          "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+        },
+        {
           "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
           "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
         },
         {
           "ja": "東京の電車に自転車をそのまま持ち込むことは、基本的にできません。",
           "en": "You generally cannot take an uncovered bicycle directly onto trains in Tokyo."
-        },
-        {
-          "ja": "電車に乗ったら、ドアの前や通路をふさがない場所を選びます。",
-          "en": "Once on the train, choose a place where the bicycle will not block the doors or aisle."
-        },
-        {
-          "ja": "電車の路線はそれぞれ別の色で表されることが多いので、黄色い出口案内は見分けやすいです。",
-          "en": "Train lines are often shown in different colors, so yellow exit guidance is easy to distinguish from them."
-        },
-        {
-          "ja": "これだけで、電車の選び方がかなり簡単になります。",
-          "en": "That alone makes choosing a train much easier."
         }
       ]
     },
@@ -2584,24 +2588,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
-          "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+          "ja": "東京メトロは9路線、180駅、2,718両の車両で動いています。",
+          "en": "Tokyo Metro runs nine lines, 180 stations, and 2,718 cars."
         },
         {
-          "ja": "それでも同じ位置に止めるのは、駅に目印と手順があるからです。",
-          "en": "Even so, trains stop in the same place because stations have markers and procedures."
+          "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
+          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
         },
         {
-          "ja": "ホームドアがある駅などでは、決まった位置により正確に止まることが特に大切です。",
-          "en": "At stations with platform doors, for example, it is especially important to stop very accurately in the planned position."
+          "ja": "新宿、池袋、東京などの大きな駅には、とくに多くの人が集まります。",
+          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
         },
         {
-          "ja": "だから、駅での停車は「最後にブレーキをかけるだけ」の仕事ではありません。",
-          "en": "So stopping at a station is not just a matter of applying the brakes at the end."
+          "ja": "ただし、この100駅には東京以外の駅もあります。",
+          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
         },
         {
-          "ja": "すると駅で紙のきっぷを受け取らなくても、改札でタッチしてそのまま入れます。",
-          "en": "Then, instead of picking up a paper ticket at the station, you can simply tap at the gate and go in."
+          "ja": "駅の利用者数を見るときは、何を数えた数字かを考えることが大切です。",
+          "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
         }
       ]
     },
@@ -3350,6 +3354,10 @@
           "meaning": "Te-form of 入る: to enter, to go into",
           "exampleSentences": [
             {
+              "ja": "これは東京メトロという一つの会社の数字で、JRやほかの私鉄は入っていません。",
+              "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
+            },
+            {
               "ja": "これは、アメリカで生まれたコンビニの考え方が、本格的に日本へ入ってきた瞬間でした。",
               "en": "That was the moment when the convenience store idea born in America entered Japan in a full-scale way."
             },
@@ -3364,10 +3372,6 @@
             {
               "ja": "このデータセットには、世界の38の都市の情報が入っています。",
               "en": "The dataset includes information from 38 cities around the world."
-            },
-            {
-              "ja": "近くにいた24歳のライフセーバーが、海へ入って女性をボードに乗せました。",
-              "en": "A 24-year-old lifesaver nearby entered the water and put the woman on a board."
             }
           ]
         },
@@ -3649,6 +3653,18 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "704万人をこの人口と比べると、約49パーセント、ほぼ半分になります。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+        },
+        {
+          "ja": "もちろん、これは「東京の半分の人が一度だけ乗る」という意味ではありません。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+        },
+        {
+          "ja": "それでも東京メトロだけで都の人口のほぼ半分にあたる利用があることは、東京の毎日がどれほど電車と深くつながっているかを示しています。",
+          "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+        },
         {
           "ja": "死者数や全壊・焼失する建物の数を、想定より半分以下に抑えることを目標にします。",
           "en": "Its goal is to cut the expected deaths and destroyed or burned buildings to less than half of the estimate."
@@ -4446,24 +4462,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "毎日のことなので簡単に見えますが、実際にはかなり細かい運転です。",
-          "en": "Because it happens every day, it looks easy, but in reality it is a very precise operation."
+          "ja": "では、1日にどのくらいの人が使うのでしょうか。",
+          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
         },
         {
-          "ja": "ホームの長さ、車両数、ブレーキの強さ、雨の日かどうかまで関係します。",
-          "en": "Platform length, number of cars, brake strength, and even whether it is raining all matter."
+          "ja": "東京メトロだけでも、2025年度には1日平均で約704万人を運びました。",
+          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
         },
         {
-          "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
-          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+          "ja": "1日に700万人以上という数字は、ホームが混む理由や、短い間隔で電車が来る理由をよく表しています。",
+          "en": "More than seven million daily journeys help explain crowded platforms and frequent trains."
         },
         {
-          "ja": "JR東日本の「新幹線eチケット」では、オンラインで予約した情報をSuicaのようなICカードに結びつけることができます。",
-          "en": "With JR East’s Shinkansen e-ticket, reservation information bought online can be linked to an IC card such as Suica."
+          "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
+          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
         },
         {
-          "ja": "こうして見ると、日本の鉄道は複雑そうでも、実際には目的に合わせて細かく選べるようになっています。",
-          "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+          "ja": "それでも東京メトロだけで都の人口のほぼ半分にあたる利用があることは、東京の毎日がどれほど電車と深くつながっているかを示しています。",
+          "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
         }
       ]
     },
@@ -4521,24 +4537,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
-          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+          "ja": "東京の電車は、朝から夜までたくさんの人を運んでいます。",
+          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
         },
         {
-          "ja": "JR東日本の「新幹線eチケット」では、オンラインで予約した情報をSuicaのようなICカードに結びつけることができます。",
-          "en": "With JR East’s Shinkansen e-ticket, reservation information bought online can be linked to an IC card such as Suica."
+          "ja": "東京メトロだけでも、2025年度には1日平均で約704万人を運びました。",
+          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
         },
         {
-          "ja": "そして1974年5月、東京の豊洲に日本での1号店が開きました。",
-          "en": "Then in May 1974, the first Japanese store opened in Toyosu, Tokyo."
+          "ja": "これは東京メトロという一つの会社の数字で、JRやほかの私鉄は入っていません。",
+          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
         },
         {
-          "ja": "東京で車を運転すると、ETCという言葉をあちこちで見かけます。",
-          "en": "When you drive in Tokyo, you see the term ETC in many places."
+          "ja": "東京都の人口は、2026年6月の推計で約1,430万人です。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
         },
         {
-          "ja": "料金が自動で計算され、車を止めずに精算できるので、東京のように交通量が多い場所ではとても効率的です。",
-          "en": "Tolls are calculated automatically, and you can pay without stopping the car, which is highly efficient in a place with as much traffic as Tokyo."
+          "ja": "もちろん、これは「東京の半分の人が一度だけ乗る」という意味ではありません。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
         }
       ]
     },
@@ -4827,24 +4843,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "最近の路線では、人だけでなく機械も手伝います。",
-          "en": "On more recent railway lines, machines help as well as people."
+          "ja": "東京の電車は、朝から夜までたくさんの人を運んでいます。",
+          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
         },
         {
-          "ja": "もちろん最後は運転士が確認しますが、人と装置の両方でずれを小さくしているわけです。",
-          "en": "Of course, the driver still makes the final check, but both people and equipment work together to keep errors small."
+          "ja": "では、1日にどのくらいの人が使うのでしょうか。",
+          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
         },
         {
-          "ja": "新幹線に乗るとき、「指定席」と「自由席」の違いがわかりにくいと感じる人は多いです。",
-          "en": "When riding the Shinkansen, many people feel that the difference between reserved and non-reserved seats is confusing."
+          "ja": "東京メトロだけでも、2025年度には1日平均で約704万人を運びました。",
+          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
         },
         {
-          "ja": "この仕組みでは、1人につき1枚のICカードが必要です。",
-          "en": "In this system, each person needs one IC card."
+          "ja": "東京都の人口は、2026年6月の推計で約1,430万人です。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
         },
         {
-          "ja": "物理的なSuicaカードを使う人もいれば、スマートフォン側のIC機能を使う人もいますが、考え方は同じです。",
-          "en": "Some people use a physical Suica card, while others use the IC function on a smartphone, but the basic idea is the same."
+          "ja": "704万人をこの人口と比べると、約49パーセント、ほぼ半分になります。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
         }
       ]
     },
@@ -4878,6 +4894,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "これは東京メトロという一つの会社の数字で、JRやほかの私鉄は入っていません。",
+          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
+        },
+        {
           "ja": "大きな転機の一つが、セブン-イレブンの登場でした。",
           "en": "One major turning point was the arrival of Seven-Eleven."
         },
@@ -4892,10 +4912,6 @@
         {
           "ja": "東京がとても便利に感じられる大きな理由の一つは、よく整った鉄道網です。",
           "en": "One big reason Tokyo feels so convenient is its well-developed rail network."
-        },
-        {
-          "ja": "東京は、一つのダウンタウンだけが発展した都市ではありません。",
-          "en": "Tokyo is not a city where only one downtown area developed."
         }
       ]
     },
@@ -4914,6 +4930,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
+          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+        },
+        {
           "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
           "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
         },
@@ -4928,10 +4948,6 @@
         {
           "ja": "今の日本では、コンビニはどこにでもある店に見えます。",
           "en": "In Japan today, convenience stores seem to be everywhere."
-        },
-        {
-          "ja": "でも、この形が最初から日本にあったわけではありません。",
-          "en": "But this style did not exist in Japan from the beginning."
         }
       ]
     },
@@ -5033,6 +5049,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "これは東京メトロという一つの会社の数字で、JRやほかの私鉄は入っていません。",
+          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
+        },
+        {
+          "ja": "もちろん、これは「東京の半分の人が一度だけ乗る」という意味ではありません。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+        },
+        {
           "ja": "そして万一まちがいがあっても、すぐに直せるように仕組みと手順が用意されています。",
           "en": "And even if a mistake happens, systems and procedures are prepared so it can be corrected safely."
         },
@@ -5043,14 +5067,6 @@
         {
           "ja": "大きな転機の一つが、セブン-イレブンの登場でした。",
           "en": "One major turning point was the arrival of Seven-Eleven."
-        },
-        {
-          "ja": "日本で車に乗っていると、前の車が一瞬だけハザードランプを光らせることがあります。",
-          "en": "When you drive in Japan, you may sometimes see the car ahead flash its hazard lights for just a moment."
-        },
-        {
-          "ja": "だからこそ、お礼として使う時もごく短く、安全を第一にすることが大切です。",
-          "en": "That is exactly why, when they are used as thanks, it should be only very brief and safety should come first."
         }
       ]
     },
@@ -5185,6 +5201,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "新宿、池袋、東京などの大きな駅には、とくに多くの人が集まります。",
+          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+        },
         {
           "ja": "山手線は、新宿、渋谷、上野、東京駅、池袋などの大きなエリアをつないでいます。",
           "en": "The Yamanote Line connects major areas such as Shinjuku, Shibuya, Ueno, Tokyo Station, and Ikebukuro."
@@ -5461,6 +5481,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "もちろん、これは「東京の半分の人が一度だけ乗る」という意味ではありません。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+        },
         {
           "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
           "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
@@ -6502,6 +6526,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "これは東京メトロという一つの会社の数字で、JRやほかの私鉄は入っていません。",
+          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
+        },
+        {
+          "ja": "会社ごとの輸送人員、駅ごとの乗車人員、乗り降りした人の合計は、同じではありません。",
+          "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+        },
+        {
           "ja": "学生も会社員も高齢者も、それぞれの理由で使う社会インフラになったのです。",
           "en": "Students, office workers, and older people all started using them for different reasons, and they became a kind of social infrastructure."
         },
@@ -6512,14 +6544,6 @@
         {
           "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
           "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
-        },
-        {
-          "ja": "京急線では、たくさんの電車がほかの鉄道会社の路線へそのまま入っていきます。",
-          "en": "On the Keikyu Line, many trains continue directly onto other railway networks."
-        },
-        {
-          "ja": "こうした駅のまわりには、買い物ができる店、会社、レストラン、遊べる場所が集まっています。",
-          "en": "Around these stations, shops, offices, restaurants, and places for entertainment are gathered together."
         }
       ]
     },
@@ -8383,24 +8407,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京都の人口は、2026年6月の推計で約1,430万人です。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+        },
+        {
+          "ja": "704万人をこの人口と比べると、約49パーセント、ほぼ半分になります。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+        },
+        {
+          "ja": "それでも東京メトロだけで都の人口のほぼ半分にあたる利用があることは、東京の毎日がどれほど電車と深くつながっているかを示しています。",
+          "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+        },
+        {
           "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
           "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
         },
         {
           "ja": "高速道路の入口だけでなく、料金所の案内や道路標識にもETCの表示が多く、はじめての人は「ここではETCが当たり前なのだ」と感じやすいです。",
           "en": "It appears not only at expressway entrances, but also on toll guidance and road signs, so first-time drivers easily feel that ETC is simply taken for granted here."
-        },
-        {
-          "ja": "短い区間でも入口と出口が多く、流れを止めないためにETCの利用がとても重要です。",
-          "en": "Even on short stretches, there are many entrances and exits, so using ETC is very important to keep traffic moving."
-        },
-        {
-          "ja": "多くの主要駅では、出口への案内に黄色が標準的に使われています。",
-          "en": "At many major stations, yellow is used as the standard color for directions to the exits."
-        },
-        {
-          "ja": "電車の路線はそれぞれ別の色で表されることが多いので、黄色い出口案内は見分けやすいです。",
-          "en": "Train lines are often shown in different colors, so yellow exit guidance is easy to distinguish from them."
         }
       ]
     },
@@ -8520,6 +8544,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "1日に700万人以上という数字は、ホームが混む理由や、短い間隔で電車が来る理由をよく表しています。",
+          "en": "More than seven million daily journeys help explain crowded platforms and frequent trains."
+        },
+        {
           "ja": "つまり、日本のV2Xは「いつか来る未来技術」というより、もう見えにくい形で働いている生活のインフラです。",
           "en": "So in Japan, V2X is less a future technology that will arrive someday and more an invisible piece of daily infrastructure that is already working."
         },
@@ -8546,6 +8574,10 @@
             {
               "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
               "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+            },
+            {
+              "ja": "1日に700万人以上という数字は、ホームが混む理由や、短い間隔で電車が来る理由をよく表しています。",
+              "en": "More than seven million daily journeys help explain crowded platforms and frequent trains."
             },
             {
               "ja": "つまり、日本のV2Xは「いつか来る未来技術」というより、もう見えにくい形で働いている生活のインフラです。",
@@ -8578,16 +8610,16 @@
               "en": "Announcements are also available in English and Chinese, making things easy for first-time visitors."
             },
             {
+              "ja": "1日に700万人以上という数字は、ホームが混む理由や、短い間隔で電車が来る理由をよく表しています。",
+              "en": "More than seven million daily journeys help explain crowded platforms and frequent trains."
+            },
+            {
               "ja": "つまり、日本のV2Xは「いつか来る未来技術」というより、もう見えにくい形で働いている生活のインフラです。",
               "en": "So in Japan, V2X is less a future technology that will arrive someday and more an invisible piece of daily infrastructure that is already working."
             },
             {
               "ja": "気象庁は、最大1メートルの津波が来る可能性があると発表しました。",
               "en": "The agency announced that waves of up to one meter could arrive."
-            },
-            {
-              "ja": "政治の場所に有名なロックバンドが来るのは少し意外ですが、文化や音楽を通して国どうしの交流を深めたいという考えもあります。",
-              "en": "It is a little surprising for a famous rock band to visit a political office, but there is also an idea of deepening ties between countries through culture and music."
             }
           ]
         },
@@ -8599,6 +8631,10 @@
           "readingHiragana": "こない",
           "meaning": "Plain negative form of 来る: to come",
           "exampleSentences": [
+            {
+              "ja": "1日に700万人以上という数字は、ホームが混む理由や、短い間隔で電車が来る理由をよく表しています。",
+              "en": "More than seven million daily journeys help explain crowded platforms and frequent trains."
+            },
             {
               "ja": "つまり、日本のV2Xは「いつか来る未来技術」というより、もう見えにくい形で働いている生活のインフラです。",
               "en": "So in Japan, V2X is less a future technology that will arrive someday and more an invisible piece of daily infrastructure that is already working."
@@ -8626,6 +8662,10 @@
               "en": "Drones can quickly check whether roads are passable and how far river water has reached."
             },
             {
+              "ja": "1日に700万人以上という数字は、ホームが混む理由や、短い間隔で電車が来る理由をよく表しています。",
+              "en": "More than seven million daily journeys help explain crowded platforms and frequent trains."
+            },
+            {
               "ja": "つまり、日本のV2Xは「いつか来る未来技術」というより、もう見えにくい形で働いている生活のインフラです。",
               "en": "So in Japan, V2X is less a future technology that will arrive someday and more an invisible piece of daily infrastructure that is already working."
             },
@@ -8647,6 +8687,10 @@
           "readingHiragana": "こられる",
           "meaning": "Potential form of 来る: to come",
           "exampleSentences": [
+            {
+              "ja": "1日に700万人以上という数字は、ホームが混む理由や、短い間隔で電車が来る理由をよく表しています。",
+              "en": "More than seven million daily journeys help explain crowded platforms and frequent trains."
+            },
             {
               "ja": "つまり、日本のV2Xは「いつか来る未来技術」というより、もう見えにくい形で働いている生活のインフラです。",
               "en": "So in Japan, V2X is less a future technology that will arrive someday and more an invisible piece of daily infrastructure that is already working."
@@ -8678,24 +8722,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
-          "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+          "ja": "東京の電車は、朝から夜までたくさんの人を運んでいます。",
+          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
         },
         {
-          "ja": "ホームの長さ、車両数、ブレーキの強さ、雨の日かどうかまで関係します。",
-          "en": "Platform length, number of cars, brake strength, and even whether it is raining all matter."
+          "ja": "東京メトロは9路線、180駅、2,718両の車両で動いています。",
+          "en": "Tokyo Metro runs nine lines, 180 stations, and 2,718 cars."
         },
         {
-          "ja": "多くのホームには、列車を止めるための停止位置目標があります。",
-          "en": "Many platforms have stopping-position markers for trains."
+          "ja": "1日に700万人以上という数字は、ホームが混む理由や、短い間隔で電車が来る理由をよく表しています。",
+          "en": "More than seven million daily journeys help explain crowded platforms and frequent trains."
         },
         {
-          "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
-          "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
+          "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
+          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
         },
         {
-          "ja": "だから、駅での停車は「最後にブレーキをかけるだけ」の仕事ではありません。",
-          "en": "So stopping at a station is not just a matter of applying the brakes at the end."
+          "ja": "会社ごとの輸送人員、駅ごとの乗車人員、乗り降りした人の合計は、同じではありません。",
+          "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
         }
       ]
     },
@@ -8926,6 +8970,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "それでも東京メトロだけで都の人口のほぼ半分にあたる利用があることは、東京の毎日がどれほど電車と深くつながっているかを示しています。",
+          "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+        },
+        {
           "ja": "毎日のことなので簡単に見えますが、実際にはかなり細かい運転です。",
           "en": "Because it happens every day, it looks easy, but in reality it is a very precise operation."
         },
@@ -8940,10 +8988,6 @@
         {
           "ja": "速さと安全性を両立しているからこそ、毎日の大きな移動が安定して続けられるのです。",
           "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
-        },
-        {
-          "ja": "毎日たくさんの人が行き交う東京の駅だからこそ、このような技術がとても自然に街へ溶け込んでいるのかもしれません。",
-          "en": "Because Tokyo stations are used by so many people every day, perhaps this kind of technology blends naturally into the city."
         }
       ]
     },
@@ -9081,24 +9125,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "そして万一まちがいがあっても、すぐに直せるように仕組みと手順が用意されています。",
-          "en": "And even if a mistake happens, systems and procedures are prepared so it can be corrected safely."
+          "ja": "東京メトロだけでも、2025年度には1日平均で約704万人を運びました。",
+          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
         },
         {
-          "ja": "何気ない色の使い方ですが、毎日何百万人もの通勤客や旅行者がこの工夫に助けられています。",
-          "en": "It is only a simple use of color, but every day hundreds of thousands of commuters and travelers are helped by this idea."
+          "ja": "東京都の人口は、2026年6月の推計で約1,430万人です。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
         },
         {
-          "ja": "毎日何百万人もの乗客が利用しているのに、多くの人はほんの一瞬で通過できます。",
-          "en": "Even though millions of passengers use them every day, most people can pass through in just a moment."
+          "ja": "704万人をこの人口と比べると、約49パーセント、ほぼ半分になります。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
         },
         {
-          "ja": "争点の一つは、国の人口を2050年まで1000万人までに抑える提案でした。",
-          "en": "One issue was a proposal to keep the country's population at no more than 10 million by 2050."
+          "ja": "1日に700万人以上という数字は、ホームが混む理由や、短い間隔で電車が来る理由をよく表しています。",
+          "en": "More than seven million daily journeys help explain crowded platforms and frequent trains."
         },
         {
-          "ja": "スイスの人口は現在およそ910万人で、2002年から大きく増えました。",
-          "en": "The proposal was promoted by the right-wing Swiss People's Party. Switzerland's population is now about 9.1 million and has grown greatly since 2002. Supporters said the burden on housing, transportation, and public services was becoming heavy."
+          "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
+          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
         }
       ]
     },
@@ -9132,6 +9176,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "また、これは乗る人だけを数えた数字です。",
+          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+        },
+        {
           "ja": "また、ハザードは本来注意や非常時のためのランプなので、長く使うものではありません。",
           "en": "Also, hazard lights are originally meant for caution or emergencies, not for long use."
         },
@@ -9146,10 +9194,6 @@
         {
           "ja": "また、ドローンで薬や水を運ぶ想定の訓練もありました。",
           "en": "There were also drills assuming drones would carry medicine and water."
-        },
-        {
-          "ja": "また、防衛だけでなく、経済や技術の分野でも協力を深めることが話題になりました。",
-          "en": "They also discussed deepening cooperation not only in defense but also in the economy and technology."
         }
       ]
     },
@@ -9500,6 +9544,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "1日に700万人以上という数字は、ホームが混む理由や、短い間隔で電車が来る理由をよく表しています。",
+          "en": "More than seven million daily journeys help explain crowded platforms and frequent trains."
+        },
+        {
           "ja": "道路の上での短いあいさつのようなものです。",
           "en": "” It is like a very short greeting on the road."
         },
@@ -9514,10 +9562,6 @@
         {
           "ja": "同じくらいの強さの地震が、近い場所で短い時間に起きることです。",
           "en": "\" It means earthquakes of similar strength happen close together in place and time."
-        },
-        {
-          "ja": "職員は、短い時間で必要な情報を伝えやすくなったと話しています。",
-          "en": "Staff say it has become easier to provide needed information in a short time."
         }
       ]
     },
@@ -9602,6 +9646,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "駅の利用者数を見るときは、何を数えた数字かを考えることが大切です。",
+          "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+        },
+        {
           "ja": "こうして見ると、日本の鉄道は複雑そうでも、実際には目的に合わせて細かく選べるようになっています。",
           "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
         },
@@ -9634,6 +9682,10 @@
               "en": "At stations such as Shinagawa and Haneda Airport, you will see labels like Local, Express, Airport Express, Limited Express, and Rapid Limited Express."
             },
             {
+              "ja": "駅の利用者数を見るときは、何を数えた数字かを考えることが大切です。",
+              "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+            },
+            {
               "ja": "こうして見ると、日本の鉄道は複雑そうでも、実際には目的に合わせて細かく選べるようになっています。",
               "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
             },
@@ -9644,10 +9696,6 @@
             {
               "ja": "先に全体を見ると、細かい線も覚えやすくなります。",
               "en": "When you look at the whole picture first, the smaller lines are easier to remember too."
-            },
-            {
-              "ja": "そのため、これからも日本が為替市場の動きを注意して見ると考えられています。",
-              "en": "Because of that, Japan is expected to keep watching movements in the foreign exchange market carefully."
             }
           ]
         },
@@ -9664,6 +9712,10 @@
               "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
             },
             {
+              "ja": "駅の利用者数を見るときは、何を数えた数字かを考えることが大切です。",
+              "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+            },
+            {
               "ja": "こうして見ると、日本の鉄道は複雑そうでも、実際には目的に合わせて細かく選べるようになっています。",
               "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
             },
@@ -9674,10 +9726,6 @@
             {
               "ja": "先に全体を見ると、細かい線も覚えやすくなります。",
               "en": "When you look at the whole picture first, the smaller lines are easier to remember too."
-            },
-            {
-              "ja": "そのため、これからも日本が為替市場の動きを注意して見ると考えられています。",
-              "en": "Because of that, Japan is expected to keep watching movements in the foreign exchange market carefully."
             }
           ]
         },
@@ -9694,6 +9742,10 @@
               "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
             },
             {
+              "ja": "駅の利用者数を見るときは、何を数えた数字かを考えることが大切です。",
+              "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+            },
+            {
               "ja": "こうして見ると、日本の鉄道は複雑そうでも、実際には目的に合わせて細かく選べるようになっています。",
               "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
             },
@@ -9704,10 +9756,6 @@
             {
               "ja": "先に全体を見ると、細かい線も覚えやすくなります。",
               "en": "When you look at the whole picture first, the smaller lines are easier to remember too."
-            },
-            {
-              "ja": "そのため、これからも日本が為替市場の動きを注意して見ると考えられています。",
-              "en": "Because of that, Japan is expected to keep watching movements in the foreign exchange market carefully."
             }
           ]
         },
@@ -9749,6 +9797,10 @@
           "readingHiragana": "みられる",
           "meaning": "Potential form of 見る: to see, to look, to watch",
           "exampleSentences": [
+            {
+              "ja": "駅の利用者数を見るときは、何を数えた数字かを考えることが大切です。",
+              "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+            },
             {
               "ja": "こうして見ると、日本の鉄道は複雑そうでも、実際には目的に合わせて細かく選べるようになっています。",
               "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
@@ -10438,6 +10490,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "駅の利用者数を見るときは、何を数えた数字かを考えることが大切です。",
+          "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+        },
+        {
           "ja": "何気ない二回の点滅は、ただのランプではなく、「わかっています、ありがとう」という返事にも見えるのです。",
           "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
         },
@@ -10452,10 +10508,6 @@
         {
           "ja": "毎日何百万人もの乗客が利用しているのに、多くの人はほんの一瞬で通過できます。",
           "en": "Even though millions of passengers use them every day, most people can pass through in just a moment."
-        },
-        {
-          "ja": "何気ない通勤の風景にも、見えにくい工夫がたくさんかくれているのです。",
-          "en": "Even in an everyday commuting scene, many hard-to-see innovations are hidden."
         }
       ]
     },
@@ -10713,6 +10765,14 @@
           "meaning": "Polite form of なる: to become",
           "exampleSentences": [
             {
+              "ja": "704万人をこの人口と比べると、約49パーセント、ほぼ半分になります。",
+              "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+            },
+            {
+              "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
+              "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+            },
+            {
               "ja": "ドライバーは画面で混み具合や通行止めを知ることができ、より楽な経路を選びやすくなります。",
               "en": "Drivers can see crowded areas and road closures on the screen and choose easier routes."
             },
@@ -10723,14 +10783,6 @@
             {
               "ja": "空港から都心へ向かうときや、郊外へ出かけるときにETCがないと、経路や支払いで不便を感じやすくなります。",
               "en": "If you do not have ETC when heading from the airport into central Tokyo or driving out to the suburbs, payment and route choices can become inconvenient."
-            },
-            {
-              "ja": "ETCを知っているだけで、東京の道路がどう動いているか、少し見えやすくなります。",
-              "en": "Just understanding ETC makes it easier to see how Tokyo’s roads actually work."
-            },
-            {
-              "ja": "どの線に乗ってきたかで頭がいっぱいでも、色だけで目的の情報をつかみやすくなります。",
-              "en": "Even if your head is full of route information, the color alone makes the information you need easier to grasp."
             }
           ]
         },
@@ -11286,24 +11338,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "もちろん、これは「東京の半分の人が一度だけ乗る」という意味ではありません。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+        },
+        {
+          "ja": "同じ人が行きと帰りで乗るので、これは利用の回数の大きさを示す比較です。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+        },
+        {
+          "ja": "また、これは乗る人だけを数えた数字です。",
+          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+        },
+        {
           "ja": "新幹線に乗るとき、「指定席」と「自由席」の違いがわかりにくいと感じる人は多いです。",
           "en": "When riding the Shinkansen, many people feel that the difference between reserved and non-reserved seats is confusing."
         },
         {
           "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
           "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
-        },
-        {
-          "ja": "駅員から乗る位置を案内された場合は、その指示に従いましょう。",
-          "en": "Follow any instructions from station staff about where to board."
-        },
-        {
-          "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
-          "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
-        },
-        {
-          "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
-          "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
         }
       ],
       "partOfSpeech": "verb",
@@ -11318,24 +11370,24 @@
           "meaning": "Polite form of 乗る: to get on (train, plane, bus, ship)",
           "exampleSentences": [
             {
+              "ja": "もちろん、これは「東京の半分の人が一度だけ乗る」という意味ではありません。",
+              "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+            },
+            {
+              "ja": "同じ人が行きと帰りで乗るので、これは利用の回数の大きさを示す比較です。",
+              "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+            },
+            {
+              "ja": "また、これは乗る人だけを数えた数字です。",
+              "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+            },
+            {
               "ja": "新幹線に乗るとき、「指定席」と「自由席」の違いがわかりにくいと感じる人は多いです。",
               "en": "When riding the Shinkansen, many people feel that the difference between reserved and non-reserved seats is confusing."
             },
             {
               "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
               "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
-            },
-            {
-              "ja": "駅員から乗る位置を案内された場合は、その指示に従いましょう。",
-              "en": "Follow any instructions from station staff about where to board."
-            },
-            {
-              "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
-              "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
-            },
-            {
-              "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
-              "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
             }
           ]
         },
@@ -11352,20 +11404,20 @@
               "en": "Once on the train, choose a place where the bicycle will not block the doors or aisle."
             },
             {
+              "ja": "もちろん、これは「東京の半分の人が一度だけ乗る」という意味ではありません。",
+              "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+            },
+            {
+              "ja": "同じ人が行きと帰りで乗るので、これは利用の回数の大きさを示す比較です。",
+              "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+            },
+            {
+              "ja": "また、これは乗る人だけを数えた数字です。",
+              "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+            },
+            {
               "ja": "新幹線に乗るとき、「指定席」と「自由席」の違いがわかりにくいと感じる人は多いです。",
               "en": "When riding the Shinkansen, many people feel that the difference between reserved and non-reserved seats is confusing."
-            },
-            {
-              "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
-              "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
-            },
-            {
-              "ja": "駅員から乗る位置を案内された場合は、その指示に従いましょう。",
-              "en": "Follow any instructions from station staff about where to board."
-            },
-            {
-              "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
-              "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
             }
           ]
         },
@@ -11378,24 +11430,24 @@
           "meaning": "Plain negative form of 乗る: to get on (train, plane, bus, ship)",
           "exampleSentences": [
             {
+              "ja": "もちろん、これは「東京の半分の人が一度だけ乗る」という意味ではありません。",
+              "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+            },
+            {
+              "ja": "同じ人が行きと帰りで乗るので、これは利用の回数の大きさを示す比較です。",
+              "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+            },
+            {
+              "ja": "また、これは乗る人だけを数えた数字です。",
+              "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+            },
+            {
               "ja": "新幹線に乗るとき、「指定席」と「自由席」の違いがわかりにくいと感じる人は多いです。",
               "en": "When riding the Shinkansen, many people feel that the difference between reserved and non-reserved seats is confusing."
             },
             {
               "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
               "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
-            },
-            {
-              "ja": "駅員から乗る位置を案内された場合は、その指示に従いましょう。",
-              "en": "Follow any instructions from station staff about where to board."
-            },
-            {
-              "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
-              "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
-            },
-            {
-              "ja": "京急線に乗る人がよくする間違いの一つは、行き先だけを見て、列車の種別を見ないことです。",
-              "en": "One common mistake people make on the Keikyu Line is looking only at the destination and not at the train type."
             }
           ]
         },
@@ -11416,16 +11468,16 @@
               "en": "Even if your head is full of route information, the color alone makes the information you need easier to grasp."
             },
             {
-              "ja": "新幹線に乗るとき、「指定席」と「自由席」の違いがわかりにくいと感じる人は多いです。",
-              "en": "When riding the Shinkansen, many people feel that the difference between reserved and non-reserved seats is confusing."
+              "ja": "もちろん、これは「東京の半分の人が一度だけ乗る」という意味ではありません。",
+              "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
             },
             {
-              "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
-              "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
+              "ja": "同じ人が行きと帰りで乗るので、これは利用の回数の大きさを示す比較です。",
+              "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
             },
             {
-              "ja": "駅員から乗る位置を案内された場合は、その指示に従いましょう。",
-              "en": "Follow any instructions from station staff about where to board."
+              "ja": "また、これは乗る人だけを数えた数字です。",
+              "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
             }
           ]
         },
@@ -11442,20 +11494,20 @@
               "en": "Recently, more ways have spread that let people ride without printing paper tickets."
             },
             {
+              "ja": "もちろん、これは「東京の半分の人が一度だけ乗る」という意味ではありません。",
+              "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+            },
+            {
+              "ja": "同じ人が行きと帰りで乗るので、これは利用の回数の大きさを示す比較です。",
+              "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+            },
+            {
+              "ja": "また、これは乗る人だけを数えた数字です。",
+              "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+            },
+            {
               "ja": "新幹線に乗るとき、「指定席」と「自由席」の違いがわかりにくいと感じる人は多いです。",
               "en": "When riding the Shinkansen, many people feel that the difference between reserved and non-reserved seats is confusing."
-            },
-            {
-              "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
-              "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
-            },
-            {
-              "ja": "駅員から乗る位置を案内された場合は、その指示に従いましょう。",
-              "en": "Follow any instructions from station staff about where to board."
-            },
-            {
-              "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
-              "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
             }
           ]
         }
@@ -12168,6 +12220,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "同じ人が行きと帰りで乗るので、これは利用の回数の大きさを示す比較です。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+        },
+        {
+          "ja": "会社ごとの輸送人員、駅ごとの乗車人員、乗り降りした人の合計は、同じではありません。",
+          "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+        },
+        {
           "ja": "それでも同じ位置に止めるのは、駅に目印と手順があるからです。",
           "en": "Even so, trains stop in the same place because stations have markers and procedures."
         },
@@ -12178,14 +12238,6 @@
         {
           "ja": "そのため、駅が混雑しているときでも、たくさんの人がほぼ同じ速さで進めます。",
           "en": "Because of that, even when a station is crowded, many people can keep moving at almost the same speed."
-        },
-        {
-          "ja": "同じ方向へ行く電車でも、止まる駅は同じではありません。",
-          "en": "Even trains going in the same direction do not all stop at the same stations."
-        },
-        {
-          "ja": "同じくらいの強さの地震が、近い場所で短い時間に起きることです。",
-          "en": "\" It means earthquakes of similar strength happen close together in place and time."
         }
       ]
     },
@@ -13997,6 +14049,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "都心の地下を通るこのネットワークは、通勤、通学、買い物、観光などを支えています。",
+          "en": "It supports commuting, school, shopping, and tourism."
+        },
+        {
           "ja": "その理由の一つは、線路の多くがとても深い地下を通っていることです。",
           "en": "One reason is that much of the track runs very deep underground."
         },
@@ -14011,10 +14067,6 @@
         {
           "ja": "だから、りんかい線の駅で長いエスカレーターを下りるときは、東京でも特に大きくてお金のかかった鉄道計画の中を移動していると考えることができます。",
           "en": "So when you ride down the long escalators at a Rinkai Line station, you can think of yourself as moving through one of Tokyo's biggest and most expensive railway projects."
-        },
-        {
-          "ja": "足の下には、東京の大規模な再開発の歴史があるのです。",
-          "en": "Beneath your feet lies the history of a major redevelopment effort."
         }
       ]
     },
@@ -14199,6 +14251,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ただし、この100駅には東京以外の駅もあります。",
+          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+        },
+        {
           "ja": "だから、セブン-イレブンが日本にコンビニを「持ってきた」と言っても、ただ外国の仕組みを運んだだけではありません。",
           "en": "So even if we say Seven-Eleven “brought” convenience stores to Japan, it did not simply carry over a foreign system unchanged."
         },
@@ -14213,10 +14269,6 @@
         {
           "ja": "タイヤやハンドルが袋の外に出ないよう確認しましょう。",
           "en": "Make sure the tires and handlebars do not stick out of the bag."
-        },
-        {
-          "ja": "車輪を外すタイプでは、工具や固定用ベルトを用意すると安心です。",
-          "en": "For bikes that require wheel removal, it is helpful to bring tools and fastening straps."
         }
       ]
     },
@@ -14502,24 +14554,24 @@
           "meaning": "Plain past form of する: to do",
           "exampleSentences": [
             {
+              "ja": "東京メトロだけでも、2025年度には1日平均で約704万人を運びました。",
+              "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
+            },
+            {
+              "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
+              "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+            },
+            {
+              "ja": "会社ごとの輸送人員、駅ごとの乗車人員、乗り降りした人の合計は、同じではありません。",
+              "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+            },
+            {
               "ja": "ただし、これは自由にやるのではなく、決められた手順にしたがって行われます。",
               "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
             },
             {
               "ja": "つまり、安心して席を確保したいか、少し気楽に乗りたいかで選び方が変わります。",
               "en": "In other words, the choice changes depending on whether you want the security of a guaranteed seat or a more flexible ride."
-            },
-            {
-              "ja": "JR東日本の「新幹線eチケット」では、オンラインで予約した情報をSuicaのようなICカードに結びつけることができます。",
-              "en": "With JR East’s Shinkansen e-ticket, reservation information bought online can be linked to an IC card such as Suica."
-            },
-            {
-              "ja": "予約した座席と「どのICカードで入るか」を先にひもづけておくのです。",
-              "en": "You link the reserved seat in advance to the IC card that will be used to enter."
-            },
-            {
-              "ja": "大きな転機の一つが、セブン-イレブンの登場でした。",
-              "en": "One major turning point was the arrival of Seven-Eleven."
             }
           ]
         },
@@ -14562,6 +14614,14 @@
           "meaning": "Te-form of する: to do",
           "exampleSentences": [
             {
+              "ja": "1日に700万人以上という数字は、ホームが混む理由や、短い間隔で電車が来る理由をよく表しています。",
+              "en": "More than seven million daily journeys help explain crowded platforms and frequent trains."
+            },
+            {
+              "ja": "それでも東京メトロだけで都の人口のほぼ半分にあたる利用があることは、東京の毎日がどれほど電車と深くつながっているかを示しています。",
+              "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+            },
+            {
               "ja": "運転士はホームに入りながらその目標を見て、スピードを落としてブレーキを調整します。",
               "en": "As the train enters the platform, the driver watches that marker, reduces speed, and adjusts the brakes."
             },
@@ -14572,14 +14632,6 @@
             {
               "ja": "状況によっては、そのままにせず、後ろへゆっくり戻して正しい位置に合わせることもあります。",
               "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
-            },
-            {
-              "ja": "そして万一まちがいがあっても、すぐに直せるように仕組みと手順が用意されています。",
-              "en": "And even if a mistake happens, systems and procedures are prepared so it can be corrected safely."
-            },
-            {
-              "ja": "つまり、安心して席を確保したいか、少し気楽に乗りたいかで選び方が変わります。",
-              "en": "In other words, the choice changes depending on whether you want the security of a guaranteed seat or a more flexible ride."
             }
           ]
         },
@@ -14952,6 +15004,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "駅の利用者数を見るときは、何を数えた数字かを考えることが大切です。",
+          "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+        },
+        {
           "ja": "ホームドアがある駅などでは、決まった位置により正確に止まることが特に大切です。",
           "en": "At stations with platform doors, for example, it is especially important to stop very accurately in the planned position."
         },
@@ -14966,10 +15022,6 @@
         {
           "ja": "旅行者がレンタカーを借りるときも、ETCは大切です。",
           "en": "ETC is also important when travelers rent a car."
-        },
-        {
-          "ja": "移動中は、他の乗客が乗り降りしやすいか確認することも大切です。",
-          "en": "During the trip, it is also important to make sure other passengers can easily get on and off."
         }
       ]
     },
@@ -15843,24 +15895,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京メトロだけでも、2025年度には1日平均で約704万人を運びました。",
+          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
+        },
+        {
+          "ja": "東京都の人口は、2026年6月の推計で約1,430万人です。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+        },
+        {
+          "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
+          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+        },
+        {
           "ja": "1973年、イトーヨーカドーはアメリカの7-Elevenを展開していたサウスランド社と提携しました。",
           "en": "In 1973, Ito-Yokado formed a partnership with Southland, the company that operated 7-Eleven in the United States."
         },
         {
           "ja": "そして1974年5月、東京の豊洲に日本での1号店が開きました。",
           "en": "Then in May 1974, the first Japanese store opened in Toyosu, Tokyo."
-        },
-        {
-          "ja": "東京マラソンも毎年このあたりから始まるため、走る場所として特別なイメージがあります。",
-          "en": "The Tokyo Marathon begins in this area every year as well, so it has a special image as a place for running."
-        },
-        {
-          "ja": "2002年に完成したとき、全体の費用は4400億円をこえていて、そのときの借金が今の運賃にも影響しています。",
-          "en": "When the line was completed in 2002, the total cost exceeded 440 billion yen, and those debts still affect fares today."
-        },
-        {
-          "ja": "りんかい線は、1990年代から2000年代のはじめにかけて、東京の臨海部を発展させるために作られました。",
-          "en": "The Rinkai Line was built to develop Tokyo's waterfront area from the 1990s into the early 2000s."
         }
       ]
     },
@@ -16188,6 +16240,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "では、1日にどのくらいの人が使うのでしょうか。",
+          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
+        },
+        {
           "ja": "物理的なSuicaカードを使う人もいれば、スマートフォン側のIC機能を使う人もいますが、考え方は同じです。",
           "en": "Some people use a physical Suica card, while others use the IC function on a smartphone, but the basic idea is the same."
         },
@@ -16202,10 +16258,6 @@
         {
           "ja": "また、ハザードは本来注意や非常時のためのランプなので、長く使うものではありません。",
           "en": "Also, hazard lights are originally meant for caution or emergencies, not for long use."
-        },
-        {
-          "ja": "だからこそ、お礼として使う時もごく短く、安全を第一にすることが大切です。",
-          "en": "That is exactly why, when they are used as thanks, it should be only very brief and safety should come first."
         }
       ],
       "partOfSpeech": "verb",
@@ -16219,6 +16271,10 @@
           "readingHiragana": "つかいます",
           "meaning": "Polite form of 使う: to use, to make use of",
           "exampleSentences": [
+            {
+              "ja": "では、1日にどのくらいの人が使うのでしょうか。",
+              "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
+            },
             {
               "ja": "物理的なSuicaカードを使う人もいれば、スマートフォン側のIC機能を使う人もいますが、考え方は同じです。",
               "en": "Some people use a physical Suica card, while others use the IC function on a smartphone, but the basic idea is the same."
@@ -16234,10 +16290,6 @@
             {
               "ja": "また、ハザードは本来注意や非常時のためのランプなので、長く使うものではありません。",
               "en": "Also, hazard lights are originally meant for caution or emergencies, not for long use."
-            },
-            {
-              "ja": "だからこそ、お礼として使う時もごく短く、安全を第一にすることが大切です。",
-              "en": "That is exactly why, when they are used as thanks, it should be only very brief and safety should come first."
             }
           ]
         },
@@ -16254,6 +16306,10 @@
               "en": "On the train, passengers are served boxed meals and tea made with local ingredients."
             },
             {
+              "ja": "では、1日にどのくらいの人が使うのでしょうか。",
+              "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
+            },
+            {
               "ja": "物理的なSuicaカードを使う人もいれば、スマートフォン側のIC機能を使う人もいますが、考え方は同じです。",
               "en": "Some people use a physical Suica card, while others use the IC function on a smartphone, but the basic idea is the same."
             },
@@ -16264,10 +16320,6 @@
             {
               "ja": "学生も会社員も高齢者も、それぞれの理由で使う社会インフラになったのです。",
               "en": "Students, office workers, and older people all started using them for different reasons, and they became a kind of social infrastructure."
-            },
-            {
-              "ja": "また、ハザードは本来注意や非常時のためのランプなので、長く使うものではありません。",
-              "en": "Also, hazard lights are originally meant for caution or emergencies, not for long use."
             }
           ]
         },
@@ -16284,6 +16336,10 @@
               "en": "Cashless payments are increasing on ferries heading to remote islands."
             },
             {
+              "ja": "では、1日にどのくらいの人が使うのでしょうか。",
+              "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
+            },
+            {
               "ja": "物理的なSuicaカードを使う人もいれば、スマートフォン側のIC機能を使う人もいますが、考え方は同じです。",
               "en": "Some people use a physical Suica card, while others use the IC function on a smartphone, but the basic idea is the same."
             },
@@ -16294,10 +16350,6 @@
             {
               "ja": "学生も会社員も高齢者も、それぞれの理由で使う社会インフラになったのです。",
               "en": "Students, office workers, and older people all started using them for different reasons, and they became a kind of social infrastructure."
-            },
-            {
-              "ja": "また、ハザードは本来注意や非常時のためのランプなので、長く使うものではありません。",
-              "en": "Also, hazard lights are originally meant for caution or emergencies, not for long use."
             }
           ]
         },
@@ -16356,8 +16408,8 @@
               "en": "Clear displays and explanations will also be needed so guests can use the system with confidence."
             },
             {
-              "ja": "物理的なSuicaカードを使う人もいれば、スマートフォン側のIC機能を使う人もいますが、考え方は同じです。",
-              "en": "Some people use a physical Suica card, while others use the IC function on a smartphone, but the basic idea is the same."
+              "ja": "では、1日にどのくらいの人が使うのでしょうか。",
+              "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
             }
           ]
         }
@@ -16801,6 +16853,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "1日に700万人以上という数字は、ホームが混む理由や、短い間隔で電車が来る理由をよく表しています。",
+          "en": "More than seven million daily journeys help explain crowded platforms and frequent trains."
+        },
+        {
+          "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
+          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+        },
+        {
           "ja": "道路の上での短いあいさつのようなものです。",
           "en": "” It is like a very short greeting on the road."
         },
@@ -16811,14 +16871,6 @@
         {
           "ja": "この仕組みを知っているだけで、新宿駅のような巨大な駅でも必要以上にこわがらなくてよくなります。",
           "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
-        },
-        {
-          "ja": "丸の内駅を歩いていたとき、点字ブロックの上に小さなQRコードがついているのを見つけました。",
-          "en": "While walking through Marunouchi Station, I noticed a small QR code attached above the tactile paving."
-        },
-        {
-          "ja": "山手線は、新宿、渋谷、上野、東京駅、池袋などの大きなエリアをつないでいます。",
-          "en": "The Yamanote Line connects major areas such as Shinjuku, Shibuya, Ueno, Tokyo Station, and Ikebukuro."
         }
       ]
     },
@@ -17399,7 +17451,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "これは東京メトロという一つの会社の数字で、JRやほかの私鉄は入っていません。",
+          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
+        }
+      ]
     },
     {
       "id": "core-abfdc2508ba514",
@@ -18081,6 +18138,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "東京の電車は、朝から夜までたくさんの人を運んでいます。",
+          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
+        },
         {
           "ja": "気象庁は6月26日の夜、台風7号「メーカラー」と台風8号「ヒーゴス」の情報を出しました。",
           "en": "On the night of June 26, the Japan Meteorological Agency released information on Typhoon No. 7, Mekkhala, and Typhoon No. 8, Higos. The two typhoons are moving at the same time over the sea south of Japan."
@@ -19048,6 +19109,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "もちろん、これは「東京の半分の人が一度だけ乗る」という意味ではありません。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+        },
         {
           "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
           "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
@@ -21472,6 +21537,10 @@
           "meaning": "Te-form of 運ぶ: to carry, to transport",
           "exampleSentences": [
             {
+              "ja": "東京の電車は、朝から夜までたくさんの人を運んでいます。",
+              "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
+            },
+            {
               "ja": "山手線は、ただ人を運ぶだけでなく、東京の街の作られ方そのものを支えているのです。",
               "en": "The Yamanote Line does not just carry people; it supports the very way Tokyo's cityscape was built."
             },
@@ -21888,6 +21957,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "都心の地下を通るこのネットワークは、通勤、通学、買い物、観光などを支えています。",
+          "en": "It supports commuting, school, shopping, and tourism."
+        },
+        {
           "ja": "日本で車に乗っていると、前の車が一瞬だけハザードランプを光らせることがあります。",
           "en": "When you drive in Japan, you may sometimes see the car ahead flash its hazard lights for just a moment."
         },
@@ -21902,10 +21975,6 @@
         {
           "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
           "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
-        },
-        {
-          "ja": "そのため、観光客でも東京のランニング文化をすぐに体験できます。",
-          "en": "Because of that, even visitors can quickly experience Tokyo’s running culture."
         }
       ]
     },
@@ -22494,7 +22563,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "もちろん、これは「東京の半分の人が一度だけ乗る」という意味ではありません。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+        }
+      ]
     },
     {
       "id": "core-4d7dfb2ebd5654",
@@ -22590,6 +22664,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "1日に700万人以上という数字は、ホームが混む理由や、短い間隔で電車が来る理由をよく表しています。",
+          "en": "More than seven million daily journeys help explain crowded platforms and frequent trains."
+        },
+        {
           "ja": "この仕組みを知っているだけで、新宿駅のような巨大な駅でも必要以上にこわがらなくてよくなります。",
           "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
         },
@@ -22604,10 +22682,6 @@
         {
           "ja": "それでも成功すれば、スウィフトはさらに5年以上観測を続けられる可能性があります。",
           "en": "Even so, if the mission succeeds, Swift may be able to continue observing for at least five more years."
-        },
-        {
-          "ja": "ロイターの記事では、ブレント原油の先物価格が3ドル以上上がり、1バレル104.",
-          "en": "The Reuters article said that Brent crude futures rose more than 3 dollars to 104."
         }
       ]
     },
@@ -23027,12 +23101,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "黄色い背景に黒い文字と矢印を組み合わせた表示は、人の多い駅でもよく目立ちます。",
-          "en": "Signs that combine a yellow background with black text and arrows stand out well even in crowded stations."
+          "ja": "これは東京メトロという一つの会社の数字で、JRやほかの私鉄は入っていません。",
+          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
         },
         {
-          "ja": "丸の内駅を歩いていたとき、点字ブロックの上に小さなQRコードがついているのを見つけました。",
-          "en": "While walking through Marunouchi Station, I noticed a small QR code attached above the tactile paving."
+          "ja": "1日に700万人以上という数字は、ホームが混む理由や、短い間隔で電車が来る理由をよく表しています。",
+          "en": "More than seven million daily journeys help explain crowded platforms and frequent trains."
+        },
+        {
+          "ja": "また、これは乗る人だけを数えた数字です。",
+          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+        },
+        {
+          "ja": "駅の利用者数を見るときは、何を数えた数字かを考えることが大切です。",
+          "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+        },
+        {
+          "ja": "黄色い背景に黒い文字と矢印を組み合わせた表示は、人の多い駅でもよく目立ちます。",
+          "en": "Signs that combine a yellow background with black text and arrows stand out well even in crowded stations."
         }
       ]
     },
@@ -23133,24 +23219,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京都の人口は、2026年6月の推計で約1,430万人です。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+        },
+        {
+          "ja": "704万人をこの人口と比べると、約49パーセント、ほぼ半分になります。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+        },
+        {
+          "ja": "それでも東京メトロだけで都の人口のほぼ半分にあたる利用があることは、東京の毎日がどれほど電車と深くつながっているかを示しています。",
+          "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+        },
+        {
           "ja": "争点の一つは、国の人口を2050年まで1000万人までに抑える提案でした。",
           "en": "One issue was a proposal to keep the country's population at no more than 10 million by 2050."
         },
         {
           "ja": "スイスの人口は現在およそ910万人で、2002年から大きく増えました。",
           "en": "The proposal was promoted by the right-wing Swiss People's Party. Switzerland's population is now about 9.1 million and has grown greatly since 2002. Supporters said the burden on housing, transportation, and public services was becoming heavy."
-        },
-        {
-          "ja": "案が通れば、人口が950万人に近づいたとき、政府は移民や難民、家族の呼び寄せを厳しく制限することになります。",
-          "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
-        },
-        {
-          "ja": "町では、人口が減り、決まった道を走るバスの利用者も少なくなっています。",
-          "en": "In the town, the population is falling, and fewer people use buses that run on fixed routes."
-        },
-        {
-          "ja": "人口や機能が集中する首都圏では、交通や物流の混乱も深刻になるとみられています。",
-          "en": "In the Tokyo metropolitan area, where people and key functions are concentrated, disruption to transport and logistics is also expected to be severe."
         }
       ]
     },
@@ -23375,7 +23461,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "同じ人が行きと帰りで乗るので、これは利用の回数の大きさを示す比較です。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+        }
+      ]
     },
     {
       "id": "core-8b9dac75445962",
@@ -23917,6 +24008,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "駅の利用者数を見るときは、何を数えた数字かを考えることが大切です。",
+          "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+        },
+        {
           "ja": "だから、車が自分だけで考えるより、道路の側が先に状況を知らせるほうが役に立ちます。",
           "en": "Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself."
         },
@@ -23931,10 +24026,6 @@
         {
           "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
           "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
-        },
-        {
-          "ja": "日本は「アメリカは本当に日本を守ってくれるのか」と考えるからです。",
-          "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
         }
       ],
       "partOfSpeech": "verb",
@@ -23949,6 +24040,10 @@
           "meaning": "Polite form of 考える: to think about",
           "exampleSentences": [
             {
+              "ja": "駅の利用者数を見るときは、何を数えた数字かを考えることが大切です。",
+              "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+            },
+            {
               "ja": "だから、車が自分だけで考えるより、道路の側が先に状況を知らせるほうが役に立ちます。",
               "en": "Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself."
             },
@@ -23963,10 +24058,6 @@
             {
               "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
               "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
-            },
-            {
-              "ja": "日本は「アメリカは本当に日本を守ってくれるのか」と考えるからです。",
-              "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
             }
           ]
         },
@@ -23979,6 +24070,10 @@
           "meaning": "Plain past form of 考える: to think about",
           "exampleSentences": [
             {
+              "ja": "駅の利用者数を見るときは、何を数えた数字かを考えることが大切です。",
+              "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+            },
+            {
               "ja": "だから、車が自分だけで考えるより、道路の側が先に状況を知らせるほうが役に立ちます。",
               "en": "Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself."
             },
@@ -23993,10 +24088,6 @@
             {
               "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
               "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
-            },
-            {
-              "ja": "日本は「アメリカは本当に日本を守ってくれるのか」と考えるからです。",
-              "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
             }
           ]
         },
@@ -24009,6 +24100,10 @@
           "meaning": "Plain negative form of 考える: to think about",
           "exampleSentences": [
             {
+              "ja": "駅の利用者数を見るときは、何を数えた数字かを考えることが大切です。",
+              "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+            },
+            {
               "ja": "だから、車が自分だけで考えるより、道路の側が先に状況を知らせるほうが役に立ちます。",
               "en": "Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself."
             },
@@ -24023,10 +24118,6 @@
             {
               "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
               "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
-            },
-            {
-              "ja": "日本は「アメリカは本当に日本を守ってくれるのか」と考えるからです。",
-              "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
             }
           ]
         },
@@ -24069,6 +24160,10 @@
           "meaning": "Potential form of 考える: to think about",
           "exampleSentences": [
             {
+              "ja": "駅の利用者数を見るときは、何を数えた数字かを考えることが大切です。",
+              "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+            },
+            {
               "ja": "だから、車が自分だけで考えるより、道路の側が先に状況を知らせるほうが役に立ちます。",
               "en": "Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself."
             },
@@ -24083,10 +24178,6 @@
             {
               "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
               "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
-            },
-            {
-              "ja": "日本は「アメリカは本当に日本を守ってくれるのか」と考えるからです。",
-              "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
             }
           ]
         }
@@ -25511,6 +25602,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "都心の地下を通るこのネットワークは、通勤、通学、買い物、観光などを支えています。",
+          "en": "It supports commuting, school, shopping, and tourism."
+        },
+        {
           "ja": "つまり、安心して席を確保したいか、少し気楽に乗りたいかで選び方が変わります。",
           "en": "In other words, the choice changes depending on whether you want the security of a guaranteed seat or a more flexible ride."
         },
@@ -25525,10 +25620,6 @@
         {
           "ja": "車輪を外すタイプでは、工具や固定用ベルトを用意すると安心です。",
           "en": "For bikes that require wheel removal, it is helpful to bring tools and fastening straps."
-        },
-        {
-          "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
-          "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
         }
       ]
     },
@@ -26353,7 +26444,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "704万人をこの人口と比べると、約49パーセント、ほぼ半分になります。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "ichidan",
       "verbForms": [
@@ -26364,7 +26460,12 @@
           "term": "比べます",
           "readingHiragana": "くらべます",
           "meaning": "Polite form of 比べる: to compare",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "704万人をこの人口と比べると、約49パーセント、ほぼ半分になります。",
+              "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+            }
+          ]
         },
         {
           "form": "past",
@@ -26373,7 +26474,12 @@
           "term": "比べた",
           "readingHiragana": "くらべた",
           "meaning": "Plain past form of 比べる: to compare",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "704万人をこの人口と比べると、約49パーセント、ほぼ半分になります。",
+              "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -26382,7 +26488,12 @@
           "term": "比べない",
           "readingHiragana": "くらべない",
           "meaning": "Plain negative form of 比べる: to compare",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "704万人をこの人口と比べると、約49パーセント、ほぼ半分になります。",
+              "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+            }
+          ]
         },
         {
           "form": "te",
@@ -26391,7 +26502,12 @@
           "term": "比べて",
           "readingHiragana": "くらべて",
           "meaning": "Te-form of 比べる: to compare",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "704万人をこの人口と比べると、約49パーセント、ほぼ半分になります。",
+              "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -26400,7 +26516,12 @@
           "term": "比べられる",
           "readingHiragana": "くらべられる",
           "meaning": "Potential form of 比べる: to compare",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "704万人をこの人口と比べると、約49パーセント、ほぼ半分になります。",
+              "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+            }
+          ]
         }
       ]
     },
@@ -27701,6 +27822,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "もちろん、これは「東京の半分の人が一度だけ乗る」という意味ではありません。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+        },
         {
           "ja": "もちろん最後は運転士が確認しますが、人と装置の両方でずれを小さくしているわけです。",
           "en": "Of course, the driver still makes the final check, but both people and equipment work together to keep errors small."
@@ -30608,6 +30733,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "1日に700万人以上という数字は、ホームが混む理由や、短い間隔で電車が来る理由をよく表しています。",
+          "en": "More than seven million daily journeys help explain crowded platforms and frequent trains."
+        },
+        {
+          "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
+          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+        },
+        {
           "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
           "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
         },
@@ -30618,14 +30751,6 @@
         {
           "ja": "高速道路の入口だけでなく、料金所の案内や道路標識にもETCの表示が多く、はじめての人は「ここではETCが当たり前なのだ」と感じやすいです。",
           "en": "It appears not only at expressway entrances, but also on toll guidance and road signs, so first-time drivers easily feel that ETC is simply taken for granted here."
-        },
-        {
-          "ja": "ETC専用、ETC一般という表示が何度も出てくるのは、その仕組みが交通を支えているからです。",
-          "en": "Signs like ETC-only and ETC/general appear again and again because this system helps support traffic flow."
-        },
-        {
-          "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
-          "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
         }
       ]
     },
@@ -31191,24 +31316,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "同じ人が行きと帰りで乗るので、これは利用の回数の大きさを示す比較です。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+        },
+        {
+          "ja": "駅の利用者数を見るときは、何を数えた数字かを考えることが大切です。",
+          "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+        },
+        {
+          "ja": "それでも東京メトロだけで都の人口のほぼ半分にあたる利用があることは、東京の毎日がどれほど電車と深くつながっているかを示しています。",
+          "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+        },
+        {
           "ja": "短い区間でも入口と出口が多く、流れを止めないためにETCの利用がとても重要です。",
           "en": "Even on short stretches, there are many entrances and exits, so using ETC is very important to keep traffic moving."
         },
         {
           "ja": "毎日何百万人もの乗客が利用しているのに、多くの人はほんの一瞬で通過できます。",
           "en": "Even though millions of passengers use them every day, most people can pass through in just a moment."
-        },
-        {
-          "ja": "利用者はカードをタッチするだけでよく、複雑な計算や確認を意識する必要はほとんどありません。",
-          "en": "Users only need to tap their card, and they hardly need to think about the complex calculations and checks happening behind the scenes."
-        },
-        {
-          "ja": "もちろん、ただ速いだけではなく、不正利用を防ぐための仕組みもしっかり組み込まれています。",
-          "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
-        },
-        {
-          "ja": "ロッカーや温かいシャワーもあるので、気軽に利用できます。",
-          "en": "There are also lockers and hot showers, so you can use it casually."
         }
       ]
     },
@@ -31227,6 +31352,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "1日に700万人以上という数字は、ホームが混む理由や、短い間隔で電車が来る理由をよく表しています。",
+          "en": "More than seven million daily journeys help explain crowded platforms and frequent trains."
+        },
+        {
           "ja": "学生も会社員も高齢者も、それぞれの理由で使う社会インフラになったのです。",
           "en": "Students, office workers, and older people all started using them for different reasons, and they became a kind of social infrastructure."
         },
@@ -31241,10 +31370,6 @@
         {
           "ja": "東京がとても便利に感じられる大きな理由の一つは、よく整った鉄道網です。",
           "en": "One big reason Tokyo feels so convenient is its well-developed rail network."
-        },
-        {
-          "ja": "その理由の一つは、線路の多くがとても深い地下を通っていることです。",
-          "en": "One reason is that much of the track runs very deep underground."
         }
       ]
     },
@@ -32229,6 +32354,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京メトロは9路線、180駅、2,718両の車両で動いています。",
+          "en": "Tokyo Metro runs nine lines, 180 stations, and 2,718 cars."
+        },
+        {
           "ja": "最近の路線では、人だけでなく機械も手伝います。",
           "en": "On more recent railway lines, machines help as well as people."
         },
@@ -32243,10 +32372,6 @@
         {
           "ja": "JR東日本の「新幹線eチケット」では、オンラインで予約した情報をSuicaのようなICカードに結びつけることができます。",
           "en": "With JR East’s Shinkansen e-ticket, reservation information bought online can be linked to an IC card such as Suica."
-        },
-        {
-          "ja": "だから、新幹線のきっぷは「紙かデジタルか」だけでなく、「指定席か自由席か」も大切です。",
-          "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
         }
       ]
     },
@@ -33391,6 +33516,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "それでも東京メトロだけで都の人口のほぼ半分にあたる利用があることは、東京の毎日がどれほど電車と深くつながっているかを示しています。",
+          "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+        },
         {
           "ja": "それでも同じ位置に止めるのは、駅に目印と手順があるからです。",
           "en": "Even so, trains stop in the same place because stations have markers and procedures."
@@ -35309,6 +35438,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "都心の地下を通るこのネットワークは、通勤、通学、買い物、観光などを支えています。",
+          "en": "It supports commuting, school, shopping, and tourism."
+        },
+        {
           "ja": "しかも、ETCはただ通るためのカードではありません。",
           "en": "Also, ETC is not just a card for passing through."
         },
@@ -35333,6 +35466,10 @@
           "meaning": "Polite form of 通る: to go by, to go past",
           "exampleSentences": [
             {
+              "ja": "都心の地下を通るこのネットワークは、通勤、通学、買い物、観光などを支えています。",
+              "en": "It supports commuting, school, shopping, and tourism."
+            },
+            {
               "ja": "しかも、ETCはただ通るためのカードではありません。",
               "en": "Also, ETC is not just a card for passing through."
             },
@@ -35355,6 +35492,10 @@
           "meaning": "Plain past form of 通る: to go by, to go past",
           "exampleSentences": [
             {
+              "ja": "都心の地下を通るこのネットワークは、通勤、通学、買い物、観光などを支えています。",
+              "en": "It supports commuting, school, shopping, and tourism."
+            },
+            {
               "ja": "しかも、ETCはただ通るためのカードではありません。",
               "en": "Also, ETC is not just a card for passing through."
             },
@@ -35376,6 +35517,10 @@
           "readingHiragana": "とおらない",
           "meaning": "Plain negative form of 通る: to go by, to go past",
           "exampleSentences": [
+            {
+              "ja": "都心の地下を通るこのネットワークは、通勤、通学、買い物、観光などを支えています。",
+              "en": "It supports commuting, school, shopping, and tourism."
+            },
             {
               "ja": "しかも、ETCはただ通るためのカードではありません。",
               "en": "Also, ETC is not just a card for passing through."
@@ -35403,6 +35548,10 @@
               "en": "One reason is that much of the track runs very deep underground."
             },
             {
+              "ja": "都心の地下を通るこのネットワークは、通勤、通学、買い物、観光などを支えています。",
+              "en": "It supports commuting, school, shopping, and tourism."
+            },
+            {
               "ja": "しかも、ETCはただ通るためのカードではありません。",
               "en": "Also, ETC is not just a card for passing through."
             },
@@ -35427,6 +35576,10 @@
             {
               "ja": "ドローンは、道路が通れるかどうかや、川の水がどこまで来ているかを、すばやく調べることができます。",
               "en": "Drones can quickly check whether roads are passable and how far river water has reached."
+            },
+            {
+              "ja": "都心の地下を通るこのネットワークは、通勤、通学、買い物、観光などを支えています。",
+              "en": "It supports commuting, school, shopping, and tourism."
             },
             {
               "ja": "しかも、ETCはただ通るためのカードではありません。",
@@ -35617,6 +35770,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京都の人口は、2026年6月の推計で約1,430万人です。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+        },
+        {
           "ja": "そして1974年5月、東京の豊洲に日本での1号店が開きました。",
           "en": "Then in May 1974, the first Japanese store opened in Toyosu, Tokyo."
         },
@@ -35631,10 +35788,6 @@
         {
           "ja": "イギリスでは、サマセットで36度を超える暑さが観測され、6月の最高気温の記録を更新しました。",
           "en": "In the United Kingdom, temperatures above 36 degrees Celsius were observed in Somerset, setting a new June temperature record."
-        },
-        {
-          "ja": "気象庁は6月26日の夜、台風7号「メーカラー」と台風8号「ヒーゴス」の情報を出しました。",
-          "en": "On the night of June 26, the Japan Meteorological Agency released information on Typhoon No. 7, Mekkhala, and Typhoon No. 8, Higos. The two typhoons are moving at the same time over the sea south of Japan."
         }
       ]
     },
@@ -36502,6 +36655,10 @@
           "readingHiragana": "うごいて",
           "meaning": "Te-form of 動く: to move, to stir, to shift",
           "exampleSentences": [
+            {
+              "ja": "東京メトロは9路線、180駅、2,718両の車両で動いています。",
+              "en": "Tokyo Metro runs nine lines, 180 stations, and 2,718 cars."
+            },
             {
               "ja": "ETCを知っているだけで、東京の道路がどう動いているか、少し見えやすくなります。",
               "en": "Just understanding ETC makes it easier to see how Tokyo’s roads actually work."
@@ -37991,24 +38148,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "同じ人が行きと帰りで乗るので、これは利用の回数の大きさを示す比較です。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+        },
+        {
+          "ja": "駅の利用者数を見るときは、何を数えた数字かを考えることが大切です。",
+          "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+        },
+        {
+          "ja": "それでも東京メトロだけで都の人口のほぼ半分にあたる利用があることは、東京の毎日がどれほど電車と深くつながっているかを示しています。",
+          "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+        },
+        {
           "ja": "そして万一まちがいがあっても、すぐに直せるように仕組みと手順が用意されています。",
           "en": "And even if a mistake happens, systems and procedures are prepared so it can be corrected safely."
         },
         {
           "ja": "V2Xが静かに広がった理由は、この実用性の高さにあります。",
           "en": "That practical value is why V2X has spread quietly."
-        },
-        {
-          "ja": "短い区間でも入口と出口が多く、流れを止めないためにETCの利用がとても重要です。",
-          "en": "Even on short stretches, there are many entrances and exits, so using ETC is very important to keep traffic moving."
-        },
-        {
-          "ja": "現金で払えるレーンがあっても数は限られ、ETC専用のレーンのほうがずっと目立つことがあります。",
-          "en": "Even if cash lanes exist, they are limited, and ETC-only lanes often stand out much more."
-        },
-        {
-          "ja": "ETC専用、ETC一般という表示が何度も出てくるのは、その仕組みが交通を支えているからです。",
-          "en": "Signs like ETC-only and ETC/general appear again and again because this system helps support traffic flow."
         }
       ]
     },
@@ -39433,7 +39590,12 @@
           "term": "表した",
           "readingHiragana": "あらわした",
           "meaning": "Plain past form of 表す: to represent, to show, to display",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
+              "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -39452,6 +39614,10 @@
           "readingHiragana": "あらわして",
           "meaning": "Te-form of 表す: to represent, to show, to display",
           "exampleSentences": [
+            {
+              "ja": "1日に700万人以上という数字は、ホームが混む理由や、短い間隔で電車が来る理由をよく表しています。",
+              "en": "More than seven million daily journeys help explain crowded platforms and frequent trains."
+            },
             {
               "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
               "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
@@ -39895,6 +40061,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "新宿、池袋、東京などの大きな駅には、とくに多くの人が集まります。",
+          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+        },
+        {
           "ja": "近くでは地元のランニンググループが集まり、いっしょにスタートすることもあります。",
           "en": "Local running groups also gather nearby and sometimes start together."
         },
@@ -40028,6 +40198,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
+          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+        },
+        {
           "ja": "状況によっては、そのままにせず、後ろへゆっくり戻して正しい位置に合わせることもあります。",
           "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
         },
@@ -40047,6 +40221,10 @@
           "readingHiragana": "あわせます",
           "meaning": "Polite form of 合わせる: to match, to join together",
           "exampleSentences": [
+            {
+              "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
+              "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+            },
             {
               "ja": "状況によっては、そのままにせず、後ろへゆっくり戻して正しい位置に合わせることもあります。",
               "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
@@ -40070,6 +40248,10 @@
               "en": "Signs that combine a yellow background with black text and arrows stand out well even in crowded stations."
             },
             {
+              "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
+              "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+            },
+            {
               "ja": "状況によっては、そのままにせず、後ろへゆっくり戻して正しい位置に合わせることもあります。",
               "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
             },
@@ -40087,6 +40269,10 @@
           "readingHiragana": "あわせない",
           "meaning": "Plain negative form of 合わせる: to match, to join together",
           "exampleSentences": [
+            {
+              "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
+              "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+            },
             {
               "ja": "状況によっては、そのままにせず、後ろへゆっくり戻して正しい位置に合わせることもあります。",
               "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
@@ -40118,12 +40304,12 @@
               "en": "Because it was reshaped to fit Japanese towns and daily life, today’s convenience store culture became possible."
             },
             {
-              "ja": "状況によっては、そのままにせず、後ろへゆっくり戻して正しい位置に合わせることもあります。",
-              "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+              "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
+              "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
             },
             {
-              "ja": "ベンチや日陰と組み合わせることで、熱中症の予防にもつなげたいとしています。",
-              "en": "By combining the mist with benches and shade, the cities also hope to help prevent heatstroke."
+              "ja": "状況によっては、そのままにせず、後ろへゆっくり戻して正しい位置に合わせることもあります。",
+              "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
             }
           ]
         },
@@ -40135,6 +40321,10 @@
           "readingHiragana": "あわせられる",
           "meaning": "Potential form of 合わせる: to match, to join together",
           "exampleSentences": [
+            {
+              "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
+              "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+            },
             {
               "ja": "状況によっては、そのままにせず、後ろへゆっくり戻して正しい位置に合わせることもあります。",
               "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
@@ -40722,24 +40912,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "704万人をこの人口と比べると、約49パーセント、ほぼ半分になります。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+        },
+        {
+          "ja": "もちろん、これは「東京の半分の人が一度だけ乗る」という意味ではありません。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+        },
+        {
+          "ja": "それでも東京メトロだけで都の人口のほぼ半分にあたる利用があることは、東京の毎日がどれほど電車と深くつながっているかを示しています。",
+          "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+        },
+        {
           "ja": "いっぽう自由席は、自由席車両の中で空いている席を自分で探します。",
           "en": "With a non-reserved seat, you look for an open seat inside the non-reserved cars."
         },
         {
           "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
           "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
-        },
-        {
-          "ja": "だから、車が自分だけで考えるより、道路の側が先に状況を知らせるほうが役に立ちます。",
-          "en": "Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself."
-        },
-        {
-          "ja": "多くの鉄道会社では、自転車を分解したり折りたたんだりして、専用の輪行袋に完全に入れる必要があります。",
-          "en": "Many railway companies require bicycles to be disassembled or folded and completely placed inside a dedicated bike transport bag."
-        },
-        {
-          "ja": "電車の路線はそれぞれ別の色で表されることが多いので、黄色い出口案内は見分けやすいです。",
-          "en": "Train lines are often shown in different colors, so yellow exit guidance is easy to distinguish from them."
         }
       ]
     },
@@ -41204,6 +41394,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "都心の地下を通るこのネットワークは、通勤、通学、買い物、観光などを支えています。",
+          "en": "It supports commuting, school, shopping, and tourism."
+        },
         {
           "ja": "その理由の一つは、線路の多くがとても深い地下を通っていることです。",
           "en": "One reason is that much of the track runs very deep underground."
@@ -42291,24 +42485,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京メトロだけでも、2025年度には1日平均で約704万人を運びました。",
+          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
+        },
+        {
+          "ja": "もちろん、これは「東京の半分の人が一度だけ乗る」という意味ではありません。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+        },
+        {
+          "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
+          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+        },
+        {
           "ja": "目印を見て、速度を読んで、ホームの条件も考えながら止めています。",
           "en": "Drivers watch markers, read speed, and consider the platform conditions while stopping the train."
         },
         {
           "ja": "ETC専用、ETC一般という表示が何度も出てくるのは、その仕組みが交通を支えているからです。",
           "en": "Signs like ETC-only and ETC/general appear again and again because this system helps support traffic flow."
-        },
-        {
-          "ja": "8度まで上がったと報じられました。",
-          "en": "8 degrees Celsius."
-        },
-        {
-          "ja": "イギリスでは、サマセットで36度を超える暑さが観測され、6月の最高気温の記録を更新しました。",
-          "en": "In the United Kingdom, temperatures above 36 degrees Celsius were observed in Somerset, setting a new June temperature record."
-        },
-        {
-          "ja": "スイスのバーゼルでは38度近くまで上がり、オランダでは初めて暑さに関する赤い警報が出されました。",
-          "en": "In Basel, Switzerland, temperatures rose close to 38 degrees Celsius, and the Netherlands issued its first red alert for heat."
         }
       ]
     },
@@ -43416,6 +43610,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "新宿、池袋、東京などの大きな駅には、とくに多くの人が集まります。",
+          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+        },
+        {
           "ja": "多くの鉄道会社では、自転車を分解したり折りたたんだりして、専用の輪行袋に完全に入れる必要があります。",
           "en": "Many railway companies require bicycles to be disassembled or folded and completely placed inside a dedicated bike transport bag."
         },
@@ -43430,10 +43628,6 @@
         {
           "ja": "車両の端などで輪行袋を手で支え、急ブレーキで倒れないようにしてください。",
           "en": "Hold the bike bag near the end of the car so it does not fall during sudden braking."
-        },
-        {
-          "ja": "駅の外に出て、広い安全な場所で輪行袋を開きます。",
-          "en": "Leave the station and open the bike bag in a spacious, safe place."
         }
       ]
     },
@@ -44201,6 +44395,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "都心の地下を通るこのネットワークは、通勤、通学、買い物、観光などを支えています。",
+          "en": "It supports commuting, school, shopping, and tourism."
+        },
+        {
           "ja": "学生も会社員も高齢者も、それぞれの理由で使う社会インフラになったのです。",
           "en": "Students, office workers, and older people all started using them for different reasons, and they became a kind of social infrastructure."
         },
@@ -44215,10 +44413,6 @@
         {
           "ja": "もともとの予定は2年間でしたが、20年以上たった今も科学のために働いています。",
           "en": "Its mission was originally planned for two years, but more than 20 years later, it is still working for science."
-        },
-        {
-          "ja": "栃木県の宇都宮市では、クマが公園や学校、図書館の近くに出て、多くの人を怖がらせました。",
-          "en": "In Utsunomiya, Tochigi Prefecture, a bear appeared near parks, schools, and a library, frightening many people."
         }
       ]
     },
@@ -44859,7 +45053,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "会社ごとの輸送人員、駅ごとの乗車人員、乗り降りした人の合計は、同じではありません。",
+          "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+        }
+      ]
     },
     {
       "id": "core-55e46d78f3555d",
@@ -46265,6 +46464,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
+          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+        },
+        {
           "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
           "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
         },
@@ -46744,7 +46947,16 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "東京メトロだけでも、2025年度には1日平均で約704万人を運びました。",
+          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
+        },
+        {
+          "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
+          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+        }
+      ]
     },
     {
       "id": "core-eb5bc0060165e0",
@@ -47258,7 +47470,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "同じ人が行きと帰りで乗るので、これは利用の回数の大きさを示す比較です。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+        }
+      ]
     },
     {
       "id": "core-3eddad0758ada4",
@@ -48604,6 +48821,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "1日に700万人以上という数字は、ホームが混む理由や、短い間隔で電車が来る理由をよく表しています。",
+          "en": "More than seven million daily journeys help explain crowded platforms and frequent trains."
+        },
+        {
+          "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
+          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+        },
+        {
           "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
           "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
         },
@@ -48614,14 +48839,6 @@
         {
           "ja": "高速道路の入口だけでなく、料金所の案内や道路標識にもETCの表示が多く、はじめての人は「ここではETCが当たり前なのだ」と感じやすいです。",
           "en": "It appears not only at expressway entrances, but also on toll guidance and road signs, so first-time drivers easily feel that ETC is simply taken for granted here."
-        },
-        {
-          "ja": "ETC専用、ETC一般という表示が何度も出てくるのは、その仕組みが交通を支えているからです。",
-          "en": "Signs like ETC-only and ETC/general appear again and again because this system helps support traffic flow."
-        },
-        {
-          "ja": "東京の大きな駅で道に迷ったときは、まず黄色い案内表示を探すといいです。",
-          "en": "If you get lost in a large Tokyo train station, it helps to look first for yellow guide signs."
         }
       ]
     },
@@ -51628,6 +51845,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "これは東京メトロという一つの会社の数字で、JRやほかの私鉄は入っていません。",
+          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
+        },
+        {
+          "ja": "会社ごとの輸送人員、駅ごとの乗車人員、乗り降りした人の合計は、同じではありません。",
+          "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+        },
+        {
           "ja": "学生も会社員も高齢者も、それぞれの理由で使う社会インフラになったのです。",
           "en": "Students, office workers, and older people all started using them for different reasons, and they became a kind of social infrastructure."
         },
@@ -51638,14 +51863,6 @@
         {
           "ja": "多くの鉄道会社では、自転車を分解したり折りたたんだりして、専用の輪行袋に完全に入れる必要があります。",
           "en": "Many railway companies require bicycles to be disassembled or folded and completely placed inside a dedicated bike transport bag."
-        },
-        {
-          "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
-          "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
-        },
-        {
-          "ja": "自分が使う機会がないと、こうした設備にはなかなか気づかないものです。",
-          "en": "If you never have a reason to use such equipment, it is easy not to notice it."
         }
       ]
     },
@@ -51664,6 +51881,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "同じ人が行きと帰りで乗るので、これは利用の回数の大きさを示す比較です。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+        },
+        {
           "ja": "たとえば、混んだ道でほかの車が少し間をあけてくれたら、その後でハザードを二回ぐらい光らせる人がいます。",
           "en": "For example, if another driver leaves a little space for you on a crowded road, some people flash their hazard lights about twice afterward."
         },
@@ -51678,10 +51899,6 @@
         {
           "ja": "30秒だけ余分に使って正しい電車を選ぶことで、あとで長い遠回りをしなくてすむかもしれません。",
           "en": "Spending just an extra 30 seconds choosing the right train may save you from a much longer detour later."
-        },
-        {
-          "ja": "この考え方ができると、毎回ルート検索に時間を取られにくくなります。",
-          "en": "Once you can think this way, you do not spend as much time on route searches every time."
         }
       ]
     },
@@ -51934,7 +52151,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "同じ人が行きと帰りで乗るので、これは利用の回数の大きさを示す比較です。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+        }
+      ]
     },
     {
       "id": "core-6c7735444e016e",
@@ -53099,6 +53321,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "1日に700万人以上という数字は、ホームが混む理由や、短い間隔で電車が来る理由をよく表しています。",
+          "en": "More than seven million daily journeys help explain crowded platforms and frequent trains."
+        },
+        {
+          "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
+          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+        },
+        {
           "ja": "道路の上での短いあいさつのようなものです。",
           "en": "” It is like a very short greeting on the road."
         },
@@ -53109,14 +53339,6 @@
         {
           "ja": "この仕組みを知っているだけで、新宿駅のような巨大な駅でも必要以上にこわがらなくてよくなります。",
           "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
-        },
-        {
-          "ja": "丸の内駅を歩いていたとき、点字ブロックの上に小さなQRコードがついているのを見つけました。",
-          "en": "While walking through Marunouchi Station, I noticed a small QR code attached above the tactile paving."
-        },
-        {
-          "ja": "山手線は、新宿、渋谷、上野、東京駅、池袋などの大きなエリアをつないでいます。",
-          "en": "The Yamanote Line connects major areas such as Shinjuku, Shibuya, Ueno, Tokyo Station, and Ikebukuro."
         }
       ]
     },
@@ -53370,6 +53592,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "駅の利用者数を見るときは、何を数えた数字かを考えることが大切です。",
+          "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+        },
+        {
           "ja": "目印を見て、速度を読んで、ホームの条件も考えながら止めています。",
           "en": "Drivers watch markers, read speed, and consider the platform conditions while stopping the train."
         },
@@ -53384,10 +53610,6 @@
         {
           "ja": "セブン&アイの資料でも、「close by convenient stores」という考え方が強く出ています。",
           "en": "Even Seven & i materials strongly use the idea of “close by convenient stores."
-        },
-        {
-          "ja": "だから、車が自分だけで考えるより、道路の側が先に状況を知らせるほうが役に立ちます。",
-          "en": "Because of that, it is often more useful for the road side to report conditions first than for the car to rely only on itself."
         }
       ]
     },
@@ -53661,7 +53883,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "1日に700万人以上という数字は、ホームが混む理由や、短い間隔で電車が来る理由をよく表しています。",
+          "en": "More than seven million daily journeys help explain crowded platforms and frequent trains."
+        }
+      ]
     },
     {
       "id": "core-6f9a5e286439b0",
@@ -53678,6 +53905,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "都心の地下を通るこのネットワークは、通勤、通学、買い物、観光などを支えています。",
+          "en": "It supports commuting, school, shopping, and tourism."
+        },
+        {
           "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
           "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
         },
@@ -53692,10 +53923,6 @@
         {
           "ja": "図書館では、観光客だけでなく、地域で生活する外国人にも役立つと考えています。",
           "en": "Libraries believe the tablets will help not only tourists but also foreign residents in the community."
-        },
-        {
-          "ja": "運営会社は、観光客が便利になるだけでなく、会計の時間が短くなると説明しています。",
-          "en": "The operator explains that this not only makes things more convenient for tourists but also shortens checkout time."
         }
       ]
     },
@@ -54831,6 +55058,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京メトロは9路線、180駅、2,718両の車両で動いています。",
+          "en": "Tokyo Metro runs nine lines, 180 stations, and 2,718 cars."
+        },
+        {
           "ja": "とても小さな行動ですが、道を少しやわらかい空気にする力があります。",
           "en": "It is a very small action, but it can make the mood on the road a little softer."
         },
@@ -54845,10 +55076,6 @@
         {
           "ja": "実際には目立つ場所に集中しているのですが、それだけ都市の車の移動に深く組み込まれています。",
           "en": "In reality, it is concentrated in highly visible places, but that shows how deeply it is built into urban car travel."
-        },
-        {
-          "ja": "ETCを知っているだけで、東京の道路がどう動いているか、少し見えやすくなります。",
-          "en": "Just understanding ETC makes it easier to see how Tokyo’s roads actually work."
         }
       ]
     },
@@ -55110,7 +55337,16 @@
           "term": "数えた",
           "readingHiragana": "かぞえた",
           "meaning": "Plain past form of 数える: to count",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "また、これは乗る人だけを数えた数字です。",
+              "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+            },
+            {
+              "ja": "駅の利用者数を見るときは、何を数えた数字かを考えることが大切です。",
+              "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -55156,24 +55392,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "ホームの長さ、車両数、ブレーキの強さ、雨の日かどうかまで関係します。",
-          "en": "Platform length, number of cars, brake strength, and even whether it is raining all matter."
+          "ja": "これは東京メトロという一つの会社の数字で、JRやほかの私鉄は入っていません。",
+          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
         },
         {
-          "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
-          "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
+          "ja": "同じ人が行きと帰りで乗るので、これは利用の回数の大きさを示す比較です。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
         },
         {
-          "ja": "現金で払えるレーンがあっても数は限られ、ETC専用のレーンのほうがずっと目立つことがあります。",
-          "en": "Even if cash lanes exist, they are limited, and ETC-only lanes often stand out much more."
+          "ja": "1日に700万人以上という数字は、ホームが混む理由や、短い間隔で電車が来る理由をよく表しています。",
+          "en": "More than seven million daily journeys help explain crowded platforms and frequent trains."
         },
         {
-          "ja": "開業日は1964年9月17日で、オリンピックが始まる10月10日より数週間前でした。",
-          "en": "It opened on September 17, 1964, only a few weeks before the Olympics began on October 10."
+          "ja": "また、これは乗る人だけを数えた数字です。",
+          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
         },
         {
-          "ja": "東京の駅は数が多くて、最初は路線図を見ても迷いやすいです。",
-          "en": "Tokyo has so many stations that it is easy to get lost at first, even if you look at a route map."
+          "ja": "駅の利用者数を見るときは、何を数えた数字かを考えることが大切です。",
+          "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
         }
       ]
     },
@@ -59329,6 +59565,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
+          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+        },
+        {
           "ja": "それでも同じ位置に止めるのは、駅に目印と手順があるからです。",
           "en": "Even so, trains stop in the same place because stations have markers and procedures."
         },
@@ -59343,10 +59583,6 @@
         {
           "ja": "そのため、定位置停止を助ける装置が使われることもあります。",
           "en": "For that reason, some lines use systems that assist fixed-position stopping."
-        },
-        {
-          "ja": "状況によっては、そのままにせず、後ろへゆっくり戻して正しい位置に合わせることもあります。",
-          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
         }
       ]
     },
@@ -62323,24 +62559,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京都の人口は、2026年6月の推計で約1,430万人です。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+        },
+        {
+          "ja": "都心の地下を通るこのネットワークは、通勤、通学、買い物、観光などを支えています。",
+          "en": "It supports commuting, school, shopping, and tourism."
+        },
+        {
+          "ja": "それでも東京メトロだけで都の人口のほぼ半分にあたる利用があることは、東京の毎日がどれほど電車と深くつながっているかを示しています。",
+          "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+        },
+        {
           "ja": "日本の道路は、都市部では入口や分岐が多く、地方でも天気や工事の影響を受けやすいです。",
           "en": "Japan’s roads have many entrances and junctions in cities, and in rural areas they are easily affected by weather and construction."
         },
         {
           "ja": "特に首都高では、その印象が強くなります。",
           "en": "That impression becomes especially strong on the Shuto Expressway."
-        },
-        {
-          "ja": "空港から都心へ向かうときや、郊外へ出かけるときにETCがないと、経路や支払いで不便を感じやすくなります。",
-          "en": "If you do not have ETC when heading from the airport into central Tokyo or driving out to the suburbs, payment and route choices can become inconvenient."
-        },
-        {
-          "ja": "実際には目立つ場所に集中しているのですが、それだけ都市の車の移動に深く組み込まれています。",
-          "en": "In reality, it is concentrated in highly visible places, but that shows how deeply it is built into urban car travel."
-        },
-        {
-          "ja": "品川に着けば、そこから山手線やほかの路線に乗り換えやすく、都心への移動がしやすくなります。",
-          "en": "Once you reach Shinagawa, it is easy to transfer to the Yamanote Line and other routes into the city center."
         }
       ]
     },
@@ -62767,6 +63003,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "駅の利用者数を見るときは、何を数えた数字かを考えることが大切です。",
+          "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+        },
+        {
           "ja": "学生も会社員も高齢者も、それぞれの理由で使う社会インフラになったのです。",
           "en": "Students, office workers, and older people all started using them for different reasons, and they became a kind of social infrastructure."
         },
@@ -62781,10 +63021,6 @@
         {
           "ja": "何気ない色の使い方ですが、毎日何百万人もの通勤客や旅行者がこの工夫に助けられています。",
           "en": "It is only a simple use of color, but every day hundreds of thousands of commuters and travelers are helped by this idea."
-        },
-        {
-          "ja": "利用者はカードをタッチするだけでよく、複雑な計算や確認を意識する必要はほとんどありません。",
-          "en": "Users only need to tap their card, and they hardly need to think about the complex calculations and checks happening behind the scenes."
         }
       ]
     },
@@ -64941,6 +65177,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
+          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+        },
+        {
           "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
           "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
         },
@@ -64955,10 +65195,6 @@
         {
           "ja": "今の日本では、コンビニはどこにでもある店に見えます。",
           "en": "In Japan today, convenience stores seem to be everywhere."
-        },
-        {
-          "ja": "でも、この形が最初から日本にあったわけではありません。",
-          "en": "But this style did not exist in Japan from the beginning."
         }
       ]
     },
@@ -68137,6 +68373,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "駅の利用者数を見るときは、何を数えた数字かを考えることが大切です。",
+          "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+        },
+        {
           "ja": "利用者はカードをタッチするだけでよく、複雑な計算や確認を意識する必要はほとんどありません。",
           "en": "Users only need to tap their card, and they hardly need to think about the complex calculations and checks happening behind the scenes."
         },
@@ -68151,10 +68391,6 @@
         {
           "ja": "利用者が安心して使えるように、わかりやすい表示や説明も必要になりそうです。",
           "en": "Clear displays and explanations will also be needed so guests can use the system with confidence."
-        },
-        {
-          "ja": "そのため、たくさんの利用者データや消費者の動きが集まっているとみられています。",
-          "en": "Because of that, it is seen as a place where a large amount of user data and consumer behavior information is gathered."
         }
       ]
     },
@@ -69474,6 +69710,10 @@
           "meaning": "Te-form of 支える: to support, to prop",
           "exampleSentences": [
             {
+              "ja": "都心の地下を通るこのネットワークは、通勤、通学、買い物、観光などを支えています。",
+              "en": "It supports commuting, school, shopping, and tourism."
+            },
+            {
               "ja": "ETC専用、ETC一般という表示が何度も出てくるのは、その仕組みが交通を支えているからです。",
               "en": "Signs like ETC-only and ETC/general appear again and again because this system helps support traffic flow."
             },
@@ -69488,10 +69728,6 @@
             {
               "ja": "豊洲の1店から始まった変化は、いまでは日本中の日常を支える当たり前の景色になっています。",
               "en": "What began with one store in Toyosu has turned into an ordinary part of life all across Japan."
-            },
-            {
-              "ja": "東京モノレールは、東京の交通を支えるだけでなく、昔の大きなイベントの記憶も今に伝えています。",
-              "en": "Tokyo Monorail not only supports transportation in Tokyo, but also carries the memory of a major event from the past into the present."
             }
           ]
         },
@@ -71663,6 +71899,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "同じ人が行きと帰りで乗るので、これは利用の回数の大きさを示す比較です。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+        },
+        {
           "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
           "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
         }
@@ -71678,6 +71918,10 @@
           "readingHiragana": "しめします",
           "meaning": "Polite form of 示す: to show, to indicate",
           "exampleSentences": [
+            {
+              "ja": "同じ人が行きと帰りで乗るので、これは利用の回数の大きさを示す比較です。",
+              "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+            },
             {
               "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
               "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
@@ -71705,6 +71949,10 @@
               "en": "The government expects that showing agreement at the top level will make future diplomacy and policy coordination easier."
             },
             {
+              "ja": "同じ人が行きと帰りで乗るので、これは利用の回数の大きさを示す比較です。",
+              "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+            },
+            {
               "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
               "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
             }
@@ -71718,6 +71966,10 @@
           "readingHiragana": "しめさない",
           "meaning": "Plain negative form of 示す: to show, to indicate",
           "exampleSentences": [
+            {
+              "ja": "同じ人が行きと帰りで乗るので、これは利用の回数の大きさを示す比較です。",
+              "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+            },
             {
               "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
               "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
@@ -71733,6 +71985,14 @@
           "meaning": "Te-form of 示す: to show, to indicate",
           "exampleSentences": [
             {
+              "ja": "それでも東京メトロだけで都の人口のほぼ半分にあたる利用があることは、東京の毎日がどれほど電車と深くつながっているかを示しています。",
+              "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+            },
+            {
+              "ja": "同じ人が行きと帰りで乗るので、これは利用の回数の大きさを示す比較です。",
+              "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+            },
+            {
               "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
               "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
             }
@@ -71746,6 +72006,10 @@
           "readingHiragana": "しめせる",
           "meaning": "Potential form of 示す: to show, to indicate",
           "exampleSentences": [
+            {
+              "ja": "同じ人が行きと帰りで乗るので、これは利用の回数の大きさを示す比較です。",
+              "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+            },
             {
               "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
               "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
@@ -75434,7 +75698,24 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "これは東京メトロという一つの会社の数字で、JRやほかの私鉄は入っていません。",
+          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
+        },
+        {
+          "ja": "1日に700万人以上という数字は、ホームが混む理由や、短い間隔で電車が来る理由をよく表しています。",
+          "en": "More than seven million daily journeys help explain crowded platforms and frequent trains."
+        },
+        {
+          "ja": "また、これは乗る人だけを数えた数字です。",
+          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+        },
+        {
+          "ja": "駅の利用者数を見るときは、何を数えた数字かを考えることが大切です。",
+          "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+        }
+      ]
     },
     {
       "id": "core-7574fcad634348",
@@ -77828,6 +78109,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "これは東京メトロという一つの会社の数字で、JRやほかの私鉄は入っていません。",
+          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
+        },
+        {
           "ja": "こうして見ると、日本の鉄道は複雑そうでも、実際には目的に合わせて細かく選べるようになっています。",
           "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
         },
@@ -77842,10 +78127,6 @@
         {
           "ja": "京急線では、たくさんの電車がほかの鉄道会社の路線へそのまま入っていきます。",
           "en": "On the Keikyu Line, many trains continue directly onto other railway networks."
-        },
-        {
-          "ja": "東京がとても便利に感じられる大きな理由の一つは、よく整った鉄道網です。",
-          "en": "One big reason Tokyo feels so convenient is its well-developed rail network."
         }
       ]
     },
@@ -79913,6 +80194,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "都心の地下を通るこのネットワークは、通勤、通学、買い物、観光などを支えています。",
+          "en": "It supports commuting, school, shopping, and tourism."
+        },
+        {
           "ja": "通勤や通学で使う人が多い場所では、とくに休める空間が必要だと考えられています。",
           "en": "In places used by many commuters and students, it is thought that rest spaces are especially necessary."
         }
@@ -80030,6 +80315,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "都心の地下を通るこのネットワークは、通勤、通学、買い物、観光などを支えています。",
+          "en": "It supports commuting, school, shopping, and tourism."
+        },
+        {
           "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
           "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
         },
@@ -80044,10 +80333,6 @@
         {
           "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
           "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
-        },
-        {
-          "ja": "通勤や出張の予定を変更する人が多く、駅や空港では最新情報を確認する姿が目立ちました。",
-          "en": "Many people changed commuting or business-trip plans, while stations and airports were filled with travelers checking the latest information."
         }
       ]
     },
@@ -80726,6 +81011,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京の電車は、朝から夜までたくさんの人を運んでいます。",
+          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
+        },
+        {
+          "ja": "東京メトロだけでも、2025年度には1日平均で約704万人を運びました。",
+          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
+        },
+        {
           "ja": "毎日のことなので簡単に見えますが、実際にはかなり細かい運転です。",
           "en": "Because it happens every day, it looks easy, but in reality it is a very precise operation."
         },
@@ -80736,14 +81029,6 @@
         {
           "ja": "もちろん最後は運転士が確認しますが、人と装置の両方でずれを小さくしているわけです。",
           "en": "Of course, the driver still makes the final check, but both people and equipment work together to keep errors small."
-        },
-        {
-          "ja": "JR東日本の案内では、新幹線に乗るには基本運賃のきっぷと、特急料金のきっぷが必要だと説明されています。",
-          "en": "JR East explains that to ride the Shinkansen, you need both a basic fare ticket and a limited express ticket. For a reserved seat, that means a reserved-seat limited express ticket. For a non-reserved seat, it means a non-reserved limited express ticket. Even if you have a non-reserved ticket, you may only sit in non-reserved cars. So it helps to check in advance which cars are non-reserved."
-        },
-        {
-          "ja": "だから、セブン-イレブンが日本にコンビニを「持ってきた」と言っても、ただ外国の仕組みを運んだだけではありません。",
-          "en": "So even if we say Seven-Eleven “brought” convenience stores to Japan, it did not simply carry over a foreign system unchanged."
         }
       ]
     },
@@ -81902,6 +82187,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "新宿、池袋、東京などの大きな駅には、とくに多くの人が集まります。",
+          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+        },
+        {
           "ja": "この仕組みを知っているだけで、新宿駅のような巨大な駅でも必要以上にこわがらなくてよくなります。",
           "en": "Just knowing this system makes even a huge station like Shinjuku feel less intimidating than before. You do not need to understand everything. If you remember that yellow means the way out, moving around becomes much less stressful."
         },
@@ -82015,24 +82304,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "東京メトロだけでも、2025年度には1日平均で約704万人を運びました。",
+          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
+        },
+        {
+          "ja": "東京都の人口は、2026年6月の推計で約1,430万人です。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+        },
+        {
+          "ja": "704万人をこの人口と比べると、約49パーセント、ほぼ半分になります。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+        },
+        {
+          "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
+          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+        },
+        {
           "ja": "JR東日本の「新幹線eチケット」では、オンラインで予約した情報をSuicaのようなICカードに結びつけることができます。",
           "en": "With JR East’s Shinkansen e-ticket, reservation information bought online can be linked to an IC card such as Suica."
-        },
-        {
-          "ja": "予約した座席と「どのICカードで入るか」を先にひもづけておくのです。",
-          "en": "You link the reserved seat in advance to the IC card that will be used to enter."
-        },
-        {
-          "ja": "皇居は東京の中心にあり、そのまわりには約5キロのランニングコースがあります。",
-          "en": "The Imperial Palace is in the center of Tokyo, and there is a running course of about five kilometers around it."
-        },
-        {
-          "ja": "首都カラカスから西へ約160キロの場所です。",
-          "en": "The epicenter was near the town of Moron on the Caribbean coast, about 160 kilometers west of the capital, Caracas. The shaking was felt across a wide area in the north, and buildings collapsed in Caracas and La Guaira."
-        },
-        {
-          "ja": "AP通信は、少なくとも188人が死亡し、約1500人がけがをしたと伝えています。",
-          "en": "The Associated Press reported that at least 188 people had died and about 1,500 were injured."
         }
       ]
     },
@@ -83169,6 +83458,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "同じ人が行きと帰りで乗るので、これは利用の回数の大きさを示す比較です。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+        },
+        {
           "ja": "それでも、ときどき少し行きすぎることがあります。",
           "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
         },
@@ -83183,10 +83476,6 @@
         {
           "ja": "表示されている最終的な行き先が聞き慣れない駅名でも、自分の目的地がその方向にあるなら、あまり心配しなくて大丈夫です。",
           "en": "Even if the final destination shown is a station name you do not recognize, it is usually fine as long as your destination is in that direction."
-        },
-        {
-          "ja": "このように、細かい列車の名前を全部覚えていなくても、まず路線のどちら側に行きたいかがわかれば、正しい電車をかなり選びやすくなります。",
-          "en": "In this way, even if you do not remember every train name, knowing which side of the line you need first makes it much easier to choose the right train."
         }
       ]
     },
@@ -84095,6 +84384,209 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": []
+    },
+    {
+      "id": "article-9f523b5aa5f8eb",
+      "level": "N3",
+      "term": "輸送人員",
+      "reading": "ゆそうじんいん",
+      "readingHiragana": "ゆそうじんいん",
+      "meaning": "Number of passengers transported",
+      "source": "article",
+      "sourceId": "2026-07-19-tokyo-daily-train-ridership",
+      "sourceTitle": "東京では毎日、何人が電車を使うのか",
+      "sourceLabel": "7/19 東京の電車利用",
+      "sourceHref": "./2026-07-19-tokyo-daily-train-ridership.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-19-tokyo-daily-train-ridership"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "会社ごとの輸送人員、駅ごとの乗車人員、乗り降りした人の合計は、同じではありません。",
+          "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+        }
+      ]
+    },
+    {
+      "id": "article-69c857e15c07f4",
+      "level": "N3",
+      "term": "推計",
+      "reading": "すいけい",
+      "readingHiragana": "すいけい",
+      "meaning": "Estimate",
+      "source": "article",
+      "sourceId": "2026-07-19-tokyo-daily-train-ridership",
+      "sourceTitle": "東京では毎日、何人が電車を使うのか",
+      "sourceLabel": "7/19 東京の電車利用",
+      "sourceHref": "./2026-07-19-tokyo-daily-train-ridership.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-19-tokyo-daily-train-ridership"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "東京都の人口は、2026年6月の推計で約1,430万人です。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+        }
+      ]
+    },
+    {
+      "id": "article-628d09440365a7",
+      "level": "N3",
+      "term": "利用回数",
+      "reading": "りようかいすう",
+      "readingHiragana": "りようかいすう",
+      "meaning": "Number of uses / journeys",
+      "source": "article",
+      "sourceId": "2026-07-19-tokyo-daily-train-ridership",
+      "sourceTitle": "東京では毎日、何人が電車を使うのか",
+      "sourceLabel": "7/19 東京の電車利用",
+      "sourceHref": "./2026-07-19-tokyo-daily-train-ridership.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-19-tokyo-daily-train-ridership"
+      ],
+      "exampleSentences": []
+    },
+    {
+      "id": "article-02014268f28f62",
+      "level": "N3",
+      "term": "私鉄",
+      "reading": "してつ",
+      "readingHiragana": "してつ",
+      "meaning": "Private railway",
+      "source": "article",
+      "sourceId": "2026-07-19-tokyo-daily-train-ridership",
+      "sourceTitle": "東京では毎日、何人が電車を使うのか",
+      "sourceLabel": "7/19 東京の電車利用",
+      "sourceHref": "./2026-07-19-tokyo-daily-train-ridership.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-19-tokyo-daily-train-ridership"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "これは東京メトロという一つの会社の数字で、JRやほかの私鉄は入っていません。",
+          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
+        }
+      ]
+    },
+    {
+      "id": "article-0a5be5f07ec750",
+      "level": "N3",
+      "term": "通勤",
+      "reading": "つうきん",
+      "readingHiragana": "つうきん",
+      "meaning": "Commuting to work",
+      "source": "article",
+      "sourceId": "2026-07-19-tokyo-daily-train-ridership",
+      "sourceTitle": "東京では毎日、何人が電車を使うのか",
+      "sourceLabel": "7/19 東京の電車利用",
+      "sourceHref": "./2026-07-19-tokyo-daily-train-ridership.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-19-tokyo-daily-train-ridership"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "都心の地下を通るこのネットワークは、通勤、通学、買い物、観光などを支えています。",
+          "en": "It supports commuting, school, shopping, and tourism."
+        },
+        {
+          "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
+          "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
+        },
+        {
+          "ja": "何気ない色の使い方ですが、毎日何百万人もの通勤客や旅行者がこの工夫に助けられています。",
+          "en": "It is only a simple use of color, but every day hundreds of thousands of commuters and travelers are helped by this idea."
+        },
+        {
+          "ja": "何気ない通勤の風景にも、見えにくい工夫がたくさんかくれているのです。",
+          "en": "Even in an everyday commuting scene, many hard-to-see innovations are hidden."
+        },
+        {
+          "ja": "空港へ向かう旅行者だけでなく、通勤する人も利用していて、今も実用的です。",
+          "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
+        }
+      ]
+    },
+    {
+      "id": "article-0731e60920a1de",
+      "level": "N3",
+      "term": "間隔",
+      "reading": "かんかく",
+      "readingHiragana": "かんかく",
+      "meaning": "Interval",
+      "source": "article",
+      "sourceId": "2026-07-19-tokyo-daily-train-ridership",
+      "sourceTitle": "東京では毎日、何人が電車を使うのか",
+      "sourceLabel": "7/19 東京の電車利用",
+      "sourceHref": "./2026-07-19-tokyo-daily-train-ridership.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-19-tokyo-daily-train-ridership"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "1日に700万人以上という数字は、ホームが混む理由や、短い間隔で電車が来る理由をよく表しています。",
+          "en": "More than seven million daily journeys help explain crowded platforms and frequent trains."
+        }
+      ]
+    },
+    {
+      "id": "article-ed0904fc62cdb2",
+      "level": "N3",
+      "term": "乗車人員",
+      "reading": "じょうしゃじんいん",
+      "readingHiragana": "じょうしゃじんいん",
+      "meaning": "Number of boardings",
+      "source": "article",
+      "sourceId": "2026-07-19-tokyo-daily-train-ridership",
+      "sourceTitle": "東京では毎日、何人が電車を使うのか",
+      "sourceLabel": "7/19 東京の電車利用",
+      "sourceHref": "./2026-07-19-tokyo-daily-train-ridership.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-19-tokyo-daily-train-ridership"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
+          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+        },
+        {
+          "ja": "会社ごとの輸送人員、駅ごとの乗車人員、乗り降りした人の合計は、同じではありません。",
+          "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+        }
+      ]
+    },
+    {
+      "id": "article-f53279b1d01636",
+      "level": "N3",
+      "term": "乗り降り",
+      "reading": "のりおり",
+      "readingHiragana": "のりおり",
+      "meaning": "Getting on and off",
+      "source": "article",
+      "sourceId": "2026-07-19-tokyo-daily-train-ridership",
+      "sourceTitle": "東京では毎日、何人が電車を使うのか",
+      "sourceLabel": "7/19 東京の電車利用",
+      "sourceHref": "./2026-07-19-tokyo-daily-train-ridership.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-19-tokyo-daily-train-ridership"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "会社ごとの輸送人員、駅ごとの乗車人員、乗り降りした人の合計は、同じではありません。",
+          "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+        },
+        {
+          "ja": "移動中は、他の乗客が乗り降りしやすいか確認することも大切です。",
+          "en": "During the trip, it is also important to make sure other passengers can easily get on and off."
+        }
+      ]
     },
     {
       "id": "article-4db921ba56cd03",
@@ -86640,16 +87132,16 @@
           "en": "The idea is to share equipment that is too expensive for one person to own alone."
         },
         {
-          "ja": "短い区間でも入口と出口が多く、流れを止めないためにETCの利用がとても重要です。",
-          "en": "Even on short stretches, there are many entrances and exits, so using ETC is very important to keep traffic moving."
+          "ja": "同じ人が行きと帰りで乗るので、これは利用の回数の大きさを示す比較です。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
         },
         {
-          "ja": "毎日何百万人もの乗客が利用しているのに、多くの人はほんの一瞬で通過できます。",
-          "en": "Even though millions of passengers use them every day, most people can pass through in just a moment."
+          "ja": "駅の利用者数を見るときは、何を数えた数字かを考えることが大切です。",
+          "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
         },
         {
-          "ja": "利用者はカードをタッチするだけでよく、複雑な計算や確認を意識する必要はほとんどありません。",
-          "en": "Users only need to tap their card, and they hardly need to think about the complex calculations and checks happening behind the scenes."
+          "ja": "それでも東京メトロだけで都の人口のほぼ半分にあたる利用があることは、東京の毎日がどれほど電車と深くつながっているかを示しています。",
+          "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
         }
       ]
     },
@@ -86933,6 +87425,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "都心の地下を通るこのネットワークは、通勤、通学、買い物、観光などを支えています。",
+          "en": "It supports commuting, school, shopping, and tourism."
+        },
+        {
           "ja": "その理由の一つは、線路の多くがとても深い地下を通っていることです。",
           "en": "One reason is that much of the track runs very deep underground."
         },
@@ -87211,6 +87707,10 @@
           "en": "It is used not only by travelers heading to the airport, but also by commuters, so it remains practical today."
         },
         {
+          "ja": "都心の地下を通るこのネットワークは、通勤、通学、買い物、観光などを支えています。",
+          "en": "It supports commuting, school, shopping, and tourism."
+        },
+        {
           "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
           "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
         },
@@ -87221,10 +87721,6 @@
         {
           "ja": "何気ない通勤の風景にも、見えにくい工夫がたくさんかくれているのです。",
           "en": "Even in an everyday commuting scene, many hard-to-see innovations are hidden."
-        },
-        {
-          "ja": "通勤や出張の予定を変更する人が多く、駅や空港では最新情報を確認する姿が目立ちました。",
-          "en": "Many people changed commuting or business-trip plans, while stations and airports were filled with travelers checking the latest information."
         }
       ]
     },
@@ -89641,24 +90137,24 @@
       ],
       "exampleSentences": [
         {
+          "ja": "東京都の人口は、2026年6月の推計で約1,430万人です。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+        },
+        {
+          "ja": "704万人をこの人口と比べると、約49パーセント、ほぼ半分になります。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+        },
+        {
+          "ja": "それでも東京メトロだけで都の人口のほぼ半分にあたる利用があることは、東京の毎日がどれほど電車と深くつながっているかを示しています。",
+          "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+        },
+        {
           "ja": "争点の一つは、国の人口を2050年まで1000万人までに抑える提案でした。",
           "en": "One issue was a proposal to keep the country's population at no more than 10 million by 2050."
         },
         {
           "ja": "スイスの人口は現在およそ910万人で、2002年から大きく増えました。",
           "en": "The proposal was promoted by the right-wing Swiss People's Party. Switzerland's population is now about 9.1 million and has grown greatly since 2002. Supporters said the burden on housing, transportation, and public services was becoming heavy."
-        },
-        {
-          "ja": "案が通れば、人口が950万人に近づいたとき、政府は移民や難民、家族の呼び寄せを厳しく制限することになります。",
-          "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
-        },
-        {
-          "ja": "町では、人口が減り、決まった道を走るバスの利用者も少なくなっています。",
-          "en": "In the town, the population is falling, and fewer people use buses that run on fixed routes."
-        },
-        {
-          "ja": "人口や機能が集中する首都圏では、交通や物流の混乱も深刻になるとみられています。",
-          "en": "In the Tokyo metropolitan area, where people and key functions are concentrated, disruption to transport and logistics is also expected to be severe."
         }
       ]
     },
@@ -90850,24 +91346,24 @@
       ],
       "exampleSentences": [
         {
+          "ja": "東京都の人口は、2026年6月の推計で約1,430万人です。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+        },
+        {
+          "ja": "704万人をこの人口と比べると、約49パーセント、ほぼ半分になります。",
+          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
+        },
+        {
+          "ja": "それでも東京メトロだけで都の人口のほぼ半分にあたる利用があることは、東京の毎日がどれほど電車と深くつながっているかを示しています。",
+          "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+        },
+        {
           "ja": "争点の一つは、国の人口を2050年まで1000万人までに抑える提案でした。",
           "en": "One issue was a proposal to keep the country's population at no more than 10 million by 2050."
         },
         {
           "ja": "スイスの人口は現在およそ910万人で、2002年から大きく増えました。",
           "en": "The proposal was promoted by the right-wing Swiss People's Party. Switzerland's population is now about 9.1 million and has grown greatly since 2002. Supporters said the burden on housing, transportation, and public services was becoming heavy."
-        },
-        {
-          "ja": "案が通れば、人口が950万人に近づいたとき、政府は移民や難民、家族の呼び寄せを厳しく制限することになります。",
-          "en": "If the plan had passed, the government would have had to place stricter limits on immigration, refugees, and family reunification when the population approached 9.5 million. If it exceeded 10 million, Switzerland's agreement with the EU on free movement of people could also have been affected."
-        },
-        {
-          "ja": "町では、人口が減り、決まった道を走るバスの利用者も少なくなっています。",
-          "en": "In the town, the population is falling, and fewer people use buses that run on fixed routes."
-        },
-        {
-          "ja": "人口や機能が集中する首都圏では、交通や物流の混乱も深刻になるとみられています。",
-          "en": "In the Tokyo metropolitan area, where people and key functions are concentrated, disruption to transport and logistics is also expected to be severe."
         }
       ]
     },
@@ -92646,6 +93142,10 @@
         "2026-05-22-hydrogen-port"
       ],
       "exampleSentences": [
+        {
+          "ja": "会社ごとの輸送人員、駅ごとの乗車人員、乗り降りした人の合計は、同じではありません。",
+          "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
+        },
         {
           "ja": "自動車メーカーの一部は、従業員の安全や部品輸送への影響を考慮して、工場の操業を一時停止しました。",
           "en": "Some automakers temporarily stopped factory operations after considering worker safety and impacts on parts transport."
