@@ -4,7 +4,7 @@
     "articleManifest": "data/articles.json"
   },
   "levels": {
-    "N3": 2117,
+    "N3": 2125,
     "N4": 536,
     "N5": 553
   },
@@ -1031,24 +1031,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "もちろん最後は運転士が確認しますが、人と装置の両方でずれを小さくしているわけです。",
-          "en": "Of course, the driver still makes the final check, but both people and equipment work together to keep errors small."
+          "ja": "デクラン・ライスが2分にゴールを決め、その後、エズリ・コンサも得点しました。",
+          "en": "Declan Rice scored in the second minute and Ezri Konsa added another goal."
         },
         {
-          "ja": "状況によっては、そのままにせず、後ろへゆっくり戻して正しい位置に合わせることもあります。",
-          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+          "ja": "しかし、フランスは後半に反撃しました。",
+          "en": "France fought back in the second half."
         },
         {
-          "ja": "だから、駅での停車は「最後にブレーキをかけるだけ」の仕事ではありません。",
-          "en": "So stopping at a station is not just a matter of applying the brakes at the end."
+          "ja": "フランスは4対3まで追いつきそうになり、試合は最後まで分からなくなりました。",
+          "en": "France came close at 4-3, making the result uncertain until the end."
         },
         {
-          "ja": "いつもの静かな停車の後ろには、かなり緻密な仕事がかくれているのです。",
-          "en": "Behind an ordinary quiet stop, there is actually very careful work."
+          "ja": "さらに後半の追加時間に、ジュード・ベリンガムがイングランドの6点目を決めました。",
+          "en": "Jude Bellingham then scored England’s sixth goal in second-half stoppage time."
         },
         {
-          "ja": "その後、コンビニは食べ物だけでなく、24時間営業、料金支払い、ATM、チケット、宅配などを少しずつ増やしました。",
-          "en": "After that, convenience stores gradually added not only food, but also 24-hour service, bill payment, ATMs, tickets, and parcel services."
+          "ja": "フランスにとっては苦しい結果でしたが、大きく負けていたところから何度も攻めた後半でした。",
+          "en": "It was a hard result for France, but they repeatedly attacked after falling far behind."
         }
       ]
     },
@@ -3374,6 +3374,10 @@
           "meaning": "Plain past form of 入る: to enter, to go into",
           "exampleSentences": [
             {
+              "ja": "10点が入ったこの試合は、今回のワールドカップでも特に記憶に残る試合になりました。",
+              "en": "With 10 goals, this became one of the tournament’s most memorable matches."
+            },
+            {
               "ja": "グリーン車に入ったら、空いている席を選びます。",
               "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
             },
@@ -3388,10 +3392,6 @@
             {
               "ja": "予約した座席と「どのICカードで入るか」を先にひもづけておくのです。",
               "en": "You link the reserved seat in advance to the IC card that will be used to enter."
-            },
-            {
-              "ja": "駅へ入る前に、通行の邪魔にならない場所で自転車を準備します。",
-              "en": "Before entering the station, prepare your bicycle somewhere that does not block pedestrian traffic."
             }
           ]
         },
@@ -4595,6 +4595,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "試合は7月18日、アメリカのマイアミで行われました。",
+          "en": "England beat France 6-4 in the World Cup third-place playoff in Miami on July 18. The match is played by the two teams that lost in the semifinals. Despite missing the final, both sides produced many goals."
+        },
+        {
+          "ja": "サカは87分にPKを決めて、この日3点目を取りました。",
+          "en": "Saka scored a penalty in the 87th minute for his third goal."
+        },
+        {
           "ja": "JR東日本の対象路線では、カードのSuicaでも、スマホのモバイルSuicaでも、Suicaグリーン券を使えます。",
           "en": "On eligible JR East lines, you can use a physical Suica card or Mobile Suica."
         },
@@ -4605,14 +4613,6 @@
         {
           "ja": "JR東日本の電車に乗ると、ドアの上に小さな画面があることがあります。",
           "en": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
-        },
-        {
-          "ja": "JR東日本は、2002年に山手線の新しい車両で、このような液晶を使う案内を始めました。",
-          "en": "JR East began this kind of LCD guidance on new Yamanote Line trains in 2002. Today, displays on trains such as the E233 series provide arrival, travel-time, exit, and delay information—a small guide for the journey."
-        },
-        {
-          "ja": "では、1日にどのくらいの人が使うのでしょうか。",
-          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
         }
       ]
     },
@@ -4976,6 +4976,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "1人の選手が1試合で3点を取ることを、ハットトリックと言います。",
+          "en": "Three goals by one player in a match are called a hat trick."
+        },
+        {
           "ja": "一枚のSuicaグリーン券は、1人、1回の乗車のためのものです。",
           "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
         },
@@ -4989,10 +4993,6 @@
         },
         {
           "ja": "東京の電車は、朝から夜までたくさんの人を運んでいます。",
-          "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
-        },
-        {
-          "ja": "では、1日にどのくらいの人が使うのでしょうか。",
           "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
         }
       ]
@@ -5579,6 +5579,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "10点が入ったこの試合は、今回のワールドカップでも特に記憶に残る試合になりました。",
+          "en": "With 10 goals, this became one of the tournament’s most memorable matches."
+        },
+        {
           "ja": "画面の路線図では、今いる場所と進む方向がわかります。",
           "en": "The route map shows where the train is and which way it is going."
         },
@@ -5593,10 +5597,6 @@
         {
           "ja": "日本の町や生活に合わせて作り替えたからこそ、今日のコンビニ文化ができました。",
           "en": "Because it was reshaped to fit Japanese towns and daily life, today’s convenience store culture became possible."
-        },
-        {
-          "ja": "2002年に完成したとき、全体の費用は4400億円をこえていて、そのときの借金が今の運賃にも影響しています。",
-          "en": "When the line was completed in 2002, the total cost exceeded 440 billion yen, and those debts still affect fares today."
         }
       ]
     },
@@ -6166,6 +6166,10 @@
           "meaning": "Polite form of 言う: to say, to utter",
           "exampleSentences": [
             {
+              "ja": "1人の選手が1試合で3点を取ることを、ハットトリックと言います。",
+              "en": "Three goals by one player in a match are called a hat trick."
+            },
+            {
               "ja": "いちばん簡単に言うと、電車は電気で走る車両のこと、地下鉄は都市の地下を中心に走る鉄道のことです。",
               "en": "Both carry people, but the words differ."
             },
@@ -6374,6 +6378,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ブカヨ・サカは37分と前半の追加時間にゴールを決め、イングランドは前半を4対0で終えました。",
+          "en": "Bukayo Saka scored in the 37th minute and in first-half stoppage time, leaving England 4-0 ahead at halftime."
+        },
+        {
+          "ja": "さらに後半の追加時間に、ジュード・ベリンガムがイングランドの6点目を決めました。",
+          "en": "Jude Bellingham then scored England’s sixth goal in second-half stoppage time."
+        },
+        {
           "ja": "そこには次の駅だけでなく、路線の地図や、その先の駅までの所要時間が表示されます。",
           "en": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
         },
@@ -6384,14 +6396,6 @@
         {
           "ja": "ただし、この時間は約束された到着時刻ではありません。",
           "en": "The times are not guaranteed arrival times."
-        },
-        {
-          "ja": "駅で人が多いときや、前の電車が遅れているときは、実際の時間が変わることがあります。",
-          "en": "Crowded stations or a delayed train ahead can change the actual time."
-        },
-        {
-          "ja": "今では、E233系などの車内の液晶が、到着駅、所要時間、出口、遅延などを伝えています。",
-          "en": "JR East began this kind of LCD guidance on new Yamanote Line trains in 2002. Today, displays on trains such as the E233 series provide arrival, travel-time, exit, and delay information—a small guide for the journey."
         }
       ]
     },
@@ -9118,6 +9122,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ブカヨ・サカは37分と前半の追加時間にゴールを決め、イングランドは前半を4対0で終えました。",
+          "en": "Bukayo Saka scored in the 37th minute and in first-half stoppage time, leaving England 4-0 ahead at halftime."
+        },
+        {
           "ja": "カード型のSuicaを使う場合は、乗る前に駅の券売機でSuicaグリーン券を買います。",
           "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
         },
@@ -9132,10 +9140,6 @@
         {
           "ja": "駅で人が多いときや、前の電車が遅れているときは、実際の時間が変わることがあります。",
           "en": "Crowded stations or a delayed train ahead can change the actual time."
-        },
-        {
-          "ja": "豊洲の1店から始まった変化は、いまでは日本中の日常を支える当たり前の景色になっています。",
-          "en": "What began with one store in Toyosu has turned into an ordinary part of life all across Japan."
         }
       ]
     },
@@ -9578,6 +9582,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "サカは87分にPKを決めて、この日3点目を取りました。",
+          "en": "Saka scored a penalty in the 87th minute for his third goal."
+        },
+        {
+          "ja": "さらに後半の追加時間に、ジュード・ベリンガムがイングランドの6点目を決めました。",
+          "en": "Jude Bellingham then scored England’s sixth goal in second-half stoppage time."
+        },
+        {
           "ja": "それでも同じ位置に止めるのは、駅に目印と手順があるからです。",
           "en": "Even so, trains stop in the same place because stations have markers and procedures."
         },
@@ -9588,14 +9600,6 @@
         {
           "ja": "運転士はホームに入りながらその目標を見て、スピードを落としてブレーキを調整します。",
           "en": "As the train enters the platform, the driver watches that marker, reduces speed, and adjusts the brakes."
-        },
-        {
-          "ja": "つまり、ただ「だいたいこのへん」で止めているのではなく、かなり具体的な目標に合わせているのです。",
-          "en": "In other words, the train is not stopped at some rough guess; it is lined up with a very specific target."
-        },
-        {
-          "ja": "目印を見て、速度を読んで、ホームの条件も考えながら止めています。",
-          "en": "Drivers watch markers, read speed, and consider the platform conditions while stopping the train."
         }
       ]
     },
@@ -10523,6 +10527,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "両チームは、決勝に進めなかった悔しさがある中で、たくさんのゴールを見せました。",
+          "en": "England beat France 6-4 in the World Cup third-place playoff in Miami on July 18. The match is played by the two teams that lost in the semifinals. Despite missing the final, both sides produced many goals."
+        },
+        {
           "ja": "いちばん簡単に言うと、電車は電気で走る車両のこと、地下鉄は都市の地下を中心に走る鉄道のことです。",
           "en": "Both carry people, but the words differ."
         },
@@ -10537,10 +10545,6 @@
         {
           "ja": "つまりV2Xは、未来の実験だけでなく、すでに日常の運転の中にも入っているのです。",
           "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
-        },
-        {
-          "ja": "実際には目立つ場所に集中しているのですが、それだけ都市の車の移動に深く組み込まれています。",
-          "en": "In reality, it is concentrated in highly visible places, but that shows how deeply it is built into urban car travel."
         }
       ]
     },
@@ -10723,6 +10727,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "フランスにとっては苦しい結果でしたが、大きく負けていたところから何度も攻めた後半でした。",
+          "en": "It was a hard result for France, but they repeatedly attacked after falling far behind."
+        },
+        {
           "ja": "大きな駅で別の路線へ移るとき、あと何分あるかがわかれば、急ぐかどうかを決めやすくなります。",
           "en": "It is useful for transfers too. If you know how many minutes remain before a large interchange station, you can decide whether to hurry. Some screens also show connecting lines and which side the doors will open on."
         },
@@ -10737,10 +10745,6 @@
         {
           "ja": "何気ない二回の点滅は、ただのランプではなく、「わかっています、ありがとう」という返事にも見えるのです。",
           "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
-        },
-        {
-          "ja": "ETC専用、ETC一般という表示が何度も出てくるのは、その仕組みが交通を支えているからです。",
-          "en": "Signs like ETC-only and ETC/general appear again and again because this system helps support traffic flow."
         }
       ]
     },
@@ -14859,24 +14863,24 @@
           "meaning": "Plain past form of する: to do",
           "exampleSentences": [
             {
-              "ja": "登録したクレジットカード、またはGoogle Payで決済します。",
-              "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+              "ja": "サッカーのワールドカップ3位決定戦で、イングランドがフランスに6対4で勝ちました。",
+              "en": "England beat France 6-4 in the World Cup third-place playoff in Miami on July 18. The match is played by the two teams that lost in the semifinals. Despite missing the final, both sides produced many goals."
             },
             {
-              "ja": "通信が安定した場所で、早めに買っておくと安心です。",
-              "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+              "ja": "試合は7月18日、アメリカのマイアミで行われました。",
+              "en": "England beat France 6-4 in the World Cup third-place playoff in Miami on July 18. The match is played by the two teams that lost in the semifinals. Despite missing the final, both sides produced many goals."
             },
             {
-              "ja": "JR東日本は、2002年に山手線の新しい車両で、このような液晶を使う案内を始めました。",
-              "en": "JR East began this kind of LCD guidance on new Yamanote Line trains in 2002. Today, displays on trains such as the E233 series provide arrival, travel-time, exit, and delay information—a small guide for the journey."
+              "ja": "両チームは、決勝に進めなかった悔しさがある中で、たくさんのゴールを見せました。",
+              "en": "England beat France 6-4 in the World Cup third-place playoff in Miami on July 18. The match is played by the two teams that lost in the semifinals. Despite missing the final, both sides produced many goals."
             },
             {
-              "ja": "東京メトロだけでも、2025年度には1日平均で約704万人を運びました。",
-              "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
+              "ja": "デクラン・ライスが2分にゴールを決め、その後、エズリ・コンサも得点しました。",
+              "en": "Declan Rice scored in the second minute and Ezri Konsa added another goal."
             },
             {
-              "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
-              "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+              "ja": "ブカヨ・サカは37分と前半の追加時間にゴールを決め、イングランドは前半を4対0で終えました。",
+              "en": "Bukayo Saka scored in the 37th minute and in first-half stoppage time, leaving England 4-0 ahead at halftime."
             }
           ]
         },
@@ -15746,6 +15750,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "1人の選手が1試合で3点を取ることを、ハットトリックと言います。",
+          "en": "Three goals by one player in a match are called a hat trick."
+        },
+        {
           "ja": "JR東日本は、2002年に山手線の新しい車両で、このような液晶を使う案内を始めました。",
           "en": "JR East began this kind of LCD guidance on new Yamanote Line trains in 2002. Today, displays on trains such as the E233 series provide arrival, travel-time, exit, and delay information—a small guide for the journey."
         },
@@ -15760,10 +15768,6 @@
         {
           "ja": "ただし、これは自由にやるのではなく、決められた手順にしたがって行われます。",
           "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
-        },
-        {
-          "ja": "そして万一まちがいがあっても、すぐに直せるように仕組みと手順が用意されています。",
-          "en": "And even if a mistake happens, systems and procedures are prepared so it can be corrected safely."
         }
       ]
     },
@@ -16102,6 +16106,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "1人の選手が1試合で3点を取ることを、ハットトリックと言います。",
+          "en": "Three goals by one player in a match are called a hat trick."
+        },
+        {
           "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
           "en": "In London, people using the Underground and buses were also advised to drink water."
         }
@@ -16118,6 +16126,10 @@
           "meaning": "Polite form of 取る: to take, to pick up",
           "exampleSentences": [
             {
+              "ja": "1人の選手が1試合で3点を取ることを、ハットトリックと言います。",
+              "en": "Three goals by one player in a match are called a hat trick."
+            },
+            {
               "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
               "en": "In London, people using the Underground and buses were also advised to drink water."
             }
@@ -16131,6 +16143,10 @@
           "readingHiragana": "とった",
           "meaning": "Plain past form of 取る: to take, to pick up",
           "exampleSentences": [
+            {
+              "ja": "1人の選手が1試合で3点を取ることを、ハットトリックと言います。",
+              "en": "Three goals by one player in a match are called a hat trick."
+            },
             {
               "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
               "en": "In London, people using the Underground and buses were also advised to drink water."
@@ -16146,6 +16162,10 @@
           "meaning": "Plain negative form of 取る: to take, to pick up",
           "exampleSentences": [
             {
+              "ja": "1人の選手が1試合で3点を取ることを、ハットトリックと言います。",
+              "en": "Three goals by one player in a match are called a hat trick."
+            },
+            {
               "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
               "en": "In London, people using the Underground and buses were also advised to drink water."
             }
@@ -16159,6 +16179,10 @@
           "readingHiragana": "とって",
           "meaning": "Te-form of 取る: to take, to pick up",
           "exampleSentences": [
+            {
+              "ja": "1人の選手が1試合で3点を取ることを、ハットトリックと言います。",
+              "en": "Three goals by one player in a match are called a hat trick."
+            },
             {
               "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
               "en": "In London, people using the Underground and buses were also advised to drink water."
@@ -16176,6 +16200,10 @@
             {
               "ja": "事故や工事、天気による制限まで受け取れるので、ただお金を払うだけの仕組みではありません。",
               "en": "Drivers can receive information about accidents, construction, and even weather-related restrictions, so the system is not just about paying tolls."
+            },
+            {
+              "ja": "1人の選手が1試合で3点を取ることを、ハットトリックと言います。",
+              "en": "Three goals by one player in a match are called a hat trick."
             },
             {
               "ja": "ロンドンでは、地下鉄やバスを使う人にも、水分を取るよう案内が出ました。",
@@ -26009,6 +26037,10 @@
           "meaning": "Te-form of 決める: to decide, to choose",
           "exampleSentences": [
             {
+              "ja": "サカは87分にPKを決めて、この日3点目を取りました。",
+              "en": "Saka scored a penalty in the 87th minute for his third goal."
+            },
+            {
               "ja": "一方で、水道代や管理の手間がかかるため、時間や場所を決めて使うことが検討されています。",
               "en": "At the same time, because water costs and maintenance take effort, officials are considering limiting the times and places where the systems are used."
             },
@@ -27593,7 +27625,12 @@
           "term": "負けた",
           "readingHiragana": "まけた",
           "meaning": "Plain past form of 負ける: to lose, to be defeated",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "3位決定戦は、準決勝で負けた2チームが戦う試合です。",
+              "en": "England beat France 6-4 in the World Cup third-place playoff in Miami on July 18. The match is played by the two teams that lost in the semifinals. Despite missing the final, both sides produced many goals."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -27611,7 +27648,12 @@
           "term": "負けて",
           "readingHiragana": "まけて",
           "meaning": "Te-form of 負ける: to lose, to be defeated",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "フランスにとっては苦しい結果でしたが、大きく負けていたところから何度も攻めた後半でした。",
+              "en": "It was a hard result for France, but they repeatedly attacked after falling far behind."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -30070,7 +30112,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "10点が入ったこの試合は、今回のワールドカップでも特に記憶に残る試合になりました。",
+          "en": "With 10 goals, this became one of the tournament’s most memorable matches."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "godan",
       "verbForms": [
@@ -30081,7 +30128,12 @@
           "term": "残ります",
           "readingHiragana": "のこります",
           "meaning": "Polite form of 残る: to remain, to be left",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "10点が入ったこの試合は、今回のワールドカップでも特に記憶に残る試合になりました。",
+              "en": "With 10 goals, this became one of the tournament’s most memorable matches."
+            }
+          ]
         },
         {
           "form": "past",
@@ -30090,7 +30142,12 @@
           "term": "残った",
           "readingHiragana": "のこった",
           "meaning": "Plain past form of 残る: to remain, to be left",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "10点が入ったこの試合は、今回のワールドカップでも特に記憶に残る試合になりました。",
+              "en": "With 10 goals, this became one of the tournament’s most memorable matches."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -30099,7 +30156,12 @@
           "term": "残らない",
           "readingHiragana": "のこらない",
           "meaning": "Plain negative form of 残る: to remain, to be left",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "10点が入ったこの試合は、今回のワールドカップでも特に記憶に残る試合になりました。",
+              "en": "With 10 goals, this became one of the tournament’s most memorable matches."
+            }
+          ]
         },
         {
           "form": "te",
@@ -30108,7 +30170,12 @@
           "term": "残って",
           "readingHiragana": "のこって",
           "meaning": "Te-form of 残る: to remain, to be left",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "10点が入ったこの試合は、今回のワールドカップでも特に記憶に残る試合になりました。",
+              "en": "With 10 goals, this became one of the tournament’s most memorable matches."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -30117,7 +30184,12 @@
           "term": "残れる",
           "readingHiragana": "のこれる",
           "meaning": "Potential form of 残る: to remain, to be left",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "10点が入ったこの試合は、今回のワールドカップでも特に記憶に残る試合になりました。",
+              "en": "With 10 goals, this became one of the tournament’s most memorable matches."
+            }
+          ]
         }
       ]
     },
@@ -32419,6 +32491,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "フランスは4対3まで追いつきそうになり、試合は最後まで分からなくなりました。",
+          "en": "France came close at 4-3, making the result uncertain until the end."
+        },
+        {
           "ja": "もちろん最後は運転士が確認しますが、人と装置の両方でずれを小さくしているわけです。",
           "en": "Of course, the driver still makes the final check, but both people and equipment work together to keep errors small."
         },
@@ -32433,10 +32509,6 @@
         {
           "ja": "最後は獣医が麻酔の銃を使って捕獲し、けがをした人はいませんでした。",
           "en": "In the end, a veterinarian captured it with a tranquilizer gun, and nobody was injured."
-        },
-        {
-          "ja": "市の職員はドローンを使ってクマを探し、最後は獣医が麻酔の銃でクマを止めました。",
-          "en": "City workers used a drone to search for it, and in the end a veterinarian stopped the bear with a tranquilizer gun."
         }
       ]
     },
@@ -32487,6 +32559,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "イングランドは試合の最初から強かったです。",
+          "en": "England started strongly."
+        },
+        {
           "ja": "でも、この形が最初から日本にあったわけではありません。",
           "en": "But this style did not exist in Japan from the beginning."
         },
@@ -32501,10 +32577,6 @@
         {
           "ja": "東京の駅は数が多くて、最初は路線図を見ても迷いやすいです。",
           "en": "Tokyo has so many stations that it is easy to get lost at first, even if you look at a route map."
-        },
-        {
-          "ja": "最初の地震はマグニチュード7・2で、その39秒後にマグニチュード7・5の地震が起きました。",
-          "en": "The first was magnitude seven point two, and 39 seconds later a magnitude seven point five quake occurred."
         }
       ]
     },
@@ -33212,20 +33284,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "試合後、ブランソンはファイナルMVPにも選ばれました。",
-          "en": "After the game, Brunson was also chosen as Finals MVP."
+          "ja": "試合は7月18日、アメリカのマイアミで行われました。",
+          "en": "England beat France 6-4 in the World Cup third-place playoff in Miami on July 18. The match is played by the two teams that lost in the semifinals. Despite missing the final, both sides produced many goals."
         },
         {
-          "ja": "そのため、ニューヨークの街では、試合の後に大きな歓声が上がりました。",
-          "en": "Because of that, loud cheers rose in New York after the game."
+          "ja": "3位決定戦は、準決勝で負けた2チームが戦う試合です。",
+          "en": "England beat France 6-4 in the World Cup third-place playoff in Miami on July 18. The match is played by the two teams that lost in the semifinals. Despite missing the final, both sides produced many goals."
         },
         {
-          "ja": "試合はニューヨーク・ニュージャージーの大きな会場で行われました。",
-          "en": "The match was played at a large venue in New York/New Jersey."
+          "ja": "イングランドは試合の最初から強かったです。",
+          "en": "England started strongly."
         },
         {
-          "ja": "試合後、ブラジルのアンチェロッティ監督は、チームはもっと良くならなければならないと話しました。",
-          "en": "After the match, Brazil coach Ancelotti said the team must improve."
+          "ja": "フランスは4対3まで追いつきそうになり、試合は最後まで分からなくなりました。",
+          "en": "France came close at 4-3, making the result uncertain until the end."
+        },
+        {
+          "ja": "1人の選手が1試合で3点を取ることを、ハットトリックと言います。",
+          "en": "Three goals by one player in a match are called a hat trick."
         }
       ]
     },
@@ -35645,24 +35721,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "つまり日本では、コンビニは単なる小さな店ではなく、近所の便利な拠点として育っていきました。",
-          "en": "” In Japan, that meant convenience stores grew not just as small shops, but as useful local hubs."
+          "ja": "デクラン・ライスが2分にゴールを決め、その後、エズリ・コンサも得点しました。",
+          "en": "Declan Rice scored in the second minute and Ezri Konsa added another goal."
         },
         {
-          "ja": "何気ない二回の点滅は、ただのランプではなく、「わかっています、ありがとう」という返事にも見えるのです。",
-          "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
+          "ja": "キリアン・エムバペが2点、ブラッドリー・バルコラとウスマン・デンベレがそれぞれ1点を決めました。",
+          "en": "Kylian Mbappé scored twice, while Bradley Barcola and Ousmane Dembélé scored once each."
         },
         {
-          "ja": "丸の内駅を歩いていたとき、点字ブロックの上に小さなQRコードがついているのを見つけました。",
-          "en": "While walking through Marunouchi Station, I noticed a small QR code attached above the tactile paving."
+          "ja": "サカは87分にPKを決めて、この日3点目を取りました。",
+          "en": "Saka scored a penalty in the 87th minute for his third goal."
         },
         {
-          "ja": "台風7号は21時の時点で、奄美や沖縄に近い東の海上にありました。",
-          "en": "As of 9 p.m., Typhoon No. 7 was over waters east of areas near Amami and Okinawa. The forecast says it may move close to the Kanto region by the night of June 27."
+          "ja": "1人の選手が1試合で3点を取ることを、ハットトリックと言います。",
+          "en": "Three goals by one player in a match are called a hat trick."
         },
         {
-          "ja": "ガードのジェイレン・ブランソンは45点を取り、大きな場面でチームを助けました。",
-          "en": "Guard Jalen Brunson scored 45 points and helped the team in big moments."
+          "ja": "さらに後半の追加時間に、ジュード・ベリンガムがイングランドの6点目を決めました。",
+          "en": "Jude Bellingham then scored England’s sixth goal in second-half stoppage time."
         }
       ]
     },
@@ -35956,6 +36032,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "10点が入ったこの試合は、今回のワールドカップでも特に記憶に残る試合になりました。",
+          "en": "With 10 goals, this became one of the tournament’s most memorable matches."
+        },
+        {
           "ja": "ホームドアがある駅などでは、決まった位置により正確に止まることが特に大切です。",
           "en": "At stations with platform doors, for example, it is especially important to stop very accurately in the planned position."
         },
@@ -35970,10 +36050,6 @@
         {
           "ja": "だから、りんかい線の駅で長いエスカレーターを下りるときは、東京でも特に大きくてお金のかかった鉄道計画の中を移動していると考えることができます。",
           "en": "So when you ride down the long escalators at a Rinkai Line station, you can think of yourself as moving through one of Tokyo's biggest and most expensive railway projects."
-        },
-        {
-          "ja": "病院や介護施設では、高齢者の体調に特に注意しています。",
-          "en": "Hospitals and care homes are paying special attention to the health of older people."
         }
       ]
     },
@@ -36440,6 +36516,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "試合は7月18日、アメリカのマイアミで行われました。",
+          "en": "England beat France 6-4 in the World Cup third-place playoff in Miami on July 18. The match is played by the two teams that lost in the semifinals. Despite missing the final, both sides produced many goals."
+        },
+        {
           "ja": "東京都の人口は、2026年6月の推計で約1,430万人です。",
           "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
         },
@@ -36454,10 +36534,6 @@
         {
           "ja": "フランス、イギリス、スイス、オランダなどで気温が大きく上がり、多くの町で6月としては異例の暑さになりました。",
           "en": "Temperatures rose sharply in countries such as France, the United Kingdom, Switzerland, and the Netherlands, bringing unusual June heat to many towns and cities."
-        },
-        {
-          "ja": "イギリスでは、サマセットで36度を超える暑さが観測され、6月の最高気温の記録を更新しました。",
-          "en": "In the United Kingdom, temperatures above 36 degrees Celsius were observed in Somerset, setting a new June temperature record."
         }
       ]
     },
@@ -41644,24 +41720,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "デクラン・ライスが2分にゴールを決め、その後、エズリ・コンサも得点しました。",
+          "en": "Declan Rice scored in the second minute and Ezri Konsa added another goal."
+        },
+        {
+          "ja": "ブカヨ・サカは37分と前半の追加時間にゴールを決め、イングランドは前半を4対0で終えました。",
+          "en": "Bukayo Saka scored in the 37th minute and in first-half stoppage time, leaving England 4-0 ahead at halftime."
+        },
+        {
+          "ja": "フランスは4対3まで追いつきそうになり、試合は最後まで分からなくなりました。",
+          "en": "France came close at 4-3, making the result uncertain until the end."
+        },
+        {
+          "ja": "サカは87分にPKを決めて、この日3点目を取りました。",
+          "en": "Saka scored a penalty in the 87th minute for his third goal."
+        },
+        {
           "ja": "座席の上には、グリーン券の情報を読む部分があります。",
           "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
-        },
-        {
-          "ja": "友だちの分まで、一枚のカードや一台のスマホで買うことはできません。",
-          "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
-        },
-        {
-          "ja": "駅名のそばに「5分」「12分」のような数字が出れば、それは現在の列車でその駅へ行くまでのおおよその時間です。",
-          "en": "A number such as five or 12 minutes beside a station is the time for this train to reach it."
-        },
-        {
-          "ja": "大きな駅で別の路線へ移るとき、あと何分あるかがわかれば、急ぐかどうかを決めやすくなります。",
-          "en": "It is useful for transfers too. If you know how many minutes remain before a large interchange station, you can decide whether to hurry. Some screens also show connecting lines and which side the doors will open on."
-        },
-        {
-          "ja": "704万人をこの人口と比べると、約49パーセント、ほぼ半分になります。",
-          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
         }
       ]
     },
@@ -43217,6 +43293,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "フランスにとっては苦しい結果でしたが、大きく負けていたところから何度も攻めた後半でした。",
+          "en": "It was a hard result for France, but they repeatedly attacked after falling far behind."
+        },
+        {
           "ja": "席を移るときは、新しい席でももう一度タッチします。",
           "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
         },
@@ -43231,10 +43311,6 @@
         {
           "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
           "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
-        },
-        {
-          "ja": "目印を見て、速度を読んで、ホームの条件も考えながら止めています。",
-          "en": "Drivers watch markers, read speed, and consider the platform conditions while stopping the train."
         }
       ]
     },
@@ -52478,6 +52554,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "サッカーのワールドカップ3位決定戦で、イングランドがフランスに6対4で勝ちました。",
+          "en": "England beat France 6-4 in the World Cup third-place playoff in Miami on July 18. The match is played by the two teams that lost in the semifinals. Despite missing the final, both sides produced many goals."
+        },
+        {
           "ja": "ニックスはファイナルでサンアントニオ・スパーズに4勝1敗で勝ち、1973年以来の優勝を決めました。",
           "en": "The Knicks beat the San Antonio Spurs 4-1 in the Finals and won their first championship since 1973."
         }
@@ -52616,6 +52696,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "イングランドは3位で大会を終えました。",
+          "en": "England finished third."
+        },
+        {
           "ja": "また、東京メトロの多くの路線は、ほかの会社の鉄道と相互直通運転をしています。",
           "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
         },
@@ -52630,10 +52714,6 @@
         {
           "ja": "会社ごとの輸送人員、駅ごとの乗車人員、乗り降りした人の合計は、同じではありません。",
           "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
-        },
-        {
-          "ja": "学生も会社員も高齢者も、それぞれの理由で使う社会インフラになったのです。",
-          "en": "Students, office workers, and older people all started using them for different reasons, and they became a kind of social infrastructure."
         }
       ]
     },
@@ -52652,6 +52732,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "10点が入ったこの試合は、今回のワールドカップでも特に記憶に残る試合になりました。",
+          "en": "With 10 goals, this became one of the tournament’s most memorable matches."
+        },
+        {
           "ja": "一枚のSuicaグリーン券は、1人、1回の乗車のためのものです。",
           "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
         },
@@ -52666,10 +52750,6 @@
         {
           "ja": "何気ない二回の点滅は、ただのランプではなく、「わかっています、ありがとう」という返事にも見えるのです。",
           "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
-        },
-        {
-          "ja": "その中心にあるのが、東京を輪のように回る山手線です。",
-          "en": "At the center of that network is the Yamanote Line, which circles Tokyo like a loop."
         }
       ]
     },
@@ -56397,6 +56477,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "フランスにとっては苦しい結果でしたが、大きく負けていたところから何度も攻めた後半でした。",
+          "en": "It was a hard result for France, but they repeatedly attacked after falling far behind."
+        },
+        {
           "ja": "AIは写真から大切な手がかりを見つけられましたが、結果は項目によって大きく違いました。",
           "en": "The AI could find important clues in images, but the results differed greatly depending on the item."
         },
@@ -56802,6 +56886,14 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "サッカーのワールドカップ3位決定戦で、イングランドがフランスに6対4で勝ちました。",
+          "en": "England beat France 6-4 in the World Cup third-place playoff in Miami on July 18. The match is played by the two teams that lost in the semifinals. Despite missing the final, both sides produced many goals."
+        },
+        {
+          "ja": "3位決定戦は、準決勝で負けた2チームが戦う試合です。",
+          "en": "England beat France 6-4 in the World Cup third-place playoff in Miami on July 18. The match is played by the two teams that lost in the semifinals. Despite missing the final, both sides produced many goals."
+        },
         {
           "ja": "日本の財務省の幹部は、その前から「決定的な行動をとる時が近い」と話していました。",
           "en": "A senior official at Japan’s Finance Ministry had already said that the time for decisive action was near."
@@ -57853,6 +57945,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "10点が入ったこの試合は、今回のワールドカップでも特に記憶に残る試合になりました。",
+          "en": "With 10 goals, this became one of the tournament’s most memorable matches."
+        },
+        {
           "ja": "東京モノレールは、東京の交通を支えるだけでなく、昔の大きなイベントの記憶も今に伝えています。",
           "en": "Tokyo Monorail not only supports transportation in Tokyo, but also carries the memory of a major event from the past into the present."
         }
@@ -58771,6 +58867,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "10点が入ったこの試合は、今回のワールドカップでも特に記憶に残る試合になりました。",
+          "en": "With 10 goals, this became one of the tournament’s most memorable matches."
+        },
+        {
           "ja": "今回の結果は、移民への不安と、EUとの結びつきを守りたい考えが、スイス社会でぶつかっていることを示しました。",
           "en": "\" The result showed that anxiety about immigration and the wish to protect ties with the EU are clashing in Swiss society."
         },
@@ -58785,10 +58885,6 @@
         {
           "ja": "今回の対策では、肥料や燃料の費用が高くなった地域に、より多くの補助金を出します。",
           "en": "Under the new plan, areas where fertilizer and fuel costs have become high will receive more subsidies."
-        },
-        {
-          "ja": "日本の投資家たちの関心も高く、今回の社債は注目を集めました。",
-          "en": "Japanese investors were also very interested, and this bond sale attracted attention."
         }
       ]
     },
@@ -60357,24 +60453,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "サッカーのワールドカップ3位決定戦で、イングランドがフランスに6対4で勝ちました。",
+          "en": "England beat France 6-4 in the World Cup third-place playoff in Miami on July 18. The match is played by the two teams that lost in the semifinals. Despite missing the final, both sides produced many goals."
+        },
+        {
+          "ja": "3位決定戦は、準決勝で負けた2チームが戦う試合です。",
+          "en": "England beat France 6-4 in the World Cup third-place playoff in Miami on July 18. The match is played by the two teams that lost in the semifinals. Despite missing the final, both sides produced many goals."
+        },
+        {
+          "ja": "イングランドは3位で大会を終えました。",
+          "en": "England finished third."
+        },
+        {
           "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
           "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
         },
         {
           "ja": "それでも同じ位置に止めるのは、駅に目印と手順があるからです。",
           "en": "Even so, trains stop in the same place because stations have markers and procedures."
-        },
-        {
-          "ja": "多くのホームには、列車を止めるための停止位置目標があります。",
-          "en": "Many platforms have stopping-position markers for trains."
-        },
-        {
-          "ja": "ホームドアがある駅などでは、決まった位置により正確に止まることが特に大切です。",
-          "en": "At stations with platform doors, for example, it is especially important to stop very accurately in the planned position."
-        },
-        {
-          "ja": "そのため、定位置停止を助ける装置が使われることもあります。",
-          "en": "For that reason, some lines use systems that assist fixed-position stopping."
         }
       ]
     },
@@ -60574,7 +60670,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "フランスにとっては苦しい結果でしたが、大きく負けていたところから何度も攻めた後半でした。",
+          "en": "It was a hard result for France, but they repeatedly attacked after falling far behind."
+        }
+      ]
     },
     {
       "id": "core-78e6c551d1ecdb",
@@ -61784,7 +61885,16 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "3位決定戦は、準決勝で負けた2チームが戦う試合です。",
+          "en": "England beat France 6-4 in the World Cup third-place playoff in Miami on July 18. The match is played by the two teams that lost in the semifinals. Despite missing the final, both sides produced many goals."
+        },
+        {
+          "ja": "フランスにとっては苦しい結果でしたが、大きく負けていたところから何度も攻めた後半でした。",
+          "en": "It was a hard result for France, but they repeatedly attacked after falling far behind."
+        }
+      ]
     },
     {
       "id": "core-f2cc991cfecf15",
@@ -68667,6 +68777,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ブカヨ・サカは37分と前半の追加時間にゴールを決め、イングランドは前半を4対0で終えました。",
+          "en": "Bukayo Saka scored in the 37th minute and in first-half stoppage time, leaving England 4-0 ahead at halftime."
+        },
+        {
+          "ja": "イングランドは3位で大会を終えました。",
+          "en": "England finished third."
+        },
+        {
           "ja": "ハザードなら後ろの車にも見えやすく、短時間で終わります。",
           "en": "Hazard lights are easy for the car behind to see and only last a short time."
         },
@@ -71742,7 +71860,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "1人の選手が1試合で3点を取ることを、ハットトリックと言います。",
+          "en": "Three goals by one player in a match are called a hat trick."
+        }
+      ]
     },
     {
       "id": "core-37a5be7e8c99cf",
@@ -76861,6 +76984,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "イングランドは3位で大会を終えました。",
+          "en": "England finished third."
+        },
+        {
           "ja": "モロッコは2022年の大会でベスト4まで進んだチームです。",
           "en": "Morocco reached the semifinals in the 2022 tournament."
         }
@@ -77075,24 +77202,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "サッカーのワールドカップ3位決定戦で、イングランドがフランスに6対4で勝ちました。",
+          "en": "England beat France 6-4 in the World Cup third-place playoff in Miami on July 18. The match is played by the two teams that lost in the semifinals. Despite missing the final, both sides produced many goals."
+        },
+        {
+          "ja": "ブカヨ・サカは37分と前半の追加時間にゴールを決め、イングランドは前半を4対0で終えました。",
+          "en": "Bukayo Saka scored in the 37th minute and in first-half stoppage time, leaving England 4-0 ahead at halftime."
+        },
+        {
+          "ja": "フランスは4対3まで追いつきそうになり、試合は最後まで分からなくなりました。",
+          "en": "France came close at 4-3, making the result uncertain until the end."
+        },
+        {
           "ja": "JR東日本の対象路線では、カードのSuicaでも、スマホのモバイルSuicaでも、Suicaグリーン券を使えます。",
           "en": "On eligible JR East lines, you can use a physical Suica card or Mobile Suica."
         },
         {
           "ja": "0対応システムを通じて、広い範囲の交通情報が届くと説明されています。",
           "en": "0 compatible systems."
-        },
-        {
-          "ja": "暑さは観光や交通だけでなく、農業や電力にも影響を与えるため、各国は対策を急いでいます。",
-          "en": "Because the heat affects not only tourism and transportation but also agriculture and electricity, countries are rushing to respond."
-        },
-        {
-          "ja": "ただ、イスラエルやイラン、アメリカの国内には強い反対もあります。",
-          "en": "However, there is also strong opposition in Israel, Iran, and the United States."
-        },
-        {
-          "ja": "この事故の後、安全対策について議論が起きました。",
-          "en": "After the incident, a debate began about safety measures."
         }
       ],
       "partOfSpeech": "verb",
@@ -78113,7 +78240,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": [],
+      "exampleSentences": [
+        {
+          "ja": "3位決定戦は、準決勝で負けた2チームが戦う試合です。",
+          "en": "England beat France 6-4 in the World Cup third-place playoff in Miami on July 18. The match is played by the two teams that lost in the semifinals. Despite missing the final, both sides produced many goals."
+        }
+      ],
       "partOfSpeech": "verb",
       "verbClass": "godan",
       "verbForms": [
@@ -78124,7 +78256,12 @@
           "term": "戦います",
           "readingHiragana": "たたかいます",
           "meaning": "Polite form of 戦う: to fight, to struggle",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "3位決定戦は、準決勝で負けた2チームが戦う試合です。",
+              "en": "England beat France 6-4 in the World Cup third-place playoff in Miami on July 18. The match is played by the two teams that lost in the semifinals. Despite missing the final, both sides produced many goals."
+            }
+          ]
         },
         {
           "form": "past",
@@ -78133,7 +78270,12 @@
           "term": "戦った",
           "readingHiragana": "たたかった",
           "meaning": "Plain past form of 戦う: to fight, to struggle",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "3位決定戦は、準決勝で負けた2チームが戦う試合です。",
+              "en": "England beat France 6-4 in the World Cup third-place playoff in Miami on July 18. The match is played by the two teams that lost in the semifinals. Despite missing the final, both sides produced many goals."
+            }
+          ]
         },
         {
           "form": "negative",
@@ -78142,7 +78284,12 @@
           "term": "戦わない",
           "readingHiragana": "たたかわない",
           "meaning": "Plain negative form of 戦う: to fight, to struggle",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "3位決定戦は、準決勝で負けた2チームが戦う試合です。",
+              "en": "England beat France 6-4 in the World Cup third-place playoff in Miami on July 18. The match is played by the two teams that lost in the semifinals. Despite missing the final, both sides produced many goals."
+            }
+          ]
         },
         {
           "form": "te",
@@ -78151,7 +78298,12 @@
           "term": "戦って",
           "readingHiragana": "たたかって",
           "meaning": "Te-form of 戦う: to fight, to struggle",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "3位決定戦は、準決勝で負けた2チームが戦う試合です。",
+              "en": "England beat France 6-4 in the World Cup third-place playoff in Miami on July 18. The match is played by the two teams that lost in the semifinals. Despite missing the final, both sides produced many goals."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -78160,7 +78312,12 @@
           "term": "戦える",
           "readingHiragana": "たたかえる",
           "meaning": "Potential form of 戦う: to fight, to struggle",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "3位決定戦は、準決勝で負けた2チームが戦う試合です。",
+              "en": "England beat France 6-4 in the World Cup third-place playoff in Miami on July 18. The match is played by the two teams that lost in the semifinals. Despite missing the final, both sides produced many goals."
+            }
+          ]
         }
       ]
     },
@@ -79407,6 +79564,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ブカヨ・サカは37分と前半の追加時間にゴールを決め、イングランドは前半を4対0で終えました。",
+          "en": "Bukayo Saka scored in the 37th minute and in first-half stoppage time, leaving England 4-0 ahead at halftime."
+        },
+        {
+          "ja": "さらに後半の追加時間に、ジュード・ベリンガムがイングランドの6点目を決めました。",
+          "en": "Jude Bellingham then scored England’s sixth goal in second-half stoppage time."
+        },
+        {
           "ja": "そこには次の駅だけでなく、路線の地図や、その先の駅までの所要時間が表示されます。",
           "en": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
         },
@@ -79417,14 +79582,6 @@
         {
           "ja": "ただし、この時間は約束された到着時刻ではありません。",
           "en": "The times are not guaranteed arrival times."
-        },
-        {
-          "ja": "駅で人が多いときや、前の電車が遅れているときは、実際の時間が変わることがあります。",
-          "en": "Crowded stations or a delayed train ahead can change the actual time."
-        },
-        {
-          "ja": "今では、E233系などの車内の液晶が、到着駅、所要時間、出口、遅延などを伝えています。",
-          "en": "JR East began this kind of LCD guidance on new Yamanote Line trains in 2002. Today, displays on trains such as the E233 series provide arrival, travel-time, exit, and delay information—a small guide for the journey."
         }
       ]
     },
@@ -85234,6 +85391,193 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": []
+    },
+    {
+      "id": "article-e051b988de8972",
+      "level": "N3",
+      "term": "3位決定戦",
+      "reading": "さんいけっていせん",
+      "readingHiragana": "さんいけっていせん",
+      "meaning": "Third-place playoff",
+      "source": "article",
+      "sourceId": "2026-07-19-england-france-world-cup",
+      "sourceTitle": "イングランド、フランスに6対4で勝つ",
+      "sourceLabel": "7/19 イングランド対フランス",
+      "sourceHref": "./2026-07-19-england-france-world-cup.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-19-england-france-world-cup"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "サッカーのワールドカップ3位決定戦で、イングランドがフランスに6対4で勝ちました。",
+          "en": "England beat France 6-4 in the World Cup third-place playoff in Miami on July 18. The match is played by the two teams that lost in the semifinals. Despite missing the final, both sides produced many goals."
+        },
+        {
+          "ja": "3位決定戦は、準決勝で負けた2チームが戦う試合です。",
+          "en": "England beat France 6-4 in the World Cup third-place playoff in Miami on July 18. The match is played by the two teams that lost in the semifinals. Despite missing the final, both sides produced many goals."
+        }
+      ]
+    },
+    {
+      "id": "article-d474f944b0aaf5",
+      "level": "N3",
+      "term": "準決勝",
+      "reading": "じゅんけっしょう",
+      "readingHiragana": "じゅんけっしょう",
+      "meaning": "Semifinal",
+      "source": "article",
+      "sourceId": "2026-07-19-england-france-world-cup",
+      "sourceTitle": "イングランド、フランスに6対4で勝つ",
+      "sourceLabel": "7/19 イングランド対フランス",
+      "sourceHref": "./2026-07-19-england-france-world-cup.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-19-england-france-world-cup"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "3位決定戦は、準決勝で負けた2チームが戦う試合です。",
+          "en": "England beat France 6-4 in the World Cup third-place playoff in Miami on July 18. The match is played by the two teams that lost in the semifinals. Despite missing the final, both sides produced many goals."
+        }
+      ]
+    },
+    {
+      "id": "article-443a3c8108bc9c",
+      "level": "N3",
+      "term": "得点する",
+      "reading": "とくてんする",
+      "readingHiragana": "とくてんする",
+      "meaning": "To score",
+      "source": "article",
+      "sourceId": "2026-07-19-england-france-world-cup",
+      "sourceTitle": "イングランド、フランスに6対4で勝つ",
+      "sourceLabel": "7/19 イングランド対フランス",
+      "sourceHref": "./2026-07-19-england-france-world-cup.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-19-england-france-world-cup"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "デクラン・ライスが2分にゴールを決め、その後、エズリ・コンサも得点しました。",
+          "en": "Declan Rice scored in the second minute and Ezri Konsa added another goal."
+        }
+      ]
+    },
+    {
+      "id": "article-97ceec7997f445",
+      "level": "N3",
+      "term": "追加時間",
+      "reading": "ついかじかん",
+      "readingHiragana": "ついかじかん",
+      "meaning": "Stoppage time",
+      "source": "article",
+      "sourceId": "2026-07-19-england-france-world-cup",
+      "sourceTitle": "イングランド、フランスに6対4で勝つ",
+      "sourceLabel": "7/19 イングランド対フランス",
+      "sourceHref": "./2026-07-19-england-france-world-cup.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-19-england-france-world-cup"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "ブカヨ・サカは37分と前半の追加時間にゴールを決め、イングランドは前半を4対0で終えました。",
+          "en": "Bukayo Saka scored in the 37th minute and in first-half stoppage time, leaving England 4-0 ahead at halftime."
+        },
+        {
+          "ja": "さらに後半の追加時間に、ジュード・ベリンガムがイングランドの6点目を決めました。",
+          "en": "Jude Bellingham then scored England’s sixth goal in second-half stoppage time."
+        }
+      ]
+    },
+    {
+      "id": "article-d1c097bb798f6a",
+      "level": "N3",
+      "term": "反撃する",
+      "reading": "はんげきする",
+      "readingHiragana": "はんげきする",
+      "meaning": "To fight back",
+      "source": "article",
+      "sourceId": "2026-07-19-england-france-world-cup",
+      "sourceTitle": "イングランド、フランスに6対4で勝つ",
+      "sourceLabel": "7/19 イングランド対フランス",
+      "sourceHref": "./2026-07-19-england-france-world-cup.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-19-england-france-world-cup"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "しかし、フランスは後半に反撃しました。",
+          "en": "France fought back in the second half."
+        }
+      ]
+    },
+    {
+      "id": "article-ec1a7f68110bb9",
+      "level": "N3",
+      "term": "追いつく",
+      "reading": "おいつく",
+      "readingHiragana": "おいつく",
+      "meaning": "To catch up",
+      "source": "article",
+      "sourceId": "2026-07-19-england-france-world-cup",
+      "sourceTitle": "イングランド、フランスに6対4で勝つ",
+      "sourceLabel": "7/19 イングランド対フランス",
+      "sourceHref": "./2026-07-19-england-france-world-cup.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-19-england-france-world-cup"
+      ],
+      "exampleSentences": []
+    },
+    {
+      "id": "article-b2f6406d7f2985",
+      "level": "N3",
+      "term": "PK",
+      "reading": "ピーケー",
+      "readingHiragana": "ぴーけー",
+      "meaning": "Penalty kick",
+      "source": "article",
+      "sourceId": "2026-07-19-england-france-world-cup",
+      "sourceTitle": "イングランド、フランスに6対4で勝つ",
+      "sourceLabel": "7/19 イングランド対フランス",
+      "sourceHref": "./2026-07-19-england-france-world-cup.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-19-england-france-world-cup"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "サカは87分にPKを決めて、この日3点目を取りました。",
+          "en": "Saka scored a penalty in the 87th minute for his third goal."
+        }
+      ]
+    },
+    {
+      "id": "article-3d577caf1afa48",
+      "level": "N3",
+      "term": "記憶に残る",
+      "reading": "きおくにのこる",
+      "readingHiragana": "きおくにのこる",
+      "meaning": "To remain memorable",
+      "source": "article",
+      "sourceId": "2026-07-19-england-france-world-cup",
+      "sourceTitle": "イングランド、フランスに6対4で勝つ",
+      "sourceLabel": "7/19 イングランド対フランス",
+      "sourceHref": "./2026-07-19-england-france-world-cup.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-19-england-france-world-cup"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "10点が入ったこの試合は、今回のワールドカップでも特に記憶に残る試合になりました。",
+          "en": "With 10 goals, this became one of the tournament’s most memorable matches."
+        }
+      ]
     },
     {
       "id": "article-57a3420f117682",
@@ -91982,20 +92326,24 @@
       ],
       "exampleSentences": [
         {
-          "ja": "試合後、ブランソンはファイナルMVPにも選ばれました。",
-          "en": "After the game, Brunson was also chosen as Finals MVP."
+          "ja": "試合は7月18日、アメリカのマイアミで行われました。",
+          "en": "England beat France 6-4 in the World Cup third-place playoff in Miami on July 18. The match is played by the two teams that lost in the semifinals. Despite missing the final, both sides produced many goals."
         },
         {
-          "ja": "そのため、ニューヨークの街では、試合の後に大きな歓声が上がりました。",
-          "en": "Because of that, loud cheers rose in New York after the game."
+          "ja": "3位決定戦は、準決勝で負けた2チームが戦う試合です。",
+          "en": "England beat France 6-4 in the World Cup third-place playoff in Miami on July 18. The match is played by the two teams that lost in the semifinals. Despite missing the final, both sides produced many goals."
         },
         {
-          "ja": "試合はニューヨーク・ニュージャージーの大きな会場で行われました。",
-          "en": "The match was played at a large venue in New York/New Jersey."
+          "ja": "イングランドは試合の最初から強かったです。",
+          "en": "England started strongly."
         },
         {
-          "ja": "試合後、ブラジルのアンチェロッティ監督は、チームはもっと良くならなければならないと話しました。",
-          "en": "After the match, Brazil coach Ancelotti said the team must improve."
+          "ja": "フランスは4対3まで追いつきそうになり、試合は最後まで分からなくなりました。",
+          "en": "France came close at 4-3, making the result uncertain until the end."
+        },
+        {
+          "ja": "1人の選手が1試合で3点を取ることを、ハットトリックと言います。",
+          "en": "Three goals by one player in a match are called a hat trick."
         }
       ]
     },
@@ -92055,6 +92403,10 @@
         "2026-06-14-brazil-morocco-draw"
       ],
       "exampleSentences": [
+        {
+          "ja": "ブカヨ・サカは37分と前半の追加時間にゴールを決め、イングランドは前半を4対0で終えました。",
+          "en": "Bukayo Saka scored in the 37th minute and in first-half stoppage time, leaving England 4-0 ahead at halftime."
+        },
         {
           "ja": "ブラジルは優勝経験が多い強いチームですが、前半はモロッコの速い攻撃に苦しみました。",
           "en": "Brazil are a strong team with many World Cup titles, but in the first half they struggled against Morocco’s quick attacks."
@@ -92312,6 +92664,14 @@
         "2026-06-13-spacex-greenshoe"
       ],
       "exampleSentences": [
+        {
+          "ja": "ブカヨ・サカは37分と前半の追加時間にゴールを決め、イングランドは前半を4対0で終えました。",
+          "en": "Bukayo Saka scored in the 37th minute and in first-half stoppage time, leaving England 4-0 ahead at halftime."
+        },
+        {
+          "ja": "さらに後半の追加時間に、ジュード・ベリンガムがイングランドの6点目を決めました。",
+          "en": "Jude Bellingham then scored England’s sixth goal in second-half stoppage time."
+        },
         {
           "ja": "もし株価が高いままなら、会社から追加の株を買って約束を満たします。",
           "en": "If the share price stays high, they buy additional shares from the company to meet their commitment."
