@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>東京では毎日、何人が電車を使うのか</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <script>
+        (() => {
+            try {
+                const storedTheme = window.localStorage.getItem('learnJapanese.theme');
+                const theme = storedTheme === 'dark' || storedTheme === 'light'
+                    ? storedTheme
+                    : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                document.documentElement.dataset.theme = theme;
+                document.documentElement.style.colorScheme = theme;
+            } catch (error) {
+                document.documentElement.dataset.theme = 'light';
+                document.documentElement.style.colorScheme = 'light';
+            }
+        })();
+    </script>
+    <link rel="stylesheet" href="./assets/article.css?v=b02c94c319a7">
+</head>
+<body id="top" data-article-id="2026-07-19-tokyo-daily-train-ridership" data-recording-download-name="2026-07-19-tokyo-daily-train-ridership.mp4">
+<nav class="top-nav" aria-label="Page navigation"></nav>
+<div class="article-shell">
+    <aside class="article-sidebar" aria-label="Article navigation"></aside>
+    <main class="article-main">
+
+<div class="container">
+    <div class="date">2026年7月19日</div>
+    <div class="article-toolbar">
+        <div class="voice-controls">
+            <button class="toolbar-icon-button voice-menu-toggle" type="button" id="voice-menu-toggle" aria-expanded="false" aria-controls="voice-settings-menu" aria-label="Voice settings" data-tooltip="Voice settings">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 10v4"></path>
+                    <path d="M8 7v10"></path>
+                    <path d="M12 4v16"></path>
+                    <path d="M16 7v10"></path>
+                    <path d="M20 10v4"></path>
+                </svg>
+                <span class="icon-label">Voice settings</span>
+            </button>
+            <div class="voice-current-status" id="voice-current-status" aria-live="polite">Docker VOICEVOX</div>
+            <button class="audio-enable-button" type="button" id="enable-docker-audio" hidden>Enable audio</button>
+            <div class="voice-settings-menu" id="voice-settings-menu" hidden>
+                <label class="toolbar-label" for="browser-voice">Browser Voice</label>
+                <select class="voice-select" id="browser-voice" aria-label="Browser voice">
+                    <option value="auto" selected>Google 日本語</option>
+                </select>
+            </div>
+        </div>
+        <div class="article-actions" aria-label="Article actions">
+            <button class="toolbar-icon-button preview-button" type="button" id="preview-recording-mode" aria-label="Preview recording mode" data-tooltip="Preview recording mode">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M2 12s3.8-6 10-6 10 6 10 6-3.8 6-10 6-10-6-10-6z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+                <span class="icon-label">Preview recording mode</span>
+            </button>
+            <button class="toolbar-icon-button video-button" type="button" id="render-video" aria-label="Render video" data-tooltip="Render video" data-default-label="Render video" data-active-label="Recording">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M5 6h11a2 2 0 0 1 2 2v1l3-2v10l-3-2v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"></path>
+                    <path d="M9 10.5v3l3-1.5z"></path>
+                </svg>
+                <span class="icon-label">Render video</span>
+            </button>
+            <button class="toolbar-icon-button cover-button" type="button" id="download-cover" aria-label="Download video cover" data-tooltip="Download cover" data-default-label="Download cover" data-active-label="Rendering cover">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                    <circle cx="8.5" cy="10" r="1.5"></circle>
+                    <path d="m21 15-5-5L5 19"></path>
+                </svg>
+                <span class="icon-label">Download cover</span>
+            </button>
+            <button class="toolbar-icon-button speak-button" type="button" id="speak-japanese-article" aria-label="Read aloud" data-tooltip="Read aloud" data-default-label="Read aloud" data-active-label="Stop reading" data-loading-label="Preparing audio">
+                <svg class="toolbar-svg icon-read" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 10v4h4l5 4V6L8 10z"></path>
+                    <path d="M16 9c1.8 1.8 1.8 4.2 0 6"></path>
+                    <path d="M18.5 6.5c3.3 3.3 3.3 7.7 0 11"></path>
+                </svg>
+                <svg class="toolbar-svg icon-stop" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 8h8v8H8z"></path>
+                </svg>
+                <span class="icon-label">Read aloud</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-japanese-article" aria-label="Copy Japanese article" data-tooltip="Copy Japanese article">
+                <span class="copy-language-icon" aria-hidden="true">あ</span>
+                <span class="icon-label">Copy Japanese article</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-english-translation" aria-label="Copy English translation" data-tooltip="Copy English translation">
+                <span class="copy-language-icon" aria-hidden="true">A</span>
+                <span class="icon-label">Copy English translation</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-bilingual-article" aria-label="Copy Japanese and English article" data-tooltip="Copy Japanese and English article">
+                <span class="copy-language-icon copy-language-icon-wide" aria-hidden="true">あ/A</span>
+                <span class="icon-label">Copy Japanese and English article</span>
+            </button>
+        </div>
+    </div>
+    <div class="copy-status" id="copy-status" aria-live="polite"></div>
+    <audio class="audio-player" id="tts-player" controls hidden preload="none"></audio>
+    <h1><ruby>東京<rt>とうきょう</rt></ruby>では<ruby>毎日<rt>まいにち</rt></ruby>、<ruby>何人<rt>なんにん</rt></ruby>が<ruby>電車<rt>でんしゃ</rt></ruby>を<ruby>使<rt>つか</rt></ruby>うのか</h1>
+    <div class="source-note">東京メトロの2025年度の営業状況、JR東日本の2024年度「各駅の乗車人員」ベスト100、東京都の2026年6月1日現在の人口推計をもとに作成した学習用ページです。人数は利用回数や乗車人員であり、異なる人の数ではありません。</div>
+
+
+    <p class="article-paragraph"><ruby>東京<rt>とうきょう</rt></ruby>の<ruby>電車<rt>でんしゃ</rt></ruby>は、<ruby>朝<rt>あさ</rt></ruby>から<ruby>夜<rt>よる</rt></ruby>までたくさんの<ruby>人<rt>ひと</rt></ruby>を<ruby>運<rt>はこ</rt></ruby>んでいます。では、1<ruby>日<rt>にち</rt></ruby>にどのくらいの<ruby>人<rt>ひと</rt></ruby>が<ruby>使<rt>つか</rt></ruby>うのでしょうか。東京メトロだけでも、2025<ruby>年度<rt>ねんど</rt></ruby>には1<ruby>日平均<rt>にちへいきん</rt></ruby>で<ruby>約<rt>やく</rt></ruby>704<ruby>万人<rt>まんにん</rt></ruby>を<ruby>運<rt>はこ</rt></ruby>びました。これは<ruby>東京<rt>とうきょう</rt></ruby>メトロという一つの<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>数字<rt>すうじ</rt></ruby>で、JRやほかの<ruby>私鉄<rt>してつ</rt></ruby>は<ruby>入<rt>はい</rt></ruby>っていません。</p>
+    <div class="sentence-translation">Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included.</div>
+    <p class="article-paragraph">東京<ruby>都<rt>と</rt></ruby>の<ruby>人口<rt>じんこう</rt></ruby>は、2026<ruby>年<rt>ねん</rt></ruby>6<ruby>月<rt>がつ</rt></ruby>の<ruby>推計<rt>すいけい</rt></ruby>で<ruby>約<rt>やく</rt></ruby>1,430<ruby>万人<rt>まんにん</rt></ruby>です。704<ruby>万人<rt>まんにん</rt></ruby>をこの<ruby>人口<rt>じんこう</rt></ruby>と<ruby>比<rt>くら</rt></ruby>べると、<ruby>約<rt>やく</rt></ruby>49パーセント、ほぼ<ruby>半分<rt>はんぶん</rt></ruby>になります。もちろん、これは「東京の<ruby>半分<rt>はんぶん</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が一度だけ<ruby>乗<rt>の</rt></ruby>る」という<ruby>意味<rt>いみ</rt></ruby>ではありません。<ruby>同<rt>おな</rt></ruby>じ<ruby>人<rt>ひと</rt></ruby>が<ruby>行<rt>い</rt></ruby>きと<ruby>帰<rt>かえ</rt></ruby>りで<ruby>乗<rt>の</rt></ruby>るので、これは<ruby>利用<rt>りよう</rt></ruby>の<ruby>回数<rt>かいすう</rt></ruby>の<ruby>大<rt>おお</rt></ruby>きさを<ruby>示<rt>しめ</rt></ruby>す<ruby>比較<rt>ひかく</rt></ruby>です。</p>
+    <div class="sentence-translation">Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home.</div>
+    <p class="article-paragraph">東京メトロは9<ruby>路線<rt>ろせん</rt></ruby>、180<ruby>駅<rt>えき</rt></ruby>、2,718<ruby>両<rt>りょう</rt></ruby>の<ruby>車両<rt>しゃりょう</rt></ruby>で<ruby>動<rt>うご</rt></ruby>いています。<ruby>都心<rt>としん</rt></ruby>の<ruby>地下<rt>ちか</rt></ruby>を<ruby>通<rt>とお</rt></ruby>るこのネットワークは、<ruby>通勤<rt>つうきん</rt></ruby>、<ruby>通学<rt>つうがく</rt></ruby>、<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>、<ruby>観光<rt>かんこう</rt></ruby>などを<ruby>支<rt>ささ</rt></ruby>えています。1<ruby>日<rt>にち</rt></ruby>に700<ruby>万人<rt>まんにん</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>という<ruby>数字<rt>すうじ</rt></ruby>は、ホームが<ruby>混<rt>こ</rt></ruby>む<ruby>理由<rt>りゆう</rt></ruby>や、<ruby>短<rt>みじか</rt></ruby>い<ruby>間隔<rt>かんかく</rt></ruby>で<ruby>電車<rt>でんしゃ</rt></ruby>が<ruby>来<rt>く</rt></ruby>る<ruby>理由<rt>りゆう</rt></ruby>をよく<ruby>表<rt>あらわ</rt></ruby>しています。</p>
+    <div class="sentence-translation">Tokyo Metro runs nine lines, 180 stations, and 2,718 cars. It supports commuting, school, shopping, and tourism. More than seven million daily journeys help explain crowded platforms and frequent trains.</div>
+    <p class="article-paragraph">JR<ruby>東日本<rt>ひがしにほん</rt></ruby>が<ruby>発表<rt>はっぴょう</rt></ruby>した2024<ruby>年度<rt>ねんど</rt></ruby>の<ruby>駅<rt>えき</rt></ruby>ランキングでは、<ruby>上位<rt>じょうい</rt></ruby>100<ruby>駅<rt>えき</rt></ruby>の1<ruby>日平均<rt>にちへいきん</rt></ruby>の<ruby>乗車人員<rt>じょうしゃじんいん</rt></ruby>を<ruby>合<rt>あ</rt></ruby>わせると、<ruby>約<rt>やく</rt></ruby>1,200<ruby>万人<rt>まんにん</rt></ruby>になります。<ruby>新宿<rt>しんじゅく</rt></ruby>、<ruby>池袋<rt>いけぶくろ</rt></ruby>、<ruby>東京<rt>とうきょう</rt></ruby>などの<ruby>大<rt>おお</rt></ruby>きな<ruby>駅<rt>えき</rt></ruby>には、とくに<ruby>多<rt>おお</rt></ruby>くの<ruby>人<rt>ひと</rt></ruby>が<ruby>集<rt>あつ</rt></ruby>まります。ただし、この100<ruby>駅<rt>えき</rt></ruby>には<ruby>東京<rt>とうきょう</rt></ruby><ruby>以外<rt>いがい</rt></ruby>の<ruby>駅<rt>えき</rt></ruby>もあります。また、これは<ruby>乗<rt>の</rt></ruby>る<ruby>人<rt>ひと</rt></ruby>だけを<ruby>数<rt>かぞ</rt></ruby>えた<ruby>数字<rt>すうじ</rt></ruby>です。</p>
+    <div class="sentence-translation">JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only.</div>
+    <p class="article-paragraph"><ruby>駅<rt>えき</rt></ruby>の<ruby>利用者数<rt>りようしゃすう</rt></ruby>を<ruby>見<rt>み</rt></ruby>るときは、<ruby>何<rt>なに</rt></ruby>を<ruby>数<rt>かぞ</rt></ruby>えた<ruby>数字<rt>すうじ</rt></ruby>かを<ruby>考<rt>かんが</rt></ruby>えることが<ruby>大切<rt>たいせつ</rt></ruby>です。<ruby>会社<rt>かいしゃ</rt></ruby>ごとの<ruby>輸送人員<rt>ゆそうじんいん</rt></ruby>、<ruby>駅<rt>えき</rt></ruby>ごとの<ruby>乗車人員<rt>じょうしゃじんいん</rt></ruby>、<ruby>乗<rt>の</rt></ruby>り<ruby>降<rt>お</rt></ruby>りした<ruby>人<rt>ひと</rt></ruby>の<ruby>合計<rt>ごうけい</rt></ruby>は、<ruby>同<rt>おな</rt></ruby>じではありません。それでも東京メトロだけで<ruby>都<rt>と</rt></ruby>の<ruby>人口<rt>じんこう</rt></ruby>のほぼ<ruby>半分<rt>はんぶん</rt></ruby>にあたる<ruby>利用<rt>りよう</rt></ruby>があることは、<ruby>東京<rt>とうきょう</rt></ruby>の<ruby>毎日<rt>まいにち</rt></ruby>がどれほど<ruby>電車<rt>でんしゃ</rt></ruby>と<ruby>深<rt>ふか</rt></ruby>くつながっているかを<ruby>示<rt>しめ</rt></ruby>しています。</p>
+    <div class="sentence-translation">Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life.</div>
+    <div class="recording-footer" aria-hidden="true">
+        <span>英訳はコメント欄にあります</span>
+        <span>2026年7月19日</span>
+    </div>
+
+<div class="study-notes-box">
+        <h2>Common Phrases and Patterns</h2>
+        <div class="study-note-group">
+            <h3>Useful phrases</h3>
+            <ul class="study-note-list">
+                <li><strong>〜だけで</strong> <span>just by / only with</span><div class="study-note-example">Example: 東京メトロだけでも、2025年度には1日平均で約</div></li>
+            </ul>
+        </div>
+        <div class="study-note-group">
+            <h3>Verb and grammar patterns</h3>
+            <ul class="study-note-list">
+                <li><strong>〜ている</strong> <span>ongoing state / habitual action</span><div class="study-note-example">Example: 80駅、2,718両の車両で動いています</div></li>
+            </ul>
+        </div>
+    </div>
+    <div class="vocabulary-box">
+        <h2>N3 Vocabulary</h2>
+        <ul>
+            <li><strong>輸送人員（ゆそうじんいん）:</strong> Number of passengers transported</li>
+            <li><strong>推計（すいけい）:</strong> Estimate</li>
+            <li><strong>利用回数（りようかいすう）:</strong> Number of uses / journeys</li>
+            <li><strong>私鉄（してつ）:</strong> Private railway</li>
+            <li><strong>通勤（つうきん）:</strong> Commuting to work</li>
+            <li><strong>間隔（かんかく）:</strong> Interval</li>
+            <li><strong>乗車人員（じょうしゃじんいん）:</strong> Number of boardings</li>
+            <li><strong>乗り降り（のりおり）:</strong> Getting on and off</li>
+        </ul>
+    </div>
+</div>
+    </main>
+</div>
+
+<script src="./assets/theme.js"></script>
+<script src="./assets/article.js?v=726492372069"></script>
+
+</body>
+</html>
