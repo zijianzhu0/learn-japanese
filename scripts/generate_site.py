@@ -1285,11 +1285,10 @@ def build_ebook_library_payload(articles: list[dict]) -> dict:
         "collections": [
             {
                 "id": EBOOK_MVP_ID,
-                "title": "Tokyo Starter Pack",
-                "subtitle": "Three fixed-layout EPUB chapters for moving through Tokyo.",
+                "title": "Tokyo Starter Pack · Vol. 1",
+                "subtitle": "Three chapters for moving through Tokyo.",
                 "description": (
-                    "A browser workbench for the fixed-layout EPUB: preview its "
-                    "1200 × 1800 pages before exporting the book."
+                    "Preview the book’s pages before exporting it."
                 ),
                 "estimatedMinutes": 18,
                 "articles": ebook_articles,

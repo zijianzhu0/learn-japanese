@@ -32,8 +32,8 @@ from scripts.voicevox_cache import (
 
 
 DIST_DIR = ROOT / "dist"
-DEFAULT_OUTPUT_PATH = DIST_DIR / "tokyo-starter-pack-audio.epub"
-DEFAULT_TITLE = "日本語の勉強記録"
+DEFAULT_OUTPUT_PATH = DIST_DIR / "tokyo-starter-pack-vol-1-audio.epub"
+DEFAULT_TITLE = "日本語の勉強記録 Vol. 1"
 DEFAULT_AUTHOR = "ドキドキ団子"
 DEFAULT_LANGUAGE = "ja"
 DEFAULT_ARTICLE_IDS = (
@@ -48,8 +48,9 @@ FIXED_LAYOUT_WIDTH = 1200
 FIXED_LAYOUT_HEIGHT = 1800
 EXPECTED_SECTION_COUNT = 5
 EPUB_LAYOUT_CSS_PATH = ROOT / "assets" / "epub-layout.css"
-EPUB_COVER_IMAGE_PATH = ROOT / "assets" / "epub-cover.jpg"
-EPUB_COVER_IMAGE_HREF = "images/epub-cover.jpg"
+EPUB_COVER_IMAGE_PATH = ROOT / "assets" / "epub-cover-vol-1.png"
+EPUB_COVER_IMAGE_HREF = "images/epub-cover-vol-1.png"
+EPUB_COVER_IMAGE_MEDIA_TYPE = "image/png"
 
 
 @dataclass(frozen=True)
@@ -505,7 +506,6 @@ def nav_document(title: str, chapters: tuple[Chapter, ...]) -> str:
         <ol class="toc">
 {items}
         </ol>
-        <p class="page-footer">Fixed layout · {FIXED_LAYOUT_WIDTH}×{FIXED_LAYOUT_HEIGHT}</p>
         </div>
       </div>
     </nav>"""
@@ -520,15 +520,12 @@ def intro_page(title: str, chapters: tuple[Chapter, ...]) -> str:
     body = f"""    <div class="page-wrap">
       <section class="page">
         <div class="page__inner">
-        <p class="kicker">Japanese Reading EPUB</p>
         <h1>{xml_escape(title)}</h1>
-        <p class="title-translation">Each article opens with a Japanese-only overview page, followed by five section study pages with audio and notes.</p>
-        <p class="vocabulary-note">The layout is fixed at 1200×1800 with larger type for reading and ruby support.</p>
+        <p class="title-translation">Three Tokyo stories to read, listen to, and study one section at a time.</p>
         <h2>Contents</h2>
         <ol class="toc">
 {toc_items}
         </ol>
-        <p class="page-footer">Fixed layout · {FIXED_LAYOUT_WIDTH}×{FIXED_LAYOUT_HEIGHT}</p>
         </div>
       </section>
     </div>"""
@@ -660,7 +657,7 @@ def package_document(book_uuid: str, title: str, author: str, chapters: tuple[Ch
         '    <item id="nav" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>',
         '    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>',
         '    <item id="style" href="styles/book.css" media-type="text/css"/>',
-        f'    <item id="cover-image" href="{EPUB_COVER_IMAGE_HREF}" media-type="image/jpeg" properties="cover-image"/>',
+        f'    <item id="cover-image" href="{EPUB_COVER_IMAGE_HREF}" media-type="{EPUB_COVER_IMAGE_MEDIA_TYPE}" properties="cover-image"/>',
     ]
     for page in spine_pages:
         manifest_items.append(f'    <item id="{page.id}" href="{page.href}" media-type="application/xhtml+xml"/>')
@@ -1010,7 +1007,7 @@ def build_epub(
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Build a fixed-layout EPUB 3 with embedded section audio from selected Learn Japanese articles.")
+    parser = argparse.ArgumentParser(description="Build an EPUB 3 with embedded section audio from selected Learn Japanese articles.")
     parser.add_argument("--output", default=str(DEFAULT_OUTPUT_PATH), help="Path to the EPUB file to create.")
     parser.add_argument("--title", default=DEFAULT_TITLE, help="Book title to embed in the EPUB metadata.")
     parser.add_argument("--author", default=DEFAULT_AUTHOR, help="Author name to embed in the EPUB metadata and cover.")
