@@ -42,6 +42,10 @@
     { "term": "通勤（つうきん）", "meaning": "Commuting to work" },
     { "term": "間隔（かんかく）", "meaning": "Interval" },
     { "term": "乗車人員（じょうしゃじんいん）", "meaning": "Number of boardings" },
-    { "term": "乗り降り（のりおり）", "meaning": "Getting on and off" }
+    { "term": "乗り降り（のりおり）", "meaning": "Getting on and off" },
+    {
+      "term": "発表（はっぴょう）",
+      "meaning": "Announcement, presentation"
+    }
   ]
 }

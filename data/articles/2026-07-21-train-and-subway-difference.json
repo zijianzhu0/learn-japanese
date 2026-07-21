@@ -42,6 +42,10 @@
     { "term": "区間（くかん）", "meaning": "Section / segment" },
     { "term": "相互直通運転（そうごちょくつううんてん）", "meaning": "Through service between railways" },
     { "term": "乗り換える（のりかえる）", "meaning": "To transfer" },
-    { "term": "条件（じょうけん）", "meaning": "Condition / criterion" }
+    { "term": "条件（じょうけん）", "meaning": "Condition / criterion" },
+    {
+      "term": "場所（ばしょ）",
+      "meaning": "Place, location"
+    }
   ]
 }

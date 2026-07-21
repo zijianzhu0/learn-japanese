@@ -69,6 +69,10 @@
             {
               "term": "一周（いっしゅう）",
               "meaning": "One lap / One circuit"
+            },
+            {
+              "term": "場所（ばしょ）",
+              "meaning": "Place, location"
             }
           ]
         },
@@ -199,6 +203,10 @@
             {
               "term": "混乱（こんらん）",
               "meaning": "Confusion"
+            },
+            {
+              "term": "場所（ばしょ）",
+              "meaning": "Place, location"
             }
           ]
         }

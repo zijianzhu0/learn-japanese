@@ -57,6 +57,14 @@
     {
       "term": "症状（しょうじょう）",
       "meaning": "Symptom"
+    },
+    {
+      "term": "場所（ばしょ）",
+      "meaning": "Place, location"
+    },
+    {
+      "term": "確認（かくにん）",
+      "meaning": "Confirmation, checking"
     }
   ]
 }

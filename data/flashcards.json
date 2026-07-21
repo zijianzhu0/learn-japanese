@@ -4,7 +4,7 @@
     "articleManifest": "data/articles.json"
   },
   "levels": {
-    "N3": 2143,
+    "N3": 2203,
     "N4": 546,
     "N5": 559
   },
@@ -87106,6 +87106,84 @@
       ]
     },
     {
+      "id": "article-e2e7d549645161",
+      "level": "N3",
+      "term": "場所",
+      "reading": "ばしょ",
+      "readingHiragana": "ばしょ",
+      "meaning": "Place, location",
+      "source": "article",
+      "sourceId": "2026-07-22-green-car-card-and-mobile-suica",
+      "sourceTitle": "グリーン車はカードのSuicaとスマホで使える",
+      "sourceLabel": "7/22 グリーン車とSuica",
+      "sourceHref": "./2026-07-22-green-car-card-and-mobile-suica.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-22-green-car-card-and-mobile-suica"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "通信が安定した場所で、早めに買っておくと安心です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
+          "ja": "画面の路線図では、今いる場所と進む方向がわかります。",
+          "en": "The route map shows where the train is and which way it is going."
+        },
+        {
+          "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+          "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+        },
+        {
+          "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+          "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
+        }
+      ]
+    },
+    {
+      "id": "article-e164059f44da07",
+      "level": "N3",
+      "term": "場合",
+      "reading": "ばあい",
+      "readingHiragana": "ばあい",
+      "meaning": "Case, situation",
+      "source": "article",
+      "sourceId": "2026-07-22-green-car-card-and-mobile-suica",
+      "sourceTitle": "グリーン車はカードのSuicaとスマホで使える",
+      "sourceLabel": "7/22 グリーン車とSuica",
+      "sourceHref": "./2026-07-22-green-car-card-and-mobile-suica.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-22-green-car-card-and-mobile-suica"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "カード型のSuicaを使う場合は、乗る前に駅の券売機でSuicaグリーン券を買います。",
+          "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
+        },
+        {
+          "ja": "ほんのわずかな場合でも、すぐドアを開けるのではなく、安全確認が必要です。",
+          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+        },
+        {
+          "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
+          "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
+        },
+        {
+          "ja": "駅員から乗る位置を案内された場合は、その指示に従いましょう。",
+          "en": "Follow any instructions from station staff about where to board."
+        },
+        {
+          "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
+          "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
+        }
+      ]
+    },
+    {
       "id": "article-d69464dea9d320",
       "level": "N3",
       "term": "車両",
@@ -87370,6 +87448,45 @@
       ]
     },
     {
+      "id": "article-6315e83b456e68",
+      "level": "N3",
+      "term": "場所",
+      "reading": "ばしょ",
+      "readingHiragana": "ばしょ",
+      "meaning": "Place, location",
+      "source": "article",
+      "sourceId": "2026-07-21-train-and-subway-difference",
+      "sourceTitle": "「電車」と「地下鉄」は、何が違うのか",
+      "sourceLabel": "7/21 電車と地下鉄の違い",
+      "sourceHref": "./2026-07-21-train-and-subway-difference.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-21-train-and-subway-difference"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "通信が安定した場所で、早めに買っておくと安心です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
+          "ja": "画面の路線図では、今いる場所と進む方向がわかります。",
+          "en": "The route map shows where the train is and which way it is going."
+        },
+        {
+          "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+          "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+        },
+        {
+          "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+          "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
+        }
+      ]
+    },
+    {
       "id": "article-9cd829e578c2b8",
       "level": "N3",
       "term": "所要時間",
@@ -87578,6 +87695,84 @@
         {
           "ja": "今では、E233系などの車内の液晶が、到着駅、所要時間、出口、遅延などを伝えています。",
           "en": "JR East began this kind of LCD guidance on new Yamanote Line trains in 2002. Today, displays on trains such as the E233 series provide arrival, travel-time, exit, and delay information—a small guide for the journey."
+        }
+      ]
+    },
+    {
+      "id": "article-ad3655507f8311",
+      "level": "N3",
+      "term": "場所",
+      "reading": "ばしょ",
+      "readingHiragana": "ばしょ",
+      "meaning": "Place, location",
+      "source": "article",
+      "sourceId": "2026-07-20-jr-in-car-travel-times",
+      "sourceTitle": "電車の画面で、次の駅まで何分かわかる",
+      "sourceLabel": "7/20 車内の所要時間",
+      "sourceHref": "./2026-07-20-jr-in-car-travel-times.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-20-jr-in-car-travel-times"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "通信が安定した場所で、早めに買っておくと安心です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
+          "ja": "画面の路線図では、今いる場所と進む方向がわかります。",
+          "en": "The route map shows where the train is and which way it is going."
+        },
+        {
+          "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+          "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+        },
+        {
+          "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+          "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
+        }
+      ]
+    },
+    {
+      "id": "article-5e27f77bb34a3c",
+      "level": "N3",
+      "term": "確認",
+      "reading": "かくにん",
+      "readingHiragana": "かくにん",
+      "meaning": "Confirmation, checking",
+      "source": "article",
+      "sourceId": "2026-07-20-jr-in-car-travel-times",
+      "sourceTitle": "電車の画面で、次の駅まで何分かわかる",
+      "sourceLabel": "7/20 車内の所要時間",
+      "sourceHref": "./2026-07-20-jr-in-car-travel-times.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-20-jr-in-car-travel-times"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "画面には遅れや運転見合わせの情報も出るため、予定が大きく変わったときは、そちらも確認することが大切です。",
+          "en": "The screens can also show delay or suspension information, so check that when plans change."
+        },
+        {
+          "ja": "もちろん最後は運転士が確認しますが、人と装置の両方でずれを小さくしているわけです。",
+          "en": "Of course, the driver still makes the final check, but both people and equipment work together to keep errors small."
+        },
+        {
+          "ja": "ほんのわずかな場合でも、すぐドアを開けるのではなく、安全確認が必要です。",
+          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+        },
+        {
+          "ja": "タイヤやハンドルが袋の外に出ないよう確認しましょう。",
+          "en": "Make sure the tires and handlebars do not stick out of the bag."
+        },
+        {
+          "ja": "移動中は、他の乗客が乗り降りしやすいか確認することも大切です。",
+          "en": "During the trip, it is also important to make sure other passengers can easily get on and off."
         }
       ]
     },
@@ -87797,6 +87992,45 @@
       ]
     },
     {
+      "id": "article-f5e6386c5bff01",
+      "level": "N3",
+      "term": "発表",
+      "reading": "はっぴょう",
+      "readingHiragana": "はっぴょう",
+      "meaning": "Announcement, presentation",
+      "source": "article",
+      "sourceId": "2026-07-19-tokyo-daily-train-ridership",
+      "sourceTitle": "東京では毎日、何人が電車を使うのか",
+      "sourceLabel": "7/19 東京の電車利用",
+      "sourceHref": "./2026-07-19-tokyo-daily-train-ridership.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-19-tokyo-daily-train-ridership"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
+          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+        },
+        {
+          "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
+          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
+        },
+        {
+          "ja": "気象庁は、最大1メートルの津波が来る可能性があると発表しました。",
+          "en": "The agency announced that waves of up to one meter could arrive."
+        },
+        {
+          "ja": "米の値段が上がっているため、政府は新しい対策を発表しました。",
+          "en": "Because rice prices are rising, the government announced new measures."
+        },
+        {
+          "ja": "日本の経済産業省は、半導体会社のラピダスに新しく6315億円の支援をすると発表しました。",
+          "en": "Japan’s Ministry of Economy, Trade and Industry announced new support of 631.5 billion yen for the semiconductor company Rapidus."
+        }
+      ]
+    },
+    {
       "id": "article-4db921ba56cd03",
       "level": "N3",
       "term": "停止位置目標",
@@ -88001,6 +88235,123 @@
         {
           "ja": "普段は当たり前のように使っている改札ですが、その裏には日本ならではの高い技術と緻密なシステム設計が詰まっています。",
           "en": "We usually use ticket gates as if they were completely ordinary, but behind them are advanced technology and precise system design that feel very characteristic of Japan."
+        }
+      ]
+    },
+    {
+      "id": "article-106b67632aec81",
+      "level": "N3",
+      "term": "場所",
+      "reading": "ばしょ",
+      "readingHiragana": "ばしょ",
+      "meaning": "Place, location",
+      "source": "article",
+      "sourceId": "2026-07-18-train-stop-position",
+      "sourceTitle": "電車はどうやって駅でちょうどいい場所に止まるのか",
+      "sourceLabel": "7/18 電車の止まる場所",
+      "sourceHref": "./2026-07-18-train-stop-position.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-18-train-stop-position"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "通信が安定した場所で、早めに買っておくと安心です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
+          "ja": "画面の路線図では、今いる場所と進む方向がわかります。",
+          "en": "The route map shows where the train is and which way it is going."
+        },
+        {
+          "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+          "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+        },
+        {
+          "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+          "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
+        }
+      ]
+    },
+    {
+      "id": "article-088cb11661b480",
+      "level": "N3",
+      "term": "場合",
+      "reading": "ばあい",
+      "readingHiragana": "ばあい",
+      "meaning": "Case, situation",
+      "source": "article",
+      "sourceId": "2026-07-18-train-stop-position",
+      "sourceTitle": "電車はどうやって駅でちょうどいい場所に止まるのか",
+      "sourceLabel": "7/18 電車の止まる場所",
+      "sourceHref": "./2026-07-18-train-stop-position.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-18-train-stop-position"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "カード型のSuicaを使う場合は、乗る前に駅の券売機でSuicaグリーン券を買います。",
+          "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
+        },
+        {
+          "ja": "ほんのわずかな場合でも、すぐドアを開けるのではなく、安全確認が必要です。",
+          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+        },
+        {
+          "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
+          "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
+        },
+        {
+          "ja": "駅員から乗る位置を案内された場合は、その指示に従いましょう。",
+          "en": "Follow any instructions from station staff about where to board."
+        },
+        {
+          "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
+          "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
+        }
+      ]
+    },
+    {
+      "id": "article-6fcc38e66c0cde",
+      "level": "N3",
+      "term": "確認",
+      "reading": "かくにん",
+      "readingHiragana": "かくにん",
+      "meaning": "Confirmation, checking",
+      "source": "article",
+      "sourceId": "2026-07-18-train-stop-position",
+      "sourceTitle": "電車はどうやって駅でちょうどいい場所に止まるのか",
+      "sourceLabel": "7/18 電車の止まる場所",
+      "sourceHref": "./2026-07-18-train-stop-position.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-18-train-stop-position"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "画面には遅れや運転見合わせの情報も出るため、予定が大きく変わったときは、そちらも確認することが大切です。",
+          "en": "The screens can also show delay or suspension information, so check that when plans change."
+        },
+        {
+          "ja": "もちろん最後は運転士が確認しますが、人と装置の両方でずれを小さくしているわけです。",
+          "en": "Of course, the driver still makes the final check, but both people and equipment work together to keep errors small."
+        },
+        {
+          "ja": "ほんのわずかな場合でも、すぐドアを開けるのではなく、安全確認が必要です。",
+          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+        },
+        {
+          "ja": "タイヤやハンドルが袋の外に出ないよう確認しましょう。",
+          "en": "Make sure the tires and handlebars do not stick out of the bag."
+        },
+        {
+          "ja": "移動中は、他の乗客が乗り降りしやすいか確認することも大切です。",
+          "en": "During the trip, it is also important to make sure other passengers can easily get on and off."
         }
       ]
     },
@@ -88624,6 +88975,84 @@
       ]
     },
     {
+      "id": "article-1c37cd7b729451",
+      "level": "N3",
+      "term": "場所",
+      "reading": "ばしょ",
+      "readingHiragana": "ばしょ",
+      "meaning": "Place, location",
+      "source": "article",
+      "sourceId": "2026-07-15-blinker-thank-you",
+      "sourceTitle": "日本では車に入れてもらった後で短く光を出してありがとうを伝えることがある",
+      "sourceLabel": "7/15 運転のありがとう",
+      "sourceHref": "./2026-07-15-blinker-thank-you.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-15-blinker-thank-you"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "通信が安定した場所で、早めに買っておくと安心です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
+          "ja": "画面の路線図では、今いる場所と進む方向がわかります。",
+          "en": "The route map shows where the train is and which way it is going."
+        },
+        {
+          "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+          "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+        },
+        {
+          "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+          "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
+        }
+      ]
+    },
+    {
+      "id": "article-56d9c007ce9e1a",
+      "level": "N3",
+      "term": "場合",
+      "reading": "ばあい",
+      "readingHiragana": "ばあい",
+      "meaning": "Case, situation",
+      "source": "article",
+      "sourceId": "2026-07-15-blinker-thank-you",
+      "sourceTitle": "日本では車に入れてもらった後で短く光を出してありがとうを伝えることがある",
+      "sourceLabel": "7/15 運転のありがとう",
+      "sourceHref": "./2026-07-15-blinker-thank-you.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-15-blinker-thank-you"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "カード型のSuicaを使う場合は、乗る前に駅の券売機でSuicaグリーン券を買います。",
+          "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
+        },
+        {
+          "ja": "ほんのわずかな場合でも、すぐドアを開けるのではなく、安全確認が必要です。",
+          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+        },
+        {
+          "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
+          "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
+        },
+        {
+          "ja": "駅員から乗る位置を案内された場合は、その指示に従いましょう。",
+          "en": "Follow any instructions from station staff about where to board."
+        },
+        {
+          "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
+          "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
+        }
+      ]
+    },
+    {
       "id": "article-9e5d9e2ad7e854",
       "level": "N3",
       "term": "道路交通情報",
@@ -88816,6 +89245,45 @@
       ]
     },
     {
+      "id": "article-e77949674253b5",
+      "level": "N3",
+      "term": "対応",
+      "reading": "たいおう",
+      "readingHiragana": "たいおう",
+      "meaning": "Response, handling",
+      "source": "article",
+      "sourceId": "2026-07-14-japan-v2x-usage",
+      "sourceTitle": "日本ではV2Xが未来の話だけではなく道路が車に話しかける形ですでに使われている",
+      "sourceLabel": "7/14 日本のV2X",
+      "sourceHref": "./2026-07-14-japan-v2x-usage.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-14-japan-v2x-usage"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "0対応システムを通じて、広い範囲の交通情報が届くと説明されています。",
+          "en": "0 compatible systems."
+        },
+        {
+          "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
+          "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
+        },
+        {
+          "ja": "対応する言語は英語、中国語、韓国語などで、音声でも案内できます。",
+          "en": "The supported languages include English, Chinese, and Korean, and audio guidance is also available."
+        },
+        {
+          "ja": "そのため、現金の対応も残しながら、少しずつ切り替える方針です。",
+          "en": "For that reason, cash support will remain while the system is changed gradually."
+        },
+        {
+          "ja": "英語や中国語など、いくつかの言語に対応できるのが特長です。",
+          "en": "A key feature is that the robots can handle several languages such as English and Chinese."
+        }
+      ]
+    },
+    {
       "id": "article-f86d7e1a9954fe",
       "level": "N3",
       "term": "料金所",
@@ -89004,6 +89472,45 @@
         {
           "ja": "こうした仕組みがあったからこそ、東京は世界でもとても大きく、しかも効率的な都市圏の一つに成長できました。",
           "en": "Because this kind of system existed, Tokyo was able to grow into one of the world's very large and efficient metropolitan areas."
+        }
+      ]
+    },
+    {
+      "id": "article-f347753452830c",
+      "level": "N3",
+      "term": "場所",
+      "reading": "ばしょ",
+      "readingHiragana": "ばしょ",
+      "meaning": "Place, location",
+      "source": "article",
+      "sourceId": "2026-07-13-etc-everywhere-tokyo",
+      "sourceTitle": "東京で車に乗るとETCがどこにでもあるように感じる",
+      "sourceLabel": "7/13 東京とETC",
+      "sourceHref": "./2026-07-13-etc-everywhere-tokyo.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-13-etc-everywhere-tokyo"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "通信が安定した場所で、早めに買っておくと安心です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
+          "ja": "画面の路線図では、今いる場所と進む方向がわかります。",
+          "en": "The route map shows where the train is and which way it is going."
+        },
+        {
+          "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+          "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+        },
+        {
+          "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+          "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
         }
       ]
     },
@@ -89219,6 +89726,123 @@
       ]
     },
     {
+      "id": "article-3a2377f995fb42",
+      "level": "N3",
+      "term": "場所",
+      "reading": "ばしょ",
+      "readingHiragana": "ばしょ",
+      "meaning": "Place, location",
+      "source": "article",
+      "sourceId": "2026-07-12-bike-on-tokyo-trains",
+      "sourceTitle": "東京の電車に自転車を持ち込む方法",
+      "sourceLabel": "7/12 電車と自転車",
+      "sourceHref": "./2026-07-12-bike-on-tokyo-trains.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-12-bike-on-tokyo-trains"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "通信が安定した場所で、早めに買っておくと安心です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
+          "ja": "画面の路線図では、今いる場所と進む方向がわかります。",
+          "en": "The route map shows where the train is and which way it is going."
+        },
+        {
+          "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+          "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+        },
+        {
+          "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+          "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
+        }
+      ]
+    },
+    {
+      "id": "article-ca81857d90a6e6",
+      "level": "N3",
+      "term": "場合",
+      "reading": "ばあい",
+      "readingHiragana": "ばあい",
+      "meaning": "Case, situation",
+      "source": "article",
+      "sourceId": "2026-07-12-bike-on-tokyo-trains",
+      "sourceTitle": "東京の電車に自転車を持ち込む方法",
+      "sourceLabel": "7/12 電車と自転車",
+      "sourceHref": "./2026-07-12-bike-on-tokyo-trains.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-12-bike-on-tokyo-trains"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "カード型のSuicaを使う場合は、乗る前に駅の券売機でSuicaグリーン券を買います。",
+          "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
+        },
+        {
+          "ja": "ほんのわずかな場合でも、すぐドアを開けるのではなく、安全確認が必要です。",
+          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+        },
+        {
+          "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
+          "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
+        },
+        {
+          "ja": "駅員から乗る位置を案内された場合は、その指示に従いましょう。",
+          "en": "Follow any instructions from station staff about where to board."
+        },
+        {
+          "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
+          "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
+        }
+      ]
+    },
+    {
+      "id": "article-745d410e334e8a",
+      "level": "N3",
+      "term": "確認",
+      "reading": "かくにん",
+      "readingHiragana": "かくにん",
+      "meaning": "Confirmation, checking",
+      "source": "article",
+      "sourceId": "2026-07-12-bike-on-tokyo-trains",
+      "sourceTitle": "東京の電車に自転車を持ち込む方法",
+      "sourceLabel": "7/12 電車と自転車",
+      "sourceHref": "./2026-07-12-bike-on-tokyo-trains.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-12-bike-on-tokyo-trains"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "画面には遅れや運転見合わせの情報も出るため、予定が大きく変わったときは、そちらも確認することが大切です。",
+          "en": "The screens can also show delay or suspension information, so check that when plans change."
+        },
+        {
+          "ja": "もちろん最後は運転士が確認しますが、人と装置の両方でずれを小さくしているわけです。",
+          "en": "Of course, the driver still makes the final check, but both people and equipment work together to keep errors small."
+        },
+        {
+          "ja": "ほんのわずかな場合でも、すぐドアを開けるのではなく、安全確認が必要です。",
+          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+        },
+        {
+          "ja": "タイヤやハンドルが袋の外に出ないよう確認しましょう。",
+          "en": "Make sure the tires and handlebars do not stick out of the bag."
+        },
+        {
+          "ja": "移動中は、他の乗客が乗り降りしやすいか確認することも大切です。",
+          "en": "During the trip, it is also important to make sure other passengers can easily get on and off."
+        }
+      ]
+    },
+    {
       "id": "article-dbf90bf7a7e355",
       "level": "N3",
       "term": "案内表示",
@@ -89408,6 +90032,45 @@
         {
           "ja": "人口や機能が集中する首都圏では、交通や物流の混乱も深刻になるとみられています。",
           "en": "In the Tokyo metropolitan area, where people and key functions are concentrated, disruption to transport and logistics is also expected to be severe."
+        }
+      ]
+    },
+    {
+      "id": "article-4ca50c102acab7",
+      "level": "N3",
+      "term": "場所",
+      "reading": "ばしょ",
+      "readingHiragana": "ばしょ",
+      "meaning": "Place, location",
+      "source": "article",
+      "sourceId": "2026-07-08-yellow-exit-signs",
+      "sourceTitle": "東京の大きな駅で迷ったら黄色い案内を見れば出口が見つけやすい",
+      "sourceLabel": "7/8 黄色い出口案内",
+      "sourceHref": "./2026-07-08-yellow-exit-signs.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-08-yellow-exit-signs"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "通信が安定した場所で、早めに買っておくと安心です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
+          "ja": "画面の路線図では、今いる場所と進む方向がわかります。",
+          "en": "The route map shows where the train is and which way it is going."
+        },
+        {
+          "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+          "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+        },
+        {
+          "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+          "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
         }
       ]
     },
@@ -89609,6 +90272,45 @@
         {
           "ja": "普段は当たり前のように使っている改札ですが、その裏には日本ならではの高い技術と緻密なシステム設計が詰まっています。",
           "en": "We usually use ticket gates as if they were completely ordinary, but behind them are advanced technology and precise system design that feel very characteristic of Japan."
+        }
+      ]
+    },
+    {
+      "id": "article-8679e9ee0de0f2",
+      "level": "N3",
+      "term": "確認",
+      "reading": "かくにん",
+      "readingHiragana": "かくにん",
+      "meaning": "Confirmation, checking",
+      "source": "article",
+      "sourceId": "2026-07-08-ticket-gate-speed",
+      "sourceTitle": "東京の駅の改札が混んでいても流れにくいのは見えない速い処理があるから",
+      "sourceLabel": "7/8 改札の速さ",
+      "sourceHref": "./2026-07-08-ticket-gate-speed.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-08-ticket-gate-speed"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "画面には遅れや運転見合わせの情報も出るため、予定が大きく変わったときは、そちらも確認することが大切です。",
+          "en": "The screens can also show delay or suspension information, so check that when plans change."
+        },
+        {
+          "ja": "もちろん最後は運転士が確認しますが、人と装置の両方でずれを小さくしているわけです。",
+          "en": "Of course, the driver still makes the final check, but both people and equipment work together to keep errors small."
+        },
+        {
+          "ja": "ほんのわずかな場合でも、すぐドアを開けるのではなく、安全確認が必要です。",
+          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+        },
+        {
+          "ja": "タイヤやハンドルが袋の外に出ないよう確認しましょう。",
+          "en": "Make sure the tires and handlebars do not stick out of the bag."
+        },
+        {
+          "ja": "移動中は、他の乗客が乗り降りしやすいか確認することも大切です。",
+          "en": "During the trip, it is also important to make sure other passengers can easily get on and off."
         }
       ]
     },
@@ -89817,6 +90519,45 @@
         {
           "ja": "いつもの風景の中にも、まだ気づいていないやさしさや工夫がたくさんあるのだと思います。",
           "en": "I think there are many more acts of kindness and smart ideas hidden in the familiar scenery around us."
+        }
+      ]
+    },
+    {
+      "id": "article-a13f1e8ace462a",
+      "level": "N3",
+      "term": "場所",
+      "reading": "ばしょ",
+      "readingHiragana": "ばしょ",
+      "meaning": "Place, location",
+      "source": "article",
+      "sourceId": "2026-07-06-marunouchi-shikai",
+      "sourceTitle": "駅の点字ブロックの小さなQRコードがやさしい移動サポートにつながっていた",
+      "sourceLabel": "7/6 点字QRコード",
+      "sourceHref": "./2026-07-06-marunouchi-shikai.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-06-marunouchi-shikai"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "通信が安定した場所で、早めに買っておくと安心です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
+          "ja": "画面の路線図では、今いる場所と進む方向がわかります。",
+          "en": "The route map shows where the train is and which way it is going."
+        },
+        {
+          "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+          "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+        },
+        {
+          "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+          "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
         }
       ]
     },
@@ -90207,6 +90948,45 @@
       ]
     },
     {
+      "id": "article-ec86d49679be9b",
+      "level": "N3",
+      "term": "場所",
+      "reading": "ばしょ",
+      "readingHiragana": "ばしょ",
+      "meaning": "Place, location",
+      "source": "article",
+      "sourceId": "2026-07-03-yamanote-city-centers",
+      "sourceTitle": "山手線は東京の便利さを支える都市の輪になっている",
+      "sourceLabel": "7/3 山手線と都市",
+      "sourceHref": "./2026-07-03-yamanote-city-centers.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-03-yamanote-city-centers"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "通信が安定した場所で、早めに買っておくと安心です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
+          "ja": "画面の路線図では、今いる場所と進む方向がわかります。",
+          "en": "The route map shows where the train is and which way it is going."
+        },
+        {
+          "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+          "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+        },
+        {
+          "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+          "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
+        }
+      ]
+    },
+    {
       "id": "article-cf4c937def2482",
       "level": "N3",
       "term": "中心",
@@ -90408,6 +91188,45 @@
       ]
     },
     {
+      "id": "article-8d7b4dfc66baf2",
+      "level": "N3",
+      "term": "場所",
+      "reading": "ばしょ",
+      "readingHiragana": "ばしょ",
+      "meaning": "Place, location",
+      "source": "article",
+      "sourceId": "2026-07-02-imperial-palace-running",
+      "sourceTitle": "皇居のまわりは東京で最も有名なランニングコースの一つ",
+      "sourceLabel": "7/2 皇居ランニング",
+      "sourceHref": "./2026-07-02-imperial-palace-running.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-02-imperial-palace-running"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "通信が安定した場所で、早めに買っておくと安心です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
+          "ja": "画面の路線図では、今いる場所と進む方向がわかります。",
+          "en": "The route map shows where the train is and which way it is going."
+        },
+        {
+          "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+          "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+        },
+        {
+          "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+          "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
+        }
+      ]
+    },
+    {
       "id": "article-426f7e9a29bf78",
       "level": "N3",
       "term": "種別",
@@ -90593,6 +91412,45 @@
         {
           "ja": "30秒だけ余分に使って正しい電車を選ぶことで、あとで長い遠回りをしなくてすむかもしれません。",
           "en": "Spending just an extra 30 seconds choosing the right train may save you from a much longer detour later."
+        }
+      ]
+    },
+    {
+      "id": "article-c3860aa01c69ad",
+      "level": "N3",
+      "term": "確認",
+      "reading": "かくにん",
+      "readingHiragana": "かくにん",
+      "meaning": "Confirmation, checking",
+      "source": "article",
+      "sourceId": "2026-07-02-keikyu-train-types",
+      "sourceTitle": "京急線では行き先だけでなく列車の種別も確認しよう",
+      "sourceLabel": "7/2 京急線の種別",
+      "sourceHref": "./2026-07-02-keikyu-train-types.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-02-keikyu-train-types"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "画面には遅れや運転見合わせの情報も出るため、予定が大きく変わったときは、そちらも確認することが大切です。",
+          "en": "The screens can also show delay or suspension information, so check that when plans change."
+        },
+        {
+          "ja": "もちろん最後は運転士が確認しますが、人と装置の両方でずれを小さくしているわけです。",
+          "en": "Of course, the driver still makes the final check, but both people and equipment work together to keep errors small."
+        },
+        {
+          "ja": "ほんのわずかな場合でも、すぐドアを開けるのではなく、安全確認が必要です。",
+          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+        },
+        {
+          "ja": "タイヤやハンドルが袋の外に出ないよう確認しましょう。",
+          "en": "Make sure the tires and handlebars do not stick out of the bag."
+        },
+        {
+          "ja": "移動中は、他の乗客が乗り降りしやすいか確認することも大切です。",
+          "en": "During the trip, it is also important to make sure other passengers can easily get on and off."
         }
       ]
     },
@@ -90802,6 +91660,84 @@
         {
           "ja": "足の下には、東京の大規模な再開発の歴史があるのです。",
           "en": "Beneath your feet lies the history of a major redevelopment effort."
+        }
+      ]
+    },
+    {
+      "id": "article-8a2d7142072ba8",
+      "level": "N3",
+      "term": "場所",
+      "reading": "ばしょ",
+      "readingHiragana": "ばしょ",
+      "meaning": "Place, location",
+      "source": "article",
+      "sourceId": "2026-07-01-rinkai-line-cost",
+      "sourceTitle": "りんかい線の運賃が少し高いのは、深い地下の工事が理由の一つ",
+      "sourceLabel": "7/1 りんかい線の運賃",
+      "sourceHref": "./2026-07-01-rinkai-line-cost.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-01-rinkai-line-cost"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "通信が安定した場所で、早めに買っておくと安心です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
+          "ja": "画面の路線図では、今いる場所と進む方向がわかります。",
+          "en": "The route map shows where the train is and which way it is going."
+        },
+        {
+          "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+          "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+        },
+        {
+          "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+          "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
+        }
+      ]
+    },
+    {
+      "id": "article-d215a0e1ddd394",
+      "level": "N3",
+      "term": "費用",
+      "reading": "ひよう",
+      "readingHiragana": "ひよう",
+      "meaning": "Expense, cost",
+      "source": "article",
+      "sourceId": "2026-07-01-rinkai-line-cost",
+      "sourceTitle": "りんかい線の運賃が少し高いのは、深い地下の工事が理由の一つ",
+      "sourceLabel": "7/1 りんかい線の運賃",
+      "sourceHref": "./2026-07-01-rinkai-line-cost.html",
+      "tags": [
+        "article-vocab",
+        "2026-07-01-rinkai-line-cost"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "2002年に完成したとき、全体の費用は4400億円をこえていて、そのときの借金が今の運賃にも影響しています。",
+          "en": "When the line was completed in 2002, the total cost exceeded 440 billion yen, and those debts still affect fares today."
+        },
+        {
+          "ja": "町は3か月の実験で、利用した人数や運行にかかる費用を調べます。",
+          "en": "During the three-month trial, the town will study the number of users and the cost of operating the buses."
+        },
+        {
+          "ja": "自分たちで作った電気を使えば、費用をおさえるだけでなく、環境への負担も減らせます。",
+          "en": "Using electricity they generate themselves can reduce both costs and environmental impact."
+        },
+        {
+          "ja": "今回の対策では、肥料や燃料の費用が高くなった地域に、より多くの補助金を出します。",
+          "en": "Under the new plan, areas where fertilizer and fuel costs have become high will receive more subsidies."
+        },
+        {
+          "ja": "原油価格が上がると、ガソリンや電気、物を運ぶための費用も上がりやすくなります。",
+          "en": "When crude oil prices rise, the cost of gasoline, electricity, and transporting goods also tends to rise."
         }
       ]
     },
@@ -91214,6 +92150,45 @@
         {
           "ja": "東京の地下鉄やJRは複雑ですが、大きな駅の位置を地図の骨組みにすると、少しずつ慣れていきます。",
           "en": "Tokyo’s subways and JR lines are complicated, but if you treat the positions of major stations as the frame of the map, you gradually get used to it."
+        }
+      ]
+    },
+    {
+      "id": "article-9919845f24cbf0",
+      "level": "N3",
+      "term": "場所",
+      "reading": "ばしょ",
+      "readingHiragana": "ばしょ",
+      "meaning": "Place, location",
+      "source": "article",
+      "sourceId": "2026-06-29-tokyo-stations-map",
+      "sourceTitle": "東京の主要駅は、位置関係で覚えるとわかりやすい",
+      "sourceLabel": "6/29 東京の主要駅の位置関係",
+      "sourceHref": "./2026-06-29-tokyo-stations-map.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-29-tokyo-stations-map"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "通信が安定した場所で、早めに買っておくと安心です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
+          "ja": "画面の路線図では、今いる場所と進む方向がわかります。",
+          "en": "The route map shows where the train is and which way it is going."
+        },
+        {
+          "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+          "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+        },
+        {
+          "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+          "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
         }
       ]
     },
@@ -91673,6 +92648,91 @@
       ]
     },
     {
+      "id": "article-40129a1bc46484",
+      "level": "N3",
+      "term": "観測",
+      "reading": "かんそく",
+      "readingHiragana": "かんそく",
+      "meaning": "Observation, measurement",
+      "source": "article",
+      "sourceId": "2026-06-26-europe-record-heatwave",
+      "sourceTitle": "ヨーロッパを襲う記録的な熱波",
+      "sourceLabel": "6/26 欧州の記録的熱波",
+      "sourceHref": "./2026-06-26-europe-record-heatwave.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-26-europe-record-heatwave"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "イギリスでは、サマセットで36度を超える暑さが観測され、6月の最高気温の記録を更新しました。",
+          "en": "In the United Kingdom, temperatures above 36 degrees Celsius were observed in Somerset, setting a new June temperature record."
+        },
+        {
+          "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
+          "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
+        },
+        {
+          "ja": "それでも成功すれば、スウィフトはさらに5年以上観測を続けられる可能性があります。",
+          "en": "Even so, if the mission succeeds, Swift may be able to continue observing for at least five more years."
+        },
+        {
+          "ja": "実際には、沖縄県や宮崎県などで数センチから30センチほどの波が観測されました。",
+          "en": "In reality, waves from several centimeters to about 30 centimeters were observed in places such as Okinawa and Miyazaki prefectures."
+        }
+      ]
+    },
+    {
+      "id": "article-c7f5a61530dcbb",
+      "level": "N3",
+      "term": "更新",
+      "reading": "こうしん",
+      "readingHiragana": "こうしん",
+      "meaning": "Update, renewal",
+      "source": "article",
+      "sourceId": "2026-06-26-europe-record-heatwave",
+      "sourceTitle": "ヨーロッパを襲う記録的な熱波",
+      "sourceLabel": "6/26 欧州の記録的熱波",
+      "sourceHref": "./2026-06-26-europe-record-heatwave.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-26-europe-record-heatwave"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "イギリスでは、サマセットで36度を超える暑さが観測され、6月の最高気温の記録を更新しました。",
+          "en": "In the United Kingdom, temperatures above 36 degrees Celsius were observed in Somerset, setting a new June temperature record."
+        }
+      ]
+    },
+    {
+      "id": "article-ac7055ee613e71",
+      "level": "N3",
+      "term": "施設",
+      "reading": "しせつ",
+      "readingHiragana": "しせつ",
+      "meaning": "Facility, institution",
+      "source": "article",
+      "sourceId": "2026-06-26-europe-record-heatwave",
+      "sourceTitle": "ヨーロッパを襲う記録的な熱波",
+      "sourceLabel": "6/26 欧州の記録的熱波",
+      "sourceHref": "./2026-06-26-europe-record-heatwave.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-26-europe-record-heatwave"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "病院や介護施設では、高齢者の体調に特に注意しています。",
+          "en": "Hospitals and care homes are paying special attention to the health of older people."
+        },
+        {
+          "ja": "専門家は、交通の施設で再生可能エネルギーを使うことは、地域の意識を変えるきっかけにもなるとみています。",
+          "en": "Experts say using renewable energy at transportation facilities can also change local awareness."
+        }
+      ]
+    },
+    {
       "id": "article-2c7621cad0c150",
       "level": "N3",
       "term": "気象庁",
@@ -91917,6 +92977,45 @@
       ]
     },
     {
+      "id": "article-743ba98c556217",
+      "level": "N3",
+      "term": "確認",
+      "reading": "かくにん",
+      "readingHiragana": "かくにん",
+      "meaning": "Confirmation, checking",
+      "source": "article",
+      "sourceId": "2026-06-26-double-typhoon-watch",
+      "sourceTitle": "日本の近くで台風7号と8号が動く",
+      "sourceLabel": "6/26 台風7号と8号",
+      "sourceHref": "./2026-06-26-double-typhoon-watch.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-26-double-typhoon-watch"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "画面には遅れや運転見合わせの情報も出るため、予定が大きく変わったときは、そちらも確認することが大切です。",
+          "en": "The screens can also show delay or suspension information, so check that when plans change."
+        },
+        {
+          "ja": "もちろん最後は運転士が確認しますが、人と装置の両方でずれを小さくしているわけです。",
+          "en": "Of course, the driver still makes the final check, but both people and equipment work together to keep errors small."
+        },
+        {
+          "ja": "ほんのわずかな場合でも、すぐドアを開けるのではなく、安全確認が必要です。",
+          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+        },
+        {
+          "ja": "タイヤやハンドルが袋の外に出ないよう確認しましょう。",
+          "en": "Make sure the tires and handlebars do not stick out of the bag."
+        },
+        {
+          "ja": "移動中は、他の乗客が乗り降りしやすいか確認することも大切です。",
+          "en": "During the trip, it is also important to make sure other passengers can easily get on and off."
+        }
+      ]
+    },
+    {
       "id": "article-65e9fc3852bd44",
       "level": "N3",
       "term": "大地震",
@@ -92087,6 +93186,45 @@
         {
           "ja": "余震の心配も続いています。",
           "en": "Concern about aftershocks continues."
+        }
+      ]
+    },
+    {
+      "id": "article-ecee1ace2adde0",
+      "level": "N3",
+      "term": "場所",
+      "reading": "ばしょ",
+      "readingHiragana": "ばしょ",
+      "meaning": "Place, location",
+      "source": "article",
+      "sourceId": "2026-06-26-venezuela-doublet-earthquake",
+      "sourceTitle": "ベネズエラを襲った二つの大地震",
+      "sourceLabel": "6/26 ベネズエラの連続地震",
+      "sourceHref": "./2026-06-26-venezuela-doublet-earthquake.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-26-venezuela-doublet-earthquake"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "通信が安定した場所で、早めに買っておくと安心です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
+          "ja": "画面の路線図では、今いる場所と進む方向がわかります。",
+          "en": "The route map shows where the train is and which way it is going."
+        },
+        {
+          "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+          "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+        },
+        {
+          "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+          "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
         }
       ]
     },
@@ -92303,6 +93441,84 @@
       ]
     },
     {
+      "id": "article-c3f0131a377234",
+      "level": "N3",
+      "term": "場所",
+      "reading": "ばしょ",
+      "readingHiragana": "ばしょ",
+      "meaning": "Place, location",
+      "source": "article",
+      "sourceId": "2026-06-25-urban-pulse-satellites",
+      "sourceTitle": "衛星が見つけた都市の「脈」",
+      "sourceLabel": "6/25 衛星が見た都市の脈",
+      "sourceHref": "./2026-06-25-urban-pulse-satellites.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-25-urban-pulse-satellites"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "通信が安定した場所で、早めに買っておくと安心です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
+          "ja": "画面の路線図では、今いる場所と進む方向がわかります。",
+          "en": "The route map shows where the train is and which way it is going."
+        },
+        {
+          "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+          "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+        },
+        {
+          "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+          "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
+        }
+      ]
+    },
+    {
+      "id": "article-b1c1f51dd1dbc6",
+      "level": "N3",
+      "term": "発表",
+      "reading": "はっぴょう",
+      "readingHiragana": "はっぴょう",
+      "meaning": "Announcement, presentation",
+      "source": "article",
+      "sourceId": "2026-06-25-urban-pulse-satellites",
+      "sourceTitle": "衛星が見つけた都市の「脈」",
+      "sourceLabel": "6/25 衛星が見た都市の脈",
+      "sourceHref": "./2026-06-25-urban-pulse-satellites.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-25-urban-pulse-satellites"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
+          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+        },
+        {
+          "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
+          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
+        },
+        {
+          "ja": "気象庁は、最大1メートルの津波が来る可能性があると発表しました。",
+          "en": "The agency announced that waves of up to one meter could arrive."
+        },
+        {
+          "ja": "米の値段が上がっているため、政府は新しい対策を発表しました。",
+          "en": "Because rice prices are rising, the government announced new measures."
+        },
+        {
+          "ja": "日本の経済産業省は、半導体会社のラピダスに新しく6315億円の支援をすると発表しました。",
+          "en": "Japan’s Ministry of Economy, Trade and Industry announced new support of 631.5 billion yen for the semiconductor company Rapidus."
+        }
+      ]
+    },
+    {
       "id": "article-b0eaf00d54f4f8",
       "level": "N3",
       "term": "死亡事故",
@@ -92481,6 +93697,45 @@
         {
           "ja": "ほかの駅でも設置を進めています。",
           "en": "Installation is progressing at other stations."
+        }
+      ]
+    },
+    {
+      "id": "article-95196fd93e7902",
+      "level": "N3",
+      "term": "確認",
+      "reading": "かくにん",
+      "readingHiragana": "かくにん",
+      "meaning": "Confirmation, checking",
+      "source": "article",
+      "sourceId": "2026-06-20-hamamatsu-shinkansen-accident",
+      "sourceTitle": "浜松駅で新幹線の死亡事故",
+      "sourceLabel": "6/20 浜松駅の新幹線事故",
+      "sourceHref": "./2026-06-20-hamamatsu-shinkansen-accident.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-20-hamamatsu-shinkansen-accident"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "画面には遅れや運転見合わせの情報も出るため、予定が大きく変わったときは、そちらも確認することが大切です。",
+          "en": "The screens can also show delay or suspension information, so check that when plans change."
+        },
+        {
+          "ja": "もちろん最後は運転士が確認しますが、人と装置の両方でずれを小さくしているわけです。",
+          "en": "Of course, the driver still makes the final check, but both people and equipment work together to keep errors small."
+        },
+        {
+          "ja": "ほんのわずかな場合でも、すぐドアを開けるのではなく、安全確認が必要です。",
+          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+        },
+        {
+          "ja": "タイヤやハンドルが袋の外に出ないよう確認しましょう。",
+          "en": "Make sure the tires and handlebars do not stick out of the bag."
+        },
+        {
+          "ja": "移動中は、他の乗客が乗り降りしやすいか確認することも大切です。",
+          "en": "During the trip, it is also important to make sure other passengers can easily get on and off."
         }
       ]
     },
@@ -92925,6 +94180,45 @@
       ]
     },
     {
+      "id": "article-08fd1bb5adaa5a",
+      "level": "N3",
+      "term": "場所",
+      "reading": "ばしょ",
+      "readingHiragana": "ばしょ",
+      "meaning": "Place, location",
+      "source": "article",
+      "sourceId": "2026-06-16-us-iran-peace-deal",
+      "sourceTitle": "アメリカとイランの停戦案に新しい問題が出た",
+      "sourceLabel": "6/16 米イラン停戦案",
+      "sourceHref": "./2026-06-16-us-iran-peace-deal.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-16-us-iran-peace-deal"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "通信が安定した場所で、早めに買っておくと安心です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
+          "ja": "画面の路線図では、今いる場所と進む方向がわかります。",
+          "en": "The route map shows where the train is and which way it is going."
+        },
+        {
+          "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+          "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+        },
+        {
+          "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+          "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
+        }
+      ]
+    },
+    {
       "id": "article-b501dd577f20e9",
       "level": "N3",
       "term": "海岸",
@@ -93113,6 +94407,45 @@
         {
           "ja": "この事故の後、安全対策について議論が起きました。",
           "en": "After the incident, a debate began about safety measures."
+        }
+      ]
+    },
+    {
+      "id": "article-f38a9202d53958",
+      "level": "N3",
+      "term": "場所",
+      "reading": "ばしょ",
+      "readingHiragana": "ばしょ",
+      "meaning": "Place, location",
+      "source": "article",
+      "sourceId": "2026-06-15-coogee-shark-attack",
+      "sourceTitle": "シドニーの海岸でサメにかまれた女性を救助した",
+      "sourceLabel": "6/15 サメ被害",
+      "sourceHref": "./2026-06-15-coogee-shark-attack.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-15-coogee-shark-attack"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "通信が安定した場所で、早めに買っておくと安心です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
+          "ja": "画面の路線図では、今いる場所と進む方向がわかります。",
+          "en": "The route map shows where the train is and which way it is going."
+        },
+        {
+          "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+          "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+        },
+        {
+          "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+          "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
         }
       ]
     },
@@ -94194,6 +95527,45 @@
       "exampleSentences": []
     },
     {
+      "id": "article-b1fbe7ea8e4f6c",
+      "level": "N3",
+      "term": "場所",
+      "reading": "ばしょ",
+      "readingHiragana": "ばしょ",
+      "meaning": "Place, location",
+      "source": "article",
+      "sourceId": "2026-06-10-bear-capture-drone",
+      "sourceTitle": "学校を休みにしたクマがついに捕まった",
+      "sourceLabel": "6/10 クマがついに捕獲",
+      "sourceHref": "./2026-06-10-bear-capture-drone.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-10-bear-capture-drone"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "通信が安定した場所で、早めに買っておくと安心です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
+          "ja": "画面の路線図では、今いる場所と進む方向がわかります。",
+          "en": "The route map shows where the train is and which way it is going."
+        },
+        {
+          "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+          "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+        },
+        {
+          "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+          "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
+        }
+      ]
+    },
+    {
       "id": "article-4da3d1acc31cce",
       "level": "N3",
       "term": "出現",
@@ -94374,6 +95746,45 @@
       ]
     },
     {
+      "id": "article-cdb0eca6df543f",
+      "level": "N3",
+      "term": "場所",
+      "reading": "ばしょ",
+      "readingHiragana": "ばしょ",
+      "meaning": "Place, location",
+      "source": "article",
+      "sourceId": "2026-06-09-bear-school-closures",
+      "sourceTitle": "クマの出現で学校が休みになった",
+      "sourceLabel": "6/9 クマで学校休み",
+      "sourceHref": "./2026-06-09-bear-school-closures.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-09-bear-school-closures"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "通信が安定した場所で、早めに買っておくと安心です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
+          "ja": "画面の路線図では、今いる場所と進む方向がわかります。",
+          "en": "The route map shows where the train is and which way it is going."
+        },
+        {
+          "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+          "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+        },
+        {
+          "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+          "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
+        }
+      ]
+    },
+    {
       "id": "article-f7e60d37ba3a33",
       "level": "N3",
       "term": "熱中症",
@@ -94543,6 +95954,84 @@
         {
           "ja": "頭が痛い、気分が悪いなどの症状がある時は、すぐに涼しい場所へ移動することが大切です。",
           "en": "If symptoms such as a headache or feeling unwell appear, it is important to move to a cool place right away."
+        }
+      ]
+    },
+    {
+      "id": "article-21f43fc82344ac",
+      "level": "N3",
+      "term": "場所",
+      "reading": "ばしょ",
+      "readingHiragana": "ばしょ",
+      "meaning": "Place, location",
+      "source": "article",
+      "sourceId": "2026-06-09-heatstroke-alert-app",
+      "sourceTitle": "熱中症を防ぐための通知アプリが広がる",
+      "sourceLabel": "6/9 熱中症通知アプリ",
+      "sourceHref": "./2026-06-09-heatstroke-alert-app.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-09-heatstroke-alert-app"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "通信が安定した場所で、早めに買っておくと安心です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
+          "ja": "画面の路線図では、今いる場所と進む方向がわかります。",
+          "en": "The route map shows where the train is and which way it is going."
+        },
+        {
+          "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+          "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+        },
+        {
+          "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+          "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
+        }
+      ]
+    },
+    {
+      "id": "article-af213b65e1496d",
+      "level": "N3",
+      "term": "確認",
+      "reading": "かくにん",
+      "readingHiragana": "かくにん",
+      "meaning": "Confirmation, checking",
+      "source": "article",
+      "sourceId": "2026-06-09-heatstroke-alert-app",
+      "sourceTitle": "熱中症を防ぐための通知アプリが広がる",
+      "sourceLabel": "6/9 熱中症通知アプリ",
+      "sourceHref": "./2026-06-09-heatstroke-alert-app.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-09-heatstroke-alert-app"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "画面には遅れや運転見合わせの情報も出るため、予定が大きく変わったときは、そちらも確認することが大切です。",
+          "en": "The screens can also show delay or suspension information, so check that when plans change."
+        },
+        {
+          "ja": "もちろん最後は運転士が確認しますが、人と装置の両方でずれを小さくしているわけです。",
+          "en": "Of course, the driver still makes the final check, but both people and equipment work together to keep errors small."
+        },
+        {
+          "ja": "ほんのわずかな場合でも、すぐドアを開けるのではなく、安全確認が必要です。",
+          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+        },
+        {
+          "ja": "タイヤやハンドルが袋の外に出ないよう確認しましょう。",
+          "en": "Make sure the tires and handlebars do not stick out of the bag."
+        },
+        {
+          "ja": "移動中は、他の乗客が乗り降りしやすいか確認することも大切です。",
+          "en": "During the trip, it is also important to make sure other passengers can easily get on and off."
         }
       ]
     },
@@ -94768,6 +96257,84 @@
       ]
     },
     {
+      "id": "article-48d2a8a8ec1174",
+      "level": "N3",
+      "term": "場所",
+      "reading": "ばしょ",
+      "readingHiragana": "ばしょ",
+      "meaning": "Place, location",
+      "source": "article",
+      "sourceId": "2026-06-09-community-bus-trial",
+      "sourceTitle": "小さな町で予約制バスの実験が始まる",
+      "sourceLabel": "6/9 予約制バスの実験",
+      "sourceHref": "./2026-06-09-community-bus-trial.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-09-community-bus-trial"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "通信が安定した場所で、早めに買っておくと安心です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
+          "ja": "画面の路線図では、今いる場所と進む方向がわかります。",
+          "en": "The route map shows where the train is and which way it is going."
+        },
+        {
+          "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+          "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+        },
+        {
+          "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+          "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
+        }
+      ]
+    },
+    {
+      "id": "article-fa7f99e808c711",
+      "level": "N3",
+      "term": "費用",
+      "reading": "ひよう",
+      "readingHiragana": "ひよう",
+      "meaning": "Expense, cost",
+      "source": "article",
+      "sourceId": "2026-06-09-community-bus-trial",
+      "sourceTitle": "小さな町で予約制バスの実験が始まる",
+      "sourceLabel": "6/9 予約制バスの実験",
+      "sourceHref": "./2026-06-09-community-bus-trial.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-09-community-bus-trial"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "2002年に完成したとき、全体の費用は4400億円をこえていて、そのときの借金が今の運賃にも影響しています。",
+          "en": "When the line was completed in 2002, the total cost exceeded 440 billion yen, and those debts still affect fares today."
+        },
+        {
+          "ja": "町は3か月の実験で、利用した人数や運行にかかる費用を調べます。",
+          "en": "During the three-month trial, the town will study the number of users and the cost of operating the buses."
+        },
+        {
+          "ja": "自分たちで作った電気を使えば、費用をおさえるだけでなく、環境への負担も減らせます。",
+          "en": "Using electricity they generate themselves can reduce both costs and environmental impact."
+        },
+        {
+          "ja": "今回の対策では、肥料や燃料の費用が高くなった地域に、より多くの補助金を出します。",
+          "en": "Under the new plan, areas where fertilizer and fuel costs have become high will receive more subsidies."
+        },
+        {
+          "ja": "原油価格が上がると、ガソリンや電気、物を運ぶための費用も上がりやすくなります。",
+          "en": "When crude oil prices rise, the cost of gasoline, electricity, and transporting goods also tends to rise."
+        }
+      ]
+    },
+    {
       "id": "article-7f72c63dc0747c",
       "level": "N3",
       "term": "津波注意報",
@@ -94973,6 +96540,123 @@
       ]
     },
     {
+      "id": "article-dc32626fd0faf6",
+      "level": "N3",
+      "term": "場所",
+      "reading": "ばしょ",
+      "readingHiragana": "ばしょ",
+      "meaning": "Place, location",
+      "source": "article",
+      "sourceId": "2026-06-08-tsunami-advisory",
+      "sourceTitle": "太平洋側に津波注意報が出される",
+      "sourceLabel": "6/8 太平洋側に津波注意報",
+      "sourceHref": "./2026-06-08-tsunami-advisory.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-08-tsunami-advisory"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "通信が安定した場所で、早めに買っておくと安心です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
+          "ja": "画面の路線図では、今いる場所と進む方向がわかります。",
+          "en": "The route map shows where the train is and which way it is going."
+        },
+        {
+          "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+          "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+        },
+        {
+          "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+          "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
+        }
+      ]
+    },
+    {
+      "id": "article-ac084aec7e499d",
+      "level": "N3",
+      "term": "発表",
+      "reading": "はっぴょう",
+      "readingHiragana": "はっぴょう",
+      "meaning": "Announcement, presentation",
+      "source": "article",
+      "sourceId": "2026-06-08-tsunami-advisory",
+      "sourceTitle": "太平洋側に津波注意報が出される",
+      "sourceLabel": "6/8 太平洋側に津波注意報",
+      "sourceHref": "./2026-06-08-tsunami-advisory.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-08-tsunami-advisory"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
+          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+        },
+        {
+          "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
+          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
+        },
+        {
+          "ja": "気象庁は、最大1メートルの津波が来る可能性があると発表しました。",
+          "en": "The agency announced that waves of up to one meter could arrive."
+        },
+        {
+          "ja": "米の値段が上がっているため、政府は新しい対策を発表しました。",
+          "en": "Because rice prices are rising, the government announced new measures."
+        },
+        {
+          "ja": "日本の経済産業省は、半導体会社のラピダスに新しく6315億円の支援をすると発表しました。",
+          "en": "Japan’s Ministry of Economy, Trade and Industry announced new support of 631.5 billion yen for the semiconductor company Rapidus."
+        }
+      ]
+    },
+    {
+      "id": "article-57ddc370f6fc7b",
+      "level": "N3",
+      "term": "確認",
+      "reading": "かくにん",
+      "readingHiragana": "かくにん",
+      "meaning": "Confirmation, checking",
+      "source": "article",
+      "sourceId": "2026-06-08-tsunami-advisory",
+      "sourceTitle": "太平洋側に津波注意報が出される",
+      "sourceLabel": "6/8 太平洋側に津波注意報",
+      "sourceHref": "./2026-06-08-tsunami-advisory.html",
+      "tags": [
+        "article-vocab",
+        "2026-06-08-tsunami-advisory"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "画面には遅れや運転見合わせの情報も出るため、予定が大きく変わったときは、そちらも確認することが大切です。",
+          "en": "The screens can also show delay or suspension information, so check that when plans change."
+        },
+        {
+          "ja": "もちろん最後は運転士が確認しますが、人と装置の両方でずれを小さくしているわけです。",
+          "en": "Of course, the driver still makes the final check, but both people and equipment work together to keep errors small."
+        },
+        {
+          "ja": "ほんのわずかな場合でも、すぐドアを開けるのではなく、安全確認が必要です。",
+          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+        },
+        {
+          "ja": "タイヤやハンドルが袋の外に出ないよう確認しましょう。",
+          "en": "Make sure the tires and handlebars do not stick out of the bag."
+        },
+        {
+          "ja": "移動中は、他の乗客が乗り降りしやすいか確認することも大切です。",
+          "en": "During the trip, it is also important to make sure other passengers can easily get on and off."
+        }
+      ]
+    },
+    {
       "id": "article-3db552205211bb",
       "level": "N3",
       "term": "多言語",
@@ -95166,6 +96850,45 @@
       ]
     },
     {
+      "id": "article-57f5e3807bed44",
+      "level": "N3",
+      "term": "対応",
+      "reading": "たいおう",
+      "readingHiragana": "たいおう",
+      "meaning": "Response, handling",
+      "source": "article",
+      "sourceId": "2026-05-29-library-tablets",
+      "sourceTitle": "図書館で多言語タブレットの導入が進む",
+      "sourceLabel": "5/29 図書館で多言語タブレット",
+      "sourceHref": "./2026-05-29-library-tablets.html",
+      "tags": [
+        "article-vocab",
+        "2026-05-29-library-tablets"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "0対応システムを通じて、広い範囲の交通情報が届くと説明されています。",
+          "en": "0 compatible systems."
+        },
+        {
+          "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
+          "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
+        },
+        {
+          "ja": "対応する言語は英語、中国語、韓国語などで、音声でも案内できます。",
+          "en": "The supported languages include English, Chinese, and Korean, and audio guidance is also available."
+        },
+        {
+          "ja": "そのため、現金の対応も残しながら、少しずつ切り替える方針です。",
+          "en": "For that reason, cash support will remain while the system is changed gradually."
+        },
+        {
+          "ja": "英語や中国語など、いくつかの言語に対応できるのが特長です。",
+          "en": "A key feature is that the robots can handle several languages such as English and Chinese."
+        }
+      ]
+    },
+    {
       "id": "article-d1f93c46189ff5",
       "level": "N3",
       "term": "現金",
@@ -95355,6 +97078,84 @@
         {
           "ja": "便利さと安全の両方を考えながら、サービスを改善していくことが大切だとみられています。",
           "en": "It is seen as important to improve services while considering both convenience and safety."
+        }
+      ]
+    },
+    {
+      "id": "article-430eb84556a45c",
+      "level": "N3",
+      "term": "場合",
+      "reading": "ばあい",
+      "readingHiragana": "ばあい",
+      "meaning": "Case, situation",
+      "source": "article",
+      "sourceId": "2026-05-28-cashless-ferry",
+      "sourceTitle": "離島フェリーでキャッシュレス化が進む",
+      "sourceLabel": "5/28 離島フェリーでキャッシュレス化",
+      "sourceHref": "./2026-05-28-cashless-ferry.html",
+      "tags": [
+        "article-vocab",
+        "2026-05-28-cashless-ferry"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "カード型のSuicaを使う場合は、乗る前に駅の券売機でSuicaグリーン券を買います。",
+          "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
+        },
+        {
+          "ja": "ほんのわずかな場合でも、すぐドアを開けるのではなく、安全確認が必要です。",
+          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+        },
+        {
+          "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
+          "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
+        },
+        {
+          "ja": "駅員から乗る位置を案内された場合は、その指示に従いましょう。",
+          "en": "Follow any instructions from station staff about where to board."
+        },
+        {
+          "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
+          "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
+        }
+      ]
+    },
+    {
+      "id": "article-6fef0b46d61b79",
+      "level": "N3",
+      "term": "対応",
+      "reading": "たいおう",
+      "readingHiragana": "たいおう",
+      "meaning": "Response, handling",
+      "source": "article",
+      "sourceId": "2026-05-28-cashless-ferry",
+      "sourceTitle": "離島フェリーでキャッシュレス化が進む",
+      "sourceLabel": "5/28 離島フェリーでキャッシュレス化",
+      "sourceHref": "./2026-05-28-cashless-ferry.html",
+      "tags": [
+        "article-vocab",
+        "2026-05-28-cashless-ferry"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "0対応システムを通じて、広い範囲の交通情報が届くと説明されています。",
+          "en": "0 compatible systems."
+        },
+        {
+          "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
+          "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
+        },
+        {
+          "ja": "対応する言語は英語、中国語、韓国語などで、音声でも案内できます。",
+          "en": "The supported languages include English, Chinese, and Korean, and audio guidance is also available."
+        },
+        {
+          "ja": "そのため、現金の対応も残しながら、少しずつ切り替える方針です。",
+          "en": "For that reason, cash support will remain while the system is changed gradually."
+        },
+        {
+          "ja": "英語や中国語など、いくつかの言語に対応できるのが特長です。",
+          "en": "A key feature is that the robots can handle several languages such as English and Chinese."
         }
       ]
     },
@@ -95781,6 +97582,45 @@
       ]
     },
     {
+      "id": "article-d91d14f27424fb",
+      "level": "N3",
+      "term": "場所",
+      "reading": "ばしょ",
+      "readingHiragana": "ばしょ",
+      "meaning": "Place, location",
+      "source": "article",
+      "sourceId": "2026-05-26-city-cooling-mist",
+      "sourceTitle": "駅前広場で夏のミスト設備を増やす",
+      "sourceLabel": "5/26 駅前広場でミスト設備",
+      "sourceHref": "./2026-05-26-city-cooling-mist.html",
+      "tags": [
+        "article-vocab",
+        "2026-05-26-city-cooling-mist"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "通信が安定した場所で、早めに買っておくと安心です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
+          "ja": "画面の路線図では、今いる場所と進む方向がわかります。",
+          "en": "The route map shows where the train is and which way it is going."
+        },
+        {
+          "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+          "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+        },
+        {
+          "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+          "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
+        }
+      ]
+    },
+    {
       "id": "article-81f6b688c7cfb8",
       "level": "N3",
       "term": "輸出",
@@ -96138,6 +97978,142 @@
         {
           "ja": "これから本格的な夏に向けて、どこまで効果があるかが注目されています。",
           "en": "As full summer approaches, people are watching closely to see how effective they will be."
+        }
+      ]
+    },
+    {
+      "id": "article-ecb18db732e2a7",
+      "level": "N3",
+      "term": "場所",
+      "reading": "ばしょ",
+      "readingHiragana": "ばしょ",
+      "meaning": "Place, location",
+      "source": "article",
+      "sourceId": "2026-05-24-station-solar-roof",
+      "sourceTitle": "駅の屋根に太陽光設備を広げる",
+      "sourceLabel": "5/24 駅の屋根に太陽光設備",
+      "sourceHref": "./2026-05-24-station-solar-roof.html",
+      "tags": [
+        "article-vocab",
+        "2026-05-24-station-solar-roof"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "通信が安定した場所で、早めに買っておくと安心です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
+          "ja": "画面の路線図では、今いる場所と進む方向がわかります。",
+          "en": "The route map shows where the train is and which way it is going."
+        },
+        {
+          "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+          "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+        },
+        {
+          "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+          "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
+        }
+      ]
+    },
+    {
+      "id": "article-16de8ecf296bfb",
+      "level": "N3",
+      "term": "費用",
+      "reading": "ひよう",
+      "readingHiragana": "ひよう",
+      "meaning": "Expense, cost",
+      "source": "article",
+      "sourceId": "2026-05-24-station-solar-roof",
+      "sourceTitle": "駅の屋根に太陽光設備を広げる",
+      "sourceLabel": "5/24 駅の屋根に太陽光設備",
+      "sourceHref": "./2026-05-24-station-solar-roof.html",
+      "tags": [
+        "article-vocab",
+        "2026-05-24-station-solar-roof"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "2002年に完成したとき、全体の費用は4400億円をこえていて、そのときの借金が今の運賃にも影響しています。",
+          "en": "When the line was completed in 2002, the total cost exceeded 440 billion yen, and those debts still affect fares today."
+        },
+        {
+          "ja": "町は3か月の実験で、利用した人数や運行にかかる費用を調べます。",
+          "en": "During the three-month trial, the town will study the number of users and the cost of operating the buses."
+        },
+        {
+          "ja": "自分たちで作った電気を使えば、費用をおさえるだけでなく、環境への負担も減らせます。",
+          "en": "Using electricity they generate themselves can reduce both costs and environmental impact."
+        },
+        {
+          "ja": "今回の対策では、肥料や燃料の費用が高くなった地域に、より多くの補助金を出します。",
+          "en": "Under the new plan, areas where fertilizer and fuel costs have become high will receive more subsidies."
+        },
+        {
+          "ja": "原油価格が上がると、ガソリンや電気、物を運ぶための費用も上がりやすくなります。",
+          "en": "When crude oil prices rise, the cost of gasoline, electricity, and transporting goods also tends to rise."
+        }
+      ]
+    },
+    {
+      "id": "article-b9a307c616dd77",
+      "level": "N3",
+      "term": "災害",
+      "reading": "さいがい",
+      "readingHiragana": "さいがい",
+      "meaning": "Disaster, calamity",
+      "source": "article",
+      "sourceId": "2026-05-24-station-solar-roof",
+      "sourceTitle": "駅の屋根に太陽光設備を広げる",
+      "sourceLabel": "5/24 駅の屋根に太陽光設備",
+      "sourceHref": "./2026-05-24-station-solar-roof.html",
+      "tags": [
+        "article-vocab",
+        "2026-05-24-station-solar-roof"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "企業には、災害後も重要な業務を続けるための事業継続計画を作ることが求められます。",
+          "en": "Companies will be asked to prepare business continuity plans so they can keep important operations running after a disaster."
+        },
+        {
+          "ja": "気象庁は、台風が通過した後も地盤が緩んでいる場所では土砂災害に警戒するよう求めています。",
+          "en": "The Meteorological Agency is asking people to remain alert for landslides in places where the ground has loosened even after the typhoon passes."
+        },
+        {
+          "ja": "一部の駅では、災害のときにスマートフォンを充電できる場所としても活用する考えです。",
+          "en": "At some stations, the system may also be used as a place where people can charge smartphones during disasters."
+        }
+      ]
+    },
+    {
+      "id": "article-5f2666209082c4",
+      "level": "N3",
+      "term": "施設",
+      "reading": "しせつ",
+      "readingHiragana": "しせつ",
+      "meaning": "Facility, institution",
+      "source": "article",
+      "sourceId": "2026-05-24-station-solar-roof",
+      "sourceTitle": "駅の屋根に太陽光設備を広げる",
+      "sourceLabel": "5/24 駅の屋根に太陽光設備",
+      "sourceHref": "./2026-05-24-station-solar-roof.html",
+      "tags": [
+        "article-vocab",
+        "2026-05-24-station-solar-roof"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "病院や介護施設では、高齢者の体調に特に注意しています。",
+          "en": "Hospitals and care homes are paying special attention to the health of older people."
+        },
+        {
+          "ja": "専門家は、交通の施設で再生可能エネルギーを使うことは、地域の意識を変えるきっかけにもなるとみています。",
+          "en": "Experts say using renewable energy at transportation facilities can also change local awareness."
         }
       ]
     },
@@ -96998,6 +98974,123 @@
       ]
     },
     {
+      "id": "article-8520aa26cfbe40",
+      "level": "N3",
+      "term": "発表",
+      "reading": "はっぴょう",
+      "readingHiragana": "はっぴょう",
+      "meaning": "Announcement, presentation",
+      "source": "article",
+      "sourceId": "2026-05-20-rice-price-support",
+      "sourceTitle": "政府が米の値上がり対策を広げる",
+      "sourceLabel": "5/20 米の値上がり対策",
+      "sourceHref": "./2026-05-20-rice-price-support.html",
+      "tags": [
+        "article-vocab",
+        "2026-05-20-rice-price-support"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
+          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+        },
+        {
+          "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
+          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
+        },
+        {
+          "ja": "気象庁は、最大1メートルの津波が来る可能性があると発表しました。",
+          "en": "The agency announced that waves of up to one meter could arrive."
+        },
+        {
+          "ja": "米の値段が上がっているため、政府は新しい対策を発表しました。",
+          "en": "Because rice prices are rising, the government announced new measures."
+        },
+        {
+          "ja": "日本の経済産業省は、半導体会社のラピダスに新しく6315億円の支援をすると発表しました。",
+          "en": "Japan’s Ministry of Economy, Trade and Industry announced new support of 631.5 billion yen for the semiconductor company Rapidus."
+        }
+      ]
+    },
+    {
+      "id": "article-35214663fc4650",
+      "level": "N3",
+      "term": "費用",
+      "reading": "ひよう",
+      "readingHiragana": "ひよう",
+      "meaning": "Expense, cost",
+      "source": "article",
+      "sourceId": "2026-05-20-rice-price-support",
+      "sourceTitle": "政府が米の値上がり対策を広げる",
+      "sourceLabel": "5/20 米の値上がり対策",
+      "sourceHref": "./2026-05-20-rice-price-support.html",
+      "tags": [
+        "article-vocab",
+        "2026-05-20-rice-price-support"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "2002年に完成したとき、全体の費用は4400億円をこえていて、そのときの借金が今の運賃にも影響しています。",
+          "en": "When the line was completed in 2002, the total cost exceeded 440 billion yen, and those debts still affect fares today."
+        },
+        {
+          "ja": "町は3か月の実験で、利用した人数や運行にかかる費用を調べます。",
+          "en": "During the three-month trial, the town will study the number of users and the cost of operating the buses."
+        },
+        {
+          "ja": "自分たちで作った電気を使えば、費用をおさえるだけでなく、環境への負担も減らせます。",
+          "en": "Using electricity they generate themselves can reduce both costs and environmental impact."
+        },
+        {
+          "ja": "今回の対策では、肥料や燃料の費用が高くなった地域に、より多くの補助金を出します。",
+          "en": "Under the new plan, areas where fertilizer and fuel costs have become high will receive more subsidies."
+        },
+        {
+          "ja": "原油価格が上がると、ガソリンや電気、物を運ぶための費用も上がりやすくなります。",
+          "en": "When crude oil prices rise, the cost of gasoline, electricity, and transporting goods also tends to rise."
+        }
+      ]
+    },
+    {
+      "id": "article-4760bb0484216f",
+      "level": "N3",
+      "term": "対応",
+      "reading": "たいおう",
+      "readingHiragana": "たいおう",
+      "meaning": "Response, handling",
+      "source": "article",
+      "sourceId": "2026-05-20-rice-price-support",
+      "sourceTitle": "政府が米の値上がり対策を広げる",
+      "sourceLabel": "5/20 米の値上がり対策",
+      "sourceHref": "./2026-05-20-rice-price-support.html",
+      "tags": [
+        "article-vocab",
+        "2026-05-20-rice-price-support"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "0対応システムを通じて、広い範囲の交通情報が届くと説明されています。",
+          "en": "0 compatible systems."
+        },
+        {
+          "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
+          "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
+        },
+        {
+          "ja": "対応する言語は英語、中国語、韓国語などで、音声でも案内できます。",
+          "en": "The supported languages include English, Chinese, and Korean, and audio guidance is also available."
+        },
+        {
+          "ja": "そのため、現金の対応も残しながら、少しずつ切り替える方針です。",
+          "en": "For that reason, cash support will remain while the system is changed gradually."
+        },
+        {
+          "ja": "英語や中国語など、いくつかの言語に対応できるのが特長です。",
+          "en": "A key feature is that the robots can handle several languages such as English and Chinese."
+        }
+      ]
+    },
+    {
       "id": "article-9e985e447d6456",
       "level": "N3",
       "term": "防災訓練",
@@ -97207,6 +99300,142 @@
         {
           "ja": "両国は、安全保障や地域の安定のために、これからも緊密に連携していく方針です。",
           "en": "The two countries plan to keep working closely together for security and regional stability."
+        }
+      ]
+    },
+    {
+      "id": "article-f8c82b203b477d",
+      "level": "N3",
+      "term": "場所",
+      "reading": "ばしょ",
+      "readingHiragana": "ばしょ",
+      "meaning": "Place, location",
+      "source": "article",
+      "sourceId": "2026-05-18-drone-disaster-drills",
+      "sourceTitle": "災害訓練でドローン活用が広がる",
+      "sourceLabel": "5/18 災害訓練でドローン",
+      "sourceHref": "./2026-05-18-drone-disaster-drills.html",
+      "tags": [
+        "article-vocab",
+        "2026-05-18-drone-disaster-drills"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "通信が安定した場所で、早めに買っておくと安心です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
+          "ja": "画面の路線図では、今いる場所と進む方向がわかります。",
+          "en": "The route map shows where the train is and which way it is going."
+        },
+        {
+          "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+          "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+        },
+        {
+          "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+          "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
+        }
+      ]
+    },
+    {
+      "id": "article-2bdd0358080254",
+      "level": "N3",
+      "term": "確認",
+      "reading": "かくにん",
+      "readingHiragana": "かくにん",
+      "meaning": "Confirmation, checking",
+      "source": "article",
+      "sourceId": "2026-05-18-drone-disaster-drills",
+      "sourceTitle": "災害訓練でドローン活用が広がる",
+      "sourceLabel": "5/18 災害訓練でドローン",
+      "sourceHref": "./2026-05-18-drone-disaster-drills.html",
+      "tags": [
+        "article-vocab",
+        "2026-05-18-drone-disaster-drills"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "画面には遅れや運転見合わせの情報も出るため、予定が大きく変わったときは、そちらも確認することが大切です。",
+          "en": "The screens can also show delay or suspension information, so check that when plans change."
+        },
+        {
+          "ja": "もちろん最後は運転士が確認しますが、人と装置の両方でずれを小さくしているわけです。",
+          "en": "Of course, the driver still makes the final check, but both people and equipment work together to keep errors small."
+        },
+        {
+          "ja": "ほんのわずかな場合でも、すぐドアを開けるのではなく、安全確認が必要です。",
+          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+        },
+        {
+          "ja": "タイヤやハンドルが袋の外に出ないよう確認しましょう。",
+          "en": "Make sure the tires and handlebars do not stick out of the bag."
+        },
+        {
+          "ja": "移動中は、他の乗客が乗り降りしやすいか確認することも大切です。",
+          "en": "During the trip, it is also important to make sure other passengers can easily get on and off."
+        }
+      ]
+    },
+    {
+      "id": "article-fe908a52f77eb1",
+      "level": "N3",
+      "term": "防災",
+      "reading": "ぼうさい",
+      "readingHiragana": "ぼうさい",
+      "meaning": "Disaster prevention",
+      "source": "article",
+      "sourceId": "2026-05-18-drone-disaster-drills",
+      "sourceTitle": "災害訓練でドローン活用が広がる",
+      "sourceLabel": "5/18 災害訓練でドローン",
+      "sourceHref": "./2026-05-18-drone-disaster-drills.html",
+      "tags": [
+        "article-vocab",
+        "2026-05-18-drone-disaster-drills"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "政府は、首都直下地震が起きた場合の被害を今後10年で大幅に減らすため、防災計画を改定する方針です。",
+          "en": "The government plans to revise its disaster-prevention plan to sharply reduce damage from a possible inland earthquake beneath the Tokyo area over the next decade."
+        },
+        {
+          "ja": "大雨や地震に備えるため、いろいろな地域で防災訓練が行われました。",
+          "en": "To prepare for heavy rain and earthquakes, disaster drills were held in many areas."
+        }
+      ]
+    },
+    {
+      "id": "article-099278b8fc5060",
+      "level": "N3",
+      "term": "災害",
+      "reading": "さいがい",
+      "readingHiragana": "さいがい",
+      "meaning": "Disaster, calamity",
+      "source": "article",
+      "sourceId": "2026-05-18-drone-disaster-drills",
+      "sourceTitle": "災害訓練でドローン活用が広がる",
+      "sourceLabel": "5/18 災害訓練でドローン",
+      "sourceHref": "./2026-05-18-drone-disaster-drills.html",
+      "tags": [
+        "article-vocab",
+        "2026-05-18-drone-disaster-drills"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "企業には、災害後も重要な業務を続けるための事業継続計画を作ることが求められます。",
+          "en": "Companies will be asked to prepare business continuity plans so they can keep important operations running after a disaster."
+        },
+        {
+          "ja": "気象庁は、台風が通過した後も地盤が緩んでいる場所では土砂災害に警戒するよう求めています。",
+          "en": "The Meteorological Agency is asking people to remain alert for landslides in places where the ground has loosened even after the typhoon passes."
+        },
+        {
+          "ja": "一部の駅では、災害のときにスマートフォンを充電できる場所としても活用する考えです。",
+          "en": "At some stations, the system may also be used as a place where people can charge smartphones during disasters."
         }
       ]
     },
@@ -97722,6 +99951,45 @@
         {
           "ja": "また、防衛だけでなく、経済や技術の分野でも協力を深めることが話題になりました。",
           "en": "They also discussed deepening cooperation not only in defense but also in the economy and technology."
+        }
+      ]
+    },
+    {
+      "id": "article-0774f3acbae7fb",
+      "level": "N3",
+      "term": "場所",
+      "reading": "ばしょ",
+      "readingHiragana": "ばしょ",
+      "meaning": "Place, location",
+      "source": "article",
+      "sourceId": "2026-04-10-deep-purple-pm",
+      "sourceTitle": "首相がディープ・パープルに大よろこび",
+      "sourceLabel": "4/10 首相とDeep Purple",
+      "sourceHref": "./2026-04-10-deep-purple-pm.html",
+      "tags": [
+        "article-vocab",
+        "2026-04-10-deep-purple-pm"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "通信が安定した場所で、早めに買っておくと安心です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
+          "ja": "画面の路線図では、今いる場所と進む方向がわかります。",
+          "en": "The route map shows where the train is and which way it is going."
+        },
+        {
+          "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+          "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+        },
+        {
+          "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+          "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
         }
       ]
     }

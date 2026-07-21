@@ -42,6 +42,14 @@
     { "term": "到着時刻（とうちゃくじこく）", "meaning": "Arrival time" },
     { "term": "運転見合わせ（うんてんみあわせ）", "meaning": "Service suspension" },
     { "term": "液晶（えきしょう）", "meaning": "Liquid-crystal display (LCD)" },
-    { "term": "遅延（ちえん）", "meaning": "Delay" }
+    { "term": "遅延（ちえん）", "meaning": "Delay" },
+    {
+      "term": "場所（ばしょ）",
+      "meaning": "Place, location"
+    },
+    {
+      "term": "確認（かくにん）",
+      "meaning": "Confirmation, checking"
+    }
   ]
 }

@@ -42,6 +42,14 @@
     { "term": "座席（ざせき）", "meaning": "Seat" },
     { "term": "車内改札（しゃないかいさつ）", "meaning": "On-board ticket inspection" },
     { "term": "省略する（しょうりゃくする）", "meaning": "To omit / skip" },
-    { "term": "乗車（じょうしゃ）", "meaning": "Train ride / boarding" }
+    { "term": "乗車（じょうしゃ）", "meaning": "Train ride / boarding" },
+    {
+      "term": "場所（ばしょ）",
+      "meaning": "Place, location"
+    },
+    {
+      "term": "場合（ばあい）",
+      "meaning": "Case, situation"
+    }
   ]
 }
