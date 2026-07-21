@@ -1213,7 +1213,7 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
     def video_render_cache_key(self, payload: dict, speaker: int, prosody: dict) -> str:
         encoded = json.dumps(
             {
-                "version": "video-render-v4",
+                "version": "video-render-v5",
                 "speaker": speaker,
                 "voicevoxProsody": prosody,
                 "payload": payload,

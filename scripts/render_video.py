@@ -258,7 +258,7 @@ def render_html(article: dict, segment: Segment, options: RenderOptions) -> str:
             <h1>{segment.title_html}</h1>
 {paragraphs}
             <div class="recording-footer" aria-hidden="true">
-                <span>英訳はコメント欄にあります</span>
+                <span>全文はキャプションにあります</span>
             </div>
         </div>
     </main>
