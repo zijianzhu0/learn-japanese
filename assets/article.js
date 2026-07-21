@@ -1411,22 +1411,43 @@ async function copyBilingualArticle() {
     }
 }
 
-function buildVocabularyListText() {
-    const vocabularyBox = document.querySelector('.vocabulary-box');
-    if (!vocabularyBox) {
+function buildStudyNotesText() {
+    const studyNotes = document.querySelector('.study-notes-box');
+    if (!studyNotes) {
         return '';
     }
 
-    const title = normalizeCopiedText(vocabularyBox.querySelector('h2')?.textContent);
-    const items = Array.from(vocabularyBox.querySelectorAll('li'))
-        .map((item) => normalizeCopiedText(item.textContent))
+    const title = normalizeCopiedText(studyNotes.querySelector('h2')?.textContent);
+    const groups = Array.from(studyNotes.querySelectorAll('.study-note-group'))
+        .map((group) => {
+            const heading = normalizeCopiedText(group.querySelector('h3')?.textContent);
+            const items = Array.from(group.querySelectorAll('.study-note-list li'))
+                .map((item) => normalizeCopiedText(item.textContent))
+                .filter(Boolean);
+            return [heading, ...items].filter(Boolean).join('\n');
+        })
         .filter(Boolean);
-    return [title, ...items].filter(Boolean).join('\n');
+
+    return [title, ...groups].filter(Boolean).join('\n');
+}
+
+function buildVocabularyAndStudyNotesText() {
+    const vocabularyBox = document.querySelector('.vocabulary-box');
+    const vocabularyText = vocabularyBox
+        ? [
+            normalizeCopiedText(vocabularyBox.querySelector('h2')?.textContent),
+            ...Array.from(vocabularyBox.querySelectorAll('li'))
+                .map((item) => normalizeCopiedText(item.textContent))
+                .filter(Boolean),
+        ].filter(Boolean).join('\n')
+        : '';
+
+    return [buildStudyNotesText(), vocabularyText].filter(Boolean).join('\n\n');
 }
 
 async function copyVocabularyList() {
     const status = document.getElementById('copy-status');
-    const vocabularyText = buildVocabularyListText();
+    const vocabularyText = buildVocabularyAndStudyNotesText();
 
     if (!vocabularyText) {
         status.textContent = 'No vocabulary list found on this page.';
@@ -1435,7 +1456,7 @@ async function copyVocabularyList() {
 
     try {
         await navigator.clipboard.writeText(vocabularyText);
-        status.textContent = 'Vocabulary list copied to clipboard.';
+        status.textContent = 'Vocabulary and phrases copied to clipboard.';
     } catch (error) {
         status.textContent = 'Copy failed. Your browser may block clipboard access.';
     }
