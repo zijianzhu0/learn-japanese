@@ -554,20 +554,6 @@ function normalizeCopiedText(text) {
     return String(text || '').replace(/\s+/g, ' ').trim();
 }
 
-function buildJapaneseArticleText() {
-    const title = extractRubyBaseText(document.querySelector('h1'));
-    const paragraphs = Array.from(document.querySelectorAll('.article-paragraph'))
-        .map((paragraph) => extractRubyBaseText(paragraph));
-    return [title, ...paragraphs].join('\n\n');
-}
-
-function buildEnglishTranslationText() {
-    return Array.from(document.querySelectorAll('.sentence-translation'))
-        .map((translation) => normalizeCopiedText(translation.textContent))
-        .filter(Boolean)
-        .join('\n\n');
-}
-
 function buildBilingualArticleText() {
     const title = extractRubyBaseText(document.querySelector('h1'));
     const blocks = title ? [title] : [];
@@ -1413,35 +1399,6 @@ async function speakWithLocalTts(startIndex = 0) {
     await playLocalTtsArticle(startIndex);
 }
 
-async function copyJapaneseArticle() {
-    const status = document.getElementById('copy-status');
-    const articleText = buildJapaneseArticleText();
-
-    try {
-        await navigator.clipboard.writeText(articleText);
-        status.textContent = 'Japanese article copied to clipboard.';
-    } catch (error) {
-        status.textContent = 'Copy failed. Your browser may block clipboard access.';
-    }
-}
-
-async function copyEnglishTranslation() {
-    const status = document.getElementById('copy-status');
-    const translationText = buildEnglishTranslationText();
-
-    if (!translationText) {
-        status.textContent = 'No English translation found on this page.';
-        return;
-    }
-
-    try {
-        await navigator.clipboard.writeText(translationText);
-        status.textContent = 'English translation copied to clipboard.';
-    } catch (error) {
-        status.textContent = 'Copy failed. Your browser may block clipboard access.';
-    }
-}
-
 async function copyBilingualArticle() {
     const status = document.getElementById('copy-status');
     const articleText = buildBilingualArticleText();
@@ -1449,6 +1406,36 @@ async function copyBilingualArticle() {
     try {
         await navigator.clipboard.writeText(articleText);
         status.textContent = 'Japanese and English article copied to clipboard.';
+    } catch (error) {
+        status.textContent = 'Copy failed. Your browser may block clipboard access.';
+    }
+}
+
+function buildVocabularyListText() {
+    const vocabularyBox = document.querySelector('.vocabulary-box');
+    if (!vocabularyBox) {
+        return '';
+    }
+
+    const title = normalizeCopiedText(vocabularyBox.querySelector('h2')?.textContent);
+    const items = Array.from(vocabularyBox.querySelectorAll('li'))
+        .map((item) => normalizeCopiedText(item.textContent))
+        .filter(Boolean);
+    return [title, ...items].filter(Boolean).join('\n');
+}
+
+async function copyVocabularyList() {
+    const status = document.getElementById('copy-status');
+    const vocabularyText = buildVocabularyListText();
+
+    if (!vocabularyText) {
+        status.textContent = 'No vocabulary list found on this page.';
+        return;
+    }
+
+    try {
+        await navigator.clipboard.writeText(vocabularyText);
+        status.textContent = 'Vocabulary list copied to clipboard.';
     } catch (error) {
         status.textContent = 'Copy failed. Your browser may block clipboard access.';
     }
@@ -1897,9 +1884,8 @@ document.getElementById('browser-voice')?.addEventListener('change', () => {
     persistVoiceSettingsFromControls().catch(reportVoiceSettingsError);
 });
 document.getElementById('docker-voice')?.addEventListener('change', refreshArticleAudioCacheStatus);
-document.getElementById('copy-japanese-article')?.addEventListener('click', copyJapaneseArticle);
-document.getElementById('copy-english-translation')?.addEventListener('click', copyEnglishTranslation);
 document.getElementById('copy-bilingual-article')?.addEventListener('click', copyBilingualArticle);
+document.getElementById('copy-vocabulary-list')?.addEventListener('click', copyVocabularyList);
 document.getElementById('enable-docker-audio')?.addEventListener('click', () => {
     enableLocalTtsAudio().catch((error) => {
         const status = document.getElementById('copy-status');

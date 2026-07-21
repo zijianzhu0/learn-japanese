@@ -4076,6 +4076,56 @@
           "reading": "zubon",
           "meaning": "trousers, pants",
           "tags": []
+        },
+        {
+          "id": "basho",
+          "term": "場所",
+          "reading": "basho",
+          "meaning": "place, location",
+          "tags": []
+        },
+        {
+          "id": "kanojo",
+          "term": "彼女",
+          "reading": "kanojo",
+          "meaning": "she; girlfriend",
+          "tags": []
+        },
+        {
+          "id": "omou",
+          "term": "思う",
+          "reading": "omou",
+          "meaning": "to think, to feel",
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
+        },
+        {
+          "id": "tasukeru",
+          "term": "助ける",
+          "reading": "tasukeru",
+          "meaning": "to help, to save",
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
+        },
+        {
+          "id": "tomeru",
+          "term": "止める",
+          "reading": "tomeru",
+          "meaning": "to stop",
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "ichidan"
+        },
+        {
+          "id": "warau",
+          "term": "笑う",
+          "reading": "warau",
+          "meaning": "to laugh, to smile",
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
         }
       ]
     },
@@ -8129,6 +8179,78 @@
           "term": "随分",
           "reading": "zuibun",
           "meaning": "very, extremely, surprisingly",
+          "tags": []
+        },
+        {
+          "id": "baai",
+          "term": "場合",
+          "reading": "baai",
+          "meaning": "case, situation",
+          "tags": []
+        },
+        {
+          "id": "choushi",
+          "term": "調子",
+          "reading": "choushi",
+          "meaning": "condition, state, pace",
+          "tags": []
+        },
+        {
+          "id": "fuyasu",
+          "term": "増やす",
+          "reading": "fuyasu",
+          "meaning": "to increase, to add",
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
+        },
+        {
+          "id": "happyou",
+          "term": "発表",
+          "reading": "happyou",
+          "meaning": "announcement, presentation",
+          "tags": []
+        },
+        {
+          "id": "hiyou",
+          "term": "費用",
+          "reading": "hiyou",
+          "meaning": "expense, cost",
+          "tags": []
+        },
+        {
+          "id": "kakunin",
+          "term": "確認",
+          "reading": "kakunin",
+          "meaning": "confirmation, checking",
+          "tags": []
+        },
+        {
+          "id": "kettei",
+          "term": "決定",
+          "reading": "kettei",
+          "meaning": "decision, determination",
+          "tags": []
+        },
+        {
+          "id": "kibou",
+          "term": "希望",
+          "reading": "kibou",
+          "meaning": "hope, wish, request",
+          "tags": []
+        },
+        {
+          "id": "sanka",
+          "term": "参加",
+          "reading": "sanka",
+          "meaning": "participation",
+          "tags": []
+        },
+        {
+          "id": "teian",
+          "term": "提案",
+          "reading": "teian",
+          "meaning": "proposal, suggestion",
           "tags": []
         }
       ]
@@ -20720,6 +20842,134 @@
           "term": "頭痛",
           "reading": "zutsuu",
           "meaning": "headache",
+          "tags": []
+        },
+        {
+          "id": "bousai",
+          "term": "防災",
+          "reading": "bousai",
+          "meaning": "disaster prevention",
+          "tags": []
+        },
+        {
+          "id": "chousei",
+          "term": "調整",
+          "reading": "chousei",
+          "meaning": "adjustment, coordination",
+          "tags": []
+        },
+        {
+          "id": "fukkyuu",
+          "term": "復旧",
+          "reading": "fukkyuu",
+          "meaning": "restoration, recovery",
+          "tags": []
+        },
+        {
+          "id": "gyousei",
+          "term": "行政",
+          "reading": "gyousei",
+          "meaning": "public administration",
+          "tags": []
+        },
+        {
+          "id": "kansoku",
+          "term": "観測",
+          "reading": "kansoku",
+          "meaning": "observation, measurement",
+          "tags": []
+        },
+        {
+          "id": "koushin",
+          "term": "更新",
+          "reading": "koushin",
+          "meaning": "update, renewal",
+          "tags": []
+        },
+        {
+          "id": "kyouka",
+          "term": "強化",
+          "reading": "kyouka",
+          "meaning": "strengthening, reinforcement",
+          "tags": []
+        },
+        {
+          "id": "nintei",
+          "term": "認定",
+          "reading": "nintei",
+          "meaning": "certification, recognition",
+          "tags": []
+        },
+        {
+          "id": "saigai",
+          "term": "災害",
+          "reading": "saigai",
+          "meaning": "disaster, calamity",
+          "tags": []
+        },
+        {
+          "id": "seisaku",
+          "term": "政策",
+          "reading": "seisaku",
+          "meaning": "policy, measures",
+          "tags": []
+        },
+        {
+          "id": "shikumi",
+          "term": "仕組み",
+          "reading": "shikumi",
+          "meaning": "mechanism, system",
+          "tags": []
+        },
+        {
+          "id": "shisetsu",
+          "term": "施設",
+          "reading": "shisetsu",
+          "meaning": "facility, institution",
+          "tags": []
+        },
+        {
+          "id": "shouko",
+          "term": "証拠",
+          "reading": "shouko",
+          "meaning": "evidence, proof",
+          "tags": []
+        },
+        {
+          "id": "sonae",
+          "term": "備え",
+          "reading": "sonae",
+          "meaning": "preparation, provision",
+          "tags": []
+        },
+        {
+          "id": "taiou",
+          "term": "対応",
+          "reading": "taiou",
+          "meaning": "response, handling",
+          "tags": []
+        },
+        {
+          "id": "torikumu",
+          "term": "取り組む",
+          "reading": "torikumu",
+          "meaning": "to tackle, to work on",
+          "tags": [],
+          "partOfSpeech": "verb",
+          "verbClass": "godan"
+        },
+        {
+          "id": "unyou",
+          "term": "運用",
+          "reading": "unyou",
+          "meaning": "operation, management",
+          "tags": []
+        },
+        {
+          "id": "yokusei",
+          "term": "抑制",
+          "reading": "yokusei",
+          "meaning": "restraint, control",
           "tags": []
         }
       ]

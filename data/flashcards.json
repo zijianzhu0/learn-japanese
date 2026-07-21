@@ -4,9 +4,9 @@
     "articleManifest": "data/articles.json"
   },
   "levels": {
-    "N3": 2125,
-    "N4": 536,
-    "N5": 553
+    "N3": 2143,
+    "N4": 546,
+    "N5": 559
   },
   "items": [
     {
@@ -19379,6 +19379,443 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": []
+    },
+    {
+      "id": "core-c5ca82a3166535",
+      "level": "N5",
+      "term": "場所",
+      "reading": "basho",
+      "readingHiragana": "ばしょ",
+      "meaning": "place, location",
+      "source": "core",
+      "sourceId": "n5-core",
+      "sourceTitle": "Core N5 Vocabulary",
+      "sourceLabel": "Core N5 Vocabulary",
+      "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
+      "tags": [],
+      "exampleSentences": [
+        {
+          "ja": "通信が安定した場所で、早めに買っておくと安心です。",
+          "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
+        },
+        {
+          "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
+          "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
+        },
+        {
+          "ja": "画面の路線図では、今いる場所と進む方向がわかります。",
+          "en": "The route map shows where the train is and which way it is going."
+        },
+        {
+          "ja": "電車が駅に入ると、いつもドアがホームのちょうどいい場所に来ます。",
+          "en": "When a train enters a station, the doors usually line up with the platform in exactly the right place."
+        },
+        {
+          "ja": "これは「8両」「10両」のように、車両数ごとの止まる場所を示す印です。",
+          "en": "These are signs showing where trains with a certain number of cars, such as 8 or 10, should stop."
+        }
+      ]
+    },
+    {
+      "id": "core-e859c807fc5e4d",
+      "level": "N5",
+      "term": "彼女",
+      "reading": "kanojo",
+      "readingHiragana": "かのじょ",
+      "meaning": "she; girlfriend",
+      "source": "core",
+      "sourceId": "n5-core",
+      "sourceTitle": "Core N5 Vocabulary",
+      "sourceLabel": "Core N5 Vocabulary",
+      "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
+      "tags": [],
+      "exampleSentences": []
+    },
+    {
+      "id": "core-32d89ff75b5557",
+      "level": "N5",
+      "term": "思う",
+      "reading": "omou",
+      "readingHiragana": "おもう",
+      "meaning": "to think, to feel",
+      "source": "core",
+      "sourceId": "n5-core",
+      "sourceTitle": "Core N5 Vocabulary",
+      "sourceLabel": "Core N5 Vocabulary",
+      "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
+      "tags": [],
+      "exampleSentences": [],
+      "partOfSpeech": "verb",
+      "verbClass": "godan",
+      "verbForms": [
+        {
+          "form": "polite",
+          "label": "Polite",
+          "description": "Polite form",
+          "term": "思います",
+          "readingHiragana": "おもいます",
+          "meaning": "Polite form of 思う: to think, to feel",
+          "exampleSentences": [
+            {
+              "ja": "いつもの風景の中にも、まだ気づいていないやさしさや工夫がたくさんあるのだと思います。",
+              "en": "I think there are many more acts of kindness and smart ideas hidden in the familiar scenery around us."
+            }
+          ]
+        },
+        {
+          "form": "past",
+          "label": "Past",
+          "description": "Plain past form",
+          "term": "思った",
+          "readingHiragana": "おもった",
+          "meaning": "Plain past form of 思う: to think, to feel",
+          "exampleSentences": []
+        },
+        {
+          "form": "negative",
+          "label": "Negative",
+          "description": "Plain negative form",
+          "term": "思わない",
+          "readingHiragana": "おもわない",
+          "meaning": "Plain negative form of 思う: to think, to feel",
+          "exampleSentences": []
+        },
+        {
+          "form": "te",
+          "label": "Te-form",
+          "description": "Te-form",
+          "term": "思って",
+          "readingHiragana": "おもって",
+          "meaning": "Te-form of 思う: to think, to feel",
+          "exampleSentences": [
+            {
+              "ja": "早く着きたいと思って速い電車に乗ると、自分の駅を通りすぎてしまうことがあります。",
+              "en": "If you board a faster train because you want to arrive quickly, it may pass your station."
+            }
+          ]
+        },
+        {
+          "form": "potential",
+          "label": "Potential",
+          "description": "Potential form",
+          "term": "思える",
+          "readingHiragana": "おもえる",
+          "meaning": "Potential form of 思う: to think, to feel",
+          "exampleSentences": []
+        }
+      ]
+    },
+    {
+      "id": "core-7cac351b8bb07a",
+      "level": "N5",
+      "term": "助ける",
+      "reading": "tasukeru",
+      "readingHiragana": "たすける",
+      "meaning": "to help, to save",
+      "source": "core",
+      "sourceId": "n5-core",
+      "sourceTitle": "Core N5 Vocabulary",
+      "sourceLabel": "Core N5 Vocabulary",
+      "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
+      "tags": [],
+      "exampleSentences": [
+        {
+          "ja": "そのため、定位置停止を助ける装置が使われることもあります。",
+          "en": "For that reason, some lines use systems that assist fixed-position stopping."
+        }
+      ],
+      "partOfSpeech": "verb",
+      "verbClass": "ichidan",
+      "verbForms": [
+        {
+          "form": "polite",
+          "label": "Polite",
+          "description": "Polite form",
+          "term": "助けます",
+          "readingHiragana": "たすけます",
+          "meaning": "Polite form of 助ける: to help, to save",
+          "exampleSentences": [
+            {
+              "ja": "そのため、定位置停止を助ける装置が使われることもあります。",
+              "en": "For that reason, some lines use systems that assist fixed-position stopping."
+            }
+          ]
+        },
+        {
+          "form": "past",
+          "label": "Past",
+          "description": "Plain past form",
+          "term": "助けた",
+          "readingHiragana": "たすけた",
+          "meaning": "Plain past form of 助ける: to help, to save",
+          "exampleSentences": [
+            {
+              "ja": "そのため、定位置停止を助ける装置が使われることもあります。",
+              "en": "For that reason, some lines use systems that assist fixed-position stopping."
+            }
+          ]
+        },
+        {
+          "form": "negative",
+          "label": "Negative",
+          "description": "Plain negative form",
+          "term": "助けない",
+          "readingHiragana": "たすけない",
+          "meaning": "Plain negative form of 助ける: to help, to save",
+          "exampleSentences": [
+            {
+              "ja": "そのため、定位置停止を助ける装置が使われることもあります。",
+              "en": "For that reason, some lines use systems that assist fixed-position stopping."
+            }
+          ]
+        },
+        {
+          "form": "te",
+          "label": "Te-form",
+          "description": "Te-form",
+          "term": "助けて",
+          "readingHiragana": "たすけて",
+          "meaning": "Te-form of 助ける: to help, to save",
+          "exampleSentences": [
+            {
+              "ja": "そのため、定位置停止を助ける装置が使われることもあります。",
+              "en": "For that reason, some lines use systems that assist fixed-position stopping."
+            }
+          ]
+        },
+        {
+          "form": "potential",
+          "label": "Potential",
+          "description": "Potential form",
+          "term": "助けられる",
+          "readingHiragana": "たすけられる",
+          "meaning": "Potential form of 助ける: to help, to save",
+          "exampleSentences": [
+            {
+              "ja": "そのため、定位置停止を助ける装置が使われることもあります。",
+              "en": "For that reason, some lines use systems that assist fixed-position stopping."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "core-ae4e61cf602915",
+      "level": "N5",
+      "term": "止める",
+      "reading": "tomeru",
+      "readingHiragana": "とめる",
+      "meaning": "to stop",
+      "source": "core",
+      "sourceId": "n5-core",
+      "sourceTitle": "Core N5 Vocabulary",
+      "sourceLabel": "Core N5 Vocabulary",
+      "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
+      "tags": [],
+      "exampleSentences": [
+        {
+          "ja": "それでも同じ位置に止めるのは、駅に目印と手順があるからです。",
+          "en": "Even so, trains stop in the same place because stations have markers and procedures."
+        },
+        {
+          "ja": "多くのホームには、列車を止めるための停止位置目標があります。",
+          "en": "Many platforms have stopping-position markers for trains."
+        },
+        {
+          "ja": "新しい計画では、揺れを感知すると自動的に電気を止める感震ブレーカーの普及を進めます。",
+          "en": "The new plan will promote seismic circuit breakers that automatically shut off electricity when they detect shaking."
+        }
+      ],
+      "partOfSpeech": "verb",
+      "verbClass": "ichidan",
+      "verbForms": [
+        {
+          "form": "polite",
+          "label": "Polite",
+          "description": "Polite form",
+          "term": "止めます",
+          "readingHiragana": "とめます",
+          "meaning": "Polite form of 止める: to stop",
+          "exampleSentences": [
+            {
+              "ja": "それでも同じ位置に止めるのは、駅に目印と手順があるからです。",
+              "en": "Even so, trains stop in the same place because stations have markers and procedures."
+            },
+            {
+              "ja": "多くのホームには、列車を止めるための停止位置目標があります。",
+              "en": "Many platforms have stopping-position markers for trains."
+            },
+            {
+              "ja": "新しい計画では、揺れを感知すると自動的に電気を止める感震ブレーカーの普及を進めます。",
+              "en": "The new plan will promote seismic circuit breakers that automatically shut off electricity when they detect shaking."
+            }
+          ]
+        },
+        {
+          "form": "past",
+          "label": "Past",
+          "description": "Plain past form",
+          "term": "止めた",
+          "readingHiragana": "とめた",
+          "meaning": "Plain past form of 止める: to stop",
+          "exampleSentences": [
+            {
+              "ja": "それでも同じ位置に止めるのは、駅に目印と手順があるからです。",
+              "en": "Even so, trains stop in the same place because stations have markers and procedures."
+            },
+            {
+              "ja": "多くのホームには、列車を止めるための停止位置目標があります。",
+              "en": "Many platforms have stopping-position markers for trains."
+            },
+            {
+              "ja": "新しい計画では、揺れを感知すると自動的に電気を止める感震ブレーカーの普及を進めます。",
+              "en": "The new plan will promote seismic circuit breakers that automatically shut off electricity when they detect shaking."
+            }
+          ]
+        },
+        {
+          "form": "negative",
+          "label": "Negative",
+          "description": "Plain negative form",
+          "term": "止めない",
+          "readingHiragana": "とめない",
+          "meaning": "Plain negative form of 止める: to stop",
+          "exampleSentences": [
+            {
+              "ja": "短い区間でも入口と出口が多く、流れを止めないためにETCの利用がとても重要です。",
+              "en": "Even on short stretches, there are many entrances and exits, so using ETC is very important to keep traffic moving."
+            },
+            {
+              "ja": "それでも同じ位置に止めるのは、駅に目印と手順があるからです。",
+              "en": "Even so, trains stop in the same place because stations have markers and procedures."
+            },
+            {
+              "ja": "多くのホームには、列車を止めるための停止位置目標があります。",
+              "en": "Many platforms have stopping-position markers for trains."
+            },
+            {
+              "ja": "新しい計画では、揺れを感知すると自動的に電気を止める感震ブレーカーの普及を進めます。",
+              "en": "The new plan will promote seismic circuit breakers that automatically shut off electricity when they detect shaking."
+            }
+          ]
+        },
+        {
+          "form": "te",
+          "label": "Te-form",
+          "description": "Te-form",
+          "term": "止めて",
+          "readingHiragana": "とめて",
+          "meaning": "Te-form of 止める: to stop",
+          "exampleSentences": [
+            {
+              "ja": "つまり、ただ「だいたいこのへん」で止めているのではなく、かなり具体的な目標に合わせているのです。",
+              "en": "In other words, the train is not stopped at some rough guess; it is lined up with a very specific target."
+            },
+            {
+              "ja": "目印を見て、速度を読んで、ホームの条件も考えながら止めています。",
+              "en": "Drivers watch markers, read speed, and consider the platform conditions while stopping the train."
+            },
+            {
+              "ja": "それでも同じ位置に止めるのは、駅に目印と手順があるからです。",
+              "en": "Even so, trains stop in the same place because stations have markers and procedures."
+            },
+            {
+              "ja": "多くのホームには、列車を止めるための停止位置目標があります。",
+              "en": "Many platforms have stopping-position markers for trains."
+            },
+            {
+              "ja": "新しい計画では、揺れを感知すると自動的に電気を止める感震ブレーカーの普及を進めます。",
+              "en": "The new plan will promote seismic circuit breakers that automatically shut off electricity when they detect shaking."
+            }
+          ]
+        },
+        {
+          "form": "potential",
+          "label": "Potential",
+          "description": "Potential form",
+          "term": "止められる",
+          "readingHiragana": "とめられる",
+          "meaning": "Potential form of 止める: to stop",
+          "exampleSentences": [
+            {
+              "ja": "それでも同じ位置に止めるのは、駅に目印と手順があるからです。",
+              "en": "Even so, trains stop in the same place because stations have markers and procedures."
+            },
+            {
+              "ja": "多くのホームには、列車を止めるための停止位置目標があります。",
+              "en": "Many platforms have stopping-position markers for trains."
+            },
+            {
+              "ja": "新しい計画では、揺れを感知すると自動的に電気を止める感震ブレーカーの普及を進めます。",
+              "en": "The new plan will promote seismic circuit breakers that automatically shut off electricity when they detect shaking."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "core-81b206a8506a43",
+      "level": "N5",
+      "term": "笑う",
+      "reading": "warau",
+      "readingHiragana": "わらう",
+      "meaning": "to laugh, to smile",
+      "source": "core",
+      "sourceId": "n5-core",
+      "sourceTitle": "Core N5 Vocabulary",
+      "sourceLabel": "Core N5 Vocabulary",
+      "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
+      "tags": [],
+      "exampleSentences": [],
+      "partOfSpeech": "verb",
+      "verbClass": "godan",
+      "verbForms": [
+        {
+          "form": "polite",
+          "label": "Polite",
+          "description": "Polite form",
+          "term": "笑います",
+          "readingHiragana": "わらいます",
+          "meaning": "Polite form of 笑う: to laugh, to smile",
+          "exampleSentences": []
+        },
+        {
+          "form": "past",
+          "label": "Past",
+          "description": "Plain past form",
+          "term": "笑った",
+          "readingHiragana": "わらった",
+          "meaning": "Plain past form of 笑う: to laugh, to smile",
+          "exampleSentences": []
+        },
+        {
+          "form": "negative",
+          "label": "Negative",
+          "description": "Plain negative form",
+          "term": "笑わない",
+          "readingHiragana": "わらわない",
+          "meaning": "Plain negative form of 笑う: to laugh, to smile",
+          "exampleSentences": []
+        },
+        {
+          "form": "te",
+          "label": "Te-form",
+          "description": "Te-form",
+          "term": "笑って",
+          "readingHiragana": "わらって",
+          "meaning": "Te-form of 笑う: to laugh, to smile",
+          "exampleSentences": []
+        },
+        {
+          "form": "potential",
+          "label": "Potential",
+          "description": "Potential form",
+          "term": "笑える",
+          "readingHiragana": "わらえる",
+          "meaning": "Potential form of 笑う: to laugh, to smile",
+          "exampleSentences": []
+        }
+      ]
     },
     {
       "id": "core-97a153e4de5871",
@@ -39524,6 +39961,425 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": []
+    },
+    {
+      "id": "core-884c44861a8e76",
+      "level": "N4",
+      "term": "場合",
+      "reading": "baai",
+      "readingHiragana": "ばあい",
+      "meaning": "case, situation",
+      "source": "core",
+      "sourceId": "n4-core",
+      "sourceTitle": "Core N4 Vocabulary",
+      "sourceLabel": "Core N4 Vocabulary",
+      "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
+      "tags": [],
+      "exampleSentences": [
+        {
+          "ja": "カード型のSuicaを使う場合は、乗る前に駅の券売機でSuicaグリーン券を買います。",
+          "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
+        },
+        {
+          "ja": "ほんのわずかな場合でも、すぐドアを開けるのではなく、安全確認が必要です。",
+          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+        },
+        {
+          "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
+          "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
+        },
+        {
+          "ja": "駅員から乗る位置を案内された場合は、その指示に従いましょう。",
+          "en": "Follow any instructions from station staff about where to board."
+        },
+        {
+          "ja": "鉄道会社ごとに細かなルールが違う場合があるので、出発前に公式案内を確認すると安心です。",
+          "en": "Detailed rules may differ between railway companies, so checking official guidance before departure is recommended."
+        }
+      ]
+    },
+    {
+      "id": "core-0bb3b621cb536e",
+      "level": "N4",
+      "term": "調子",
+      "reading": "choushi",
+      "readingHiragana": "ちょうし",
+      "meaning": "condition, state, pace",
+      "source": "core",
+      "sourceId": "n4-core",
+      "sourceTitle": "Core N4 Vocabulary",
+      "sourceLabel": "Core N4 Vocabulary",
+      "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
+      "tags": [],
+      "exampleSentences": []
+    },
+    {
+      "id": "core-6bf3696dd3392a",
+      "level": "N4",
+      "term": "増やす",
+      "reading": "fuyasu",
+      "readingHiragana": "ふやす",
+      "meaning": "to increase, to add",
+      "source": "core",
+      "sourceId": "n4-core",
+      "sourceTitle": "Core N4 Vocabulary",
+      "sourceLabel": "Core N4 Vocabulary",
+      "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
+      "tags": [],
+      "exampleSentences": [
+        {
+          "ja": "地方の自治体が、若い農家を増やすために、みんなで使える大きな温室を作る計画を進めています。",
+          "en": "A local government is moving forward with a plan to build a large greenhouse that everyone can share in order to increase the number of young farmers."
+        },
+        {
+          "ja": "暑い日が早く増えているため、いくつかの都市で駅前広場のミスト設備を増やす計画が始まりました。",
+          "en": "Because hot days are coming earlier, some cities have begun plans to increase mist systems in station plazas."
+        },
+        {
+          "ja": "運営会社は、来年から車内のサービスをさらに増やす計画です。",
+          "en": "The operator plans to expand onboard services from next year."
+        },
+        {
+          "ja": "家計への負担を軽くするため、小売店や農家を支える仕組みを増やすとしています。",
+          "en": "To reduce the burden on households, it plans to expand support systems for retailers and farmers."
+        }
+      ],
+      "partOfSpeech": "verb",
+      "verbClass": "godan",
+      "verbForms": [
+        {
+          "form": "polite",
+          "label": "Polite",
+          "description": "Polite form",
+          "term": "増やします",
+          "readingHiragana": "ふやします",
+          "meaning": "Polite form of 増やす: to increase, to add",
+          "exampleSentences": [
+            {
+              "ja": "地方の自治体が、若い農家を増やすために、みんなで使える大きな温室を作る計画を進めています。",
+              "en": "A local government is moving forward with a plan to build a large greenhouse that everyone can share in order to increase the number of young farmers."
+            },
+            {
+              "ja": "暑い日が早く増えているため、いくつかの都市で駅前広場のミスト設備を増やす計画が始まりました。",
+              "en": "Because hot days are coming earlier, some cities have begun plans to increase mist systems in station plazas."
+            },
+            {
+              "ja": "運営会社は、来年から車内のサービスをさらに増やす計画です。",
+              "en": "The operator plans to expand onboard services from next year."
+            },
+            {
+              "ja": "家計への負担を軽くするため、小売店や農家を支える仕組みを増やすとしています。",
+              "en": "To reduce the burden on households, it plans to expand support systems for retailers and farmers."
+            }
+          ]
+        },
+        {
+          "form": "past",
+          "label": "Past",
+          "description": "Plain past form",
+          "term": "増やした",
+          "readingHiragana": "ふやした",
+          "meaning": "Plain past form of 増やす: to increase, to add",
+          "exampleSentences": [
+            {
+              "ja": "港を管理する会社は、環境にやさしい輸送の方法を増やしたいと考えています。",
+              "en": "The port operator wants to expand environmentally friendly transport methods."
+            },
+            {
+              "ja": "地方の自治体が、若い農家を増やすために、みんなで使える大きな温室を作る計画を進めています。",
+              "en": "A local government is moving forward with a plan to build a large greenhouse that everyone can share in order to increase the number of young farmers."
+            },
+            {
+              "ja": "暑い日が早く増えているため、いくつかの都市で駅前広場のミスト設備を増やす計画が始まりました。",
+              "en": "Because hot days are coming earlier, some cities have begun plans to increase mist systems in station plazas."
+            },
+            {
+              "ja": "運営会社は、来年から車内のサービスをさらに増やす計画です。",
+              "en": "The operator plans to expand onboard services from next year."
+            },
+            {
+              "ja": "家計への負担を軽くするため、小売店や農家を支える仕組みを増やすとしています。",
+              "en": "To reduce the burden on households, it plans to expand support systems for retailers and farmers."
+            }
+          ]
+        },
+        {
+          "form": "negative",
+          "label": "Negative",
+          "description": "Plain negative form",
+          "term": "増やさない",
+          "readingHiragana": "ふやさない",
+          "meaning": "Plain negative form of 増やす: to increase, to add",
+          "exampleSentences": [
+            {
+              "ja": "地方の自治体が、若い農家を増やすために、みんなで使える大きな温室を作る計画を進めています。",
+              "en": "A local government is moving forward with a plan to build a large greenhouse that everyone can share in order to increase the number of young farmers."
+            },
+            {
+              "ja": "暑い日が早く増えているため、いくつかの都市で駅前広場のミスト設備を増やす計画が始まりました。",
+              "en": "Because hot days are coming earlier, some cities have begun plans to increase mist systems in station plazas."
+            },
+            {
+              "ja": "運営会社は、来年から車内のサービスをさらに増やす計画です。",
+              "en": "The operator plans to expand onboard services from next year."
+            },
+            {
+              "ja": "家計への負担を軽くするため、小売店や農家を支える仕組みを増やすとしています。",
+              "en": "To reduce the burden on households, it plans to expand support systems for retailers and farmers."
+            }
+          ]
+        },
+        {
+          "form": "te",
+          "label": "Te-form",
+          "description": "Te-form",
+          "term": "増やして",
+          "readingHiragana": "ふやして",
+          "meaning": "Te-form of 増やす: to increase, to add",
+          "exampleSentences": [
+            {
+              "ja": "地方の自治体が、若い農家を増やすために、みんなで使える大きな温室を作る計画を進めています。",
+              "en": "A local government is moving forward with a plan to build a large greenhouse that everyone can share in order to increase the number of young farmers."
+            },
+            {
+              "ja": "暑い日が早く増えているため、いくつかの都市で駅前広場のミスト設備を増やす計画が始まりました。",
+              "en": "Because hot days are coming earlier, some cities have begun plans to increase mist systems in station plazas."
+            },
+            {
+              "ja": "運営会社は、来年から車内のサービスをさらに増やす計画です。",
+              "en": "The operator plans to expand onboard services from next year."
+            },
+            {
+              "ja": "家計への負担を軽くするため、小売店や農家を支える仕組みを増やすとしています。",
+              "en": "To reduce the burden on households, it plans to expand support systems for retailers and farmers."
+            }
+          ]
+        },
+        {
+          "form": "potential",
+          "label": "Potential",
+          "description": "Potential form",
+          "term": "増やせる",
+          "readingHiragana": "ふやせる",
+          "meaning": "Potential form of 増やす: to increase, to add",
+          "exampleSentences": [
+            {
+              "ja": "地方の自治体が、若い農家を増やすために、みんなで使える大きな温室を作る計画を進めています。",
+              "en": "A local government is moving forward with a plan to build a large greenhouse that everyone can share in order to increase the number of young farmers."
+            },
+            {
+              "ja": "暑い日が早く増えているため、いくつかの都市で駅前広場のミスト設備を増やす計画が始まりました。",
+              "en": "Because hot days are coming earlier, some cities have begun plans to increase mist systems in station plazas."
+            },
+            {
+              "ja": "運営会社は、来年から車内のサービスをさらに増やす計画です。",
+              "en": "The operator plans to expand onboard services from next year."
+            },
+            {
+              "ja": "家計への負担を軽くするため、小売店や農家を支える仕組みを増やすとしています。",
+              "en": "To reduce the burden on households, it plans to expand support systems for retailers and farmers."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "core-ee7ca17ce630c9",
+      "level": "N4",
+      "term": "発表",
+      "reading": "happyou",
+      "readingHiragana": "はっぴょう",
+      "meaning": "announcement, presentation",
+      "source": "core",
+      "sourceId": "n4-core",
+      "sourceTitle": "Core N4 Vocabulary",
+      "sourceLabel": "Core N4 Vocabulary",
+      "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
+      "tags": [],
+      "exampleSentences": [
+        {
+          "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
+          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
+        },
+        {
+          "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
+          "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
+        },
+        {
+          "ja": "気象庁は、最大1メートルの津波が来る可能性があると発表しました。",
+          "en": "The agency announced that waves of up to one meter could arrive."
+        },
+        {
+          "ja": "米の値段が上がっているため、政府は新しい対策を発表しました。",
+          "en": "Because rice prices are rising, the government announced new measures."
+        },
+        {
+          "ja": "日本の経済産業省は、半導体会社のラピダスに新しく6315億円の支援をすると発表しました。",
+          "en": "Japan’s Ministry of Economy, Trade and Industry announced new support of 631.5 billion yen for the semiconductor company Rapidus."
+        }
+      ]
+    },
+    {
+      "id": "core-97235380669836",
+      "level": "N4",
+      "term": "費用",
+      "reading": "hiyou",
+      "readingHiragana": "ひよう",
+      "meaning": "expense, cost",
+      "source": "core",
+      "sourceId": "n4-core",
+      "sourceTitle": "Core N4 Vocabulary",
+      "sourceLabel": "Core N4 Vocabulary",
+      "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
+      "tags": [],
+      "exampleSentences": [
+        {
+          "ja": "2002年に完成したとき、全体の費用は4400億円をこえていて、そのときの借金が今の運賃にも影響しています。",
+          "en": "When the line was completed in 2002, the total cost exceeded 440 billion yen, and those debts still affect fares today."
+        },
+        {
+          "ja": "町は3か月の実験で、利用した人数や運行にかかる費用を調べます。",
+          "en": "During the three-month trial, the town will study the number of users and the cost of operating the buses."
+        },
+        {
+          "ja": "自分たちで作った電気を使えば、費用をおさえるだけでなく、環境への負担も減らせます。",
+          "en": "Using electricity they generate themselves can reduce both costs and environmental impact."
+        },
+        {
+          "ja": "今回の対策では、肥料や燃料の費用が高くなった地域に、より多くの補助金を出します。",
+          "en": "Under the new plan, areas where fertilizer and fuel costs have become high will receive more subsidies."
+        },
+        {
+          "ja": "原油価格が上がると、ガソリンや電気、物を運ぶための費用も上がりやすくなります。",
+          "en": "When crude oil prices rise, the cost of gasoline, electricity, and transporting goods also tends to rise."
+        }
+      ]
+    },
+    {
+      "id": "core-d1c84b7b6500ca",
+      "level": "N4",
+      "term": "確認",
+      "reading": "kakunin",
+      "readingHiragana": "かくにん",
+      "meaning": "confirmation, checking",
+      "source": "core",
+      "sourceId": "n4-core",
+      "sourceTitle": "Core N4 Vocabulary",
+      "sourceLabel": "Core N4 Vocabulary",
+      "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
+      "tags": [],
+      "exampleSentences": [
+        {
+          "ja": "画面には遅れや運転見合わせの情報も出るため、予定が大きく変わったときは、そちらも確認することが大切です。",
+          "en": "The screens can also show delay or suspension information, so check that when plans change."
+        },
+        {
+          "ja": "もちろん最後は運転士が確認しますが、人と装置の両方でずれを小さくしているわけです。",
+          "en": "Of course, the driver still makes the final check, but both people and equipment work together to keep errors small."
+        },
+        {
+          "ja": "ほんのわずかな場合でも、すぐドアを開けるのではなく、安全確認が必要です。",
+          "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
+        },
+        {
+          "ja": "タイヤやハンドルが袋の外に出ないよう確認しましょう。",
+          "en": "Make sure the tires and handlebars do not stick out of the bag."
+        },
+        {
+          "ja": "移動中は、他の乗客が乗り降りしやすいか確認することも大切です。",
+          "en": "During the trip, it is also important to make sure other passengers can easily get on and off."
+        }
+      ]
+    },
+    {
+      "id": "core-52650fed7d1742",
+      "level": "N4",
+      "term": "決定",
+      "reading": "kettei",
+      "readingHiragana": "けってい",
+      "meaning": "decision, determination",
+      "source": "core",
+      "sourceId": "n4-core",
+      "sourceTitle": "Core N4 Vocabulary",
+      "sourceLabel": "Core N4 Vocabulary",
+      "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
+      "tags": [],
+      "exampleSentences": [
+        {
+          "ja": "サッカーのワールドカップ3位決定戦で、イングランドがフランスに6対4で勝ちました。",
+          "en": "England beat France 6-4 in the World Cup third-place playoff in Miami on July 18. The match is played by the two teams that lost in the semifinals. Despite missing the final, both sides produced many goals."
+        },
+        {
+          "ja": "3位決定戦は、準決勝で負けた2チームが戦う試合です。",
+          "en": "England beat France 6-4 in the World Cup third-place playoff in Miami on July 18. The match is played by the two teams that lost in the semifinals. Despite missing the final, both sides produced many goals."
+        },
+        {
+          "ja": "日本の財務省の幹部は、その前から「決定的な行動をとる時が近い」と話していました。",
+          "en": "A senior official at Japan’s Finance Ministry had already said that the time for decisive action was near."
+        }
+      ]
+    },
+    {
+      "id": "core-63e57a6228b1c6",
+      "level": "N4",
+      "term": "希望",
+      "reading": "kibou",
+      "readingHiragana": "きぼう",
+      "meaning": "hope, wish, request",
+      "source": "core",
+      "sourceId": "n4-core",
+      "sourceTitle": "Core N4 Vocabulary",
+      "sourceLabel": "Core N4 Vocabulary",
+      "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
+      "tags": [],
+      "exampleSentences": []
+    },
+    {
+      "id": "core-43d16917027bcf",
+      "level": "N4",
+      "term": "参加",
+      "reading": "sanka",
+      "readingHiragana": "さんか",
+      "meaning": "participation",
+      "source": "core",
+      "sourceId": "n4-core",
+      "sourceTitle": "Core N4 Vocabulary",
+      "sourceLabel": "Core N4 Vocabulary",
+      "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
+      "tags": [],
+      "exampleSentences": []
+    },
+    {
+      "id": "core-e957d5312fd201",
+      "level": "N4",
+      "term": "提案",
+      "reading": "teian",
+      "readingHiragana": "ていあん",
+      "meaning": "proposal, suggestion",
+      "source": "core",
+      "sourceId": "n4-core",
+      "sourceTitle": "Core N4 Vocabulary",
+      "sourceLabel": "Core N4 Vocabulary",
+      "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
+      "tags": [],
+      "exampleSentences": [
+        {
+          "ja": "争点の一つは、国の人口を2050年まで1000万人までに抑える提案でした。",
+          "en": "One issue was a proposal to keep the country's population at no more than 10 million by 2050."
+        },
+        {
+          "ja": "この提案は、右派のスイス国民党が進めたものです。",
+          "en": "The proposal was promoted by the right-wing Swiss People's Party. Switzerland's population is now about 9.1 million and has grown greatly since 2002. Supporters said the burden on housing, transportation, and public services was becoming heavy."
+        },
+        {
+          "ja": "新しい提案では、会社の価値は約40億ドルになり、ライバルの案より高くなりました。",
+          "en": "In the new proposal, the company’s value becomes about 4 billion dollars, which is higher than the rival offer."
+        },
+        {
+          "ja": "ロイターによると、アメリカとイランが平和に向けた提案で一致できなかったため、エネルギーの供給が不安定になると心配されています。",
+          "en": "According to Reuters, there are worries that energy supply could become unstable because the United States and Iran could not agree on a proposal aimed at peace."
+        }
+      ]
     },
     {
       "id": "core-b9b55b63ed12cb",
@@ -85384,6 +86240,444 @@
       "reading": "zutsuu",
       "readingHiragana": "ずつう",
       "meaning": "headache",
+      "source": "core",
+      "sourceId": "n3-core",
+      "sourceTitle": "Core N3 Vocabulary",
+      "sourceLabel": "Core N3 Vocabulary",
+      "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
+      "tags": [],
+      "exampleSentences": []
+    },
+    {
+      "id": "core-817cce40987d1f",
+      "level": "N3",
+      "term": "防災",
+      "reading": "bousai",
+      "readingHiragana": "ぼうさい",
+      "meaning": "disaster prevention",
+      "source": "core",
+      "sourceId": "n3-core",
+      "sourceTitle": "Core N3 Vocabulary",
+      "sourceLabel": "Core N3 Vocabulary",
+      "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
+      "tags": [],
+      "exampleSentences": [
+        {
+          "ja": "政府は、首都直下地震が起きた場合の被害を今後10年で大幅に減らすため、防災計画を改定する方針です。",
+          "en": "The government plans to revise its disaster-prevention plan to sharply reduce damage from a possible inland earthquake beneath the Tokyo area over the next decade."
+        },
+        {
+          "ja": "大雨や地震に備えるため、いろいろな地域で防災訓練が行われました。",
+          "en": "To prepare for heavy rain and earthquakes, disaster drills were held in many areas."
+        }
+      ]
+    },
+    {
+      "id": "core-ad5c1c7a7ffb43",
+      "level": "N3",
+      "term": "調整",
+      "reading": "chousei",
+      "readingHiragana": "ちょうせい",
+      "meaning": "adjustment, coordination",
+      "source": "core",
+      "sourceId": "n3-core",
+      "sourceTitle": "Core N3 Vocabulary",
+      "sourceLabel": "Core N3 Vocabulary",
+      "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
+      "tags": [],
+      "exampleSentences": [
+        {
+          "ja": "運転士はホームに入りながらその目標を見て、スピードを落としてブレーキを調整します。",
+          "en": "As the train enters the platform, the driver watches that marker, reduces speed, and adjusts the brakes."
+        }
+      ]
+    },
+    {
+      "id": "core-128d14ecdad7c4",
+      "level": "N3",
+      "term": "復旧",
+      "reading": "fukkyuu",
+      "readingHiragana": "ふっきゅう",
+      "meaning": "restoration, recovery",
+      "source": "core",
+      "sourceId": "n3-core",
+      "sourceTitle": "Core N3 Vocabulary",
+      "sourceLabel": "Core N3 Vocabulary",
+      "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
+      "tags": [],
+      "exampleSentences": []
+    },
+    {
+      "id": "core-8fd4f350f1712c",
+      "level": "N3",
+      "term": "行政",
+      "reading": "gyousei",
+      "readingHiragana": "ぎょうせい",
+      "meaning": "public administration",
+      "source": "core",
+      "sourceId": "n3-core",
+      "sourceTitle": "Core N3 Vocabulary",
+      "sourceLabel": "Core N3 Vocabulary",
+      "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
+      "tags": [],
+      "exampleSentences": []
+    },
+    {
+      "id": "core-a30c18765b85a6",
+      "level": "N3",
+      "term": "観測",
+      "reading": "kansoku",
+      "readingHiragana": "かんそく",
+      "meaning": "observation, measurement",
+      "source": "core",
+      "sourceId": "n3-core",
+      "sourceTitle": "Core N3 Vocabulary",
+      "sourceLabel": "Core N3 Vocabulary",
+      "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
+      "tags": [],
+      "exampleSentences": [
+        {
+          "ja": "イギリスでは、サマセットで36度を超える暑さが観測され、6月の最高気温の記録を更新しました。",
+          "en": "In the United Kingdom, temperatures above 36 degrees Celsius were observed in Somerset, setting a new June temperature record."
+        },
+        {
+          "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
+          "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
+        },
+        {
+          "ja": "それでも成功すれば、スウィフトはさらに5年以上観測を続けられる可能性があります。",
+          "en": "Even so, if the mission succeeds, Swift may be able to continue observing for at least five more years."
+        },
+        {
+          "ja": "実際には、沖縄県や宮崎県などで数センチから30センチほどの波が観測されました。",
+          "en": "In reality, waves from several centimeters to about 30 centimeters were observed in places such as Okinawa and Miyazaki prefectures."
+        }
+      ]
+    },
+    {
+      "id": "core-bbd3cf2aea7648",
+      "level": "N3",
+      "term": "更新",
+      "reading": "koushin",
+      "readingHiragana": "こうしん",
+      "meaning": "update, renewal",
+      "source": "core",
+      "sourceId": "n3-core",
+      "sourceTitle": "Core N3 Vocabulary",
+      "sourceLabel": "Core N3 Vocabulary",
+      "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
+      "tags": [],
+      "exampleSentences": [
+        {
+          "ja": "イギリスでは、サマセットで36度を超える暑さが観測され、6月の最高気温の記録を更新しました。",
+          "en": "In the United Kingdom, temperatures above 36 degrees Celsius were observed in Somerset, setting a new June temperature record."
+        }
+      ]
+    },
+    {
+      "id": "core-7bafc34ade34de",
+      "level": "N3",
+      "term": "強化",
+      "reading": "kyouka",
+      "readingHiragana": "きょうか",
+      "meaning": "strengthening, reinforcement",
+      "source": "core",
+      "sourceId": "n3-core",
+      "sourceTitle": "Core N3 Vocabulary",
+      "sourceLabel": "Core N3 Vocabulary",
+      "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
+      "tags": [],
+      "exampleSentences": []
+    },
+    {
+      "id": "core-253d9b0bc1d1e0",
+      "level": "N3",
+      "term": "認定",
+      "reading": "nintei",
+      "readingHiragana": "にんてい",
+      "meaning": "certification, recognition",
+      "source": "core",
+      "sourceId": "n3-core",
+      "sourceTitle": "Core N3 Vocabulary",
+      "sourceLabel": "Core N3 Vocabulary",
+      "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
+      "tags": [],
+      "exampleSentences": []
+    },
+    {
+      "id": "core-e877d83716d084",
+      "level": "N3",
+      "term": "災害",
+      "reading": "saigai",
+      "readingHiragana": "さいがい",
+      "meaning": "disaster, calamity",
+      "source": "core",
+      "sourceId": "n3-core",
+      "sourceTitle": "Core N3 Vocabulary",
+      "sourceLabel": "Core N3 Vocabulary",
+      "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
+      "tags": [],
+      "exampleSentences": [
+        {
+          "ja": "企業には、災害後も重要な業務を続けるための事業継続計画を作ることが求められます。",
+          "en": "Companies will be asked to prepare business continuity plans so they can keep important operations running after a disaster."
+        },
+        {
+          "ja": "気象庁は、台風が通過した後も地盤が緩んでいる場所では土砂災害に警戒するよう求めています。",
+          "en": "The Meteorological Agency is asking people to remain alert for landslides in places where the ground has loosened even after the typhoon passes."
+        },
+        {
+          "ja": "一部の駅では、災害のときにスマートフォンを充電できる場所としても活用する考えです。",
+          "en": "At some stations, the system may also be used as a place where people can charge smartphones during disasters."
+        }
+      ]
+    },
+    {
+      "id": "core-74813fb9d80b5c",
+      "level": "N3",
+      "term": "政策",
+      "reading": "seisaku",
+      "readingHiragana": "せいさく",
+      "meaning": "policy, measures",
+      "source": "core",
+      "sourceId": "n3-core",
+      "sourceTitle": "Core N3 Vocabulary",
+      "sourceLabel": "Core N3 Vocabulary",
+      "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
+      "tags": [],
+      "exampleSentences": [
+        {
+          "ja": "政府は、トップどうしが同じ考えを示したことで、今後の外交や政策が進めやすくなると期待しています。",
+          "en": "The government expects that showing agreement at the top level will make future diplomacy and policy coordination easier."
+        }
+      ]
+    },
+    {
+      "id": "core-42fea0d9a29133",
+      "level": "N3",
+      "term": "仕組み",
+      "reading": "shikumi",
+      "readingHiragana": "しくみ",
+      "meaning": "mechanism, system",
+      "source": "core",
+      "sourceId": "n3-core",
+      "sourceTitle": "Core N3 Vocabulary",
+      "sourceLabel": "Core N3 Vocabulary",
+      "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
+      "tags": [],
+      "exampleSentences": [
+        {
+          "ja": "そして万一まちがいがあっても、すぐに直せるように仕組みと手順が用意されています。",
+          "en": "And even if a mistake happens, systems and procedures are prepared so it can be corrected safely."
+        },
+        {
+          "ja": "この仕組みでは、1人につき1枚のICカードが必要です。",
+          "en": "In this system, each person needs one IC card."
+        },
+        {
+          "ja": "だから、セブン-イレブンが日本にコンビニを「持ってきた」と言っても、ただ外国の仕組みを運んだだけではありません。",
+          "en": "So even if we say Seven-Eleven “brought” convenience stores to Japan, it did not simply carry over a foreign system unchanged."
+        },
+        {
+          "ja": "でも日本では、道路の情報を車へ送る仕組みが、もうかなり前から使われています。",
+          "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
+        },
+        {
+          "ja": "事故や工事、天気による制限まで受け取れるので、ただお金を払うだけの仕組みではありません。",
+          "en": "Drivers can receive information about accidents, construction, and even weather-related restrictions, so the system is not just about paying tolls."
+        }
+      ]
+    },
+    {
+      "id": "core-64e4f3fbe5a5f9",
+      "level": "N3",
+      "term": "施設",
+      "reading": "shisetsu",
+      "readingHiragana": "しせつ",
+      "meaning": "facility, institution",
+      "source": "core",
+      "sourceId": "n3-core",
+      "sourceTitle": "Core N3 Vocabulary",
+      "sourceLabel": "Core N3 Vocabulary",
+      "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
+      "tags": [],
+      "exampleSentences": [
+        {
+          "ja": "病院や介護施設では、高齢者の体調に特に注意しています。",
+          "en": "Hospitals and care homes are paying special attention to the health of older people."
+        },
+        {
+          "ja": "専門家は、交通の施設で再生可能エネルギーを使うことは、地域の意識を変えるきっかけにもなるとみています。",
+          "en": "Experts say using renewable energy at transportation facilities can also change local awareness."
+        }
+      ]
+    },
+    {
+      "id": "core-d01bebd2455e56",
+      "level": "N3",
+      "term": "証拠",
+      "reading": "shouko",
+      "readingHiragana": "しょうこ",
+      "meaning": "evidence, proof",
+      "source": "core",
+      "sourceId": "n3-core",
+      "sourceTitle": "Core N3 Vocabulary",
+      "sourceLabel": "Core N3 Vocabulary",
+      "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
+      "tags": [],
+      "exampleSentences": []
+    },
+    {
+      "id": "core-ce585d2a0560fe",
+      "level": "N3",
+      "term": "備え",
+      "reading": "sonae",
+      "readingHiragana": "そなえ",
+      "meaning": "preparation, provision",
+      "source": "core",
+      "sourceId": "n3-core",
+      "sourceTitle": "Core N3 Vocabulary",
+      "sourceLabel": "Core N3 Vocabulary",
+      "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
+      "tags": [],
+      "exampleSentences": [
+        {
+          "ja": "家庭でも、家具を固定し、少なくとも3日分の食料を備蓄するなど、日常の備えを改めて確認することが重要です。",
+          "en": "Households also need to review everyday preparedness, such as securing furniture and storing at least three days of food."
+        },
+        {
+          "ja": "大雨や地震に備えるため、いろいろな地域で防災訓練が行われました。",
+          "en": "To prepare for heavy rain and earthquakes, disaster drills were held in many areas."
+        }
+      ]
+    },
+    {
+      "id": "core-df2425d9b35a76",
+      "level": "N3",
+      "term": "対応",
+      "reading": "taiou",
+      "readingHiragana": "たいおう",
+      "meaning": "response, handling",
+      "source": "core",
+      "sourceId": "n3-core",
+      "sourceTitle": "Core N3 Vocabulary",
+      "sourceLabel": "Core N3 Vocabulary",
+      "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
+      "tags": [],
+      "exampleSentences": [
+        {
+          "ja": "0対応システムを通じて、広い範囲の交通情報が届くと説明されています。",
+          "en": "0 compatible systems."
+        },
+        {
+          "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
+          "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
+        },
+        {
+          "ja": "対応する言語は英語、中国語、韓国語などで、音声でも案内できます。",
+          "en": "The supported languages include English, Chinese, and Korean, and audio guidance is also available."
+        },
+        {
+          "ja": "そのため、現金の対応も残しながら、少しずつ切り替える方針です。",
+          "en": "For that reason, cash support will remain while the system is changed gradually."
+        },
+        {
+          "ja": "英語や中国語など、いくつかの言語に対応できるのが特長です。",
+          "en": "A key feature is that the robots can handle several languages such as English and Chinese."
+        }
+      ]
+    },
+    {
+      "id": "core-2a3a6e4fb69d52",
+      "level": "N3",
+      "term": "取り組む",
+      "reading": "torikumu",
+      "readingHiragana": "とりくむ",
+      "meaning": "to tackle, to work on",
+      "source": "core",
+      "sourceId": "n3-core",
+      "sourceTitle": "Core N3 Vocabulary",
+      "sourceLabel": "Core N3 Vocabulary",
+      "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
+      "tags": [],
+      "exampleSentences": [],
+      "partOfSpeech": "verb",
+      "verbClass": "godan",
+      "verbForms": [
+        {
+          "form": "polite",
+          "label": "Polite",
+          "description": "Polite form",
+          "term": "取り組みます",
+          "readingHiragana": "とりくみます",
+          "meaning": "Polite form of 取り組む: to tackle, to work on",
+          "exampleSentences": []
+        },
+        {
+          "form": "past",
+          "label": "Past",
+          "description": "Plain past form",
+          "term": "取り組んだ",
+          "readingHiragana": "とりくんだ",
+          "meaning": "Plain past form of 取り組む: to tackle, to work on",
+          "exampleSentences": []
+        },
+        {
+          "form": "negative",
+          "label": "Negative",
+          "description": "Plain negative form",
+          "term": "取り組まない",
+          "readingHiragana": "とりくまない",
+          "meaning": "Plain negative form of 取り組む: to tackle, to work on",
+          "exampleSentences": []
+        },
+        {
+          "form": "te",
+          "label": "Te-form",
+          "description": "Te-form",
+          "term": "取り組んで",
+          "readingHiragana": "とりくんで",
+          "meaning": "Te-form of 取り組む: to tackle, to work on",
+          "exampleSentences": []
+        },
+        {
+          "form": "potential",
+          "label": "Potential",
+          "description": "Potential form",
+          "term": "取り組める",
+          "readingHiragana": "とりくめる",
+          "meaning": "Potential form of 取り組む: to tackle, to work on",
+          "exampleSentences": []
+        }
+      ]
+    },
+    {
+      "id": "core-ead2a2ff6b041a",
+      "level": "N3",
+      "term": "運用",
+      "reading": "unyou",
+      "readingHiragana": "うにょう",
+      "meaning": "operation, management",
+      "source": "core",
+      "sourceId": "n3-core",
+      "sourceTitle": "Core N3 Vocabulary",
+      "sourceLabel": "Core N3 Vocabulary",
+      "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
+      "tags": [],
+      "exampleSentences": [
+        {
+          "ja": "文部科学省は、学校ごとの状況にあわせて柔軟に運用できる指針を示したい考えです。",
+          "en": "The education ministry wants to present guidelines that schools can apply flexibly according to their situations."
+        }
+      ]
+    },
+    {
+      "id": "core-190c35854a44ae",
+      "level": "N3",
+      "term": "抑制",
+      "reading": "yokusei",
+      "readingHiragana": "よくせい",
+      "meaning": "restraint, control",
       "source": "core",
       "sourceId": "n3-core",
       "sourceTitle": "Core N3 Vocabulary",
