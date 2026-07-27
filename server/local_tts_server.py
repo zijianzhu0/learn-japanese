@@ -53,6 +53,7 @@ MAX_TTS_TEXT_CHARS = 500
 MAX_VIDEO_UPLOAD_BYTES = 700 * 1024 * 1024
 MAX_AGENT_BRIEF_CHARS = 12_000
 CODEX_AGENT_TIMEOUT_SECONDS = 300
+CODEX_ARTICLE_AGENT_MODEL = "gpt-5.4-mini"
 VIDEO_OUTPUT_DIR = PROJECT_DIR / "videos"
 FLASHCARD_PROGRESS_PATH = PROJECT_DIR / "data" / "flashcard-progress.json"
 FLASHCARD_PROGRESS_LOCK = threading.Lock()
@@ -490,7 +491,7 @@ User brief:
             output_path = Path(temp_dir) / "article.json"
             schema_path.write_text(json.dumps(schema), encoding="utf-8")
             result = subprocess.run(
-                [codex_bin, "exec", "--ephemeral", "--sandbox", "read-only", "--cd", str(PROJECT_DIR), "--output-schema", str(schema_path), "--output-last-message", str(output_path), prompt],
+                [codex_bin, "exec", "--model", CODEX_ARTICLE_AGENT_MODEL, "--ephemeral", "--sandbox", "read-only", "--cd", str(PROJECT_DIR), "--output-schema", str(schema_path), "--output-last-message", str(output_path), prompt],
                 capture_output=True, text=True, timeout=CODEX_AGENT_TIMEOUT_SECONDS, check=False,
             )
             if result.returncode != 0:
