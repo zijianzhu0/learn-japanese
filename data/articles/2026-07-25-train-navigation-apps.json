@@ -1,0 +1,49 @@
+{
+  "_comment": "Publish-ready N3 explainer about Japanese train route-search apps. Exactly 5 short paragraph sections.",
+  "id": "2026-07-25-train-navigation-apps",
+  "file": "2026-07-25-train-navigation-apps.html",
+  "title": "日本で電車に乗るとき、どの案内アプリを使う？",
+  "titleTranslation": "Which Route App Do You Use for Trains in Japan?",
+  "date": "2026年7月25日",
+  "month": "July 2026",
+  "navLabel": "7/25 電車の案内アプリ",
+  "level": "N3",
+  "downloadFileName": "2026-07-25-train-navigation-apps.mp4",
+  "headlineHtml": "<ruby>日本<rt>にほん</rt></ruby>で<ruby>電車<rt>でんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>るとき、どの<ruby>案内<rt>あんない</rt></ruby>アプリを<ruby>使<rt>つか</rt></ruby>う？",
+  "sourceNote": "NAVITIME JAPANの「乗換NAVITIME」とYahoo!路線情報の公式案内をもとに作成した学習用ページです。両サービスは乗換検索、時刻表、運行情報を提供しています。Yahoo!乗換案内では駅・施設・住所からの検索、乗車位置、混雑予報なども案内されています。情報・機能は変更されることがあります。",
+  "paragraphs": [
+    {
+      "html": "<ruby>日本<rt>にほん</rt></ruby>で<ruby>電車<rt>でんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>るときは、<ruby>乗換案内<rt>のりかえあんない</rt></ruby>アプリがあるととても<ruby>便利<rt>べんり</rt></ruby>です。<ruby>出発駅<rt>しゅっぱつえき</rt></ruby>と<ruby>到着駅<rt>とうちゃくえき</rt></ruby>、または<ruby>行<rt>い</rt></ruby>きたい<ruby>場所<rt>ばしょ</rt></ruby>を<ruby>入<rt>い</rt></ruby>れると、アプリがいくつかの<ruby>行<rt>い</rt></ruby>き<ruby>方<rt>かた</rt></ruby>を<ruby>出<rt>だ</rt></ruby>します。<ruby>時間<rt>じかん</rt></ruby>、<ruby>運賃<rt>うんちん</rt></ruby>、<ruby>乗<rt>の</rt></ruby>り<ruby>換<rt>か</rt></ruby>えの<ruby>回数<rt>かいすう</rt></ruby>を<ruby>比<rt>くら</rt></ruby>べられるので、<ruby>複雑<rt>ふくざつ</rt></ruby>な<ruby>東京<rt>とうきょう</rt></ruby>の<ruby>鉄道<rt>てつどう</rt></ruby>でも<ruby>移動<rt>いどう</rt></ruby>しやすくなります。",
+      "translation": "A route-search app is very useful when taking trains in Japan. Enter your departure and destination, and it gives you several routes. You can compare time, fare, and number of transfers."
+    },
+    {
+      "html": "よく<ruby>知<rt>し</rt></ruby>られているサービスの一つが、NAVITIMEの「<ruby>乗換<rt>のりかえ</rt></ruby>NAVITIME」です。<ruby>路線図<rt>ろせんず</rt></ruby>から<ruby>駅<rt>えき</rt></ruby>を<ruby>選<rt>えら</rt></ruby>んで<ruby>検索<rt>けんさく</rt></ruby>でき、<ruby>最適<rt>さいてき</rt></ruby>な<ruby>乗車位置<rt>じょうしゃいち</rt></ruby>も<ruby>見<rt>み</rt></ruby>られます。たとえば、<ruby>大<rt>おお</rt></ruby>きな<ruby>駅<rt>えき</rt></ruby>で<ruby>次<rt>つぎ</rt></ruby>の<ruby>電車<rt>でんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>り<ruby>換<rt>か</rt></ruby>えるとき、「<ruby>何両目<rt>なんりょうめ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>ると<ruby>近<rt>ちか</rt></ruby>いか」がわかると、ホームを<ruby>歩<rt>ある</rt></ruby>く<ruby>時間<rt>じかん</rt></ruby>を<ruby>少<rt>すく</rt></ruby>なくできます。",
+      "translation": "One well-known service is NAVITIME’s Norikae NAVITIME. You can search from a route map and see a recommended place to board. This can save walking time when transferring at a large station."
+    },
+    {
+      "html": "もう一つは、Yahoo!の「Yahoo!<ruby>乗換案内<rt>のりかえあんない</rt></ruby>」です。このサービスでは、<ruby>駅<rt>えき</rt></ruby>だけでなく<ruby>住所<rt>じゅうしょ</rt></ruby>や<ruby>施設<rt>しせつ</rt></ruby>を<ruby>出発地<rt>しゅっぱつち</rt></ruby>・<ruby>目的地<rt>もくてきち</rt></ruby>にして<ruby>検索<rt>けんさく</rt></ruby>できます。<ruby>早<rt>はや</rt></ruby>いルート、<ruby>楽<rt>らく</rt></ruby>なルート、<ruby>安<rt>やす</rt></ruby>いルートという<ruby>選<rt>えら</rt></ruby>び<ruby>方<rt>かた</rt></ruby>もできます。<ruby>電車<rt>でんしゃ</rt></ruby>だけでなく、バスや<ruby>飛行機<rt>ひこうき</rt></ruby>も<ruby>含<rt>ふく</rt></ruby>めて<ruby>調<rt>しら</rt></ruby>べたいときに<ruby>役立<rt>やくだ</rt></ruby>ちます。",
+      "translation": "Another option is Yahoo! Transit. You can search using an address or place as well as a station, and choose routes that are fast, easy, or cheap. It can also include buses and flights."
+    },
+    {
+      "html": "どちらのサービスでも、<ruby>時刻表<rt>じこくひょう</rt></ruby>と<ruby>運行情報<rt>うんこうじょうほう</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>できます。<ruby>雨<rt>あめ</rt></ruby>、<ruby>事故<rt>じこ</rt></ruby>、<ruby>工事<rt>こうじ</rt></ruby>などで<ruby>電車<rt>でんしゃ</rt></ruby>が<ruby>遅<rt>おく</rt></ruby>れることがあるので、<ruby>出発<rt>しゅっぱつ</rt></ruby>する<ruby>前<rt>まえ</rt></ruby>に<ruby>見<rt>み</rt></ruby>ると<ruby>安心<rt>あんしん</rt></ruby>です。いつも<ruby>使<rt>つか</rt></ruby>う<ruby>路線<rt>ろせん</rt></ruby>を<ruby>登録<rt>とうろく</rt></ruby>しておけば、<ruby>問題<rt>もんだい</rt></ruby>がある<ruby>日<rt>ひ</rt></ruby>に<ruby>気<rt>き</rt></ruby>づきやすくなります。",
+      "translation": "Both services offer timetables and service information. Delays can happen because of weather, accidents, or construction, so checking before you leave is reassuring. Registering a regular line makes problems easier to notice."
+    },
+    {
+      "html": "ただし、アプリの<ruby>答<rt>こた</rt></ruby>えがいつも一つだけとは<ruby>限<rt>かぎ</rt></ruby>りません。いちばん<ruby>早<rt>はや</rt></ruby>いルートは、<ruby>乗<rt>の</rt></ruby>り<ruby>換<rt>か</rt></ruby>えが<ruby>多<rt>おお</rt></ruby>いこともあります。<ruby>大<rt>おお</rt></ruby>きな<ruby>荷物<rt>にもつ</rt></ruby>がある<ruby>日<rt>ひ</rt></ruby>や、はじめての<ruby>駅<rt>えき</rt></ruby>へ<ruby>行<rt>い</rt></ruby>く<ruby>日<rt>ひ</rt></ruby>は、<ruby>少<rt>すこ</rt></ruby>し<ruby>時間<rt>じかん</rt></ruby>がかかっても<ruby>乗<rt>の</rt></ruby>り<ruby>換<rt>か</rt></ruby>えの<ruby>少<rt>すく</rt></ruby>ないルートが<ruby>楽<rt>らく</rt></ruby>かもしれません。アプリを<ruby>地図<rt>ちず</rt></ruby>ではなく<ruby>相談相手<rt>そうだんあいて</rt></ruby>のように<ruby>使<rt>つか</rt></ruby>うと、<ruby>自分<rt>じぶん</rt></ruby>に合う<ruby>行<rt>い</rt></ruby>き<ruby>方<rt>かた</rt></ruby>を<ruby>選<rt>えら</rt></ruby>べます。",
+      "translation": "An app does not always have just one right answer. The fastest route may have many transfers. With luggage or at an unfamiliar station, a route with fewer transfers can be easier, even if it takes longer."
+    }
+  ],
+  "vocabularyTitle": "N3 Vocabulary",
+  "vocabulary": [
+    { "term": "乗換案内（のりかえあんない）", "meaning": "Route / transfer guidance" },
+    { "term": "出発駅（しゅっぱつえき）", "meaning": "Departure station" },
+    { "term": "到着駅（とうちゃくえき）", "meaning": "Arrival station" },
+    { "term": "運賃（うんちん）", "meaning": "Fare" },
+    { "term": "乗車位置（じょうしゃいち）", "meaning": "Recommended boarding position" },
+    { "term": "施設（しせつ）", "meaning": "Facility / place" },
+    { "term": "時刻表（じこくひょう）", "meaning": "Timetable" },
+    { "term": "運行情報（うんこうじょうほう）", "meaning": "Service-status information" },
+    { "term": "登録する（とうろくする）", "meaning": "To register / save" },
+    { "term": "荷物（にもつ）", "meaning": "Luggage" }
+  ]
+}

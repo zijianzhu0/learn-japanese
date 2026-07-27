@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日本で電車に乗るとき、どの案内アプリを使う？</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <script>
+        (() => {
+            try {
+                const storedTheme = window.localStorage.getItem('learnJapanese.theme');
+                const theme = storedTheme === 'dark' || storedTheme === 'light'
+                    ? storedTheme
+                    : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                document.documentElement.dataset.theme = theme;
+                document.documentElement.style.colorScheme = theme;
+            } catch (error) {
+                document.documentElement.dataset.theme = 'light';
+                document.documentElement.style.colorScheme = 'light';
+            }
+        })();
+    </script>
+    <link rel="stylesheet" href="./assets/article.css?v=b02c94c319a7">
+</head>
+<body id="top" data-article-id="2026-07-25-train-navigation-apps" data-recording-download-name="2026-07-25-train-navigation-apps.mp4">
+<nav class="top-nav" aria-label="Page navigation"></nav>
+<div class="article-shell">
+    <aside class="article-sidebar" aria-label="Article navigation"></aside>
+    <main class="article-main">
+
+<div class="container">
+    <div class="date">2026年7月25日</div>
+    <div class="article-toolbar">
+        <div class="voice-controls">
+            <button class="toolbar-icon-button voice-menu-toggle" type="button" id="voice-menu-toggle" aria-expanded="false" aria-controls="voice-settings-menu" aria-label="Voice settings" data-tooltip="Voice settings">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 10v4"></path>
+                    <path d="M8 7v10"></path>
+                    <path d="M12 4v16"></path>
+                    <path d="M16 7v10"></path>
+                    <path d="M20 10v4"></path>
+                </svg>
+                <span class="icon-label">Voice settings</span>
+            </button>
+            <div class="voice-current-status" id="voice-current-status" aria-live="polite">Docker VOICEVOX</div>
+            <button class="audio-enable-button" type="button" id="enable-docker-audio" hidden>Enable audio</button>
+            <div class="voice-settings-menu" id="voice-settings-menu" hidden>
+                <label class="toolbar-label" for="browser-voice">Browser Voice</label>
+                <select class="voice-select" id="browser-voice" aria-label="Browser voice">
+                    <option value="auto" selected>Google 日本語</option>
+                </select>
+            </div>
+        </div>
+        <div class="article-actions" aria-label="Article actions">
+            <button class="toolbar-icon-button preview-button" type="button" id="preview-recording-mode" aria-label="Preview recording mode" data-tooltip="Preview recording mode">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M2 12s3.8-6 10-6 10 6 10 6-3.8 6-10 6-10-6-10-6z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+                <span class="icon-label">Preview recording mode</span>
+            </button>
+            <button class="toolbar-icon-button video-button" type="button" id="render-video" aria-label="Render video" data-tooltip="Render video" data-default-label="Render video" data-active-label="Recording">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M5 6h11a2 2 0 0 1 2 2v1l3-2v10l-3-2v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"></path>
+                    <path d="M9 10.5v3l3-1.5z"></path>
+                </svg>
+                <span class="icon-label">Render video</span>
+            </button>
+            <button class="toolbar-icon-button cover-button" type="button" id="download-cover" aria-label="Download video cover" data-tooltip="Download cover" data-default-label="Download cover" data-active-label="Rendering cover">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                    <circle cx="8.5" cy="10" r="1.5"></circle>
+                    <path d="m21 15-5-5L5 19"></path>
+                </svg>
+                <span class="icon-label">Download cover</span>
+            </button>
+            <button class="toolbar-icon-button speak-button" type="button" id="speak-japanese-article" aria-label="Read aloud" data-tooltip="Read aloud" data-default-label="Read aloud" data-active-label="Stop reading" data-loading-label="Preparing audio">
+                <svg class="toolbar-svg icon-read" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 10v4h4l5 4V6L8 10z"></path>
+                    <path d="M16 9c1.8 1.8 1.8 4.2 0 6"></path>
+                    <path d="M18.5 6.5c3.3 3.3 3.3 7.7 0 11"></path>
+                </svg>
+                <svg class="toolbar-svg icon-stop" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 8h8v8H8z"></path>
+                </svg>
+                <span class="icon-label">Read aloud</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-bilingual-article" aria-label="Copy Japanese and English article" data-tooltip="Copy Japanese and English article">
+                <span class="copy-language-icon copy-language-icon-wide" aria-hidden="true">あ/A</span>
+                <span class="icon-label">Copy Japanese and English article</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-vocabulary-list" aria-label="Copy vocabulary and phrases" data-tooltip="Copy vocabulary and phrases">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <rect x="8" y="7" width="11" height="13" rx="2"></rect>
+                    <path d="M5 16V5a2 2 0 0 1 2-2h9"></path>
+                </svg>
+                <span class="icon-label">Copy vocabulary and phrases</span>
+            </button>
+        </div>
+    </div>
+    <div class="copy-status" id="copy-status" aria-live="polite"></div>
+    <audio class="audio-player" id="tts-player" controls hidden preload="none"></audio>
+    <h1><ruby>日本<rt>にほん</rt></ruby>で<ruby>電車<rt>でんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>るとき、どの<ruby>案内<rt>あんない</rt></ruby>アプリを<ruby>使<rt>つか</rt></ruby>う？</h1>
+    <div class="source-note">NAVITIME JAPANの「乗換NAVITIME」とYahoo!路線情報の公式案内をもとに作成した学習用ページです。両サービスは乗換検索、時刻表、運行情報を提供しています。Yahoo!乗換案内では駅・施設・住所からの検索、乗車位置、混雑予報なども案内されています。情報・機能は変更されることがあります。</div>
+
+
+    <p class="article-paragraph"><ruby>日本<rt>にほん</rt></ruby>で<ruby>電車<rt>でんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>るときは、<ruby>乗換案内<rt>のりかえあんない</rt></ruby>アプリがあるととても<ruby>便利<rt>べんり</rt></ruby>です。<ruby>出発駅<rt>しゅっぱつえき</rt></ruby>と<ruby>到着駅<rt>とうちゃくえき</rt></ruby>、または<ruby>行<rt>い</rt></ruby>きたい<ruby>場所<rt>ばしょ</rt></ruby>を<ruby>入<rt>い</rt></ruby>れると、アプリがいくつかの<ruby>行<rt>い</rt></ruby>き<ruby>方<rt>かた</rt></ruby>を<ruby>出<rt>だ</rt></ruby>します。<ruby>時間<rt>じかん</rt></ruby>、<ruby>運賃<rt>うんちん</rt></ruby>、<ruby>乗<rt>の</rt></ruby>り<ruby>換<rt>か</rt></ruby>えの<ruby>回数<rt>かいすう</rt></ruby>を<ruby>比<rt>くら</rt></ruby>べられるので、<ruby>複雑<rt>ふくざつ</rt></ruby>な<ruby>東京<rt>とうきょう</rt></ruby>の<ruby>鉄道<rt>てつどう</rt></ruby>でも<ruby>移動<rt>いどう</rt></ruby>しやすくなります。</p>
+    <div class="sentence-translation">A route-search app is very useful when taking trains in Japan. Enter your departure and destination, and it gives you several routes. You can compare time, fare, and number of transfers.</div>
+    <p class="article-paragraph">よく<ruby>知<rt>し</rt></ruby>られているサービスの一つが、NAVITIMEの「<ruby>乗換<rt>のりかえ</rt></ruby>NAVITIME」です。<ruby>路線図<rt>ろせんず</rt></ruby>から<ruby>駅<rt>えき</rt></ruby>を<ruby>選<rt>えら</rt></ruby>んで<ruby>検索<rt>けんさく</rt></ruby>でき、<ruby>最適<rt>さいてき</rt></ruby>な<ruby>乗車位置<rt>じょうしゃいち</rt></ruby>も<ruby>見<rt>み</rt></ruby>られます。たとえば、<ruby>大<rt>おお</rt></ruby>きな<ruby>駅<rt>えき</rt></ruby>で<ruby>次<rt>つぎ</rt></ruby>の<ruby>電車<rt>でんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>り<ruby>換<rt>か</rt></ruby>えるとき、「<ruby>何両目<rt>なんりょうめ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>ると<ruby>近<rt>ちか</rt></ruby>いか」がわかると、ホームを<ruby>歩<rt>ある</rt></ruby>く<ruby>時間<rt>じかん</rt></ruby>を<ruby>少<rt>すく</rt></ruby>なくできます。</p>
+    <div class="sentence-translation">One well-known service is NAVITIME’s Norikae NAVITIME. You can search from a route map and see a recommended place to board. This can save walking time when transferring at a large station.</div>
+    <p class="article-paragraph">もう一つは、Yahoo!の「Yahoo!<ruby>乗換案内<rt>のりかえあんない</rt></ruby>」です。このサービスでは、<ruby>駅<rt>えき</rt></ruby>だけでなく<ruby>住所<rt>じゅうしょ</rt></ruby>や<ruby>施設<rt>しせつ</rt></ruby>を<ruby>出発地<rt>しゅっぱつち</rt></ruby>・<ruby>目的地<rt>もくてきち</rt></ruby>にして<ruby>検索<rt>けんさく</rt></ruby>できます。<ruby>早<rt>はや</rt></ruby>いルート、<ruby>楽<rt>らく</rt></ruby>なルート、<ruby>安<rt>やす</rt></ruby>いルートという<ruby>選<rt>えら</rt></ruby>び<ruby>方<rt>かた</rt></ruby>もできます。<ruby>電車<rt>でんしゃ</rt></ruby>だけでなく、バスや<ruby>飛行機<rt>ひこうき</rt></ruby>も<ruby>含<rt>ふく</rt></ruby>めて<ruby>調<rt>しら</rt></ruby>べたいときに<ruby>役立<rt>やくだ</rt></ruby>ちます。</p>
+    <div class="sentence-translation">Another option is Yahoo! Transit. You can search using an address or place as well as a station, and choose routes that are fast, easy, or cheap. It can also include buses and flights.</div>
+    <p class="article-paragraph">どちらのサービスでも、<ruby>時刻表<rt>じこくひょう</rt></ruby>と<ruby>運行情報<rt>うんこうじょうほう</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>できます。<ruby>雨<rt>あめ</rt></ruby>、<ruby>事故<rt>じこ</rt></ruby>、<ruby>工事<rt>こうじ</rt></ruby>などで<ruby>電車<rt>でんしゃ</rt></ruby>が<ruby>遅<rt>おく</rt></ruby>れることがあるので、<ruby>出発<rt>しゅっぱつ</rt></ruby>する<ruby>前<rt>まえ</rt></ruby>に<ruby>見<rt>み</rt></ruby>ると<ruby>安心<rt>あんしん</rt></ruby>です。いつも<ruby>使<rt>つか</rt></ruby>う<ruby>路線<rt>ろせん</rt></ruby>を<ruby>登録<rt>とうろく</rt></ruby>しておけば、<ruby>問題<rt>もんだい</rt></ruby>がある<ruby>日<rt>ひ</rt></ruby>に<ruby>気<rt>き</rt></ruby>づきやすくなります。</p>
+    <div class="sentence-translation">Both services offer timetables and service information. Delays can happen because of weather, accidents, or construction, so checking before you leave is reassuring. Registering a regular line makes problems easier to notice.</div>
+    <p class="article-paragraph">ただし、アプリの<ruby>答<rt>こた</rt></ruby>えがいつも一つだけとは<ruby>限<rt>かぎ</rt></ruby>りません。いちばん<ruby>早<rt>はや</rt></ruby>いルートは、<ruby>乗<rt>の</rt></ruby>り<ruby>換<rt>か</rt></ruby>えが<ruby>多<rt>おお</rt></ruby>いこともあります。<ruby>大<rt>おお</rt></ruby>きな<ruby>荷物<rt>にもつ</rt></ruby>がある<ruby>日<rt>ひ</rt></ruby>や、はじめての<ruby>駅<rt>えき</rt></ruby>へ<ruby>行<rt>い</rt></ruby>く<ruby>日<rt>ひ</rt></ruby>は、<ruby>少<rt>すこ</rt></ruby>し<ruby>時間<rt>じかん</rt></ruby>がかかっても<ruby>乗<rt>の</rt></ruby>り<ruby>換<rt>か</rt></ruby>えの<ruby>少<rt>すく</rt></ruby>ないルートが<ruby>楽<rt>らく</rt></ruby>かもしれません。アプリを<ruby>地図<rt>ちず</rt></ruby>ではなく<ruby>相談相手<rt>そうだんあいて</rt></ruby>のように<ruby>使<rt>つか</rt></ruby>うと、<ruby>自分<rt>じぶん</rt></ruby>に合う<ruby>行<rt>い</rt></ruby>き<ruby>方<rt>かた</rt></ruby>を<ruby>選<rt>えら</rt></ruby>べます。</p>
+    <div class="sentence-translation">An app does not always have just one right answer. The fastest route may have many transfers. With luggage or at an unfamiliar station, a route with fewer transfers can be easier, even if it takes longer.</div>
+    <div class="recording-footer" aria-hidden="true">
+        <span>全文はキャプションにあります</span>
+    </div>
+
+<div class="study-notes-box">
+        <h2>Common Phrases and Patterns</h2>
+        <div class="study-note-group">
+            <h3>Useful phrases</h3>
+            <ul class="study-note-list">
+                <li><strong>〜ように</strong> <span>so that / in order to / in the way that</span><div class="study-note-example">Example: アプリを地図ではなく相談相手のように使うと、自分に合う行き方を選べま</div></li>
+                <li><strong>〜だけで</strong> <span>just by / only with</span><div class="study-note-example">Example: このサービスでは、駅だけでなく住所や施設を出発地・目的地に</div></li>
+            </ul>
+        </div>
+        <div class="study-note-group">
+            <h3>Verb and grammar patterns</h3>
+            <ul class="study-note-list">
+                <li><strong>〜ている</strong> <span>ongoing state / habitual action</span><div class="study-note-example">Example: よく知られているサービスの一つが、NAVITIM</div></li>
+            </ul>
+        </div>
+    </div>
+    <div class="vocabulary-box">
+        <h2>N3 Vocabulary</h2>
+        <ul>
+            <li><strong>乗換案内（のりかえあんない）:</strong> Route / transfer guidance</li>
+            <li><strong>出発駅（しゅっぱつえき）:</strong> Departure station</li>
+            <li><strong>到着駅（とうちゃくえき）:</strong> Arrival station</li>
+            <li><strong>運賃（うんちん）:</strong> Fare</li>
+            <li><strong>乗車位置（じょうしゃいち）:</strong> Recommended boarding position</li>
+            <li><strong>施設（しせつ）:</strong> Facility / place</li>
+            <li><strong>時刻表（じこくひょう）:</strong> Timetable</li>
+            <li><strong>運行情報（うんこうじょうほう）:</strong> Service-status information</li>
+            <li><strong>登録する（とうろくする）:</strong> To register / save</li>
+            <li><strong>荷物（にもつ）:</strong> Luggage</li>
+        </ul>
+    </div>
+</div>
+    </main>
+</div>
+
+<script src="./assets/theme.js"></script>
+<script src="./assets/article.js?v=900aedd6588d"></script>
+
+</body>
+</html>
