@@ -458,8 +458,10 @@
                 <h2 id="publisher-heading">Codex Agent</h2>
                 <button class="button" type="button" id="publish-article">Draft &amp; Publish</button>
                 <button class="button-secondary" type="button" id="clear-brief">Clear</button>
+                <button class="button-secondary" type="button" id="check-codex-signin">Check OpenAI sign-in</button>
             </div>
             <p class="panel-copy">For example: “Create an N3 article about this news story: [URL]. Focus on the surprising part and cite the source in the source note.”</p>
+            <p class="small-note" id="codex-signin-note">Checking Codex sign-in…</p>
             <textarea id="article-brief-input" spellcheck="true" aria-label="Article brief" placeholder="Describe the article Codex should create…"></textarea>
             <div class="editing-target" id="editing-target">Creating a new runtime article</div>
             <div class="status" id="publish-status" aria-live="polite">Ready.</div>

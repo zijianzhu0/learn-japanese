@@ -1,5 +1,6 @@
 const articlesEndpoint = '/api/articles';
 const agentEndpoint = '/api/articles/agent';
+const codexStatusEndpoint = '/api/codex/status';
 
 const state = {
     backupUrl: '/api/articles/backup',
@@ -17,7 +18,9 @@ const elements = {
     editingTarget: document.getElementById('editing-target'),
     runtimeArticles: document.getElementById('runtime-articles'),
     downloadBackup: document.getElementById('download-backup'),
-    copyContentDir: document.getElementById('copy-content-dir')
+    copyContentDir: document.getElementById('copy-content-dir'),
+    checkCodexSignin: document.getElementById('check-codex-signin'),
+    codexSigninNote: document.getElementById('codex-signin-note')
 };
 
 function setStatus(message, tone = 'default') {
@@ -75,6 +78,25 @@ async function loadRuntimeArticles() {
     elements.runtimeArticles.innerHTML = state.runtimeArticles.length
         ? state.runtimeArticles.map(articleItemHtml).join('')
         : '<li class="meta-item">No runtime-published articles yet.</li>';
+}
+
+async function checkCodexSignin() {
+    elements.checkCodexSignin.disabled = true;
+    elements.codexSigninNote.textContent = 'Checking Codex sign-in…';
+    try {
+        const response = await fetch(codexStatusEndpoint, { cache: 'no-store' });
+        const payload = await response.json().catch(() => ({}));
+        if (!response.ok || !payload.ok) {
+            throw new Error(payload.error || `Codex status failed with HTTP ${response.status}.`);
+        }
+        elements.codexSigninNote.textContent = payload.authenticated
+            ? 'Codex is signed in with OpenAI and ready to publish.'
+            : 'Codex is not signed in. Run `codex login` on the machine running this server, then check again.';
+    } catch (error) {
+        elements.codexSigninNote.textContent = `Codex sign-in unavailable: ${error.message}`;
+    } finally {
+        elements.checkCodexSignin.disabled = false;
+    }
 }
 
 async function publishWithAgent() {
@@ -161,6 +183,7 @@ elements.clearBrief.addEventListener('click', () => {
     setEditingState();
     setStatus('Brief cleared.');
 });
+elements.checkCodexSignin.addEventListener('click', checkCodexSignin);
 elements.downloadBackup.addEventListener('click', () => {
     window.location.href = state.backupUrl;
     setStatus('Backup download started.');
@@ -173,3 +196,4 @@ loadRuntimeArticles().catch((error) => {
     elements.contentDir.textContent = 'Unavailable';
     elements.articleCount.textContent = 'Unavailable';
 });
+checkCodexSignin();

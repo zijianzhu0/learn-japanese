@@ -6,12 +6,12 @@ services:
     environment:
       VOICEVOX_BASE_URL: "http://voicevox:50021"
       CONTENT_DIR: "/content/articles"
-      # Optional for Codex Agent publishing in Docker. Local Python mode uses
-      # the Codex CLI authentication already configured on the host.
-      CODEX_API_KEY: "${CODEX_API_KEY:-}"
     volumes:
       - .:/app
       - learn_japanese_content:/content
+      # Reuse the OpenAI/ChatGPT sign-in created with `codex login` on the host.
+      # Set CODEX_AUTH_FILE if the credentials live somewhere else.
+      - ${CODEX_AUTH_FILE:-${HOME}/.codex/auth.json}:/root/.codex/auth.json:ro
     depends_on:
       - voicevox
 

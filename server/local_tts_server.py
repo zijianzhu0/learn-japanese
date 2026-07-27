@@ -104,6 +104,10 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
             self.handle_articles_backup()
             return
 
+        if request_path == "/api/codex/status":
+            self.handle_codex_status()
+            return
+
         if request_path == "/api/flashcards/progress":
             self.handle_flashcard_progress_get()
             return
@@ -212,6 +216,33 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
 
     def handle_flashcards_manifest(self) -> None:
         self.send_json(200, generate_site.build_flashcards_payload(self.runtime_articles()))
+
+    def handle_codex_status(self) -> None:
+        codex_bin = shutil.which("codex")
+        if not codex_bin:
+            self.send_json(503, {"ok": False, "error": "Codex CLI is not installed or not on PATH for the server."})
+            return
+        try:
+            result = subprocess.run(
+                [codex_bin, "login", "status"],
+                capture_output=True,
+                text=True,
+                timeout=10,
+                check=False,
+            )
+        except subprocess.TimeoutExpired:
+            self.send_json(503, {"ok": False, "error": "Codex sign-in status timed out."})
+            return
+
+        detail = (result.stdout or result.stderr).strip()
+        self.send_json(
+            200,
+            {
+                "ok": True,
+                "authenticated": result.returncode == 0,
+                "status": detail or ("Signed in." if result.returncode == 0 else "Not signed in."),
+            },
+        )
 
     def handle_articles_get(self, query_string: str) -> None:
         params = parse.parse_qs(query_string, keep_blank_values=False)
