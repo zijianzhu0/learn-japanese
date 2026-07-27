@@ -51,6 +51,8 @@ VOICEVOX_BASE_URL = os.environ.get("VOICEVOX_BASE_URL", "http://127.0.0.1:50021"
 DEFAULT_VOICEVOX_SPEAKER = 9
 MAX_TTS_TEXT_CHARS = 500
 MAX_VIDEO_UPLOAD_BYTES = 700 * 1024 * 1024
+MAX_AGENT_BRIEF_CHARS = 12_000
+CODEX_AGENT_TIMEOUT_SECONDS = 300
 VIDEO_OUTPUT_DIR = PROJECT_DIR / "videos"
 FLASHCARD_PROGRESS_PATH = PROJECT_DIR / "data" / "flashcard-progress.json"
 FLASHCARD_PROGRESS_LOCK = threading.Lock()
@@ -116,6 +118,10 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
         request_path = parse.urlsplit(self.path).path
         if request_path == "/api/articles":
             self.handle_article_create()
+            return
+
+        if request_path == "/api/articles/agent":
+            self.handle_article_agent_publish()
             return
 
         if request_path == "/api/tts/voicevox":
@@ -294,46 +300,7 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
     def handle_article_create(self) -> None:
         try:
             article, overwrite = self.parse_article_write_request()
-            RUNTIME_ARTICLE_CONTENT_DIR.mkdir(parents=True, exist_ok=True)
-            target_path = article_store.article_storage_path(article, RUNTIME_ARTICLE_CONTENT_DIR)
-
-            repo_conflict = next(
-                (
-                    existing
-                    for existing in article_store.read_repo_article_specs()
-                    if existing["id"] == article["id"] or existing["file"] == article["file"]
-                ),
-                None,
-            )
-            if repo_conflict:
-                raise ValueError("Article id or file conflicts with a repo-backed article.")
-
-            existing_external = next(
-                (
-                    existing
-                    for existing in article_store.read_external_article_specs(RUNTIME_ARTICLE_CONTENT_DIR)
-                    if existing["id"] == article["id"] or existing["file"] == article["file"]
-                ),
-                None,
-            )
-            if existing_external and not overwrite:
-                raise ValueError("Runtime article already exists. Pass overwrite=true to replace it.")
-
-            prior_bytes = target_path.read_bytes() if target_path.exists() else None
-            temp_path = target_path.with_suffix(f"{target_path.suffix}.tmp")
-            temp_path.write_text(
-                json.dumps(article, ensure_ascii=False, indent=2) + "\n",
-                encoding="utf-8",
-            )
-            temp_path.replace(target_path)
-            try:
-                saved = self.validate_runtime_article_set(article["id"])
-            except Exception:
-                if prior_bytes is None:
-                    target_path.unlink(missing_ok=True)
-                else:
-                    target_path.write_bytes(prior_bytes)
-                raise
+            saved, target_path = self.save_runtime_article(article, overwrite)
         except (TypeError, ValueError, json.JSONDecodeError) as exc:
             self.send_json(400, {"ok": False, "error": str(exc)})
             return
@@ -357,6 +324,137 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
                 "flashcards_url": "/flashcards.html",
             },
         )
+
+    def save_runtime_article(self, article: dict, overwrite: bool) -> tuple[dict, Path]:
+        """Persist a validated article while retaining the current store's rollback behaviour."""
+        RUNTIME_ARTICLE_CONTENT_DIR.mkdir(parents=True, exist_ok=True)
+        target_path = article_store.article_storage_path(article, RUNTIME_ARTICLE_CONTENT_DIR)
+
+        repo_conflict = next(
+            (
+                existing
+                for existing in article_store.read_repo_article_specs()
+                if existing["id"] == article["id"] or existing["file"] == article["file"]
+            ),
+            None,
+        )
+        if repo_conflict:
+            raise ValueError("Article id or file conflicts with a repo-backed article.")
+
+        existing_external = next(
+            (
+                existing
+                for existing in article_store.read_external_article_specs(RUNTIME_ARTICLE_CONTENT_DIR)
+                if existing["id"] == article["id"] or existing["file"] == article["file"]
+            ),
+            None,
+        )
+        if existing_external and not overwrite:
+            raise ValueError("Runtime article already exists. Pass overwrite=true to replace it.")
+
+        prior_bytes = target_path.read_bytes() if target_path.exists() else None
+        temp_path = target_path.with_suffix(f"{target_path.suffix}.tmp")
+        temp_path.write_text(json.dumps(article, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        temp_path.replace(target_path)
+        try:
+            return self.validate_runtime_article_set(article["id"]), target_path
+        except Exception:
+            if prior_bytes is None:
+                target_path.unlink(missing_ok=True)
+            else:
+                target_path.write_bytes(prior_bytes)
+            raise
+
+    def handle_article_agent_publish(self) -> None:
+        """Use the local Codex CLI to draft an article, then publish via the runtime store."""
+        try:
+            payload = self.read_json_body()
+            brief = str(payload.get("brief", "")).strip()
+            if not brief:
+                raise ValueError("Tell the Codex agent what article to create or revise.")
+            if len(brief) > MAX_AGENT_BRIEF_CHARS:
+                raise ValueError(f"Article brief is too long. Limit is {MAX_AGENT_BRIEF_CHARS:,} characters.")
+
+            article_id = str(payload.get("article_id", "")).strip()
+            existing_article = None
+            if article_id:
+                existing_article, _ = article_store.read_external_article_spec(
+                    article_id, RUNTIME_ARTICLE_CONTENT_DIR
+                )
+
+            article = self.run_codex_article_agent(brief, existing_article)
+            article_store.validate_article_payload(article, enforce_runtime_rules=True)
+            saved, target_path = self.save_runtime_article(article, overwrite=existing_article is not None)
+        except (TypeError, ValueError, json.JSONDecodeError) as exc:
+            self.send_json(400, {"ok": False, "error": str(exc)})
+            return
+        except subprocess.TimeoutExpired:
+            self.send_json(504, {"ok": False, "error": "Codex took longer than five minutes. Please try again."})
+            return
+        except Exception as exc:
+            self.send_json(500, {"ok": False, "error": f"Codex article publish failed: {exc}"})
+            return
+
+        self.send_json(
+            201,
+            {
+                "ok": True,
+                "article": {"id": saved["id"], "file": saved["file"], "title": saved["title"], "href": generate_site.article_href(saved), "json_path": str(target_path)},
+                "content_dir": str(RUNTIME_ARTICLE_CONTENT_DIR),
+            },
+        )
+
+    def run_codex_article_agent(self, brief: str, existing_article: dict | None) -> dict:
+        codex_bin = shutil.which("codex")
+        if not codex_bin:
+            raise ValueError("Codex CLI is not installed or not on PATH for the server.")
+
+        existing_context = (
+            "This is a revision. Preserve its id, file, date, month, navLabel, and downloadFileName unless the brief explicitly asks otherwise.\n"
+            f"Existing article:\n{json.dumps(existing_article, ensure_ascii=False, indent=2)}"
+            if existing_article else "Create a new article with a date-based id and matching file name."
+        )
+        prompt = f'''You are the publishing agent for a Japanese reading site. Produce one complete runtime article object from the brief below. You may research a supplied source URL if needed, but do not modify files or run shell commands. Your final response must be the article object alone and must satisfy the schema.
+
+Article requirements:
+- include id, file, title, titleTranslation, date, month, navLabel, level, downloadFileName, headlineHtml, sourceNote, paragraphs, vocabularyTitle, vocabulary
+- paragraphs has exactly 5 objects, each with html and an accurate English translation
+- each html has 1-3 Japanese sentences; the visible Japanese text across all five is 450-500 characters
+- use useful ruby markup in headlineHtml and body html; vocabulary items have term and meaning
+- keep the article factual, clear, compact, and suitable for Japanese learners
+- return JSON only, without markdown fences or commentary
+
+{existing_context}
+
+User brief:
+{brief}'''
+        schema = {
+            "type": "object",
+            "required": ["id", "file", "title", "titleTranslation", "date", "month", "navLabel", "level", "downloadFileName", "headlineHtml", "sourceNote", "paragraphs", "vocabularyTitle", "vocabulary"],
+            "additionalProperties": True,
+            "properties": {
+                "id": {"type": "string"}, "file": {"type": "string"}, "title": {"type": "string"}, "titleTranslation": {"type": "string"}, "date": {"type": "string"}, "month": {"type": "string"}, "navLabel": {"type": "string"}, "level": {"type": "string"}, "downloadFileName": {"type": "string"}, "headlineHtml": {"type": "string"}, "sourceNote": {"type": "string"}, "vocabularyTitle": {"type": "string"},
+                "paragraphs": {"type": "array", "items": {"type": "object", "required": ["html", "translation"], "properties": {"html": {"type": "string"}, "translation": {"type": "string"}}}},
+                "vocabulary": {"type": "array", "items": {"type": "object", "required": ["term", "meaning"], "properties": {"term": {"type": "string"}, "meaning": {"type": "string"}}}},
+            },
+        }
+        with tempfile.TemporaryDirectory(prefix="learn-japanese-codex-") as temp_dir:
+            schema_path = Path(temp_dir) / "article-schema.json"
+            output_path = Path(temp_dir) / "article.json"
+            schema_path.write_text(json.dumps(schema), encoding="utf-8")
+            result = subprocess.run(
+                [codex_bin, "exec", "--ephemeral", "--sandbox", "read-only", "--cd", str(PROJECT_DIR), "--output-schema", str(schema_path), "--output-last-message", str(output_path), prompt],
+                capture_output=True, text=True, timeout=CODEX_AGENT_TIMEOUT_SECONDS, check=False,
+            )
+            if result.returncode != 0:
+                detail = (result.stderr or result.stdout or "Codex did not return a result.").strip()
+                raise RuntimeError(detail[-1200:])
+            if not output_path.exists():
+                raise RuntimeError("Codex finished without an article response.")
+            article = json.loads(output_path.read_text(encoding="utf-8"))
+        if not isinstance(article, dict):
+            raise ValueError("Codex returned an invalid article object.")
+        return article
 
     def handle_article_delete(self, query_string: str) -> None:
         params = parse.parse_qs(query_string, keep_blank_values=False)

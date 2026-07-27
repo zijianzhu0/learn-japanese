@@ -274,7 +274,7 @@
 
         textarea {
             width: 100%;
-            min-height: 560px;
+            min-height: 360px;
             padding: 18px;
             border: 1px solid var(--line-strong);
             border-radius: 22px;
@@ -448,24 +448,20 @@
 <main class="page-shell">
     <section class="hero">
         <p class="eyebrow">Runtime Publishing</p>
-        <h1>Paste article JSON and publish it live.</h1>
-        <p class="intro">This page writes to the runtime article store through <code>/api/articles</code>. It does not add files to the repo. After publish, the article appears on the served archive, article navigation, flashcards, and video endpoints.</p>
+        <h1>Tell Codex what to publish.</h1>
+        <p class="intro">Describe the story, a source URL, and the reading level. Codex drafts the article and the server validates and saves it to the runtime store. Nothing is added to Git.</p>
     </section>
 
     <section class="layout">
         <section class="panel" aria-labelledby="publisher-heading">
             <div class="editor-toolbar">
-                <h2 id="publisher-heading">Article JSON</h2>
-                <button class="button" type="button" id="publish-article">Publish</button>
-                <button class="button-secondary" type="button" id="format-json">Format JSON</button>
-                <button class="button-secondary" type="button" id="load-sample">Load Sample</button>
-                <button class="button-secondary" type="button" id="clear-editor">Clear</button>
-                <button class="button-secondary" type="button" id="copy-prompt">Copy Prompt</button>
-                <button class="button-secondary" type="button" id="copy-sample-json">Copy Sample JSON</button>
+                <h2 id="publisher-heading">Codex Agent</h2>
+                <button class="button" type="button" id="publish-article">Draft &amp; Publish</button>
+                <button class="button-secondary" type="button" id="clear-brief">Clear</button>
             </div>
-            <p class="panel-copy">Paste the full article object. The same schema used in <code>data/articles/*.json</code> works here.</p>
-            <textarea id="article-json-input" spellcheck="false" aria-label="Article JSON editor"></textarea>
-            <div class="editing-target" id="editing-target">Editing a new runtime article</div>
+            <p class="panel-copy">For example: “Create an N3 article about this news story: [URL]. Focus on the surprising part and cite the source in the source note.”</p>
+            <textarea id="article-brief-input" spellcheck="true" aria-label="Article brief" placeholder="Describe the article Codex should create…"></textarea>
+            <div class="editing-target" id="editing-target">Creating a new runtime article</div>
             <div class="status" id="publish-status" aria-live="polite">Ready.</div>
         </section>
 
@@ -486,7 +482,7 @@
                     <div id="article-count">Loading...</div>
                 </div>
             </div>
-            <p class="small-note">Existing runtime items can be loaded back into the editor, copied, or deleted here.</p>
+            <p class="small-note">Choose Revise to give Codex a new brief for an existing item. The runtime store remains independent of Git.</p>
             <ul class="article-list" id="runtime-articles"></ul>
         </aside>
     </section>

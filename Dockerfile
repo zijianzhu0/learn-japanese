@@ -5,7 +5,11 @@ RUN apt-get update \
         chromium \
         ffmpeg \
         fonts-noto-cjk \
+        nodejs \
+        npm \
     && rm -rf /var/lib/apt/lists/*
+
+RUN npm install --global @openai/codex
 
 WORKDIR /app
 

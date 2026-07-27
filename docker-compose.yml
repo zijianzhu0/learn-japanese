@@ -6,6 +6,9 @@ services:
     environment:
       VOICEVOX_BASE_URL: "http://voicevox:50021"
       CONTENT_DIR: "/content/articles"
+      # Optional for Codex Agent publishing in Docker. Local Python mode uses
+      # the Codex CLI authentication already configured on the host.
+      CODEX_API_KEY: "${CODEX_API_KEY:-}"
     volumes:
       - .:/app
       - learn_japanese_content:/content
