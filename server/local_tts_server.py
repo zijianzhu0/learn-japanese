@@ -462,11 +462,27 @@ User brief:
         schema = {
             "type": "object",
             "required": ["id", "file", "title", "titleTranslation", "date", "month", "navLabel", "level", "downloadFileName", "headlineHtml", "sourceNote", "paragraphs", "vocabularyTitle", "vocabulary"],
-            "additionalProperties": True,
+            "additionalProperties": False,
             "properties": {
                 "id": {"type": "string"}, "file": {"type": "string"}, "title": {"type": "string"}, "titleTranslation": {"type": "string"}, "date": {"type": "string"}, "month": {"type": "string"}, "navLabel": {"type": "string"}, "level": {"type": "string"}, "downloadFileName": {"type": "string"}, "headlineHtml": {"type": "string"}, "sourceNote": {"type": "string"}, "vocabularyTitle": {"type": "string"},
-                "paragraphs": {"type": "array", "items": {"type": "object", "required": ["html", "translation"], "properties": {"html": {"type": "string"}, "translation": {"type": "string"}}}},
-                "vocabulary": {"type": "array", "items": {"type": "object", "required": ["term", "meaning"], "properties": {"term": {"type": "string"}, "meaning": {"type": "string"}}}},
+                "paragraphs": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "additionalProperties": False,
+                        "required": ["html", "translation"],
+                        "properties": {"html": {"type": "string"}, "translation": {"type": "string"}},
+                    },
+                },
+                "vocabulary": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "additionalProperties": False,
+                        "required": ["term", "meaning"],
+                        "properties": {"term": {"type": "string"}, "meaning": {"type": "string"}},
+                    },
+                },
             },
         }
         with tempfile.TemporaryDirectory(prefix="learn-japanese-codex-") as temp_dir:
