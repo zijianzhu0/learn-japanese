@@ -415,7 +415,16 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
                 )
 
             article = self.run_codex_article_agent(brief, existing_article)
-            article_store.validate_article_payload(article, enforce_runtime_rules=True)
+            try:
+                article_store.validate_article_payload(article, enforce_runtime_rules=True)
+            except ValueError as validation_error:
+                article = self.run_codex_article_agent(
+                    brief,
+                    existing_article,
+                    rejected_article=article,
+                    validation_error=str(validation_error),
+                )
+                article_store.validate_article_payload(article, enforce_runtime_rules=True)
             saved, target_path = self.save_runtime_article(article, overwrite=existing_article is not None)
         except (TypeError, ValueError, json.JSONDecodeError) as exc:
             self.send_json(400, {"ok": False, "error": str(exc)})
@@ -436,7 +445,13 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
             },
         )
 
-    def run_codex_article_agent(self, brief: str, existing_article: dict | None) -> dict:
+    def run_codex_article_agent(
+        self,
+        brief: str,
+        existing_article: dict | None,
+        rejected_article: dict | None = None,
+        validation_error: str = "",
+    ) -> dict:
         codex_bin = shutil.which("codex")
         if not codex_bin:
             raise ValueError("Codex CLI is not installed or not on PATH for the server.")
@@ -446,6 +461,13 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
             f"Existing article:\n{json.dumps(existing_article, ensure_ascii=False, indent=2)}"
             if existing_article else "Create a new article with a date-based id and matching file name."
         )
+        correction_context = (
+            "Your first draft was rejected by the runtime validator. Correct it completely and return a replacement article object. "
+            "Preserve its identity fields unless the validator error requires otherwise.\n"
+            f"Validator error: {validation_error}\n"
+            f"Rejected draft:\n{json.dumps(rejected_article, ensure_ascii=False, indent=2)}"
+            if rejected_article else ""
+        )
         prompt = f'''You are the publishing agent for a Japanese reading site. Produce one complete runtime article object from the brief below. You may research a supplied source URL if needed, but do not modify files or run shell commands. Your final response must be the article object alone and must satisfy the schema.
 
 Article requirements:
@@ -454,9 +476,12 @@ Article requirements:
 - each html has 1-3 Japanese sentences; the visible Japanese text across all five is 450-500 characters
 - use useful ruby markup in headlineHtml and body html; vocabulary items have term and meaning
 - keep the article factual, clear, compact, and suitable for Japanese learners
+- before responding, remove ruby markup mentally and count the visible Japanese body text; do not respond unless it is 450-500 characters
 - return JSON only, without markdown fences or commentary
 
 {existing_context}
+
+{correction_context}
 
 User brief:
 {brief}'''
