@@ -472,6 +472,7 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
 
 Article requirements:
 - include id, file, title, titleTranslation, date, month, navLabel, level, downloadFileName, headlineHtml, sourceNote, paragraphs, vocabularyTitle, vocabulary
+- month must be an English archive label such as "July 2026", never a machine-style value such as "2026-07"
 - paragraphs has exactly 5 objects, each with html and an accurate English translation
 - each html has 1-3 Japanese sentences; the visible Japanese text across all five is 450-500 characters
 - use useful ruby markup in headlineHtml and body html; vocabulary items have term and meaning

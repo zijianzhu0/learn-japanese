@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import os
 import re
+from calendar import month_name
 from copy import deepcopy
 from pathlib import Path
 
@@ -52,6 +53,16 @@ def html_base_text(html: str) -> str:
     text = re.sub(r"<rt>.*?</rt>|<rp>.*?</rp>", "", html, flags=re.S)
     text = re.sub(r"<[^>]+>", "", text)
     return re.sub(r"\s+", " ", text).strip()
+
+
+def normalize_article_month(article: dict) -> None:
+    """Convert a machine-style month label into the archive's display label."""
+    month = str(article.get("month", "")).strip()
+    article_id = str(article.get("id", "")).strip()
+    match = re.fullmatch(r"(\d{4})-(0[1-9]|1[0-2])", month)
+    if not match or not re.match(r"\d{4}-\d{2}-", article_id):
+        return
+    article["month"] = f"{month_name[int(match.group(2))]} {match.group(1)}"
 
 
 def split_sentences(text: str) -> list[str]:
@@ -104,6 +115,8 @@ def expand_article_versions(article: dict) -> list[dict]:
 def validate_article_payload(article: dict, enforce_runtime_rules: bool = False) -> None:
     if not isinstance(article, dict):
         raise ValueError("Article payload must be an object.")
+
+    normalize_article_month(article)
 
     required_strings = [
         "id",
