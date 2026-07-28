@@ -57,7 +57,7 @@ function articleActionsHtml(article) {
 function articleItemHtml(article) {
     return `<li class="article-card">
         <div class="article-card-copy">
-            <a href="${escapeHtml(article.href)}"><strong>${escapeHtml(article.navLabel)}</strong><span>${escapeHtml(article.title)}</span><br><span>Runtime · ${escapeHtml(article.file)}</span></a>
+            <a href="${escapeHtml(article.href)}"><strong>${escapeHtml(article.navLabel)}</strong><span>${escapeHtml(article.title)}</span><br><span>${escapeHtml(article.date)} · Runtime · ${escapeHtml(article.file)}</span></a>
         </div>
         <div class="article-card-actions">${articleActionsHtml(article)}</div>
     </li>`;

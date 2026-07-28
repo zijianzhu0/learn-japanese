@@ -383,7 +383,10 @@ ${group.articles.map((article) => {
         const isCurrent = articleNavigationHrefs(article).includes(currentFile);
         const className = isCurrent ? 'article-nav-link is-current' : 'article-nav-link';
         const ariaCurrent = isCurrent ? ' aria-current="page"' : '';
-        return `                        <li><a class="${className}" href="${article.href}"${ariaCurrent}>${escapeHtml(article.label)}</a></li>`;
+        const label = /^\d{1,2}\/\d{1,2}(?:\s|$)/.test(article.label)
+            ? article.label
+            : `${article.date} ${article.label}`;
+        return `                        <li><a class="${className}" href="${article.href}"${ariaCurrent}>${escapeHtml(label)}</a></li>`;
     }).join('\n')}
                     </ul>
                 </div>`).join('');

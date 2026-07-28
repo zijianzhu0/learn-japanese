@@ -314,6 +314,7 @@ def article_navigation(articles: list[dict]) -> list[dict]:
             "month": article["month"],
             "href": article_href(article),
             "label": article["navLabel"],
+            "date": article["date"],
         }
         variant_hrefs = [
             version["href"]
