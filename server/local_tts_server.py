@@ -475,7 +475,7 @@ Article requirements:
 - month must be an English archive label such as "July 2026", never a machine-style value such as "2026-07"
 - paragraphs has exactly 5 objects, each with html and an accurate English translation
 - each html has 1-3 Japanese sentences; the visible Japanese text across all five is 450-500 characters
-- use useful ruby markup in headlineHtml and body html; vocabulary items have term and meaning
+- put every kanji in headlineHtml and body html inside ruby markup with a kana reading; vocabulary items have term and meaning
 - keep the article factual, clear, compact, and suitable for Japanese learners
 - before responding, remove ruby markup mentally and count the visible Japanese body text; do not respond unless it is 450-500 characters
 - return JSON only, without markdown fences or commentary

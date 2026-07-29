@@ -10,6 +10,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 ARTICLES_PATH = ROOT / "data" / "articles.json"
+KANJI_PATTERN = re.compile(r"[々〆〤一-龯]")
+RUBY_PATTERN = re.compile(r"<ruby>(.*?)<rt>(.*?)</rt></ruby>", re.DOTALL)
 DEFAULT_CONTENT_DIR = Path(
     os.environ.get(
         "CONTENT_DIR",
@@ -53,6 +55,21 @@ def html_base_text(html: str) -> str:
     text = re.sub(r"<rt>.*?</rt>|<rp>.*?</rp>", "", html, flags=re.S)
     text = re.sub(r"<[^>]+>", "", text)
     return re.sub(r"\s+", " ", text).strip()
+
+
+def validate_complete_furigana(html: str, field: str) -> None:
+    """Require every visible kanji to be paired with a non-empty ruby reading."""
+    for match in RUBY_PATTERN.finditer(html):
+        base, reading = match.groups()
+        if KANJI_PATTERN.search(base) and not reading.strip():
+            raise ValueError(f"{field} has ruby markup with an empty reading.")
+
+    without_ruby = RUBY_PATTERN.sub("", html)
+    remaining_kanji = KANJI_PATTERN.search(without_ruby)
+    if remaining_kanji:
+        raise ValueError(
+            f"{field} has kanji outside ruby markup: {remaining_kanji.group()}."
+        )
 
 
 def normalize_article_month(article: dict) -> None:
@@ -158,6 +175,10 @@ def validate_article_payload(article: dict, enforce_runtime_rules: bool = False)
             raise ValueError(f"Paragraph {index} has an empty translation.")
 
     if enforce_runtime_rules:
+        validate_complete_furigana(str(article["headlineHtml"]), "headlineHtml")
+        for index, paragraph in enumerate(paragraphs, start=1):
+            validate_complete_furigana(str(paragraph["html"]), f"Paragraph {index}")
+
         if len(paragraphs) != 5:
             raise ValueError("Runtime articles must have exactly 5 sections in paragraphs.")
 
