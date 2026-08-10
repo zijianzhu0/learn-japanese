@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import os
 import re
+import sys
 from calendar import month_name
 from copy import deepcopy
 from pathlib import Path
@@ -272,8 +273,12 @@ def read_external_article_specs(runtime_dir: Path | None = None) -> list[dict]:
 
     articles = []
     for path in sorted(directory.glob("*.json"), reverse=True):
-        article = json.loads(path.read_text(encoding="utf-8"))
-        validate_article_payload(article)
+        try:
+            article = json.loads(path.read_text(encoding="utf-8"))
+            validate_article_payload(article)
+        except (OSError, json.JSONDecodeError, ValueError) as exc:
+            print(f"Skipping invalid runtime article {path}: {exc}", file=sys.stderr)
+            continue
         articles.append(article)
     return articles
 
