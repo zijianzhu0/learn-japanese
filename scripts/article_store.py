@@ -161,6 +161,12 @@ def validate_article_payload(article: dict, enforce_runtime_rules: bool = False)
     if article_file[:10] != article_id[:10]:
         raise ValueError("Article id and file must start with the same date.")
 
+    download_file_name = str(article["downloadFileName"]).strip()
+    if Path(download_file_name).name != download_file_name:
+        raise ValueError("Article downloadFileName must be a plain filename.")
+    if not download_file_name.endswith(".mp4"):
+        raise ValueError("Article downloadFileName must end with .mp4 for video rendering.")
+
     paragraphs = article.get("paragraphs")
     if not isinstance(paragraphs, list) or not paragraphs:
         raise ValueError("Article paragraphs must be a non-empty array.")

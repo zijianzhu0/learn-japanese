@@ -84,6 +84,10 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
             self.handle_flashcards_manifest()
             return
 
+        if request_path == "/data/ebook-library.json":
+            self.handle_ebook_library_manifest()
+            return
+
         dynamic_article = self.find_dynamic_article(request_path)
         if dynamic_article is not None:
             self.handle_dynamic_article(dynamic_article)
@@ -217,6 +221,9 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
 
     def handle_flashcards_manifest(self) -> None:
         self.send_json(200, generate_site.build_flashcards_payload(self.runtime_articles()))
+
+    def handle_ebook_library_manifest(self) -> None:
+        self.send_json(200, generate_site.build_ebook_library_payload(self.runtime_articles()))
 
     def handle_codex_status(self) -> None:
         codex_bin = shutil.which("codex")
@@ -472,6 +479,7 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
 
 Article requirements:
 - include id, file, title, titleTranslation, date, month, navLabel, level, downloadFileName, headlineHtml, sourceNote, paragraphs, vocabularyTitle, vocabulary
+- downloadFileName must be a plain MP4 filename ending in .mp4; use the article id followed by .mp4
 - month must be an English archive label such as "July 2026", never a machine-style value such as "2026-07"
 - paragraphs has exactly 5 objects, each with html and an accurate English translation
 - each html has 1-3 Japanese sentences; the visible Japanese text across all five is 450-500 characters
