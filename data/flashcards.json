@@ -4,7 +4,7 @@
     "articleManifest": "data/articles.json"
   },
   "levels": {
-    "N3": 2223,
+    "N3": 2233,
     "N4": 546,
     "N5": 559
   },
@@ -689,6 +689,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "暑い夏の東京を歩くと、日傘を使う人はよく見かけます。",
+          "en": "On a hot Tokyo summer day, you often see people using parasols."
+        },
+        {
           "ja": "たとえば、大きな駅で次の電車に乗り換えるとき、「何両目に乗ると近いか」がわかると、ホームを歩く時間を少なくできます。",
           "en": "This can save walking time when transferring at a large station."
         }
@@ -704,6 +708,10 @@
           "readingHiragana": "あるきます",
           "meaning": "Polite form of 歩く: to walk",
           "exampleSentences": [
+            {
+              "ja": "暑い夏の東京を歩くと、日傘を使う人はよく見かけます。",
+              "en": "On a hot Tokyo summer day, you often see people using parasols."
+            },
             {
               "ja": "たとえば、大きな駅で次の電車に乗り換えるとき、「何両目に乗ると近いか」がわかると、ホームを歩く時間を少なくできます。",
               "en": "This can save walking time when transferring at a large station."
@@ -723,6 +731,10 @@
               "en": "The person then crossed two tracks and walked to the outbound track."
             },
             {
+              "ja": "暑い夏の東京を歩くと、日傘を使う人はよく見かけます。",
+              "en": "On a hot Tokyo summer day, you often see people using parasols."
+            },
+            {
               "ja": "たとえば、大きな駅で次の電車に乗り換えるとき、「何両目に乗ると近いか」がわかると、ホームを歩く時間を少なくできます。",
               "en": "This can save walking time when transferring at a large station."
             }
@@ -736,6 +748,10 @@
           "readingHiragana": "あるかない",
           "meaning": "Plain negative form of 歩く: to walk",
           "exampleSentences": [
+            {
+              "ja": "暑い夏の東京を歩くと、日傘を使う人はよく見かけます。",
+              "en": "On a hot Tokyo summer day, you often see people using parasols."
+            },
             {
               "ja": "たとえば、大きな駅で次の電車に乗り換えるとき、「何両目に乗ると近いか」がわかると、ホームを歩く時間を少なくできます。",
               "en": "This can save walking time when transferring at a large station."
@@ -751,12 +767,20 @@
           "meaning": "Te-form of 歩く: to walk",
           "exampleSentences": [
             {
+              "ja": "2010年の夏、研究者は銀座、浅草、渋谷、新宿、池袋で歩いている人を観察しました。",
+              "en": "In the summer of 2010, researchers observed pedestrians in Ginza, Asakusa, Shibuya, Shinjuku, and Ikebukuro. They watched 2,338 people during weekend midday hours, when UV levels were high or very high."
+            },
+            {
               "ja": "丸の内駅を歩いていたとき、点字ブロックの上に小さなQRコードがついているのを見つけました。",
               "en": "While walking through Marunouchi Station, I noticed a small QR code attached above the tactile paving."
             },
             {
               "ja": "普段は何気なく歩いている駅の中にも、このようなやさしい工夫が隠れていると知って、少し驚きました。",
               "en": "I was a little surprised to learn that this kind of considerate idea was hidden inside a station I usually walk through without much thought."
+            },
+            {
+              "ja": "暑い夏の東京を歩くと、日傘を使う人はよく見かけます。",
+              "en": "On a hot Tokyo summer day, you often see people using parasols."
             },
             {
               "ja": "たとえば、大きな駅で次の電車に乗り換えるとき、「何両目に乗ると近いか」がわかると、ホームを歩く時間を少なくできます。",
@@ -772,6 +796,10 @@
           "readingHiragana": "あるける",
           "meaning": "Potential form of 歩く: to walk",
           "exampleSentences": [
+            {
+              "ja": "暑い夏の東京を歩くと、日傘を使う人はよく見かけます。",
+              "en": "On a hot Tokyo summer day, you often see people using parasols."
+            },
             {
               "ja": "たとえば、大きな駅で次の電車に乗り換えるとき、「何両目に乗ると近いか」がわかると、ホームを歩く時間を少なくできます。",
               "en": "This can save walking time when transferring at a large station."
@@ -1103,6 +1131,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "暑い夏の東京を歩くと、日傘を使う人はよく見かけます。",
+          "en": "On a hot Tokyo summer day, you often see people using parasols."
+        },
+        {
           "ja": "暑い日が増える中、熱中症を防ぐための通知アプリを使う会社や学校が増えています。",
           "en": "As hot days increase, more companies and schools are using notification apps to prevent heatstroke."
         },
@@ -1304,7 +1336,20 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "男性では、帽子のほうがサングラスより多く見られました。",
+          "en": "Just 6.5% of women and 8.5% of men wore sunglasses—both below 10%. Parasols were the most common item for women, and hats were more common than sunglasses for men."
+        },
+        {
+          "ja": "ただし、日傘や帽子も日光を避ける助けになります。",
+          "en": "The study says awareness of sunglasses’ UV protection for the eyes may not have been high enough. Still, parasols and hats also help people avoid sunlight, so not wearing sunglasses does not mean a person takes no precautions."
+        },
+        {
+          "ja": "それでも、強い日差しの中で日傘や帽子を選ぶ東京の夏の風景を考える、よいヒントになります。",
+          "en": "Even so, it is a useful clue to a Tokyo summer scene where parasols and hats may be chosen over sunglasses."
+        }
+      ]
     },
     {
       "id": "core-9257c8ad161eeb",
@@ -1501,6 +1546,10 @@
           "readingHiragana": "ちがって",
           "meaning": "Te-form of 違う: to differ (from)",
           "exampleSentences": [
+            {
+              "ja": "同じ日よけでも、選ばれる物は違っていたのです。",
+              "en": "Just 6.5% of women and 8.5% of men wore sunglasses—both below 10%. Parasols were the most common item for women, and hats were more common than sunglasses for men."
+            },
             {
               "ja": "レベルが違っても一緒に楽しめるので、初心者にも人気があります。",
               "en": "Because people of different levels can enjoy it together, it is also popular with beginners."
@@ -2450,6 +2499,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "どちらも10％に届きません。",
+          "en": "Just 6.5% of women and 8.5% of men wore sunglasses—both below 10%. Parasols were the most common item for women, and hats were more common than sunglasses for men."
+        },
         {
           "ja": "どちらのサービスでも、時刻表と運行情報を確認できます。",
           "en": "Both services offer timetables and service information."
@@ -4648,24 +4701,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "今日も混む路線はありますが、昔のように「押し屋」というアルバイトが東京の通勤の象徴として語られることは少なくなりました。",
-          "en": "Railways later added lines, trains, and train cars, while station work also changed with new systems. Some lines are still crowded today, but oshiya are now far less of a symbol of Tokyo commuting."
+          "ja": "暑い夏の東京を歩くと、日傘を使う人はよく見かけます。",
+          "en": "On a hot Tokyo summer day, you often see people using parasols."
         },
         {
-          "ja": "この言葉を覚えると、日本の満員電車についての昔の写真や記事がわかりやすくなります。",
-          "en": "Knowing this word helps you understand old photos and articles about packed Japanese trains. It is not behaviour to copy: follow station staff and wait for the next train when needed. Oshiya is a historical word from a time of rapid urban growth."
+          "ja": "一方、女性では日傘がいちばんよく使われていました。",
+          "en": "Just 6.5% of women and 8.5% of men wore sunglasses—both below 10%. Parasols were the most common item for women, and hats were more common than sunglasses for men."
         },
         {
-          "ja": "ただし、「押す」は日常の電車でまねをする行動ではありません。",
-          "en": "Knowing this word helps you understand old photos and articles about packed Japanese trains. It is not behaviour to copy: follow station staff and wait for the next train when needed. Oshiya is a historical word from a time of rapid urban growth."
+          "ja": "同じ日よけでも、選ばれる物は違っていたのです。",
+          "en": "Just 6.5% of women and 8.5% of men wore sunglasses—both below 10%. Parasols were the most common item for women, and hats were more common than sunglasses for men."
         },
         {
-          "ja": "日本で電車に乗るときは、乗換案内アプリがあるととても便利です。",
-          "en": "A route-search app is very useful when taking trains in Japan."
+          "ja": "ただし、日傘や帽子も日光を避ける助けになります。",
+          "en": "The study says awareness of sunglasses’ UV protection for the eyes may not have been high enough. Still, parasols and hats also help people avoid sunlight, so not wearing sunglasses does not mean a person takes no precautions."
         },
         {
-          "ja": "いつも使う路線を登録しておけば、問題がある日に気づきやすくなります。",
-          "en": "Registering a regular line makes problems easier to notice."
+          "ja": "それでも、強い日差しの中で日傘や帽子を選ぶ東京の夏の風景を考える、よいヒントになります。",
+          "en": "Even so, it is a useful clue to a Tokyo summer scene where parasols and hats may be chosen over sunglasses."
         }
       ]
     },
@@ -4723,24 +4776,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "暑い夏の東京を歩くと、日傘を使う人はよく見かけます。",
+          "en": "On a hot Tokyo summer day, you often see people using parasols."
+        },
+        {
+          "ja": "今の東京全体で、どれくらいの人がサングラスをかけるかは、この調査だけではわかりません。",
+          "en": "It cannot tell us today’s citywide rate."
+        },
+        {
+          "ja": "それでも、強い日差しの中で日傘や帽子を選ぶ東京の夏の風景を考える、よいヒントになります。",
+          "en": "Even so, it is a useful clue to a Tokyo summer scene where parasols and hats may be chosen over sunglasses."
+        },
+        {
           "ja": "昔の東京には、「押し屋」と呼ばれるアルバイトがありました。",
           "en": "In the past, Tokyo had a part-time job called oshiya, literally a pusher. During the morning rush, these workers helped push people into packed trains so the doors could close. The name shows how intense the crowding was."
         },
         {
           "ja": "戦後、東京の人口は増え、多くの人が郊外から都心へ通勤するようになりました。",
           "en": "The first part-time oshiya are said to have started at JNR’s Shinjuku Station in October 1955. After the war, Tokyo’s population grew and many people commuted from the suburbs to the city center."
-        },
-        {
-          "ja": "今日も混む路線はありますが、昔のように「押し屋」というアルバイトが東京の通勤の象徴として語られることは少なくなりました。",
-          "en": "Railways later added lines, trains, and train cars, while station work also changed with new systems. Some lines are still crowded today, but oshiya are now far less of a symbol of Tokyo commuting."
-        },
-        {
-          "ja": "時間、運賃、乗り換えの回数を比べられるので、複雑な東京の鉄道でも移動しやすくなります。",
-          "en": "You can compare time, fare, and number of transfers."
-        },
-        {
-          "ja": "JR東日本の対象路線では、カードのSuicaでも、スマホのモバイルSuicaでも、Suicaグリーン券を使えます。",
-          "en": "On eligible JR East lines, you can use a physical Suica card or Mobile Suica."
         }
       ]
     },
@@ -5001,7 +5054,12 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "週末の昼、合わせて2,338人を見ました。",
+          "en": "In the summer of 2010, researchers observed pedestrians in Ginza, Asakusa, Shibuya, Shinjuku, and Ikebukuro. They watched 2,338 people during weekend midday hours, when UV levels were high or very high."
+        }
+      ]
     },
     {
       "id": "core-1520e0a9c51637",
@@ -5033,24 +5091,24 @@
       "tags": [],
       "exampleSentences": [
         {
-          "ja": "朝の満員電車で、ホームにいる人を車内へ押し、ドアが閉まるように手伝う仕事です。",
-          "en": "In the past, Tokyo had a part-time job called oshiya, literally a pusher. During the morning rush, these workers helped push people into packed trains so the doors could close. The name shows how intense the crowding was."
+          "ja": "暑い夏の東京を歩くと、日傘を使う人はよく見かけます。",
+          "en": "On a hot Tokyo summer day, you often see people using parasols."
         },
         {
-          "ja": "戦後、東京の人口は増え、多くの人が郊外から都心へ通勤するようになりました。",
-          "en": "The first part-time oshiya are said to have started at JNR’s Shinjuku Station in October 1955. After the war, Tokyo’s population grew and many people commuted from the suburbs to the city center."
+          "ja": "しかし、サングラスをかける人は、それほど多くないように見えます。",
+          "en": "But sunglasses seem much less common."
         },
         {
-          "ja": "押し屋は、だれでも自由に人を押していたわけではありません。",
-          "en": "Oshiya did not simply push people however they wanted. They worked near railway staff to help make departure possible. Even so, packed trains must have been very difficult for passengers."
+          "ja": "2010年の夏、研究者は銀座、浅草、渋谷、新宿、池袋で歩いている人を観察しました。",
+          "en": "In the summer of 2010, researchers observed pedestrians in Ginza, Asakusa, Shibuya, Shinjuku, and Ikebukuro. They watched 2,338 people during weekend midday hours, when UV levels were high or very high."
         },
         {
-          "ja": "それでも、満員の車内は乗る人にとってとても大変な環境だったに違いありません。",
-          "en": "Oshiya did not simply push people however they wanted. They worked near railway staff to help make departure possible. Even so, packed trains must have been very difficult for passengers."
+          "ja": "週末の昼、合わせて2,338人を見ました。",
+          "en": "In the summer of 2010, researchers observed pedestrians in Ginza, Asakusa, Shibuya, Shinjuku, and Ikebukuro. They watched 2,338 people during weekend midday hours, when UV levels were high or very high."
         },
         {
-          "ja": "1人の選手が1試合で3点を取ることを、ハットトリックと言います。",
-          "en": "Three goals by one player in a match are called a hat trick."
+          "ja": "この調査は、サングラスが目を紫外線から守ることを知っている人が、十分ではないかもしれないと述べています。",
+          "en": "The study says awareness of sunglasses’ UV protection for the eyes may not have been high enough. Still, parasols and hats also help people avoid sunlight, so not wearing sunglasses does not mean a person takes no precautions."
         }
       ]
     },
@@ -5120,6 +5178,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "これは本当なのでしょうか。",
+          "en": "Is that really true?"
+        },
+        {
           "ja": "その後、鉄道は路線を増やし、列車の本数や車両も増やしてきました。",
           "en": "Railways later added lines, trains, and train cars, while station work also changed with new systems. Some lines are still crowded today, but oshiya are now far less of a symbol of Tokyo commuting."
         },
@@ -5134,10 +5196,6 @@
         {
           "ja": "JR東日本の対象路線では、カードのSuicaでも、スマホのモバイルSuicaでも、Suicaグリーン券を使えます。",
           "en": "On eligible JR East lines, you can use a physical Suica card or Mobile Suica."
-        },
-        {
-          "ja": "車内改札は基本的に省略されます。",
-          "en": "Enter the Green Car and choose a seat. Tap the card or phone on the reader above it. When the lamp changes from red to green, use that seat. Ticket inspection is generally skipped."
         }
       ]
     },
@@ -5170,6 +5228,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "これは本当なのでしょうか。",
+          "en": "Is that really true?"
+        },
         {
           "ja": "日本は「アメリカは本当に日本を守ってくれるのか」と考えるからです。",
           "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
@@ -5239,6 +5301,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "一方、女性では日傘がいちばんよく使われていました。",
+          "en": "Just 6.5% of women and 8.5% of men wore sunglasses—both below 10%. Parasols were the most common item for women, and hats were more common than sunglasses for men."
+        },
+        {
           "ja": "よく知られているサービスの一つが、NAVITIMEの「乗換NAVITIME」です。",
           "en": "One well-known service is NAVITIME’s Norikae NAVITIME."
         },
@@ -5252,10 +5318,6 @@
         },
         {
           "ja": "一枚のSuicaグリーン券は、1人、1回の乗車のためのものです。",
-          "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
-        },
-        {
-          "ja": "友だちの分まで、一枚のカードや一台のスマホで買うことはできません。",
           "en": "One Suica Green Ticket is for one person and one ride. You cannot buy tickets for friends with the same card or phone. Tap again after moving seats, and tap before changing trains and again on the next train."
         }
       ]
@@ -5391,6 +5453,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "2010年の夏、研究者は銀座、浅草、渋谷、新宿、池袋で歩いている人を観察しました。",
+          "en": "In the summer of 2010, researchers observed pedestrians in Ginza, Asakusa, Shibuya, Shinjuku, and Ikebukuro. They watched 2,338 people during weekend midday hours, when UV levels were high or very high."
+        },
         {
           "ja": "新宿、池袋、東京などの大きな駅には、とくに多くの人が集まります。",
           "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
@@ -5636,6 +5702,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "今の東京全体で、どれくらいの人がサングラスをかけるかは、この調査だけではわかりません。",
+          "en": "It cannot tell us today’s citywide rate."
+        },
+        {
           "ja": "今では少し驚くような名前ですが、当時の激しい混雑を表す言葉でもあります。",
           "en": "In the past, Tokyo had a part-time job called oshiya, literally a pusher. During the morning rush, these workers helped push people into packed trains so the doors could close. The name shows how intense the crowding was."
         },
@@ -5650,10 +5720,6 @@
         {
           "ja": "画面の路線図では、今いる場所と進む方向がわかります。",
           "en": "The route map shows where the train is and which way it is going."
-        },
-        {
-          "ja": "今では、E233系などの車内の液晶が、到着駅、所要時間、出口、遅延などを伝えています。",
-          "en": "JR East began this kind of LCD guidance on new Yamanote Line trains in 2002. Today, displays on trains such as the E233 series provide arrival, travel-time, exit, and delay information—a small guide for the journey."
         }
       ]
     },
@@ -6989,6 +7055,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "今の東京全体で、どれくらいの人がサングラスをかけるかは、この調査だけではわかりません。",
+          "en": "It cannot tell us today’s citywide rate."
+        },
+        {
           "ja": "つまり、ただ「だいたいこのへん」で止めているのではなく、かなり具体的な目標に合わせているのです。",
           "en": "In other words, the train is not stopped at some rough guess; it is lined up with a very specific target."
         },
@@ -7003,10 +7073,6 @@
         {
           "ja": "2002年に完成したとき、全体の費用は4400億円をこえていて、そのときの借金が今の運賃にも影響しています。",
           "en": "When the line was completed in 2002, the total cost exceeded 440 billion yen, and those debts still affect fares today."
-        },
-        {
-          "ja": "でも、大きな駅どうしの位置関係を先に覚えると、全体の地図が少しずつ見えやすくなります。",
-          "en": "But if you first learn the relative positions of the major stations, the overall map becomes easier to picture little by little."
         }
       ]
     },
@@ -7171,7 +7237,24 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "暑い夏の東京を歩くと、日傘を使う人はよく見かけます。",
+          "en": "On a hot Tokyo summer day, you often see people using parasols."
+        },
+        {
+          "ja": "一方、女性では日傘がいちばんよく使われていました。",
+          "en": "Just 6.5% of women and 8.5% of men wore sunglasses—both below 10%. Parasols were the most common item for women, and hats were more common than sunglasses for men."
+        },
+        {
+          "ja": "ただし、日傘や帽子も日光を避ける助けになります。",
+          "en": "The study says awareness of sunglasses’ UV protection for the eyes may not have been high enough. Still, parasols and hats also help people avoid sunlight, so not wearing sunglasses does not mean a person takes no precautions."
+        },
+        {
+          "ja": "それでも、強い日差しの中で日傘や帽子を選ぶ東京の夏の風景を考える、よいヒントになります。",
+          "en": "Even so, it is a useful clue to a Tokyo summer scene where parasols and hats may be chosen over sunglasses."
+        }
+      ]
     },
     {
       "id": "core-1942179970a2da",
@@ -7252,6 +7335,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "一方、女性では日傘がいちばんよく使われていました。",
+          "en": "Just 6.5% of women and 8.5% of men wore sunglasses—both below 10%. Parasols were the most common item for women, and hats were more common than sunglasses for men."
+        },
+        {
           "ja": "出発駅と到着駅、または行きたい場所を入れると、アプリがいくつかの行き方を出します。",
           "en": "Enter your departure and destination, and it gives you several routes."
         },
@@ -7266,10 +7353,6 @@
         {
           "ja": "画面の路線図では、今いる場所と進む方向がわかります。",
           "en": "The route map shows where the train is and which way it is going."
-        },
-        {
-          "ja": "もちろん最後は運転士が確認しますが、人と装置の両方でずれを小さくしているわけです。",
-          "en": "Of course, the driver still makes the final check, but both people and equipment work together to keep errors small."
         }
       ]
     },
@@ -7537,6 +7620,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "それでも、強い日差しの中で日傘や帽子を選ぶ東京の夏の風景を考える、よいヒントになります。",
+          "en": "Even so, it is a useful clue to a Tokyo summer scene where parasols and hats may be chosen over sunglasses."
+        },
+        {
           "ja": "何気ない通勤の風景にも、見えにくい工夫がたくさんかくれているのです。",
           "en": "Even in an everyday commuting scene, many hard-to-see innovations are hidden."
         },
@@ -7551,10 +7638,6 @@
         {
           "ja": "二つの台風が日本の南の海で同時に動いています。",
           "en": "On the night of June 26, the Japan Meteorological Agency released information on Typhoon No. 7, Mekkhala, and Typhoon No. 8, Higos. The two typhoons are moving at the same time over the sea south of Japan."
-        },
-        {
-          "ja": "台風7号は21時の時点で、奄美や沖縄に近い東の海上にありました。",
-          "en": "As of 9 p.m., Typhoon No. 7 was over waters east of areas near Amami and Okinawa. The forecast says it may move close to the Kanto region by the night of June 27."
         }
       ]
     },
@@ -9494,6 +9577,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "その時の紫外線の強さは、高い、またはとても高いレベルでした。",
+          "en": "In the summer of 2010, researchers observed pedestrians in Ginza, Asakusa, Shibuya, Shinjuku, and Ikebukuro. They watched 2,338 people during weekend midday hours, when UV levels were high or very high."
+        },
+        {
           "ja": "出発駅と到着駅、または行きたい場所を入れると、アプリがいくつかの行き方を出します。",
           "en": "Enter your departure and destination, and it gives you several routes."
         },
@@ -9508,10 +9595,6 @@
         {
           "ja": "また、東京メトロの多くの路線は、ほかの会社の鉄道と相互直通運転をしています。",
           "en": "But a subway is not always underground for its whole route. Part of a line can come above ground. Many Tokyo Metro lines also run directly onto other companies’ railways, so one electric train may continue from a subway section to a private-railway section."
-        },
-        {
-          "ja": "また、これは乗る人だけを数えた数字です。",
-          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
         }
       ]
     },
@@ -9691,6 +9774,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "この調査は、サングラスが目を紫外線から守ることを知っている人が、十分ではないかもしれないと述べています。",
+          "en": "The study says awareness of sunglasses’ UV protection for the eyes may not have been high enough. Still, parasols and hats also help people avoid sunlight, so not wearing sunglasses does not mean a person takes no precautions."
+        },
+        {
           "ja": "目的は、危ないドア付近の状態を整え、列車を発車させることでした。",
           "en": "Oshiya did not simply push people however they wanted. They worked near railway staff to help make departure possible. Even so, packed trains must have been very difficult for passengers."
         },
@@ -9705,10 +9792,6 @@
         {
           "ja": "サカは87分にPKを決めて、この日3点目を取りました。",
           "en": "Saka scored a penalty in the 87th minute for his third goal."
-        },
-        {
-          "ja": "さらに後半の追加時間に、ジュード・ベリンガムがイングランドの6点目を決めました。",
-          "en": "Jude Bellingham then scored England’s sixth goal in second-half stoppage time."
         }
       ]
     },
@@ -10636,6 +10719,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "それでも、強い日差しの中で日傘や帽子を選ぶ東京の夏の風景を考える、よいヒントになります。",
+          "en": "Even so, it is a useful clue to a Tokyo summer scene where parasols and hats may be chosen over sunglasses."
+        },
+        {
           "ja": "両チームは、決勝に進めなかった悔しさがある中で、たくさんのゴールを見せました。",
           "en": "England beat France 6-4 in the World Cup third-place playoff in Miami on July 18. The match is played by the two teams that lost in the semifinals. Despite missing the final, both sides produced many goals."
         },
@@ -10650,10 +10737,6 @@
         {
           "ja": "豊洲の1店から始まった変化は、いまでは日本中の日常を支える当たり前の景色になっています。",
           "en": "What began with one store in Toyosu has turned into an ordinary part of life all across Japan."
-        },
-        {
-          "ja": "つまりV2Xは、未来の実験だけでなく、すでに日常の運転の中にも入っているのです。",
-          "en": "When people hear the term V2X, many imagine the future of self-driving cars. But in Japan, systems that send road information to cars have already been in use for quite a long time. In other words, V2X is not only a future experiment. It is already part of everyday driving."
         }
       ]
     },
@@ -11111,6 +11194,14 @@
           "meaning": "Polite form of なる: to become",
           "exampleSentences": [
             {
+              "ja": "ただし、日傘や帽子も日光を避ける助けになります。",
+              "en": "The study says awareness of sunglasses’ UV protection for the eyes may not have been high enough. Still, parasols and hats also help people avoid sunlight, so not wearing sunglasses does not mean a person takes no precautions."
+            },
+            {
+              "ja": "それでも、強い日差しの中で日傘や帽子を選ぶ東京の夏の風景を考える、よいヒントになります。",
+              "en": "Even so, it is a useful clue to a Tokyo summer scene where parasols and hats may be chosen over sunglasses."
+            },
+            {
               "ja": "この言葉を覚えると、日本の満員電車についての昔の写真や記事がわかりやすくなります。",
               "en": "Knowing this word helps you understand old photos and articles about packed Japanese trains. It is not behaviour to copy: follow station staff and wait for the next train when needed. Oshiya is a historical word from a time of rapid urban growth."
             },
@@ -11121,14 +11212,6 @@
             {
               "ja": "いつも使う路線を登録しておけば、問題がある日に気づきやすくなります。",
               "en": "Registering a regular line makes problems easier to notice."
-            },
-            {
-              "ja": "地下鉄も電車の一つだと覚えると、この二つの言葉はわかりやすくなります。",
-              "en": "Remember: a subway train is also a densha."
-            },
-            {
-              "ja": "次の数駅をまとめて見られるので、降りる準備もしやすくなります。",
-              "en": "Seeing several upcoming stations together makes it easier to prepare to get off."
             }
           ]
         },
@@ -11269,16 +11352,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "暑い夏の東京を歩くと、日傘を使う人はよく見かけます。",
+          "en": "On a hot Tokyo summer day, you often see people using parasols."
+        },
+        {
+          "ja": "2010年の夏、研究者は銀座、浅草、渋谷、新宿、池袋で歩いている人を観察しました。",
+          "en": "In the summer of 2010, researchers observed pedestrians in Ginza, Asakusa, Shibuya, Shinjuku, and Ikebukuro. They watched 2,338 people during weekend midday hours, when UV levels were high or very high."
+        },
+        {
+          "ja": "それでも、強い日差しの中で日傘や帽子を選ぶ東京の夏の風景を考える、よいヒントになります。",
+          "en": "Even so, it is a useful clue to a Tokyo summer scene where parasols and hats may be chosen over sunglasses."
+        },
+        {
           "ja": "これから本格的な夏に向けて、どこまで効果があるかが注目されています。",
           "en": "As full summer approaches, people are watching closely to see how effective they will be."
         },
         {
           "ja": "会社によると、夏の暑い時期には冷房のためにたくさんの電力が必要になります。",
           "en": "According to the company, a lot of electricity is needed for air conditioning during hot summer periods."
-        },
-        {
-          "ja": "観光地のホテルでは、これから夏休みの忙しい時期を前に、さらに導入を進める計画です。",
-          "en": "Hotels in tourist areas plan to increase adoption further before the busy summer vacation season."
         }
       ]
     },
@@ -12582,6 +12673,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "サングラスをかけていた女性は6.",
+          "en": "Just 6.5% of women and 8.5% of men wore sunglasses—both below 10%. Parasols were the most common item for women, and hats were more common than sunglasses for men."
+        },
+        {
+          "ja": "一方、女性では日傘がいちばんよく使われていました。",
+          "en": "Just 6.5% of women and 8.5% of men wore sunglasses—both below 10%. Parasols were the most common item for women, and hats were more common than sunglasses for men."
+        },
+        {
           "ja": "オーストラリアのシドニーにあるクージー・ビーチで、35歳の女性がサメにかまれました。",
           "en": "At Coogee Beach in Sydney, Australia, a 35-year-old woman was bitten by a shark."
         },
@@ -12592,14 +12691,6 @@
         {
           "ja": "女性は大けがをして、ヘリコプターで病院へ運ばれました。",
           "en": "The woman was seriously injured and was taken to a hospital by helicopter."
-        },
-        {
-          "ja": "近くにいた24歳のライフセーバーが、海へ入って女性をボードに乗せました。",
-          "en": "A 24-year-old lifesaver nearby entered the water and put the woman on a board."
-        },
-        {
-          "ja": "女性の家族は、医療費などを支えるために寄付を集めています。",
-          "en": "The woman's family is collecting donations to help with medical costs and other needs."
         }
       ]
     },
@@ -12618,6 +12709,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "同じ日よけでも、選ばれる物は違っていたのです。",
+          "en": "Just 6.5% of women and 8.5% of men wore sunglasses—both below 10%. Parasols were the most common item for women, and hats were more common than sunglasses for men."
+        },
+        {
           "ja": "モバイルSuicaなら、スマホのアプリで同じように乗車駅と降車駅を選んで買えます。",
           "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
         },
@@ -12632,10 +12727,6 @@
         {
           "ja": "会社ごとの輸送人員、駅ごとの乗車人員、乗り降りした人の合計は、同じではありません。",
           "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
-        },
-        {
-          "ja": "それでも同じ位置に止めるのは、駅に目印と手順があるからです。",
-          "en": "Even so, trains stop in the same place because stations have markers and procedures."
         }
       ]
     },
@@ -13126,7 +13217,16 @@
       "sourceLabel": "Core N5 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n5-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "5％、男性は8.",
+          "en": "Just 6.5% of women and 8.5% of men wore sunglasses—both below 10%. Parasols were the most common item for women, and hats were more common than sunglasses for men."
+        },
+        {
+          "ja": "男性では、帽子のほうがサングラスより多く見られました。",
+          "en": "Just 6.5% of women and 8.5% of men wore sunglasses—both below 10%. Parasols were the most common item for women, and hats were more common than sunglasses for men."
+        }
+      ]
     },
     {
       "id": "core-f2e29972485541",
@@ -14516,6 +14616,10 @@
           "meaning": "Te-form of 知る: to be aware of, to know",
           "exampleSentences": [
             {
+              "ja": "この調査は、サングラスが目を紫外線から守ることを知っている人が、十分ではないかもしれないと述べています。",
+              "en": "The study says awareness of sunglasses’ UV protection for the eyes may not have been high enough. Still, parasols and hats also help people avoid sunlight, so not wearing sunglasses does not mean a person takes no precautions."
+            },
+            {
               "ja": "ETCを知っているだけで、東京の道路がどう動いているか、少し見えやすくなります。",
               "en": "Just understanding ETC makes it easier to see how Tokyo’s roads actually work."
             },
@@ -14530,10 +14634,6 @@
             {
               "ja": "羽田空港から京急線に乗るとき、いちばん役に立つコツの一つは、自分の目的地が品川へ向かう側にあるのか、横浜へ向かう側にあるのかを、先に知っておくことです。",
               "en": "One of the most useful tips when riding the Keikyu Line from Haneda Airport is to know in advance whether your destination is on the side heading toward Shinagawa or the side heading toward Yokohama."
-            },
-            {
-              "ja": "ドライバーは画面で混み具合や通行止めを知ることができ、より楽な経路を選びやすくなります。",
-              "en": "Drivers can see crowded areas and road closures on the screen and choose easier routes."
             }
           ]
         },
@@ -14770,6 +14870,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "その時の紫外線の強さは、高い、またはとても高いレベルでした。",
+          "en": "In the summer of 2010, researchers observed pedestrians in Ginza, Asakusa, Shibuya, Shinjuku, and Ikebukuro. They watched 2,338 people during weekend midday hours, when UV levels were high or very high."
+        },
+        {
+          "ja": "この調査は、サングラスが目を紫外線から守ることを知っている人が、十分ではないかもしれないと述べています。",
+          "en": "The study says awareness of sunglasses’ UV protection for the eyes may not have been high enough. Still, parasols and hats also help people avoid sunlight, so not wearing sunglasses does not mean a person takes no precautions."
+        },
+        {
           "ja": "戦後、東京の人口は増え、多くの人が郊外から都心へ通勤するようになりました。",
           "en": "The first part-time oshiya are said to have started at JNR’s Shinjuku Station in October 1955. After the war, Tokyo’s population grew and many people commuted from the suburbs to the city center."
         },
@@ -14780,14 +14888,6 @@
         {
           "ja": "だから、セブン-イレブンが日本にコンビニを「持ってきた」と言っても、ただ外国の仕組みを運んだだけではありません。",
           "en": "So even if we say Seven-Eleven “brought” convenience stores to Japan, it did not simply carry over a foreign system unchanged."
-        },
-        {
-          "ja": "外国ではクラクションや手であいさつすることが多い場所もありますが、日本では大きな音を出さない形のほうが合いやすいのかもしれません。",
-          "en": "In some other countries, people more often use the horn or wave with their hand, but in Japan a quieter form may fit better."
-        },
-        {
-          "ja": "空港から都心へ向かうときや、郊外へ出かけるときにETCがないと、経路や支払いで不便を感じやすくなります。",
-          "en": "If you do not have ETC when heading from the airport into central Tokyo or driving out to the suburbs, payment and route choices can become inconvenient."
         }
       ]
     },
@@ -15077,24 +15177,24 @@
           "meaning": "Plain past form of する: to do",
           "exampleSentences": [
             {
-              "ja": "昔の東京には、「押し屋」と呼ばれるアルバイトがありました。",
-              "en": "In the past, Tokyo had a part-time job called oshiya, literally a pusher. During the morning rush, these workers helped push people into packed trains so the doors could close. The name shows how intense the crowding was."
+              "ja": "2010年の夏、研究者は銀座、浅草、渋谷、新宿、池袋で歩いている人を観察しました。",
+              "en": "In the summer of 2010, researchers observed pedestrians in Ginza, Asakusa, Shibuya, Shinjuku, and Ikebukuro. They watched 2,338 people during weekend midday hours, when UV levels were high or very high."
             },
             {
-              "ja": "戦後、東京の人口は増え、多くの人が郊外から都心へ通勤するようになりました。",
-              "en": "The first part-time oshiya are said to have started at JNR’s Shinjuku Station in October 1955. After the war, Tokyo’s population grew and many people commuted from the suburbs to the city center."
+              "ja": "週末の昼、合わせて2,338人を見ました。",
+              "en": "In the summer of 2010, researchers observed pedestrians in Ginza, Asakusa, Shibuya, Shinjuku, and Ikebukuro. They watched 2,338 people during weekend midday hours, when UV levels were high or very high."
             },
             {
-              "ja": "朝の駅には短い時間に大勢が集まるため、電車に全員が乗るのは簡単ではありませんでした。",
-              "en": "The first part-time oshiya are said to have started at JNR’s Shinjuku Station in October 1955. After the war, Tokyo’s population grew and many people commuted from the suburbs to the city center."
+              "ja": "その時の紫外線の強さは、高い、またはとても高いレベルでした。",
+              "en": "In the summer of 2010, researchers observed pedestrians in Ginza, Asakusa, Shibuya, Shinjuku, and Ikebukuro. They watched 2,338 people during weekend midday hours, when UV levels were high or very high."
             },
             {
-              "ja": "鉄道の係員の近くで、出発を遅らせないために働きました。",
-              "en": "Oshiya did not simply push people however they wanted. They worked near railway staff to help make departure possible. Even so, packed trains must have been very difficult for passengers."
+              "ja": "5％でした。",
+              "en": "Just 6.5% of women and 8.5% of men wore sunglasses—both below 10%. Parasols were the most common item for women, and hats were more common than sunglasses for men."
             },
             {
-              "ja": "目的は、危ないドア付近の状態を整え、列車を発車させることでした。",
-              "en": "Oshiya did not simply push people however they wanted. They worked near railway staff to help make departure possible. Even so, packed trains must have been very difficult for passengers."
+              "ja": "一方、女性では日傘がいちばんよく使われていました。",
+              "en": "Just 6.5% of women and 8.5% of men wore sunglasses—both below 10%. Parasols were the most common item for women, and hats were more common than sunglasses for men."
             }
           ]
         },
@@ -15137,6 +15237,10 @@
           "meaning": "Te-form of する: to do",
           "exampleSentences": [
             {
+              "ja": "サングラスをかけないことだけで、その人がまったく対策をしていないとは言えません。",
+              "en": "The study says awareness of sunglasses’ UV protection for the eyes may not have been high enough. Still, parasols and hats also help people avoid sunlight, so not wearing sunglasses does not mean a person takes no precautions."
+            },
+            {
               "ja": "押し屋は、だれでも自由に人を押していたわけではありません。",
               "en": "Oshiya did not simply push people however they wanted. They worked near railway staff to help make departure possible. Even so, packed trains must have been very difficult for passengers."
             },
@@ -15151,10 +15255,6 @@
             {
               "ja": "このサービスでは、駅だけでなく住所や施設を出発地・目的地にして検索できます。",
               "en": "Another option is Yahoo! Transit. You can search using an address or place as well as a station, and choose routes that are fast, easy, or cheap. It can also include buses and flights."
-            },
-            {
-              "ja": "いつも使う路線を登録しておけば、問題がある日に気づきやすくなります。",
-              "en": "Registering a regular line makes problems easier to notice."
             }
           ]
         },
@@ -15582,6 +15682,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "その時の紫外線の強さは、高い、またはとても高いレベルでした。",
+          "en": "In the summer of 2010, researchers observed pedestrians in Ginza, Asakusa, Shibuya, Shinjuku, and Ikebukuro. They watched 2,338 people during weekend midday hours, when UV levels were high or very high."
+        },
+        {
           "ja": "地上を走るか、高い場所を走るか、地下を走るかも、電車かどうかを決める条件ではありません。",
           "en": "Densha is broad: JR, private-railway, and subway cars can all be densha. The word does not depend on whether a train is above or below ground."
         },
@@ -15596,10 +15700,6 @@
         {
           "ja": "もし株価が高いままなら、会社から追加の株を買って約束を満たします。",
           "en": "If the share price stays high, they buy additional shares from the company to meet their commitment."
-        },
-        {
-          "ja": "スペースXのように注目度が高い会社では、上場直後の値動きが激しくなりやすいです。",
-          "en": "For a highly watched company like SpaceX, price movements just after listing can easily become intense."
         }
       ]
     },
@@ -16446,6 +16546,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "2010年の夏、研究者は銀座、浅草、渋谷、新宿、池袋で歩いている人を観察しました。",
+          "en": "In the summer of 2010, researchers observed pedestrians in Ginza, Asakusa, Shibuya, Shinjuku, and Ikebukuro. They watched 2,338 people during weekend midday hours, when UV levels were high or very high."
+        },
+        {
+          "ja": "もちろん、この結果は2010年の都心だけのものです。",
+          "en": "Of course, this result covers only central Tokyo in 2010."
+        },
+        {
           "ja": "最初のアルバイトの押し屋は、1955年10月に国鉄の新宿駅で働き始めたとされています。",
           "en": "The first part-time oshiya are said to have started at JNR’s Shinjuku Station in October 1955. After the war, Tokyo’s population grew and many people commuted from the suburbs to the city center."
         },
@@ -16456,14 +16564,6 @@
         {
           "ja": "東京メトロだけでも、2025年度には1日平均で約704万人を運びました。",
           "en": "Tokyo Metro alone carried about 7.04 million passenger journeys per day in fiscal 2025. This is one company’s figure, so JR and other private railways are not included."
-        },
-        {
-          "ja": "東京都の人口は、2026年6月の推計で約1,430万人です。",
-          "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
-        },
-        {
-          "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
-          "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
         }
       ]
     },
@@ -16663,6 +16763,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "その時の紫外線の強さは、高い、またはとても高いレベルでした。",
+          "en": "In the summer of 2010, researchers observed pedestrians in Ginza, Asakusa, Shibuya, Shinjuku, and Ikebukuro. They watched 2,338 people during weekend midday hours, when UV levels were high or very high."
+        },
+        {
           "ja": "それでも、満員の車内は乗る人にとってとても大変な環境だったに違いありません。",
           "en": "Oshiya did not simply push people however they wanted. They worked near railway staff to help make departure possible. Even so, packed trains must have been very difficult for passengers."
         },
@@ -16677,10 +16781,6 @@
         {
           "ja": "指定席でも、このやり方がとても便利です。",
           "en": "This is very convenient even for reserved seats."
-        },
-        {
-          "ja": "とても小さな行動ですが、道を少しやわらかい空気にする力があります。",
-          "en": "It is a very small action, but it can make the mood on the road a little softer."
         }
       ]
     },
@@ -16799,6 +16899,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "暑い夏の東京を歩くと、日傘を使う人はよく見かけます。",
+          "en": "On a hot Tokyo summer day, you often see people using parasols."
+        },
+        {
           "ja": "いつも使う路線を登録しておけば、問題がある日に気づきやすくなります。",
           "en": "Registering a regular line makes problems easier to notice."
         },
@@ -16813,10 +16917,6 @@
         {
           "ja": "次の駅で使う路線や、ドアが開く側を案内する画面もあります。",
           "en": "It is useful for transfers too. If you know how many minutes remain before a large interchange station, you can decide whether to hurry. Some screens also show connecting lines and which side the doors will open on."
-        },
-        {
-          "ja": "JR東日本は、2002年に山手線の新しい車両で、このような液晶を使う案内を始めました。",
-          "en": "JR East began this kind of LCD guidance on new Yamanote Line trains in 2002. Today, displays on trains such as the E233 series provide arrival, travel-time, exit, and delay information—a small guide for the journey."
         }
       ],
       "partOfSpeech": "verb",
@@ -16835,6 +16935,10 @@
               "en": "In conversation, you might say “go by train to the station” or “transfer to the subway."
             },
             {
+              "ja": "暑い夏の東京を歩くと、日傘を使う人はよく見かけます。",
+              "en": "On a hot Tokyo summer day, you often see people using parasols."
+            },
+            {
               "ja": "いつも使う路線を登録しておけば、問題がある日に気づきやすくなります。",
               "en": "Registering a regular line makes problems easier to notice."
             },
@@ -16845,10 +16949,6 @@
             {
               "ja": "カード型のSuicaを使う場合は、乗る前に駅の券売機でSuicaグリーン券を買います。",
               "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
-            },
-            {
-              "ja": "次の駅で使う路線や、ドアが開く側を案内する画面もあります。",
-              "en": "It is useful for transfers too. If you know how many minutes remain before a large interchange station, you can decide whether to hurry. Some screens also show connecting lines and which side the doors will open on."
             }
           ]
         },
@@ -16865,6 +16965,10 @@
               "en": "On the train, passengers are served boxed meals and tea made with local ingredients."
             },
             {
+              "ja": "暑い夏の東京を歩くと、日傘を使う人はよく見かけます。",
+              "en": "On a hot Tokyo summer day, you often see people using parasols."
+            },
+            {
               "ja": "いつも使う路線を登録しておけば、問題がある日に気づきやすくなります。",
               "en": "Registering a regular line makes problems easier to notice."
             },
@@ -16875,10 +16979,6 @@
             {
               "ja": "カード型のSuicaを使う場合は、乗る前に駅の券売機でSuicaグリーン券を買います。",
               "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
-            },
-            {
-              "ja": "次の駅で使う路線や、ドアが開く側を案内する画面もあります。",
-              "en": "It is useful for transfers too. If you know how many minutes remain before a large interchange station, you can decide whether to hurry. Some screens also show connecting lines and which side the doors will open on."
             }
           ]
         },
@@ -16895,6 +16995,10 @@
               "en": "Cashless payments are increasing on ferries heading to remote islands."
             },
             {
+              "ja": "暑い夏の東京を歩くと、日傘を使う人はよく見かけます。",
+              "en": "On a hot Tokyo summer day, you often see people using parasols."
+            },
+            {
               "ja": "いつも使う路線を登録しておけば、問題がある日に気づきやすくなります。",
               "en": "Registering a regular line makes problems easier to notice."
             },
@@ -16905,10 +17009,6 @@
             {
               "ja": "カード型のSuicaを使う場合は、乗る前に駅の券売機でSuicaグリーン券を買います。",
               "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
-            },
-            {
-              "ja": "次の駅で使う路線や、ドアが開く側を案内する画面もあります。",
-              "en": "It is useful for transfers too. If you know how many minutes remain before a large interchange station, you can decide whether to hurry. Some screens also show connecting lines and which side the doors will open on."
             }
           ]
         },
@@ -16967,8 +17067,8 @@
               "en": "Clear displays and explanations will also be needed so guests can use the system with confidence."
             },
             {
-              "ja": "いつも使う路線を登録しておけば、問題がある日に気づきやすくなります。",
-              "en": "Registering a regular line makes problems easier to notice."
+              "ja": "暑い夏の東京を歩くと、日傘を使う人はよく見かけます。",
+              "en": "On a hot Tokyo summer day, you often see people using parasols."
             }
           ]
         }
@@ -17405,6 +17505,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "それでも、強い日差しの中で日傘や帽子を選ぶ東京の夏の風景を考える、よいヒントになります。",
+          "en": "Even so, it is a useful clue to a Tokyo summer scene where parasols and hats may be chosen over sunglasses."
+        },
+        {
           "ja": "東京の駅が混雑していても大きく混乱しにくいのは、こうした単純で強いデザインの力があるからかもしれません。",
           "en": "One reason Tokyo stations can stay usable despite heavy crowds may be the strength of this kind of simple, effective design."
         },
@@ -17419,10 +17523,6 @@
         {
           "ja": "この動きは浅い地震を起こしやすく、地上の建物に強い被害を出すことがあります。",
           "en": "This movement can cause shallow earthquakes, which can heavily damage buildings on the surface."
-        },
-        {
-          "ja": "スウィフトは2004年に打ち上げられ、宇宙で起こる非常に強い爆発を観測してきました。",
-          "en": "Swift was launched in 2004 and has observed extremely powerful explosions in space."
         }
       ]
     },
@@ -20175,6 +20275,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "都心で行われた調査には、興味深い答えがあります。",
+          "en": "An observation study in central Tokyo has an interesting answer."
+        },
+        {
           "ja": "どちらも人を運ぶ列車ですが、同じ意味ではありません。",
           "en": "Chikatetsu is an urban railway system that mainly runs underground."
         },
@@ -20189,10 +20293,6 @@
         {
           "ja": "故障や危険の意味に見えるかもしれませんが、実際には「入れてくれてありがとう」という気持ちを表している場合があります。",
           "en": "It may look like a sign of trouble or danger, but in many cases it actually means, “Thanks for letting me in."
-        },
-        {
-          "ja": "生産者の団体によると、小さく切ったのりや、味をつけた商品がとくに売れています。",
-          "en": "According to producer groups, especially popular items are small-cut seaweed and seasoned products."
         }
       ]
     },
@@ -21318,7 +21418,16 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "5％、男性は8.",
+          "en": "Just 6.5% of women and 8.5% of men wore sunglasses—both below 10%. Parasols were the most common item for women, and hats were more common than sunglasses for men."
+        },
+        {
+          "ja": "男性では、帽子のほうがサングラスより多く見られました。",
+          "en": "Just 6.5% of women and 8.5% of men wore sunglasses—both below 10%. Parasols were the most common item for women, and hats were more common than sunglasses for men."
+        }
+      ]
     },
     {
       "id": "core-0fa7366246fad1",
@@ -21464,6 +21573,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "それでも、強い日差しの中で日傘や帽子を選ぶ東京の夏の風景を考える、よいヒントになります。",
+          "en": "Even so, it is a useful clue to a Tokyo summer scene where parasols and hats may be chosen over sunglasses."
+        },
+        {
           "ja": "カードを入れて乗車駅と降車駅を選ぶと、券の情報がカードに記録されます。",
           "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
         },
@@ -21492,6 +21605,10 @@
               "en": "Once on the train, choose a place where the bicycle will not block the doors or aisle."
             },
             {
+              "ja": "それでも、強い日差しの中で日傘や帽子を選ぶ東京の夏の風景を考える、よいヒントになります。",
+              "en": "Even so, it is a useful clue to a Tokyo summer scene where parasols and hats may be chosen over sunglasses."
+            },
+            {
               "ja": "カードを入れて乗車駅と降車駅を選ぶと、券の情報がカードに記録されます。",
               "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
             },
@@ -21510,6 +21627,10 @@
           "meaning": "Plain past form of 選ぶ: to choose, to select",
           "exampleSentences": [
             {
+              "ja": "それでも、強い日差しの中で日傘や帽子を選ぶ東京の夏の風景を考える、よいヒントになります。",
+              "en": "Even so, it is a useful clue to a Tokyo summer scene where parasols and hats may be chosen over sunglasses."
+            },
+            {
               "ja": "カードを入れて乗車駅と降車駅を選ぶと、券の情報がカードに記録されます。",
               "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
             },
@@ -21527,6 +21648,10 @@
           "readingHiragana": "えらばない",
           "meaning": "Plain negative form of 選ぶ: to choose, to select",
           "exampleSentences": [
+            {
+              "ja": "それでも、強い日差しの中で日傘や帽子を選ぶ東京の夏の風景を考える、よいヒントになります。",
+              "en": "Even so, it is a useful clue to a Tokyo summer scene where parasols and hats may be chosen over sunglasses."
+            },
             {
               "ja": "カードを入れて乗車駅と降車駅を選ぶと、券の情報がカードに記録されます。",
               "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
@@ -21554,6 +21679,10 @@
               "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
             },
             {
+              "ja": "それでも、強い日差しの中で日傘や帽子を選ぶ東京の夏の風景を考える、よいヒントになります。",
+              "en": "Even so, it is a useful clue to a Tokyo summer scene where parasols and hats may be chosen over sunglasses."
+            },
+            {
               "ja": "カードを入れて乗車駅と降車駅を選ぶと、券の情報がカードに記録されます。",
               "en": "With a physical Suica card, buy a Suica Green Ticket at a station ticket machine before boarding. Select the boarding and exit stations; the ticket information is stored on the card, with no paper ticket. The cost comes from the card’s stored balance."
             },
@@ -21574,6 +21703,10 @@
             {
               "ja": "こうして見ると、日本の鉄道は複雑そうでも、実際には目的に合わせて細かく選べるようになっています。",
               "en": "So with Shinkansen tickets, the issue is not only whether they are paper or digital, but also whether they are reserved or non-reserved. If you are not in a hurry, non-reserved may be fine. If you want to be sure you can sit, choose reserved. And if you want to pass through the gate quickly, linking to an IC card such as Suica is useful. Seen that way, Japan’s railway system may look complex, but it is actually designed to let people choose details according to their needs."
+            },
+            {
+              "ja": "それでも、強い日差しの中で日傘や帽子を選ぶ東京の夏の風景を考える、よいヒントになります。",
+              "en": "Even so, it is a useful clue to a Tokyo summer scene where parasols and hats may be chosen over sunglasses."
             },
             {
               "ja": "カードを入れて乗車駅と降車駅を選ぶと、券の情報がカードに記録されます。",
@@ -21775,6 +21908,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "都心で行われた調査には、興味深い答えがあります。",
+          "en": "An observation study in central Tokyo has an interesting answer."
+        },
         {
           "ja": "その理由の一つは、線路の多くがとても深い地下を通っていることです。",
           "en": "One reason is that much of the track runs very deep underground."
@@ -23138,6 +23275,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ただし、日傘や帽子も日光を避ける助けになります。",
+          "en": "The study says awareness of sunglasses’ UV protection for the eyes may not have been high enough. Still, parasols and hats also help people avoid sunlight, so not wearing sunglasses does not mean a person takes no precautions."
+        },
+        {
           "ja": "都心の地下を通るこのネットワークは、通勤、通学、買い物、観光などを支えています。",
           "en": "It supports commuting, school, shopping, and tourism."
         },
@@ -23152,10 +23293,6 @@
         {
           "ja": "それでも、この短い光には日本らしい運転文化がよく出ています。",
           "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
-        },
-        {
-          "ja": "忙しい通勤時間や観光客で混み合う場所でも、すばやく方向を判断できるように考えられています。",
-          "en": "They are designed so people can quickly judge direction during busy commuting hours or in areas packed with tourists."
         }
       ]
     },
@@ -24583,6 +24720,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "サングラスをかけていた女性は6.",
+          "en": "Just 6.5% of women and 8.5% of men wore sunglasses—both below 10%. Parasols were the most common item for women, and hats were more common than sunglasses for men."
+        },
+        {
+          "ja": "一方、女性では日傘がいちばんよく使われていました。",
+          "en": "Just 6.5% of women and 8.5% of men wore sunglasses—both below 10%. Parasols were the most common item for women, and hats were more common than sunglasses for men."
+        },
+        {
           "ja": "オーストラリアのシドニーにあるクージー・ビーチで、35歳の女性がサメにかまれました。",
           "en": "At Coogee Beach in Sydney, Australia, a 35-year-old woman was bitten by a shark."
         },
@@ -24593,14 +24738,6 @@
         {
           "ja": "女性は大けがをして、ヘリコプターで病院へ運ばれました。",
           "en": "The woman was seriously injured and was taken to a hospital by helicopter."
-        },
-        {
-          "ja": "近くにいた24歳のライフセーバーが、海へ入って女性をボードに乗せました。",
-          "en": "A 24-year-old lifesaver nearby entered the water and put the woman on a board."
-        },
-        {
-          "ja": "女性の家族は、医療費などを支えるために寄付を集めています。",
-          "en": "The woman's family is collecting donations to help with medical costs and other needs."
         }
       ]
     },
@@ -24642,6 +24779,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "この調査は、サングラスが目を紫外線から守ることを知っている人が、十分ではないかもしれないと述べています。",
+          "en": "The study says awareness of sunglasses’ UV protection for the eyes may not have been high enough. Still, parasols and hats also help people avoid sunlight, so not wearing sunglasses does not mean a person takes no precautions."
+        },
         {
           "ja": "ここが十分に使えないと、世界中に石油を送ることがむずかしくなります。",
           "en": "If it cannot be used fully, it becomes difficult to send oil around the world."
@@ -25262,6 +25403,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "それでも、強い日差しの中で日傘や帽子を選ぶ東京の夏の風景を考える、よいヒントになります。",
+          "en": "Even so, it is a useful clue to a Tokyo summer scene where parasols and hats may be chosen over sunglasses."
+        },
+        {
           "ja": "駅の利用者数を見るときは、何を数えた数字かを考えることが大切です。",
           "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
         },
@@ -25276,10 +25421,6 @@
         {
           "ja": "だから、りんかい線の駅で長いエスカレーターを下りるときは、東京でも特に大きくてお金のかかった鉄道計画の中を移動していると考えることができます。",
           "en": "So when you ride down the long escalators at a Rinkai Line station, you can think of yourself as moving through one of Tokyo's biggest and most expensive railway projects."
-        },
-        {
-          "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
-          "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
         }
       ],
       "partOfSpeech": "verb",
@@ -25294,6 +25435,10 @@
           "meaning": "Polite form of 考える: to think about",
           "exampleSentences": [
             {
+              "ja": "それでも、強い日差しの中で日傘や帽子を選ぶ東京の夏の風景を考える、よいヒントになります。",
+              "en": "Even so, it is a useful clue to a Tokyo summer scene where parasols and hats may be chosen over sunglasses."
+            },
+            {
               "ja": "駅の利用者数を見るときは、何を数えた数字かを考えることが大切です。",
               "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
             },
@@ -25308,10 +25453,6 @@
             {
               "ja": "だから、りんかい線の駅で長いエスカレーターを下りるときは、東京でも特に大きくてお金のかかった鉄道計画の中を移動していると考えることができます。",
               "en": "So when you ride down the long escalators at a Rinkai Line station, you can think of yourself as moving through one of Tokyo's biggest and most expensive railway projects."
-            },
-            {
-              "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
-              "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
             }
           ]
         },
@@ -25324,6 +25465,10 @@
           "meaning": "Plain past form of 考える: to think about",
           "exampleSentences": [
             {
+              "ja": "それでも、強い日差しの中で日傘や帽子を選ぶ東京の夏の風景を考える、よいヒントになります。",
+              "en": "Even so, it is a useful clue to a Tokyo summer scene where parasols and hats may be chosen over sunglasses."
+            },
+            {
               "ja": "駅の利用者数を見るときは、何を数えた数字かを考えることが大切です。",
               "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
             },
@@ -25338,10 +25483,6 @@
             {
               "ja": "だから、りんかい線の駅で長いエスカレーターを下りるときは、東京でも特に大きくてお金のかかった鉄道計画の中を移動していると考えることができます。",
               "en": "So when you ride down the long escalators at a Rinkai Line station, you can think of yourself as moving through one of Tokyo's biggest and most expensive railway projects."
-            },
-            {
-              "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
-              "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
             }
           ]
         },
@@ -25354,6 +25495,10 @@
           "meaning": "Plain negative form of 考える: to think about",
           "exampleSentences": [
             {
+              "ja": "それでも、強い日差しの中で日傘や帽子を選ぶ東京の夏の風景を考える、よいヒントになります。",
+              "en": "Even so, it is a useful clue to a Tokyo summer scene where parasols and hats may be chosen over sunglasses."
+            },
+            {
               "ja": "駅の利用者数を見るときは、何を数えた数字かを考えることが大切です。",
               "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
             },
@@ -25368,10 +25513,6 @@
             {
               "ja": "だから、りんかい線の駅で長いエスカレーターを下りるときは、東京でも特に大きくてお金のかかった鉄道計画の中を移動していると考えることができます。",
               "en": "So when you ride down the long escalators at a Rinkai Line station, you can think of yourself as moving through one of Tokyo's biggest and most expensive railway projects."
-            },
-            {
-              "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
-              "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
             }
           ]
         },
@@ -25414,6 +25555,10 @@
           "meaning": "Potential form of 考える: to think about",
           "exampleSentences": [
             {
+              "ja": "それでも、強い日差しの中で日傘や帽子を選ぶ東京の夏の風景を考える、よいヒントになります。",
+              "en": "Even so, it is a useful clue to a Tokyo summer scene where parasols and hats may be chosen over sunglasses."
+            },
+            {
               "ja": "駅の利用者数を見るときは、何を数えた数字かを考えることが大切です。",
               "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
             },
@@ -25428,10 +25573,6 @@
             {
               "ja": "だから、りんかい線の駅で長いエスカレーターを下りるときは、東京でも特に大きくてお金のかかった鉄道計画の中を移動していると考えることができます。",
               "en": "So when you ride down the long escalators at a Rinkai Line station, you can think of yourself as moving through one of Tokyo's biggest and most expensive railway projects."
-            },
-            {
-              "ja": "駅名を見たときに、「この駅はどの方向だろう」と考える習慣を持つと、初めての場所でも動きやすくなります。",
-              "en": "If you build the habit of asking, “What direction is this station in?” when you see a station name, it becomes easier to move around even in a place you have never been. When you go to an unfamiliar station, you can also make a guess from the stations around it."
             }
           ]
         }
@@ -26326,6 +26467,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "2010年の夏、研究者は銀座、浅草、渋谷、新宿、池袋で歩いている人を観察しました。",
+          "en": "In the summer of 2010, researchers observed pedestrians in Ginza, Asakusa, Shibuya, Shinjuku, and Ikebukuro. They watched 2,338 people during weekend midday hours, when UV levels were high or very high."
+        },
+        {
           "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
           "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
         },
@@ -26340,10 +26485,6 @@
         {
           "ja": "研究者たちは、15種類の最新AIを試しました。",
           "en": "The researchers tested 15 kinds of advanced AI."
-        },
-        {
-          "ja": "都市の脈を正しく読むには、まだ多くの研究が必要です。",
-          "en": "More research is still needed to read a city's pulse accurately."
         }
       ]
     },
@@ -26920,6 +27061,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "都心で行われた調査には、興味深い答えがあります。",
+          "en": "An observation study in central Tokyo has an interesting answer."
+        },
+        {
+          "ja": "もちろん、この結果は2010年の都心だけのものです。",
+          "en": "Of course, this result covers only central Tokyo in 2010."
+        },
+        {
           "ja": "戦後、東京の人口は増え、多くの人が郊外から都心へ通勤するようになりました。",
           "en": "The first part-time oshiya are said to have started at JNR’s Shinjuku Station in October 1955. After the war, Tokyo’s population grew and many people commuted from the suburbs to the city center."
         },
@@ -26930,14 +27079,6 @@
         {
           "ja": "通信が安定した場所で、早めに買っておくと安心です。",
           "en": "With Mobile Suica, choose the same stations and buy in the phone app, avoiding the ticket-machine line. The Green Ticket cannot be paid from the Suica balance; it uses a registered credit card or Google Pay. Buy early where the connection is stable."
-        },
-        {
-          "ja": "いちばん簡単に言うと、電車は電気で走る車両のこと、地下鉄は都市の地下を中心に走る鉄道のことです。",
-          "en": "Both carry people, but the words differ."
-        },
-        {
-          "ja": "都心の地下を通るこのネットワークは、通勤、通学、買い物、観光などを支えています。",
-          "en": "It supports commuting, school, shopping, and tourism."
         }
       ]
     },
@@ -27313,6 +27454,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "都心で行われた調査には、興味深い答えがあります。",
+          "en": "An observation study in central Tokyo has an interesting answer."
+        },
         {
           "ja": "ただし、アプリの答えがいつも一つだけとは限りません。",
           "en": "An app does not always have just one right answer. The fastest route may have many transfers. With luggage or at an unfamiliar station, a route with fewer transfers can be easier, even if it takes longer."
@@ -27933,7 +28078,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "2010年の夏、研究者は銀座、浅草、渋谷、新宿、池袋で歩いている人を観察しました。",
+          "en": "In the summer of 2010, researchers observed pedestrians in Ginza, Asakusa, Shibuya, Shinjuku, and Ikebukuro. They watched 2,338 people during weekend midday hours, when UV levels were high or very high."
+        }
+      ]
     },
     {
       "id": "core-fd97a04ab41e22",
@@ -28097,7 +28247,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "都心で行われた調査には、興味深い答えがあります。",
+          "en": "An observation study in central Tokyo has an interesting answer."
+        }
+      ]
     },
     {
       "id": "core-51e46cd07d9f18",
@@ -28496,6 +28651,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "その時の紫外線の強さは、高い、またはとても高いレベルでした。",
+          "en": "In the summer of 2010, researchers observed pedestrians in Ginza, Asakusa, Shibuya, Shinjuku, and Ikebukuro. They watched 2,338 people during weekend midday hours, when UV levels were high or very high."
+        },
+        {
           "ja": "出発駅と到着駅、または行きたい場所を入れると、アプリがいくつかの行き方を出します。",
           "en": "Enter your departure and destination, and it gives you several routes."
         },
@@ -28822,6 +28981,10 @@
           "meaning": "Polite form of 見える: to be seen, to be in sight",
           "exampleSentences": [
             {
+              "ja": "しかし、サングラスをかける人は、それほど多くないように見えます。",
+              "en": "But sunglasses seem much less common."
+            },
+            {
               "ja": "毎日のことなので簡単に見えますが、実際にはかなり細かい運転です。",
               "en": "Because it happens every day, it looks easy, but in reality it is a very precise operation."
             },
@@ -28836,10 +28999,6 @@
             {
               "ja": "何気ない二回の点滅は、ただのランプではなく、「わかっています、ありがとう」という返事にも見えるのです。",
               "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
-            },
-            {
-              "ja": "だから、東京で運転するとETCが「どこにでもある」ように見えるのです。",
-              "en": "That is why ETC can look as if it is everywhere when you drive in Tokyo."
             }
           ]
         },
@@ -29177,6 +29336,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "もちろん、この結果は2010年の都心だけのものです。",
+          "en": "Of course, this result covers only central Tokyo in 2010."
+        },
+        {
           "ja": "もちろん、これは「東京の半分の人が一度だけ乗る」という意味ではありません。",
           "en": "Tokyo’s estimated population was about 14.3 million in June 2026. So 7.04 million is about 49 percent—almost half. It measures journeys, not unique people: one person may ride going out and returning home."
         },
@@ -29293,6 +29456,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "この調査は、サングラスが目を紫外線から守ることを知っている人が、十分ではないかもしれないと述べています。",
+          "en": "The study says awareness of sunglasses’ UV protection for the eyes may not have been high enough. Still, parasols and hats also help people avoid sunlight, so not wearing sunglasses does not mean a person takes no precautions."
+        },
+        {
           "ja": "大きな荷物がある日や、はじめての駅へ行く日は、少し時間がかかっても乗り換えの少ないルートが楽かもしれません。",
           "en": "An app does not always have just one right answer. The fastest route may have many transfers. With luggage or at an unfamiliar station, a route with fewer transfers can be easier, even if it takes longer."
         },
@@ -29307,10 +29474,6 @@
         {
           "ja": "外国ではクラクションや手であいさつすることが多い場所もありますが、日本では大きな音を出さない形のほうが合いやすいのかもしれません。",
           "en": "In some other countries, people more often use the horn or wave with their hand, but in Japan a quieter form may fit better."
-        },
-        {
-          "ja": "東京の駅が混雑していても大きく混乱しにくいのは、こうした単純で強いデザインの力があるからかもしれません。",
-          "en": "One reason Tokyo stations can stay usable despite heavy crowds may be the strength of this kind of simple, effective design."
         }
       ]
     },
@@ -33892,6 +34055,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "その時の紫外線の強さは、高い、またはとても高いレベルでした。",
+          "en": "In the summer of 2010, researchers observed pedestrians in Ginza, Asakusa, Shibuya, Shinjuku, and Ikebukuro. They watched 2,338 people during weekend midday hours, when UV levels were high or very high."
+        },
+        {
+          "ja": "この調査は、サングラスが目を紫外線から守ることを知っている人が、十分ではないかもしれないと述べています。",
+          "en": "The study says awareness of sunglasses’ UV protection for the eyes may not have been high enough. Still, parasols and hats also help people avoid sunlight, so not wearing sunglasses does not mean a person takes no precautions."
+        },
+        {
           "ja": "その後、鉄道は路線を増やし、列車の本数や車両も増やしてきました。",
           "en": "Railways later added lines, trains, and train cars, while station work also changed with new systems. Some lines are still crowded today, but oshiya are now far less of a symbol of Tokyo commuting."
         },
@@ -33902,14 +34073,6 @@
         {
           "ja": "路線図から駅を選んで検索でき、最適な乗車位置も見られます。",
           "en": "You can search from a route map and see a recommended place to board."
-        },
-        {
-          "ja": "いつも使う路線を登録しておけば、問題がある日に気づきやすくなります。",
-          "en": "Registering a regular line makes problems easier to notice."
-        },
-        {
-          "ja": "首都圏のJRには、普通・快速列車にグリーン車がついている路線があります。",
-          "en": "Some JR lines around Tokyo have Green Cars on local and rapid trains."
         }
       ]
     },
@@ -35079,6 +35242,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "それでも、強い日差しの中で日傘や帽子を選ぶ東京の夏の風景を考える、よいヒントになります。",
+          "en": "Even so, it is a useful clue to a Tokyo summer scene where parasols and hats may be chosen over sunglasses."
+        },
+        {
           "ja": "それでも、満員の車内は乗る人にとってとても大変な環境だったに違いありません。",
           "en": "Oshiya did not simply push people however they wanted. They worked near railway staff to help make departure possible. Even so, packed trains must have been very difficult for passengers."
         },
@@ -35093,10 +35260,6 @@
         {
           "ja": "それでも、ときどき少し行きすぎることがあります。",
           "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
-        },
-        {
-          "ja": "それでも、この短い光には日本らしい運転文化がよく出ています。",
-          "en": "Even so, this short flash shows a very Japanese style of driving culture. Even on crowded roads, traffic can flow better when people show a little consideration for one another. Those casual two flashes are not just lights. They can look like a reply that says, “I understand, thank you.”"
         }
       ]
     },
@@ -35113,7 +35276,12 @@
       "sourceLabel": "Core N4 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n4-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "しかし、サングラスをかける人は、それほど多くないように見えます。",
+          "en": "But sunglasses seem much less common."
+        }
+      ]
     },
     {
       "id": "core-64d7a9c0d8407a",
@@ -42443,6 +42611,10 @@
           "meaning": "Te-form of 合わせる: to match, to join together",
           "exampleSentences": [
             {
+              "ja": "週末の昼、合わせて2,338人を見ました。",
+              "en": "In the summer of 2010, researchers observed pedestrians in Ginza, Asakusa, Shibuya, Shinjuku, and Ikebukuro. They watched 2,338 people during weekend midday hours, when UV levels were high or very high."
+            },
+            {
               "ja": "つまり、ただ「だいたいこのへん」で止めているのではなく、かなり具体的な目標に合わせているのです。",
               "en": "In other words, the train is not stopped at some rough guess; it is lined up with a very specific target."
             },
@@ -42457,10 +42629,6 @@
             {
               "ja": "JR東日本が発表した2024年度の駅ランキングでは、上位100駅の1日平均の乗車人員を合わせると、約1,200万人になります。",
               "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
-            },
-            {
-              "ja": "状況によっては、そのままにせず、後ろへゆっくり戻して正しい位置に合わせることもあります。",
-              "en": "Even so, trains sometimes go a little too far. This is called an overrun. Even if the mistake is only very small, the doors are not simply opened right away; safety checks are needed first. Depending on the situation, the train may be slowly moved backward to line up with the correct position. But this is not done casually. It is carried out according to set procedures."
             }
           ]
         },
@@ -43067,6 +43235,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "この調査は、サングラスが目を紫外線から守ることを知っている人が、十分ではないかもしれないと述べています。",
+          "en": "The study says awareness of sunglasses’ UV protection for the eyes may not have been high enough. Still, parasols and hats also help people avoid sunlight, so not wearing sunglasses does not mean a person takes no precautions."
+        },
+        {
           "ja": "アプリを地図ではなく相談相手のように使うと、自分に合う行き方を選べます。",
           "en": "An app does not always have just one right answer. The fastest route may have many transfers. With luggage or at an unfamiliar station, a route with fewer transfers can be easier, even if it takes longer."
         },
@@ -43081,10 +43253,6 @@
         {
           "ja": "フランスは4対3まで追いつきそうになり、試合は最後まで分からなくなりました。",
           "en": "France came close at 4-3, making the result uncertain until the end."
-        },
-        {
-          "ja": "サカは87分にPKを決めて、この日3点目を取りました。",
-          "en": "Saka scored a penalty in the 87th minute for his third goal."
         }
       ]
     },
@@ -43797,7 +43965,20 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "都心で行われた調査には、興味深い答えがあります。",
+          "en": "An observation study in central Tokyo has an interesting answer."
+        },
+        {
+          "ja": "この調査は、サングラスが目を紫外線から守ることを知っている人が、十分ではないかもしれないと述べています。",
+          "en": "The study says awareness of sunglasses’ UV protection for the eyes may not have been high enough. Still, parasols and hats also help people avoid sunlight, so not wearing sunglasses does not mean a person takes no precautions."
+        },
+        {
+          "ja": "今の東京全体で、どれくらいの人がサングラスをかけるかは、この調査だけではわかりません。",
+          "en": "It cannot tell us today’s citywide rate."
+        }
+      ]
     },
     {
       "id": "core-b93cf2d7e1530e",
@@ -45773,6 +45954,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "2010年の夏、研究者は銀座、浅草、渋谷、新宿、池袋で歩いている人を観察しました。",
+          "en": "In the summer of 2010, researchers observed pedestrians in Ginza, Asakusa, Shibuya, Shinjuku, and Ikebukuro. They watched 2,338 people during weekend midday hours, when UV levels were high or very high."
+        },
+        {
           "ja": "新宿、池袋、東京などの大きな駅には、とくに多くの人が集まります。",
           "en": "JR East’s top 100 stations in fiscal 2024 add up to about 12 million daily boardings. The list includes stations outside Tokyo, however, and counts boardings only."
         },
@@ -45787,10 +45972,6 @@
         {
           "ja": "袋に入れた後は、持ち上げても部品が動かないよう、しっかり固定します。",
           "en": "After putting the bike in the bag, secure the parts so they do not move when you lift it."
-        },
-        {
-          "ja": "車両の端などで輪行袋を手で支え、急ブレーキで倒れないようにしてください。",
-          "en": "Hold the bike bag near the end of the car so it does not fall during sudden braking."
         }
       ]
     },
@@ -46308,6 +46489,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "それでも、強い日差しの中で日傘や帽子を選ぶ東京の夏の風景を考える、よいヒントになります。",
+          "en": "Even so, it is a useful clue to a Tokyo summer scene where parasols and hats may be chosen over sunglasses."
+        },
         {
           "ja": "何気ない通勤の風景にも、見えにくい工夫がたくさんかくれているのです。",
           "en": "Even in an everyday commuting scene, many hard-to-see innovations are hidden."
@@ -47047,7 +47232,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "2010年の夏、研究者は銀座、浅草、渋谷、新宿、池袋で歩いている人を観察しました。",
+          "en": "In the summer of 2010, researchers observed pedestrians in Ginza, Asakusa, Shibuya, Shinjuku, and Ikebukuro. They watched 2,338 people during weekend midday hours, when UV levels were high or very high."
+        }
+      ]
     },
     {
       "id": "core-7fc0d6539de4b0",
@@ -50778,6 +50968,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "一方、女性では日傘がいちばんよく使われていました。",
+          "en": "Just 6.5% of women and 8.5% of men wore sunglasses—both below 10%. Parasols were the most common item for women, and hats were more common than sunglasses for men."
+        },
+        {
           "ja": "出発駅と到着駅、または行きたい場所を入れると、アプリがいくつかの行き方を出します。",
           "en": "Enter your departure and destination, and it gives you several routes."
         },
@@ -50792,10 +50986,6 @@
         {
           "ja": "画面の路線図では、今いる場所と進む方向がわかります。",
           "en": "The route map shows where the train is and which way it is going."
-        },
-        {
-          "ja": "もちろん最後は運転士が確認しますが、人と装置の両方でずれを小さくしているわけです。",
-          "en": "Of course, the driver still makes the final check, but both people and equipment work together to keep errors small."
         }
       ]
     },
@@ -51862,6 +52052,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "一方、女性では日傘がいちばんよく使われていました。",
+          "en": "Just 6.5% of women and 8.5% of men wore sunglasses—both below 10%. Parasols were the most common item for women, and hats were more common than sunglasses for men."
+        },
+        {
           "ja": "一方、日本は、台湾の近くで大きな問題が起きれば、日本の安全にも関係すると見ています。",
           "en": "Japan, on the other hand, thinks that if a major problem happens near Taiwan, it would also affect Japan's safety."
         },
@@ -51876,10 +52070,6 @@
         {
           "ja": "一方で、水道代や管理の手間がかかるため、時間や場所を決めて使うことが検討されています。",
           "en": "At the same time, because water costs and maintenance take effort, officials are considering limiting the times and places where the systems are used."
-        },
-        {
-          "ja": "一方で、海水温の変化や人手不足のため、のりを作る現場では苦労もあります。",
-          "en": "At the same time, producers face difficulties because of changes in seawater temperature and labor shortages."
         }
       ]
     },
@@ -55835,6 +56025,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "それでも、強い日差しの中で日傘や帽子を選ぶ東京の夏の風景を考える、よいヒントになります。",
+          "en": "Even so, it is a useful clue to a Tokyo summer scene where parasols and hats may be chosen over sunglasses."
+        },
+        {
           "ja": "初めて乗る路線でも、「あとどのくらいで着くか」を見て考えられます。",
           "en": "On some JR East trains, small screens above the doors show more than the next station. They display a route map and the time needed to reach stations farther ahead, so even on an unfamiliar line you can see how long remains."
         },
@@ -55849,10 +56043,6 @@
         {
           "ja": "物理的なSuicaカードを使う人もいれば、スマートフォン側のIC機能を使う人もいますが、考え方は同じです。",
           "en": "Some people use a physical Suica card, while others use the IC function on a smartphone, but the basic idea is the same."
-        },
-        {
-          "ja": "これは、アメリカで生まれたコンビニの考え方が、本格的に日本へ入ってきた瞬間でした。",
-          "en": "That was the moment when the convenience store idea born in America entered Japan in a full-scale way."
         }
       ]
     },
@@ -56316,7 +56506,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "2010年の夏、研究者は銀座、浅草、渋谷、新宿、池袋で歩いている人を観察しました。",
+          "en": "In the summer of 2010, researchers observed pedestrians in Ginza, Asakusa, Shibuya, Shinjuku, and Ikebukuro. They watched 2,338 people during weekend midday hours, when UV levels were high or very high."
+        }
+      ]
     },
     {
       "id": "core-45a38c8913945b",
@@ -57873,6 +58068,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "もちろん、この結果は2010年の都心だけのものです。",
+          "en": "Of course, this result covers only central Tokyo in 2010."
+        },
+        {
           "ja": "フランスにとっては苦しい結果でしたが、大きく負けていたところから何度も攻めた後半でした。",
           "en": "It was a hard result for France, but they repeatedly attacked after falling far behind."
         },
@@ -57887,10 +58086,6 @@
         {
           "ja": "今回の結果は、移民への不安と、EUとの結びつきを守りたい考えが、スイス社会でぶつかっていることを示しました。",
           "en": "\" The result showed that anxiety about immigration and the wish to protect ties with the EU are clashing in Swiss society."
-        },
-        {
-          "ja": "結果がよければ、来年から正式なサービスにする予定です。",
-          "en": "If the results are good, it plans to make the service official next year."
         }
       ]
     },
@@ -58090,6 +58285,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "2010年の夏、研究者は銀座、浅草、渋谷、新宿、池袋で歩いている人を観察しました。",
+          "en": "In the summer of 2010, researchers observed pedestrians in Ginza, Asakusa, Shibuya, Shinjuku, and Ikebukuro. They watched 2,338 people during weekend midday hours, when UV levels were high or very high."
+        },
         {
           "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
           "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""
@@ -63370,6 +63569,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "この調査は、サングラスが目を紫外線から守ることを知っている人が、十分ではないかもしれないと述べています。",
+          "en": "The study says awareness of sunglasses’ UV protection for the eyes may not have been high enough. Still, parasols and hats also help people avoid sunlight, so not wearing sunglasses does not mean a person takes no precautions."
+        },
+        {
           "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
           "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
         },
@@ -63398,6 +63601,10 @@
           "meaning": "Polite form of 守る: to protect, to guard",
           "exampleSentences": [
             {
+              "ja": "この調査は、サングラスが目を紫外線から守ることを知っている人が、十分ではないかもしれないと述べています。",
+              "en": "The study says awareness of sunglasses’ UV protection for the eyes may not have been high enough. Still, parasols and hats also help people avoid sunlight, so not wearing sunglasses does not mean a person takes no precautions."
+            },
+            {
               "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
               "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
             },
@@ -63424,6 +63631,10 @@
           "meaning": "Plain past form of 守る: to protect, to guard",
           "exampleSentences": [
             {
+              "ja": "この調査は、サングラスが目を紫外線から守ることを知っている人が、十分ではないかもしれないと述べています。",
+              "en": "The study says awareness of sunglasses’ UV protection for the eyes may not have been high enough. Still, parasols and hats also help people avoid sunlight, so not wearing sunglasses does not mean a person takes no precautions."
+            },
+            {
               "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
               "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
             },
@@ -63449,6 +63660,10 @@
           "readingHiragana": "まもらない",
           "meaning": "Plain negative form of 守る: to protect, to guard",
           "exampleSentences": [
+            {
+              "ja": "この調査は、サングラスが目を紫外線から守ることを知っている人が、十分ではないかもしれないと述べています。",
+              "en": "The study says awareness of sunglasses’ UV protection for the eyes may not have been high enough. Still, parasols and hats also help people avoid sunlight, so not wearing sunglasses does not mean a person takes no precautions."
+            },
             {
               "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
               "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
@@ -63480,6 +63695,10 @@
               "en": "Another reason is the presence of the United States. Japan has long been an important ally of the U.S. However, if U.S.-China relations improve even a little, Japan becomes uneasy. That is because Japan starts to wonder whether the U.S. would really protect it."
             },
             {
+              "ja": "この調査は、サングラスが目を紫外線から守ることを知っている人が、十分ではないかもしれないと述べています。",
+              "en": "The study says awareness of sunglasses’ UV protection for the eyes may not have been high enough. Still, parasols and hats also help people avoid sunlight, so not wearing sunglasses does not mean a person takes no precautions."
+            },
+            {
               "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
               "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
             },
@@ -63490,10 +63709,6 @@
             {
               "ja": "AIを完全に避けるのではなく、うまく使いながら学びの質を守ることが課題になっています。",
               "en": "The challenge is not to avoid AI completely, but to use it well while protecting the quality of learning."
-            },
-            {
-              "ja": "会談では、東アジアの安全保障や、地域の平和をどう守るかについて意見を交わしました。",
-              "en": "In the meeting, they exchanged views on security in East Asia and how to protect regional peace."
             }
           ]
         },
@@ -63505,6 +63720,10 @@
           "readingHiragana": "まもれる",
           "meaning": "Potential form of 守る: to protect, to guard",
           "exampleSentences": [
+            {
+              "ja": "この調査は、サングラスが目を紫外線から守ることを知っている人が、十分ではないかもしれないと述べています。",
+              "en": "The study says awareness of sunglasses’ UV protection for the eyes may not have been high enough. Still, parasols and hats also help people avoid sunlight, so not wearing sunglasses does not mean a person takes no precautions."
+            },
             {
               "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
               "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
@@ -64885,6 +65104,14 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "都心で行われた調査には、興味深い答えがあります。",
+          "en": "An observation study in central Tokyo has an interesting answer."
+        },
+        {
+          "ja": "もちろん、この結果は2010年の都心だけのものです。",
+          "en": "Of course, this result covers only central Tokyo in 2010."
+        },
+        {
           "ja": "戦後、東京の人口は増え、多くの人が郊外から都心へ通勤するようになりました。",
           "en": "The first part-time oshiya are said to have started at JNR’s Shinjuku Station in October 1955. After the war, Tokyo’s population grew and many people commuted from the suburbs to the city center."
         },
@@ -64895,14 +65122,6 @@
         {
           "ja": "首都圏のJRには、普通・快速列車にグリーン車がついている路線があります。",
           "en": "Some JR lines around Tokyo have Green Cars on local and rapid trains."
-        },
-        {
-          "ja": "いちばん簡単に言うと、電車は電気で走る車両のこと、地下鉄は都市の地下を中心に走る鉄道のことです。",
-          "en": "Both carry people, but the words differ."
-        },
-        {
-          "ja": "地下鉄は、大きな都市で使われる鉄道の名前です。",
-          "en": "Chikatetsu is the name for an urban railway system."
         }
       ]
     },
@@ -65329,6 +65548,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "2010年の夏、研究者は銀座、浅草、渋谷、新宿、池袋で歩いている人を観察しました。",
+          "en": "In the summer of 2010, researchers observed pedestrians in Ginza, Asakusa, Shibuya, Shinjuku, and Ikebukuro. They watched 2,338 people during weekend midday hours, when UV levels were high or very high."
+        },
+        {
           "ja": "駅の利用者数を見るときは、何を数えた数字かを考えることが大切です。",
           "en": "Check what each railway number counts: company passengers, station boardings, and entries plus exits differ. Still, Metro journeys equal to almost half Tokyo’s population show how central trains are to daily life."
         },
@@ -65343,10 +65566,6 @@
         {
           "ja": "旅行者がレンタカーを借りるときも、ETCは大切です。",
           "en": "ETC is also important when travelers rent a car."
-        },
-        {
-          "ja": "何気ない色の使い方ですが、毎日何百万人もの通勤客や旅行者がこの工夫に助けられています。",
-          "en": "It is only a simple use of color, but every day hundreds of thousands of commuters and travelers are helped by this idea."
         }
       ]
     },
@@ -67545,7 +67764,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "ただし、日傘や帽子も日光を避ける助けになります。",
+          "en": "The study says awareness of sunglasses’ UV protection for the eyes may not have been high enough. Still, parasols and hats also help people avoid sunlight, so not wearing sunglasses does not mean a person takes no precautions."
+        }
+      ]
     },
     {
       "id": "core-a62437ca4bda66",
@@ -67791,7 +68015,12 @@
           "term": "述べて",
           "readingHiragana": "のべて",
           "meaning": "Te-form of 述べる: to state, to express",
-          "exampleSentences": []
+          "exampleSentences": [
+            {
+              "ja": "この調査は、サングラスが目を紫外線から守ることを知っている人が、十分ではないかもしれないと述べています。",
+              "en": "The study says awareness of sunglasses’ UV protection for the eyes may not have been high enough. Still, parasols and hats also help people avoid sunlight, so not wearing sunglasses does not mean a person takes no precautions."
+            }
+          ]
         },
         {
           "form": "potential",
@@ -71002,7 +71231,12 @@
       "sourceLabel": "Core N3 Vocabulary",
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
-      "exampleSentences": []
+      "exampleSentences": [
+        {
+          "ja": "それでも、強い日差しの中で日傘や帽子を選ぶ東京の夏の風景を考える、よいヒントになります。",
+          "en": "Even so, it is a useful clue to a Tokyo summer scene where parasols and hats may be chosen over sunglasses."
+        }
+      ]
     },
     {
       "id": "core-cd7332e8a51877",
@@ -71405,6 +71639,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "ただし、日傘や帽子も日光を避ける助けになります。",
+          "en": "The study says awareness of sunglasses’ UV protection for the eyes may not have been high enough. Still, parasols and hats also help people avoid sunlight, so not wearing sunglasses does not mean a person takes no precautions."
+        },
+        {
           "ja": "フランスの一部では学校が休みになり、屋外の活動を避けるよう呼びかけられました。",
           "en": "In parts of France, schools were closed, and people were urged to avoid outdoor activities."
         },
@@ -71428,6 +71666,10 @@
           "readingHiragana": "さけます",
           "meaning": "Polite form of 避ける: to avoid, to ward off",
           "exampleSentences": [
+            {
+              "ja": "ただし、日傘や帽子も日光を避ける助けになります。",
+              "en": "The study says awareness of sunglasses’ UV protection for the eyes may not have been high enough. Still, parasols and hats also help people avoid sunlight, so not wearing sunglasses does not mean a person takes no precautions."
+            },
             {
               "ja": "フランスの一部では学校が休みになり、屋外の活動を避けるよう呼びかけられました。",
               "en": "In parts of France, schools were closed, and people were urged to avoid outdoor activities."
@@ -71455,6 +71697,10 @@
               "en": "Trains are crowded during the morning and evening rush hours, so avoiding those times is safer when possible."
             },
             {
+              "ja": "ただし、日傘や帽子も日光を避ける助けになります。",
+              "en": "The study says awareness of sunglasses’ UV protection for the eyes may not have been high enough. Still, parasols and hats also help people avoid sunlight, so not wearing sunglasses does not mean a person takes no precautions."
+            },
+            {
               "ja": "フランスの一部では学校が休みになり、屋外の活動を避けるよう呼びかけられました。",
               "en": "In parts of France, schools were closed, and people were urged to avoid outdoor activities."
             },
@@ -71476,6 +71722,10 @@
           "readingHiragana": "さけない",
           "meaning": "Plain negative form of 避ける: to avoid, to ward off",
           "exampleSentences": [
+            {
+              "ja": "ただし、日傘や帽子も日光を避ける助けになります。",
+              "en": "The study says awareness of sunglasses’ UV protection for the eyes may not have been high enough. Still, parasols and hats also help people avoid sunlight, so not wearing sunglasses does not mean a person takes no precautions."
+            },
             {
               "ja": "フランスの一部では学校が休みになり、屋外の活動を避けるよう呼びかけられました。",
               "en": "In parts of France, schools were closed, and people were urged to avoid outdoor activities."
@@ -71499,6 +71749,10 @@
           "meaning": "Te-form of 避ける: to avoid, to ward off",
           "exampleSentences": [
             {
+              "ja": "ただし、日傘や帽子も日光を避ける助けになります。",
+              "en": "The study says awareness of sunglasses’ UV protection for the eyes may not have been high enough. Still, parasols and hats also help people avoid sunlight, so not wearing sunglasses does not mean a person takes no precautions."
+            },
+            {
               "ja": "フランスの一部では学校が休みになり、屋外の活動を避けるよう呼びかけられました。",
               "en": "In parts of France, schools were closed, and people were urged to avoid outdoor activities."
             },
@@ -71520,6 +71774,10 @@
           "readingHiragana": "さけられる",
           "meaning": "Potential form of 避ける: to avoid, to ward off",
           "exampleSentences": [
+            {
+              "ja": "ただし、日傘や帽子も日光を避ける助けになります。",
+              "en": "The study says awareness of sunglasses’ UV protection for the eyes may not have been high enough. Still, parasols and hats also help people avoid sunlight, so not wearing sunglasses does not mean a person takes no precautions."
+            },
             {
               "ja": "フランスの一部では学校が休みになり、屋外の活動を避けるよう呼びかけられました。",
               "en": "In parts of France, schools were closed, and people were urged to avoid outdoor activities."
@@ -72418,24 +72676,24 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "サングラスをかけていた女性は6.",
+          "en": "Just 6.5% of women and 8.5% of men wore sunglasses—both below 10%. Parasols were the most common item for women, and hats were more common than sunglasses for men."
+        },
+        {
+          "ja": "5％、男性は8.",
+          "en": "Just 6.5% of women and 8.5% of men wore sunglasses—both below 10%. Parasols were the most common item for women, and hats were more common than sunglasses for men."
+        },
+        {
+          "ja": "一方、女性では日傘がいちばんよく使われていました。",
+          "en": "Just 6.5% of women and 8.5% of men wore sunglasses—both below 10%. Parasols were the most common item for women, and hats were more common than sunglasses for men."
+        },
+        {
+          "ja": "男性では、帽子のほうがサングラスより多く見られました。",
+          "en": "Just 6.5% of women and 8.5% of men wore sunglasses—both below 10%. Parasols were the most common item for women, and hats were more common than sunglasses for men."
+        },
+        {
           "ja": "V2Xが静かに広がった理由は、この実用性の高さにあります。",
           "en": "That practical value is why V2X has spread quietly."
-        },
-        {
-          "ja": "速さと安全性を両立しているからこそ、毎日の大きな移動が安定して続けられるのです。",
-          "en": "Of course, the system is not just fast. It also includes firm mechanisms to prevent misuse. Because it balances speed and safety, large-scale daily travel can continue smoothly and reliably."
-        },
-        {
-          "ja": "予報では、27日の夜には関東の近くまで進む可能性があります。",
-          "en": "As of 9 p.m., Typhoon No. 7 was over waters east of areas near Amami and Okinawa. The forecast says it may move close to the Kanto region by the night of June 27."
-        },
-        {
-          "ja": "一つ目の地震が別の断層に力を加え、二つ目を引き起こした可能性があります。",
-          "en": "The first quake may have added stress to another fault and triggered the second one."
-        },
-        {
-          "ja": "車両の先頭部分が壊れた可能性があり、JR東海が調べています。",
-          "en": "The front of the train may have been damaged, and JR Central is investigating."
         }
       ]
     },
@@ -76668,6 +76926,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "週末の昼、合わせて2,338人を見ました。",
+          "en": "In the summer of 2010, researchers observed pedestrians in Ginza, Asakusa, Shibuya, Shinjuku, and Ikebukuro. They watched 2,338 people during weekend midday hours, when UV levels were high or very high."
+        },
+        {
           "ja": "週末に海へ行く予定がある人や、飛行機や船を使う人は、新しい情報を確認したほうがよさそうです。",
           "en": "People planning to go to the sea over the weekend, or to use planes or boats, should check the latest information."
         },
@@ -77416,6 +77678,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "週末の昼、合わせて2,338人を見ました。",
+          "en": "In the summer of 2010, researchers observed pedestrians in Ginza, Asakusa, Shibuya, Shinjuku, and Ikebukuro. They watched 2,338 people during weekend midday hours, when UV levels were high or very high."
+        },
         {
           "ja": "週末に海へ行く予定がある人や、飛行機や船を使う人は、新しい情報を確認したほうがよさそうです。",
           "en": "People planning to go to the sea over the weekend, or to use planes or boats, should check the latest information."
@@ -78634,6 +78900,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "サングラスをかけないことだけで、その人がまったく対策をしていないとは言えません。",
+          "en": "The study says awareness of sunglasses’ UV protection for the eyes may not have been high enough. Still, parasols and hats also help people avoid sunlight, so not wearing sunglasses does not mean a person takes no precautions."
+        },
+        {
           "ja": "サッカーのワールドカップ3位決定戦で、イングランドがフランスに6対4で勝ちました。",
           "en": "England beat France 6-4 in the World Cup third-place playoff in Miami on July 18. The match is played by the two teams that lost in the semifinals. Despite missing the final, both sides produced many goals."
         },
@@ -78648,10 +78918,6 @@
         {
           "ja": "JR東日本の対象路線では、カードのSuicaでも、スマホのモバイルSuicaでも、Suicaグリーン券を使えます。",
           "en": "On eligible JR East lines, you can use a physical Suica card or Mobile Suica."
-        },
-        {
-          "ja": "0対応システムを通じて、広い範囲の交通情報が届くと説明されています。",
-          "en": "0 compatible systems."
         }
       ],
       "partOfSpeech": "verb",
@@ -79101,6 +79367,10 @@
       "sourceHref": "https://japanesetest4you.com/jlpt-n3-vocabulary-list/",
       "tags": [],
       "exampleSentences": [
+        {
+          "ja": "2010年の夏、研究者は銀座、浅草、渋谷、新宿、池袋で歩いている人を観察しました。",
+          "en": "In the summer of 2010, researchers observed pedestrians in Ginza, Asakusa, Shibuya, Shinjuku, and Ikebukuro. They watched 2,338 people during weekend midday hours, when UV levels were high or very high."
+        },
         {
           "ja": "山手線は、新宿、渋谷、上野、東京駅、池袋などの大きなエリアをつないでいます。",
           "en": "The Yamanote Line connects major areas such as Shinjuku, Shibuya, Ueno, Tokyo Station, and Ikebukuro."
@@ -81001,6 +81271,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "その時の紫外線の強さは、高い、またはとても高いレベルでした。",
+          "en": "In the summer of 2010, researchers observed pedestrians in Ginza, Asakusa, Shibuya, Shinjuku, and Ikebukuro. They watched 2,338 people during weekend midday hours, when UV levels were high or very high."
+        },
+        {
           "ja": "今では少し驚くような名前ですが、当時の激しい混雑を表す言葉でもあります。",
           "en": "In the past, Tokyo had a part-time job called oshiya, literally a pusher. During the morning rush, these workers helped push people into packed trains so the doors could close. The name shows how intense the crowding was."
         },
@@ -81015,10 +81289,6 @@
         {
           "ja": "時間、運賃、乗り換えの回数を比べられるので、複雑な東京の鉄道でも移動しやすくなります。",
           "en": "You can compare time, fare, and number of transfers."
-        },
-        {
-          "ja": "たとえば、大きな駅で次の電車に乗り換えるとき、「何両目に乗ると近いか」がわかると、ホームを歩く時間を少なくできます。",
-          "en": "This can save walking time when transferring at a large station."
         }
       ]
     },
@@ -84627,6 +84897,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "2010年の夏、研究者は銀座、浅草、渋谷、新宿、池袋で歩いている人を観察しました。",
+          "en": "In the summer of 2010, researchers observed pedestrians in Ginza, Asakusa, Shibuya, Shinjuku, and Ikebukuro. They watched 2,338 people during weekend midday hours, when UV levels were high or very high."
+        },
+        {
           "ja": "最初のアルバイトの押し屋は、1955年10月に国鉄の新宿駅で働き始めたとされています。",
           "en": "The first part-time oshiya are said to have started at JNR’s Shinjuku Station in October 1955. After the war, Tokyo’s population grew and many people commuted from the suburbs to the city center."
         },
@@ -84641,10 +84915,6 @@
         {
           "ja": "山手線は、新宿、渋谷、上野、東京駅、池袋などの大きなエリアをつないでいます。",
           "en": "The Yamanote Line connects major areas such as Shinjuku, Shibuya, Ueno, Tokyo Station, and Ikebukuro."
-        },
-        {
-          "ja": "たとえば、東京駅を中心にすると、上野は北東、新宿は西、品川は南にあります。",
-          "en": "For example, if you use Tokyo Station as the center, Ueno is to the northeast, Shinjuku is to the west, and Shinagawa is to the south."
         }
       ]
     },
@@ -86650,6 +86920,10 @@
       "tags": [],
       "exampleSentences": [
         {
+          "ja": "今の東京全体で、どれくらいの人がサングラスをかけるかは、この調査だけではわかりません。",
+          "en": "It cannot tell us today’s citywide rate."
+        },
+        {
           "ja": "2002年に完成したとき、全体の費用は4400億円をこえていて、そのときの借金が今の運賃にも影響しています。",
           "en": "When the line was completed in 2002, the total cost exceeded 440 billion yen, and those debts still affect fares today."
         },
@@ -87285,6 +87559,312 @@
       "exampleSentences": []
     },
     {
+      "id": "article-44d454edce6a22",
+      "level": "N3",
+      "term": "日傘",
+      "reading": "ひがさ",
+      "readingHiragana": "ひがさ",
+      "meaning": "Parasol / sun umbrella",
+      "source": "article",
+      "sourceId": "2026-08-16-tokyo-sunglasses",
+      "sourceTitle": "東京ではサングラスをかける人が少ない？",
+      "sourceLabel": "8/16 東京のサングラス",
+      "sourceHref": "./2026-08-16-tokyo-sunglasses.html",
+      "tags": [
+        "article-vocab",
+        "2026-08-16-tokyo-sunglasses"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "暑い夏の東京を歩くと、日傘を使う人はよく見かけます。",
+          "en": "On a hot Tokyo summer day, you often see people using parasols."
+        },
+        {
+          "ja": "一方、女性では日傘がいちばんよく使われていました。",
+          "en": "Just 6.5% of women and 8.5% of men wore sunglasses—both below 10%. Parasols were the most common item for women, and hats were more common than sunglasses for men."
+        },
+        {
+          "ja": "ただし、日傘や帽子も日光を避ける助けになります。",
+          "en": "The study says awareness of sunglasses’ UV protection for the eyes may not have been high enough. Still, parasols and hats also help people avoid sunlight, so not wearing sunglasses does not mean a person takes no precautions."
+        },
+        {
+          "ja": "それでも、強い日差しの中で日傘や帽子を選ぶ東京の夏の風景を考える、よいヒントになります。",
+          "en": "Even so, it is a useful clue to a Tokyo summer scene where parasols and hats may be chosen over sunglasses."
+        }
+      ]
+    },
+    {
+      "id": "article-2e10ab5f7a0a06",
+      "level": "N3",
+      "term": "都心",
+      "reading": "としん",
+      "readingHiragana": "としん",
+      "meaning": "City center",
+      "source": "article",
+      "sourceId": "2026-08-16-tokyo-sunglasses",
+      "sourceTitle": "東京ではサングラスをかける人が少ない？",
+      "sourceLabel": "8/16 東京のサングラス",
+      "sourceHref": "./2026-08-16-tokyo-sunglasses.html",
+      "tags": [
+        "article-vocab",
+        "2026-08-16-tokyo-sunglasses"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "都心で行われた調査には、興味深い答えがあります。",
+          "en": "An observation study in central Tokyo has an interesting answer."
+        },
+        {
+          "ja": "もちろん、この結果は2010年の都心だけのものです。",
+          "en": "Of course, this result covers only central Tokyo in 2010."
+        },
+        {
+          "ja": "戦後、東京の人口は増え、多くの人が郊外から都心へ通勤するようになりました。",
+          "en": "The first part-time oshiya are said to have started at JNR’s Shinjuku Station in October 1955. After the war, Tokyo’s population grew and many people commuted from the suburbs to the city center."
+        },
+        {
+          "ja": "都心の地下を通るこのネットワークは、通勤、通学、買い物、観光などを支えています。",
+          "en": "It supports commuting, school, shopping, and tourism."
+        },
+        {
+          "ja": "空港から都心へ向かうときや、郊外へ出かけるときにETCがないと、経路や支払いで不便を感じやすくなります。",
+          "en": "If you do not have ETC when heading from the airport into central Tokyo or driving out to the suburbs, payment and route choices can become inconvenient."
+        }
+      ]
+    },
+    {
+      "id": "article-05724cff482359",
+      "level": "N3",
+      "term": "観察する",
+      "reading": "かんさつする",
+      "readingHiragana": "かんさつする",
+      "meaning": "To observe",
+      "source": "article",
+      "sourceId": "2026-08-16-tokyo-sunglasses",
+      "sourceTitle": "東京ではサングラスをかける人が少ない？",
+      "sourceLabel": "8/16 東京のサングラス",
+      "sourceHref": "./2026-08-16-tokyo-sunglasses.html",
+      "tags": [
+        "article-vocab",
+        "2026-08-16-tokyo-sunglasses"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "2010年の夏、研究者は銀座、浅草、渋谷、新宿、池袋で歩いている人を観察しました。",
+          "en": "In the summer of 2010, researchers observed pedestrians in Ginza, Asakusa, Shibuya, Shinjuku, and Ikebukuro. They watched 2,338 people during weekend midday hours, when UV levels were high or very high."
+        }
+      ]
+    },
+    {
+      "id": "article-80a7c23d257a43",
+      "level": "N3",
+      "term": "紫外線",
+      "reading": "しがいせん",
+      "readingHiragana": "しがいせん",
+      "meaning": "Ultraviolet rays / UV",
+      "source": "article",
+      "sourceId": "2026-08-16-tokyo-sunglasses",
+      "sourceTitle": "東京ではサングラスをかける人が少ない？",
+      "sourceLabel": "8/16 東京のサングラス",
+      "sourceHref": "./2026-08-16-tokyo-sunglasses.html",
+      "tags": [
+        "article-vocab",
+        "2026-08-16-tokyo-sunglasses"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "その時の紫外線の強さは、高い、またはとても高いレベルでした。",
+          "en": "In the summer of 2010, researchers observed pedestrians in Ginza, Asakusa, Shibuya, Shinjuku, and Ikebukuro. They watched 2,338 people during weekend midday hours, when UV levels were high or very high."
+        },
+        {
+          "ja": "この調査は、サングラスが目を紫外線から守ることを知っている人が、十分ではないかもしれないと述べています。",
+          "en": "The study says awareness of sunglasses’ UV protection for the eyes may not have been high enough. Still, parasols and hats also help people avoid sunlight, so not wearing sunglasses does not mean a person takes no precautions."
+        }
+      ]
+    },
+    {
+      "id": "article-399dc7169fbc2f",
+      "level": "N3",
+      "term": "届く",
+      "reading": "とどく",
+      "readingHiragana": "とどく",
+      "meaning": "To reach",
+      "source": "article",
+      "sourceId": "2026-08-16-tokyo-sunglasses",
+      "sourceTitle": "東京ではサングラスをかける人が少ない？",
+      "sourceLabel": "8/16 東京のサングラス",
+      "sourceHref": "./2026-08-16-tokyo-sunglasses.html",
+      "tags": [
+        "article-vocab",
+        "2026-08-16-tokyo-sunglasses"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "0対応システムを通じて、広い範囲の交通情報が届くと説明されています。",
+          "en": "0 compatible systems."
+        }
+      ]
+    },
+    {
+      "id": "article-6e8777dd67cfb0",
+      "level": "N3",
+      "term": "一方",
+      "reading": "いっぽう",
+      "readingHiragana": "いっぽう",
+      "meaning": "On the other hand",
+      "source": "article",
+      "sourceId": "2026-08-16-tokyo-sunglasses",
+      "sourceTitle": "東京ではサングラスをかける人が少ない？",
+      "sourceLabel": "8/16 東京のサングラス",
+      "sourceHref": "./2026-08-16-tokyo-sunglasses.html",
+      "tags": [
+        "article-vocab",
+        "2026-08-16-tokyo-sunglasses"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "一方、女性では日傘がいちばんよく使われていました。",
+          "en": "Just 6.5% of women and 8.5% of men wore sunglasses—both below 10%. Parasols were the most common item for women, and hats were more common than sunglasses for men."
+        },
+        {
+          "ja": "一方、日本は、台湾の近くで大きな問題が起きれば、日本の安全にも関係すると見ています。",
+          "en": "Japan, on the other hand, thinks that if a major problem happens near Taiwan, it would also affect Japan's safety."
+        },
+        {
+          "ja": "喜びの声が広がる一方で、一部では混乱もあり、警察が対応しました。",
+          "en": "While voices of joy spread, there was also some disorder in a few areas, and police responded."
+        },
+        {
+          "ja": "一方で、通信が不安定な海上では、機械が使えない場合もあります。",
+          "en": "At the same time, onboard machines may not work when communications are unstable at sea."
+        },
+        {
+          "ja": "一方で、水道代や管理の手間がかかるため、時間や場所を決めて使うことが検討されています。",
+          "en": "At the same time, because water costs and maintenance take effort, officials are considering limiting the times and places where the systems are used."
+        }
+      ]
+    },
+    {
+      "id": "article-b4f38d431e65d2",
+      "level": "N3",
+      "term": "日よけ",
+      "reading": "ひよけ",
+      "readingHiragana": "ひよけ",
+      "meaning": "Sun protection / shade",
+      "source": "article",
+      "sourceId": "2026-08-16-tokyo-sunglasses",
+      "sourceTitle": "東京ではサングラスをかける人が少ない？",
+      "sourceLabel": "8/16 東京のサングラス",
+      "sourceHref": "./2026-08-16-tokyo-sunglasses.html",
+      "tags": [
+        "article-vocab",
+        "2026-08-16-tokyo-sunglasses"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "同じ日よけでも、選ばれる物は違っていたのです。",
+          "en": "Just 6.5% of women and 8.5% of men wore sunglasses—both below 10%. Parasols were the most common item for women, and hats were more common than sunglasses for men."
+        }
+      ]
+    },
+    {
+      "id": "article-1c33d7b12c721a",
+      "level": "N3",
+      "term": "避ける",
+      "reading": "さける",
+      "readingHiragana": "さける",
+      "meaning": "To avoid",
+      "source": "article",
+      "sourceId": "2026-08-16-tokyo-sunglasses",
+      "sourceTitle": "東京ではサングラスをかける人が少ない？",
+      "sourceLabel": "8/16 東京のサングラス",
+      "sourceHref": "./2026-08-16-tokyo-sunglasses.html",
+      "tags": [
+        "article-vocab",
+        "2026-08-16-tokyo-sunglasses"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "ただし、日傘や帽子も日光を避ける助けになります。",
+          "en": "The study says awareness of sunglasses’ UV protection for the eyes may not have been high enough. Still, parasols and hats also help people avoid sunlight, so not wearing sunglasses does not mean a person takes no precautions."
+        },
+        {
+          "ja": "フランスの一部では学校が休みになり、屋外の活動を避けるよう呼びかけられました。",
+          "en": "In parts of France, schools were closed, and people were urged to avoid outdoor activities."
+        },
+        {
+          "ja": "交通機関を利用する際は、運行状況を確認し、無理な移動を避けることが大切です。",
+          "en": "When using transportation, it is important to check service status and avoid unnecessary travel."
+        },
+        {
+          "ja": "AIを完全に避けるのではなく、うまく使いながら学びの質を守ることが課題になっています。",
+          "en": "The challenge is not to avoid AI completely, but to use it well while protecting the quality of learning."
+        }
+      ]
+    },
+    {
+      "id": "article-286bd68531c159",
+      "level": "N3",
+      "term": "対策",
+      "reading": "たいさく",
+      "readingHiragana": "たいさく",
+      "meaning": "Measure / precaution",
+      "source": "article",
+      "sourceId": "2026-08-16-tokyo-sunglasses",
+      "sourceTitle": "東京ではサングラスをかける人が少ない？",
+      "sourceLabel": "8/16 東京のサングラス",
+      "sourceHref": "./2026-08-16-tokyo-sunglasses.html",
+      "tags": [
+        "article-vocab",
+        "2026-08-16-tokyo-sunglasses"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "サングラスをかけないことだけで、その人がまったく対策をしていないとは言えません。",
+          "en": "The study says awareness of sunglasses’ UV protection for the eyes may not have been high enough. Still, parasols and hats also help people avoid sunlight, so not wearing sunglasses does not mean a person takes no precautions."
+        },
+        {
+          "ja": "暑さは観光や交通だけでなく、農業や電力にも影響を与えるため、各国は対策を急いでいます。",
+          "en": "Because the heat affects not only tourism and transportation but also agriculture and electricity, countries are rushing to respond."
+        },
+        {
+          "ja": "この事故の後、安全対策について議論が起きました。",
+          "en": "After the incident, a debate began about safety measures."
+        },
+        {
+          "ja": "ニューサウスウェールズ州は、サメを減らす方法ではなく、AIドローンで海を見守る対策を進めるとしています。",
+          "en": "New South Wales says it will move forward with measures to watch the sea using AI drones, rather than a plan to reduce shark numbers."
+        },
+        {
+          "ja": "地方で人が少なくなり、クマも多くなったため、注意喚起や対策をすぐに出す必要があります。",
+          "en": "Because rural populations are shrinking and bear numbers are growing, cities need to issue warnings and take action quickly."
+        }
+      ]
+    },
+    {
+      "id": "article-d1da48bb3922a4",
+      "level": "N3",
+      "term": "日差し",
+      "reading": "ひざし",
+      "readingHiragana": "ひざし",
+      "meaning": "Sunlight",
+      "source": "article",
+      "sourceId": "2026-08-16-tokyo-sunglasses",
+      "sourceTitle": "東京ではサングラスをかける人が少ない？",
+      "sourceLabel": "8/16 東京のサングラス",
+      "sourceHref": "./2026-08-16-tokyo-sunglasses.html",
+      "tags": [
+        "article-vocab",
+        "2026-08-16-tokyo-sunglasses"
+      ],
+      "exampleSentences": [
+        {
+          "ja": "それでも、強い日差しの中で日傘や帽子を選ぶ東京の夏の風景を考える、よいヒントになります。",
+          "en": "Even so, it is a useful clue to a Tokyo summer scene where parasols and hats may be chosen over sunglasses."
+        }
+      ]
+    },
+    {
       "id": "article-2b4e27fcf4bfba",
       "level": "N3",
       "term": "押し屋",
@@ -87434,6 +88014,14 @@
       ],
       "exampleSentences": [
         {
+          "ja": "都心で行われた調査には、興味深い答えがあります。",
+          "en": "An observation study in central Tokyo has an interesting answer."
+        },
+        {
+          "ja": "もちろん、この結果は2010年の都心だけのものです。",
+          "en": "Of course, this result covers only central Tokyo in 2010."
+        },
+        {
           "ja": "戦後、東京の人口は増え、多くの人が郊外から都心へ通勤するようになりました。",
           "en": "The first part-time oshiya are said to have started at JNR’s Shinjuku Station in October 1955. After the war, Tokyo’s population grew and many people commuted from the suburbs to the city center."
         },
@@ -87444,10 +88032,6 @@
         {
           "ja": "空港から都心へ向かうときや、郊外へ出かけるときにETCがないと、経路や支払いで不便を感じやすくなります。",
           "en": "If you do not have ETC when heading from the airport into central Tokyo or driving out to the suburbs, payment and route choices can become inconvenient."
-        },
-        {
-          "ja": "品川に着けば、そこから山手線やほかの路線に乗り換えやすく、都心への移動がしやすくなります。",
-          "en": "Once you reach Shinagawa, it is easy to transfer to the Yamanote Line and other routes into the city center."
         }
       ]
     },
@@ -91694,6 +92278,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "それでも、強い日差しの中で日傘や帽子を選ぶ東京の夏の風景を考える、よいヒントになります。",
+          "en": "Even so, it is a useful clue to a Tokyo summer scene where parasols and hats may be chosen over sunglasses."
+        },
+        {
           "ja": "何気ない通勤の風景にも、見えにくい工夫がたくさんかくれているのです。",
           "en": "Even in an everyday commuting scene, many hard-to-see innovations are hidden."
         },
@@ -93815,6 +94403,10 @@
       ],
       "exampleSentences": [
         {
+          "ja": "サングラスをかけないことだけで、その人がまったく対策をしていないとは言えません。",
+          "en": "The study says awareness of sunglasses’ UV protection for the eyes may not have been high enough. Still, parasols and hats also help people avoid sunlight, so not wearing sunglasses does not mean a person takes no precautions."
+        },
+        {
           "ja": "暑さは観光や交通だけでなく、農業や電力にも影響を与えるため、各国は対策を急いでいます。",
           "en": "Because the heat affects not only tourism and transportation but also agriculture and electricity, countries are rushing to respond."
         },
@@ -93829,10 +94421,6 @@
         {
           "ja": "地方で人が少なくなり、クマも多くなったため、注意喚起や対策をすぐに出す必要があります。",
           "en": "Because rural populations are shrinking and bear numbers are growing, cities need to issue warnings and take action quickly."
-        },
-        {
-          "ja": "米の値段が上がっているため、政府は新しい対策を発表しました。",
-          "en": "Because rice prices are rising, the government announced new measures."
         }
       ]
     },
@@ -94527,6 +95115,10 @@
         "2026-06-25-urban-pulse-satellites"
       ],
       "exampleSentences": [
+        {
+          "ja": "2010年の夏、研究者は銀座、浅草、渋谷、新宿、池袋で歩いている人を観察しました。",
+          "en": "In the summer of 2010, researchers observed pedestrians in Ginza, Asakusa, Shibuya, Shinjuku, and Ikebukuro. They watched 2,338 people during weekend midday hours, when UV levels were high or very high."
+        },
         {
           "ja": "研究者たちは、衛星画像と街の写真を使って、都市の変化を細かく調べる新しいデータセットを発表しました。",
           "en": "Researchers announced a new dataset that uses satellite images and street photos to study changes in cities in detail. It is called UrbanWell. The research is like reading a city's \"pulse.\""

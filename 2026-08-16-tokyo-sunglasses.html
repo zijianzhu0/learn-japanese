@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>東京ではサングラスをかける人が少ない？</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <script>
+        (() => {
+            try {
+                const storedTheme = window.localStorage.getItem('learnJapanese.theme');
+                const theme = storedTheme === 'dark' || storedTheme === 'light'
+                    ? storedTheme
+                    : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                document.documentElement.dataset.theme = theme;
+                document.documentElement.style.colorScheme = theme;
+            } catch (error) {
+                document.documentElement.dataset.theme = 'light';
+                document.documentElement.style.colorScheme = 'light';
+            }
+        })();
+    </script>
+    <link rel="stylesheet" href="./assets/article.css?v=b02c94c319a7">
+</head>
+<body id="top" data-article-id="2026-08-16-tokyo-sunglasses" data-recording-download-name="2026-08-16-tokyo-sunglasses.mp4">
+<nav class="top-nav" aria-label="Page navigation"></nav>
+<div class="article-shell">
+    <aside class="article-sidebar" aria-label="Article navigation"></aside>
+    <main class="article-main">
+
+<div class="container">
+    <div class="date">2026年8月16日</div>
+    <div class="article-toolbar">
+        <div class="voice-controls">
+            <button class="toolbar-icon-button voice-menu-toggle" type="button" id="voice-menu-toggle" aria-expanded="false" aria-controls="voice-settings-menu" aria-label="Voice settings" data-tooltip="Voice settings">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 10v4"></path>
+                    <path d="M8 7v10"></path>
+                    <path d="M12 4v16"></path>
+                    <path d="M16 7v10"></path>
+                    <path d="M20 10v4"></path>
+                </svg>
+                <span class="icon-label">Voice settings</span>
+            </button>
+            <div class="voice-current-status" id="voice-current-status" aria-live="polite">Docker VOICEVOX</div>
+            <button class="audio-enable-button" type="button" id="enable-docker-audio" hidden>Enable audio</button>
+            <div class="voice-settings-menu" id="voice-settings-menu" hidden>
+                <label class="toolbar-label" for="browser-voice">Browser Voice</label>
+                <select class="voice-select" id="browser-voice" aria-label="Browser voice">
+                    <option value="auto" selected>Google 日本語</option>
+                </select>
+            </div>
+        </div>
+        <div class="article-actions" aria-label="Article actions">
+            <button class="toolbar-icon-button preview-button" type="button" id="preview-recording-mode" aria-label="Preview recording mode" data-tooltip="Preview recording mode">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M2 12s3.8-6 10-6 10 6 10 6-3.8 6-10 6-10-6-10-6z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+                <span class="icon-label">Preview recording mode</span>
+            </button>
+            <button class="toolbar-icon-button video-button" type="button" id="render-video" aria-label="Render video" data-tooltip="Render video" data-default-label="Render video" data-active-label="Recording">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M5 6h11a2 2 0 0 1 2 2v1l3-2v10l-3-2v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"></path>
+                    <path d="M9 10.5v3l3-1.5z"></path>
+                </svg>
+                <span class="icon-label">Render video</span>
+            </button>
+            <button class="toolbar-icon-button cover-button" type="button" id="download-cover" aria-label="Download video cover" data-tooltip="Download cover" data-default-label="Download cover" data-active-label="Rendering cover">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                    <circle cx="8.5" cy="10" r="1.5"></circle>
+                    <path d="m21 15-5-5L5 19"></path>
+                </svg>
+                <span class="icon-label">Download cover</span>
+            </button>
+            <button class="toolbar-icon-button speak-button" type="button" id="speak-japanese-article" aria-label="Read aloud" data-tooltip="Read aloud" data-default-label="Read aloud" data-active-label="Stop reading" data-loading-label="Preparing audio">
+                <svg class="toolbar-svg icon-read" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 10v4h4l5 4V6L8 10z"></path>
+                    <path d="M16 9c1.8 1.8 1.8 4.2 0 6"></path>
+                    <path d="M18.5 6.5c3.3 3.3 3.3 7.7 0 11"></path>
+                </svg>
+                <svg class="toolbar-svg icon-stop" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 8h8v8H8z"></path>
+                </svg>
+                <span class="icon-label">Read aloud</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-bilingual-article" aria-label="Copy Japanese and English article" data-tooltip="Copy Japanese and English article">
+                <span class="copy-language-icon copy-language-icon-wide" aria-hidden="true">あ/A</span>
+                <span class="icon-label">Copy Japanese and English article</span>
+            </button>
+            <button class="toolbar-icon-button copy-button" type="button" id="copy-vocabulary-list" aria-label="Copy vocabulary and phrases" data-tooltip="Copy vocabulary and phrases">
+                <svg class="toolbar-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <rect x="8" y="7" width="11" height="13" rx="2"></rect>
+                    <path d="M5 16V5a2 2 0 0 1 2-2h9"></path>
+                </svg>
+                <span class="icon-label">Copy vocabulary and phrases</span>
+            </button>
+        </div>
+    </div>
+    <div class="copy-status" id="copy-status" aria-live="polite"></div>
+    <audio class="audio-player" id="tts-player" controls hidden preload="none"></audio>
+    <h1><ruby>東京<rt>とうきょう</rt></ruby>ではサングラスをかける<ruby>人<rt>ひと</rt></ruby>が<ruby>少<rt>すく</rt></ruby>ない？</h1>
+    <div class="source-note">JAMA Dermatology に2011年10月に掲載された、2010年夏の東京都心5か所での歩行者観察調査をもとに作成した学習用ページです。調査ではサングラスをかけていた人は女性6.5％、男性8.5％でした。これは当時の調査結果であり、現在の東京全体の割合を示すものではありません。</div>
+
+
+    <p class="article-paragraph"><ruby>暑<rt>あつ</rt></ruby>い<ruby>夏<rt>なつ</rt></ruby>の<ruby>東京<rt>とうきょう</rt></ruby>を<ruby>歩<rt>ある</rt></ruby>くと、<ruby>日傘<rt>ひがさ</rt></ruby>を<ruby>使<rt>つか</rt></ruby>う<ruby>人<rt>ひと</rt></ruby>はよく<ruby>見<rt>み</rt></ruby>かけます。しかし、サングラスをかける<ruby>人<rt>ひと</rt></ruby>は、それほど<ruby>多<rt>おお</rt></ruby>くないように<ruby>見<rt>み</rt></ruby>えます。これは<ruby>本当<rt>ほんとう</rt></ruby>なのでしょうか。<ruby>都心<rt>としん</rt></ruby>で<ruby>行<rt>おこな</rt></ruby>われた<ruby>調査<rt>ちょうさ</rt></ruby>には、<ruby>興味深<rt>きょうみぶか</rt></ruby>い<ruby>答<rt>こた</rt></ruby>えがあります。</p>
+    <div class="sentence-translation">On a hot Tokyo summer day, you often see people using parasols. But sunglasses seem much less common. Is that really true? An observation study in central Tokyo has an interesting answer.</div>
+    <p class="article-paragraph">2010<ruby>年<rt>ねん</rt></ruby>の<ruby>夏<rt>なつ</rt></ruby>、<ruby>研究者<rt>けんきゅうしゃ</rt></ruby>は<ruby>銀座<rt>ぎんざ</rt></ruby>、<ruby>浅草<rt>あさくさ</rt></ruby>、<ruby>渋谷<rt>しぶや</rt></ruby>、<ruby>新宿<rt>しんじゅく</rt></ruby>、<ruby>池袋<rt>いけぶくろ</rt></ruby>で<ruby>歩<rt>ある</rt></ruby>いている<ruby>人<rt>ひと</rt></ruby>を<ruby>観察<rt>かんさつ</rt></ruby>しました。<ruby>週末<rt>しゅうまつ</rt></ruby>の<ruby>昼<rt>ひる</rt></ruby>、<ruby>合<rt>あ</rt></ruby>わせて2,338<ruby>人<rt>にん</rt></ruby>を<ruby>見<rt>み</rt></ruby>ました。その<ruby>時<rt>とき</rt></ruby>の<ruby>紫外線<rt>しがいせん</rt></ruby>の<ruby>強<rt>つよ</rt></ruby>さは、<ruby>高<rt>たか</rt></ruby>い、またはとても<ruby>高<rt>たか</rt></ruby>いレベルでした。</p>
+    <div class="sentence-translation">In the summer of 2010, researchers observed pedestrians in Ginza, Asakusa, Shibuya, Shinjuku, and Ikebukuro. They watched 2,338 people during weekend midday hours, when UV levels were high or very high.</div>
+    <p class="article-paragraph">サングラスをかけていた<ruby>女性<rt>じょせい</rt></ruby>は6.5％、<ruby>男性<rt>だんせい</rt></ruby>は8.5％でした。どちらも10％に<ruby>届<rt>とど</rt></ruby>きません。<ruby>一方<rt>いっぽう</rt></ruby>、<ruby>女性<rt>じょせい</rt></ruby>では<ruby>日傘<rt>ひがさ</rt></ruby>がいちばんよく<ruby>使<rt>つか</rt></ruby>われていました。<ruby>男性<rt>だんせい</rt></ruby>では、<ruby>帽子<rt>ぼうし</rt></ruby>のほうがサングラスより<ruby>多<rt>おお</rt></ruby>く<ruby>見<rt>み</rt></ruby>られました。<ruby>同<rt>おな</rt></ruby>じ<ruby>日<rt>ひ</rt></ruby>よけでも、<ruby>選<rt>えら</rt></ruby>ばれる<ruby>物<rt>もの</rt></ruby>は<ruby>違<rt>ちが</rt></ruby>っていたのです。</p>
+    <div class="sentence-translation">Just 6.5% of women and 8.5% of men wore sunglasses—both below 10%. Parasols were the most common item for women, and hats were more common than sunglasses for men.</div>
+    <p class="article-paragraph">この<ruby>調査<rt>ちょうさ</rt></ruby>は、サングラスが<ruby>目<rt>め</rt></ruby>を<ruby>紫外線<rt>しがいせん</rt></ruby>から<ruby>守<rt>まも</rt></ruby>ることを<ruby>知<rt>し</rt></ruby>っている<ruby>人<rt>ひと</rt></ruby>が、<ruby>十分<rt>じゅうぶん</rt></ruby>ではないかもしれないと<ruby>述<rt>の</rt></ruby>べています。ただし、<ruby>日傘<rt>ひがさ</rt></ruby>や<ruby>帽子<rt>ぼうし</rt></ruby>も<ruby>日光<rt>にっこう</rt></ruby>を<ruby>避<rt>さ</rt></ruby>ける<ruby>助<rt>たす</rt></ruby>けになります。サングラスをかけないことだけで、その<ruby>人<rt>ひと</rt></ruby>がまったく<ruby>対策<rt>たいさく</rt></ruby>をしていないとは<ruby>言<rt>い</rt></ruby>えません。</p>
+    <div class="sentence-translation">The study says awareness of sunglasses’ UV protection for the eyes may not have been high enough. Still, parasols and hats also help people avoid sunlight, so not wearing sunglasses does not mean a person takes no precautions.</div>
+    <p class="article-paragraph">もちろん、この<ruby>結果<rt>けっか</rt></ruby>は2010<ruby>年<rt>ねん</rt></ruby>の<ruby>都心<rt>としん</rt></ruby>だけのものです。<ruby>今<rt>いま</rt></ruby>の<ruby>東京<rt>とうきょう</rt></ruby>全体で、どれくらいの<ruby>人<rt>ひと</rt></ruby>がサングラスをかけるかは、この<ruby>調査<rt>ちょうさ</rt></ruby>だけではわかりません。それでも、<ruby>強<rt>つよ</rt></ruby>い<ruby>日差<rt>ひざ</rt></ruby>しの<ruby>中<rt>なか</rt></ruby>で<ruby>日傘<rt>ひがさ</rt></ruby>や<ruby>帽子<rt>ぼうし</rt></ruby>を<ruby>選<rt>えら</rt></ruby>ぶ<ruby>東京<rt>とうきょう</rt></ruby>の<ruby>夏<rt>なつ</rt></ruby>の<ruby>風景<rt>ふうけい</rt></ruby>を<ruby>考<rt>かんが</rt></ruby>える、よいヒントになります。</p>
+    <div class="sentence-translation">Of course, this result covers only central Tokyo in 2010. It cannot tell us today’s citywide rate. Even so, it is a useful clue to a Tokyo summer scene where parasols and hats may be chosen over sunglasses.</div>
+    <div class="recording-footer" aria-hidden="true">
+        <span>全文はキャプションにあります</span>
+    </div>
+
+<div class="study-notes-box">
+        <h2>Common Phrases and Patterns</h2>
+        <div class="study-note-group">
+            <h3>Useful phrases</h3>
+            <ul class="study-note-list">
+                <li><strong>〜ように</strong> <span>so that / in order to / in the way that</span><div class="study-note-example">Example: スをかける人は、それほど多くないように見えます</div></li>
+                <li><strong>〜だけで</strong> <span>just by / only with</span><div class="study-note-example">Example: サングラスをかけないことだけで、その人がまったく対策をしていな</div></li>
+            </ul>
+        </div>
+        <div class="study-note-group">
+            <h3>Verb and grammar patterns</h3>
+            <ul class="study-note-list">
+                <li><strong>〜ている</strong> <span>ongoing state / habitual action</span><div class="study-note-example">Example: 座、浅草、渋谷、新宿、池袋で歩いている人を観察しました</div></li>
+            </ul>
+        </div>
+    </div>
+    <div class="vocabulary-box">
+        <h2>N3 Vocabulary</h2>
+        <ul>
+            <li><strong>日傘（ひがさ）:</strong> Parasol / sun umbrella</li>
+            <li><strong>都心（としん）:</strong> City center</li>
+            <li><strong>観察する（かんさつする）:</strong> To observe</li>
+            <li><strong>紫外線（しがいせん）:</strong> Ultraviolet rays / UV</li>
+            <li><strong>届く（とどく）:</strong> To reach</li>
+            <li><strong>一方（いっぽう）:</strong> On the other hand</li>
+            <li><strong>日よけ（ひよけ）:</strong> Sun protection / shade</li>
+            <li><strong>避ける（さける）:</strong> To avoid</li>
+            <li><strong>対策（たいさく）:</strong> Measure / precaution</li>
+            <li><strong>日差し（ひざし）:</strong> Sunlight</li>
+        </ul>
+    </div>
+</div>
+    </main>
+</div>
+
+<script src="./assets/theme.js"></script>
+<script src="./assets/article.js?v=c6ee1cc061d0"></script>
+
+</body>
+</html>
