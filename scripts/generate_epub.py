@@ -20,7 +20,8 @@ ROOT = Path(__file__).resolve().parent.parent
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from scripts.generate_site import load_articles, primary_articles
+from scripts import article_store
+from scripts.generate_site import primary_articles
 from scripts.render_video import html_base_text, split_html_sentences
 from scripts.voicevox_cache import (
     DEFAULT_VOICEVOX_BASE_URL,
@@ -32,24 +33,18 @@ from scripts.voicevox_cache import (
 
 
 DIST_DIR = ROOT / "dist"
-DEFAULT_OUTPUT_PATH = DIST_DIR / "tokyo-starter-pack-vol-1-audio.epub"
-DEFAULT_TITLE = "日本語の勉強記録 Vol. 1"
+DEFAULT_OUTPUT_PATH = DIST_DIR / "japanese-study-record-all-articles-audio.epub"
+DEFAULT_TITLE = "日本語の勉強記録 · 全記事集"
 DEFAULT_AUTHOR = "ドキドキ団子"
 DEFAULT_LANGUAGE = "ja"
-DEFAULT_ARTICLE_IDS = (
-    "2026-07-02-imperial-palace-running",
-    "2026-07-04-keikyu-direction-from-haneda",
-    "2026-07-08-yellow-exit-signs",
-)
 DEFAULT_SPEAKER = 9
 DEFAULT_AUDIO_FORMAT = "mp3"
 DEFAULT_TRAILING_SILENCE = 0.18
 FIXED_LAYOUT_WIDTH = 1200
 FIXED_LAYOUT_HEIGHT = 1800
-EXPECTED_SECTION_COUNT = 5
 EPUB_LAYOUT_CSS_PATH = ROOT / "assets" / "epub-layout.css"
-EPUB_COVER_IMAGE_PATH = ROOT / "assets" / "epub-cover-vol-1.png"
-EPUB_COVER_IMAGE_HREF = "images/epub-cover-vol-1.png"
+EPUB_COVER_IMAGE_PATH = ROOT / "assets" / "epub-cover-all-articles.png"
+EPUB_COVER_IMAGE_HREF = "images/epub-cover-all-articles.png"
 EPUB_COVER_IMAGE_MEDIA_TYPE = "image/png"
 
 
@@ -513,19 +508,12 @@ def nav_document(title: str, chapters: tuple[Chapter, ...]) -> str:
 
 
 def intro_page(title: str, chapters: tuple[Chapter, ...]) -> str:
-    toc_items = "\n".join(
-        f'        <li><a href="{xml_escape(chapter.opener_href)}">{xml_escape(chapter.article["title"])}</a></li>'
-        for chapter in chapters
-    )
     body = f"""    <div class="page-wrap">
       <section class="page">
         <div class="page__inner">
         <h1>{xml_escape(title)}</h1>
-        <p class="title-translation">Three Tokyo stories to read, listen to, and study one section at a time.</p>
-        <h2>Contents</h2>
-        <ol class="toc">
-{toc_items}
-        </ol>
+        <p class="title-translation">{len(chapters)} Japanese reading articles to read, listen to, and study one section at a time.</p>
+        <p class="vocabulary-note">Use your EPUB reader’s table of contents to choose a chapter.</p>
         </div>
       </section>
     </div>"""
@@ -567,7 +555,7 @@ def chapter_overview_xhtml(chapter: Chapter) -> str:
     return xhtml_document(article["title"], body)
 
 
-def section_page_xhtml(article: dict, chapter_index: int, section_index: int, paragraph: dict, audio: SectionAudio, vocabulary_items: tuple[dict, ...]) -> str:
+def section_page_xhtml(article: dict, chapter_index: int, section_index: int, section_count: int, paragraph: dict, audio: SectionAudio, vocabulary_items: tuple[dict, ...]) -> str:
     phrase_note = str(paragraph.get("translation", "")).strip()
     vocabulary_html = render_vocabulary_items(vocabulary_items)
     notes_body = (
@@ -578,7 +566,7 @@ def section_page_xhtml(article: dict, chapter_index: int, section_index: int, pa
     body = f"""    <div class="page-wrap">
       <article class="page">
         <div class="page__inner">
-        <p class="article-meta">Chapter {chapter_index} · Section {section_index} of {EXPECTED_SECTION_COUNT}</p>
+        <p class="article-meta">Chapter {chapter_index} · Section {section_index} of {section_count}</p>
         <main class="story-body story-body--section">
           <div class="section-shell">
             <p class="section-label">{xml_escape(article["title"])}</p>
@@ -803,8 +791,13 @@ def combine_audio(wav_paths: list[Path], output_format: str) -> tuple[bytes, flo
         return transcode_audio(combined_wav, output_format), wav_duration_seconds(combined_wav)
 
 
-def select_articles(article_ids: tuple[str, ...]) -> tuple[dict, ...]:
-    articles = {article["id"]: article for article in primary_articles(load_articles())}
+def select_articles(
+    article_ids: tuple[str, ...], runtime_content_dir: Path | None = None
+) -> tuple[dict, ...]:
+    articles = {
+        article["id"]: article
+        for article in primary_articles(article_store.load_articles(runtime_content_dir))
+    }
     selected = []
     for article_id in article_ids:
         article = articles.get(article_id)
@@ -847,10 +840,8 @@ def paragraph_audio_segments(paragraph: dict) -> tuple[str, ...]:
 
 def validate_article_sections(article: dict) -> tuple[dict, ...]:
     paragraphs = tuple(article.get("paragraphs", []))
-    if len(paragraphs) != EXPECTED_SECTION_COUNT:
-        raise ValueError(
-            f'Article {article["id"]} must have exactly {EXPECTED_SECTION_COUNT} paragraphs for the fixed EPUB layout.'
-        )
+    if not paragraphs:
+        raise ValueError(f'Article {article["id"]} must have at least one paragraph for EPUB export.')
     return paragraphs
 
 
@@ -920,6 +911,7 @@ def build_chapter(article: dict, chapter_index: int, settings: AudioSettings) ->
                     article,
                     chapter_index,
                     section_index,
+                    len(paragraphs),
                     paragraph,
                     audio,
                     vocabulary_items,
@@ -944,10 +936,11 @@ def build_epub(
     author: str,
     article_ids: tuple[str, ...],
     settings: AudioSettings,
+    runtime_content_dir: Path | None = None,
 ) -> Path:
     if not EPUB_COVER_IMAGE_PATH.is_file():
         raise FileNotFoundError(f"EPUB cover image is missing: {EPUB_COVER_IMAGE_PATH}")
-    selected_articles = select_articles(article_ids)
+    selected_articles = select_articles(article_ids, runtime_content_dir)
     chapters = tuple(
         build_chapter(article, chapter_index, settings)
         for chapter_index, article in enumerate(selected_articles, start=1)
@@ -1011,7 +1004,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--output", default=str(DEFAULT_OUTPUT_PATH), help="Path to the EPUB file to create.")
     parser.add_argument("--title", default=DEFAULT_TITLE, help="Book title to embed in the EPUB metadata.")
     parser.add_argument("--author", default=DEFAULT_AUTHOR, help="Author name to embed in the EPUB metadata and cover.")
-    parser.add_argument("--article-id", action="append", dest="article_ids", help="Article id to include. Repeat to override the default three-article set.")
+    parser.add_argument("--article-id", action="append", dest="article_ids", help="Article id to include. Repeat to export only a selected subset; the default is every primary article.")
+    parser.add_argument("--runtime-content-dir", help="Runtime article directory to merge with repo articles. Defaults to CONTENT_DIR or the local runtime-store path.")
     parser.add_argument("--speaker", type=int, default=DEFAULT_SPEAKER, help="VOICEVOX speaker id.")
     parser.add_argument("--voicevox-base-url", default=DEFAULT_VOICEVOX_BASE_URL, help="VOICEVOX base URL.")
     parser.add_argument("--speed-scale", type=float, default=DEFAULT_VOICEVOX_PROSODY["speedScale"])
@@ -1024,7 +1018,11 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> None:
     args = parse_args()
-    article_ids = tuple(args.article_ids) if args.article_ids else DEFAULT_ARTICLE_IDS
+    runtime_content_dir = Path(args.runtime_content_dir).resolve() if args.runtime_content_dir else None
+    available_articles = primary_articles(article_store.load_articles(runtime_content_dir))
+    article_ids = tuple(args.article_ids) if args.article_ids else tuple(
+        article["id"] for article in available_articles
+    )
     output_path = Path(args.output).resolve()
     settings = AudioSettings(
         speaker=args.speaker,
@@ -1039,7 +1037,14 @@ def main() -> None:
         trailing_silence=args.trailing_silence,
         audio_format=args.audio_format,
     )
-    path = build_epub(output_path, args.title, args.author, article_ids, settings)
+    path = build_epub(
+        output_path,
+        args.title,
+        args.author,
+        article_ids,
+        settings,
+        runtime_content_dir,
+    )
     print(path)
 
 

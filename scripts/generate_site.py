@@ -31,17 +31,11 @@ EBOOK_HTML_PATH = ROOT / "ebook.html"
 EBOOK_JS_PATH = ROOT / "assets" / "ebook.js"
 EBOOK_CSS_PATH = ROOT / "assets" / "ebook.css"
 EBOOK_LIBRARY_PATH = ROOT / "data" / "ebook-library.json"
-EBOOK_MVP_ID = "tokyo-starter-pack"
-EBOOK_MVP_ARTICLE_IDS = (
-    "2026-07-02-imperial-palace-running",
-    "2026-07-04-keikyu-direction-from-haneda",
-    "2026-07-08-yellow-exit-signs",
-)
-EBOOK_MVP_PROMPTS = {
-    "2026-07-02-imperial-palace-running": "Why do you think the Imperial Palace route feels approachable even for visitors?",
-    "2026-07-04-keikyu-direction-from-haneda": "If you landed at Haneda today, would your destination be on the Shinagawa side or the Yokohama side?",
-    "2026-07-08-yellow-exit-signs": "What simple design choice makes busy Tokyo stations easier to navigate in this article?",
-}
+EBOOK_COLLECTION_ID = "all-articles"
+EBOOK_COLLECTION_TITLE = "日本語の勉強記録 · 全記事集"
+EBOOK_COLLECTION_SUBTITLE = "Every reading article in one study collection."
+EBOOK_COLLECTION_DESCRIPTION = "Preview every chapter before exporting the complete EPUB."
+EBOOK_MINUTES_PER_ARTICLE = 6
 FLASHCARD_LEVELS = {"N5", "N4", "N3"}
 VERB_FORM_SPECS = (
     ("dictionary", "Dictionary", "Dictionary form"),
@@ -1243,15 +1237,9 @@ def write_article_navigation_manifest(articles: list[dict]) -> None:
 
 
 def build_ebook_library_payload(articles: list[dict]) -> dict:
-    article_lookup = {
-        article["id"]: article
-        for article in primary_articles(articles)
-    }
+    ebook_source_articles = primary_articles(articles)
     ebook_articles = []
-    for article_id in EBOOK_MVP_ARTICLE_IDS:
-        article = article_lookup.get(article_id)
-        if article is None:
-            raise ValueError(f"E-book MVP article not found: {article_id}")
+    for article in ebook_source_articles:
         ebook_articles.append(
             {
                 "id": article["id"],
@@ -1263,7 +1251,7 @@ def build_ebook_library_payload(articles: list[dict]) -> dict:
                 "level": article.get("level", ""),
                 "navLabel": article["navLabel"],
                 "sourceNote": article["sourceNote"],
-                "focusPrompt": EBOOK_MVP_PROMPTS.get(article["id"], ""),
+                "focusPrompt": "",
                 "paragraphs": [
                     {
                         "html": paragraph["html"],
@@ -1285,13 +1273,11 @@ def build_ebook_library_payload(articles: list[dict]) -> dict:
     return {
         "collections": [
             {
-                "id": EBOOK_MVP_ID,
-                "title": "Tokyo Starter Pack · Vol. 1",
-                "subtitle": "Three chapters for moving through Tokyo.",
-                "description": (
-                    "Preview the book’s pages before exporting it."
-                ),
-                "estimatedMinutes": 18,
+                "id": EBOOK_COLLECTION_ID,
+                "title": EBOOK_COLLECTION_TITLE,
+                "subtitle": EBOOK_COLLECTION_SUBTITLE,
+                "description": EBOOK_COLLECTION_DESCRIPTION,
+                "estimatedMinutes": len(ebook_articles) * EBOOK_MINUTES_PER_ARTICLE,
                 "articles": ebook_articles,
             }
         ]

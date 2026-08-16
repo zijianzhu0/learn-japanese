@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import os
 import re
+import sys
 from calendar import month_name
 from copy import deepcopy
 from pathlib import Path
@@ -161,6 +162,12 @@ def validate_article_payload(article: dict, enforce_runtime_rules: bool = False)
     if article_file[:10] != article_id[:10]:
         raise ValueError("Article id and file must start with the same date.")
 
+    download_file_name = str(article["downloadFileName"]).strip()
+    if Path(download_file_name).name != download_file_name:
+        raise ValueError("Article downloadFileName must be a plain filename.")
+    if not download_file_name.endswith(".mp4"):
+        raise ValueError("Article downloadFileName must end with .mp4 for video rendering.")
+
     paragraphs = article.get("paragraphs")
     if not isinstance(paragraphs, list) or not paragraphs:
         raise ValueError("Article paragraphs must be a non-empty array.")
@@ -266,8 +273,12 @@ def read_external_article_specs(runtime_dir: Path | None = None) -> list[dict]:
 
     articles = []
     for path in sorted(directory.glob("*.json"), reverse=True):
-        article = json.loads(path.read_text(encoding="utf-8"))
-        validate_article_payload(article)
+        try:
+            article = json.loads(path.read_text(encoding="utf-8"))
+            validate_article_payload(article)
+        except (OSError, json.JSONDecodeError, ValueError) as exc:
+            print(f"Skipping invalid runtime article {path}: {exc}", file=sys.stderr)
+            continue
         articles.append(article)
     return articles
 
