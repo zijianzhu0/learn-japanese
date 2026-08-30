@@ -1393,7 +1393,7 @@ User brief:
     def video_render_cache_key(self, payload: dict, speaker: int, prosody: dict) -> str:
         encoded = json.dumps(
             {
-                "version": "video-render-v5",
+                "version": "video-render-v6",
                 "speaker": speaker,
                 "voicevoxProsody": prosody,
                 "payload": payload,
