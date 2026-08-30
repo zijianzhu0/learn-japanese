@@ -571,7 +571,7 @@ function normalizeCopiedText(text) {
 }
 
 function normalizeTtsText(text) {
-    return normalizeCopiedText(String(text || '').replace(/[()（）［］\[\]{}｛｝]/g, ' '));
+    return normalizeCopiedText(String(text || '').replace(/[()（）［］\[\]{}｛｝]/g, ''));
 }
 
 function buildBilingualArticleText() {

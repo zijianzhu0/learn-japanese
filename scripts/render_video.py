@@ -129,7 +129,7 @@ class RubyReadingTextParser(HTMLParser):
             self.parts.append(data)
 
     def text(self) -> str:
-        return re.sub(r"\s+", " ", re.sub(r"[()（）［］\[\]{}｛｝]", " ", "".join(self.parts))).strip()
+        return re.sub(r"\s+", " ", re.sub(r"[()（）［］\[\]{}｛｝]", "", "".join(self.parts))).strip()
 
 
 def html_tts_text(html: str) -> str:
