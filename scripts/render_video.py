@@ -98,6 +98,46 @@ def html_base_text(html: str) -> str:
     return parser.text()
 
 
+class RubyReadingTextParser(HTMLParser):
+    """Extract speech text, substituting ruby bases with their readings."""
+
+    def __init__(self) -> None:
+        super().__init__()
+        self.ruby_depth = 0
+        self.rt_depth = 0
+        self.rp_depth = 0
+        self.parts: list[str] = []
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag == "ruby":
+            self.ruby_depth += 1
+        elif tag == "rt" and self.ruby_depth:
+            self.rt_depth += 1
+        elif tag == "rp" and self.ruby_depth:
+            self.rp_depth += 1
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag == "ruby" and self.ruby_depth:
+            self.ruby_depth -= 1
+        elif tag == "rt" and self.rt_depth:
+            self.rt_depth -= 1
+        elif tag == "rp" and self.rp_depth:
+            self.rp_depth -= 1
+
+    def handle_data(self, data: str) -> None:
+        if not self.ruby_depth or (self.rt_depth and not self.rp_depth):
+            self.parts.append(data)
+
+    def text(self) -> str:
+        return re.sub(r"\s+", " ", "".join(self.parts)).strip()
+
+
+def html_tts_text(html: str) -> str:
+    parser = RubyReadingTextParser()
+    parser.feed(html)
+    return parser.text()
+
+
 def split_plain_sentences(text: str) -> list[str]:
     matches = re.findall(r"[^。！？!?]+[。！？!?]?", text)
     return [match.strip() for match in matches if match.strip()]
@@ -149,8 +189,8 @@ def highlighted(html: str, active: bool) -> str:
 
 
 def build_segments(article: dict) -> list[Segment]:
-    title_sentences = split_plain_sentences(html_base_text(article["headlineHtml"]))
-    title_text = " ".join(title_sentences) or html_base_text(article["headlineHtml"])
+    title_sentences = split_plain_sentences(html_tts_text(article["headlineHtml"]))
+    title_text = " ".join(title_sentences) or html_tts_text(article["headlineHtml"])
     segments = [
         Segment(
             key="title",
@@ -177,7 +217,7 @@ def build_segments(article: dict) -> list[Segment]:
             segments.append(
                 Segment(
                     key=f"p{paragraph_index + 1}-{sentence_index + 1}",
-                    text=html_base_text(sentence_html),
+                    text=html_tts_text(sentence_html),
                     title_html=article["headlineHtml"],
                     paragraph_htmls=rendered_paragraphs,
                 )

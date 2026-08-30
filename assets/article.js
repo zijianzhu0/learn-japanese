@@ -532,7 +532,7 @@ async function refreshArticleAudioCacheStatus() {
     const status = document.getElementById('copy-status');
     try {
         const payload = await fetchLocalTtsCacheStatus(
-            sentenceMeta.map((sentence) => sentence.text),
+            sentenceMeta.map((sentence) => sentence.ttsText),
             getSelectedLocalTtsSpeaker(),
             getSelectedVoicevoxProsody()
         );
@@ -549,6 +549,19 @@ async function refreshArticleAudioCacheStatus() {
 function extractRubyBaseText(element) {
     const clone = element.cloneNode(true);
     clone.querySelectorAll('.sentence-read-button').forEach((node) => node.remove());
+    clone.querySelectorAll('rt, rp').forEach((node) => node.remove());
+    return normalizeCopiedText(clone.textContent);
+}
+
+function extractRubyTtsText(element) {
+    const clone = element.cloneNode(true);
+    clone.querySelectorAll('.sentence-read-button').forEach((node) => node.remove());
+    clone.querySelectorAll('ruby').forEach((ruby) => {
+        const reading = normalizeCopiedText(ruby.querySelector('rt')?.textContent);
+        if (reading) {
+            ruby.replaceWith(document.createTextNode(reading));
+        }
+    });
     clone.querySelectorAll('rt, rp').forEach((node) => node.remove());
     return normalizeCopiedText(clone.textContent);
 }
@@ -689,8 +702,9 @@ function buildSentenceMeta() {
     blocks.forEach((block, blockIndex) => {
         const blockText = extractRubyBaseText(block);
         const sentences = splitIntoSentences(blockText);
+        const ttsSentences = splitIntoSentences(extractRubyTtsText(block));
 
-        sentences.forEach((sentence) => {
+        sentences.forEach((sentence, sentenceIndex) => {
             const sentenceId = String(metadata.length);
             let consumed = '';
             const unitIds = [];
@@ -711,6 +725,7 @@ function buildSentenceMeta() {
             metadata.push({
                 id: sentenceId,
                 text: sentence,
+                ttsText: ttsSentences[sentenceIndex] || sentence,
                 unitIds,
                 blockIndex
             });
@@ -1235,7 +1250,7 @@ async function buildLocalTtsAudioQueue(status, speaker = getSelectedLocalTtsSpea
     resetLocalTtsCacheStats();
     for (let index = 0; index < sentenceMeta.length; index += 1) {
         status.textContent = `Generating Docker TTS sentence ${index + 1}/${sentenceMeta.length}...`;
-        const audio = await fetchLocalTtsAudio(sentenceMeta[index].text, speaker);
+        const audio = await fetchLocalTtsAudio(sentenceMeta[index].ttsText, speaker);
         status.textContent = `Prepared sentence ${index + 1}/${sentenceMeta.length}. ${articleAudioCacheSummary()}`;
         audioBlobs.push(audio);
     }
@@ -1300,7 +1315,7 @@ async function playLocalTtsQueue({ audioBlobs = null, speaker = getSelectedLocal
         }
 
         status.textContent = `Generating Docker TTS sentence ${index + 1}/${sentenceMeta.length}...`;
-        return fetchLocalTtsAudio(sentenceMeta[index].text, speaker);
+        return fetchLocalTtsAudio(sentenceMeta[index].ttsText, speaker);
     };
 
     stopCurrentPlayback();
@@ -1522,7 +1537,7 @@ function speakWithBrowserSentenceQueue(onComplete = null, startIndex = 0) {
         const sentence = sentenceMeta[sentenceIndex];
         const firstUnitId = sentence.unitIds[0];
         const firstUnitIndex = findUnitIndexById(firstUnitId);
-        const utterance = new SpeechSynthesisUtterance(sentence.text);
+        const utterance = new SpeechSynthesisUtterance(sentence.ttsText);
         browserUtterance = utterance;
         utterance.lang = 'ja-JP';
         utterance.rate = clampNumber(document.getElementById('browser-rate')?.value, voiceSettings.browserRate, 0.7, 1.2);
