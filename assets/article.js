@@ -563,11 +563,15 @@ function extractRubyTtsText(element) {
         }
     });
     clone.querySelectorAll('rt, rp').forEach((node) => node.remove());
-    return normalizeCopiedText(clone.textContent);
+    return normalizeTtsText(clone.textContent);
 }
 
 function normalizeCopiedText(text) {
     return String(text || '').replace(/\s+/g, ' ').trim();
+}
+
+function normalizeTtsText(text) {
+    return normalizeCopiedText(String(text || '').replace(/[()（）［］\[\]{}｛｝]/g, ''));
 }
 
 function buildBilingualArticleText() {
