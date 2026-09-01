@@ -448,21 +448,26 @@
 <main class="page-shell">
     <section class="hero">
         <p class="eyebrow">Runtime Publishing</p>
-        <h1>Tell Codex what to publish.</h1>
-        <p class="intro">Describe the story, a source URL, and the reading level. Codex drafts the article and the server validates and saves it to the runtime store. Nothing is added to Git.</p>
+        <h1>Tell an AI agent what to publish.</h1>
+        <p class="intro">Choose Codex or DeepSeek, then describe the story, source URL, and reading level. The server validates and saves the draft to the runtime store. Nothing is added to Git.</p>
     </section>
 
     <section class="layout">
         <section class="panel" aria-labelledby="publisher-heading">
             <div class="editor-toolbar">
-                <h2 id="publisher-heading">Codex Agent</h2>
+                <h2 id="publisher-heading">Publishing Agent</h2>
+                <select class="button-secondary" id="agent-provider" aria-label="AI provider">
+                    <option value="codex">Codex (OpenAI)</option>
+                    <option value="deepseek">DeepSeek API</option>
+                </select>
                 <button class="button" type="button" id="publish-article">Draft &amp; Publish</button>
                 <button class="button-secondary" type="button" id="clear-brief">Clear</button>
                 <button class="button-secondary" type="button" id="check-codex-signin">Check OpenAI sign-in</button>
             </div>
             <p class="panel-copy">For example: “Create an N3 article about this news story: [URL]. Focus on the surprising part and cite the source in the source note.”</p>
             <p class="small-note" id="codex-signin-note">Checking Codex sign-in…</p>
-            <textarea id="article-brief-input" spellcheck="true" aria-label="Article brief" placeholder="Describe the article Codex should create…"></textarea>
+            <p class="small-note" id="deepseek-note">Checking DeepSeek setup…</p>
+            <textarea id="article-brief-input" spellcheck="true" aria-label="Article brief" placeholder="Describe the article the selected agent should create…"></textarea>
             <div class="editing-target" id="editing-target">Creating a new runtime article</div>
             <div class="status" id="publish-status" aria-live="polite">Ready.</div>
         </section>

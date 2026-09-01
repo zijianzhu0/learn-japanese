@@ -13,7 +13,8 @@ import tempfile
 import threading
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
-from urllib import parse
+from urllib import error as urlerror
+from urllib import parse, request as urlrequest
 
 PROJECT_DIR = Path(__file__).resolve().parent.parent
 if str(PROJECT_DIR) not in sys.path:
@@ -54,6 +55,8 @@ MAX_VIDEO_UPLOAD_BYTES = 700 * 1024 * 1024
 MAX_AGENT_BRIEF_CHARS = 12_000
 CODEX_AGENT_TIMEOUT_SECONDS = 300
 CODEX_ARTICLE_AGENT_MODEL = "gpt-5.6-terra"
+DEEPSEEK_AGENT_MODEL = os.environ.get("DEEPSEEK_AGENT_MODEL", "deepseek-chat")
+DEEPSEEK_API_URL = os.environ.get("DEEPSEEK_API_URL", "https://api.deepseek.com/chat/completions")
 VIDEO_OUTPUT_DIR = PROJECT_DIR / "videos"
 FLASHCARD_PROGRESS_PATH = PROJECT_DIR / "data" / "flashcard-progress.json"
 FLASHCARD_PROGRESS_LOCK = threading.Lock()
@@ -111,6 +114,10 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
 
         if request_path == "/api/codex/status":
             self.handle_codex_status()
+            return
+
+        if request_path == "/api/deepseek/status":
+            self.handle_deepseek_status()
             return
 
         if request_path == "/api/flashcards/progress":
@@ -249,6 +256,17 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
                 "ok": True,
                 "authenticated": result.returncode == 0,
                 "status": detail or ("Signed in." if result.returncode == 0 else "Not signed in."),
+            },
+        )
+
+    def handle_deepseek_status(self) -> None:
+        """Report configuration only; never expose the DeepSeek API key."""
+        self.send_json(
+            200,
+            {
+                "ok": True,
+                "configured": bool(os.environ.get("DEEPSEEK_API_KEY", "").strip()),
+                "model": DEEPSEEK_AGENT_MODEL,
             },
         )
 
@@ -405,12 +423,15 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
             raise
 
     def handle_article_agent_publish(self) -> None:
-        """Use the local Codex CLI to draft an article, then publish via the runtime store."""
+        """Draft an article with the selected configured agent, then publish it."""
         try:
             payload = self.read_json_body()
             brief = str(payload.get("brief", "")).strip()
+            provider = str(payload.get("provider", "codex")).strip().lower()
+            if provider not in {"codex", "deepseek"}:
+                raise ValueError("Unsupported publishing agent.")
             if not brief:
-                raise ValueError("Tell the Codex agent what article to create or revise.")
+                raise ValueError("Tell the publishing agent what article to create or revise.")
             if len(brief) > MAX_AGENT_BRIEF_CHARS:
                 raise ValueError(f"Article brief is too long. Limit is {MAX_AGENT_BRIEF_CHARS:,} characters.")
 
@@ -421,11 +442,12 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
                     article_id, RUNTIME_ARTICLE_CONTENT_DIR
                 )
 
-            article = self.run_codex_article_agent(brief, existing_article)
+            article = self.run_article_agent(provider, brief, existing_article)
             try:
                 article_store.validate_article_payload(article, enforce_runtime_rules=True)
             except ValueError as validation_error:
-                article = self.run_codex_article_agent(
+                article = self.run_article_agent(
+                    provider,
                     brief,
                     existing_article,
                     rejected_article=article,
@@ -437,10 +459,10 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
             self.send_json(400, {"ok": False, "error": str(exc)})
             return
         except subprocess.TimeoutExpired:
-            self.send_json(504, {"ok": False, "error": "Codex took longer than five minutes. Please try again."})
+            self.send_json(504, {"ok": False, "error": f"{provider.title()} took longer than five minutes. Please try again."})
             return
         except Exception as exc:
-            self.send_json(500, {"ok": False, "error": f"Codex article publish failed: {exc}"})
+            self.send_json(500, {"ok": False, "error": f"{provider.title()} article publish failed: {exc}"})
             return
 
         self.send_json(
@@ -452,17 +474,25 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
             },
         )
 
-    def run_codex_article_agent(
+    def run_article_agent(
         self,
+        provider: str,
         brief: str,
         existing_article: dict | None,
         rejected_article: dict | None = None,
         validation_error: str = "",
     ) -> dict:
-        codex_bin = shutil.which("codex")
-        if not codex_bin:
-            raise ValueError("Codex CLI is not installed or not on PATH for the server.")
+        if provider == "deepseek":
+            return self.run_deepseek_article_agent(brief, existing_article, rejected_article, validation_error)
+        return self.run_codex_article_agent(brief, existing_article, rejected_article, validation_error)
 
+    def article_agent_prompt(
+        self,
+        brief: str,
+        existing_article: dict | None,
+        rejected_article: dict | None = None,
+        validation_error: str = "",
+    ) -> str:
         existing_context = (
             "This is a revision. Preserve its id, file, date, month, navLabel, and downloadFileName unless the brief explicitly asks otherwise.\n"
             f"Existing article:\n{json.dumps(existing_article, ensure_ascii=False, indent=2)}"
@@ -475,7 +505,7 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
             f"Rejected draft:\n{json.dumps(rejected_article, ensure_ascii=False, indent=2)}"
             if rejected_article else ""
         )
-        prompt = f'''You are the publishing agent for a Japanese reading site. Produce one complete runtime article object from the brief below. You may research a supplied source URL if needed, but do not modify files or run shell commands. Your final response must be the article object alone and must satisfy the schema.
+        return f'''You are the publishing agent for a Japanese reading site. Produce one complete runtime article object from the brief below. You may research a supplied source URL if needed, but do not modify files or run shell commands. Your final response must be the article object alone and must satisfy the schema.
 
 Article requirements:
 - include id, file, title, titleTranslation, date, month, navLabel, level, downloadFileName, headlineHtml, sourceNote, paragraphs, vocabularyTitle, vocabulary
@@ -494,7 +524,9 @@ Article requirements:
 
 User brief:
 {brief}'''
-        schema = {
+
+    def article_agent_schema(self) -> dict:
+        return {
             "type": "object",
             "required": ["id", "file", "title", "titleTranslation", "date", "month", "navLabel", "level", "downloadFileName", "headlineHtml", "sourceNote", "paragraphs", "vocabularyTitle", "vocabulary"],
             "additionalProperties": False,
@@ -520,6 +552,19 @@ User brief:
                 },
             },
         }
+
+    def run_codex_article_agent(
+        self,
+        brief: str,
+        existing_article: dict | None,
+        rejected_article: dict | None = None,
+        validation_error: str = "",
+    ) -> dict:
+        codex_bin = shutil.which("codex")
+        if not codex_bin:
+            raise ValueError("Codex CLI is not installed or not on PATH for the server.")
+        prompt = self.article_agent_prompt(brief, existing_article, rejected_article, validation_error)
+        schema = self.article_agent_schema()
         with tempfile.TemporaryDirectory(prefix="learn-japanese-codex-") as temp_dir:
             schema_path = Path(temp_dir) / "article-schema.json"
             output_path = Path(temp_dir) / "article.json"
@@ -536,6 +581,46 @@ User brief:
             article = json.loads(output_path.read_text(encoding="utf-8"))
         if not isinstance(article, dict):
             raise ValueError("Codex returned an invalid article object.")
+        return article
+
+    def run_deepseek_article_agent(
+        self,
+        brief: str,
+        existing_article: dict | None,
+        rejected_article: dict | None = None,
+        validation_error: str = "",
+    ) -> dict:
+        api_key = os.environ.get("DEEPSEEK_API_KEY", "").strip()
+        if not api_key:
+            raise ValueError("DeepSeek is not configured. Set DEEPSEEK_API_KEY on the server and restart it.")
+        prompt = self.article_agent_prompt(brief, existing_article, rejected_article, validation_error)
+        body = json.dumps({
+            "model": DEEPSEEK_AGENT_MODEL,
+            "messages": [{"role": "user", "content": prompt}],
+            "response_format": {"type": "json_object"},
+            "temperature": 0.2,
+        }).encode("utf-8")
+        request = urlrequest.Request(
+            DEEPSEEK_API_URL,
+            data=body,
+            headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
+            method="POST",
+        )
+        try:
+            with urlrequest.urlopen(request, timeout=CODEX_AGENT_TIMEOUT_SECONDS) as response:
+                payload = json.loads(response.read().decode("utf-8"))
+        except urlerror.HTTPError as exc:
+            detail = exc.read().decode("utf-8", errors="replace")
+            raise RuntimeError(f"DeepSeek API returned HTTP {exc.code}: {detail[-800:]}") from exc
+        except urlerror.URLError as exc:
+            raise RuntimeError(f"Could not reach the DeepSeek API: {exc.reason}") from exc
+        try:
+            content = payload["choices"][0]["message"]["content"]
+            article = json.loads(content)
+        except (KeyError, IndexError, TypeError, json.JSONDecodeError) as exc:
+            raise ValueError("DeepSeek returned an invalid article response.") from exc
+        if not isinstance(article, dict):
+            raise ValueError("DeepSeek returned an invalid article object.")
         return article
 
     def handle_article_delete(self, query_string: str) -> None:

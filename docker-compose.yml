@@ -6,6 +6,9 @@ services:
     environment:
       VOICEVOX_BASE_URL: "http://voicevox:50021"
       CONTENT_DIR: "/content/articles"
+      # Optional backup publishing agent. Set this in the host environment or a local .env file.
+      DEEPSEEK_API_KEY: ${DEEPSEEK_API_KEY:-}
+      DEEPSEEK_AGENT_MODEL: ${DEEPSEEK_AGENT_MODEL:-deepseek-chat}
     volumes:
       - .:/app
       - learn_japanese_content:/content

@@ -106,6 +106,17 @@ Useful runtime endpoints:
 
 Runtime-published articles appear on the served `index.html`, article navigation, flashcards, and video endpoints without regenerating tracked files.
 
+### Backup DeepSeek publishing agent
+
+The Publish page can use either the default Codex agent or DeepSeek. To enable DeepSeek, set an API key only on the machine that runs the server (never in browser code):
+
+```bash
+export DEEPSEEK_API_KEY='your-key'
+docker compose up --build
+```
+
+For Docker Compose, a local `.env` file containing `DEEPSEEK_API_KEY=your-key` works too. You may override the default `deepseek-chat` model with `DEEPSEEK_AGENT_MODEL`. Choose **DeepSeek API** from the provider selector in `publish.html`; the server sends requests to DeepSeek and keeps the key private. The selection is explicit, so a failed Codex request never unexpectedly incurs DeepSeek API usage.
+
 There is also a browser UI at:
 
 ```text

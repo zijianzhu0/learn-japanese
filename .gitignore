@@ -19,3 +19,4 @@ models/
 *.mp4
 *.cpu.opt.onnx
 *.cpu.opt.onnx.ok
+.env

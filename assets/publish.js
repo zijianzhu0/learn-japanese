@@ -1,6 +1,7 @@
 const articlesEndpoint = '/api/articles';
 const agentEndpoint = '/api/articles/agent';
 const codexStatusEndpoint = '/api/codex/status';
+const deepseekStatusEndpoint = '/api/deepseek/status';
 
 const state = {
     backupUrl: '/api/articles/backup',
@@ -20,7 +21,9 @@ const elements = {
     downloadBackup: document.getElementById('download-backup'),
     copyContentDir: document.getElementById('copy-content-dir'),
     checkCodexSignin: document.getElementById('check-codex-signin'),
-    codexSigninNote: document.getElementById('codex-signin-note')
+    codexSigninNote: document.getElementById('codex-signin-note'),
+    provider: document.getElementById('agent-provider'),
+    deepseekNote: document.getElementById('deepseek-note')
 };
 
 function setStatus(message, tone = 'default') {
@@ -99,24 +102,39 @@ async function checkCodexSignin() {
     }
 }
 
+async function checkDeepseekSetup() {
+    try {
+        const response = await fetch(deepseekStatusEndpoint, { cache: 'no-store' });
+        const payload = await response.json().catch(() => ({}));
+        if (!response.ok || !payload.ok) throw new Error(payload.error || `DeepSeek status failed with HTTP ${response.status}.`);
+        elements.deepseekNote.textContent = payload.configured
+            ? `DeepSeek is configured (${payload.model}) and ready to publish.`
+            : 'DeepSeek is not configured. Set DEEPSEEK_API_KEY on the server, then restart it.';
+    } catch (error) {
+        elements.deepseekNote.textContent = `DeepSeek setup unavailable: ${error.message}`;
+    }
+}
+
 async function publishWithAgent() {
     const brief = elements.brief.value.trim();
     if (!brief) {
-        setStatus('Describe the article you want Codex to create.', 'error');
+        setStatus('Describe the article you want the publishing agent to create.', 'error');
         return;
     }
     elements.publish.disabled = true;
     elements.clearBrief.disabled = true;
-    setStatus('Codex is researching, drafting, validating, and publishing the article. This can take a few minutes.');
+    const provider = elements.provider.value;
+    const agentName = provider === 'deepseek' ? 'DeepSeek' : 'Codex';
+    setStatus(`${agentName} is researching, drafting, validating, and publishing the article. This can take a few minutes.`);
     try {
         const response = await fetch(agentEndpoint, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ brief, article_id: state.selectedArticleId || undefined })
+            body: JSON.stringify({ brief, provider, article_id: state.selectedArticleId || undefined })
         });
         const payload = await response.json().catch(() => ({}));
         if (!response.ok || !payload.ok) {
-            throw new Error(payload.error || `Codex publish failed with HTTP ${response.status}.`);
+            throw new Error(payload.error || `${agentName} publish failed with HTTP ${response.status}.`);
         }
         const article = payload.article || {};
         setStatus(`Published ${article.id || 'runtime article'}${article.href ? ` — ${article.href}` : ''}`);
@@ -139,7 +157,7 @@ function reviseRuntimeArticle(articleId) {
     setEditingState(article);
     elements.brief.value = `Revise ${article.title}: `;
     elements.brief.focus();
-    setStatus(`Tell Codex what to change in ${article.id}. Its existing article details will be provided automatically.`);
+    setStatus(`Tell the selected agent what to change in ${article.id}. Its existing article details will be provided automatically.`);
 }
 
 async function deleteRuntimeArticle(articleId) {
@@ -197,3 +215,4 @@ loadRuntimeArticles().catch((error) => {
     elements.articleCount.textContent = 'Unavailable';
 });
 checkCodexSignin();
+checkDeepseekSetup();
