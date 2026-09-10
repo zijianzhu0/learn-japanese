@@ -11,6 +11,7 @@ import subprocess
 import sys
 import tempfile
 import threading
+from datetime import date
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib import error as urlerror
@@ -493,6 +494,7 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
         rejected_article: dict | None = None,
         validation_error: str = "",
     ) -> str:
+        current_date = date.today().isoformat()
         existing_context = (
             "This is a revision. Preserve its id, file, date, month, navLabel, and downloadFileName unless the brief explicitly asks otherwise.\n"
             f"Existing article:\n{json.dumps(existing_article, ensure_ascii=False, indent=2)}"
@@ -510,6 +512,8 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
 Article requirements:
 - include id, file, title, titleTranslation, date, month, navLabel, level, downloadFileName, headlineHtml, sourceNote, paragraphs, vocabularyTitle, vocabulary
 - downloadFileName must be a plain MP4 filename ending in .mp4; use the article id followed by .mp4
+- for a new article, use {current_date} as the date and as the YYYY-MM-DD prefix of id and file, unless the brief explicitly provides a different publication date; do not use a source article's original date as the publication date
+- for a revision, preserve the existing date, id, and file unless the brief explicitly asks to change them
 - month must be an English archive label such as "July 2026", never a machine-style value such as "2026-07"
 - paragraphs has exactly 5 objects, each with html and an accurate English translation
 - each html has 1-3 Japanese sentences; the visible Japanese text across all five is 450-500 characters
@@ -598,7 +602,8 @@ User brief:
             "model": DEEPSEEK_AGENT_MODEL,
             "messages": [{"role": "user", "content": prompt}],
             "response_format": {"type": "json_object"},
-            "temperature": 0.2,
+            "reasoning_effort": "high",
+            "thinking": {"type": "enabled"},
         }).encode("utf-8")
         request = urlrequest.Request(
             DEEPSEEK_API_URL,
