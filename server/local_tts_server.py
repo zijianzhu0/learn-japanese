@@ -443,6 +443,7 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
                 )
 
             article = self.run_article_agent(provider, brief, existing_article)
+            article = self.run_article_proofreader(provider, article)
             try:
                 article_store.validate_article_payload(article, enforce_runtime_rules=True)
             except ValueError as validation_error:
@@ -453,6 +454,7 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
                     rejected_article=article,
                     validation_error=str(validation_error),
                 )
+                article = self.run_article_proofreader(provider, article)
                 article_store.validate_article_payload(article, enforce_runtime_rules=True)
             saved, target_path = self.save_runtime_article(article, overwrite=existing_article is not None)
         except (TypeError, ValueError, json.JSONDecodeError) as exc:
@@ -485,6 +487,15 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
         if provider == "deepseek":
             return self.run_deepseek_article_agent(brief, existing_article, rejected_article, validation_error)
         return self.run_codex_article_agent(brief, existing_article, rejected_article, validation_error)
+
+    def run_article_proofreader(self, provider: str, article: dict) -> dict:
+        """Second AI pass over a freshly generated draft: proofread every kana
+        reading before the article ships. Acts as a gate like the length check,
+        but as its own agent call so the draft gets a fresh pair of eyes."""
+        prompt = self.article_proofreader_prompt(article)
+        if provider == "deepseek":
+            return self.run_deepseek_json_agent(prompt)
+        return self.run_codex_json_agent(prompt)
 
     def article_agent_prompt(
         self,
@@ -525,6 +536,22 @@ Article requirements:
 User brief:
 {brief}'''
 
+    def article_proofreader_prompt(self, article: dict) -> str:
+        draft = json.dumps(article, ensure_ascii=False, indent=2)
+        return f'''You are a kana proofreader for a Japanese learner reading site. A draft article is provided below as JSON. Its Japanese text uses <ruby>base<rt>reading</rt></ruby> markup, and the TTS voice reads the <rt> kana aloud exactly as written, so every reading must match standard Japanese pronunciation — learners will memorize what they hear.
+
+Proofread every ruby reading in headlineHtml and in each paragraphs[].html, plus the parenthesized readings in vocabulary[].term (for example 日傘（ひがさ）). Verify:
+- rendaku and voicing in compounds: 罰金 is ばっきん (never ばつきん); 罰則 is ばっそく (never ばつそく)
+- 月: a standalone or duration 月 is つき (for example 月100時間 is つきひゃくじかん); 何月 and 一月 style compounds are ～がつ; 先月 is せんげつ, 今月 is こんげつ, 毎月 is まいつき
+- month names: 四月 is しがつ (never よんがつ); 七月 is しちがつ; 九月 is くがつ
+- counters: 一人 is ひとり, 二人 is ふたり, 三人 is さんにん; 三日 is みっか; 一日 as the first of the month is ついたち; check ぱ/ば/だ voicing in ～本, ～匹, ～分, ～杯 counters
+- every other reading against standard Japanese pronunciation of the word in its sentence context
+
+Fix every wrong reading. Change nothing else: keep the same sentences, translations, vocabulary entries, ids, dates, and formatting. Do not respond until each ruby reading has been individually verified. Return the complete corrected article as JSON only, without markdown fences or commentary.
+
+Draft article:
+{draft}'''
+
     def article_agent_schema(self) -> dict:
         return {
             "type": "object",
@@ -553,17 +580,11 @@ User brief:
             },
         }
 
-    def run_codex_article_agent(
-        self,
-        brief: str,
-        existing_article: dict | None,
-        rejected_article: dict | None = None,
-        validation_error: str = "",
-    ) -> dict:
+    def run_codex_json_agent(self, prompt: str) -> dict:
+        """Run the Codex CLI with an arbitrary prompt, expecting one article-shaped JSON object back."""
         codex_bin = shutil.which("codex")
         if not codex_bin:
             raise ValueError("Codex CLI is not installed or not on PATH for the server.")
-        prompt = self.article_agent_prompt(brief, existing_article, rejected_article, validation_error)
         schema = self.article_agent_schema()
         with tempfile.TemporaryDirectory(prefix="learn-japanese-codex-") as temp_dir:
             schema_path = Path(temp_dir) / "article-schema.json"
@@ -583,17 +604,21 @@ User brief:
             raise ValueError("Codex returned an invalid article object.")
         return article
 
-    def run_deepseek_article_agent(
+    def run_codex_article_agent(
         self,
         brief: str,
         existing_article: dict | None,
         rejected_article: dict | None = None,
         validation_error: str = "",
     ) -> dict:
+        prompt = self.article_agent_prompt(brief, existing_article, rejected_article, validation_error)
+        return self.run_codex_json_agent(prompt)
+
+    def run_deepseek_json_agent(self, prompt: str) -> dict:
+        """Call the DeepSeek API with an arbitrary prompt, expecting one article-shaped JSON object back."""
         api_key = os.environ.get("DEEPSEEK_API_KEY", "").strip()
         if not api_key:
             raise ValueError("DeepSeek is not configured. Set DEEPSEEK_API_KEY on the server and restart it.")
-        prompt = self.article_agent_prompt(brief, existing_article, rejected_article, validation_error)
         body = json.dumps({
             "model": DEEPSEEK_AGENT_MODEL,
             "messages": [{"role": "user", "content": prompt}],
@@ -622,6 +647,16 @@ User brief:
         if not isinstance(article, dict):
             raise ValueError("DeepSeek returned an invalid article object.")
         return article
+
+    def run_deepseek_article_agent(
+        self,
+        brief: str,
+        existing_article: dict | None,
+        rejected_article: dict | None = None,
+        validation_error: str = "",
+    ) -> dict:
+        prompt = self.article_agent_prompt(brief, existing_article, rejected_article, validation_error)
+        return self.run_deepseek_json_agent(prompt)
 
     def handle_article_delete(self, query_string: str) -> None:
         params = parse.parse_qs(query_string, keep_blank_values=False)
