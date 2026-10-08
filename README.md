@@ -52,6 +52,8 @@ By default, runtime-published articles live outside the repo at `~/.local/share/
 
 ## Article Workflow
 
+Articles drafted by the publishing agent (`/api/articles/agent`, Codex or DeepSeek) pass through a kana proofreader gate before validation: a second agent call checks every `<ruby>` reading (rendaku, counters, month names) and returns the corrected article. Like the 450-500 character length gate, nothing ships until the proofreader signs off.
+
 Before changing article data, run the normal verification commands once so you have a clean baseline:
 
 ```bash
