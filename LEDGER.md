@@ -6,9 +6,9 @@ Use this as the shared handoff note for agents working in this repository. Updat
 
 Make the e-book MVP browser page a reliable layout workbench for the fixed-layout EPUB export.
 
-## In progress
+## Completed
 
-- `feature/verified-json-publish`: "Paste verified JSON" mode on publish.html — submit a human-written article JSON (no OpenAI/DeepSeek agent) through new `POST /api/articles/validate`, with all deterministic guardrails enforced server-side. The kana proofreader gate stays agent-only.
+- `feature/verified-json-publish` (PR #3): "Paste verified JSON" mode on publish.html — submit a human-written article JSON (no OpenAI/DeepSeek agent) through new `POST /api/articles/validate`, with all deterministic guardrails enforced server-side. The kana proofreader gate stays agent-only. Tested end-to-end against the local server; branch pushed, PR opened.
 
 ## Completed
 
