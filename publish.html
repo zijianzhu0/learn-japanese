@@ -448,28 +448,45 @@
 <main class="page-shell">
     <section class="hero">
         <p class="eyebrow">Runtime Publishing</p>
-        <h1>Tell an AI agent what to publish.</h1>
-        <p class="intro">Choose Codex or DeepSeek, then describe the story, source URL, and reading level. The server validates and saves the draft to the runtime store. Nothing is added to Git.</p>
+        <h1>Publish a runtime article.</h1>
+        <p class="intro">Draft with an AI agent, or paste a verified article JSON written without one. Either way the server enforces the publishing guardrails and saves to the runtime store. Nothing is added to Git.</p>
     </section>
 
     <section class="layout">
         <section class="panel" aria-labelledby="publisher-heading">
-            <div class="editor-toolbar">
-                <h2 id="publisher-heading">Publishing Agent</h2>
-                <select class="button-secondary" id="agent-provider" aria-label="AI provider">
-                    <option value="codex">Codex (OpenAI)</option>
-                    <option value="deepseek">DeepSeek API</option>
-                </select>
-                <button class="button" type="button" id="publish-article">Draft &amp; Publish</button>
-                <button class="button-secondary" type="button" id="clear-brief">Clear</button>
-                <button class="button-secondary" type="button" id="check-codex-signin">Check OpenAI sign-in</button>
+            <h2 id="publisher-heading">Publisher</h2>
+            <div class="editor-toolbar" role="group" aria-label="Publishing mode">
+                <button class="button" type="button" id="mode-agent" aria-pressed="true">Draft with agent</button>
+                <button class="button-secondary" type="button" id="mode-verified-json" aria-pressed="false">Paste verified JSON</button>
             </div>
-            <p class="panel-copy">For example: “Create an N3 article about this news story: [URL]. Focus on the surprising part and cite the source in the source note.”</p>
-            <p class="small-note" id="codex-signin-note">Checking Codex sign-in…</p>
-            <p class="small-note" id="deepseek-note">Checking DeepSeek setup…</p>
-            <textarea id="article-brief-input" spellcheck="true" aria-label="Article brief" placeholder="Describe the article the selected agent should create…"></textarea>
-            <div class="editing-target" id="editing-target">Creating a new runtime article</div>
-            <div class="status" id="publish-status" aria-live="polite">Ready.</div>
+            <div id="agent-mode">
+                <div class="editor-toolbar">
+                    <select class="button-secondary" id="agent-provider" aria-label="AI provider">
+                        <option value="codex">Codex (OpenAI)</option>
+                        <option value="deepseek">DeepSeek API</option>
+                    </select>
+                    <button class="button" type="button" id="publish-article">Draft &amp; Publish</button>
+                    <button class="button-secondary" type="button" id="clear-brief">Clear</button>
+                    <button class="button-secondary" type="button" id="check-codex-signin">Check OpenAI sign-in</button>
+                </div>
+                <p class="panel-copy">For example: “Create an N3 article about this news story: [URL]. Focus on the surprising part and cite the source in the source note.”</p>
+                <p class="small-note" id="codex-signin-note">Checking Codex sign-in…</p>
+                <p class="small-note" id="deepseek-note">Checking DeepSeek setup…</p>
+                <textarea id="article-brief-input" spellcheck="true" aria-label="Article brief" placeholder="Describe the article the selected agent should create…"></textarea>
+                <div class="editing-target" id="editing-target">Creating a new runtime article</div>
+                <div class="status" id="publish-status" aria-live="polite">Ready.</div>
+            </div>
+            <div id="verified-json-mode" hidden>
+                <div class="editor-toolbar">
+                    <button class="button-secondary" type="button" id="validate-verified-json">Validate JSON</button>
+                    <button class="button" type="button" id="publish-verified-json">Publish verified JSON</button>
+                    <button class="button-secondary" type="button" id="clear-verified-json">Clear</button>
+                    <label class="small-note" for="overwrite-verified-json"><input type="checkbox" id="overwrite-verified-json"> Overwrite existing runtime article with the same id</label>
+                </div>
+                <p class="panel-copy">Paste a complete, human-verified article JSON — for example one drafted without the AI publishing agent. It skips the agent and the kana proofreader gate, but the server still enforces every guardrail: required fields, id/file naming, complete furigana on every kanji, exactly 5 sections of 1–3 sentences, 450–500 body characters, and vocabulary terms with meanings.</p>
+                <textarea id="verified-json-input" spellcheck="false" aria-label="Verified article JSON" placeholder='Paste the verified article JSON here, e.g. {"id": "2026-10-15-my-topic", "file": "2026-10-15-my-topic.html", ...}'></textarea>
+                <div class="status" id="verified-json-status" aria-live="polite">Ready.</div>
+            </div>
         </section>
 
         <aside class="panel" aria-labelledby="runtime-heading">
