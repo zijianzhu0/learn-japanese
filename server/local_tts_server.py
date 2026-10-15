@@ -137,6 +137,10 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
             self.handle_article_create()
             return
 
+        if request_path == "/api/articles/validate":
+            self.handle_article_validate()
+            return
+
         if request_path == "/api/articles/agent":
             self.handle_article_agent_publish()
             return
@@ -422,6 +426,93 @@ class LearnJapaneseHandler(SimpleHTTPRequestHandler):
             else:
                 target_path.write_bytes(prior_bytes)
             raise
+
+    # Deterministic guardrails enforced for every runtime article, including
+    # human-verified JSON submitted without the AI publishing agent.
+    ARTICLE_GUARDRAILS = [
+        "required fields present (id, file, title, date, month, navLabel, downloadFileName, headlineHtml, sourceNote, vocabularyTitle)",
+        "id looks like YYYY-MM-DD-slug and matches the file date",
+        "every kanji wrapped in <ruby> with a non-empty reading",
+        "exactly 5 paragraphs",
+        "1-3 sentences per paragraph",
+        "450-500 visible Japanese body characters",
+        "vocabulary terms each have a meaning",
+    ]
+
+    def find_article_conflicts(self, article: dict) -> list[dict]:
+        """Report id/file collisions without writing anything.
+
+        Repo collisions always block publishing; runtime collisions can be
+        resolved with overwrite=true.
+        """
+        conflicts = []
+        for existing in article_store.read_repo_article_specs():
+            if existing["id"] == article["id"] or existing["file"] == article["file"]:
+                conflicts.append(
+                    {
+                        "scope": "repo",
+                        "id": existing["id"],
+                        "file": existing["file"],
+                        "blocking": True,
+                    }
+                )
+        for existing in article_store.read_external_article_specs(
+            RUNTIME_ARTICLE_CONTENT_DIR
+        ):
+            if existing["id"] == article["id"] or existing["file"] == article["file"]:
+                conflicts.append(
+                    {
+                        "scope": "runtime",
+                        "id": existing["id"],
+                        "file": existing["file"],
+                        "blocking": False,
+                    }
+                )
+        return conflicts
+
+    def handle_article_validate(self) -> None:
+        """Validate a caller-supplied article JSON without saving it.
+
+        Backs the "paste verified JSON" flow: the JSON is written and verified
+        by a human instead of the AI publishing agent, so the kana proofreader
+        gate does not run — but every deterministic guardrail still applies.
+        """
+        try:
+            payload = self.read_json_body()
+            if "article" in payload:
+                article = payload.get("article")
+            else:
+                article = dict(payload)
+            if not isinstance(article, dict):
+                raise ValueError("Article request must contain an article object.")
+            article_store.validate_article_payload(article, enforce_runtime_rules=True)
+            conflicts = self.find_article_conflicts(article)
+            visible_body = "".join(
+                article_store.html_base_text(str(paragraph.get("html", "")))
+                for paragraph in article["paragraphs"]
+            )
+            body_chars = len("".join(visible_body.split()))
+        except (TypeError, ValueError, json.JSONDecodeError) as exc:
+            self.send_json(400, {"ok": False, "error": str(exc)})
+            return
+        except Exception as exc:
+            self.send_json(500, {"ok": False, "error": f"Article validation failed: {exc}"})
+            return
+
+        self.send_json(
+            200,
+            {
+                "ok": True,
+                "article": {
+                    "id": article["id"],
+                    "file": article["file"],
+                    "title": article["title"],
+                    "body_chars": body_chars,
+                },
+                "guardrails": self.ARTICLE_GUARDRAILS,
+                "conflicts": conflicts,
+            },
+        )
 
     def handle_article_agent_publish(self) -> None:
         """Draft an article with the selected configured agent, then publish it."""

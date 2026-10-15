@@ -8,6 +8,10 @@ Make the e-book MVP browser page a reliable layout workbench for the fixed-layou
 
 ## Completed
 
+- `feature/verified-json-publish` (PR #3): "Paste verified JSON" mode on publish.html — submit a human-written article JSON (no OpenAI/DeepSeek agent) through new `POST /api/articles/validate`, with all deterministic guardrails enforced server-side. The kana proofreader gate stays agent-only. Tested end-to-end against the local server; branch pushed, PR opened.
+
+## Completed
+
 - Created the `feature/ebook-epub-preview` branch for the EPUB-preview work.
 - Reworked `ebook.html` into a 1200 × 1800 fixed-page EPUB preview with chapter overview and section-page selection.
 - Added `assets/epub-layout.css` as the shared stylesheet for the browser preview and `scripts/generate_epub.py` export.

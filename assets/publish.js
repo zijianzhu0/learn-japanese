@@ -1,4 +1,5 @@
 const articlesEndpoint = '/api/articles';
+const validateEndpoint = '/api/articles/validate';
 const agentEndpoint = '/api/articles/agent';
 const codexStatusEndpoint = '/api/codex/status';
 const deepseekStatusEndpoint = '/api/deepseek/status';
@@ -23,12 +24,139 @@ const elements = {
     checkCodexSignin: document.getElementById('check-codex-signin'),
     codexSigninNote: document.getElementById('codex-signin-note'),
     provider: document.getElementById('agent-provider'),
-    deepseekNote: document.getElementById('deepseek-note')
+    deepseekNote: document.getElementById('deepseek-note'),
+    modeAgent: document.getElementById('mode-agent'),
+    modeVerifiedJson: document.getElementById('mode-verified-json'),
+    agentMode: document.getElementById('agent-mode'),
+    verifiedJsonMode: document.getElementById('verified-json-mode'),
+    verifiedJsonInput: document.getElementById('verified-json-input'),
+    validateVerifiedJson: document.getElementById('validate-verified-json'),
+    publishVerifiedJson: document.getElementById('publish-verified-json'),
+    clearVerifiedJson: document.getElementById('clear-verified-json'),
+    overwriteVerifiedJson: document.getElementById('overwrite-verified-json'),
+    verifiedJsonStatus: document.getElementById('verified-json-status')
 };
 
 function setStatus(message, tone = 'default') {
     elements.status.textContent = message;
     elements.status.classList.toggle('is-error', tone === 'error');
+}
+
+function setVerifiedJsonStatus(message, tone = 'default') {
+    elements.verifiedJsonStatus.textContent = message;
+    elements.verifiedJsonStatus.classList.toggle('is-error', tone === 'error');
+}
+
+function setPublishMode(useVerifiedJson) {
+    elements.modeAgent.className = useVerifiedJson ? 'button-secondary' : 'button';
+    elements.modeAgent.setAttribute('aria-pressed', String(!useVerifiedJson));
+    elements.modeVerifiedJson.className = useVerifiedJson ? 'button' : 'button-secondary';
+    elements.modeVerifiedJson.setAttribute('aria-pressed', String(useVerifiedJson));
+    elements.agentMode.hidden = useVerifiedJson;
+    elements.verifiedJsonMode.hidden = !useVerifiedJson;
+}
+
+function readVerifiedJson() {
+    const raw = elements.verifiedJsonInput.value.trim();
+    if (!raw) {
+        throw new Error('Paste the verified article JSON first.');
+    }
+    let parsed;
+    try {
+        parsed = JSON.parse(raw);
+    } catch (error) {
+        throw new Error(`Invalid JSON: ${error.message}`);
+    }
+    if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) {
+        throw new Error('The pasted JSON must be an article object.');
+    }
+    return parsed;
+}
+
+function describeValidation(payload) {
+    const article = payload.article || {};
+    const lines = [
+        `Valid: ${article.id || '(unknown id)'}`,
+        `Body characters: ${article.body_chars ?? '?'}`,
+        'Guardrails checked:'
+    ];
+    for (const name of payload.guardrails || []) {
+        lines.push(`  ✓ ${name}`);
+    }
+    const conflicts = payload.conflicts || [];
+    if (conflicts.length) {
+        lines.push('Conflicts:');
+        for (const conflict of conflicts) {
+            const resolution = conflict.blocking
+                ? 'blocked — pick a new id/file'
+                : 'tick overwrite to replace';
+            lines.push(`  ! ${conflict.scope} article ${conflict.id} (${conflict.file}) — ${resolution}`);
+        }
+    }
+    return lines.join('\n');
+}
+
+async function validateVerifiedJson() {
+    let article;
+    try {
+        article = readVerifiedJson();
+    } catch (error) {
+        setVerifiedJsonStatus(error.message, 'error');
+        return;
+    }
+    elements.validateVerifiedJson.disabled = true;
+    setVerifiedJsonStatus('Validating against the publishing guardrails…');
+    try {
+        const response = await fetch(validateEndpoint, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ article })
+        });
+        const payload = await response.json().catch(() => ({}));
+        if (!response.ok || !payload.ok) {
+            throw new Error(payload.error || `Validation failed with HTTP ${response.status}.`);
+        }
+        setVerifiedJsonStatus(describeValidation(payload));
+    } catch (error) {
+        setVerifiedJsonStatus(error.message, 'error');
+    } finally {
+        elements.validateVerifiedJson.disabled = false;
+    }
+}
+
+async function publishVerifiedJson() {
+    let article;
+    try {
+        article = readVerifiedJson();
+    } catch (error) {
+        setVerifiedJsonStatus(error.message, 'error');
+        return;
+    }
+    const overwrite = elements.overwriteVerifiedJson.checked;
+    elements.publishVerifiedJson.disabled = true;
+    elements.validateVerifiedJson.disabled = true;
+    setVerifiedJsonStatus('Publishing verified JSON…');
+    try {
+        const response = await fetch(articlesEndpoint, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ article, overwrite })
+        });
+        const payload = await response.json().catch(() => ({}));
+        if (!response.ok || !payload.ok) {
+            throw new Error(payload.error || `Publish failed with HTTP ${response.status}.`);
+        }
+        const saved = payload.article || {};
+        setVerifiedJsonStatus(`Published ${saved.id || 'runtime article'}${saved.href ? ` — ${saved.href}` : ''}`);
+        elements.verifiedJsonInput.value = '';
+        elements.overwriteVerifiedJson.checked = false;
+        await loadRuntimeArticles();
+    } catch (error) {
+        setVerifiedJsonStatus(error.message, 'error');
+    } finally {
+        elements.publishVerifiedJson.disabled = false;
+        elements.validateVerifiedJson.disabled = false;
+    }
 }
 
 function escapeHtml(value) {
@@ -200,6 +328,15 @@ elements.clearBrief.addEventListener('click', () => {
     elements.brief.value = '';
     setEditingState();
     setStatus('Brief cleared.');
+});
+elements.modeAgent.addEventListener('click', () => setPublishMode(false));
+elements.modeVerifiedJson.addEventListener('click', () => setPublishMode(true));
+elements.validateVerifiedJson.addEventListener('click', validateVerifiedJson);
+elements.publishVerifiedJson.addEventListener('click', publishVerifiedJson);
+elements.clearVerifiedJson.addEventListener('click', () => {
+    elements.verifiedJsonInput.value = '';
+    elements.overwriteVerifiedJson.checked = false;
+    setVerifiedJsonStatus('Ready.');
 });
 elements.checkCodexSignin.addEventListener('click', checkCodexSignin);
 elements.downloadBackup.addEventListener('click', () => {
