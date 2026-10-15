@@ -19,7 +19,7 @@ A local Japanese learning board with furigana, sentence highlighting, browser sp
 - `scripts/render_video_url.py`: CLI renderer that writes an MP4 under `videos/` and prints a JSON download URL.
 - `server/local_tts_server.py`: static server, VOICEVOX proxy, and MP4 conversion endpoint.
 - `scripts/publish_article.py`: CLI helper that posts an article JSON file to the local runtime article API.
-- `publish.html` and `assets/publish.js`: browser UI for pasting article JSON and publishing it to the runtime article API.
+- `publish.html` and `assets/publish.js`: browser UI for the runtime article API — draft with the Codex/DeepSeek publishing agent, or paste a human-verified article JSON (validated against the publishing guardrails, no AI agent involved).
 - `Dockerfile` and `docker-compose.yml`: Docker web server plus VOICEVOX engine.
 
 ## Run
@@ -101,6 +101,7 @@ Useful runtime endpoints:
 - `GET /api/articles`
 - `GET /api/articles?article_id=...`
 - `POST /api/articles`
+- `POST /api/articles/validate` (check a caller-supplied article JSON against the publishing guardrails without saving)
 - `DELETE /api/articles?article_id=...`
 - `GET /api/articles/backup`
 - `GET /data/article-navigation.json`
